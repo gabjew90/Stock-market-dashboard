@@ -31,6 +31,12 @@ sources:
   - raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md
   - raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md
   - raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md
+  - raw/posts/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md
+  - raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md
+  - raw/posts/2025-04-06-blog-post-day-29-of-qqq-short-term-down-trend-t2108-declines-to-7-where-bottoms-tend-to-occur-we-can-time-the.md
+  - raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md
+  - raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md
+  - raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md
 ---
 
 # Moving-average rules
@@ -248,6 +254,24 @@ def weekly_green_bars(weekly_ohlc):
 
 Run them: `ww compute stage QQQ` · `ww compute wgb TSLA` · `ww compute rwb QQQ` (add `--weekly` for the weekly Guppy).
 
+## Recent corroboration (2020–2026)
+
+The core rules have not changed. These posts confirm them as active practice:
+
+**Weekly chart hold-above-10wk rule (2020):** "BEFORE SELLING, LOOK AT WEEKLY CHART" is a rule posted on Dr. Wish's screen. Daily dips below support that recover by week's end are not exits. ZM never had a weekly close below its 10-week average from its GLB (March 2020) through September 2020, illustrating the rule in action. ([WW 2020-09-27](../../raw/posts/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md))
+
+**10wk/30wk crossover for pension accounts (2025):** In June 2025, Dr. Wish described transferring cash from money market funds to mutual funds in his university pension as the 10-week average of QQQ (and SPY, and Fidelity Contrafund) crossed back above their respective 30-week averages. The weekly Guppy chart confirmed a weekly RWB up-trend. This is the same trigger documented in earlier posts, confirmed as still active. ([WW 2025-06-29](../../raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md))
+
+**10wk/30wk cross-down = Stage 4 onset confirmed April 2025:** QQQ's 10-week average crossed below its 30-week average in April 2025 (tariff decline) "for the first time since February 2023." Dr. Wish called this the typical beginning of a major decline. ([WW 2025-04-06](../../raw/posts/2025-04-06-blog-post-day-29-of-qqq-short-term-down-trend-t2108-declines-to-7-where-bottoms-tend-to-occur-we-can-time-the.md))
+
+**4wk weekly bounce-entry rule (2025):** On a weekly chart, when a stock (or index) ends a week with its price bouncing up off the 4-week average (a "green weekly bar"), that is a buy point — stop below that week's low. SPY illustrated this repeatedly in the October 2025 advance. If a stock closes the week below the 4-week average, move the stop below that week's low. ([WW 2025-10-23](../../raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md))
+
+**4wk>10wk>30wk alignment confirmed as of May 2026:** QQQ's 10-week average crossed back above its 30-week average in the May 2026 rally — "a powerful up-trend to ride." When the index closes the week far above its 4-week average, a pullback to retest the 4-week average is the preferred next buy point. ([WW 2026-05-10](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
+
+**5-day EMA as post-GLB trailing exit (2026):** The newest addition to Dr. Wish's toolkit: after a GLB, track the stock against its 5-day exponential moving average. Hold while it stays above; sell stop below the low of the day it closes beneath the 5-day EMA. QQQ and INTC are the live 2026 examples. ([WW 2026-05-10](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
+
+**x8/x21/30-day alignment — a daily bounce setup (2024):** introduced in June 2024. When the 8-day EMA > 21-day EMA > 30-day simple average on a daily chart, the stock is in a bullish alignment. Entry: buy when the stock bounces up off the 8-day EMA. Exit: sell if it closes below the 8-day EMA. TC2000 scan: alignment present, up 50%+ YoY, ATH within last 5 weeks, bouncing off x8. COST, ANF, NVDA, and CVLT are the worked examples. ([WW 2024-06-16](../../raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md))
+
 ## See also
 
 - [General Market Index (GMI)](gmi.md) — the 30-week average is one GMI component
@@ -285,4 +309,10 @@ Run them: `ww compute stage QQQ` · `ww compute wgb TSLA` · `ww compute rwb QQQ
 - [WW 2018-02-25 — Monthly RWB on bond ETFs; Martin Zweig Fed tightening principle](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md) ([summary](../sources/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))
 - [WW 2005-08-27 — Weinstein Dow sell signal; bank shorts; SBUX](../../raw/posts/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md) ([summary](../sources/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md))
 - [WW 2010-07-19 — 14x IRA; stochastic 10,4,4 timing; QQQQ 10wk/30wk rule](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md) ([summary](../sources/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
+- [WW 2020-09-27 — Monitoring GLBs during corrections; weekly chart hold rule](../../raw/posts/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md) ([summary](../sources/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md))
+- [WW 2024-06-16 — x8/x21/30-day daily alignment setup; COST, ANF, NVDA, CVLT](../../raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md) ([summary](../sources/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md))
+- [WW 2025-04-06 — T2108 at 7%; 10wk/30wk cross down; Stage 4 onset confirmed](../../raw/posts/2025-04-06-blog-post-day-29-of-qqq-short-term-down-trend-t2108-declines-to-7-where-bottoms-tend-to-occur-we-can-time-the.md) ([summary](../sources/2025-04-06-blog-post-day-29-of-qqq-short-term-down-trend-t2108-declines-to-7-where-bottoms-tend-to-occur-we-can-time-the.md))
+- [WW 2025-06-29 — 10wk/30wk crossover for pension; Guppy weekly RWB 2025; mutual fund GLB](../../raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md) ([summary](../sources/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md))
+- [WW 2025-10-23 — 4wk weekly bounce-entry rule; SPY Stage 2 in 2025](../../raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md) ([summary](../sources/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md))
+- [WW 2026-05-10 — 5-day EMA post-GLB exit; 4wk>10wk>30wk up-trend confirmed 2026](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md) ([summary](../sources/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
 - [WW 2018-03-25 — GMI Red March 2018; put/call contrarian; 30-week curve-down pension trigger](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md) ([summary](../sources/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))

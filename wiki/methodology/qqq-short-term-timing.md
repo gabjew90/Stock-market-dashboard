@@ -10,6 +10,7 @@ sources:
   - raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md
   - raw/posts/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md
   - raw/posts/2011-08-07-crash-coming-only-3rd-day-of-new-qqq-short-term-down-trend.md
+  - raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md
 ---
 
 # QQQ Short-Term Timing
@@ -46,6 +47,8 @@ The QQQ short-term trend count is used alongside the [GMI](gmi.md):
 ### Down-trend duration statistics
 
 Most QQQ short-term down-trends since 2006 are short: "about one quarter of new short term down-trends have lasted less than 6 days." He does not automatically go fully defensive — he waits to see if the down-trend persists before adding to his short position. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
+
+An April 2019 post included the most detailed published tabulation of QQQ trend duration statistics, updated through March 2019 (data going back to 2006): about **40% of new QQQ short-term down-trends end in fewer than 6 days**; 60% of both up-trends and down-trends last 6–47 days; the longest recorded up-trend in the dataset was 88 days; the longest down-trend was 69 days. Dr. Wish was in Day 61 of an up-trend when writing the post. These statistics explain his discipline of taking a small SQQQ position on Day 1 of a down-trend and adding to it only after Day 5 — by that point, the probability of a quick reversal has dropped substantially. ([WW 2019-04-07](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md))
 
 ## Relationship to the GMI
 
@@ -93,3 +96,4 @@ def trend_day_count(daily_close, *, window=30):
 - [WW 2021-06-13 — TraderLion conference; black dot signals; GMI=6](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md) ([summary](../sources/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
 - [WW 2013-10-20 — TA vs 1987 crash; 30-day MA as short-term trend signal](../../raw/posts/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md) ([summary](../sources/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md))
 - [WW 2011-08-07 — Crash coming? 3rd day of QQQ short-term down-trend](../../raw/posts/2011-08-07-crash-coming-only-3rd-day-of-new-qqq-short-term-down-trend.md) ([summary](../sources/2011-08-07-crash-coming-only-3rd-day-of-new-qqq-short-term-down-trend.md))
+- [WW 2019-04-07 — IPO GLB; IIPR; QQQ trend duration statistics updated through 2019](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md) ([summary](../sources/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md))

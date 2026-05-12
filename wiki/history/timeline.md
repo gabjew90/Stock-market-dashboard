@@ -73,6 +73,21 @@ sources:
   - raw/posts/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md
   - raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md
   - raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md
+  - raw/posts/2016-09-05-dw-a-successful-green-line-break-out-updated-glb-tracker-table-all-gmi-components-positive.md
+  - raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md
+  - raw/posts/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md
+  - raw/posts/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md
+  - raw/posts/2023-02-15-blog-post-day-24-of-qqq-short-term-up-trend-when-technical-analysis-fails-crdo-my-confession.md
+  - raw/posts/2023-11-26-very-important-blog-post-explaining-glbs-day-15-of-qqq-short-term-up-trend-123-us-new-highs-and-2-lows-43-at.md
+  - raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md
+  - raw/posts/2025-04-06-blog-post-day-29-of-qqq-short-term-down-trend-t2108-declines-to-7-where-bottoms-tend-to-occur-we-can-time-the.md
+  - raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md
+  - raw/posts/2025-08-10-blog-post-day-73-of-qqq-short-term-up-trend-shaken-out-but-back-in-blue-dot-of-happiness-signal-held-see-dail.md
+  - raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md
+  - raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md
+  - raw/posts/2026-02-16-blog-day-8-of-qqq-short-term-down-trend-utilities-had-most-aths-13-see-list-followed-by-oilgas-10-rotation-aw.md
+  - raw/posts/2026-03-15-blog-post-day-27-of-qqq-short-term-down-trend-gmi-0-and-red-more-new-us-52-week-lows-than-highs-this-weekly-c.md
+  - raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md
 ---
 
 # Timeline — evolution of the methodology
@@ -505,6 +520,96 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 ---
 
+## September 2016 — DW GLB worked example; GLB tracker table purpose; weekly scan
+
+**"$DW: A Successful Green Line Breakout; updated GLB tracker table" (2016-09-05):** Written for a class of 160 freshmen as a worked example. DW (Drew Industries) broke above its green line on the highest weekly volume in months and subsequently advanced strongly. Dr. Wish shows relative strength versus QQQ (maintaining strength during QQQ corrections — marked with amber vertical lines) as a confirming factor. He also describes the **weekly GLB scan** he runs every weekend: stocks that closed at a new 52-week high on Friday, with total weekly volume at least 10% above recent average, and 500,000+ shares total — then filters those that also hit an all-time high. The **GLB tracker table** (sidebar) tracks stocks after their breakout but is explicitly described as a biased sample and education tool, not a buy list. Nine of that week's 27 scan results also closed above their last green line top. ([WW 2016-09-05](../../raw/posts/2016-09-05-dw-a-successful-green-line-break-out-updated-glb-tracker-table-all-gmi-components-positive.md))
+
+---
+
+## April 2019 — IPO GLB; IIPR; QQQ trend duration statistics
+
+**"Trading IPOs with a GLB and a green dot signal: $IIPR; QQQ short-term up-trend in 61st day" (2019-04-07):** Dr. Wish applies the GLB concept to recent IPOs, citing Jesse Livermore's 100-year-old principle of waiting for an IPO to settle and then trading it at a new ATH. IIPR (cannabis REIT) is the worked example: IPO December 2016, green line at $20.54, GLB in December 2017, subsequently quadrupled. FB cited as a historical comparison — first GLB at $45, 17 months after IPO. The **green dot** signal is introduced as a secondary re-entry tool after a GLB. The post also includes the most detailed published tabulation of **QQQ trend duration statistics** (through March 2019): ~40% of new down-trends end in fewer than 6 days; longest up-trend 88 days; longest down-trend 69 days. ([WW 2019-04-07](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md))
+
+---
+
+## July 2020 — Bounce-off-support: green dot signal + stop below bounce low
+
+**"My bounce off of support strategy; DDOG, ETSY, NET, BAND, PLMR examples" (2020-07-19):** A detailed description of the bounce-off-support complementary entry strategy. The **green dot signal** — low fast stochastic crosses above slow stochastic in TC2000 — marks the end of an oversold pullback in an advancing stock. Once the green dot appears, place a GTC stop just below the recent bounce low — if the trade fails, the loss is kept small. Key insight: "The shake out often sets up a nice subsequent advance" because high-volume selling exhausts weak holders and sets up shorts. The advantage over a GLB entry: the stop is the bounce low, not the green line, so the entry-to-stop distance is narrower. Wait for the bounce to confirm — do not anticipate it. ([WW 2020-07-19](../../raw/posts/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md))
+
+---
+
+## September 2020 — Monitoring GLBs in corrections; weekly chart management
+
+**"This week will determine if tech is starting a down-trend; how I monitor my GLBs during corrections" (2020-09-27):** Dr. Wish describes how he handles GLBs when the market corrects: he only exits a GLB position if the stock closes below its green line on a weekly chart. Intraday dips below the green line during a correction are not exits — only a weekly close below the green line triggers a sell. He monitors the weekly chart and uses the 4-week average as a secondary reference. During corrections he often continues to hold GLBs that remain above their green lines, because the best rocket stocks maintain relative strength. ([WW 2020-09-27](../../raw/posts/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md))
+
+---
+
+## February 2023 — CRDO GLB failure; gap-down stop lesson
+
+**"Day 24 of QQQ up-trend; CRDO: a failed GLB — stop at the green line" (2023-02-15):** Dr. Wish uses CRDO as a teaching example of a **GLB failure**. CRDO broke its green line, appeared to confirm, then gapped down through the green line on a single bad session. He was automatically stopped out at the green line via his GTC stop — limiting the loss to a small amount. Lesson: the green line is the automatic stop on every GLB, placed immediately upon purchase. Gap-down risk is inherent in GLB trading; this is why position sizing matters and why he never over-concentrates. He also reiterates the rule that he buys back any GLB that retakes its green line — he does not stay out after a failure indefinitely. ([WW 2023-02-15](../../raw/posts/2023-02-15-blog-post-day-24-of-qqq-short-term-up-trend-when-technical-analysis-fails-crdo-my-confession.md))
+
+---
+
+## November 2023 — Canonical GLB re-statement; PGR worked example
+
+**"Very important blog post explaining GLBs; PGR green line top example" (2023-11-26):** A canonical teaching post that re-states the GLB methodology from first principles — Dr. Wish's most complete single-post GLB explanation as of late 2023. PGR (Progressive Insurance) is the central worked example: a long Stage 2 advance, clear green line top on the monthly chart, and a GLB when PGR finally broke above its prior ATH on strong volume. The post links to earlier definitional posts (2012–2017) to provide historical context. He also restates the market-trend gate: "I look for a stock whose recent GLB occurred when the QQQ was in a short-term up-trend." This is the definitive reference post for the GLB concept as practised in 2023. ([WW 2023-11-26](../../raw/posts/2023-11-26-very-important-blog-post-explaining-glbs-day-15-of-qqq-short-term-up-trend-123-us-new-highs-and-2-lows-43-at.md))
+
+---
+
+## June 2024 — x8/x21/30-day daily alignment bounce setup introduced
+
+**"Day 29 of QQQ up-trend; introducing the x8/x21/30-day setup" (2024-06-16):** Dr. Wish introduces a new daily-chart bounce-off-support entry: the **x8/x21/30 setup**. Structural requirement: 8-day EMA (x8) > 21-day EMA (x21) > 30-day SMA. Entry: buy bouncing off the x8. Exit (failure): sell if stock closes below the x8. TC2000 scan: alignment + up 50%+ YoY + ATH within 5 weeks + bouncing off x8. Fundamentals checked in MarketSmith before buying. COST, ANF, NVDA, and CVLT shown as worked examples. The 8-day EMA influence comes from Pat Walker; the 21-day EMA from IBD/CAN SLIM research; the combined construction is Dr. Wish's own. ([WW 2024-06-16](../../raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md))
+
+---
+
+## April 2025 — T2108 at 7%; 10wk/30wk cross-down; tariff decline; Dr. Wish in cash
+
+**"Day 29 of QQQ down-trend; T2108 declines to 7%; 10-week/30-week cross" (2025-04-06):** By Day 29 of a QQQ down-trend triggered by tariff fears, Dr. Wish was "almost all in cash." QQQ's 10-week average crossed below its 30-week average for the first time since February 2023 — a bearish moving-average crossover. SQQQ (bought on Day 1 of the down-trend) was up +65% at the time of writing. T2108 had fallen to **7%** — within the contrarian buy zone (<10%) where prior market bottoms have occurred — but Dr. Wish did not rush to re-enter: "I am content to sit on the sidelines now and wait for evidence of a new up-trend." ([WW 2025-04-06](../../raw/posts/2025-04-06-blog-post-day-29-of-qqq-short-term-down-trend-t2108-declines-to-7-where-bottoms-tend-to-occur-we-can-time-the.md))
+
+---
+
+## May 2025 — Blue dot of happiness scan formula fully disclosed; Boston IBD Meetup
+
+**"Day 20 of QQQ up-trend; Boston IBD Meetup presentation; TC2000 Scan" (2025-05-22):** The most complete public disclosure of Dr. Wish's **Blue Dot of Happiness** indicator and scan. Blue dot formula: `IIf(Stoc10.1 > 20 AND Stoc10.1[1] < 20, close - 1, null)` — marks the 10.1 stochastic crossing above 20 as a dot one dollar below the day's low. Full scan criteria: blue dot in last 3 days; stochastic above 20 today / below yesterday; V>200k; close>$15; Stoc1.1>50; within 3 months of 250-bar monthly high; optionally near lower 15.2 BB. Run against a curated IBD50/MarketSurge watchlist. Market exit rule restated: "If QQQ should close back below its 30-week average (501) I will exit all stocks again." ([WW 2025-05-22](../../raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md))
+
+---
+
+## June 2025 — GLB on mutual funds; Fidelity Contrafund; pension re-entry
+
+**"Day 44 of QQQ up-trend; TA works for mutual funds; GLB in Fidelity Contrafund" (2025-06-29):** Dr. Wish extends the GLB concept to **mutual funds**: Fidelity Contrafund had a green line top on its weekly chart; when it broke above that level on high weekly volume, he treated it as a GLB entry signal to begin transferring pension cash back into mutual funds. The weekly Guppy chart of QQQ confirmed a full RWB pattern. GMI reached 6 of 6. This documents the 2025 pension re-entry: after exiting in the April tariff decline, he re-entered gradually as 4wk>10wk>30wk re-established on QQQ, SPY, and Fidelity Contrafund. "Slowly transferred cash from money market funds to mutual funds and stocks." ([WW 2025-06-29](../../raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md))
+
+---
+
+## August 2025 — Blue dot re-entry; stop losses as sine qua non
+
+**"Day 73 of QQQ up-trend; why I use stop-loss orders; re-entry with blue dot" (2025-08-10):** During Day 73 of the QQQ up-trend, Dr. Wish taught the role of stop-loss orders using a live re-entry example via the blue dot signal. He calls stop losses "the sine qua non of my approach" — he never holds a position without a defined exit. The blue dot provided a low-risk re-entry after a brief stock pullback: GTC stop placed immediately below the bounce low. He also discusses the common student error of not placing stops and watching profits turn to losses. In a long running up-trend (Day 73), the stop-loss discipline becomes more important, not less, as stocks are more extended. ([WW 2025-08-10](../../raw/posts/2025-08-10-blog-post-day-73-of-qqq-short-term-up-trend-shaken-out-but-back-in-blue-dot-of-happiness-signal-held-see-dail.md))
+
+---
+
+## October 2025 — 4-week weekly bounce entry; SPY GLB from June 2025
+
+**"Day 43 of QQQ up-trend; how I traded the SPY GLB last June; 4-week weekly bounce" (2025-10-23):** Dr. Wish describes trading the **SPY GLB** that occurred in June 2025 (SPY broke to a new ATH after a multi-month consolidation). He shows his actual entry and how he held the position using the 4-week weekly average as a trailing guide. He also formalises the **4-week weekly bounce entry**: for stocks in Stage 2 (4wk>10wk>30wk), look for a bounce off the rising 4-week average on the weekly chart — this gives a lower-risk, tighter stop than waiting for the 10-week average. Stop: below the bounce week's low. This makes the 4wk average both an exit signal and an entry trigger depending on direction. ([WW 2025-10-23](../../raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md))
+
+---
+
+## February 2026 — QQQ pulls back to green line and 30-week average; early Stage 3/4 warning
+
+**"Day 8 of QQQ down-trend; utilities had most ATHs; rotation away from tech" (2026-02-16):** Day 8 of a new QQQ short-term down-trend. QQQ pulled back to its prior **green line top (~599.35)** and the **30-week average** simultaneously — a confluence of support levels that Dr. Wish described as either a re-test entry opportunity or the beginning of Stage 3 topping. The 4-week average had already crossed below the 10-week average — a weakening sign even before the GMI turned Red. He began reducing positions and warned that the 30-week average curving down had helped him avoid every major decline since 2000. Rotation into utilities was notable: utilities had the most ATHs (13) followed by oil/gas (10), suggesting defensive positioning by institutions. ([WW 2026-02-16](../../raw/posts/2026-02-16-blog-day-8-of-qqq-short-term-down-trend-utilities-had-most-aths-13-see-list-followed-by-oilgas-10-rotation-aw.md))
+
+---
+
+## March 2026 — GMI=0 Red; Stage 4 confirmed; Dr. Wish in cash
+
+**"Day 27 of QQQ down-trend; GMI=0 and Red; more new US 52-week lows than highs" (2026-03-15):** By Day 27, GMI had reached 0 (all six components negative) and the signal was Red. More NYSE stocks were hitting 52-week lows than highs — a breadth breakdown consistent with a Stage 4 decline. T2108 stood at 23% — elevated relative to the <10% contrarian buy zone but declining. Dr. Wish was "safely in cash and watching T2108." He stated explicitly: "The 30-week average curving down has helped me avoid every major decline since 2000" — the 30-week average had turned down, completing the Stage 3→4 transition for QQQ and SPY. ([WW 2026-03-15](../../raw/posts/2026-03-15-blog-post-day-27-of-qqq-short-term-down-trend-gmi-0-and-red-more-new-us-52-week-lows-than-highs-this-weekly-c.md))
+
+---
+
+## May 2026 — QQQ resumes up-trend; 4wk>10wk>30wk re-established; 5-day EMA post-GLB exit
+
+**"Day 22 of QQQ up-trend; TC2000 update for the week; 4wk>10wk>30wk trend up" (2026-05-10):** By Day 22 of a new QQQ short-term up-trend, all three weekly averages (4wk>10wk>30wk) were aligned bullishly again. Dr. Wish documents his **5-day EMA post-GLB exit rule**: after a GLB, he holds the stock as long as it remains above its rising 5-day EMA on the daily chart. A daily close below the 5-day EMA is a tightening warning; two consecutive closes below it is an exit signal for the position (partial or full). This refinement tightens trailing stops on GLB positions compared to using the 10-week average or the green line alone, allowing profits to be locked in sooner in strong up-moves. GMI components were all positive; the market had resumed a Stage 2 up-trend. ([WW 2026-05-10](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
+
+---
+
 *Timeline continues as more posts are ingested. Many daily-update posts from 2005–2026 remain unprocessed — they will feed `history/track-record.md` when the Plan 2.5 timeline parser runs.*
 
 ## See also
@@ -584,4 +689,19 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 - [WW 2005-08-27 — Weinstein Dow sell signal; bank stock shorts; SBUX submarine; GMI=1](../../raw/posts/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md) ([summary](../sources/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md))
 - [WW 2006-02-06 — Wyckoff/Darvas noise isolation; GMI-S short-term index introduced](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md) ([summary](../sources/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
 - [WW 2006-05-22 — Submarine scan fully described; IBD-100 in down-trends; cash-interest broker note](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md) ([summary](../sources/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
+- [WW 2016-09-05 — DW GLB worked example; GLB tracker table; weekly scan criteria](../../raw/posts/2016-09-05-dw-a-successful-green-line-break-out-updated-glb-tracker-table-all-gmi-components-positive.md) ([summary](../sources/2016-09-05-dw-a-successful-green-line-break-out-updated-glb-tracker-table-all-gmi-components-positive.md))
+- [WW 2019-04-07 — IPO GLB; IIPR example; QQQ trend duration statistics updated through 2019](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md) ([summary](../sources/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md))
+- [WW 2020-07-19 — Bounce-off-support strategy; green dot + stop below bounce low](../../raw/posts/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md) ([summary](../sources/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md))
+- [WW 2020-09-27 — Monitoring GLBs in corrections; weekly chart hold rule](../../raw/posts/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md) ([summary](../sources/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md))
+- [WW 2023-02-15 — CRDO failed GLB; gap-down stop lesson](../../raw/posts/2023-02-15-blog-post-day-24-of-qqq-short-term-up-trend-when-technical-analysis-fails-crdo-my-confession.md) ([summary](../sources/2023-02-15-blog-post-day-24-of-qqq-short-term-up-trend-when-technical-analysis-fails-crdo-my-confession.md))
+- [WW 2023-11-26 — Canonical GLB re-statement; PGR worked example](../../raw/posts/2023-11-26-very-important-blog-post-explaining-glbs-day-15-of-qqq-short-term-up-trend-123-us-new-highs-and-2-lows-43-at.md) ([summary](../sources/2023-11-26-very-important-blog-post-explaining-glbs-day-15-of-qqq-short-term-up-trend-123-us-new-highs-and-2-lows-43-at.md))
+- [WW 2024-06-16 — x8/x21/30-day alignment bounce entry introduced; COST ANF NVDA CVLT](../../raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md) ([summary](../sources/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md))
+- [WW 2025-04-06 — Day 29 of QQQ down-trend; T2108 at 7%; 10wk/30wk cross; tariff decline](../../raw/posts/2025-04-06-blog-post-day-29-of-qqq-short-term-down-trend-t2108-declines-to-7-where-bottoms-tend-to-occur-we-can-time-the.md) ([summary](../sources/2025-04-06-blog-post-day-29-of-qqq-short-term-down-trend-t2108-declines-to-7-where-bottoms-tend-to-occur-we-can-time-the.md))
+- [WW 2025-05-22 — Blue dot of happiness full scan formula; Boston IBD Meetup](../../raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md) ([summary](../sources/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md))
+- [WW 2025-06-29 — GLB on mutual funds; Fidelity Contrafund; pension re-entry](../../raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md) ([summary](../sources/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md))
+- [WW 2025-08-10 — Day 73 of QQQ up-trend; stop losses sine qua non; blue dot re-entry](../../raw/posts/2025-08-10-blog-post-day-73-of-qqq-short-term-up-trend-shaken-out-but-back-in-blue-dot-of-happiness-signal-held-see-dail.md) ([summary](../sources/2025-08-10-blog-post-day-73-of-qqq-short-term-up-trend-shaken-out-but-back-in-blue-dot-of-happiness-signal-held-see-dail.md))
+- [WW 2025-10-23 — 4-week weekly bounce strategy; SPY GLB June 2025](../../raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md) ([summary](../sources/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md))
+- [WW 2026-02-16 — Day 8 of QQQ down-trend; QQQ at green line + 30wk; Stage 3/4 warning](../../raw/posts/2026-02-16-blog-day-8-of-qqq-short-term-down-trend-utilities-had-most-aths-13-see-list-followed-by-oilgas-10-rotation-aw.md) ([summary](../sources/2026-02-16-blog-day-8-of-qqq-short-term-down-trend-utilities-had-most-aths-13-see-list-followed-by-oilgas-10-rotation-aw.md))
+- [WW 2026-03-15 — Day 27 of QQQ down-trend; GMI=0 Red; Stage 4 confirmed](../../raw/posts/2026-03-15-blog-post-day-27-of-qqq-short-term-down-trend-gmi-0-and-red-more-new-us-52-week-lows-than-highs-this-weekly-c.md) ([summary](../sources/2026-03-15-blog-post-day-27-of-qqq-short-term-down-trend-gmi-0-and-red-more-new-us-52-week-lows-than-highs-this-weekly-c.md))
+- [WW 2026-05-10 — Day 22 of QQQ up-trend; 4wk>10wk>30wk re-established; 5-day EMA post-GLB exit](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md) ([summary](../sources/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
 - [WW 2005-11-13 — First GMI historical track-record chart; Cramer refutation; stock-selection criteria](../../raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md) ([summary](../sources/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md))

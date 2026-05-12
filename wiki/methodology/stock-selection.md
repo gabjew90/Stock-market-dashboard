@@ -34,6 +34,9 @@ sources:
   - raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md
   - raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md
   - raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md
+  - raw/posts/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md
+  - raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md
+  - raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md
 ---
 
 # Stock selection
@@ -217,6 +220,20 @@ For stocks already in an up-trend that have pulled back to an oversold level, Dr
 
 The black dot only works on stocks already in a confirmed up-trend. He often combines it with the GLB: "I love a black dot that occurs after a GLB." The scan finds stocks that recently hit an ATH, became oversold, and are starting to turn up — placing the stop below the bounce gives a tight risk level.
 
+## Recent practice (2020-2025)
+
+### Bounce-off-support: green dot + stop below bounce low (2020)
+
+A July 2020 post formalised a complementary entry strategy that Dr. Wish had been using alongside GLBs. The logic: strong growth stocks that have already appreciated significantly will sometimes become oversold and bounce off support. The **green dot** signal — "low fast stochastic turns up and crosses above the slow stochastic" in TC2000 — marks the oversold bounce. Entry: after the green dot appears, buy on strength. Stop: GTC sell stop placed just below the recent bounce low. "The shake out often sets up a nice subsequent advance" — high-volume down days before the bounce can be bullish because weak holders sold and shorts are set up against the stock. The key advantage over a GLB entry: at a GLB, the stop is the green line, which may be far from the current price if the stock moved quickly; the bounce-off-support approach narrows the distance between entry and stop, reducing maximum loss per trade. Do not anticipate the bounce — wait for the green dot before buying. ([WW 2020-07-19](../../raw/posts/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md))
+
+### x8/x21/30-day alignment: the daily bounce setup (introduced 2024)
+
+In June 2024 Dr. Wish introduced a new daily-chart entry framework driven by three exponential/simple moving averages: the **8-day EMA (x8)**, the **21-day EMA (x21)**, and the **30-day SMA**. The structure requirement for a tradeable setup is x8 > x21 > 30-day — all three in ascending order on the daily chart. Entry trigger: buy a stock that is bouncing up off the 8-day EMA. Failure trigger: sell (GTC stop below the 8-day EMA) if the stock closes back below it. The setup's primary value is that it defines a very specific, immediate failure exit — any close below x8 = out. TC2000 scan criteria: x8>x21>30 alignment + up ≥50% from a year ago + ATH within the last 5 weeks + currently bouncing off the x8. Fundamentals are verified in MarketSmith before committing capital. Worked examples at introduction: COST, ANF, NVDA, and CVLT. The 8-day EMA influence comes from Pat Walker; the 21-day EMA from IBD/CAN SLIM research; the combined construction is Dr. Wish's own. ([WW 2024-06-16](../../raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md))
+
+### Blue dot of happiness: full scan formula disclosed (2025)
+
+After a Boston IBD Meetup presentation in May 2025, Dr. Wish published the most complete public disclosure of his **Blue Dot of Happiness** TC2000 indicator and scan criteria. The indicator formula: `IIf(Stoc10.1 > 20 AND Stoc10.1[1] < 20, close - 1, null)` — it marks, as a dot one dollar below the day's low, the day the 10.1 daily stochastic crosses above 20. Full scan criteria: (1) blue dot appeared within the last 3 days; (2) stochastic above 20 today, below 20 yesterday (the crossover condition); (3) volume > 200,000 shares; (4) close > $15; (5) Stoc1.1 > 50 (price in the top half of the current day's range); (6) within 3 months of a 250-bar monthly high (near-ATH proxy); (7) optionally: bounced off the lower 15.2 Bollinger Band within the last 3 days. The scan runs against a curated watchlist of stocks that have previously appeared on IBD50 or MarketSurge. Earnings-date and fundamental checks are applied before buying. Exit context: he also restated the broad portfolio exit rule — "If QQQ should close back below its 30-week average I will exit all stocks again." ([WW 2025-05-22](../../raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md))
+
 ## See also
 
 - [Green Line Breakouts (GLB)](green-line-breakouts.md)
@@ -258,3 +275,6 @@ The black dot only works on stocks already in a confirmed up-trend. He often com
 - [WW 2017-01-29 — David Ryan quote; ATH-past-40-days + lower BB pullback scan; PLAY](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md) ([summary](../sources/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
 - [WW 2006-05-22 — Submarine scan criteria; IBD-100 amplifies down-moves](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md) ([summary](../sources/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
 - [WW 2010-05-03 — TC2007 submarine scan; sector-pair validation method](../../raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md) ([summary](../sources/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md))
+- [WW 2020-07-19 — Bounce-off-support: green dot + stop below bounce low](../../raw/posts/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md) ([summary](../sources/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md))
+- [WW 2024-06-16 — x8/x21/30-day alignment bounce entry setup; COST ANF NVDA CVLT](../../raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md) ([summary](../sources/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md))
+- [WW 2025-05-22 — Blue dot of happiness: full TC2000 scan formula; Boston IBD Meetup](../../raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md) ([summary](../sources/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md))
