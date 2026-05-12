@@ -72,3 +72,10 @@ def test_templates_and_index_and_log_are_not_linted_as_pages(tmp_path: Path):
     assert not any("_templates" in e for e in report.errors)
     assert not any("index.md" in e for e in report.errors)
     assert not any("log.md" in e for e in report.errors)
+
+
+def test_real_bootstrapped_wiki_passes_lint():
+    """The wiki/ skeleton committed in Plan 2 must lint clean (errors only; warnings allowed)."""
+    repo_root = Path(__file__).resolve().parents[1]
+    report = lint_wiki(repo_root)
+    assert report.errors == [], "Bootstrapped wiki has lint errors:\n" + "\n".join(report.errors)
