@@ -76,6 +76,34 @@ The GMI-R was replaced by the GMI2. The GMI2 takes the 4 indicators from the GMI
 
 *Note: the exact components of the GMI-R and GMI2 are not disclosed in the posts ingested so far. Future posts may clarify.*
 
+## Code — computing the GMI
+
+The GMI is six binary checks ([`src/ww/indicators/gmi.py`](../../src/ww/indicators/gmi.py)). Three of them — QQQ daily trend, SPY daily trend, QQQ weekly trend (close above its 30-week average) — are computable from ordinary price data, so the code returns those even with a free data provider. The other three — the "Successful 10-Day New High" share, ≥100 new 52-week highs today, and the IBD Mutual Fund Index above its 50-day average — need a daily market-breadth panel and the IBD fund series, which aren't freely available; those come back as `None` (listed in `.unavailable`) until you plug in a provider that has them.
+
+```python
+@dataclass
+class GMIResult:
+    score: int                          # number of components that are True (0..6)
+    components: dict[str, bool | None]   # per-component verdict; None = data unavailable
+    unavailable: list[str]
+
+def gmi(provider, date, *, original_rule=False) -> GMIResult:
+    verdicts = {
+        "successful_10day_new_high": _successful_10day(provider, date, original_rule=original_rule),  # 2014: higher >= 50% of total; 2005: higher >= 100
+        "new_highs_ge_100":          _new_highs_ge_100(provider, date),                                 # >= 100 new 52-wk highs today
+        "qqq_daily_trend":           _daily_trend_up(provider, "QQQ"),                                  # QQQ close above its 30-day SMA (proxy)
+        "spy_daily_trend":           _daily_trend_up(provider, "SPY"),
+        "qqq_weekly_trend":          _qqq_weekly_above_30wk(provider),                                  # QQQ weekly close above its 30-week SMA
+        "ibd_fund_above_50d":        _ibd_fund_above_50d(provider, date),                               # IBD Mutual Fund Index above its 50-day SMA
+    }
+    unavailable = [k for k, v in verdicts.items() if v is None]
+    return GMIResult(score=sum(v is True for v in verdicts.values()), components=verdicts, unavailable=unavailable)
+```
+
+The `DataProvider` interface ([`provider.py`](../../src/ww/indicators/provider.py)) defines the breadth/fund hooks (`successful_10day_new_high`, `nasdaq_new_highs_lows`, `ibd_mutual_fund_index`); `YFinanceProvider` raises `DataUnavailable` for them, `StubProvider` lets you supply fixtures.
+
+Try it: `ww compute gmi 2026-05-01` prints the partial GMI from current QQQ/SPY prices and flags the three components that need breadth/fund data. `ww compute gmi 2014-08-01 --demo` runs it against built-in *illustrative* fixtures (made-up numbers — not real history) so you can see a full 6/6 result and the per-component breakdown. Acquiring the real breadth/fund data so a true historical GMI can be reproduced is a later phase — and a prerequisite for the planned backtest of his strategy.
+
 ## See also
 
 - [QQQ Short-Term Timing](qqq-short-term-timing.md)
