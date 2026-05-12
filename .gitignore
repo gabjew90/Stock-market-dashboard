@@ -13,3 +13,6 @@ __pycache__/
 
 # generated single-file site
 /wiki_site.html
+
+# generated timeline dataset (rebuild with `ww timeline`)
+/raw/timeline.parquet
