@@ -1,6 +1,7 @@
 """Mechanical integrity checks over the wiki/ directory."""
 from __future__ import annotations
 
+import json
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -80,11 +81,11 @@ def lint_wiki(root: Path) -> LintReport:
                 inbound[dest] += 1
 
         # 3. Page catalogued in index.md? (overview/methodology/playbooks/history/sources pages)
-        if page.resolve() not in index_pages and page.name != "index.md":
+        if page.resolve() not in index_pages:
             # sources/.gitkeep style files won't be .md; .md pages must be indexed.
             report.errors.append(f"{rel}: not catalogued in wiki/index.md")
 
-    # 4. Orphan pages (no inbound link). overview.md exempt (it's linked from index, which we don't count as a page).
+    # 4. Orphan pages (no inbound link from another wiki page). overview.md is explicitly exempt as a safety net — it's the entry page.
     for page in pages:
         if page.name == "overview.md":
             continue
@@ -94,7 +95,6 @@ def lint_wiki(root: Path) -> LintReport:
     # 5. posts.jsonl summary_page integrity (only if the index exists & is non-empty)
     posts_jsonl = root / "raw" / "posts.jsonl"
     if posts_jsonl.exists():
-        import json
         for i, line in enumerate(posts_jsonl.read_text(encoding="utf-8").splitlines(), start=1):
             line = line.strip()
             if not line:

@@ -81,6 +81,32 @@ def test_real_bootstrapped_wiki_passes_lint():
     assert report.errors == [], "Bootstrapped wiki has lint errors:\n" + "\n".join(report.errors)
 
 
+def test_orphan_page_is_a_warning_not_an_error(tmp_path: Path):
+    _good_wiki(tmp_path)
+    # Add a page that's in index.md but linked from no other *page*.
+    _write(tmp_path / "wiki" / "methodology" / "lonely.md",
+           "---\ntitle: Lonely\ntype: concept\nupdated: 2026-05-11\nsources: []\n---\n\n# Lonely\n\n[GMI](gmi.md)\n\n## Sources\n\n_None yet._\n")
+    # Index it so it's not flagged "not catalogued":
+    idx = tmp_path / "wiki" / "index.md"
+    idx.write_text(idx.read_text(encoding="utf-8") + "- [Lonely](methodology/lonely.md) — lonely.\n", encoding="utf-8")
+    report = lint_wiki(tmp_path)
+    assert report.ok, report.errors          # no errors
+    assert any("lonely.md" in w and "orphan" in w for w in report.warnings)
+
+
+def test_bad_summary_page_in_posts_jsonl_is_an_error(tmp_path: Path):
+    _good_wiki(tmp_path)
+    import json
+    (tmp_path / "raw" / "posts.jsonl").write_text(
+        json.dumps({"post_id": 1, "url": "u", "date": "2020-01-01T00:00:00", "slug": "x",
+                    "stem": "2020-01-01-x", "title": "X", "word_count": 1, "chart_count": 0,
+                    "chart_image_urls": [], "kind_guess": "unknown", "summary_page": "wiki/sources/ghost.md"}) + "\n",
+        encoding="utf-8")
+    report = lint_wiki(tmp_path)
+    assert not report.ok
+    assert any("ghost.md" in e and "summary_page" in e for e in report.errors)
+
+
 from typer.testing import CliRunner
 
 from ww import cli
