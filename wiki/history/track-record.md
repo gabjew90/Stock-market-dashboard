@@ -190,6 +190,7 @@ Based on 939 daily-update posts with a parseable GMI value (out of 1,797 total, 
 ## See also
 
 - [Timeline](timeline.md)
+- [Trend-flip log](trend-flip-log.md) — every ST/LT trend flip with his reaction; detailed April-2025 and 2026 entries
 - [GMI](../methodology/gmi.md)
 - [Risk & cash](../methodology/risk-and-cash.md)
 - [Market-state playbook](../playbooks/market-state.md)

@@ -616,6 +616,7 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 - [Overview](../overview.md)
 - [Track record](track-record.md)
+- [Trend-flip log](trend-flip-log.md) — every ST/LT trend flip with his reaction; detailed April-2025 and 2026 entries
 
 ## Sources
 
