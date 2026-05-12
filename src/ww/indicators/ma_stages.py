@@ -6,7 +6,9 @@ from __future__ import annotations
 
 import pandas as pd
 
-_FLAT_SLOPE_EPS = 1e-9  # |slope| at or below this (relative to MA level) counts as "flat"
+# Relative-slope threshold used by _slope_sign(): a per-period relative change whose
+# magnitude is at or below this counts the MA as "flat" (vs rising/falling).
+_FLAT_SLOPE_EPS = 1e-3
 
 
 def sma(close: pd.Series, window: int) -> pd.Series:
@@ -22,9 +24,9 @@ def _slope_sign(ma: pd.Series, lookback: int = 4) -> int:
     change = valid.iloc[-1] - valid.iloc[-1 - lookback]
     level = abs(valid.iloc[-1]) or 1.0
     rel = change / level / lookback
-    if rel > 1e-3:
+    if rel > _FLAT_SLOPE_EPS:
         return 1
-    if rel < -1e-3:
+    if rel < -_FLAT_SLOPE_EPS:
         return -1
     return 0
 
