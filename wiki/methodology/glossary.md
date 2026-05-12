@@ -3,6 +3,7 @@ title: Glossary
 type: concept
 updated: 2026-05-11
 sources:
+  - raw/posts/2006-02-01-gmi-6-gmi-s-lower-goog-markets-forming-top.md
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-26-general-market-index-gmi.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
@@ -43,6 +44,8 @@ Every term Dr. Wish coins or uses, defined in a sentence or two, with a first-ap
 **GMI2** — a companion 6-point composite introduced in 2011 to replace the GMI-R. Published alongside the GMI but no decision rules are tied to it — it is monitoring only. See [gmi.md](gmi.md). Introduced: ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md))
 
 **GMI-R** — an intermediate composite (GMI's 6 components + 4 more = 10 total) used between 2005 and 2011, before being replaced by the GMI2. No decision rules were tied to it.
+
+**GMI-S** — a 0–100 "strength" variant of the GMI that Dr. Wish reported during the typepad era (2005–2008) of the blog. Where the GMI is binary-sum (each component is 0 or 1), the GMI-S appears to reflect the degree of internals participation — a higher GMI-S alongside a given GMI value indicates stronger breadth than a lower one. He would note, for example, that the GMI remained at +6 "but the GMI-S declined to 69" as a warning that strength was softening. After roughly 2008 the indicator was discontinued in his daily posts. First appearance: ([WW 2006-02-01](../../raw/posts/2006-02-01-gmi-6-gmi-s-lower-goog-markets-forming-top.md))
 
 **GMMA (Guppy Multiple Moving Average)** — a chart type that overlays multiple shorter-term and longer-term moving averages simultaneously, creating a visual "fan." Dr. Wish uses the weekly GMMA to identify RWB stocks. Attributed to Daryl Guppy. Referenced: ([WW 2010-09-27](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
 
@@ -98,6 +101,7 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 ## Sources
 
 - [WW 2005-04-23 — Let's Talk Strategy](../../raw/posts/2005-04-23-lets-talk-strategy.md) ([summary](../sources/2005-04-23-lets-talk-strategy.md))
+- [WW 2006-02-01 — GMI: +6; GMI-S lower; GOOG; Markets forming top?](../../raw/posts/2006-02-01-gmi-6-gmi-s-lower-goog-markets-forming-top.md)
 - [WW 2005-04-26 — About the General Market Index (GMI)](../../raw/posts/2005-04-26-general-market-index-gmi.md)
 - [WW 2005-04-30 — My Trading Strategy, Part II](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md) ([summary](../sources/2005-04-30-my-trading-strategy-part-ii.md))
 - [WW 2005-06-05 — GMI back to +5; on moving averages](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md) ([summary](../sources/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md))
