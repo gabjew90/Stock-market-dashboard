@@ -17,6 +17,7 @@ UV_LINK_MODE=copy uv sync   # UV_LINK_MODE=copy required on OneDrive; safe elsew
 ```bash
 uv run ww scrape      # pull all public blog posts -> raw/posts/*.md + raw/posts.jsonl
 uv run ww stats       # report corpus counts
+uv run ww lint .      # mechanical wiki integrity checks
 ```
 
 Re-running `ww scrape` is cheap — API pages are cached under `raw/api/` and posts
@@ -24,5 +25,10 @@ whose markdown file already exists are skipped (use `--force` to rewrite).
 
 ## Status
 
-Plan 1 (raw-sources layer / scraper) — complete. 4,655 posts scraped (2005-04-17 to 2026-05-11).
-Plans 2–5 build the wiki, the `CLAUDE.md` schema, the Ingest/Query/Lint loops, literate indicator code, and search.
+- **Plan 1** (raw-sources layer / scraper) — done. `ww scrape` mirrors the blog into `raw/`.
+- **Plan 2** (wiki bootstrap) — done. `CLAUDE.md` schema + `wiki/` skeleton (stubs + templates) + `ww lint` + CI.
+- **Plan 2.5** (timeline parser → `raw/timeline.parquet`) — not started.
+- **Plan 3** (the Ingest loop — Claude Code writes the wiki from the posts) — not started.
+- **Plans 4–5** (literate indicator code; search + Query loop) — not started.
+
+The wiki structure and conventions live in [`CLAUDE.md`](CLAUDE.md).
