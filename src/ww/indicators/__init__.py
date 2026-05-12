@@ -4,6 +4,7 @@ The breadth/fund-data indicators (the 6-component GMI, T2108) are in Plan 4b;
 they are formula-complete but need a breadth data provider for the full result.
 """
 
+from ww.indicators.breadth_provider import BreadthProvider
 from ww.indicators.gmi import GMIResult, gmi
 from ww.indicators.green_line import current_green_line, green_lines, is_green_line_breakout
 from ww.indicators.guppy import gmma, red_line_count, rwb_state
@@ -14,6 +15,7 @@ from ww.indicators.t2108 import t2108, t2108_from_prices
 from ww.indicators.wgb import wgb_trailing_stop, weekly_green_bars
 
 __all__ = [
+    "BreadthProvider",
     "DataProvider", "DataUnavailable", "YFinanceProvider", "StubProvider",
     "green_lines", "current_green_line", "is_green_line_breakout",
     "sma", "weekly_stage", "ma_alignment_4_10_30", "tenwk_below_thirtywk",
