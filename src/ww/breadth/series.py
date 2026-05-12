@@ -10,7 +10,12 @@ import pandas as pd
 
 log = logging.getLogger(__name__)
 
-# default growth-fund basket for the IBD-Mutual-Fund-Index proxy (free via yfinance, long histories)
+# GMI component 6 proxy: the Innovator IBD® 50 ETF (FFTY) — IBD's own growth-leaders index, the closest
+# tradeable thing to "IBD anything". It launched 2015-04-08, so for earlier dates we splice on (and rescale
+# to be continuous with) an equal-weight basket of large growth mutual funds. Both are free via yfinance.
+# (Note: the GMI's actual component 6 is the IBD *Mutual Fund* Index, which has no public ticker — FFTY is a
+# proxy for it, and arguably a better one than a generic fund basket.)
+DEFAULT_IBD50_TICKER = "FFTY"
 DEFAULT_FUND_BASKET = ("AGTHX", "FCNTX", "TRBCX", "VWUSX")
 _FUND_FALLBACK = "VUG"
 _MIN_PRICE = 5.0
@@ -107,39 +112,77 @@ def compute_breadth_series(panel_dir: Path, universe: pd.DataFrame, *, min_date:
     return out
 
 
-def build_fund_proxy(*, tickers: Sequence[str] = DEFAULT_FUND_BASKET, downloader: Callable | None = None) -> pd.Series:
-    """Equal-weighted average of the basket's adjusted closes (the IBD-Mutual-Fund-Index proxy). yfinance unless `downloader` given.
-    Tickers that come back empty are dropped; if the whole basket is empty, falls back to a single growth ETF."""
+def _adj_close_series(frame: pd.DataFrame | None, ticker: str) -> pd.Series:
+    """Pull a ticker's adjusted-close series out of a yfinance-style frame (multi- or single-ticker). Empty if absent."""
+    if frame is None or getattr(frame, "empty", True):
+        return pd.Series(dtype=float)
+    multi = isinstance(frame.columns, pd.MultiIndex)
+    if multi:
+        if ticker not in frame.columns.get_level_values(0):
+            return pd.Series(dtype=float)
+        sub = frame[ticker]
+    else:
+        sub = frame
+    field = "Adj Close" if "Adj Close" in getattr(sub, "columns", []) else ("adj_close" if "adj_close" in getattr(sub, "columns", []) else None)
+    if field is None:
+        return pd.Series(dtype=float)
+    return sub[field].astype(float).dropna()
+
+
+def build_fund_proxy(
+    *,
+    basket: Sequence[str] = DEFAULT_FUND_BASKET,
+    ibd50_ticker: str | None = DEFAULT_IBD50_TICKER,
+    downloader: Callable | None = None,
+) -> pd.Series:
+    """GMI component-6 proxy: FFTY (the IBD 50 ETF) from its inception, spliced onto an equal-weight large-growth-fund
+    basket for earlier dates (the basket part is rescaled so the joined series is continuous at the splice).
+
+    Falls back to: basket only (if FFTY is unavailable), FFTY only (if the basket is empty), or a single growth ETF (`VUG`)
+    if both come back empty. yfinance is used unless `downloader` is given. Pass `ibd50_ticker=None` to skip the FFTY splice.
+    """
     def _dl(ts):
         if downloader is not None:
             return downloader(list(ts), period="max", interval="1d")
         import yfinance as yf
         return yf.download(list(ts), group_by="ticker", auto_adjust=False, threads=True, progress=False, period="max", interval="1d")
 
-    frame = _dl(tickers)
-    cols: dict[str, pd.Series] = {}
-    if frame is not None and not frame.empty:
-        multi = isinstance(frame.columns, pd.MultiIndex)
-        for t in tickers:
-            sub = frame[t] if (multi and t in frame.columns.get_level_values(0)) else (frame if not multi else None)
-            if sub is None:
-                continue
-            field = "Adj Close" if "Adj Close" in getattr(sub, "columns", []) else ("adj_close" if "adj_close" in getattr(sub, "columns", []) else None)
-            if field is None:
-                continue
-            s = sub[field].astype(float).dropna()
+    # --- the growth-fund basket average ---
+    basket_cols: dict[str, pd.Series] = {}
+    if basket:
+        bf = _dl(list(basket))
+        for t in basket:
+            s = _adj_close_series(bf, t)
             if not s.empty:
-                cols[t] = s
-    if not cols:
-        log.warning("growth-fund basket empty; falling back to %s", _FUND_FALLBACK)
-        f2 = _dl([_FUND_FALLBACK])
-        if f2 is not None and not f2.empty:
-            s = (f2[_FUND_FALLBACK] if isinstance(f2.columns, pd.MultiIndex) else f2)
-            field = "Adj Close" if "Adj Close" in s.columns else "adj_close"
-            cols[_FUND_FALLBACK] = s[field].astype(float).dropna()
-    if not cols:
-        return pd.Series(dtype=float)
-    proxy = pd.DataFrame(cols).mean(axis=1).sort_index()
+                basket_cols[t] = s
+    basket_avg = pd.DataFrame(basket_cols).mean(axis=1).sort_index() if basket_cols else pd.Series(dtype=float)
+
+    # --- FFTY (the IBD 50 ETF) ---
+    ffty = pd.Series(dtype=float)
+    if ibd50_ticker:
+        ffty = _adj_close_series(_dl([ibd50_ticker]), ibd50_ticker).sort_index()
+
+    # --- compose ---
+    if not ffty.empty and not basket_avg.empty:
+        start = ffty.index.min()
+        anchor = basket_avg.loc[basket_avg.index < start]
+        if not anchor.empty and not pd.isna(basket_avg.asof(start)):
+            factor = float(ffty.iloc[0]) / float(basket_avg.asof(start))   # rescale the basket so it joins FFTY continuously
+            pre = anchor * factor
+            proxy = pd.concat([pre, ffty]).sort_index()
+        else:
+            proxy = ffty
+    elif not ffty.empty:
+        proxy = ffty
+    elif not basket_avg.empty:
+        proxy = basket_avg
+    else:
+        log.warning("growth-fund basket and FFTY both empty; falling back to %s", _FUND_FALLBACK)
+        proxy = _adj_close_series(_dl([_FUND_FALLBACK]), _FUND_FALLBACK).sort_index()
+        if proxy.empty:
+            return pd.Series(dtype=float)
+
+    proxy = proxy[~proxy.index.duplicated(keep="last")].sort_index()
     proxy.name = "fund_proxy"
     proxy.index.name = "date"
     return proxy

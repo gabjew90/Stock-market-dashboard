@@ -81,15 +81,52 @@ def test_breadth_drops_delisted_ticker_after_its_last_bar(tmp_path):
     assert df.iloc[-1]["n_broad"] == 1
 
 
-def test_build_fund_proxy_equal_weights_the_basket():
+def _adjclose_frame(tickers, idx, vals_for):
+    cols = pd.MultiIndex.from_product([list(tickers), ["Adj Close"]])
+    data = {(t, "Adj Close"): list(vals_for(t)) for t in tickers}
+    return pd.DataFrame(data, index=idx, columns=cols)
+
+
+def test_build_fund_proxy_equal_weights_the_basket_when_no_ffty():
     idx = pd.date_range("2020-01-01", periods=4, freq="B")
 
     def downloader(yf_tickers, **kw):
-        fields = ["Adj Close"]
-        cols = pd.MultiIndex.from_product([yf_tickers, fields])
-        data = {(t, "Adj Close"): [10.0 + i for i in range(len(idx))] if t == yf_tickers[0] else [20.0 + i for i in range(len(idx))] for t in yf_tickers}
-        return pd.DataFrame(data, index=idx, columns=cols)
+        return _adjclose_frame(yf_tickers, idx, lambda t: [10.0 + i for i in range(len(idx))] if t == yf_tickers[0] else [20.0 + i for i in range(len(idx))])
 
-    s = build_fund_proxy(tickers=["AAA", "BBB"], downloader=downloader)
+    s = build_fund_proxy(basket=["AAA", "BBB"], ibd50_ticker=None, downloader=downloader)   # ibd50_ticker=None -> pure basket avg
     assert list(s.index) == list(idx)
     assert s.iloc[0] == 15.0 and s.iloc[-1] == 18.0                    # mean(10..13, 20..23) per row
+
+
+def test_build_fund_proxy_splices_ffty_onto_the_basket():
+    basket_idx = pd.date_range("2020-01-01", periods=6, freq="B")      # pre-FFTY basket history
+    ffty_idx = pd.date_range("2020-01-07", periods=4, freq="B")        # FFTY "launches" on the 4th basket date (overlap by design)
+
+    def downloader(yf_tickers, **kw):
+        if yf_tickers == ["FFTY"]:
+            return _adjclose_frame(["FFTY"], ffty_idx, lambda t: [40.0, 41.0, 42.0, 43.0])
+        # basket: AAA constant 10, BBB constant 20 -> basket avg = 15 on every date
+        return _adjclose_frame(yf_tickers, basket_idx, lambda t: [10.0] * len(basket_idx) if t == "AAA" else [20.0] * len(basket_idx))
+
+    s = build_fund_proxy(basket=["AAA", "BBB"], ibd50_ticker="FFTY", downloader=downloader)
+    # tail is FFTY-driven
+    assert s.iloc[-1] == 43.0
+    assert s.loc[ffty_idx[0]] == 40.0
+    # the pre-FFTY dates are exactly the basket dates strictly before FFTY's first date,
+    # and their values = basket avg (15) rescaled by 40/15 -> 40 each (continuous splice)
+    pre = s.loc[s.index < ffty_idx[0]]
+    assert set(pre.index) == set(basket_idx[basket_idx < ffty_idx[0]])
+    assert len(pre) >= 1 and (pre == 40.0).all()
+    assert s.name == "fund_proxy" and s.index.is_monotonic_increasing
+
+
+def test_build_fund_proxy_ffty_only_if_basket_empty():
+    ffty_idx = pd.date_range("2020-01-01", periods=3, freq="B")
+
+    def downloader(yf_tickers, **kw):
+        if yf_tickers == ["FFTY"]:
+            return _adjclose_frame(["FFTY"], ffty_idx, lambda t: [50.0, 51.0, 52.0])
+        return pd.DataFrame()                                          # basket comes back empty
+
+    s = build_fund_proxy(basket=["AAA"], ibd50_ticker="FFTY", downloader=downloader)
+    assert list(s.values) == [50.0, 51.0, 52.0]
