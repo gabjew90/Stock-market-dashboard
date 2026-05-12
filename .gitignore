@@ -19,3 +19,6 @@ __pycache__/
 
 # breadth data (rebuild with `ww breadth fetch && ww breadth build`)
 /data/breadth/
+
+# backtest artifacts (rebuild with `ww backtest timing-overlay`)
+/data/backtest/
