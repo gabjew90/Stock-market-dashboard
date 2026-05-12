@@ -30,10 +30,23 @@ uv run ww breadth fetch        # build the common-stock universe + download the 
 uv run ww breadth build        # compute data/breadth/breadth_series.parquet (T2108-equiv, new-highs, ...) + the growth-fund proxy
 uv run ww breadth show         # print today's breadth snapshot
 uv run ww breadth update       # incremental daily refresh (pull recent bars, recompute the tail)
+uv run ww breadth validate     # cross-check the reconstructed T2108/GMI vs his reported numbers -> data/breadth/validate.json
+uv run ww compute gmi 2026-05-11 --breadth   # a full 0-6 GMI from the local breadth series
+uv run ww gmi today            # nightly: refresh the panel, then print today's full GMI breakdown
 ```
 
 Re-running `ww scrape` is cheap — API pages are cached under `raw/api/` and posts
 whose markdown file already exists are skipped (use `--force` to rewrite).
+
+## Daily GMI
+
+Once the breadth pipeline is built (`ww breadth fetch && ww breadth build` — done once, takes a while), a nightly cron of:
+
+```bash
+uv run ww breadth update && uv run ww gmi today
+```
+
+refreshes the breadth series and prints today's full 0–6 GMI (the three price-derived components from QQQ/SPY, the two breadth components from the reconstructed 52-week-high panel, the growth-fund-proxy component) with a GREEN/YELLOW/RED read. Re-run `ww breadth fetch --refresh-symbols` approximately monthly to pick up new listings / drop delisted ones. Fidelity caveats and the validation stats are in `wiki/methodology/gmi.md`.
 
 ## Reading & querying it
 
@@ -42,7 +55,7 @@ whose markdown file already exists are skipped (use `--force` to rewrite).
 
 ## Status
 
-- **Breadth data** — pipeline built (Plan B1): `ww breadth fetch/build/update/show` → `data/breadth/breadth_series.parquet` (T2108-equivalents NYSE & broad, 50d/200d-above ratios, new-52w-high/low counts, the Successful-10-Day-New-High fraction) + a growth-fund proxy, from the free Nasdaq Trader symbol files + yfinance. Documented limitations (survivorship, universe ≠ Worden's, growth-fund proxy ≠ real IBD index) — see `docs/specs/2026-05-11-wishing-wealth-wiki-breadth-data-design.md`. Next: Plan B2 (BreadthProvider, `ww breadth validate` vs his reported numbers, `ww compute --breadth`, `ww gmi today`, wiki updates).
+- **Breadth data** — done (Plans B1+B2): `ww breadth fetch/build/update/show/validate` → `data/breadth/breadth_series.parquet`; `BreadthProvider` → `ww compute gmi/t2108 --breadth` returns real numbers; `ww gmi today` gives a live daily reading; `ww breadth validate` records how well the reconstruction matches his reported T2108/GMI (see `data/breadth/validate.json` and `wiki/methodology/gmi.md`). Documented survivorship/universe/proxy limitations. Unblocks Plan 6 (the strategy backtest).
 - **Status:** Plans 1–5 + B1 complete. Corpus fully tiered (31 teaching/example posts ingested with full wiki content; ~4,460 daily-update posts → raw/timeline.parquet; ~149 long_form teaching posts queued for future ingest passes). Remaining: Plan 6 (backtest harness — needs its own design).
 - **Plan 1** (raw-sources layer / scraper) — done. `ww scrape` mirrors the blog into `raw/`.
 - **Plan 2** (wiki bootstrap) — done. `CLAUDE.md` schema + `wiki/` skeleton (stubs + templates) + `ww lint` + CI.
