@@ -95,3 +95,26 @@ def test_ww_compute_green_line_from_csv(tmp_path):
 def test_ww_compute_unknown_indicator_errors():
     result = runner.invoke(cli.app, ["compute", "not-an-indicator", "TEST"])
     assert result.exit_code != 0
+
+
+def test_ww_compute_gmi_demo():
+    result = runner.invoke(cli.app, ["compute", "gmi", "2014-08-01", "--demo"])
+    assert result.exit_code == 0
+    assert "GMI" in result.stdout
+    assert "6" in result.stdout            # demo fixtures make all 6 components True
+    assert "DEMO" in result.stdout.upper()
+
+
+def test_ww_compute_t2108_without_demo_explains_unavailability():
+    result = runner.invoke(cli.app, ["compute", "t2108", "2014-08-01"])
+    # informative, not a crash — exit 0, points at the methodology page
+    assert result.exit_code == 0
+    assert "t2108" in result.stdout.lower()
+    assert "methodology" in result.stdout.lower() or "breadth" in result.stdout.lower()
+
+
+def test_ww_compute_t2108_demo_prints_value():
+    result = runner.invoke(cli.app, ["compute", "t2108", "2014-08-01", "--demo"])
+    assert result.exit_code == 0
+    assert "66.67" in result.stdout or "66.6" in result.stdout
+    assert "DEMO" in result.stdout.upper()

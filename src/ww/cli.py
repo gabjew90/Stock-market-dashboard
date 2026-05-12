@@ -71,10 +71,11 @@ def batch(
 
 @app.command()
 def compute(
-    indicator: str = typer.Argument(..., help="green-line | stage | wgb | rwb | qqq-timing"),
-    ticker: str = typer.Argument(..., help="Ticker symbol (or any label if using --csv)."),
+    indicator: str = typer.Argument(..., help="green-line | stage | wgb | rwb | qqq-timing | gmi | t2108"),
+    ticker: str = typer.Argument(..., help="Ticker symbol — or a date (YYYY-MM-DD) for gmi/t2108."),
     csv: Path = typer.Option(None, "--csv", help="Read OHLC from this CSV (date index + open,high,low,close) instead of yfinance."),
     weekly: bool = typer.Option(False, "--weekly", help="For 'rwb': use the weekly Guppy instead of the daily one."),
+    demo: bool = typer.Option(False, "--demo", help="For gmi/t2108: use illustrative built-in fixtures (not real data)."),
 ) -> None:
     """Run one of Dr. Wish's runnable price-based indicators on a ticker (see wiki/methodology/*.md)."""
     import pandas as pd
@@ -84,10 +85,37 @@ def compute(
         short_term_trend, trend_day_count, YFinanceProvider,
     )
 
+    if indicator in ("gmi", "t2108"):
+        from ww.indicators import gmi as _gmi, t2108 as _t2108
+        from ww.indicators.provider import DataUnavailable, YFinanceProvider as _YFP
+        if indicator == "gmi":
+            if demo:
+                from ww.indicators._demo import DEMO_DATE, demo_provider
+                r = _gmi(demo_provider(), DEMO_DATE)
+                typer.echo(f"GMI (DEMO — illustrative fixtures, not real data): score = {r.score}/6")
+                for k, v in r.components.items():
+                    typer.echo(f"  {'+' if v else ('?' if v is None else '-')} {k}")
+            else:
+                prov = _YFP()
+                r = _gmi(prov, ticker)
+                avail = 6 - len(r.unavailable)
+                typer.echo(f"GMI on {ticker}: partial score = {r.score} (of {avail} computable components; {len(r.unavailable)} need breadth/fund data — see wiki/methodology/gmi.md)")
+                for k, v in r.components.items():
+                    typer.echo(f"  {'+' if v is True else ('?' if v is None else '-')} {k}" + (" (unavailable)" if v is None else ""))
+        else:  # t2108
+            if demo:
+                from ww.indicators._demo import DEMO_DATE, demo_provider
+                val = _t2108(demo_provider(), DEMO_DATE, universe=("AAA", "BBB", "CCC"), window=40)
+                typer.echo(f"T2108 (DEMO — illustrative fixtures, not real data) = {val:.2f}%")
+            else:
+                typer.echo("T2108 needs the full NYSE universe (% of stocks above their 40-day MA) — not available from free sources. "
+                           "See wiki/methodology/t2108.md for the formula, or use ww.indicators.t2108_from_prices({ticker: ohlc_df, ...}, date) with your own data.")
+        return
+
     # interval each indicator wants
     interval = {"green-line": "1mo", "stage": "1wk", "wgb": "1wk", "rwb": ("1wk" if weekly else "1d"), "qqq-timing": "1d"}.get(indicator)
     if interval is None:
-        typer.echo(f"unknown indicator '{indicator}'. Choose: green-line, stage, wgb, rwb, qqq-timing")
+        typer.echo(f"unknown indicator '{indicator}'. Choose: green-line, stage, wgb, rwb, qqq-timing, gmi, t2108")
         raise typer.Exit(code=2)
 
     if csv is not None:
