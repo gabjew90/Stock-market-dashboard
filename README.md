@@ -33,6 +33,7 @@ uv run ww breadth update       # incremental daily refresh (pull recent bars, re
 uv run ww breadth validate     # cross-check the reconstructed T2108/GMI vs his reported numbers -> data/breadth/validate.json
 uv run ww compute gmi 2026-05-11 --breadth   # a full 0-6 GMI from the local breadth series
 uv run ww gmi today            # nightly: refresh the panel, then print today's full GMI breakdown
+uv run ww backtest timing-overlay     # backtest "long QQQ when GMI-GREEN / cash when RED" vs buy-and-hold QQQ
 ```
 
 Re-running `ww scrape` is cheap — API pages are cached under `raw/api/` and posts
@@ -65,5 +66,6 @@ refreshes the breadth series and prints today's full 0–6 GMI (the three price-
 - **Plan 4b** (GMI / T2108) — done: `src/ww/indicators/gmi.py` (the 6-component composite — QQQ/SPY/QQQ-weekly trend computed from free prices; the breadth/fund components flagged unavailable) + `src/ww/indicators/t2108.py` (provider-delegated + a `t2108_from_prices` helper) + `--demo` mode; embedded in the methodology pages. Reproducing real historical GMI/T2108 needs a bulk-equity / breadth data feed (a later phase) — also the prerequisite for the planned strategy backtest (Plan 6).
 - **Plan 5** (search + Query loop) — done: `ww index` / `ww search` (local BM25 over wiki + posts, cited hits); the Query workflow is documented in `CLAUDE.md` §4.
 - **Plan 6** (backtest harness — the end goal) — not started; needs its own design. A backtest of the GLB/WGB/Stage-2/GMI strategy with realistic costs, walk-forward validation, a buy-and-hold benchmark, and parameter-tuning hooks.
+- **Backtest — B6a (market-state timing overlay)** — `ww backtest timing-overlay`: backtests the GMI-GREEN long-QQQ / RED-cash rule vs buy-and-hold QQQ, 2007–2026, net of costs, with a robustness grid + a pre-stated verdict; result + equity curve written to `wiki/methodology/backtest-timing-overlay.md`. (B6b — the GLB/WGB stock-selection edge — is the next backtest sub-project.)
 
 The wiki structure and conventions live in [`CLAUDE.md`](CLAUDE.md).

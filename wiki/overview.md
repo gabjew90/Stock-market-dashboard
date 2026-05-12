@@ -45,6 +45,7 @@ Once the market is GREEN, the process narrows the universe to the best rocket ca
 - [Timeline — how the system evolved](history/timeline.md) — 2005 GMI launch → 2010 RWB → 2011 GMI2 → 2012 GLB named → ...
 - [Track record — calls & outcomes](history/track-record.md) *(stub)*
 - [Trend-flip log](history/trend-flip-log.md) — every ST/LT trend flip (2007–2026) + detailed entries incl. April-2025 tariff decline and 2026 Iran-war-period decline
+- [Backtest — the timing overlay](methodology/backtest-timing-overlay.md) — quantified evidence on the GMI market-state gate vs buy-and-hold QQQ (2007–2026)
 
 ## Sources
 
