@@ -1,0 +1,12 @@
+Nasdaq Traded|Symbol|Security Name|Listing Exchange|Market Category|ETF|Round Lot Size|Test Issue|Financial Status|CQS Symbol|NASDAQ Symbol|NextShares
+Y|AA|Alcoa Corporation Common Stock |N| |N|100|N||AA|AA|N
+Y|AAPL|Apple Inc. - Common Stock|Q|Q|N|100|N|N||AAPL|N
+Y|AAA|Alternative Access First Priority CLO Bond ETF|P| |Y|100|N||AAA|AAA|N
+Y|MSFT|Microsoft Corporation - Common Stock|Q|Q|N|100|N|N||MSFT|N
+Y|ZTEST|NASDAQ TEST STOCK|Q|Q|N|100|Y|N||ZTEST|N
+Y|BAC^B|Bank of America Corp Depositary Shares Preferred|N| |N|100|N||BAC^B|BAC.B|N
+Y|F.WS|Ford Motor Company Warrant|N| |N|100|N||F.WS|F.WS|N
+Y|CATX|Perspective Therapeutics, Inc. - Common Stock|A|Q|N|100|N|N||CATX|N
+Y|FOO|Some Closed-End Fund Notes due 2030|N| |N|100|N||FOO|FOO|N
+Y|BRK.B|Berkshire Hathaway Inc. Class B Common Stock|N| |N|100|N||BRK.B|BRK.B|N
+File Creation Time: 0511202621:33|||||
