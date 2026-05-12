@@ -39,6 +39,17 @@ sources:
   - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
   - raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md
   - raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md
+  - raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md
+  - raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md
+  - raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md
+  - raw/posts/2011-08-07-crash-coming-only-3rd-day-of-new-qqq-short-term-down-trend.md
+  - raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md
+  - raw/posts/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md
+  - raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md
+  - raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md
+  - raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md
+  - raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md
+  - raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md
 ---
 
 # Timeline — evolution of the methodology
@@ -265,6 +276,72 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 ---
 
+## December 2005 — Early breadth divergence research; MCD trade
+
+**"GMI: +6; WPM shows DOW deterioration; breadth divergence" (2005-12-03):** Dr. Wish charts two breadth indicators against the S&P 500: % stocks above 10wk avg and % stocks in short-term up-trend (defined as 10-day avg above rising 30-day avg). He identifies a divergence at the October 2005 bottom retest: % above 10wk fell while short-term trend breadth rose — potentially a turning-point signal. Separately, buys MCD on a 5-year-high breakout from a 3-month base on high volume; JNJ topping scan flagged by his Enron PCF. ([WW 2005-12-03](../../raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md))
+
+---
+
+## July 2010 — Pension exit at GMI=0; topping-pattern PCF
+
+**"At the beginning of a big market decline?" (2010-07-06):** Dr. Wish moves 60% of his pension to money market despite the market having already declined significantly. His TC2007 topping-pattern PCF flags 91 of 951 ETFs, including world indexes and US sectors. GMI and GMI-R both at 0. T2108 at 25% — not yet at oversold extreme. He articulates his "regret-free late exit" philosophy: better to exit after some decline and re-enter higher than to ride the full bear. ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
+
+---
+
+## February 2011 — RWB methodology; IBD as required reading
+
+**"Nicolas Darvas, on the value of studying losses; RWB stocks" (2011-02-07):** Dr. Wish reprints earlier writings and explains his classroom exercise (students analyze their own losing trade charts). IBD described as the reason he "never consistently made money trading until I started reading IBD in the 1980's." RWB stocks (COST, RVBD) demonstrated; stop on RWB bounce trade placed below 30-day moving average of the individual stock. ([WW 2011-02-07](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
+
+---
+
+## August 2011 — Flash crash; GMI defensive before Day 3
+
+**"Crash coming? Only 3rd day of new QQQ short-term down-trend" (2011-08-07):** GMI had been below 4 since July 27; trading accounts were already mostly in cash. The S&P downgrade of US debt caused the August 2011 flash crash on what Dr. Wish calls Day 3 of the new short-term down-trend. He uses the GMMA weekly chart to contextualize the decline as more like 2010 than 2008. T2108 at 11%. ([WW 2011-08-07](../../raw/posts/2011-08-07-crash-coming-only-3rd-day-of-new-qqq-short-term-down-trend.md))
+
+---
+
+## June 2012 — GMI buy-signal trigger confirmed; Darvas scan technique
+
+**"Excerpt from my trading diary; market at critical juncture" (2012-06-18):** shares a 1996 diary entry and explicitly states the GMI buy trigger: "Two consecutive days with the GMI above 3 would turn the GMI signal to buy." Entry confidence rule: "I will not weigh in heavily until the 5th day." Darvas scan described: PCF for stocks breaking to ATH. ([WW 2012-06-18](../../raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md))
+
+---
+
+## October 2013 — 1987 crash analysis; 30-day MA as short-term trend signal
+
+**"Can TA protect ourselves from a 1987 crash?" (2013-10-20):** retroactive analysis of the 1987 Dow using his current indicators. The 30-day moving average of closing prices is explicitly named as the indicator that defines his short-term trend: price curving below the declining 30-day MA would have declared a down-trend. The 1987 crash came on Day 9 of the resulting down-trend — plenty of time to exit. Current market: GMI=6, GMI2=8, 818 new 52-week highs (comparable to November 2010 multi-month rally start). ([WW 2013-10-20](../../raw/posts/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md))
+
+---
+
+## November 2013 — TQQQ vs IBD 50: ETF strategy quantified
+
+**"GMI based strategy using 3X ETFs beats IBD 50 stocks" (2013-11-24):** from the 9/4/2013 GMI buy signal to 11/22, TQQQ and UPRO each gained +30%, beating approximately 90% of IBD 50 stocks. Simply holding TQQQ beat all individual stocks that gained ≥30%. Dr. Wish's lesson: "When the GMI issues a buy signal, I should begin accumulating QLD or TQQQ instead of trying to find the rare stock that will eventually beat them." ([WW 2013-11-24](../../raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md))
+
+---
+
+## February 2014 — Covered call strategy; three concurrent GLBs
+
+**"9th day of QQQ up-trend; covered calls on GLD; GMCR, QCOR, IRBT GLBs" (2014-02-23):** explains covered call income strategy on GLD (Stage 2 ETF): sell weekly at-the-money calls at ~0.79%/week = ~3.17%/month. Explicitly notes: do not sell covered calls on rocket growth stocks (capped upside). Three concurrent GLBs shown: GMCR (new ATH base after 2009 original GLB), QCOR, IRBT. ([WW 2014-02-23](../../raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md))
+
+---
+
+## April 2022 — WeeklyGreenBar scan formalized; subsector strategies
+
+**"QQQ/SPY below 10wk avg; WeeklyGreenBar scan described" (2022-04-17):** despite GMI Red, 25 commodity/defense stocks pass the WGB scan. Dr. Wish describes full scan criteria: Stage 2 (4wk>10wk>30wk), bounce off 4wk avg last week, close higher than prior week (green bar), RS at 20wk high, hit ATH last week. Trailing stop logic: sell below last week's low → below 4wk avg → below 10wk avg. ([WW 2022-04-17](../../raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md))
+
+---
+
+## June 2022 — ATH-first selection; GLB re-entry; GMI Red performance
+
+**"Day 37 of QQQ down-trend; 14 IBD/MS stocks at 20yr ATHs" (2022-06-05):** explains why he only buys stocks above their last green line and only re-enters after a GLB (even if the first failed). Shows GMI Green vs Red periods overlaid on QQQ charts. "It is so much easier to make $$$ when the GMI is Green and registering 5 or 6." Darvas/Ryan "doubler" criterion restated: sort by close/price 250 days ago. ([WW 2022-06-05](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))
+
+---
+
+## January 2021 — Growth stocks beat TQQQ for first time
+
+**"Many individual stocks outperformed TQQQ for the first time" (2021-01-18):** unusual result — 60% of IBD/MS growth stocks beat TQQQ during 11/5/20–1/15/21 up-trend (median +24% vs TQQQ's +17.6%). FAANG stocks declined, raising a leadership-rotation warning. Dr. Wish shifts to focus on growth stocks while managing risk with stops and position size. ([WW 2021-01-18](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))
+
+---
+
 *Timeline continues as more posts are ingested. Many daily-update posts from 2005–2026 remain unprocessed — they will feed `history/track-record.md` when the Plan 2.5 timeline parser runs.*
 
 ## See also
@@ -311,3 +388,14 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 - [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 - [WW 2024-05-27 — ANF worked example (weekly green bar)](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md) ([summary](../sources/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
 - [WW 2025-03-30 — Day 24 of QQQ down-trend; IWM at beginning of Stage 4](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md) ([summary](../sources/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
+- [WW 2005-12-03 — Early GMI breadth details; breadth divergence signal at October 2005 bottom](../../raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md) ([summary](../sources/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md))
+- [WW 2010-07-06 — Pension exit discipline; topping-pattern PCF scan; GMI=0](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md) ([summary](../sources/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
+- [WW 2011-02-07 — Nicolas Darvas on studying losses; RWB stock stop-loss example](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md) ([summary](../sources/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
+- [WW 2011-08-07 — Crash coming? 3rd day of QQQ short-term down-trend; T2108=11%](../../raw/posts/2011-08-07-crash-coming-only-3rd-day-of-new-qqq-short-term-down-trend.md) ([summary](../sources/2011-08-07-crash-coming-only-3rd-day-of-new-qqq-short-term-down-trend.md))
+- [WW 2012-06-18 — 1990s trading diary excerpt; GMI buy-signal trigger explicit](../../raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md) ([summary](../sources/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md))
+- [WW 2013-10-20 — TA vs 1987 crash; 30-day MA as short-term trend signal](../../raw/posts/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md) ([summary](../sources/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md))
+- [WW 2013-11-24 — GMI-based strategy using 3X ETFs beats IBD 50 stocks](../../raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md) ([summary](../sources/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md))
+- [WW 2014-02-23 — Covered call income on GLD; GLB examples](../../raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md) ([summary](../sources/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md))
+- [WW 2021-01-18 — Individual IBD/MS stocks outperformed TQQQ for first time](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md) ([summary](../sources/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))
+- [WW 2022-04-17 — QQQ/SPY below 10-week avg; GMI Red; WGB scan criteria; trailing stop](../../raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md) ([summary](../sources/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md))
+- [WW 2022-06-05 — Day 37 of QQQ down-trend; ATH-only philosophy; GLB re-entry after failure](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md) ([summary](../sources/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))

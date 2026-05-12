@@ -17,6 +17,10 @@ sources:
   - raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md
   - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
   - raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md
+  - raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md
+  - raw/posts/2011-08-07-crash-coming-only-3rd-day-of-new-qqq-short-term-down-trend.md
+  - raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md
+  - raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md
 ---
 
 # Risk & cash
@@ -98,6 +102,18 @@ When [T2108](t2108.md) drops below 10%, the market is usually near the bottom of
 
 Dr. Wish distinguishes between two accounts. His **trading IRA** follows the tactical rules above — goes defensive at GMI ≤ 3. His **university pension** (mutual funds) stays fully invested long even when the trading IRA is defensive. ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md)) This distinction matters when interpreting his "in cash" comments — they apply to the trading account.
 
+However, when GMI falls to 0 he transfers pension funds to money market funds — and accepts the risk of triggering mutual fund timing penalties. He moves 60% of pension holdings at GMI=0, even after the market has already declined, arguing the weekly trend is more important than recent price action. "If the market were to turn up in the next few months I would have no regrets as I would simply hop back on at a higher level." ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
+
+## The GMI buy signal and position sizing
+
+When a new GMI buy signal fires (two consecutive days GMI > 3), the default position is to begin accumulating the **3X leveraged Nasdaq ETF (TQQQ)** rather than picking individual stocks. Studies spanning 2013–2020 consistently show TQQQ beats 90% or more of individual stocks during QQQ short-term up-trends. ([WW 2013-11-24](../../raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md)) Dr. Wish accumulates TQQQ *slowly*, not all at once, because he needs confirmation the up-trend will persist — "most confident if it reaches 5 days."
+
+**Exception (2021):** For the first time in 2021, a large cohort of IBD/MarketSmith growth stocks (median +24%) outperformed TQQQ (+17.6%) during a QQQ up-trend. Dr. Wish interpreted this as a signal to focus on individual growth stocks when market conditions are unusually strong and leadership is broad. ([WW 2021-01-18](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md)) The TQQQ-first rule remains the *default*; it is only overridden when specific conditions (broad leadership, IBD/MS list outperformance) are present.
+
+## The topping-pattern scan
+
+Dr. Wish uses a TC2007 PCF (personal criteria formula) that detects stocks and ETFs whose long-term average is *just beginning* to reverse down — distinct from stocks already in established down-trends. The same PCF flagged Enron before it collapsed. In July 2010, it flagged 91 of 951 ETFs including S&P 500, Dow 30, and most world markets. The scan is not published but is described as detecting "the beginning of reversal" in the long-term average direction. ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
+
 ## See also
 
 - [General Market Index (GMI)](gmi.md)
@@ -122,3 +138,7 @@ Dr. Wish distinguishes between two accounts. His **trading IRA** follows the tac
 - [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 - [WW 2020-03-15 — Livermore: Amputation without anaesthetics; 2020 exit at GMI=0](../../raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md) ([summary](../sources/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md))
 - [WW 2025-03-30 — Day 24 of QQQ down-trend; IWM at beginning of Stage 4](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md) ([summary](../sources/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
+- [WW 2010-07-06 — Pension exit discipline; topping-pattern PCF scan; GMI=0](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md) ([summary](../sources/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
+- [WW 2011-08-07 — Crash coming? 3rd day of QQQ short-term down-trend](../../raw/posts/2011-08-07-crash-coming-only-3rd-day-of-new-qqq-short-term-down-trend.md) ([summary](../sources/2011-08-07-crash-coming-only-3rd-day-of-new-qqq-short-term-down-trend.md))
+- [WW 2013-11-24 — GMI 3X ETF strategy beats IBD 50 stocks](../../raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md) ([summary](../sources/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md))
+- [WW 2021-01-18 — IBD/MS growth stocks beat TQQQ for first time](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md) ([summary](../sources/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))

@@ -6,7 +6,10 @@ sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
+  - raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md
+  - raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
+  - raw/posts/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md
   - raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md
   - raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md
   - raw/posts/2015-02-01-red-white-and-blue-rwb-the-rocket-pattern-and-gldaapl-and-the-dow-30-nyse-bear.md
@@ -60,6 +63,18 @@ Stage analysis was introduced by Weinstein and adopted by Dr. Wish. The four sta
 ## The 30-day average — the short-term trend anchor
 
 Dr. Wish calls the 30-day moving average "the most reliable indicator of the short term trend." The WishingWealth Pulse of the Market (WPM) tracks whether each major index is above its 30-day average, and what percentage of component stocks are above it. ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
+
+### Per-stock short-term up-trend definition
+
+Dr. Wish defines a stock as being in a short-term up-trend when its **10-day average is above a rising 30-day average**. This two-condition definition (price's short-term MA above the longer-term MA, and the longer-term MA rising) produces a stronger signal than price vs MA alone. A divergence between this breadth signal and the overall market is meaningful: in December 2005, the GMI rose to 6 on a market bounce yet fewer stocks' 10-day averages were above rising 30-day averages than at the prior October bottom — a breadth warning that the rally lacked broad participation. ([WW 2005-12-03](../../raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md))
+
+### 30-day MA as the short-term index trend signal
+
+Dr. Wish applies the same 30-day average to market indices for the **short-term timing count** (see [QQQ Short-Term Timing](qqq-short-term-timing.md)). In a 2013 retroactive analysis of the 1987 crash applied to the Dow's daily chart, he explicitly stated: "The 30 day moving average of closing prices (red line) had already curved down… Using my current techniques, by this time, I would have already declared the Dow to be in a short term down-trend." The 1987 crash came on Day 9 of the down-trend that followed. ([WW 2013-10-20](../../raw/posts/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md))
+
+### 30-day MA as a stop for individual stocks
+
+For RWB stocks, the 30-day moving average of the individual stock (not the index) serves as a stop on bounce trades. In February 2011, Dr. Wish described his stop for RVBD as "below 30-day MA ~$34.95" — the exact dollar level was read off the chart at the time of entry. This is the same MA used for short-term trend signals; for stocks it functions as a trailing stop rather than a trend-flip signal. ([WW 2011-02-07](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
 
 ## The 10-week average — the holding rule for individual stocks
 
@@ -207,6 +222,9 @@ Run them: `ww compute stage QQQ` · `ww compute wgb TSLA` · `ww compute rwb QQQ
 - [WW 2005-04-23 — Let's Talk Strategy](../../raw/posts/2005-04-23-lets-talk-strategy.md) ([summary](../sources/2005-04-23-lets-talk-strategy.md))
 - [WW 2005-06-05 — GMI back to +5; on moving averages](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md) ([summary](../sources/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md))
 - [WW 2005-07-17 — GMI since inception; introducing the WPM](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md) ([summary](../sources/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
+- [WW 2005-12-03 — Early GMI breadth details; per-stock short-term up-trend definition](../../raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md) ([summary](../sources/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md))
+- [WW 2011-02-07 — Nicolas Darvas on studying losses; 30-day MA stop on individual RWB stocks](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md) ([summary](../sources/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
+- [WW 2013-10-20 — TA vs 1987 crash; 30-day MA as short-term index trend signal](../../raw/posts/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md) ([summary](../sources/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md))
 - [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 - [WW 2014-08-03 — GMI 10-Day New High Indicator; T2108; AAPL](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md) ([summary](../sources/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
 - [WW 2014-10-13 — 11th day of QQQ down-trend; how long will this decline last?](../../raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md) ([summary](../sources/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md))

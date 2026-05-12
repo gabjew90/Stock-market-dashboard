@@ -15,6 +15,7 @@ sources:
   - raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md
   - raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md
   - raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md
+  - raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -113,6 +114,12 @@ FIZZ (National Beverage, another 2017 example) shows the opposite case: an ideal
 
 Jesse Livermore: "it was his sitting tight not his trading that made him big money." ([WW 2017-04-02](../../raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md))
 
+## Re-entry after a failed GLB
+
+Dr. Wish does not abandon a stock after a failed GLB. His practice is to sell immediately when the stock closes below the green line, but then watch for the **next GLB** on the same stock. "I often repurchase upon the next GLB." This applies whether the failure was a few days after breakout or a few weeks later. The failed GLB itself is not a disqualifier — the stock just needs to re-base above its prior green line and break out again on volume.
+
+In June 2022 (during a down-trend) he noted 14 IBD/MarketSmith stocks at 20-year highs: these stocks were at or very near GLB territory even in a bear market, and he used them as a watch list for when market conditions improved. The ATH-only philosophy means he never buys below the green line just because the stock "looks cheap." ([WW 2022-06-05](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))
+
 ## The GLB in the daily RWB system (2017)
 
 When Dr. Wish shifted to daily RWB charts for timing, the GLB concept was incorporated into the scan: stocks must be above their last green line top to be considered — any stock below its most recent ATH has overhead supply from prior holders. This screen is applied after the RWB-bounce scan produces candidates. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
@@ -174,3 +181,4 @@ Run it on a ticker: `ww compute green-line MSFT` — Microsoft has set (and brok
 - [WW 2017-07-02 — GLB: the sine qua non of rocket stocks; $SHOP, $SQ, $BABA, $Z, $FB, $BZUN](../../raw/posts/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md) ([summary](../sources/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md))
 - [WW 2021-01-24 — GLB origin; overhead supply rationale; 6 recent examples](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md) ([summary](../sources/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))
 - [WW 2021-02-28 — $TWTR: GLB and WGB indicators](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md) ([summary](../sources/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
+- [WW 2022-06-05 — Day 37 of QQQ down-trend; ATH-only philosophy; GLB re-entry after failure](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md) ([summary](../sources/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))

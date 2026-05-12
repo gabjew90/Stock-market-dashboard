@@ -21,6 +21,11 @@ sources:
   - raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md
   - raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md
   - raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md
+  - raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md
+  - raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md
+  - raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md
+  - raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md
+  - raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md
 ---
 
 # Stock selection
@@ -94,11 +99,17 @@ Filter condition: any stock in the scan that is **not above its last green line 
 
 For market-wide assessment using the same tool: monitor QQQ, SPY, and DIA RLCs. In March 2017, SPY had RLC = 0 and the Dow Jones Transportation Average had lost its entire RWB pattern — a warning he flagged as a potential Dow Theory caution. ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
 
-## The weekly green bar scan — a later entry filter (formalized 2024)
+## The weekly green bar scan — a later entry filter (formalized 2022–2024)
 
-Dr. Wish also runs a weekly scan for "green bar" setups — stocks bouncing off the rising 4-week average. Criteria: weekly 10.4 stochastic above 80 for at least 5 weeks; 4wk > 10wk > 30wk; stock up ≥ 50% from a year ago; reached a recent ATH; had a green bar the most recent week. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
+Dr. Wish also runs a weekly scan for "green bar" setups — stocks bouncing off the rising 4-week average. An early version of the scan criteria (April 2022) required: (1) stock in 4wk>10wk>30wk alignment (Stage 2), (2) bounced off the rising 4-week average last week, (3) weekly close *higher than the prior week's close* (this is the "green bar" — a week that does not close higher is not green even if it bounced the 4wk avg), (4) RS vs S&P 500 at a 20-week high, (5) hit an ATH last week. Candidate pool: the IBD/MarketSmith watchlist. ([WW 2022-04-17](../../raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md))
+
+By 2024 the formalized scan added: weekly 10.4 stochastic above 80 for at least 5 weeks; stock up ≥ 50% from a year ago. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
+
+**Trailing stop rules for WGB positions (explicit):** "An advancing stock rides its rising 4 wk avg for many weeks." Stop logic: (1) initial stop: sell if stock trades back below last week's low; (2) trailing: lighten or sell when the stock ends a week *below its 4-week average*; (3) final exit: close below the 10-week average. Can also trail stop at each subsequent green bar's low. ([WW 2022-04-17](../../raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md))
 
 The weekly approach gives more entry opportunities than waiting for a bounce off the 10-week average: in ANF's 2023–2024 up-trend, the 4-week average generated 20+ green-bar entries vs. only 4 bounces off the 10-week average. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
+
+**The WGB scan works during GMI Red periods** if a subsector is in Stage 2. In April 2022, 25 stocks (commodities, oil/defense) passed the scan while the broader market was in Stage 4. ([WW 2022-04-17](../../raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md))
 
 ## BOS (Bounce off Support) — the preferred alternative to buying at the GLB (introduced 2016)
 
@@ -163,3 +174,8 @@ The black dot only works on stocks already in a confirmed up-trend. He often com
 - [WW 2021-06-13 — TraderLion conference; black dot signals; GMI=6](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md) ([summary](../sources/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
 - [WW 2022-12-04 — TC2000 gap-up scan; $TMDX $TMUS](../../raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md) ([summary](../sources/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md))
 - [WW 2024-05-27 — ANF worked example (weekly green bar)](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md) ([summary](../sources/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
+- [WW 2022-04-17 — WeeklyGreenBar scan full criteria; trailing stop rule](../../raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md) ([summary](../sources/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md))
+- [WW 2022-06-05 — ATH-only selection; GLB re-entry; Darvas/Ryan doubler criterion](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md) ([summary](../sources/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))
+- [WW 2012-06-18 — 1990s trading diary; Darvas scan; stock-selection funnel](../../raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md) ([summary](../sources/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md))
+- [WW 2021-01-18 — IBD/MS growth stocks outperform; stock selection justification](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md) ([summary](../sources/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))
+- [WW 2011-02-07 — IBD as required reading; 30-day avg as stop on RWB bounce](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md) ([summary](../sources/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
