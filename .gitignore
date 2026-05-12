@@ -16,3 +16,6 @@ __pycache__/
 
 # generated timeline dataset (rebuild with `ww timeline`)
 /raw/timeline.parquet
+
+# breadth data (rebuild with `ww breadth fetch && ww breadth build`)
+/data/breadth/
