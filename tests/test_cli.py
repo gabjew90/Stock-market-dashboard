@@ -164,3 +164,58 @@ def test_ww_search_without_index_tells_you_to_build_it(tmp_path):
     r = runner.invoke(cli.app, ["search", "green line", "--root", str(tmp_path)])
     # graceful: non-zero or a clear "run ww index" message — accept either, but it must mention index
     assert "index" in r.stdout.lower()
+
+
+def test_ww_breadth_build_and_show(tmp_path, monkeypatch):
+    import numpy as np
+    import pandas as pd
+    from ww.breadth.series import build_fund_proxy as _real_proxy
+
+    # lay down a tiny universe + panel by hand (skip the network parts)
+    bdir = tmp_path / "data" / "breadth"
+    (bdir / "panel").mkdir(parents=True)
+    pd.DataFrame({"ticker": ["AAA", "BBB"], "name": ["A", "B"], "listing_exchange": ["N", "Q"], "in_nyse": [True, False]}).to_parquet(bdir / "universe.parquet")
+    for t, lo, hi in (("AAA", 10, 80), ("BBB", 80, 10)):
+        idx = pd.date_range("2020-01-01", periods=300, freq="B")
+        c = list(np.linspace(lo, hi, 300))
+        df = pd.DataFrame({"open": c, "high": [x + 1 for x in c], "low": [x - 1 for x in c], "close": [float(x) for x in c], "adj_close": [float(x) for x in c], "volume": [1] * 300}, index=idx)
+        df.index.name = "date"; df.to_parquet(bdir / "panel" / f"{t}.parquet")
+
+    # make `build` not hit yfinance for the fund proxy
+    monkeypatch.setattr("ww.cli.build_fund_proxy", lambda **kw: pd.Series([100.0] * 60, index=pd.date_range("2024-01-01", periods=60, freq="B"), name="fund_proxy"))
+
+    r1 = runner.invoke(cli.app, ["breadth", "build", "--root", str(tmp_path)])
+    assert r1.exit_code == 0, r1.output
+    assert (bdir / "breadth_series.parquet").exists()
+    bs = pd.read_parquet(bdir / "breadth_series.parquet")
+    assert {"date", "n_nyse", "n_broad", "t2108_nyse", "t2108_broad", "new_52w_highs", "s10_total", "s10_higher"} <= set(bs.columns)
+
+    r2 = runner.invoke(cli.app, ["breadth", "show", "--root", str(tmp_path)])
+    assert r2.exit_code == 0
+    assert "t2108" in r2.output.lower()
+    assert "2020" in r2.output  # the series date range
+
+
+def test_ww_breadth_fetch_uses_mocked_downloads(tmp_path, monkeypatch):
+    import pandas as pd
+    # mock the symbol download + the panel download so `ww breadth fetch` runs offline
+    sample = (Path(__file__).parent / "breadth" / "fixtures" / "nasdaqtraded_sample.txt").read_text(encoding="utf-8") if (Path(__file__).parent / "breadth" / "fixtures" / "nasdaqtraded_sample.txt").exists() else "Nasdaq Traded|Symbol|Security Name|Listing Exchange|Market Category|ETF|Round Lot Size|Test Issue|Financial Status|CQS Symbol|NASDAQ Symbol|NextShares\nY|AAPL|Apple Inc. - Common Stock|Q|Q|N|100|N|N||AAPL|N\n"
+
+    def fake_download_symbol_files(dest, **kw):
+        dest = Path(dest); dest.mkdir(parents=True, exist_ok=True)
+        (dest / "nasdaqtraded.txt").write_text(sample, encoding="utf-8")
+
+    def fake_fetch_panel(uni, panel_dir, **kw):
+        panel_dir = Path(panel_dir); panel_dir.mkdir(parents=True, exist_ok=True)
+        idx = pd.date_range("2020-01-01", periods=5, freq="B")
+        for t in uni["ticker"]:
+            df = pd.DataFrame({"open": [10.0] * 5, "high": [11.0] * 5, "low": [9.0] * 5, "close": [10.0] * 5, "adj_close": [10.0] * 5, "volume": [1] * 5}, index=idx)
+            df.index.name = "date"; df.to_parquet(panel_dir / f"{t}.parquet")
+        return len(uni)
+
+    monkeypatch.setattr("ww.cli.download_symbol_files", fake_download_symbol_files)
+    monkeypatch.setattr("ww.cli.fetch_panel", fake_fetch_panel)
+    r = runner.invoke(cli.app, ["breadth", "fetch", "--root", str(tmp_path)])
+    assert r.exit_code == 0, r.output
+    assert (tmp_path / "data" / "breadth" / "universe.parquet").exists()
+    assert (tmp_path / "data" / "breadth" / "panel" / "AAPL.parquet").exists()

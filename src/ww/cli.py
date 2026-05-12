@@ -3,9 +3,13 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import pandas as pd
 import typer
 import yaml
 
+from ww.breadth.fetch import fetch_panel, update_panel
+from ww.breadth.series import build_fund_proxy, compute_breadth_series
+from ww.breadth.symbols import build_universe, download_symbol_files
 from ww.corpus.index import read_posts_jsonl
 from ww.corpus.timeline import build_timeline
 from ww.maintain.lint import lint_wiki
@@ -14,6 +18,91 @@ from ww.search.index import SearchIndex, build_index
 from ww.stats import corpus_stats
 
 app = typer.Typer(help="Wishing Wealth Wiki tooling.", no_args_is_help=True)
+
+breadth_app = typer.Typer(help="Market-breadth pipeline (universe, price panel, breadth series).", no_args_is_help=True)
+app.add_typer(breadth_app, name="breadth")
+
+
+def _breadth_dir(root: Path) -> Path:
+    return Path(root) / "data" / "breadth"
+
+
+@breadth_app.command("fetch")
+def breadth_fetch(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+    refresh_symbols: bool = typer.Option(False, "--refresh-symbols", help="Re-download the Nasdaq Trader symbol files."),
+    force: bool = typer.Option(False, "--force", help="Re-fetch panel files that already exist."),
+) -> None:
+    """Download the symbol files -> common-stock universe, then yfinance the full daily history for each name into data/breadth/panel/."""
+    bdir = _breadth_dir(root)
+    download_symbol_files(bdir / "symbol_files", refresh=refresh_symbols)
+    uni = build_universe(bdir / "symbol_files")
+    bdir.mkdir(parents=True, exist_ok=True)
+    uni.to_parquet(bdir / "universe.parquet", index=False)
+    typer.echo(f"universe: {len(uni)} common stocks ({int(uni['in_nyse'].sum())} NYSE). Fetching price panel via yfinance — this takes a while...")
+    n = fetch_panel(uni, bdir / "panel", force=force)
+    typer.echo(f"panel: {n} ticker files written/updated -> {bdir / 'panel'}")
+
+
+@breadth_app.command("build")
+def breadth_build(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+) -> None:
+    """Compute data/breadth/breadth_series.parquet from the panel, and data/breadth/fund_proxy.parquet via yfinance."""
+    bdir = _breadth_dir(root)
+    uni = pd.read_parquet(bdir / "universe.parquet")
+    series = compute_breadth_series(bdir / "panel", uni)
+    series.to_parquet(bdir / "breadth_series.parquet", index=False)
+    proxy = build_fund_proxy()
+    proxy.to_frame().reset_index().to_parquet(bdir / "fund_proxy.parquet", index=False)
+    span = f"{series['date'].min().date()}..{series['date'].max().date()}" if len(series) else "(empty)"
+    typer.echo(f"breadth_series: {len(series)} rows {span}; fund_proxy: {len(proxy)} rows -> {bdir}")
+
+
+@breadth_app.command("update")
+def breadth_update(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+    tail_days: int = typer.Option(60, "--tail-days", help="How many trailing trading days of breadth_series to recompute."),
+) -> None:
+    """Incremental refresh: pull recent bars for the existing universe, append to the panel, recompute the tail of breadth_series.parquet + the fund proxy."""
+    bdir = _breadth_dir(root)
+    uni = pd.read_parquet(bdir / "universe.parquet")
+    n = update_panel(uni, bdir / "panel")
+    full = compute_breadth_series(bdir / "panel", uni)
+    if (bdir / "breadth_series.parquet").exists() and len(full) > tail_days:
+        old = pd.read_parquet(bdir / "breadth_series.parquet")
+        cutoff = full["date"].iloc[-tail_days]
+        merged = pd.concat([old[old["date"] < cutoff], full[full["date"] >= cutoff]]).drop_duplicates(subset="date", keep="last").sort_values("date")
+        merged.to_parquet(bdir / "breadth_series.parquet", index=False)
+        rows = len(merged)
+    else:
+        full.to_parquet(bdir / "breadth_series.parquet", index=False)
+        rows = len(full)
+    proxy = build_fund_proxy()
+    proxy.to_frame().reset_index().to_parquet(bdir / "fund_proxy.parquet", index=False)
+    typer.echo(f"updated {n} ticker panels; breadth_series now {rows} rows (recomputed last {min(tail_days, rows)})")
+
+
+@breadth_app.command("show")
+def breadth_show(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+    date: str = typer.Option(None, "--date", help="Show this date (YYYY-MM-DD) instead of the latest."),
+) -> None:
+    """Print a breadth snapshot for the latest (or a given) date, plus the series span and universe size by year."""
+    bdir = _breadth_dir(root)
+    bs = pd.read_parquet(bdir / "breadth_series.parquet")
+    if bs.empty:
+        typer.echo("breadth_series.parquet is empty — run `ww breadth fetch && ww breadth build`.")
+        raise typer.Exit(1)
+    bs["date"] = pd.to_datetime(bs["date"])
+    row = bs[bs["date"] <= pd.Timestamp(date)].iloc[-1] if date else bs.iloc[-1]
+    typer.echo(f"=== breadth @ {row['date'].date()} ===")
+    typer.echo(f"  T2108-equiv: NYSE {row['t2108_nyse']:.1f}%  |  broad {row['t2108_broad']:.1f}%   (universe: {int(row['n_nyse'])} NYSE / {int(row['n_broad'])} broad)")
+    typer.echo(f"  % above 50d MA (broad): {row['pct_above_50dma_broad']:.1f}%   |  % above 200d MA: {row['pct_above_200dma_broad']:.1f}%")
+    typer.echo(f"  new 52w highs/lows: {int(row['new_52w_highs'])}/{int(row['new_52w_lows'])}  (Nasdaq-only: {int(row['nasdaq_new_52w_highs'])}/{int(row['nasdaq_new_52w_lows'])})")
+    typer.echo(f"  Successful 10-Day New High: {int(row['s10_higher'])}/{int(row['s10_total'])}" + (f"  ({100.0 * row['s10_higher'] / row['s10_total']:.0f}%)" if row['s10_total'] else ""))
+    by_year = bs.assign(year=bs["date"].dt.year).groupby("year")["n_broad"].median().astype(int)
+    typer.echo(f"  series span: {bs['date'].min().date()}..{bs['date'].max().date()}  ({len(bs)} rows); universe size by year (median): " + ", ".join(f"{y}:{n}" for y, n in by_year.items()))
 
 DEFAULT_BASE_URL = "https://wishingwealthblog.com"
 
