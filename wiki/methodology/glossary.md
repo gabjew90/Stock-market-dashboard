@@ -1,7 +1,7 @@
 ---
 title: Glossary
 type: concept
-updated: 2026-05-11
+updated: 2026-05-12
 sources:
   - raw/posts/2006-02-01-gmi-6-gmi-s-lower-goog-markets-forming-top.md
   - raw/posts/2005-04-23-lets-talk-strategy.md
@@ -22,6 +22,10 @@ sources:
   - raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md
   - raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md
   - raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md
+  - raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md
+  - raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md
+  - raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md
+  - raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md
   - raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md
 ---
 
@@ -31,6 +35,10 @@ Every term Dr. Wish coins or uses, defined in a sentence or two, with a first-ap
 
 ---
 
+**Bollinger Band (15.2)** — the Bollinger Band indicator as Dr. Wish uses it: a **15-day simple moving average** with bands drawn 2 standard deviations above and below (the "15.2" notation). Nearly all prices remain within the bands, creating a "95% confidence interval." Key signals: (1) touching the lower band in an up-trend → BOS (bounce off support) buy candidate; (2) rising above the upper band after a breakout → extension/caution; (3) percentage of stocks above the upper band is a market breadth measure. First usage in conjunction with BOS: ([WW 2016-07-24](../../raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md)); formal teaching post: ([WW 2020-09-06](../../raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md))
+
+**BOS (Bounce off Support)** — Dr. Wish's preferred alternative to buying at the exact moment of a GLB. In an up-trending market, he scans for strong rocket stocks (RWB pattern, above last green line top) that have become oversold and are bouncing up from support. The primary oversold signal is a daily low trading to or below the **lower 15.2 Bollinger Band**. He buys on strength (if the stock trades above the prior day's high) and places a GTC stop immediately below the bounce low. Introduced and named: ([WW 2016-06-05](../../raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md)); Bollinger Band mechanics detailed: ([WW 2016-07-24](../../raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md))
+
 **Black dot** — a daily chart signal in TC2000 that marks an oversold bounce in an up-trending stock. Conditions: the daily 10.1 stochastic was ≤25 in any of the past 3 days; current price > prior day's price; stock is above its 30-day average or its 21-day exponential average. Only useful in stocks already in up-trends. Dr. Wish especially values a black dot that occurs after a GLB. Introduced: ([WW 2021-06-13](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
 
 **BWR** — "Blue White Red" — the opposite of [RWB](#rwb): on a weekly or daily GMMA chart, the shorter-term moving averages (red) are below the longer-term averages (blue), and the weekly close (gray dotted line) is below all 12 averages. Indicates a declining index or stock. Also called a "submarine stock." Dr. Wish uses BWR on QQQ/SPY to identify bear markets and avoid being long. First appearance: ([WW 2010-09-27](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md)); daily BWR introduced: ([WW 2018-11-25](../../raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md))
@@ -38,6 +46,10 @@ Every term Dr. Wish coins or uses, defined in a sentence or two, with a first-ap
 **DITM (deep in-the-money call option)** — a call option with a strike price well below the current stock price, so that the option price closely tracks the stock's dollar movement. Dr. Wish uses DITM calls to control expensive stocks ($80+) at roughly 10–20% of the stock's cost. Key discipline: do not use the lower cost to buy *more* shares than you could otherwise afford — use it to reduce capital outlay for the same effective exposure. ([WW 2011-07-25](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
 
 **GLB (Green Line Breakout)** — a buy signal triggered when a stock breaks above its all-time high after that high held as resistance for 3 or more months (the "green line"). Confirmed by the closing price, not intraday price. See [green-line-breakouts.md](green-line-breakouts.md). First formal description: ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
+
+**Gap-up scan** — a TC2000 scan for stocks that had a large-volume gap-up day within the past 25 trading days and are now potentially setting up a BOS-type entry. Formula: `L>H1 and V=maxv20 and H=MaxH10` (gap up; highest volume in 20 days; highest price in 10 days) applied as "true within the last 25 bars." Introduced: ([WW 2022-12-04](../../raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md))
+
+**Green dot** — a TC2000 chart signal marking the possible start of a new short-term up-trend in a stock. Dr. Wish references it alongside the black dot as an entry signal after a brief decline within an up-trend. Referenced: ([WW 2020-09-06](../../raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md))
 
 **GMI (General Market Index)** — Dr. Wish's 0–6 composite of market conditions. GREEN (≥ 4) = be long; RED (≤ 3) = be defensive. Six binary components each worth one point. See [gmi.md](gmi.md). Introduced: ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md))
 
@@ -119,4 +131,8 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 - [WW 2021-02-28 — $TWTR: GLB and WGB indicators](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md) ([summary](../sources/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
 - [WW 2021-06-13 — TraderLion conference; black dot signals; GMI=6](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md) ([summary](../sources/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
 - [WW 2024-05-27 — ANF worked example (weekly green bar)](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md) ([summary](../sources/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
+- [WW 2016-06-05 — Introducing BOS (Bounce off Support)](../../raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md) ([summary](../sources/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md))
+- [WW 2016-07-24 — BOS mechanics: Bollinger Band bounce and stop placement](../../raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md) ([summary](../sources/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md))
+- [WW 2020-09-06 — Bollinger Bands: entry and extension signals](../../raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md) ([summary](../sources/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md))
+- [WW 2022-12-04 — TC2000 gap-up scan; $TMDX $TMUS](../../raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md) ([summary](../sources/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md))
 - [WW 2025-03-30 — Day 24 of QQQ down-trend; IWM at beginning of Stage 4](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md) ([summary](../sources/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))

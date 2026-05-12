@@ -1,16 +1,19 @@
 ---
 title: Green Line Breakouts (GLB)
 type: entity
-updated: 2026-05-11
+updated: 2026-05-12
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
   - raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md
   - raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
+  - raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md
+  - raw/posts/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
   - raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md
   - raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md
+  - raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md
   - raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md
 ---
 
@@ -30,6 +33,18 @@ Dr. Wish illustrated this with Microsoft's 1990–2000 run: MSFT formed multiple
 
 Before formally naming the GLB concept, Dr. Wish described it in his strategy posts: he buys stocks that are "at all-time highs" and specifically notes an exception he loves — "a rocket that has reached new heights, fallen back for a while, and then has the power to regain lost ground and burst through to a new high." ([WW 2005-04-30](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md)) The green line formalizes exactly this pattern on a monthly chart.
 
+### Overhead supply — the mechanism that makes GLBs significant
+
+A 2021 post (written specifically for a freshmen class) states the rationale precisely: people who bought the stock near the prior ATH watched it go down or sideways for months and "only want to get their money back by selling if the stock rises back to near where they purchased it." This constitutes "overhead supply or selling pressure all the way back up to the green line." If a stock can overcome all that supply and break out to an ATH, it is showing "considerable buying interest and technical strength." ([WW 2021-01-24](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))
+
+### The Darvas "no exceptions" rule
+
+In 2017, Dr. Wish cited Darvas's own text: asked directly whether a stock needed to always be at an all-time high, Darvas answered "no exceptions to this criterion." Darvas also required a stock to have **already doubled in the past year** — a predictor of future gains. Dr. Wish adopted both principles and built the GLB concept around them. He traces his switch from Darvas's daily-price boxes to monthly charts as his way of solving the whipsaw problem: the daily-box approach "did not work well for me because it led to a lot of whip-sawing of prices." Switching to monthly bars filtered out noise. ([WW 2017-07-02](../../raw/posts/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md))
+
+### GLB origin — the 1960s observation
+
+Dr. Wish traces the GLB concept to a monthly stock-chart book he received in the 1960s. He noticed that stocks that reached an ATH, declined for a few months, and then went on to a new ATH "were often big gainers." Many years later he formalized this into the green line system. ([WW 2021-01-24](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))
+
 ## How he uses it
 
 - Run a scan on stocks at a **new 52-week high**; then inspect each to see if it has broken above a green-line base. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
@@ -46,6 +61,8 @@ Dr. Wish uses the **daily closing price** to define GLB success or failure. A st
 ### The stop rule for GLB positions
 
 Dr. Wish uses a **mental stop** rather than a hard stop for GLB positions. He sells if the stock **closes** any day below its green line. He does not stop out on intraday dips that recover above the green line by the close. The mental-vs-hard distinction exists specifically to avoid whipsaws on volatile days. ([WW 2020-12-27](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
+
+**No hard stop — mental stop only:** Dr. Wish explicitly does NOT set a hard stop loss order for a GLB position. "I do not set a stop loss for a GLB to avoid being sold out when a stock trades intraday below the green line only to close the day above it." He monitors near the close each day and exits if it looks like the stock will close below the green line. ([WW 2021-01-24](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))
 
 **Strict immediacy (2018):** "I have a strict rule to sell a stock immediately if it comes back below its green line. No hesitation or remorse, because I believe that each loss brings me to the next gain." He explicitly endorses buying back the same stock after a new confirmed GLB — no ego, no abandonment of a researched name just because the first timing failed. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
 
@@ -81,6 +98,20 @@ The GLB's intellectual ancestor is Darvas's box system and his preference for bu
 Darvas's explicit principles (from his 1977 book): check the market trend; check the industry group's strength; only buy a stock that is rising in price on volume. His 1960 account does not emphasize market-trend assessment as a prerequisite — his stops would passively remove him from bad markets through repeated failed trades. Dr. Wish notes this discrepancy and argues that the market-trend gate is load-bearing. ([WW 2005-10-09](../../raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md))
 
 Dr. Wish's implication for GLBs: they should be expected to work best when the broader market is itself at or near all-time highs, not when it is well below prior peaks. Written in 2005 (Nasdaq still ~59% below its 2000 peak), he warned that outstanding growth-stock returns might not be achievable until markets returned to historic peaks "maybe in 2016." ([WW 2005-10-09](../../raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md))
+
+## Patience after a GLB — the PNRA and FIZZ case (2017)
+
+Chart patterns make patience look easy in retrospect. Dr. Wish documented the psychological challenge with PNRA: after a GLB to an ATH on above-average volume, PNRA went sideways for approximately 23 days. "In reality it often means that we buyers need to have incredible patience to hold on" — you "do not know what the outcome will be."
+
+The daily RWB pattern helped: PNRA "never closed below all of its red lines (RLC never equalled 0)" during the 23-day consolidation. Even when the daily low (purple dot on the chart) dipped into the white space between the red and blue lines 4 times, the *close* always recovered within the red lines — not an exit signal.
+
+After a GLB, two hold signals apply simultaneously:
+1. The stock has not closed below the green breakout line (hard floor).
+2. The daily RWB RLC has not equalled 0 (no close below all red lines).
+
+FIZZ (National Beverage, another 2017 example) shows the opposite case: an ideal GLB that had a perfect 12/12/6/6 daily RWB from before the breakout, with no consolidation whatsoever — it just kept rising. Not all GLBs require patience; some prove themselves quickly. ([WW 2017-04-02](../../raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md))
+
+Jesse Livermore: "it was his sitting tight not his trading that made him big money." ([WW 2017-04-02](../../raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md))
 
 ## The GLB in the daily RWB system (2017)
 
@@ -139,4 +170,7 @@ Run it on a ticker: `ww compute green-line MSFT` — Microsoft has set (and brok
 - [WW 2017-12-17 — A strategy for deciding when to sell stocks; GDS, NVDA](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md) ([summary](../sources/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
 - [WW 2018-05-20 — Green line breakout (GLB) explained; GMI remains Green](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md) ([summary](../sources/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
 - [WW 2020-12-27 — Buying IPOs with GLB and WGB signal; $PGNY $TSLA](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md) ([summary](../sources/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
+- [WW 2017-04-02 — Patience after a GLB: PNRA and FIZZ](../../raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md) ([summary](../sources/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md))
+- [WW 2017-07-02 — GLB: the sine qua non of rocket stocks; $SHOP, $SQ, $BABA, $Z, $FB, $BZUN](../../raw/posts/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md) ([summary](../sources/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md))
+- [WW 2021-01-24 — GLB origin; overhead supply rationale; 6 recent examples](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md) ([summary](../sources/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))
 - [WW 2021-02-28 — $TWTR: GLB and WGB indicators](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md) ([summary](../sources/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))

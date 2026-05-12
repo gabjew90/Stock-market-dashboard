@@ -1,7 +1,7 @@
 ---
 title: Risk & cash
 type: concept
-updated: 2026-05-11
+updated: 2026-05-12
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
@@ -14,6 +14,7 @@ sources:
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md
   - raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md
+  - raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md
   - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
   - raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md
 ---
@@ -45,6 +46,7 @@ Historical examples he credits to this discipline:
 - Exited in **2000** when the QQQQ's 30-week average reversed downward. Re-entered in **2003** when it reversed upward. ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
 - **2008:** Moved all pension money to a money market fund in **early June 2008** after examining weakness in Dow 30 stocks. By October 2008, GMI and GMI-R were at 0 and T2108 hit 6% — the third-lowest reading going back to 1986. His pension was fully in cash. ([WW 2008-10-06](../../raw/posts/2008-10-06-gmi-0-gmi-r-0-current-financial-mess-predicted-in-nyt-in-1999-t2108-at-extreme-low-6-my-gmi-indicators-kept-m.md)) Re-entered in April 2009 when GMI hit 4 and the 10-week average crossed above the 30-week average. Moved 15% of pension from money market to a growth mutual fund initially. ([WW 2009-06-14](../../raw/posts/2009-06-14-how-my-general-market-indicator-gmi-kept-me-and-my-401k-out-of-the-bear-market.md))
 - Described himself as having "successfully dodged the 98 bear, the 2000-2002 bear and most of the present decline" (written April 2005). ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md))
+- **2020:** GMI turned Red on February 26, 2020. By the time of that Red signal, Dr. Wish had already been 100% cash for weeks. He was out through the COVID crash (March 2020) — SPY showed large weekly selling volume and the beginning of what he identified as a Weinstein Stage 4 decline. He explicitly did not try to call the bottom: "I do not care if I miss the bottom or the top. There is plenty of room to make money in between." He re-entered *after* indicators confirmed a new up-trend, gradually, at ever-higher prices. ([WW 2020-03-15](../../raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md))
 - **2025:** GMI turned Red on February 24, 2025. IWM's 10-week average crossed below its 30-week average in March 2025 — Dr. Wish identified this as a likely Stage 4 onset and transferred pension accumulations out of mutual funds. Held SQQQ (inverse QQQ) and TWM (inverse IWM) as small short positions. ([WW 2025-03-30](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
 
 ## Position management within a bull market
@@ -118,4 +120,5 @@ Dr. Wish distinguishes between two accounts. His **trading IRA** follows the tac
 - [WW 2014-08-03 — GMI 10-Day New High Indicator; T2108; AAPL](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md) ([summary](../sources/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
 - [WW 2014-10-13 — 11th day of QQQ down-trend; how long will this decline last?](../../raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md) ([summary](../sources/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md))
 - [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
+- [WW 2020-03-15 — Livermore: Amputation without anaesthetics; 2020 exit at GMI=0](../../raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md) ([summary](../sources/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md))
 - [WW 2025-03-30 — Day 24 of QQQ down-trend; IWM at beginning of Stage 4](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md) ([summary](../sources/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))

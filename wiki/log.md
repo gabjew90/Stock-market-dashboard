@@ -81,3 +81,27 @@ schema. No posts ingested yet — `raw/posts.jsonl` has ~4,655 rows, all
 ## [2026-05-11] ingest | 2015-02-01 Red, White and Blue (RWB): the rocket pattern — tier=teaching; touched: methodology/moving-average-rules.md (Guppy GMMA attribution, confirmed EMA periods, red-line convergence caution, code Caveat updated to confirmed), sources/2015-02-01-red-white-and-blue-rwb-the-rocket-pattern-and-gldaapl-and-the-dow-30-nyse-bear.md
 
 ## [2026-05-11] note | wiki v1 complete — Plans 1-5 done; methodology/playbook/history pages all populated & cited; literate indicator code + GMI/T2108 + ww compute; ww search/ww index; corpus fully tiered; ww lint clean; 112 tests. Next: more long_form ingest passes + Plan 6 (backtest).
+
+## [2026-05-12] ingest | 2016-06-05 Introducing BOS alerts; GMI at 6; RTN — tier=teaching; touched: methodology/stock-selection.md (BOS strategy section), methodology/glossary.md (BOS entry), history/timeline.md (June 2016 section), sources/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md
+
+## [2026-05-12] ingest | 2016-07-24 How I buy rocket stocks bouncing off support; HII — tier=teaching; touched: methodology/stock-selection.md (BOS mechanics, Bollinger Band entry signal), methodology/glossary.md (Bollinger Band 15.2 entry), sources/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md
+
+## [2026-05-12] ingest | 2017-04-02 Patience after a GLB; PNRA and FIZZ — tier=trade_example; touched: methodology/green-line-breakouts.md (Patience after a GLB section), history/timeline.md (April 2017 section), sources/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md
+
+## [2026-05-12] ingest | 2017-07-02 GLB the sine qua non of rocket stocks; SHOP SQ BABA Z FB BZUN — tier=teaching; touched: methodology/green-line-breakouts.md (Darvas no-exceptions, overhead supply, origin, six worked examples), history/timeline.md (July 2017 section), sources/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md
+
+## [2026-05-12] ingest | 2017-09-04 BGNE example of stock purchase setup for new students — tier=teaching; touched: methodology/stock-selection.md (three-chart analysis chain), history/timeline.md (September 2017 section), sources/2017-09-04-bgne-example-of-a-stock-purchase-set-up-for-my-new-students-gmi-green.md
+
+## [2026-05-12] ingest | 2018-01-15 Why I like RWB daily charts; HRI OLLI NKTR — tier=teaching; touched: methodology/moving-average-rules.md (daily RWB bounce scan section), history/timeline.md (January 2018 section), sources/2018-01-15-why-i-like-rwb-daily-charts-hri-olli-and-nktr.md
+
+## [2026-05-12] ingest | 2018-01-21 Why buying stocks over $100 is more profitable — tier=teaching; touched: methodology/stock-selection.md ($100+ expanded with 85%/95% data and Wyckoff quote), history/timeline.md (January 2018 section), sources/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md
+
+## [2026-05-12] ingest | 2020-03-15 Livermore: Amputation without anaesthetics; COVID exit — tier=teaching; touched: methodology/risk-and-cash.md (2020 exit case study), history/track-record.md (February-March 2020 section), history/timeline.md (March 2020 section), sources/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md
+
+## [2026-05-12] ingest | 2020-09-06 How I use Bollinger Bands; Nasdaq100 breadth foreshadowed decline — tier=teaching; touched: methodology/moving-average-rules.md (Bollinger Bands as timing overlay), methodology/glossary.md (Bollinger Band 15.2, green dot entries), history/timeline.md (September 2020 section), sources/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md
+
+## [2026-05-12] ingest | 2021-01-24 GLB origin (1960s); overhead supply; no hard stop — tier=teaching; touched: methodology/green-line-breakouts.md (GLB origin, overhead supply, no-hard-stop, IPO adjustment), history/timeline.md (January 2021 section), sources/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md
+
+## [2026-05-12] ingest | 2022-12-04 TC2000 gap-up scan; TMDX and TMUS — tier=teaching; touched: methodology/stock-selection.md (gap-up scan added), methodology/glossary.md (gap-up scan entry), history/timeline.md (December 2022 section), sources/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md
+
+## [2026-05-12] note | fourth ingest batch complete — 11 posts ingested (IDs: 7174, 7421, 8969, 9412, 9790, 10797, 10830, 17604, 19055, 20101, 24853); pages extended: methodology/stock-selection.md (BOS strategy, three-chart chain, gap-up scan, $100+ 2018 data), methodology/green-line-breakouts.md (Darvas no-exceptions, overhead supply, GLB origin, no-hard-stop, patience-post-GLB), methodology/moving-average-rules.md (daily RWB bounce scan, Bollinger Band 15.2 overlay), methodology/risk-and-cash.md (2020 COVID exit), methodology/glossary.md (Bollinger Band 15.2, BOS, gap-up scan, green dot), history/timeline.md (8 new sections: June 2016, July/Sep/Jan 2017-18, Mar/Sep 2020, Jan 2021, Dec 2022), history/track-record.md (February-March 2020 COVID exit); 11 new source summary pages; total ingested ~45 teaching/trade_example posts.

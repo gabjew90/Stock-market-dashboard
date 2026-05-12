@@ -1,7 +1,7 @@
 ---
 title: Track record — calls & outcomes
 type: history
-updated: 2026-05-11
+updated: 2026-05-12
 sources:
   - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
@@ -11,6 +11,7 @@ sources:
   - raw/posts/2008-11-12-gmi-0-gmi-r-0-qqqq-short-term-down-trend-51-new-global-dow-index.md
   - raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md
   - raw/posts/2018-12-23-time-for-cash.md
+  - raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md
   - raw/posts/2022-05-22-blog-post-day-28-of-qqq-short-term-down-trend-gmi0-and-red-i-exited-in-november-and-do-not-have-to-catch-the.md
   - raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md
 ---
@@ -98,6 +99,18 @@ The timeline confirms GMI remained at 0 / Red through the end of 2018 before rec
 
 ---
 
+## February–March 2020 — COVID exit to 100% cash before the crash
+
+**The call:** On **15 March 2020** — near the trough of the COVID crash — Dr. Wish published a post titled "Livermore: Amputation without anaesthetics." He disclosed that the GMI had gone **Red on 26 February 2020** and that he had been **100% in cash for weeks before that** signal, having identified warning signs ahead of the official GMI flip. He described SPY as being in "a clear Stage 4 decline" on the weekly chart. He explicitly stated: "I do not care if I miss the bottom or the top" and wrote that for tax-deferred accounts he had moved entirely to money market funds. ([WW 2020-03-15](../../raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md))
+
+**Signal used:** GMI going Red + weekly Stage 4 identification on SPY. He also noted that T2108 had hit **3%** by mid-March — an extreme oversold reading consistent with capitulation.
+
+**Livermore quote used:** "It never was my thinking that made the big money for me. It always was my sitting."
+
+**Outcome:** SPY bottomed on 23 March 2020. The COVID crash was among the fastest bear-market declines in history (-34% from peak to trough in about 33 days). Being 100% cash weeks before the GMI Red signal — and before the March decline accelerated — preserved capital through the sharp leg down.
+
+---
+
 ## November 2021 — Exit at QQQ peak on breadth divergence
 
 **The call:** In November 2021, while QQQ was still at all-time highs (Day U-26 of the short-term up-trend), Dr. Wish noticed that new lows in his US stock universe were surging. On **22 November 2021** — which proved to be QQQ's exact peak — he recorded 438 new lows while QQQ was at an ATH. He exited the market. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
@@ -167,6 +180,7 @@ Based on 939 daily-update posts with a parseable GMI value (out of 1,797 total, 
 - [WW 2008-11-12 — GMI: 0; QQQQ down-trend: 51; New Global Dow Index](../../raw/posts/2008-11-12-gmi-0-gmi-r-0-qqqq-short-term-down-trend-51-new-global-dow-index.md)
 - [WW 2016-01-10 — All world stock markets entering BWR down-trends](../../raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md) ([summary](../sources/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md))
 - [WW 2018-12-23 — Time for cash (GMI=0, T2108=5.65%)](../../raw/posts/2018-12-23-time-for-cash.md)
+- [WW 2020-03-15 — Livermore: Amputation without anaesthetics; COVID exit](../../raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md) ([summary](../sources/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md))
 - [WW 2022-05-22 — Day 28 of QQQ down-trend; GMI=0; I exited in November](../../raw/posts/2022-05-22-blog-post-day-28-of-qqq-short-term-down-trend-gmi0-and-red-i-exited-in-november-and-do-not-have-to-catch-the.md)
 - [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 - [WW 2025-03-30 — Day 24 of QQQ down-trend; IWM at beginning of Stage 4](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md) ([summary](../sources/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))

@@ -1,7 +1,7 @@
 ---
 title: Stock selection
 type: concept
-updated: 2026-05-11
+updated: 2026-05-12
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
@@ -11,9 +11,15 @@ sources:
   - raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md
   - raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
+  - raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md
+  - raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md
   - raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md
+  - raw/posts/2017-09-04-bgne-example-of-a-stock-purchase-set-up-for-my-new-students-gmi-green.md
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
+  - raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md
+  - raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md
   - raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md
+  - raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md
   - raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md
 ---
 
@@ -54,10 +60,16 @@ Dr. Wish focuses on high-priced stocks and frames it in dollar-move terms, not p
 
 **Empirical backing:** he ran a TC2000 scan of all stocks that advanced $25 or more in the prior 30 days. Result: 90% (19/21 stocks) were priced above $80 thirty days earlier; 17 of 21 were above $100. During that period GOOG rose +$101, AAPL +$61, ISRG +$63. ([WW 2011-07-25](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
 
-Additional reasoning:
-- A 20% move in a $100 stock is $20 — enough room to pyramid; in a $10 stock it is only $2. ([WW 2005-06-05](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md))
-- High-frequency traders are less likely to play in expensive stocks (capital requirement).
-- High price signals sustained institutional demand.
+A 2018 update strengthened the finding: among the top 20 largest dollar-gainers over the prior 30 trading days in a universe of 4,865 stocks (all gaining >$54), **85% were priced above $100** thirty days before the gain. The next 20 were **95% above $100**. The rare exceptions were all above $45. ([WW 2018-01-21](../../raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md))
+
+Richard Wyckoff quantified the mechanics: a $150 stock averages 2.5 points of daily fluctuation vs. a $50 stock averaging only 1 point — 2.5× more action per dollar invested. ([WW 2018-01-21](../../raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md))
+
+Additional reasoning for the $100+ preference:
+1. Institutions bid them up — big institutional sponsorship is load-bearing.
+2. Harder (more expensive) to manipulate or whipsaw than cheap stocks.
+3. There is time to accumulate a position in stages as it rises — easier to pyramid.
+4. Smaller universe of stocks over $100 to monitor.
+5. A 20% move in a $100 stock is $20; in a $10 stock it is only $2 — same percentage, very different dollar outcome. ([WW 2005-06-05](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md), [WW 2018-01-21](../../raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md))
 
 **How to access expensive stocks with limited capital:** Dr. Wish uses **deep in-the-money (DITM) call options** — near-month calls with 3–6 weeks to expiration that cost roughly 10–20% of the stock's price but move dollar-for-dollar with the stock above the break-even. He never uses this leverage to buy *more* shares than he could have afforded outright; the DITM option reduces capital outlay for the same effective share count, not a way to oversize the position. See [glossary: DITM](glossary.md) for the mechanics. ([WW 2011-07-25](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
 
@@ -87,6 +99,29 @@ For market-wide assessment using the same tool: monitor QQQ, SPY, and DIA RLCs. 
 Dr. Wish also runs a weekly scan for "green bar" setups — stocks bouncing off the rising 4-week average. Criteria: weekly 10.4 stochastic above 80 for at least 5 weeks; 4wk > 10wk > 30wk; stock up ≥ 50% from a year ago; reached a recent ATH; had a green bar the most recent week. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
 
 The weekly approach gives more entry opportunities than waiting for a bounce off the 10-week average: in ANF's 2023–2024 up-trend, the 4-week average generated 20+ green-bar entries vs. only 4 bounces off the 10-week average. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
+
+## BOS (Bounce off Support) — the preferred alternative to buying at the GLB (introduced 2016)
+
+Dr. Wish introduced the **BOS (Bounce off Support)** strategy in mid-2016 and described it as his *preferred* alternative to buying stocks at the exact moment of a GLB. The GLB occurs when a stock first crosses its green line — at that point, it is typically not oversold. BOS waits for a rocket stock to pull back to a support level and then bounce up, allowing a tighter stop.
+
+The statement is explicit: "I actually like this strategy better than trading GLBs." ([WW 2016-06-05](../../raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md))
+
+**The BOS setup requires:**
+
+1. A strong, rising rocket stock (RWB pattern, above its last green line top).
+2. A market in an up-trend (GMI on Buy signal or QQQ short-term up-trend active).
+3. The stock has pulled back to support and is bouncing up.
+4. **Primary oversold signal:** the stock's daily low has traded down to or below the **lower 15.2 Bollinger Band** (a 15-day moving average ± 2 standard deviations). ([WW 2016-07-24](../../raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md))
+
+**Entry and stop mechanics:**
+
+- Buy on strength — if the stock trades above the prior day's high (i.e., the bounce is confirmed with upward price action).
+- Place a GTC sell stop immediately and automatically, just below the low of the bounce (e.g., slightly below the low that touched the Bollinger Band). This keeps losses small because the stop is very close to the entry.
+- "Each small loss brings me closer to the next big gain — no ego allowed." ([WW 2016-07-24](../../raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md))
+
+After a BOS entry, if the stock holds and advances, Dr. Wish can add to the position so that the few large winners more than offset the many small losses. He also tweets BOS alerts intraday (@WishingWealth), specifying the symbol and the price at which the trade would be considered failed. ([WW 2016-06-05](../../raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md))
+
+Additional entry support levels for BOS (besides the 15.2 BB): bounces off the 30-day, 50-day, or 8-day moving average also qualify. See the [BGNE trade example (WW 2017-09-04)](../../raw/posts/2017-09-04-bgne-example-of-a-stock-purchase-set-up-for-my-new-students-gmi-green.md) for a full three-chart (monthly/weekly/daily) BOS setup procedure.
 
 ## GLB as the entry trigger
 
@@ -118,7 +153,13 @@ The black dot only works on stocks already in a confirmed up-trend. He often com
 - [WW 2011-07-25 — My strategy for trading stocks that will advance $25 per share in a month](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md) ([summary](../sources/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
 - [WW 2012-04-30 — How I find the next AAPL growth stock; new GMI buy signal](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md) ([summary](../sources/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
 - [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
+- [WW 2016-06-05 — Introducing BOS (Bounce off Support)](../../raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md) ([summary](../sources/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md))
+- [WW 2016-07-24 — BOS mechanics: the Bollinger Band bounce and stop placement](../../raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md) ([summary](../sources/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md))
 - [WW 2017-03-19 — How I use daily RWB charts to size up the market and individual stocks](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md) ([summary](../sources/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
+- [WW 2017-09-04 — BGNE: monthly/weekly/daily trade setup example](../../raw/posts/2017-09-04-bgne-example-of-a-stock-purchase-set-up-for-my-new-students-gmi-green.md) ([summary](../sources/2017-09-04-bgne-example-of-a-stock-purchase-set-up-for-my-new-students-gmi-green.md))
 - [WW 2017-12-17 — A strategy for deciding when to sell stocks; GDS, NVDA](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md) ([summary](../sources/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
+- [WW 2018-01-21 — Why buying stocks over $100 is more profitable](../../raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md) ([summary](../sources/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md))
+- [WW 2020-09-06 — Bollinger Bands: entry and extension signals](../../raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md) ([summary](../sources/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md))
 - [WW 2021-06-13 — TraderLion conference; black dot signals; GMI=6](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md) ([summary](../sources/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
+- [WW 2022-12-04 — TC2000 gap-up scan; $TMDX $TMUS](../../raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md) ([summary](../sources/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md))
 - [WW 2024-05-27 — ANF worked example (weekly green bar)](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md) ([summary](../sources/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))

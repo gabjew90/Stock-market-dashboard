@@ -1,7 +1,7 @@
 ---
 title: Moving-average rules
 type: entity
-updated: 2026-05-11
+updated: 2026-05-12
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
@@ -17,6 +17,9 @@ sources:
   - raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md
   - raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md
   - raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md
+  - raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md
+  - raw/posts/2018-01-15-why-i-like-rwb-daily-charts-hri-olli-and-nktr.md
+  - raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md
   - raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md
   - raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md
 ---
@@ -130,6 +133,28 @@ This means the buy-entry criteria on the daily RWB chart are more demanding than
 
 **Mental stops on daily charts:** prefer to avoid whipsaws by assessing positions near the close each day and using mental (not hard) stops. Purple dots show where the daily low has been; if the stock's low dips into the white space but the close is still within the red lines, it is often a whipsaw that does not warrant an exit. ([WW 2017-03-26](../../raw/posts/2017-03-26-market-rally-over-my-refined-strategy-for-timing-exits-and-entries-recent-glb-lite.md))
 
+### Daily RWB bounce scan (2018 variant) — the stop-calculation method
+
+A specific TC2000 scan (named "12252017BounceRWBdaily" in the Dr. Wish club) identifies stocks that **recently closed below all six red lines then closed back above all of them**. This is the classic "resumed advance after a brief pullback" entry. ([WW 2018-01-15](../../raw/posts/2018-01-15-why-i-like-rwb-daily-charts-hri-olli-and-nktr.md))
+
+**Stop-calculation method:** the lowest red line on the daily chart (the 15-day EMA) is shown in large digits in the chart header. The dollar distance between the current price and the value of the lowest red line is the approximate maximum loss if a position is entered at market and the trade fails. For example: stock at 65.62, lowest red line at 63.13 → maximum risk ≈ $2.49/share. This provides a concrete dollar risk estimate before entering.
+
+**Exit rule from this variant:** "If a stock closes back below all of its red lines for 1 or 2 days, I consider the break-out to have failed and I exit." Note: this wording allows for 2 consecutive closes below all red lines before exiting — slightly more patient than some other descriptions. Dr. Wish acknowledges that selling too soon after a brief dip below the red lines has cost him profitable trades. ([WW 2018-01-15](../../raw/posts/2018-01-15-why-i-like-rwb-daily-charts-hri-olli-and-nktr.md))
+
+### Bollinger Bands as a timing overlay (2020)
+
+Dr. Wish uses **15-day Bollinger Bands** (15-day MA ± 2 standard deviations) as an entry and extension signal alongside the RWB chart. Key signals:
+
+- Stock trading above the upper BB after a consolidation → breakout confirmation.
+- Stock that has been rising hits or exceeds the upper BB → potential end of the short-term move; caution.
+- Stock declining to or below the lower BB → BOS (Bounce off Support) entry opportunity.
+
+**Market-breadth cross-check:** when >50% of Nasdaq 100 stocks trade above their upper BB on the same day, it signals an extended market likely to pull back. When >40% trade below the lower BB, an oversold bounce is probable. ([WW 2020-09-06](../../raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md))
+
+### Daily RWB 12/12/6/6 notation explained
+
+The notation format used on daily RWB chart headers (e.g., "12/12/6/6") means: TLC/TLC-on-weekly/RLC/BLC. A "12/12/6/6" reading = TLC=12 (perfect daily alignment), 12/12 on weekly (all 12 weekly MAs aligned), RLC=6, BLC=6. A "12/9/6/6" means the weekly has only 9 of 12 MAs aligned. Diminishing white space between red and blue lines (visible on the chart) is a caution signal even if the counts remain high. ([WW 2017-04-02](../../raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md))
+
 ## Code — stages, the WGB, and the Guppy bands
 
 Three small functions cover the runnable pieces ([`src/ww/indicators/`](../../src/ww/indicators/)).
@@ -193,5 +218,8 @@ Run them: `ww compute stage QQQ` · `ww compute wgb TSLA` · `ww compute rwb QQQ
 - [WW 2018-11-25 — I'm back! Daily BWR pattern for $QQQ, weekly RWB pattern gone](../../raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md) ([summary](../sources/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md))
 - [WW 2020-12-27 — Buying IPOs with GLB and WGB signal; $PGNY $TSLA](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md) ([summary](../sources/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
 - [WW 2021-02-28 — $TWTR: GLB and WGB indicators](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md) ([summary](../sources/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
+- [WW 2017-04-02 — Patience after a GLB: PNRA and FIZZ; 12/12/6/6 notation](../../raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md) ([summary](../sources/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md))
+- [WW 2018-01-15 — RWB daily bounce scan: entry, stop calculation, exit rule](../../raw/posts/2018-01-15-why-i-like-rwb-daily-charts-hri-olli-and-nktr.md) ([summary](../sources/2018-01-15-why-i-like-rwb-daily-charts-hri-olli-and-nktr.md))
+- [WW 2020-09-06 — Bollinger Bands: entry and extension signals](../../raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md) ([summary](../sources/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md))
 - [WW 2024-05-27 — ANF worked example (weekly green bar)](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md) ([summary](../sources/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
 - [WW 2025-03-30 — Day 24 of QQQ down-trend; IWM at beginning of Stage 4](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md) ([summary](../sources/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
