@@ -38,10 +38,11 @@ whose markdown file already exists are skipped (use `--force` to rewrite).
 
 ## Status
 
+- **Status:** Plans 1–5 complete. Corpus fully tiered (31 teaching/example posts ingested with full wiki content; ~4,460 daily-update posts → raw/timeline.parquet; ~149 long_form teaching posts queued for future ingest passes). Remaining: Plan 6 (backtest harness — needs its own design).
 - **Plan 1** (raw-sources layer / scraper) — done. `ww scrape` mirrors the blog into `raw/`.
 - **Plan 2** (wiki bootstrap) — done. `CLAUDE.md` schema + `wiki/` skeleton (stubs + templates) + `ww lint` + CI.
 - **Plan 2.5** (timeline parser) — done: `ww timeline` builds `raw/timeline.parquet` (his published GMI / GMI-state / QQQ-day-count / T2108 / stance, parsed from the ~daily posts; low-confidence rows flagged); backs `history/track-record.md` and stands alone for charting/backtesting his signals.
-- **Plan 3** (the Ingest loop) — machinery in place (`ww batch`, `update_records`); ingest is ongoing — the methodology pages fill in batch by batch. See `CLAUDE.md` §4 for the protocol.
+- **Plan 3** (the Ingest loop) — corpus fully tiered as of 2026-05-11 (every post has a tier). 31 teaching/trade_example posts fully ingested. ~149 long_form teaching posts queued for future passes. See `CLAUDE.md` §6 for the state and §4 for the protocol.
 - **Plan 4** (literate indicator code) — done for the price-based indicators: `src/ww/indicators/` (green_line, ma_stages, wgb, guppy/RWB-BWR-RLC, qqq_timing-approx) + `ww compute`; embedded in the methodology pages.
 - **Plan 4b** (GMI / T2108) — done: `src/ww/indicators/gmi.py` (the 6-component composite — QQQ/SPY/QQQ-weekly trend computed from free prices; the breadth/fund components flagged unavailable) + `src/ww/indicators/t2108.py` (provider-delegated + a `t2108_from_prices` helper) + `--demo` mode; embedded in the methodology pages. Reproducing real historical GMI/T2108 needs a bulk-equity / breadth data feed (a later phase) — also the prerequisite for the planned strategy backtest (Plan 6).
 - **Plan 5** (search + Query loop) — done: `ww index` / `ww search` (local BM25 over wiki + posts, cited hits); the Query workflow is documented in `CLAUDE.md` §4.

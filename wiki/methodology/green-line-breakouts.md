@@ -9,6 +9,7 @@ sources:
   - raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
+  - raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md
   - raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md
   - raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md
 ---
@@ -36,6 +37,7 @@ Before formally naming the GLB concept, Dr. Wish described it in his strategy po
 - The [RWB pattern](stock-selection.md) on the weekly chart is the visual confirmation that a stock qualifies as a genuine rocket — it should be RWB before buying.
 - As soon as he draws the green line he sets a **TC2000 alert** (valid one year) to notify him when the stock trades above the line. ([WW 2020-12-27](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
 - He only buys stocks that are **above their last green line top** — any stock below its most recent ATH has overhead supply. ([WW 2021-02-28](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
+- **"Already doubled" attribute (helpful but not required):** he likes the stock to have already doubled from its lowest price over the past year before the GLB. Darvas observed that a stock that has recently doubled is likely to double again; as a psychologist Dr. Wish frames this as "the best predictor of a person's future behavior is his/her past behavior," applied to stocks. IPOs are excepted from this screen. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
 
 ### Confirming a GLB: closing price matters
 
@@ -44,6 +46,14 @@ Dr. Wish uses the **daily closing price** to define GLB success or failure. A st
 ### The stop rule for GLB positions
 
 Dr. Wish uses a **mental stop** rather than a hard stop for GLB positions. He sells if the stock **closes** any day below its green line. He does not stop out on intraday dips that recover above the green line by the close. The mental-vs-hard distinction exists specifically to avoid whipsaws on volatile days. ([WW 2020-12-27](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
+
+**Strict immediacy (2018):** "I have a strict rule to sell a stock immediately if it comes back below its green line. No hesitation or remorse, because I believe that each loss brings me to the next gain." He explicitly endorses buying back the same stock after a new confirmed GLB — no ego, no abandonment of a researched name just because the first timing failed. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
+
+### Adding to winners — pyramiding to the 30-week average
+
+Once a GLB is working, Dr. Wish explicitly discusses pyramiding (adding to) the position. The exit rule for a **pyramided GLB position** is different from the initial stop: hold until the stock **closes below its rising 30-week average** — a longer, more patient hold than the green-line mental stop used at entry. Re-entry at the 4-week or 10-week MA during the advance is also acceptable, provided the investor sets a reasonable stop. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
+
+**GLB Tracker list:** Dr. Wish maintained a sidebar list of stocks with recent GLBs (updated to Friday of the GLB week). The list was a sentiment instrument — a way to track how many recent GLBs were continuing to advance — not a buy list. Stocks on it still required individual evaluation. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
 
 ## The IPO GLB — a high-probability variant
 
@@ -127,5 +137,6 @@ Run it on a ticker: `ww compute green-line MSFT` — Microsoft has set (and brok
 - [WW 2010-02-22 — How to use IBD 100 and New America stocks to find rocket stocks](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md) ([summary](../sources/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
 - [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 - [WW 2017-12-17 — A strategy for deciding when to sell stocks; GDS, NVDA](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md) ([summary](../sources/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
+- [WW 2018-05-20 — Green line breakout (GLB) explained; GMI remains Green](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md) ([summary](../sources/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
 - [WW 2020-12-27 — Buying IPOs with GLB and WGB signal; $PGNY $TSLA](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md) ([summary](../sources/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
 - [WW 2021-02-28 — $TWTR: GLB and WGB indicators](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md) ([summary](../sources/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))

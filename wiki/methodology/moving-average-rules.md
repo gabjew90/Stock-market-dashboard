@@ -9,8 +9,10 @@ sources:
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md
   - raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md
+  - raw/posts/2015-02-01-red-white-and-blue-rwb-the-rocket-pattern-and-gldaapl-and-the-dow-30-nyse-bear.md
   - raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md
   - raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md
+  - raw/posts/2017-03-26-market-rally-over-my-refined-strategy-for-timing-exits-and-entries-recent-glb-lite.md
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
   - raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md
   - raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md
@@ -64,8 +66,12 @@ For individual stocks, a weekly close below the **rising 10-week average** is an
 
 For stock selection, Dr. Wish uses the weekly GMMA (Guppy Multiple Moving Average) chart. The chart overlays 12 exponential moving averages — a band of 6 shorter-term averages shown in red, and a band of 6 longer-term averages shown in blue. A gray dotted line shows the weekly closing price.
 
+**Origin:** Dr. Wish adapted this method from **Daryl Guppy's GMMA** (Guppy Multiple Moving Average). The exact EMA periods he uses on weekly charts are: **short (red): 3, 5, 8, 10, 12, 15 weeks; long (blue): 30, 35, 40, 45, 50, 60 weeks**. The same construction can be applied on daily, hourly, or monthly charts by substituting "days" for "weeks." ([WW 2015-02-01](../../raw/posts/2015-02-01-red-white-and-blue-rwb-the-rocket-pattern-and-gldaapl-and-the-dow-30-nyse-bear.md))
+
 - **RWB (Red White Blue):** shorter-term red averages are above the longer-term blue averages, with white space between them; both sets are rising. This is the rocket/bull pattern. ([WW 2010-09-27](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
 - **BWR (Blue White Red):** the reverse — red averages are below the blue averages; the gray dotted line (weekly close) is below all 12 averages; both bands declining. This is the submarine/bear pattern. ([WW 2018-11-25](../../raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md))
+
+**Red-line convergence as a caution signal:** when the shorter-term red averages converge (3-week avg ≈ 5-week avg ≈ 10-week avg), it means the stock has been flat over all those timeframes simultaneously — a sign of extreme caution regardless of whether the stock is technically above the blue lines. ([WW 2015-02-01](../../raw/posts/2015-02-01-red-white-and-blue-rwb-the-rocket-pattern-and-gldaapl-and-the-dow-30-nyse-bear.md))
 
 **Precision (2016):** a BWR is fully confirmed when the weekly close (gray dotted line) is below all 12 moving averages. A first sign of a new up-trend would be the gray dotted line closing back above all 12 averages — though Dr. Wish prefers to see the full RWB pattern develop before trading big on a trend change. ([WW 2016-01-10](../../raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md))
 
@@ -108,11 +114,21 @@ This approach captured most of the advance in TSLA after its GLB: 6 of 8 WGBs we
 
 Introduced / formalized by March 2017. In addition to the weekly GMMA, Dr. Wish uses a **daily** version of the 12-exponential-MA chart. The shorter-term averages (6 red EMAs) and longer-term averages (6 blue EMAs) are the same construction on a daily timeframe. He adds:
 
-- **Red Line Count (RLC):** the count (0–6) of red lines that the daily close is above. Displayed on the chart header. RLC = 6 = full bullish; RLC = 0 = below all red lines (caution). ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
+- **TLC (Total Line Count):** the count (0–12) of the 12 EMAs that the daily close is above, where each successive average is also higher than the next longer average. TLC=12 is a perfect score — the stock is above all 12 averages AND they are themselves stacked in ascending order, confirming a full daily RWB pattern. Displayed on the chart header as "TLC/RLC/BLC," e.g., "12/6/6." ([WW 2017-03-26](../../raw/posts/2017-03-26-market-rally-over-my-refined-strategy-for-timing-exits-and-entries-recent-glb-lite.md))
+- **RLC (Red Line Count):** the count (0–6) of red lines that the daily close is above. RLC = 6 = full bullish; RLC = 0 = below all red lines (first caution signal). ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
+- **BLC (Blue Line Count):** the count (0–6) of blue lines that the daily close is above. If RLC=0 but BLC=6, the overall uptrend may still be intact — caution but not immediate exit. If any red line crosses below a blue line, the white space disappears; that is an exit signal. ([WW 2017-03-26](../../raw/posts/2017-03-26-market-rally-over-my-refined-strategy-for-timing-exits-and-entries-recent-glb-lite.md))
 - **Purple dots:** a plot of each day's low price, shown as purple dots below the candles. These visualize where daily support has been and help identify where to place stops. ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
 - The **lowest red line** (the 15-day EMA, shown in large digits on the chart) is the specific dollar-level stop. If the stock closes below that value, the red line signal is broken. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
 
 The weekly chart shows the longer-term trend but is too slow for timing entries and exits — that is the reason he shifted to daily RWB charts for timing. ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
+
+### Daily RWB buy scan — Bollinger Band / low-stochastics bounce
+
+Dr. Wish's TC2000 scan for daily RWB entries looks for **TLC=12** (full RWB pattern) combined with **RLC recovering back to 6** after a period of weakness, PLUS either a lower Bollinger Band bounce **or** low stochastics in the last 5 days. The logic: find stocks that are in a confirmed RWB up-trend, pulled back to an oversold level, and have just resumed the advance (RLC back to 6). ([WW 2017-03-26](../../raw/posts/2017-03-26-market-rally-over-my-refined-strategy-for-timing-exits-and-entries-recent-glb-lite.md))
+
+This means the buy-entry criteria on the daily RWB chart are more demanding than simply "TLC=12" — the scan waits for a brief pullback (Bollinger Band or stochastics oversold) followed by recovery, rather than chasing a stock already deep into an advance.
+
+**Mental stops on daily charts:** prefer to avoid whipsaws by assessing positions near the close each day and using mental (not hard) stops. Purple dots show where the daily low has been; if the stock's low dips into the white space but the close is still within the red lines, it is often a whipsaw that does not warrant an exit. ([WW 2017-03-26](../../raw/posts/2017-03-26-market-rally-over-my-refined-strategy-for-timing-exits-and-entries-recent-glb-lite.md))
 
 ## Code — stages, the WGB, and the Guppy bands
 
@@ -149,7 +165,7 @@ def weekly_green_bars(weekly_ohlc):
 
 `wgb_trailing_stop(weekly_ohlc)` returns the `low` of the most recent WGB — the trailing-stop level.
 
-**The Guppy bands** ([`guppy.py`](../../src/ww/indicators/guppy.py)) build the 12 EMAs and classify RWB / BWR / transition, plus the Red Line Count. **Caveat:** Dr. Wish never published the exact EMA periods, so the code uses the standard TC2000 GMMA defaults — short (red) 3/5/8/10/12/15, long (blue) 30/35/40/45/50/60; the band-over-band logic and the "close below all 12 = BWR" rule follow his prose.
+**The Guppy bands** ([`guppy.py`](../../src/ww/indicators/guppy.py)) build the 12 EMAs and classify RWB / BWR / transition, plus the Red Line Count. The EMA periods used are the TC2000 GMMA defaults — short (red) 3/5/8/10/12/15, long (blue) 30/35/40/45/50/60 — which Dr. Wish confirmed he uses in his 2015 post. ([WW 2015-02-01](../../raw/posts/2015-02-01-red-white-and-blue-rwb-the-rocket-pattern-and-gldaapl-and-the-dow-30-nyse-bear.md))
 
 Run them: `ww compute stage QQQ` · `ww compute wgb TSLA` · `ww compute rwb QQQ` (add `--weekly` for the weekly Guppy).
 
@@ -169,8 +185,10 @@ Run them: `ww compute stage QQQ` · `ww compute wgb TSLA` · `ww compute rwb QQQ
 - [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 - [WW 2014-08-03 — GMI 10-Day New High Indicator; T2108; AAPL](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md) ([summary](../sources/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
 - [WW 2014-10-13 — 11th day of QQQ down-trend; how long will this decline last?](../../raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md) ([summary](../sources/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md))
+- [WW 2015-02-01 — Red, White and Blue (RWB): the rocket pattern](../../raw/posts/2015-02-01-red-white-and-blue-rwb-the-rocket-pattern-and-gldaapl-and-the-dow-30-nyse-bear.md) ([summary](../sources/2015-02-01-red-white-and-blue-rwb-the-rocket-pattern-and-gldaapl-and-the-dow-30-nyse-bear.md))
 - [WW 2016-01-10 — All world stock markets entering BWR down-trends](../../raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md) ([summary](../sources/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md))
 - [WW 2017-03-19 — How I use daily RWB charts to size up the market and individual stocks](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md) ([summary](../sources/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
+- [WW 2017-03-26 — Refined strategy for timing exits and entries (TLC/RLC/BLC)](../../raw/posts/2017-03-26-market-rally-over-my-refined-strategy-for-timing-exits-and-entries-recent-glb-lite.md) ([summary](../sources/2017-03-26-market-rally-over-my-refined-strategy-for-timing-exits-and-entries-recent-glb-lite.md))
 - [WW 2017-12-17 — A strategy for deciding when to sell stocks; GDS, NVDA](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md) ([summary](../sources/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
 - [WW 2018-11-25 — I'm back! Daily BWR pattern for $QQQ, weekly RWB pattern gone](../../raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md) ([summary](../sources/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md))
 - [WW 2020-12-27 — Buying IPOs with GLB and WGB signal; $PGNY $TSLA](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md) ([summary](../sources/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))

@@ -8,6 +8,7 @@ sources:
   - raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md
   - raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md
   - raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md
+  - raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md
   - raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
 ---
@@ -87,6 +88,13 @@ If the stock holds above the red lines on the daily RWB chart and continues adva
 - Raise the stop as the stock advances.
 - Add to the position only as it moves *in your favor* — average up, never down.
 - For the weekly green bar system: add at the next bounce off the rising 4-week average with a green bar. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
+- Re-entry at the 4-week or 10-week MA during the subsequent advance is acceptable after the initial GLB, provided a reasonable stop is set. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
+
+### Exit rules for a GLB position
+
+- **Initial stop:** sell immediately (mental stop, close basis) if the stock closes below its green line. "No hesitation or remorse" — the primary reason for the position has failed. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
+- **Failed GLB, then buy-back:** after exiting a failed GLB, watching for a new confirmed GLB on the same stock is explicitly encouraged. No ego — a stock previously researched and evaluated can be bought back. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
+- **Pyramided position hold rule:** if a GLB position is successfully pyramided (averaged up over multiple entries as the stock advances), Dr. Wish suggests holding until the stock "closes below its rising 30 week average." This is a longer, more patient exit than the green-line mental stop that applies at the initial entry level. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
 
 ---
 
@@ -112,5 +120,6 @@ If the stock holds above the red lines on the daily RWB chart and continues adva
 - [WW 2017-03-19 — How I use daily RWB charts to size up the market and individual stocks](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md) ([summary](../sources/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
 - [WW 2010-02-22 — How to use IBD 100 and New America stocks to find rocket stocks](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md) ([summary](../sources/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
 - [WW 2012-04-30 — How I find the next AAPL growth stock; new GMI buy signal](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md) ([summary](../sources/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
+- [WW 2018-05-20 — Green line breakout (GLB) explained; GMI remains Green](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md) ([summary](../sources/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
 - [WW 2024-05-27 — ANF worked example (weekly green bar)](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md) ([summary](../sources/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
 - [WW 2005-04-30 — My Trading Strategy, Part II](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md)
