@@ -24,10 +24,17 @@ uv run ww compute stage QQQ
 uv run ww compute gmi 2026-05-01      # partial GMI from current prices (breadth components flagged unavailable)
 uv run ww compute gmi 2014-08-01 --demo   # full GMI against illustrative fixtures
 uv run ww timeline           # parse his daily GMI/T2108/stance posts into raw/timeline.parquet
+uv run ww index                       # build the local search index
+uv run ww search "green line breakout" # ranked, cited passages from the wiki + posts
 ```
 
 Re-running `ww scrape` is cheap — API pages are cached under `raw/api/` and posts
 whose markdown file already exists are skipped (use `--force` to rewrite).
+
+## Reading & querying it
+
+- Browse: open [`wiki/overview.md`](wiki/overview.md) and click through, or render the whole thing with `uv run --with markdown python scripts/build_wiki_html.py` (produces `wiki_site.html`).
+- Search: `ww index` once, then `ww search "..."` for ranked, cited passages across the wiki and the raw posts. Paste the results into Claude (Code or a Desktop project that has this repo) to get a synthesised, cited answer — and if the answer is durably useful, Claude files it back into the wiki as a new page (see `CLAUDE.md` §4 "Query").
 
 ## Status
 
@@ -37,7 +44,7 @@ whose markdown file already exists are skipped (use `--force` to rewrite).
 - **Plan 3** (the Ingest loop) — machinery in place (`ww batch`, `update_records`); ingest is ongoing — the methodology pages fill in batch by batch. See `CLAUDE.md` §4 for the protocol.
 - **Plan 4** (literate indicator code) — done for the price-based indicators: `src/ww/indicators/` (green_line, ma_stages, wgb, guppy/RWB-BWR-RLC, qqq_timing-approx) + `ww compute`; embedded in the methodology pages.
 - **Plan 4b** (GMI / T2108) — done: `src/ww/indicators/gmi.py` (the 6-component composite — QQQ/SPY/QQQ-weekly trend computed from free prices; the breadth/fund components flagged unavailable) + `src/ww/indicators/t2108.py` (provider-delegated + a `t2108_from_prices` helper) + `--demo` mode; embedded in the methodology pages. Reproducing real historical GMI/T2108 needs a bulk-equity / breadth data feed (a later phase) — also the prerequisite for the planned strategy backtest (Plan 6).
-- **Plan 5** (search + Query loop) — not started.
+- **Plan 5** (search + Query loop) — done: `ww index` / `ww search` (local BM25 over wiki + posts, cited hits); the Query workflow is documented in `CLAUDE.md` §4.
 - **Plan 6** (backtest harness — the end goal) — not started; needs its own design. A backtest of the GLB/WGB/Stage-2/GMI strategy with realistic costs, walk-forward validation, a buy-and-hold benchmark, and parameter-tuning hooks.
 
 The wiki structure and conventions live in [`CLAUDE.md`](CLAUDE.md).

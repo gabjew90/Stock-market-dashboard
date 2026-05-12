@@ -137,7 +137,7 @@ ask for a single-source ingest — same steps.
 
 ### Query
 1. Read `wiki/index.md`, open the relevant pages, and if needed run `ww search "..."`
-   (Plan 5) to pull supporting passages from `wiki/sources/` and `raw/posts/`.
+   to pull supporting passages from `wiki/sources/` and `raw/posts/`.
 2. Answer **with citations** (links to wiki pages and `raw/posts/...md`). Pick the
    answer form that fits — paragraph, comparison table, checklist, chart.
 3. **If the answer is durably useful** (a comparison, an analysis, a synthesised
@@ -163,7 +163,8 @@ Run `ww lint .` (mechanical) and periodically do a **semantic** pass yourself:
 `ww lint .` — mechanical wiki integrity checks.
 `ww timeline` — (Plan 2.5) build `raw/timeline.parquet` from `daily_update` posts.
 `ww compute <indicator> <ticker>` — (Plan 4) run a literate indicator.
-`ww search "..."` / `ww index` — (Plan 5) search the wiki + posts.
+`ww index` — (re)build the local BM25 search index (wiki + posts -> `data/index/wiki.pkl`).
+`ww search "..."` — ranked, cited passages from the wiki + posts (use these when answering a query — see §4 Query).
 
 ## 6. Resuming a session
 
