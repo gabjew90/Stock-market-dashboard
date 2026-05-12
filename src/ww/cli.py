@@ -17,12 +17,16 @@ from ww.indicators.breadth_provider import BreadthProvider
 from ww.maintain.lint import lint_wiki
 from ww.scrape.ingest import scrape_blog
 from ww.search.index import SearchIndex, build_index
+from ww.backtest.run import run_timing_overlay, write_wiki_page
 from ww.stats import corpus_stats
 
 app = typer.Typer(help="Wishing Wealth Wiki tooling.", no_args_is_help=True)
 
 breadth_app = typer.Typer(help="Market-breadth pipeline (universe, price panel, breadth series).", no_args_is_help=True)
 app.add_typer(breadth_app, name="breadth")
+
+backtest_app = typer.Typer(help="Backtests of Dr. Wish's strategy.", no_args_is_help=True)
+app.add_typer(backtest_app, name="backtest")
 
 
 def _breadth_dir(root: Path) -> Path:
@@ -381,6 +385,100 @@ def search(
         _safe_echo(f"\n=== [{i}] {h.citation}   (score {h.score:.2f})")
         body = h.text.strip()
         _safe_echo(body if len(body) <= 1200 else body[:1200] + " ...")
+
+
+def _load_backtest_prices(root: Path, *, tickers=("QQQ", "SPY", "TQQQ", "SQQQ")) -> pd.DataFrame:
+    """Daily close prices for the ETFs, cached under data/backtest/prices.parquet; fetched via yfinance on a miss."""
+    cache = Path(root) / "data" / "backtest" / "prices.parquet"
+    if cache.exists():
+        df = pd.read_parquet(cache); df.index = pd.to_datetime(df.index)
+        if set(tickers) <= set(df.columns):
+            return df
+    import yfinance as yf
+    raw = yf.download(list(tickers), interval="1d", period="max", auto_adjust=False, group_by="ticker", progress=False, threads=True)
+    out = {}
+    for t in tickers:
+        sub = raw[t] if isinstance(raw.columns, pd.MultiIndex) else raw
+        col = "Adj Close" if "Adj Close" in sub.columns else "Close"
+        out[t] = sub[col].astype(float)
+    df = pd.DataFrame(out).dropna(how="all"); df.index = pd.to_datetime(df.index)
+    cache.parent.mkdir(parents=True, exist_ok=True); df.to_parquet(cache)
+    return df
+
+
+def _upload_plot(path: Path) -> str | None:
+    """Upload a PNG to litterbox; return the URL (or None on failure)."""
+    import subprocess
+    try:
+        out = subprocess.run(["curl", "-s", "--max-time", "60", "-F", "reqtype=fileupload", "-F", "time=72h",
+                              "-F", f"fileToUpload=@{path}", "https://litterbox.catbox.moe/resources/internals/api.php"],
+                             capture_output=True, text=True, timeout=70)
+        url = out.stdout.strip()
+        return url if url.startswith("https://") else None
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def _fmt_cli(m: dict) -> str:
+    return (f"CAGR {m.get('cagr',0):>6.1%}  maxDD {m.get('max_drawdown',0):>6.1%}  Sharpe {m.get('sharpe',0):>5.2f}  "
+            f"Calmar {m.get('calmar',0):>5.2f}" + (f"  in-mkt {m['time_in_market']:>4.0%}" if 'time_in_market' in m else ""))
+
+
+@backtest_app.command("timing-overlay")
+def backtest_timing_overlay(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+    start: str = typer.Option("2007-01-01", "--start", help="Backtest start date."),
+    end: str = typer.Option(None, "--end", help="Backtest end date (default: today)."),
+    cost_bps: float = typer.Option(5.0, "--cost-bps", help="Round-trip cost in basis points."),
+    quick: bool = typer.Option(False, "--quick", help="Run only the default (skip the variant grid)."),
+    write_wiki: bool = typer.Option(True, "--write-wiki/--no-write-wiki", help="Write wiki/methodology/backtest-timing-overlay.md."),
+) -> None:
+    """Backtest the GMI market-state timing overlay (long QQQ when GREEN, cash when RED) vs buy-and-hold QQQ."""
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    prices = _load_backtest_prices(root)
+    res = run_timing_overlay(root, prices=prices, start=start, end=end, cost_bps=cost_bps, quick=quick)
+    end_eff = end or pd.Timestamp.today().strftime("%Y-%m-%d")
+
+    typer.echo(f"=== Timing-overlay backtest  {start} .. {end_eff}  (cost {cost_bps:.0f} bps) ===")
+    typer.echo(f"  strategy:        {_fmt_cli(res['default'])}")
+    typer.echo(f"  buy-and-hold QQQ:{_fmt_cli(res['benchmarks']['buy_hold_qqq'])}")
+    typer.echo(f"  buy-and-hold SPY:{_fmt_cli(res['benchmarks']['buy_hold_spy'])}")
+    typer.echo(f"  QQQ>30wk filter: {_fmt_cli(res['benchmarks']['qqq_30wk_filter'])}")
+    typer.echo(f"\n  >>> verdict: {res['verdict']}\n")
+    if not quick:
+        typer.echo("  variant grid:")
+        for g in res["grid"]:
+            typer.echo(f"    {g['label']:<22}{_fmt_cli(g['metrics'])}")
+
+    # plot
+    plot_url = None
+    bdir = Path(root) / "data" / "backtest"; bdir.mkdir(parents=True, exist_ok=True)
+    fig, ax = plt.subplots(figsize=(13, 7))
+    for name, eq in res["equity"].items():
+        ax.plot(eq.index, eq.values, label=name, lw=1.5 if name == "strategy" else 1.0)
+    # shade RED periods
+    sig = res["default_signal"].reindex(res["equity"]["strategy"].index).fillna(False)
+    red = ~sig
+    in_red = False
+    rs = None
+    for ts, v in red.items():
+        if v and not in_red:
+            in_red, rs = True, ts
+        elif not v and in_red:
+            in_red = False; ax.axvspan(rs, ts, color="red", alpha=0.08)
+    if in_red and rs is not None:
+        ax.axvspan(rs, red.index[-1], color="red", alpha=0.08)
+    ax.set_yscale("log"); ax.legend(); ax.set_title(f"GMI timing overlay vs buy-and-hold ({start}..{end_eff}) — verdict: {res['verdict'].split(' —')[0].split(' --')[0]}")
+    png = bdir / "equity_curve.png"; fig.tight_layout(); fig.savefig(png, dpi=110); plt.close(fig)
+    plot_url = _upload_plot(png)
+    typer.echo(f"\n  equity curve: {png}" + (f"  ->  {plot_url}" if plot_url else "  (upload failed; PNG saved locally)"))
+
+    if write_wiki:
+        page = write_wiki_page(root, res, plot_url=plot_url, period=(start, end_eff))
+        typer.echo(f"  wrote {page}")
 
 
 if __name__ == "__main__":  # pragma: no cover
