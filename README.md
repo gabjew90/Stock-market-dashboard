@@ -23,6 +23,7 @@ uv run ww compute green-line MSFT     # run a price-based indicator on a ticker
 uv run ww compute stage QQQ
 uv run ww compute gmi 2026-05-01      # partial GMI from current prices (breadth components flagged unavailable)
 uv run ww compute gmi 2014-08-01 --demo   # full GMI against illustrative fixtures
+uv run ww timeline           # parse his daily GMI/T2108/stance posts into raw/timeline.parquet
 ```
 
 Re-running `ww scrape` is cheap — API pages are cached under `raw/api/` and posts
@@ -32,7 +33,7 @@ whose markdown file already exists are skipped (use `--force` to rewrite).
 
 - **Plan 1** (raw-sources layer / scraper) — done. `ww scrape` mirrors the blog into `raw/`.
 - **Plan 2** (wiki bootstrap) — done. `CLAUDE.md` schema + `wiki/` skeleton (stubs + templates) + `ww lint` + CI.
-- **Plan 2.5** (timeline parser → `raw/timeline.parquet`) — not started.
+- **Plan 2.5** (timeline parser) — done: `ww timeline` builds `raw/timeline.parquet` (his published GMI / GMI-state / QQQ-day-count / T2108 / stance, parsed from the ~daily posts; low-confidence rows flagged); backs `history/track-record.md` and stands alone for charting/backtesting his signals.
 - **Plan 3** (the Ingest loop) — machinery in place (`ww batch`, `update_records`); ingest is ongoing — the methodology pages fill in batch by batch. See `CLAUDE.md` §4 for the protocol.
 - **Plan 4** (literate indicator code) — done for the price-based indicators: `src/ww/indicators/` (green_line, ma_stages, wgb, guppy/RWB-BWR-RLC, qqq_timing-approx) + `ww compute`; embedded in the methodology pages.
 - **Plan 4b** (GMI / T2108) — done: `src/ww/indicators/gmi.py` (the 6-component composite — QQQ/SPY/QQQ-weekly trend computed from free prices; the breadth/fund components flagged unavailable) + `src/ww/indicators/t2108.py` (provider-delegated + a `t2108_from_prices` helper) + `--demo` mode; embedded in the methodology pages. Reproducing real historical GMI/T2108 needs a bulk-equity / breadth data feed (a later phase) — also the prerequisite for the planned strategy backtest (Plan 6).
