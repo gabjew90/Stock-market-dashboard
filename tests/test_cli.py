@@ -74,3 +74,24 @@ def test_ww_batch_lists_uningested_filtered_by_kind(tmp_path: Path):
     result3 = runner.invoke(cli.app, ["batch", "--root", str(tmp_path), "-n", "1"])
     assert result3.exit_code == 0
     assert result3.stdout.count("raw/posts/") == 1
+
+
+def _write_monthly_csv(path, highs):
+    import pandas as pd
+    idx = pd.date_range("2015-01-31", periods=len(highs), freq="ME")
+    pd.DataFrame({"open": highs, "high": highs, "low": [h * 0.9 for h in highs], "close": highs}, index=idx).to_csv(path, index_label="date")
+
+
+def test_ww_compute_green_line_from_csv(tmp_path):
+    csv = tmp_path / "m.csv"
+    _write_monthly_csv(csv, [10, 20, 50, 40, 45, 30, 48, 49])   # current green line = 50, last close 49 -> no breakout
+    result = runner.invoke(cli.app, ["compute", "green-line", "TEST", "--csv", str(csv)])
+    assert result.exit_code == 0
+    assert "50" in result.stdout
+    assert "breakout" in result.stdout.lower()
+    assert "no" in result.stdout.lower()  # not a breakout
+
+
+def test_ww_compute_unknown_indicator_errors():
+    result = runner.invoke(cli.app, ["compute", "not-an-indicator", "TEST"])
+    assert result.exit_code != 0

@@ -69,5 +69,56 @@ def batch(
     typer.echo(f"# {min(n, len(records))} of {len(records)} un-ingested" + (f" ({kind})" if kind else ""))
 
 
+@app.command()
+def compute(
+    indicator: str = typer.Argument(..., help="green-line | stage | wgb | rwb | qqq-timing"),
+    ticker: str = typer.Argument(..., help="Ticker symbol (or any label if using --csv)."),
+    csv: Path = typer.Option(None, "--csv", help="Read OHLC from this CSV (date index + open,high,low,close) instead of yfinance."),
+    weekly: bool = typer.Option(False, "--weekly", help="For 'rwb': use the weekly Guppy instead of the daily one."),
+) -> None:
+    """Run one of Dr. Wish's runnable price-based indicators on a ticker (see wiki/methodology/*.md)."""
+    import pandas as pd
+    from ww.indicators import (
+        current_green_line, is_green_line_breakout, weekly_stage, ma_alignment_4_10_30,
+        tenwk_below_thirtywk, weekly_green_bars, wgb_trailing_stop, rwb_state, red_line_count,
+        short_term_trend, trend_day_count, YFinanceProvider,
+    )
+
+    # interval each indicator wants
+    interval = {"green-line": "1mo", "stage": "1wk", "wgb": "1wk", "rwb": ("1wk" if weekly else "1d"), "qqq-timing": "1d"}.get(indicator)
+    if interval is None:
+        typer.echo(f"unknown indicator '{indicator}'. Choose: green-line, stage, wgb, rwb, qqq-timing")
+        raise typer.Exit(code=2)
+
+    if csv is not None:
+        df = pd.read_csv(csv, index_col=0, parse_dates=True)
+        df.columns = [c.lower() for c in df.columns]
+    else:
+        df = YFinanceProvider().prices(ticker, interval)
+
+    if indicator == "green-line":
+        gl = current_green_line(df)
+        if gl is None:
+            typer.echo(f"{ticker}: no green line yet (has never set an ATH that held >= 3 months).")
+        else:
+            last_close = float(df["close"].iloc[-1])
+            brk = is_green_line_breakout(close=last_close, green_line=gl)
+            typer.echo(f"{ticker}: current green line = {gl:.2f}; last close = {last_close:.2f}; breakout? {'YES' if brk else 'no'}")
+    elif indicator == "stage":
+        c = df["close"]
+        typer.echo(f"{ticker}: Weinstein stage = {weekly_stage(c)}; 4>10>30 alignment? {'yes' if ma_alignment_4_10_30(c) else 'no'}; 10wk below 30wk? {'yes' if tenwk_below_thirtywk(c) else 'no'}")
+    elif indicator == "wgb":
+        wgbs = weekly_green_bars(df)
+        stop = wgb_trailing_stop(df)
+        last = wgbs.index[-1].date() if not wgbs.empty else None
+        typer.echo(f"{ticker}: {len(wgbs)} weekly green bars; most recent = {last}; current WGB trailing stop = {stop}")
+    elif indicator == "rwb":
+        c = df["close"]
+        typer.echo(f"{ticker}: {'weekly' if weekly else 'daily'} Guppy state = {rwb_state(c)}" + ("" if weekly else f"; Red Line Count = {red_line_count(c)}/6"))
+    elif indicator == "qqq-timing":
+        c = df["close"]
+        typer.echo(f"{ticker}: short-term trend ≈ {short_term_trend(c)} (Day {trend_day_count(c)}) — APPROXIMATION via 30-day SMA; Dr. Wish's exact rule is unpublished.")
+
+
 if __name__ == "__main__":  # pragma: no cover
     app()
