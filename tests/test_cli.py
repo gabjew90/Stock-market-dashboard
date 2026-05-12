@@ -118,3 +118,20 @@ def test_ww_compute_t2108_demo_prints_value():
     assert result.exit_code == 0
     assert "66.67" in result.stdout or "66.6" in result.stdout
     assert "DEMO" in result.stdout.upper()
+
+
+def test_ww_timeline_builds_parquet(tmp_path):
+    import json
+    (tmp_path / "raw" / "posts").mkdir(parents=True)
+    rows = [{"post_id": 1, "url": "u", "date": "2014-01-28T00:00:00", "slug": "a", "stem": "2014-01-28-a",
+             "title": "t", "word_count": 50, "chart_count": 0, "chart_image_urls": [], "kind_guess": "daily_update"}]
+    (tmp_path / "raw" / "posts.jsonl").write_text(json.dumps(rows[0]) + "\n", encoding="utf-8")
+    (tmp_path / "raw" / "posts" / "2014-01-28-a.md").write_text("---\nurl: u\n---\n\nDay 13 of $QQQ short term up-trend and GMI= 6.\n", encoding="utf-8")
+    result = runner.invoke(cli.app, ["timeline", "--root", str(tmp_path)])
+    assert result.exit_code == 0
+    out = tmp_path / "raw" / "timeline.parquet"
+    assert out.exists()
+    import pandas as pd
+    df = pd.read_parquet(out)
+    assert len(df) == 1 and df.iloc[0]["gmi_value"] == 6 and df.iloc[0]["qqq_day"] == 13
+    assert "1" in result.stdout  # reports row count

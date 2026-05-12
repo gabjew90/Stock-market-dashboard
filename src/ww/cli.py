@@ -7,6 +7,7 @@ import typer
 import yaml
 
 from ww.corpus.index import read_posts_jsonl
+from ww.corpus.timeline import build_timeline
 from ww.maintain.lint import lint_wiki
 from ww.scrape.ingest import scrape_blog
 from ww.stats import corpus_stats
@@ -50,6 +51,21 @@ def lint(
         typer.echo(f"{len(report.errors)} error(s), {len(report.warnings)} warning(s)")
         raise typer.Exit(code=1)
     typer.echo(f"OK — 0 errors, {len(report.warnings)} warning(s)")
+
+
+@app.command()
+def timeline(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+) -> None:
+    """Parse the daily-update posts into raw/timeline.parquet (his published GMI/T2108/stance signals over time)."""
+    df = build_timeline(root)
+    out = Path(root) / "raw" / "timeline.parquet"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    df.to_parquet(out, index=False)
+    n = len(df)
+    flagged = int((df["parse_confidence"] == "flagged").sum()) if n else 0
+    span = f"{df['date'].min().date()}..{df['date'].max().date()}" if n else "(empty)"
+    typer.echo(f"timeline: {n} daily-update rows {span} ({n - flagged} high-confidence, {flagged} flagged) -> {out}")
 
 
 @app.command()
