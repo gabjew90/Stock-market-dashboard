@@ -10,8 +10,10 @@ import yaml
 from ww.breadth.fetch import fetch_panel, update_panel
 from ww.breadth.series import build_fund_proxy, compute_breadth_series
 from ww.breadth.symbols import build_universe, download_symbol_files
+from ww.breadth.validate import validate_against_reported
 from ww.corpus.index import read_posts_jsonl
 from ww.corpus.timeline import build_timeline
+from ww.indicators.breadth_provider import BreadthProvider
 from ww.maintain.lint import lint_wiki
 from ww.scrape.ingest import scrape_blog
 from ww.search.index import SearchIndex, build_index
@@ -104,7 +106,66 @@ def breadth_show(
     by_year = bs.assign(year=bs["date"].dt.year).groupby("year")["n_broad"].median().astype(int)
     typer.echo(f"  series span: {bs['date'].min().date()}..{bs['date'].max().date()}  ({len(bs)} rows); universe size by year (median): " + ", ".join(f"{y}:{n}" for y, n in by_year.items()))
 
+@breadth_app.command("validate")
+def breadth_validate(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+) -> None:
+    """Cross-check the reconstructed T2108 and GMI against the values Dr. Wish reported (raw/timeline.parquet) -> data/breadth/validate.json."""
+    res = validate_against_reported(root)
+    t = res["t2108"]; g = res["gmi"]
+    typer.echo(f"T2108: chosen flavor = {res['chosen_flavor']}")
+    for fl in ("broad", "nyse"):
+        s = t[fl]
+        typer.echo(f"  {fl}: n={s['n']}  corr={s['corr']:.3f}  rmse={s['rmse']:.2f}  mean_bias={s['mean_bias']:+.2f}" if s.get("corr") is not None else f"  {fl}: insufficient overlap")
+    if g.get("n"):
+        typer.echo(f"GMI vs his reported: n={g['n']}  exact-match={g['exact_match_rate']:.1%}  within-±1={g['within_1_rate']:.1%}" + (f"  corr={g['corr']:.3f}" if g.get("corr") is not None else ""))
+        typer.echo("  per-value (when he said N, ours was): " + "; ".join(f"{v}->{dict(d)}" for v, d in sorted(g["per_value"].items())))
+        typer.echo("  samples: " + "; ".join(f"{s['date']}: his {s['his']} / ours {s['ours']}" for s in g["sample_side_by_sides"][:8]))
+    else:
+        typer.echo("GMI: no overlapping dates with a reported value")
+    typer.echo(f"-> {Path(root) / 'data' / 'breadth' / 'validate.json'}")
+
+
 DEFAULT_BASE_URL = "https://wishingwealthblog.com"
+
+gmi_app = typer.Typer(help="Live daily GMI from the local breadth series.", no_args_is_help=True)
+app.add_typer(gmi_app, name="gmi")
+
+
+@gmi_app.command("today")
+def gmi_today(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+    no_update: bool = typer.Option(False, "--no-update", help="Skip the `ww breadth update` refresh; use the breadth series as-is."),
+) -> None:
+    """Refresh the breadth series (unless --no-update), then print today's full 0-6 GMI breakdown."""
+    from ww.indicators import gmi as _gmi
+    if not no_update:
+        bdir = Path(root) / "data" / "breadth"
+        uni = pd.read_parquet(bdir / "universe.parquet")
+        update_panel(uni, bdir / "panel")
+        full = compute_breadth_series(bdir / "panel", uni)
+        if (bdir / "breadth_series.parquet").exists() and len(full) > 60:
+            old = pd.read_parquet(bdir / "breadth_series.parquet")
+            cutoff = full["date"].iloc[-60]
+            merged = pd.concat([old[old["date"] < cutoff], full[full["date"] >= cutoff]]).drop_duplicates(subset="date", keep="last").sort_values("date")
+        else:
+            merged = full
+        merged.to_parquet(bdir / "breadth_series.parquet", index=False)
+        proxy = build_fund_proxy()
+        proxy.to_frame().reset_index().to_parquet(bdir / "fund_proxy.parquet", index=False)
+    try:
+        bp = BreadthProvider(root)
+    except RuntimeError as exc:
+        typer.echo(str(exc)); raise typer.Exit(1)
+    d = bp._bs.index.max()
+    ds = d.strftime("%Y-%m-%d")
+    r = _gmi(bp, ds)
+    row = bp._row(ds)
+    state = "GREEN — be invested" if r.score >= 4 else ("YELLOW — neutral/cautious" if r.score == 3 else "RED — defensive")
+    typer.echo(f"=== GMI @ {d.date()} ===  score = {r.score}/6  ->  {state}")
+    for k, v in r.components.items():
+        typer.echo(f"  {'+' if v is True else ('?' if v is None else '-')} {k}")
+    typer.echo(f"  T2108-equiv ('{bp.flavor}'): {bp.pct_above_ma(('x',), 40, ds):.1f}%   |  new 52w highs/lows: {int(row['new_52w_highs'])}/{int(row['new_52w_lows'])}   |  Successful 10-Day New High: {int(row['s10_higher'])}/{int(row['s10_total'])}")
 
 
 @app.command()
@@ -182,6 +243,8 @@ def compute(
     csv: Path = typer.Option(None, "--csv", help="Read OHLC from this CSV (date index + open,high,low,close) instead of yfinance."),
     weekly: bool = typer.Option(False, "--weekly", help="For 'rwb': use the weekly Guppy instead of the daily one."),
     demo: bool = typer.Option(False, "--demo", help="For gmi/t2108: use illustrative built-in fixtures (not real data)."),
+    breadth: bool = typer.Option(False, "--breadth", help="For gmi/t2108: use the local breadth series (data/breadth/) -> a full GMI / a real T2108."),
+    root: Path = typer.Option(Path("."), "--root", help="Repo root (for --breadth)."),
 ) -> None:
     """Run one of Dr. Wish's runnable price-based indicators on a ticker (see wiki/methodology/*.md)."""
     import pandas as pd
@@ -194,6 +257,23 @@ def compute(
     if indicator in ("gmi", "t2108"):
         from ww.indicators import gmi as _gmi, t2108 as _t2108
         from ww.indicators.provider import DataUnavailable, YFinanceProvider as _YFP
+        if breadth and not demo:
+            try:
+                bp = BreadthProvider(root)
+            except RuntimeError as exc:
+                typer.echo(str(exc)); raise typer.Exit(1)
+            if indicator == "gmi":
+                r = _gmi(bp, ticker)
+                typer.echo(f"GMI on {ticker} (from local breadth series): score = {r.score}/6" + (f"  ({len(r.unavailable)} components unavailable: {r.unavailable})" if r.unavailable else " — all 6 components computed"))
+                for k, v in r.components.items():
+                    typer.echo(f"  {'+' if v is True else ('?' if v is None else '-')} {k}")
+            else:  # t2108
+                try:
+                    val = _t2108(bp, ticker, universe=("breadth-series",), window=40)
+                    typer.echo(f"T2108-equivalent on {ticker} (local breadth series, '{bp.flavor}' universe) = {val:.1f}%")
+                except Exception as exc:  # noqa: BLE001
+                    typer.echo(f"no breadth data for {ticker}: {exc}"); raise typer.Exit(1)
+            return
         if indicator == "gmi":
             if demo:
                 from ww.indicators._demo import DEMO_DATE, demo_provider

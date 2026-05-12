@@ -219,3 +219,57 @@ def test_ww_breadth_fetch_uses_mocked_downloads(tmp_path, monkeypatch):
     assert r.exit_code == 0, r.output
     assert (tmp_path / "data" / "breadth" / "universe.parquet").exists()
     assert (tmp_path / "data" / "breadth" / "panel" / "AAPL.parquet").exists()
+
+
+def test_ww_breadth_validate_writes_json_and_prints(tmp_path, monkeypatch):
+    import numpy as np
+    import pandas as pd
+    # build a tiny breadth series + timeline + a fake `validate_against_reported` is overkill — instead
+    # mock the heavy fn to a known dict so we just test the CLI plumbing + json write.
+    fake = {"chosen_flavor": "broad", "t2108": {"broad": {"n": 100, "corr": 0.9, "rmse": 5.0, "mean_bias": 0.3}, "nyse": {"n": 100, "corr": 0.85, "rmse": 9.0, "mean_bias": 4.0}},
+            "gmi": {"n": 800, "exact_match_rate": 0.6, "within_1_rate": 0.9, "corr": 0.8, "per_value": {6: {6: 500, 5: 100}}, "sample_side_by_sides": [{"date": "2008-10-10", "his": 0, "ours": 1}]}}
+    (tmp_path / "data" / "breadth").mkdir(parents=True)
+    def fake_validate(root, **kw):
+        import json
+        (Path(root) / "data" / "breadth" / "validate.json").write_text(json.dumps(fake), encoding="utf-8")
+        return fake
+    monkeypatch.setattr("ww.cli.validate_against_reported", fake_validate)
+    r = runner.invoke(cli.app, ["breadth", "validate", "--root", str(tmp_path)])
+    assert r.exit_code == 0
+    assert "broad" in r.output and "exact" in r.output.lower()
+    assert (tmp_path / "data" / "breadth" / "validate.json").exists()
+
+
+def test_ww_gmi_today_no_update(tmp_path, monkeypatch):
+    import numpy as np
+    import pandas as pd
+    bdir = tmp_path / "data" / "breadth"; bdir.mkdir(parents=True)
+    dates = pd.date_range("2026-04-01", periods=10, freq="B")
+    pd.DataFrame({"date": dates, "n_nyse": [1500]*10, "n_broad": [3000]*10, "t2108_nyse": [62.0]*10, "t2108_broad": [60.0]*10,
+                  "pct_above_50dma_broad": [58.0]*10, "pct_above_200dma_broad": [61.0]*10, "new_52w_highs": [300]*10, "new_52w_lows": [12]*10,
+                  "nasdaq_new_52w_highs": [150]*10, "nasdaq_new_52w_lows": [6]*10, "s10_total": [200]*10, "s10_higher": [160]*10, "coverage_note": [""]*10}).to_parquet(bdir / "breadth_series.parquet", index=False)
+    pd.DataFrame({"date": pd.date_range("2020-01-01", periods=600, freq="B"), "fund_proxy": [10.0 + i*0.05 for i in range(600)]}).to_parquet(bdir / "fund_proxy.parquet", index=False)
+    # mock BreadthProvider.prices so no network: monkeypatch YFinanceProvider used inside
+    import ww.indicators.breadth_provider as bpmod
+    def up(n, lo, hi, freq):
+        idx = pd.date_range("2018-01-01" if freq == "B" else "2018-01-07", periods=n, freq=freq)
+        c = [lo + (hi - lo) * j / (n - 1) for j in range(n)]
+        return pd.DataFrame({"open": c, "high": c, "low": c, "close": c, "adj_close": c, "volume": [1]*n}, index=idx)
+    class _FakeYF:
+        def prices(self, ticker, interval="1d", **kw): return up(2000 if interval == "1d" else 400, 100, 500, "B" if interval == "1d" else "W-SUN")
+    orig = bpmod.YFinanceProvider
+    bpmod.YFinanceProvider = _FakeYF
+    try:
+        r = runner.invoke(cli.app, ["gmi", "today", "--no-update", "--root", str(tmp_path)])
+    finally:
+        bpmod.YFinanceProvider = orig
+    assert r.exit_code == 0, r.output
+    assert "GMI" in r.output and "2026-04" in r.output
+    assert "t2108" in r.output.lower() or "T2108" in r.output
+
+
+def test_ww_compute_gmi_breadth_flag_falls_back_when_no_series(tmp_path):
+    # --breadth but no breadth_series -> graceful: explains it, doesn't crash
+    r = runner.invoke(cli.app, ["compute", "gmi", "2014-08-01", "--breadth", "--root", str(tmp_path)])
+    assert r.exit_code in (0, 1)
+    assert "breadth" in r.output.lower()
