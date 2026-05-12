@@ -10,7 +10,7 @@ import httpx
 
 _DEFAULT_FIELDS = "id,date,slug,link,title,content"
 _PER_PAGE = 100
-_USER_AGENT = "wishing-wealth-wiki/0.1 (research; +https://github.com/)"
+_USER_AGENT = "wishing-wealth-wiki/0.1 (personal research project)"
 
 
 def _cache_path(cache_dir: Path, page: int) -> Path:
@@ -54,8 +54,14 @@ def iter_post_pages(
                     "/wp-json/wp/v2/posts",
                     params={"per_page": per_page, "page": page, "_fields": fields, "orderby": "date", "order": "desc"},
                 )
-                if resp.status_code == 400 and resp.json().get("code") == "rest_post_invalid_page_number":
-                    break
+                if resp.status_code == 400:
+                    try:
+                        body = resp.json()
+                    except Exception:
+                        body = {}
+                    if body.get("code") == "rest_post_invalid_page_number":
+                        break
+                    resp.raise_for_status()
                 resp.raise_for_status()
                 posts = resp.json()
                 cp.write_text(json.dumps(posts, ensure_ascii=False), encoding="utf-8")

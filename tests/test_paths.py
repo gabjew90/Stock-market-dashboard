@@ -18,3 +18,7 @@ def test_post_stem_truncates_very_long_slugs():
 
 def test_post_stem_strips_unsafe_chars():
     assert post_stem("2020-01-01", "weird/slug:with*chars") == "2020-01-01-weird-slug-with-chars"
+
+
+def test_post_stem_degenerate_all_punctuation_slug():
+    assert post_stem("2020-01-01", "!!!") == "2020-01-01-post"

@@ -38,6 +38,27 @@ def test_iter_post_pages_writes_cache_files(fixtures_dir, tmp_path):
     assert cached[0]["id"] == 49378
 
 
+def test_iter_post_pages_non_json_400_raises_http_status_error(fixtures_dir, tmp_path):
+    """A 400 with a non-JSON body (e.g. CDN/WAF block) must raise HTTPStatusError,
+    not JSONDecodeError, and page 1 posts must have been yielded before the error."""
+    page1 = json.loads((fixtures_dir / "wp_api_page1.json").read_text())
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        page = int(request.url.params.get("page", "1"))
+        if page == 1:
+            return httpx.Response(200, json=page1)
+        return httpx.Response(400, text="<html>blocked</html>")
+
+    client = httpx.Client(transport=httpx.MockTransport(handler), base_url="https://example.test")
+    gen = iter_post_pages("https://example.test", cache_dir=tmp_path / "api", client=client, delay=0.0)
+    yielded = []
+    with pytest.raises(httpx.HTTPStatusError):
+        for page in gen:
+            yielded.append(page)
+    assert len(yielded) == 1
+    assert [p["id"] for p in yielded[0]] == [49378, 832]
+
+
 def test_iter_post_pages_uses_cache_without_http(fixtures_dir, tmp_path):
     cache = tmp_path / "api"
     cache.mkdir()

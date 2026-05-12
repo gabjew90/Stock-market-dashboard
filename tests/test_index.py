@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 from ww.corpus.index import PostRecord, read_posts_jsonl, write_posts_jsonl
@@ -45,5 +46,24 @@ def test_write_is_one_json_object_per_line(tmp_path: Path):
     write_posts_jsonl(path, [_rec(post_id=1), _rec(post_id=2)])
     lines = path.read_text(encoding="utf-8").splitlines()
     assert len(lines) == 2
-    import json
     assert json.loads(lines[0])["post_id"] == 1
+
+
+def test_read_ignores_unknown_jsonl_fields(tmp_path: Path):
+    """read_posts_jsonl must not crash if a JSONL line has an unknown future field."""
+    path = tmp_path / "posts.jsonl"
+    row = dict(
+        post_id=42,
+        url="https://wishingwealthblog.com/2020/01/x/",
+        date="2020-01-01T00:00:00",
+        slug="x",
+        stem="2020-01-01-x",
+        title="X",
+        word_count=5,
+        chart_count=0,
+        FUTURE_FIELD=1,
+    )
+    path.write_text(json.dumps(row) + "\n", encoding="utf-8")
+    records = read_posts_jsonl(path)
+    assert len(records) == 1
+    assert records[0].post_id == 42

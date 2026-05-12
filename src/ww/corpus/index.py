@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import json
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass, field, fields
 from pathlib import Path
 
 
@@ -37,11 +37,13 @@ def write_posts_jsonl(path: Path, records: list[PostRecord]) -> None:
 def read_posts_jsonl(path: Path) -> list[PostRecord]:
     if not path.exists():
         return []
+    known = {f.name for f in fields(PostRecord)}
     out: list[PostRecord] = []
     with path.open("r", encoding="utf-8") as fh:
         for line in fh:
             line = line.strip()
             if not line:
                 continue
-            out.append(PostRecord(**json.loads(line)))
+            data = {k: v for k, v in json.loads(line).items() if k in known}
+            out.append(PostRecord(**data))
     return out

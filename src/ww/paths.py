@@ -15,7 +15,7 @@ def post_stem(date: str, slug: str) -> str:
     whole stem truncated to `_MAX_STEM_LEN` chars (trailing `-` trimmed).
     """
     day = date[:10]
-    clean_slug = _UNSAFE.sub("-", slug.lower()).strip("-")
+    clean_slug = _UNSAFE.sub("-", slug.lower()).strip("-") or "post"
     stem = f"{day}-{clean_slug}"
     if len(stem) > _MAX_STEM_LEN:
         stem = stem[:_MAX_STEM_LEN].rstrip("-")
