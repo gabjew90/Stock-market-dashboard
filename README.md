@@ -26,6 +26,10 @@ uv run ww compute gmi 2014-08-01 --demo   # full GMI against illustrative fixtur
 uv run ww timeline           # parse his daily GMI/T2108/stance posts into raw/timeline.parquet
 uv run ww index                       # build the local search index
 uv run ww search "green line breakout" # ranked, cited passages from the wiki + posts
+uv run ww breadth fetch        # build the common-stock universe + download the daily price panel (~20-40 min, once)
+uv run ww breadth build        # compute data/breadth/breadth_series.parquet (T2108-equiv, new-highs, ...) + the growth-fund proxy
+uv run ww breadth show         # print today's breadth snapshot
+uv run ww breadth update       # incremental daily refresh (pull recent bars, recompute the tail)
 ```
 
 Re-running `ww scrape` is cheap — API pages are cached under `raw/api/` and posts
@@ -38,7 +42,8 @@ whose markdown file already exists are skipped (use `--force` to rewrite).
 
 ## Status
 
-- **Status:** Plans 1–5 complete. Corpus fully tiered (31 teaching/example posts ingested with full wiki content; ~4,460 daily-update posts → raw/timeline.parquet; ~149 long_form teaching posts queued for future ingest passes). Remaining: Plan 6 (backtest harness — needs its own design).
+- **Breadth data** — pipeline built (Plan B1): `ww breadth fetch/build/update/show` → `data/breadth/breadth_series.parquet` (T2108-equivalents NYSE & broad, 50d/200d-above ratios, new-52w-high/low counts, the Successful-10-Day-New-High fraction) + a growth-fund proxy, from the free Nasdaq Trader symbol files + yfinance. Documented limitations (survivorship, universe ≠ Worden's, growth-fund proxy ≠ real IBD index) — see `docs/specs/2026-05-11-wishing-wealth-wiki-breadth-data-design.md`. Next: Plan B2 (BreadthProvider, `ww breadth validate` vs his reported numbers, `ww compute --breadth`, `ww gmi today`, wiki updates).
+- **Status:** Plans 1–5 + B1 complete. Corpus fully tiered (31 teaching/example posts ingested with full wiki content; ~4,460 daily-update posts → raw/timeline.parquet; ~149 long_form teaching posts queued for future ingest passes). Remaining: Plan 6 (backtest harness — needs its own design).
 - **Plan 1** (raw-sources layer / scraper) — done. `ww scrape` mirrors the blog into `raw/`.
 - **Plan 2** (wiki bootstrap) — done. `CLAUDE.md` schema + `wiki/` skeleton (stubs + templates) + `ww lint` + CI.
 - **Plan 2.5** (timeline parser) — done: `ww timeline` builds `raw/timeline.parquet` (his published GMI / GMI-state / QQQ-day-count / T2108 / stance, parsed from the ~daily posts; low-confidence rows flagged); backs `history/track-record.md` and stands alone for charting/backtesting his signals.
