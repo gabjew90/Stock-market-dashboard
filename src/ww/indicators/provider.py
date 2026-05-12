@@ -38,6 +38,14 @@ class DataProvider(ABC):
         """Daily level of the IBD Mutual Fund Index (a GMI component) — not freely available."""
         raise DataUnavailable("The IBD Mutual Fund Index is not available from free sources — see wiki/methodology/gmi.md.")
 
+    def successful_10day_new_high(self, date: str) -> tuple[int, int]:  # pragma: no cover - default
+        """For stocks that hit a 52-week high 10 trading days before `date`: (#closed-higher-than-10d-ago, #total).
+
+        GMI component 1: the indicator is positive when num_higher >= 50% of num_total (the 2014 refinement;
+        the original 2005 rule was num_higher >= 100). Needs a daily new-high panel — not available from free sources.
+        """
+        raise DataUnavailable("The 'Successful 10-Day New High' count needs a daily new-high panel — see wiki/methodology/gmi.md.")
+
 
 class StubProvider(DataProvider):
     """In-memory provider for tests and offline demos. Construct with whatever fixtures you have."""
@@ -49,11 +57,13 @@ class StubProvider(DataProvider):
         nasdaq_new_highs_lows: pd.DataFrame | None = None,
         pct_above_ma: dict[tuple, float] | None = None,
         ibd_mutual_fund_index: pd.Series | None = None,
+        successful_10day_new_high: dict[str, tuple[int, int]] | None = None,
     ) -> None:
         self._prices = prices or {}
         self._nhl = nasdaq_new_highs_lows
         self._pct = pct_above_ma or {}
         self._fund = ibd_mutual_fund_index
+        self._s10 = successful_10day_new_high or {}
 
     def prices(self, ticker: str, interval: str = "1d", *, start: str | None = None, end: str | None = None) -> pd.DataFrame:
         return self._prices[(ticker, interval)]
@@ -73,6 +83,11 @@ class StubProvider(DataProvider):
         if self._fund is None:
             raise DataUnavailable("no ibd_mutual_fund_index fixture supplied to this StubProvider")
         return self._fund
+
+    def successful_10day_new_high(self, date: str) -> tuple[int, int]:
+        if date not in self._s10:
+            raise DataUnavailable(f"no successful_10day_new_high fixture for {date}")
+        return self._s10[date]
 
 
 class YFinanceProvider(DataProvider):

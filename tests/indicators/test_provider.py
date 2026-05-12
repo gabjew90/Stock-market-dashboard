@@ -42,3 +42,14 @@ def test_stub_provider_can_supply_breadth_fixtures():
 def test_dataprovider_is_abstract():
     with pytest.raises(TypeError):
         DataProvider()  # abstract — cannot instantiate
+
+
+def test_stub_provider_successful_10day_new_high():
+    sp = StubProvider(prices={}, successful_10day_new_high={"2014-08-01": (120, 200)})
+    assert sp.successful_10day_new_high("2014-08-01") == (120, 200)
+
+
+def test_stub_provider_successful_10day_new_high_missing_raises():
+    sp = StubProvider(prices={})
+    with pytest.raises(DataUnavailable):
+        sp.successful_10day_new_high("2014-08-01")
