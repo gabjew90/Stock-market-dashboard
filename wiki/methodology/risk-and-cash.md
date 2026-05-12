@@ -8,6 +8,9 @@ sources:
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md
+  - raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md
+  - raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md
+  - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
 ---
 
 # Risk & cash
@@ -52,11 +55,30 @@ He can "turn on a dime" because he uses a deep-discount broker and trades in a t
 
 The 10-week average rule applies at the individual stock level: he holds AAPL (and similar) only while it is above its rising 10-week average. A weekly close below that level is a concern. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
 
+## Stop-loss discipline — the mechanics
+
+Dr. Wish is explicit and detailed about how stops are used:
+
+- **Decide the stop before the buy.** He determines at what level he would be wrong about the trade — "assume it will go wrong, so that I can calmly prepare my risk control strategy in advance." ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
+- **Place a GTC stop immediately on fill.** As soon as the buy executes, he places a good-til-cancelled stop. Day orders expire at the close; GTC orders remain active. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
+- **Raise stops manually.** He does not use automatic trailing stops. He reviews the stock's technicals and raises the stop price manually as the position profits. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
+- **The argument for stops (not against Cramer's objection):** the greatest risk of a stop is a gap-down open that executes far below the stop price. But the alternative — holding without a stop while at work — is worse. The 2005 TASR loss is cited as a personal lesson. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
+
+He credits Nicolas Darvas's use of stop-losses as a key element of Darvas's fortune. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
+
 ## Shorting and hedging
 
 When defensive, he sometimes buys puts rather than simply going to cash. ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
 
+**Protective puts as a stop-loss alternative (2009):** during volatile bear markets, he uses put options to protect long positions instead of (or in addition to) stop-loss orders. The advantage: a put cannot be whipsawed — if the stock drops below the strike and then recovers, you still hold your shares. A stop-loss would have sold you out. The cost: the put premium raises the break-even price. ([WW 2009-03-08](../../raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md))
+
 When a new QQQ short-term down-trend begins, he often buys a small amount of the 3X bearish QQQ ETF (SQQQ), adding to it only if the down-trend lasts 5–6 days. Most QQQ short-term down-trends since 2006 have lasted less than 6 days (about one quarter last fewer than 6). ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
+
+3X leveraged ETF tactic: always start with a small position and average up only as the ETF moves in your favor. He would not add to a losing 3X ETF position. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
+
+## Breadth divergence as an early exit signal
+
+In addition to the GMI and 30-week average, Dr. Wish tracks daily new highs and new lows against the full US stock universe. A surge in new lows while the index is at highs is an early warning — the key signal behind his November 2021 exit, when new lows hit 438 on the day QQQ peaked (day U-26 of the short-term up-trend). He stayed out for over a year through the subsequent Stage 4 decline. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 
 ## T2108 as a contrarian bottom signal
 
@@ -76,8 +98,11 @@ Dr. Wish distinguishes between two accounts. His **trading IRA** follows the tac
 
 ## Sources
 
-- [WW 2005-04-23 — Let's Talk Strategy](../../raw/posts/2005-04-23-lets-talk-strategy.md)
-- [WW 2005-04-30 — My Trading Strategy, Part II](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md)
-- [WW 2005-07-17 — GMI since inception; introducing the WPM](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md)
-- [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md)
-- [WW 2014-08-03 — GMI 10-Day New High Indicator; T2108; AAPL](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md)
+- [WW 2005-04-23 — Let's Talk Strategy](../../raw/posts/2005-04-23-lets-talk-strategy.md) ([summary](../sources/2005-04-23-lets-talk-strategy.md))
+- [WW 2005-04-30 — My Trading Strategy, Part II](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md) ([summary](../sources/2005-04-30-my-trading-strategy-part-ii.md))
+- [WW 2005-07-17 — GMI since inception; introducing the WPM](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md) ([summary](../sources/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
+- [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
+- [WW 2014-08-03 — GMI 10-Day New High Indicator; T2108; AAPL](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md) ([summary](../sources/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
+- [WW 2010-03-15 — Jim Cramer on stop loss orders; how I trade the 3X ETFs](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md) ([summary](../sources/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
+- [WW 2009-03-08 — How I use put options as investment insurance](../../raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md) ([summary](../sources/2009-03-08-how-i-use-put-options-as-investment-insurance.md))
+- [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))

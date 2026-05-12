@@ -99,7 +99,10 @@ Every wiki page (NOT `index.md`, `log.md`, or `_templates/`) has:
 4. **Sources block** at the bottom — a `## Sources` heading followed by a bullet
    list of the posts the page draws from (each `- [WW YYYY-MM-DD — short title](../../raw/posts/...md)`),
    or the single line `_None yet._` if the page is a stub. `ww lint` requires the
-   `## Sources` heading on every page.
+   `## Sources` heading on every page. When a cited post has a `wiki/sources/<stem>.md`
+   summary page, append a `([summary](../sources/<stem>.md))` link after the raw-post
+   link on that same bullet — this is the **only** inbound link that prevents the
+   source-summary page from being flagged as an orphan by `ww lint`.
 5. **Literate-code pages** (the four indicator entity pages, once Plan 4 lands)
    embed runnable snippets from `src/ww/indicators/` in fenced ```python blocks and
    walk through them — code and prose together.

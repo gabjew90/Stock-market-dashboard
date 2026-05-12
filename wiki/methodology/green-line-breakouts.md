@@ -6,6 +6,9 @@ sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
+  - raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md
+  - raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md
+  - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -32,6 +35,20 @@ Before formally naming the GLB concept, Dr. Wish described it in his strategy po
 
 *Note: the post-GLB entry mechanics (5-day EMA, stop placement, target) have not been described in detail in the posts ingested so far. Future posts will fill this in.*
 
+## The Darvas lineage — the historical root of the concept
+
+The GLB's intellectual ancestor is Darvas's box system and his preference for buying stocks at all-time highs. However, Dr. Wish has documented a critical nuance: Darvas made his $2M fortune in 18 months (1957–1960) when the Dow rose 65% to all-time highs. The Darvas/O'Neil "buy at all-time highs" approach works best — possibly only spectacularly — when the market itself is at historic peaks. ([WW 2005-10-09](../../raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md))
+
+Darvas's explicit principles (from his 1977 book): check the market trend; check the industry group's strength; only buy a stock that is rising in price on volume. His 1960 account does not emphasize market-trend assessment as a prerequisite — his stops would passively remove him from bad markets through repeated failed trades. Dr. Wish notes this discrepancy and argues that the market-trend gate is load-bearing. ([WW 2005-10-09](../../raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md))
+
+Dr. Wish's implication for GLBs: they should be expected to work best when the broader market is itself at or near all-time highs, not when it is well below prior peaks. Written in 2005 (Nasdaq still ~59% below its 2000 peak), he warned that outstanding growth-stock returns might not be achievable until markets returned to historic peaks "maybe in 2016." ([WW 2005-10-09](../../raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md))
+
+## The GLB in the daily RWB system (2017)
+
+When Dr. Wish shifted to daily RWB charts for timing, the GLB concept was incorporated into the scan: stocks must be above their last green line top to be considered — any stock below its most recent ATH has overhead supply from prior holders. This screen is applied after the RWB-bounce scan produces candidates. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
+
+Example from the 2017-12-17 post: GDS had a GLB to ATH in September 2016 on the highest weekly volume since its IPO; the breakout was followed by a 3-month advance of nearly 100% before the first close below all red lines. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
+
 ## Evolution
 
 The GLB concept was present in principle from Dr. Wish's earliest 2005 strategy posts (buy at all-time highs after a base), but was not formally named and given the monthly-chart / green-line-held-3-months definition until the 2012-07-23 post, following an AAII workshop. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
@@ -45,6 +62,9 @@ The GLB concept was present in principle from Dr. Wish's earliest 2005 strategy 
 
 ## Sources
 
-- [WW 2005-04-23 — Let's Talk Strategy](../../raw/posts/2005-04-23-lets-talk-strategy.md)
-- [WW 2005-04-30 — My Trading Strategy, Part II](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md)
-- [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md)
+- [WW 2005-04-23 — Let's Talk Strategy](../../raw/posts/2005-04-23-lets-talk-strategy.md) ([summary](../sources/2005-04-23-lets-talk-strategy.md))
+- [WW 2005-04-30 — My Trading Strategy, Part II](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md) ([summary](../sources/2005-04-30-my-trading-strategy-part-ii.md))
+- [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
+- [WW 2005-10-09 — Nicolas Darvas trading techniques require markets at all-time peaks](../../raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md) ([summary](../sources/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md))
+- [WW 2010-02-22 — How to use IBD 100 and New America stocks to find rocket stocks](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md) ([summary](../sources/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
+- [WW 2017-12-17 — A strategy for deciding when to sell stocks; GDS, NVDA](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md) ([summary](../sources/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
