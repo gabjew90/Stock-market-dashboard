@@ -135,3 +135,32 @@ def test_ww_timeline_builds_parquet(tmp_path):
     df = pd.read_parquet(out)
     assert len(df) == 1 and df.iloc[0]["gmi_value"] == 6 and df.iloc[0]["qqq_day"] == 13
     assert "1" in result.stdout  # reports row count
+
+
+def _tiny_wiki(root):
+    import json
+    (root / "wiki" / "methodology").mkdir(parents=True)
+    (root / "raw" / "posts").mkdir(parents=True)
+    (root / "wiki" / "methodology" / "green-line-breakouts.md").write_text(
+        "---\ntitle: GLB\n---\n\n# Green Line Breakouts\n\nA green line is an all-time-high level held three months; the breakout is a close above it.\n\n## Sources\n\n_None._\n", encoding="utf-8")
+    (root / "raw" / "posts.jsonl").write_text(json.dumps({"post_id": 1, "url": "u", "date": "2012-07-23T00:00:00", "slug": "s", "stem": "2012-07-23-s", "title": "t", "word_count": 10, "chart_count": 0, "chart_image_urls": [], "kind_guess": "long_form"}) + "\n", encoding="utf-8")
+    (root / "raw" / "posts" / "2012-07-23-s.md").write_text("---\nurl: u\n---\n\nI draw a green line on the monthly chart.\n", encoding="utf-8")
+
+
+def test_ww_index_then_search(tmp_path):
+    _tiny_wiki(tmp_path)
+    r1 = runner.invoke(cli.app, ["index", "--root", str(tmp_path)])
+    assert r1.exit_code == 0
+    assert (tmp_path / "data" / "index" / "wiki.pkl").exists()
+    assert "chunk" in r1.stdout.lower()
+    r2 = runner.invoke(cli.app, ["search", "green line breakout", "--root", str(tmp_path)])
+    assert r2.exit_code == 0
+    assert "green" in r2.stdout.lower()
+    assert "green-line-breakouts.md" in r2.stdout or "2012-07-23" in r2.stdout
+
+
+def test_ww_search_without_index_tells_you_to_build_it(tmp_path):
+    _tiny_wiki(tmp_path)
+    r = runner.invoke(cli.app, ["search", "green line", "--root", str(tmp_path)])
+    # graceful: non-zero or a clear "run ww index" message — accept either, but it must mention index
+    assert "index" in r.stdout.lower()

@@ -10,6 +10,7 @@ from ww.corpus.index import read_posts_jsonl
 from ww.corpus.timeline import build_timeline
 from ww.maintain.lint import lint_wiki
 from ww.scrape.ingest import scrape_blog
+from ww.search.index import SearchIndex, build_index
 from ww.stats import corpus_stats
 
 app = typer.Typer(help="Wishing Wealth Wiki tooling.", no_args_is_help=True)
@@ -162,6 +163,55 @@ def compute(
     elif indicator == "qqq-timing":
         c = df["close"]
         typer.echo(f"{ticker}: short-term trend ≈ {short_term_trend(c)} (Day {trend_day_count(c)}) — APPROXIMATION via 30-day SMA; Dr. Wish's exact rule is unpublished.")
+
+
+_INDEX_REL = Path("data") / "index" / "wiki.pkl"
+
+
+@app.command()
+def index(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+) -> None:
+    """Build/rebuild the local search index over wiki/** and raw/posts/** (data/index/wiki.pkl)."""
+    idx = build_index(root)
+    out = Path(root) / _INDEX_REL
+    idx.save(out)
+    typer.echo(f"indexed {len(idx.chunks)} chunks -> {out}")
+
+
+@app.command()
+def search(
+    query: str = typer.Argument(..., help="Search query."),
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+    k: int = typer.Option(8, "-k", "--num", help="How many hits to show."),
+    source: str = typer.Option(None, "--source", help="Restrict to 'wiki' or 'posts'."),
+    since: int = typer.Option(None, "--since", help="For post hits, only year >= this."),
+) -> None:
+    """Search the wiki + raw posts; prints ranked, cited passages (paste them into Claude for the Query workflow)."""
+    idx_path = Path(root) / _INDEX_REL
+    if not idx_path.exists():
+        typer.echo("No search index found — run `ww index` first.")
+        raise typer.Exit(code=1)
+    idx = SearchIndex.load(idx_path)
+    hits = idx.search(query, top_k=k, source=source, since=since)
+    if not hits:
+        typer.echo("(no matches)")
+        return
+
+    import sys
+
+    def _safe_echo(text: str) -> None:
+        """Print text, replacing characters the terminal can't handle."""
+        try:
+            typer.echo(text)
+        except UnicodeEncodeError:
+            enc = sys.stdout.encoding or "utf-8"
+            typer.echo(text.encode(enc, errors="replace").decode(enc))
+
+    for i, h in enumerate(hits, 1):
+        _safe_echo(f"\n=== [{i}] {h.citation}   (score {h.score:.2f})")
+        body = h.text.strip()
+        _safe_echo(body if len(body) <= 1200 else body[:1200] + " ...")
 
 
 if __name__ == "__main__":  # pragma: no cover
