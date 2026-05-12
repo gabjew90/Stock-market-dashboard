@@ -14,6 +14,7 @@ sources:
   - raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md
   - raw/posts/2022-05-22-blog-post-day-28-of-qqq-short-term-down-trend-gmi0-and-red-i-exited-in-november-and-do-not-have-to-catch-the.md
   - raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md
+  - raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md
 ---
 
 # Track record — calls & outcomes
@@ -21,6 +22,12 @@ sources:
 Notable market calls Dr. Wish made on the blog and how they turned out.
 
 **Data note:** this page draws on `raw/timeline.parquet`, built by `ww timeline` from 1,797 parsed daily-update posts (2005–2026). Of those, 989 rows are high-confidence (GMI value or QQQ day-count extracted); 808 are flagged (narrative-only or image-only posts where the parser could not extract a number). Individual calls below are cited to the specific posts from which the claim is drawn; the timeline dataset is referenced for aggregate patterns. Do not read the dataset entries as a complete audit trail — some posts are image-only or paywalled during archival, and the parser is conservative.
+
+---
+
+## 1994–2009 — Trading IRA up 1,200% (13×)
+
+Writing in January 2009 at the depth of the financial crisis, Dr. Wish states that his trading IRA is up over **1,200% (13×)** since late 1994 — more than the top growth mutual fund tracked by IBD (up 382% over the same period). He escaped 2008 with only a −5% loss (vs indices −35–40%). The stated key: "I made money during the strong market rises and kept it, by being mainly out of the market during the major declines." "Conservation of capital during the inevitable market down-trends" is described as the lesson learned over 40+ years of investing. ([WW 2009-01-05](../../raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md))
 
 ---
 
@@ -184,3 +191,4 @@ Based on 939 daily-update posts with a parseable GMI value (out of 1,797 total, 
 - [WW 2022-05-22 — Day 28 of QQQ down-trend; GMI=0; I exited in November](../../raw/posts/2022-05-22-blog-post-day-28-of-qqq-short-term-down-trend-gmi0-and-red-i-exited-in-november-and-do-not-have-to-catch-the.md)
 - [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 - [WW 2025-03-30 — Day 24 of QQQ down-trend; IWM at beginning of Stage 4](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md) ([summary](../sources/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
+- [WW 2009-01-05 — 1200% IRA return; capital conservation; pension vs trading IRA](../../raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md) ([summary](../sources/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md))

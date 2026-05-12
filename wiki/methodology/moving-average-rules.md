@@ -7,6 +7,7 @@ sources:
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
   - raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md
+  - raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md
   - raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md
@@ -14,9 +15,11 @@ sources:
   - raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md
   - raw/posts/2015-02-01-red-white-and-blue-rwb-the-rocket-pattern-and-gldaapl-and-the-dow-30-nyse-bear.md
   - raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md
+  - raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md
   - raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md
   - raw/posts/2017-03-26-market-rally-over-my-refined-strategy-for-timing-exits-and-entries-recent-glb-lite.md
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
+  - raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md
   - raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md
   - raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md
   - raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md
@@ -170,6 +173,26 @@ Dr. Wish uses **15-day Bollinger Bands** (15-day MA ± 2 standard deviations) as
 
 The notation format used on daily RWB chart headers (e.g., "12/12/6/6") means: TLC/TLC-on-weekly/RLC/BLC. A "12/12/6/6" reading = TLC=12 (perfect daily alignment), 12/12 on weekly (all 12 weekly MAs aligned), RLC=6, BLC=6. A "12/9/6/6" means the weekly has only 9 of 12 MAs aligned. Diminishing white space between red and blue lines (visible on the chart) is a caution signal even if the counts remain high. ([WW 2017-04-02](../../raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md))
 
+## Guppy weekly chart as a bear-market bottom detector
+
+The Guppy/GMMA weekly chart is not only a stock-selection tool — Dr. Wish also applies it to major market indices (e.g., the Dow Jones) to evaluate whether a bear-market bottom has truly been established.
+
+**The signal:** at a genuine bull-market bottom, the shorter-term red averages must cross above the longer-term blue averages on the weekly chart. Until that cross happens, Dr. Wish assumes the weekly downtrend is intact and keeps the university pension in cash even if a daily/short-term up-trend is underway. ([WW 2009-03-29](../../raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md))
+
+**The trend hierarchy rule:** "One can trade different pots of money using different time trends." His weekly trend governs the pension. A daily up-trend within a weekly down-trend can be traded in the IRA, but he "has had more success trading consistent with the weekly trend and tends to stay mainly in cash even in my IRA during a weekly down-trend." ([WW 2009-03-29](../../raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md))
+
+**1974 comparison:** the 1974 bear market decline was similar in scope to the 2008–2009 bear. The Guppy weekly chart at the 1974 bottom showed the long-term averages moving below short-term averages for most of the decline, then reversing upward at the true bottom — the same pattern he waited for in March 2009. ([WW 2009-03-29](../../raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md))
+
+**"Plenty of time to get back in":** once a solid new up-trend has begun (Guppy confirms), there is still substantial profit available. "Contrary to the pundits, there is plenty of time for me to commit my university pension money back into the long side of the market once a solid new up-trend has begun."
+
+## Monthly RWB on bond ETFs — a macro regime indicator
+
+Dr. Wish extends the Guppy/RWB framework to **monthly** charts of bond ETFs to monitor the long-term interest-rate regime. The key insight, attributed to Martin Zweig: after the Federal Reserve raises rates several times, the equity market eventually declines. Monitoring bond ETF monthly RWB/BWR patterns allows him to identify when a sustained rate-rise regime has begun.
+
+- **SHY (iShares 1-3 Year Treasury Bond ETF):** showed a multi-year RWB pattern through approximately 2013 (declining rate era), then an RWB lasting until mid-2016, then entered a BWR pattern on the monthly chart — "for the first time since at least 2003." A monthly BWR suggests the trend "could persist for months if not years." ([WW 2018-02-25](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))
+- TC2000 also provides a direct chart of the Fed Funds rate. As of February 2018 it showed a steep RWB up-trend, confirming the bond ETF signals. ([WW 2018-02-25](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))
+- **Use in practice:** this is a monitoring framework, not a trading rule. The GMI still governs buy/sell decisions. A sustained bond-ETF BWR raises his overall caution level and leads him to "keep one foot out the door."
+
 ## Code — stages, the WGB, and the Guppy bands
 
 Three small functions cover the runnable pieces ([`src/ww/indicators/`](../../src/ww/indicators/)).
@@ -241,3 +264,6 @@ Run them: `ww compute stage QQQ` · `ww compute wgb TSLA` · `ww compute rwb QQQ
 - [WW 2020-09-06 — Bollinger Bands: entry and extension signals](../../raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md) ([summary](../sources/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md))
 - [WW 2024-05-27 — ANF worked example (weekly green bar)](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md) ([summary](../sources/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
 - [WW 2025-03-30 — Day 24 of QQQ down-trend; IWM at beginning of Stage 4](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md) ([summary](../sources/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
+- [WW 2009-03-29 — Bear market over? Guppy charts and trend hierarchy](../../raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md) ([summary](../sources/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md))
+- [WW 2016-11-20 — Weekly 4wk/10wk hold discipline; NTES and NVDA](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md) ([summary](../sources/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
+- [WW 2018-02-25 — Monthly RWB on bond ETFs; Martin Zweig Fed tightening principle](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md) ([summary](../sources/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))

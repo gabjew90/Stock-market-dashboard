@@ -26,6 +26,10 @@ sources:
   - raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md
   - raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md
   - raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md
+  - raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md
+  - raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md
+  - raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md
+  - raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md
 ---
 
 # Stock selection
@@ -134,6 +138,42 @@ After a BOS entry, if the stock holds and advances, Dr. Wish can add to the posi
 
 Additional entry support levels for BOS (besides the 15.2 BB): bounces off the 30-day, 50-day, or 8-day moving average also qualify. See the [BGNE trade example (WW 2017-09-04)](../../raw/posts/2017-09-04-bgne-example-of-a-stock-purchase-set-up-for-my-new-students-gmi-green.md) for a full three-chart (monthly/weekly/daily) BOS setup procedure.
 
+## The TSLA GLB workflow — step by step
+
+The clearest description of the full GLB detection workflow, using TSLA's April 2013 breakout as the teaching case ([WW 2013-05-20](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md)):
+
+1. **Evening scan:** run a scan for stocks hitting new 52-week highs. TSLA appeared on the new-high list on April 1, 2013.
+2. **Monthly GLB check:** immediately look at the monthly chart. TSLA closed at $43.93 on April 1 — well above its prior peak of $39.95 from March 2012. Draw the green line at $39.95.
+3. **Weekly chart:** check for confirmation via volume. TSLA's weekly volume on the breakout week was "the highest weekly volume ever" — a sign of institutional accumulation.
+4. **Daily chart:** look for a gap-up above the green line on high daily volume. TSLA gapped to a new all-time high on above-average volume on April 1.
+5. **Re-test entry:** TSLA pulled back to the green line ($39.95) after the initial breakout, giving a lower-risk second entry. If the stock closes back below the green line after the re-test, exit with a small loss.
+
+**IPO advantage:** TSLA was a recent IPO in a new growth industry (battery-powered cars). Most funds would not yet own it — therefore a large future buyer base existed. IPO stocks breaking to new ATHs often carry this advantage.
+
+**General principle:** "Why are so many people averse to buying stocks that break from a multi-month base (green line top) to a new all-time high? In the stock market I do not want to buy bargains." ([WW 2013-05-20](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md))
+
+## The biotech scan — volume plus news catalyst
+
+In addition to the general RWB/GLB scans, Dr. Wish runs a specialized scan for biotech stocks. The combination: technical unusual-volume alert + fundamental news-catalyst reading.
+
+**TC2000 scan:** each evening, scan for biotech stocks that advanced on **unusually high volume** that day. High volume in a biotech signals that someone knows something.
+
+**News-catalyst reading:** read news reports about drug companies' scheduled clinical trial presentations or FDA review dates. "Being in the research field, I know that one schedules public presentations to highlight good research results." An upcoming major presentation is a likely positive-catalyst indicator.
+
+**AGIO example (September 2014):** AGIO had a major presentation scheduled at a Leerink conference. The nightly scan had flagged it. The stock "took off" the next day. ([WW 2014-09-28](../../raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md))
+
+**General rule:** the scan produces candidates; the news determines which are worth owning. Dr. Wish maintains a growing watchlist of stocks that have appeared in the scan and monitors them over time for further technical strength. He intentionally does not publish specific output because he wants people to do their own due diligence.
+
+**3:45 PM intraday timing rule:** "I restrict most of my daily trading to around 3:45 PM when I can estimate where things will close. If I trade earlier in the day I am often whipsawed." ([WW 2014-09-28](../../raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md))
+
+## O'Neil 1995 workshop: volume over EPS
+
+From Dr. Wish's personal trading diary (November 11, 1995, copyright Dr. Eric Wish):
+
+William O'Neil at a Sheraton lecture was "advising institutional investors to buy the current fad internet stocks like C-Cube and Netscape" — contrary to his own written rules requiring high EPS. O'Neil said "volume and price action was more important than demonstrated earnings growth" and that "a dramatic rise in volume could be the most important factor." His major criterion as stated at the lecture: "stocks growing 100% in price a year or have 99 Relative Strength." ([WW 2016-10-02](../../raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md))
+
+This is consistent with Dr. Wish's own approach: the IBD composite rating (EPS + RS combined) is a filter, but volume and price action at the breakout are the actual entry signals.
+
 ## GLB as the entry trigger
 
 The buy trigger itself is the [Green Line Breakout (GLB)](green-line-breakouts.md): a stock breaking above its all-time high after holding below that level for 3+ months. Run a scan on new 52-week highs; draw in green lines; buy the GLB stocks that are also in RWB up-trends. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
@@ -179,3 +219,7 @@ The black dot only works on stocks already in a confirmed up-trend. He often com
 - [WW 2012-06-18 — 1990s trading diary; Darvas scan; stock-selection funnel](../../raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md) ([summary](../sources/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md))
 - [WW 2021-01-18 — IBD/MS growth stocks outperform; stock selection justification](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md) ([summary](../sources/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))
 - [WW 2011-02-07 — IBD as required reading; 30-day avg as stop on RWB bounce](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md) ([summary](../sources/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
+- [WW 2013-05-20 — TSLA GLB worked example; full stock-selection workflow](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md) ([summary](../sources/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md))
+- [WW 2013-06-09 — 2-for-1 method; TQQQ vs individual stocks data](../../raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md) ([summary](../sources/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md))
+- [WW 2014-09-28 — Biotech scan; news catalyst; AGIO and VRTX; 3:45 PM rule](../../raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md) ([summary](../sources/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md))
+- [WW 2016-10-02 — O'Neil 1995 workshop diary; LMAT BOS setup; two-close GLB rule](../../raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md) ([summary](../sources/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md))

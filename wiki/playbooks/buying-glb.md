@@ -1,7 +1,7 @@
 ---
 title: Playbook — buying a Green Line Breakout
 type: playbook
-updated: 2026-05-11
+updated: 2026-05-12
 sources:
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
@@ -11,6 +11,7 @@ sources:
   - raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md
   - raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
+  - raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md
 ---
 
 # Playbook — buying a Green Line Breakout
@@ -98,6 +99,21 @@ If the stock holds above the red lines on the daily RWB chart and continues adva
 
 ---
 
+## Dr. Wish's published GLB rules (student checklist)
+
+Written and published in April 2023 after missing the WING breakout — these are his own words condensed into a six-step checklist for students, with the Turtle Traders behavioral principle appended. ([WW 2023-04-24](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
+
+1. Draw a green line at a stock's peak once it has not been surpassed for **at least 3 months**.
+2. Set a **TC2000 price alert** (valid 1 year) to notify you when the stock trades back above the green line (delivered as a text message).
+3. **Buy on the day of the GLB** (or watch for a re-test). You may buy a small piece and see if the stock continues.
+4. **Hold** unless the stock *closes* back below the green line. Many times a stock trades below the green line intraday but closes back above — **do not exit on intraday dips**.
+5. If it closes below the green line: **failed GLB, exit immediately.**
+6. If it retakes the green line and closes back above it: **buy it back.**
+
+**Turtle Traders discipline:** "They had to act on every buy signal. The one signal you do not take after several fails is often the one that works." After multiple failed GLBs on the same stock, the next alert is the one most worth acting on.
+
+---
+
 ## Notes / caveats
 
 - The GLB on the **daily RWB chart** (scan for stocks that dipped below all red lines and recovered) is a distinct entry point from the monthly-chart GLB. Both require the stock to be above its last all-time high. They can be used together.
@@ -123,3 +139,4 @@ If the stock holds above the red lines on the daily RWB chart and continues adva
 - [WW 2018-05-20 — Green line breakout (GLB) explained; GMI remains Green](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md) ([summary](../sources/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
 - [WW 2024-05-27 — ANF worked example (weekly green bar)](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md) ([summary](../sources/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
 - [WW 2005-04-30 — My Trading Strategy, Part II](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md)
+- [WW 2023-04-24 — WING missed GLB confessions; written GLB rules; TC2000 alert workflow](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md) ([summary](../sources/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))

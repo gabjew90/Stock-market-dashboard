@@ -21,6 +21,13 @@ sources:
   - raw/posts/2011-08-07-crash-coming-only-3rd-day-of-new-qqq-short-term-down-trend.md
   - raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md
   - raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md
+  - raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md
+  - raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md
+  - raw/posts/2010-05-09-great-washington-worden-seminar-market-in-short-term-down-trend-mainly-in-cash.md
+  - raw/posts/2011-01-04-2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs.md
+  - raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md
+  - raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md
+  - raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md
 ---
 
 # Risk & cash
@@ -104,15 +111,54 @@ Dr. Wish distinguishes between two accounts. His **trading IRA** follows the tac
 
 However, when GMI falls to 0 he transfers pension funds to money market funds — and accepts the risk of triggering mutual fund timing penalties. He moves 60% of pension holdings at GMI=0, even after the market has already declined, arguing the weekly trend is more important than recent price action. "If the market were to turn up in the next few months I would have no regrets as I would simply hop back on at a higher level." ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
 
-## The GMI buy signal and position sizing
+## The 2-for-1 position management method
 
-When a new GMI buy signal fires (two consecutive days GMI > 3), the default position is to begin accumulating the **3X leveraged Nasdaq ETF (TQQQ)** rather than picking individual stocks. Studies spanning 2013–2020 consistently show TQQQ beats 90% or more of individual stocks during QQQ short-term up-trends. ([WW 2013-11-24](../../raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md)) Dr. Wish accumulates TQQQ *slowly*, not all at once, because he needs confirmation the up-trend will persist — "most confident if it reaches 5 days."
+Introduced from a Connors trading guide and described in June 2013 as a teaching tool for students. The method locks in some gain while leaving the remainder to run:
 
-**Exception (2021):** For the first time in 2021, a large cohort of IBD/MarketSmith growth stocks (median +24%) outperformed TQQQ (+17.6%) during a QQQ up-trend. Dr. Wish interpreted this as a signal to focus on individual growth stocks when market conditions are unusually strong and leadership is broad. ([WW 2021-01-18](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md)) The TQQQ-first rule remains the *default*; it is only overridden when specific conditions (broad leadership, IBD/MS list outperformance) are present.
+1. **Buy** the position.
+2. When the position gains enough that you are ahead by **twice your initial risk** (i.e., the position profit equals 2× the stop distance), **sell half** the position.
+3. **Move the stop on the remaining half up to the original purchase price** (breakeven).
+4. Result: some gain is banked; the remaining half cannot result in a loss — it can only gain more or exit at breakeven.
+
+Dr. Wish calls this "very elegant" for preventing the most common student failure: watching a profit turn entirely into a loss. ([WW 2013-06-09](../../raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md))
+
+## The staged pension exit protocol
+
+When the QQQ shows signs of weakening (approaching Stage 3/4), Dr. Wish exits the pension (401k/mutual fund) in stages to reduce timing error:
+
+1. **First trigger:** QQQ closes back below its 30-week average → begin moving 25% of pension from mutual funds to money market.
+2. **Each subsequent signal:** move another 25% if conditions continue to deteriorate.
+3. **Final trigger:** the 30-week average itself starts declining → move toward 100% money market.
+
+"If the market were to turn up in the next few months I would have no regrets — I would simply hop back on at a higher level." ([WW 2014-04-27](../../raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md))
+
+**GMI/QQQ divergence as a warning:** a rare situation where the GMI is on a Buy signal but the QQQ short-term down-trend persists for many days (e.g., 24 days in April 2014) is treated as a warning to tighten risk, even though the GMI has not yet flipped to Sell. ([WW 2014-04-27](../../raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md))
+
+**5-day confirmation threshold for down-trends:** Dr. Wish is more confident a new QQQ short-term down-trend will persist once it has lasted **5 days**. "Once we pass that point, trends tend to last for a while." Before Day 5, a reversal is still likely and he may not act on the pension. ([WW 2010-05-09](../../raw/posts/2010-05-09-great-washington-worden-seminar-market-in-short-term-down-trend-mainly-in-cash.md))
+
+## The GMI buy signal and TQQQ default
+
+When a new GMI buy signal fires (two consecutive days GMI > 3), the default is to begin accumulating TQQQ (see expanded data above in "The TQQQ default and year-in-review performance data"). Studies spanning 2013–2020 consistently show TQQQ beats 90%+ of individual stocks during QQQ short-term up-trends. ([WW 2013-11-24](../../raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md))
 
 ## The topping-pattern scan
 
 Dr. Wish uses a TC2007 PCF (personal criteria formula) that detects stocks and ETFs whose long-term average is *just beginning* to reverse down — distinct from stocks already in established down-trends. The same PCF flagged Enron before it collapsed. In July 2010, it flagged 91 of 951 ETFs including S&P 500, Dow 30, and most world markets. The scan is not published but is described as detecting "the beginning of reversal" in the long-term average direction. ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
+
+## Capital conservation as the long-run track record driver
+
+The most explicit self-statement of the philosophy and its results: "The key to my success is that I made money during the strong market rises **and kept it**, by being mainly out of the market during the major declines." Trading IRA up **over 1,200% (13×) since late 1994** as of January 2009 — more than the top-ranked growth mutual fund in IBD's December 2008 ranking (which was up 382% over the same period). ([WW 2009-01-05](../../raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md))
+
+Note: the 1,200% figure combines two things — strong performance during bull phases **and** preservation during 2000–2002 and 2008 bears. Either half alone would not produce the multiple.
+
+## The TQQQ default and year-in-review performance data
+
+Performance data Dr. Wish has published reinforcing the case for riding leveraged index ETFs rather than selecting individual stocks:
+
+- **2013 (Feb 28–Jun 7 GMI buy signal period):** TQQQ +28.6%, QQQ +9.4%. Only 7 of 100 Nasdaq 100 stocks beat TQQQ — and they required patience to hold. ([WW 2013-06-09](../../raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md))
+- **2010 full year:** TQQQ +66.8%, QLD (2×) +36.9%, QQQQ +19.0%. Only the top 10% of Nasdaq 100 stocks advanced 60%+. AGQ (2× silver) +182.4%. ([WW 2011-01-04](../../raw/posts/2011-01-04-2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs.md))
+- **Entry tactic:** "I especially like to buy the bullish leveraged ETF on the **first day** of a new QQQ short-term up-trend. I wade in slowly and buy more as the index confirms the trend. Most confident at day 5." ([WW 2011-01-04](../../raw/posts/2011-01-04-2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs.md))
+
+**Exception (2021):** For the first time in 2021, IBD/MS growth stocks (median +24%) outperformed TQQQ (+17.6%). Dr. Wish treated this as a signal to focus on individual growth stocks when leadership is unusually broad. The TQQQ-first rule remains the default. ([WW 2021-01-18](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))
 
 ## See also
 
@@ -142,3 +188,10 @@ Dr. Wish uses a TC2007 PCF (personal criteria formula) that detects stocks and E
 - [WW 2011-08-07 — Crash coming? 3rd day of QQQ short-term down-trend](../../raw/posts/2011-08-07-crash-coming-only-3rd-day-of-new-qqq-short-term-down-trend.md) ([summary](../sources/2011-08-07-crash-coming-only-3rd-day-of-new-qqq-short-term-down-trend.md))
 - [WW 2013-11-24 — GMI 3X ETF strategy beats IBD 50 stocks](../../raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md) ([summary](../sources/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md))
 - [WW 2021-01-18 — IBD/MS growth stocks beat TQQQ for first time](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md) ([summary](../sources/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))
+- [WW 2009-01-05 — 1200% IRA return; capital conservation; pension vs trading IRA](../../raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md) ([summary](../sources/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md))
+- [WW 2009-03-29 — Bear market over? Guppy charts and trend hierarchy](../../raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md) ([summary](../sources/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md))
+- [WW 2010-05-09 — Washington Worden seminar; submarine scan; Stage 2 pension rule](../../raw/posts/2010-05-09-great-washington-worden-seminar-market-in-short-term-down-trend-mainly-in-cash.md) ([summary](../sources/2010-05-09-great-washington-worden-seminar-market-in-short-term-down-trend-mainly-in-cash.md))
+- [WW 2011-01-04 — 2010 ETF year-in-review; TQQQ beats individual stocks](../../raw/posts/2011-01-04-2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs.md) ([summary](../sources/2011-01-04-2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs.md))
+- [WW 2013-06-09 — 2-for-1 risk management method; TQQQ outperformance data](../../raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md) ([summary](../sources/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md))
+- [WW 2014-04-27 — Staged pension exit; 30-week trigger; GMI/QQQ divergence](../../raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md) ([summary](../sources/2014-04-27-i-do-not-want-to-be-long-in-this-market.md))
+- [WW 2018-02-25 — Monthly RWB on bond ETFs; Martin Zweig Fed tightening principle](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md) ([summary](../sources/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))

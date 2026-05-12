@@ -16,6 +16,9 @@ sources:
   - raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md
   - raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md
   - raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md
+  - raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md
+  - raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md
+  - raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -126,6 +129,22 @@ When Dr. Wish shifted to daily RWB charts for timing, the GLB concept was incorp
 
 Example from the 2017-12-17 post: GDS had a GLB to ATH in September 2016 on the highest weekly volume since its IPO; the breakout was followed by a 3-month advance of nearly 100% before the first close below all red lines. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
 
+## TC2000 alert workflow and the missed GLB lesson
+
+Dr. Wish's operational workflow: as soon as he draws a green line on a monthly chart, he immediately sets a TC2000 price alert — valid for one year — to send him a text when the stock trades back above the green line. This applies to every stock he monitors.
+
+**The WING story (April 2023):** He had set 3 alerts on WING (accidentally duplicated) and received them all on April 18, 2023. He "NEVER saw these alerts" because he "was too busy with other things and too down on how the market was behaving." WING broke out on March 18, 2023 and was at an ATH by late April. He had previously incurred small losses on multiple earlier failed GLBs on WING.
+
+**The Turtle Traders rule:** The Turtle Traders "had a rule that they had to act on every buy signal. The one signal you do not take after several fails is often the one that works." Dr. Wish explicitly applies this as the lesson from the WING miss. ([WW 2023-04-24](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
+
+**Written GLB rules (as published for students in April 2023):**
+1. Draw a green line at a stock's peak once it has not been surpassed for at least 3 months.
+2. Set a TC2000 alert (valid 1 year) to notify when the stock trades back above the green line.
+3. Buy on the day of the GLB. May buy a little and see if the stock continues, or wait for a re-test.
+4. Hold unless the stock **closes** back below the green line. Many times a stock trades below the green line intraday but closes back above it — do not exit on intraday dips.
+5. If it closes below the green line: failed GLB, exit immediately.
+6. If it retakes the green line and closes back above it: buy it back.
+
 ## Evolution
 
 The GLB concept was present in principle from Dr. Wish's earliest 2005 strategy posts (buy at all-time highs after a base), but was not formally named and given the monthly-chart / green-line-held-3-months definition until the 2012-07-23 post, following an AAII workshop. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
@@ -182,3 +201,6 @@ Run it on a ticker: `ww compute green-line MSFT` — Microsoft has set (and brok
 - [WW 2021-01-24 — GLB origin; overhead supply rationale; 6 recent examples](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md) ([summary](../sources/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))
 - [WW 2021-02-28 — $TWTR: GLB and WGB indicators](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md) ([summary](../sources/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
 - [WW 2022-06-05 — Day 37 of QQQ down-trend; ATH-only philosophy; GLB re-entry after failure](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md) ([summary](../sources/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))
+- [WW 2013-05-20 — TSLA GLB worked example; full stock-selection workflow](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md) ([summary](../sources/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md))
+- [WW 2016-10-02 — O'Neil 1995 workshop diary; LMAT BOS setup; two-close GLB rule](../../raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md) ([summary](../sources/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md))
+- [WW 2023-04-24 — WING missed GLB; TC2000 alert workflow; written GLB rules](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md) ([summary](../sources/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))

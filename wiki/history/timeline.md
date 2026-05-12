@@ -50,6 +50,18 @@ sources:
   - raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md
   - raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md
   - raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md
+  - raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md
+  - raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md
+  - raw/posts/2010-05-09-great-washington-worden-seminar-market-in-short-term-down-trend-mainly-in-cash.md
+  - raw/posts/2011-01-04-2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs.md
+  - raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md
+  - raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md
+  - raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md
+  - raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md
+  - raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md
+  - raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md
+  - raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md
+  - raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md
 ---
 
 # Timeline — evolution of the methodology
@@ -104,6 +116,18 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## January 2009 — 1,200% IRA track record stated; capital conservation as core principle
+
+**"I'm up 1,200%, as my fellow boomers and college students get screwed again" (2009-01-05):** written at the start of 2009 with the 2008 bear market still fresh. Dr. Wish's most explicit early statement of his track record and philosophy. He escaped 2008 with only a −5% loss (vs indices −35–40%) by being mainly out of the market during the decline. His trading IRA is up over 1,200% (13×) since late 1994 — more than the top growth mutual fund in IBD's ranking (up 382% over the same period). The stated key: "I made money during the strong market rises and kept it, by being mainly out of the market during the major declines." IBD100 stocks were ~3× over-represented among stocks hitting new 52-week highs at that time — 50% of the 20 new-high stocks in his universe were from the IBD100 (which is only 17% of the universe). ([WW 2009-01-05](../../raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md))
+
+---
+
+## March 2009 — Guppy weekly chart as bear-market bottom detector; trend hierarchy stated
+
+**"Is the bear market over? Check out my 'Guppy' charts" (2009-03-29):** written at the early stages of the recovery from the March 2009 lows. Dr. Wish explains how he uses GMMA **weekly** charts to evaluate whether a true bull-market bottom has been established — distinct from a short-term bounce within a down-trend. He introduces his explicit three-level trend hierarchy: each trader must define their trading time interval; his primary frame is the weekly trend. He stays mainly in cash during a weekly down-trend even if a daily up-trend is underway. The Guppy/GMMA weekly bottom signal: the short-term moving averages (black) must be **above** the long-term averages (red) at a sustained bull bottom — in March 2009 this has not yet occurred. He compares to the 1974 bear market bottom and states: "Contrary to the pundits, there is plenty of time to commit university pension money back into the long side once a solid new up-trend has begun." ([WW 2009-03-29](../../raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md))
+
+---
+
 ## March 2009 — Put options as investment insurance
 
 **"How I use put options as investment insurance" (2009-03-08):** written at the March 2009 bear market bottom (T2108=7%, 1,221 new lows). Dr. Wish explains protective puts as an alternative to stop-loss orders during highly volatile markets — a put cannot be whipsawed, a stop can. The cost is the put premium. He can buy puts inside his IRA. ([WW 2009-03-08](../../raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md))
@@ -126,9 +150,21 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## May 2010 — Washington Worden seminar; Stage 2 pension rule stated precisely; submarine scan validated
+
+**"Great Washington Worden Seminar" (2010-05-09):** written after the May 5–6 market drop (prelude to the May 6 Flash Crash). Dr. Wish recaps presenting his TC2007 workflow to ~120 attendees at a Worden software workshop. He gives the most precise statement of the **Stage 2 pension rule**: he only transfers pension funds to money market when the QQQ weekly trend enters Stage 4 — defined as when the 30-week average has *curved down*. As long as the 30-week average is still rising (Stage 2), the pension stays fully invested in mutual funds, even during a short-term down-trend; he would "dollar cost average in with new contributions." Short-term down-trend confirmation threshold stated: he will be "more certain" a new down-trend is underway if it lasts 5 days. Submarine scan validated: ran the scan on April 29; all 9 resulting stocks declined, with 33% declining 17%+ (vs only 5% of Nasdaq 100 at that level). Self-described trading style: "I trade like a chicken, run from a down-trend, and conserve my capital to trade only when the odds are in my favor." ([WW 2010-05-09](../../raw/posts/2010-05-09-great-washington-worden-seminar-market-in-short-term-down-trend-mainly-in-cash.md))
+
+---
+
 ## September 2010 — RWB pattern coined
 
 **"Introducing Red White and Blue (RWB) Stocks" (2010-09-27):** the RWB weekly GMMA chart pattern is named and defined. Shorter-term MAs (red) above longer-term MAs (blue) with white space between them = rocket. Opposite = BWR = submarine. First explicit T2108 discussion: asymmetry (high T2108 less predictive than low T2108 below 10%). GMI-R mentioned alongside GMI. ([WW 2010-09-27](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
+
+---
+
+## January 2011 — 2010 year-in-review; TQQQ default established; Day-1 entry tactic
+
+**"2010 ETF Performance: why search for individual stocks when one can just ride the leveraged ETFs?" (2011-01-04):** written on Day 30 of a QQQ short-term up-trend (preceded by a 51-day up-trend — 81 of 83 prior days in an up-trend). Dr. Wish publishes a performance table for 2010: SPY +13.4%, QQQQ +19.0%, QLD (2×) +36.9%, TQQQ (3×) +66.8%, AGQ (2× silver) +182.4%. Only the top 10% of Nasdaq 100 stocks advanced 60.4% or more — nearly impossible to identify in advance; TQQQ gave that return automatically. His **Day-1 entry tactic** stated explicitly: "I especially like to buy the bullish leveraged ETF on the **first day** of a new QQQQ short-term up-trend." Position management: "I wade in slowly and only buy more as the index climbs and confirms the trend. Most confident if it reaches 5 days." Leveraged ETF advantage over mutual funds: exit intraday, use stop losses; mutual funds price at end of day and prohibit market timing. ([WW 2011-01-04](../../raw/posts/2011-01-04-2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs.md))
 
 ---
 
@@ -186,6 +222,20 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## October 1995 (diary) / October 2016 — O'Neil workshop; LMAT three-chart setup; two-close GLB failure rule
+
+**"My trading diary entry from William O'Neil's workshop in 1995" (2016-10-02):** two-section post. First, Dr. Wish quotes verbatim from his November 1995 personal trading diary (one of 200+ pages from the 1990s bull run). O'Neil was advising institutional investors to buy internet stocks like Netscape despite limited EPS — contrary to his own written rules. O'Neil stated at the lecture: "volume and price action was more important than demonstrated earnings growth." His major criterion that day: "stocks growing 100% in price a year or with 99 Relative Strength." Dr. Wish noted the tension between the written O'Neil rules and what O'Neil said in person.
+
+Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH on 8/30; the green line drawn at the prior peak; weekly RWB chart confirmed (all 6 short-term EMAs above long-term averages); IBD composite rank 99. **Two-close GLB failure rule in action:** LMAT closed above the green line twice, then traded back below for 3 days — "I immediately sell failed break-outs." A second, larger break-out followed. **BOS post-GLB entry:** bounce off the rising 30-day average and the lower daily 15.2 Bollinger Band on increased volume — "this is one of my favorite set-ups." Stop placed near the low of the bounce. ([WW 2016-10-02](../../raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md))
+
+---
+
+## November 2016 — Weekly 4wk/10wk hold discipline formalized; NTES 21-week example
+
+**"Short and long term trends now up; On using weekly charts to stay in a growth stock: $NTES" (2016-11-20):** Dr. Wish addresses the most common failure mode he observes in student traders: getting shaken out of a winner prematurely by reacting to daily chart noise. His solution: make exit decisions using only the **weekly chart** with three MAs (4wk, 10wk, 30wk). William O'Neil's approach cited — O'Neil "used only weekly charts because they more clearly revealed to him the meaningful stock trends." The **4wk/10wk hold ladder**: a strong advancing growth stock maintains 4wk > 10wk > 30wk for long periods; a weekly close below the 4wk average is a *potential* warning — raise stops or sell a small piece; a weekly close below the 10wk average is an exit signal ("Growth stocks should not close the week below their 10 week average"). Critical nuance: a stock often trades *intraweek* below its 4wk average and then closes back above — use weekly closing prices only. NTES example: 4>10>30 alignment from June through November 2016 — 21 weeks; stock rose over 40%; when it finally closed below the 4wk then the 10wk in early November, that was the exit signal. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
+
+---
+
 ## July 2017 — GLB doctrine consolidated; historical lineage from Darvas restated; six worked examples
 
 **"GLB: the sine qua non of rocket stocks" (2017-07-02):** a major consolidating post on the GLB. Dr. Wish traces the full Darvas → Livermore → Dr. Wish lineage: Darvas's "no exceptions" rule for all-time highs; his "already doubled" prerequisite; Livermore's IPO-GLB insight. He explains why he switched from Darvas's daily-price boxes to monthly charts (whipsaws). Six worked GLB examples: SHOP, SQ, BABA, Z, FB, BZUN. FB had multiple GLBs. Includes the re-entry rule: "If it retakes the green line I often buy it back." ([WW 2017-07-02](../../raw/posts/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md))
@@ -201,6 +251,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## January 2018 — $100+ price preference empirically strengthened; Wyckoff citation
 
 **"Why buying stocks over $100 is more profitable" (2018-01-21):** a standalone post quantifying the $100+ preference. Among 4,865 US stocks, 85% of the top-20 largest dollar gainers over the prior 30 trading days were priced above $100. The next-20 were 95% above $100. Richard Wyckoff's observation cited: a $150 stock averages 2.5 points of daily fluctuation vs. 1 point for a $50 stock. Five reasons given: institutional sponsorship, harder to whipsaw, time to pyramid, smaller universe, more dollars per trade. ([WW 2018-01-21](../../raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md))
+
+---
+
+## February 2018 — Monthly RWB on bond ETFs as macro regime indicator; Martin Zweig principle
+
+**"Rising interest rates suggest market to form top" (2018-02-25):** after the January/February 2018 correction, Dr. Wish applies the RWB/BWR framework to **monthly** bond ETF charts as a long-term interest-rate regime indicator. **Martin Zweig principle:** after the Fed raises rates several times, the market eventually declines — a multi-cycle pattern Dr. Wish has observed since the 1960s. **Monthly RWB on bond ETFs**: SHY (short-term bond ETF) showed an RWB pattern "through about 2013" (low-rate era); by mid-2016, SHY entered a BWR decline on the monthly chart — "for the first time since at least 2003." Monthly BWR on bonds "suggests this trend could persist for months if not years." TC2000 offers a direct chart of short-term interest rates; as of February 2018, rates were in a steep RWB up-trend. New-high count warning: only 90 US stocks hit new highs on the Friday before the post, vs 200+ per day before January 29 — breadth deteriorating. Caveat: this is a monitoring framework, not a trading rule; he still defers to the GMI for actual buy/sell decisions. ([WW 2018-02-25](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))
 
 ---
 
@@ -312,6 +368,18 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 ---
 
+## May 2013 — TSLA GLB worked example; 5-step detection workflow
+
+**"How to find a TSLA-like explosive stock before its huge advance" (2013-05-20):** with TSLA at $91.50 after its April 2013 breakout from $39.95, Dr. Wish traces the full 5-step GLB detection workflow: (1) run an evening new-high scan — TSLA appeared on April 1, 2013; (2) look at the monthly chart immediately — TSLA closed above its prior peak of $39.95 (from March 2012, more than a year earlier); (3) check the weekly chart for "the highest weekly volume ever" confirming institutional interest; (4) look for a gap-up above the green line on the daily chart on high volume; (5) watch for a re-test of the breakout level — TSLA pulled back to the green line giving a lower-risk second entry. IPO advantage explained: as a recent IPO in a new growth industry, most funds would not yet own TSLA — therefore a large future buyer base exists. Exit rule restated: "If the stock closes back below the green line we can sell with a small loss." ([WW 2013-05-20](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md))
+
+---
+
+## June 2013 — 2-for-1 risk management method introduced; TQQQ +28.6% vs QQQ +9.4%
+
+**"Up-trend intact; 2-for-1 method for managing stock market risk" (2013-06-09):** Dr. Wish introduces the **2-for-1** position management method (traced to a Connors trading guide, via Powell's Books): (1) buy a position; (2) when the position gains enough to double your initial risk (i.e., gains twice the stop distance), sell half; (3) move the stop on the remaining half up to the original purchase price (breakeven); (4) result: locked-in gain and the remaining half protected from a loss. He states this helps students avoid the most common failure mode: watching a profit turn into a loss. Data from the February 28–June 7, 2013 GMI buy signal period: TQQQ advanced +28.6%, QQQ advanced +9.4%. Only 7 of the Nasdaq 100 stocks advanced more than 29%. "Do we want to spend (waste?) our time searching for the 7% of stocks that will out-perform just holding the TQQQ?" TSLA new-high count: "TSLA has hit a new high on 14 of 49 trading days" since its April 1 breakout — illustrating how true rocket stocks keep appearing on the new-high list. ([WW 2013-06-09](../../raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md))
+
+---
+
 ## November 2013 — TQQQ vs IBD 50: ETF strategy quantified
 
 **"GMI based strategy using 3X ETFs beats IBD 50 stocks" (2013-11-24):** from the 9/4/2013 GMI buy signal to 11/22, TQQQ and UPRO each gained +30%, beating approximately 90% of IBD 50 stocks. Simply holding TQQQ beat all individual stocks that gained ≥30%. Dr. Wish's lesson: "When the GMI issues a buy signal, I should begin accumulating QLD or TQQQ instead of trying to find the rare stock that will eventually beat them." ([WW 2013-11-24](../../raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md))
@@ -321,6 +389,18 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 ## February 2014 — Covered call strategy; three concurrent GLBs
 
 **"9th day of QQQ up-trend; covered calls on GLD; GMCR, QCOR, IRBT GLBs" (2014-02-23):** explains covered call income strategy on GLD (Stage 2 ETF): sell weekly at-the-money calls at ~0.79%/week = ~3.17%/month. Explicitly notes: do not sell covered calls on rocket growth stocks (capped upside). Three concurrent GLBs shown: GMCR (new ATH base after 2009 original GLB), QCOR, IRBT. ([WW 2014-02-23](../../raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md))
+
+---
+
+## April 2014 — Staged pension exit protocol published; GMI/QQQ divergence warning
+
+**"I do not want to be long in this market" (2014-04-27):** during a 24-day QQQ short-term down-trend, Dr. Wish provides the most explicit description of his **staged 401(k)/pension exit protocol**: "I will do it in stages, maybe 25% at a time." Trigger 1: QQQ closes back below its 30-week average → begin moving from mutual funds to money market, ~25% at a time. Trigger 2: the 30-week average itself starts to decline → "move towards 100% invested in money market funds." At time of writing: QQQ at $86.19, 30-week average at $85.93 (barely above it); the 4-week average already below the 30-week — early weakening. He also identifies a rare divergence: the GMI is on a Buy signal even while the QQQ short-term down-trend is active — "This is a rare divergence." The QQQ had nearly started a new up-trend the prior week but failed: "this failure was a significant event to me." Boomer panic thesis: "With the 2000 and 2008 declines in their rear view mirrors, I suspect that most boomers who rode the market up since 2009 are going to flee at the first signs of trouble." ([WW 2014-04-27](../../raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md))
+
+---
+
+## September 2014 — Biotech scan and news-catalyst integration; AGIO example; 3:45 PM rule
+
+**"This market is not out of the woods; Finding bio-tech stars like $AGIO and $VRTX" (2014-09-28):** with GMI=1 and QQQ short-term trend turned down, Dr. Wish describes a specialized biotech scan: run a TC2000 nightly scan for biotech stocks that advanced on **unusually high volume**. The news-catalyst layer: being in the research field, he knows that "one schedules public presentations to highlight good results." Reading clinical trial presentation announcements identifies stocks where results are likely positive before they are released. AGIO had a major presentation coming at a Leerink conference — "the next day it took off." The combination: technical unusual-volume + fundamental news catalyst = pre-breakout alert. Market-state gate demonstrated: despite the scan, GMI=1 and a short-term down-trend means "I am unlikely to buy anything right now." The **3:45 PM rule** stated: "I restrict most of my daily trading to around 3:45 PM when I can estimate where things will close. If I trade earlier in the day I am often whipsawed." Breadth check used as confirming signal: 46 new highs vs 214 new lows. ([WW 2014-09-28](../../raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md))
 
 ---
 
@@ -339,6 +419,12 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 ## January 2021 — Growth stocks beat TQQQ for first time
 
 **"Many individual stocks outperformed TQQQ for the first time" (2021-01-18):** unusual result — 60% of IBD/MS growth stocks beat TQQQ during 11/5/20–1/15/21 up-trend (median +24% vs TQQQ's +17.6%). FAANG stocks declined, raising a leadership-rotation warning. Dr. Wish shifts to focus on growth stocks while managing risk with stops and position size. ([WW 2021-01-18](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))
+
+---
+
+## April 2023 — WING missed GLB; written GLB rules published; Turtle Traders discipline
+
+**"Day 26 of $QQQ short-term up-trend; $WING flies to ATH, how I missed the GLB" (2023-04-24):** Dr. Wish confesses missing the WING GLB despite having set TC2000 alerts — he received 3 text alerts on April 18 and "NEVER saw these alerts." He uses the failure as a teaching moment to publish his **written GLB rules for students**: (1) draw a green line at a stock's peak once it has not been surpassed for at least 3 months; (2) set a TC2000 price alert (valid 1 year) to notify when the stock trades back above the green line; (3) buy on the day of the GLB or watch for a re-test; (4) hold unless the stock *closes* back below the green line — do not exit on intraday dips; (5) if it closes below the green line: failed GLB, exit immediately; (6) if it retakes the green line and closes back above: buy it back. WING had several prior failed GLBs before the actual breakout. The **Turtle Traders rule cited:** the Turtle Traders had a rule that "they had to act on every buy signal. The one signal you do not take after several fails is often the one that works." APLS presented as a contrasting successful GLB that ran without looking back. TC2000 alert workflow explained: draw the green line and immediately set a price alert — good for one year — delivered as a text message. ([WW 2023-04-24](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
 
 ---
 
@@ -399,3 +485,15 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 - [WW 2021-01-18 — Individual IBD/MS stocks outperformed TQQQ for first time](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md) ([summary](../sources/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))
 - [WW 2022-04-17 — QQQ/SPY below 10-week avg; GMI Red; WGB scan criteria; trailing stop](../../raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md) ([summary](../sources/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md))
 - [WW 2022-06-05 — Day 37 of QQQ down-trend; ATH-only philosophy; GLB re-entry after failure](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md) ([summary](../sources/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))
+- [WW 2009-01-05 — 1200% IRA return; capital conservation; pension vs trading IRA](../../raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md) ([summary](../sources/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md))
+- [WW 2009-03-29 — Bear market over? Guppy charts and trend hierarchy](../../raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md) ([summary](../sources/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md))
+- [WW 2010-05-09 — Washington Worden seminar; submarine scan; Stage 2 pension rule](../../raw/posts/2010-05-09-great-washington-worden-seminar-market-in-short-term-down-trend-mainly-in-cash.md) ([summary](../sources/2010-05-09-great-washington-worden-seminar-market-in-short-term-down-trend-mainly-in-cash.md))
+- [WW 2011-01-04 — 2010 ETF year-in-review; TQQQ beats individual stocks; Day-1 entry tactic](../../raw/posts/2011-01-04-2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs.md) ([summary](../sources/2011-01-04-2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs.md))
+- [WW 2013-05-20 — TSLA GLB worked example; 5-step detection workflow](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md) ([summary](../sources/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md))
+- [WW 2013-06-09 — 2-for-1 risk management method; TQQQ +28.6% vs QQQ +9.4%](../../raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md) ([summary](../sources/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md))
+- [WW 2014-04-27 — Staged pension exit protocol; 30-week trigger; GMI/QQQ divergence](../../raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md) ([summary](../sources/2014-04-27-i-do-not-want-to-be-long-in-this-market.md))
+- [WW 2014-09-28 — Biotech scan; news-catalyst integration; AGIO and VRTX examples](../../raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md) ([summary](../sources/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md))
+- [WW 2016-10-02 — O'Neil 1995 workshop diary; LMAT BOS+GLB setup; two-close GLB rule](../../raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md) ([summary](../sources/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md))
+- [WW 2016-11-20 — Weekly 4wk/10wk hold discipline; NTES and NVDA examples](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md) ([summary](../sources/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
+- [WW 2018-02-25 — Monthly RWB on bond ETFs; Martin Zweig Fed tightening principle](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md) ([summary](../sources/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))
+- [WW 2023-04-24 — WING missed GLB confessions; written GLB rules; TC2000 alert workflow](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md) ([summary](../sources/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))

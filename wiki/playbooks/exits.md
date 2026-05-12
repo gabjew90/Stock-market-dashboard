@@ -1,7 +1,7 @@
 ---
 title: Playbook — exits
 type: playbook
-updated: 2026-05-11
+updated: 2026-05-12
 sources:
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
   - raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md
@@ -9,6 +9,7 @@ sources:
   - raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md
   - raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md
   - raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md
+  - raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md
 ---
 
 # Playbook — exits
@@ -72,13 +73,22 @@ The daily chart has 12 exponential moving averages plotted: 6 shorter-term (red)
 
 Alternatively, the pattern of purple dots (daily lows) on the chart shows recent support levels — a more conservative stop can be placed below the most recent cluster of daily lows. ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
 
-**Weekly chart trailing signals (earlier approach; still used in the weekly green bar system):**
+**Weekly chart trailing signals — the 4wk/10wk hold ladder:**
 
-- Sell if the stock **closes the week below the 10-week moving average**. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
+Dr. Wish uses three simple moving averages on the weekly chart (4wk, 10wk, 30wk) to stay in an advancing growth stock without being prematurely shaken out by daily noise. Inspiration: William O'Neil reportedly used only weekly charts because they "more clearly revealed the meaningful stock trends." ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
+
+Rules:
+- A strong growth stock maintains 4wk > 10wk > 30wk and stays near an all-time high for long stretches. During a strong advance it often goes many weeks without a weekly close below the 4wk average.
+- **4wk close violation:** weekly close below the 4wk average → potential sign of weakening. Raise stops or sell a small piece of the position; watch closely. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
+- **10wk close violation:** weekly close below the 10-week moving average → **exit the position immediately**. "Growth stocks should not close the week below their 10 week average." ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
+- **Intraweek noise rule:** a stock often trades intraweek below the 4wk average only to close the week back above it. Use weekly *closing* prices only — not intraday levels — to evaluate these rules. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
+- Worked examples: NTES held the 4>10>30 pattern for 21 weeks while advancing 40%+ in 2016. NVDA held a similar pattern through its major 2016 advance. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
+
+Also applies in the weekly green bar system:
 - Sell if the **4-week average declines below the 10-week average**. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
-- Also: sell (or tighten stop) if the stock trades below the low of the most recent green bar. This level can be used as a hard stop when entered off a green-bar signal. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
+- Sell (or tighten stop) if the stock closes below the low of the most recent green bar. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
 
-The weekly approach has one advantage: decisions can be made on Friday evening or over the weekend with the complete weekly bar available — less time pressure than daily monitoring. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
+The weekly approach suits part-time traders: decisions are made on Friday evening or over the weekend with the full weekly bar available. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md); [WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
 
 ---
 
@@ -115,3 +125,4 @@ When the overall market turns against you, the individual-stock trailing rules m
 - [WW 2014-08-03 — GMI 10-Day New High Indicator; T2108; AAPL](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md)
 - [WW 2017-03-19 — How I use daily RWB charts to size up the market and individual stocks](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md) ([summary](../sources/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
 - [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
+- [WW 2016-11-20 — Weekly 4wk/10wk hold discipline; NTES and NVDA](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md) ([summary](../sources/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
