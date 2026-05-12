@@ -15,6 +15,8 @@ sources:
   - raw/posts/2022-05-22-blog-post-day-28-of-qqq-short-term-down-trend-gmi0-and-red-i-exited-in-november-and-do-not-have-to-catch-the.md
   - raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md
   - raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md
+  - raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md
+  - raw/posts/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md
 ---
 
 # Track record — calls & outcomes
@@ -73,6 +75,20 @@ The `raw/timeline.parquet` series shows Dr. Wish's GMI deteriorating sharply fro
 - T2108 reached 2% on 9 October 2008 and 4% on 7 October 2008 — historically extreme oversold levels at the capitulation low.
 
 **Outcome:** the S&P 500 bottomed in March 2009. The timeline shows the GMI turning back to 6 in late 2009, signalling re-entry.
+
+---
+
+## July 2010 — IRA track record updated to 14×
+
+In a July 2010 self-introduction post, Dr. Wish updated his track record explicitly: the trading IRA is now up **14× (fourteen-fold)** since 1995. The 2009 post had stated 13× (1,200%). The increment reflects the gains made during the 2009–2010 recovery while pension funds stayed in cash through the 2008 bear. He describes keeping his university pension "safely in cash through all of the major market declines since 1998" and reinvesting in subsequent advances. ([WW 2010-07-19](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
+
+---
+
+## February 2009 — Quantitative projection: Dow could reach 3,500
+
+In a February 2009 post, Dr. Wish published a day-by-day comparison table of four bear markets (1929, 1973–74, 1987, 2008) from each bear's Dow peak. At day 260 post-peak in 2008, the decline matched the 1929 pace (both near −40%). If 2008 continued tracking 1929 minus approximately 14 percentage points, a Dow bottom around **3,500** was possible. At the post date (342 market days post-peak), the 1929 bear lasted 714 total trading days — suggesting 370+ more days of potential decline. GMI and GMI-R were both at zero; T2108 was at 13%. This was a quantitative scenario analysis, not a prediction. ([WW 2009-02-23](../../raw/posts/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md))
+
+**Outcome:** the Dow bottomed at approximately 6,547 in March 2009 — far above 3,500. The 2008 bear did not replay 1929's extended duration; the Fed and Treasury interventions produced a sharper, shorter bottom. This is an example of the bear-comparison framework being a useful framing tool even when the specific projection does not materialize.
 
 ---
 
@@ -192,3 +208,5 @@ Based on 939 daily-update posts with a parseable GMI value (out of 1,797 total, 
 - [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 - [WW 2025-03-30 — Day 24 of QQQ down-trend; IWM at beginning of Stage 4](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md) ([summary](../sources/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
 - [WW 2009-01-05 — 1200% IRA return; capital conservation; pension vs trading IRA](../../raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md) ([summary](../sources/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md))
+- [WW 2010-07-19 — 14× IRA track record; stochastic 10,4,4; 10wk/30wk down-trend rule](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md) ([summary](../sources/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
+- [WW 2009-02-23 — Comparison of 2008 bear to 1929/1973/1987; Dow 3,500 projection](../../raw/posts/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md) ([summary](../sources/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md))

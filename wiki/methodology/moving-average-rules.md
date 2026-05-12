@@ -6,8 +6,10 @@ sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
+  - raw/posts/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md
   - raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md
   - raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md
+  - raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md
   - raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md
@@ -20,6 +22,7 @@ sources:
   - raw/posts/2017-03-26-market-rally-over-my-refined-strategy-for-timing-exits-and-entries-recent-glb-lite.md
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
   - raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md
+  - raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md
   - raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md
   - raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md
   - raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md
@@ -48,8 +51,12 @@ He prefers **simple** (equal-weighted) moving averages; exponential weighting "c
 
 The most important moving average in Dr. Wish's toolkit. He credits Weinstein's classic book for alerting him to it. The 30-week average of a market index (QQQ, SPY, or the Dow) crossing from up to down signals a major bear market; reversing back up signals a bull market re-entry.
 
+Stan Weinstein's rule (cited verbatim by Dr. Wish from Weinstein's 1988 book, pp 270-271): "When the Dow breaks below its 30-week MA and breaks down into Stage 4, it's time to become very defensive. Suspend buying even if you see a few stocks breaking out on their charts. Be sure to sell any stocks that are showing poor relative strength. Pull up your protective sell-stops as tightly as possible on your few remaining long positions. Finally, start hunting for ideal short-sale positions." Dr. Wish says this signal has been reliable for all bear markets since the 1920s. ([WW 2005-08-27](../../raw/posts/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md))
+
 - The reversal of the QQQQ's 30-week average in **2000** signalled him to exit the market. Its reversal back up in **2003** signalled re-entry. ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
 - When the QQQ or SPY closes below the 30-week average, he becomes "very defensive": no new buys, raise stops. If the average eventually turns down, he typically exits the market. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
+- The **30-week average curving down** (not just the price crossing below it) is the trigger for exiting the university pension (mutual funds). "That signal got me out before the 2000 and 2008 market debacles." ([WW 2018-03-25](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))
+- When both the 10-week and 30-week averages are declining and the weekly close (gray line) leads everything lower, the Weinstein Stage 4 is beginning. The 10wk/30wk cross on the weekly chart is the confirmation signal. ([WW 2010-07-19](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
 - One of the six [GMI](gmi.md) components is whether the QQQ has closed above its 30-week average. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 
 ### The four stages
@@ -78,6 +85,15 @@ Dr. Wish applies the same 30-day average to market indices for the **short-term 
 ### 30-day MA as a stop for individual stocks
 
 For RWB stocks, the 30-day moving average of the individual stock (not the index) serves as a stop on bounce trades. In February 2011, Dr. Wish described his stop for RVBD as "below 30-day MA ~$34.95" — the exact dollar level was read off the chart at the time of entry. This is the same MA used for short-term trend signals; for stocks it functions as a trailing stop rather than a trend-flip signal. ([WW 2011-02-07](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
+
+## The stochastic 10,4,4 — a secondary timing overlay
+
+Dr. Wish uses the **daily 10,4,4 stochastic** as a timing overlay on top of the trend signals (not a primary signal). The stochastic measures short-term overbought/oversold conditions within a trend:
+
+- **Very overbought (near the high of its range):** a decline is likely soon. "All of the recent declines ended with the stochastic well below 50." ([WW 2010-07-19](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
+- **Very oversold (near 9-10):** historically the level at which index ETFs bounce short-term. At these levels he becomes more willing to consider new longs even if conditions are otherwise weak. ([WW 2018-03-25](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))
+- **Use in down-trends:** he does not take new short positions when the stochastic is very low (oversold), preferring to wait for a bounce first.
+- **Not as a standalone buy signal:** the stochastic provides *timing context*, not a direction decision. The GMI and trend regime govern direction; the stochastic adjusts entry timing within that direction.
 
 ## The 10-week average — the holding rule for individual stocks
 
@@ -267,3 +283,6 @@ Run them: `ww compute stage QQQ` · `ww compute wgb TSLA` · `ww compute rwb QQQ
 - [WW 2009-03-29 — Bear market over? Guppy charts and trend hierarchy](../../raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md) ([summary](../sources/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md))
 - [WW 2016-11-20 — Weekly 4wk/10wk hold discipline; NTES and NVDA](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md) ([summary](../sources/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
 - [WW 2018-02-25 — Monthly RWB on bond ETFs; Martin Zweig Fed tightening principle](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md) ([summary](../sources/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))
+- [WW 2005-08-27 — Weinstein Dow sell signal; bank shorts; SBUX](../../raw/posts/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md) ([summary](../sources/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md))
+- [WW 2010-07-19 — 14x IRA; stochastic 10,4,4 timing; QQQQ 10wk/30wk rule](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md) ([summary](../sources/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
+- [WW 2018-03-25 — GMI Red March 2018; put/call contrarian; 30-week curve-down pension trigger](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md) ([summary](../sources/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))

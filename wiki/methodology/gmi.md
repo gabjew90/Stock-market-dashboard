@@ -15,6 +15,8 @@ sources:
   - raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md
   - raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md
   - raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md
+  - raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md
+  - raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md
 ---
 
 # General Market Index (GMI)
@@ -68,6 +70,14 @@ Documented example: in **November 2021**, QQQ was at all-time highs (day U-26 of
 ### 2005 — Original GMI (6 components)
 
 The original six components described above; score range 0–6. At launch (April 2005), GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md))
+
+### 2005 — GMI historical track record chart (first published)
+
+In November 2005, Dr. Wish published his first chart of GMI values from inception, visually showing that GMI ≥ 5 periods coincided with profitable long conditions and GMI < 3 periods coincided with market weakness. The chart confirmed that GMI was +6 for all of July 2005 and had been 5 or higher since November 1, 2005. He left readers to judge its usefulness: "It is for me." ([WW 2005-11-13](../../raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md))
+
+### 2005-2006 — GMI-S (short-term sub-index, 0–100 scale)
+
+Dr. Wish occasionally published a **GMI-S** alongside the GMI. The GMI-S measures short-term breadth within the index components on a 0–100 scale. A rapid fall from GMI-S=75 to GMI-S=31 in a single week (February 2006) signalled deterioration in the underlying breadth even when the overall GMI (at +4) had not yet dropped decisively. The GMI-S appears to be a separate proprietary measure; its construction is not disclosed. ([WW 2006-02-06](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
 
 ### Intermediate — GMI-R (10 components)
 
@@ -146,3 +156,5 @@ Run it: `ww compute gmi 2026-05-11 --breadth` for a full 0–6 GMI on any date t
 - [WW 2012-06-18 — 1990s trading diary; GMI buy-signal trigger confirmed](../../raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md) ([summary](../sources/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md))
 - [WW 2010-07-06 — Pension exit; topping-pattern scan; GMI=0](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md) ([summary](../sources/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
 - [WW 2005-12-03 — Early GMI breadth details; breadth divergence signal; MCD trade](../../raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md) ([summary](../sources/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md))
+- [WW 2005-11-13 — GMI historical track record chart; Cramer vs charts argument](../../raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md) ([summary](../sources/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md))
+- [WW 2006-02-06 — Darvas/Wyckoff noise isolation; GMI-S short-term sub-index](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md) ([summary](../sources/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))

@@ -28,6 +28,14 @@ sources:
   - raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md
   - raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md
   - raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md
+  - raw/posts/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md
+  - raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md
+  - raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md
+  - raw/posts/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md
+  - raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md
+  - raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md
+  - raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md
+  - raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md
 ---
 
 # Risk & cash
@@ -84,6 +92,52 @@ Dr. Wish is explicit and detailed about how stops are used:
 - **The argument for stops (not against Cramer's objection):** the greatest risk of a stop is a gap-down open that executes far below the stop price. But the alternative — holding without a stop while at work — is worse. The 2005 TASR loss is cited as a personal lesson. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
 
 He credits Nicolas Darvas's use of stop-losses as a key element of Darvas's fortune. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
+
+## Noise isolation as a precondition for clear analysis
+
+Richard Wyckoff (1924) anticipated Darvas's method: he made his best trades when isolated far from Wall Street, receiving only end-of-day prices by cable, ignoring all news and opinion. Darvas repeated this achievement thirty years later. Dr. Wish draws the direct lesson for the internet/CNBC era: "The more I insulate myself from outside influences and concentrate just on the movement of stocks, the better I trade. One must be a loner and confident in one's own judgments." ([WW 2006-02-06](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
+
+This principle explains why Dr. Wish relies on mechanical indicators (GMI, 30-week average, T2108) rather than qualitative market commentary — the indicators represent the price signal without the narrative noise.
+
+## Submarine scan — the short-selling framework
+
+When the GMI is weak and the market is in a down-trend, Dr. Wish scans for **submarine stocks**: former bull-market leaders now entering a confirmed down-trend. The submarine is the mirror-image of the rocket/GLB trade.
+
+**Scan criteria (TC2005/TC2007):**
+1. Closed below the 10-week average for **7 consecutive weeks**
+2. The 10-week average is currently **below the 30-week average** (both declining)
+3. Stock peaked at least **4 months ago** from a high well above its prior yearly low (was a former leader)
+4. At least one week of **atypically large-volume decline** since the peak (institutional selling confirmed)
+5. Most recently **bounced down off the declining 10-week average** (timing signal)
+
+**Entry:** buy **deep in-the-money puts** with 6-9 months to expiry and minimal time premium. Shorting in an IRA requires puts (cannot short stock in an IRA account); some brokers (Fidelity confirmed) allow puts in IRAs. ([WW 2006-05-22](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
+
+**Exit:** close the position if the stock trades **above its declining 10-week average**. ([WW 2006-05-22](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
+
+**Context rule:** only look for submarines if the GMI is weak (down-trend). "If the GMI index looks weak, I purchase deep in the money puts." Do not add new submarine positions at extreme stochastic lows (oversold). ([WW 2010-05-03](../../raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md))
+
+**Sector-pair validation:** when two stocks in the same industry simultaneously fail the submarine scan, it signals a sector-wide decline — higher confidence than a single stock. Dr. Wish first used this with banking stocks in 2005 (rising short-term rates squeezing spreads) and again with Chinese online gaming (PWRD + NTES) in 2010. ([WW 2010-05-03](../../raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md))
+
+**IBD-100 stocks in down-trends fall harder:** Dr. Wish documented that in the May 2006 market decline, only 14% of IBD-100 stocks rose while 85% declined, with a median decline of -7.2% vs -3.5% for Nasdaq-100 stocks. Growth stocks amplify both up-moves and down-moves — this is why they need to be sold (or shorted) when the market trend turns. ([WW 2006-05-22](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
+
+## 2018 case study — put/call contrarian and BWR onset
+
+In March 2018 (GMI fell to 1 on March 23; Day 1 of a new QQQ short-term down-trend), Dr. Wish observed:
+
+- **Put/call ratio at 1.25** — extreme bearishness is a contrarian indicator; relatively bullish for a short-term bounce. A ratio "well above 1.00" would be significant; 1.25 is notable but not decisive.
+- **T2108 at 26%** — near the 20% threshold but not yet near the below-10% extreme. "A T2108 below 10% is a really good sign for me of an oversold market." February 2018 had reached 8.6%, a more extreme signal.
+- **DIA and SPY already below 30-week average** for the first time since 2016; QQQ approaching it but not yet below.
+- He had not yet moved the pension — waiting for the QQQ's 30-week average to "curve down" as the final trigger.
+- **Seasonal note:** "Sell in May and go away and come back at Halloween" — he notes it as a potential backdrop without trading off it mechanically. ([WW 2018-03-25](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))
+
+## 2022 case study — T2108 monthly and BWR onset
+
+In May 2022, Dr. Wish articulated his framework for recognizing that a bear market had only just begun:
+
+- T2108 monthly at **27%** — "nowhere near" the below-10% threshold needed for a bottom signal. The buy action only triggers when T2108 drops below 10%: accumulate **SPY** (not individual stocks), starting small and only adding on the way up after a bottom appears.
+- Weekly BWR pattern on QQQ and SPY was just beginning to form, paralleling early 2008 in timing. He shows side-by-side weekly charts: 2008 was a more mature BWR by the same calendar date; 2022 was just entering the pattern.
+- He applied the GLB concept to index ETFs: DIA and SPY had not broken above their green line tops from November 2020; QQQ's last GLB was June 2020. "We will be back to a roaring trader's market again when these indexes have another GLB to all-time highs, but it could be months or even years."
+- Historical precedent: the Dow failed repeatedly to break 1,000 between 1965 and 1982 — a 17-year flat period after prior all-time-high runs. ([WW 2022-05-01](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
 
 ## Shorting and hedging
 
@@ -150,6 +204,8 @@ The most explicit self-statement of the philosophy and its results: "The key to 
 
 Note: the 1,200% figure combines two things — strong performance during bull phases **and** preservation during 2000–2002 and 2008 bears. Either half alone would not produce the multiple.
 
+**Track record updated to 14× (July 2010):** By July 2010 the IRA had grown to **14 times its 1995 starting value** — one increment above the 13× figure stated in January 2009. The university pension had also been kept safely in cash through both the 2000-2002 and 2008 declines and reinvested in subsequent advances. ([WW 2010-07-19](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
+
 ## The TQQQ default and year-in-review performance data
 
 Performance data Dr. Wish has published reinforcing the case for riding leveraged index ETFs rather than selecting individual stocks:
@@ -195,3 +251,11 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2013-06-09 — 2-for-1 risk management method; TQQQ outperformance data](../../raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md) ([summary](../sources/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md))
 - [WW 2014-04-27 — Staged pension exit; 30-week trigger; GMI/QQQ divergence](../../raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md) ([summary](../sources/2014-04-27-i-do-not-want-to-be-long-in-this-market.md))
 - [WW 2018-02-25 — Monthly RWB on bond ETFs; Martin Zweig Fed tightening principle](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md) ([summary](../sources/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))
+- [WW 2005-08-27 — Weinstein Dow sell signal; bank shorts; submarine put strategy](../../raw/posts/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md) ([summary](../sources/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md))
+- [WW 2006-02-06 — Darvas/Wyckoff noise isolation; GMI-S short-term sub-index](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md) ([summary](../sources/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
+- [WW 2006-05-22 — Submarine stock scan criteria; discount broker epiphany; CTX CCL](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md) ([summary](../sources/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
+- [WW 2009-02-23 — Bear market comparison 1929/1973/1987 vs 2008](../../raw/posts/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md) ([summary](../sources/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md))
+- [WW 2010-05-03 — TC2007 submarine scan on IBD100/New America stocks; PWRD/NTES sector failure](../../raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md) ([summary](../sources/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md))
+- [WW 2010-07-19 — 14x IRA; stochastic 10,4,4 timing; QQQQ 10wk/30wk rule](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md) ([summary](../sources/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
+- [WW 2018-03-25 — GMI Red March 2018; put/call contrarian; 30-week curve-down pension trigger](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md) ([summary](../sources/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))
+- [WW 2022-05-01 — T2108 monthly below 10% buy signal; BWR onset 2022; index GLB tops](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md) ([summary](../sources/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))

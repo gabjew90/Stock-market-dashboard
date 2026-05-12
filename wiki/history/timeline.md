@@ -62,6 +62,17 @@ sources:
   - raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md
   - raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md
   - raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md
+  - raw/posts/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md
+  - raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md
+  - raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md
+  - raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md
+  - raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md
+  - raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md
+  - raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md
+  - raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md
+  - raw/posts/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md
+  - raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md
+  - raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md
 ---
 
 # Timeline — evolution of the methodology
@@ -90,6 +101,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## November 2005 — first GMI historical track record chart published
+
+**"GMI:+6; My favorite posts; GMI as a trend indicator" (2005-11-13):** Dr. Wish publishes the first historical chart of his GMI readings from inception, showing that all periods of GMI ≥ 5 coincided with profitable long conditions. GMI had been +6 for all of July 2005 and at 5 or higher since November 1, 2005. He also quotes Jim Cramer's anti-chart position from his 2005 book and refutes it using Cramer's own words (that stocks anticipate company results before the news arrives). His stock selection criteria for the best candidates: at new all-time highs, up ≥ 60% in the year, and quarterly earnings growth of ≥ 100%. ([WW 2005-11-13](../../raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md))
+
+---
+
 ## June 2005 — moving averages explained; QQQ trend counting begins
 
 **"GMI back to +5; on moving averages" (2005-06-05):** Dr. Wish explains the moving average from first principles, derives three rules (right period; price above MA; MA rising), and states his preference for simple over exponential MAs. He also begins the QQQ day-count practice explicitly: "day 20 (U-20) of the QQQQ up-trend." ([WW 2005-06-05](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md))
@@ -102,9 +119,27 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## August 2005 — Weinstein Dow sell signal; bank and SBUX shorts; bear scenario
+
+**"Stan Weinstein Dow sell signal; GMI: +1; Sick bank stocks; SBUX-in the drink?" (2005-08-27):** The Dow closed below its 30-week moving average — the first such close in some time. Dr. Wish quotes Weinstein's 1988 book verbatim on the defensive actions required: suspend buying, sell weak stocks, tighten stops, hunt short-sale candidates. He introduces his short-sale thesis: rising short-term interest rates squeezing bank profit margins makes bank stocks attractive submarine candidates (WFC, C, JPM, WB, BAC below their 30-week averages). SBUX is identified as a potential short based solely on the 10-week average crossing below the 30-week average. GMI at +1 (one step from zero). The WPM shows all major indexes except the DIA still above their 30-week averages — a mixed signal. ([WW 2005-08-27](../../raw/posts/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md))
+
+---
+
 ## October 2005 — Darvas lineage analyzed; market-peak dependency thesis
 
 **"Nicolas Darvas trading techniques require markets at all-time peaks" (2005-10-09):** Dr. Wish presents a critical historical analysis showing that Darvas made his $2M fortune in 18 months during a 65% Dow advance to all-time highs (1957–1960). He argues the Darvas/O'Neil ATH-breakout approach requires a strong bull market at historic peaks to deliver outstanding returns. Written with the Nasdaq still ~59% below its 2000 peak, he speculates growth-stock trading may not deliver comparable results until markets return to prior highs — "maybe in 2016." He also multiplied his own IRA 14-fold during the 1995–2000 Nasdaq bull run (584% advance). ([WW 2005-10-09](../../raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md))
+
+---
+
+## February 2006 — Wyckoff/Darvas noise isolation; GMI-S short-term index
+
+**"Darvas anticipated; GMI: +4; GMI-S: 31; Ominous market" (2006-02-06):** Dr. Wish quotes Richard Wyckoff (1924) on making his best trades while receiving only end-of-day cable prices far from Wall Street — anticipating Darvas's identical approach by 30 years. The lesson for the internet era: concentrate on price action; insulate from news, CNBC, and outside opinions. Introduces the GMI-S (a 0–100 short-term breadth sub-index), which fell sharply from 75 to 31 in one week while the GMI (at +4) was less sensitive. QQQQ had just entered Day D-1 of a new short-term down-trend. ([WW 2006-02-06](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
+
+---
+
+## May 2006 — Submarine scan fully described; IBD-100 in down-trends; cash-interest broker note
+
+**"GMI: 0; IBD 100 stocks decline more; My epiphany on discount brokers; Submarine stocks" (2006-05-22):** The most detailed published description of Dr. Wish's submarine scan criteria. Only 14% of IBD-100 stocks rose in the study week; the 85% that fell had a median decline of -7.2% (vs -3.5% for Nasdaq-100), confirming growth stocks amplify down-moves. Submarine scan: (1) closed below 10-week average for 7 consecutive weeks; (2) 10-week average is below 30-week average; (3) peaked ≥ 4 months ago; (4) at least one high-volume decline week since the peak; (5) recently bounced down off the declining 10-week. Entry: deep ITM puts with 6-9 months duration. Exit: stock trades above its declining 10-week. Broker insight: cash interest at a firm like Brown & Co. was near-zero; Fidelity swept cash to 4.62% money market — choose brokers that pay interest on idle cash. ([WW 2006-05-22](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
 
 ---
 
@@ -113,6 +148,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **Early June 2008:** Dr. Wish examined the Dow 30 component stocks, found widespread weakness, and transferred all pension accumulations from mutual funds into money market funds.
 
 **October 6, 2008** (GMI: 0, GMI-R: 0): T2108 hit 6% — the third-lowest reading going back to 1986; only October 1987 (0.5%) and August 1990 (5.3%) were lower. The GMI had been at zero since September. Dr. Wish was safely in cash. He framed the then-26% Dow decline as "relatively slow and small" compared to 1929 (−13.5% and −11.7% on consecutive days). ([WW 2008-10-06](../../raw/posts/2008-10-06-gmi-0-gmi-r-0-current-financial-mess-predicted-in-nyt-in-1999-t2108-at-extreme-low-6-my-gmi-indicators-kept-m.md))
+
+---
+
+## February 2009 — Quantitative bear market comparison: 2008 vs 1929/1973/1987
+
+**"Comparison of Current Bear to Bear Markets of 1929, 1973-74, 1987" (2009-02-23):** Dr. Wish builds a day-by-day comparison table of the Dow's decline in 1929, 1973-74, 1987, and 2008 — from the day each bear's Dow peak. Key finding: by Day 260 post-peak, the 2008 bear was tracking more closely to 1929 (both down ~40%) than to 1973 (down only -17%) or 1987 (already recovered). The 2008 bear was running about 14 percentage points *above* the 1929 pace. If it continued tracking 1929 minus 14pp, a Dow bottom around 3,550 was possible. At the post date (342 market days post-peak), the 1929 bear lasted 714 days total — suggesting another 370+ trading days of potential further decline. GMI and GMI-R at zero; T2108 at 13% (not yet below 10%). ([WW 2009-02-23](../../raw/posts/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md))
 
 ---
 
@@ -150,9 +191,21 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## May 2010 — TC2007 submarine scan applied to former IBD100 leaders; PWRD/NTES sector failure
+
+**"Market showing serious signs of weakness; surprising TC2007 submarine scan results" (2010-05-03):** written on May 3, 2010 — just days before the Flash Crash. Dr. Wish applies his submarine scan specifically to former IBD100 and New America stocks (bull-market leaders) and finds surprising names among the 13 results: MSTR, SWN, CVLT, GILD, ATHN, PWRD, NTES, GS, ABVT, SYKE, GOOG, SQM, MCFE. GS and GOOG on the submarine list was "especially surprising." Key sector-pair validation introduced: when two stocks in the same industry fail simultaneously — here PWRD and NTES (Chinese online gaming), showing identical bearish weekly patterns — it confirms a sector-wide decline rather than an idiosyncratic event. Bare PWRD chart description: shorter averages (4-week, 10-week) already below the 30-week, and the 30-week "beginning to curve down" — the precursor to confirmed Stage 4. Earnings-season refractory period explained: stocks tend to rise into their earnings releases, then often regroup and decline until the next quarter's anticipation begins. Reminder of the core thesis: "The bad news usually comes out long after a stock has peaked." T2108 at 64% but in a downtrend; Nasdaq-100 MACD-above-signal percentage at 24% — its lowest since February, an early warning indicator. ([WW 2010-05-03](../../raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md))
+
+---
+
 ## May 2010 — Washington Worden seminar; Stage 2 pension rule stated precisely; submarine scan validated
 
 **"Great Washington Worden Seminar" (2010-05-09):** written after the May 5–6 market drop (prelude to the May 6 Flash Crash). Dr. Wish recaps presenting his TC2007 workflow to ~120 attendees at a Worden software workshop. He gives the most precise statement of the **Stage 2 pension rule**: he only transfers pension funds to money market when the QQQ weekly trend enters Stage 4 — defined as when the 30-week average has *curved down*. As long as the 30-week average is still rising (Stage 2), the pension stays fully invested in mutual funds, even during a short-term down-trend; he would "dollar cost average in with new contributions." Short-term down-trend confirmation threshold stated: he will be "more certain" a new down-trend is underway if it lasts 5 days. Submarine scan validated: ran the scan on April 29; all 9 resulting stocks declined, with 33% declining 17%+ (vs only 5% of Nasdaq 100 at that level). Self-described trading style: "I trade like a chicken, run from a down-trend, and conserve my capital to trade only when the odds are in my favor." ([WW 2010-05-09](../../raw/posts/2010-05-09-great-washington-worden-seminar-market-in-short-term-down-trend-mainly-in-cash.md))
+
+---
+
+## July 2010 — 14× IRA track record stated; stochastic 10,4,4 as timing overlay; 10wk/30wk down-trend rule
+
+**"Major indexes remain in longer-term down-trends; in cash or short" (2010-07-19):** a self-introduction post updating the track record to **14× (fourteen-fold)** since 1995 as of July 2010 (earlier posts in 2009 said 13×). Dr. Wish explains how he kept his university pension safely in cash through all major declines since 1998 — the 2000–2002 bear and the 2008 bear — and reinvested in subsequent advances. Introduces the **stochastic 10,4,4** as a short-term timing overlay: when it reaches very overbought levels on the daily chart a market decline is likely; prior declines had all ended with the stochastic "well below 50." He uses it to time secondary buys and sells but not as a primary signal. Down-trend rule stated with precision: when the QQQ/QQQQ's **10-week average crosses below its 30-week average** on the weekly chart, he will not trade long. "I cannot make money trading on the long side when these indexes are below their 10 week averages." Counter-trend short-term up-trends still occur within a weekly down-trend — he distinguishes them clearly. GMI=2, GMI-R=4, T2108=46% (neutral) at post date. ([WW 2010-07-19](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
 
 ---
 
@@ -171,6 +224,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## March 2011 — GMI2 replaces GMI-R; decision thresholds stated
 
 **"Introducing the GMI2" (2011-03-07):** GMI-R retired; new GMI2 introduced as a companion 6-point composite. The critical addition: Dr. Wish states his GMI decision rules explicitly for the first time — "I like to be long if the GMI is 4 or more. When it declines to 3 or below, I get defensive in my trading IRA." The GMI2 is monitoring-only. University pension vs trading IRA distinction noted. ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md))
+
+---
+
+## April 2011 — IBD50 vs Nasdaq100/S&P500 systematic comparison; 10-week bounce scan
+
+**"IBD50 list from 1/10 out-performs Nasdaq100 and S&P500 stocks" (2011-04-04):** a quantitative study measuring the performance of the January 10, 2011 IBD50 list through late March 2011. Results: 60% of IBD50 stocks rose (vs 67% for Nasdaq100 and 77% for S&P500) — a lower hit rate. But the IBD50 produced 18% of its stocks gaining 20%+, vs only 11% for Nasdaq100 and 10% for S&P500. Interpretation: the IBD50 is not where you find the most stocks going up, but it **concentrates the big winners** — 50 stocks instead of 500. Largest gainer: SINA at +45% (IBD50). Caveat: during the measurement period tech underperformed the S&P500 (QQQ +2.5%, SPY +4.9%), which would suppress IBD50 results. The 10-week bounce scan demonstrated: Dr. Wish scanned all IBD50 stocks in his TC2000 watchlist for those that bounced up from their 10-week average the prior week, and set sell stops just below each stock's prior-week low. GMI=6, GMI2=5, T2108=73% (overbought caution zone). ([WW 2011-04-04](../../raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md))
 
 ---
 
@@ -207,6 +266,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## January 2016 — Global BWR sweep; worldwide down-trends
 
 **"All World Stock Markets entering BWR Down-trends!" (2016-01-10):** Dr. Wish scans 37 global market ETFs and finds 35 of 37 in BWR down-trends in early 2016. He refines the BWR definition: the weekly close (gray dotted line) is below all 12 Guppy moving averages. He posts a monthly T2108 historical chart: readings at 1% (2008), 7% (2011), ~6% (August 2015). ([WW 2016-01-10](../../raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md))
+
+---
+
+## January 2017 — David Ryan on breakouts vs pullbacks; ATH-past-40-days + lower Bollinger Band scan
+
+**"On David Ryan and my new TC2000 scan for GLB rockets bouncing off support: $PLAY" (2017-01-29):** Dr. Wish quotes David Ryan (William O'Neil's three-time National Investing Champion protege) from _Momentum Masters_ (2015): "I basically simplify it down to two, breakouts and pullbacks… You just have to draw a line across the top of where most of the stock's trading has taken place. Then you buy as it moves through that line… Buying pullbacks are a bit more complicated but offer another entry point to get aboard a leading stock." He shows how this maps exactly onto his own GLB framework. New TC2000 scan introduced (`01292017ATHhipast40daysBLBB`): stocks in his ~800-stock ATH watchlist that (1) hit a new all-time high in the past 40 days AND (2) are currently bouncing from their lower Bollinger Band (15.2). This finds post-GLB pullback re-entries; distinct from the BOS scan (which uses a broader universe). Key rule: **a pullback/bounce entry does not require volume** — low volume on the pullback is a positive sign that selling has dried up. Sell stop: just below the recent bounce/support low. PLAY worked example: gapped up on unusual volume December 2016, consolidated sideways, then bounced off the lower BB; earnings +127% the prior quarter, IBD composite 93, short ratio 7.2, up 47% over the prior year. GMI=6 at post date. ([WW 2017-01-29](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
 
 ---
 
@@ -257,6 +322,12 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 ## February 2018 — Monthly RWB on bond ETFs as macro regime indicator; Martin Zweig principle
 
 **"Rising interest rates suggest market to form top" (2018-02-25):** after the January/February 2018 correction, Dr. Wish applies the RWB/BWR framework to **monthly** bond ETF charts as a long-term interest-rate regime indicator. **Martin Zweig principle:** after the Fed raises rates several times, the market eventually declines — a multi-cycle pattern Dr. Wish has observed since the 1960s. **Monthly RWB on bond ETFs**: SHY (short-term bond ETF) showed an RWB pattern "through about 2013" (low-rate era); by mid-2016, SHY entered a BWR decline on the monthly chart — "for the first time since at least 2003." Monthly BWR on bonds "suggests this trend could persist for months if not years." TC2000 offers a direct chart of short-term interest rates; as of February 2018, rates were in a steep RWB up-trend. New-high count warning: only 90 US stocks hit new highs on the Friday before the post, vs 200+ per day before January 29 — breadth deteriorating. Caveat: this is a monitoring framework, not a trading rule; he still defers to the GMI for actual buy/sell decisions. ([WW 2018-02-25](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))
+
+---
+
+## March 2018 — GMI Red; put/call as contrarian indicator; 30-week curve-down as pension trigger
+
+**"Time for cash, GMI=1 (of 6), turns Red" (2018-03-25):** real-time post during the Q1 2018 correction. On Friday March 23, GMI fell to 1 — a Red signal and Day 1 of a new QQQ short-term down-trend. Dr. Wish documents several timing overlays he consults alongside the GMI. **Put/call ratio at 1.25** on that Friday: extreme bearishness in the options market is a contrarian indicator suggesting a short-term bounce up — though not necessarily a trend reversal. **T2108 at 26%** (well above the below-10% oversold threshold; had reached 8.6% during the February 2018 dip). **Daily stochastic 10,4 at 9** — historically the level at which index ETFs bounce short-term. About 40% of short-term down-trends resolve within 5 days. **Pension trigger rule restated with precision:** once the **30-week average itself curves down** (not merely when price crosses below it), he transfers pension money from mutual funds to money market. "That signal got me out before the 2000 and 2008 market debacles." At the time of this post, DIA and SPY's 30-week averages had already curved slightly; QQQ's had not yet — he was waiting. Seasonal note: "Sell in May and go away, come back at Halloween" — possible in 2018, but not prescriptive. The weekly GMMA chart of QQQ showed an RWB pattern had been intact since 2013, interrupted only by a flat 2015–2016 period; the Q1 2018 event could be a similar pause or the start of something larger. ([WW 2018-03-25](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))
 
 ---
 
@@ -410,6 +481,12 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 ---
 
+## May 2022 — T2108 monthly at 27%; weekly BWR onset vs 2008; GLB applied to indexes
+
+**"Based on my analysis of the market, it is nowhere oversold enough to be near a bottom" (2022-05-01):** written at the start of the 2022 bear market. Dr. Wish presents three strands of evidence that the decline was just beginning. **T2108 at 27% on the monthly chart**: he will "hold his nose and buy just a little SPY" only when T2108 drops below 10%, then accumulate only on the way up — not at the very bottom. At 27%, the market is nowhere near that oversold threshold. **Weekly BWR comparison**: the 2022 SPY chart was "just beginning" a weekly BWR (red-below-blue) Guppy pattern, paralleling early 2008 in timing — suggesting major further decline ahead if the historical parallel holds. **GLB concept extended to index ETFs**: DIA and SPY formed green line tops at their November 2020 monthly peaks; QQQ's last GLB to ATH was June 2020. "We will be back to a roaring trader's market again when these indexes have another GLB to all-time highs, but it could be months or even years before that." **Historical perspective**: between 1965 and 1982 the Dow failed repeatedly to break 1,000 — a 17-year period of flatness after prior all-time-high runs — and Dr. Wish (who was investing at the time) suggests such a period could repeat. He holds no individual stocks; GMI is Red; he remains in cash. ([WW 2022-05-01](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
+
+---
+
 ## June 2022 — ATH-first selection; GLB re-entry; GMI Red performance
 
 **"Day 37 of QQQ down-trend; 14 IBD/MS stocks at 20yr ATHs" (2022-06-05):** explains why he only buys stocks above their last green line and only re-enters after a GLB (even if the first failed). Shows GMI Green vs Red periods overlaid on QQQ charts. "It is so much easier to make $$$ when the GMI is Green and registering 5 or 6." Darvas/Ryan "doubler" criterion restated: sort by close/price 250 days ago. ([WW 2022-06-05](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))
@@ -497,3 +574,14 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 - [WW 2016-11-20 — Weekly 4wk/10wk hold discipline; NTES and NVDA examples](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md) ([summary](../sources/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
 - [WW 2018-02-25 — Monthly RWB on bond ETFs; Martin Zweig Fed tightening principle](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md) ([summary](../sources/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))
 - [WW 2023-04-24 — WING missed GLB confessions; written GLB rules; TC2000 alert workflow](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md) ([summary](../sources/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
+- [WW 2010-05-03 — TC2007 submarine scan on former IBD100 leaders; PWRD/NTES sector failure](../../raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md) ([summary](../sources/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md))
+- [WW 2010-07-19 — 14× IRA track record; stochastic 10,4,4; 10wk/30wk cross as weekly down-trend](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md) ([summary](../sources/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
+- [WW 2011-04-04 — IBD50 vs Nasdaq100/S&P500 systematic comparison; 10-week bounce scan](../../raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md) ([summary](../sources/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md))
+- [WW 2017-01-29 — David Ryan on breakouts vs pullbacks; ATH-past-40-days + lower BB scan; PLAY](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md) ([summary](../sources/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
+- [WW 2018-03-25 — GMI Red Q1 2018; put/call contrarian; 30-week curve-down pension trigger](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md) ([summary](../sources/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))
+- [WW 2022-05-01 — T2108 monthly at 27%; weekly BWR onset vs 2008; GLB applied to index ETFs](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md) ([summary](../sources/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
+- [WW 2009-02-23 — Comparison of 2008 bear to 1929/1973/1987 bears; Dow 3,500 projection](../../raw/posts/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md) ([summary](../sources/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md))
+- [WW 2005-08-27 — Weinstein Dow sell signal; bank stock shorts; SBUX submarine; GMI=1](../../raw/posts/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md) ([summary](../sources/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md))
+- [WW 2006-02-06 — Wyckoff/Darvas noise isolation; GMI-S short-term index introduced](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md) ([summary](../sources/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
+- [WW 2006-05-22 — Submarine scan fully described; IBD-100 in down-trends; cash-interest broker note](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md) ([summary](../sources/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
+- [WW 2005-11-13 — First GMI historical track-record chart; Cramer refutation; stock-selection criteria](../../raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md) ([summary](../sources/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md))

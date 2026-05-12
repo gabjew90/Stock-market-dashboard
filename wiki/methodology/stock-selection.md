@@ -30,6 +30,10 @@ sources:
   - raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md
   - raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md
   - raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md
+  - raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md
+  - raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md
+  - raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md
+  - raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md
 ---
 
 # Stock selection
@@ -180,6 +184,33 @@ The buy trigger itself is the [Green Line Breakout (GLB)](green-line-breakouts.m
 
 AAPL (2012) as the illustration: a stock hitting new all-time highs must do so many times on its ascent. "If you refuse to buy or hold a stock at an all-time high, you will never ride a wonderful stock like AAPL." To find the next AAPL: start from the list of stocks hitting 52-week highs, weed out those not near ATH, then research the remaining stocks' fundamentals and technicals. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
 
+## IBD50 as a big-winner filter — quantitative comparison (2011)
+
+A systematic study in April 2011 compared the IBD50 (published January 10, 2011) to the Nasdaq100 and S&P500 from January through late March 2011 — a period when tech stocks slightly underperformed the S&P500 (QQQ +2.5%, SPY +4.9%):
+
+- **% of stocks that rose:** IBD50 60% / Nasdaq100 67% / S&P500 77%
+- **% rising 10%+:** not directly stated, but IBD50 led
+- **% rising 20%+:** IBD50 18% / Nasdaq100 11% / S&P500 10%
+- **Largest single gainer:** SINA +45% (IBD50), vs WFMI +37% (Nasdaq100), COG +44% (S&P500)
+- **Median change:** IBD50 +8% / Nasdaq100 +5.5% / S&P500 +6%
+
+**Interpretation:** the IBD50 is not the best place to find high hit-rates, but it is the best place to find the large winners. Searching 50 stocks for the 20%+ movers is more efficient than searching 100 or 500. Even when tech underperforms, the IBD50 skews toward the high-growth stocks that post the biggest gains when they do move. ([WW 2011-04-04](../../raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md))
+
+**10-week bounce scan for IBD50 stocks:** after a new QQQ short-term up-trend begins, Dr. Wish scans all IBD50 watchlist stocks for those that bounced up from their 10-week average the prior week. The prior week's low is used as the sell-stop price. ([WW 2011-04-04](../../raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md))
+
+Earlier (2012) IBD50 data: from December 2011 through April 2012, IBD50 median gain was +20% vs Nasdaq100 +15% vs S&P500 +10%; 34% of IBD50 gained 30%+, vs 16% of Nasdaq100. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
+
+## ATH-past-40-days + lower Bollinger Band pullback scan (introduced 2017)
+
+David Ryan (William O'Neil's protege), as quoted in _Momentum Masters_ (2015, p. 72): "I basically simplify it down to two, breakouts and pullbacks. Don't get confused by all the different formations. You just have to draw a line across the top of where most of the stock's trading has taken place. Then you buy as it moves through that line… Buying pullbacks are a bit more complicated but offer another entry point to get aboard a leading stock." ([WW 2017-01-29](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
+
+In January 2017, Dr. Wish created a new TC2000 scan (name: `01292017ATHhipast40daysBLBB`) that embodies the pullback approach. Applied to his ~800-stock ATH watchlist, it finds:
+
+1. Stock hit a new all-time high within the past 40 days
+2. Stock is currently bouncing up from its lower Bollinger Band (15.2 setting)
+
+This is distinct from the [BOS scan](stock-selection.md) (which uses a broader universe and a different trigger). The purpose is to find post-GLB pullback re-entries: stocks that already broke out, pulled back to oversold levels, and are resuming the advance. A pullback/bounce entry **does not require elevated volume** (unlike the GLB itself). Low volume on the pullback is a positive sign — selling has dried up. The stop is placed just below the recent bounce low. ([WW 2017-01-29](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
+
 ## The black dot — oversold-bounce signal (introduced 2021)
 
 For stocks already in an up-trend that have pulled back to an oversold level, Dr. Wish uses the **black dot** signal as an entry. A black dot appears on his TC2000 daily chart when: (1) the daily 10.1 stochastic was ≤25 in any of the past 3 days; (2) current price > prior day's price; (3) stock is above its 30-day average or its 21-day exponential average. ([WW 2021-06-13](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
@@ -223,3 +254,7 @@ The black dot only works on stocks already in a confirmed up-trend. He often com
 - [WW 2013-06-09 — 2-for-1 method; TQQQ vs individual stocks data](../../raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md) ([summary](../sources/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md))
 - [WW 2014-09-28 — Biotech scan; news catalyst; AGIO and VRTX; 3:45 PM rule](../../raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md) ([summary](../sources/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md))
 - [WW 2016-10-02 — O'Neil 1995 workshop diary; LMAT BOS setup; two-close GLB rule](../../raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md) ([summary](../sources/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md))
+- [WW 2011-04-04 — IBD50 vs Nasdaq100/S&P500 systematic comparison; 10-week bounce scan](../../raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md) ([summary](../sources/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md))
+- [WW 2017-01-29 — David Ryan quote; ATH-past-40-days + lower BB pullback scan; PLAY](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md) ([summary](../sources/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
+- [WW 2006-05-22 — Submarine scan criteria; IBD-100 amplifies down-moves](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md) ([summary](../sources/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
+- [WW 2010-05-03 — TC2007 submarine scan; sector-pair validation method](../../raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md) ([summary](../sources/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md))

@@ -19,6 +19,8 @@ sources:
   - raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md
   - raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md
   - raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md
+  - raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md
+  - raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -145,6 +147,18 @@ Dr. Wish's operational workflow: as soon as he draws a green line on a monthly c
 5. If it closes below the green line: failed GLB, exit immediately.
 6. If it retakes the green line and closes back above it: buy it back.
 
+## Post-GLB pullback scan — ATH-past-40-days + lower Bollinger Band (2017)
+
+Introduced in January 2017, the `01292017ATHhipast40daysBLBB` TC2000 scan finds re-entry opportunities after a prior GLB. It runs against Dr. Wish's ~800-stock ATH watchlist and selects stocks that: (1) hit a new all-time high in the past 40 days AND (2) are currently bouncing from their lower Bollinger Band (15.2).
+
+David Ryan (quoted in _Momentum Masters_ p. 72): "I basically simplify it down to two, breakouts and pullbacks… Buying pullbacks are a bit more complicated but offer another entry point to get aboard a leading stock." The scan operationalizes Ryan's "pullback" in the GLB framework.
+
+Key rule: **no volume required** on the pullback. Low volume during the consolidation/pullback is a positive sign — selling has dried up. Sell stop: placed just below the bounce/support low, not at the green line itself. ([WW 2017-01-29](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
+
+## GLB applied to index ETFs (2022)
+
+The green line concept extends to index ETFs. In May 2022, Dr. Wish noted that DIA and SPY each formed green line tops (highest monthly close not surpassed for 3+ months) at their November 2020 peaks; QQQ's last green line top was its June 2020 monthly high. These index-level green lines serve as macro bull-market re-entry gates: "We will be back to a roaring trader's market again when these indexes have another GLB to all-time highs, but it could be months or even years before that." He does not buy individual stocks until the GMI is Green; and the index GLB is his long-term context for knowing when broad conditions have fully recovered. ([WW 2022-05-01](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
+
 ## Evolution
 
 The GLB concept was present in principle from Dr. Wish's earliest 2005 strategy posts (buy at all-time highs after a base), but was not formally named and given the monthly-chart / green-line-held-3-months definition until the 2012-07-23 post, following an AAII workshop. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
@@ -204,3 +218,5 @@ Run it on a ticker: `ww compute green-line MSFT` — Microsoft has set (and brok
 - [WW 2013-05-20 — TSLA GLB worked example; full stock-selection workflow](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md) ([summary](../sources/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md))
 - [WW 2016-10-02 — O'Neil 1995 workshop diary; LMAT BOS setup; two-close GLB rule](../../raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md) ([summary](../sources/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md))
 - [WW 2023-04-24 — WING missed GLB; TC2000 alert workflow; written GLB rules](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md) ([summary](../sources/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
+- [WW 2017-01-29 — David Ryan; ATH-past-40-days + lower BB pullback scan; PLAY](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md) ([summary](../sources/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
+- [WW 2022-05-01 — T2108 monthly at 27%; BWR onset vs 2008; GLB applied to index ETFs](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md) ([summary](../sources/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
