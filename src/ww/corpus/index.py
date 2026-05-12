@@ -47,3 +47,24 @@ def read_posts_jsonl(path: Path) -> list[PostRecord]:
             data = {k: v for k, v in json.loads(line).items() if k in known}
             out.append(PostRecord(**data))
     return out
+
+
+def update_records(path: Path, updates: dict[int, dict]) -> None:
+    """Patch existing rows in a posts.jsonl file, in place, preserving row order.
+
+    `updates` maps `post_id` -> dict of field names to new values. Every key in
+    `updates` must match an existing row's `post_id` (else `KeyError`), and every
+    field name must be a real `PostRecord` field (else `ValueError`).
+    """
+    known = {f.name for f in fields(PostRecord)}
+    records = read_posts_jsonl(path)
+    by_id = {r.post_id: r for r in records}
+    for pid, patch in updates.items():
+        if pid not in by_id:
+            raise KeyError(f"post_id {pid} not found in {path}")
+        bad = set(patch) - known
+        if bad:
+            raise ValueError(f"unknown PostRecord field(s) for post_id {pid}: {sorted(bad)}")
+        for k, v in patch.items():
+            setattr(by_id[pid], k, v)
+    write_posts_jsonl(path, records)

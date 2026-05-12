@@ -1,7 +1,9 @@
 import json
 from pathlib import Path
 
-from ww.corpus.index import PostRecord, read_posts_jsonl, write_posts_jsonl
+import pytest
+
+from ww.corpus.index import PostRecord, read_posts_jsonl, update_records, write_posts_jsonl
 
 
 def _rec(**over) -> PostRecord:
@@ -67,3 +69,38 @@ def test_read_ignores_unknown_jsonl_fields(tmp_path: Path):
     records = read_posts_jsonl(path)
     assert len(records) == 1
     assert records[0].post_id == 42
+
+
+def test_update_records_patches_matching_rows_only(tmp_path: Path):
+    path = tmp_path / "posts.jsonl"
+    write_posts_jsonl(path, [
+        _rec(post_id=1, slug="a", stem="2020-01-01-a"),
+        _rec(post_id=2, slug="b", stem="2020-01-02-b"),
+        _rec(post_id=3, slug="c", stem="2020-01-03-c"),
+    ])
+    update_records(path, {
+        2: {"tier": "teaching", "summary": "explains GMI", "ingested": True, "summary_page": "wiki/sources/2020-01-02-b.md"},
+        3: {"tier": "daily_update", "ingested": True},
+    })
+    loaded = {r.post_id: r for r in read_posts_jsonl(path)}
+    assert loaded[1].tier is None and loaded[1].ingested is False           # untouched
+    assert loaded[2].tier == "teaching" and loaded[2].summary == "explains GMI"
+    assert loaded[2].ingested is True and loaded[2].summary_page == "wiki/sources/2020-01-02-b.md"
+    assert loaded[3].tier == "daily_update" and loaded[3].ingested is True
+    assert loaded[3].summary is None                                        # not in the patch -> unchanged
+    # order preserved
+    assert [r.post_id for r in read_posts_jsonl(path)] == [1, 2, 3]
+
+
+def test_update_records_unknown_post_id_raises(tmp_path: Path):
+    path = tmp_path / "posts.jsonl"
+    write_posts_jsonl(path, [_rec(post_id=1, slug="a", stem="2020-01-01-a")])
+    with pytest.raises(KeyError):
+        update_records(path, {999: {"tier": "meta"}})
+
+
+def test_update_records_unknown_field_raises(tmp_path: Path):
+    path = tmp_path / "posts.jsonl"
+    write_posts_jsonl(path, [_rec(post_id=1, slug="a", stem="2020-01-01-a")])
+    with pytest.raises(ValueError):
+        update_records(path, {1: {"not_a_field": 1}})
