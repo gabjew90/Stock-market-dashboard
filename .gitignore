@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# Scraped data (rebuildable via `ww scrape`; do not commit ~5k post files)
+/raw/api/
+/raw/posts/
+/raw/posts.jsonl
+/data/index/
