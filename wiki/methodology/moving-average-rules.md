@@ -114,6 +114,45 @@ Introduced / formalized by March 2017. In addition to the weekly GMMA, Dr. Wish 
 
 The weekly chart shows the longer-term trend but is too slow for timing entries and exits — that is the reason he shifted to daily RWB charts for timing. ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
 
+## Code — stages, the WGB, and the Guppy bands
+
+Three small functions cover the runnable pieces ([`src/ww/indicators/`](../../src/ww/indicators/)).
+
+**The Weinstein stage** ([`ma_stages.py`](../../src/ww/indicators/ma_stages.py)) — classified from the latest weekly close vs the 30-week SMA and that MA's slope:
+
+```python
+def weekly_stage(weekly_close, *, ma_window=30):
+    s  = weekly_close.astype(float)
+    ma = s.rolling(ma_window).mean()
+    above = s.iloc[-1] > ma.dropna().iloc[-1]
+    slope = _slope_sign(ma)             # +1 rising / -1 falling / 0 flat
+    if above and slope > 0:  return 2   # advancing
+    if (not above) and slope < 0:  return 4   # declining
+    return 3 if above else 1            # topping / basing
+```
+
+`ma_alignment_4_10_30(weekly_close)` returns whether SMA4 > SMA10 > SMA30 today (the weekly stock-trend rule); `tenwk_below_thirtywk(weekly_close)` flags the 10wk-below-30wk cross that confirms a Stage-4 onset.
+
+**The Weekly Green Bar** ([`wgb.py`](../../src/ww/indicators/wgb.py)) is a direct port of Dr. Wish's TC2000 scan (all conditions weekly):
+
+```python
+def weekly_green_bars(weekly_ohlc):
+    df = weekly_ohlc.copy()
+    c = df["close"].astype(float)
+    a4, a10, a30 = c.rolling(4).mean(), c.rolling(10).mean(), c.rolling(30).mean()
+    cond = ((a4 > a10) & (a10 > a30)                       # avgc4>avgc10 and avgc10>avgc30
+            & (df["low"].astype(float) <= a4) & (c > a4)   # L<=avgc4 and C>avgc4
+            & (c > c.shift(1))                             # C>C1
+            & (a4 > a4.shift(1)))                          # avgc4>avgc4.1
+    return df.loc[cond.fillna(False)]
+```
+
+`wgb_trailing_stop(weekly_ohlc)` returns the `low` of the most recent WGB — the trailing-stop level.
+
+**The Guppy bands** ([`guppy.py`](../../src/ww/indicators/guppy.py)) build the 12 EMAs and classify RWB / BWR / transition, plus the Red Line Count. **Caveat:** Dr. Wish never published the exact EMA periods, so the code uses the standard TC2000 GMMA defaults — short (red) 3/5/8/10/12/15, long (blue) 30/35/40/45/50/60; the band-over-band logic and the "close below all 12 = BWR" rule follow his prose.
+
+Run them: `ww compute stage QQQ` · `ww compute wgb TSLA` · `ww compute rwb QQQ` (add `--weekly` for the weekly Guppy).
+
 ## See also
 
 - [General Market Index (GMI)](gmi.md) — the 30-week average is one GMI component

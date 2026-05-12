@@ -82,6 +82,36 @@ Example from the 2017-12-17 post: GDS had a GLB to ATH in September 2016 on the 
 
 The GLB concept was present in principle from Dr. Wish's earliest 2005 strategy posts (buy at all-time highs after a base), but was not formally named and given the monthly-chart / green-line-held-3-months definition until the 2012-07-23 post, following an AAII workshop. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 
+## Code — detecting a Green Line Breakout
+
+The green-line logic is a few lines over a monthly OHLC frame ([`src/ww/indicators/green_line.py`](../../src/ww/indicators/green_line.py)): walk the monthly highs, and a running all-time high counts as a "green line" once it survives ≥ 3 subsequent months without being exceeded. The current green line is the most recent such level; the breakout is a **close** above it.
+
+```python
+def green_lines(monthly, *, min_months_held=3):
+    highs = monthly["high"].astype(float)
+    n = len(highs)
+    out, running_ath = [], float("-inf")
+    for i in range(n):
+        h = highs.iloc[i]
+        if h <= running_ath:
+            continue
+        running_ath = h
+        if i + min_months_held >= n:
+            continue
+        if (highs.iloc[i + 1 : i + 1 + min_months_held] < h).all():
+            out.append((highs.index[i], float(h)))
+    return out
+
+def current_green_line(monthly, *, min_months_held=3):
+    gls = green_lines(monthly, min_months_held=min_months_held)
+    return gls[-1][1] if gls else None
+
+def is_green_line_breakout(*, close, green_line):
+    return green_line is not None and close > green_line
+```
+
+Run it on a ticker: `ww compute green-line MSFT` — Microsoft has set (and broken) many green lines since the 1990s; the command prints the current line, the last close, and whether you're above it. (yfinance supplies the monthly bars; `--csv` lets you feed your own.)
+
 ## See also
 
 - [Stock selection](stock-selection.md) — the RWB filter for GLB candidates

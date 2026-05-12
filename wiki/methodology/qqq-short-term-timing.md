@@ -45,6 +45,26 @@ The count was present from the blog's earliest posts (2005) and appears in post 
 
 *Note: In early posts (2005–2010) the ETF was called QQQQ (4 Qs); it was later renamed QQQ (3 Qs). Same index.*
 
+## Code — an approximation of the day count
+
+Dr. Wish has never published the rule that flips this signal — his GMI component is "QQQQ daily trend positive" via "technical indicators not disclosed." What he *has* said is that the 30-day moving average is "the most reliable indicator of the short term trend." So [`src/ww/indicators/qqq_timing.py`](../../src/ww/indicators/qqq_timing.py) approximates the trend as *close above its 30-day SMA = up*, and counts consecutive days since the last flip — a stand-in for his "Day N", **not** a reproduction of it:
+
+```python
+def short_term_trend(daily_close, *, window=30):
+    ma = daily_close.astype(float).rolling(window).mean()
+    return "up" if daily_close.iloc[-1] > ma.dropna().iloc[-1] else "down"
+
+def trend_day_count(daily_close, *, window=30):
+    t = (daily_close.astype(float) > daily_close.astype(float).rolling(window).mean()).dropna()
+    last, n = t.iloc[-1], 0
+    for v in reversed(t.tolist()):
+        if v == last: n += 1
+        else: break
+    return n
+```
+
+`ww compute qqq-timing QQQ` prints the approximated trend and day count — with the caveat printed alongside.
+
 ## See also
 
 - [General Market Index (GMI)](gmi.md)
