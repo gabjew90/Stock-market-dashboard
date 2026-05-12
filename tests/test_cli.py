@@ -5,9 +5,17 @@ import httpx
 from typer.testing import CliRunner
 
 from ww import cli
+from ww.corpus.index import PostRecord, write_posts_jsonl
 from ww.scrape import ingest as ingest_mod
 
 runner = CliRunner()
+
+
+def _rec_cli(**over) -> PostRecord:
+    base = dict(post_id=1, url="u", date="2020-01-01T00:00:00", slug="s", stem="2020-01-01-s",
+                title="t", word_count=10, chart_count=0, chart_image_urls=[], kind_guess="unknown")
+    base.update(over)
+    return PostRecord(**base)
 
 
 def test_stats_command_empty(tmp_path: Path):
@@ -43,3 +51,26 @@ def test_scrape_command_uses_root_and_reports_count(fixtures_dir, tmp_path, monk
     result2 = runner.invoke(cli.app, ["stats", "--root", str(tmp_path)])
     assert result2.exit_code == 0
     assert "total_posts: 2" in result2.stdout
+
+
+def test_ww_batch_lists_uningested_filtered_by_kind(tmp_path: Path):
+    write_posts_jsonl(tmp_path / "raw" / "posts.jsonl", [
+        _rec_cli(post_id=1, stem="2020-01-01-a", kind_guess="long_form", title="Strategy primer", word_count=900),
+        _rec_cli(post_id=2, stem="2020-01-02-b", kind_guess="daily_update", title="GMI=6", word_count=40),
+        _rec_cli(post_id=3, stem="2020-01-03-c", kind_guess="long_form", title="More strategy", word_count=700, ingested=True),
+        _rec_cli(post_id=4, stem="2020-01-04-d", kind_guess="unknown", title="A trade", word_count=300),
+    ])
+    # default: only un-ingested, all kinds, newest first
+    result = runner.invoke(cli.app, ["batch", "--root", str(tmp_path), "-n", "10"])
+    assert result.exit_code == 0
+    assert "2020-01-04-d" in result.stdout and "2020-01-01-a" in result.stdout
+    assert "2020-01-03-c" not in result.stdout            # already ingested
+    # filter to a single kind
+    result2 = runner.invoke(cli.app, ["batch", "--root", str(tmp_path), "-n", "10", "--kind", "long_form"])
+    assert result2.exit_code == 0
+    assert "2020-01-01-a" in result2.stdout
+    assert "2020-01-02-b" not in result2.stdout and "2020-01-04-d" not in result2.stdout
+    # -n limits
+    result3 = runner.invoke(cli.app, ["batch", "--root", str(tmp_path), "-n", "1"])
+    assert result3.exit_code == 0
+    assert result3.stdout.count("raw/posts/") == 1

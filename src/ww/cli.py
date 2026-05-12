@@ -6,6 +6,7 @@ from pathlib import Path
 import typer
 import yaml
 
+from ww.corpus.index import read_posts_jsonl
 from ww.maintain.lint import lint_wiki
 from ww.scrape.ingest import scrape_blog
 from ww.stats import corpus_stats
@@ -49,6 +50,23 @@ def lint(
         typer.echo(f"{len(report.errors)} error(s), {len(report.warnings)} warning(s)")
         raise typer.Exit(code=1)
     typer.echo(f"OK — 0 errors, {len(report.warnings)} warning(s)")
+
+
+@app.command()
+def batch(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+    n: int = typer.Option(20, "-n", "--num", help="How many posts to list."),
+    kind: str = typer.Option(None, "--kind", help="Filter by kind_guess (long_form / daily_update / unknown)."),
+    oldest_first: bool = typer.Option(False, "--oldest-first", help="List oldest un-ingested first instead of newest."),
+) -> None:
+    """List the next un-ingested posts to feed the Ingest loop (see CLAUDE.md §4)."""
+    records = [r for r in read_posts_jsonl(Path(root) / "raw" / "posts.jsonl") if not r.ingested]
+    if kind:
+        records = [r for r in records if r.kind_guess == kind]
+    records.sort(key=lambda r: r.date, reverse=not oldest_first)
+    for r in records[:n]:
+        typer.echo(f"raw/posts/{r.stem}.md\t[{r.kind_guess}, {r.word_count}w]\t{r.title}")
+    typer.echo(f"# {min(n, len(records))} of {len(records)} un-ingested" + (f" ({kind})" if kind else ""))
 
 
 if __name__ == "__main__":  # pragma: no cover
