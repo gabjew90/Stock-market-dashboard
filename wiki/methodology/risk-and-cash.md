@@ -6,11 +6,16 @@ sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
+  - raw/posts/2008-10-06-gmi-0-gmi-r-0-current-financial-mess-predicted-in-nyt-in-1999-t2108-at-extreme-low-6-my-gmi-indicators-kept-m.md
+  - raw/posts/2009-06-14-how-my-general-market-indicator-gmi-kept-me-and-my-401k-out-of-the-bear-market.md
+  - raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md
+  - raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md
+  - raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md
-  - raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md
-  - raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md
+  - raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md
   - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
+  - raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md
 ---
 
 # Risk & cash
@@ -37,9 +42,10 @@ The 30-week average of the QQQ or SPY provides an additional signal:
 
 Historical examples he credits to this discipline:
 
-- Exited in **2000** when the QQQQ's 30-week average reversed downward. ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
-- Re-entered in **2003** when the 30-week average reversed upward. ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
+- Exited in **2000** when the QQQQ's 30-week average reversed downward. Re-entered in **2003** when it reversed upward. ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
+- **2008:** Moved all pension money to a money market fund in **early June 2008** after examining weakness in Dow 30 stocks. By October 2008, GMI and GMI-R were at 0 and T2108 hit 6% — the third-lowest reading going back to 1986. His pension was fully in cash. ([WW 2008-10-06](../../raw/posts/2008-10-06-gmi-0-gmi-r-0-current-financial-mess-predicted-in-nyt-in-1999-t2108-at-extreme-low-6-my-gmi-indicators-kept-m.md)) Re-entered in April 2009 when GMI hit 4 and the 10-week average crossed above the 30-week average. Moved 15% of pension from money market to a growth mutual fund initially. ([WW 2009-06-14](../../raw/posts/2009-06-14-how-my-general-market-indicator-gmi-kept-me-and-my-401k-out-of-the-bear-market.md))
 - Described himself as having "successfully dodged the 98 bear, the 2000-2002 bear and most of the present decline" (written April 2005). ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md))
+- **2025:** GMI turned Red on February 24, 2025. IWM's 10-week average crossed below its 30-week average in March 2025 — Dr. Wish identified this as a likely Stage 4 onset and transferred pension accumulations out of mutual funds. Held SQQQ (inverse QQQ) and TWM (inverse IWM) as small short positions. ([WW 2025-03-30](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
 
 ## Position management within a bull market
 
@@ -76,6 +82,8 @@ When a new QQQ short-term down-trend begins, he often buys a small amount of the
 
 3X leveraged ETF tactic: always start with a small position and average up only as the ETF moves in your favor. He would not add to a losing 3X ETF position. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
 
+**TWM** (ProShares UltraShort Russell 2000) is a 2× inverse ETF on IWM that Dr. Wish also holds in down-trending markets alongside SQQQ. ([WW 2025-03-30](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
+
 ## Breadth divergence as an early exit signal
 
 In addition to the GMI and 30-week average, Dr. Wish tracks daily new highs and new lows against the full US stock universe. A surge in new lows while the index is at highs is an early warning — the key signal behind his November 2021 exit, when new lows hit 438 on the day QQQ peaked (day U-26 of the short-term up-trend). He stayed out for over a year through the subsequent Stage 4 decline. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
@@ -101,8 +109,13 @@ Dr. Wish distinguishes between two accounts. His **trading IRA** follows the tac
 - [WW 2005-04-23 — Let's Talk Strategy](../../raw/posts/2005-04-23-lets-talk-strategy.md) ([summary](../sources/2005-04-23-lets-talk-strategy.md))
 - [WW 2005-04-30 — My Trading Strategy, Part II](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md) ([summary](../sources/2005-04-30-my-trading-strategy-part-ii.md))
 - [WW 2005-07-17 — GMI since inception; introducing the WPM](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md) ([summary](../sources/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
+- [WW 2008-10-06 — GMI: 0; T2108 at extreme low 6%; GMI indicators kept me out](../../raw/posts/2008-10-06-gmi-0-gmi-r-0-current-financial-mess-predicted-in-nyt-in-1999-t2108-at-extreme-low-6-my-gmi-indicators-kept-m.md) ([summary](../sources/2008-10-06-gmi-0-gmi-r-0-current-financial-mess-predicted-in-nyt-in-1999-t2108-at-extreme-low-6-my-gmi-indicators-kept-m.md))
+- [WW 2009-03-08 — How I use put options as investment insurance](../../raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md) ([summary](../sources/2009-03-08-how-i-use-put-options-as-investment-insurance.md))
+- [WW 2009-06-14 — How my GMI kept me and my 401K out of the bear market](../../raw/posts/2009-06-14-how-my-general-market-indicator-gmi-kept-me-and-my-401k-out-of-the-bear-market.md) ([summary](../sources/2009-06-14-how-my-general-market-indicator-gmi-kept-me-and-my-401k-out-of-the-bear-market.md))
+- [WW 2010-03-15 — Jim Cramer on stop loss orders; how I trade the 3X ETFs](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md) ([summary](../sources/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
+- [WW 2011-07-25 — My strategy for trading stocks that will advance $25 per share in a month](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md) ([summary](../sources/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
 - [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 - [WW 2014-08-03 — GMI 10-Day New High Indicator; T2108; AAPL](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md) ([summary](../sources/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
-- [WW 2010-03-15 — Jim Cramer on stop loss orders; how I trade the 3X ETFs](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md) ([summary](../sources/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
-- [WW 2009-03-08 — How I use put options as investment insurance](../../raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md) ([summary](../sources/2009-03-08-how-i-use-put-options-as-investment-insurance.md))
+- [WW 2014-10-13 — 11th day of QQQ down-trend; how long will this decline last?](../../raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md) ([summary](../sources/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md))
 - [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
+- [WW 2025-03-30 — Day 24 of QQQ down-trend; IWM at beginning of Stage 4](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md) ([summary](../sources/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))

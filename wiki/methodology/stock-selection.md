@@ -6,11 +6,14 @@ sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
-  - raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md
-  - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md
+  - raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md
+  - raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md
   - raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md
+  - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md
+  - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
+  - raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md
   - raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md
 ---
 
@@ -45,13 +48,18 @@ He also used the IBD 100 / IBD 50 list as a starting pool — stocks that have a
 
 IBD 50 outperformance (documented 2012): from December 2011 through April 2012, the IBD 50 median gain was +20% vs. NASDAQ 100 +15% vs. S&P 500 +10%. 34% of the IBD 50 gained 30% or more, vs. only 16% of the NASDAQ 100. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
 
-## Price level preference
+## Price level preference — the $80+ / $100+ rule
 
-Dr. Wish prefers stocks priced **$80 or above**. His reasoning ([WW 2005-06-05](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md)):
+Dr. Wish focuses on high-priced stocks and frames it in dollar-move terms, not percentage terms: "It is the number of points in the rise" that matters, not the percentage. ([WW 2011-07-25](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
 
-- A 20% move in a $100 stock is 20 points — enough room to pyramid into a position as the trend develops. A 20% move in a $10 stock is only 2 points, too little room.
-- Expensive stocks are less susceptible to manipulation by day traders.
-- High price signals sustained demand from large buyers.
+**Empirical backing:** he ran a TC2000 scan of all stocks that advanced $25 or more in the prior 30 days. Result: 90% (19/21 stocks) were priced above $80 thirty days earlier; 17 of 21 were above $100. During that period GOOG rose +$101, AAPL +$61, ISRG +$63. ([WW 2011-07-25](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
+
+Additional reasoning:
+- A 20% move in a $100 stock is $20 — enough room to pyramid; in a $10 stock it is only $2. ([WW 2005-06-05](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md))
+- High-frequency traders are less likely to play in expensive stocks (capital requirement).
+- High price signals sustained institutional demand.
+
+**How to access expensive stocks with limited capital:** Dr. Wish uses **deep in-the-money (DITM) call options** — near-month calls with 3–6 weeks to expiration that cost roughly 10–20% of the stock's price but move dollar-for-dollar with the stock above the break-even. He never uses this leverage to buy *more* shares than he could have afforded outright; the DITM option reduces capital outlay for the same effective share count, not a way to oversize the position. See [glossary: DITM](glossary.md) for the mechanics. ([WW 2011-07-25](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
 
 ## The RWB pattern — the visual filter for rocket stocks (introduced 2010)
 
@@ -86,23 +94,31 @@ The buy trigger itself is the [Green Line Breakout (GLB)](green-line-breakouts.m
 
 AAPL (2012) as the illustration: a stock hitting new all-time highs must do so many times on its ascent. "If you refuse to buy or hold a stock at an all-time high, you will never ride a wonderful stock like AAPL." To find the next AAPL: start from the list of stocks hitting 52-week highs, weed out those not near ATH, then research the remaining stocks' fundamentals and technicals. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
 
+## The black dot — oversold-bounce signal (introduced 2021)
+
+For stocks already in an up-trend that have pulled back to an oversold level, Dr. Wish uses the **black dot** signal as an entry. A black dot appears on his TC2000 daily chart when: (1) the daily 10.1 stochastic was ≤25 in any of the past 3 days; (2) current price > prior day's price; (3) stock is above its 30-day average or its 21-day exponential average. ([WW 2021-06-13](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
+
+The black dot only works on stocks already in a confirmed up-trend. He often combines it with the GLB: "I love a black dot that occurs after a GLB." The scan finds stocks that recently hit an ATH, became oversold, and are starting to turn up — placing the stop below the bounce gives a tight risk level.
+
 ## See also
 
 - [Green Line Breakouts (GLB)](green-line-breakouts.md)
-- [Moving-average rules](moving-average-rules.md) — Stage 2 prerequisite; RWB uses weekly GMMA
-- [Risk & cash](risk-and-cash.md) — market state gate
+- [Moving-average rules](moving-average-rules.md) — Stage 2 prerequisite; RWB; WGB formula
+- [Risk & cash](risk-and-cash.md) — market state gate; DITM discipline
 - [Buying a GLB (playbook)](../playbooks/buying-glb.md)
-- [Glossary](glossary.md) — RWB, BWR, GLB, pilot buy, MoneyStream, RLC, weekly green bar
+- [Glossary](glossary.md) — RWB, BWR, GLB, DITM, black dot, pilot buy, MoneyStream, RLC, WGB
 
 ## Sources
 
 - [WW 2005-04-23 — Let's Talk Strategy](../../raw/posts/2005-04-23-lets-talk-strategy.md) ([summary](../sources/2005-04-23-lets-talk-strategy.md))
 - [WW 2005-04-30 — My Trading Strategy, Part II](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md) ([summary](../sources/2005-04-30-my-trading-strategy-part-ii.md))
 - [WW 2005-06-05 — GMI back to +5; on moving averages](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md) ([summary](../sources/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md))
-- [WW 2010-09-27 — Introducing Red White and Blue (RWB) Stocks](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md) ([summary](../sources/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
-- [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 - [WW 2010-02-22 — How to use IBD 100 and New America stocks to find rocket stocks](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md) ([summary](../sources/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
+- [WW 2010-09-27 — Introducing Red White and Blue (RWB) Stocks](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md) ([summary](../sources/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
+- [WW 2011-07-25 — My strategy for trading stocks that will advance $25 per share in a month](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md) ([summary](../sources/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
 - [WW 2012-04-30 — How I find the next AAPL growth stock; new GMI buy signal](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md) ([summary](../sources/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
+- [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 - [WW 2017-03-19 — How I use daily RWB charts to size up the market and individual stocks](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md) ([summary](../sources/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
 - [WW 2017-12-17 — A strategy for deciding when to sell stocks; GDS, NVDA](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md) ([summary](../sources/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
+- [WW 2021-06-13 — TraderLion conference; black dot signals; GMI=6](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md) ([summary](../sources/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
 - [WW 2024-05-27 — ANF worked example (weekly green bar)](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md) ([summary](../sources/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))

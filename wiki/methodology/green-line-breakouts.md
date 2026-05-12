@@ -5,10 +5,12 @@ updated: 2026-05-11
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
-  - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md
   - raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md
+  - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
+  - raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md
+  - raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -32,8 +34,35 @@ Before formally naming the GLB concept, Dr. Wish described it in his strategy po
 - Run a scan on stocks at a **new 52-week high**; then inspect each to see if it has broken above a green-line base. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 - A GLB is only tradeable when the **market is in a Stage 2 up-trend** (QQQ/SPY above their rising 30-week averages, [GMI](gmi.md) ≥ 4). Buying the right stock in the wrong market is a losing strategy. ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
 - The [RWB pattern](stock-selection.md) on the weekly chart is the visual confirmation that a stock qualifies as a genuine rocket — it should be RWB before buying.
+- As soon as he draws the green line he sets a **TC2000 alert** (valid one year) to notify him when the stock trades above the line. ([WW 2020-12-27](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
+- He only buys stocks that are **above their last green line top** — any stock below its most recent ATH has overhead supply. ([WW 2021-02-28](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
 
-*Note: the post-GLB entry mechanics (5-day EMA, stop placement, target) have not been described in detail in the posts ingested so far. Future posts will fill this in.*
+### Confirming a GLB: closing price matters
+
+Dr. Wish uses the **daily closing price** to define GLB success or failure. A stock that trades intraday above the green line but closes below it has NOT broken out. Example: TWTR on Thursday February 25, 2021 — QQQ was down 3.5%, TWTR reversed from an ATH of $80.75 and closed at $74.59 ($0.14 below its green line = **failed GLB**). On Friday it held and closed at $77.06 on above-average volume = **confirmed GLB**. ([WW 2021-02-28](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
+
+### The stop rule for GLB positions
+
+Dr. Wish uses a **mental stop** rather than a hard stop for GLB positions. He sells if the stock **closes** any day below its green line. He does not stop out on intraday dips that recover above the green line by the close. The mental-vs-hard distinction exists specifically to avoid whipsaws on volatile days. ([WW 2020-12-27](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
+
+## The IPO GLB — a high-probability variant
+
+Recent IPOs are especially attractive GLB candidates because of the predictable overhead supply dynamic:
+
+1. An IPO prices and begins trading; euphoric buying drives the stock to a post-IPO peak.
+2. Insiders and early buyers profit; the stock declines and consolidates for months or years.
+3. During the consolidation, anyone who bought near the IPO peak is underwater and will sell to get their money back ("overhead supply").
+4. When the stock finally trades above that original peak at a new ATH, it has absorbed all of that overhead selling pressure — evidence of powerful buying. This is the GLB.
+
+Example: Facebook came public in May 2012 at $42.05, rose to $45 in its first month, then declined 61% to $17.55 by September 2012. In September 2013 — 17 months after its IPO — FB traded at a new ATH. That is when Dr. Wish buys. FB went on to have four GLBs. ([WW 2020-12-27](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
+
+Example: TWTR IPO'd and formed a green line top at $74.73 in December 2013 (one month after its IPO). It stayed below that level for 8 years and had a GLB in February 2021. William O'Neil liked buying companies that had come public in the previous 8 years and broken out to new ATHs — TWTR fits this profile. ([WW 2021-02-28](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
+
+## The WGB — a second-chance entry after a GLB
+
+When Dr. Wish misses the initial GLB or wants to add to an existing position, the **Weekly Green Bar (WGB)** is his secondary signal. A WGB occurs on a weekly chart when the stock's low for the week touched or went below the rising 4-week average, but the close recovered above it, the close is higher than the prior week's close, and the 4wk>10wk>30wk alignment holds. See [moving-average-rules.md](moving-average-rules.md) for the full TC2000 formula.
+
+The WGB trailing stop: hold as long as WGBs keep forming; exit when the stock trades below the low of the most recent WGB. This captured most of TSLA's advance post-GLB. ([WW 2020-12-27](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
 
 ## The Darvas lineage — the historical root of the concept
 
@@ -64,7 +93,9 @@ The GLB concept was present in principle from Dr. Wish's earliest 2005 strategy 
 
 - [WW 2005-04-23 — Let's Talk Strategy](../../raw/posts/2005-04-23-lets-talk-strategy.md) ([summary](../sources/2005-04-23-lets-talk-strategy.md))
 - [WW 2005-04-30 — My Trading Strategy, Part II](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md) ([summary](../sources/2005-04-30-my-trading-strategy-part-ii.md))
-- [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 - [WW 2005-10-09 — Nicolas Darvas trading techniques require markets at all-time peaks](../../raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md) ([summary](../sources/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md))
 - [WW 2010-02-22 — How to use IBD 100 and New America stocks to find rocket stocks](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md) ([summary](../sources/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
+- [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 - [WW 2017-12-17 — A strategy for deciding when to sell stocks; GDS, NVDA](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md) ([summary](../sources/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
+- [WW 2020-12-27 — Buying IPOs with GLB and WGB signal; $PGNY $TSLA](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md) ([summary](../sources/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
+- [WW 2021-02-28 — $TWTR: GLB and WGB indicators](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md) ([summary](../sources/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))

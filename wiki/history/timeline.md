@@ -9,19 +9,29 @@ sources:
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
   - raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md
+  - raw/posts/2008-10-06-gmi-0-gmi-r-0-current-financial-mess-predicted-in-nyt-in-1999-t2108-at-extreme-low-6-my-gmi-indicators-kept-m.md
   - raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md
+  - raw/posts/2009-06-14-how-my-general-market-indicator-gmi-kept-me-and-my-401k-out-of-the-bear-market.md
   - raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md
   - raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md
   - raw/posts/2010-04-19-how-i-buy-aapl-for-12-down-without-using-margin.md
   - raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md
   - raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md
+  - raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md
   - raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md
+  - raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md
+  - raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md
   - raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
+  - raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md
+  - raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md
+  - raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md
+  - raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md
   - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
   - raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md
+  - raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md
 ---
 
 # Timeline — evolution of the methodology
@@ -68,9 +78,23 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## June 2008 / October 2008 — The 2008 financial crisis: real-time GMI at zero
+
+**Early June 2008:** Dr. Wish examined the Dow 30 component stocks, found widespread weakness, and transferred all pension accumulations from mutual funds into money market funds.
+
+**October 6, 2008** (GMI: 0, GMI-R: 0): T2108 hit 6% — the third-lowest reading going back to 1986; only October 1987 (0.5%) and August 1990 (5.3%) were lower. The GMI had been at zero since September. Dr. Wish was safely in cash. He framed the then-26% Dow decline as "relatively slow and small" compared to 1929 (−13.5% and −11.7% on consecutive days). ([WW 2008-10-06](../../raw/posts/2008-10-06-gmi-0-gmi-r-0-current-financial-mess-predicted-in-nyt-in-1999-t2108-at-extreme-low-6-my-gmi-indicators-kept-m.md))
+
+---
+
 ## March 2009 — Put options as investment insurance
 
 **"How I use put options as investment insurance" (2009-03-08):** written at the March 2009 bear market bottom (T2108=7%, 1,221 new lows). Dr. Wish explains protective puts as an alternative to stop-loss orders during highly volatile markets — a put cannot be whipsawed, a stop can. The cost is the put premium. He can buy puts inside his IRA. ([WW 2009-03-08](../../raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md))
+
+---
+
+## June 2009 — Re-entry after the 2008–2009 bear; GMI track record documented
+
+**"How my GMI kept me and my 401K out of the bear market" (2009-06-14):** retrospective weekly GMI chart covering the full 2008–2009 bear. GMI hit 4 in early April 2009 and held at 4. Re-entry condition: 10-week average crossed back above the 30-week average — "a key characteristic of tradable advances." Dr. Wish moved 15% of pension from money market to a growth mutual fund and made pilot buys in SYNA and HMSY. ([WW 2009-06-14](../../raw/posts/2009-06-14-how-my-general-market-indicator-gmi-kept-me-and-my-401k-out-of-the-bear-market.md))
 
 ---
 
@@ -108,9 +132,27 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## July 2011 — Dollar-move framing and DITM options introduced
+
+**"My strategy for trading stocks that will advance $25 per share in a month" (2011-07-25):** explicit statement of the dollar-move preference over percentage-move. TC2000 scan result: 90% of stocks that advanced $25+ in 30 days were priced above $80 at the start. DITM (deep in-the-money) call options introduced as the capital-efficient way to access expensive stocks — buying 10–20% effective down payment for the same dollar-for-dollar exposure. ([WW 2011-07-25](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
+
+---
+
 ## August 2014 — Successful 10-Day New High Indicator explained in detail; T2108 defined
 
 **"GMI Successful 10-Day New High Indicator predicted current decline" (2014-08-03):** retrospective showing the indicator flagged the July 2014 decline. Refines the threshold: ≥ 50% of stocks that hit a high 10 days ago must be up — not the 2005 absolute count of 100. Full T2108 definition given for the first time. AAPL as a 10-week average rule example. QQQ down-trend tactics (small SQQQ, add if persists 5–6 days). ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
+
+---
+
+## October 2014 — Six signals for reading a decline; Stage 4 definition stated explicitly
+
+**"11th day of $QQQ short-term down-trend" (2014-10-13):** during a 2014 October correction, Dr. Wish articulates all four Weinstein stages clearly for the first time in an ingested post. Stage 4 definition: index or stock is below its declining 30-week average. He describes the pension-money transfer protocol: move out of mutual funds "in stages" if a Stage 4 threatens. T2108 was 14%; he notes it reached 13% in 2013 and 7% in the large 2011 decline. ([WW 2014-10-13](../../raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md))
+
+---
+
+## January 2016 — Global BWR sweep; worldwide down-trends
+
+**"All World Stock Markets entering BWR Down-trends!" (2016-01-10):** Dr. Wish scans 37 global market ETFs and finds 35 of 37 in BWR down-trends in early 2016. He refines the BWR definition: the weekly close (gray dotted line) is below all 12 Guppy moving averages. He posts a monthly T2108 historical chart: readings at 1% (2008), 7% (2011), ~6% (August 2015). ([WW 2016-01-10](../../raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md))
 
 ---
 
@@ -123,6 +165,30 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## December 2017 — Daily RWB as primary exit tool; RWB-bounce scan introduced
 
 **"A strategy for deciding when to sell stocks; GDS, NVDA" (2017-12-17):** Dr. Wish formally shifts from the weekly yellowband / 10-week close as the primary exit signal to the daily RWB red-line close. New exit rule: exit if the stock closes below all six red lines. For large profits: wait for two consecutive closes below all red lines. Red-line convergence = wait for direction, do not anticipate. He publishes the TC2000 RWB-bounce scan (12162017DailyRWBBounce). ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
+
+---
+
+## November 2018 — Daily BWR pattern introduced; weekly RWB lost
+
+**"I'm back! Daily BWR pattern for $QQQ" (2018-11-25):** after the Q4 2018 decline, Dr. Wish shows that both the daily and weekly Guppy charts for QQQ have turned or are turning BWR. The GMI flashed Red on October 8, 2018. T2108 hit an intraday low of 7.6% on October 26, recovering to 28% by the time of the post. He lists his re-entry conditions: GMI returns to ≥4 for two consecutive days AND the daily Guppy chart turns from BWR back to RWB. Sentiment: investment-letter bulls dropped from 60%+ near the top to 40% — promising but not extreme. ([WW 2018-11-25](../../raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md))
+
+---
+
+## December 2020 — WGB as second-chance IPO entry; PGNY and TSLA examples
+
+**"Buying IPOs with Green Line Break-outs (GLB) and a Weekly Green Bar (WGB) signal" (2020-12-27):** formal description of the IPO GLB logic (overhead supply dynamic; Facebook as canonical example). WGB introduced as the secondary entry signal when you miss the GLB. WGB trailing stop rule introduced: hold as long as WGBs form; exit below the most recent WGB low. TSLA's post-GLB advance showed 6 of 8 WGBs were successful hold signals. ([WW 2020-12-27](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
+
+---
+
+## February 2021 — WGB TC2000 formula disclosed; TWTR as worked example
+
+**"$TWTR to take off? GLB and WGB indicators" (2021-02-28):** Dr. Wish publishes the TC2000 formula for the WGB for the first time. TWTR had a GLB after 8 years below its $74.73 green line top. He demonstrates the closing-price rule for GLB confirmation: TWTR failed its GLB on a down-3.5% QQQ day (closed $0.14 below the green line) but confirmed on the next day's close. Mental stop rule restated: sell if the stock *closes* below the green line, not on intraday dips. ([WW 2021-02-28](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
+
+---
+
+## June 2021 — Black dot signal introduced; TraderLion presentation
+
+**"Follow on to TraderLion conference; black dot signals" (2021-06-13):** Dr. Wish introduces the black dot — a TC2000 daily stochastic-based oversold-bounce signal for stocks already in up-trends. Formula published. He uses TQQQ/SQQQ guided by the QQQ short-term trend count. GMI decision rules and T2108 contrarian bottom threshold restated. ([WW 2021-06-13](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
 
 ---
 
@@ -144,6 +210,12 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 ---
 
+## March 2025 — Stage 4 identified in IWM; GMI Red since February
+
+**"Day 24 of $QQQ short-term down-trend; IWM at beginning of Stage 4" (2025-03-30):** Dr. Wish uses IWM's weekly 10:30 chart to identify what looks like the beginning of a Stage 4 down-trend — the 10-week average has crossed below the 30-week average, and the weekly close is leading everything lower. He compares it to the same setup in 2022 and transferred pension accumulations out of mutual funds. GMI has been Red since February 24, 2025. He holds SQQQ and TWM as small short positions. ([WW 2025-03-30](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
+
+---
+
 *Timeline continues as more posts are ingested. Many daily-update posts from 2005–2026 remain unprocessed — they will feed `history/track-record.md` when the Plan 2.5 timeline parser runs.*
 
 ## See also
@@ -159,7 +231,9 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 - [WW 2005-06-05 — GMI back to +5; on moving averages](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md)
 - [WW 2005-07-17 — GMI since inception; introducing the WPM](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md)
 - [WW 2005-10-09 — Nicolas Darvas trading techniques require markets at all-time peaks](../../raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md) ([summary](../sources/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md))
+- [WW 2008-10-06 — GMI: 0; T2108 at extreme low 6%; GMI indicators kept me out](../../raw/posts/2008-10-06-gmi-0-gmi-r-0-current-financial-mess-predicted-in-nyt-in-1999-t2108-at-extreme-low-6-my-gmi-indicators-kept-m.md) ([summary](../sources/2008-10-06-gmi-0-gmi-r-0-current-financial-mess-predicted-in-nyt-in-1999-t2108-at-extreme-low-6-my-gmi-indicators-kept-m.md))
 - [WW 2009-03-08 — How I use put options as investment insurance](../../raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md) ([summary](../sources/2009-03-08-how-i-use-put-options-as-investment-insurance.md))
+- [WW 2009-06-14 — How my GMI kept me and my 401K out of the bear market](../../raw/posts/2009-06-14-how-my-general-market-indicator-gmi-kept-me-and-my-401k-out-of-the-bear-market.md) ([summary](../sources/2009-06-14-how-my-general-market-indicator-gmi-kept-me-and-my-401k-out-of-the-bear-market.md))
 - [WW 2010-02-22 — How to use IBD 100 and New America stocks to find rocket stocks](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md) ([summary](../sources/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
 - [WW 2010-03-15 — Jim Cramer on stop loss orders; how I trade the 3X ETFs](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md) ([summary](../sources/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
 - [WW 2010-04-19 — How I buy AAPL for 12% down without using margin](../../raw/posts/2010-04-19-how-i-buy-aapl-for-12-down-without-using-margin.md) ([summary](../sources/2010-04-19-how-i-buy-aapl-for-12-down-without-using-margin.md))
@@ -167,8 +241,16 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 - [WW 2011-03-07 — Introducing the GMI2](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md)
 - [WW 2012-04-30 — How I find the next AAPL growth stock; new GMI buy signal](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md) ([summary](../sources/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
 - [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md)
+- [WW 2011-07-25 — My strategy for trading stocks that will advance $25 per share in a month](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md) ([summary](../sources/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
 - [WW 2014-08-03 — GMI 10-Day New High Indicator; T2108; AAPL](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md)
+- [WW 2014-10-13 — 11th day of QQQ down-trend; how long will this decline last?](../../raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md) ([summary](../sources/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md))
+- [WW 2016-01-10 — All world stock markets entering BWR down-trends](../../raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md) ([summary](../sources/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md))
 - [WW 2017-03-19 — How I use daily RWB charts to size up the market and individual stocks](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md) ([summary](../sources/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
 - [WW 2017-12-17 — A strategy for deciding when to sell stocks; GDS, NVDA](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md) ([summary](../sources/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
+- [WW 2018-11-25 — I'm back! Daily BWR pattern for $QQQ, weekly RWB pattern gone](../../raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md) ([summary](../sources/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md))
+- [WW 2020-12-27 — Buying IPOs with GLB and WGB signal; $PGNY $TSLA](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md) ([summary](../sources/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
+- [WW 2021-02-28 — $TWTR: GLB and WGB indicators](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md) ([summary](../sources/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
+- [WW 2021-06-13 — TraderLion conference; black dot signals; GMI=6](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md) ([summary](../sources/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
 - [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 - [WW 2024-05-27 — ANF worked example (weekly green bar)](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md) ([summary](../sources/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
+- [WW 2025-03-30 — Day 24 of QQQ down-trend; IWM at beginning of Stage 4](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md) ([summary](../sources/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
