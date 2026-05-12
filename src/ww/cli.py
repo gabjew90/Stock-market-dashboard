@@ -6,6 +6,7 @@ from pathlib import Path
 import typer
 import yaml
 
+from ww.maintain.lint import lint_wiki
 from ww.scrape.ingest import scrape_blog
 from ww.stats import corpus_stats
 
@@ -32,6 +33,22 @@ def stats(
 ) -> None:
     """Print corpus counts for the raw-sources index."""
     typer.echo(yaml.safe_dump(corpus_stats(root), sort_keys=False, allow_unicode=True).rstrip())
+
+
+@app.command()
+def lint(
+    root: Path = typer.Argument(Path("."), help="Repo root (the directory containing wiki/)."),
+) -> None:
+    """Mechanical wiki integrity checks (broken links, missing Sources, uncatalogued/orphan pages, summary_page)."""
+    report = lint_wiki(root)
+    for w in report.warnings:
+        typer.echo(f"warning: {w}")
+    for e in report.errors:
+        typer.echo(f"error: {e}")
+    if report.errors:
+        typer.echo(f"{len(report.errors)} error(s), {len(report.warnings)} warning(s)")
+        raise typer.Exit(code=1)
+    typer.echo(f"OK — 0 errors, {len(report.warnings)} warning(s)")
 
 
 if __name__ == "__main__":  # pragma: no cover

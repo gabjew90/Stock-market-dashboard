@@ -79,3 +79,26 @@ def test_real_bootstrapped_wiki_passes_lint():
     repo_root = Path(__file__).resolve().parents[1]
     report = lint_wiki(repo_root)
     assert report.errors == [], "Bootstrapped wiki has lint errors:\n" + "\n".join(report.errors)
+
+
+from typer.testing import CliRunner
+
+from ww import cli
+
+_runner = CliRunner()
+
+
+def test_ww_lint_command_ok_on_clean_wiki(tmp_path: Path):
+    _good_wiki(tmp_path)
+    result = _runner.invoke(cli.app, ["lint", str(tmp_path)])
+    assert result.exit_code == 0
+    assert "OK" in result.stdout or "0 errors" in result.stdout
+
+
+def test_ww_lint_command_nonzero_on_errors(tmp_path: Path):
+    _good_wiki(tmp_path)
+    p = tmp_path / "wiki" / "methodology" / "gmi.md"
+    p.write_text(p.read_text(encoding="utf-8").replace("../../raw/posts/2020-01-01-x.md", "ghost.md"), encoding="utf-8")
+    result = _runner.invoke(cli.app, ["lint", str(tmp_path)])
+    assert result.exit_code == 1
+    assert "ghost.md" in result.stdout
