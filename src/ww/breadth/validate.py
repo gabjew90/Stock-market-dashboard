@@ -30,8 +30,12 @@ def _fit_stats(ours: pd.Series, his: pd.Series) -> dict:
 def validate_against_reported(root: Path, *, prices_cache: dict | None = None, n_samples: int = 15, seed: int = 0) -> dict:
     root = Path(root)
     bdir = root / "data" / "breadth"
-    bs = pd.read_parquet(bdir / "breadth_series.parquet"); bs["date"] = pd.to_datetime(bs["date"]); bs = bs.set_index("date").sort_index()
-    tl = pd.read_parquet(root / "raw" / "timeline.parquet"); tl["date"] = pd.to_datetime(tl["date"]); tl = tl.set_index("date").sort_index()
+    bs = pd.read_parquet(bdir / "breadth_series.parquet"); bs["date"] = pd.to_datetime(bs["date"]).dt.normalize(); bs = bs.set_index("date").sort_index()
+    tl_raw = pd.read_parquet(root / "raw" / "timeline.parquet"); tl_raw["date"] = pd.to_datetime(tl_raw["date"]).dt.normalize()
+    # Deduplicate: for each date keep the row with the most non-null values (prefer rows that have gmi_value / t2108)
+    tl_raw = tl_raw.sort_values("date")
+    tl = tl_raw.groupby("date", as_index=False).first()
+    tl = tl.set_index("date").sort_index()
 
     # ---- T2108 ----
     joined = bs.join(tl["t2108"], how="inner").dropna(subset=["t2108"])

@@ -104,6 +104,24 @@ The `DataProvider` interface ([`provider.py`](../../src/ww/indicators/provider.p
 
 Try it: `ww compute gmi 2026-05-01` prints the partial GMI from current QQQ/SPY prices and flags the three components that need breadth/fund data. `ww compute gmi 2014-08-01 --demo` runs it against built-in *illustrative* fixtures (made-up numbers — not real history) so you can see a full 6/6 result and the per-component breakdown. Acquiring the real breadth/fund data so a true historical GMI can be reproduced is a later phase — and a prerequisite for the planned backtest of his strategy.
 
+## Reconstructing the GMI from free data
+
+The `gmi()` code can be driven by a [`BreadthProvider`](../../src/ww/indicators/breadth_provider.py) that reads a locally-built market-breadth series (`data/breadth/breadth_series.parquet`, produced by `ww breadth fetch` + `ww breadth build` from the free Nasdaq Trader symbol files + yfinance). With it, all six components are computed: components 3/4/5 from QQQ/SPY prices, components 1/2 from the reconstructed 52-week-high panel, and component 6 from a **growth-fund proxy** (the average of several large growth mutual funds — *not* IBD's actual Mutual Fund Index, which is proprietary; it is a stand-in for "are growth funds trending up?").
+
+**How faithful is it?** `ww breadth validate` cross-checks the reconstruction against the GMI values Dr. Wish actually reported in his daily posts (the `gmi_value` column of `raw/timeline.parquet`, 890 overlapping dates). As of the last validation run:
+
+- **Exact-match rate: 20.1%** — our score equals his reported score on about 1 in 5 dates.
+- **Within ±1 rate: 72.2%** — within one point on almost three-quarters of dates.
+- **Correlation: 0.604** — moderate positive alignment; the reconstruction tracks the direction but not the precise level.
+- **Per-value breakdown** (when he said N, our score was): when he said 6, we computed 5 on 238 dates and 6 on 22; when he said 0 or 1, we tended to compute 3–4 (the reconstruction reads systematically optimistic because the survivorship-biased universe is missing delisted stocks that would have dragged breadth readings lower in past declines).
+- **Representative side-by-sides**: 2007-01-18 his 5 / ours 5; 2007-10-17 his 5 / ours 5; 2007-12-13 his 4 / ours 3; 2008-04-21 his 5 / ours 5; 2011-02-28 his 4 / ours 4; 2014-02-25 his 6 / ours 5.
+
+For T2108: the **nyse** universe flavor tracked his reported T2108 readings best — Pearson correlation ≈ 0.932, RMSE ≈ 10.7 percentage points, mean bias ≈ +4.4 (ours − his, reconstruction reads high). The broad-universe flavor has lower RMSE (9.85) but slightly lower correlation (0.930); both flavors read optimistically in past crashes.
+
+**Documented limitations:** the universe is *not* Worden's TC2000 universe (it is the current Nasdaq+NYSE+AMEX common-stock listing from the Nasdaq Trader files, so it carries **survivorship bias** — stocks that delisted before today are largely absent, which makes the breadth series read systematically high in past crashes); component 6 is a proxy; early-year coverage is thin. The key signal (GREEN vs RED regime) is captured reasonably: on 2008-10-10, the reconstruction computes T2108-equiv ≈ 1.7% (NYSE) / 2.9% (broad); on 2020-03-23 ≈ 1.1% / 2.8% — correctly flagging both as extreme-low regime, matching his documented single-digit readings. The validation numbers above are the honest measure of how close the reconstruction gets at the component level.
+
+Run it: `ww compute gmi 2026-05-11 --breadth` for a full 0–6 GMI on any date the series covers; `ww gmi today` for a live daily reading (it runs `ww breadth update` first, then prints the breakdown).
+
 ## See also
 
 - [QQQ Short-Term Timing](qqq-short-term-timing.md)
