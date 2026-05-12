@@ -9,7 +9,7 @@ Design: `docs/specs/2026-05-11-wishing-wealth-wiki-design.md`.
 ## Setup
 
 ```bash
-uv sync
+UV_LINK_MODE=copy uv sync   # UV_LINK_MODE=copy required on OneDrive; safe elsewhere too
 ```
 
 ## Usage
@@ -24,5 +24,5 @@ whose markdown file already exists are skipped (use `--force` to rewrite).
 
 ## Status
 
-Plan 1 (raw-sources layer / scraper) — in progress. Plans 2–5 build the wiki, the
-`CLAUDE.md` schema, the Ingest/Query/Lint loops, literate indicator code, and search.
+Plan 1 (raw-sources layer / scraper) — complete. 4,655 posts scraped (2005-04-17 to 2026-05-11).
+Plans 2–5 build the wiki, the `CLAUDE.md` schema, the Ingest/Query/Lint loops, literate indicator code, and search.
