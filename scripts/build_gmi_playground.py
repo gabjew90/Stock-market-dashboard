@@ -224,26 +224,31 @@ def build_payload() -> dict:
     })
     df = df.loc[START:].copy()
 
-    # Stage-entry buttons: the FIRST day each calendar year that the market entered Stage 2 (advancing)
-    # and the FIRST day it entered Stage 4 (declining). Lets the user jump to each major regime turn.
-    stage_aligned = stage.loc[df.index]
-    transitions = stage_aligned[stage_aligned != stage_aligned.shift(1)]
-    seen_year_stage: set[tuple] = set()
-    stage_flips: list[dict] = []
-    for d, s in transitions.items():
-        s = int(s)
-        if s not in (2, 4):
+    # Long-trend shortcuts: every ST trend (QQQ above/below 30d SMA) that lasted >= 30 trading days,
+    # plus the most recent N for the jump menu.
+    dc = day_count.loc[df.index]
+    sd = side.loc[df.index]
+    # Find each trend's Day 1 (where day_count == 1) and its full length.
+    day1_mask = (dc == 1)
+    day1_dates = dc.index[day1_mask].tolist()
+    long_trends: list[dict] = []
+    for i, start in enumerate(day1_dates):
+        end = day1_dates[i + 1] if i + 1 < len(day1_dates) else dc.index[-1]
+        # length = the max day_count between start and end (exclusive of next start)
+        seg = dc.loc[start:end]
+        if i + 1 < len(day1_dates):
+            seg = seg.iloc[:-1]   # drop the next-trend's Day 1
+        length = int(seg.max()) if len(seg) else 0
+        if length < 30:
             continue
-        year = d.year
-        key = (year, s)
-        if key in seen_year_stage:
-            continue
-        seen_year_stage.add(key)
-        stage_flips.append({"stage": s, "year": year, "d": d.strftime("%Y-%m-%d")})
-    stage_flips.sort(key=lambda f: f["d"])  # chronological
-    # Keep only the most recent 5 years to stay compact
-    recent_years = sorted({f["year"] for f in stage_flips}, reverse=True)[:5]
-    stage_flips = [f for f in stage_flips if f["year"] in recent_years]
+        long_trends.append({
+            "d": start.strftime("%Y-%m-%d"),
+            "len": length,
+            "dir": sd.loc[start],
+        })
+    # keep most recent 8 long trends (chronological, newest first)
+    long_trends.sort(key=lambda f: f["d"], reverse=True)
+    long_trends = long_trends[:8]
 
     # Weekly OHLC bars (W-FRI: last completed week ends on Friday). Used by the weekly chart view.
     wk_o = qopen.resample("W-FRI").first()
@@ -317,7 +322,7 @@ def build_payload() -> dict:
             "f20": None if np.isnan(r["fwd20"]) else float(r["fwd20"]),
             "f60": None if np.isnan(r["fwd60"]) else float(r["fwd60"]),
         })
-    return {"rows": rows, "asof": df.index[-1], "stage_flips": stage_flips, "weekly": weekly_rows}
+    return {"rows": rows, "asof": df.index[-1], "long_trends": long_trends, "weekly": weekly_rows}
 
 
 TEMPLATE = r"""<!doctype html>
@@ -386,6 +391,26 @@ TEMPLATE = r"""<!doctype html>
   .pill.s4 { color: var(--red); border-color: rgba(248,81,73,0.4); }
   .pill.s3, .pill.s1 { color: var(--yellow); border-color: rgba(210,153,34,0.4); }
   .stage-note { font-size: 12px; color: var(--muted); margin-top: 6px; font-style: italic; }
+
+  /* Compact Since-Day-1 strip (replaces the old indicator-values + returns table) */
+  .since-panel { padding: 12px 14px; }
+  .since-header { display: flex; align-items: center; gap: 6px; font-size: 11px;
+    color: var(--muted); font-family: var(--mono); text-transform: uppercase;
+    letter-spacing: 0.6px; margin-bottom: 6px; }
+  .since-meta { font-size: 13px; color: var(--text); margin-bottom: 10px;
+    font-family: var(--mono); }
+  .since-meta b { font-weight: 600; }
+  .since-meta .sub { color: var(--muted); }
+  .since-returns { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+  .since-cell { background: var(--panel-2); border: 1px solid var(--border);
+    border-radius: 8px; padding: 8px 10px; display: flex; flex-direction: column; align-items: center; }
+  .since-lbl { font-size: 10px; color: var(--muted); font-family: var(--mono);
+    letter-spacing: 0.5px; }
+  .since-val { font-size: 18px; font-weight: 700; font-family: var(--mono);
+    line-height: 1.1; margin-top: 2px; }
+  .since-val.pos { color: var(--green); }
+  .since-val.neg { color: var(--red); }
+  .since-val.nv { color: var(--muted); }
 
   /* Top market-state row: GMI + T2108 cards side by side */
   .state-row { display: grid; grid-template-columns: 1fr; gap: 12px; }
@@ -463,12 +488,24 @@ TEMPLATE = r"""<!doctype html>
     border-radius: 6px; padding: 6px 8px; font-family: var(--mono); font-size: 14px;
   }
   .date-row input[type=range] { flex: 1; min-width: 200px; accent-color: var(--accent); }
-  .presets { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+  .presets { margin-top: 10px; }
   .presets button {
     background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
-    border-radius: 999px; padding: 4px 10px; font-size: 12px; cursor: pointer;
+    border-radius: 999px; padding: 5px 12px; font-size: 12px; cursor: pointer;
+    font-family: var(--mono);
   }
   .presets button:hover { border-color: var(--accent); color: var(--accent); }
+  /* Navigation row: [Prev] [Today] [Next] [Day 1 current] */
+  .nav-row { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .nav-row .nav-arrow { padding: 5px 10px; min-width: 56px; }
+  .nav-row .nav-day1 { font-weight: 600; margin-left: auto; }
+  /* Long-trend pills row */
+  .long-label { color: var(--muted); margin-top: 12px; margin-bottom: 6px;
+    display: flex; align-items: center; gap: 5px; }
+  .long-row { display: flex; gap: 6px; flex-wrap: wrap; }
+  .long-pill { font-size: 11px !important; padding: 4px 9px !important;
+    font-weight: 500; display: inline-flex; align-items: center; gap: 5px; }
+  .long-pill .dur { color: var(--muted); font-size: 10px; }
 
   /* Forward returns */
   table.fwd { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: 13px; }
@@ -493,9 +530,9 @@ TEMPLATE = r"""<!doctype html>
 <body>
 <nav class="pages-nav">
   <span class="brand">Stock market dashboard</span>
-  <a href="./" class="active">GMI Daily</a>
-  <a href="./pulse/">Daily Pulse</a>
-  <a href="./wiki.html">Methodology</a>
+  <a href="https://gabjew90.github.io/Stock-market-dashboard/" class="active">GMI Daily</a>
+  <a href="https://gabjew90.github.io/Stock-market-dashboard/pulse/">Daily Pulse</a>
+  <a href="https://gabjew90.github.io/Stock-market-dashboard/wiki.html">Methodology</a>
 </nav>
 <div class="wrap">
   <h1>GMI Daily<span class="sub">market-state reconstruction</span></h1>
@@ -569,35 +606,18 @@ TEMPLATE = r"""<!doctype html>
     <div class="small" style="margin-top:8px;">Tap any <b style="color:var(--accent)">?</b> for an explanation. Tap a legend chip to toggle a line.</div>
   </div>
 
-  <!-- 2. Values + return since Day 1 of current ST trend -->
-  <div class="panel" id="fwdPanel">
-    <div class="small" style="display:flex; align-items:center; gap:6px; margin-bottom:6px;">
-      <span>Indicator values on selected date</span>
-      <button class="qmark" data-pop="vals" aria-label="Values">?</button>
-    </div>
-    <table class="fwd">
-      <thead><tr><th>Indicator</th><th>Value</th><th>QQQ vs</th></tr></thead>
-      <tbody>
-        <tr><td>QQQ close</td><td id="vqqq">—</td><td class="nv">—</td></tr>
-        <tr><td>30-day SMA</td><td id="vm30">—</td><td id="dm30">—</td></tr>
-        <tr><td>10-week SMA</td><td id="vw10">—</td><td id="dw10">—</td></tr>
-        <tr><td>30-week SMA</td><td id="vw30">—</td><td id="dw30">—</td></tr>
-      </tbody>
-    </table>
-    <div class="small" style="display:flex; align-items:center; gap:6px; margin-top:14px; margin-bottom:4px;">
-      <span>Return since Day 1 of current ST trend</span>
+  <!-- 2. Compact Since-Day-1 strip (MA/QQQ values now live on the chart) -->
+  <div class="panel since-panel">
+    <div class="since-header">
+      <span class="since-title">Since Day 1 of current ST trend</span>
       <button class="qmark" data-pop="since" aria-label="Since Day 1">?</button>
     </div>
-    <table class="fwd">
-      <tbody>
-        <tr><td>Day 1 of current ST trend</td><td id="sd1d">—</td></tr>
-        <tr><td>Day 1 close (QQQ)</td><td id="sd1c">—</td></tr>
-        <tr><td>Days elapsed</td><td id="sdn">—</td></tr>
-        <tr><td><b>QQQ since Day 1</b></td><td id="srd1">—</td></tr>
-        <tr><td>TQQQ since Day 1</td><td id="srd1tq">—</td></tr>
-        <tr><td>SQQQ since Day 1</td><td id="srd1sq">—</td></tr>
-      </tbody>
-    </table>
+    <div class="since-meta" id="sinceMeta">—</div>
+    <div class="since-returns">
+      <div class="since-cell"><span class="since-lbl">QQQ</span><span class="since-val" id="srd1">—</span></div>
+      <div class="since-cell"><span class="since-lbl">TQQQ</span><span class="since-val" id="srd1tq">—</span></div>
+      <div class="since-cell"><span class="since-lbl">SQQQ</span><span class="since-val" id="srd1sq">—</span></div>
+    </div>
   </div>
 
   <!-- 3. Date slider + regime-change shortcuts -->
@@ -606,10 +626,7 @@ TEMPLATE = r"""<!doctype html>
       <input type="date" id="datePick">
       <input type="range" id="dateSlider" min="0" max="0" value="0">
     </div>
-    <div class="small" style="margin-top:8px; margin-bottom:4px;">
-      Jump to first day of each Stage 2 / Stage 4 by year:
-      <button class="qmark" data-pop="regime" aria-label="Stage buttons explained">?</button>
-    </div>
+    <div class="small" style="margin-top:8px; margin-bottom:0;"></div>
     <div class="presets" id="presets"></div>
     <div class="small" id="dateLabel" style="margin-top:8px;">—</div>
   </div>
@@ -627,7 +644,7 @@ TEMPLATE = r"""<!doctype html>
 const DATA = __DATA__;
 const ROWS = DATA.rows;
 const WEEKLY = DATA.weekly || [];
-const STAGE_FLIPS = DATA.stage_flips || [];
+const LONG_TRENDS = DATA.long_trends || [];
 
 let VIEW = "daily";  // "daily" or "weekly"
 
@@ -652,26 +669,57 @@ datePick.max = ROWS[ROWS.length - 1].d;
 datePick.value = ROWS[ROWS.length - 1].d;
 
 const pBox = document.getElementById('presets');
-// "Today" anchor first
-const todayBtn = document.createElement('button');
-todayBtn.textContent = "Today";
-todayBtn.onclick = () => setIndex(ROWS.length - 1);
-pBox.appendChild(todayBtn);
-// Stage-entry buttons: first day of Stage 2 (advancing) and Stage 4 (declining) per year
-STAGE_FLIPS.forEach(f => {
-  const b = document.createElement('button');
-  b.textContent = `ST${f.stage} ${f.year}`;
-  if (f.stage === 2) {
-    b.style.color = "#2ea043";
-    b.style.borderColor = "rgba(46,160,67,0.5)";
-  } else {
-    b.style.color = "#f85149";
-    b.style.borderColor = "rgba(248,81,73,0.5)";
+function buildPresets() {
+  pBox.innerHTML = "";
+  // Row 1: navigation [Prev] [Today] [Next] [Day 1 of current trend]
+  const nav = document.createElement('div');
+  nav.className = "nav-row";
+  const mkBtn = (label, onclick, opts = {}) => {
+    const b = document.createElement('button');
+    b.innerHTML = label;
+    b.onclick = onclick;
+    if (opts.title) b.title = opts.title;
+    if (opts.cls) b.className = opts.cls;
+    if (opts.color) { b.style.color = opts.color; b.style.borderColor = opts.color.replace('1)', '0.5)'); }
+    return b;
+  };
+  nav.appendChild(mkBtn("◀ Prev", () => setIndex(Number(dateSlider.value) - 1), {title: "Previous trading day", cls: "nav-arrow"}));
+  nav.appendChild(mkBtn("Today",  () => setIndex(ROWS.length - 1)));
+  nav.appendChild(mkBtn("Next ▶", () => setIndex(Number(dateSlider.value) + 1), {title: "Next trading day",     cls: "nav-arrow"}));
+  // Day 1 of CURRENT (most recent) trend — same color as the current trend direction
+  const cur = ROWS[ROWS.length - 1];
+  if (cur && cur.d1d) {
+    const arrow = cur.sd === "up" ? "▲" : "▼";
+    const col = cur.sd === "up" ? "rgba(46,160,67,1)" : "rgba(248,81,73,1)";
+    nav.appendChild(mkBtn(`${arrow} Day 1 (current)`, () => setIndex(findNearestIndex(cur.d1d)),
+                          {title: `Day 1 of the current ST ${cur.sd}-trend — ${cur.d1d}`, color: col, cls: "nav-day1"}));
   }
-  b.title = `First day of Stage ${f.stage} (${f.stage === 2 ? "advancing" : "declining"}) in ${f.year} — ${f.d}`;
-  b.onclick = () => setIndex(findNearestIndex(f.d));
-  pBox.appendChild(b);
-});
+  pBox.appendChild(nav);
+
+  // Row 2: long-trend shortcuts (>= 30 trading days each)
+  if (LONG_TRENDS.length) {
+    const lbl = document.createElement('div');
+    lbl.className = "small long-label";
+    lbl.innerHTML = "Long ST trends (≥30 trading days): <button class='qmark' data-pop='longtrends' aria-label='What's a long trend'>?</button>";
+    pBox.appendChild(lbl);
+    const lg = document.createElement('div');
+    lg.className = "long-row";
+    LONG_TRENDS.forEach(t => {
+      const arrow = t.dir === "up" ? "▲" : "▼";
+      const col = t.dir === "up" ? "rgba(46,160,67,1)" : "rgba(248,81,73,1)";
+      const b = document.createElement('button');
+      b.className = "long-pill";
+      b.innerHTML = `${arrow} ${t.d} <span class="dur">${t.len}d</span>`;
+      b.style.color = t.dir === "up" ? "#2ea043" : "#f85149";
+      b.style.borderColor = t.dir === "up" ? "rgba(46,160,67,0.4)" : "rgba(248,81,73,0.4)";
+      b.title = `Day 1 of ${t.dir}-trend that lasted ${t.len} trading days — ${t.d}`;
+      b.onclick = () => setIndex(findNearestIndex(t.d));
+      lg.appendChild(b);
+    });
+    pBox.appendChild(lg);
+  }
+}
+buildPresets();
 
 function findNearestIndex(dateStr) {
   if (dateMap.has(dateStr)) return dateMap.get(dateStr);
@@ -812,15 +860,17 @@ function drawSpark(centerIdx) {
   // Average bar width — used to size candle bodies. Daily ~3-4 px, weekly ~16-18 px.
   const barW = plotW / slice.length;
 
-  // ===== RED gate shading (works for both views — weekly uses end-of-week state) =====
+  // ===== RED gate shading — ALWAYS from daily ROWS so it's pixel-identical in both views =====
   {
     let runStart = null;
-    for (let i = 0; i < slice.length; i++) {
-      const isRed = slice[i].s === 0;
+    for (let i = dStart; i <= dEnd; i++) {
+      const dr = ROWS[i];
+      const isRed = dr.s === 0;
       if (isRed && runStart == null) runStart = i;
-      if ((!isRed || i === slice.length - 1) && runStart != null) {
-        const x0 = xAt(runStart);
-        const x1 = xAt(isRed ? i : i - 1);
+      const isLast = i === dEnd;
+      if ((!isRed || isLast) && runStart != null) {
+        const x0 = xAtDate(ROWS[runStart].d);
+        const x1 = xAtDate(ROWS[isRed ? i : i - 1].d);
         const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
         rect.setAttribute('x', x0);
         rect.setAttribute('y', 0);
@@ -855,30 +905,6 @@ function drawSpark(centerIdx) {
   if (!daily && maOn.w30) plotLine("m30", MA_COLORS.w30, 1.6, 0.9);
   if (!daily && maOn.w10) plotLine("m10", MA_COLORS.w10, 1.4, 0.85);
 
-  // ===== Value labels at the right edge of each visible MA line =====
-  // Show the latest MA value next to where the line terminates, in the MA's own colour.
-  function labelAt(x, y, text, color) {
-    const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    t.setAttribute('x', x);
-    t.setAttribute('y', y);
-    t.setAttribute('font-size', '10');
-    t.setAttribute('font-family', 'ui-monospace,Menlo,Consolas,monospace');
-    t.setAttribute('fill', color);
-    t.setAttribute('font-weight', '600');
-    t.setAttribute('text-anchor', 'end');
-    t.textContent = text;
-    svg.appendChild(t);
-  }
-  const lastBar = slice[slice.length - 1];
-  const rightX = W - PADX - 2;
-  if (daily && maOn.m30 && lastBar.m30 != null) labelAt(rightX, yAt(lastBar.m30) - 3, `30d ${lastBar.m30.toFixed(0)}`, MA_COLORS.m30);
-  if (!daily && maOn.w10 && lastBar.m10 != null) labelAt(rightX, yAt(lastBar.m10) - 3, `10wk ${lastBar.m10.toFixed(0)}`, MA_COLORS.w10);
-  if (!daily && maOn.w30 && lastBar.m30 != null) labelAt(rightX, yAt(lastBar.m30) - 3, `30wk ${lastBar.m30.toFixed(0)}`, MA_COLORS.w30);
-  // QQQ close annotation on the last candle
-  if (maOn.qqq) {
-    const lastCl = daily ? lastBar.cl : lastBar.c;
-    if (lastCl != null) labelAt(rightX, yAt(lastCl) - 3, `QQQ ${lastCl.toFixed(0)}`, "#e6edf3");
-  }
 
   // ===== Candles =====
   if (maOn.qqq) {
@@ -914,10 +940,15 @@ function drawSpark(centerIdx) {
   // In the daily view the candle "close" is r.cl (OHLC close); in weekly it's r.c. Make sure daily slice has r.c too:
   // We map daily r.cl -> r.c just-in-time so the candle code above works the same.
 
-  // ===== Selected-date marker =====
-  if (localCenter >= 0 && localCenter < slice.length) {
-    const r = slice[localCenter];
-    const x = xAt(localCenter);
+  // ===== Selected-date marker + dynamic value labels =====
+  const selectedDailyDate = ROWS[centerIdx].d;
+  const selDaily = ROWS[centerIdx];
+  // In weekly view we still want the labels at the WEEK'S MA values (since that's what the chart shows).
+  // selectedWeekly = the WEEKLY row whose Friday-date >= the selected daily date.
+  const selWeeklyIdx = selDaily.wi;
+  const selWeekly = WEEKLY[selWeeklyIdx] || null;
+  {
+    const x = xAtDate(selectedDailyDate);
     const vline = document.createElementNS('http://www.w3.org/2000/svg', 'line');
     vline.setAttribute('x1', x); vline.setAttribute('x2', x);
     vline.setAttribute('y1', 0); vline.setAttribute('y2', H - PADY_BOT);
@@ -925,18 +956,51 @@ function drawSpark(centerIdx) {
     vline.setAttribute('stroke-dasharray', '3,3');
     vline.setAttribute('stroke-opacity', '0.85');
     svg.appendChild(vline);
+    // Bottom date label
     const lab = document.createElementNS('http://www.w3.org/2000/svg', 'text');
     lab.setAttribute('y', H - 6);
     lab.setAttribute('text-anchor', 'middle'); lab.setAttribute('font-size', '10');
     lab.setAttribute('font-family', 'ui-monospace,Menlo,Consolas,monospace');
     lab.setAttribute('fill', '#e6edf3');
-    lab.textContent = r.d;
+    lab.textContent = selectedDailyDate;
     const halfW = 40;
     let lx = x;
     if (lx - halfW < 4) lx = halfW + 4;
     if (lx + halfW > W - 4) lx = W - halfW - 4;
     lab.setAttribute('x', lx);
     svg.appendChild(lab);
+
+    // ===== Dynamic value labels next to the dashed line at the SELECTED date =====
+    // Each label is a small pill (bg + text) just to the right of the dashed line, at the y of
+    // that line's value on the selected date. Updates whenever the slider moves.
+    function valuePill(yVal, text, color) {
+      if (yVal == null || isNaN(yVal)) return;
+      const tw = text.length * 5.5 + 8;  // approx width
+      const ty = Math.max(10, Math.min(H - PADY_BOT - 4, yVal));
+      // Choose left/right side depending on space available
+      const goLeft = (x + tw + 4) > (W - PADX);
+      const px = goLeft ? (x - tw - 4) : (x + 4);
+      const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+      rect.setAttribute('x', px); rect.setAttribute('y', ty - 7);
+      rect.setAttribute('width', tw); rect.setAttribute('height', 12);
+      rect.setAttribute('rx', 3);
+      rect.setAttribute('fill', 'rgba(13,17,23,0.85)');
+      rect.setAttribute('stroke', color); rect.setAttribute('stroke-width', '0.6');
+      svg.appendChild(rect);
+      const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      t.setAttribute('x', px + tw / 2); t.setAttribute('y', ty + 3);
+      t.setAttribute('text-anchor', 'middle'); t.setAttribute('font-size', '9');
+      t.setAttribute('font-family', 'ui-monospace,Menlo,Consolas,monospace');
+      t.setAttribute('font-weight', '600'); t.setAttribute('fill', color);
+      t.textContent = text;
+      svg.appendChild(t);
+    }
+    // QQQ close at selected date (always show — it's the main price)
+    const qClose = daily ? selDaily.cl : (selWeekly && selWeekly.c);
+    if (qClose != null) valuePill(yAt(qClose), `Q ${qClose.toFixed(0)}`, "#58a6ff");
+    if (daily && maOn.m30 && selDaily.m30 != null) valuePill(yAt(selDaily.m30), `30d ${selDaily.m30.toFixed(0)}`, MA_COLORS.m30);
+    if (!daily && maOn.w10 && selWeekly && selWeekly.m10 != null) valuePill(yAt(selWeekly.m10), `10w ${selWeekly.m10.toFixed(0)}`, MA_COLORS.w10);
+    if (!daily && maOn.w30 && selWeekly && selWeekly.m30 != null) valuePill(yAt(selWeekly.m30), `30w ${selWeekly.m30.toFixed(0)}`, MA_COLORS.w30);
   }
 
   // ===== X-axis date labels (time-based — 5 evenly-spaced timestamps; identical in both views) =====
@@ -1034,34 +1098,16 @@ function render(i) {
     cBox.appendChild(d);
   });
 
-  // Values (close + each MA, with QQQ vs MA spread)
-  const setVal = (id, v) => {
-    const el = document.getElementById(id);
-    el.textContent = v == null ? "—" : "$" + v.toFixed(2);
-  };
-  const setSpread = (id, q, m) => {
-    const el = document.getElementById(id);
-    if (q == null || m == null) { el.textContent = "—"; el.className = "nv"; return; }
-    const d = (q - m) / m * 100;
-    const above = q > m;
-    el.textContent = (d >= 0 ? "+" : "") + d.toFixed(2) + "% " + (above ? "above" : "below");
-    el.className = above ? "pos" : "neg";
-  };
-  const qClose = r.cl != null ? r.cl : r.q;
-  setVal('vqqq', qClose);
-  setVal('vm30', r.m30); setSpread('dm30', qClose, r.m30);
-  setVal('vw10', r.w10); setSpread('dw10', qClose, r.w10);
-  setVal('vw30', r.w30); setSpread('dw30', qClose, r.w30);
-
-  // Return since Day 1 of current ST trend
-  document.getElementById('sd1d').textContent = r.d1d ? `${r.d1d} (ST ${r.sd === "up" ? "▲" : "▼"})` : "—";
-  document.getElementById('sd1c').textContent = r.d1c != null ? "$" + r.d1c.toFixed(2) : "—";
-  document.getElementById('sdn').textContent = r.dn ? `Day ${r.dn}` : "—";
+  // Compact Since-Day-1 strip (MA values now live on the chart as dynamic pills)
+  document.getElementById('sinceMeta').innerHTML =
+    r.d1d
+      ? `<b>${arrow} Day ${r.dn} of ST ${r.sd}-trend</b> <span class="sub">· since ${r.d1d} (QQQ $${r.d1c != null ? r.d1c.toFixed(2) : "—"})</span>`
+      : "—";
   function setPct(id, v) {
     const el = document.getElementById(id);
-    if (v == null) { el.textContent = "—"; el.className = "nv"; return; }
+    if (v == null) { el.textContent = "—"; el.className = "since-val nv"; return; }
     el.textContent = (v >= 0 ? "+" : "") + v.toFixed(2) + "%";
-    el.className = v >= 0 ? "pos" : "neg";
+    el.className = "since-val " + (v >= 0 ? "pos" : "neg");
   }
   setPct('srd1', r.rd1);
   setPct('srd1tq', r.rd1tq);
@@ -1091,7 +1137,7 @@ const POP = {
   c4: "<b>SPY daily up-trend</b><br>Component 4 of GMI. Reconstructed as SPY close above its 30-day SMA. The S&amp;P 500's short-term trend.",
   c5: "<b>QQQ weekly up-trend (Stage 2)</b><br>Component 5 of GMI. QQQ's weekly close above its 30-week SMA. The long-term Stage-2 anchor.",
   c6: "<b>IBD-50 above 50-day MA</b><br>Component 6 of GMI. Tracks whether the IBD Mutual Fund Index sits above its 50-day MA. Proxied here by FFTY (the IBD-50 ETF) spliced onto a basket of growth mutual funds for pre-2015 history.",
-  regime: "<b>Stage-entry shortcuts</b><br>Each button jumps to the <b>first day each calendar year</b> the market entered a given Weinstein stage:<br><br><b style='color:#2ea043'>ST2 YYYY</b> = first day of Stage 2 (advancing) that year — when price moved above a rising 30-week SMA and 10wk &gt; 30wk. Only stage Dr. Wish buys long.<br><br><b style='color:#f85149'>ST4 YYYY</b> = first day of Stage 4 (declining) that year — when price fell below a falling 30-week SMA and 10wk &lt; 30wk. Cash / defensive trigger.<br><br>Not every year has both — sustained bull markets skip Stage 4 entries entirely.",
+  longtrends: "<b>Long ST trends</b><br>Each pill is Day 1 of a past short-term trend (QQQ crossing its 30-day SMA) that lasted <b>30 or more trading days</b>. <span style='color:#2ea043'>▲ = up-trend</span>; <span style='color:#f85149'>▼ = down-trend</span>. The <b>Nd</b> badge shows how many trading days the trend lasted. Tap to jump the chart there. Showing the most recent 8.",
   since: "<b>Return since Day 1</b><br>Day 1 = the most recent day QQQ crossed its 30-day SMA (Dr. Wish's daily ST-trend signal). This box shows how much QQQ has moved since then to the close on the selected date.<br><br>A long-running positive return is a Stage-2 ride; a steep negative return is a Stage-4 leg. Watch for fading momentum near the end of a long streak.",
   vals: "<b>Indicator values on the selected date</b><br>The exact QQQ close on that day plus each of Dr. Wish's three canonical MAs, with the percentage spread (QQQ above or below each MA). Use this to read the chart precisely instead of eyeballing.",
   fwd: "<b>Forward QQQ returns</b><br>What QQQ actually did 1, 5, 10, 20, and 60 trading days after the selected date. Lets you check 'if I had acted on this reading, what would have happened?' Blank for dates where the window hasn't closed yet.",
