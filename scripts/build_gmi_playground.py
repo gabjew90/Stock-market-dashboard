@@ -30,25 +30,33 @@ QQQ_OHLC_CACHE = ROOT / "data" / "backtest" / "qqq_ohlc.parquet"
 PRICES_CACHE = ROOT / "data" / "backtest" / "prices.parquet"
 
 
-def _ensure_prices(tickers=("QQQ", "SPY", "TQQQ", "SQQQ")) -> pd.DataFrame:
-    """Load `data/backtest/prices.parquet`; if missing, incomplete, or any ticker is
-    silently all-NaN over its last 60 trading days, refetch via yfinance — including a
-    per-ticker fallback for any column the batch download left empty."""
-    def _bad(df: pd.DataFrame) -> bool:
+def _ensure_prices(tickers=("QQQ", "SPY", "TQQQ", "SQQQ"), max_age_days: int = 0) -> pd.DataFrame:
+    """Load `data/backtest/prices.parquet`; refetch via yfinance if the cache is
+    missing, incomplete, has a silently all-NaN column over its last 60 trading
+    days, OR is stale. Default `max_age_days=0` means "refetch whenever the
+    cache's last row is from a calendar day before today" — so every weekday CI
+    run (firing at 22:00 UTC, after the US close) pulls that day's bar. On
+    weekends / holidays the refetch just rewrites the cache with the same last
+    trading day (harmless, ~3-second yfinance call)."""
+    def _bad(df: pd.DataFrame) -> tuple[bool, str]:
         if not set(tickers) <= set(df.columns):
-            return True
+            return True, f"missing columns: {set(tickers) - set(df.columns)}"
         for t in tickers:
             tail = df[t].dropna().tail(60)
             if len(tail) < 5:
-                return True
-        return False
+                return True, f"{t} has <5 non-NaN values in its last 60 rows"
+        age = (pd.Timestamp.today().normalize() - df.index.max()).days
+        if age > max_age_days:
+            return True, f"data is {age} days old (max {max_age_days})"
+        return False, ""
 
     if PRICES_CACHE.exists():
         df = pd.read_parquet(PRICES_CACHE)
         df.index = pd.to_datetime(df.index)
-        if not _bad(df):
+        is_bad, reason = _bad(df)
+        if not is_bad:
             return df
-        print(f"prices cache present but stale/empty for some ticker — refetching…")
+        print(f"prices cache invalid — refetching ({reason})…")
 
     import yfinance as yf
     print(f"fetching {tickers} via yfinance…")
