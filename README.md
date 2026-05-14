@@ -1,10 +1,44 @@
-# Wishing Wealth Wiki
+# Stock market dashboard
 
-An LLM-maintained wiki of Dr. Eric Wish's *Wishing Wealth Blog* (`wishingwealthblog.com`)
-trading methodology, built on Andrej Karpathy's
+Live site: **<https://gabjew90.github.io/Stock-market-dashboard/>**
+
+Three published pages, deployed nightly after the US close by the
+[`daily-gmi`](.github/workflows/daily-gmi.yml) GitHub Actions workflow:
+
+| Page | URL | Source |
+|---|---|---|
+| **Market Trend** | `/` | `scripts/build_gmi_playground.py` → `gmi_playground_daily.html` |
+| **News & Macro** | `/pulse/` | static `web/pulse.html` (fetches a daily pulse from [Institutional-report-bot](https://github.com/gabjew90/Institutional-report-bot) at runtime — see [`PULSE-INTEGRATION.md`](PULSE-INTEGRATION.md)) |
+| **About** | `/wiki.html` | `scripts/build_wiki_html.py` over `wiki/**` |
+
+The repo doubles as the LLM-maintained wiki of Dr. Eric Wish's *Wishing Wealth Blog*
+(`wishingwealthblog.com`) trading methodology — built on Andrej Karpathy's
 [LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
+The published "About" page is that wiki; the published "Market Trend" page is a
+single-day deep-dive built from the same indicator code (`src/ww/indicators/`)
+and a reconstructed breadth panel (`data/breadth/`).
 
-Design: `docs/specs/2026-05-11-wishing-wealth-wiki-design.md`.
+The wiki structure and conventions live in [`CLAUDE.md`](CLAUDE.md).
+
+## What "Market Trend" shows
+
+The single-day deep-dive page renders, all referenced to a selectable date:
+
+- A 6-month QQQ candle chart with volume bars (daily) or a 1-year weekly-Friday
+  view, with the 30-day / 10-week / 30-week SMAs overlaid and a draggable
+  selected-date marker. Value pills (price, MAs, volume) update live as the
+  marker moves.
+- "GMI" and "T2108" hero cards (Dr. Wish's headline market-health composite +
+  the NYSE-breadth gauge), with a GREEN / YELLOW / RED gate state and the
+  individual 6 GMI components broken out.
+- "Day N of QQQ short-term trend" + Weinstein stage tag, plus the "Since
+  Day 1" performance strip (QQQ, TQQQ, SQQQ) so the leveraged-ETF magnitudes
+  are visible on the same row as the underlying.
+- A jump menu of every past short-term trend that lasted ≥ 30 trading days,
+  so historical regimes are one tap away.
+
+Every chart, button, and label has a tooltip (`?` button) explaining what it
+is and how it's computed.
 
 ## Setup
 
@@ -12,60 +46,88 @@ Design: `docs/specs/2026-05-11-wishing-wealth-wiki-design.md`.
 UV_LINK_MODE=copy uv sync   # UV_LINK_MODE=copy required on OneDrive; safe elsewhere too
 ```
 
-## Usage
+## CLI
 
 ```bash
 uv run ww scrape      # pull all public blog posts -> raw/posts/*.md + raw/posts.jsonl
 uv run ww stats       # report corpus counts
 uv run ww lint .      # mechanical wiki integrity checks
+uv run ww timeline    # parse his daily GMI/T2108/stance posts into raw/timeline.parquet
 uv run ww batch -n 20 --kind long_form   # next un-ingested posts to ingest into the wiki
+
 uv run ww compute green-line MSFT     # run a price-based indicator on a ticker
 uv run ww compute stage QQQ
 uv run ww compute gmi 2026-05-01      # partial GMI from current prices (breadth components flagged unavailable)
-uv run ww compute gmi 2014-08-01 --demo   # full GMI against illustrative fixtures
-uv run ww timeline           # parse his daily GMI/T2108/stance posts into raw/timeline.parquet
-uv run ww index                       # build the local search index
-uv run ww search "green line breakout" # ranked, cited passages from the wiki + posts
+uv run ww compute gmi 2026-05-01 --breadth   # full 0-6 GMI from the local breadth series
+
 uv run ww breadth fetch        # build the common-stock universe + download the daily price panel (~20-40 min, once)
-uv run ww breadth build        # compute data/breadth/breadth_series.parquet (T2108-equiv, new-highs, ...) + the growth-fund proxy
+uv run ww breadth build        # compute data/breadth/breadth_series.parquet (T2108-equiv, new-highs, growth-fund proxy)
 uv run ww breadth show         # print today's breadth snapshot
-uv run ww breadth update       # incremental daily refresh (pull recent bars, recompute the tail)
-uv run ww breadth validate     # cross-check the reconstructed T2108/GMI vs his reported numbers -> data/breadth/validate.json
-uv run ww compute gmi 2026-05-11 --breadth   # a full 0-6 GMI from the local breadth series
-uv run ww gmi today            # nightly: refresh the panel, then print today's full GMI breakdown
-uv run ww backtest timing-overlay     # backtest "long QQQ when GMI-GREEN / cash when RED" vs buy-and-hold QQQ
+uv run ww breadth update       # incremental daily refresh
+uv run ww breadth validate     # cross-check reconstructed T2108/GMI vs his reported numbers -> data/breadth/validate.json
+
+uv run ww gmi today            # refresh the panel + print today's full GMI breakdown
+uv run ww backtest timing-overlay   # backtest "long QQQ when GMI-GREEN / cash when RED" vs buy-and-hold QQQ
+
+uv run ww index                       # build the local search index
+uv run ww search "green line breakout"   # ranked, cited passages from the wiki + posts
 ```
 
 Re-running `ww scrape` is cheap — API pages are cached under `raw/api/` and posts
 whose markdown file already exists are skipped (use `--force` to rewrite).
 
-## Daily GMI
+## How the live site updates
 
-Once the breadth pipeline is built (`ww breadth fetch && ww breadth build` — done once, takes a while), a nightly cron of:
+The `daily-gmi` workflow fires:
 
-```bash
-uv run ww breadth update && uv run ww gmi today
-```
+- on every weekday at 22:00 UTC (≈ 5–6 PM ET, after the close), via cron
+- on every push to `main` that touches the playground script, wiki HTML
+  builder, wiki content, raw posts, the pulse page, or the workflow itself
+- on demand from the Actions tab
 
-refreshes the breadth series and prints today's full 0–6 GMI (the three price-derived components from QQQ/SPY, the two breadth components from the reconstructed 52-week-high panel, the growth-fund-proxy component) with a GREEN/YELLOW/RED read. Re-run `ww breadth fetch --refresh-symbols` approximately monthly to pick up new listings / drop delisted ones. Fidelity caveats and the validation stats are in `wiki/methodology/gmi.md`.
+It restores a cached breadth + OHLC panel, runs `ww breadth update` for the
+delta, rebuilds the GMI playground HTML and the wiki HTML, stages both plus
+`web/pulse.html` into `_site/`, and deploys via Pages. First-run bootstrap
+(`ww breadth fetch && ww breadth build`) only fires when the cache is empty.
 
-## Reading & querying it
+The price cache (`data/backtest/prices.parquet`) self-validates: each ticker
+must have ≥ 5 non-NaN values in its most recent 60 trading days, otherwise
+`_ensure_prices` refetches via yfinance with a per-ticker fallback. This is
+the safety net for transient yfinance hiccups that would otherwise pin a
+broken column in the cache.
 
-- Browse: open [`wiki/overview.md`](wiki/overview.md) and click through, or render the whole thing with `uv run --with markdown python scripts/build_wiki_html.py` (produces `wiki_site.html`).
-- Search: `ww index` once, then `ww search "..."` for ranked, cited passages across the wiki and the raw posts. Paste the results into Claude (Code or a Desktop project that has this repo) to get a synthesised, cited answer — and if the answer is durably useful, Claude files it back into the wiki as a new page (see `CLAUDE.md` §4 "Query").
+## Reading the wiki locally
+
+Browse: open [`wiki/overview.md`](wiki/overview.md) and click through, or render
+the whole thing with `uv run --with markdown python scripts/build_wiki_html.py`
+(produces `wiki_site.html`).
+
+Search: `ww index` once, then `ww search "..."` for ranked, cited passages
+across the wiki and the raw posts. Paste the results into Claude (Code or a
+Desktop project that has this repo) for a synthesised, cited answer — and if
+the answer is durably useful, Claude files it back into the wiki as a new
+page (see [`CLAUDE.md`](CLAUDE.md) §4 "Query").
 
 ## Status
 
-- **Breadth data** — done (Plans B1+B2): `ww breadth fetch/build/update/show/validate` → `data/breadth/breadth_series.parquet`; `BreadthProvider` → `ww compute gmi/t2108 --breadth` returns real numbers; `ww gmi today` gives a live daily reading; `ww breadth validate` records how well the reconstruction matches his reported T2108/GMI (see `data/breadth/validate.json` and `wiki/methodology/gmi.md`). Documented survivorship/universe/proxy limitations. Unblocks Plan 6 (the strategy backtest).
-- **Status:** Plans 1–5 + B1 complete. Corpus fully tiered (31 teaching/example posts ingested with full wiki content; ~4,460 daily-update posts → raw/timeline.parquet; ~149 long_form teaching posts queued for future ingest passes). Remaining: Plan 6 (backtest harness — needs its own design).
-- **Plan 1** (raw-sources layer / scraper) — done. `ww scrape` mirrors the blog into `raw/`.
-- **Plan 2** (wiki bootstrap) — done. `CLAUDE.md` schema + `wiki/` skeleton (stubs + templates) + `ww lint` + CI.
-- **Plan 2.5** (timeline parser) — done: `ww timeline` builds `raw/timeline.parquet` (his published GMI / GMI-state / QQQ-day-count / T2108 / stance, parsed from the ~daily posts; low-confidence rows flagged); backs `history/track-record.md` and stands alone for charting/backtesting his signals.
-- **Plan 3** (the Ingest loop) — corpus fully tiered as of 2026-05-11 (every post has a tier). 31 teaching/trade_example posts fully ingested. ~149 long_form teaching posts queued for future passes. See `CLAUDE.md` §6 for the state and §4 for the protocol.
-- **Plan 4** (literate indicator code) — done for the price-based indicators: `src/ww/indicators/` (green_line, ma_stages, wgb, guppy/RWB-BWR-RLC, qqq_timing-approx) + `ww compute`; embedded in the methodology pages.
-- **Plan 4b** (GMI / T2108) — done: `src/ww/indicators/gmi.py` (the 6-component composite — QQQ/SPY/QQQ-weekly trend computed from free prices; the breadth/fund components flagged unavailable) + `src/ww/indicators/t2108.py` (provider-delegated + a `t2108_from_prices` helper) + `--demo` mode; embedded in the methodology pages. Reproducing real historical GMI/T2108 needs a bulk-equity / breadth data feed (a later phase) — also the prerequisite for the planned strategy backtest (Plan 6).
-- **Plan 5** (search + Query loop) — done: `ww index` / `ww search` (local BM25 over wiki + posts, cited hits); the Query workflow is documented in `CLAUDE.md` §4.
-- **Plan 6** (backtest harness — the end goal) — not started; needs its own design. A backtest of the GLB/WGB/Stage-2/GMI strategy with realistic costs, walk-forward validation, a buy-and-hold benchmark, and parameter-tuning hooks.
-- **Backtest — B6a (market-state timing overlay)** — `ww backtest timing-overlay`: backtests the GMI-GREEN long-QQQ / RED-cash rule vs buy-and-hold QQQ, 2007–2026, net of costs, with a robustness grid + a pre-stated verdict; result + equity curve written to `wiki/methodology/backtest-timing-overlay.md`. (B6b — the GLB/WGB stock-selection edge — is the next backtest sub-project.)
+Plans 1–5 + B1 + B2 complete. Corpus current state (from `ww stats` —
+4,655 total posts spanning 2005-04 → 2026-05): 4,449 daily-update posts
+parsed into `raw/timeline.parquet`; 86 teaching + 5 trade-example posts
+tier-classified for wiki ingest; 18 meta + 97 unclassified. Remaining: Plan 6.
 
-The wiki structure and conventions live in [`CLAUDE.md`](CLAUDE.md).
+- **Plan 1** (raw-sources layer / scraper) — done. `ww scrape` mirrors the blog into `raw/`.
+- **Plan 2** (wiki bootstrap) — done. Schema in `CLAUDE.md` + `wiki/` skeleton + `ww lint` + CI.
+- **Plan 2.5** (timeline parser) — done. `ww timeline` → `raw/timeline.parquet`; low-confidence rows flagged.
+- **Plan 3** (Ingest loop) — corpus tier-classified (see counts above). Queue and Ingest protocol documented in [`CLAUDE.md`](CLAUDE.md) §6.
+- **Plan 4** (literate indicator code) — done. `src/ww/indicators/` (green_line, ma_stages, wgb, guppy/RWB-BWR-RLC, qqq_timing-approx) + `ww compute`, embedded in the methodology pages.
+- **Plan 4b** (GMI / T2108) — done. `src/ww/indicators/gmi.py` (six-component composite) + `src/ww/indicators/t2108.py` + `--demo` mode; embedded in the methodology pages.
+- **Plan 5** (search + Query loop) — done. `ww index` / `ww search` (local BM25 over wiki + posts); Query workflow in `CLAUDE.md` §4.
+- **Plan B1 + B2** (breadth pipeline) — done. `ww breadth fetch/build/update/show/validate` → `data/breadth/breadth_series.parquet`; `BreadthProvider` → `ww compute gmi/t2108 --breadth` returns real numbers; `ww gmi today` gives a live daily reading. Validation lives in `data/breadth/validate.json` and is summarised in `wiki/methodology/gmi.md`. Documented survivorship / universe / proxy limitations.
+- **Plan 6** (backtest harness — the end goal) — not started. Will need its own design: realistic costs, walk-forward validation, a buy-and-hold benchmark, and parameter-tuning hooks.
+
+An early scaffolding pass at the market-state timing overlay
+(`ww backtest timing-overlay`) exists and writes its result to
+`wiki/methodology/backtest-timing-overlay.md`. That page is intentionally
+**not** rendered on the live About page yet — `scripts/build_wiki_html.py`
+skips it via `_SKIP_PAGES` until Plan 6's harness is in place. Re-publishing
+the backtest is gated on Plan 6.

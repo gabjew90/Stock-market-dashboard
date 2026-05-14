@@ -3,7 +3,7 @@
 The `/pulse/` page on this site embeds the **Daily Market Pulse** from a separate
 project at <https://github.com/gabjew90/Institutional-report-bot>.
 
-If you're looking at `web/pulse.html` or the new "Daily Pulse" link in the
+If you're looking at `web/pulse.html` or the "News & Macro" link in the
 `.pages-nav` of `scripts/build_gmi_playground.py` and wondering "what is this,"
 this doc is for you.
 
@@ -38,8 +38,8 @@ Three files (plus this doc):
    per-`<ts>.html` fragment on the pulse-data branch.
 
 2. **`scripts/build_gmi_playground.py`** *(modified — 1 line)*
-   Added a `<a href="./pulse/">Daily Pulse</a>` link to the existing
-   `.pages-nav` block, positioned between "GMI Daily" and "Methodology". No
+   Added a `<a href="./pulse/">News & Macro</a>` link to the existing
+   `.pages-nav` block, positioned between "Market Trend" and "About". No
    other change to the GMI rendering.
 
 3. **`.github/workflows/daily-gmi.yml`** *(modified — 2 hunks)*
@@ -55,9 +55,9 @@ Three files (plus this doc):
 
 | URL | What | Owned by |
 |---|---|---|
-| `https://gabjew90.github.io/Stock-market-dashboard/` | GMI Components index | This repo |
-| `https://gabjew90.github.io/Stock-market-dashboard/wiki.html` | Methodology wiki | This repo |
-| `https://gabjew90.github.io/Stock-market-dashboard/pulse/` | Daily Pulse | This repo (static `web/pulse.html`) |
+| `https://gabjew90.github.io/Stock-market-dashboard/` | Market Trend (GMI / T2108 single-day deep-dive) | This repo |
+| `https://gabjew90.github.io/Stock-market-dashboard/wiki.html` | About (methodology wiki) | This repo |
+| `https://gabjew90.github.io/Stock-market-dashboard/pulse/` | News & Macro (Daily Pulse) | This repo (static `web/pulse.html`) |
 | `https://raw.githack.com/gabjew90/Institutional-report-bot/pulse-data/pulse-output/web/archive.json` | Index of available pulses (title, date, fragment_url per entry) | Other repo (auto-published by its bridge worker) |
 | `https://raw.githack.com/gabjew90/Institutional-report-bot/pulse-data/pulse-output/web/fragments/<ts>.html` | Individual pulse content as headless HTML | Other repo |
 
