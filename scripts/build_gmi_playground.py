@@ -200,6 +200,7 @@ def build_payload() -> dict:
         "s10_total": bs["s10_total"].astype(int),
         "s10_higher": bs["s10_higher"].astype(int),
         "new_highs": bs["nasdaq_new_52w_highs"].astype(int),
+        "t2108": bs["t2108_nyse"].round(1),
         "fwd1": (fwd1 * 100).round(2),
         "fwd5": (fwd5 * 100).round(2),
         "fwd10": (fwd10 * 100).round(2),
@@ -292,6 +293,7 @@ def build_payload() -> dict:
             "n10t": int(r["s10_total"]) if not np.isnan(r["s10_total"]) else 0,
             "n10h": int(r["s10_higher"]) if not np.isnan(r["s10_higher"]) else 0,
             "nh": int(r["new_highs"]) if not np.isnan(r["new_highs"]) else 0,
+            "t": None if np.isnan(r["t2108"]) else float(r["t2108"]),
             "f1": None if np.isnan(r["fwd1"]) else float(r["fwd1"]),
             "f5": None if np.isnan(r["fwd5"]) else float(r["fwd5"]),
             "f10": None if np.isnan(r["fwd10"]) else float(r["fwd10"]),
@@ -367,6 +369,30 @@ TEMPLATE = r"""<!doctype html>
   .pill.s4 { color: var(--red); border-color: rgba(248,81,73,0.4); }
   .pill.s3, .pill.s1 { color: var(--yellow); border-color: rgba(210,153,34,0.4); }
   .stage-note { font-size: 12px; color: var(--muted); margin-top: 6px; font-style: italic; }
+
+  /* Top market-state row: GMI + T2108 cards side by side */
+  .state-row { display: grid; grid-template-columns: 1fr; gap: 12px; }
+  @media (min-width: 640px) { .state-row { grid-template-columns: 1fr 1fr; } }
+  .state-row > .panel { margin: 0; }   /* overrides default .panel margin so the row gap controls spacing */
+  .state-card { display: flex; flex-direction: column; }
+  .panel-title { font-size: 12px; color: var(--muted); font-family: var(--mono);
+    text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 10px;
+    display: flex; align-items: center; gap: 6px; }
+
+  /* T2108 gauge bar */
+  .t-bar { position: relative; width: 100%; height: 8px; border-radius: 999px;
+    margin-top: 10px; overflow: visible;
+    background: linear-gradient(to right,
+      rgba(46,160,67,0.55) 0%, rgba(46,160,67,0.55) 10%,
+      rgba(46,160,67,0.15) 10%, rgba(46,160,67,0.15) 30%,
+      rgba(139,148,158,0.22) 30%, rgba(139,148,158,0.22) 70%,
+      rgba(248,81,73,0.15) 70%, rgba(248,81,73,0.15) 80%,
+      rgba(248,81,73,0.55) 80%, rgba(248,81,73,0.55) 100%); }
+  .t-bar-fill { position: absolute; top: -2px; bottom: -2px; width: 3px;
+    background: var(--text); border-radius: 2px; left: 0%;
+    transition: left 0.2s ease; box-shadow: 0 0 0 2px var(--bg); }
+  .t-scale { display: flex; justify-content: space-between; font-family: var(--mono);
+    font-size: 9px; color: var(--muted); margin-top: 6px; gap: 4px; flex-wrap: wrap; }
 
   /* Compact components row (lives inside the GMI hero pane) */
   .comps-row {
@@ -457,7 +483,52 @@ TEMPLATE = r"""<!doctype html>
 <div class="wrap">
   <h1>GMI Daily<span class="sub">market-state reconstruction</span></h1>
 
-  <!-- 1. Chart at the top -->
+  <!-- 1. GMI + T2108 — the headline market-state panel. Two cards side-by-side. -->
+  <div class="state-row">
+    <div class="panel state-card">
+      <div class="panel-title">
+        GMI <button class="qmark" data-pop="gmi" aria-label="What is GMI">?</button>
+      </div>
+      <div class="hero">
+        <div>
+          <span class="num" id="gmiNum">0</span><span class="denom">/6</span>
+        </div>
+        <div>
+          <span class="badge" id="stateBadge">—</span>
+          <button class="qmark" data-pop="state" aria-label="What is the state" style="vertical-align:middle; margin-left:6px;">?</button>
+        </div>
+      </div>
+      <div class="comps-row" id="components"></div>
+      <div class="callout">
+        <span class="pill" id="dayPill">Day — of —</span>
+        <button class="qmark" data-pop="dayN" aria-label="Day N explanation">?</button>
+        <span class="pill" id="stagePill">Stage —</span>
+        <button class="qmark" data-pop="stage" aria-label="Stage explanation">?</button>
+      </div>
+      <div class="stage-note" id="stageNote">—</div>
+    </div>
+
+    <div class="panel state-card">
+      <div class="panel-title">
+        T2108 <button class="qmark" data-pop="t2108" aria-label="What is T2108">?</button>
+      </div>
+      <div class="hero">
+        <div>
+          <span class="num" id="t2108Num">—</span><span class="denom">%</span>
+        </div>
+        <div>
+          <span class="badge" id="t2108Badge">—</span>
+        </div>
+      </div>
+      <div class="t-bar"><div class="t-bar-fill" id="t2108Fill"></div></div>
+      <div class="t-scale">
+        <span>0</span><span style="color:var(--green)">10 buy zone</span><span>50</span><span style="color:var(--red)">80 extended</span><span>100</span>
+      </div>
+      <div class="stage-note" id="t2108Note">—</div>
+    </div>
+  </div>
+
+  <!-- 2. Chart -->
   <div class="panel">
     <div class="chart-header">
       <span class="small" id="chartTitle">QQQ — 6 months · daily candles</span>
@@ -519,28 +590,6 @@ TEMPLATE = r"""<!doctype html>
     </div>
     <div class="presets" id="presets"></div>
     <div class="small" id="dateLabel" style="margin-top:8px;">—</div>
-  </div>
-
-  <!-- 4. GMI hero + 6 components compressed into one pane -->
-  <div class="panel">
-    <div class="hero">
-      <div>
-        <span class="num" id="gmiNum">0</span><span class="denom">/6</span>
-        <button class="qmark" data-pop="gmi" aria-label="What is GMI">?</button>
-      </div>
-      <div>
-        <span class="badge" id="stateBadge">—</span>
-        <button class="qmark" data-pop="state" aria-label="What is the state" style="vertical-align:middle; margin-left:6px;">?</button>
-      </div>
-    </div>
-    <div class="comps-row" id="components"></div>
-    <div class="callout">
-      <span class="pill" id="dayPill">Day — of —</span>
-      <button class="qmark" data-pop="dayN" aria-label="Day N explanation">?</button>
-      <span class="pill" id="stagePill">Stage —</span>
-      <button class="qmark" data-pop="stage" aria-label="Stage explanation">?</button>
-    </div>
-    <div class="stage-note" id="stageNote">—</div>
   </div>
 
   <div class="footer">
@@ -873,6 +922,26 @@ function render(i) {
   const badge = document.getElementById('stateBadge');
   badge.textContent = stateInfo.label;
   badge.className = "badge " + stateInfo.cls;
+
+  // T2108 — NYSE breadth: % of NYSE stocks above 40-day SMA
+  const tn = document.getElementById('t2108Num');
+  const tb = document.getElementById('t2108Badge');
+  const tf = document.getElementById('t2108Fill');
+  const tnote = document.getElementById('t2108Note');
+  if (r.t == null) {
+    tn.textContent = "—"; tb.textContent = "—"; tb.className = "badge"; tnote.textContent = "no breadth data for this date.";
+  } else {
+    tn.textContent = r.t.toFixed(1);
+    tf.style.left = Math.max(0, Math.min(100, r.t)) + "%";
+    let label, cls, note;
+    if (r.t < 10) { label = "Buy zone"; cls = "green"; note = "Capitulation level. Dr. Wish accumulates SPY in tranches starting from here."; }
+    else if (r.t > 80) { label = "Extended"; cls = "red"; note = "Market extended; profit-take / no new buys. Pullback typically follows."; }
+    else if (r.t > 70) { label = "Hot"; cls = "yellow"; note = "Approaching extended. Watch for rollover."; }
+    else if (r.t < 30) { label = "Cool"; cls = "yellow"; note = "Below normal. Below 10 is the buy zone."; }
+    else { label = "Normal"; cls = "green"; note = "Healthy mid-range breadth (30–70)."; }
+    tb.textContent = label; tb.className = "badge " + cls;
+    tnote.textContent = note;
+  }
   // Day-N pill
   const dayPill = document.getElementById('dayPill');
   const arrow = r.sd === "up" ? "▲" : "▼";
@@ -946,6 +1015,7 @@ function render(i) {
 
 const POP = {
   gmi: "<b>GMI — General Market Index</b><br>Dr. Wish's daily 0–6 score of six market-health components. ≥4 for 2 consecutive days flips the gate GREEN (willing to buy long). ≤3 for 2 days flips RED (defensive — cash or hedge).",
+  t2108: "<b>T2108 — NYSE breadth</b><br>The percent of NYSE stocks trading above their 40-day SMA. Dr. Wish uses three zones:<br><b style='color:#2ea043'>&lt;10</b> = capitulation buy zone (he accumulates SPY in tranches; historically marks lasting bottoms).<br><b style='color:#d29922'>10–30 / 70–80</b> = caution zones at either extreme.<br><b style='color:#f85149'>&gt;80</b> = extended; no new buys, take some profit.<br>30–70 is the healthy mid-range. Validated against his reported T2108 at corr ≈ 0.93 (with a small +3–4 pt optimistic bias from survivorship in our universe).",
   state: "<b>Market state — GREEN / YELLOW / RED</b><br>Computed from the GMI with a 2-day confirmation rule. GREEN = 2 consecutive days ≥4. RED = 2 consecutive days <4 and not recovered. YELLOW = transition (GMI 3).",
   dayN: "<b>Day N of QQQ short-term trend</b><br>The count of consecutive trading days QQQ has been on its current side of the 30-day SMA. Resets to 1 when QQQ crosses through the line on a closing basis. This is the trigger Dr. Wish announces in every blog post title (e.g. 'Day 22 of QQQ short-term up-trend').<br><br>Note: 95% empirical fit to his Day-1 announcements; he never published the exact rule, this is the best-supported proxy.",
   stage: "<b>Weinstein stage</b><br>The four-stage classification from Stan Weinstein, used by Dr. Wish for the long-term picture:<br><b>Stage 1 — Basing</b>: price below 30wk, MA flat/rising. No new buys.<br><b>Stage 2 — Advancing</b>: price above rising 30wk + 10wk > 30wk. <i>Only stage he buys long.</i><br><b>Stage 3 — Topping</b>: price above 30wk but breadth weakening. Sells into this.<br><b>Stage 4 — Declining</b>: price below falling 30wk + 10wk < 30wk. Defensive.",
