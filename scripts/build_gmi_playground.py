@@ -337,7 +337,7 @@ TEMPLATE = r"""<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Stock market dashboard — GMI Daily</title>
+<title>Stock market dashboard — Market Trend</title>
 <style>
   :root {
     --bg: #0d1117;
@@ -356,20 +356,27 @@ TEMPLATE = r"""<!doctype html>
   body { margin: 0; background: var(--bg); color: var(--text);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
     font-size: 15px; line-height: 1.5; }
-  /* shared top nav (matches wiki) */
+  /* shared top nav (matches wiki + pulse) — professional, clean */
   .pages-nav {
     position: sticky; top: 0; z-index: 100; display: flex; align-items: center;
-    gap: 4px; padding: 10px 12px; background: rgba(13,17,23,0.95);
+    gap: 6px; padding: 12px 16px; background: rgba(13,17,23,0.96);
     backdrop-filter: blur(8px); border-bottom: 1px solid var(--border);
   }
-  .pages-nav .brand { font-weight: 600; margin-right: 8px; font-size: 14px; }
+  .pages-nav .brand { font-weight: 600; margin-right: auto; font-size: 14px; letter-spacing: -0.01em; color: var(--text); }
   .pages-nav .brand .sub { color: var(--muted); font-weight: 400; font-size: 12px; margin-left: 6px; }
   .pages-nav a {
-    color: var(--muted); text-decoration: none; padding: 4px 10px; border-radius: 999px;
-    font-size: 12px; font-family: var(--mono); border: 1px solid transparent;
+    color: var(--muted); text-decoration: none; padding: 6px 12px; border-radius: 6px;
+    font-size: 12px; font-family: var(--mono); font-weight: 500;
+    border: 1px solid transparent;
+    transition: color 0.15s, background 0.15s, border-color 0.15s;
   }
-  .pages-nav a.active { color: var(--text); border-color: var(--accent); background: rgba(88,166,255,0.18); }
-  .pages-nav a:hover { color: var(--text); }
+  .pages-nav a.active { color: var(--text); border-color: var(--accent); background: rgba(88,166,255,0.14); }
+  .pages-nav a:hover { color: var(--text); background: var(--panel-2); }
+  @media (max-width: 480px) {
+    .pages-nav { padding: 10px 12px; gap: 4px; }
+    .pages-nav .brand { font-size: 12px; }
+    .pages-nav a { padding: 5px 9px; font-size: 11px; }
+  }
   .wrap { max-width: 820px; margin: 0 auto; padding: 16px; }
   h1 { font-size: 20px; margin: 0 0 4px; font-weight: 600; }
   h1 .sub { color: var(--muted); font-weight: 400; font-size: 13px; margin-left: 8px; }
@@ -486,56 +493,65 @@ TEMPLATE = r"""<!doctype html>
   .legend { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; font-size: 11px; font-family: var(--mono); align-items: center; }
   .legend-item { display: inline-flex; align-items: center; gap: 4px; }
   .chip { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; color: var(--muted);
-    user-select: none; border: 1px solid var(--border); border-radius: 999px; padding: 3px 9px; background: var(--panel-2); font-size: 11px; font-family: var(--mono); }
-  .chip.on { color: var(--text); border-color: var(--accent); background: rgba(88,166,255,0.20); font-weight: 600; }
-  .chip:hover { color: var(--text); }
+    user-select: none; border: 1px solid var(--border); border-radius: 6px; padding: 4px 10px;
+    background: var(--panel-2); font-size: 11px; font-family: var(--mono); font-weight: 500;
+    transition: border-color 0.15s, color 0.15s, background 0.15s; }
+  .chip.on { color: var(--text); border-color: var(--accent); background: rgba(88,166,255,0.16); font-weight: 600; }
+  .chip:hover { color: var(--text); border-color: var(--accent); }
   .legend .swatch { display: inline-block; width: 12px; height: 2px; }
 
-  /* Compact controls panel under the chart */
-  .ctl-panel { padding: 8px 10px; }
-  .ctl-row1 { display: flex; align-items: center; gap: 5px; }
+  /* Compact controls panel under the chart — professional, rectangular, consistent */
+  .ctl-panel { padding: 10px 12px; }
+  .ctl-row1 { display: flex; align-items: center; gap: 6px; }
   .ctl-row1 input[type=date] {
     flex: 1; min-width: 0;
     background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
-    border-radius: 5px; padding: 3px 6px; font-family: var(--mono); font-size: 12px;
+    border-radius: 6px; padding: 6px 8px; font-family: var(--mono); font-size: 12px;
+    transition: border-color 0.15s;
   }
+  .ctl-row1 input[type=date]:focus { outline: none; border-color: var(--accent); }
   .ctl-step {
-    width: 26px; padding: 3px 0; font-size: 11px; font-family: var(--mono);
-    background: var(--panel-2); color: var(--muted); border: 1px solid var(--border);
-    border-radius: 999px; cursor: pointer; line-height: 1;
+    width: 32px; padding: 6px 0; font-size: 12px; font-family: var(--mono);
+    background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
+    border-radius: 6px; cursor: pointer; line-height: 1;
+    transition: border-color 0.15s, color 0.15s;
   }
   .ctl-step:hover { color: var(--accent); border-color: var(--accent); }
   .ctl-today {
-    padding: 3px 10px; font-size: 11px; font-family: var(--mono);
+    padding: 6px 14px; font-size: 12px; font-family: var(--mono); font-weight: 500;
     background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
-    border-radius: 999px; cursor: pointer;
+    border-radius: 6px; cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
   }
   .ctl-today:hover { color: var(--accent); border-color: var(--accent); }
   .ctl-day1 {
-    width: 100%; margin-top: 5px;
-    padding: 4px 10px; font-size: 11px; font-family: var(--mono); font-weight: 600;
-    background: var(--panel-2); border: 1px solid rgba(46,160,67,0.5); color: var(--green);
-    border-radius: 999px; cursor: pointer; text-align: center;
+    width: 100%; margin-top: 8px;
+    padding: 7px 12px; font-size: 12px; font-family: var(--mono); font-weight: 600;
+    background: var(--panel-2); border: 1px solid rgba(46,160,67,0.45); color: var(--green);
+    border-radius: 6px; cursor: pointer; text-align: center;
     overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    transition: background 0.15s, border-color 0.15s;
   }
-  .ctl-day1:hover { filter: brightness(1.15); }
-  .ctl-day1.down { color: var(--red); border-color: rgba(248,81,73,0.5); }
+  .ctl-day1:hover { background: rgba(46,160,67,0.10); border-color: var(--green); }
+  .ctl-day1.down { color: var(--red); border-color: rgba(248,81,73,0.45); }
+  .ctl-day1.down:hover { background: rgba(248,81,73,0.10); border-color: var(--red); }
   .ctl-long-head {
     display: flex; align-items: center; gap: 5px;
     color: var(--muted); font-size: 10px; font-family: var(--mono);
-    text-transform: uppercase; letter-spacing: 0.5px;
-    margin-top: 10px; margin-bottom: 5px;
+    text-transform: uppercase; letter-spacing: 0.6px;
+    margin-top: 14px; margin-bottom: 6px;
   }
-  /* Long-trend pills: single-line, 3 columns, tiny */
-  .ctl-long { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4px; }
+  /* Long-trend pills: clean grid of single-line buttons */
+  .ctl-long { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px; }
   .ctl-long .long-pill {
-    font-family: var(--mono); font-size: 10px; padding: 3px 5px;
-    background: var(--panel-2); border-radius: 5px; cursor: pointer;
+    font-family: var(--mono); font-size: 11px; padding: 5px 6px;
+    background: var(--panel-2); border-radius: 6px; cursor: pointer;
     text-align: center; line-height: 1.2; white-space: nowrap;
-    overflow: hidden; text-overflow: ellipsis;
+    overflow: hidden; text-overflow: ellipsis; font-weight: 500;
+    transition: background 0.15s;
   }
-  .ctl-long .long-pill .pill-len { color: var(--muted); font-size: 9px; margin-left: 3px; }
-  .ctl-long .long-pill:hover { filter: brightness(1.2); }
+  .ctl-long .long-pill .pill-len { color: var(--muted); font-size: 10px; margin-left: 4px; font-weight: 400; }
+  .ctl-long .long-pill:hover { background: rgba(88,166,255,0.10); }
 
   /* Forward returns */
   table.fwd { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: 13px; }
@@ -560,12 +576,12 @@ TEMPLATE = r"""<!doctype html>
 <body>
 <nav class="pages-nav">
   <span class="brand">Stock market dashboard</span>
-  <a href="https://gabjew90.github.io/Stock-market-dashboard/" class="active">GMI Daily</a>
-  <a href="https://gabjew90.github.io/Stock-market-dashboard/pulse/">Daily Pulse</a>
-  <a href="https://gabjew90.github.io/Stock-market-dashboard/wiki.html">Methodology</a>
+  <a href="https://gabjew90.github.io/Stock-market-dashboard/" class="active">Market Trend</a>
+  <a href="https://gabjew90.github.io/Stock-market-dashboard/pulse/">News &amp; Macro</a>
+  <a href="https://gabjew90.github.io/Stock-market-dashboard/wiki.html">About</a>
 </nav>
 <div class="wrap">
-  <h1>GMI Daily<span class="sub">market-state reconstruction</span></h1>
+  <h1>Market Trend<span class="sub">QQQ short-term &amp; Weinstein-stage state</span></h1>
 
   <!-- 1. GMI + T2108 — the headline market-state panel. Two cards side-by-side. -->
   <div class="state-row">
@@ -1133,27 +1149,37 @@ function drawSpark(centerIdx, markerIdx) {
     // ===== Dynamic value labels next to the dashed line at the SELECTED date =====
     // Each label is a small pill (bg + text) just to the right of the dashed line, at the y of
     // that line's value on the selected date. Updates whenever the slider moves.
-    function valuePill(yVal, text, color) {
+    function valuePill(yVal, text, color, opts) {
       if (yVal == null || isNaN(yVal)) return;
-      const tw = text.length * 5.5 + 8;  // approx width
-      const ty = Math.max(10, Math.min(H - PADY_BOT - VOL_H - 4, yVal));
+      opts = opts || {};
+      const yMax = opts.allowVolBand ? (H - PADY_BOT - 4) : (H - PADY_BOT - VOL_H - 4);
+      const tw = text.length * 6.8 + 10;  // approx width @ 11px font
+      const th = 15;
+      const ty = Math.max(11, Math.min(yMax, yVal));
       // Choose left/right side depending on space available
       const goLeft = (x + tw + 4) > (W - PADX);
       const px = goLeft ? (x - tw - 4) : (x + 4);
       const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-      rect.setAttribute('x', px); rect.setAttribute('y', ty - 7);
-      rect.setAttribute('width', tw); rect.setAttribute('height', 12);
+      rect.setAttribute('x', px); rect.setAttribute('y', ty - th / 2);
+      rect.setAttribute('width', tw); rect.setAttribute('height', th);
       rect.setAttribute('rx', 3);
-      rect.setAttribute('fill', 'rgba(13,17,23,0.85)');
-      rect.setAttribute('stroke', color); rect.setAttribute('stroke-width', '0.6');
+      rect.setAttribute('fill', 'rgba(13,17,23,0.9)');
+      rect.setAttribute('stroke', color); rect.setAttribute('stroke-width', '0.8');
       svg.appendChild(rect);
       const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-      t.setAttribute('x', px + tw / 2); t.setAttribute('y', ty + 3);
-      t.setAttribute('text-anchor', 'middle'); t.setAttribute('font-size', '9');
+      t.setAttribute('x', px + tw / 2); t.setAttribute('y', ty + 4);
+      t.setAttribute('text-anchor', 'middle'); t.setAttribute('font-size', '11');
       t.setAttribute('font-family', 'ui-monospace,Menlo,Consolas,monospace');
       t.setAttribute('font-weight', '600'); t.setAttribute('fill', color);
       t.textContent = text;
       svg.appendChild(t);
+    }
+    function fmtVol(v) {
+      if (v == null) return null;
+      if (v >= 1e9) return (v / 1e9).toFixed(2) + 'B';
+      if (v >= 1e6) return (v / 1e6).toFixed(2) + 'M';
+      if (v >= 1e3) return (v / 1e3).toFixed(1) + 'K';
+      return String(v);
     }
     // QQQ close at selected date (always show — it's the main price)
     const qClose = daily ? selDaily.cl : (selWeekly && selWeekly.c);
@@ -1161,6 +1187,13 @@ function drawSpark(centerIdx, markerIdx) {
     if (daily && maOn.m30 && selDaily.m30 != null) valuePill(yAt(selDaily.m30), `30d ${selDaily.m30.toFixed(0)}`, MA_COLORS.m30);
     if (!daily && maOn.w10 && selWeekly && selWeekly.m10 != null) valuePill(yAt(selWeekly.m10), `10w ${selWeekly.m10.toFixed(0)}`, MA_COLORS.w10);
     if (!daily && maOn.w30 && selWeekly && selWeekly.m30 != null) valuePill(yAt(selWeekly.m30), `30w ${selWeekly.m30.toFixed(0)}`, MA_COLORS.w30);
+    // Volume pill — anchored at the top of the volume band, color-matched to candle direction
+    const vol = daily ? selDaily.v : (selWeekly && selWeekly.v);
+    const oo = daily ? selDaily.o : (selWeekly && selWeekly.o);
+    if (vol != null && qClose != null && oo != null) {
+      const volColor = qClose >= oo ? "#2ea043" : "#f85149";
+      valuePill(volTopY + 6, `V ${fmtVol(vol)}`, volColor, { allowVolBand: true });
+    }
   }
 
   // ===== X-axis date labels (time-based — 5 evenly-spaced timestamps; identical in both views) =====

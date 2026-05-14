@@ -129,7 +129,7 @@ TEMPLATE = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Stock market dashboard — Methodology</title>
+<title>Stock market dashboard — About</title>
 <style>
   :root {{
     --bg: #0d1117; --panel: #161b22; --panel-2: #1c2330; --border: #30363d;
@@ -148,17 +148,24 @@ TEMPLATE = """<!doctype html>
   /* shared top nav (matches GMI playground) */
   .pages-nav {{
     position: sticky; top: 0; z-index: 100; display: flex; align-items: center;
-    gap: 4px; padding: 10px 12px; background: rgba(13,17,23,0.95);
+    gap: 6px; padding: 12px 16px; background: rgba(13,17,23,0.96);
     backdrop-filter: blur(8px); border-bottom: 1px solid var(--border);
   }}
-  .pages-nav .brand {{ font-weight: 600; margin-right: 8px; font-size: 14px; }}
+  .pages-nav .brand {{ font-weight: 600; margin-right: auto; font-size: 14px; letter-spacing: -0.01em; color: var(--text); }}
   .pages-nav .brand .sub {{ color: var(--muted); font-weight: 400; font-size: 12px; margin-left: 6px; }}
   .pages-nav a {{
-    color: var(--muted); text-decoration: none; padding: 4px 10px; border-radius: 999px;
-    font-size: 12px; font-family: var(--mono); border: 1px solid transparent;
+    color: var(--muted); text-decoration: none; padding: 6px 12px; border-radius: 6px;
+    font-size: 12px; font-family: var(--mono); font-weight: 500;
+    border: 1px solid transparent;
+    transition: color 0.15s, background 0.15s, border-color 0.15s;
   }}
-  .pages-nav a.active {{ color: var(--text); border-color: var(--accent); background: rgba(88,166,255,0.18); }}
-  .pages-nav a:hover {{ color: var(--text); }}
+  .pages-nav a.active {{ color: var(--text); border-color: var(--accent); background: rgba(88,166,255,0.14); }}
+  .pages-nav a:hover {{ color: var(--text); background: var(--panel-2); }}
+  @media (max-width: 480px) {{
+    .pages-nav {{ padding: 10px 12px; gap: 4px; }}
+    .pages-nav .brand {{ font-size: 12px; }}
+    .pages-nav a {{ padding: 5px 9px; font-size: 11px; }}
+  }}
 
   .wrap {{ max-width: 820px; margin: 0 auto; padding: 12px 16px 48px; }}
   .panel {{
@@ -230,9 +237,9 @@ TEMPLATE = """<!doctype html>
 <body>
 <nav class="pages-nav">
   <span class="brand">Stock market dashboard</span>
-  <a href="./">GMI Daily</a>
-  <a href="./pulse/">Daily Pulse</a>
-  <a href="./wiki.html" class="active">Methodology</a>
+  <a href="./">Market Trend</a>
+  <a href="./pulse/">News &amp; Macro</a>
+  <a href="./wiki.html" class="active">About</a>
 </nav>
 <div class="wrap">
 {toc}
