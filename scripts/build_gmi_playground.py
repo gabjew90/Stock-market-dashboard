@@ -60,7 +60,9 @@ def fetch_qqq_ohlc() -> pd.DataFrame:
     if QQQ_OHLC_CACHE.exists():
         cached = pd.read_parquet(QQQ_OHLC_CACHE)
         cached.index = pd.to_datetime(cached.index)
-        if (pd.Timestamp.today().normalize() - cached.index.max()).days <= 3:
+        fresh_enough = (pd.Timestamp.today().normalize() - cached.index.max()).days <= 3
+        has_volume = "volume" in cached.columns
+        if fresh_enough and has_volume:
             return cached
     # auto_adjust=True → OHLC are all back-adjusted for dividends/splits, so the candle bodies and the MAs
     # (computed from prices.parquet's adj close) sit on the same scale.
@@ -69,7 +71,7 @@ def fetch_qqq_ohlc() -> pd.DataFrame:
         df.columns = [c[0].lower() for c in df.columns]
     else:
         df.columns = [c.lower() for c in df.columns]
-    df = df[["open", "high", "low", "close"]].dropna()
+    df = df[["open", "high", "low", "close", "volume"]].dropna()
     df.index = pd.to_datetime(df.index)
     df.to_parquet(QQQ_OHLC_CACHE)
     return df
@@ -135,6 +137,7 @@ def build_payload() -> dict:
     qhigh = ohlc["high"]
     qlow = ohlc["low"]
     qclose_ohlc = ohlc["close"]  # used for the candle body so o/c are self-consistent
+    qvol = ohlc.get("volume", pd.Series(0, index=idx)).fillna(0)
 
     c1 = (bs["s10_total"] > 0) & (bs["s10_higher"] >= _S10_FRAC * bs["s10_total"])
     c2 = bs["nasdaq_new_52w_highs"] >= _NEW_HIGHS_MIN
@@ -201,6 +204,7 @@ def build_payload() -> dict:
         "state": state.astype(int),
         "qqq": qqq.round(2),
         "oo": qopen.round(2), "hh": qhigh.round(2), "ll": qlow.round(2), "cc": qclose_ohlc.round(2),
+        "vv": qvol.round(0).astype("Int64"),
         "sma30": sma30.round(2),
         "wk10": sma_10wk.round(2),
         "wk30": sma_30wk.round(2),
@@ -255,7 +259,8 @@ def build_payload() -> dict:
     wk_h = qhigh.resample("W-FRI").max()
     wk_l = qlow.resample("W-FRI").min()
     wk_c = qclose_ohlc.resample("W-FRI").last()
-    wk_df = pd.DataFrame({"o": wk_o, "h": wk_h, "l": wk_l, "c": wk_c}).dropna()
+    wk_v = qvol.resample("W-FRI").sum()
+    wk_df = pd.DataFrame({"o": wk_o, "h": wk_h, "l": wk_l, "c": wk_c, "v": wk_v}).dropna()
     wk_df = wk_df.loc[(wk_df.index >= pd.Timestamp(START))].copy()
     wk_df["m10"] = wk10_s.reindex(wk_df.index)
     wk_df["m30"] = wk30_s.reindex(wk_df.index)
@@ -269,6 +274,7 @@ def build_payload() -> dict:
             "h": None if pd.isna(wr["h"]) else round(float(wr["h"]), 2),
             "l": None if pd.isna(wr["l"]) else round(float(wr["l"]), 2),
             "c": None if pd.isna(wr["c"]) else round(float(wr["c"]), 2),
+            "v": None if pd.isna(wr["v"]) else int(wr["v"]),
             "m10": None if pd.isna(wr["m10"]) else round(float(wr["m10"]), 2),
             "m30": None if pd.isna(wr["m30"]) else round(float(wr["m30"]), 2),
             "s": int(wr["s"]) if not pd.isna(wr["s"]) else 1,
@@ -301,6 +307,7 @@ def build_payload() -> dict:
             "h": None if np.isnan(r["hh"]) else float(r["hh"]),
             "l": None if np.isnan(r["ll"]) else float(r["ll"]),
             "cl": None if np.isnan(r["cc"]) else float(r["cc"]),  # OHLC close; "c" key reserved for components array
+            "v": None if pd.isna(r["vv"]) else int(r["vv"]),
             "m30": None if np.isnan(r["sma30"]) else float(r["sma30"]),
             "w10": None if np.isnan(r["wk10"]) else float(r["wk10"]),
             "w30": None if np.isnan(r["wk30"]) else float(r["wk30"]),
@@ -466,7 +473,10 @@ TEMPLATE = r"""<!doctype html>
 
   /* Chart */
   .chart-wrap { position: relative; }
-  .spark { width: 100%; height: 200px; display: block; }
+  .spark { width: 100%; height: 240px; display: block;
+    cursor: ew-resize; touch-action: none; -webkit-user-select: none; user-select: none; }
+  .spark.dragging { cursor: grabbing; }
+  .drag-hint { font-style: italic; flex: 1; text-align: right; opacity: 0.7; }
   .chart-header { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 4px; }
   .red-chip { display: inline-flex; align-items: center; gap: 5px; padding: 3px 9px; border-radius: 999px;
     background: rgba(248,81,73,0.18); color: var(--red); border: 1px solid rgba(248,81,73,0.4);
@@ -481,31 +491,51 @@ TEMPLATE = r"""<!doctype html>
   .chip:hover { color: var(--text); }
   .legend .swatch { display: inline-block; width: 12px; height: 2px; }
 
-  /* Date controls (now below chart) */
-  .date-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-  .date-row input[type=date] {
+  /* Compact controls panel under the chart */
+  .ctl-panel { padding: 8px 10px; }
+  .ctl-row1 { display: flex; align-items: center; gap: 5px; }
+  .ctl-row1 input[type=date] {
+    flex: 1; min-width: 0;
     background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
-    border-radius: 6px; padding: 6px 8px; font-family: var(--mono); font-size: 14px;
+    border-radius: 5px; padding: 3px 6px; font-family: var(--mono); font-size: 12px;
   }
-  .date-row input[type=range] { flex: 1; min-width: 200px; accent-color: var(--accent); }
-  .presets { margin-top: 10px; }
-  .presets button {
+  .ctl-step {
+    width: 26px; padding: 3px 0; font-size: 11px; font-family: var(--mono);
+    background: var(--panel-2); color: var(--muted); border: 1px solid var(--border);
+    border-radius: 999px; cursor: pointer; line-height: 1;
+  }
+  .ctl-step:hover { color: var(--accent); border-color: var(--accent); }
+  .ctl-today {
+    padding: 3px 10px; font-size: 11px; font-family: var(--mono);
     background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
-    border-radius: 999px; padding: 5px 12px; font-size: 12px; cursor: pointer;
-    font-family: var(--mono);
+    border-radius: 999px; cursor: pointer;
   }
-  .presets button:hover { border-color: var(--accent); color: var(--accent); }
-  /* Navigation row: [Prev] [Today] [Next] [Day 1 current] */
-  .nav-row { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
-  .nav-row .nav-arrow { padding: 5px 10px; min-width: 56px; }
-  .nav-row .nav-day1 { font-weight: 600; margin-left: auto; }
-  /* Long-trend pills row */
-  .long-label { color: var(--muted); margin-top: 12px; margin-bottom: 6px;
-    display: flex; align-items: center; gap: 5px; }
-  .long-row { display: flex; gap: 6px; flex-wrap: wrap; }
-  .long-pill { font-size: 11px !important; padding: 4px 9px !important;
-    font-weight: 500; display: inline-flex; align-items: center; gap: 5px; }
-  .long-pill .dur { color: var(--muted); font-size: 10px; }
+  .ctl-today:hover { color: var(--accent); border-color: var(--accent); }
+  .ctl-day1 {
+    width: 100%; margin-top: 5px;
+    padding: 4px 10px; font-size: 11px; font-family: var(--mono); font-weight: 600;
+    background: var(--panel-2); border: 1px solid rgba(46,160,67,0.5); color: var(--green);
+    border-radius: 999px; cursor: pointer; text-align: center;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .ctl-day1:hover { filter: brightness(1.15); }
+  .ctl-day1.down { color: var(--red); border-color: rgba(248,81,73,0.5); }
+  .ctl-long-head {
+    display: flex; align-items: center; gap: 5px;
+    color: var(--muted); font-size: 10px; font-family: var(--mono);
+    text-transform: uppercase; letter-spacing: 0.5px;
+    margin-top: 10px; margin-bottom: 5px;
+  }
+  /* Long-trend pills: single-line, 3 columns, tiny */
+  .ctl-long { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4px; }
+  .ctl-long .long-pill {
+    font-family: var(--mono); font-size: 10px; padding: 3px 5px;
+    background: var(--panel-2); border-radius: 5px; cursor: pointer;
+    text-align: center; line-height: 1.2; white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
+  }
+  .ctl-long .long-pill .pill-len { color: var(--muted); font-size: 9px; margin-left: 3px; }
+  .ctl-long .long-pill:hover { filter: brightness(1.2); }
 
   /* Forward returns */
   table.fwd { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: 13px; }
@@ -598,7 +628,7 @@ TEMPLATE = r"""<!doctype html>
       </span>
     </div>
     <div class="chart-wrap">
-      <svg class="spark" id="spark" viewBox="0 0 800 200" preserveAspectRatio="none"></svg>
+      <svg class="spark" id="spark" viewBox="0 0 800 240" preserveAspectRatio="none"></svg>
     </div>
     <div class="legend" id="legend">
       <!-- legend chips are rendered dynamically per view -->
@@ -606,7 +636,24 @@ TEMPLATE = r"""<!doctype html>
     <div class="small" style="margin-top:8px;">Tap any <b style="color:var(--accent)">?</b> for an explanation. Tap a legend chip to toggle a line.</div>
   </div>
 
-  <!-- 2. Compact Since-Day-1 strip (MA/QQQ values now live on the chart) -->
+  <!-- 2. Compact date controls (was: tall vertical stack — now a single tight panel under the chart) -->
+  <div class="panel ctl-panel">
+    <div class="ctl-row1">
+      <input type="date" id="datePick">
+      <button class="ctl-step" id="ctlPrev" title="Previous trading day">◀</button>
+      <button class="ctl-step" id="ctlNext" title="Next trading day">▶</button>
+      <button class="ctl-today" id="ctlToday">Today</button>
+      <input type="range" id="dateSlider" min="0" max="0" value="0" style="display:none;">
+    </div>
+    <button class="ctl-day1" id="ctlDay1">Day 1 of current trend</button>
+    <div class="ctl-long-head">
+      <span>Long ST trends ≥30d</span>
+      <button class="qmark" data-pop="longtrends" aria-label="Long-trend shortcuts">?</button>
+    </div>
+    <div class="ctl-long" id="presets"></div>
+  </div>
+
+  <!-- 3. QQQ / TQQQ / SQQQ performance since Day 1 (moved DOWN from above the chart) -->
   <div class="panel since-panel">
     <div class="since-header">
       <span class="since-title">Since Day 1 of current ST trend</span>
@@ -618,17 +665,6 @@ TEMPLATE = r"""<!doctype html>
       <div class="since-cell"><span class="since-lbl">TQQQ</span><span class="since-val" id="srd1tq">—</span></div>
       <div class="since-cell"><span class="since-lbl">SQQQ</span><span class="since-val" id="srd1sq">—</span></div>
     </div>
-  </div>
-
-  <!-- 3. Date slider + regime-change shortcuts -->
-  <div class="panel">
-    <div class="date-row">
-      <input type="date" id="datePick">
-      <input type="range" id="dateSlider" min="0" max="0" value="0">
-    </div>
-    <div class="small" style="margin-top:8px; margin-bottom:0;"></div>
-    <div class="presets" id="presets"></div>
-    <div class="small" id="dateLabel" style="margin-top:8px;">—</div>
   </div>
 
   <div class="footer">
@@ -669,57 +705,41 @@ datePick.max = ROWS[ROWS.length - 1].d;
 datePick.value = ROWS[ROWS.length - 1].d;
 
 const pBox = document.getElementById('presets');
-function buildPresets() {
-  pBox.innerHTML = "";
-  // Row 1: navigation [Prev] [Today] [Next] [Day 1 of current trend]
-  const nav = document.createElement('div');
-  nav.className = "nav-row";
-  const mkBtn = (label, onclick, opts = {}) => {
-    const b = document.createElement('button');
-    b.innerHTML = label;
-    b.onclick = onclick;
-    if (opts.title) b.title = opts.title;
-    if (opts.cls) b.className = opts.cls;
-    if (opts.color) { b.style.color = opts.color; b.style.borderColor = opts.color.replace('1)', '0.5)'); }
-    return b;
-  };
-  nav.appendChild(mkBtn("◀ Prev", () => setIndex(Number(dateSlider.value) - 1), {title: "Previous trading day", cls: "nav-arrow"}));
-  nav.appendChild(mkBtn("Today",  () => setIndex(ROWS.length - 1)));
-  nav.appendChild(mkBtn("Next ▶", () => setIndex(Number(dateSlider.value) + 1), {title: "Next trading day",     cls: "nav-arrow"}));
-  // Day 1 of CURRENT (most recent) trend — same color as the current trend direction
+
+// Wire the four fixed controls
+document.getElementById('ctlPrev').addEventListener('click', () => setIndex(Number(dateSlider.value) - 1));
+document.getElementById('ctlNext').addEventListener('click', () => setIndex(Number(dateSlider.value) + 1));
+document.getElementById('ctlToday').addEventListener('click', () => setIndex(ROWS.length - 1));
+
+const ctlDay1Btn = document.getElementById('ctlDay1');
+(function configureDay1Btn() {
   const cur = ROWS[ROWS.length - 1];
   if (cur && cur.d1d) {
     const arrow = cur.sd === "up" ? "▲" : "▼";
-    const col = cur.sd === "up" ? "rgba(46,160,67,1)" : "rgba(248,81,73,1)";
-    nav.appendChild(mkBtn(`${arrow} Day 1 (current)`, () => setIndex(findNearestIndex(cur.d1d)),
-                          {title: `Day 1 of the current ST ${cur.sd}-trend — ${cur.d1d}`, color: col, cls: "nav-day1"}));
+    ctlDay1Btn.textContent = `${arrow} Day 1 of current ${cur.sd}-trend · ${cur.d1d}`;
+    ctlDay1Btn.title = `Jump to Day 1 of the current ST ${cur.sd}-trend`;
+    if (cur.sd === "down") ctlDay1Btn.classList.add('down');
+    ctlDay1Btn.addEventListener('click', () => setIndex(findNearestIndex(cur.d1d)));
+  } else {
+    ctlDay1Btn.style.display = "none";
   }
-  pBox.appendChild(nav);
+})();
 
-  // Row 2: long-trend shortcuts (>= 30 trading days each)
-  if (LONG_TRENDS.length) {
-    const lbl = document.createElement('div');
-    lbl.className = "small long-label";
-    lbl.innerHTML = "Long ST trends (≥30 trading days): <button class='qmark' data-pop='longtrends' aria-label='What's a long trend'>?</button>";
-    pBox.appendChild(lbl);
-    const lg = document.createElement('div');
-    lg.className = "long-row";
-    LONG_TRENDS.forEach(t => {
-      const arrow = t.dir === "up" ? "▲" : "▼";
-      const col = t.dir === "up" ? "rgba(46,160,67,1)" : "rgba(248,81,73,1)";
-      const b = document.createElement('button');
-      b.className = "long-pill";
-      b.innerHTML = `${arrow} ${t.d} <span class="dur">${t.len}d</span>`;
-      b.style.color = t.dir === "up" ? "#2ea043" : "#f85149";
-      b.style.borderColor = t.dir === "up" ? "rgba(46,160,67,0.4)" : "rgba(248,81,73,0.4)";
-      b.title = `Day 1 of ${t.dir}-trend that lasted ${t.len} trading days — ${t.d}`;
-      b.onclick = () => setIndex(findNearestIndex(t.d));
-      lg.appendChild(b);
-    });
-    pBox.appendChild(lg);
-  }
-}
-buildPresets();
+// Long-trend pills (>= 30 trading days)
+(function buildLongTrends() {
+  pBox.innerHTML = "";
+  LONG_TRENDS.forEach(t => {
+    const arrow = t.dir === "up" ? "▲" : "▼";
+    const b = document.createElement('button');
+    b.className = "long-pill";
+    b.innerHTML = `${arrow} ${t.d.slice(2)}<span class="pill-len">${t.len}d</span>`;
+    b.style.color = t.dir === "up" ? "#2ea043" : "#f85149";
+    b.style.border = "1px solid " + (t.dir === "up" ? "rgba(46,160,67,0.4)" : "rgba(248,81,73,0.4)");
+    b.title = `Day 1 of ${t.dir}-trend that lasted ${t.len} trading days — ${t.d}`;
+    b.onclick = () => setIndex(findNearestIndex(t.d));
+    pBox.appendChild(b);
+  });
+})();
 
 function findNearestIndex(dateStr) {
   if (dateMap.has(dateStr)) return dateMap.get(dateStr);
@@ -731,15 +751,99 @@ function findNearestIndex(dateStr) {
   return best;
 }
 
+// Marker (user-selected date) vs window center (chart's visible 6-month window).
+// setIndex(i) jumps BOTH (used by buttons, date picker, slider). setMarker(i)
+// just moves the marker; the window only pans when the marker would leave view.
+let markerIdx = ROWS.length - 1;
+let windowCenterIdx = ROWS.length - 1;
+
 function setIndex(i) {
   i = Math.max(0, Math.min(ROWS.length - 1, i));
+  markerIdx = i;
+  windowCenterIdx = i;
   dateSlider.value = String(i);
   datePick.value = ROWS[i].d;
-  render(i);
+  render();
 }
 
-dateSlider.addEventListener('input', e => render(Number(e.target.value)));
+function setMarker(i) {
+  i = Math.max(0, Math.min(ROWS.length - 1, i));
+  markerIdx = i;
+  // Compute current visible window (matches drawSpark's logic).
+  const HALF = 63;
+  let dStart = windowCenterIdx - HALF;
+  let dEnd = windowCenterIdx + HALF;
+  if (dEnd > ROWS.length - 1) { dStart -= (dEnd - (ROWS.length - 1)); dEnd = ROWS.length - 1; }
+  if (dStart < 0) { dEnd = Math.min(ROWS.length - 1, dEnd - dStart); dStart = 0; }
+  // Pan only when marker reaches near an edge — keeps drag feel stable.
+  if (i < dStart + 3)      windowCenterIdx = Math.max(0, i + HALF - 6);
+  else if (i > dEnd - 3)   windowCenterIdx = Math.min(ROWS.length - 1, i - HALF + 6);
+  dateSlider.value = String(i);
+  datePick.value = ROWS[i].d;
+  render();
+}
+
+dateSlider.addEventListener('input', e => setIndex(Number(e.target.value)));
 dateSlider.addEventListener('change', e => setIndex(Number(e.target.value)));
+
+// ============================================================================
+// Chart-drag interaction: tap or drag on the SVG to scrub dates.
+// Replaces the slider — feels more intuitive and matches how the chart actually
+// displays time. Window auto-pans as the marker moves so the selected date is
+// always visible.
+// ============================================================================
+(function attachChartDrag() {
+  const svg = document.getElementById('spark');
+  if (!svg) return;
+  let dragging = false;
+
+  function pointerToDate(e) {
+    // Convert client coords to SVG viewBox coords via the screen CTM.
+    const ctm = svg.getScreenCTM();
+    if (!ctm) return null;
+    const svgX = (e.clientX - ctm.e) / ctm.a;
+    const v = window._chartView;
+    if (!v) return null;
+    const frac = Math.max(0, Math.min(1, (svgX - v.PADX) / v.plotW));
+    const ts = v.firstTs + frac * v.tSpan;
+    // Find the closest daily ROW by timestamp (linear within the visible window;
+    // a binary search would be faster but the window is only ~126 bars).
+    let bestIdx = v.dStart, bestDiff = Infinity;
+    for (let i = v.dStart; i <= v.dEnd; i++) {
+      const t = Date.parse(ROWS[i].d);
+      const diff = Math.abs(t - ts);
+      if (diff < bestDiff) { bestDiff = diff; bestIdx = i; }
+    }
+    // Allow dragging past the visible window — clamp to the FULL ROWS range,
+    // then setIndex will recenter the chart.
+    if (frac <= 0.02 && v.dStart > 0) bestIdx = Math.max(0, v.dStart - Math.ceil((0.02 - frac) * 100));
+    if (frac >= 0.98 && v.dEnd < ROWS.length - 1) bestIdx = Math.min(ROWS.length - 1, v.dEnd + Math.ceil((frac - 0.98) * 100));
+    return bestIdx;
+  }
+
+  svg.addEventListener('pointerdown', (e) => {
+    e.preventDefault();
+    dragging = true;
+    svg.classList.add('dragging');
+    try { svg.setPointerCapture(e.pointerId); } catch (_) {}
+    const idx = pointerToDate(e);
+    if (idx != null) setMarker(idx);
+  });
+  svg.addEventListener('pointermove', (e) => {
+    if (!dragging) return;
+    e.preventDefault();
+    const idx = pointerToDate(e);
+    if (idx != null) setMarker(idx);
+  });
+  function endDrag(e) {
+    dragging = false;
+    svg.classList.remove('dragging');
+    try { if (e && e.pointerId != null) svg.releasePointerCapture(e.pointerId); } catch (_) {}
+  }
+  svg.addEventListener('pointerup', endDrag);
+  svg.addEventListener('pointercancel', endDrag);
+  svg.addEventListener('pointerleave', (e) => { if (!dragging) return; /* keep dragging via capture */ });
+})();
 datePick.addEventListener('change', e => setIndex(findNearestIndex(e.target.value)));
 
 function classifyState(s, g) {
@@ -801,27 +905,33 @@ function renderLegend() {
   });
 }
 
-function drawSpark(centerIdx) {
+function drawSpark(centerIdx, markerIdx) {
+  if (markerIdx === undefined) markerIdx = centerIdx;
   const svg = document.getElementById('spark');
   svg.innerHTML = "";
-  const W = 800, H = 200, PADX = 6, PADY_TOP = 4, PADY_BOT = 22;
+  const W = 800, H = 240, PADX = 6, PADY_TOP = 4, PADY_BOT = 22, VOL_H = 38;
 
   // Both views share the same ~6-month date window (locked axes across toggle).
-  const dStart = Math.max(0, centerIdx - 100);
-  const dEnd = Math.min(ROWS.length - 1, centerIdx + 26);
+  // Symmetric ±63 so the marker is centered. When the centerIdx is near today,
+  // shift the window left so we always show ~126 bars (no shrinking at the right edge).
+  const HALF = 63;
+  let dStart = centerIdx - HALF;
+  let dEnd = centerIdx + HALF;
+  if (dEnd > ROWS.length - 1) { dStart -= (dEnd - (ROWS.length - 1)); dEnd = ROWS.length - 1; }
+  if (dStart < 0) { dEnd = Math.min(ROWS.length - 1, dEnd - dStart); dStart = 0; }
   const firstDate = ROWS[dStart].d;
   const lastDate = ROWS[dEnd].d;
   let slice, localCenter, daily;
   if (VIEW === "daily") {
     daily = true;
     slice = ROWS.slice(dStart, dEnd + 1).filter(r => r.h != null && r.l != null);
-    localCenter = slice.findIndex(r => r.d === ROWS[centerIdx].d);
-    if (localCenter < 0) localCenter = centerIdx - dStart;
+    localCenter = slice.findIndex(r => r.d === ROWS[markerIdx].d);
+    if (localCenter < 0) localCenter = markerIdx - dStart;
   } else {
     daily = false;
     slice = WEEKLY.filter(r => r.d >= firstDate && r.d <= lastDate && r.h != null);
     if (slice.length < 2) return;
-    const selWeekDate = WEEKLY[ROWS[centerIdx].wi].d;
+    const selWeekDate = WEEKLY[ROWS[markerIdx].wi].d;
     localCenter = slice.findIndex(r => r.d === selWeekDate);
     if (localCenter < 0) localCenter = slice.length - 1;
   }
@@ -848,7 +958,7 @@ function drawSpark(centerIdx) {
   const pad = (ymax0 - ymin0) * 0.05 || 1;
   const ymin = ymin0 - pad, ymax = ymax0 + pad;
   const yspan = ymax - ymin;
-  const plotH = H - PADY_TOP - PADY_BOT;
+  const plotH = H - PADY_TOP - PADY_BOT - VOL_H;  // price plot, leaves a VOL_H band for volume
   const plotW = W - 2 * PADX;
   // Time-based x positioning: same calendar date sits at the same x in BOTH views.
   const firstTs = Date.parse(firstDate);
@@ -856,16 +966,23 @@ function drawSpark(centerIdx) {
   const tSpan = (lastTs - firstTs) || 1;
   const xAtDate = (dStr) => ((Date.parse(dStr) - firstTs) / tSpan) * plotW + PADX;
   const xAt = (i) => xAtDate(slice[i].d);
-  const yAt = (v) => H - PADY_BOT - ((v - ymin) / yspan) * plotH;
+  // Price plot occupies [PADY_TOP, H - PADY_BOT - VOL_H]. Volume occupies the strip just below.
+  const yAt = (v) => (H - PADY_BOT - VOL_H) - ((v - ymin) / yspan) * plotH;
+  const volBaseY = H - PADY_BOT;   // bottom of volume band
+  const volTopY = H - PADY_BOT - VOL_H + 2;  // top (with a 2px gap)
+  // Publish the current chart window so the pointer-drag handler can map x -> date.
+  window._chartView = { firstTs, lastTs, tSpan, dStart, dEnd, PADX, plotW, W };
   // Average bar width — used to size candle bodies. Daily ~3-4 px, weekly ~16-18 px.
   const barW = plotW / slice.length;
 
-  // ===== RED gate shading — ALWAYS from daily ROWS so it's pixel-identical in both views =====
+  // ===== RED shading = ST down-trend periods (matches the Day-N pill at the top) =====
+  // Source = r.sd ("up"/"down"); positioning is identical in both views via xAtDate so toggling
+  // Daily/Weekly doesn't shift anything.
   {
     let runStart = null;
     for (let i = dStart; i <= dEnd; i++) {
       const dr = ROWS[i];
-      const isRed = dr.s === 0;
+      const isRed = dr.sd === "down";
       if (isRed && runStart == null) runStart = i;
       const isLast = i === dEnd;
       if ((!isRed || isLast) && runStart != null) {
@@ -940,9 +1057,52 @@ function drawSpark(centerIdx) {
   // In the daily view the candle "close" is r.cl (OHLC close); in weekly it's r.c. Make sure daily slice has r.c too:
   // We map daily r.cl -> r.c just-in-time so the candle code above works the same.
 
+  // ===== Volume bars (bottom band, color-matched to candle direction) =====
+  if (maOn.qqq) {
+    let maxV = 0;
+    slice.forEach(r => { if (r.v != null && r.v > maxV) maxV = r.v; });
+    if (maxV > 0) {
+      const bodyW = Math.max(2.5, (slice.length > 1
+        ? (Date.parse(slice[slice.length-1].d) - Date.parse(slice[0].d)) / (slice.length - 1) / tSpan * plotW * 0.7
+        : plotW * 0.005));
+      const volBandH = volBaseY - volTopY;
+      slice.forEach((r, i) => {
+        if (r.v == null || r.o == null) return;
+        const cl = daily ? r.cl : r.c;
+        if (cl == null) return;
+        const x = xAt(i);
+        const up = cl >= r.o;
+        const color = up ? "rgba(46,160,67,0.55)" : "rgba(248,81,73,0.55)";
+        const h = (r.v / maxV) * volBandH;
+        const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        rect.setAttribute('x', x - bodyW / 2);
+        rect.setAttribute('y', volBaseY - h);
+        rect.setAttribute('width', bodyW);
+        rect.setAttribute('height', h);
+        rect.setAttribute('fill', color);
+        svg.appendChild(rect);
+      });
+      // Thin separator line between price and volume bands
+      const sep = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      sep.setAttribute('x1', PADX); sep.setAttribute('x2', W - PADX);
+      sep.setAttribute('y1', volTopY - 1); sep.setAttribute('y2', volTopY - 1);
+      sep.setAttribute('stroke', '#30363d'); sep.setAttribute('stroke-width', '0.5');
+      sep.setAttribute('stroke-dasharray', '2,2');
+      svg.appendChild(sep);
+      // Tiny "Vol" label in the band
+      const vlbl = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      vlbl.setAttribute('x', PADX + 2); vlbl.setAttribute('y', volTopY + 8);
+      vlbl.setAttribute('font-size', '8');
+      vlbl.setAttribute('font-family', 'ui-monospace,Menlo,Consolas,monospace');
+      vlbl.setAttribute('fill', '#8b949e');
+      vlbl.textContent = 'Vol';
+      svg.appendChild(vlbl);
+    }
+  }
+
   // ===== Selected-date marker + dynamic value labels =====
-  const selectedDailyDate = ROWS[centerIdx].d;
-  const selDaily = ROWS[centerIdx];
+  const selectedDailyDate = ROWS[markerIdx].d;
+  const selDaily = ROWS[markerIdx];
   // In weekly view we still want the labels at the WEEK'S MA values (since that's what the chart shows).
   // selectedWeekly = the WEEKLY row whose Friday-date >= the selected daily date.
   const selWeeklyIdx = selDaily.wi;
@@ -976,7 +1136,7 @@ function drawSpark(centerIdx) {
     function valuePill(yVal, text, color) {
       if (yVal == null || isNaN(yVal)) return;
       const tw = text.length * 5.5 + 8;  // approx width
-      const ty = Math.max(10, Math.min(H - PADY_BOT - 4, yVal));
+      const ty = Math.max(10, Math.min(H - PADY_BOT - VOL_H - 4, yVal));
       // Choose left/right side depending on space available
       const goLeft = (x + tw + 4) > (W - PADX);
       const px = goLeft ? (x - tw - 4) : (x + 4);
@@ -1036,11 +1196,12 @@ function drawSpark(centerIdx) {
 // Render
 // ============================================================================
 
-function render(i) {
+function render() {
+  const i = markerIdx;
   const r = ROWS[i];
   const stateInfo = classifyState(r.s, r.g);
 
-  document.getElementById('dateLabel').textContent = `${r.d}  ·  trading day ${i + 1} of ${ROWS.length}`;
+  // (date label removed in compact controls; the date picker shows the selected date already)
   document.getElementById('gmiNum').textContent = String(r.g);
   const badge = document.getElementById('stateBadge');
   badge.textContent = stateInfo.label;
@@ -1113,7 +1274,7 @@ function render(i) {
   setPct('srd1tq', r.rd1tq);
   setPct('srd1sq', r.rd1sq);
 
-  drawSpark(i);
+  drawSpark(windowCenterIdx, markerIdx);
 }
 
 // ============================================================================
@@ -1121,16 +1282,16 @@ function render(i) {
 // ============================================================================
 
 const POP = {
-  gmi: "<b>GMI — General Market Index</b><br>Dr. Wish's daily 0–6 score of six market-health components. ≥4 for 2 consecutive days flips the gate GREEN (willing to buy long). ≤3 for 2 days flips RED (defensive — cash or hedge).",
-  t2108: "<b>T2108 — NYSE breadth</b><br>The percent of NYSE stocks trading above their 40-day SMA. Dr. Wish uses three zones:<br><b style='color:#2ea043'>&lt;10</b> = capitulation buy zone (he accumulates SPY in tranches; historically marks lasting bottoms).<br><b style='color:#d29922'>10–30 / 70–80</b> = caution zones at either extreme.<br><b style='color:#f85149'>&gt;80</b> = extended; no new buys, take some profit.<br>30–70 is the healthy mid-range. Validated against his reported T2108 at corr ≈ 0.93 (with a small +3–4 pt optimistic bias from survivorship in our universe).",
+  gmi: "<b>GMI — General Market Index</b><br>A daily 0–6 score of six market-health components. ≥4 for 2 consecutive days flips the gate GREEN (we're willing to buy long). ≤3 for 2 days flips RED (defensive — cash or hedge).",
+  t2108: "<b>T2108 — NYSE breadth</b><br>The percent of NYSE stocks trading above their 40-day SMA. We use three zones:<br><b style='color:#2ea043'>&lt;10</b> = capitulation buy zone (accumulate SPY in tranches; historically marks lasting bottoms).<br><b style='color:#d29922'>10–30 / 70–80</b> = caution zones at either extreme.<br><b style='color:#f85149'>&gt;80</b> = extended; no new buys, take some profit.<br>30–70 is the healthy mid-range. Our value tracks the published T2108 at corr ≈ 0.93 (small +3–4 pt optimistic bias from survivorship in our universe).",
   state: "<b>Market state — GREEN / YELLOW / RED</b><br>Computed from the GMI with a 2-day confirmation rule. GREEN = 2 consecutive days ≥4. RED = 2 consecutive days <4 and not recovered. YELLOW = transition (GMI 3).",
-  dayN: "<b>Day N of QQQ short-term trend</b><br>The count of consecutive trading days QQQ has been on its current side of the 30-day SMA. Resets to 1 when QQQ crosses through the line on a closing basis. This is the trigger Dr. Wish announces in every blog post title (e.g. 'Day 22 of QQQ short-term up-trend').<br><br>Note: 95% empirical fit to his Day-1 announcements; he never published the exact rule, this is the best-supported proxy.",
-  stage: "<b>Weinstein stage</b><br>The four-stage classification from Stan Weinstein, used by Dr. Wish for the long-term picture:<br><b>Stage 1 — Basing</b>: price below 30wk, MA flat/rising. No new buys.<br><b>Stage 2 — Advancing</b>: price above rising 30wk + 10wk > 30wk. <i>Only stage he buys long.</i><br><b>Stage 3 — Topping</b>: price above 30wk but breadth weakening. Sells into this.<br><b>Stage 4 — Declining</b>: price below falling 30wk + 10wk < 30wk. Defensive.",
-  redshade: "<b>RED-shaded periods</b><br>Days when the GMI gate is RED. Per Dr. Wish this is when he is <b>out of long positions</b>, in cash, or hedged. Notice these are short and rare in bull runs, long and broad in declines.",
-  qqq: "<b>QQQ candles</b><br>Standard OHLC candles. <span style='color:#2ea043;font-weight:600'>Green</span> = close ≥ open. <span style='color:#f85149;font-weight:600'>Red</span> = close &lt; open. Wick = high–low; body = open–close.<br><br><b>Daily view:</b> ~126 daily candles (6 months) centered on selected day.<br><b>Weekly view:</b> ~50 Friday-close candles (1 year) — this is the timeframe Dr. Wish actually uses for his 10:30 weekly chart.",
-  m30: "<b>30-day SMA (daily)</b><br>The daily short-term trend anchor. QQQ closing above = ST up; below = ST down. Drives the Day-N count and components 3 & 4 of the GMI.<br><br>Quantitatively: 95% of his published Day-1 flip announcements (2024–2026) line up with QQQ crossing this line.",
-  w10: "<b>10-week SMA (weekly chart)</b><br>His medium-term hold line. Computed on Friday weekly closes. The <b>10wk crossing above 30wk</b> is his bull re-entry signal (confirmed live 2025-06 and 2026-05). The <b>10wk crossing below 30wk</b> confirms Stage 4 onset (April 2025 tariff decline).",
-  w30: "<b>30-week SMA (weekly chart)</b><br>Dr. Wish's most important MA. Stan Weinstein's classic. Got him out before 2000 and 2008. Price above + line rising = Stage 2 uptrend — the only stage he buys long.",
+  dayN: "<b>Day N of QQQ short-term trend</b><br>The count of consecutive trading days QQQ has been on its current side of the 30-day SMA. Resets to 1 when QQQ crosses through the line on a closing basis.<br><br>Note: 95% empirical fit to published Day-1 announcements; the exact source rule isn't public — this is the best-supported proxy.",
+  stage: "<b>Weinstein stage</b><br>The four-stage classification from Stan Weinstein, used for the long-term picture:<br><b>Stage 1 — Basing</b>: price below 30wk, MA flat/rising. No new buys.<br><b>Stage 2 — Advancing</b>: price above rising 30wk + 10wk > 30wk. <i>Only stage we buy long.</i><br><b>Stage 3 — Topping</b>: price above 30wk but breadth weakening. We sell into this.<br><b>Stage 4 — Declining</b>: price below falling 30wk + 10wk < 30wk. Defensive.",
+  redshade: "<b>RED-shaded periods</b><br>Days when QQQ is in a <b>short-term down-trend</b> (closed below its 30-day SMA). Aligns with the Day-N pill at the top: shading ends exactly when the ST trend flips to up.<br><br>Note: this is distinct from the GMI gate (GREEN/RED badge above). The gate uses the full 6-component GMI score with a 2-day confirmation — it can stay RED for a few days after the ST trend turns up, by design.",
+  qqq: "<b>QQQ candles</b><br>Standard OHLC candles. <span style='color:#2ea043;font-weight:600'>Green</span> = close ≥ open. <span style='color:#f85149;font-weight:600'>Red</span> = close &lt; open. Wick = high–low; body = open–close.<br><br><b>Daily view:</b> ~126 daily candles (6 months) centered on selected day.<br><b>Weekly view:</b> ~50 Friday-close candles (1 year) — the timeframe we use for the 10wk/30wk stage view.",
+  m30: "<b>30-day SMA (daily)</b><br>The daily short-term trend anchor. QQQ closing above = ST up; below = ST down. Drives the Day-N count and components 3 & 4 of the GMI.<br><br>Quantitatively: 95% of published Day-1 flip announcements (2024–2026) line up with QQQ crossing this line.",
+  w10: "<b>10-week SMA (weekly chart)</b><br>Our medium-term hold line. Computed on Friday weekly closes. The <b>10wk crossing above 30wk</b> is the bull re-entry signal (confirmed live 2025-06 and 2026-05). The <b>10wk crossing below 30wk</b> confirms Stage 4 onset (April 2025 tariff decline).",
+  w30: "<b>30-week SMA (weekly chart)</b><br>Our most important MA — Stan Weinstein's classic. Got us out before 2000 and 2008. Price above + line rising = Stage 2 uptrend — the only stage we buy long.",
   c1: "<b>Successful 10-day new high</b><br>Component 1 of GMI. Fires when ≥50% of stocks that hit a new 52-week high 10 trading days ago closed higher today. Tests whether breakouts are still being rewarded.",
   c2: "<b>≥100 new 52-week highs</b><br>Component 2 of GMI. Fires when more than 100 US stocks hit a new 52-week high today. Tests breadth of advance — a healthy bull has wide participation.",
   c3: "<b>QQQ daily up-trend</b><br>Component 3 of GMI. Reconstructed as QQQ close above its 30-day SMA. The Nasdaq-100's short-term trend.",
@@ -1138,10 +1299,10 @@ const POP = {
   c5: "<b>QQQ weekly up-trend (Stage 2)</b><br>Component 5 of GMI. QQQ's weekly close above its 30-week SMA. The long-term Stage-2 anchor.",
   c6: "<b>IBD-50 above 50-day MA</b><br>Component 6 of GMI. Tracks whether the IBD Mutual Fund Index sits above its 50-day MA. Proxied here by FFTY (the IBD-50 ETF) spliced onto a basket of growth mutual funds for pre-2015 history.",
   longtrends: "<b>Long ST trends</b><br>Each pill is Day 1 of a past short-term trend (QQQ crossing its 30-day SMA) that lasted <b>30 or more trading days</b>. <span style='color:#2ea043'>▲ = up-trend</span>; <span style='color:#f85149'>▼ = down-trend</span>. The <b>Nd</b> badge shows how many trading days the trend lasted. Tap to jump the chart there. Showing the most recent 8.",
-  since: "<b>Return since Day 1</b><br>Day 1 = the most recent day QQQ crossed its 30-day SMA (Dr. Wish's daily ST-trend signal). This box shows how much QQQ has moved since then to the close on the selected date.<br><br>A long-running positive return is a Stage-2 ride; a steep negative return is a Stage-4 leg. Watch for fading momentum near the end of a long streak.",
-  vals: "<b>Indicator values on the selected date</b><br>The exact QQQ close on that day plus each of Dr. Wish's three canonical MAs, with the percentage spread (QQQ above or below each MA). Use this to read the chart precisely instead of eyeballing.",
+  since: "<b>Return since Day 1</b><br>Day 1 = the most recent day QQQ crossed its 30-day SMA (our daily ST-trend signal). This box shows how much QQQ has moved since then to the close on the selected date.<br><br>A long-running positive return is a Stage-2 ride; a steep negative return is a Stage-4 leg. Watch for fading momentum near the end of a long streak.",
+  vals: "<b>Indicator values on the selected date</b><br>The exact QQQ close on that day plus each of our three canonical MAs, with the percentage spread (QQQ above or below each MA). Use this to read the chart precisely instead of eyeballing.",
   fwd: "<b>Forward QQQ returns</b><br>What QQQ actually did 1, 5, 10, 20, and 60 trading days after the selected date. Lets you check 'if I had acted on this reading, what would have happened?' Blank for dates where the window hasn't closed yet.",
-  caveat: "<b>Reconstruction caveat</b><br>This GMI is rebuilt from public data point-in-time. Match vs Dr. Wish's posted GMI: exact ~20% of days; within ±1 ~72%; correlation ~0.60. Systematically a touch optimistic in fast declines because of survivorship bias. Treat the number as directional, not precise.",
+  caveat: "<b>Reconstruction caveat</b><br>This GMI is rebuilt from public data point-in-time. Match vs the published reference GMI: exact ~20% of days; within ±1 ~72%; correlation ~0.60. Systematically a touch optimistic in fast declines because of survivorship bias. Treat the number as directional, not precise.",
 };
 
 const popEl = document.getElementById('pop');
