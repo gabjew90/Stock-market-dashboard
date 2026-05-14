@@ -180,12 +180,22 @@
   // DATA SOURCES
   // The pulse content lives in a separate project (Institutional-report-
   // bot) and is published to its pulse-data branch by the bridge worker
-  // after each successful pulse fire. raw.githack.com proxies that
-  // branch so the fetched HTML is served as text/html.
+  // after each successful pulse fire. raw.githubusercontent.com serves
+  // it with the right CORS headers; raw.githack.com (the original choice)
+  // was returning 403 intermittently.
   // =================================================================
   const REPO = 'gabjew90/Institutional-report-bot';
   const BRANCH = 'pulse-data';
-  const ARCHIVE_URL = `https://raw.githack.com/${REPO}/${BRANCH}/pulse-output/web/archive.json`;
+  const RAW_HOST = 'raw.githubusercontent.com';
+  const ARCHIVE_URL = `https://${RAW_HOST}/${REPO}/${BRANCH}/pulse-output/web/archive.json`;
+  // Rewrite any host the upstream archive embeds (raw.githack.com / cdn.jsdelivr.net) to the
+  // CORS-friendly raw.githubusercontent.com. Leaves other domains untouched.
+  function normalizeRawUrl(url) {
+    if (!url) return url;
+    return url
+      .replace(/^https?:\/\/raw\.githack\.com\//, `https://${RAW_HOST}/`)
+      .replace(/^https?:\/\/cdn\.jsdelivr\.net\/gh\/([^@/]+\/[^@/]+)@([^/]+)\//, `https://${RAW_HOST}/$1/$2/`);
+  }
 
   // =================================================================
   // STATE
@@ -304,7 +314,7 @@
     const target = document.querySelector('#pulseBody-' + idx);
     if (!target || !pulse.fragment_url) return;
     try {
-      const resp = await fetch(pulse.fragment_url, { cache: 'no-store' });
+      const resp = await fetch(normalizeRawUrl(pulse.fragment_url), { cache: 'no-store' });
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
       const html = await resp.text();
       target.innerHTML = html;
