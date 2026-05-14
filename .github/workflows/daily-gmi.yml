@@ -6,6 +6,12 @@ on:
     # 22:00 UTC weekdays  ≈ 5–6pm ET (after the close)
     - cron: '0 22 * * 1-5'
   workflow_dispatch:   # also allow manual runs from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_gmi_playground.py'
+      - '.github/workflows/daily-gmi.yml'
+      - 'src/ww/backtest/**'
 
 permissions:
   contents: read
