@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Daily Pulse · Stock market dashboard</title>
+<style>
+  /* === Palette + base styles (mirror scripts/build_gmi_playground.py) ===
+     Keep these tokens identical to the GMI page TEMPLATE so this view reads
+     as a native section of the dashboard. If the GMI palette changes, mirror
+     the change here. See PULSE-INTEGRATION.md for the integration contract. */
+  :root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --panel-2: #1c2330;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --green: #2ea043;
+    --red: #f85149;
+    --yellow: #d29922;
+    --accent: #58a6ff;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  /* shared top nav (matches GMI + wiki) — copy of .pages-nav from the
+     GMI TEMPLATE so the sticky brand bar is identical across pages. */
+  .pages-nav {
+    position: sticky; top: 0; z-index: 100; display: flex; align-items: center;
+    gap: 4px; padding: 10px 12px; background: rgba(13,17,23,0.95);
+    backdrop-filter: blur(8px); border-bottom: 1px solid var(--border);
+  }
+  .pages-nav .brand { font-weight: 600; margin-right: 8px; font-size: 14px; }
+  .pages-nav .brand .sub { color: var(--muted); font-weight: 400; font-size: 12px; margin-left: 6px; }
+  .pages-nav a {
+    color: var(--muted); text-decoration: none; padding: 4px 10px; border-radius: 999px;
+    font-size: 12px; font-family: var(--mono); border: 1px solid transparent;
+  }
+  .pages-nav a.active { color: var(--text); border-color: var(--accent); background: rgba(88,166,255,0.18); }
+  .pages-nav a:hover { color: var(--text); }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 20px; margin: 0 0 4px; font-weight: 600; }
+  h1 .sub { color: var(--muted); font-weight: 400; font-size: 13px; margin-left: 8px; }
+  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 14px; margin: 12px 0; }
+  .small { color: var(--muted); font-size: 11px; font-family: var(--mono); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  button { font-family: inherit; font-size: inherit; cursor: pointer; }
+
+  /* === Week pager === */
+  .week-bar {
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 8px; flex-wrap: wrap;
+    margin: 0 0 16px 0;
+  }
+  .week-bar__label { font-size: 13px; font-family: var(--mono); color: var(--text); font-weight: 600; }
+  .week-bar__sub { color: var(--muted); font-weight: 400; margin-left: 6px; }
+  .week-bar__controls { display: flex; gap: 8px; }
+  .week-btn {
+    background: var(--panel-2); color: var(--muted); border: 1px solid var(--border);
+    border-radius: 999px; padding: 4px 12px; font-family: var(--mono); font-size: 12px;
+  }
+  .week-btn:hover:not([disabled]) { color: var(--text); border-color: var(--accent); }
+  .week-btn[disabled] { opacity: 0.4; cursor: not-allowed; }
+
+  /* === Pulse stack divider between days === */
+  .pulse-day { margin: 0 0 24px 0; }
+  .pulse-day:not(:last-child) { border-bottom: 1px solid var(--border); padding-bottom: 24px; }
+  .pulse-day__header {
+    display: flex; align-items: baseline; gap: 10px; margin-bottom: 4px;
+    font-family: var(--mono); font-size: 11px; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.14em;
+  }
+  .pulse-day__date { color: var(--accent); font-weight: 600; }
+
+  .loader, .error-msg, .empty-msg {
+    color: var(--muted); padding: 24px 8px; text-align: center;
+    font-family: var(--mono); font-size: 12px;
+  }
+  .error-msg small { color: var(--red); }
+
+  /* =============================================================
+     PULSE FRAGMENT STYLES — only target classes inside
+     <article class="pulse">. Class contract documented in
+     scripts/pulse_dashboard.py :: render_pulse_fragment() of the
+     Institutional-report-bot pulse pipeline repo.
+     ============================================================= */
+  .pulse-masthead { border: none; padding: 0; margin: 0 0 12px 0; }
+  .pulse-masthead .pulse-brand { display: none; }
+  .pulse-masthead .pulse-dateline { display: none; }
+  .pulse-masthead h1 {
+    font-size: 18px; margin: 0; font-weight: 600; color: var(--text);
+  }
+
+  .pulse h2 {
+    display: inline-block;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin: 18px 0 8px;
+    padding: 4px 12px; border-radius: 999px;
+    font-family: var(--mono);
+  }
+  .pulse h2.recap    { background: rgba(210,153,34,0.18); color: var(--yellow); border: 1px solid rgba(210,153,34,0.4); }
+  .pulse h2.insights { background: rgba(88,166,255,0.18); color: var(--accent); border: 1px solid rgba(88,166,255,0.4); }
+  .pulse h2.watch    { background: rgba(46,160,67,0.18);  color: var(--green);  border: 1px solid rgba(46,160,67,0.4); }
+
+  .pulse h3 {
+    font-size: 15px; font-weight: 600; margin: 14px 0 4px; color: var(--text);
+  }
+  .pulse .insights-body h3 {
+    border-left: 3px solid var(--accent);
+    padding-left: 10px; margin-left: -4px;
+  }
+  .pulse .watch-body h3 {
+    border-left: 3px solid var(--green);
+    padding-left: 10px; margin-left: -4px;
+  }
+
+  .pulse p { margin: 8px 0; }
+  .pulse em { color: var(--accent); font-style: italic; font-weight: 500; }
+  .pulse strong { color: var(--text); font-weight: 600; }
+  .pulse ul, .pulse ol { margin: 6px 0; padding-left: 22px; }
+  .pulse li { margin: 4px 0; }
+  .pulse hr { border: 0; border-top: 1px solid var(--border); margin: 14px 0; }
+
+  .pulse .cashtag {
+    font-family: var(--mono); font-size: 0.9em;
+    background: var(--panel-2); padding: 1px 6px; border-radius: 3px;
+    color: var(--accent); font-weight: 600; white-space: nowrap;
+  }
+
+  @media (max-width: 600px) {
+    .pulse h2 { font-size: 10px; padding: 3px 10px; letter-spacing: 0.12em; }
+    .pulse h3 { font-size: 14px; }
+    .pulse-masthead h1 { font-size: 16px; }
+    .week-bar__label { font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="pages-nav">
+  <span class="brand">Stock market dashboard</span>
+  <a href="../">GMI Daily</a>
+  <a href="./" class="active">Daily Pulse</a>
+  <a href="../wiki.html">Methodology</a>
+</nav>
+
+<div class="wrap">
+  <h1>Daily Pulse<span class="sub">cross-bank synthesis · 9 AM ET</span></h1>
+
+  <div class="week-bar">
+    <span class="week-bar__label" id="weekLabel">Loading&hellip;</span>
+    <span class="week-bar__controls">
+      <button class="week-btn" id="prevWeek" disabled>&larr; Previous week</button>
+      <button class="week-btn" id="nextWeek" disabled>Next week &rarr;</button>
+    </span>
+  </div>
+
+  <div id="pulseStack">
+    <p class="loader">Loading pulses&hellip;</p>
+  </div>
+
+  <p class="small" style="margin-top:24px; text-align:center;">
+    Pulse synthesized from 100&ndash;200 institutional research PDFs every weekday at 9 AM ET.
+    Not investment advice.
+  </p>
+</div>
+
+<script>
+  // =================================================================
+  // DATA SOURCES
+  // The pulse content lives in a separate project (Institutional-report-
+  // bot) and is published to its pulse-data branch by the bridge worker
+  // after each successful pulse fire. raw.githack.com proxies that
+  // branch so the fetched HTML is served as text/html.
+  // =================================================================
+  const REPO = 'gabjew90/Institutional-report-bot';
+  const BRANCH = 'pulse-data';
+  const ARCHIVE_URL = `https://raw.githack.com/${REPO}/${BRANCH}/pulse-output/web/archive.json`;
+
+  // =================================================================
+  // STATE
+  // =================================================================
+  let archive = [];
+  let weekOffset = 0;
+  let earliestWeekOffset = 0;
+
+  // =================================================================
+  // WEEK MATH (ISO weeks, Monday start, UTC)
+  // =================================================================
+  function isoMondayUtc(date) {
+    const d = new Date(date);
+    d.setUTCHours(0, 0, 0, 0);
+    const day = d.getUTCDay();
+    const diff = (day === 0 ? -6 : 1 - day);
+    d.setUTCDate(d.getUTCDate() + diff);
+    return d;
+  }
+  function weekRangeForOffset(offset) {
+    const start = isoMondayUtc(new Date());
+    start.setUTCDate(start.getUTCDate() + 7 * offset);
+    const end = new Date(start);
+    end.setUTCDate(end.getUTCDate() + 7);
+    return { start, end };
+  }
+  function fmtWeekLabel(start) {
+    const end = new Date(start);
+    end.setUTCDate(end.getUTCDate() + 4);
+    const opts = { month: 'short', day: 'numeric', timeZone: 'UTC' };
+    return `${start.toLocaleDateString(undefined, opts)} – ${end.toLocaleDateString(undefined, opts)}`;
+  }
+  function fmtPulseDate(dateUtc) {
+    try {
+      const d = new Date(dateUtc + 'T00:00:00Z');
+      return d.toLocaleDateString(undefined, {
+        weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC',
+      });
+    } catch (e) { return dateUtc; }
+  }
+
+  // =================================================================
+  // RENDER
+  // =================================================================
+  async function loadArchive() {
+    try {
+      const resp = await fetch(ARCHIVE_URL, { cache: 'no-store' });
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const data = await resp.json();
+      archive = (data.pulses || []).slice();
+      archive.sort((a, b) => (b.ts || '').localeCompare(a.ts || ''));
+      // Earliest week with date_utc — older entries without fragments don't
+      // count toward pagination range.
+      const withDate = archive.filter(p => p.date_utc && p.fragment_url);
+      if (withDate.length) {
+        const earliestDate = withDate[withDate.length - 1].date_utc;
+        const earliestMon = isoMondayUtc(new Date(earliestDate + 'T00:00:00Z'));
+        const currentMon = isoMondayUtc(new Date());
+        const diffMs = currentMon - earliestMon;
+        const diffWeeks = Math.round(diffMs / (7 * 24 * 60 * 60 * 1000));
+        earliestWeekOffset = -diffWeeks;
+      }
+      renderWeek();
+    } catch (err) {
+      document.querySelector('#pulseStack').innerHTML =
+        '<p class="error-msg">Couldn\'t load archive.<br><small>' + (err.message || err) + '</small></p>';
+    }
+  }
+
+  function renderWeek() {
+    const { start, end } = weekRangeForOffset(weekOffset);
+
+    const weekLabel = fmtWeekLabel(start);
+    const offsetTag = weekOffset === 0 ? 'This week'
+                    : weekOffset === -1 ? 'Last week'
+                    : `${-weekOffset} weeks ago`;
+    document.querySelector('#weekLabel').innerHTML =
+      `<span>${offsetTag}</span><span class="week-bar__sub">${weekLabel}</span>`;
+
+    const nextBtn = document.querySelector('#nextWeek');
+    const prevBtn = document.querySelector('#prevWeek');
+    nextBtn.disabled = (weekOffset >= 0);
+    prevBtn.disabled = (weekOffset <= earliestWeekOffset);
+
+    // Only include entries that have BOTH a date AND a renderable fragment.
+    // Stubs without fragment_url are skipped (they're still reachable via
+    // their archive_url on GitHub, but not shown on the dashboard).
+    const inWeek = archive.filter(p => {
+      if (!p.date_utc || !p.fragment_url) return false;
+      const d = new Date(p.date_utc + 'T00:00:00Z');
+      return d >= start && d < end;
+    });
+
+    const stack = document.querySelector('#pulseStack');
+    if (!inWeek.length) {
+      stack.innerHTML = '<p class="empty-msg">No pulses for this week.</p>';
+      return;
+    }
+
+    stack.innerHTML = inWeek.map((p, idx) => `
+      <article class="pulse-day" data-idx="${idx}">
+        <header class="pulse-day__header">
+          <span class="pulse-day__date">${fmtPulseDate(p.date_utc)}</span>
+          <span>${p.pdf_count || 0} research analyses</span>
+        </header>
+        <div class="pulse-day__body" id="pulseBody-${idx}">
+          <p class="loader">Loading&hellip;</p>
+        </div>
+      </article>
+    `).join('');
+
+    inWeek.forEach((p, idx) => fetchFragmentInto(p, idx));
+  }
+
+  async function fetchFragmentInto(pulse, idx) {
+    const target = document.querySelector('#pulseBody-' + idx);
+    if (!target || !pulse.fragment_url) return;
+    try {
+      const resp = await fetch(pulse.fragment_url, { cache: 'no-store' });
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const html = await resp.text();
+      target.innerHTML = html;
+    } catch (err) {
+      target.innerHTML =
+        '<p class="error-msg">Fragment unavailable<br><small>' + (err.message || err) + '</small></p>';
+    }
+  }
+
+  document.querySelector('#prevWeek').addEventListener('click', () => {
+    if (weekOffset > earliestWeekOffset) {
+      weekOffset -= 1;
+      renderWeek();
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+  });
+  document.querySelector('#nextWeek').addEventListener('click', () => {
+    if (weekOffset < 0) {
+      weekOffset += 1;
+      renderWeek();
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+  });
+
+  loadArchive();
+</script>
+
+</body>
+</html>

@@ -15,6 +15,7 @@ on:
       - 'src/ww/backtest/**'
       - 'wiki/**'
       - 'raw/posts.jsonl'
+      - 'web/pulse.html'
 
 permissions:
   contents: read
@@ -78,6 +79,13 @@ jobs:
           cp wiki_site.html _site/wiki.html
           # Copy any image/data assets referenced by the wiki (e.g. backtest equity curve)
           if [ -d assets ]; then cp -r assets _site/assets; fi
+          # Daily Pulse page. Static HTML that fetches the latest pulse
+          # fragment at runtime from the Institutional-report-bot repo's
+          # pulse-data branch, so the pulse on this page is always the
+          # most recent one regardless of when this workflow last ran.
+          # See PULSE-INTEGRATION.md at the repo root for architecture.
+          mkdir -p _site/pulse
+          cp web/pulse.html _site/pulse/index.html
 
       - uses: actions/upload-pages-artifact@v3
         with:

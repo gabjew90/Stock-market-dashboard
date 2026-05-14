@@ -451,6 +451,7 @@ TEMPLATE = r"""<!doctype html>
 <nav class="pages-nav">
   <span class="brand">Stock market dashboard</span>
   <a href="./" class="active">GMI Daily</a>
+  <a href="./pulse/">Daily Pulse</a>
   <a href="./wiki.html">Methodology</a>
 </nav>
 <div class="wrap">
