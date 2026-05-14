@@ -33,7 +33,30 @@ jobs:
       - name: Sync deps
         run: uv sync --frozen
 
-      - name: Refresh breadth + universe (last-trading-day delta)
+      # Persist the (slow-to-build) breadth panel + OHLC cache across runs.
+      # First run takes ~5 min to fetch the full Nasdaq Trader universe;
+      # subsequent runs hit the cache and do a delta-update in seconds.
+      - name: Restore breadth + OHLC cache
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/breadth
+            data/backtest
+          key: breadth-cache-v1-${{ github.run_id }}
+          restore-keys: |
+            breadth-cache-v1-
+
+      - name: Bootstrap breadth (only when cache is empty)
+        if: ${{ hashFiles('data/breadth/universe.parquet') == '' }}
+        run: |
+          uv run ww breadth fetch
+          uv run ww breadth build
+        env:
+          PYTHONUNBUFFERED: '1'
+
+      - name: Incremental breadth update
+        if: ${{ hashFiles('data/breadth/universe.parquet') != '' }}
         run: uv run ww breadth update
         env:
           PYTHONUNBUFFERED: '1'
