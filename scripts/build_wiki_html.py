@@ -22,11 +22,14 @@ ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
 
 # Page order. (index.md is rendered first as the landing table-of-contents.)
+# Pages we deliberately exclude from the rendered wiki even when their .md files exist on disk.
+_SKIP_PAGES = {"backtest-timing-overlay.md"}
+
 SECTION_ORDER = [
     ("Overview", ["overview.md"]),
-    ("Methodology", sorted(p.name for p in (WIKI / "methodology").glob("*.md"))),
-    ("Playbooks", sorted(p.name for p in (WIKI / "playbooks").glob("*.md"))),
-    ("History", sorted(p.name for p in (WIKI / "history").glob("*.md"))),
+    ("Methodology", sorted(p.name for p in (WIKI / "methodology").glob("*.md") if p.name not in _SKIP_PAGES)),
+    ("Playbooks", sorted(p.name for p in (WIKI / "playbooks").glob("*.md") if p.name not in _SKIP_PAGES)),
+    ("History", sorted(p.name for p in (WIKI / "history").glob("*.md") if p.name not in _SKIP_PAGES)),
 ]
 SOURCES_DIR = WIKI / "sources"
 
@@ -109,12 +112,11 @@ def render_page(path: Path, post_urls: dict[str, str], page_anchors: set[str]) -
         raw,
         extensions=["tables", "fenced_code", "sane_lists", "attr_list", "md_in_html", "smarty"],
     )
-    # Collapse the per-page "Sources" / citation block behind a <details> so it's available but
-    # not visually dominating the page. Detect <h2>Sources</h2> (markdown ## Sources) and wrap
-    # that heading + everything after it (within this page's body) into <details>.
+    # Strip the per-page "## Sources" citation block entirely. The body already cites each post
+    # inline via the (WW YYYY-MM-DD) links, so the trailing bibliographic list is redundant.
     body_html = re.sub(
-        r"(<h2[^>]*>\s*Sources\s*</h2>)(.*)$",
-        r"<details class='sources-fold'><summary>Sources &amp; citations</summary>\2</details>",
+        r"<h2[^>]*>\s*Sources\s*</h2>.*$",
+        "",
         body_html,
         count=1,
         flags=re.DOTALL,
@@ -264,7 +266,10 @@ def main() -> int:
     idx_raw = rewrite_links(idx_raw, "index.md", page_anchors, post_urls)
     # strip the "*(stub)*" markers — everything's real enough now
     idx_raw = idx_raw.replace("*(stub)*", "")
-    toc_html = '<section id="index" class="panel">' + markdown.markdown(idx_raw, extensions=["tables", "sane_lists", "attr_list"]) + "</section>"
+    toc_inner = markdown.markdown(idx_raw, extensions=["tables", "sane_lists", "attr_list"])
+    # Drop the bibliographic Sources list from the TOC — per-page citations are already inline.
+    toc_inner = re.sub(r"<h2[^>]*>\s*Sources\s*</h2>.*$", "", toc_inner, count=1, flags=re.DOTALL)
+    toc_html = '<section id="index" class="panel">' + toc_inner + "</section>"
 
     # main sections
     section_blocks: list[str] = []

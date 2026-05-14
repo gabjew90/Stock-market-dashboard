@@ -17,7 +17,6 @@ answering a question, then drill into the linked pages. (Updated on every Ingest
 - [Stock selection](methodology/stock-selection.md) — rocket metaphor; RWB; $80+/$100+ dollar-move preference (empirically backed 2018: 85%/95%); BOS (Bounce off Support) strategy; bounce-off-support green dot (2020); three-chart analysis chain; GLB trigger; IBD scan workflow; daily RWB bounce scan; gap-up scan; WGB scan; black dot signal; x8/x21/30-day alignment bounce (2024); blue dot of happiness full scan (2025); DITM options. (updated 2026-05-12, 21 sources)
 - [Risk & cash](methodology/risk-and-cash.md) — 70% correlation rule; GMI≤3 = defensive; stop-loss doctrine; protective puts; 2008 crisis case study; 2020 COVID exit case study; 2025 tariff exit + June re-entry; 2026 February–March decline; breadth divergence exit; TWM. (updated 2026-05-12, 19 sources)
 - [Glossary](methodology/glossary.md) — ATH-past-40-days scan, black dot, blue dot of happiness (2025), Bollinger Band (15.2), BOS, BWR, DITM, gap-up scan, GLB, GMI, GMI2, GMI-R, GMMA, green dot, green line, IBD 50, pilot buy, put/call ratio, RLC, RWB, rocket stock, Stages 1/2/3/4, stage analysis, stochastic 10,4,4, submarine scan, Successful 10-Day, T2108, WGB, WPM, x8/x21/30-day setup (2024), yellowband. (updated 2026-05-12, 30 sources)
-- [Backtest — the timing overlay](methodology/backtest-timing-overlay.md) — does the GMI gate beat buy-and-hold QQQ? Pre-stated verdict over 2007-2026 net of costs; robustness grid; equity curve. (generated 2026-05-12)
 
 ## Playbooks
 
