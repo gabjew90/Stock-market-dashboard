@@ -10,8 +10,11 @@ on:
     branches: [main]
     paths:
       - 'scripts/build_gmi_playground.py'
+      - 'scripts/build_wiki_html.py'
       - '.github/workflows/daily-gmi.yml'
       - 'src/ww/backtest/**'
+      - 'wiki/**'
+      - 'raw/posts.jsonl'
 
 permissions:
   contents: read
@@ -64,12 +67,15 @@ jobs:
       - name: Rebuild GMI playground HTML
         run: uv run python scripts/build_gmi_playground.py
 
+      - name: Rebuild wiki HTML
+        run: uv run --with markdown --with pygments python scripts/build_wiki_html.py
+
       - name: Stage site
         run: |
           mkdir -p _site
           cp gmi_playground_daily.html _site/index.html
-          # also keep a stable filename
           cp gmi_playground_daily.html _site/gmi.html
+          cp wiki_site.html _site/wiki.html
 
       - uses: actions/upload-pages-artifact@v3
         with:

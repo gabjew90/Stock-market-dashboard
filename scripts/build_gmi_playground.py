@@ -325,6 +325,20 @@ TEMPLATE = r"""<!doctype html>
   body { margin: 0; background: var(--bg); color: var(--text);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
     font-size: 15px; line-height: 1.5; }
+  /* shared top nav (matches wiki) */
+  .pages-nav {
+    position: sticky; top: 0; z-index: 100; display: flex; align-items: center;
+    gap: 4px; padding: 10px 12px; background: rgba(13,17,23,0.95);
+    backdrop-filter: blur(8px); border-bottom: 1px solid var(--border);
+  }
+  .pages-nav .brand { font-weight: 600; margin-right: 8px; font-size: 14px; }
+  .pages-nav .brand .sub { color: var(--muted); font-weight: 400; font-size: 12px; margin-left: 6px; }
+  .pages-nav a {
+    color: var(--muted); text-decoration: none; padding: 4px 10px; border-radius: 999px;
+    font-size: 12px; font-family: var(--mono); border: 1px solid transparent;
+  }
+  .pages-nav a.active { color: var(--text); border-color: var(--accent); background: rgba(88,166,255,0.18); }
+  .pages-nav a:hover { color: var(--text); }
   .wrap { max-width: 820px; margin: 0 auto; padding: 16px; }
   h1 { font-size: 20px; margin: 0 0 4px; font-weight: 600; }
   h1 .sub { color: var(--muted); font-weight: 400; font-size: 13px; margin-left: 8px; }
@@ -432,6 +446,11 @@ TEMPLATE = r"""<!doctype html>
 </style>
 </head>
 <body>
+<nav class="pages-nav">
+  <span class="brand">Dr. Wish<span class="sub">methodology</span></span>
+  <a href="./" class="active">GMI Daily</a>
+  <a href="./wiki.html">Wiki</a>
+</nav>
 <div class="wrap">
   <h1>GMI Daily<span class="sub">Dr. Wish methodology · reconstructed</span></h1>
 

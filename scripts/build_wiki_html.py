@@ -41,6 +41,8 @@ def anchor_for(rel: str) -> str:
 
 
 def load_post_urls() -> dict[str, str]:
+    """Stem → wishingwealthblog.com URL. Prefer the full posts.jsonl (local dev) but fall back
+    to the slim raw/url_map.json that's committed to the repo for CI builds."""
     out: dict[str, str] = {}
     jsonl = ROOT / "raw" / "posts.jsonl"
     if jsonl.exists():
@@ -50,6 +52,10 @@ def load_post_urls() -> dict[str, str]:
                 continue
             r = json.loads(line)
             out[r["stem"]] = r["url"]
+        return out
+    url_map = ROOT / "raw" / "url_map.json"
+    if url_map.exists():
+        out.update(json.loads(url_map.read_text(encoding="utf-8")))
     return out
 
 
@@ -103,44 +109,103 @@ TEMPLATE = """<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wishing Wealth Wiki</title>
 <style>
-  :root {{ color-scheme: light dark; }}
+  :root {{
+    --bg: #0d1117; --panel: #161b22; --panel-2: #1c2330; --border: #30363d;
+    --text: #e6edf3; --muted: #8b949e; --accent: #58a6ff;
+    --green: #2ea043; --red: #f85149;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    color-scheme: dark;
+  }}
   * {{ box-sizing: border-box; }}
   body {{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6; max-width: 760px; margin: 0 auto; padding: 1rem 1.1rem 6rem;
-    font-size: 17px; color: #1a1a1a; background: #fff;
+    margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    line-height: 1.6; font-size: 16px;
   }}
-  @media (prefers-color-scheme: dark) {{ body {{ color: #e6e6e6; background: #161616; }}
-    a {{ color: #6cb6ff; }} hr {{ border-color: #333; }} blockquote {{ border-color: #444; color: #bbb; }}
-    code, pre {{ background: #222; }} .top, header small {{ color: #888; }} th, td {{ border-color: #333; }}
-    thead th {{ background: #222; }} }}
-  h1, h2, h3 {{ line-height: 1.25; margin-top: 1.8rem; }}
-  h1 {{ font-size: 1.7rem; border-bottom: 2px solid #ddd; padding-bottom: .25rem; }}
-  h2 {{ font-size: 1.3rem; }} h3 {{ font-size: 1.1rem; }}
-  a {{ color: #0a58ca; }}
-  hr {{ border: none; border-top: 1px solid #ddd; margin: 3rem 0; }}
-  blockquote {{ border-left: 3px solid #ccc; margin: 1rem 0; padding: .1rem 1rem; color: #555; }}
-  code {{ background: #f3f3f3; padding: .1rem .3rem; border-radius: 3px; font-size: .9em; }}
-  pre {{ background: #f3f3f3; padding: .8rem; border-radius: 5px; overflow-x: auto; }}
-  pre code {{ background: none; padding: 0; }}
-  table {{ border-collapse: collapse; width: 100%; margin: 1rem 0; display: block; overflow-x: auto; }}
-  th, td {{ border: 1px solid #ccc; padding: .4rem .6rem; text-align: left; font-size: .92em; }}
-  thead th {{ background: #f3f3f3; }}
-  header {{ position: sticky; top: 0; background: inherit; padding: .5rem 0; border-bottom: 1px solid #ddd;
-    margin-bottom: 1rem; font-weight: 600; }}
-  header small {{ font-weight: 400; color: #888; }}
-  section {{ scroll-margin-top: 3.5rem; }}
-  .top {{ float: right; font-size: .8rem; color: #888; text-decoration: none; }}
-  .src-note {{ font-size: .95em; }}
-  .gen {{ color: #888; font-size: .85rem; margin-top: 3rem; }}
+
+  /* shared top nav (matches GMI playground) */
+  .pages-nav {{
+    position: sticky; top: 0; z-index: 100; display: flex; align-items: center;
+    gap: 4px; padding: 10px 12px; background: rgba(13,17,23,0.95);
+    backdrop-filter: blur(8px); border-bottom: 1px solid var(--border);
+  }}
+  .pages-nav .brand {{ font-weight: 600; margin-right: 8px; font-size: 14px; }}
+  .pages-nav .brand .sub {{ color: var(--muted); font-weight: 400; font-size: 12px; margin-left: 6px; }}
+  .pages-nav a {{
+    color: var(--muted); text-decoration: none; padding: 4px 10px; border-radius: 999px;
+    font-size: 12px; font-family: var(--mono); border: 1px solid transparent;
+  }}
+  .pages-nav a.active {{ color: var(--text); border-color: var(--accent); background: rgba(88,166,255,0.18); }}
+  .pages-nav a:hover {{ color: var(--text); }}
+
+  .wrap {{ max-width: 820px; margin: 0 auto; padding: 12px 16px 48px; }}
+  .panel {{
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 18px 20px; margin: 12px 0;
+  }}
+
+  h1, h2, h3 {{ line-height: 1.3; }}
+  h1 {{ font-size: 22px; margin: 24px 0 12px; border-bottom: 1px solid var(--border); padding-bottom: 8px; color: var(--text); }}
+  h2 {{ font-size: 18px; margin: 22px 0 10px; color: var(--text); }}
+  h3 {{ font-size: 15px; margin: 16px 0 6px; color: var(--text); }}
+  p {{ margin: 8px 0; }}
+  a {{ color: var(--accent); text-decoration: none; }}
+  a:hover {{ text-decoration: underline; }}
+  hr {{ border: none; border-top: 1px solid var(--border); margin: 28px 0; }}
+  blockquote {{
+    border-left: 3px solid var(--accent); margin: 12px 0; padding: 6px 14px;
+    color: var(--muted); background: var(--panel-2); border-radius: 0 6px 6px 0;
+  }}
+  code {{
+    background: var(--panel-2); color: #f0b429; padding: 2px 5px;
+    border-radius: 4px; font-family: var(--mono); font-size: 13px;
+  }}
+  pre {{
+    background: var(--panel-2); padding: 12px 14px; border-radius: 8px;
+    overflow-x: auto; border: 1px solid var(--border); font-size: 13px;
+  }}
+  pre code {{ background: none; padding: 0; color: var(--text); }}
+  table {{
+    border-collapse: collapse; width: 100%; margin: 12px 0;
+    display: block; overflow-x: auto; font-size: 13px;
+  }}
+  th, td {{ border: 1px solid var(--border); padding: 6px 10px; text-align: left; }}
+  thead th {{ background: var(--panel-2); color: var(--text); font-weight: 600; }}
+  ul, ol {{ padding-left: 22px; }}
+  li {{ margin: 3px 0; }}
+  strong {{ color: var(--text); font-weight: 600; }}
+  em {{ color: var(--muted); }}
+
+  section {{ scroll-margin-top: 64px; }}
+  .top {{
+    float: right; font-size: 11px; color: var(--muted); text-decoration: none;
+    padding: 2px 8px; border: 1px solid var(--border); border-radius: 999px;
+    margin-top: 6px; font-family: var(--mono);
+  }}
+  .top:hover {{ color: var(--accent); border-color: var(--accent); }}
+  .src-note {{ font-size: 14px; opacity: 0.92; }}
+  .src-note h1 {{ font-size: 17px; }}
+  .gen {{ color: var(--muted); font-size: 12px; margin-top: 40px; text-align: center; }}
+  .gen code {{ font-size: 11px; }}
+
+  /* TOC styling — make the landing page feel like a card stack */
+  #index ul {{ list-style: none; padding-left: 8px; }}
+  #index li {{ margin: 4px 0; }}
+  #index ul ul {{ padding-left: 16px; margin: 2px 0; }}
 </style>
 </head>
 <body>
-<header>📈 Wishing Wealth Wiki <small>— Dr. Eric Wish's methodology, synthesised from his blog</small></header>
+<nav class="pages-nav">
+  <span class="brand">Dr. Wish<span class="sub">methodology</span></span>
+  <a href="./">GMI Daily</a>
+  <a href="./wiki.html" class="active">Wiki</a>
+</nav>
+<div class="wrap">
 {toc}
 {sections}
 {appendix}
-<p class="gen">Generated from the <code>wishing-wealth-wiki</code> repo · {n_pages} pages · citations link to the original posts on wishingwealthblog.com.</p>
+<p class="gen">Generated from <code>wishing-wealth-wiki</code> · {n_pages} pages · citations link to the original posts on wishingwealthblog.com.</p>
+</div>
 </body>
 </html>
 """
@@ -166,7 +231,7 @@ def main() -> int:
     idx_raw = rewrite_links(idx_raw, "index.md", page_anchors, post_urls)
     # strip the "*(stub)*" markers — everything's real enough now
     idx_raw = idx_raw.replace("*(stub)*", "")
-    toc_html = '<section id="index">' + markdown.markdown(idx_raw, extensions=["tables", "sane_lists", "attr_list"]) + "</section><hr>"
+    toc_html = '<section id="index" class="panel">' + markdown.markdown(idx_raw, extensions=["tables", "sane_lists", "attr_list"]) + "</section>"
 
     # main sections
     section_blocks: list[str] = []
@@ -181,7 +246,7 @@ def main() -> int:
                 continue
             anchor, _title, body = render_page(p, post_urls, page_anchors)
             section_blocks.append(
-                f'<section id="{anchor}"><a class="top" href="#index">↑ contents</a>\n{body}\n</section>\n<hr>'
+                f'<section id="{anchor}" class="panel"><a class="top" href="#index">↑ contents</a>\n{body}\n</section>'
             )
 
     # appendix: source notes
@@ -192,7 +257,7 @@ def main() -> int:
         for rel in source_rels:
             anchor, _title, body = render_page(WIKI / rel, post_urls, page_anchors)
             appendix_blocks.append(
-                f'<section id="{anchor}" class="src-note"><a class="top" href="#index">↑ contents</a>\n{body}\n</section>\n<hr>'
+                f'<section id="{anchor}" class="panel src-note"><a class="top" href="#index">↑ contents</a>\n{body}\n</section>'
             )
 
     n_pages = 1 + len(page_rels) + len(source_rels)
