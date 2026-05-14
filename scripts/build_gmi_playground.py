@@ -119,35 +119,55 @@ def _streak_and_state(daily_above: pd.Series) -> tuple[pd.Series, pd.Series]:
     return day_count, side
 
 
-def _weinstein_stage(qqq: pd.Series, w10: pd.Series, w30: pd.Series, w30_slope_weeks: int = 4) -> pd.Series:
-    """Stage 1/2/3/4 per Stan Weinstein, simplified to match Dr. Wish's actual usage:
-      Stage 2 = price above rising 30wk          (advancing — only stage he buys long)
-      Stage 4 = price below falling 30wk         (declining — defensive)
-      Stage 3 = price above 30wk but 30wk flat / falling   (topping)
-      Stage 1 = price below 30wk but 30wk flat / rising    (basing)
-    The 10wk vs 30wk relationship is a separate confirmation he watches but isn't required
-    for the stage call itself (see wiki/methodology/moving-average-rules.md).
+def _weinstein_stage(
+    qqq: pd.Series,
+    w10: pd.Series,
+    w30: pd.Series,
+    slope_window_weeks: int = 8,
+    rising_threshold_pct: float = 1.0,
+) -> pd.Series:
+    """Stage 1/2/3/4 per Stan Weinstein, calibrated to Dr. Wish's actual usage
+    (see wiki/methodology/moving-average-rules.md):
 
-    The slope is judged WEEK-OVER-WEEK on the weekly 30wk SMA — matching how Wish
-    reads the line on the weekly chart. The slope test compares today's weekly
-    value to its value `w30_slope_weeks` weeks ago, then propagates the boolean
-    back to daily via ffill. Comparing the daily-reindexed series directly with
-    a daily `shift(N)` produced a Thursday-only artifact (the shift landed on
-    the previous Friday update, which is the SAME weekly value the current row
-    was ffilled from) — that flipped stage 2 → stage 3 every Thursday during
-    rising-MA periods.
+      Stage 2 = price above 30wk AND 30wk clearly rising   (advancing — only stage he buys long)
+      Stage 3 = price above 30wk BUT 30wk flat / barely rising / turning down  (topping)
+      Stage 4 = price below 30wk AND 10wk < 30wk (cross-down confirmation)   (declining)
+      Stage 1 = price below 30wk BUT 10wk still above 30wk                   (basing / pullback inside uptrend)
+
+    Two refinements over a strict "is the slope > 0" check:
+
+    1. **Slope uses a percentage threshold over an 8-week window**, not "any positive
+       change vs 4 trading days ago". A 30wk SMA changes slowly even at tops, so the
+       strict `> 0` rule treated a barely-flattening MA the same as a fast-rising one
+       and erased every topping period (2018, 2021, 2024 had zero Stage-3 days).
+       1% over 8 weeks is the default — a meaningful uptrend rate, not noise.
+
+    2. **Stage 4 requires the 10wk-below-30wk cross**, which is Wish's own
+       confirmation signal ("10-week average crossing below 30-week confirms Stage 4
+       onset" — WW 2025-03-30 IWM call). Without this, a 3-day price dip below the
+       30wk during a strong uptrend got mis-labelled Stage 4.
+
+    The slope is computed on the weekly cadence to avoid a calendar artifact that
+    would otherwise hit every Thursday (shift(N) on the daily-reindexed series
+    lands on the previous Friday update, comparing the same weekly value to
+    itself and flipping the slope flag to False).
     """
-    above_30wk = (qqq > w30)
-    # Reduce the daily-reindexed weekly SMA back to one row per actual weekly
-    # update (Fridays where the value changed from the prior printed value).
+    above_30wk = qqq > w30
+    ten_above_thirty = w10 > w30
+
+    # Weekly-cadence slope: deduplicate the daily-ffilled w30 back to one row per
+    # actual weekly update, compare today's value to N weekly bars ago in %,
+    # then propagate the boolean back to daily via ffill.
     w30_weekly = w30[w30.ne(w30.shift())].dropna()
-    slope_weekly = (w30_weekly > w30_weekly.shift(w30_slope_weeks)).fillna(False)
-    slope_up = slope_weekly.reindex(qqq.index, method="ffill").fillna(False).astype(bool)
+    slope_pct_weekly = (w30_weekly / w30_weekly.shift(slope_window_weeks) - 1.0) * 100.0
+    slope_rising_weekly = (slope_pct_weekly > rising_threshold_pct).fillna(False)
+    slope_rising = slope_rising_weekly.reindex(qqq.index, method="ffill").fillna(False).astype(bool)
+
     stage = pd.Series(0, index=qqq.index, dtype=int)
-    stage[above_30wk & slope_up] = 2
-    stage[above_30wk & ~slope_up] = 3
-    stage[~above_30wk & ~slope_up] = 4
-    stage[~above_30wk & slope_up] = 1
+    stage[above_30wk & slope_rising] = 2
+    stage[above_30wk & ~slope_rising] = 3
+    stage[~above_30wk & ~ten_above_thirty] = 4
+    stage[~above_30wk & ten_above_thirty] = 1
     return stage
 
 
