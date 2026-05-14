@@ -368,15 +368,26 @@ TEMPLATE = r"""<!doctype html>
   .pill.s3, .pill.s1 { color: var(--yellow); border-color: rgba(210,153,34,0.4); }
   .stage-note { font-size: 12px; color: var(--muted); margin-top: 6px; font-style: italic; }
 
-  /* Components grid */
-  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  @media (min-width: 560px) { .grid { grid-template-columns: 1fr 1fr 1fr; } }
-  .comp { background: var(--panel-2); border: 1px solid var(--border); border-radius: 8px; padding: 10px; }
-  .comp .name { font-size: 12px; color: var(--muted); margin-bottom: 4px; display: flex; justify-content: space-between; align-items: center; gap: 4px; }
-  .comp .mark { font-size: 22px; font-weight: 700; font-family: var(--mono); }
+  /* Compact components row (lives inside the GMI hero pane) */
+  .comps-row {
+    display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px;
+    margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border);
+  }
+  @media (max-width: 460px) { .comps-row { grid-template-columns: repeat(3, 1fr); } }
+  .comp {
+    background: var(--panel-2); border: 1px solid var(--border); border-radius: 6px;
+    padding: 6px 4px; text-align: center; cursor: pointer; user-select: none;
+    position: relative;
+  }
+  .comp .name { font-size: 10px; color: var(--muted); font-family: var(--mono); margin-bottom: 2px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .comp .mark { font-size: 16px; font-weight: 700; font-family: var(--mono); line-height: 1.1; }
+  .comp.on { border-color: rgba(46,160,67,0.45); }
   .comp.on .mark { color: var(--green); }
+  .comp.off { border-color: rgba(248,81,73,0.35); }
   .comp.off .mark { color: var(--red); }
-  .comp .detail { font-size: 12px; color: var(--muted); margin-top: 4px; font-family: var(--mono); }
+  .comp .detail { font-size: 9px; color: var(--muted); font-family: var(--mono); margin-top: 1px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
   /* The little ? bubble — only this triggers tooltips */
   .qmark { display: inline-flex; align-items: center; justify-content: center;
@@ -424,15 +435,6 @@ TEMPLATE = r"""<!doctype html>
   td.neg { color: var(--red); }
   td.nv { color: var(--muted); }
 
-  /* Prompt copy panel */
-  .prompt-out { background: var(--panel-2); border: 1px solid var(--border); border-radius: 8px;
-    padding: 12px; font-family: var(--mono); font-size: 13px; white-space: pre-wrap;
-    color: var(--text); min-height: 80px; }
-  .copy-row { display: flex; gap: 8px; align-items: center; margin-top: 8px; }
-  .copy-btn { background: var(--accent); color: #0a0d12; border: none; border-radius: 6px;
-    padding: 8px 14px; font-weight: 600; cursor: pointer; font-size: 13px; }
-  .copy-btn:hover { filter: brightness(1.1); }
-  .copy-status { color: var(--green); font-size: 12px; }
   .footer { color: var(--muted); font-size: 11px; margin-top: 16px; text-align: center; line-height: 1.6; }
 
   /* Floating popover (the tooltip bubble) */
@@ -518,7 +520,7 @@ TEMPLATE = r"""<!doctype html>
     <div class="small" id="dateLabel" style="margin-top:8px;">—</div>
   </div>
 
-  <!-- 4. GMI hero (number + state + Day N + Stage) -->
+  <!-- 4. GMI hero + 6 components compressed into one pane -->
   <div class="panel">
     <div class="hero">
       <div>
@@ -530,6 +532,7 @@ TEMPLATE = r"""<!doctype html>
         <button class="qmark" data-pop="state" aria-label="What is the state" style="vertical-align:middle; margin-left:6px;">?</button>
       </div>
     </div>
+    <div class="comps-row" id="components"></div>
     <div class="callout">
       <span class="pill" id="dayPill">Day — of —</span>
       <button class="qmark" data-pop="dayN" aria-label="Day N explanation">?</button>
@@ -537,22 +540,6 @@ TEMPLATE = r"""<!doctype html>
       <button class="qmark" data-pop="stage" aria-label="Stage explanation">?</button>
     </div>
     <div class="stage-note" id="stageNote">—</div>
-  </div>
-
-  <!-- 5. Components grid -->
-  <div class="panel">
-    <div class="small" style="margin-bottom:8px;">Six GMI components — tap <b style="color:var(--accent)">?</b> on any card for what it measures.</div>
-    <div class="grid" id="components"></div>
-  </div>
-
-  <!-- Copy prompt -->
-  <div class="panel">
-    <div class="small">Prompt to copy back to Claude</div>
-    <div class="prompt-out" id="prompt">—</div>
-    <div class="copy-row">
-      <button class="copy-btn" id="copyBtn">Copy prompt</button>
-      <span class="copy-status" id="copyStatus"></span>
-    </div>
   </div>
 
   <div class="footer">
@@ -573,12 +560,12 @@ const STAGE_FLIPS = DATA.stage_flips || [];
 let VIEW = "daily";  // "daily" or "weekly"
 
 const COMPS = [
-  {name:"1. Successful 10d new high"},
-  {name:"2. ≥100 new 52w highs"},
-  {name:"3. QQQ daily up-trend"},
-  {name:"4. SPY daily up-trend"},
-  {name:"5. QQQ weekly up-trend"},
-  {name:"6. IBD-50 (FFTY) >50d MA"},
+  {name:"S10"},     // Successful 10d new high
+  {name:"NH≥100"},  // 100+ new 52w highs
+  {name:"QQQ↑"},    // QQQ daily up-trend
+  {name:"SPY↑"},    // SPY daily up-trend
+  {name:"QQQ wk"},  // QQQ weekly up-trend
+  {name:"FFTY"},    // IBD-50 >50d MA
 ];
 
 const dateMap = new Map();
@@ -648,20 +635,6 @@ const STAGE_INFO = {
   4: {name: "Stage 4 — Declining",  note: "Price below falling 30-week, 10wk < 30wk. Defensive — cash or inverse. Got him out before 2000 and 2008.", cls: "s4"},
 };
 
-function buildPrompt(r) {
-  const stateInfo = classifyState(r.s, r.g);
-  const compBits = COMPS.map((c, i) => (r.c[i] ? "✓" : "✗") + " c" + (i+1)).join(" ");
-  const dirWord = r.sd === "up" ? "up" : "down";
-  const stageName = (STAGE_INFO[r.st] || {name:"Stage —"}).name;
-  return [
-    `GMI on ${r.d}: ${r.g}/6 · gate ${stateInfo.label}`,
-    `Day ${r.dn} of QQQ short-term ${dirWord}-trend · ${stageName}`,
-    `Components: ${compBits}`,
-    `S10 = ${r.n10h}/${r.n10t} (≥50% needed); new 52w highs = ${r.nh} (≥100); QQQ close = ${r.q != null ? r.q.toFixed(2) : "—"}.`,
-    "",
-    "Given Dr. Wish's documented methodology, what is his most likely posture? Are any components or MAs borderline? Use only the wiki content as authority."
-  ].join("\n");
-}
 
 // ============================================================================
 // Chart drawing: HLC bars (doji-style — vertical H–L line + close tick on right)
@@ -917,19 +890,19 @@ function render(i) {
   cBox.innerHTML = "";
   COMPS.forEach((c, k) => {
     const on = r.c[k] === 1;
-    const d = document.createElement('div');
+    const d = document.createElement('button');  // whole card is the tooltip trigger
+    d.type = "button";
     d.className = "comp " + (on ? "on" : "off");
+    d.dataset.pop = "c" + (k+1);
+    d.setAttribute("aria-label", c.name);
+    // tiny detail: show numeric for c1/c2, just the mark for the rest
     let detail = "";
     if (k === 0) detail = `${r.n10h}/${r.n10t}`;
-    else if (k === 1) detail = `${r.nh} highs`;
-    else detail = on ? "above" : "below";
+    else if (k === 1) detail = `${r.nh}`;
     d.innerHTML = `
-      <div class="name">
-        <span>${c.name}</span>
-        <button class="qmark" data-pop="c${k+1}" aria-label="info">?</button>
-      </div>
+      <div class="name">${c.name}</div>
       <div class="mark">${on ? "✓" : "✗"}</div>
-      <div class="detail">${detail}</div>`;
+      ${detail ? `<div class="detail">${detail}</div>` : ""}`;
     cBox.appendChild(d);
   });
 
@@ -964,7 +937,6 @@ function render(i) {
   }
 
   drawSpark(i);
-  document.getElementById('prompt').textContent = buildPrompt(r);
 }
 
 // ============================================================================
@@ -1000,7 +972,7 @@ document.getElementById('popClose').addEventListener('click', (e) => { e.stopPro
 
 // Tooltip triggers — ONLY <button class="qmark"> with data-pop
 document.addEventListener('click', (e) => {
-  const trigger = e.target.closest('button.qmark[data-pop]');
+  const trigger = e.target.closest('button.qmark[data-pop], button.comp[data-pop]');
   if (trigger) {
     e.stopPropagation();
     const key = trigger.dataset.pop;
@@ -1046,17 +1018,6 @@ document.querySelectorAll('[data-view]').forEach(el => {
 });
 
 renderLegend();
-
-document.getElementById('copyBtn').addEventListener('click', async () => {
-  const txt = document.getElementById('prompt').textContent;
-  try {
-    await navigator.clipboard.writeText(txt);
-    document.getElementById('copyStatus').textContent = "Copied!";
-    setTimeout(() => { document.getElementById('copyStatus').textContent = ""; }, 1500);
-  } catch (e) {
-    document.getElementById('copyStatus').textContent = "Press & hold to copy";
-  }
-});
 
 setIndex(ROWS.length - 1);
 </script>
