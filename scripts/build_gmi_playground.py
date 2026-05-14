@@ -27,6 +27,30 @@ from ww.backtest.gate import (
 ROOT = Path(__file__).resolve().parents[1]
 START = "2010-01-01"
 QQQ_OHLC_CACHE = ROOT / "data" / "backtest" / "qqq_ohlc.parquet"
+PRICES_CACHE = ROOT / "data" / "backtest" / "prices.parquet"
+
+
+def _ensure_prices(tickers=("QQQ", "SPY", "TQQQ", "SQQQ")) -> pd.DataFrame:
+    """Load `data/backtest/prices.parquet`; if missing or incomplete, fetch via yfinance."""
+    if PRICES_CACHE.exists():
+        df = pd.read_parquet(PRICES_CACHE)
+        df.index = pd.to_datetime(df.index)
+        if set(tickers) <= set(df.columns):
+            return df
+    import yfinance as yf
+    print(f"prices cache miss — fetching {tickers} via yfinance…")
+    raw = yf.download(list(tickers), interval="1d", period="max",
+                      auto_adjust=False, group_by="ticker", progress=False, threads=True)
+    out = {}
+    for t in tickers:
+        sub = raw[t] if isinstance(raw.columns, pd.MultiIndex) else raw
+        col = "Adj Close" if "Adj Close" in sub.columns else "Close"
+        out[t] = sub[col].astype(float)
+    df = pd.DataFrame(out).dropna(how="all")
+    df.index = pd.to_datetime(df.index)
+    PRICES_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    df.to_parquet(PRICES_CACHE)
+    return df
 
 
 def fetch_qqq_ohlc() -> pd.DataFrame:
@@ -92,7 +116,7 @@ def build_payload() -> dict:
     bs = pd.read_parquet(ROOT / "data" / "breadth" / "breadth_series.parquet")
     bs["date"] = pd.to_datetime(bs["date"])
     bs = bs.set_index("date").sort_index()
-    prices = pd.read_parquet(ROOT / "data" / "backtest" / "prices.parquet")
+    prices = _ensure_prices()
     if not isinstance(prices.index, pd.DatetimeIndex):
         prices = prices.set_index(pd.to_datetime(prices.index))
     prices = prices.sort_index()
