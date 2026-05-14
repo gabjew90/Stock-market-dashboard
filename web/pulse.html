@@ -188,6 +188,9 @@
   const BRANCH = 'pulse-data';
   const RAW_HOST = 'raw.githubusercontent.com';
   const ARCHIVE_URL = `https://${RAW_HOST}/${REPO}/${BRANCH}/pulse-output/web/archive.json`;
+  // TODO(remove-after-upstream-host-fix): the Institutional-report-bot bridge is being updated
+  // to write `raw.githubusercontent.com` directly into archive.json. Once newly-generated
+  // archives no longer contain `raw.githack.com` URLs, drop this shim and the call below.
   // Rewrite any host the upstream archive embeds (raw.githack.com / cdn.jsdelivr.net) to the
   // CORS-friendly raw.githubusercontent.com. Leaves other domains untouched.
   function normalizeRawUrl(url) {
