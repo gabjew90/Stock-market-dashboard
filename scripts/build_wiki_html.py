@@ -73,6 +73,12 @@ def rewrite_links(text: str, page_rel: str, page_anchors: set[str], post_urls: d
             stem = Path(target).stem  # filename without .md
             url = post_urls.get(stem)
             return f"]({url})" if url else f"](javascript:void(0))"
+        # Source-summary links — we no longer render the source notes appendix;
+        # redirect any ../sources/<stem>.md or sources/<stem>.md link straight to the original blog post.
+        if "sources/" in target:
+            stem = Path(target).stem
+            url = post_urls.get(stem)
+            return f"]({url})" if url else f"](javascript:void(0))"
         # Otherwise it should resolve to a wiki page (possibly in another subdir).
         try:
             resolved = (WIKI / page_dir / target).resolve().relative_to(WIKI).as_posix()
@@ -222,8 +228,9 @@ def main() -> int:
             rel = name if subdir == "" else f"{subdir}/{name}"
             if (WIKI / rel).exists():
                 page_rels.append(rel)
-    source_rels = [f"sources/{p.name}" for p in sorted(SOURCES_DIR.glob("*.md")) if p.name != ".gitkeep"] if SOURCES_DIR.exists() else []
-    page_anchors = {anchor_for(r) for r in page_rels + source_rels}
+    # Source-summary pages are no longer rendered inline — methodology citations to them now redirect
+    # straight to the original wishingwealthblog.com post via rewrite_links().
+    page_anchors = {anchor_for(r) for r in page_rels}
 
     # index.md = landing TOC
     idx_path = WIKI / "index.md"
@@ -249,22 +256,11 @@ def main() -> int:
                 f'<section id="{anchor}" class="panel"><a class="top" href="#index">↑ contents</a>\n{body}\n</section>'
             )
 
-    # appendix: source notes
-    appendix_blocks: list[str] = []
-    if source_rels:
-        appendix_blocks.append('<h1 id="cat-sources">Appendix — source notes</h1>')
-        appendix_blocks.append('<p class="src-note">One short note per ingested post (what it teaches, key claims). The methodology pages above link into these.</p>')
-        for rel in source_rels:
-            anchor, _title, body = render_page(WIKI / rel, post_urls, page_anchors)
-            appendix_blocks.append(
-                f'<section id="{anchor}" class="panel src-note"><a class="top" href="#index">↑ contents</a>\n{body}\n</section>'
-            )
-
-    n_pages = 1 + len(page_rels) + len(source_rels)
+    n_pages = 1 + len(page_rels)
     out_html = TEMPLATE.format(
         toc=toc_html,
         sections="\n".join(section_blocks),
-        appendix="\n".join(appendix_blocks),
+        appendix="",
         n_pages=n_pages,
     )
     out_path = ROOT / "wiki_site.html"
