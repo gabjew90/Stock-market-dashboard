@@ -489,6 +489,11 @@ TEMPLATE = r"""<!doctype html>
       <div class="panel-title">
         GMI <button class="qmark" data-pop="gmi" aria-label="What is GMI">?</button>
       </div>
+      <!-- Day N pill ABOVE the GREEN/RED badge -->
+      <div class="callout day-above">
+        <span class="pill" id="dayPill">Day — of —</span>
+        <button class="qmark" data-pop="dayN" aria-label="Day N explanation">?</button>
+      </div>
       <div class="hero">
         <div>
           <span class="num" id="gmiNum">0</span><span class="denom">/6</span>
@@ -498,14 +503,12 @@ TEMPLATE = r"""<!doctype html>
           <button class="qmark" data-pop="state" aria-label="What is the state" style="vertical-align:middle; margin-left:6px;">?</button>
         </div>
       </div>
-      <div class="comps-row" id="components"></div>
-      <div class="callout">
-        <span class="pill" id="dayPill">Day — of —</span>
-        <button class="qmark" data-pop="dayN" aria-label="Day N explanation">?</button>
+      <!-- Stage pill BELOW the badge -->
+      <div class="callout stage-below">
         <span class="pill" id="stagePill">Stage —</span>
         <button class="qmark" data-pop="stage" aria-label="Stage explanation">?</button>
       </div>
-      <div class="stage-note" id="stageNote">—</div>
+      <div class="comps-row" id="components"></div>
     </div>
 
     <div class="panel state-card">
@@ -780,8 +783,14 @@ function drawSpark(centerIdx) {
   const yspan = ymax - ymin;
   const plotH = H - PADY_TOP - PADY_BOT;
   const plotW = W - 2 * PADX;
-  const xAt = (i) => (i / (slice.length - 1)) * plotW + PADX;
+  // Time-based x positioning: same calendar date sits at the same x in BOTH views.
+  const firstTs = Date.parse(firstDate);
+  const lastTs = Date.parse(lastDate);
+  const tSpan = (lastTs - firstTs) || 1;
+  const xAtDate = (dStr) => ((Date.parse(dStr) - firstTs) / tSpan) * plotW + PADX;
+  const xAt = (i) => xAtDate(slice[i].d);
   const yAt = (v) => H - PADY_BOT - ((v - ymin) / yspan) * plotH;
+  // Average bar width — used to size candle bodies. Daily ~3-4 px, weekly ~16-18 px.
   const barW = plotW / slice.length;
 
   // ===== RED gate shading (works for both views — weekly uses end-of-week state) =====
@@ -829,7 +838,11 @@ function drawSpark(centerIdx) {
 
   // ===== Candles =====
   if (maOn.qqq) {
-    const bodyW = Math.max(2.5, barW * 0.7);
+    // Time-based bar width — derived from the avg inter-bar gap in the current slice so daily candles
+    // stay thin (~3 px) and weekly candles get correspondingly wider (~18 px) while everything else
+    // (MAs, red shading, marker) remains anchored to the same calendar dates.
+    const avgGap = slice.length > 1 ? (Date.parse(slice[slice.length-1].d) - Date.parse(slice[0].d)) / (slice.length - 1) : 24*3600*1000;
+    const bodyW = Math.max(2.5, (avgGap / tSpan) * plotW * 0.7);
     const GREEN = "#2ea043", RED = "#f85149";
     slice.forEach((r, i) => {
       const cl = daily ? r.cl : r.c;  // daily rows use "cl" (avoid collision with components array "c")
@@ -882,26 +895,28 @@ function drawSpark(centerIdx) {
     svg.appendChild(lab);
   }
 
-  // ===== X-axis date labels =====
-  const tickPositions = [0, Math.floor(slice.length*0.25), Math.floor(slice.length*0.5), Math.floor(slice.length*0.75), slice.length - 1];
-  tickPositions.forEach((i, k) => {
-    if (i < 0 || i >= slice.length) return;
+  // ===== X-axis date labels (time-based — 5 evenly-spaced timestamps; identical in both views) =====
+  const nTicks = 5;
+  for (let k = 0; k < nTicks; k++) {
+    const frac = k / (nTicks - 1);
+    const ts = firstTs + frac * tSpan;
+    const x = frac * plotW + PADX;
+    const dateStr = new Date(ts).toISOString().slice(0, 7);  // YYYY-MM
     const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    const x = xAt(i);
     t.setAttribute('x', x);
     t.setAttribute('y', H - 18);
-    t.setAttribute('text-anchor', k === 0 ? 'start' : (k === 4 ? 'end' : 'middle'));
+    t.setAttribute('text-anchor', k === 0 ? 'start' : (k === nTicks - 1 ? 'end' : 'middle'));
     t.setAttribute('font-size', '9');
     t.setAttribute('font-family', 'ui-monospace,Menlo,Consolas,monospace');
     t.setAttribute('fill', '#8b949e');
-    t.textContent = slice[i].d.slice(0, 7);
+    t.textContent = dateStr;
     svg.appendChild(t);
     const tk = document.createElementNS('http://www.w3.org/2000/svg', 'line');
     tk.setAttribute('x1', x); tk.setAttribute('x2', x);
     tk.setAttribute('y1', H - PADY_BOT); tk.setAttribute('y2', H - PADY_BOT + 3);
     tk.setAttribute('stroke', '#8b949e'); tk.setAttribute('stroke-width', '0.7');
     svg.appendChild(tk);
-  });
+  }
   const base = document.createElementNS('http://www.w3.org/2000/svg', 'line');
   base.setAttribute('x1', PADX); base.setAttribute('x2', W - PADX);
   base.setAttribute('y1', H - PADY_BOT); base.setAttribute('y2', H - PADY_BOT);
@@ -953,7 +968,6 @@ function render(i) {
   const si = STAGE_INFO[r.st] || {name: "Stage —", note: "", cls: ""};
   stagePill.innerHTML = `<b>${si.name}</b>`;
   stagePill.className = "pill " + si.cls;
-  document.getElementById('stageNote').textContent = si.note;
 
   // Components
   const cBox = document.getElementById('components');
