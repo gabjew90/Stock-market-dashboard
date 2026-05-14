@@ -67,6 +67,10 @@ def rewrite_links(text: str, page_rel: str, page_anchors: set[str], post_urls: d
         target, frag = m.group(1), (m.group(2) or "")
         if target.startswith(("http://", "https://", "mailto:", "#")):
             return m.group(0)
+        # Image / static-asset paths — pass through untouched. The daily workflow copies
+        # the repo's `assets/` tree into the deployed site so these resolve correctly from wiki.html.
+        if target.startswith("assets/") or target.lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp")):
+            return m.group(0)
         # Resolve relative to the page's directory, against the wiki/ root.
         # Targets like ../../raw/posts/<stem>.md escape wiki/ — handle those first.
         if "raw/posts/" in target:

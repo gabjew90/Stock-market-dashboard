@@ -128,8 +128,13 @@ def write_wiki_page(root: Path, results: dict, *, plot_url: str | None, period: 
                  f"**Buy-and-hold SPY:** {_fmt(results['benchmarks']['buy_hold_spy'])}\n- "
                  f"**Plain 'QQQ > rising 30-week SMA' filter:** {_fmt(results['benchmarks']['qqq_30wk_filter'])}\n\n"
                  f"### Verdict: **{results['verdict']}**\n")
-    if plot_url:
-        lines.append(f"\n![equity curve]({plot_url})\n\n*(Strategy vs buy-and-hold QQQ vs SPY, log scale, RED periods shaded -- {plot_url})*\n")
+    # Reference the repo-stable copy of the chart (assets/backtest/equity_curve.png — committed; the
+    # daily workflow stages it to the deployed site at the same relative path). The path is correct
+    # relative to the *deployed* wiki.html (which is the only renderer of this page); raw-markdown
+    # readers won't see the image render but the link is human-followable from the repo root.
+    lines.append("\n![equity curve](assets/backtest/equity_curve.png)\n\n"
+                 "*(Strategy vs buy-and-hold QQQ vs SPY, log scale, RED periods shaded"
+                 + (f" — also at [{plot_url}]({plot_url}) for 72 h)" if plot_url else ")") + "*\n")
     lines.append("\n## Robustness grid\n\nEach row varies one dimension vs the default. **Picking the best-looking variant after the "
                  "fact would be data snooping** -- the headline is the default, full-period, no tuning.\n\n| variant | result |\n|---|---|\n"
                  + f"| **default (GMI>=4, 2/2 confirm, 5 bps)** | {_fmt(d)} |\n"

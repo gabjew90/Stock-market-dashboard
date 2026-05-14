@@ -76,6 +76,8 @@ jobs:
           cp gmi_playground_daily.html _site/index.html
           cp gmi_playground_daily.html _site/gmi.html
           cp wiki_site.html _site/wiki.html
+          # Copy any image/data assets referenced by the wiki (e.g. backtest equity curve)
+          if [ -d assets ]; then cp -r assets _site/assets; fi
 
       - uses: actions/upload-pages-artifact@v3
         with:

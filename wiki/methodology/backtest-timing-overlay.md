@@ -1,13 +1,13 @@
 ---
 title: Backtest — the market-state timing overlay
 type: methodology
-updated: 2026-05-12
+updated: 2026-05-13
 sources: []
 ---
 
 # Backtest — does the GMI timing overlay beat buy-and-hold QQQ?
 
-**The rule (pre-stated, zero fitted parameters):** be long QQQ when the reconstructed [GMI](gmi.md) has been >= 4 for two consecutive days; sit in cash when it has been <= 3 for two consecutive days. Signals on the close of day D, executed at the next day's open (modelled as a 1-day lag, close-to-close). Cost: 5 bps per round trip; no tax (an IRA). Period: 2007-01-01-2026-05-12. Benchmark: buy-and-hold QQQ. **Verdict criteria, fixed in advance:** "adds value" iff the default beats B&H QQQ on Sharpe *and* has <= 0.7x its max drawdown *and* the conclusion is robust across the variant grid; "marginal" if it cuts drawdown at a Sharpe/CAGR cost; "drag" if it underperforms on Sharpe and doesn't cut drawdown. (Caveat: the reconstructed GMI reads optimistic in declines -- ~78% GREEN/RED agreement with his reported GMI -- so this likely *understates* how defensive he actually was; see the breadth-data design spec.)
+**The rule (pre-stated, zero fitted parameters):** be long QQQ when the reconstructed [GMI](gmi.md) has been >= 4 for two consecutive days; sit in cash when it has been <= 3 for two consecutive days. Signals on the close of day D, executed at the next day's open (modelled as a 1-day lag, close-to-close). Cost: 5 bps per round trip; no tax (an IRA). Period: 2007-01-01-2026-05-13. Benchmark: buy-and-hold QQQ. **Verdict criteria, fixed in advance:** "adds value" iff the default beats B&H QQQ on Sharpe *and* has <= 0.7x its max drawdown *and* the conclusion is robust across the variant grid; "marginal" if it cuts drawdown at a Sharpe/CAGR cost; "drag" if it underperforms on Sharpe and doesn't cut drawdown. (Caveat: the reconstructed GMI reads optimistic in declines -- ~78% GREEN/RED agreement with his reported GMI -- so this likely *understates* how defensive he actually was; see the breadth-data design spec.)
 
 ## Headline result
 
@@ -19,9 +19,9 @@ sources: []
 ### Verdict: **marginal — cuts drawdown (max-DD 19% vs 53%) but at a Sharpe/CAGR cost (Sharpe 0.67 vs 0.80); a stomach-vs-money trade**
 
 
-![equity curve](https://litter.catbox.moe/v89qxb.png)
+![equity curve](assets/backtest/equity_curve.png)
 
-*(Strategy vs buy-and-hold QQQ vs SPY, log scale, RED periods shaded -- https://litter.catbox.moe/v89qxb.png)*
+*(Strategy vs buy-and-hold QQQ vs SPY, log scale, RED periods shaded — also at [https://litter.catbox.moe/pa5zop.png](https://litter.catbox.moe/pa5zop.png) for 72 h)*
 
 
 ## Robustness grid
