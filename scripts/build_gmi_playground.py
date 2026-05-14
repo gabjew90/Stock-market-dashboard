@@ -31,23 +31,47 @@ PRICES_CACHE = ROOT / "data" / "backtest" / "prices.parquet"
 
 
 def _ensure_prices(tickers=("QQQ", "SPY", "TQQQ", "SQQQ")) -> pd.DataFrame:
-    """Load `data/backtest/prices.parquet`; if missing or incomplete, fetch via yfinance."""
+    """Load `data/backtest/prices.parquet`; if missing, incomplete, or any ticker is
+    silently all-NaN over its last 60 trading days, refetch via yfinance — including a
+    per-ticker fallback for any column the batch download left empty."""
+    def _bad(df: pd.DataFrame) -> bool:
+        if not set(tickers) <= set(df.columns):
+            return True
+        for t in tickers:
+            tail = df[t].dropna().tail(60)
+            if len(tail) < 5:
+                return True
+        return False
+
     if PRICES_CACHE.exists():
         df = pd.read_parquet(PRICES_CACHE)
         df.index = pd.to_datetime(df.index)
-        if set(tickers) <= set(df.columns):
+        if not _bad(df):
             return df
+        print(f"prices cache present but stale/empty for some ticker — refetching…")
+
     import yfinance as yf
-    print(f"prices cache miss — fetching {tickers} via yfinance…")
+    print(f"fetching {tickers} via yfinance…")
     raw = yf.download(list(tickers), interval="1d", period="max",
                       auto_adjust=False, group_by="ticker", progress=False, threads=True)
     out = {}
     for t in tickers:
-        sub = raw[t] if isinstance(raw.columns, pd.MultiIndex) else raw
-        col = "Adj Close" if "Adj Close" in sub.columns else "Close"
-        out[t] = sub[col].astype(float)
+        try:
+            sub = raw[t] if isinstance(raw.columns, pd.MultiIndex) else raw
+            col = "Adj Close" if "Adj Close" in sub.columns else "Close"
+            out[t] = sub[col].astype(float)
+        except (KeyError, AttributeError):
+            out[t] = pd.Series(dtype=float)
+    # Per-ticker fallback for anything the batch download silently dropped.
+    for t in tickers:
+        if out[t].dropna().tail(5).shape[0] < 5:
+            print(f"  batch download missing recent data for {t}; falling back to per-ticker fetch…")
+            tk = yf.Ticker(t).history(period="max", auto_adjust=False)
+            if not tk.empty:
+                col = "Adj Close" if "Adj Close" in tk.columns else "Close"
+                out[t] = tk[col].astype(float)
     df = pd.DataFrame(out).dropna(how="all")
-    df.index = pd.to_datetime(df.index)
+    df.index = pd.to_datetime(df.index).tz_localize(None) if df.index.tz is not None else pd.to_datetime(df.index)
     PRICES_CACHE.parent.mkdir(parents=True, exist_ok=True)
     df.to_parquet(PRICES_CACHE)
     return df
@@ -1318,11 +1342,11 @@ const POP = {
   gmi: "<b>GMI — General Market Index</b><br>A daily 0–6 score of six market-health components. ≥4 for 2 consecutive days flips the gate GREEN (we're willing to buy long). ≤3 for 2 days flips RED (defensive — cash or hedge).",
   t2108: "<b>T2108 — NYSE breadth</b><br>The percent of NYSE stocks trading above their 40-day SMA. We use three zones:<br><b style='color:#2ea043'>&lt;10</b> = capitulation buy zone (accumulate SPY in tranches; historically marks lasting bottoms).<br><b style='color:#d29922'>10–30 / 70–80</b> = caution zones at either extreme.<br><b style='color:#f85149'>&gt;80</b> = extended; no new buys, take some profit.<br>30–70 is the healthy mid-range. Our value tracks the published T2108 at corr ≈ 0.93 (small +3–4 pt optimistic bias from survivorship in our universe).",
   state: "<b>Market state — GREEN / YELLOW / RED</b><br>Computed from the GMI with a 2-day confirmation rule. GREEN = 2 consecutive days ≥4. RED = 2 consecutive days <4 and not recovered. YELLOW = transition (GMI 3).",
-  dayN: "<b>Day N of QQQ short-term trend</b><br>The count of consecutive trading days QQQ has been on its current side of the 30-day SMA. Resets to 1 when QQQ crosses through the line on a closing basis.<br><br>Note: 95% empirical fit to published Day-1 announcements; the exact source rule isn't public — this is the best-supported proxy.",
+  dayN: "<b>Day N of QQQ short-term trend</b><br>The count of consecutive trading days QQQ has been on its current side of the 30-day SMA. Resets to 1 when QQQ crosses through the line on a closing basis.",
   stage: "<b>Weinstein stage</b><br>The four-stage classification from Stan Weinstein, used for the long-term picture:<br><b>Stage 1 — Basing</b>: price below 30wk, MA flat/rising. No new buys.<br><b>Stage 2 — Advancing</b>: price above rising 30wk + 10wk > 30wk. <i>Only stage we buy long.</i><br><b>Stage 3 — Topping</b>: price above 30wk but breadth weakening. We sell into this.<br><b>Stage 4 — Declining</b>: price below falling 30wk + 10wk < 30wk. Defensive.",
   redshade: "<b>RED-shaded periods</b><br>Days when QQQ is in a <b>short-term down-trend</b> (closed below its 30-day SMA). Aligns with the Day-N pill at the top: shading ends exactly when the ST trend flips to up.<br><br>Note: this is distinct from the GMI gate (GREEN/RED badge above). The gate uses the full 6-component GMI score with a 2-day confirmation — it can stay RED for a few days after the ST trend turns up, by design.",
   qqq: "<b>QQQ candles</b><br>Standard OHLC candles. <span style='color:#2ea043;font-weight:600'>Green</span> = close ≥ open. <span style='color:#f85149;font-weight:600'>Red</span> = close &lt; open. Wick = high–low; body = open–close.<br><br><b>Daily view:</b> ~126 daily candles (6 months) centered on selected day.<br><b>Weekly view:</b> ~50 Friday-close candles (1 year) — the timeframe we use for the 10wk/30wk stage view.",
-  m30: "<b>30-day SMA (daily)</b><br>The daily short-term trend anchor. QQQ closing above = ST up; below = ST down. Drives the Day-N count and components 3 & 4 of the GMI.<br><br>Quantitatively: 95% of published Day-1 flip announcements (2024–2026) line up with QQQ crossing this line.",
+  m30: "<b>30-day SMA (daily)</b><br>The daily short-term trend anchor. QQQ closing above = ST up; below = ST down. Drives the Day-N count and components 3 & 4 of the GMI.",
   w10: "<b>10-week SMA (weekly chart)</b><br>Our medium-term hold line. Computed on Friday weekly closes. The <b>10wk crossing above 30wk</b> is the bull re-entry signal (confirmed live 2025-06 and 2026-05). The <b>10wk crossing below 30wk</b> confirms Stage 4 onset (April 2025 tariff decline).",
   w30: "<b>30-week SMA (weekly chart)</b><br>Our most important MA — Stan Weinstein's classic. Got us out before 2000 and 2008. Price above + line rising = Stage 2 uptrend — the only stage we buy long.",
   c1: "<b>Successful 10-day new high</b><br>Component 1 of GMI. Fires when ≥50% of stocks that hit a new 52-week high 10 trading days ago closed higher today. Tests whether breakouts are still being rewarded.",
