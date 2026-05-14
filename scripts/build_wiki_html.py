@@ -109,6 +109,16 @@ def render_page(path: Path, post_urls: dict[str, str], page_anchors: set[str]) -
         raw,
         extensions=["tables", "fenced_code", "sane_lists", "attr_list", "md_in_html", "smarty"],
     )
+    # Collapse the per-page "Sources" / citation block behind a <details> so it's available but
+    # not visually dominating the page. Detect <h2>Sources</h2> (markdown ## Sources) and wrap
+    # that heading + everything after it (within this page's body) into <details>.
+    body_html = re.sub(
+        r"(<h2[^>]*>\s*Sources\s*</h2>)(.*)$",
+        r"<details class='sources-fold'><summary>Sources &amp; citations</summary>\2</details>",
+        body_html,
+        count=1,
+        flags=re.DOTALL,
+    )
     return anchor_for(rel), title, body_html
 
 
@@ -117,7 +127,7 @@ TEMPLATE = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Wishing Wealth Wiki</title>
+<title>Stock market dashboard — Methodology</title>
 <style>
   :root {{
     --bg: #0d1117; --panel: #161b22; --panel-2: #1c2330; --border: #30363d;
@@ -202,13 +212,24 @@ TEMPLATE = """<!doctype html>
   #index ul {{ list-style: none; padding-left: 8px; }}
   #index li {{ margin: 4px 0; }}
   #index ul ul {{ padding-left: 16px; margin: 2px 0; }}
+
+  /* Collapsed per-page Sources block */
+  details.sources-fold {{ margin-top: 18px; border-top: 1px solid var(--border); padding-top: 8px; }}
+  details.sources-fold summary {{
+    cursor: pointer; color: var(--muted); font-size: 12px; padding: 4px 0;
+    font-family: var(--mono); list-style: none;
+  }}
+  details.sources-fold summary::before {{ content: "▸ "; }}
+  details.sources-fold[open] summary::before {{ content: "▾ "; }}
+  details.sources-fold summary:hover {{ color: var(--accent); }}
+  details.sources-fold ul {{ margin-top: 6px; font-size: 13px; }}
 </style>
 </head>
 <body>
 <nav class="pages-nav">
-  <span class="brand">Dr. Wish<span class="sub">methodology</span></span>
+  <span class="brand">Stock market dashboard</span>
   <a href="./">GMI Daily</a>
-  <a href="./wiki.html" class="active">Wiki</a>
+  <a href="./wiki.html" class="active">Methodology</a>
 </nav>
 <div class="wrap">
 {toc}

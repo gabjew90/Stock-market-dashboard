@@ -306,7 +306,7 @@ TEMPLATE = r"""<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GMI Daily — Dr. Wish methodology</title>
+<title>Stock market dashboard — GMI Daily</title>
 <style>
   :root {
     --bg: #0d1117;
@@ -447,12 +447,12 @@ TEMPLATE = r"""<!doctype html>
 </head>
 <body>
 <nav class="pages-nav">
-  <span class="brand">Dr. Wish<span class="sub">methodology</span></span>
+  <span class="brand">Stock market dashboard</span>
   <a href="./" class="active">GMI Daily</a>
-  <a href="./wiki.html">Wiki</a>
+  <a href="./wiki.html">Methodology</a>
 </nav>
 <div class="wrap">
-  <h1>GMI Daily<span class="sub">Dr. Wish methodology · reconstructed</span></h1>
+  <h1>GMI Daily<span class="sub">market-state reconstruction</span></h1>
 
   <!-- 1. Chart at the top -->
   <div class="panel">
