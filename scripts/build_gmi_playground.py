@@ -119,7 +119,7 @@ def _streak_and_state(daily_above: pd.Series) -> tuple[pd.Series, pd.Series]:
     return day_count, side
 
 
-def _weinstein_stage(qqq: pd.Series, w10: pd.Series, w30: pd.Series, w30_slope_n: int = 4) -> pd.Series:
+def _weinstein_stage(qqq: pd.Series, w10: pd.Series, w30: pd.Series, w30_slope_weeks: int = 4) -> pd.Series:
     """Stage 1/2/3/4 per Stan Weinstein, simplified to match Dr. Wish's actual usage:
       Stage 2 = price above rising 30wk          (advancing — only stage he buys long)
       Stage 4 = price below falling 30wk         (declining — defensive)
@@ -127,9 +127,22 @@ def _weinstein_stage(qqq: pd.Series, w10: pd.Series, w30: pd.Series, w30_slope_n
       Stage 1 = price below 30wk but 30wk flat / rising    (basing)
     The 10wk vs 30wk relationship is a separate confirmation he watches but isn't required
     for the stage call itself (see wiki/methodology/moving-average-rules.md).
+
+    The slope is judged WEEK-OVER-WEEK on the weekly 30wk SMA — matching how Wish
+    reads the line on the weekly chart. The slope test compares today's weekly
+    value to its value `w30_slope_weeks` weeks ago, then propagates the boolean
+    back to daily via ffill. Comparing the daily-reindexed series directly with
+    a daily `shift(N)` produced a Thursday-only artifact (the shift landed on
+    the previous Friday update, which is the SAME weekly value the current row
+    was ffilled from) — that flipped stage 2 → stage 3 every Thursday during
+    rising-MA periods.
     """
     above_30wk = (qqq > w30)
-    slope_up = (w30 > w30.shift(w30_slope_n))
+    # Reduce the daily-reindexed weekly SMA back to one row per actual weekly
+    # update (Fridays where the value changed from the prior printed value).
+    w30_weekly = w30[w30.ne(w30.shift())].dropna()
+    slope_weekly = (w30_weekly > w30_weekly.shift(w30_slope_weeks)).fillna(False)
+    slope_up = slope_weekly.reindex(qqq.index, method="ffill").fillna(False).astype(bool)
     stage = pd.Series(0, index=qqq.index, dtype=int)
     stage[above_30wk & slope_up] = 2
     stage[above_30wk & ~slope_up] = 3
