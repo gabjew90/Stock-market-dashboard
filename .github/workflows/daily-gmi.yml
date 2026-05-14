@@ -1,0 +1,50 @@
+name: daily-gmi
+
+# Rebuild the GMI playground every weekday after the US market close and publish to GitHub Pages.
+on:
+  schedule:
+    # 22:00 UTC weekdays  ≈ 5–6pm ET (after the close)
+    - cron: '0 22 * * 1-5'
+  workflow_dispatch:   # also allow manual runs from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v3
+
+      - name: Sync deps
+        run: uv sync --frozen
+
+      - name: Refresh breadth + universe (last-trading-day delta)
+        run: uv run ww breadth update
+        env:
+          PYTHONUNBUFFERED: '1'
+
+      - name: Rebuild GMI playground HTML
+        run: uv run python scripts/build_gmi_playground.py
+
+      - name: Stage site
+        run: |
+          mkdir -p _site
+          cp gmi_playground_daily.html _site/index.html
+          # also keep a stable filename
+          cp gmi_playground_daily.html _site/gmi.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - uses: actions/deploy-pages@v4
+        id: deployment

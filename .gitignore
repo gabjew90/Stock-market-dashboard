@@ -13,6 +13,13 @@ __pycache__/
 
 # generated single-file site
 /wiki_site.html
+/wiki_site_*.html
+/wiki_site_*.zip
+/wiki_site_*.txt
+
+# generated playground (rebuilt by scripts/build_gmi_playground.py + daily-gmi workflow)
+/gmi_playground_daily.html
+/.playwright-mcp/
 
 # generated timeline dataset (rebuild with `ww timeline`)
 /raw/timeline.parquet
