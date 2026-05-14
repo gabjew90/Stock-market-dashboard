@@ -520,6 +520,21 @@ TEMPLATE = r"""<!doctype html>
   .spark { width: 100%; height: 240px; display: block;
     cursor: ew-resize; touch-action: none; -webkit-user-select: none; user-select: none; }
   .spark.dragging { cursor: grabbing; }
+  /* X-axis labels — rendered as HTML over the chart-wrap so they get normal CSS
+     sizing without the horizontal compression that `preserveAspectRatio="none"`
+     applies to SVG text on narrow viewports. */
+  .x-axis-labels { position: absolute; left: 0; right: 0; bottom: 0; height: 30px;
+    pointer-events: none; font-family: var(--mono); }
+  .x-axis-labels .x-tick { position: absolute; bottom: 14px; transform: translateX(-50%);
+    font-size: 11px; color: var(--muted); white-space: nowrap; }
+  .x-axis-labels .x-tick.start { transform: translateX(0); }
+  .x-axis-labels .x-tick.end   { transform: translateX(-100%); }
+  .x-axis-labels .x-selected { position: absolute; bottom: 0; transform: translateX(-50%);
+    font-size: 12px; font-weight: 600; color: var(--text); white-space: nowrap; }
+  @media (max-width: 480px) {
+    .x-axis-labels .x-tick { font-size: 10px; }
+    .x-axis-labels .x-selected { font-size: 11px; }
+  }
   .drag-hint { font-style: italic; flex: 1; text-align: right; opacity: 0.7; }
   .chart-header { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 4px; }
   .red-chip { display: inline-flex; align-items: center; gap: 5px; padding: 3px 9px; border-radius: 999px;
@@ -682,6 +697,7 @@ TEMPLATE = r"""<!doctype html>
     </div>
     <div class="chart-wrap">
       <svg class="spark" id="spark" viewBox="0 0 800 240" preserveAspectRatio="none"></svg>
+      <div class="x-axis-labels" id="xAxisLabels"></div>
     </div>
     <div class="legend" id="legend">
       <!-- legend chips are rendered dynamically per view -->
@@ -962,7 +978,7 @@ function drawSpark(centerIdx, markerIdx) {
   if (markerIdx === undefined) markerIdx = centerIdx;
   const svg = document.getElementById('spark');
   svg.innerHTML = "";
-  const W = 800, H = 240, PADX = 6, PADY_TOP = 4, PADY_BOT = 22, VOL_H = 38;
+  const W = 800, H = 240, PADX = 6, PADY_TOP = 4, PADY_BOT = 30, VOL_H = 38;
 
   // Both views share the same ~6-month date window (locked axes across toggle).
   // Symmetric ±63 so the marker is centered. When the centerIdx is near today,
@@ -1169,19 +1185,7 @@ function drawSpark(centerIdx, markerIdx) {
     vline.setAttribute('stroke-dasharray', '3,3');
     vline.setAttribute('stroke-opacity', '0.85');
     svg.appendChild(vline);
-    // Bottom date label
-    const lab = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    lab.setAttribute('y', H - 6);
-    lab.setAttribute('text-anchor', 'middle'); lab.setAttribute('font-size', '10');
-    lab.setAttribute('font-family', 'ui-monospace,Menlo,Consolas,monospace');
-    lab.setAttribute('fill', '#e6edf3');
-    lab.textContent = selectedDailyDate;
-    const halfW = 40;
-    let lx = x;
-    if (lx - halfW < 4) lx = halfW + 4;
-    if (lx + halfW > W - 4) lx = W - halfW - 4;
-    lab.setAttribute('x', lx);
-    svg.appendChild(lab);
+    // Bottom selected-date label is rendered as HTML inside .x-axis-labels — see below.
 
     // ===== Dynamic value labels next to the dashed line at the SELECTED date =====
     // Each label is a small pill (bg + text) just to the right of the dashed line, at the y of
@@ -1233,27 +1237,42 @@ function drawSpark(centerIdx, markerIdx) {
     }
   }
 
-  // ===== X-axis date labels (time-based — 5 evenly-spaced timestamps; identical in both views) =====
+  // ===== X-axis date labels =====
+  // Tick marks stay in SVG (aligned to chart geometry). Labels render as HTML
+  // inside .x-axis-labels — normal CSS font sizing, no anisotropic scaling.
   const nTicks = 5;
+  const xLabels = document.getElementById('xAxisLabels');
+  xLabels.innerHTML = '';
   for (let k = 0; k < nTicks; k++) {
     const frac = k / (nTicks - 1);
     const ts = firstTs + frac * tSpan;
     const x = frac * plotW + PADX;
     const dateStr = new Date(ts).toISOString().slice(0, 7);  // YYYY-MM
-    const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    t.setAttribute('x', x);
-    t.setAttribute('y', H - 18);
-    t.setAttribute('text-anchor', k === 0 ? 'start' : (k === nTicks - 1 ? 'end' : 'middle'));
-    t.setAttribute('font-size', '9');
-    t.setAttribute('font-family', 'ui-monospace,Menlo,Consolas,monospace');
-    t.setAttribute('fill', '#8b949e');
-    t.textContent = dateStr;
-    svg.appendChild(t);
+    const span = document.createElement('span');
+    span.className = 'x-tick' + (k === 0 ? ' start' : (k === nTicks - 1 ? ' end' : ''));
+    span.style.left = (x / W * 100) + '%';
+    span.textContent = dateStr;
+    xLabels.appendChild(span);
     const tk = document.createElementNS('http://www.w3.org/2000/svg', 'line');
     tk.setAttribute('x1', x); tk.setAttribute('x2', x);
     tk.setAttribute('y1', H - PADY_BOT); tk.setAttribute('y2', H - PADY_BOT + 3);
     tk.setAttribute('stroke', '#8b949e'); tk.setAttribute('stroke-width', '0.7');
     svg.appendChild(tk);
+  }
+  // Selected-date label (was an SVG text — now HTML overlay). Clamp horizontally
+  // so the label never overflows the chart-wrap on either edge.
+  {
+    const xSel = xAtDate(selectedDailyDate);
+    const sel = document.createElement('span');
+    sel.className = 'x-selected';
+    const pct = xSel / W * 100;
+    sel.style.left = pct + '%';
+    // Anchor depending on proximity to edges so the label sits inside the chart.
+    if (pct < 12)       sel.style.transform = 'translateX(0)';
+    else if (pct > 88)  sel.style.transform = 'translateX(-100%)';
+    else                sel.style.transform = 'translateX(-50%)';
+    sel.textContent = selectedDailyDate;
+    xLabels.appendChild(sel);
   }
   const base = document.createElementNS('http://www.w3.org/2000/svg', 'line');
   base.setAttribute('x1', PADX); base.setAttribute('x2', W - PADX);
