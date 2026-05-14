@@ -1,0 +1,65 @@
+name: monthly-breadth-refresh
+
+# Once a month, re-download the Nasdaq Trader symbol files, rebuild the
+# common-stock universe (picks up new listings, drops delistings), and fetch
+# full daily history for any new ticker that wasn't in the old universe.
+# Then rebuild the breadth series + fund proxy off the refreshed panel.
+#
+# `ww breadth fetch --refresh-symbols` is the heavy variant — it triggers the
+# symbol-list re-download and the panel re-fetch. The daily-gmi workflow only
+# runs `ww breadth update` (incremental, last ~month of bars for the existing
+# universe), so without this monthly job the universe would slowly diverge
+# from reality (new IPOs unseen, delisted names lingering).
+#
+# This job ONLY refreshes the shared cache; it does not redeploy the site.
+# The next daily-gmi run (weekday 22:00 UTC after the close) will restore the
+# updated cache and pick up the new universe automatically.
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'   # 06:00 UTC on the 1st of each month (Sat-friendly)
+  workflow_dispatch:       # also allow manual runs from the Actions tab
+
+permissions:
+  contents: read
+
+# Don't fight a concurrent daily-gmi run for the shared cache.
+concurrency:
+  group: 'breadth-cache'
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90   # full panel re-fetch took ~30 min on first run; new-tickers-only should be a few minutes
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v3
+
+      - name: Sync deps
+        run: uv sync --frozen
+
+      - name: Restore breadth + OHLC cache
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/breadth
+            data/backtest
+          key: breadth-cache-v1-${{ github.run_id }}
+          restore-keys: |
+            breadth-cache-v1-
+
+      - name: Refresh symbol list + fetch any new tickers' full history
+        run: uv run ww breadth fetch --refresh-symbols
+        env:
+          PYTHONUNBUFFERED: '1'
+
+      - name: Rebuild breadth series + fund proxy off the refreshed panel
+        run: uv run ww breadth build
+        env:
+          PYTHONUNBUFFERED: '1'
+
+      - name: Summarise the refresh
+        run: uv run ww breadth show

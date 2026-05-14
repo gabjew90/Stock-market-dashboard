@@ -90,6 +90,14 @@ delta, rebuilds the GMI playground HTML and the wiki HTML, stages both plus
 `web/pulse.html` into `_site/`, and deploys via Pages. First-run bootstrap
 (`ww breadth fetch && ww breadth build`) only fires when the cache is empty.
 
+A companion [`monthly-breadth-refresh`](.github/workflows/monthly-breadth-refresh.yml)
+workflow fires on the 1st of each month at 06:00 UTC. It runs the heavier
+`ww breadth fetch --refresh-symbols` to re-download the Nasdaq Trader
+symbol files, rebuild the common-stock universe (picks up new listings,
+drops delistings), fetch full history for any new ticker, and recompute the
+breadth series. The next daily-gmi run after the refresh picks up the
+updated cache automatically.
+
 The price cache (`data/backtest/prices.parquet`) self-validates: each ticker
 must have ≥ 5 non-NaN values in its most recent 60 trading days, otherwise
 `_ensure_prices` refetches via yfinance with a per-ticker fallback. This is
