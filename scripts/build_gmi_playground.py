@@ -159,17 +159,30 @@ def build_payload() -> dict:
     # Day-N of QQQ short-term trend (QQQ vs 30d daily SMA — the 95%-fit proxy)
     daily_above_30d = (qqq > sma30)
     day_count, side = _streak_and_state(daily_above_30d)
-    # The close on Day 1 of the current trend (i.e., (day_count - 1) bars back from this date)
+    # Track Day-1 close for QQQ + the two leveraged ETFs (TQQQ 3×, SQQQ -3×) so the user can
+    # see the actual % move since Day 1 in each vehicle.
     qq_vals = qqq.values
+    tq_series = prices["TQQQ"].reindex(idx).ffill() if "TQQQ" in prices.columns else pd.Series(np.nan, index=idx)
+    sq_series = prices["SQQQ"].reindex(idx).ffill() if "SQQQ" in prices.columns else pd.Series(np.nan, index=idx)
+    tq_vals = tq_series.values
+    sq_vals = sq_series.values
     day1_close_arr = np.empty(len(qq_vals))
     day1_date_arr = np.empty(len(qq_vals), dtype=object)
+    day1_tq_arr = np.empty(len(qq_vals))
+    day1_sq_arr = np.empty(len(qq_vals))
     for i, dn in enumerate(day_count.values):
         j = max(0, i - (int(dn) - 1))
         day1_close_arr[i] = qq_vals[j]
         day1_date_arr[i] = qqq.index[j].strftime("%Y-%m-%d")
+        day1_tq_arr[i] = tq_vals[j]
+        day1_sq_arr[i] = sq_vals[j]
     day1_close = pd.Series(day1_close_arr, index=qqq.index)
     day1_date = pd.Series(day1_date_arr, index=qqq.index)
+    day1_tq = pd.Series(day1_tq_arr, index=qqq.index)
+    day1_sq = pd.Series(day1_sq_arr, index=qqq.index)
     ret_since_day1 = (qqq / day1_close - 1.0) * 100
+    ret_since_day1_tq = (tq_series / day1_tq - 1.0) * 100
+    ret_since_day1_sq = (sq_series / day1_sq - 1.0) * 100
 
     # Weinstein stage
     stage = _weinstein_stage(qqq, sma_10wk, sma_30wk)
@@ -197,6 +210,8 @@ def build_payload() -> dict:
         "d1c": day1_close.round(2),
         "d1d": day1_date,
         "rd1": ret_since_day1.round(2),
+        "rd1_tq": ret_since_day1_tq.round(2),
+        "rd1_sq": ret_since_day1_sq.round(2),
         "s10_total": bs["s10_total"].astype(int),
         "s10_higher": bs["s10_higher"].astype(int),
         "new_highs": bs["nasdaq_new_52w_highs"].astype(int),
@@ -290,6 +305,8 @@ def build_payload() -> dict:
             "d1c": None if np.isnan(r["d1c"]) else float(r["d1c"]),
             "d1d": r["d1d"],
             "rd1": None if np.isnan(r["rd1"]) else float(r["rd1"]),
+            "rd1tq": None if np.isnan(r["rd1_tq"]) else float(r["rd1_tq"]),
+            "rd1sq": None if np.isnan(r["rd1_sq"]) else float(r["rd1_sq"]),
             "n10t": int(r["s10_total"]) if not np.isnan(r["s10_total"]) else 0,
             "n10h": int(r["s10_higher"]) if not np.isnan(r["s10_higher"]) else 0,
             "nh": int(r["new_highs"]) if not np.isnan(r["new_highs"]) else 0,
@@ -574,9 +591,11 @@ TEMPLATE = r"""<!doctype html>
     <table class="fwd">
       <tbody>
         <tr><td>Day 1 of current ST trend</td><td id="sd1d">—</td></tr>
-        <tr><td>Day 1 close</td><td id="sd1c">—</td></tr>
+        <tr><td>Day 1 close (QQQ)</td><td id="sd1c">—</td></tr>
         <tr><td>Days elapsed</td><td id="sdn">—</td></tr>
-        <tr><td><b>Return since Day 1</b></td><td id="srd1">—</td></tr>
+        <tr><td><b>QQQ since Day 1</b></td><td id="srd1">—</td></tr>
+        <tr><td>TQQQ since Day 1</td><td id="srd1tq">—</td></tr>
+        <tr><td>SQQQ since Day 1</td><td id="srd1sq">—</td></tr>
       </tbody>
     </table>
   </div>
@@ -836,6 +855,31 @@ function drawSpark(centerIdx) {
   if (!daily && maOn.w30) plotLine("m30", MA_COLORS.w30, 1.6, 0.9);
   if (!daily && maOn.w10) plotLine("m10", MA_COLORS.w10, 1.4, 0.85);
 
+  // ===== Value labels at the right edge of each visible MA line =====
+  // Show the latest MA value next to where the line terminates, in the MA's own colour.
+  function labelAt(x, y, text, color) {
+    const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    t.setAttribute('x', x);
+    t.setAttribute('y', y);
+    t.setAttribute('font-size', '10');
+    t.setAttribute('font-family', 'ui-monospace,Menlo,Consolas,monospace');
+    t.setAttribute('fill', color);
+    t.setAttribute('font-weight', '600');
+    t.setAttribute('text-anchor', 'end');
+    t.textContent = text;
+    svg.appendChild(t);
+  }
+  const lastBar = slice[slice.length - 1];
+  const rightX = W - PADX - 2;
+  if (daily && maOn.m30 && lastBar.m30 != null) labelAt(rightX, yAt(lastBar.m30) - 3, `30d ${lastBar.m30.toFixed(0)}`, MA_COLORS.m30);
+  if (!daily && maOn.w10 && lastBar.m10 != null) labelAt(rightX, yAt(lastBar.m10) - 3, `10wk ${lastBar.m10.toFixed(0)}`, MA_COLORS.w10);
+  if (!daily && maOn.w30 && lastBar.m30 != null) labelAt(rightX, yAt(lastBar.m30) - 3, `30wk ${lastBar.m30.toFixed(0)}`, MA_COLORS.w30);
+  // QQQ close annotation on the last candle
+  if (maOn.qqq) {
+    const lastCl = daily ? lastBar.cl : lastBar.c;
+    if (lastCl != null) labelAt(rightX, yAt(lastCl) - 3, `QQQ ${lastCl.toFixed(0)}`, "#e6edf3");
+  }
+
   // ===== Candles =====
   if (maOn.qqq) {
     // Time-based bar width — derived from the avg inter-bar gap in the current slice so daily candles
@@ -1013,12 +1057,15 @@ function render(i) {
   document.getElementById('sd1d').textContent = r.d1d ? `${r.d1d} (ST ${r.sd === "up" ? "▲" : "▼"})` : "—";
   document.getElementById('sd1c').textContent = r.d1c != null ? "$" + r.d1c.toFixed(2) : "—";
   document.getElementById('sdn').textContent = r.dn ? `Day ${r.dn}` : "—";
-  const srd1 = document.getElementById('srd1');
-  if (r.rd1 == null) { srd1.textContent = "—"; srd1.className = "nv"; }
-  else {
-    srd1.textContent = (r.rd1 >= 0 ? "+" : "") + r.rd1.toFixed(2) + "%";
-    srd1.className = r.rd1 >= 0 ? "pos" : "neg";
+  function setPct(id, v) {
+    const el = document.getElementById(id);
+    if (v == null) { el.textContent = "—"; el.className = "nv"; return; }
+    el.textContent = (v >= 0 ? "+" : "") + v.toFixed(2) + "%";
+    el.className = v >= 0 ? "pos" : "neg";
   }
+  setPct('srd1', r.rd1);
+  setPct('srd1tq', r.rd1tq);
+  setPct('srd1sq', r.rd1sq);
 
   drawSpark(i);
 }
