@@ -7,7 +7,9 @@ file with everything embedded as JSON.
 from __future__ import annotations
 
 import json
+from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import numpy as np
 import pandas as pd
@@ -465,6 +467,8 @@ TEMPLATE = r"""<!doctype html>
   .wrap { max-width: 820px; margin: 0 auto; padding: 16px; }
   h1 { font-size: 20px; margin: 0 0 4px; font-weight: 600; }
   h1 .sub { color: var(--muted); font-weight: 400; font-size: 13px; margin-left: 8px; }
+  .last-updated { color: var(--muted); font-family: var(--mono); font-size: 11px;
+    margin: 0 0 14px; letter-spacing: -0.01em; }
   .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 14px; margin: 12px 0; }
   .small { color: var(--muted); font-size: 11px; font-family: var(--mono); }
 
@@ -682,6 +686,7 @@ TEMPLATE = r"""<!doctype html>
 </nav>
 <div class="wrap">
   <h1>Market Trend<span class="sub">QQQ short-term &amp; Weinstein-stage state</span></h1>
+  <div class="last-updated" id="lastUpdated">—</div>
 
   <!-- 1. GMI + T2108 — the headline market-state panel. Two cards side-by-side. -->
   <div class="state-row">
@@ -798,6 +803,17 @@ const DATA = __DATA__;
 const ROWS = DATA.rows;
 const WEEKLY = DATA.weekly || [];
 const LONG_TRENDS = DATA.long_trends || [];
+
+// Surface when the data was last refreshed (build timestamp, in US Eastern).
+// The daily-gmi workflow fires after the US close, so this is also how fresh
+// today's GMI / T2108 / chart / Since-Day-1 numbers are.
+{
+  const el = document.getElementById('lastUpdated');
+  if (el && DATA.built_at) {
+    const asof = DATA.asof ? String(DATA.asof).slice(0, 10) : null;
+    el.textContent = `Last updated ${DATA.built_at}` + (asof ? ` · data through ${asof}` : '');
+  }
+}
 
 let VIEW = "daily";  // "daily" or "weekly"
 
@@ -1502,12 +1518,25 @@ setIndex(ROWS.length - 1);
 """
 
 
+def _format_et_now() -> str:
+    """Return a human-readable build timestamp in US Eastern time, formatted
+    like 'May 15, 2026 5:42 PM ET'. Eastern picks up DST automatically via
+    America/New_York. Built cross-platform — %-d / %#d behaviour differs
+    between POSIX and Windows so we compose the parts by hand."""
+    now_et = datetime.now(timezone.utc).astimezone(ZoneInfo("America/New_York"))
+    hour12 = now_et.hour % 12 or 12
+    ampm = "AM" if now_et.hour < 12 else "PM"
+    month = now_et.strftime("%b")
+    return f"{month} {now_et.day}, {now_et.year} {hour12}:{now_et.minute:02d} {ampm} ET"
+
+
 def main() -> None:
     payload = build_payload()
-    out = TEMPLATE.replace("__DATA__", json.dumps(payload, separators=(",", ":")))
+    payload["built_at"] = _format_et_now()
+    out = TEMPLATE.replace("__DATA__", json.dumps(payload, separators=(",", ":"), default=str))
     target = ROOT / "gmi_playground_daily.html"
     target.write_text(out, encoding="utf-8")
-    print(f"wrote {target} — {len(out):,} bytes — {len(payload['rows'])} rows — asof {payload['asof']}")
+    print(f"wrote {target} — {len(out):,} bytes — {len(payload['rows'])} rows — asof {payload['asof']} — built {payload['built_at']}")
 
 
 if __name__ == "__main__":
