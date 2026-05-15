@@ -133,6 +133,7 @@ def _weinstein_stage(
     w30: pd.Series,
     slope_window_weeks: int = 8,
     rising_threshold_pct: float = 1.0,
+    shallow_pullback_pct: float = 5.0,
 ) -> pd.Series:
     """Stage 1/2/3/4 per Stan Weinstein, calibrated to Dr. Wish's actual usage
     (see wiki/methodology/moving-average-rules.md):
@@ -162,6 +163,14 @@ def _weinstein_stage(
     """
     above_30wk = qqq > w30
     ten_above_thirty = w10 > w30
+    # Depth qualifier: how far below the 30wk did price drop? A pullback within
+    # `shallow_pullback_pct` of the 30wk (~5%) can stay Stage 1; anything deeper
+    # is treated as a Stage-3 warning even before the slope flips. A 5-day
+    # rolling-OR adds light hysteresis so a single rally day doesn't flip the
+    # call back to Stage 1 while the trajectory is still down.
+    deep_today = qqq < w30 * (1.0 - shallow_pullback_pct / 100.0)
+    deep_recent = deep_today.rolling(5, min_periods=1).max().astype(bool)
+    shallow_below = ~deep_recent
 
     # Weekly-cadence slope: deduplicate the daily-ffilled w30 back to one row per
     # actual weekly update, compare today's value to N weekly bars ago in %,
@@ -171,11 +180,22 @@ def _weinstein_stage(
     slope_rising_weekly = (slope_pct_weekly > rising_threshold_pct).fillna(False)
     slope_rising = slope_rising_weekly.reindex(qqq.index, method="ffill").fillna(False).astype(bool)
 
+    # Mapping forces Stage 3 between Stage 2 and Stage 4 whenever the move has
+    # any depth or momentum-loss. Three signals can fire Stage 3 from below the
+    # 30wk: slope no longer rising, OR a deep pullback >shallow_pullback_pct.
+    # Stage 1 is reserved for the SHALLOW pullback inside a still-rising 30wk
+    # (the classic Aug-2024 V-shape: -3% below the rising line, 10wk still above
+    # 30wk, recovered within days).
     stage = pd.Series(0, index=qqq.index, dtype=int)
-    stage[above_30wk & slope_rising] = 2
-    stage[above_30wk & ~slope_rising] = 3
+    # Above 30wk
+    stage[above_30wk & slope_rising] = 2     # clean uptrend
+    stage[above_30wk & ~slope_rising] = 3    # topping above the line
+    # Below 30wk + 10wk still above 30wk (10/30 cross hasn't fired yet)
+    stage[~above_30wk & ten_above_thirty & slope_rising & shallow_below] = 1   # shallow pullback in uptrend
+    stage[~above_30wk & ten_above_thirty & slope_rising & ~shallow_below] = 3  # deep drawdown — Stage 4 setup
+    stage[~above_30wk & ten_above_thirty & ~slope_rising] = 3                  # slope decelerating — Stage 4 setup
+    # Below 30wk + 10wk has crossed below 30wk = confirmed decline
     stage[~above_30wk & ~ten_above_thirty] = 4
-    stage[~above_30wk & ten_above_thirty] = 1
     return stage
 
 
