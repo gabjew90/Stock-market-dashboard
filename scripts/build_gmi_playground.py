@@ -89,14 +89,16 @@ def _ensure_prices(tickers=("QQQ", "SPY", "TQQQ", "SQQQ"), max_age_days: int = 0
 
 def fetch_qqq_ohlc() -> pd.DataFrame:
     """Fetch QQQ OHLC from yfinance with split/dividend adjustment so all four series are on the same scale,
-    cached. Returns a DataFrame indexed by date with open/high/low/close columns."""
+    cached. Returns a DataFrame indexed by date with open/high/low/close columns. Refreshes whenever the
+    cache's last row is from before today (matches prices.parquet's daily-fresh discipline so the candle
+    for today doesn't lag behind the price series and end up forward-filled in the merge)."""
     import yfinance as yf
     if QQQ_OHLC_CACHE.exists():
         cached = pd.read_parquet(QQQ_OHLC_CACHE)
         cached.index = pd.to_datetime(cached.index)
-        fresh_enough = (pd.Timestamp.today().normalize() - cached.index.max()).days <= 3
+        age = (pd.Timestamp.today().normalize() - cached.index.max()).days
         has_volume = "volume" in cached.columns
-        if fresh_enough and has_volume:
+        if age <= 0 and has_volume:
             return cached
     # auto_adjust=True → OHLC are all back-adjusted for dividends/splits, so the candle bodies and the MAs
     # (computed from prices.parquet's adj close) sit on the same scale.
@@ -219,7 +221,13 @@ def build_payload() -> dict:
 
     # QQQ OHLC for the chart (cached, auto-adjusted so all four series sit on the same scale as the MAs)
     print("fetching QQQ OHLC…")
-    ohlc = fetch_qqq_ohlc().reindex(idx).ffill()
+    # Reindex OHLC to the daily index WITHOUT forward-fill: candle bodies must
+    # reflect the actual session's prints, not the prior day's copied forward.
+    # If the OHLC cache lags prices.parquet by a day (e.g. an aborted refetch),
+    # the merge previously left today's row with yesterday's o/h/l/cl, so the
+    # candle rendered green-when-red. Leaving NaN here makes the renderer skip
+    # the candle until real OHLC arrives.
+    ohlc = fetch_qqq_ohlc().reindex(idx)
     qopen = ohlc["open"]
     qhigh = ohlc["high"]
     qlow = ohlc["low"]
