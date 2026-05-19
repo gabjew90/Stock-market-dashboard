@@ -71,14 +71,14 @@ jobs:
           set -o pipefail
           uv run python scripts/build_gmi_playground.py 2>&1 | tee build_gmi.log
 
-      - name: Upload build log on failure
-        if: failure()
+      - name: Upload build log (every run, success or failure)
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: build-gmi-log
           path: build_gmi.log
           if-no-files-found: ignore
-          retention-days: 7
+          retention-days: 14
 
       - name: Rebuild wiki HTML
         run: uv run --with markdown --with pygments python scripts/build_wiki_html.py
