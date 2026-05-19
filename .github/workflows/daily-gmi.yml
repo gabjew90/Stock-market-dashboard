@@ -1,10 +1,17 @@
 name: daily-gmi
 
 # Rebuild the GMI playground every weekday after the US market close and publish to GitHub Pages.
+# Three cron times so today's data still lands even if GitHub Actions delays the primary slot
+# (we observed 55-min slippage on 2026-05-15 and a complete miss on 2026-05-19 — scheduled
+# workflows can be queued behind interactive jobs for hours during peak load). The build is
+# idempotent: when a later cron fires after an earlier one already deployed today's data, it
+# simply rebuilds and redeploys the same numbers — harmless. When it fires AFTER a missed
+# primary, it's the lifeline that gets today's bar on the site by ~9 PM ET.
 on:
   schedule:
-    # 22:00 UTC weekdays  ≈ 5–6pm ET (after the close)
-    - cron: '0 22 * * 1-5'
+    - cron: '0 22 * * 1-5'    # 22:00 UTC weekday — primary (≈ 6 PM ET EDT / 5 PM EST)
+    - cron: '30 23 * * 1-5'   # 23:30 UTC weekday — backup (~90 min after primary)
+    - cron: '0 1 * * 2-6'     # 01:00 UTC Tue-Sat  — emergency (≈ 9 PM Mon-Fri ET; UTC day shifts +1)
   workflow_dispatch:   # also allow manual runs from the Actions tab
   push:
     branches: [main]
