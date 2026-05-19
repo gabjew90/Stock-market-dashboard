@@ -52,20 +52,31 @@ def _ensure_prices(tickers=("QQQ", "SPY", "TQQQ", "SQQQ"), max_age_days: int = 0
             return True, f"data is {age} days old (max {max_age_days})"
         return False, ""
 
+    cached: pd.DataFrame | None = None
     if PRICES_CACHE.exists():
-        df = pd.read_parquet(PRICES_CACHE)
-        df.index = pd.to_datetime(df.index)
-        is_bad, reason = _bad(df)
+        cached = pd.read_parquet(PRICES_CACHE)
+        cached.index = pd.to_datetime(cached.index)
+        is_bad, reason = _bad(cached)
         if not is_bad:
-            return df
+            return cached
         print(f"prices cache invalid — refetching ({reason})…")
 
     import yfinance as yf
     print(f"fetching {tickers} via yfinance…")
-    raw = yf.download(list(tickers), interval="1d", period="max",
-                      auto_adjust=False, group_by="ticker", progress=False, threads=True)
-    out = {}
+    # Batch download in a try/except so a network error or yfinance API issue
+    # doesn't crash the whole build — falls through to per-ticker history calls.
+    raw = None
+    try:
+        raw = yf.download(list(tickers), interval="1d", period="max",
+                          auto_adjust=False, group_by="ticker", progress=False, threads=True)
+    except Exception as e:
+        print(f"  yf.download raised {type(e).__name__}: {e}; will use per-ticker fallback for all tickers…")
+
+    out: dict[str, pd.Series] = {}
     for t in tickers:
+        if raw is None or getattr(raw, "empty", True):
+            out[t] = pd.Series(dtype=float)
+            continue
         try:
             sub = raw[t] if isinstance(raw.columns, pd.MultiIndex) else raw
             col = "Adj Close" if "Adj Close" in sub.columns else "Close"
@@ -76,12 +87,24 @@ def _ensure_prices(tickers=("QQQ", "SPY", "TQQQ", "SQQQ"), max_age_days: int = 0
     for t in tickers:
         if out[t].dropna().tail(5).shape[0] < 5:
             print(f"  batch download missing recent data for {t}; falling back to per-ticker fetch…")
-            tk = yf.Ticker(t).history(period="max", auto_adjust=False)
-            if not tk.empty:
-                col = "Adj Close" if "Adj Close" in tk.columns else "Close"
-                out[t] = tk[col].astype(float)
+            try:
+                tk = yf.Ticker(t).history(period="max", auto_adjust=False)
+                if not tk.empty:
+                    col = "Adj Close" if "Adj Close" in tk.columns else "Close"
+                    out[t] = tk[col].astype(float)
+            except Exception as e:
+                print(f"    per-ticker fetch for {t} raised {type(e).__name__}: {e}")
     df = pd.DataFrame(out).dropna(how="all")
-    df.index = pd.to_datetime(df.index).tz_localize(None) if df.index.tz is not None else pd.to_datetime(df.index)
+    df.index = pd.to_datetime(df.index)
+    if df.index.tz is not None:
+        df.index = df.index.tz_localize(None)
+    # Don't overwrite a known-good cache with one that's empty or older than what we already have.
+    # Without this guard a yfinance outage would corrupt the cache permanently (until validation
+    # caught the all-NaN column, which can take a while if the fresh data has SOME values).
+    if cached is not None and (df.empty or df.index.max() < cached.index.max()):
+        print(f"  refetched data ({len(df)} rows, ends {df.index.max() if not df.empty else 'EMPTY'}) "
+              f"is worse than cached ({len(cached)} rows, ends {cached.index.max().date()}); keeping cache")
+        return cached
     PRICES_CACHE.parent.mkdir(parents=True, exist_ok=True)
     df.to_parquet(PRICES_CACHE)
     return df
@@ -1570,12 +1593,39 @@ def _format_et_now() -> str:
 
 
 def main() -> None:
-    payload = build_payload()
-    payload["built_at"] = _format_et_now()
-    out = TEMPLATE.replace("__DATA__", json.dumps(payload, separators=(",", ":"), default=str))
-    target = ROOT / "gmi_playground_daily.html"
-    target.write_text(out, encoding="utf-8")
-    print(f"wrote {target} — {len(out):,} bytes — {len(payload['rows'])} rows — asof {payload['asof']} — built {payload['built_at']}")
+    # Diagnostic header so a CI failure shows env + cache state up front.
+    import sys, platform
+    print(f"build env: python={sys.version.split()[0]} platform={platform.system()}")
+    try:
+        import pandas as _pd
+        import yfinance as _yf
+        print(f"  pandas={_pd.__version__}  yfinance={_yf.__version__}")
+    except Exception as e:
+        print(f"  (lib version probe failed: {e})")
+    for label, p in [("prices.parquet", PRICES_CACHE), ("qqq_ohlc.parquet", QQQ_OHLC_CACHE),
+                     ("breadth_series.parquet", ROOT / "data" / "breadth" / "breadth_series.parquet")]:
+        if p.exists():
+            try:
+                _df = pd.read_parquet(p)
+                _df.index = pd.to_datetime(_df["date"]) if "date" in _df.columns else pd.to_datetime(_df.index)
+                print(f"  {label}: {len(_df)} rows, ends {_df.index.max().date() if len(_df) else '(empty)'}")
+            except Exception as e:
+                print(f"  {label}: read failed ({type(e).__name__}: {e})")
+        else:
+            print(f"  {label}: MISSING")
+
+    try:
+        payload = build_payload()
+        payload["built_at"] = _format_et_now()
+        out = TEMPLATE.replace("__DATA__", json.dumps(payload, separators=(",", ":"), default=str))
+        target = ROOT / "gmi_playground_daily.html"
+        target.write_text(out, encoding="utf-8")
+        print(f"wrote {target} — {len(out):,} bytes — {len(payload['rows'])} rows — asof {payload['asof']} — built {payload['built_at']}")
+    except Exception:
+        import traceback
+        print("\n*** build_gmi_playground.py FAILED — full traceback follows ***", file=sys.stderr)
+        traceback.print_exc()
+        raise
 
 
 if __name__ == "__main__":
