@@ -693,6 +693,24 @@ TEMPLATE = r"""<!doctype html>
     .x-axis-labels .x-tick { font-size: 10px; }
     .x-axis-labels .x-selected { font-size: 11px; }
   }
+  /* Top-left stat overlay — dynamic values for the selected date, OFF the
+     candles. Replaces the line-anchored pills that used to crowd the right
+     side of the chart. */
+  .stat-overlay { position: absolute; top: 8px; left: 10px;
+    display: flex; flex-direction: column; gap: 1px;
+    font-family: var(--mono); font-size: 12px;
+    background: rgba(13,17,23,0.78); padding: 6px 10px;
+    border-radius: 6px; border: 1px solid rgba(48,54,61,0.55);
+    pointer-events: none; }
+  .stat-overlay .stat-row { display: flex; justify-content: space-between;
+    align-items: baseline; gap: 14px; min-width: 86px; line-height: 1.35; }
+  .stat-overlay .stat-row .label { color: var(--muted); font-weight: 500; font-size: 11px; }
+  .stat-overlay .stat-row .val { font-weight: 600; text-align: right; }
+  @media (max-width: 480px) {
+    .stat-overlay { top: 6px; left: 6px; padding: 5px 8px; font-size: 11px; }
+    .stat-overlay .stat-row { min-width: 78px; gap: 10px; }
+    .stat-overlay .stat-row .label { font-size: 10px; }
+  }
   .drag-hint { font-style: italic; flex: 1; text-align: right; opacity: 0.7; }
   .chart-header { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 4px; }
   .red-chip { display: inline-flex; align-items: center; gap: 5px; padding: 3px 9px; border-radius: 999px;
@@ -856,6 +874,7 @@ TEMPLATE = r"""<!doctype html>
     </div>
     <div class="chart-wrap">
       <svg class="spark" id="spark" viewBox="0 0 800 240" preserveAspectRatio="none"></svg>
+      <div class="stat-overlay" id="statOverlay"></div>
       <div class="x-axis-labels" id="xAxisLabels"></div>
     </div>
     <div class="legend" id="legend">
@@ -1357,34 +1376,11 @@ function drawSpark(centerIdx, markerIdx) {
     svg.appendChild(vline);
     // Bottom selected-date label is rendered as HTML inside .x-axis-labels — see below.
 
-    // ===== Dynamic value labels next to the dashed line at the SELECTED date =====
-    // Each label is a small pill (bg + text) just to the right of the dashed line, at the y of
-    // that line's value on the selected date. Updates whenever the slider moves.
-    function valuePill(yVal, text, color, opts) {
-      if (yVal == null || isNaN(yVal)) return;
-      opts = opts || {};
-      const yMax = opts.allowVolBand ? (H - PADY_BOT - 4) : (H - PADY_BOT - VOL_H - 4);
-      const tw = text.length * 6.8 + 10;  // approx width @ 11px font
-      const th = 15;
-      const ty = Math.max(11, Math.min(yMax, yVal));
-      // Choose left/right side depending on space available
-      const goLeft = (x + tw + 4) > (W - PADX);
-      const px = goLeft ? (x - tw - 4) : (x + 4);
-      const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-      rect.setAttribute('x', px); rect.setAttribute('y', ty - th / 2);
-      rect.setAttribute('width', tw); rect.setAttribute('height', th);
-      rect.setAttribute('rx', 3);
-      rect.setAttribute('fill', 'rgba(13,17,23,0.9)');
-      rect.setAttribute('stroke', color); rect.setAttribute('stroke-width', '0.8');
-      svg.appendChild(rect);
-      const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-      t.setAttribute('x', px + tw / 2); t.setAttribute('y', ty + 4);
-      t.setAttribute('text-anchor', 'middle'); t.setAttribute('font-size', '11');
-      t.setAttribute('font-family', 'ui-monospace,Menlo,Consolas,monospace');
-      t.setAttribute('font-weight', '600'); t.setAttribute('fill', color);
-      t.textContent = text;
-      svg.appendChild(t);
-    }
+    // ===== Top-left stat overlay (HTML, not SVG) =====
+    // Replaces the per-line value pills that used to crowd the dashed-line on the
+    // right side of the chart. Stacked rows in the top-left corner, off the
+    // candle/volume body. Normal CSS sizing so labels don't get compressed by the
+    // SVG's preserveAspectRatio="none" stretch on mobile.
     function fmtVol(v) {
       if (v == null) return null;
       if (v >= 1e9) return (v / 1e9).toFixed(2) + 'B';
@@ -1392,18 +1388,29 @@ function drawSpark(centerIdx, markerIdx) {
       if (v >= 1e3) return (v / 1e3).toFixed(1) + 'K';
       return String(v);
     }
-    // QQQ close at selected date (always show — it's the main price)
+    const statOverlay = document.getElementById('statOverlay');
+    statOverlay.innerHTML = '';
+    function addStat(label, val, color) {
+      if (val == null) return;
+      const row = document.createElement('div');
+      row.className = 'stat-row';
+      const colorStyle = color ? ` style="color:${color}"` : '';
+      row.innerHTML = `<span class="label">${label}</span><span class="val"${colorStyle}>${val}</span>`;
+      statOverlay.appendChild(row);
+    }
     const qClose = daily ? selDaily.cl : (selWeekly && selWeekly.c);
-    if (qClose != null) valuePill(yAt(qClose), `Q ${qClose.toFixed(0)}`, "#58a6ff");
-    if (daily && maOn.m30 && selDaily.m30 != null) valuePill(yAt(selDaily.m30), `30d ${selDaily.m30.toFixed(0)}`, MA_COLORS.m30);
-    if (!daily && maOn.w10 && selWeekly && selWeekly.m10 != null) valuePill(yAt(selWeekly.m10), `10w ${selWeekly.m10.toFixed(0)}`, MA_COLORS.w10);
-    if (!daily && maOn.w30 && selWeekly && selWeekly.m30 != null) valuePill(yAt(selWeekly.m30), `30w ${selWeekly.m30.toFixed(0)}`, MA_COLORS.w30);
-    // Volume pill — anchored at the top of the volume band, color-matched to candle direction
+    addStat('Q',   qClose != null ? qClose.toFixed(0) : null, "#e6edf3");
+    if (daily && maOn.m30 && selDaily.m30 != null)
+      addStat('30d', selDaily.m30.toFixed(0), MA_COLORS.m30);
+    if (!daily && maOn.w10 && selWeekly && selWeekly.m10 != null)
+      addStat('10w', selWeekly.m10.toFixed(0), MA_COLORS.w10);
+    if (!daily && maOn.w30 && selWeekly && selWeekly.m30 != null)
+      addStat('30w', selWeekly.m30.toFixed(0), MA_COLORS.w30);
     const vol = daily ? selDaily.v : (selWeekly && selWeekly.v);
     const oo = daily ? selDaily.o : (selWeekly && selWeekly.o);
     if (vol != null && qClose != null && oo != null) {
       const volColor = qClose >= oo ? "#2ea043" : "#f85149";
-      valuePill(volTopY + 6, `V ${fmtVol(vol)}`, volColor, { allowVolBand: true });
+      addStat('V', fmtVol(vol), volColor);
     }
   }
 
