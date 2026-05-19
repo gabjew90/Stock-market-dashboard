@@ -31,6 +31,34 @@ START = "2010-01-01"
 QQQ_OHLC_CACHE = ROOT / "data" / "backtest" / "qqq_ohlc.parquet"
 PRICES_CACHE = ROOT / "data" / "backtest" / "prices.parquet"
 
+# yfinance retry knobs. 3 attempts × 60s wait covers the typical 5-15 min
+# transient-flakiness window we saw on 2026-05-18→19 without blowing the CI
+# job's timeout. _yf_retry returns the first non-None / non-empty result.
+_YF_RETRY_ATTEMPTS = 3
+_YF_RETRY_WAIT_SECONDS = 60
+
+
+def _yf_retry(fetch_fn, label: str = "yfinance"):
+    """Run a yfinance fetch closure up to _YF_RETRY_ATTEMPTS times, sleeping
+    _YF_RETRY_WAIT_SECONDS between failed attempts. Returns the first non-None
+    result whose .empty (if it has one) is False; otherwise returns None.
+    Exceptions inside fetch_fn are caught and counted as failures."""
+    import time
+    for attempt in range(1, _YF_RETRY_ATTEMPTS + 1):
+        try:
+            result = fetch_fn()
+        except Exception as e:
+            print(f"  {label}: attempt {attempt}/{_YF_RETRY_ATTEMPTS} raised {type(e).__name__}: {e}")
+            result = None
+        if result is not None and (not hasattr(result, "empty") or not result.empty):
+            if attempt > 1:
+                print(f"  {label}: attempt {attempt} succeeded after earlier failure(s)")
+            return result
+        if attempt < _YF_RETRY_ATTEMPTS:
+            print(f"  {label}: attempt {attempt} returned empty/None; sleeping {_YF_RETRY_WAIT_SECONDS}s before retry…")
+            time.sleep(_YF_RETRY_WAIT_SECONDS)
+    return None
+
 
 def _ensure_prices(tickers=("QQQ", "SPY", "TQQQ", "SQQQ"), max_age_days: int = 0) -> pd.DataFrame:
     """Load `data/backtest/prices.parquet`; refetch via yfinance if the cache is
@@ -63,47 +91,60 @@ def _ensure_prices(tickers=("QQQ", "SPY", "TQQQ", "SQQQ"), max_age_days: int = 0
 
     import yfinance as yf
     print(f"fetching {tickers} via yfinance…")
-    # Batch download in a try/except so a network error or yfinance API issue
-    # doesn't crash the whole build — falls through to per-ticker history calls.
-    raw = None
-    try:
-        raw = yf.download(list(tickers), interval="1d", period="max",
-                          auto_adjust=False, group_by="ticker", progress=False, threads=True)
-    except Exception as e:
-        print(f"  yf.download raised {type(e).__name__}: {e}; will use per-ticker fallback for all tickers…")
 
-    out: dict[str, pd.Series] = {}
-    for t in tickers:
-        if raw is None or getattr(raw, "empty", True):
-            out[t] = pd.Series(dtype=float)
-            continue
+    def _do_one_attempt() -> pd.DataFrame | None:
+        # Batch download first, falling through to per-ticker fallback for any ticker
+        # the batch couldn't deliver. A network error in the batch isn't fatal — we
+        # try each ticker individually.
+        raw = None
         try:
-            sub = raw[t] if isinstance(raw.columns, pd.MultiIndex) else raw
-            col = "Adj Close" if "Adj Close" in sub.columns else "Close"
-            out[t] = sub[col].astype(float)
-        except (KeyError, AttributeError):
-            out[t] = pd.Series(dtype=float)
-    # Per-ticker fallback for anything the batch download silently dropped.
-    for t in tickers:
-        if out[t].dropna().tail(5).shape[0] < 5:
-            print(f"  batch download missing recent data for {t}; falling back to per-ticker fetch…")
+            raw = yf.download(list(tickers), interval="1d", period="max",
+                              auto_adjust=False, group_by="ticker", progress=False, threads=True)
+        except Exception as e:
+            print(f"  yf.download raised {type(e).__name__}: {e}; using per-ticker fallback for all tickers…")
+
+        out: dict[str, pd.Series] = {}
+        for t in tickers:
+            if raw is None or getattr(raw, "empty", True):
+                out[t] = pd.Series(dtype=float)
+                continue
             try:
-                tk = yf.Ticker(t).history(period="max", auto_adjust=False)
-                if not tk.empty:
-                    col = "Adj Close" if "Adj Close" in tk.columns else "Close"
-                    out[t] = tk[col].astype(float)
-            except Exception as e:
-                print(f"    per-ticker fetch for {t} raised {type(e).__name__}: {e}")
-    df = pd.DataFrame(out).dropna(how="all")
+                sub = raw[t] if isinstance(raw.columns, pd.MultiIndex) else raw
+                col = "Adj Close" if "Adj Close" in sub.columns else "Close"
+                out[t] = sub[col].astype(float)
+            except (KeyError, AttributeError):
+                out[t] = pd.Series(dtype=float)
+        for t in tickers:
+            if out[t].dropna().tail(5).shape[0] < 5:
+                print(f"  batch download missing recent data for {t}; falling back to per-ticker fetch…")
+                try:
+                    tk = yf.Ticker(t).history(period="max", auto_adjust=False)
+                    if not tk.empty:
+                        col = "Adj Close" if "Adj Close" in tk.columns else "Close"
+                        out[t] = tk[col].astype(float)
+                except Exception as e:
+                    print(f"    per-ticker fetch for {t} raised {type(e).__name__}: {e}")
+        # Only count this attempt as a success if EVERY ticker has fresh data.
+        # Otherwise return None so _yf_retry waits and tries again.
+        all_good = all(out[t].dropna().tail(5).shape[0] >= 5 for t in tickers)
+        if not all_good:
+            missing = [t for t in tickers if out[t].dropna().tail(5).shape[0] < 5]
+            print(f"  attempt incomplete — tickers still missing recent data: {missing}")
+            return None
+        return pd.DataFrame(out).dropna(how="all")
+
+    df = _yf_retry(_do_one_attempt, label="_ensure_prices")
+    if df is None:
+        if cached is not None:
+            print(f"  _ensure_prices: all retries failed — falling back to cached copy ending {cached.index.max().date()}")
+            return cached
+        raise RuntimeError("_ensure_prices: no cached prices and all yfinance retries failed")
     df.index = pd.to_datetime(df.index)
     if df.index.tz is not None:
         df.index = df.index.tz_localize(None)
-    # Don't overwrite a known-good cache with one that's empty or older than what we already have.
-    # Without this guard a yfinance outage would corrupt the cache permanently (until validation
-    # caught the all-NaN column, which can take a while if the fresh data has SOME values).
-    if cached is not None and (df.empty or df.index.max() < cached.index.max()):
-        print(f"  refetched data ({len(df)} rows, ends {df.index.max() if not df.empty else 'EMPTY'}) "
-              f"is worse than cached ({len(cached)} rows, ends {cached.index.max().date()}); keeping cache")
+    # Don't overwrite a known-good cache with one that's older than what we already have.
+    if cached is not None and df.index.max() < cached.index.max():
+        print(f"  refetched data ends {df.index.max().date()}, older than cache {cached.index.max().date()}; keeping cache")
         return cached
     PRICES_CACHE.parent.mkdir(parents=True, exist_ok=True)
     df.to_parquet(PRICES_CACHE)
@@ -154,15 +195,18 @@ def fetch_qqq_ohlc() -> pd.DataFrame:
             print(f"  fetch_qqq_ohlc: yf.Ticker.history raised {type(e).__name__}: {e}")
         return None
 
-    df = _try_fetch()
+    df = _yf_retry(_try_fetch, label="fetch_qqq_ohlc")
     if df is None:
         if cached is not None and "volume" in cached.columns:
-            print(f"  fetch_qqq_ohlc: all refetch paths failed — falling back to cached copy ending {cached.index.max().date()}")
+            print(f"  fetch_qqq_ohlc: all retries failed — falling back to cached copy ending {cached.index.max().date()}")
             return cached
-        raise RuntimeError("fetch_qqq_ohlc: no cached OHLC and yfinance refetch failed on both code paths")
+        raise RuntimeError("fetch_qqq_ohlc: no cached OHLC and all yfinance retries failed")
     df.index = pd.to_datetime(df.index)
     if df.index.tz is not None:
         df.index = df.index.tz_localize(None)
+    if cached is not None and df.index.max() < cached.index.max():
+        print(f"  fetch_qqq_ohlc: fresh data ends {df.index.max().date()}, older than cache {cached.index.max().date()}; keeping cache")
+        return cached
     df.to_parquet(QQQ_OHLC_CACHE)
     return df
 
