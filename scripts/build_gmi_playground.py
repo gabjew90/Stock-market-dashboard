@@ -88,27 +88,58 @@ def _ensure_prices(tickers=("QQQ", "SPY", "TQQQ", "SQQQ"), max_age_days: int = 0
 
 
 def fetch_qqq_ohlc() -> pd.DataFrame:
-    """Fetch QQQ OHLC from yfinance with split/dividend adjustment so all four series are on the same scale,
-    cached. Returns a DataFrame indexed by date with open/high/low/close columns. Refreshes whenever the
-    cache's last row is from before today (matches prices.parquet's daily-fresh discipline so the candle
-    for today doesn't lag behind the price series and end up forward-filled in the merge)."""
+    """Fetch QQQ OHLC from yfinance with split/dividend adjustment so all four
+    series are on the same scale. Cached at QQQ_OHLC_CACHE; refreshes whenever
+    the cache's last row is from before today (matches prices.parquet's
+    daily-fresh discipline). Robust to yfinance hiccups: a transient fetch
+    failure or empty response falls back to the cached copy rather than
+    aborting the whole build (the 2026-05-18 cron failure that left the live
+    site stale for a day was caused by a yfinance call returning an empty
+    frame here and the build crashing on the column subset)."""
     import yfinance as yf
+
+    cached: pd.DataFrame | None = None
     if QQQ_OHLC_CACHE.exists():
         cached = pd.read_parquet(QQQ_OHLC_CACHE)
         cached.index = pd.to_datetime(cached.index)
         age = (pd.Timestamp.today().normalize() - cached.index.max()).days
-        has_volume = "volume" in cached.columns
-        if age <= 0 and has_volume:
+        if age <= 0 and "volume" in cached.columns:
             return cached
-    # auto_adjust=True → OHLC are all back-adjusted for dividends/splits, so the candle bodies and the MAs
-    # (computed from prices.parquet's adj close) sit on the same scale.
-    df = yf.download("QQQ", start="1999-01-01", auto_adjust=True, progress=False)
-    if isinstance(df.columns, pd.MultiIndex):
-        df.columns = [c[0].lower() for c in df.columns]
-    else:
-        df.columns = [c.lower() for c in df.columns]
-    df = df[["open", "high", "low", "close", "volume"]].dropna()
+
+    def _try_fetch() -> pd.DataFrame | None:
+        # Primary: batch download. auto_adjust=True → OHLC back-adjusted for divs/splits.
+        try:
+            df = yf.download("QQQ", start="1999-01-01", auto_adjust=True, progress=False)
+            if isinstance(df.columns, pd.MultiIndex):
+                df.columns = [c[0].lower() for c in df.columns]
+            else:
+                df.columns = [c.lower() for c in df.columns]
+            if not df.empty and {"open", "high", "low", "close", "volume"} <= set(df.columns):
+                df = df[["open", "high", "low", "close", "volume"]].dropna()
+                if not df.empty:
+                    return df
+            print("  fetch_qqq_ohlc: yf.download returned empty/incomplete; trying yf.Ticker fallback…")
+        except Exception as e:
+            print(f"  fetch_qqq_ohlc: yf.download raised {type(e).__name__}: {e}; trying yf.Ticker fallback…")
+        # Fallback: per-ticker history call (different code path inside yfinance).
+        try:
+            tk = yf.Ticker("QQQ").history(period="max", auto_adjust=True)
+            tk.columns = [c.lower() for c in tk.columns]
+            if not tk.empty and {"open", "high", "low", "close", "volume"} <= set(tk.columns):
+                return tk[["open", "high", "low", "close", "volume"]].dropna()
+        except Exception as e:
+            print(f"  fetch_qqq_ohlc: yf.Ticker.history raised {type(e).__name__}: {e}")
+        return None
+
+    df = _try_fetch()
+    if df is None:
+        if cached is not None and "volume" in cached.columns:
+            print(f"  fetch_qqq_ohlc: all refetch paths failed — falling back to cached copy ending {cached.index.max().date()}")
+            return cached
+        raise RuntimeError("fetch_qqq_ohlc: no cached OHLC and yfinance refetch failed on both code paths")
     df.index = pd.to_datetime(df.index)
+    if df.index.tz is not None:
+        df.index = df.index.tz_localize(None)
     df.to_parquet(QQQ_OHLC_CACHE)
     return df
 
