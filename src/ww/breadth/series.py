@@ -72,7 +72,10 @@ def compute_breadth_series(panel_dir: Path, universe: pd.DataFrame, *, min_date:
         a = ma.loc[:, m.columns]
         above = (c > a) & m
         denom = m.sum(axis=1)
-        return (100.0 * above.sum(axis=1) / denom.replace(0, np.nan)).fillna(0.0)
+        # Leave NaN where the (sub-)universe is empty — a 0/0 here is "no data," not "0% above."
+        # Coercing it to 0.0 used to read out as T2108=0 on the dashboard when NYSE bars were
+        # missing for the day but the broader universe still had rows.
+        return 100.0 * above.sum(axis=1) / denom.replace(0, np.nan)
 
     def _count_n(in_uni: pd.DataFrame, cols_mask: pd.Series | None = None) -> pd.Series:
         m = in_uni.loc[:, cols_mask.index[cols_mask]] if cols_mask is not None else in_uni
