@@ -3,194 +3,368 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>News &amp; Macro · Stock market dashboard</title>
+<title>Research · Stock market dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  /* === Palette + base styles (mirror scripts/build_gmi_playground.py) ===
-     Keep these tokens identical to the GMI page TEMPLATE so this view reads
-     as a native section of the dashboard. If the GMI palette changes, mirror
-     the change here. See PULSE-INTEGRATION.md for the integration contract. */
+  /* === Editorial Market Terminal palette + base — MIRRORS scripts/build_gmi_playground.py.
+     The two pages share a single nav and aesthetic; if you change tokens, mirror both
+     files. See PULSE-INTEGRATION.md for the integration contract. */
   :root {
-    --bg: #0d1117;
-    --panel: #161b22;
-    --panel-2: #1c2330;
-    --border: #30363d;
-    --text: #e6edf3;
-    --muted: #8b949e;
-    --green: #2ea043;
-    --red: #f85149;
-    --yellow: #d29922;
-    --accent: #58a6ff;
-    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    --bg: #0b0a09;
+    --bg-2: #14110f;
+    --panel: #181513;
+    --panel-2: #221c18;
+    --panel-hi: #2b231e;
+    --border: #2a2420;
+    --border-2: #3a3128;
+    --hairline: #1f1a16;
+    --text: #f2ebe1;
+    --text-2: #ddd1bf;
+    --muted: #9c8c7c;
+    --dim: #6b5d52;
+    --accent: #e7a924;
+    --accent-2: #f5c042;
+    --accent-soft: rgba(231,169,36,0.14);
+    --accent-glow: rgba(231,169,36,0.32);
+    --bull: #4fa363;
+    --bull-soft: rgba(79,163,99,0.14);
+    --bull-line: rgba(79,163,99,0.42);
+    --bear: #d96250;
+    --bear-soft: rgba(217,98,80,0.14);
+    --bear-line: rgba(217,98,80,0.42);
+    --caution: #d09a2a;
+    --caution-soft: rgba(208,154,42,0.14);
+    --caution-line: rgba(208,154,42,0.42);
+    --serif: "Instrument Serif", "Cormorant Garamond", "Times New Roman", Georgia, serif;
+    --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   }
   * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
   body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
+    background: var(--bg); color: var(--text);
+    font-family: var(--sans); font-size: 15px; line-height: 1.6;
+    font-feature-settings: "ss01", "cv01";
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% 0%, rgba(231,169,36,0.05), transparent 70%),
+      radial-gradient(ellipse 60% 40% at 100% 100%, rgba(217,98,80,0.025), transparent 70%);
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-  /* shared top nav (matches GMI + wiki) — copy of .pages-nav from the
-     GMI TEMPLATE so the sticky brand bar is identical across pages. */
+  body::before {
+    content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 1;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95 0 0 0 0 0.85 0 0 0 0 0.7 0 0 0 0.03 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    opacity: 0.55; mix-blend-mode: overlay;
+  }
+
+  /* Shared top nav (MIRRORS GMI page). When edited, mirror in build_gmi_playground.py. */
   .pages-nav {
-    position: sticky; top: 0; z-index: 100; display: flex; align-items: center;
-    gap: 6px; padding: 12px 16px; background: rgba(13,17,23,0.96);
-    backdrop-filter: blur(8px); border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; z-index: 100;
+    display: flex; align-items: center; gap: 4px;
+    padding: 14px 24px;
+    background: rgba(11,10,9,0.88);
+    backdrop-filter: blur(14px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.02);
   }
-  .pages-nav .brand { font-weight: 600; margin-right: auto; font-size: 14px; letter-spacing: -0.01em; color: var(--text); }
-  .pages-nav .brand .sub { color: var(--muted); font-weight: 400; font-size: 12px; margin-left: 6px; }
+  .pages-nav::before {
+    content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent) 18%, var(--accent) 82%, transparent);
+    opacity: 0.55;
+  }
+  .pages-nav .brand {
+    font-family: var(--serif);
+    font-weight: 400; font-style: italic;
+    margin-right: auto;
+    font-size: 22px;
+    letter-spacing: 0.005em;
+    color: var(--text);
+    line-height: 1;
+    display: inline-flex; align-items: baseline; gap: 8px;
+    text-decoration: none;
+  }
+  .pages-nav .brand .mark {
+    font-family: var(--mono); font-style: normal;
+    font-size: 9px; letter-spacing: 0.22em; color: var(--accent);
+    text-transform: uppercase; padding: 3px 7px;
+    border: 1px solid var(--accent); border-radius: 2px;
+    line-height: 1; align-self: center;
+  }
   .pages-nav a {
-    color: var(--muted); text-decoration: none; padding: 6px 12px; border-radius: 6px;
-    font-size: 12px; font-family: var(--mono); font-weight: 500;
-    border: 1px solid transparent;
-    transition: color 0.15s, background 0.15s, border-color 0.15s;
+    color: var(--muted); text-decoration: none;
+    padding: 8px 14px; border-radius: 2px;
+    font-family: var(--mono); font-size: 11px; font-weight: 500;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: color 0.18s ease, border-color 0.18s ease;
   }
-  .pages-nav a.active { color: var(--text); border-color: var(--accent); background: rgba(88,166,255,0.14); }
-  .pages-nav a:hover { color: var(--text); background: var(--panel-2); }
-  @media (max-width: 480px) {
-    .pages-nav { padding: 10px 12px; gap: 4px; }
-    .pages-nav .brand { font-size: 12px; }
-    .pages-nav a { padding: 5px 9px; font-size: 11px; }
+  .pages-nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .pages-nav a:hover { color: var(--text); border-bottom-color: var(--border-2); }
+  @media (max-width: 640px) {
+    .pages-nav { padding: 11px 14px; }
+    .pages-nav .brand { font-size: 18px; }
+    .pages-nav .brand .mark { font-size: 8px; padding: 2px 5px; }
+    .pages-nav a { padding: 6px 9px; font-size: 10px; letter-spacing: 0.08em; }
   }
-  .wrap { max-width: 820px; margin: 0 auto; padding: 16px; }
-  h1 { font-size: 20px; margin: 0 0 4px; font-weight: 600; }
-  h1 .sub { color: var(--muted); font-weight: 400; font-size: 13px; margin-left: 8px; }
-  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 14px; margin: 12px 0; }
-  .small { color: var(--muted); font-size: 11px; font-family: var(--mono); }
+  @media (max-width: 420px) {
+    .pages-nav .brand .mark { display: none; }
+  }
+
+  .wrap { max-width: 920px; margin: 0 auto; padding: 28px 24px 48px; position: relative; z-index: 2; }
+  @media (max-width: 640px) { .wrap { padding: 20px 14px 36px; } }
+
+  /* Hero block — editorial title */
+  .hero-block { margin: 0 0 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border); }
+  .dateline {
+    display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.24em;
+    text-transform: uppercase; color: var(--muted);
+    margin-bottom: 14px;
+  }
+  .dateline .vol { color: var(--accent); }
+  .dateline .sep { color: var(--dim); }
+  h1.page-title {
+    font-family: var(--serif); font-weight: 400;
+    font-size: clamp(42px, 7vw, 72px);
+    line-height: 0.98; letter-spacing: -0.015em;
+    margin: 0 0 8px; color: var(--text);
+  }
+  h1.page-title em { font-style: italic; color: var(--accent); font-weight: 400; }
+  .deck {
+    font-family: var(--serif); font-style: italic;
+    font-size: clamp(16px, 2.2vw, 20px);
+    color: var(--text-2); line-height: 1.4;
+    margin: 0; max-width: 60ch;
+  }
+
+  /* Panel — refined */
+  .panel {
+    background: linear-gradient(180deg, var(--panel) 0%, var(--bg-2) 100%);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 22px 24px; margin: 16px 0;
+    position: relative;
+    box-shadow:
+      0 1px 0 rgba(255,255,255,0.025) inset,
+      0 18px 40px -28px rgba(0,0,0,0.6);
+  }
+  @media (max-width: 640px) { .panel { padding: 18px 18px; } }
+
+  .small {
+    color: var(--muted); font-size: 10.5px; font-family: var(--mono);
+    letter-spacing: 0.14em; text-transform: uppercase;
+  }
   a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
+  a:hover { color: var(--accent-2); text-decoration: underline; text-underline-offset: 3px; }
   button { font-family: inherit; font-size: inherit; cursor: pointer; }
 
-  /* === Pulse pager (single pulse at a time, prev/next steps through the archive) === */
+  /* Pulse pager — refined prev/next + date label */
   .pulse-bar {
     display: grid; grid-template-columns: auto 1fr auto; align-items: center;
-    gap: 8px; margin: 0 0 8px 0;
+    gap: 10px; margin: 0 0 8px 0;
+    padding: 14px 16px;
+    background: var(--bg-2); border: 1px solid var(--border); border-radius: 4px;
   }
   .pulse-bar__label {
-    font-size: 13px; font-family: var(--mono); color: var(--text); font-weight: 600;
+    font-family: var(--mono); color: var(--accent);
+    font-size: 12px; font-weight: 600;
+    letter-spacing: 0.16em; text-transform: uppercase;
     text-align: center;
   }
   .pulse-btn {
-    background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
-    border-radius: 6px; padding: 6px 12px; font-family: var(--mono); font-size: 12px;
-    font-weight: 500; transition: border-color 0.15s, color 0.15s;
+    background: var(--panel); color: var(--text);
+    border: 1px solid var(--border); border-radius: 2px;
+    padding: 8px 14px;
+    font-family: var(--mono); font-size: 10.5px; font-weight: 600;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    transition: border-color 0.18s, color 0.18s, background 0.18s;
   }
-  .pulse-btn:hover:not([disabled]) { color: var(--accent); border-color: var(--accent); }
-  .pulse-btn[disabled] { opacity: 0.3; cursor: not-allowed; }
+  .pulse-btn:hover:not([disabled]) {
+    color: var(--accent); border-color: var(--accent); background: var(--accent-soft);
+  }
+  .pulse-btn[disabled] { opacity: 0.28; cursor: not-allowed; }
+
   .pulse-analyses {
-    text-align: center; color: var(--muted); font-family: var(--mono); font-size: 11px;
-    margin-bottom: 18px;
+    text-align: center; color: var(--accent);
+    font-family: var(--mono); font-size: 10px;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    margin-bottom: 20px;
+    display: flex; align-items: center; justify-content: center; gap: 12px;
+  }
+  .pulse-analyses::before, .pulse-analyses::after {
+    content: ""; height: 1px; flex: 0 0 36px; background: var(--accent); opacity: 0.5;
   }
   .pulse-counter {
-    text-align: center; color: var(--muted); font-family: var(--mono); font-size: 10px;
-    margin-bottom: 16px; opacity: 0.6;
+    text-align: center; color: var(--muted);
+    font-family: var(--mono); font-size: 9.5px;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    margin: 6px 0 22px; opacity: 0.7;
   }
 
-  /* === Single-pulse wrapper === */
+  /* Single-pulse wrapper */
   .pulse-day { margin: 0; }
-  .pulse-day__header {
-    display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px;
-    font-family: var(--mono); font-size: 11px; color: var(--muted);
-    text-transform: uppercase; letter-spacing: 0.14em;
-  }
-  .pulse-day__date { color: var(--accent); font-weight: 600; }
 
   .loader, .error-msg, .empty-msg {
-    color: var(--muted); padding: 24px 8px; text-align: center;
-    font-family: var(--mono); font-size: 12px;
+    color: var(--muted); padding: 36px 12px; text-align: center;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
   }
-  .error-msg small { color: var(--red); }
+  .error-msg small { color: var(--bear); display: block; margin-top: 8px;
+    font-size: 10px; letter-spacing: 0.08em; text-transform: none; }
 
   /* =============================================================
-     PULSE FRAGMENT STYLES — only target classes inside
-     <article class="pulse">. Class contract documented in
-     scripts/pulse_dashboard.py :: render_pulse_fragment() of the
-     Institutional-report-bot pulse pipeline repo.
+     PULSE FRAGMENT STYLES — restyled with the editorial theme.
+     Class contract documented in scripts/pulse_dashboard.py ::
+     render_pulse_fragment() of the Institutional-report-bot pipeline.
      ============================================================= */
-  /* Pulse fragment hierarchy: title (h1) > section (h2) > story (h3) > body */
   .pulse-masthead { border: none; padding: 0; margin: 0 0 6px 0; }
   .pulse-masthead .pulse-brand { display: none; }
   .pulse-masthead .pulse-dateline { display: none; }
   .pulse-masthead h1 {
-    font-size: 22px; line-height: 1.25; margin: 0 0 4px;
-    font-weight: 700; color: var(--text);
+    font-family: var(--serif); font-weight: 400;
+    font-size: clamp(28px, 4.4vw, 38px);
+    line-height: 1.1; letter-spacing: -0.012em;
+    margin: 0 0 6px;
+    color: var(--text);
     text-align: center;
   }
 
-  /* Section headings (RECAP / INSIGHTS & ALPHA / WHAT TO WATCH) — large, bold, color-coded underline */
+  /* Section headings — uppercase mono with amber tick rule, color-coded */
   .pulse h2 {
-    font-size: 17px; font-weight: 700; margin: 22px 0 10px;
-    padding-bottom: 5px; border-bottom: 2px solid var(--border);
-    font-family: inherit; letter-spacing: 0; text-transform: none;
+    font-family: var(--mono);
+    font-size: 11px; font-weight: 700;
+    letter-spacing: 0.26em; text-transform: uppercase;
+    margin: 32px 0 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--hairline);
+    display: flex; align-items: center; gap: 12px;
   }
-  .pulse h2.recap    { color: var(--yellow); border-bottom-color: rgba(210,153,34,0.5); }
-  .pulse h2.insights { color: var(--accent); border-bottom-color: rgba(88,166,255,0.5); }
-  .pulse h2.watch    { color: var(--green);  border-bottom-color: rgba(46,160,67,0.5); }
+  .pulse h2::before {
+    content: ""; width: 16px; height: 1px; background: var(--accent); flex-shrink: 0;
+  }
+  .pulse h2.recap    { color: var(--caution); }
+  .pulse h2.recap::before    { background: var(--caution); }
+  .pulse h2.insights { color: var(--accent); }
+  .pulse h2.insights::before { background: var(--accent); }
+  .pulse h2.watch    { color: var(--bull); }
+  .pulse h2.watch::before    { background: var(--bull); }
 
-  /* Story headings — medium */
+  /* Story headings — serif italic display, color-coded left rule for insights/watch */
   .pulse h3 {
-    font-size: 14px; font-weight: 600; margin: 14px 0 4px; color: var(--text);
-    line-height: 1.35;
+    font-family: var(--serif); font-weight: 400;
+    font-size: clamp(20px, 2.6vw, 24px);
+    line-height: 1.25; letter-spacing: -0.005em;
+    margin: 22px 0 8px;
+    color: var(--text);
   }
   .pulse .insights-body h3 {
-    border-left: 3px solid var(--accent);
-    padding-left: 10px; margin-left: -4px;
+    border-left: 2px solid var(--accent);
+    padding-left: 14px; margin-left: -4px;
   }
   .pulse .watch-body h3 {
-    border-left: 3px solid var(--green);
-    padding-left: 10px; margin-left: -4px;
+    border-left: 2px solid var(--bull);
+    padding-left: 14px; margin-left: -4px;
+  }
+  .pulse .recap-body h3 {
+    border-left: 2px solid var(--caution);
+    padding-left: 14px; margin-left: -4px;
   }
 
-  .pulse p { margin: 8px 0; }
-  .pulse em { color: var(--accent); font-style: italic; font-weight: 500; }
+  /* Body text — comfortable reading */
+  .pulse p {
+    margin: 10px 0; font-size: 15px; line-height: 1.65;
+    color: var(--text-2);
+  }
+  .pulse em {
+    color: var(--accent); font-style: italic; font-weight: 400;
+    font-family: var(--serif); font-size: 1.05em;
+  }
   .pulse strong { color: var(--text); font-weight: 600; }
-  .pulse ul, .pulse ol { margin: 6px 0; padding-left: 22px; }
-  .pulse li { margin: 4px 0; }
-  .pulse hr { border: 0; border-top: 1px solid var(--border); margin: 14px 0; }
+  .pulse ul, .pulse ol { margin: 10px 0; padding-left: 24px; color: var(--text-2); }
+  .pulse li { margin: 6px 0; line-height: 1.6; }
+  .pulse li::marker { color: var(--accent); }
+  .pulse hr {
+    border: 0; height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border-2) 20%, var(--border-2) 80%, transparent);
+    margin: 22px 0;
+  }
+  .pulse blockquote {
+    border-left: 2px solid var(--accent);
+    padding: 4px 0 4px 16px; margin: 14px 0;
+    font-family: var(--serif); font-style: italic;
+    font-size: 17px; line-height: 1.5;
+    color: var(--text);
+  }
 
+  /* Cashtag — refined mono pill */
   .pulse .cashtag {
-    font-family: var(--mono); font-size: 0.9em;
-    background: var(--panel-2); padding: 1px 6px; border-radius: 3px;
-    color: var(--accent); font-weight: 600; white-space: nowrap;
+    font-family: var(--mono);
+    font-size: 0.88em; font-weight: 600;
+    background: var(--accent-soft);
+    padding: 2px 7px; border-radius: 2px;
+    color: var(--accent-2);
+    border: 1px solid var(--accent-glow);
+    white-space: nowrap;
+    letter-spacing: 0.04em;
+  }
+
+  .footer {
+    color: var(--muted); font-size: 10.5px; margin-top: 28px;
+    padding-top: 18px; border-top: 1px solid var(--border);
+    text-align: center; line-height: 1.7;
+    font-family: var(--mono); letter-spacing: 0.12em;
   }
 
   @media (max-width: 600px) {
-    .pulse-masthead h1 { font-size: 19px; }
-    .pulse h2 { font-size: 15px; margin: 18px 0 8px; }
-    .pulse h3 { font-size: 13px; margin: 12px 0 4px; }
-    .pulse-bar__label { font-size: 12px; }
-    .pulse-btn { padding: 5px 9px; font-size: 11px; }
-    .pulse-analyses { font-size: 10px; margin-bottom: 12px; }
+    .pulse-masthead h1 { font-size: 24px; }
+    .pulse h2 { font-size: 10px; margin: 24px 0 12px; }
+    .pulse h3 { font-size: 19px; margin: 18px 0 6px; }
+    .pulse p { font-size: 14.5px; }
+    .pulse-bar { padding: 12px 12px; gap: 8px; }
+    .pulse-bar__label { font-size: 11px; letter-spacing: 0.12em; }
+    .pulse-btn { padding: 6px 10px; font-size: 10px; letter-spacing: 0.1em; }
+    .pulse-analyses { font-size: 9.5px; letter-spacing: 0.18em; }
   }
 </style>
 </head>
 <body>
 
 <nav class="pages-nav">
-  <span class="brand">Stock market dashboard</span>
-  <a href="../">Market Trend</a>
-  <a href="./" class="active">News &amp; Macro</a>
-  <a href="../wiki.html">About</a>
+  <span class="brand">Stock <em>market</em> dashboard <span class="mark">Live</span></span>
+  <a href="../">Market Regime</a>
+  <a href="./" class="active">Research</a>
 </nav>
 
 <div class="wrap">
-  <h1>News &amp; Macro<span class="sub">cross-bank pulse · 9 AM ET</span></h1>
+
+  <header class="hero-block">
+    <div class="dateline">
+      <span class="vol">Vol. I</span>
+      <span class="sep">·</span>
+      <span>Cross-Bank Institutional Pulse</span>
+      <span class="sep">·</span>
+      <span>9 AM ET Daily</span>
+    </div>
+    <h1 class="page-title"><em>Research</em></h1>
+    <p class="deck">A daily synthesis of 100–200 institutional research analyses — recap of overnight prints, insights and alpha worth noting, and what to watch into the open.</p>
+  </header>
 
   <div class="pulse-bar">
-    <button class="pulse-btn" id="prevPulse" disabled>&larr; Older</button>
-    <span class="pulse-bar__label" id="pulseLabel">Loading&hellip;</span>
-    <button class="pulse-btn" id="nextPulse" disabled>Newer &rarr;</button>
+    <button class="pulse-btn" id="prevPulse" disabled>← Older</button>
+    <span class="pulse-bar__label" id="pulseLabel">Loading…</span>
+    <button class="pulse-btn" id="nextPulse" disabled>Newer →</button>
   </div>
   <div class="pulse-counter" id="pulseCounter"></div>
 
-  <div id="pulseStack">
-    <p class="loader">Loading pulses&hellip;</p>
+  <div class="panel" id="pulseStack">
+    <p class="loader">Loading pulses…</p>
   </div>
 
-  <p class="small" style="margin-top:24px; text-align:center;">
-    Pulse synthesized from 100&ndash;200 institutional research PDFs every weekday at 9 AM ET.
-    Not investment advice.
+  <p class="footer">
+    Pulse synthesized from 100–200 institutional research PDFs every weekday at 9 AM ET · Not investment advice
   </p>
 </div>
 
@@ -210,8 +384,6 @@
   // TODO(remove-after-upstream-host-fix): the Institutional-report-bot bridge is being updated
   // to write `raw.githubusercontent.com` directly into archive.json. Once newly-generated
   // archives no longer contain `raw.githack.com` URLs, drop this shim and the call below.
-  // Rewrite any host the upstream archive embeds (raw.githack.com / cdn.jsdelivr.net) to the
-  // CORS-friendly raw.githubusercontent.com. Leaves other domains untouched.
   function normalizeRawUrl(url) {
     if (!url) return url;
     return url
@@ -234,18 +406,13 @@
     } catch (e) { return dateUtc; }
   }
 
-  // =================================================================
-  // LOAD + RENDER
-  // =================================================================
   async function loadArchive() {
     try {
       const resp = await fetch(ARCHIVE_URL, { cache: 'no-store' });
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
       const data = await resp.json();
       const all = (data.pulses || []).slice();
-      // Sort newest-first. Use the date_utc field for deterministic ordering, falling back to ts.
       all.sort((a, b) => (b.date_utc || b.ts || '').localeCompare(a.date_utc || a.ts || ''));
-      // Skip stubs without a renderable fragment.
       pulses = all.filter(p => p.date_utc && p.fragment_url);
       if (!pulses.length) {
         document.querySelector('#pulseStack').innerHTML = '<p class="empty-msg">No pulses available yet.</p>';
@@ -264,19 +431,17 @@
     idx = Math.max(0, Math.min(pulses.length - 1, idx));
     const pulse = pulses[idx];
 
-    // Header label (just the date — the title and analyses count go inside the fragment area)
     document.querySelector('#pulseLabel').textContent = fmtPulseDate(pulse.date_utc);
     document.querySelector('#pulseCounter').textContent =
-      `Pulse ${idx + 1} of ${pulses.length}${idx === 0 ? ' (most recent)' : ''}`;
-    document.querySelector('#nextPulse').disabled = (idx === 0);                  // newer is left as idx decreases
-    document.querySelector('#prevPulse').disabled = (idx === pulses.length - 1);  // older is more idx
+      `Pulse ${idx + 1} of ${pulses.length}${idx === 0 ? ' · most recent' : ''}`;
+    document.querySelector('#nextPulse').disabled = (idx === 0);
+    document.querySelector('#prevPulse').disabled = (idx === pulses.length - 1);
 
-    // Render body
     const stack = document.querySelector('#pulseStack');
     stack.innerHTML = `
       <article class="pulse-day">
-        <div class="pulse-day__body" id="pulseBody">
-          <p class="loader">Loading&hellip;</p>
+        <div class="pulse pulse-day__body" id="pulseBody">
+          <p class="loader">Loading…</p>
         </div>
       </article>
     `;
@@ -291,7 +456,6 @@
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
       const html = await resp.text();
       target.innerHTML = html;
-      // Inject "N research analyses" directly under the fragment's h1 title.
       const masthead = target.querySelector('.pulse-masthead');
       if (masthead && pulse.pdf_count) {
         const analyses = document.createElement('div');
@@ -320,7 +484,6 @@
     }
   });
 
-  // Keyboard arrows for desktop navigation
   document.addEventListener('keydown', (e) => {
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
     if (e.key === 'ArrowLeft' && idx < pulses.length - 1) { idx += 1; renderPulse(); window.scrollTo({top:0}); }

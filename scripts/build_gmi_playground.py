@@ -1031,7 +1031,7 @@ TEMPLATE = r"""<!doctype html>
 <nav class="pages-nav">
   <span class="brand">Stock <em>market</em> dashboard <span class="mark">Live</span></span>
   <a href="https://gabjew90.github.io/Stock-market-dashboard/" class="active">Market Regime</a>
-  <a href="https://gabjew90.github.io/Stock-market-dashboard/pulse/">News &amp; Macro</a>
+  <a href="https://gabjew90.github.io/Stock-market-dashboard/pulse/">Research</a>
 </nav>
 <div class="wrap">
 
