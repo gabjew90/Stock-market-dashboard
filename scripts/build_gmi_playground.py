@@ -530,298 +530,535 @@ TEMPLATE = r"""<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Stock market dashboard — Market Trend</title>
+<title>Stock market dashboard — Market Regime</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0d1117;
-    --panel: #161b22;
-    --panel-2: #1c2330;
-    --border: #30363d;
-    --text: #e6edf3;
-    --muted: #8b949e;
-    --green: #2ea043;
-    --red: #f85149;
-    --yellow: #d29922;
-    --accent: #58a6ff;
-    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    /* Warm-dark editorial palette — like a financial paper printed on dark stock */
+    --bg: #0b0a09;
+    --bg-2: #14110f;
+    --panel: #181513;
+    --panel-2: #221c18;
+    --panel-hi: #2b231e;
+    --border: #2a2420;
+    --border-2: #3a3128;
+    --hairline: #1f1a16;
+    --text: #f2ebe1;
+    --text-2: #ddd1bf;
+    --muted: #9c8c7c;
+    --dim: #6b5d52;
+    /* Bold single accent — amber gold, the page's signature */
+    --accent: #e7a924;
+    --accent-2: #f5c042;
+    --accent-soft: rgba(231,169,36,0.14);
+    --accent-glow: rgba(231,169,36,0.32);
+    /* Refined bull/bear — sit closer together than punchy reds/greens */
+    --bull: #4fa363;
+    --bull-soft: rgba(79,163,99,0.14);
+    --bull-line: rgba(79,163,99,0.42);
+    --bear: #d96250;
+    --bear-soft: rgba(217,98,80,0.14);
+    --bear-line: rgba(217,98,80,0.42);
+    --caution: #d09a2a;
+    --caution-soft: rgba(208,154,42,0.14);
+    --caution-line: rgba(208,154,42,0.42);
+    /* Type stacks */
+    --serif: "Instrument Serif", "Cormorant Garamond", "Times New Roman", Georgia, serif;
+    --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-    font-size: 15px; line-height: 1.5; }
-  /* shared top nav (matches wiki + pulse) — professional, clean */
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.55;
+    font-feature-settings: "ss01", "cv01";
+    /* Subtle warm-paper texture — barely there, but kills the "flat AI" feel */
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% 0%, rgba(231,169,36,0.05), transparent 70%),
+      radial-gradient(ellipse 60% 40% at 100% 100%, rgba(217,98,80,0.025), transparent 70%);
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* Faint film-grain overlay */
+  body::before {
+    content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 1;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95 0 0 0 0 0.85 0 0 0 0 0.7 0 0 0 0.03 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    opacity: 0.55; mix-blend-mode: overlay;
+  }
+  /* Top nav — newspaper masthead style: thin top rule, brand on the left in serif, links right */
   .pages-nav {
-    position: sticky; top: 0; z-index: 100; display: flex; align-items: center;
-    gap: 6px; padding: 12px 16px; background: rgba(13,17,23,0.96);
-    backdrop-filter: blur(8px); border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; z-index: 100;
+    display: flex; align-items: center; gap: 4px;
+    padding: 14px 24px;
+    background: rgba(11,10,9,0.88);
+    backdrop-filter: blur(14px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.02);
   }
-  .pages-nav .brand { font-weight: 600; margin-right: auto; font-size: 14px; letter-spacing: -0.01em; color: var(--text); }
-  .pages-nav .brand .sub { color: var(--muted); font-weight: 400; font-size: 12px; margin-left: 6px; }
+  .pages-nav::before {
+    content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent) 18%, var(--accent) 82%, transparent);
+    opacity: 0.55;
+  }
+  .pages-nav .brand {
+    font-family: var(--serif);
+    font-weight: 400; font-style: italic;
+    margin-right: auto;
+    font-size: 22px;
+    letter-spacing: 0.005em;
+    color: var(--text);
+    line-height: 1;
+    display: inline-flex; align-items: baseline; gap: 8px;
+  }
+  .pages-nav .brand .mark {
+    font-family: var(--mono); font-style: normal;
+    font-size: 9px; letter-spacing: 0.22em; color: var(--accent);
+    text-transform: uppercase; padding: 3px 7px;
+    border: 1px solid var(--accent); border-radius: 2px;
+    line-height: 1; align-self: center;
+  }
   .pages-nav a {
-    color: var(--muted); text-decoration: none; padding: 6px 12px; border-radius: 6px;
-    font-size: 12px; font-family: var(--mono); font-weight: 500;
-    border: 1px solid transparent;
-    transition: color 0.15s, background 0.15s, border-color 0.15s;
+    color: var(--muted); text-decoration: none;
+    padding: 8px 14px; border-radius: 2px;
+    font-family: var(--mono); font-size: 11px; font-weight: 500;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: color 0.18s ease, border-color 0.18s ease;
   }
-  .pages-nav a.active { color: var(--text); border-color: var(--accent); background: rgba(88,166,255,0.14); }
-  .pages-nav a:hover { color: var(--text); background: var(--panel-2); }
-  @media (max-width: 480px) {
-    .pages-nav { padding: 10px 12px; gap: 4px; }
-    .pages-nav .brand { font-size: 12px; }
-    .pages-nav a { padding: 5px 9px; font-size: 11px; }
+  .pages-nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .pages-nav a:hover { color: var(--text); border-bottom-color: var(--border-2); }
+  @media (max-width: 640px) {
+    .pages-nav { padding: 11px 14px; }
+    .pages-nav .brand { font-size: 18px; }
+    .pages-nav .brand .mark { font-size: 8px; padding: 2px 5px; }
+    .pages-nav a { padding: 6px 9px; font-size: 10px; letter-spacing: 0.08em; }
   }
-  .wrap { max-width: 820px; margin: 0 auto; padding: 16px; }
-  h1 { font-size: 20px; margin: 0 0 4px; font-weight: 600; }
-  h1 .sub { color: var(--muted); font-weight: 400; font-size: 13px; margin-left: 8px; }
-  .last-updated { color: var(--muted); font-family: var(--mono); font-size: 11px;
-    margin: 0 0 14px; letter-spacing: -0.01em; }
-  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 14px; margin: 12px 0; }
-  .small { color: var(--muted); font-size: 11px; font-family: var(--mono); }
+  @media (max-width: 420px) {
+    .pages-nav .brand .mark { display: none; }
+  }
+
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 28px 24px 48px; position: relative; z-index: 2; }
+  @media (max-width: 640px) { .wrap { padding: 20px 14px 36px; } }
+
+  /* Hero — editorial title block */
+  .hero-block { margin: 0 0 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border); }
+  .dateline {
+    display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.24em;
+    text-transform: uppercase; color: var(--muted);
+    margin-bottom: 14px;
+  }
+  .dateline .vol { color: var(--accent); }
+  .dateline .sep { color: var(--dim); }
+  h1 {
+    font-family: var(--serif); font-weight: 400;
+    font-size: clamp(42px, 7vw, 72px);
+    line-height: 0.98; letter-spacing: -0.015em;
+    margin: 0 0 6px;
+    color: var(--text);
+  }
+  h1 em { font-style: italic; color: var(--accent); font-weight: 400; }
+  .deck {
+    font-family: var(--serif); font-style: italic;
+    font-size: clamp(16px, 2.2vw, 20px);
+    color: var(--text-2); line-height: 1.4;
+    margin: 0; max-width: 56ch;
+  }
+  .last-updated {
+    color: var(--muted); font-family: var(--mono); font-size: 10.5px;
+    letter-spacing: 0.16em; text-transform: uppercase;
+    margin: 14px 0 0; display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  }
+  .last-updated::before {
+    content: ""; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft);
+    flex-shrink: 0;
+  }
+
+  /* Panels — refined, lift on hover, sharp inner rule */
+  .panel {
+    background: linear-gradient(180deg, var(--panel) 0%, var(--bg-2) 100%);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 18px 18px;
+    margin: 14px 0;
+    position: relative;
+    box-shadow:
+      0 1px 0 rgba(255,255,255,0.025) inset,
+      0 18px 40px -28px rgba(0,0,0,0.6);
+  }
+  .panel + .panel { margin-top: 14px; }
+  .small { color: var(--muted); font-size: 11px; font-family: var(--mono); letter-spacing: 0.04em; }
+
+  /* Section header label — small uppercase mono, used as the title of every panel */
+  .panel-title {
+    font-size: 10px; color: var(--muted); font-family: var(--mono);
+    text-transform: uppercase; letter-spacing: 0.26em; margin-bottom: 14px;
+    display: flex; align-items: center; gap: 10px;
+    padding-bottom: 10px; border-bottom: 1px solid var(--hairline);
+  }
+  .panel-title::before {
+    content: ""; width: 14px; height: 1px; background: var(--accent); flex-shrink: 0;
+  }
+  .panel-title .label-main { color: var(--text-2); font-weight: 600; letter-spacing: 0.22em; }
 
   /* Hero — GMI + state + day-N + stage */
-  .hero { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: center; }
-  .hero .num { font-family: var(--mono); font-size: 56px; font-weight: 700; line-height: 1; }
-  .hero .denom { color: var(--muted); font-size: 24px; }
-  .badge { display: inline-block; padding: 5px 12px; border-radius: 999px; font-weight: 600; font-size: 13px; letter-spacing: 0.4px; }
-  .badge.green { background: rgba(46,160,67,0.18); color: var(--green); border: 1px solid rgba(46,160,67,0.4); }
-  .badge.red { background: rgba(248,81,73,0.18); color: var(--red); border: 1px solid rgba(248,81,73,0.4); }
-  .badge.yellow { background: rgba(210,153,34,0.18); color: var(--yellow); border: 1px solid rgba(210,153,34,0.4); }
+  .hero { display: grid; grid-template-columns: auto 1fr; gap: 18px; align-items: center; }
+  .hero .num {
+    font-family: var(--serif); font-weight: 400;
+    font-size: 84px; line-height: 0.9; color: var(--text);
+    letter-spacing: -0.03em;
+    font-feature-settings: "lnum", "tnum";
+  }
+  .hero .denom { color: var(--muted); font-family: var(--serif); font-size: 30px; font-style: italic; margin-left: 2px; }
+  @media (max-width: 480px) {
+    .hero .num { font-size: 64px; }
+    .hero .denom { font-size: 24px; }
+  }
+  .badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 6px 12px; border-radius: 2px;
+    font-family: var(--mono); font-weight: 600;
+    font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+  }
+  .badge::before {
+    content: ""; width: 6px; height: 6px; border-radius: 50%;
+    background: currentColor;
+  }
+  .badge.green { background: var(--bull-soft); color: var(--bull); border: 1px solid var(--bull-line); }
+  .badge.red { background: var(--bear-soft); color: var(--bear); border: 1px solid var(--bear-line); }
+  .badge.yellow { background: var(--caution-soft); color: var(--caution); border: 1px solid var(--caution-line); }
   .meta { color: var(--muted); font-size: 13px; margin-top: 6px; }
   .meta b { color: var(--text); font-weight: 600; }
 
-  /* Trend / stage callout */
-  .callout { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
-  .pill { display: inline-flex; align-items: center; gap: 6px; background: var(--panel-2);
-    border: 1px solid var(--border); border-radius: 999px; padding: 5px 10px; font-size: 12px; font-family: var(--mono); }
+  /* Trend / stage callout — refined pill */
+  .callout { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; align-items: center; }
+  .pill {
+    display: inline-flex; align-items: center; gap: 7px;
+    background: var(--panel-2); border: 1px solid var(--border);
+    border-radius: 2px; padding: 6px 12px;
+    font-size: 11px; font-family: var(--mono);
+    letter-spacing: 0.06em;
+  }
   .pill b { color: var(--text); font-weight: 600; }
-  .pill.up { color: var(--green); border-color: rgba(46,160,67,0.4); }
-  .pill.down { color: var(--red); border-color: rgba(248,81,73,0.4); }
-  .pill.s2 { color: var(--green); border-color: rgba(46,160,67,0.4); }
-  .pill.s4 { color: var(--red); border-color: rgba(248,81,73,0.4); }
-  .pill.s3, .pill.s1 { color: var(--yellow); border-color: rgba(210,153,34,0.4); }
-  .stage-note { font-size: 12px; color: var(--muted); margin-top: 6px; font-style: italic; }
+  .pill.up { color: var(--bull); border-color: var(--bull-line); background: var(--bull-soft); }
+  .pill.down { color: var(--bear); border-color: var(--bear-line); background: var(--bear-soft); }
+  .pill.s2 { color: var(--bull); border-color: var(--bull-line); background: var(--bull-soft); }
+  .pill.s4 { color: var(--bear); border-color: var(--bear-line); background: var(--bear-soft); }
+  .pill.s3, .pill.s1 { color: var(--caution); border-color: var(--caution-line); background: var(--caution-soft); }
+  .stage-note { font-size: 12.5px; color: var(--text-2); margin-top: 10px;
+    font-family: var(--serif); font-style: italic; line-height: 1.5; }
 
-  /* Compact Since-Day-1 strip (replaces the old indicator-values + returns table) */
-  .since-panel { padding: 12px 14px; }
-  .since-header { display: flex; align-items: center; gap: 6px; font-size: 11px;
+  /* Since-Day-1 strip */
+  .since-panel { padding: 18px; }
+  .since-header { display: flex; align-items: center; gap: 8px; font-size: 10px;
     color: var(--muted); font-family: var(--mono); text-transform: uppercase;
-    letter-spacing: 0.6px; margin-bottom: 6px; }
-  .since-meta { font-size: 13px; color: var(--text); margin-bottom: 10px;
-    font-family: var(--mono); }
-  .since-meta b { font-weight: 600; }
+    letter-spacing: 0.26em; margin-bottom: 12px;
+    padding-bottom: 10px; border-bottom: 1px solid var(--hairline); }
+  .since-header::before {
+    content: ""; width: 14px; height: 1px; background: var(--accent); flex-shrink: 0;
+  }
+  .since-header .since-title { color: var(--text-2); font-weight: 600; letter-spacing: 0.22em; }
+  .since-meta { font-size: 13px; color: var(--text); margin-bottom: 14px;
+    font-family: var(--mono); letter-spacing: 0.01em; }
+  .since-meta b { font-weight: 600; color: var(--accent-2); }
   .since-meta .sub { color: var(--muted); }
-  .since-returns { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
-  .since-cell { background: var(--panel-2); border: 1px solid var(--border);
-    border-radius: 8px; padding: 8px 10px; display: flex; flex-direction: column; align-items: center; }
-  .since-lbl { font-size: 10px; color: var(--muted); font-family: var(--mono);
-    letter-spacing: 0.5px; }
-  .since-val { font-size: 18px; font-weight: 700; font-family: var(--mono);
-    line-height: 1.1; margin-top: 2px; }
-  .since-val.pos { color: var(--green); }
-  .since-val.neg { color: var(--red); }
+  .since-returns { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+  .since-cell {
+    background: var(--bg-2); border: 1px solid var(--border);
+    border-radius: 3px; padding: 12px 10px;
+    display: flex; flex-direction: column; align-items: flex-start; gap: 4px;
+    position: relative; overflow: hidden;
+  }
+  .since-cell::after {
+    content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 2px;
+    background: var(--accent); opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .since-cell.pos::after { background: var(--bull); opacity: 0.7; }
+  .since-cell.neg::after { background: var(--bear); opacity: 0.7; }
+  .since-lbl {
+    font-size: 9.5px; color: var(--muted); font-family: var(--mono);
+    letter-spacing: 0.22em; text-transform: uppercase; font-weight: 600;
+  }
+  .since-val {
+    font-size: 22px; font-weight: 600; font-family: var(--mono);
+    line-height: 1.05; margin-top: 2px; letter-spacing: -0.01em;
+    font-feature-settings: "tnum";
+  }
+  .since-val.pos { color: var(--bull); }
+  .since-val.neg { color: var(--bear); }
   .since-val.nv { color: var(--muted); }
 
-  /* Top market-state row: GMI + T2108 cards side by side */
-  .state-row { display: grid; grid-template-columns: 1fr; gap: 12px; }
-  @media (min-width: 640px) { .state-row { grid-template-columns: 1fr 1fr; } }
-  .state-row > .panel { margin: 0; }   /* overrides default .panel margin so the row gap controls spacing */
+  /* Top state row — GMI + T2108 cards side by side on desktop, stacked on mobile */
+  .state-row { display: grid; grid-template-columns: 1fr; gap: 14px; }
+  @media (min-width: 760px) { .state-row { grid-template-columns: 1.15fr 1fr; } }
+  .state-row > .panel { margin: 0; }
   .state-card { display: flex; flex-direction: column; }
-  .panel-title { font-size: 12px; color: var(--muted); font-family: var(--mono);
-    text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 10px;
-    display: flex; align-items: center; gap: 6px; }
 
-  /* T2108 gauge bar */
-  .t-bar { position: relative; width: 100%; height: 8px; border-radius: 999px;
-    margin-top: 10px; overflow: visible;
+  /* T2108 gauge bar — refined, sharp rectangles instead of pill */
+  .t-bar { position: relative; width: 100%; height: 6px; border-radius: 1px;
+    margin-top: 14px; overflow: visible;
     background: linear-gradient(to right,
-      rgba(46,160,67,0.55) 0%, rgba(46,160,67,0.55) 10%,
-      rgba(46,160,67,0.15) 10%, rgba(46,160,67,0.15) 30%,
-      rgba(139,148,158,0.22) 30%, rgba(139,148,158,0.22) 70%,
-      rgba(248,81,73,0.15) 70%, rgba(248,81,73,0.15) 80%,
-      rgba(248,81,73,0.55) 80%, rgba(248,81,73,0.55) 100%); }
-  .t-bar-fill { position: absolute; top: -2px; bottom: -2px; width: 3px;
-    background: var(--text); border-radius: 2px; left: 0%;
-    transition: left 0.2s ease; box-shadow: 0 0 0 2px var(--bg); }
+      var(--bull) 0%, var(--bull) 10%,
+      var(--bull-soft) 10%, var(--bull-soft) 30%,
+      var(--border) 30%, var(--border) 70%,
+      var(--bear-soft) 70%, var(--bear-soft) 80%,
+      var(--bear) 80%, var(--bear) 100%);
+    border: 1px solid var(--hairline);
+  }
+  .t-bar-fill { position: absolute; top: -4px; bottom: -4px; width: 2px;
+    background: var(--text); left: 0%;
+    transition: left 0.25s ease;
+    box-shadow: 0 0 0 2px var(--bg), 0 0 12px var(--accent-glow);
+  }
   .t-scale { display: flex; justify-content: space-between; font-family: var(--mono);
-    font-size: 9px; color: var(--muted); margin-top: 6px; gap: 4px; flex-wrap: wrap; }
+    font-size: 9px; color: var(--muted); margin-top: 8px;
+    letter-spacing: 0.1em; text-transform: uppercase;
+  }
+  .t-scale span { white-space: nowrap; }
 
-  /* Compact components row (lives inside the GMI hero pane) */
+  /* Components row — refined sharp cards */
   .comps-row {
-    display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px;
-    margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border);
+    display: grid; grid-template-columns: repeat(6, 1fr); gap: 5px;
+    margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--hairline);
   }
-  @media (max-width: 460px) { .comps-row { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 480px) { .comps-row { grid-template-columns: repeat(3, 1fr); } }
   .comp {
-    background: var(--panel-2); border: 1px solid var(--border); border-radius: 6px;
-    padding: 6px 4px; text-align: center; cursor: pointer; user-select: none;
-    position: relative;
+    background: var(--bg-2); border: 1px solid var(--border); border-radius: 3px;
+    padding: 9px 4px 7px; text-align: center; cursor: pointer; user-select: none;
+    position: relative; transition: border-color 0.18s, transform 0.18s;
   }
-  .comp .name { font-size: 10px; color: var(--muted); font-family: var(--mono); margin-bottom: 2px;
-    overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .comp .mark { font-size: 16px; font-weight: 700; font-family: var(--mono); line-height: 1.1; }
-  .comp.on { border-color: rgba(46,160,67,0.45); }
-  .comp.on .mark { color: var(--green); }
-  .comp.off { border-color: rgba(248,81,73,0.35); }
-  .comp.off .mark { color: var(--red); }
-  .comp .detail { font-size: 9px; color: var(--muted); font-family: var(--mono); margin-top: 1px;
-    overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .comp:hover { border-color: var(--border-2); transform: translateY(-1px); }
+  .comp .name {
+    font-size: 9px; color: var(--muted); font-family: var(--mono);
+    letter-spacing: 0.08em; text-transform: uppercase;
+    margin-bottom: 4px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .comp .mark { font-size: 16px; font-weight: 700; font-family: var(--serif); line-height: 1.1; }
+  .comp.on { border-color: var(--bull-line); }
+  .comp.on .mark { color: var(--bull); }
+  .comp.off { border-color: var(--bear-line); }
+  .comp.off .mark { color: var(--bear); }
+  .comp .detail {
+    font-size: 9px; color: var(--muted); font-family: var(--mono);
+    margin-top: 2px; letter-spacing: 0.04em;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
 
-  /* The little ? bubble — only this triggers tooltips */
+  /* ? helper — refined square instead of pill */
   .qmark { display: inline-flex; align-items: center; justify-content: center;
-    width: 18px; height: 18px; border-radius: 50%; background: rgba(88,166,255,0.22);
-    color: var(--accent); font-size: 11px; font-weight: 700; cursor: pointer;
-    user-select: none; border: none; padding: 0; line-height: 1; flex-shrink: 0; }
-  .qmark:hover, .qmark:active { background: rgba(88,166,255,0.42); }
+    width: 18px; height: 18px; border-radius: 2px;
+    background: transparent; color: var(--accent);
+    font-size: 11px; font-weight: 600; cursor: pointer;
+    user-select: none; border: 1px solid var(--accent-glow);
+    padding: 0; line-height: 1; flex-shrink: 0;
+    font-family: var(--serif); font-style: italic;
+    transition: background 0.18s, color 0.18s, border-color 0.18s;
+  }
+  .qmark:hover, .qmark:active { background: var(--accent-soft); border-color: var(--accent); color: var(--accent-2); }
 
   /* Chart */
   .chart-wrap { position: relative; }
-  .spark { width: 100%; height: 240px; display: block;
+  .spark { width: 100%; height: 280px; display: block;
     cursor: ew-resize; touch-action: none; -webkit-user-select: none; user-select: none; }
+  @media (min-width: 760px) { .spark { height: 340px; } }
   .spark.dragging { cursor: grabbing; }
-  /* X-axis labels — rendered as HTML over the chart-wrap so they get normal CSS
-     sizing without the horizontal compression that `preserveAspectRatio="none"`
-     applies to SVG text on narrow viewports. */
   .x-axis-labels { position: absolute; left: 0; right: 0; bottom: 0; height: 30px;
     pointer-events: none; font-family: var(--mono); }
   .x-axis-labels .x-tick { position: absolute; bottom: 14px; transform: translateX(-50%);
-    font-size: 11px; color: var(--muted); white-space: nowrap; }
+    font-size: 10px; color: var(--muted); white-space: nowrap; letter-spacing: 0.06em; }
   .x-axis-labels .x-tick.start { transform: translateX(0); }
   .x-axis-labels .x-tick.end   { transform: translateX(-100%); }
   .x-axis-labels .x-selected { position: absolute; bottom: 0; transform: translateX(-50%);
-    font-size: 12px; font-weight: 600; color: var(--text); white-space: nowrap; }
+    font-size: 11px; font-weight: 600; color: var(--accent); white-space: nowrap;
+    font-family: var(--mono); letter-spacing: 0.04em; }
   @media (max-width: 480px) {
-    .x-axis-labels .x-tick { font-size: 10px; }
-    .x-axis-labels .x-selected { font-size: 11px; }
+    .x-axis-labels .x-tick { font-size: 9px; }
+    .x-axis-labels .x-selected { font-size: 10px; }
   }
-  /* Top-left stat overlay — dynamic values for the selected date, OFF the
-     candles. Replaces the line-anchored pills that used to crowd the right
-     side of the chart. */
-  .stat-overlay { position: absolute; top: 8px; left: 10px;
-    display: flex; flex-direction: column; gap: 1px;
+  /* Top-left stat overlay — dynamic values for the selected date */
+  .stat-overlay { position: absolute; top: 10px; left: 12px;
+    display: flex; flex-direction: column; gap: 2px;
     font-family: var(--mono); font-size: 12px;
-    background: rgba(13,17,23,0.78); padding: 6px 10px;
-    border-radius: 6px; border: 1px solid rgba(48,54,61,0.55);
-    pointer-events: none; }
-  .stat-overlay .stat-row { display: flex; justify-content: space-between;
-    align-items: baseline; gap: 14px; min-width: 86px; line-height: 1.35; }
-  .stat-overlay .stat-row .label { color: var(--muted); font-weight: 500; font-size: 11px; }
-  .stat-overlay .stat-row .val { font-weight: 600; text-align: right; }
-  @media (max-width: 480px) {
-    .stat-overlay { top: 6px; left: 6px; padding: 5px 8px; font-size: 11px; }
-    .stat-overlay .stat-row { min-width: 78px; gap: 10px; }
-    .stat-overlay .stat-row .label { font-size: 10px; }
+    background: rgba(11,10,9,0.86); padding: 8px 12px;
+    border-radius: 2px; border: 1px solid var(--border);
+    border-left: 2px solid var(--accent);
+    pointer-events: none;
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
   }
-  .drag-hint { font-style: italic; flex: 1; text-align: right; opacity: 0.7; }
-  .chart-header { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 4px; }
-  .red-chip { display: inline-flex; align-items: center; gap: 5px; padding: 3px 9px; border-radius: 999px;
-    background: rgba(248,81,73,0.18); color: var(--red); border: 1px solid rgba(248,81,73,0.4);
-    font-family: var(--mono); font-size: 11px; }
+  .stat-overlay .stat-row { display: flex; justify-content: space-between;
+    align-items: baseline; gap: 16px; min-width: 92px; line-height: 1.4; }
+  .stat-overlay .stat-row .label {
+    color: var(--muted); font-weight: 500; font-size: 9.5px;
+    letter-spacing: 0.16em; text-transform: uppercase;
+  }
+  .stat-overlay .stat-row .val { font-weight: 600; text-align: right; font-feature-settings: "tnum"; }
+  @media (max-width: 480px) {
+    .stat-overlay { top: 7px; left: 7px; padding: 6px 9px; font-size: 11px; }
+    .stat-overlay .stat-row { min-width: 80px; gap: 10px; }
+    .stat-overlay .stat-row .label { font-size: 9px; }
+  }
+  .chart-header { display: flex; justify-content: space-between; align-items: center;
+    gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+  .chart-header .small { font-family: var(--mono); font-size: 10.5px;
+    color: var(--text-2); letter-spacing: 0.16em; text-transform: uppercase; }
 
-  /* Legend chips — chip toggles line; small ? next to it pops tooltip */
-  .legend { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; font-size: 11px; font-family: var(--mono); align-items: center; }
-  .legend-item { display: inline-flex; align-items: center; gap: 4px; }
-  .chip { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; color: var(--muted);
-    user-select: none; border: 1px solid var(--border); border-radius: 6px; padding: 4px 10px;
-    background: var(--panel-2); font-size: 11px; font-family: var(--mono); font-weight: 500;
-    transition: border-color 0.15s, color 0.15s, background 0.15s; }
-  .chip.on { color: var(--text); border-color: var(--accent); background: rgba(88,166,255,0.16); font-weight: 600; }
-  .chip:hover { color: var(--text); border-color: var(--accent); }
-  .legend .swatch { display: inline-block; width: 12px; height: 2px; }
+  /* Legend */
+  .legend { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px;
+    font-size: 11px; font-family: var(--mono); align-items: center; }
+  .legend-item { display: inline-flex; align-items: center; gap: 5px; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 6px; cursor: pointer; color: var(--muted);
+    user-select: none; border: 1px solid var(--border); border-radius: 2px;
+    padding: 5px 11px; background: var(--bg-2);
+    font-size: 10px; font-family: var(--mono); font-weight: 500;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    transition: border-color 0.18s, color 0.18s, background 0.18s;
+  }
+  .chip.on { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+  .chip:hover { color: var(--text); border-color: var(--border-2); }
+  .legend .swatch { display: inline-block; width: 14px; height: 2px; }
 
-  /* Compact controls panel under the chart — professional, rectangular, consistent */
-  .ctl-panel { padding: 10px 12px; }
-  .ctl-row1 { display: flex; align-items: center; gap: 6px; }
+  /* Controls panel — refined */
+  .ctl-panel { padding: 18px; }
+  .ctl-row1 { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
   .ctl-row1 input[type=date] {
-    flex: 1; min-width: 0;
-    background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
-    border-radius: 6px; padding: 6px 8px; font-family: var(--mono); font-size: 12px;
-    transition: border-color 0.15s;
+    flex: 1; min-width: 140px;
+    background: var(--bg-2); color: var(--text);
+    border: 1px solid var(--border); border-radius: 2px;
+    padding: 8px 12px; font-family: var(--mono); font-size: 12px;
+    letter-spacing: 0.04em;
+    transition: border-color 0.18s;
   }
   .ctl-row1 input[type=date]:focus { outline: none; border-color: var(--accent); }
+  .ctl-row1 input[type=date]::-webkit-calendar-picker-indicator {
+    filter: invert(0.7) sepia(1) saturate(3) hue-rotate(10deg); opacity: 0.75; cursor: pointer;
+  }
+  .ctl-step, .ctl-today {
+    background: var(--bg-2); color: var(--text);
+    border: 1px solid var(--border); border-radius: 2px;
+    font-family: var(--mono); cursor: pointer;
+    transition: border-color 0.18s, color 0.18s, background 0.18s;
+  }
   .ctl-step {
-    width: 32px; padding: 6px 0; font-size: 12px; font-family: var(--mono);
-    background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
-    border-radius: 6px; cursor: pointer; line-height: 1;
-    transition: border-color 0.15s, color 0.15s;
+    width: 36px; padding: 8px 0; font-size: 12px; line-height: 1;
   }
-  .ctl-step:hover { color: var(--accent); border-color: var(--accent); }
   .ctl-today {
-    padding: 6px 14px; font-size: 12px; font-family: var(--mono); font-weight: 500;
-    background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
-    border-radius: 6px; cursor: pointer;
-    transition: border-color 0.15s, color 0.15s;
+    padding: 8px 18px; font-size: 10px; font-weight: 600;
+    letter-spacing: 0.18em; text-transform: uppercase;
   }
-  .ctl-today:hover { color: var(--accent); border-color: var(--accent); }
+  .ctl-step:hover, .ctl-today:hover { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+
   .ctl-day1 {
-    width: 100%; margin-top: 8px;
-    padding: 7px 12px; font-size: 12px; font-family: var(--mono); font-weight: 600;
-    background: var(--panel-2); border: 1px solid rgba(46,160,67,0.45); color: var(--green);
-    border-radius: 6px; cursor: pointer; text-align: center;
+    width: 100%; margin-top: 10px;
+    padding: 11px 14px; font-size: 11px; font-family: var(--mono); font-weight: 600;
+    background: var(--bull-soft); border: 1px solid var(--bull-line); color: var(--bull);
+    border-radius: 2px; cursor: pointer; text-align: center;
+    letter-spacing: 0.1em;
     overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-    transition: background 0.15s, border-color 0.15s;
+    transition: background 0.18s, border-color 0.18s;
   }
-  .ctl-day1:hover { background: rgba(46,160,67,0.10); border-color: var(--green); }
-  .ctl-day1.down { color: var(--red); border-color: rgba(248,81,73,0.45); }
-  .ctl-day1.down:hover { background: rgba(248,81,73,0.10); border-color: var(--red); }
+  .ctl-day1:hover { background: rgba(79,163,99,0.22); border-color: var(--bull); }
+  .ctl-day1.down { color: var(--bear); border-color: var(--bear-line); background: var(--bear-soft); }
+  .ctl-day1.down:hover { background: rgba(217,98,80,0.22); border-color: var(--bear); }
+
   .ctl-long-head {
-    display: flex; align-items: center; gap: 5px;
-    color: var(--muted); font-size: 10px; font-family: var(--mono);
-    text-transform: uppercase; letter-spacing: 0.6px;
-    margin-top: 14px; margin-bottom: 6px;
+    display: flex; align-items: center; gap: 8px;
+    color: var(--muted); font-size: 9.5px; font-family: var(--mono);
+    text-transform: uppercase; letter-spacing: 0.24em;
+    margin-top: 18px; margin-bottom: 10px;
+    padding-bottom: 8px; border-bottom: 1px solid var(--hairline);
   }
-  /* Long-trend pills: clean grid of single-line buttons */
-  .ctl-long { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px; }
+  .ctl-long-head::before {
+    content: ""; width: 12px; height: 1px; background: var(--accent); flex-shrink: 0;
+  }
+  .ctl-long-head .label-main { color: var(--text-2); font-weight: 600; letter-spacing: 0.22em; }
+
+  .ctl-long { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
+  @media (min-width: 760px) { .ctl-long { grid-template-columns: repeat(4, 1fr); } }
   .ctl-long .long-pill {
-    font-family: var(--mono); font-size: 11px; padding: 5px 6px;
-    background: var(--panel-2); border-radius: 6px; cursor: pointer;
-    text-align: center; line-height: 1.2; white-space: nowrap;
-    overflow: hidden; text-overflow: ellipsis; font-weight: 500;
-    transition: background 0.15s;
+    font-family: var(--mono); font-size: 10.5px;
+    padding: 8px 8px;
+    background: var(--bg-2); border-radius: 2px; cursor: pointer;
+    text-align: center; line-height: 1.25; white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis; font-weight: 600;
+    letter-spacing: 0.04em;
+    transition: background 0.18s, transform 0.18s;
   }
-  .ctl-long .long-pill .pill-len { color: var(--muted); font-size: 10px; margin-left: 4px; font-weight: 400; }
-  .ctl-long .long-pill:hover { background: rgba(88,166,255,0.10); }
+  .ctl-long .long-pill .pill-len {
+    color: var(--muted); font-size: 9.5px; margin-left: 5px; font-weight: 400;
+    letter-spacing: 0.05em;
+  }
+  .ctl-long .long-pill:hover { transform: translateY(-1px); }
 
-  /* Forward returns */
-  table.fwd { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: 13px; }
-  table.fwd th, table.fwd td { padding: 6px 4px; text-align: right; border-bottom: 1px solid var(--border); }
-  table.fwd th:first-child, table.fwd td:first-child { text-align: left; color: var(--muted); }
-  td.pos { color: var(--green); }
-  td.neg { color: var(--red); }
-  td.nv { color: var(--muted); }
+  .footer {
+    color: var(--muted); font-size: 10.5px; margin-top: 24px;
+    padding-top: 18px; border-top: 1px solid var(--border);
+    text-align: center; line-height: 1.7;
+    font-family: var(--mono); letter-spacing: 0.06em;
+  }
 
-  .footer { color: var(--muted); font-size: 11px; margin-top: 16px; text-align: center; line-height: 1.6; }
-
-  /* Floating popover (the tooltip bubble) */
-  .pop { position: fixed; max-width: 280px; background: #0a0d12; border: 1px solid var(--accent);
-    border-radius: 8px; padding: 10px 12px; font-size: 12px; line-height: 1.5; color: var(--text);
-    z-index: 1000; box-shadow: 0 6px 20px rgba(0,0,0,0.6); display: none; }
+  /* Tooltip popover */
+  .pop { position: fixed; max-width: 300px;
+    background: var(--panel); border: 1px solid var(--accent);
+    border-radius: 3px; padding: 14px 16px;
+    font-size: 12.5px; line-height: 1.55; color: var(--text);
+    z-index: 1000;
+    box-shadow: 0 18px 50px rgba(0,0,0,0.7), 0 0 0 1px var(--accent-glow);
+    display: none;
+    font-family: var(--sans);
+  }
   .pop.show { display: block; }
-  .pop b { color: var(--accent); font-weight: 600; }
-  .pop .close { position: absolute; top: 4px; right: 8px; cursor: pointer; color: var(--muted); font-size: 16px; }
+  .pop b { color: var(--accent-2); font-weight: 600; font-family: var(--mono); font-size: 11.5px;
+    letter-spacing: 0.04em; }
+  .pop .close { position: absolute; top: 6px; right: 10px; cursor: pointer;
+    color: var(--muted); font-size: 18px; line-height: 1;
+    font-family: var(--serif); font-style: italic; }
   .pop .close:hover { color: var(--text); }
 </style>
 </head>
 <body>
 <nav class="pages-nav">
-  <span class="brand">Stock market dashboard</span>
-  <a href="https://gabjew90.github.io/Stock-market-dashboard/" class="active">Market Trend</a>
+  <span class="brand">Stock <em>market</em> dashboard <span class="mark">Live</span></span>
+  <a href="https://gabjew90.github.io/Stock-market-dashboard/" class="active">Market Regime</a>
   <a href="https://gabjew90.github.io/Stock-market-dashboard/pulse/">News &amp; Macro</a>
-  <a href="https://gabjew90.github.io/Stock-market-dashboard/wiki.html">About</a>
 </nav>
 <div class="wrap">
-  <h1>Market Trend<span class="sub">QQQ short-term &amp; Weinstein-stage state</span></h1>
-  <div class="last-updated" id="lastUpdated">—</div>
 
-  <!-- 1. GMI + T2108 — the headline market-state panel. Two cards side-by-side. -->
+  <!-- Hero block — editorial title -->
+  <header class="hero-block">
+    <div class="dateline">
+      <span class="vol">Vol. I</span>
+      <span class="sep">·</span>
+      <span>QQQ Short-Term &amp; Stage Tape</span>
+      <span class="sep">·</span>
+      <span>Reconstructed Point-in-Time</span>
+    </div>
+    <h1>Market <em>Regime</em></h1>
+    <p class="deck">A daily, point-in-time read of the broad market — GMI score, Weinstein stage, NYSE breadth, and the day count of the QQQ short-term trend, all on one tape.</p>
+    <div class="last-updated" id="lastUpdated">—</div>
+  </header>
+
+  <!-- 1. GMI + T2108 — the headline market-state panel. -->
   <div class="state-row">
     <div class="panel state-card">
       <div class="panel-title">
-        GMI <button class="qmark" data-pop="gmi" aria-label="What is GMI">?</button>
+        <span class="label-main">General Market Index</span>
+        <button class="qmark" data-pop="gmi" aria-label="What is GMI">i</button>
       </div>
-      <!-- Day N pill ABOVE the GREEN/RED badge -->
       <div class="callout day-above">
         <span class="pill" id="dayPill">Day — of —</span>
-        <button class="qmark" data-pop="dayN" aria-label="Day N explanation">?</button>
+        <button class="qmark" data-pop="dayN" aria-label="Day N explanation">i</button>
       </div>
       <div class="hero">
         <div>
@@ -829,20 +1066,20 @@ TEMPLATE = r"""<!doctype html>
         </div>
         <div>
           <span class="badge" id="stateBadge">—</span>
-          <button class="qmark" data-pop="state" aria-label="What is the state" style="vertical-align:middle; margin-left:6px;">?</button>
+          <button class="qmark" data-pop="state" aria-label="What is the state" style="vertical-align:middle; margin-left:8px;">i</button>
         </div>
       </div>
-      <!-- Stage pill BELOW the badge -->
       <div class="callout stage-below">
         <span class="pill" id="stagePill">Stage —</span>
-        <button class="qmark" data-pop="stage" aria-label="Stage explanation">?</button>
+        <button class="qmark" data-pop="stage" aria-label="Stage explanation">i</button>
       </div>
       <div class="comps-row" id="components"></div>
     </div>
 
     <div class="panel state-card">
       <div class="panel-title">
-        T2108 <button class="qmark" data-pop="t2108" aria-label="What is T2108">?</button>
+        <span class="label-main">T2108 · NYSE Breadth</span>
+        <button class="qmark" data-pop="t2108" aria-label="What is T2108">i</button>
       </div>
       <div class="hero">
         <div>
@@ -854,7 +1091,7 @@ TEMPLATE = r"""<!doctype html>
       </div>
       <div class="t-bar"><div class="t-bar-fill" id="t2108Fill"></div></div>
       <div class="t-scale">
-        <span>0</span><span style="color:var(--green)">10 buy zone</span><span>50</span><span style="color:var(--red)">80 extended</span><span>100</span>
+        <span>0</span><span style="color:var(--bull)">10 buy</span><span>50</span><span style="color:var(--bear)">80 ext</span><span>100</span>
       </div>
       <div class="stage-note" id="t2108Note">—</div>
     </div>
@@ -863,13 +1100,13 @@ TEMPLATE = r"""<!doctype html>
   <!-- 2. Chart -->
   <div class="panel">
     <div class="chart-header">
-      <span class="small" id="chartTitle">QQQ — 6 months · daily candles</span>
-      <span style="display:inline-flex; align-items:center; gap:6px;">
+      <span class="small" id="chartTitle">QQQ · 6 mo · daily candles</span>
+      <span style="display:inline-flex; align-items:center; gap:8px;">
         <span class="legend-item" style="gap:4px;">
           <span class="chip on" id="viewDaily" data-view="daily">Daily</span>
           <span class="chip" id="viewWeekly" data-view="weekly">Weekly</span>
         </span>
-        <button class="qmark" data-pop="redshade" aria-label="Red shading explanation">?</button>
+        <button class="qmark" data-pop="redshade" aria-label="Red shading explanation">i</button>
       </span>
     </div>
     <div class="chart-wrap">
@@ -880,11 +1117,14 @@ TEMPLATE = r"""<!doctype html>
     <div class="legend" id="legend">
       <!-- legend chips are rendered dynamically per view -->
     </div>
-    <div class="small" style="margin-top:8px;">Tap any <b style="color:var(--accent)">?</b> for an explanation. Tap a legend chip to toggle a line.</div>
+    <div class="small" style="margin-top:10px; font-style: italic; font-family: var(--serif); font-size: 13px; color: var(--muted); letter-spacing: 0; text-transform: none;">Tap any <b style="color:var(--accent); font-family: var(--mono); font-size: 11px;">i</b> for an explanation. Tap a legend chip to toggle a line.</div>
   </div>
 
-  <!-- 2. Compact date controls (was: tall vertical stack — now a single tight panel under the chart) -->
+  <!-- 3. Controls -->
   <div class="panel ctl-panel">
+    <div class="panel-title">
+      <span class="label-main">Navigation</span>
+    </div>
     <div class="ctl-row1">
       <input type="date" id="datePick">
       <button class="ctl-step" id="ctlPrev" title="Previous trading day">◀</button>
@@ -894,29 +1134,29 @@ TEMPLATE = r"""<!doctype html>
     </div>
     <button class="ctl-day1" id="ctlDay1">Day 1 of current trend</button>
     <div class="ctl-long-head">
-      <span>Long ST trends ≥30d</span>
-      <button class="qmark" data-pop="longtrends" aria-label="Long-trend shortcuts">?</button>
+      <span class="label-main">Long ST Trends ≥ 30d</span>
+      <button class="qmark" data-pop="longtrends" aria-label="Long-trend shortcuts">i</button>
     </div>
     <div class="ctl-long" id="presets"></div>
   </div>
 
-  <!-- 3. QQQ / TQQQ / SQQQ performance since Day 1 (moved DOWN from above the chart) -->
+  <!-- 4. Since Day 1 -->
   <div class="panel since-panel">
     <div class="since-header">
-      <span class="since-title">Since Day 1 of current ST trend</span>
-      <button class="qmark" data-pop="since" aria-label="Since Day 1">?</button>
+      <span class="since-title">Performance Since Day 1</span>
+      <button class="qmark" data-pop="since" aria-label="Since Day 1">i</button>
     </div>
     <div class="since-meta" id="sinceMeta">—</div>
     <div class="since-returns">
-      <div class="since-cell"><span class="since-lbl">QQQ</span><span class="since-val" id="srd1">—</span></div>
-      <div class="since-cell"><span class="since-lbl">TQQQ</span><span class="since-val" id="srd1tq">—</span></div>
-      <div class="since-cell"><span class="since-lbl">SQQQ</span><span class="since-val" id="srd1sq">—</span></div>
+      <div class="since-cell" id="srd1Cell"><span class="since-lbl">QQQ · 1×</span><span class="since-val" id="srd1">—</span></div>
+      <div class="since-cell" id="srd1tqCell"><span class="since-lbl">TQQQ · 3×</span><span class="since-val" id="srd1tq">—</span></div>
+      <div class="since-cell" id="srd1sqCell"><span class="since-lbl">SQQQ · −3×</span><span class="since-val" id="srd1sq">—</span></div>
     </div>
   </div>
 
   <div class="footer">
-    Reconstructed point-in-time GMI · Nasdaq-Trader universe + yfinance.
-    <button class="qmark" data-pop="caveat" aria-label="Reconstruction caveat">?</button>
+    Reconstructed Point-in-Time GMI · Nasdaq-Trader Universe + yfinance
+    <button class="qmark" data-pop="caveat" aria-label="Reconstruction caveat" style="margin-left:8px;">i</button>
   </div>
 
   <!-- The popover bubble -->
@@ -991,8 +1231,8 @@ const ctlDay1Btn = document.getElementById('ctlDay1');
     const b = document.createElement('button');
     b.className = "long-pill";
     b.innerHTML = `${arrow} ${t.d.slice(2)}<span class="pill-len">${t.len}d</span>`;
-    b.style.color = t.dir === "up" ? "#2ea043" : "#f85149";
-    b.style.border = "1px solid " + (t.dir === "up" ? "rgba(46,160,67,0.4)" : "rgba(248,81,73,0.4)");
+    b.style.color = t.dir === "up" ? "#4fa363" : "#d96250";
+    b.style.border = "1px solid " + (t.dir === "up" ? "rgba(79,163,99,0.42)" : "rgba(217,98,80,0.42)");
     b.title = `Day 1 of ${t.dir}-trend that lasted ${t.len} trading days — ${t.d}`;
     b.onclick = () => setIndex(findNearestIndex(t.d));
     pBox.appendChild(b);
@@ -1111,10 +1351,10 @@ function classifyState(s, g) {
 }
 
 const STAGE_INFO = {
-  1: {name: "Stage 1 — Basing",     note: "Price below 30-week MA, but tape firming. Dr. Wish does not buy here.", cls: "s1"},
-  2: {name: "Stage 2 — Advancing",  note: "Price above rising 30-week MA, 10wk > 30wk. Only stage he buys long.", cls: "s2"},
-  3: {name: "Stage 3 — Topping",    note: "Price above 30-week but breadth weakening (10wk crossing under, or 30wk flattening). He sells into this.", cls: "s3"},
-  4: {name: "Stage 4 — Declining",  note: "Price below falling 30-week, 10wk < 30wk. Defensive — cash or inverse. Got him out before 2000 and 2008.", cls: "s4"},
+  1: {name: "Stage 1 — Basing",     note: "Price below 30-week MA, but tape firming. Not a buying stage.", cls: "s1"},
+  2: {name: "Stage 2 — Advancing",  note: "Price above rising 30-week MA, 10wk > 30wk. The only stage suitable for long entries.", cls: "s2"},
+  3: {name: "Stage 3 — Topping",    note: "Price above 30-week but breadth weakening (10wk crossing under, or 30wk flattening). Reduce exposure.", cls: "s3"},
+  4: {name: "Stage 4 — Declining",  note: "Price below falling 30-week, 10wk < 30wk. Defensive — cash or inverse exposure.", cls: "s4"},
 };
 
 
@@ -1122,7 +1362,7 @@ const STAGE_INFO = {
 // Chart drawing: HLC bars (doji-style — vertical H–L line + close tick on right)
 // ============================================================================
 
-const MA_COLORS = { qqq: "#58a6ff", m30: "#f0b429", w10: "#56d364", w30: "#bc8cff" };
+const MA_COLORS = { qqq: "#e7a924", m30: "#f5c042", w10: "#5fb37b", w30: "#c89a78" };
 const maOn = { qqq: true, m30: true, w10: true, w30: true };  // QQQ is always on
 
 // Legend definitions per view (QQQ candles are always rendered — no chip needed)
@@ -1288,7 +1528,7 @@ function drawSpark(centerIdx, markerIdx) {
     // (MAs, red shading, marker) remains anchored to the same calendar dates.
     const avgGap = slice.length > 1 ? (Date.parse(slice[slice.length-1].d) - Date.parse(slice[0].d)) / (slice.length - 1) : 24*3600*1000;
     const bodyW = Math.max(2.5, (avgGap / tSpan) * plotW * 0.7);
-    const GREEN = "#2ea043", RED = "#f85149";
+    const GREEN = "#4fa363", RED = "#d96250";
     slice.forEach((r, i) => {
       const cl = daily ? r.cl : r.c;  // daily rows use "cl" (avoid collision with components array "c")
       if (r.o == null || r.h == null || r.l == null || cl == null) return;
@@ -1344,7 +1584,7 @@ function drawSpark(centerIdx, markerIdx) {
       const sep = document.createElementNS('http://www.w3.org/2000/svg', 'line');
       sep.setAttribute('x1', PADX); sep.setAttribute('x2', W - PADX);
       sep.setAttribute('y1', volTopY - 1); sep.setAttribute('y2', volTopY - 1);
-      sep.setAttribute('stroke', '#30363d'); sep.setAttribute('stroke-width', '0.5');
+      sep.setAttribute('stroke', '#3a3128'); sep.setAttribute('stroke-width', '0.5');
       sep.setAttribute('stroke-dasharray', '2,2');
       svg.appendChild(sep);
       // Tiny "Vol" label in the band
@@ -1352,7 +1592,7 @@ function drawSpark(centerIdx, markerIdx) {
       vlbl.setAttribute('x', PADX + 2); vlbl.setAttribute('y', volTopY + 8);
       vlbl.setAttribute('font-size', '8');
       vlbl.setAttribute('font-family', 'ui-monospace,Menlo,Consolas,monospace');
-      vlbl.setAttribute('fill', '#8b949e');
+      vlbl.setAttribute('fill', '#9c8c7c');
       vlbl.textContent = 'Vol';
       svg.appendChild(vlbl);
     }
@@ -1370,7 +1610,7 @@ function drawSpark(centerIdx, markerIdx) {
     const vline = document.createElementNS('http://www.w3.org/2000/svg', 'line');
     vline.setAttribute('x1', x); vline.setAttribute('x2', x);
     vline.setAttribute('y1', 0); vline.setAttribute('y2', H - PADY_BOT);
-    vline.setAttribute('stroke', '#e6edf3'); vline.setAttribute('stroke-width', '1.2');
+    vline.setAttribute('stroke', '#e7a924'); vline.setAttribute('stroke-width', '1.2');
     vline.setAttribute('stroke-dasharray', '3,3');
     vline.setAttribute('stroke-opacity', '0.85');
     svg.appendChild(vline);
@@ -1399,7 +1639,7 @@ function drawSpark(centerIdx, markerIdx) {
       statOverlay.appendChild(row);
     }
     const qClose = daily ? selDaily.cl : (selWeekly && selWeekly.c);
-    addStat('Q',   qClose != null ? qClose.toFixed(0) : null, "#e6edf3");
+    addStat('Q',   qClose != null ? qClose.toFixed(0) : null, "#f2ebe1");
     if (daily && maOn.m30 && selDaily.m30 != null)
       addStat('30d', selDaily.m30.toFixed(0), MA_COLORS.m30);
     if (!daily && maOn.w10 && selWeekly && selWeekly.m10 != null)
@@ -1409,7 +1649,7 @@ function drawSpark(centerIdx, markerIdx) {
     const vol = daily ? selDaily.v : (selWeekly && selWeekly.v);
     const oo = daily ? selDaily.o : (selWeekly && selWeekly.o);
     if (vol != null && qClose != null && oo != null) {
-      const volColor = qClose >= oo ? "#2ea043" : "#f85149";
+      const volColor = qClose >= oo ? "#4fa363" : "#d96250";
       addStat('V', fmtVol(vol), volColor);
     }
   }
@@ -1433,7 +1673,7 @@ function drawSpark(centerIdx, markerIdx) {
     const tk = document.createElementNS('http://www.w3.org/2000/svg', 'line');
     tk.setAttribute('x1', x); tk.setAttribute('x2', x);
     tk.setAttribute('y1', H - PADY_BOT); tk.setAttribute('y2', H - PADY_BOT + 3);
-    tk.setAttribute('stroke', '#8b949e'); tk.setAttribute('stroke-width', '0.7');
+    tk.setAttribute('stroke', '#9c8c7c'); tk.setAttribute('stroke-width', '0.7');
     svg.appendChild(tk);
   }
   // Selected-date label (was an SVG text — now HTML overlay). Clamp horizontally
@@ -1454,7 +1694,7 @@ function drawSpark(centerIdx, markerIdx) {
   const base = document.createElementNS('http://www.w3.org/2000/svg', 'line');
   base.setAttribute('x1', PADX); base.setAttribute('x2', W - PADX);
   base.setAttribute('y1', H - PADY_BOT); base.setAttribute('y2', H - PADY_BOT);
-  base.setAttribute('stroke', '#30363d'); base.setAttribute('stroke-width', '0.7');
+  base.setAttribute('stroke', '#3a3128'); base.setAttribute('stroke-width', '0.7');
   svg.appendChild(base);
 }
 
@@ -1484,7 +1724,7 @@ function render() {
     tn.textContent = r.t.toFixed(1);
     tf.style.left = Math.max(0, Math.min(100, r.t)) + "%";
     let label, cls, note;
-    if (r.t < 10) { label = "Buy zone"; cls = "green"; note = "Capitulation level. Dr. Wish accumulates SPY in tranches starting from here."; }
+    if (r.t < 10) { label = "Buy zone"; cls = "green"; note = "Capitulation level. Historically a high-quality zone for accumulating SPY in tranches."; }
     else if (r.t > 80) { label = "Extended"; cls = "red"; note = "Market extended; profit-take / no new buys. Pullback typically follows."; }
     else if (r.t > 70) { label = "Hot"; cls = "yellow"; note = "Approaching extended. Watch for rollover."; }
     else if (r.t < 30) { label = "Cool"; cls = "yellow"; note = "Below normal. Below 10 is the buy zone."; }
@@ -1532,9 +1772,16 @@ function render() {
       : "—";
   function setPct(id, v) {
     const el = document.getElementById(id);
-    if (v == null) { el.textContent = "—"; el.className = "since-val nv"; return; }
+    const cell = document.getElementById(id + "Cell");
+    if (v == null) {
+      el.textContent = "—"; el.className = "since-val nv";
+      if (cell) cell.className = "since-cell";
+      return;
+    }
     el.textContent = (v >= 0 ? "+" : "") + v.toFixed(2) + "%";
-    el.className = "since-val " + (v >= 0 ? "pos" : "neg");
+    const cls = v >= 0 ? "pos" : "neg";
+    el.className = "since-val " + cls;
+    if (cell) cell.className = "since-cell " + cls;
   }
   setPct('srd1', r.rd1);
   setPct('srd1tq', r.rd1tq);
@@ -1549,12 +1796,12 @@ function render() {
 
 const POP = {
   gmi: "<b>GMI — General Market Index</b><br>A daily 0–6 score of six market-health components. ≥4 for 2 consecutive days flips the gate GREEN (we're willing to buy long). ≤3 for 2 days flips RED (defensive — cash or hedge).",
-  t2108: "<b>T2108 — NYSE breadth</b><br>The percent of NYSE stocks trading above their 40-day SMA. We use three zones:<br><b style='color:#2ea043'>&lt;10</b> = capitulation buy zone (accumulate SPY in tranches; historically marks lasting bottoms).<br><b style='color:#d29922'>10–30 / 70–80</b> = caution zones at either extreme.<br><b style='color:#f85149'>&gt;80</b> = extended; no new buys, take some profit.<br>30–70 is the healthy mid-range. Our value tracks the published T2108 at corr ≈ 0.93 (small +3–4 pt optimistic bias from survivorship in our universe).",
+  t2108: "<b>T2108 — NYSE breadth</b><br>The percent of NYSE stocks trading above their 40-day SMA. We use three zones:<br><b style='color:#4fa363'>&lt;10</b> = capitulation buy zone (accumulate SPY in tranches; historically marks lasting bottoms).<br><b style='color:#d09a2a'>10–30 / 70–80</b> = caution zones at either extreme.<br><b style='color:#d96250'>&gt;80</b> = extended; no new buys, take some profit.<br>30–70 is the healthy mid-range. Our value tracks the published T2108 at corr ≈ 0.93 (small +3–4 pt optimistic bias from survivorship in our universe).",
   state: "<b>Market state — GREEN / YELLOW / RED</b><br>Computed from the GMI with a 2-day confirmation rule. GREEN = 2 consecutive days ≥4. RED = 2 consecutive days <4 and not recovered. YELLOW = transition (GMI 3).",
   dayN: "<b>Day N of QQQ short-term trend</b><br>The count of consecutive trading days QQQ has been on its current side of the 30-day SMA. Resets to 1 when QQQ crosses through the line on a closing basis.",
   stage: "<b>Weinstein stage</b><br>The four-stage classification from Stan Weinstein, used for the long-term picture:<br><b>Stage 1 — Basing</b>: price below 30wk, MA flat/rising. No new buys.<br><b>Stage 2 — Advancing</b>: price above rising 30wk + 10wk > 30wk. <i>Only stage we buy long.</i><br><b>Stage 3 — Topping</b>: price above 30wk but breadth weakening. We sell into this.<br><b>Stage 4 — Declining</b>: price below falling 30wk + 10wk < 30wk. Defensive.",
   redshade: "<b>RED-shaded periods</b><br>Days when QQQ is in a <b>short-term down-trend</b> (closed below its 30-day SMA). Aligns with the Day-N pill at the top: shading ends exactly when the ST trend flips to up.<br><br>Note: this is distinct from the GMI gate (GREEN/RED badge above). The gate uses the full 6-component GMI score with a 2-day confirmation — it can stay RED for a few days after the ST trend turns up, by design.",
-  qqq: "<b>QQQ candles</b><br>Standard OHLC candles. <span style='color:#2ea043;font-weight:600'>Green</span> = close ≥ open. <span style='color:#f85149;font-weight:600'>Red</span> = close &lt; open. Wick = high–low; body = open–close.<br><br><b>Daily view:</b> ~126 daily candles (6 months) centered on selected day.<br><b>Weekly view:</b> ~50 Friday-close candles (1 year) — the timeframe we use for the 10wk/30wk stage view.",
+  qqq: "<b>QQQ candles</b><br>Standard OHLC candles. <span style='color:#4fa363;font-weight:600'>Green</span> = close ≥ open. <span style='color:#d96250;font-weight:600'>Red</span> = close &lt; open. Wick = high–low; body = open–close.<br><br><b>Daily view:</b> ~126 daily candles (6 months) centered on selected day.<br><b>Weekly view:</b> ~50 Friday-close candles (1 year) — the timeframe we use for the 10wk/30wk stage view.",
   m30: "<b>30-day SMA (daily)</b><br>The daily short-term trend anchor. QQQ closing above = ST up; below = ST down. Drives the Day-N count and components 3 & 4 of the GMI.",
   w10: "<b>10-week SMA (weekly chart)</b><br>Our medium-term hold line. Computed on Friday weekly closes. The <b>10wk crossing above 30wk</b> is the bull re-entry signal (confirmed live 2025-06 and 2026-05). The <b>10wk crossing below 30wk</b> confirms Stage 4 onset (April 2025 tariff decline).",
   w30: "<b>30-week SMA (weekly chart)</b><br>Our most important MA — Stan Weinstein's classic. Got us out before 2000 and 2008. Price above + line rising = Stage 2 uptrend — the only stage we buy long.",
@@ -1564,7 +1811,7 @@ const POP = {
   c4: "<b>SPY daily up-trend</b><br>Component 4 of GMI. Reconstructed as SPY close above its 30-day SMA. The S&amp;P 500's short-term trend.",
   c5: "<b>QQQ weekly up-trend (Stage 2)</b><br>Component 5 of GMI. QQQ's weekly close above its 30-week SMA. The long-term Stage-2 anchor.",
   c6: "<b>IBD-50 above 50-day MA</b><br>Component 6 of GMI. Tracks whether the IBD Mutual Fund Index sits above its 50-day MA. Proxied here by FFTY (the IBD-50 ETF) spliced onto a basket of growth mutual funds for pre-2015 history.",
-  longtrends: "<b>Long ST trends</b><br>Each pill is Day 1 of a past short-term trend (QQQ crossing its 30-day SMA) that lasted <b>30 or more trading days</b>. <span style='color:#2ea043'>▲ = up-trend</span>; <span style='color:#f85149'>▼ = down-trend</span>. The <b>Nd</b> badge shows how many trading days the trend lasted. Tap to jump the chart there. Showing the most recent 8.",
+  longtrends: "<b>Long ST trends</b><br>Each pill is Day 1 of a past short-term trend (QQQ crossing its 30-day SMA) that lasted <b>30 or more trading days</b>. <span style='color:#4fa363'>▲ = up-trend</span>; <span style='color:#d96250'>▼ = down-trend</span>. The <b>Nd</b> badge shows how many trading days the trend lasted. Tap to jump the chart there. Showing the most recent 8.",
   since: "<b>Return since Day 1</b><br>Day 1 = the most recent day QQQ crossed its 30-day SMA (our daily ST-trend signal). This box shows how QQQ and two leveraged QQQ ETFs have moved since then to the close on the selected date.<br><br><b>QQQ</b> — the underlying (Invesco QQQ Trust, 1× Nasdaq-100).<br><b>TQQQ</b> — ProShares UltraPro QQQ. Targets <b>+3× the daily QQQ return</b>. The aggressive long play in an up-trend; compounds volatility drag over time so multi-month holds underperform 3× the simple QQQ move.<br><b>SQQQ</b> — ProShares UltraPro Short QQQ. Targets <b>−3× the daily QQQ return</b>. The inverse / short play used during down-trends.<br><br>A long-running positive QQQ return is a Stage-2 ride; a steep negative return is a Stage-4 leg. Watch for fading momentum near the end of a long streak.",
   vals: "<b>Indicator values on the selected date</b><br>The exact QQQ close on that day plus each of our three canonical MAs, with the percentage spread (QQQ above or below each MA). Use this to read the chart precisely instead of eyeballing.",
   fwd: "<b>Forward QQQ returns</b><br>What QQQ actually did 1, 5, 10, 20, and 60 trading days after the selected date. Lets you check 'if I had acted on this reading, what would have happened?' Blank for dates where the window hasn't closed yet.",
@@ -1615,8 +1862,8 @@ document.querySelectorAll('[data-view]').forEach(el => {
     VIEW = v;
     document.querySelectorAll('[data-view]').forEach(b => b.classList.toggle('on', b.dataset.view === VIEW));
     document.getElementById('chartTitle').textContent =
-      VIEW === "daily" ? "QQQ — 6 months · daily candles + 30-day SMA"
-                       : "QQQ — 1 year · weekly candles + 10-week & 30-week SMA";
+      VIEW === "daily" ? "QQQ · 6 mo · daily candles + 30-day SMA"
+                       : "QQQ · 1 yr · weekly candles + 10-week & 30-week SMA";
     renderLegend();
     drawSpark(Number(dateSlider.value));
   });
