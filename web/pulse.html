@@ -6,383 +6,175 @@
 <title>Research · Stock market dashboard</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  /* === Editorial Market Terminal palette + base — MIRRORS scripts/build_market_regime.py.
-     The two pages share a single nav and aesthetic; if you change tokens, mirror both
-     files. See PULSE-INTEGRATION.md for the integration contract. */
+  /* === Ink-on-paper Broadsheet — MIRRORS scripts/build_market_regime.py's TEMPLATE.
+     The two pages share one nav + aesthetic; if you change tokens, mirror both files.
+     See PULSE-INTEGRATION.md for the fragment class contract. */
   :root {
-    --bg: #0b0a09;
-    --bg-2: #14110f;
-    --panel: #181513;
-    --panel-2: #221c18;
-    --panel-hi: #2b231e;
-    --border: #2a2420;
-    --border-2: #3a3128;
-    --hairline: #1f1a16;
-    --text: #f2ebe1;
-    --text-2: #ddd1bf;
-    --muted: #9c8c7c;
-    --dim: #6b5d52;
-    --accent: #e7a924;
-    --accent-2: #f5c042;
-    --accent-soft: rgba(231,169,36,0.14);
-    --accent-glow: rgba(231,169,36,0.32);
-    --bull: #4fa363;
-    --bull-soft: rgba(79,163,99,0.14);
-    --bull-line: rgba(79,163,99,0.42);
-    --bear: #d96250;
-    --bear-soft: rgba(217,98,80,0.14);
-    --bear-line: rgba(217,98,80,0.42);
-    --caution: #d09a2a;
-    --caution-soft: rgba(208,154,42,0.14);
-    --caution-line: rgba(208,154,42,0.42);
-    --serif: "Instrument Serif", "Cormorant Garamond", "Times New Roman", Georgia, serif;
-    --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    --paper: #efe7d6; --paper-2: #f5efe1; --paper-3: #e8dfcb;
+    --ink: #1c1813; --ink-2: #3f372c; --muted: #7c7060; --faint: #a89a84;
+    --rule: #cdbfa6; --rule-2: #bdac8e; --hair: #ddd1ba;
+    --accent: #a8740a; --accent-2: #c08a14; --accent-soft: rgba(168,116,10,0.1); --accent-glow: rgba(168,116,10,0.3);
+    --bull: #2f6b3f; --bull-soft: rgba(47,107,63,0.1); --bull-line: rgba(47,107,63,0.4);
+    --bear: #8c2f24; --bear-soft: rgba(140,47,36,0.09); --bear-line: rgba(140,47,36,0.4);
+    --caution: #b07d18; --caution-soft: rgba(176,125,24,0.12); --caution-line: rgba(176,125,24,0.4);
+    --serif: "Instrument Serif", Georgia, serif;
+    --body: Georgia, "Times New Roman", serif;
+    --sans: "IBM Plex Sans", system-ui, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, monospace;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
   body {
-    background: var(--bg); color: var(--text);
-    font-family: var(--sans); font-size: 15px; line-height: 1.6;
-    font-feature-settings: "ss01", "cv01";
-    background-image:
-      radial-gradient(ellipse 80% 50% at 50% 0%, rgba(231,169,36,0.05), transparent 70%),
-      radial-gradient(ellipse 60% 40% at 100% 100%, rgba(217,98,80,0.025), transparent 70%);
-    background-attachment: fixed;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    background: var(--paper); color: var(--ink); font-family: var(--body);
+    font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased;
   }
   body::before {
     content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 1;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95 0 0 0 0 0.85 0 0 0 0 0.7 0 0 0 0.03 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
-    opacity: 0.55; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.1 0 0 0 0 0.08 0 0 0 0 0.05 0 0 0 0.04 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    opacity: 0.7; mix-blend-mode: multiply;
   }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; } }
 
-  /* Page-load orchestration — mirrors the GMI page. */
-  @keyframes reveal-up {
-    from { opacity: 0; transform: translateY(16px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  @keyframes mark-pulse {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(231,169,36,0.0); }
-    50%      { box-shadow: 0 0 0 5px rgba(231,169,36,0.18); }
-  }
-  .hero-block .dateline { animation: reveal-up 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 0ms; }
-  .hero-block h1        { animation: reveal-up 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 80ms; }
-  .hero-block .deck     { animation: reveal-up 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 150ms; }
-  .pulse-bar            { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 240ms; }
-  .pulse-counter        { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 300ms; }
-  .panel#pulseStack     { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 380ms; }
-  .wrap > .footer       { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 460ms; }
-
-  @media (prefers-reduced-motion: reduce) {
-    *, *::before, *::after {
-      animation-duration: 0.001ms !important;
-      animation-iteration-count: 1 !important;
-      animation-delay: 0ms !important;
-      transition-duration: 0.001ms !important;
-    }
-  }
-
-  /* Shared top nav (MIRRORS Market Regime page). When edited, mirror in build_market_regime.py. */
-  .pages-nav {
-    position: sticky; top: 0; z-index: 100;
-    display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
-    gap: 18px;
-    padding: 18px 28px;
-    background: rgba(11,10,9,0.88);
-    backdrop-filter: blur(14px) saturate(140%);
-    -webkit-backdrop-filter: blur(14px) saturate(140%);
-    border-bottom: 1px solid var(--border);
-    box-shadow: 0 1px 0 rgba(255,255,255,0.02);
-  }
-  .pages-nav::before {
-    content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px;
-    background: linear-gradient(90deg, transparent, var(--accent) 18%, var(--accent) 82%, transparent);
-    opacity: 0.6;
-  }
-  .pages-nav .brand {
-    font-family: var(--serif);
-    font-weight: 400; font-style: italic;
-    font-size: 26px;
-    letter-spacing: 0.005em;
-    color: var(--text);
-    line-height: 1;
-    display: inline-flex; align-items: baseline; gap: 10px;
-    text-decoration: none;
-    justify-self: start;
-  }
-  .pages-nav .brand .mark {
-    font-family: var(--mono); font-style: normal;
-    font-size: 9.5px; letter-spacing: 0.24em; color: var(--accent);
-    text-transform: uppercase; padding: 4px 8px;
-    border: 1px solid var(--accent); border-radius: 2px;
-    line-height: 1; align-self: center;
-    animation: mark-pulse 2.8s ease-in-out infinite;
-    animation-delay: 1.4s;
-  }
-  .pages-nav .nav-links {
-    display: inline-flex; align-items: center; gap: 6px;
-    justify-self: center;
-  }
-  .pages-nav .nav-spacer { display: block; justify-self: end; }
-  .pages-nav a {
-    color: var(--muted); text-decoration: none;
-    padding: 13px 26px; border-radius: 2px;
-    font-family: var(--mono); font-size: 13.5px; font-weight: 600;
-    letter-spacing: 0.2em; text-transform: uppercase;
-    border-bottom: 2px solid transparent;
-    transition: color 0.22s ease, border-color 0.22s ease, background 0.22s ease, letter-spacing 0.22s ease;
-    position: relative;
-  }
-  .pages-nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
-  .pages-nav a:hover { color: var(--text); background: var(--panel-2); border-bottom-color: var(--border-2); }
-  .pages-nav a.active:hover { border-bottom-color: var(--accent); background: var(--accent-soft); }
-  @media (max-width: 760px) {
-    .pages-nav {
-      grid-template-columns: 1fr;
-      gap: 8px;
-      padding: 12px 14px 10px;
-      text-align: center;
-    }
-    .pages-nav .brand { justify-self: center; font-size: 20px; gap: 8px; }
-    .pages-nav .nav-spacer { display: none; }
-    .pages-nav .nav-links { gap: 4px; }
-    .pages-nav a { padding: 8px 14px; font-size: 11px; letter-spacing: 0.14em; border-bottom-width: 1px; }
-  }
-  @media (max-width: 420px) {
-    .pages-nav .brand .mark { display: none; }
-  }
-
-  .wrap { max-width: 1280px; margin: 0 auto; padding: 36px 32px 56px; position: relative; z-index: 2; }
-  @media (max-width: 640px) { .wrap { padding: 20px 14px 36px; } }
-
-  /* Prose width — kept narrow inside the wide wrap so each line stays in the
-     60–80 char comfort zone even as the panel itself widens. The chrome (hero,
-     pulse-bar, panel container) fills the full width; the article body
-     re-centers within with extra horizontal padding. */
-  @media (min-width: 1024px) {
-    .panel#pulseStack { padding: 40px 48px; }
-    .panel#pulseStack .pulse { max-width: 880px; margin-left: auto; margin-right: auto; }
-  }
-  @media (min-width: 1280px) {
-    .panel#pulseStack { padding: 48px 64px; }
-  }
-
-  /* Hero block — editorial title */
-  .hero-block { margin: 0 0 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border); }
-  .dateline {
-    display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
-    font-family: var(--mono); font-size: 10px; letter-spacing: 0.24em;
-    text-transform: uppercase; color: var(--muted);
-    margin-bottom: 14px;
-  }
-  .dateline .vol { color: var(--accent); }
-  .dateline .sep { color: var(--dim); }
-  h1.page-title {
-    font-family: var(--serif); font-weight: 400;
-    font-size: clamp(48px, 9.5vw, 132px);
-    line-height: 0.94; letter-spacing: -0.022em;
-    margin: 0 0 12px; color: var(--text);
-  }
-  h1.page-title em { font-style: italic; color: var(--accent); font-weight: 400; }
-  .deck {
-    font-family: var(--serif); font-style: italic;
-    font-size: clamp(17px, 2.4vw, 23px);
-    color: var(--text-2); line-height: 1.4;
-    margin: 0; max-width: 66ch;
-  }
-
-  /* Panel — refined */
-  .panel {
-    background: linear-gradient(180deg, var(--panel) 0%, var(--bg-2) 100%);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    padding: 22px 24px; margin: 16px 0;
-    position: relative;
-    box-shadow:
-      0 1px 0 rgba(255,255,255,0.025) inset,
-      0 18px 40px -28px rgba(0,0,0,0.6);
-  }
-  @media (max-width: 640px) { .panel { padding: 18px 18px; } }
-
-  .small {
-    color: var(--muted); font-size: 10.5px; font-family: var(--mono);
-    letter-spacing: 0.14em; text-transform: uppercase;
-  }
   a { color: var(--accent); text-decoration: none; }
   a:hover { color: var(--accent-2); text-decoration: underline; text-underline-offset: 3px; }
   button { font-family: inherit; font-size: inherit; cursor: pointer; }
 
-  /* Pulse pager — refined prev/next + date label */
+  /* ===== shared top nav (MIRRORS Market Regime page) ===== */
+  .pages-nav {
+    display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 16px;
+    max-width: 1540px; margin: 0 auto; padding: 12px 40px 10px;
+    border-bottom: 1px solid var(--rule); position: relative; z-index: 2;
+  }
+  .pages-nav .brand { font-family: var(--serif); font-style: italic; font-size: 22px; color: var(--ink);
+    display: inline-flex; align-items: baseline; gap: 9px; text-decoration: none; justify-self: start; }
+  .pages-nav .brand em { color: var(--ink); }
+  .pages-nav .brand .mark { font-family: var(--mono); font-style: normal; font-size: 8.5px; letter-spacing: 0.22em;
+    color: var(--accent); text-transform: uppercase; padding: 3px 7px; border: 1px solid var(--accent); border-radius: 1px; align-self: center; }
+  .pages-nav .nav-links { display: inline-flex; gap: 22px; justify-self: center; }
+  .pages-nav .nav-spacer { justify-self: end; }
+  .pages-nav a { color: var(--ink); text-decoration: none; font-family: var(--mono); font-size: 11px; font-weight: 600;
+    letter-spacing: 0.18em; text-transform: uppercase; padding-bottom: 5px; border-bottom: 2px solid transparent; }
+  .pages-nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .pages-nav a:hover { color: var(--accent); text-decoration: none; }
+  @media (max-width: 760px) {
+    .pages-nav { grid-template-columns: 1fr auto; gap: 8px; padding: 10px 16px; }
+    .pages-nav .brand { font-size: 18px; }
+    .pages-nav .nav-spacer { display: none; }
+    .pages-nav .nav-links { gap: 14px; }
+    .pages-nav a { font-size: 10px; letter-spacing: 0.12em; }
+  }
+
+  .wrap { max-width: 1540px; margin: 0 auto; padding: 0 40px 56px; position: relative; z-index: 2; }
+  @media (max-width: 640px) { .wrap { padding: 0 16px 36px; } }
+
+  /* ===== masthead ===== */
+  .masthead { text-align: center; padding: 22px 0 0; }
+  .masthead .rule-top { height: 4px; background: var(--ink); margin-bottom: 3px; }
+  .masthead .rule-thin { height: 1px; background: var(--ink); margin-bottom: 14px; }
+  h1.page-title { font-family: var(--serif); font-weight: 400; font-size: clamp(56px, 9vw, 124px);
+    line-height: 0.9; letter-spacing: -0.02em; margin: 4px 0; color: var(--ink); }
+  h1.page-title em { font-style: italic; color: var(--accent); font-weight: 400; }
+  .folio { display: flex; align-items: center; justify-content: center; gap: 13px; flex-wrap: wrap;
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
+    padding: 10px 0; border-top: 1px solid var(--ink); border-bottom: 3px double var(--ink); margin-top: 8px; }
+  .folio .vol { color: var(--accent); } .folio .sep { color: var(--faint); }
+  .deck { font-family: var(--serif); font-style: italic; font-size: clamp(20px, 2.3vw, 26px);
+    color: var(--ink-2); line-height: 1.4; margin: 16px auto 0; max-width: 70ch; }
+
+  .small { color: var(--muted); font-size: 10.5px; font-family: var(--mono); letter-spacing: 0.14em; text-transform: uppercase; }
+
+  /* ===== pulse pager ===== */
   .pulse-bar {
-    display: grid; grid-template-columns: auto 1fr auto; align-items: center;
-    gap: 16px; margin: 0 0 10px 0;
-    padding: 20px 22px;
-    background: var(--bg-2); border: 1px solid var(--border); border-radius: 4px;
+    display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 16px;
+    margin: 24px 0 0; padding: 16px 0 14px; border-bottom: 1px solid var(--rule);
   }
-  /* The date IS the page subject — render it as a big serif headline. */
-  .pulse-bar__label {
-    font-family: var(--serif); color: var(--text);
-    font-size: clamp(20px, 3.4vw, 32px);
-    font-weight: 400; font-style: italic;
-    letter-spacing: -0.008em; text-transform: none;
-    text-align: center; line-height: 1.1;
-  }
-  .pulse-btn {
-    background: var(--panel); color: var(--text);
-    border: 1px solid var(--border); border-radius: 2px;
-    padding: 8px 14px;
-    font-family: var(--mono); font-size: 10.5px; font-weight: 600;
-    letter-spacing: 0.14em; text-transform: uppercase;
-    transition: border-color 0.18s, color 0.18s, background 0.18s;
-  }
-  .pulse-btn:hover:not([disabled]) {
-    color: var(--accent); border-color: var(--accent); background: var(--accent-soft);
-  }
-  .pulse-btn[disabled] { opacity: 0.28; cursor: not-allowed; }
+  .pulse-bar__label { font-family: var(--serif); color: var(--ink); font-size: clamp(22px, 3.4vw, 34px);
+    font-weight: 400; font-style: italic; letter-spacing: -0.008em; text-align: center; line-height: 1.1; }
+  .pulse-btn { background: var(--paper-2); color: var(--ink); border: 1px solid var(--rule-2); border-radius: 2px;
+    padding: 8px 15px; font-family: var(--mono); font-size: 10.5px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;
+    transition: border-color 0.18s, color 0.18s, background 0.18s; }
+  .pulse-btn:hover:not([disabled]) { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+  .pulse-btn[disabled] { opacity: 0.32; cursor: not-allowed; }
 
-  .pulse-analyses {
-    text-align: center; color: var(--accent);
-    font-family: var(--mono); font-size: 10px;
-    letter-spacing: 0.22em; text-transform: uppercase;
-    margin-bottom: 20px;
-    display: flex; align-items: center; justify-content: center; gap: 12px;
-  }
-  .pulse-analyses::before, .pulse-analyses::after {
-    content: ""; height: 1px; flex: 0 0 36px; background: var(--accent); opacity: 0.5;
-  }
-  .pulse-counter {
-    text-align: center; color: var(--muted);
-    font-family: var(--mono); font-size: 9.5px;
-    letter-spacing: 0.22em; text-transform: uppercase;
-    margin: 6px 0 22px; opacity: 0.7;
-  }
+  .pulse-counter { text-align: center; color: var(--muted); font-family: var(--mono); font-size: 9.5px;
+    letter-spacing: 0.22em; text-transform: uppercase; margin: 10px 0 0; }
 
-  /* Single-pulse wrapper */
+  /* The article column — newspaper measure, centered */
+  .pulse-stack { max-width: 1060px; margin: 26px auto 0; }
   .pulse-day { margin: 0; }
 
-  .loader, .error-msg, .empty-msg {
-    color: var(--muted); padding: 36px 12px; text-align: center;
-    font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
-  }
-  .error-msg small { color: var(--bear); display: block; margin-top: 8px;
-    font-size: 10px; letter-spacing: 0.08em; text-transform: none; }
+  .loader, .error-msg, .empty-msg { color: var(--muted); padding: 40px 12px; text-align: center;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; }
+  .error-msg small { color: var(--bear); display: block; margin-top: 8px; font-size: 10px; letter-spacing: 0.08em; text-transform: none; }
 
   /* =============================================================
-     PULSE FRAGMENT STYLES — restyled with the editorial theme.
-     Class contract documented in scripts/pulse_dashboard.py ::
-     render_pulse_fragment() of the Institutional-report-bot pipeline.
+     PULSE FRAGMENT STYLES — ink-on-paper broadsheet.
+     Class contract: Institutional-report-bot :: render_pulse_fragment().
      ============================================================= */
-  .pulse-masthead { border: none; padding: 0; margin: 0 0 6px 0; }
+  .pulse-masthead { border: none; padding: 0; margin: 0 0 4px 0; }
   .pulse-masthead .pulse-brand { display: none; }
   .pulse-masthead .pulse-dateline { display: none; }
   .pulse-masthead h1 {
-    font-family: var(--serif); font-weight: 400;
-    font-size: clamp(28px, 4.4vw, 38px);
-    line-height: 1.1; letter-spacing: -0.012em;
-    margin: 0 0 6px;
-    color: var(--text);
-    text-align: center;
+    font-family: var(--serif); font-weight: 400; font-size: clamp(34px, 4.8vw, 50px);
+    line-height: 1.06; letter-spacing: -0.014em; margin: 0 0 4px; color: var(--ink); text-align: center;
   }
 
-  /* Section headings — uppercase mono with amber tick rule, color-coded */
+  /* the "N research analyses" strip, injected by JS after the masthead */
+  .pulse-analyses { text-align: center; color: var(--accent); font-family: var(--mono); font-size: 11px;
+    letter-spacing: 0.22em; text-transform: uppercase; margin: 0 0 4px;
+    display: flex; align-items: center; justify-content: center; gap: 12px; }
+  .pulse-analyses::before, .pulse-analyses::after { content: ""; height: 1px; flex: 0 0 36px; background: var(--accent); opacity: 0.55; }
+
+  /* divider under the headline block */
+  .pulse-masthead + .pulse-analyses { padding-bottom: 18px; border-bottom: 3px double var(--ink); margin-bottom: 6px; }
+
+  /* Section headings — uppercase mono, color-coded tick rule */
   .pulse h2 {
-    font-family: var(--mono);
-    font-size: 11px; font-weight: 700;
-    letter-spacing: 0.26em; text-transform: uppercase;
-    margin: 32px 0 16px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--hairline);
-    display: flex; align-items: center; gap: 12px;
+    font-family: var(--mono); font-size: 15px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase;
+    margin: 38px 0 18px; padding-bottom: 12px; border-bottom: 1px solid var(--ink);
+    display: flex; align-items: center; gap: 13px; color: var(--ink);
   }
-  .pulse h2::before {
-    content: ""; width: 16px; height: 1px; background: var(--accent); flex-shrink: 0;
-  }
-  .pulse h2.recap    { color: var(--caution); }
-  .pulse h2.recap::before    { background: var(--caution); }
-  .pulse h2.insights { color: var(--accent); }
-  .pulse h2.insights::before { background: var(--accent); }
-  .pulse h2.watch    { color: var(--bull); }
-  .pulse h2.watch::before    { background: var(--bull); }
+  .pulse h2::before { content: ""; width: 22px; height: 2px; background: var(--accent); flex-shrink: 0; }
+  .pulse h2.recap { color: var(--caution); } .pulse h2.recap::before { background: var(--caution); }
+  .pulse h2.insights { color: var(--accent); } .pulse h2.insights::before { background: var(--accent); }
+  .pulse h2.watch { color: var(--bull); } .pulse h2.watch::before { background: var(--bull); }
 
-  /* Story headings — serif italic display, color-coded left rule for insights/watch */
+  /* Story headings — serif display, color-coded left rule */
   .pulse h3 {
-    font-family: var(--serif); font-weight: 400;
-    font-size: clamp(20px, 2.6vw, 24px);
-    line-height: 1.25; letter-spacing: -0.005em;
-    margin: 22px 0 8px;
-    color: var(--text);
+    font-family: var(--serif); font-weight: 400; font-size: clamp(24px, 2.8vw, 30px);
+    line-height: 1.22; letter-spacing: -0.006em; margin: 24px 0 8px; color: var(--ink);
   }
-  .pulse .insights-body h3 {
-    border-left: 2px solid var(--accent);
-    padding-left: 14px; margin-left: -4px;
-  }
-  .pulse .watch-body h3 {
-    border-left: 2px solid var(--bull);
-    padding-left: 14px; margin-left: -4px;
-  }
-  .pulse .recap-body h3 {
-    border-left: 2px solid var(--caution);
-    padding-left: 14px; margin-left: -4px;
-  }
+  .pulse .insights-body h3 { border-left: 2px solid var(--accent); padding-left: 14px; margin-left: -4px; }
+  .pulse .watch-body h3 { border-left: 2px solid var(--bull); padding-left: 14px; margin-left: -4px; }
+  .pulse .recap-body h3 { border-left: 2px solid var(--caution); padding-left: 14px; margin-left: -4px; }
 
-  /* Body text — comfortable reading */
-  .pulse p {
-    margin: 10px 0; font-size: 15px; line-height: 1.65;
-    color: var(--text-2);
-  }
-  .pulse em {
-    color: var(--accent); font-style: italic; font-weight: 400;
-    font-family: var(--serif); font-size: 1.05em;
-  }
-  .pulse strong { color: var(--text); font-weight: 600; }
-  .pulse ul, .pulse ol { margin: 10px 0; padding-left: 24px; color: var(--text-2); }
-  .pulse li { margin: 6px 0; line-height: 1.6; }
+  /* Body — newspaper serif */
+  .pulse p { margin: 11px 0; font-size: 18px; line-height: 1.72; color: var(--ink-2); }
+  .pulse em { color: var(--accent); font-style: italic; font-weight: 400; font-family: var(--serif); font-size: 1.06em; }
+  .pulse strong { color: var(--ink); font-weight: 700; }
+  .pulse ul, .pulse ol { margin: 10px 0; padding-left: 24px; color: var(--ink-2); }
+  .pulse li { margin: 6px 0; line-height: 1.62; }
   .pulse li::marker { color: var(--accent); }
-  .pulse hr {
-    border: 0; height: 1px;
-    background: linear-gradient(90deg, transparent, var(--border-2) 20%, var(--border-2) 80%, transparent);
-    margin: 22px 0;
-  }
-  .pulse blockquote {
-    border-left: 2px solid var(--accent);
-    padding: 4px 0 4px 16px; margin: 14px 0;
-    font-family: var(--serif); font-style: italic;
-    font-size: 17px; line-height: 1.5;
-    color: var(--text);
-  }
+  .pulse hr { border: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--rule-2) 20%, var(--rule-2) 80%, transparent); margin: 24px 0; }
+  .pulse blockquote { border-left: 3px solid var(--accent); padding: 4px 0 4px 18px; margin: 16px 0;
+    font-family: var(--serif); font-style: italic; font-size: 21px; line-height: 1.5; color: var(--ink); }
 
-  /* Cashtag — refined mono pill */
-  .pulse .cashtag {
-    font-family: var(--mono);
-    font-size: 0.88em; font-weight: 600;
-    background: var(--accent-soft);
-    padding: 2px 7px; border-radius: 2px;
-    color: var(--accent-2);
-    border: 1px solid var(--accent-glow);
-    white-space: nowrap;
-    letter-spacing: 0.04em;
-  }
+  /* Cashtag — mono pill on paper */
+  .pulse .cashtag { font-family: var(--mono); font-size: 0.84em; font-weight: 600; background: var(--accent-soft);
+    padding: 2px 7px; border-radius: 2px; color: var(--accent); border: 1px solid var(--accent-glow); white-space: nowrap; letter-spacing: 0.02em; }
 
-  .footer {
-    color: var(--muted); font-size: 10.5px; margin-top: 28px;
-    padding-top: 18px; border-top: 1px solid var(--border);
-    text-align: center; line-height: 1.7;
-    font-family: var(--mono); letter-spacing: 0.12em;
-  }
+  .footer { color: var(--muted); font-size: 10px; margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--ink);
+    text-align: center; line-height: 1.7; font-family: var(--mono); letter-spacing: 0.1em; }
 
   @media (max-width: 600px) {
-    .pulse-masthead h1 { font-size: 24px; }
-    .pulse h2 { font-size: 10px; margin: 24px 0 12px; }
-    .pulse h3 { font-size: 19px; margin: 18px 0 6px; }
-    .pulse p { font-size: 14.5px; }
-    .pulse-bar { padding: 12px 12px; gap: 8px; }
-    .pulse-bar__label { font-size: 11px; letter-spacing: 0.12em; }
-    .pulse-btn { padding: 6px 10px; font-size: 10px; letter-spacing: 0.1em; }
-    .pulse-analyses { font-size: 9.5px; letter-spacing: 0.18em; }
+    .pulse-masthead h1 { font-size: 26px; }
+    .pulse h2 { font-size: 13px; margin: 28px 0 14px; }
+    .pulse h3 { font-size: 20px; margin: 18px 0 6px; }
+    .pulse p { font-size: 15.5px; }
+    .pulse-bar__label { font-size: 19px; }
+    .pulse-btn { padding: 7px 11px; font-size: 10px; letter-spacing: 0.1em; }
   }
 </style>
 </head>
@@ -399,15 +191,15 @@
 
 <div class="wrap">
 
-  <header class="hero-block">
-    <div class="dateline">
-      <span class="vol">Vol. I</span>
-      <span class="sep">·</span>
-      <span>Cross-Bank Institutional Pulse</span>
-      <span class="sep">·</span>
+  <header class="masthead">
+    <div class="rule-top"></div>
+    <div class="rule-thin"></div>
+    <h1 class="page-title"><em>Research</em></h1>
+    <div class="folio">
+      <span class="vol">Vol. I</span><span class="sep">·</span>
+      <span>Cross-Bank Institutional Pulse</span><span class="sep">·</span>
       <span>9 AM ET Daily</span>
     </div>
-    <h1 class="page-title"><em>Research</em></h1>
     <p class="deck">A daily synthesis of 100–200 institutional research analyses — recap of overnight prints, insights and alpha worth noting, and what to watch into the open.</p>
   </header>
 
@@ -418,7 +210,7 @@
   </div>
   <div class="pulse-counter" id="pulseCounter"></div>
 
-  <div class="panel" id="pulseStack">
+  <div class="pulse-stack" id="pulseStack">
     <p class="loader">Loading pulses…</p>
   </div>
 
