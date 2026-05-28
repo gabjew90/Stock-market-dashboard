@@ -665,8 +665,41 @@ TEMPLATE = r"""<!doctype html>
     .pages-nav .brand .mark { display: none; }
   }
 
-  .wrap { max-width: 1120px; margin: 0 auto; padding: 28px 24px 48px; position: relative; z-index: 2; }
+  .wrap { max-width: 1440px; margin: 0 auto; padding: 36px 32px 56px; position: relative; z-index: 2; }
   @media (max-width: 640px) { .wrap { padding: 20px 14px 36px; } }
+
+  /* 2-column desktop dashboard. The chart sits in a big left panel; GMI,
+     T2108, and Controls stack in a right-side sidebar — proper trading-desk
+     geometry instead of a tall single column on a wide monitor. Hero and
+     Since-Day-1 still span both columns to anchor the page top and bottom. */
+  @media (min-width: 1280px) {
+    .wrap {
+      display: grid;
+      grid-template-columns: minmax(0, 1.85fr) minmax(360px, 1fr);
+      grid-template-areas:
+        "hero    hero"
+        "chart   state"
+        "chart   ctl"
+        "since   since"
+        "footer  footer";
+      column-gap: 22px;
+      row-gap: 16px;
+      align-items: start;
+    }
+    .hero-block { grid-area: hero; margin: 0 0 8px; }
+    .state-row { grid-area: state; grid-template-columns: 1fr; gap: 14px; }
+    .chart-panel { grid-area: chart; align-self: stretch; margin: 0; }
+    .ctl-panel { grid-area: ctl; margin: 0; }
+    .since-panel { grid-area: since; margin: 0; }
+    .footer { grid-area: footer; margin: 0; }
+    /* When state-row stacks inside the sidebar, the GMI hero number can shrink a touch */
+    .state-row .hero .num { font-size: 72px; }
+    /* Let the chart grow taller to use the extra vertical real estate */
+    .chart-panel .spark { height: 460px; }
+  }
+  @media (min-width: 1600px) {
+    .chart-panel .spark { height: 520px; }
+  }
 
   /* Hero — editorial title block */
   .hero-block { margin: 0 0 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border); }
@@ -1121,7 +1154,7 @@ TEMPLATE = r"""<!doctype html>
   </div>
 
   <!-- 2. Chart -->
-  <div class="panel">
+  <div class="panel chart-panel">
     <div class="chart-header">
       <span class="small" id="chartTitle">QQQ · 6 mo · daily candles</span>
       <span style="display:inline-flex; align-items:center; gap:8px;">

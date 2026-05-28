@@ -128,8 +128,20 @@
     .pages-nav .brand .mark { display: none; }
   }
 
-  .wrap { max-width: 920px; margin: 0 auto; padding: 28px 24px 48px; position: relative; z-index: 2; }
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 36px 32px 56px; position: relative; z-index: 2; }
   @media (max-width: 640px) { .wrap { padding: 20px 14px 36px; } }
+
+  /* Prose width — kept narrow inside the wide wrap so each line stays in the
+     60–80 char comfort zone even as the panel itself widens. The chrome (hero,
+     pulse-bar, panel container) fills the full width; the article body
+     re-centers within with extra horizontal padding. */
+  @media (min-width: 1024px) {
+    .panel#pulseStack { padding: 40px 48px; }
+    .panel#pulseStack .pulse { max-width: 880px; margin-left: auto; margin-right: auto; }
+  }
+  @media (min-width: 1280px) {
+    .panel#pulseStack { padding: 48px 64px; }
+  }
 
   /* Hero block — editorial title */
   .hero-block { margin: 0 0 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border); }
