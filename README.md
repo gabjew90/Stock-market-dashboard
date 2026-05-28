@@ -3,24 +3,24 @@
 Live site: **<https://gabjew90.github.io/Stock-market-dashboard/>**
 
 Three published pages, deployed nightly after the US close by the
-[`daily-gmi`](.github/workflows/daily-gmi.yml) GitHub Actions workflow:
+[`build-dashboard`](.github/workflows/build-dashboard.yml) GitHub Actions workflow:
 
 | Page | URL | Source |
 |---|---|---|
-| **Market Trend** | `/` | `scripts/build_gmi_playground.py` → `gmi_playground_daily.html` |
-| **News & Macro** | `/pulse/` | static `web/pulse.html` (fetches a daily pulse from [Institutional-report-bot](https://github.com/gabjew90/Institutional-report-bot) at runtime — see [`PULSE-INTEGRATION.md`](PULSE-INTEGRATION.md)) |
+| **Market Regime** | `/` | `scripts/build_market_regime.py` → `market_regime.html` |
+| **Research** | `/pulse/` | static `web/pulse.html` (fetches a daily pulse from [Institutional-report-bot](https://github.com/gabjew90/Institutional-report-bot) at runtime — see [`PULSE-INTEGRATION.md`](PULSE-INTEGRATION.md)) |
 | **About** | `/wiki.html` | `scripts/build_wiki_html.py` over `wiki/**` |
 
 The repo doubles as the LLM-maintained wiki of Dr. Eric Wish's *Wishing Wealth Blog*
 (`wishingwealthblog.com`) trading methodology — built on Andrej Karpathy's
 [LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
-The published "About" page is that wiki; the published "Market Trend" page is a
+The published "About" page is that wiki; the published "Market Regime" page is a
 single-day deep-dive built from the same indicator code (`src/ww/indicators/`)
 and a reconstructed breadth panel (`data/breadth/`).
 
 The wiki structure and conventions live in [`CLAUDE.md`](CLAUDE.md).
 
-## What "Market Trend" shows
+## What "Market Regime" shows
 
 The single-day deep-dive page renders, all referenced to a selectable date:
 
@@ -78,15 +78,15 @@ whose markdown file already exists are skipped (use `--force` to rewrite).
 
 ## How the live site updates
 
-The `daily-gmi` workflow fires:
+The `build-dashboard` workflow fires:
 
 - on every weekday at 22:00 UTC (≈ 5–6 PM ET, after the close), via cron
-- on every push to `main` that touches the playground script, wiki HTML
+- on every push to `main` that touches the build script, wiki HTML
   builder, wiki content, raw posts, the pulse page, or the workflow itself
 - on demand from the Actions tab
 
 It restores a cached breadth + OHLC panel, runs `ww breadth update` for the
-delta, rebuilds the GMI playground HTML and the wiki HTML, stages both plus
+delta, rebuilds the Market Regime HTML and the wiki HTML, stages both plus
 `web/pulse.html` into `_site/`, and deploys via Pages. First-run bootstrap
 (`ww breadth fetch && ww breadth build`) only fires when the cache is empty.
 
@@ -95,8 +95,8 @@ workflow fires on the 1st of each month at 06:00 UTC. It runs the heavier
 `ww breadth fetch --refresh-symbols` to re-download the Nasdaq Trader
 symbol files, rebuild the common-stock universe (picks up new listings,
 drops delistings), fetch full history for any new ticker, and recompute the
-breadth series. The next daily-gmi run after the refresh picks up the
-updated cache automatically.
+breadth series. The next build-dashboard run after the refresh picks up
+the updated cache automatically.
 
 The price cache (`data/backtest/prices.parquet`) self-validates: each ticker
 must have ≥ 5 non-NaN values in its most recent 60 trading days, otherwise

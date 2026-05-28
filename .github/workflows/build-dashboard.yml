@@ -1,6 +1,6 @@
-name: daily-gmi
+name: build-dashboard
 
-# Rebuild the GMI playground every weekday after the US market close and publish to GitHub Pages.
+# Rebuild the Market Regime dashboard every weekday after the US market close and publish to GitHub Pages.
 # Three cron times so today's data still lands even if GitHub Actions delays the primary slot
 # (we observed 55-min slippage on 2026-05-15 and a complete miss on 2026-05-19 — scheduled
 # workflows can be queued behind interactive jobs for hours during peak load). The build is
@@ -16,9 +16,9 @@ on:
   push:
     branches: [main]
     paths:
-      - 'scripts/build_gmi_playground.py'
+      - 'scripts/build_market_regime.py'
       - 'scripts/build_wiki_html.py'
-      - '.github/workflows/daily-gmi.yml'
+      - '.github/workflows/build-dashboard.yml'
       - 'src/ww/backtest/**'
       - 'wiki/**'
       - 'raw/posts.jsonl'
@@ -54,6 +54,7 @@ jobs:
       # Persist the (slow-to-build) breadth panel + OHLC cache across runs.
       # First run takes ~5 min to fetch the full Nasdaq Trader universe;
       # subsequent runs hit the cache and do a delta-update in seconds.
+      # Shared with the monthly-breadth-refresh workflow via the same key prefix.
       - name: Restore breadth + OHLC cache
         id: cache
         uses: actions/cache@v4
@@ -61,9 +62,9 @@ jobs:
           path: |
             data/breadth
             data/backtest
-          key: breadth-cache-v2-${{ github.run_id }}
+          key: dashboard-cache-v1-${{ github.run_id }}
           restore-keys: |
-            breadth-cache-v2-
+            dashboard-cache-v1-
 
       - name: Bootstrap breadth (only when cache is empty)
         if: ${{ hashFiles('data/breadth/universe.parquet') == '' }}
@@ -87,7 +88,7 @@ jobs:
       # Soft freshness guardrail: WARN aggressively, only HARD-FAIL on the data
       # quality signals that actually break the dashboard (recent zero-T2108 =
       # upstream price-fetch failure, the exact bug this check was added for).
-      # The age threshold is loose (10 days) because the daily-gmi workflow now
+      # The age threshold is loose (10 days) because build-dashboard now
       # triggers on every push to scripts/wiki/web paths — if you push at 11pm
       # on a Friday before a 3-day weekend, the deploy must still go through.
       - name: Verify breadth freshness
@@ -126,18 +127,18 @@ jobs:
           if-no-files-found: ignore
           retention-days: 14
 
-      - name: Rebuild GMI playground HTML
+      - name: Build Market Regime page
         shell: bash
         run: |
           set -o pipefail
-          uv run python scripts/build_gmi_playground.py 2>&1 | tee build_gmi.log
+          uv run python scripts/build_market_regime.py 2>&1 | tee build_market_regime.log
 
       - name: Upload build log (every run, success or failure)
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: build-gmi-log
-          path: build_gmi.log
+          name: dashboard-build-log
+          path: build_market_regime.log
           if-no-files-found: ignore
           retention-days: 14
 
@@ -147,8 +148,9 @@ jobs:
       - name: Stage site
         run: |
           mkdir -p _site
-          cp gmi_playground_daily.html _site/index.html
-          cp gmi_playground_daily.html _site/gmi.html
+          cp market_regime.html _site/index.html
+          # /gmi.html kept as a back-compat alias for any external bookmarks pre-rename.
+          cp market_regime.html _site/gmi.html
           cp wiki_site.html _site/wiki.html
           # Copy any image/data assets referenced by the wiki (e.g. backtest equity curve)
           if [ -d assets ]; then cp -r assets _site/assets; fi

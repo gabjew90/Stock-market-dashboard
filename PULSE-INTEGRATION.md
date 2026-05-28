@@ -3,8 +3,8 @@
 The `/pulse/` page on this site embeds the **Daily Market Pulse** from a separate
 project at <https://github.com/gabjew90/Institutional-report-bot>.
 
-If you're looking at `web/pulse.html` or the "News & Macro" link in the
-`.pages-nav` of `scripts/build_gmi_playground.py` and wondering "what is this,"
+If you're looking at `web/pulse.html` or the "Research" link in the
+`.pages-nav` of `scripts/build_market_regime.py` and wondering "what is this,"
 this doc is for you.
 
 ---
@@ -37,12 +37,12 @@ Three files (plus this doc):
    `Next week →` buttons for pagination. Each rendered pulse comes from a
    per-`<ts>.html` fragment on the pulse-data branch.
 
-2. **`scripts/build_gmi_playground.py`** *(modified — 1 line)*
-   Added a `<a href="./pulse/">News & Macro</a>` link to the existing
-   `.pages-nav` block, positioned between "Market Trend" and "About". No
-   other change to the GMI rendering.
+2. **`scripts/build_market_regime.py`** *(modified — 1 line)*
+   Added a `<a href="./pulse/">Research</a>` link to the existing
+   `.pages-nav` block, positioned next to "Market Regime". No other change
+   to the dashboard rendering.
 
-3. **`.github/workflows/daily-gmi.yml`** *(modified — 2 hunks)*
+3. **`.github/workflows/build-dashboard.yml`** *(modified — 2 hunks)*
    - Added `web/pulse.html` to the `paths` filter so future edits to the pulse
      page also trigger a redeploy.
    - Added two new lines to the "Stage site" step that copy `web/pulse.html`
@@ -55,9 +55,9 @@ Three files (plus this doc):
 
 | URL | What | Owned by |
 |---|---|---|
-| `https://gabjew90.github.io/Stock-market-dashboard/` | Market Trend (GMI / T2108 single-day deep-dive) | This repo |
+| `https://gabjew90.github.io/Stock-market-dashboard/` | Market Regime (GMI / T2108 single-day deep-dive) | This repo |
 | `https://gabjew90.github.io/Stock-market-dashboard/wiki.html` | About (methodology wiki) | This repo |
-| `https://gabjew90.github.io/Stock-market-dashboard/pulse/` | News & Macro (Daily Pulse) | This repo (static `web/pulse.html`) |
+| `https://gabjew90.github.io/Stock-market-dashboard/pulse/` | Research (Daily Pulse) | This repo (static `web/pulse.html`) |
 | `https://raw.githack.com/gabjew90/Institutional-report-bot/pulse-data/pulse-output/web/archive.json` | Index of available pulses (title, date, fragment_url per entry) | Other repo (auto-published by its bridge worker) |
 | `https://raw.githack.com/gabjew90/Institutional-report-bot/pulse-data/pulse-output/web/fragments/<ts>.html` | Individual pulse content as headless HTML | Other repo |
 
@@ -98,7 +98,7 @@ not the class names.
 
 **Reorder or rename the top nav chips** → edit the `<nav class="pages-nav">`
 block in `web/pulse.html` AND in the `TEMPLATE` string of
-`scripts/build_gmi_playground.py`. They have to stay in sync visually — both
+`scripts/build_market_regime.py`. They have to stay in sync visually — both
 pages share the same brand bar.
 
 **Change which pulse pipeline this points at** → edit the `REPO` / `BRANCH`

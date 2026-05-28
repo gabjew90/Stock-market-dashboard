@@ -1,7 +1,7 @@
 """Build all three site pages and stage them to litterbox.catbox.moe for a 72-h preview.
 
 Pages staged:
-* GMI Daily      — built by scripts/build_gmi_playground.py
+* Market Regime  — built by scripts/build_market_regime.py
 * Methodology    — built by scripts/build_wiki_html.py
 * Daily Pulse    — static at web/pulse.html (owned by the other Claude session)
 
@@ -54,9 +54,9 @@ def run(cmd: list[str], **kw) -> subprocess.CompletedProcess:
 
 
 def build_gmi() -> Path:
-    print("==> building GMI Daily...")
-    run(["uv", "run", "python", "scripts/build_gmi_playground.py"])
-    return ROOT / "gmi_playground_daily.html"
+    print("==> building Market Regime page...")
+    run(["uv", "run", "python", "scripts/build_market_regime.py"])
+    return ROOT / "market_regime.html"
 
 
 def build_wiki() -> Path:
@@ -151,7 +151,7 @@ def main() -> int:
         if p.name.endswith(".staged.html"):
             p.unlink(missing_ok=True)
     # And the originals from the build scripts
-    (ROOT / "gmi_playground_daily.html").unlink(missing_ok=True)
+    (ROOT / "market_regime.html").unlink(missing_ok=True)
     (ROOT / "wiki_site.html").unlink(missing_ok=True)
 
     print()

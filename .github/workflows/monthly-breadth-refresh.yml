@@ -6,14 +6,14 @@ name: monthly-breadth-refresh
 # Then rebuild the breadth series + fund proxy off the refreshed panel.
 #
 # `ww breadth fetch --refresh-symbols` is the heavy variant — it triggers the
-# symbol-list re-download and the panel re-fetch. The daily-gmi workflow only
-# runs `ww breadth update` (incremental, last ~month of bars for the existing
-# universe), so without this monthly job the universe would slowly diverge
-# from reality (new IPOs unseen, delisted names lingering).
+# symbol-list re-download and the panel re-fetch. The build-dashboard workflow
+# only runs `ww breadth update` (incremental, last ~month of bars for the
+# existing universe), so without this monthly job the universe would slowly
+# diverge from reality (new IPOs unseen, delisted names lingering).
 #
 # This job ONLY refreshes the shared cache; it does not redeploy the site.
-# The next daily-gmi run (weekday 22:00 UTC after the close) will restore the
-# updated cache and pick up the new universe automatically.
+# The next build-dashboard run (weekday 22:00 UTC after the close) will
+# restore the updated cache and pick up the new universe automatically.
 
 on:
   schedule:
@@ -23,7 +23,7 @@ on:
 permissions:
   contents: read
 
-# Don't fight a concurrent daily-gmi run for the shared cache.
+# Don't fight a concurrent build-dashboard run for the shared cache.
 concurrency:
   group: 'breadth-cache'
   cancel-in-progress: false
@@ -47,9 +47,9 @@ jobs:
           path: |
             data/breadth
             data/backtest
-          key: breadth-cache-v1-${{ github.run_id }}
+          key: dashboard-cache-v1-${{ github.run_id }}
           restore-keys: |
-            breadth-cache-v1-
+            dashboard-cache-v1-
 
       - name: Refresh symbol list + fetch any new tickers' full history
         run: uv run ww breadth fetch --refresh-symbols

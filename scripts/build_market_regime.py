@@ -1315,7 +1315,7 @@ const WEEKLY = DATA.weekly || [];
 const LONG_TRENDS = DATA.long_trends || [];
 
 // Surface when the data was last refreshed (build timestamp, in US Eastern).
-// The daily-gmi workflow fires after the US close, so this is also how fresh
+// The build-dashboard workflow fires after the US close, so this is also how fresh
 // today's GMI / T2108 / chart / Since-Day-1 numbers are.
 {
   const el = document.getElementById('lastUpdated');
@@ -2084,12 +2084,12 @@ def main() -> None:
         payload = build_payload()
         payload["built_at"] = _format_et_now()
         out = TEMPLATE.replace("__DATA__", json.dumps(payload, separators=(",", ":"), default=str))
-        target = ROOT / "gmi_playground_daily.html"
+        target = ROOT / "market_regime.html"
         target.write_text(out, encoding="utf-8")
         print(f"wrote {target} — {len(out):,} bytes — {len(payload['rows'])} rows — asof {payload['asof']} — built {payload['built_at']}")
     except Exception:
         import traceback
-        print("\n*** build_gmi_playground.py FAILED — full traceback follows ***", file=sys.stderr)
+        print("\n*** build_market_regime.py FAILED — full traceback follows ***", file=sys.stderr)
         traceback.print_exc()
         raise
 
