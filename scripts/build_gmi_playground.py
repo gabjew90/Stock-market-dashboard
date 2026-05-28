@@ -598,11 +598,12 @@ TEMPLATE = r"""<!doctype html>
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95 0 0 0 0 0.85 0 0 0 0 0.7 0 0 0 0.03 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
     opacity: 0.55; mix-blend-mode: overlay;
   }
-  /* Top nav — newspaper masthead style: thin top rule, brand on the left in serif, links right */
+  /* Top nav — masthead: brand on the left, nav links centered, accent rule at the top */
   .pages-nav {
     position: sticky; top: 0; z-index: 100;
-    display: flex; align-items: center; gap: 4px;
-    padding: 14px 24px;
+    display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
+    gap: 18px;
+    padding: 18px 28px;
     background: rgba(11,10,9,0.88);
     backdrop-filter: blur(14px) saturate(140%);
     -webkit-backdrop-filter: blur(14px) saturate(140%);
@@ -612,40 +613,53 @@ TEMPLATE = r"""<!doctype html>
   .pages-nav::before {
     content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px;
     background: linear-gradient(90deg, transparent, var(--accent) 18%, var(--accent) 82%, transparent);
-    opacity: 0.55;
+    opacity: 0.6;
   }
   .pages-nav .brand {
     font-family: var(--serif);
     font-weight: 400; font-style: italic;
-    margin-right: auto;
-    font-size: 22px;
+    font-size: 26px;
     letter-spacing: 0.005em;
     color: var(--text);
     line-height: 1;
-    display: inline-flex; align-items: baseline; gap: 8px;
+    display: inline-flex; align-items: baseline; gap: 10px;
+    justify-self: start;
   }
   .pages-nav .brand .mark {
     font-family: var(--mono); font-style: normal;
-    font-size: 9px; letter-spacing: 0.22em; color: var(--accent);
-    text-transform: uppercase; padding: 3px 7px;
+    font-size: 9.5px; letter-spacing: 0.24em; color: var(--accent);
+    text-transform: uppercase; padding: 4px 8px;
     border: 1px solid var(--accent); border-radius: 2px;
     line-height: 1; align-self: center;
   }
+  .pages-nav .nav-links {
+    display: inline-flex; align-items: center; gap: 6px;
+    justify-self: center;
+  }
+  .pages-nav .nav-spacer { display: block; justify-self: end; }
   .pages-nav a {
     color: var(--muted); text-decoration: none;
-    padding: 8px 14px; border-radius: 2px;
-    font-family: var(--mono); font-size: 11px; font-weight: 500;
-    letter-spacing: 0.12em; text-transform: uppercase;
-    border-bottom: 1px solid transparent;
-    transition: color 0.18s ease, border-color 0.18s ease;
+    padding: 13px 26px; border-radius: 2px;
+    font-family: var(--mono); font-size: 13.5px; font-weight: 600;
+    letter-spacing: 0.2em; text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: color 0.22s ease, border-color 0.22s ease, background 0.22s ease, letter-spacing 0.22s ease;
+    position: relative;
   }
   .pages-nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
-  .pages-nav a:hover { color: var(--text); border-bottom-color: var(--border-2); }
-  @media (max-width: 640px) {
-    .pages-nav { padding: 11px 14px; }
-    .pages-nav .brand { font-size: 18px; }
-    .pages-nav .brand .mark { font-size: 8px; padding: 2px 5px; }
-    .pages-nav a { padding: 6px 9px; font-size: 10px; letter-spacing: 0.08em; }
+  .pages-nav a:hover { color: var(--text); background: var(--panel-2); border-bottom-color: var(--border-2); }
+  .pages-nav a.active:hover { border-bottom-color: var(--accent); background: var(--accent-soft); }
+  @media (max-width: 760px) {
+    .pages-nav {
+      grid-template-columns: 1fr;
+      gap: 8px;
+      padding: 12px 14px 10px;
+      text-align: center;
+    }
+    .pages-nav .brand { justify-self: center; font-size: 20px; gap: 8px; }
+    .pages-nav .nav-spacer { display: none; }
+    .pages-nav .nav-links { gap: 4px; }
+    .pages-nav a { padding: 8px 14px; font-size: 11px; letter-spacing: 0.14em; border-bottom-width: 1px; }
   }
   @media (max-width: 420px) {
     .pages-nav .brand .mark { display: none; }
@@ -666,17 +680,17 @@ TEMPLATE = r"""<!doctype html>
   .dateline .sep { color: var(--dim); }
   h1 {
     font-family: var(--serif); font-weight: 400;
-    font-size: clamp(42px, 7vw, 72px);
-    line-height: 0.98; letter-spacing: -0.015em;
-    margin: 0 0 6px;
+    font-size: clamp(48px, 9.5vw, 132px);
+    line-height: 0.94; letter-spacing: -0.022em;
+    margin: 0 0 10px;
     color: var(--text);
   }
   h1 em { font-style: italic; color: var(--accent); font-weight: 400; }
   .deck {
     font-family: var(--serif); font-style: italic;
-    font-size: clamp(16px, 2.2vw, 20px);
+    font-size: clamp(17px, 2.4vw, 23px);
     color: var(--text-2); line-height: 1.4;
-    margin: 0; max-width: 56ch;
+    margin: 0; max-width: 62ch;
   }
   .last-updated {
     color: var(--muted); font-family: var(--mono); font-size: 10.5px;
@@ -1036,8 +1050,11 @@ TEMPLATE = r"""<!doctype html>
 <body>
 <nav class="pages-nav">
   <span class="brand">Stock <em>market</em> dashboard <span class="mark">Live</span></span>
-  <a href="https://gabjew90.github.io/Stock-market-dashboard/" class="active">Market Regime</a>
-  <a href="https://gabjew90.github.io/Stock-market-dashboard/pulse/">Research</a>
+  <div class="nav-links">
+    <a href="https://gabjew90.github.io/Stock-market-dashboard/" class="active">Market Regime</a>
+    <a href="https://gabjew90.github.io/Stock-market-dashboard/pulse/">Research</a>
+  </div>
+  <span class="nav-spacer" aria-hidden="true"></span>
 </nav>
 <div class="wrap">
 
