@@ -539,719 +539,302 @@ TEMPLATE = r"""<!doctype html>
 <title>Stock market dashboard — Market Regime</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    /* Warm-dark editorial palette — like a financial paper printed on dark stock */
-    --bg: #0b0a09;
-    --bg-2: #14110f;
-    --panel: #181513;
-    --panel-2: #221c18;
-    --panel-hi: #2b231e;
-    --border: #2a2420;
-    --border-2: #3a3128;
-    --hairline: #1f1a16;
-    --text: #f2ebe1;
-    --text-2: #ddd1bf;
-    --muted: #9c8c7c;
-    --dim: #6b5d52;
-    /* Bold single accent — amber gold, the page's signature */
-    --accent: #e7a924;
-    --accent-2: #f5c042;
-    --accent-soft: rgba(231,169,36,0.14);
-    --accent-glow: rgba(231,169,36,0.32);
-    /* Refined bull/bear — sit closer together than punchy reds/greens */
-    --bull: #4fa363;
-    --bull-soft: rgba(79,163,99,0.14);
-    --bull-line: rgba(79,163,99,0.42);
-    --bear: #d96250;
-    --bear-soft: rgba(217,98,80,0.14);
-    --bear-line: rgba(217,98,80,0.42);
-    --caution: #d09a2a;
-    --caution-soft: rgba(208,154,42,0.14);
-    --caution-line: rgba(208,154,42,0.42);
-    /* Type stacks */
-    --serif: "Instrument Serif", "Cormorant Garamond", "Times New Roman", Georgia, serif;
-    --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    --paper: #efe7d6; --paper-2: #f5efe1; --paper-3: #e8dfcb; --panel: #f3ecdd;
+    --ink: #1c1813; --ink-2: #3f372c; --muted: #7c7060; --faint: #a89a84;
+    --rule: #cdbfa6; --rule-2: #bdac8e; --hair: #ddd1ba;
+    --accent: #a8740a; --accent-2: #c08a14; --accent-soft: rgba(168,116,10,0.1); --accent-glow: rgba(168,116,10,0.3);
+    --bull: #2f6b3f; --bull-soft: rgba(47,107,63,0.1); --bull-line: rgba(47,107,63,0.4);
+    --bear: #8c2f24; --bear-soft: rgba(140,47,36,0.09); --bear-line: rgba(140,47,36,0.4);
+    --caution: #b07d18; --caution-soft: rgba(176,125,24,0.12); --caution-line: rgba(176,125,24,0.4);
+    --serif: "Instrument Serif", Georgia, serif;
+    --body: Georgia, "Times New Roman", serif;
+    --sans: "IBM Plex Sans", system-ui, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, monospace;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: var(--sans);
-    font-size: 15px;
-    line-height: 1.55;
-    font-feature-settings: "ss01", "cv01";
-    /* Subtle warm-paper texture — barely there, but kills the "flat AI" feel */
-    background-image:
-      radial-gradient(ellipse 80% 50% at 50% 0%, rgba(231,169,36,0.05), transparent 70%),
-      radial-gradient(ellipse 60% 40% at 100% 100%, rgba(217,98,80,0.025), transparent 70%);
-    background-attachment: fixed;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  /* Faint film-grain overlay */
-  body::before {
-    content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 1;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95 0 0 0 0 0.85 0 0 0 0 0.7 0 0 0 0.03 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
-    opacity: 0.55; mix-blend-mode: overlay;
-  }
+  body { background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  body::before { content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 1;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.1 0 0 0 0 0.08 0 0 0 0 0.05 0 0 0 0.04 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    opacity: 0.7; mix-blend-mode: multiply; }
 
-  /* Page-load orchestration — staggered reveals from dateline outward.
-     Cubic-bezier(0.2, 0.8, 0.2, 1) is the long-tail "settle" curve that
-     gives the type a published-into-place feel rather than a UI swoosh.
-     All animations honor prefers-reduced-motion below. */
-  @keyframes reveal-up {
-    from { opacity: 0; transform: translateY(16px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  @keyframes mark-pulse {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(231,169,36,0.0); }
-    50%      { box-shadow: 0 0 0 5px rgba(231,169,36,0.18); }
-  }
-  @keyframes value-flash {
-    0%   { background-color: rgba(231,169,36,0.22); }
-    100% { background-color: transparent; }
-  }
-
-  .hero-block .dateline { animation: reveal-up 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 0ms; }
-  .hero-block h1        { animation: reveal-up 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 80ms; }
-  .hero-block .deck     { animation: reveal-up 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 150ms; }
-  .hero-block .last-updated { animation: reveal-up 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 210ms; }
-  .state-row    { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 300ms; }
-  .chart-panel  { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 380ms; }
-  .ctl-panel    { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 460ms; }
-  .since-panel  { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 540ms; }
-  .wrap > .footer { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 620ms; }
-
-  /* Flash class applied via JS to .num and .since-val whenever the selected
-     date changes. Drops a soft amber wash behind the number for ~400ms. */
+  @keyframes value-flash { 0% { background-color: rgba(168,116,10,0.22); } 100% { background-color: transparent; } }
   .flash { animation: value-flash 0.45s ease-out; border-radius: 2px; }
+  @media (prefers-reduced-motion: reduce) { * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; } }
 
-  @media (prefers-reduced-motion: reduce) {
-    *, *::before, *::after {
-      animation-duration: 0.001ms !important;
-      animation-iteration-count: 1 !important;
-      animation-delay: 0ms !important;
-      transition-duration: 0.001ms !important;
-    }
-  }
-  /* Top nav — masthead: brand on the left, nav links centered, accent rule at the top */
-  .pages-nav {
-    position: sticky; top: 0; z-index: 100;
-    display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
-    gap: 18px;
-    padding: 18px 28px;
-    background: rgba(11,10,9,0.88);
-    backdrop-filter: blur(14px) saturate(140%);
-    -webkit-backdrop-filter: blur(14px) saturate(140%);
-    border-bottom: 1px solid var(--border);
-    box-shadow: 0 1px 0 rgba(255,255,255,0.02);
-  }
-  .pages-nav::before {
-    content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px;
-    background: linear-gradient(90deg, transparent, var(--accent) 18%, var(--accent) 82%, transparent);
-    opacity: 0.6;
-  }
-  .pages-nav .brand {
-    font-family: var(--serif);
-    font-weight: 400; font-style: italic;
-    font-size: 26px;
-    letter-spacing: 0.005em;
-    color: var(--text);
-    line-height: 1;
-    display: inline-flex; align-items: baseline; gap: 10px;
-    justify-self: start;
-  }
-  .pages-nav .brand .mark {
-    font-family: var(--mono); font-style: normal;
-    font-size: 9.5px; letter-spacing: 0.24em; color: var(--accent);
-    text-transform: uppercase; padding: 4px 8px;
-    border: 1px solid var(--accent); border-radius: 2px;
-    line-height: 1; align-self: center;
-    animation: mark-pulse 2.8s ease-in-out infinite;
-    animation-delay: 1.4s;
-  }
-  .pages-nav .nav-links {
-    display: inline-flex; align-items: center; gap: 6px;
-    justify-self: center;
-  }
-  .pages-nav .nav-spacer { display: block; justify-self: end; }
-  .pages-nav a {
-    color: var(--muted); text-decoration: none;
-    padding: 13px 26px; border-radius: 2px;
-    font-family: var(--mono); font-size: 13.5px; font-weight: 600;
-    letter-spacing: 0.2em; text-transform: uppercase;
-    border-bottom: 2px solid transparent;
-    transition: color 0.22s ease, border-color 0.22s ease, background 0.22s ease, letter-spacing 0.22s ease;
-    position: relative;
-  }
+  a { color: var(--accent); text-decoration: none; }
+  button { font-family: inherit; cursor: pointer; }
+
+  /* ===== top nav ===== */
+  .pages-nav { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 16px;
+    max-width: 1360px; margin: 0 auto; padding: 12px 36px 10px; border-bottom: 1px solid var(--rule); position: relative; z-index: 2; }
+  .pages-nav .brand { font-family: var(--serif); font-style: italic; font-size: 22px; color: var(--ink);
+    display: inline-flex; align-items: baseline; gap: 9px; justify-self: start; }
+  .pages-nav .brand em { color: var(--ink); }
+  .pages-nav .brand .mark { font-family: var(--mono); font-style: normal; font-size: 8.5px; letter-spacing: 0.22em;
+    color: var(--accent); text-transform: uppercase; padding: 3px 7px; border: 1px solid var(--accent); border-radius: 1px; align-self: center; }
+  .pages-nav .nav-links { display: inline-flex; gap: 22px; justify-self: center; }
+  .pages-nav a { color: var(--ink); font-family: var(--mono); font-size: 11px; font-weight: 600;
+    letter-spacing: 0.18em; text-transform: uppercase; padding-bottom: 5px; border-bottom: 2px solid transparent; }
   .pages-nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
-  .pages-nav a:hover { color: var(--text); background: var(--panel-2); border-bottom-color: var(--border-2); }
-  .pages-nav a.active:hover { border-bottom-color: var(--accent); background: var(--accent-soft); }
-  @media (max-width: 760px) {
-    .pages-nav {
-      grid-template-columns: 1fr;
-      gap: 8px;
-      padding: 12px 14px 10px;
-      text-align: center;
-    }
-    .pages-nav .brand { justify-self: center; font-size: 20px; gap: 8px; }
-    .pages-nav .nav-spacer { display: none; }
-    .pages-nav .nav-links { gap: 4px; }
-    .pages-nav a { padding: 8px 14px; font-size: 11px; letter-spacing: 0.14em; border-bottom-width: 1px; }
-  }
-  @media (max-width: 420px) {
-    .pages-nav .brand .mark { display: none; }
-  }
+  .pages-nav a:hover { color: var(--accent); }
+  .pages-nav .nav-spacer { justify-self: end; font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: 0.06em; }
 
-  .wrap { max-width: 1440px; margin: 0 auto; padding: 36px 32px 56px; position: relative; z-index: 2; }
-  @media (max-width: 640px) { .wrap { padding: 20px 14px 36px; } }
+  .wrap { max-width: 1360px; margin: 0 auto; padding: 0 36px 56px; position: relative; z-index: 2; }
 
-  /* 2-column desktop dashboard. The chart sits in a big left panel; GMI,
-     T2108, and Controls stack in a right-side sidebar — proper trading-desk
-     geometry instead of a tall single column on a wide monitor. Hero and
-     Since-Day-1 still span both columns to anchor the page top and bottom. */
-  @media (min-width: 1280px) {
-    .wrap {
-      display: grid;
-      grid-template-columns: minmax(0, 1.85fr) minmax(360px, 1fr);
-      grid-template-areas:
-        "hero    hero"
-        "chart   state"
-        "chart   ctl"
-        "since   since"
-        "footer  footer";
-      column-gap: 22px;
-      row-gap: 16px;
-      align-items: start;
-    }
-    .hero-block { grid-area: hero; margin: 0 0 8px; }
-    /* Grid-break: pull the title 32px past the left wrap padding so it sets
-       the page margin instead of obeying it. Just enough to feel intentional. */
-    .hero-block h1 { margin-left: -32px; }
-    .state-row { grid-area: state; grid-template-columns: 1fr; gap: 14px; }
-    .chart-panel { grid-area: chart; align-self: stretch; margin: 0; }
-    .ctl-panel { grid-area: ctl; margin: 0; }
-    .since-panel { grid-area: since; margin: 0; }
-    .footer { grid-area: footer; margin: 0; }
-    /* When state-row stacks inside the sidebar, the GMI hero number can shrink a touch */
-    .state-row .hero .num { font-size: 72px; }
-    /* Let the chart grow taller to use the extra vertical real estate */
-    .chart-panel .spark { height: 460px; }
-  }
-  @media (min-width: 1600px) {
-    .chart-panel .spark { height: 520px; }
-  }
+  /* ===== masthead ===== */
+  .masthead { text-align: center; padding: 22px 0 0; }
+  .masthead .rule-top { height: 4px; background: var(--ink); margin-bottom: 3px; }
+  .masthead .rule-thin { height: 1px; background: var(--ink); margin-bottom: 14px; }
+  .masthead h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(58px, 8.6vw, 112px);
+    line-height: 0.9; letter-spacing: -0.02em; margin: 4px 0; color: var(--ink); }
+  .masthead h1 em { font-style: italic; color: var(--accent); }
+  .folio { display: flex; align-items: center; justify-content: center; gap: 13px; flex-wrap: wrap;
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
+    padding: 10px 0; border-top: 1px solid var(--ink); border-bottom: 3px double var(--ink); margin-top: 8px; }
+  .folio .vol { color: var(--accent); } .folio .sep { color: var(--faint); }
+  .deck { font-family: var(--serif); font-style: italic; font-size: 21px; color: var(--ink-2); max-width: 64ch; margin: 15px auto 0; line-height: 1.4; }
+  .last-updated { font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
+    margin: 12px 0 0; display: inline-flex; align-items: center; gap: 9px; }
+  .last-updated::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
 
-  /* Hero — editorial title block */
-  .hero-block { margin: 0 0 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border); }
-  .dateline {
-    display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
-    font-family: var(--mono); font-size: 10px; letter-spacing: 0.24em;
-    text-transform: uppercase; color: var(--muted);
-    margin-bottom: 14px;
-  }
-  .dateline .vol { color: var(--accent); }
-  .dateline .sep { color: var(--dim); }
-  h1 {
-    font-family: var(--serif); font-weight: 400;
-    font-size: clamp(48px, 9.5vw, 132px);
-    line-height: 0.94; letter-spacing: -0.022em;
-    margin: 0 0 10px;
-    color: var(--text);
-  }
-  h1 em { font-style: italic; color: var(--accent); font-weight: 400; }
-  .deck {
-    font-family: var(--serif); font-style: italic;
-    font-size: clamp(17px, 2.4vw, 23px);
-    color: var(--text-2); line-height: 1.4;
-    margin: 0; max-width: 62ch;
-  }
-  .last-updated {
-    color: var(--muted); font-family: var(--mono); font-size: 10.5px;
-    letter-spacing: 0.16em; text-transform: uppercase;
-    margin: 14px 0 0; display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
-  }
-  .last-updated::before {
-    content: ""; width: 6px; height: 6px; border-radius: 50%;
-    background: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft);
-    flex-shrink: 0;
-  }
+  /* ===== verdict ===== */
+  .verdict { margin: 24px 0 0; padding-bottom: 20px; border-bottom: 1px solid var(--rule); }
+  .kicker { font-family: var(--mono); font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 8px; display: flex; align-items: center; gap: 10px; }
+  .kicker .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--bull); box-shadow: 0 0 0 3px var(--bull-soft); }
+  .kicker.yellow .dot { background: var(--caution); box-shadow: 0 0 0 3px var(--caution-soft); }
+  .kicker.red .dot { background: var(--bear); box-shadow: 0 0 0 3px var(--bear-soft); }
+  .verdict h2 { font-family: var(--serif); font-weight: 400; font-size: clamp(30px, 3.6vw, 46px);
+    line-height: 1.02; letter-spacing: -0.012em; margin: 0 0 12px; }
+  .verdict h2 em { font-style: italic; color: var(--accent); }
+  .verdict .body2 { columns: 2; column-gap: 40px; column-rule: 1px solid var(--hair); }
+  .verdict .body2 p { break-inside: avoid; font-size: 15.5px; line-height: 1.6; color: var(--ink-2); margin: 0 0 10px; }
+  .drop::first-letter { font-family: var(--serif); font-size: 60px; line-height: 0.7; float: left; padding: 6px 10px 0 0; color: var(--accent); }
+  .stage-stamp { display: inline-block; margin-top: 2px; padding: 6px 14px; border-top: 2px solid var(--bull); border-bottom: 2px solid var(--bull);
+    color: var(--bull); font-family: var(--mono); font-weight: 700; font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; transform: rotate(-1.1deg); }
+  .stage-stamp.s4 { color: var(--bear); border-color: var(--bear); }
+  .stage-stamp.s3, .stage-stamp.s1 { color: var(--caution); border-color: var(--caution); }
 
-  /* Panels — refined, lift on hover, sharp inner rule */
-  .panel {
-    background: linear-gradient(180deg, var(--panel) 0%, var(--bg-2) 100%);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    padding: 18px 18px;
-    margin: 14px 0;
-    position: relative;
-    box-shadow:
-      0 1px 0 rgba(255,255,255,0.025) inset,
-      0 18px 40px -28px rgba(0,0,0,0.6);
-  }
-  .panel + .panel { margin-top: 14px; }
-  .small { color: var(--muted); font-size: 11px; font-family: var(--mono); letter-spacing: 0.04em; }
+  /* ===== scoreboard band ===== */
+  .scoreboard { display: grid; grid-template-columns: 0.95fr 1.4fr 1fr; margin: 22px 0; border-top: 3px double var(--ink); border-bottom: 3px double var(--ink); }
+  .sb { padding: 16px 22px; border-right: 1px solid var(--rule); }
+  .sb:first-child { padding-left: 0; } .sb:last-child { border-right: none; padding-right: 0; }
+  .sb .panel-title { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink);
+    font-weight: 600; padding-bottom: 8px; margin-bottom: 14px; border-bottom: 1px solid var(--ink); display: flex; align-items: center; gap: 8px; }
+  .sb .panel-title .label-main { color: var(--ink); }
+  .sb .panel-title .qmark { margin-left: auto; }
 
-  /* Section header label — small uppercase mono, used as the title of every panel */
-  .panel-title {
-    font-size: 10px; color: var(--muted); font-family: var(--mono);
-    text-transform: uppercase; letter-spacing: 0.26em; margin-bottom: 14px;
-    display: flex; align-items: center; gap: 10px;
-    padding-bottom: 10px; border-bottom: 1px solid var(--hairline);
-  }
-  .panel-title::before {
-    content: ""; width: 14px; height: 1px; background: var(--accent); flex-shrink: 0;
-  }
-  .panel-title .label-main { color: var(--text-2); font-weight: 600; letter-spacing: 0.22em; }
-
-  /* Hero — GMI + state + day-N + stage */
-  .hero { display: grid; grid-template-columns: auto 1fr; gap: 22px; align-items: center; }
-  /* Editorial figure framing for the GMI numeral — flanking amber hairlines
-     and an italic-serif "of six" caption turn the raw counter into a
-     published statistic. */
-  .gmi-figure { display: inline-flex; flex-direction: column; align-items: center; gap: 6px; }
-  .gmi-numeral {
-    position: relative; padding: 0 28px;
-    display: inline-flex; align-items: center;
-  }
-  .gmi-numeral::before, .gmi-numeral::after {
-    content: ''; position: absolute; top: 50%; width: 18px; height: 1px;
-    background: var(--accent); opacity: 0.6;
-  }
-  .gmi-numeral::before { left: 0; }
-  .gmi-numeral::after  { right: 0; }
-  .hero .num {
-    font-family: var(--serif); font-weight: 400;
-    font-size: 96px; line-height: 0.9; color: var(--text);
-    letter-spacing: -0.035em;
-    font-feature-settings: "lnum", "tnum";
-    display: inline-block; padding: 0 4px;
-  }
-  .gmi-caption {
-    font-family: var(--serif); font-style: italic;
-    font-size: 15px; color: var(--muted);
-    letter-spacing: 0.02em; line-height: 1;
-  }
-  .gmi-caption em { color: var(--accent-2); font-style: italic; }
-  /* Legacy .denom kept in case any other place still references it — not used in the new figure */
-  .hero .denom { color: var(--muted); font-family: var(--serif); font-size: 30px; font-style: italic; margin-left: 2px; }
-  @media (max-width: 480px) {
-    .hero .num { font-size: 72px; }
-    .gmi-numeral { padding: 0 22px; }
-    .gmi-numeral::before, .gmi-numeral::after { width: 14px; }
-    .hero .denom { font-size: 24px; }
-  }
-  /* Stamp-style state badge — replaces the soft pill with a hand-pressed
-     publication stamp: top + bottom rules only, slightly rotated, no fill.
-     Stands out as the most "designed" element on the page. */
-  .badge {
-    display: inline-block;
-    padding: 9px 18px; border-radius: 0;
-    border-top: 2px solid currentColor;
-    border-bottom: 2px solid currentColor;
-    border-left: 0; border-right: 0;
-    background: transparent;
-    font-family: var(--mono); font-weight: 700;
-    font-size: 11.5px; letter-spacing: 0.26em; text-transform: uppercase;
-    transform: rotate(-1.2deg);
-    transform-origin: center;
-    transition: transform 0.25s ease, color 0.25s ease;
-  }
-  .badge:hover { transform: rotate(0deg); }
-  .badge.green  { color: var(--bull); }
-  .badge.red    { color: var(--bear); }
-  .badge.yellow { color: var(--caution); }
-  .meta { color: var(--muted); font-size: 13px; margin-top: 6px; }
-  .meta b { color: var(--text); font-weight: 600; }
-
-  /* Trend / stage callout — refined pill */
-  .callout { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; align-items: center; }
-  .pill {
-    display: inline-flex; align-items: center; gap: 7px;
-    background: var(--panel-2); border: 1px solid var(--border);
-    border-radius: 2px; padding: 6px 12px;
-    font-size: 11px; font-family: var(--mono);
-    letter-spacing: 0.06em;
-  }
-  .pill b { color: var(--text); font-weight: 600; }
+  /* GMI column */
+  .gmi-flex { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
+  .gmi-figure { display: flex; align-items: baseline; flex-shrink: 0; }
+  .gmi-numeral { display: inline-flex; align-items: baseline; }
+  .gmi-numeral .num { font-family: var(--serif); font-size: 72px; line-height: 0.78; color: var(--ink); letter-spacing: -0.04em; }
+  .gmi-caption { font-family: var(--serif); font-style: italic; font-size: 17px; color: var(--muted); margin-left: 6px; white-space: nowrap; }
+  .gmi-caption em { color: var(--accent-2); }
+  .gmi-side { width: 100%; display: flex; flex-direction: column; gap: 8px; }
+  .badge { display: inline-block; padding: 6px 12px; border-top: 2px solid currentColor; border-bottom: 2px solid currentColor;
+    font-family: var(--mono); font-weight: 700; font-size: 10.5px; letter-spacing: 0.18em; text-transform: uppercase; width: fit-content; }
+  .badge.green { color: var(--bull); } .badge.red { color: var(--bear); } .badge.yellow { color: var(--caution); }
+  .callout { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .callout .pill { display: block; width: 100%; }
+  .pill { display: inline-flex; align-items: center; gap: 6px; background: var(--paper-2); border: 1px solid var(--rule);
+    border-radius: 2px; padding: 6px 11px; font-size: 10.5px; font-family: var(--mono); letter-spacing: 0.03em; line-height: 1.35; }
+  .pill b { color: var(--ink); font-weight: 600; }
   .pill.up { color: var(--bull); border-color: var(--bull-line); background: var(--bull-soft); }
   .pill.down { color: var(--bear); border-color: var(--bear-line); background: var(--bear-soft); }
   .pill.s2 { color: var(--bull); border-color: var(--bull-line); background: var(--bull-soft); }
   .pill.s4 { color: var(--bear); border-color: var(--bear-line); background: var(--bear-soft); }
   .pill.s3, .pill.s1 { color: var(--caution); border-color: var(--caution-line); background: var(--caution-soft); }
-  .stage-note { font-size: 12.5px; color: var(--text-2); margin-top: 10px;
-    font-family: var(--serif); font-style: italic; line-height: 1.5; }
 
-  /* Since-Day-1 strip */
-  .since-panel { padding: 18px; }
-  .since-header { display: flex; align-items: center; gap: 8px; font-size: 10px;
-    color: var(--muted); font-family: var(--mono); text-transform: uppercase;
-    letter-spacing: 0.26em; margin-bottom: 12px;
-    padding-bottom: 10px; border-bottom: 1px solid var(--hairline); }
-  .since-header::before {
-    content: ""; width: 14px; height: 1px; background: var(--accent); flex-shrink: 0;
-  }
-  .since-header .since-title { color: var(--text-2); font-weight: 600; letter-spacing: 0.22em; }
-  .since-meta { font-size: 13px; color: var(--text); margin-bottom: 14px;
-    font-family: var(--mono); letter-spacing: 0.01em; }
-  .since-meta b { font-weight: 600; color: var(--accent-2); }
-  .since-meta .sub { color: var(--muted); }
-  .since-returns { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
-  .since-cell {
-    background: var(--bg-2); border: 1px solid var(--border);
-    border-radius: 3px; padding: 12px 10px;
-    display: flex; flex-direction: column; align-items: flex-start; gap: 4px;
-    position: relative; overflow: hidden;
-  }
-  .since-cell::after {
-    content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 2px;
-    background: var(--accent); opacity: 0;
-    transition: opacity 0.2s;
-  }
-  .since-cell.pos::after { background: var(--bull); opacity: 0.7; }
-  .since-cell.neg::after { background: var(--bear); opacity: 0.7; }
-  .since-lbl {
-    font-size: 9.5px; color: var(--muted); font-family: var(--mono);
-    letter-spacing: 0.22em; text-transform: uppercase; font-weight: 600;
-  }
-  .since-val {
-    font-size: 22px; font-weight: 600; font-family: var(--mono);
-    line-height: 1.05; margin-top: 2px; letter-spacing: -0.01em;
-    font-feature-settings: "tnum";
-  }
-  .since-val.pos { color: var(--bull); }
-  .since-val.neg { color: var(--bear); }
-  .since-val.nv { color: var(--muted); }
+  /* components strip (engine builds .comp buttons into #components) */
+  .comps-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px; }
+  .comp { background: var(--paper-2); border: 1px solid var(--rule); border-radius: 0; padding: 9px 6px 8px; text-align: center; cursor: pointer; }
+  .comp .name { font-size: 9.5px; color: var(--ink-2); font-family: var(--mono); font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .comp .mark { font-size: 19px; font-weight: 700; font-family: var(--serif); line-height: 1.1; margin-top: 3px; }
+  .comp.on { border-color: var(--bull-line); } .comp.on .mark { color: var(--bull); }
+  .comp.off { border-color: var(--bear-line); } .comp.off .mark { color: var(--bear); }
+  .comp .detail { font-size: 8.5px; color: var(--muted); font-family: var(--mono); margin-top: 2px; }
 
-  /* Top state row — GMI + T2108 cards side by side on desktop, stacked on mobile */
-  .state-row { display: grid; grid-template-columns: 1fr; gap: 14px; }
-  @media (min-width: 760px) { .state-row { grid-template-columns: 1.15fr 1fr; } }
-  .state-row > .panel { margin: 0; }
-  .state-card { display: flex; flex-direction: column; }
+  /* T2108 column */
+  .t-top { display: block; }
+  .t-num { font-family: var(--serif); font-size: 50px; line-height: 0.9; color: var(--ink); }
+  .t-num .denom { font-size: 20px; color: var(--muted); font-style: italic; }
+  .stage-note { font-family: var(--body); font-size: 12.5px; color: var(--ink-2); margin-top: 11px; line-height: 1.5; }
+  .t-bar { position: relative; width: 100%; height: 6px; margin-top: 14px; border: 1px solid var(--ink-2);
+    background: linear-gradient(to right, var(--bull) 0 10%, var(--bull-soft) 10% 30%, var(--paper-3) 30% 70%, var(--bear-soft) 70% 80%, var(--bear) 80% 100%); }
+  .t-bar-fill { position: absolute; top: -4px; bottom: -4px; width: 2px; background: var(--ink); left: 0%; transition: left 0.25s; box-shadow: 0 0 0 2px var(--paper-2); }
+  .t-scale { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 8.5px; color: var(--muted); margin-top: 7px; letter-spacing: 0.08em; text-transform: uppercase; }
+  #t2108Badge { margin-top: 10px; }
 
-  /* T2108 gauge bar — refined, sharp rectangles instead of pill */
-  .t-bar { position: relative; width: 100%; height: 6px; border-radius: 1px;
-    margin-top: 14px; overflow: visible;
-    background: linear-gradient(to right,
-      var(--bull) 0%, var(--bull) 10%,
-      var(--bull-soft) 10%, var(--bull-soft) 30%,
-      var(--border) 30%, var(--border) 70%,
-      var(--bear-soft) 70%, var(--bear-soft) 80%,
-      var(--bear) 80%, var(--bear) 100%);
-    border: 1px solid var(--hairline);
-  }
-  .t-bar-fill { position: absolute; top: -4px; bottom: -4px; width: 2px;
-    background: var(--text); left: 0%;
-    transition: left 0.25s ease;
-    box-shadow: 0 0 0 2px var(--bg), 0 0 12px var(--accent-glow);
-  }
-  .t-scale { display: flex; justify-content: space-between; font-family: var(--mono);
-    font-size: 9px; color: var(--muted); margin-top: 8px;
-    letter-spacing: 0.1em; text-transform: uppercase;
-  }
-  .t-scale span { white-space: nowrap; }
-
-  /* Components row — refined sharp cards */
-  .comps-row {
-    display: grid; grid-template-columns: repeat(6, 1fr); gap: 5px;
-    margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--hairline);
-  }
-  @media (max-width: 480px) { .comps-row { grid-template-columns: repeat(3, 1fr); } }
-  .comp {
-    background: var(--bg-2); border: 1px solid var(--border); border-radius: 3px;
-    padding: 9px 4px 7px; text-align: center; cursor: pointer; user-select: none;
-    position: relative; transition: border-color 0.18s, transform 0.18s;
-  }
-  .comp:hover { border-color: var(--border-2); transform: translateY(-1px); }
-  .comp .name {
-    font-size: 9px; color: var(--muted); font-family: var(--mono);
-    letter-spacing: 0.08em; text-transform: uppercase;
-    margin-bottom: 4px;
-    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-  }
-  .comp .mark { font-size: 16px; font-weight: 700; font-family: var(--serif); line-height: 1.1; }
-  .comp.on { border-color: var(--bull-line); }
-  .comp.on .mark { color: var(--bull); }
-  .comp.off { border-color: var(--bear-line); }
-  .comp.off .mark { color: var(--bear); }
-  .comp .detail {
-    font-size: 9px; color: var(--muted); font-family: var(--mono);
-    margin-top: 2px; letter-spacing: 0.04em;
-    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-  }
-
-  /* ? helper — refined square instead of pill */
-  .qmark { display: inline-flex; align-items: center; justify-content: center;
-    width: 18px; height: 18px; border-radius: 2px;
-    background: transparent; color: var(--accent);
-    font-size: 11px; font-weight: 600; cursor: pointer;
-    user-select: none; border: 1px solid var(--accent-glow);
-    padding: 0; line-height: 1; flex-shrink: 0;
-    font-family: var(--serif); font-style: italic;
-    transition: background 0.18s, color 0.18s, border-color 0.18s;
-  }
-  .qmark:hover, .qmark:active { background: var(--accent-soft); border-color: var(--accent); color: var(--accent-2); }
-
-  /* Chart */
-  .chart-wrap {
-    position: relative;
-    /* Graph-paper hairlines behind the candles — 1% opacity amber grid that
-       reads as "printed market chart" without competing with the data. */
-    background-image:
-      repeating-linear-gradient(0deg, rgba(231,169,36,0.04) 0 1px, transparent 1px 40px),
-      repeating-linear-gradient(90deg, rgba(231,169,36,0.04) 0 1px, transparent 1px 40px);
-  }
-  /* Custom amber-crosshair cursor for the chart drag area — replaces the
-     generic ew-resize. Falls back to ew-resize on browsers that ignore SVG cursors. */
-  .spark { width: 100%; height: 280px; display: block;
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'><circle cx='10' cy='10' r='5' fill='none' stroke='%23e7a924' stroke-width='1'/><circle cx='10' cy='10' r='1.2' fill='%23e7a924'/><line x1='0' y1='10' x2='4' y2='10' stroke='%23e7a924' stroke-width='1'/><line x1='16' y1='10' x2='20' y2='10' stroke='%23e7a924' stroke-width='1'/><line x1='10' y1='0' x2='10' y2='4' stroke='%23e7a924' stroke-width='1'/><line x1='10' y1='16' x2='10' y2='20' stroke='%23e7a924' stroke-width='1'/></svg>") 10 10, ew-resize;
-    touch-action: none; -webkit-user-select: none; user-select: none; }
-  @media (min-width: 760px) { .spark { height: 340px; } }
-  .spark.dragging { cursor: grabbing; }
-  .x-axis-labels { position: absolute; left: 0; right: 0; bottom: 0; height: 30px;
-    pointer-events: none; font-family: var(--mono); }
-  .x-axis-labels .x-tick { position: absolute; bottom: 14px; transform: translateX(-50%);
-    font-size: 10px; color: var(--muted); white-space: nowrap; letter-spacing: 0.06em; }
-  .x-axis-labels .x-tick.start { transform: translateX(0); }
-  .x-axis-labels .x-tick.end   { transform: translateX(-100%); }
-  .x-axis-labels .x-selected { position: absolute; bottom: 0; transform: translateX(-50%);
-    font-size: 11px; font-weight: 600; color: var(--accent); white-space: nowrap;
-    font-family: var(--mono); letter-spacing: 0.04em; }
-  @media (max-width: 480px) {
-    .x-axis-labels .x-tick { font-size: 9px; }
-    .x-axis-labels .x-selected { font-size: 10px; }
-  }
-  /* Top-left stat overlay — dynamic values for the selected date */
-  .stat-overlay { position: absolute; top: 10px; left: 12px;
-    display: flex; flex-direction: column; gap: 2px;
-    font-family: var(--mono); font-size: 12px;
-    background: rgba(11,10,9,0.86); padding: 8px 12px;
-    border-radius: 2px; border: 1px solid var(--border);
-    border-left: 2px solid var(--accent);
-    pointer-events: none;
-    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
-  }
-  .stat-overlay .stat-row { display: flex; justify-content: space-between;
-    align-items: baseline; gap: 16px; min-width: 92px; line-height: 1.4; }
-  .stat-overlay .stat-row .label {
-    color: var(--muted); font-weight: 500; font-size: 9.5px;
-    letter-spacing: 0.16em; text-transform: uppercase;
-  }
-  .stat-overlay .stat-row .val { font-weight: 600; text-align: right; font-feature-settings: "tnum"; }
-  @media (max-width: 480px) {
-    .stat-overlay { top: 7px; left: 7px; padding: 6px 9px; font-size: 11px; }
-    .stat-overlay .stat-row { min-width: 80px; gap: 10px; }
-    .stat-overlay .stat-row .label { font-size: 9px; }
-  }
-  .chart-header { display: flex; justify-content: space-between; align-items: center;
-    gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
-  .chart-header .small { font-family: var(--mono); font-size: 10.5px;
-    color: var(--text-2); letter-spacing: 0.16em; text-transform: uppercase; }
-
-  /* Legend */
-  .legend { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px;
-    font-size: 11px; font-family: var(--mono); align-items: center; }
-  .legend-item { display: inline-flex; align-items: center; gap: 5px; }
-  .chip {
-    display: inline-flex; align-items: center; gap: 6px; cursor: pointer; color: var(--muted);
-    user-select: none; border: 1px solid var(--border); border-radius: 2px;
-    padding: 5px 11px; background: var(--bg-2);
-    font-size: 10px; font-family: var(--mono); font-weight: 500;
-    letter-spacing: 0.12em; text-transform: uppercase;
-    transition: border-color 0.18s, color 0.18s, background 0.18s;
-  }
-  .chip.on { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
-  .chip:hover { color: var(--text); border-color: var(--border-2); }
-  .legend .swatch { display: inline-block; width: 14px; height: 2px; }
-
-  /* Controls panel — refined */
-  .ctl-panel { padding: 18px; }
-  .ctl-row1 { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-  .ctl-row1 input[type=date] {
-    flex: 1; min-width: 140px;
-    background: var(--bg-2); color: var(--text);
-    border: 1px solid var(--border); border-radius: 2px;
-    padding: 8px 12px; font-family: var(--mono); font-size: 12px;
-    letter-spacing: 0.04em;
-    transition: border-color 0.18s;
-  }
-  .ctl-row1 input[type=date]:focus { outline: none; border-color: var(--accent); }
-  .ctl-row1 input[type=date]::-webkit-calendar-picker-indicator {
-    filter: invert(0.7) sepia(1) saturate(3) hue-rotate(10deg); opacity: 0.75; cursor: pointer;
-  }
-  .ctl-step, .ctl-today {
-    background: var(--bg-2); color: var(--text);
-    border: 1px solid var(--border); border-radius: 2px;
-    font-family: var(--mono); cursor: pointer;
-    transition: border-color 0.18s, color 0.18s, background 0.18s;
-  }
-  .ctl-step {
-    width: 36px; padding: 8px 0; font-size: 12px; line-height: 1;
-  }
-  .ctl-today {
-    padding: 8px 18px; font-size: 10px; font-weight: 600;
-    letter-spacing: 0.18em; text-transform: uppercase;
-  }
-  .ctl-step:hover, .ctl-today:hover { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
-
-  .ctl-day1 {
-    width: 100%; margin-top: 10px;
-    padding: 11px 14px; font-size: 11px; font-family: var(--mono); font-weight: 600;
-    background: var(--bull-soft); border: 1px solid var(--bull-line); color: var(--bull);
-    border-radius: 2px; cursor: pointer; text-align: center;
-    letter-spacing: 0.1em;
-    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-    transition: background 0.18s, border-color 0.18s;
-  }
-  .ctl-day1:hover { background: rgba(79,163,99,0.22); border-color: var(--bull); }
-  .ctl-day1.down { color: var(--bear); border-color: var(--bear-line); background: var(--bear-soft); }
-  .ctl-day1.down:hover { background: rgba(217,98,80,0.22); border-color: var(--bear); }
-
-  .ctl-long-head {
-    display: flex; align-items: center; gap: 8px;
-    color: var(--muted); font-size: 9.5px; font-family: var(--mono);
-    text-transform: uppercase; letter-spacing: 0.24em;
-    margin-top: 18px; margin-bottom: 10px;
-    padding-bottom: 8px; border-bottom: 1px solid var(--hairline);
-  }
-  .ctl-long-head::before {
-    content: ""; width: 12px; height: 1px; background: var(--accent); flex-shrink: 0;
-  }
-  .ctl-long-head .label-main { color: var(--text-2); font-weight: 600; letter-spacing: 0.22em; }
-
-  .ctl-long { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
-  @media (min-width: 760px) { .ctl-long { grid-template-columns: repeat(4, 1fr); } }
-  .ctl-long .long-pill {
-    font-family: var(--mono); font-size: 10.5px;
-    padding: 8px 8px;
-    background: var(--bg-2); border-radius: 2px; cursor: pointer;
-    text-align: center; line-height: 1.25; white-space: nowrap;
-    overflow: hidden; text-overflow: ellipsis; font-weight: 600;
-    letter-spacing: 0.04em;
-    transition: background 0.18s, transform 0.18s;
-  }
-  .ctl-long .long-pill .pill-len {
-    color: var(--muted); font-size: 9.5px; margin-left: 5px; font-weight: 400;
-    letter-spacing: 0.05em;
-  }
-  .ctl-long .long-pill:hover { transform: translateY(-1px); }
-
-  .footer {
-    color: var(--muted); font-size: 10.5px; margin-top: 24px;
-    padding-top: 18px; border-top: 1px solid var(--border);
-    text-align: center; line-height: 1.7;
-    font-family: var(--mono); letter-spacing: 0.06em;
-  }
-
-  /* Tooltip popover */
-  .pop { position: fixed; max-width: 300px;
-    background: var(--panel); border: 1px solid var(--accent);
-    border-radius: 3px; padding: 14px 16px;
-    font-size: 12.5px; line-height: 1.55; color: var(--text);
-    z-index: 1000;
-    box-shadow: 0 18px 50px rgba(0,0,0,0.7), 0 0 0 1px var(--accent-glow);
-    display: none;
-    font-family: var(--sans);
-  }
-  .pop.show { display: block; }
-  .pop b { color: var(--accent-2); font-weight: 600; font-family: var(--mono); font-size: 11.5px;
-    letter-spacing: 0.04em; }
-  .pop .close { position: absolute; top: 6px; right: 10px; cursor: pointer;
-    color: var(--muted); font-size: 18px; line-height: 1;
+  .qmark { display: inline-flex; align-items: center; justify-content: center; width: 15px; height: 15px; border-radius: 2px;
+    background: transparent; color: var(--accent); font-size: 10px; border: 1px solid var(--accent-glow); padding: 0; line-height: 1; flex-shrink: 0;
     font-family: var(--serif); font-style: italic; }
-  .pop .close:hover { color: var(--text); }
+  .qmark:hover { background: var(--accent-soft); border-color: var(--accent); }
+
+  /* ===== chart figure ===== */
+  .chart-panel { margin: 22px 0; }
+  .chart-header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--ink); padding-bottom: 8px; flex-wrap: wrap; }
+  .chart-header .small { font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--ink); letter-spacing: 0; text-transform: none; flex: 1 1 auto; min-width: 0; }
+  .vtoggle { display: inline-flex; align-items: center; gap: 8px; }
+  .vtoggle .seg { display: inline-flex; border: 1px solid var(--rule-2); }
+  .vtoggle .seg button { background: var(--paper-2); color: var(--muted); border: none; font-family: var(--mono); font-size: 9.5px; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase; padding: 6px 12px; cursor: pointer; }
+  .vtoggle .seg button.on { background: var(--ink); color: var(--paper); }
+  .chart-wrap { position: relative; height: 440px; border: 1px solid var(--rule); border-top: none; background: var(--paper-2);
+    background-image: repeating-linear-gradient(0deg, rgba(28,24,19,0.05) 0 1px, transparent 1px 42px), repeating-linear-gradient(90deg, rgba(28,24,19,0.05) 0 1px, transparent 1px 42px); }
+  .spark { width: 100%; height: 100%; display: block; touch-action: none; user-select: none;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'><circle cx='10' cy='10' r='5' fill='none' stroke='%23a8740a' stroke-width='1'/><circle cx='10' cy='10' r='1.2' fill='%23a8740a'/><line x1='0' y1='10' x2='4' y2='10' stroke='%23a8740a'/><line x1='16' y1='10' x2='20' y2='10' stroke='%23a8740a'/><line x1='10' y1='0' x2='10' y2='4' stroke='%23a8740a'/><line x1='10' y1='16' x2='10' y2='20' stroke='%23a8740a'/></svg>") 10 10, ew-resize; }
+  .spark.dragging { cursor: grabbing; }
+  .x-axis-labels { position: absolute; left: 0; right: 0; bottom: 0; height: 30px; pointer-events: none; font-family: var(--mono); }
+  .x-axis-labels .x-tick { position: absolute; bottom: 13px; transform: translateX(-50%); font-size: 10px; color: var(--muted); white-space: nowrap; letter-spacing: 0.04em; }
+  .x-axis-labels .x-tick.start { transform: translateX(0); } .x-axis-labels .x-tick.end { transform: translateX(-100%); }
+  .x-axis-labels .x-selected { position: absolute; bottom: 0; transform: translateX(-50%); font-size: 11px; font-weight: 700; color: var(--accent); white-space: nowrap; font-family: var(--mono); }
+  .stat-overlay { position: absolute; top: 12px; left: 14px; display: flex; flex-direction: column; gap: 1px; font-family: var(--mono); font-size: 12px;
+    background: rgba(245,239,225,0.92); padding: 9px 13px; border: 1px solid var(--ink); border-left: 3px solid var(--accent); pointer-events: none; }
+  .stat-overlay .stat-row { display: flex; justify-content: space-between; gap: 18px; min-width: 110px; line-height: 1.5; }
+  .stat-overlay .stat-row .label { color: var(--muted); font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; }
+  .stat-overlay .stat-row .val { font-weight: 700; text-align: right; }
+  .legend { display: flex; gap: 18px; align-items: center; padding: 8px 2px 0; flex-wrap: wrap; font-family: var(--mono); }
+  .legend-item { display: inline-flex; align-items: center; gap: 6px; }
+  .chip { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; color: var(--ink-2); border: 1px solid var(--rule); border-radius: 2px;
+    padding: 5px 10px; background: var(--paper-2); font-size: 9.5px; font-family: var(--mono); font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; }
+  .chip.on { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+  .legend .swatch { display: inline-block; width: 16px; height: 2px; }
+  .chart-foot { font-family: var(--serif); font-style: italic; font-size: 13.5px; color: var(--muted); margin-top: 8px; }
+  .chart-foot b { color: var(--accent); font-style: normal; font-family: var(--mono); font-size: 11px; }
+
+  /* ===== footer row: navigation + since ===== */
+  .footrow { display: grid; grid-template-columns: 1.1fr 1fr; border-top: 3px double var(--ink); margin-top: 8px; }
+  .footrow > .panel { padding: 18px 22px; border-right: 1px solid var(--rule); }
+  .footrow > .panel:first-child { padding-left: 0; } .footrow > .panel:last-child { border-right: none; padding-right: 0; }
+  .panel-head { font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink); font-weight: 600;
+    padding-bottom: 8px; margin-bottom: 14px; border-bottom: 1px solid var(--ink); display: flex; align-items: center; gap: 8px; }
+
+  /* navigation */
+  .ctl-row1 { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .ctl-row1 input[type=date] { flex: 1; min-width: 140px; background: var(--paper-2); color: var(--ink); border: 1px solid var(--rule-2);
+    padding: 7px 10px; font-family: var(--mono); font-size: 11px; }
+  .ctl-row1 input[type=date]::-webkit-calendar-picker-indicator { filter: sepia(1) saturate(2) hue-rotate(5deg); opacity: 0.7; cursor: pointer; }
+  .ctl-step { background: var(--paper-2); border: 1px solid var(--rule-2); color: var(--ink); width: 32px; padding: 7px 0; font-family: var(--mono); }
+  .ctl-today { background: var(--ink); color: var(--paper); border: none; padding: 7px 14px; font-family: var(--mono); font-size: 9.5px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; }
+  .ctl-day1 { width: 100%; margin-top: 8px; background: var(--bull-soft); border: 1px solid var(--bull); color: var(--bull); padding: 9px; font-family: var(--mono);
+    font-size: 10px; font-weight: 600; letter-spacing: 0.05em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .ctl-day1.down { color: var(--bear); border-color: var(--bear); background: var(--bear-soft); }
+  .ctl-long-head { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 9px; font-family: var(--mono); text-transform: uppercase;
+    letter-spacing: 0.2em; margin: 16px 0 10px; padding-bottom: 8px; border-bottom: 1px solid var(--hair); }
+  .ctl-long-head .label-main { color: var(--ink-2); font-weight: 600; }
+  .ctl-long { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+  .long-pill { font-family: var(--mono); font-size: 10px; padding: 7px 8px; background: var(--paper-2); border: 1px solid var(--rule);
+    text-align: center; cursor: pointer; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .long-pill .pill-len { color: var(--muted); font-size: 9px; margin-left: 5px; font-weight: 400; }
+  .vis-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+  /* since */
+  .since-header { display: flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--ink); font-weight: 600; padding-bottom: 8px; margin-bottom: 12px; border-bottom: 1px solid var(--ink); }
+  .since-header .since-title { color: var(--ink); }
+  .since-meta { font-family: var(--mono); font-size: 10.5px; color: var(--ink-2); margin-bottom: 14px; line-height: 1.5; }
+  .since-meta b { color: var(--accent); } .since-meta .sub { color: var(--muted); }
+  .since-returns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .since-cell { background: var(--paper-2); border: 1px solid var(--rule); border-left-width: 2px; padding: 12px 14px; display: flex; flex-direction: column; gap: 4px; }
+  .since-cell.pos { border-left-color: var(--bull); } .since-cell.neg { border-left-color: var(--bear); }
+  .since-lbl { font-size: 9px; color: var(--muted); font-family: var(--mono); letter-spacing: 0.14em; text-transform: uppercase; font-weight: 600; }
+  .since-val { font-family: var(--serif); font-size: 32px; line-height: 0.9; }
+  .since-val.pos { color: var(--bull); } .since-val.neg { color: var(--bear); } .since-val.nv { color: var(--muted); }
+
+  .footer { color: var(--muted); font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; text-align: center; margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--ink); }
+
+  /* popover */
+  .pop { position: fixed; max-width: 300px; background: var(--paper-2); border: 1px solid var(--accent); border-radius: 2px; padding: 14px 16px;
+    font-size: 12.5px; line-height: 1.55; color: var(--ink); z-index: 1000; box-shadow: 0 18px 50px rgba(28,24,19,0.3); display: none; font-family: var(--body); }
+  .pop.show { display: block; }
+  .pop b { color: var(--accent); font-weight: 600; font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.04em; }
+  .pop .close { position: absolute; top: 6px; right: 10px; cursor: pointer; color: var(--muted); font-size: 18px; line-height: 1; font-family: var(--serif); }
+
+  @media (max-width: 880px) {
+    .scoreboard, .footrow { grid-template-columns: 1fr; }
+    .sb, .footrow > .panel { border-right: none; border-bottom: 1px solid var(--rule); padding: 16px 0; }
+    .verdict .body2 { columns: 1; }
+  }
 </style>
 </head>
 <body>
+
 <nav class="pages-nav">
   <span class="brand">Stock <em>market</em> dashboard <span class="mark">Live</span></span>
   <div class="nav-links">
     <a href="https://gabjew90.github.io/Stock-market-dashboard/" class="active">Market Regime</a>
     <a href="https://gabjew90.github.io/Stock-market-dashboard/pulse/">Research</a>
   </div>
-  <span class="nav-spacer" aria-hidden="true"></span>
+  <span class="nav-spacer" id="navPrice">—</span>
 </nav>
+
 <div class="wrap">
 
-  <!-- Hero block — editorial title -->
-  <header class="hero-block">
-    <div class="dateline">
-      <span class="vol">Vol. I</span>
-      <span class="sep">·</span>
-      <span>QQQ Short-Term &amp; Stage Tape</span>
-      <span class="sep">·</span>
+  <header class="masthead">
+    <div class="rule-top"></div>
+    <div class="rule-thin"></div>
+    <h1>Market <em>Regime</em></h1>
+    <div class="folio">
+      <span class="vol">Vol. I</span><span class="sep">·</span>
+      <span id="folioDate">Thursday, May 28, 2026</span><span class="sep">·</span>
+      <span>QQQ Short-Term &amp; Stage Tape</span><span class="sep">·</span>
       <span>Reconstructed Point-in-Time</span>
     </div>
-    <h1>Market <em>Regime</em></h1>
     <p class="deck">A daily, point-in-time read of the broad market — GMI score, Weinstein stage, NYSE breadth, and the day count of the QQQ short-term trend, all on one tape.</p>
     <div class="last-updated" id="lastUpdated">—</div>
   </header>
 
-  <!-- 1. GMI + T2108 — the headline market-state panel. -->
-  <div class="state-row">
-    <div class="panel state-card">
-      <div class="panel-title">
-        <span class="label-main">General Market Index</span>
-        <button class="qmark" data-pop="gmi" aria-label="What is GMI">i</button>
-      </div>
-      <div class="callout day-above">
-        <span class="pill" id="dayPill">Day — of —</span>
-        <button class="qmark" data-pop="dayN" aria-label="Day N explanation">i</button>
-      </div>
-      <div class="hero">
+  <section class="verdict">
+    <div class="kicker" id="verdictKicker"><span class="dot"></span>The Gate</div>
+    <h2 id="verdictHead">—</h2>
+    <div class="body2" id="verdictBody"></div>
+  </section>
+
+  <!-- Scoreboard: GMI, components, breadth — together above the chart -->
+  <section class="scoreboard">
+    <div class="sb sb-gmi">
+      <div class="panel-title"><span class="label-main">General Market Index</span><button class="qmark" data-pop="gmi" aria-label="What is GMI">?</button></div>
+      <div class="gmi-flex">
         <div class="gmi-figure">
-          <div class="gmi-numeral">
-            <span class="num" id="gmiNum">0</span>
-          </div>
+          <div class="gmi-numeral"><span class="num" id="gmiNum">0</span></div>
           <div class="gmi-caption">of <em>six</em></div>
         </div>
-        <div>
+        <div class="gmi-side">
           <span class="badge" id="stateBadge">—</span>
-          <button class="qmark" data-pop="state" aria-label="What is the state" style="vertical-align:middle; margin-left:8px;">i</button>
+          <div class="callout"><span class="pill" id="dayPill">Day —</span></div>
+          <div class="callout"><span class="pill" id="stagePill">Stage —</span></div>
         </div>
       </div>
-      <div class="callout stage-below">
-        <span class="pill" id="stagePill">Stage —</span>
-        <button class="qmark" data-pop="stage" aria-label="Stage explanation">i</button>
-      </div>
+    </div>
+
+    <div class="sb sb-comps">
+      <div class="panel-title"><span class="label-main">GMI Components</span><button class="qmark" data-pop="gmi" aria-label="GMI components">?</button></div>
       <div class="comps-row" id="components"></div>
     </div>
 
-    <div class="panel state-card">
-      <div class="panel-title">
-        <span class="label-main">T2108 · NYSE Breadth</span>
-        <button class="qmark" data-pop="t2108" aria-label="What is T2108">i</button>
-      </div>
-      <div class="hero">
-        <div>
-          <span class="num" id="t2108Num">—</span><span class="denom">%</span>
-        </div>
-        <div>
-          <span class="badge" id="t2108Badge">—</span>
-        </div>
-      </div>
+    <div class="sb sb-t">
+      <div class="panel-title"><span class="label-main">NYSE Breadth · T2108</span><button class="qmark" data-pop="t2108" aria-label="What is T2108">?</button></div>
+      <div class="t-top"><span class="t-num"><span id="t2108Num">—</span><span class="denom">%</span></span></div>
+      <span class="badge" id="t2108Badge">—</span>
       <div class="t-bar"><div class="t-bar-fill" id="t2108Fill"></div></div>
-      <div class="t-scale">
-        <span>0</span><span style="color:var(--bull)">10 buy</span><span>50</span><span style="color:var(--bear)">80 ext</span><span>100</span>
-      </div>
+      <div class="t-scale"><span>0</span><span style="color:var(--bull)">10 buy</span><span>50</span><span style="color:var(--bear)">80 ext</span><span>100</span></div>
       <div class="stage-note" id="t2108Note">—</div>
     </div>
-  </div>
+  </section>
 
-  <!-- 2. Chart -->
-  <div class="panel chart-panel">
+  <!-- Chart -->
+  <section class="chart-panel">
     <div class="chart-header">
-      <span class="small" id="chartTitle">QQQ · 6 mo · daily candles</span>
-      <span style="display:inline-flex; align-items:center; gap:8px;">
-        <span class="legend-item" style="gap:4px;">
-          <span class="chip on" id="viewDaily" data-view="daily">Daily</span>
-          <span class="chip" id="viewWeekly" data-view="weekly">Weekly</span>
-        </span>
-        <button class="qmark" data-pop="redshade" aria-label="Red shading explanation">i</button>
+      <span class="small" id="chartTitle">QQQ · 6 mo · daily candles + 30-day SMA</span>
+      <span class="vtoggle">
+        <span class="seg"><button data-view="daily" class="on">Daily</button><button data-view="weekly">Weekly</button></span>
+        <button class="qmark" data-pop="qqq" aria-label="About the chart">?</button>
       </span>
     </div>
     <div class="chart-wrap">
@@ -1259,52 +842,40 @@ TEMPLATE = r"""<!doctype html>
       <div class="stat-overlay" id="statOverlay"></div>
       <div class="x-axis-labels" id="xAxisLabels"></div>
     </div>
-    <div class="legend" id="legend">
-      <!-- legend chips are rendered dynamically per view -->
-    </div>
-    <div class="small" style="margin-top:10px; font-style: italic; font-family: var(--serif); font-size: 13px; color: var(--muted); letter-spacing: 0; text-transform: none;">Tap any <b style="color:var(--accent); font-family: var(--mono); font-size: 11px;">i</b> for an explanation. Tap a legend chip to toggle a line.</div>
-  </div>
+    <div class="legend" id="legend"></div>
+    <p class="chart-foot">Shaded passages mark short-term down-trends — sessions QQQ closed beneath its 30-day average. Drag the marker to read any prior date · tap a chip to toggle a line · tap any <b>?</b> for an explanation.</p>
+  </section>
 
-  <!-- 3. Controls -->
-  <div class="panel ctl-panel">
-    <div class="panel-title">
-      <span class="label-main">Navigation</span>
+  <!-- Navigation + Since Day 1 -->
+  <section class="footrow">
+    <div class="panel ctl-panel">
+      <div class="panel-head"><span class="label-main">Navigation</span></div>
+      <div class="ctl-row1">
+        <input type="date" id="datePick">
+        <button class="ctl-step" id="ctlPrev" title="Previous trading day">◀</button>
+        <button class="ctl-step" id="ctlNext" title="Next trading day">▶</button>
+        <button class="ctl-today" id="ctlToday">Today</button>
+        <input type="range" id="dateSlider" class="vis-hidden" min="0" max="1" value="0" aria-hidden="true" tabindex="-1">
+      </div>
+      <button class="ctl-day1" id="ctlDay1">Day 1 of current trend</button>
+      <div class="ctl-long-head"><span class="label-main">Long ST Trends ≥ 30d</span><button class="qmark" data-pop="longtrends" aria-label="Long-trend shortcuts">?</button></div>
+      <div class="ctl-long" id="presets"></div>
     </div>
-    <div class="ctl-row1">
-      <input type="date" id="datePick">
-      <button class="ctl-step" id="ctlPrev" title="Previous trading day">◀</button>
-      <button class="ctl-step" id="ctlNext" title="Next trading day">▶</button>
-      <button class="ctl-today" id="ctlToday">Today</button>
-      <input type="range" id="dateSlider" min="0" max="0" value="0" style="display:none;">
-    </div>
-    <button class="ctl-day1" id="ctlDay1">Day 1 of current trend</button>
-    <div class="ctl-long-head">
-      <span class="label-main">Long ST Trends ≥ 30d</span>
-      <button class="qmark" data-pop="longtrends" aria-label="Long-trend shortcuts">i</button>
-    </div>
-    <div class="ctl-long" id="presets"></div>
-  </div>
 
-  <!-- 4. Since Day 1 -->
-  <div class="panel since-panel">
-    <div class="since-header">
-      <span class="since-title">Performance Since Day 1</span>
-      <button class="qmark" data-pop="since" aria-label="Since Day 1">i</button>
+    <div class="panel since-panel">
+      <div class="since-header"><span class="since-title">Performance Since Day 1</span><button class="qmark" data-pop="since" aria-label="Since Day 1">?</button></div>
+      <div class="since-meta" id="sinceMeta">—</div>
+      <div class="since-returns">
+        <div class="since-cell" id="srd1Cell"><span class="since-lbl">QQQ · 1×</span><span class="since-val" id="srd1">—</span></div>
+        <div class="since-cell" id="srd1tqCell"><span class="since-lbl">TQQQ · 3×</span><span class="since-val" id="srd1tq">—</span></div>
+        <div class="since-cell" id="srd1sqCell"><span class="since-lbl">SQQQ · −3×</span><span class="since-val" id="srd1sq">—</span></div>
+      </div>
     </div>
-    <div class="since-meta" id="sinceMeta">—</div>
-    <div class="since-returns">
-      <div class="since-cell" id="srd1Cell"><span class="since-lbl">QQQ · 1×</span><span class="since-val" id="srd1">—</span></div>
-      <div class="since-cell" id="srd1tqCell"><span class="since-lbl">TQQQ · 3×</span><span class="since-val" id="srd1tq">—</span></div>
-      <div class="since-cell" id="srd1sqCell"><span class="since-lbl">SQQQ · −3×</span><span class="since-val" id="srd1sq">—</span></div>
-    </div>
-  </div>
+  </section>
 
-  <div class="footer">
-    Reconstructed Point-in-Time GMI · Nasdaq-Trader Universe + yfinance
-    <button class="qmark" data-pop="caveat" aria-label="Reconstruction caveat" style="margin-left:8px;">i</button>
-  </div>
+  <p class="footer">Reconstructed Point-in-Time GMI · Nasdaq-Trader Universe + yfinance · Not investment advice
+    <button class="qmark" data-pop="caveat" aria-label="Reconstruction caveat" style="margin-left:8px;">?</button></p>
 
-  <!-- The popover bubble -->
   <div class="pop" id="pop"><span class="close" id="popClose">×</span><div id="popBody"></div></div>
 </div>
 
@@ -1376,8 +947,8 @@ const ctlDay1Btn = document.getElementById('ctlDay1');
     const b = document.createElement('button');
     b.className = "long-pill";
     b.innerHTML = `${arrow} ${t.d.slice(2)}<span class="pill-len">${t.len}d</span>`;
-    b.style.color = t.dir === "up" ? "#4fa363" : "#d96250";
-    b.style.border = "1px solid " + (t.dir === "up" ? "rgba(79,163,99,0.42)" : "rgba(217,98,80,0.42)");
+    b.style.color = t.dir === "up" ? "#2f6b3f" : "#8c2f24";
+    b.style.border = "1px solid " + (t.dir === "up" ? "rgba(47,107,63,0.42)" : "rgba(140,47,36,0.42)");
     b.title = `Day 1 of ${t.dir}-trend that lasted ${t.len} trading days — ${t.d}`;
     b.onclick = () => setIndex(findNearestIndex(t.d));
     pBox.appendChild(b);
@@ -1507,7 +1078,7 @@ const STAGE_INFO = {
 // Chart drawing: HLC bars (doji-style — vertical H–L line + close tick on right)
 // ============================================================================
 
-const MA_COLORS = { qqq: "#e7a924", m30: "#f5c042", e21: "#c8a8e9", w10: "#5fb37b", w30: "#c89a78" };
+const MA_COLORS = { qqq: "#1c1813", m30: "#a8740a", e21: "#6b4fd6", w10: "#2f6b3f", w30: "#b07d18" };
 const maOn = { qqq: true, m30: true, e21: true, w10: true, w30: true };  // QQQ is always on
 
 // Legend definitions per view (QQQ candles are always rendered — no chip needed)
@@ -1638,7 +1209,7 @@ function drawSpark(centerIdx, markerIdx) {
         rect.setAttribute('y', 0);
         rect.setAttribute('width', Math.max(1, x1 - x0));
         rect.setAttribute('height', H - PADY_BOT);
-        rect.setAttribute('fill', 'rgba(248,81,73,0.12)');
+        rect.setAttribute('fill', 'rgba(140,47,36,0.08)');
         svg.appendChild(rect);
         runStart = null;
       }
@@ -1677,7 +1248,7 @@ function drawSpark(centerIdx, markerIdx) {
     // (MAs, red shading, marker) remains anchored to the same calendar dates.
     const avgGap = slice.length > 1 ? (Date.parse(slice[slice.length-1].d) - Date.parse(slice[0].d)) / (slice.length - 1) : 24*3600*1000;
     const bodyW = Math.max(2.5, (avgGap / tSpan) * plotW * 0.7);
-    const GREEN = "#4fa363", RED = "#d96250";
+    const GREEN = "#2f6b3f", RED = "#8c2f24";
     slice.forEach((r, i) => {
       const cl = daily ? r.cl : r.c;  // daily rows use "cl" (avoid collision with components array "c")
       if (r.o == null || r.h == null || r.l == null || cl == null) return;
@@ -1719,7 +1290,7 @@ function drawSpark(centerIdx, markerIdx) {
         if (cl == null) return;
         const x = xAt(i);
         const up = cl >= r.o;
-        const color = up ? "rgba(46,160,67,0.55)" : "rgba(248,81,73,0.55)";
+        const color = up ? "rgba(47,107,63,0.45)" : "rgba(140,47,36,0.45)";
         const h = (r.v / maxV) * volBandH;
         const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
         rect.setAttribute('x', x - bodyW / 2);
@@ -1733,7 +1304,7 @@ function drawSpark(centerIdx, markerIdx) {
       const sep = document.createElementNS('http://www.w3.org/2000/svg', 'line');
       sep.setAttribute('x1', PADX); sep.setAttribute('x2', W - PADX);
       sep.setAttribute('y1', volTopY - 1); sep.setAttribute('y2', volTopY - 1);
-      sep.setAttribute('stroke', '#3a3128'); sep.setAttribute('stroke-width', '0.5');
+      sep.setAttribute('stroke', '#cdbfa6'); sep.setAttribute('stroke-width', '0.5');
       sep.setAttribute('stroke-dasharray', '2,2');
       svg.appendChild(sep);
       // Tiny "Vol" label in the band
@@ -1741,7 +1312,7 @@ function drawSpark(centerIdx, markerIdx) {
       vlbl.setAttribute('x', PADX + 2); vlbl.setAttribute('y', volTopY + 8);
       vlbl.setAttribute('font-size', '8');
       vlbl.setAttribute('font-family', 'ui-monospace,Menlo,Consolas,monospace');
-      vlbl.setAttribute('fill', '#9c8c7c');
+      vlbl.setAttribute('fill', '#7c7060');
       vlbl.textContent = 'Vol';
       svg.appendChild(vlbl);
     }
@@ -1759,7 +1330,7 @@ function drawSpark(centerIdx, markerIdx) {
     const vline = document.createElementNS('http://www.w3.org/2000/svg', 'line');
     vline.setAttribute('x1', x); vline.setAttribute('x2', x);
     vline.setAttribute('y1', 0); vline.setAttribute('y2', H - PADY_BOT);
-    vline.setAttribute('stroke', '#e7a924'); vline.setAttribute('stroke-width', '1');
+    vline.setAttribute('stroke', '#a8740a'); vline.setAttribute('stroke-width', '1');
     vline.setAttribute('stroke-opacity', '0.85');
     svg.appendChild(vline);
     // Bottom selected-date label is rendered as HTML inside .x-axis-labels — see below.
@@ -1787,7 +1358,7 @@ function drawSpark(centerIdx, markerIdx) {
       statOverlay.appendChild(row);
     }
     const qClose = daily ? selDaily.cl : (selWeekly && selWeekly.c);
-    addStat('Q',   qClose != null ? qClose.toFixed(0) : null, "#f2ebe1");
+    addStat('Q',   qClose != null ? qClose.toFixed(0) : null, "#1c1813");
     if (daily && maOn.e21 && selDaily.e21 != null)
       addStat('21e', selDaily.e21.toFixed(0), MA_COLORS.e21);
     if (daily && maOn.m30 && selDaily.m30 != null)
@@ -1799,7 +1370,7 @@ function drawSpark(centerIdx, markerIdx) {
     const vol = daily ? selDaily.v : (selWeekly && selWeekly.v);
     const oo = daily ? selDaily.o : (selWeekly && selWeekly.o);
     if (vol != null && qClose != null && oo != null) {
-      const volColor = qClose >= oo ? "#4fa363" : "#d96250";
+      const volColor = qClose >= oo ? "#2f6b3f" : "#8c2f24";
       addStat('V', fmtVol(vol), volColor);
     }
   }
@@ -1823,7 +1394,7 @@ function drawSpark(centerIdx, markerIdx) {
     const tk = document.createElementNS('http://www.w3.org/2000/svg', 'line');
     tk.setAttribute('x1', x); tk.setAttribute('x2', x);
     tk.setAttribute('y1', H - PADY_BOT); tk.setAttribute('y2', H - PADY_BOT + 3);
-    tk.setAttribute('stroke', '#9c8c7c'); tk.setAttribute('stroke-width', '0.7');
+    tk.setAttribute('stroke', '#7c7060'); tk.setAttribute('stroke-width', '0.7');
     svg.appendChild(tk);
   }
   // Selected-date label (was an SVG text — now HTML overlay). Clamp horizontally
@@ -1844,7 +1415,7 @@ function drawSpark(centerIdx, markerIdx) {
   const base = document.createElementNS('http://www.w3.org/2000/svg', 'line');
   base.setAttribute('x1', PADX); base.setAttribute('x2', W - PADX);
   base.setAttribute('y1', H - PADY_BOT); base.setAttribute('y2', H - PADY_BOT);
-  base.setAttribute('stroke', '#3a3128'); base.setAttribute('stroke-width', '0.7');
+  base.setAttribute('stroke', '#cdbfa6'); base.setAttribute('stroke-width', '0.7');
   svg.appendChild(base);
 }
 
@@ -1866,6 +1437,7 @@ function render() {
   const i = markerIdx;
   const r = ROWS[i];
   const stateInfo = classifyState(r.s, r.g);
+  renderVerdict(r, stateInfo);
 
   // (date label removed in compact controls; the date picker shows the selected date already)
   const gmiEl = document.getElementById('gmiNum');
@@ -1931,7 +1503,7 @@ function render() {
   // Compact Since-Day-1 strip (MA values now live on the chart as dynamic pills)
   document.getElementById('sinceMeta').innerHTML =
     r.d1d
-      ? `<b>${arrow} Day ${r.dn} of ST ${r.sd}-trend</b> <span class="sub">· since ${r.d1d} (QQQ $${r.d1c != null ? r.d1c.toFixed(2) : "—"})</span>`
+      ? `<b>${arrow} Day ${r.dn} of ST ${r.sd}-trend</b> <span class="sub">· since ${r.d1d} (QQQ ${r.d1c != null ? r.d1c.toFixed(2) : "—"})</span>`
       : "—";
   function setPct(id, v) {
     const el = document.getElementById(id);
@@ -1963,12 +1535,12 @@ function render() {
 
 const POP = {
   gmi: "<b>GMI — General Market Index</b><br>A daily 0–6 score of six market-health components. ≥4 for 2 consecutive days flips the gate GREEN (we're willing to buy long). ≤3 for 2 days flips RED (defensive — cash or hedge).",
-  t2108: "<b>T2108 — NYSE breadth</b><br>The percent of NYSE stocks trading above their 40-day SMA. We use three zones:<br><b style='color:#4fa363'>&lt;10</b> = capitulation buy zone (accumulate SPY in tranches; historically marks lasting bottoms).<br><b style='color:#d09a2a'>10–30 / 70–80</b> = caution zones at either extreme.<br><b style='color:#d96250'>&gt;80</b> = extended; no new buys, take some profit.<br>30–70 is the healthy mid-range. Our value tracks the published T2108 at corr ≈ 0.93 (small +3–4 pt optimistic bias from survivorship in our universe).",
+  t2108: "<b>T2108 — NYSE breadth</b><br>The percent of NYSE stocks trading above their 40-day SMA. We use three zones:<br><b style='color:#2f6b3f'>&lt;10</b> = capitulation buy zone (accumulate SPY in tranches; historically marks lasting bottoms).<br><b style='color:#b07d18'>10–30 / 70–80</b> = caution zones at either extreme.<br><b style='color:#8c2f24'>&gt;80</b> = extended; no new buys, take some profit.<br>30–70 is the healthy mid-range. Our value tracks the published T2108 at corr ≈ 0.93 (small +3–4 pt optimistic bias from survivorship in our universe).",
   state: "<b>Market state — GREEN / YELLOW / RED</b><br>Computed from the GMI with a 2-day confirmation rule. GREEN = 2 consecutive days ≥4. RED = 2 consecutive days <4 and not recovered. YELLOW = transition (GMI 3).",
   dayN: "<b>Day N of QQQ short-term trend</b><br>The count of consecutive trading days QQQ has been on its current side of the 30-day SMA. Resets to 1 when QQQ crosses through the line on a closing basis.",
   stage: "<b>Weinstein stage</b><br>The four-stage classification from Stan Weinstein, used for the long-term picture:<br><b>Stage 1 — Basing</b>: price below 30wk, MA flat/rising. No new buys.<br><b>Stage 2 — Advancing</b>: price above rising 30wk + 10wk > 30wk. <i>Only stage we buy long.</i><br><b>Stage 3 — Topping</b>: price above 30wk but breadth weakening. We sell into this.<br><b>Stage 4 — Declining</b>: price below falling 30wk + 10wk < 30wk. Defensive.",
   redshade: "<b>RED-shaded periods</b><br>Days when QQQ is in a <b>short-term down-trend</b> (closed below its 30-day SMA). Aligns with the Day-N pill at the top: shading ends exactly when the ST trend flips to up.<br><br>Note: this is distinct from the GMI gate (GREEN/RED badge above). The gate uses the full 6-component GMI score with a 2-day confirmation — it can stay RED for a few days after the ST trend turns up, by design.",
-  qqq: "<b>QQQ candles</b><br>Standard OHLC candles. <span style='color:#4fa363;font-weight:600'>Green</span> = close ≥ open. <span style='color:#d96250;font-weight:600'>Red</span> = close &lt; open. Wick = high–low; body = open–close.<br><br><b>Daily view:</b> ~126 daily candles (6 months) centered on selected day.<br><b>Weekly view:</b> ~50 Friday-close candles (1 year) — the timeframe we use for the 10wk/30wk stage view.",
+  qqq: "<b>QQQ candles</b><br>Standard OHLC candles. <span style='color:#2f6b3f;font-weight:600'>Green</span> = close ≥ open. <span style='color:#8c2f24;font-weight:600'>Red</span> = close &lt; open. Wick = high–low; body = open–close.<br><br><b>Daily view:</b> ~126 daily candles (6 months) centered on selected day.<br><b>Weekly view:</b> ~50 Friday-close candles (1 year) — the timeframe we use for the 10wk/30wk stage view.",
   m30: "<b>30-day SMA (daily)</b><br>The daily short-term trend anchor. QQQ closing above = ST up; below = ST down. Drives the Day-N count and components 3 & 4 of the GMI.",
   e21: "<b>21-day EMA (daily)</b><br>The short-term swing-trade trend filter, faster than the 30-day SMA — it weights recent prices more heavily so it turns first when a trend changes. A close above the 21-EMA is a swing-long bias; a clean break below often precedes a 30-day SMA break. Useful as an early-warning companion to the 30-day SMA, not a trade signal on its own.",
   w10: "<b>10-week SMA (weekly chart)</b><br>Our medium-term hold line. Computed on Friday weekly closes. The <b>10wk crossing above 30wk</b> is the bull re-entry signal (confirmed live 2025-06 and 2026-05). The <b>10wk crossing below 30wk</b> confirms Stage 4 onset (April 2025 tariff decline).",
@@ -1979,7 +1551,7 @@ const POP = {
   c4: "<b>SPY daily up-trend</b><br>Component 4 of GMI. Reconstructed as SPY close above its 30-day SMA. The S&amp;P 500's short-term trend.",
   c5: "<b>QQQ weekly up-trend (Stage 2)</b><br>Component 5 of GMI. QQQ's weekly close above its 30-week SMA. The long-term Stage-2 anchor.",
   c6: "<b>IBD-50 above 50-day MA</b><br>Component 6 of GMI. Tracks whether the IBD Mutual Fund Index sits above its 50-day MA. Proxied here by FFTY (the IBD-50 ETF) spliced onto a basket of growth mutual funds for pre-2015 history.",
-  longtrends: "<b>Long ST trends</b><br>Each pill is Day 1 of a past short-term trend (QQQ crossing its 30-day SMA) that lasted <b>30 or more trading days</b>. <span style='color:#4fa363'>▲ = up-trend</span>; <span style='color:#d96250'>▼ = down-trend</span>. The <b>Nd</b> badge shows how many trading days the trend lasted. Tap to jump the chart there. Showing the most recent 8.",
+  longtrends: "<b>Long ST trends</b><br>Each pill is Day 1 of a past short-term trend (QQQ crossing its 30-day SMA) that lasted <b>30 or more trading days</b>. <span style='color:#2f6b3f'>▲ = up-trend</span>; <span style='color:#8c2f24'>▼ = down-trend</span>. The <b>Nd</b> badge shows how many trading days the trend lasted. Tap to jump the chart there. Showing the most recent 8.",
   since: "<b>Return since Day 1</b><br>Day 1 = the most recent day QQQ crossed its 30-day SMA (our daily ST-trend signal). This box shows how QQQ and two leveraged QQQ ETFs have moved since then to the close on the selected date.<br><br><b>QQQ</b> — the underlying (Invesco QQQ Trust, 1× Nasdaq-100).<br><b>TQQQ</b> — ProShares UltraPro QQQ. Targets <b>+3× the daily QQQ return</b>. The aggressive long play in an up-trend; compounds volatility drag over time so multi-month holds underperform 3× the simple QQQ move.<br><b>SQQQ</b> — ProShares UltraPro Short QQQ. Targets <b>−3× the daily QQQ return</b>. The inverse / short play used during down-trends.<br><br>A long-running positive QQQ return is a Stage-2 ride; a steep negative return is a Stage-4 leg. Watch for fading momentum near the end of a long streak.",
   vals: "<b>Indicator values on the selected date</b><br>The exact QQQ close on that day plus each of our three canonical MAs, with the percentage spread (QQQ above or below each MA). Use this to read the chart precisely instead of eyeballing.",
   fwd: "<b>Forward QQQ returns</b><br>What QQQ actually did 1, 5, 10, 20, and 60 trading days after the selected date. Lets you check 'if I had acted on this reading, what would have happened?' Blank for dates where the window hasn't closed yet.",
@@ -2040,6 +1612,52 @@ document.querySelectorAll('[data-view]').forEach(el => {
 renderLegend();
 
 setIndex(ROWS.length - 1);
+// ===== Gate-state editorial headline (fixed phrasings, swapped by gate state) =====
+function renderVerdict(r, stateInfo){
+  const kicker = document.getElementById("verdictKicker");
+  const head = document.getElementById("verdictHead");
+  const bodyEl = document.getElementById("verdictBody");
+  if (!kicker || !head || !bodyEl) return;
+  const si = STAGE_INFO[r.st] || {name:"Stage —"};
+  const stageCls = "s" + r.st;
+  const gate = stateInfo.cls;
+  const above = r.sd === "up" ? "above" : "below";
+  const slope = r.sd === "up" ? "rising" : "falling";
+  let kt, hh, p1, p2;
+  if (gate === "green") {
+    kt = "The Gate · Green — Risk-On";
+    hh = "Breadth confirms the tape — the gate holds <em>green</em>.";
+    p1 = "The General Market Index reads " + r.g + " of six with the gate confirmed green, and QQQ sits " + above + " a " + slope + " 30-day line. Posture stays constructive into the open.";
+    p2 = "The short-term trend runs to day " + r.dn + "; the longer-term picture is a textbook " + si.name + " read.";
+  } else if (gate === "yellow") {
+    kt = "The Gate · Yellow — Transition";
+    hh = "A market in <em>transition</em> — signals are mixed.";
+    p1 = "The General Market Index reads " + r.g + " of six — short of a confirmed green gate. Participation is uneven and the tape is no longer pointing one way.";
+    p2 = "Day " + r.dn + " of the current " + r.sd + "-trend, classified " + si.name + ". Trim conviction until the gate resolves.";
+  } else {
+    kt = "The Gate · Red — Defensive";
+    hh = "The gate turns <em>red</em> — defense comes first.";
+    p1 = "The General Market Index reads " + r.g + " of six with the gate red. QQQ is " + above + " its 30-day line and breadth has thinned.";
+    p2 = "Day " + r.dn + " of the current " + r.sd + "-trend, classified " + si.name + ". Capital preservation takes priority over new longs.";
+  }
+  kicker.className = "kicker " + gate;
+  kicker.innerHTML = '<span class="dot"></span>' + kt;
+  head.innerHTML = hh;
+  bodyEl.innerHTML = '<p class="drop">' + p1 + '</p><p>' + p2 + ' <span class="stage-stamp ' + stageCls + '">' + si.name + '</span></p>';
+}
+
+// nav price + folio date from the live payload
+(function(){
+  const lastRow = ROWS[ROWS.length-1], prev = ROWS[ROWS.length-2];
+  if (lastRow && prev) {
+    const chg = ((lastRow.cl/prev.cl)-1)*100;
+    const np = document.getElementById("navPrice");
+    if (np) np.textContent = "QQQ " + lastRow.cl.toFixed(2) + " " + (chg>=0?"▲":"▼") + " " + Math.abs(chg).toFixed(2) + "%";
+  }
+  const fd = document.getElementById("folioDate");
+  if (fd && DATA.asof) { const d = new Date(DATA.asof + "T00:00:00Z"); fd.textContent = d.toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric",year:"numeric",timeZone:"UTC"}); }
+})();
+
 </script>
 </body>
 </html>
