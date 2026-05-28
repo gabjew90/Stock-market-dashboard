@@ -381,6 +381,8 @@
   const BRANCH = 'pulse-data';
   const RAW_HOST = 'raw.githubusercontent.com';
   const ARCHIVE_URL = `https://${RAW_HOST}/${REPO}/${BRANCH}/pulse-output/web/archive.json`;
+  const FRAGMENT_BASE = `https://${RAW_HOST}/${REPO}/${BRANCH}/pulse-output/web/fragments`;
+
   // TODO(remove-after-upstream-host-fix): the Institutional-report-bot bridge is being updated
   // to write `raw.githubusercontent.com` directly into archive.json. Once newly-generated
   // archives no longer contain `raw.githack.com` URLs, drop this shim and the call below.
@@ -389,6 +391,16 @@
     return url
       .replace(/^https?:\/\/raw\.githack\.com\//, `https://${RAW_HOST}/`)
       .replace(/^https?:\/\/cdn\.jsdelivr\.net\/gh\/([^@/]+\/[^@/]+)@([^/]+)\//, `https://${RAW_HOST}/$1/$2/`);
+  }
+
+  // The bridge only writes fragment_url onto the most recent pulse in
+  // archive.json, but the fragments themselves exist on the CDN for every
+  // pulse — they're named `fragments/<ts>.html`. Derive the URL from `ts` so
+  // older pulses are still navigable.
+  function fragmentUrlFor(pulse) {
+    if (pulse.fragment_url) return normalizeRawUrl(pulse.fragment_url);
+    if (pulse.ts) return `${FRAGMENT_BASE}/${pulse.ts}.html`;
+    return null;
   }
 
   // =================================================================
@@ -413,7 +425,12 @@
       const data = await resp.json();
       const all = (data.pulses || []).slice();
       all.sort((a, b) => (b.date_utc || b.ts || '').localeCompare(a.date_utc || a.ts || ''));
-      pulses = all.filter(p => p.date_utc && p.fragment_url);
+      // Keep every entry that has a date and SOME way to fetch the fragment —
+      // either an explicit URL or a `ts` we can synthesize one from. Previously
+      // we filtered on `fragment_url` alone, which silently dropped every pulse
+      // older than today (the upstream bridge only populates that field on the
+      // most recent entry).
+      pulses = all.filter(p => p.date_utc && fragmentUrlFor(p));
       if (!pulses.length) {
         document.querySelector('#pulseStack').innerHTML = '<p class="empty-msg">No pulses available yet.</p>';
         document.querySelector('#pulseLabel').textContent = '—';
@@ -450,9 +467,10 @@
 
   async function fetchFragmentInto(pulse) {
     const target = document.querySelector('#pulseBody');
-    if (!target || !pulse.fragment_url) return;
+    const url = fragmentUrlFor(pulse);
+    if (!target || !url) return;
     try {
-      const resp = await fetch(normalizeRawUrl(pulse.fragment_url), { cache: 'no-store' });
+      const resp = await fetch(url, { cache: 'no-store' });
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
       const html = await resp.text();
       target.innerHTML = html;
