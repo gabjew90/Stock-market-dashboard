@@ -598,6 +598,46 @@ TEMPLATE = r"""<!doctype html>
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95 0 0 0 0 0.85 0 0 0 0 0.7 0 0 0 0.03 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
     opacity: 0.55; mix-blend-mode: overlay;
   }
+
+  /* Page-load orchestration — staggered reveals from dateline outward.
+     Cubic-bezier(0.2, 0.8, 0.2, 1) is the long-tail "settle" curve that
+     gives the type a published-into-place feel rather than a UI swoosh.
+     All animations honor prefers-reduced-motion below. */
+  @keyframes reveal-up {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes mark-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(231,169,36,0.0); }
+    50%      { box-shadow: 0 0 0 5px rgba(231,169,36,0.18); }
+  }
+  @keyframes value-flash {
+    0%   { background-color: rgba(231,169,36,0.22); }
+    100% { background-color: transparent; }
+  }
+
+  .hero-block .dateline { animation: reveal-up 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 0ms; }
+  .hero-block h1        { animation: reveal-up 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 80ms; }
+  .hero-block .deck     { animation: reveal-up 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 150ms; }
+  .hero-block .last-updated { animation: reveal-up 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 210ms; }
+  .state-row    { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 300ms; }
+  .chart-panel  { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 380ms; }
+  .ctl-panel    { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 460ms; }
+  .since-panel  { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 540ms; }
+  .wrap > .footer { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 620ms; }
+
+  /* Flash class applied via JS to .num and .since-val whenever the selected
+     date changes. Drops a soft amber wash behind the number for ~400ms. */
+  .flash { animation: value-flash 0.45s ease-out; border-radius: 2px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      animation-delay: 0ms !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
   /* Top nav — masthead: brand on the left, nav links centered, accent rule at the top */
   .pages-nav {
     position: sticky; top: 0; z-index: 100;
@@ -631,6 +671,8 @@ TEMPLATE = r"""<!doctype html>
     text-transform: uppercase; padding: 4px 8px;
     border: 1px solid var(--accent); border-radius: 2px;
     line-height: 1; align-self: center;
+    animation: mark-pulse 2.8s ease-in-out infinite;
+    animation-delay: 1.4s;
   }
   .pages-nav .nav-links {
     display: inline-flex; align-items: center; gap: 6px;
@@ -687,6 +729,9 @@ TEMPLATE = r"""<!doctype html>
       align-items: start;
     }
     .hero-block { grid-area: hero; margin: 0 0 8px; }
+    /* Grid-break: pull the title 32px past the left wrap padding so it sets
+       the page margin instead of obeying it. Just enough to feel intentional. */
+    .hero-block h1 { margin-left: -32px; }
     .state-row { grid-area: state; grid-template-columns: 1fr; gap: 14px; }
     .chart-panel { grid-area: chart; align-self: stretch; margin: 0; }
     .ctl-panel { grid-area: ctl; margin: 0; }
@@ -764,31 +809,62 @@ TEMPLATE = r"""<!doctype html>
   .panel-title .label-main { color: var(--text-2); font-weight: 600; letter-spacing: 0.22em; }
 
   /* Hero — GMI + state + day-N + stage */
-  .hero { display: grid; grid-template-columns: auto 1fr; gap: 18px; align-items: center; }
+  .hero { display: grid; grid-template-columns: auto 1fr; gap: 22px; align-items: center; }
+  /* Editorial figure framing for the GMI numeral — flanking amber hairlines
+     and an italic-serif "of six" caption turn the raw counter into a
+     published statistic. */
+  .gmi-figure { display: inline-flex; flex-direction: column; align-items: center; gap: 6px; }
+  .gmi-numeral {
+    position: relative; padding: 0 28px;
+    display: inline-flex; align-items: center;
+  }
+  .gmi-numeral::before, .gmi-numeral::after {
+    content: ''; position: absolute; top: 50%; width: 18px; height: 1px;
+    background: var(--accent); opacity: 0.6;
+  }
+  .gmi-numeral::before { left: 0; }
+  .gmi-numeral::after  { right: 0; }
   .hero .num {
     font-family: var(--serif); font-weight: 400;
-    font-size: 84px; line-height: 0.9; color: var(--text);
-    letter-spacing: -0.03em;
+    font-size: 96px; line-height: 0.9; color: var(--text);
+    letter-spacing: -0.035em;
     font-feature-settings: "lnum", "tnum";
+    display: inline-block; padding: 0 4px;
   }
+  .gmi-caption {
+    font-family: var(--serif); font-style: italic;
+    font-size: 15px; color: var(--muted);
+    letter-spacing: 0.02em; line-height: 1;
+  }
+  .gmi-caption em { color: var(--accent-2); font-style: italic; }
+  /* Legacy .denom kept in case any other place still references it — not used in the new figure */
   .hero .denom { color: var(--muted); font-family: var(--serif); font-size: 30px; font-style: italic; margin-left: 2px; }
   @media (max-width: 480px) {
-    .hero .num { font-size: 64px; }
+    .hero .num { font-size: 72px; }
+    .gmi-numeral { padding: 0 22px; }
+    .gmi-numeral::before, .gmi-numeral::after { width: 14px; }
     .hero .denom { font-size: 24px; }
   }
+  /* Stamp-style state badge — replaces the soft pill with a hand-pressed
+     publication stamp: top + bottom rules only, slightly rotated, no fill.
+     Stands out as the most "designed" element on the page. */
   .badge {
-    display: inline-flex; align-items: center; gap: 6px;
-    padding: 6px 12px; border-radius: 2px;
-    font-family: var(--mono); font-weight: 600;
-    font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+    display: inline-block;
+    padding: 9px 18px; border-radius: 0;
+    border-top: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    border-left: 0; border-right: 0;
+    background: transparent;
+    font-family: var(--mono); font-weight: 700;
+    font-size: 11.5px; letter-spacing: 0.26em; text-transform: uppercase;
+    transform: rotate(-1.2deg);
+    transform-origin: center;
+    transition: transform 0.25s ease, color 0.25s ease;
   }
-  .badge::before {
-    content: ""; width: 6px; height: 6px; border-radius: 50%;
-    background: currentColor;
-  }
-  .badge.green { background: var(--bull-soft); color: var(--bull); border: 1px solid var(--bull-line); }
-  .badge.red { background: var(--bear-soft); color: var(--bear); border: 1px solid var(--bear-line); }
-  .badge.yellow { background: var(--caution-soft); color: var(--caution); border: 1px solid var(--caution-line); }
+  .badge:hover { transform: rotate(0deg); }
+  .badge.green  { color: var(--bull); }
+  .badge.red    { color: var(--bear); }
+  .badge.yellow { color: var(--caution); }
   .meta { color: var(--muted); font-size: 13px; margin-top: 6px; }
   .meta b { color: var(--text); font-weight: 600; }
 
@@ -921,9 +997,19 @@ TEMPLATE = r"""<!doctype html>
   .qmark:hover, .qmark:active { background: var(--accent-soft); border-color: var(--accent); color: var(--accent-2); }
 
   /* Chart */
-  .chart-wrap { position: relative; }
+  .chart-wrap {
+    position: relative;
+    /* Graph-paper hairlines behind the candles — 1% opacity amber grid that
+       reads as "printed market chart" without competing with the data. */
+    background-image:
+      repeating-linear-gradient(0deg, rgba(231,169,36,0.04) 0 1px, transparent 1px 40px),
+      repeating-linear-gradient(90deg, rgba(231,169,36,0.04) 0 1px, transparent 1px 40px);
+  }
+  /* Custom amber-crosshair cursor for the chart drag area — replaces the
+     generic ew-resize. Falls back to ew-resize on browsers that ignore SVG cursors. */
   .spark { width: 100%; height: 280px; display: block;
-    cursor: ew-resize; touch-action: none; -webkit-user-select: none; user-select: none; }
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'><circle cx='10' cy='10' r='5' fill='none' stroke='%23e7a924' stroke-width='1'/><circle cx='10' cy='10' r='1.2' fill='%23e7a924'/><line x1='0' y1='10' x2='4' y2='10' stroke='%23e7a924' stroke-width='1'/><line x1='16' y1='10' x2='20' y2='10' stroke='%23e7a924' stroke-width='1'/><line x1='10' y1='0' x2='10' y2='4' stroke='%23e7a924' stroke-width='1'/><line x1='10' y1='16' x2='10' y2='20' stroke='%23e7a924' stroke-width='1'/></svg>") 10 10, ew-resize;
+    touch-action: none; -webkit-user-select: none; user-select: none; }
   @media (min-width: 760px) { .spark { height: 340px; } }
   .spark.dragging { cursor: grabbing; }
   .x-axis-labels { position: absolute; left: 0; right: 0; bottom: 0; height: 30px;
@@ -1117,8 +1203,11 @@ TEMPLATE = r"""<!doctype html>
         <button class="qmark" data-pop="dayN" aria-label="Day N explanation">i</button>
       </div>
       <div class="hero">
-        <div>
-          <span class="num" id="gmiNum">0</span><span class="denom">/6</span>
+        <div class="gmi-figure">
+          <div class="gmi-numeral">
+            <span class="num" id="gmiNum">0</span>
+          </div>
+          <div class="gmi-caption">of <em>six</em></div>
         </div>
         <div>
           <span class="badge" id="stateBadge">—</span>
@@ -1670,8 +1759,7 @@ function drawSpark(centerIdx, markerIdx) {
     const vline = document.createElementNS('http://www.w3.org/2000/svg', 'line');
     vline.setAttribute('x1', x); vline.setAttribute('x2', x);
     vline.setAttribute('y1', 0); vline.setAttribute('y2', H - PADY_BOT);
-    vline.setAttribute('stroke', '#e7a924'); vline.setAttribute('stroke-width', '1.2');
-    vline.setAttribute('stroke-dasharray', '3,3');
+    vline.setAttribute('stroke', '#e7a924'); vline.setAttribute('stroke-width', '1');
     vline.setAttribute('stroke-opacity', '0.85');
     svg.appendChild(vline);
     // Bottom selected-date label is rendered as HTML inside .x-axis-labels — see below.
@@ -1764,13 +1852,26 @@ function drawSpark(centerIdx, markerIdx) {
 // Render
 // ============================================================================
 
+// Re-trigger a CSS animation by removing the class, forcing a reflow, and re-adding it.
+// Used on every scrub so the GMI score and Since-Day-1 cells flash softly with each update.
+function flashEl(el) {
+  if (!el) return;
+  el.classList.remove('flash');
+  // force reflow so the next add re-triggers the keyframes
+  void el.offsetWidth;
+  el.classList.add('flash');
+}
+
 function render() {
   const i = markerIdx;
   const r = ROWS[i];
   const stateInfo = classifyState(r.s, r.g);
 
   // (date label removed in compact controls; the date picker shows the selected date already)
-  document.getElementById('gmiNum').textContent = String(r.g);
+  const gmiEl = document.getElementById('gmiNum');
+  const newG = String(r.g);
+  if (gmiEl.textContent !== newG) flashEl(gmiEl);
+  gmiEl.textContent = newG;
   const badge = document.getElementById('stateBadge');
   badge.textContent = stateInfo.label;
   badge.className = "badge " + stateInfo.cls;
@@ -1835,15 +1936,19 @@ function render() {
   function setPct(id, v) {
     const el = document.getElementById(id);
     const cell = document.getElementById(id + "Cell");
+    const newText = v == null ? "—" : ((v >= 0 ? "+" : "") + v.toFixed(2) + "%");
+    const changed = el.textContent !== newText;
     if (v == null) {
       el.textContent = "—"; el.className = "since-val nv";
       if (cell) cell.className = "since-cell";
       return;
     }
-    el.textContent = (v >= 0 ? "+" : "") + v.toFixed(2) + "%";
+    el.textContent = newText;
     const cls = v >= 0 ? "pos" : "neg";
     el.className = "since-val " + cls;
     if (cell) cell.className = "since-cell " + cls;
+    // flashEl runs LAST so its class-add isn't wiped by the className= above
+    if (changed) flashEl(el);
   }
   setPct('srd1', r.rd1);
   setPct('srd1tq', r.rd1tq);

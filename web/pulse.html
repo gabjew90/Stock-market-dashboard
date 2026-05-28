@@ -60,6 +60,32 @@
     opacity: 0.55; mix-blend-mode: overlay;
   }
 
+  /* Page-load orchestration — mirrors the GMI page. */
+  @keyframes reveal-up {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes mark-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(231,169,36,0.0); }
+    50%      { box-shadow: 0 0 0 5px rgba(231,169,36,0.18); }
+  }
+  .hero-block .dateline { animation: reveal-up 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 0ms; }
+  .hero-block h1        { animation: reveal-up 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 80ms; }
+  .hero-block .deck     { animation: reveal-up 0.65s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 150ms; }
+  .pulse-bar            { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 240ms; }
+  .pulse-counter        { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 300ms; }
+  .panel#pulseStack     { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 380ms; }
+  .wrap > .footer       { animation: reveal-up 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: 460ms; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      animation-delay: 0ms !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+
   /* Shared top nav (MIRRORS GMI page). When edited, mirror in build_gmi_playground.py. */
   .pages-nav {
     position: sticky; top: 0; z-index: 100;
@@ -94,6 +120,8 @@
     text-transform: uppercase; padding: 4px 8px;
     border: 1px solid var(--accent); border-radius: 2px;
     line-height: 1; align-self: center;
+    animation: mark-pulse 2.8s ease-in-out infinite;
+    animation-delay: 1.4s;
   }
   .pages-nav .nav-links {
     display: inline-flex; align-items: center; gap: 6px;
@@ -191,15 +219,17 @@
   /* Pulse pager — refined prev/next + date label */
   .pulse-bar {
     display: grid; grid-template-columns: auto 1fr auto; align-items: center;
-    gap: 10px; margin: 0 0 8px 0;
-    padding: 14px 16px;
+    gap: 16px; margin: 0 0 10px 0;
+    padding: 20px 22px;
     background: var(--bg-2); border: 1px solid var(--border); border-radius: 4px;
   }
+  /* The date IS the page subject — render it as a big serif headline. */
   .pulse-bar__label {
-    font-family: var(--mono); color: var(--accent);
-    font-size: 12px; font-weight: 600;
-    letter-spacing: 0.16em; text-transform: uppercase;
-    text-align: center;
+    font-family: var(--serif); color: var(--text);
+    font-size: clamp(20px, 3.4vw, 32px);
+    font-weight: 400; font-style: italic;
+    letter-spacing: -0.008em; text-transform: none;
+    text-align: center; line-height: 1.1;
   }
   .pulse-btn {
     background: var(--panel); color: var(--text);
