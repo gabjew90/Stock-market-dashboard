@@ -344,8 +344,12 @@ def build_payload() -> dict:
     gmi = daily_gmi_series(ROOT, prices, source="reconstructed")
     state = green_state_machine(gmi)
 
-    # MAs (Dr. Wish's canonical set)
+    # MAs (the canonical set used by the dashboard)
     sma30 = qqq.rolling(30, min_periods=30).mean()
+    # 21-day EMA — short-term swing-trade trend filter. Plotted on the daily chart
+    # only (not used in any indicator math). adjust=False gives the standard
+    # recursive EMA that traders eyeball on TradingView etc.
+    ema21 = qqq.ewm(span=21, adjust=False, min_periods=21).mean()
     wk_close = qqq.resample("W-FRI").last().dropna()
     wk10_s = wk_close.rolling(10, min_periods=10).mean()
     wk30_s = wk_close.rolling(30, min_periods=30).mean()
@@ -399,6 +403,7 @@ def build_payload() -> dict:
         "oo": qopen.round(2), "hh": qhigh.round(2), "ll": qlow.round(2), "cc": qclose_ohlc.round(2),
         "vv": qvol.round(0).astype("Int64"),
         "sma30": sma30.round(2),
+        "ema21": ema21.round(2),
         "wk10": sma_10wk.round(2),
         "wk30": sma_30wk.round(2),
         "day": day_count.astype(int),
@@ -502,6 +507,7 @@ def build_payload() -> dict:
             "cl": None if np.isnan(r["cc"]) else float(r["cc"]),  # OHLC close; "c" key reserved for components array
             "v": None if pd.isna(r["vv"]) else int(r["vv"]),
             "m30": None if np.isnan(r["sma30"]) else float(r["sma30"]),
+            "e21": None if np.isnan(r["ema21"]) else float(r["ema21"]),
             "w10": None if np.isnan(r["wk10"]) else float(r["wk10"]),
             "w30": None if np.isnan(r["wk30"]) else float(r["wk30"]),
             "dn": int(r["day"]),
@@ -1362,12 +1368,13 @@ const STAGE_INFO = {
 // Chart drawing: HLC bars (doji-style — vertical H–L line + close tick on right)
 // ============================================================================
 
-const MA_COLORS = { qqq: "#e7a924", m30: "#f5c042", w10: "#5fb37b", w30: "#c89a78" };
-const maOn = { qqq: true, m30: true, w10: true, w30: true };  // QQQ is always on
+const MA_COLORS = { qqq: "#e7a924", m30: "#f5c042", e21: "#c8a8e9", w10: "#5fb37b", w30: "#c89a78" };
+const maOn = { qqq: true, m30: true, e21: true, w10: true, w30: true };  // QQQ is always on
 
 // Legend definitions per view (QQQ candles are always rendered — no chip needed)
 const LEGEND = {
   daily: [
+    {key: "e21", color: MA_COLORS.e21, label: "21-day EMA", pop: "e21"},
     {key: "m30", color: MA_COLORS.m30, label: "30-day SMA", pop: "m30"},
   ],
   weekly: [
@@ -1448,6 +1455,7 @@ function drawSpark(centerIdx, markerIdx) {
   // Add the appropriate MAs to the range so they're always in view
   slice.forEach(r => {
     if (daily && maOn.m30 && r.m30 != null) ys.push(r.m30);
+    if (daily && maOn.e21 && r.e21 != null) ys.push(r.e21);
     if (!daily && maOn.w10 && r.m10 != null) ys.push(r.m10);
     if (!daily && maOn.w30 && r.m30 != null) ys.push(r.m30);
   });
@@ -1516,6 +1524,8 @@ function drawSpark(centerIdx, markerIdx) {
     path.setAttribute('stroke-opacity', String(alpha));
     svg.appendChild(path);
   }
+  // Draw 21-EMA underneath the 30-SMA so the SMA stays the more prominent reference.
+  if (daily && maOn.e21) plotLine("e21", MA_COLORS.e21, 1.4, 0.9);
   if (daily && maOn.m30) plotLine("m30", MA_COLORS.m30, 1.4, 0.85);
   if (!daily && maOn.w30) plotLine("m30", MA_COLORS.w30, 1.6, 0.9);
   if (!daily && maOn.w10) plotLine("m10", MA_COLORS.w10, 1.4, 0.85);
@@ -1640,6 +1650,8 @@ function drawSpark(centerIdx, markerIdx) {
     }
     const qClose = daily ? selDaily.cl : (selWeekly && selWeekly.c);
     addStat('Q',   qClose != null ? qClose.toFixed(0) : null, "#f2ebe1");
+    if (daily && maOn.e21 && selDaily.e21 != null)
+      addStat('21e', selDaily.e21.toFixed(0), MA_COLORS.e21);
     if (daily && maOn.m30 && selDaily.m30 != null)
       addStat('30d', selDaily.m30.toFixed(0), MA_COLORS.m30);
     if (!daily && maOn.w10 && selWeekly && selWeekly.m10 != null)
@@ -1803,6 +1815,7 @@ const POP = {
   redshade: "<b>RED-shaded periods</b><br>Days when QQQ is in a <b>short-term down-trend</b> (closed below its 30-day SMA). Aligns with the Day-N pill at the top: shading ends exactly when the ST trend flips to up.<br><br>Note: this is distinct from the GMI gate (GREEN/RED badge above). The gate uses the full 6-component GMI score with a 2-day confirmation — it can stay RED for a few days after the ST trend turns up, by design.",
   qqq: "<b>QQQ candles</b><br>Standard OHLC candles. <span style='color:#4fa363;font-weight:600'>Green</span> = close ≥ open. <span style='color:#d96250;font-weight:600'>Red</span> = close &lt; open. Wick = high–low; body = open–close.<br><br><b>Daily view:</b> ~126 daily candles (6 months) centered on selected day.<br><b>Weekly view:</b> ~50 Friday-close candles (1 year) — the timeframe we use for the 10wk/30wk stage view.",
   m30: "<b>30-day SMA (daily)</b><br>The daily short-term trend anchor. QQQ closing above = ST up; below = ST down. Drives the Day-N count and components 3 & 4 of the GMI.",
+  e21: "<b>21-day EMA (daily)</b><br>The short-term swing-trade trend filter, faster than the 30-day SMA — it weights recent prices more heavily so it turns first when a trend changes. A close above the 21-EMA is a swing-long bias; a clean break below often precedes a 30-day SMA break. Useful as an early-warning companion to the 30-day SMA, not a trade signal on its own.",
   w10: "<b>10-week SMA (weekly chart)</b><br>Our medium-term hold line. Computed on Friday weekly closes. The <b>10wk crossing above 30wk</b> is the bull re-entry signal (confirmed live 2025-06 and 2026-05). The <b>10wk crossing below 30wk</b> confirms Stage 4 onset (April 2025 tariff decline).",
   w30: "<b>30-week SMA (weekly chart)</b><br>Our most important MA — Stan Weinstein's classic. Got us out before 2000 and 2008. Price above + line rising = Stage 2 uptrend — the only stage we buy long.",
   c1: "<b>Successful 10-day new high</b><br>Component 1 of GMI. Fires when ≥50% of stocks that hit a new 52-week high 10 trading days ago closed higher today. Tests whether breakouts are still being rewarded.",
