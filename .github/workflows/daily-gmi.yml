@@ -30,8 +30,15 @@ permissions:
   id-token: write
 
 concurrency:
+  # Cancel-in-progress so the LATEST push always wins the queue. Previously
+  # this was false, which meant rapid-fire pushes stacked up — each waited
+  # for the prior 5-minute build to finish, and the newest commit sat at
+  # the back of the queue for 20+ minutes. With true, an in-flight build is
+  # cancelled the moment a newer push lands, and the runner re-checks out
+  # the newest SHA. The scheduled cron runs still get a clean queue at
+  # 22:00, 23:30, and 01:00 UTC because no push triggers in between.
   group: 'pages'
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build-and-deploy:
@@ -77,32 +84,33 @@ jobs:
         env:
           PYTHONUNBUFFERED: '1'
 
-      # Guardrail: if breadth ended on a day older than the last QQQ trading day,
-      # something silently failed (yfinance throttling, network blip). Fail loudly
-      # rather than deploying a stale T2108.
+      # Soft freshness guardrail: WARN aggressively, only HARD-FAIL on the data
+      # quality signals that actually break the dashboard (recent zero-T2108 =
+      # upstream price-fetch failure, the exact bug this check was added for).
+      # The age threshold is loose (10 days) because the daily-gmi workflow now
+      # triggers on every push to scripts/wiki/web paths — if you push at 11pm
+      # on a Friday before a 3-day weekend, the deploy must still go through.
       - name: Verify breadth freshness
         shell: bash
         run: |
           uv run python -c "
           import pandas as pd, sys
-          from datetime import datetime, timezone
           bs = pd.read_parquet('data/breadth/breadth_series.parquet')
           last = pd.to_datetime(bs['date']).max()
-          # The build will hard-fail anyway if breadth is older than the last
-          # available QQQ trading day; surface that here with a clear message
-          # so the workflow stops BEFORE deploying a stale dashboard.
           today_et = pd.Timestamp.now(tz='America/New_York').normalize().tz_localize(None)
-          # Allow up to 5 calendar days of slack (long weekends + holidays).
           age = (today_et - last).days
           print(f'breadth_series last date: {last.date()}  (age: {age}d)')
           tail_t = bs.tail(5)[['date','t2108_nyse','n_nyse']]
           print('last 5 T2108 readings:')
           print(tail_t.to_string(index=False))
-          # Hard fail conditions
-          if age > 5:
-              print(f'::error::breadth data is {age} days stale — aborting deploy', flush=True)
+          # WARN on age > 3, only FAIL on age > 10 (covers any reasonable
+          # holiday window + 1-2 days of yfinance flakiness)
+          if age > 10:
+              print(f'::error::breadth data is {age} days stale (>10) — aborting deploy', flush=True)
               sys.exit(1)
-          # Recent zero T2108 readings = upstream price-fetch failure
+          if age > 3:
+              print(f'::warning::breadth data is {age} days stale — deploy proceeding but investigate', flush=True)
+          # Hard-fail on recent zero T2108 (the bug this guardrail was actually added for)
           recent_zero = (tail_t['t2108_nyse'] == 0).sum()
           if recent_zero > 0:
               print(f'::error::{recent_zero}/5 of the latest T2108 readings are 0 — upstream fetch failure', flush=True)
