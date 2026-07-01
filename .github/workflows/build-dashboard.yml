@@ -185,3 +185,6 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           workingDirectory: deploy/cloudflare
           command: deploy
+          # The action's bundled default is wrangler v3, which can't parse
+          # this project's v4 config (wrangler.jsonc + Workers assets).
+          wranglerVersion: '4.106.0'
