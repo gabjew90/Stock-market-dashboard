@@ -1,0 +1,20 @@
+/**
+ * Cloudflare deployment for seraphsys.us — serves the staged _site/ build
+ * with a server-side /pulse-data/ proxy (see src/index.js).
+ * Deployed by the build-dashboard workflow via cloudflare/wrangler-action;
+ * requires the CLOUDFLARE_API_TOKEN repo secret.
+ */
+{
+  "name": "seraphsys-site",
+  "main": "src/index.js",
+  "compatibility_date": "2026-06-01",
+  "account_id": "40dff3d5d45dca5491e0929c4dcae77a",
+  "assets": {
+    "directory": "../../_site",
+    "binding": "ASSETS"
+  },
+  "observability": { "enabled": true },
+  "routes": [
+    { "pattern": "seraphsys.us", "custom_domain": true }
+  ]
+}
