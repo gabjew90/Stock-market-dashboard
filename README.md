@@ -1,6 +1,10 @@
 # Stock market dashboard
 
-Live site: **<https://gabjew90.github.io/Stock-market-dashboard/>**
+Live site: **<https://seraphsys.us/>** (custom domain, Cloudflare) — also at
+<https://gabjew90.github.io/Stock-market-dashboard/> (GitHub Pages).
+Both are deployed from the same build; the Cloudflare copy is scrubbed of
+anything linking it back to this repo — see
+[`deploy/cloudflare/README.md`](deploy/cloudflare/README.md).
 
 Three published pages, deployed nightly after the US close by the
 [`build-dashboard`](.github/workflows/build-dashboard.yml) GitHub Actions workflow:
@@ -89,6 +93,13 @@ It restores a cached breadth + OHLC panel, runs `ww breadth update` for the
 delta, rebuilds the Market Regime HTML and the wiki HTML, stages both plus
 `web/pulse.html` into `_site/`, and deploys via Pages. First-run bootstrap
 (`ww breadth fetch && ww breadth build`) only fires when the cache is empty.
+
+After the Pages deploy, the same `_site/` is scrubbed by
+`scripts/scrub_site_for_cf.py` (relative nav links, same-origin pulse URLs,
+no identifying strings — enforced by a fail-the-build leak gate) and
+deployed a second time to **`https://seraphsys.us/`** via Cloudflare Workers.
+Requires the `CLOUDFLARE_API_TOKEN` repository secret. Architecture, wiring,
+and troubleshooting: [`deploy/cloudflare/README.md`](deploy/cloudflare/README.md).
 
 A companion [`monthly-breadth-refresh`](.github/workflows/monthly-breadth-refresh.yml)
 workflow fires on the 1st of each month at 06:00 UTC. It runs the heavier

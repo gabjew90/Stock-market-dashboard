@@ -67,6 +67,21 @@ it, browsers would render the HTML files as `text/plain`.
 
 ---
 
+## On `seraphsys.us` the fetches are same-origin
+
+The Cloudflare deploy (see [`deploy/cloudflare/README.md`](deploy/cloudflare/README.md))
+rewrites the pulse page at deploy time so the browser fetches
+`/pulse-data/archive.json` and `/pulse-data/fragments/<ts>.html` from
+`seraphsys.us` itself. The `seraphsys-site` Worker proxies those two path
+shapes to the pulse-data branch **server-side** (5-minute edge cache), so a
+visitor's browser never contacts GitHub and nothing in DevTools ties the
+domain to this account. The GitHub Pages copy keeps the direct
+`raw.githubusercontent.com` fetches described above — `web/pulse.html` in
+this repo is unchanged; only the deployed Cloudflare copy differs
+(`scripts/scrub_site_for_cf.py` does the rewrite and gates leaks).
+
+---
+
 ## Backfill policy (only the latest pulse is renderable)
 
 The other repo's pipeline only generates HTML fragments for the **newest**
