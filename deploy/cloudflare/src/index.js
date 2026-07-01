@@ -15,8 +15,16 @@ export default {
       if (!allowed) return new Response("Not found", { status: 404 });
 
       const upstream = await fetch(`${UPSTREAM}/${rest}`, {
-        cf: { cacheTtl: 300, cacheEverything: true },
+        // Cache successes for 5 min; never cache failures — a transient
+        // upstream blip must not get pinned at the edge.
+        cf: { cacheEverything: true, cacheTtlByStatus: { "200-299": 300, "300-599": -1 } },
       });
+      if (!upstream.ok) {
+        return new Response("upstream unavailable", {
+          status: 503,
+          headers: { "cache-control": "no-store" },
+        });
+      }
       const headers = new Headers();
       headers.set("content-type", upstream.headers.get("content-type") || (rest.endsWith(".json") ? "application/json" : "text/html; charset=utf-8"));
       headers.set("cache-control", "public, max-age=300");
