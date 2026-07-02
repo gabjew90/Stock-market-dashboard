@@ -61,6 +61,32 @@ def test_component_1_original_2005_rule():
     assert gmi(sp2, "2014-08-01", original_rule=False).components["successful_10day_new_high"] is False
 
 
+def test_price_components_respect_the_requested_date():
+    # V-shaped series: bearish at the requested date (the bottom), bullish by the end.
+    # Regression test — components 3/4/5 used to evaluate at the END of the provider's
+    # series regardless of `date`, so a historical GMI borrowed today's trend.
+    n = 400
+    d_idx = pd.date_range("2014-01-01", periods=n, freq="B")
+    c = np.concatenate([np.linspace(300, 100, n // 2), np.linspace(100, 500, n - n // 2)])
+    qd = pd.DataFrame({"open": c, "high": c, "low": c, "close": c}, index=d_idx)
+    bottom = d_idx[n // 2 - 1]
+    w_idx = pd.date_range("2013-01-06", periods=160, freq="W-SUN")
+    k = int((w_idx <= bottom).sum())
+    wv = np.concatenate([np.linspace(300, 100, k), np.linspace(100, 500, 160 - k)])
+    qw = pd.DataFrame({"open": wv, "high": wv, "low": wv, "close": wv}, index=w_idx)
+    sp = StubProvider(prices={("QQQ", "1d"): qd, ("QQQ", "1wk"): qw, ("SPY", "1d"): qd})
+
+    at_bottom = gmi(sp, bottom.date().isoformat())
+    assert at_bottom.components["qqq_daily_trend"] is False
+    assert at_bottom.components["spy_daily_trend"] is False
+    assert at_bottom.components["qqq_weekly_trend"] is False
+
+    at_end = gmi(sp, d_idx[-1].date().isoformat())
+    assert at_end.components["qqq_daily_trend"] is True
+    assert at_end.components["spy_daily_trend"] is True
+    assert at_end.components["qqq_weekly_trend"] is True
+
+
 def test_bearish_components_when_downtrend():
     dn_d = _uptrend_daily(lo=300, hi=100)
     dn_w = _uptrend_weekly(lo=300, hi=100)

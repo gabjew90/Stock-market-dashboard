@@ -1,7 +1,7 @@
 ---
 title: General Market Index (GMI)
 type: entity
-updated: 2026-05-12
+updated: 2026-07-02
 sources:
   - raw/posts/2005-04-26-general-market-index-gmi.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
@@ -104,9 +104,9 @@ def gmi(provider, date, *, original_rule=False) -> GMIResult:
     verdicts = {
         "successful_10day_new_high": _successful_10day(provider, date, original_rule=original_rule),  # 2014: higher >= 50% of total; 2005: higher >= 100
         "new_highs_ge_100":          _new_highs_ge_100(provider, date),                                 # >= 100 new 52-wk highs today
-        "qqq_daily_trend":           _daily_trend_up(provider, "QQQ"),                                  # QQQ close above its 30-day SMA (proxy)
-        "spy_daily_trend":           _daily_trend_up(provider, "SPY"),
-        "qqq_weekly_trend":          _qqq_weekly_above_30wk(provider),                                  # QQQ weekly close above its 30-week SMA
+        "qqq_daily_trend":           _daily_trend_up(provider, "QQQ", date),                            # QQQ close above its 30-day SMA (proxy), as of `date`
+        "spy_daily_trend":           _daily_trend_up(provider, "SPY", date),
+        "qqq_weekly_trend":          _qqq_weekly_above_30wk(provider, date),                            # QQQ weekly close above its 30-week SMA, as of `date`
         "ibd_fund_above_50d":        _ibd_fund_above_50d(provider, date),                               # IBD Mutual Fund Index above its 50-day SMA
     }
     unavailable = [k for k, v in verdicts.items() if v is None]
@@ -121,7 +121,9 @@ Try it: `ww compute gmi 2026-05-01` prints the partial GMI from current QQQ/SPY 
 
 The `gmi()` code can be driven by a [`BreadthProvider`](../../src/ww/indicators/breadth_provider.py) that reads a locally-built market-breadth series (`data/breadth/breadth_series.parquet`, produced by `ww breadth fetch` + `ww breadth build` from the free Nasdaq Trader symbol files + yfinance). With it, all six components are computed: components 3/4/5 from QQQ/SPY prices, components 1/2 from the reconstructed 52-week-high panel, and component 6 from the **Innovator IBD® 50 ETF (FFTY)** — IBD's own growth-leaders index, the closest tradeable thing to "IBD anything" — above its 50-day MA, spliced onto an equal-weight large-growth-mutual-fund basket (AGTHX/FCNTX/TRBCX/VWUSX, rescaled for continuity) for dates before FFTY's April-2015 inception. This is a *proxy* for the GMI's actual component 6, the proprietary **IBD Mutual Fund Index** (which has no public ticker) — and arguably a better one than a generic fund basket, though as the validation below shows it barely moves the GMI fit either way.
 
-**How faithful is it?** `ww breadth validate` cross-checks the reconstruction against the GMI values Dr. Wish actually reported in his daily posts (the `gmi_value` column of `raw/timeline.parquet`, 890 overlapping dates). As of the last validation run:
+**How faithful is it?** `ww breadth validate` cross-checks the reconstruction against the GMI values Dr. Wish actually reported in his daily posts (the `gmi_value` column of `raw/timeline.parquet`, 890 overlapping dates).
+
+> **⚠ Stats below are stale — re-run `ww breadth validate`.** A 2026-07-02 code review found that `gmi()`'s price components (3/4/5: QQQ daily, SPY daily, QQQ weekly) ignored the requested `date` and evaluated at the *end* of the price series — so every validated historical date was credited with the trend prevailing on the day the validation ran. The bug is fixed (components now truncate at `date`), but the numbers below were computed with it present: the exact-match / correlation figures understate fidelity wherever the present-day trend disagreed with the historical one, and the "when he said 0–1 we computed 3–4" pattern was partly this bug, not only survivorship bias. As of the last (pre-fix) validation run:
 
 - **Exact-match rate: ≈ 20%** — our score equals his reported score on about 1 in 5 dates. (Swapping component 6's proxy to FFTY changed this by under 1 percentage point — the reconstruction's gap is driven by the *breadth* components, not component 6.)
 - **Within ±1 rate: ≈ 72%** — within one point on almost three-quarters of dates.
