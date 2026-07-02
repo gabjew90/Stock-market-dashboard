@@ -19,7 +19,7 @@ sources: []
 ### Verdict: **marginal — cuts drawdown (max-DD 19% vs 53%) but at a Sharpe/CAGR cost (Sharpe 0.67 vs 0.80); a stomach-vs-money trade**
 
 
-![equity curve](assets/backtest/equity_curve.png)
+![equity curve](../../assets/backtest/equity_curve.png)
 
 *(Strategy vs buy-and-hold QQQ vs SPY, log scale, RED periods shaded — also at [https://litter.catbox.moe/pa5zop.png](https://litter.catbox.moe/pa5zop.png) for 72 h)*
 
