@@ -61,6 +61,14 @@ def lint_wiki(root: Path) -> LintReport:
     pages = _wiki_pages(wiki_dir)
     inbound: dict[Path, int] = {p.resolve(): 0 for p in pages}
 
+    # raw/ is deliberately not committed (rebuild with `ww scrape`), so a fresh
+    # checkout — CI in particular — has no corpus. Citation links into raw/ can't
+    # be verified there; skip them (with a warning) rather than flag every
+    # citation in the wiki as broken.
+    raw_dir = (root / "raw").resolve()
+    corpus_present = (root / "raw" / "posts").is_dir()
+    unverified_raw_links = 0
+
     for page in pages:
         rel = page.relative_to(root).as_posix()
         text = page.read_text(encoding="utf-8")
@@ -74,6 +82,9 @@ def lint_wiki(root: Path) -> LintReport:
             if _is_external(target) or target.startswith("#"):
                 continue
             dest = (page.parent / target.split("#")[0]).resolve()
+            if not corpus_present and dest.is_relative_to(raw_dir):
+                unverified_raw_links += 1
+                continue
             if not dest.exists():
                 report.errors.append(f"{rel}: broken link -> {target}")
                 continue
@@ -91,6 +102,11 @@ def lint_wiki(root: Path) -> LintReport:
             continue
         if inbound.get(page.resolve(), 0) == 0:
             report.warnings.append(f"{page.relative_to(root).as_posix()}: orphan (no inbound link from another wiki page)")
+
+    if unverified_raw_links:
+        report.warnings.append(
+            f"raw/ corpus not present — {unverified_raw_links} link targets under raw/ not verified (rebuild with `ww scrape`)"
+        )
 
     # 5. posts.jsonl summary_page integrity (only if the index exists & is non-empty)
     posts_jsonl = root / "raw" / "posts.jsonl"
