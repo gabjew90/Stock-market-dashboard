@@ -81,6 +81,23 @@ def test_breadth_drops_delisted_ticker_after_its_last_bar(tmp_path):
     assert df.iloc[-1]["n_broad"] == 1
 
 
+def test_breadth_returns_nan_not_zero_when_nyse_sub_universe_is_empty(tmp_path):
+    # Scenario: only Nasdaq stocks have a bar for "today" (NYSE feed is stale/missing).
+    # n_broad is positive so the row survives — but n_nyse == 0, and t2108_nyse must
+    # report "no data" (NaN), NOT a fake 0% that the dashboard would render as a
+    # capitulation-level reading.
+    panel = tmp_path / "panel"
+    _write_panel(panel, "NYSE_A", list(np.linspace(10, 60, 50)))             # 50 bars; absent on the very last date
+    _write_panel(panel, "NAS_A", list(np.linspace(10, 60, 51)))              # 51 bars — fresh bar today, Nasdaq
+    uni = pd.DataFrame({"ticker": ["NYSE_A", "NAS_A"], "in_nyse": [True, False]})
+    df = compute_breadth_series(panel, uni).set_index("date")
+    last = df.iloc[-1]
+    assert last["n_broad"] == 1
+    assert last["n_nyse"] == 0
+    assert pd.isna(last["t2108_nyse"]), f"expected NaN when NYSE universe is empty, got {last['t2108_nyse']!r}"
+    assert last["t2108_broad"] == 100.0                                       # NAS_A is rising -> above its 40d MA
+
+
 def _adjclose_frame(tickers, idx, vals_for):
     cols = pd.MultiIndex.from_product([list(tickers), ["Adj Close"]])
     data = {(t, "Adj Close"): list(vals_for(t)) for t in tickers}
