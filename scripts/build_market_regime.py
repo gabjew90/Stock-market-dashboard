@@ -24,6 +24,7 @@ from ww.backtest.gate import (
     _QQQ_WEEKLY_TREND_WINDOW,
     _FUND_MA_WINDOW,
 )
+from ww.indicators.ma_stages import weinstein_stage_series
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -231,78 +232,6 @@ def _streak_and_state(daily_above: pd.Series) -> tuple[pd.Series, pd.Series]:
     return day_count, side
 
 
-def _weinstein_stage(
-    qqq: pd.Series,
-    w10: pd.Series,
-    w30: pd.Series,
-    slope_window_weeks: int = 8,
-    rising_threshold_pct: float = 1.0,
-    shallow_pullback_pct: float = 5.0,
-) -> pd.Series:
-    """Stage 1/2/3/4 per Stan Weinstein, calibrated to Dr. Wish's actual usage
-    (see wiki/methodology/moving-average-rules.md):
-
-      Stage 2 = price above 30wk AND 30wk clearly rising   (advancing — only stage he buys long)
-      Stage 3 = price above 30wk BUT 30wk flat / barely rising / turning down  (topping)
-      Stage 4 = price below 30wk AND 10wk < 30wk (cross-down confirmation)   (declining)
-      Stage 1 = price below 30wk BUT 10wk still above 30wk                   (basing / pullback inside uptrend)
-
-    Two refinements over a strict "is the slope > 0" check:
-
-    1. **Slope uses a percentage threshold over an 8-week window**, not "any positive
-       change vs 4 trading days ago". A 30wk SMA changes slowly even at tops, so the
-       strict `> 0` rule treated a barely-flattening MA the same as a fast-rising one
-       and erased every topping period (2018, 2021, 2024 had zero Stage-3 days).
-       1% over 8 weeks is the default — a meaningful uptrend rate, not noise.
-
-    2. **Stage 4 requires the 10wk-below-30wk cross**, which is Wish's own
-       confirmation signal ("10-week average crossing below 30-week confirms Stage 4
-       onset" — WW 2025-03-30 IWM call). Without this, a 3-day price dip below the
-       30wk during a strong uptrend got mis-labelled Stage 4.
-
-    The slope is computed on the weekly cadence to avoid a calendar artifact that
-    would otherwise hit every Thursday (shift(N) on the daily-reindexed series
-    lands on the previous Friday update, comparing the same weekly value to
-    itself and flipping the slope flag to False).
-    """
-    above_30wk = qqq > w30
-    ten_above_thirty = w10 > w30
-    # Depth qualifier: how far below the 30wk did price drop? A pullback within
-    # `shallow_pullback_pct` of the 30wk (~5%) can stay Stage 1; anything deeper
-    # is treated as a Stage-3 warning even before the slope flips. A 5-day
-    # rolling-OR adds light hysteresis so a single rally day doesn't flip the
-    # call back to Stage 1 while the trajectory is still down.
-    deep_today = qqq < w30 * (1.0 - shallow_pullback_pct / 100.0)
-    deep_recent = deep_today.rolling(5, min_periods=1).max().astype(bool)
-    shallow_below = ~deep_recent
-
-    # Weekly-cadence slope: deduplicate the daily-ffilled w30 back to one row per
-    # actual weekly update, compare today's value to N weekly bars ago in %,
-    # then propagate the boolean back to daily via ffill.
-    w30_weekly = w30[w30.ne(w30.shift())].dropna()
-    slope_pct_weekly = (w30_weekly / w30_weekly.shift(slope_window_weeks) - 1.0) * 100.0
-    slope_rising_weekly = (slope_pct_weekly > rising_threshold_pct).fillna(False)
-    slope_rising = slope_rising_weekly.reindex(qqq.index, method="ffill").fillna(False).astype(bool)
-
-    # Mapping forces Stage 3 between Stage 2 and Stage 4 whenever the move has
-    # any depth or momentum-loss. Three signals can fire Stage 3 from below the
-    # 30wk: slope no longer rising, OR a deep pullback >shallow_pullback_pct.
-    # Stage 1 is reserved for the SHALLOW pullback inside a still-rising 30wk
-    # (the classic Aug-2024 V-shape: -3% below the rising line, 10wk still above
-    # 30wk, recovered within days).
-    stage = pd.Series(0, index=qqq.index, dtype=int)
-    # Above 30wk
-    stage[above_30wk & slope_rising] = 2     # clean uptrend
-    stage[above_30wk & ~slope_rising] = 3    # topping above the line
-    # Below 30wk + 10wk still above 30wk (10/30 cross hasn't fired yet)
-    stage[~above_30wk & ten_above_thirty & slope_rising & shallow_below] = 1   # shallow pullback in uptrend
-    stage[~above_30wk & ten_above_thirty & slope_rising & ~shallow_below] = 3  # deep drawdown — Stage 4 setup
-    stage[~above_30wk & ten_above_thirty & ~slope_rising] = 3                  # slope decelerating — Stage 4 setup
-    # Below 30wk + 10wk has crossed below 30wk = confirmed decline
-    stage[~above_30wk & ~ten_above_thirty] = 4
-    return stage
-
-
 def build_payload() -> dict:
     bs = pd.read_parquet(ROOT / "data" / "breadth" / "breadth_series.parquet")
     bs["date"] = pd.to_datetime(bs["date"])
@@ -387,7 +316,7 @@ def build_payload() -> dict:
     ret_since_day1_sq = (sq_series / day1_sq - 1.0) * 100
 
     # Weinstein stage
-    stage = _weinstein_stage(qqq, sma_10wk, sma_30wk)
+    stage = weinstein_stage_series(qqq, sma_10wk, sma_30wk)
 
     # forward returns
     fwd1 = (qqq.shift(-1) / qqq - 1.0)
@@ -1069,9 +998,9 @@ function classifyState(s, g) {
 }
 
 const STAGE_INFO = {
-  1: {name: "Stage 1 — Basing",     note: "Price below 30-week MA, but tape firming. Not a buying stage.", cls: "s1"},
+  1: {name: "Stage 1 — Basing",     note: "Shallow dip below a rising 30-week MA, or price back above it before the 10wk > 30wk cross confirms. Not a buying stage yet.", cls: "s1"},
   2: {name: "Stage 2 — Advancing",  note: "Price above rising 30-week MA, 10wk > 30wk. The only stage suitable for long entries.", cls: "s2"},
-  3: {name: "Stage 3 — Topping",    note: "Price above 30-week but breadth weakening (10wk crossing under, or 30wk flattening). Reduce exposure.", cls: "s3"},
+  3: {name: "Stage 3 — Topping",    note: "Price above 30-week but breadth weakening (10wk crossing under, or 30wk flattening/curling down). Reduce exposure.", cls: "s3"},
   4: {name: "Stage 4 — Declining",  note: "Price below falling 30-week, 10wk < 30wk. Defensive — cash or inverse exposure.", cls: "s4"},
 };
 
@@ -1540,7 +1469,7 @@ const POP = {
   t2108: "<b>T2108 — NYSE breadth</b><br>The percent of NYSE stocks trading above their 40-day SMA. We use three zones:<br><b style='color:#2f6b3f'>&lt;10</b> = capitulation buy zone (accumulate SPY in tranches; historically marks lasting bottoms).<br><b style='color:#b07d18'>10–30 / 70–80</b> = caution zones at either extreme.<br><b style='color:#8c2f24'>&gt;80</b> = extended; no new buys, take some profit.<br>30–70 is the healthy mid-range. Our value tracks the published T2108 at corr ≈ 0.93 (small +3–4 pt optimistic bias from survivorship in our universe).",
   state: "<b>Market state — GREEN / YELLOW / RED</b><br>Computed from the GMI with a 2-day confirmation rule. GREEN = 2 consecutive days ≥4. RED = 2 consecutive days <4 and not recovered. YELLOW = transition (GMI 3).",
   dayN: "<b>Day N of QQQ short-term trend</b><br>The count of consecutive trading days QQQ has been on its current side of the 30-day SMA. Resets to 1 when QQQ crosses through the line on a closing basis.",
-  stage: "<b>Weinstein stage</b><br>The four-stage classification from Stan Weinstein, used for the long-term picture:<br><b>Stage 1 — Basing</b>: price below 30wk, MA flat/rising. No new buys.<br><b>Stage 2 — Advancing</b>: price above rising 30wk + 10wk > 30wk. <i>Only stage we buy long.</i><br><b>Stage 3 — Topping</b>: price above 30wk but breadth weakening. We sell into this.<br><b>Stage 4 — Declining</b>: price below falling 30wk + 10wk < 30wk. Defensive.",
+  stage: "<b>Weinstein stage</b><br>The four-stage classification from Stan Weinstein, used for the long-term picture:<br><b>Stage 1 — Basing</b>: shallow dip below a rising 30wk, or price back above it before the 10wk > 30wk cross confirms. No new buys yet.<br><b>Stage 2 — Advancing</b>: price above rising 30wk + 10wk > 30wk confirmed. <i>Only stage we buy long.</i><br><b>Stage 3 — Topping</b>: price above 30wk but the line is flattening or curling down. We sell into this.<br><b>Stage 4 — Declining</b>: price below falling 30wk + 10wk < 30wk. Defensive.",
   redshade: "<b>RED-shaded periods</b><br>Days when QQQ is in a <b>short-term down-trend</b> (closed below its 30-day SMA). Aligns with the Day-N pill at the top: shading ends exactly when the ST trend flips to up.<br><br>Note: this is distinct from the GMI gate (GREEN/RED badge above). The gate uses the full 6-component GMI score with a 2-day confirmation — it can stay RED for a few days after the ST trend turns up, by design.",
   qqq: "<b>QQQ candles</b><br>Standard OHLC candles. <span style='color:#2f6b3f;font-weight:600'>Green</span> = close ≥ open. <span style='color:#8c2f24;font-weight:600'>Red</span> = close &lt; open. Wick = high–low; body = open–close.<br><br><b>Daily view:</b> ~126 daily candles (6 months) centered on selected day.<br><b>Weekly view:</b> ~50 Friday-close candles (1 year) — the timeframe we use for the 10wk/30wk stage view.",
   m30: "<b>30-day SMA (daily)</b><br>The daily short-term trend anchor. QQQ closing above = ST up; below = ST down. Drives the Day-N count and components 3 & 4 of the GMI.",
