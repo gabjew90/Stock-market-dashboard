@@ -216,4 +216,6 @@ schema. No posts ingested yet — `raw/posts.jsonl` has ~4,655 rows, all
 
 ## [2026-05-12] note | added history/trend-flip-log.md — ST/LT flip framing + 60 short-term flips (2007–2026) + 12 long-term-stage transitions + detailed entries (2007–2008 GFC, 2011, 2018 Q4, 2020 COVID, 2022 bear, April-2025 tariff decline, April-2026 Iran-war period); 3 head-fake examples; index.md + overview.md + timeline.md + track-record.md updated
 
+## [2026-07-02] note | code-review fixes: gmi.py point-in-time bug (components 3/4/5 now truncate prices at `date`; validation stats in methodology/gmi.md flagged stale pending a `ww breadth validate` re-run), dashboard Day-N count aligned to the documented closing-cross rule (was shifted +1 session), CI cache now saves only on success + n_nyse floor gate. Touched: methodology/gmi.md, src/ww/indicators/gmi.py, scripts/build_market_regime.py, both workflows.
+
 ## [2026-07-02] lint | fixed backtest-timing-overlay.md — equity-curve image path was resolving to a nonexistent wiki/methodology/assets/ (now ../../assets/backtest/equity_curve.png) and the page was missing from index.md (added under Methodology); clears the CI wiki-lint failure on main

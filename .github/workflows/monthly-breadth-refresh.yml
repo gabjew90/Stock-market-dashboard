@@ -40,9 +40,12 @@ jobs:
       - name: Sync deps
         run: uv sync --frozen
 
+      # Restore/save are split (vs a single actions/cache) so a failed or
+      # half-finished refresh never overwrites the shared cache — actions/cache's
+      # post step would save even on failure, poisoning the nightly builds.
       - name: Restore breadth + OHLC cache
         id: cache
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: |
             data/breadth
@@ -63,3 +66,11 @@ jobs:
 
       - name: Summarise the refresh
         run: uv run ww breadth show
+
+      - name: Save refreshed cache (only if every step above succeeded)
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            data/breadth
+            data/backtest
+          key: dashboard-cache-v1-${{ github.run_id }}

@@ -55,9 +55,14 @@ jobs:
       # First run takes ~5 min to fetch the full Nasdaq Trader universe;
       # subsequent runs hit the cache and do a delta-update in seconds.
       # Shared with the monthly-breadth-refresh workflow via the same key prefix.
+      # Restore and save are split (vs a single actions/cache) so a FAILED run
+      # never saves its data: actions/cache's post step saves even on failure,
+      # which meant a run the freshness gate correctly aborted could still pin
+      # its poisoned breadth series under the newest key — and restore-keys
+      # (newest-first) would then prefer it on every subsequent run.
       - name: Restore breadth + OHLC cache
         id: cache
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: |
             data/breadth
@@ -116,6 +121,14 @@ jobs:
           if recent_zero > 0:
               print(f'::error::{recent_zero}/5 of the latest T2108 readings are 0 — upstream fetch failure', flush=True)
               sys.exit(1)
+          # Hard-fail on a collapsed universe: a PARTIAL yfinance fetch yields a
+          # nonzero-but-wrong T2108 computed over a fraction of the ~1,900 NYSE
+          # names. Normal n_nyse runs ~1,850-1,950; 1,500 leaves headroom for
+          # delistings while catching any real coverage collapse.
+          min_n = int(tail_t['n_nyse'].min())
+          if min_n < 1500:
+              print(f'::error::n_nyse dropped to {min_n} (<1500) in the last 5 rows — partial universe fetch, T2108 untrustworthy', flush=True)
+              sys.exit(1)
           "
 
       - name: Upload breadth update log (every run, success or failure)
@@ -141,6 +154,17 @@ jobs:
           path: build_market_regime.log
           if-no-files-found: ignore
           retention-days: 14
+
+      # Save AFTER the freshness gate and the page build have both passed (the
+      # build also refreshes data/backtest/*.parquet, so saving here captures
+      # those too). Default `if:` = success(), so an aborted run saves nothing.
+      - name: Save breadth + OHLC cache (only after data checks pass)
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            data/breadth
+            data/backtest
+          key: dashboard-cache-v1-${{ github.run_id }}
 
       - name: Rebuild wiki HTML
         run: uv run --with markdown --with pygments python scripts/build_wiki_html.py

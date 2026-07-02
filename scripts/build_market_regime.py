@@ -212,20 +212,22 @@ def fetch_qqq_ohlc() -> pd.DataFrame:
 
 
 def _streak_and_state(daily_above: pd.Series) -> tuple[pd.Series, pd.Series]:
-    """Day count matching Dr. Wish's announcements: Day 1 is the trading day AFTER QQQ first crossed
-    its 30-day SMA. He posts his blog after the close announcing "Day N" — the cross is detected on the
-    prior session, the announcement (and Day 1) lands on the next session.
+    """Day count per the documented rule (wiki/methodology/qqq-short-term-timing.md):
+    the trend flips when QQQ crosses its 30-day SMA on a closing basis, and the cross
+    day itself is Day 1 of the new trend. This matches qqq_timing.trend_day_count and
+    the GMI's daily-trend components (c3/c4), so the Day-N pill, the red chart shading
+    and the component cards all agree on flip days. (An earlier version shifted the
+    count by one session on an announcement-timing theory; the 2022-07-10 post — "Day 1
+    of new QQQ short-term up-trend, closes above 10 week average" — shows Day 1 is the
+    cross day.)
 
-    Returns (day_count, side) where day_count = days since the most recent cross (inclusive of today,
-    starting at 1 on the first trading day after the cross), side = 'up' / 'down'.
+    Returns (day_count, side): day_count = consecutive trading days QQQ has closed on
+    its current side of the 30-day SMA (Day 1 = the closing-cross day), side = 'up' / 'down'.
     """
     a = daily_above.fillna(False).astype(bool)
-    # Effective regime today = yesterday's "above 30d" — i.e., today is Day N of the regime that was
-    # established by yesterday's close.
-    a_eff = a.shift(1, fill_value=False)
-    side = a_eff.map(lambda v: "up" if v else "down")
-    grp = (a_eff != a_eff.shift()).cumsum()
-    day_count = a_eff.groupby(grp).cumcount() + 1
+    side = a.map(lambda v: "up" if v else "down")
+    grp = (a != a.shift()).cumsum()
+    day_count = a.groupby(grp).cumcount() + 1
     return day_count, side
 
 
@@ -1650,9 +1652,17 @@ function renderVerdict(r, stateInfo){
 (function(){
   const lastRow = ROWS[ROWS.length-1], prev = ROWS[ROWS.length-2];
   if (lastRow && prev) {
-    const chg = ((lastRow.cl/prev.cl)-1)*100;
+    // OHLC close ("cl") can be null when the OHLC cache lags prices by a day —
+    // fall back to the adjusted close ("q"), which is always present. Without the
+    // guard a null cl threw here and left the folio date stuck at its hardcoded
+    // placeholder because this IIFE died before reaching it.
+    const last = lastRow.cl != null ? lastRow.cl : lastRow.q;
+    const prevC = prev.cl != null ? prev.cl : prev.q;
     const np = document.getElementById("navPrice");
-    if (np) np.textContent = "QQQ " + lastRow.cl.toFixed(2) + " " + (chg>=0?"▲":"▼") + " " + Math.abs(chg).toFixed(2) + "%";
+    if (np && last != null && prevC != null) {
+      const chg = ((last/prevC)-1)*100;
+      np.textContent = "QQQ " + last.toFixed(2) + " " + (chg>=0?"▲":"▼") + " " + Math.abs(chg).toFixed(2) + "%";
+    }
   }
   const fd = document.getElementById("folioDate");
   if (fd && DATA.asof) { const d = new Date(DATA.asof + "T00:00:00Z"); fd.textContent = d.toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric",year:"numeric",timeZone:"UTC"}); }
