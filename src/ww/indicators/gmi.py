@@ -39,23 +39,25 @@ class GMIResult:
         return self.score >= 4
 
 
-def _daily_trend_up(provider: DataProvider, ticker: str) -> bool | None:
+def _daily_trend_up(provider: DataProvider, ticker: str, date: str) -> bool | None:
     try:
         df = provider.prices(ticker, "1d")
     except (DataUnavailable, KeyError):
         return None
     try:
-        return short_term_trend(df["close"]) == "up"
+        # Truncate at `date` so a historical GMI reflects the trend as of that day,
+        # not the trend at the end of whatever series the provider returned.
+        return short_term_trend(df["close"].loc[: pd.Timestamp(date)]) == "up"
     except ValueError:
         return None
 
 
-def _qqq_weekly_above_30wk(provider: DataProvider) -> bool | None:
+def _qqq_weekly_above_30wk(provider: DataProvider, date: str) -> bool | None:
     try:
         df = provider.prices("QQQ", "1wk")
     except (DataUnavailable, KeyError):
         return None
-    c = df["close"].astype(float)
+    c = df["close"].astype(float).loc[: pd.Timestamp(date)]
     ma30 = sma(c, 30).dropna()
     if ma30.empty:
         return None
@@ -104,9 +106,9 @@ def gmi(provider: DataProvider, date: str, *, original_rule: bool = False) -> GM
     verdicts: dict[str, bool | None] = {
         "successful_10day_new_high": _successful_10day(provider, date, original_rule=original_rule),
         "new_highs_ge_100": _new_highs_ge_100(provider, date),
-        "qqq_daily_trend": _daily_trend_up(provider, "QQQ"),
-        "spy_daily_trend": _daily_trend_up(provider, "SPY"),
-        "qqq_weekly_trend": _qqq_weekly_above_30wk(provider),
+        "qqq_daily_trend": _daily_trend_up(provider, "QQQ", date),
+        "spy_daily_trend": _daily_trend_up(provider, "SPY", date),
+        "qqq_weekly_trend": _qqq_weekly_above_30wk(provider, date),
         "ibd_fund_above_50d": _ibd_fund_above_50d(provider, date),
     }
     unavailable = [k for k in _COMPONENTS if verdicts[k] is None]

@@ -81,6 +81,21 @@ def test_real_bootstrapped_wiki_passes_lint():
     assert report.errors == [], "Bootstrapped wiki has lint errors:\n" + "\n".join(report.errors)
 
 
+def test_raw_links_skipped_when_corpus_absent(tmp_path: Path):
+    """A checkout without raw/ (CI) must not flag every citation as broken — warn instead."""
+    import shutil
+    _good_wiki(tmp_path)
+    shutil.rmtree(tmp_path / "raw")
+    report = lint_wiki(tmp_path)
+    assert report.ok, report.errors
+    assert any("raw/ corpus not present" in w for w in report.warnings)
+    # Wiki-internal broken links must still be errors even without the corpus.
+    p = tmp_path / "wiki" / "methodology" / "gmi.md"
+    p.write_text(p.read_text(encoding="utf-8") + "\n[ghost](ghost.md)\n", encoding="utf-8")
+    report = lint_wiki(tmp_path)
+    assert any("ghost.md" in e for e in report.errors)
+
+
 def test_orphan_page_is_a_warning_not_an_error(tmp_path: Path):
     _good_wiki(tmp_path)
     # Add a page that's in index.md but linked from no other *page*.

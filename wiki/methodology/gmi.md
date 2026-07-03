@@ -1,7 +1,7 @@
 ---
 title: General Market Index (GMI)
 type: entity
-updated: 2026-05-12
+updated: 2026-07-02
 sources:
   - raw/posts/2005-04-26-general-market-index-gmi.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
@@ -104,9 +104,9 @@ def gmi(provider, date, *, original_rule=False) -> GMIResult:
     verdicts = {
         "successful_10day_new_high": _successful_10day(provider, date, original_rule=original_rule),  # 2014: higher >= 50% of total; 2005: higher >= 100
         "new_highs_ge_100":          _new_highs_ge_100(provider, date),                                 # >= 100 new 52-wk highs today
-        "qqq_daily_trend":           _daily_trend_up(provider, "QQQ"),                                  # QQQ close above its 30-day SMA (proxy)
-        "spy_daily_trend":           _daily_trend_up(provider, "SPY"),
-        "qqq_weekly_trend":          _qqq_weekly_above_30wk(provider),                                  # QQQ weekly close above its 30-week SMA
+        "qqq_daily_trend":           _daily_trend_up(provider, "QQQ", date),                            # QQQ close above its 30-day SMA (proxy), as of `date`
+        "spy_daily_trend":           _daily_trend_up(provider, "SPY", date),
+        "qqq_weekly_trend":          _qqq_weekly_above_30wk(provider, date),                            # QQQ weekly close above its 30-week SMA, as of `date`
         "ibd_fund_above_50d":        _ibd_fund_above_50d(provider, date),                               # IBD Mutual Fund Index above its 50-day SMA
     }
     unavailable = [k for k, v in verdicts.items() if v is None]
@@ -121,13 +121,15 @@ Try it: `ww compute gmi 2026-05-01` prints the partial GMI from current QQQ/SPY 
 
 The `gmi()` code can be driven by a [`BreadthProvider`](../../src/ww/indicators/breadth_provider.py) that reads a locally-built market-breadth series (`data/breadth/breadth_series.parquet`, produced by `ww breadth fetch` + `ww breadth build` from the free Nasdaq Trader symbol files + yfinance). With it, all six components are computed: components 3/4/5 from QQQ/SPY prices, components 1/2 from the reconstructed 52-week-high panel, and component 6 from the **Innovator IBD® 50 ETF (FFTY)** — IBD's own growth-leaders index, the closest tradeable thing to "IBD anything" — above its 50-day MA, spliced onto an equal-weight large-growth-mutual-fund basket (AGTHX/FCNTX/TRBCX/VWUSX, rescaled for continuity) for dates before FFTY's April-2015 inception. This is a *proxy* for the GMI's actual component 6, the proprietary **IBD Mutual Fund Index** (which has no public ticker) — and arguably a better one than a generic fund basket, though as the validation below shows it barely moves the GMI fit either way.
 
-**How faithful is it?** `ww breadth validate` cross-checks the reconstruction against the GMI values Dr. Wish actually reported in his daily posts (the `gmi_value` column of `raw/timeline.parquet`, 890 overlapping dates). As of the last validation run:
+**How faithful is it?** `ww breadth validate` cross-checks the reconstruction against the GMI values Dr. Wish actually reported in his daily posts (the `gmi_value` column of `raw/timeline.parquet`, 890 overlapping dates).
 
-- **Exact-match rate: ≈ 20%** — our score equals his reported score on about 1 in 5 dates. (Swapping component 6's proxy to FFTY changed this by under 1 percentage point — the reconstruction's gap is driven by the *breadth* components, not component 6.)
-- **Within ±1 rate: ≈ 72%** — within one point on almost three-quarters of dates.
-- **Correlation: ≈ 0.60** — moderate positive alignment; the reconstruction tracks the regime but not the precise level.
-- **Per-value breakdown** (when he said N, our score was): when he said 6, we computed 5 on ~234 dates and 6 on ~23; when he said 0–1, we typically computed 3–4. The pattern is *regression toward the middle* — a notch low when he's maxed out, several notches high when he's at the bottom. The high-side bias in crashes comes from the survivorship-biased universe (delisted stocks that would have dragged breadth readings lower are missing); the low-side bias at the top is one marginal component (e.g. the 50%-Successful-10-Day threshold or a daily-trend rule) sitting a hair on the wrong side of its cutoff in the reconstruction.
-- **Representative side-by-sides**: 2005-09-28 his 2 / ours 3; 2007-01-18 his 5 / ours 5; 2007-06-04 his 6 / ours 5; 2007-10-17 his 5 / ours 5; 2007-12-13 his 4 / ours 3; 2008-03-26 his 3 / ours 5; 2008-04-21 his 5 / ours 5; 2008-12-03 his 6 / ours 4.
+*(Stats re-run 2026-07-02, after fixing a look-ahead bug found in a code review: `gmi()`'s price components 3/4/5 previously ignored the requested `date` and evaluated at the end of the price series, crediting every historical date with the present-day trend. The fix improved every fidelity metric — exact-match 20%→24%, correlation 0.60→0.66 — and eliminated the old "when he said 0–1 we computed 3–4" pathology, which turned out to be mostly that bug, not survivorship bias.)*
+
+- **Exact-match rate: ≈ 24%** — our score equals his reported score on about 1 in 4 dates. (Swapping component 6's proxy to FFTY changed this by under 1 percentage point — the reconstruction's gap is driven by the *breadth* components, not component 6.)
+- **Within ±1 rate: ≈ 73%** — within one point on almost three-quarters of dates.
+- **Correlation: ≈ 0.66** — the reconstruction tracks the regime well, the precise level moderately.
+- **Per-value breakdown** (when he said N, our score was): when he said 6, we computed 5 on ~208 dates and 6 on ~22; when he said 0, we now compute 0 on 11 of 15 dates (0–1 on 14 of 15). The remaining bias is *one notch low at the top* — his 5s and 6s often read 4–5 in the reconstruction, from one marginal component (e.g. the 50%-Successful-10-Day threshold or a daily-trend rule) sitting a hair on the wrong side of its cutoff, plus the survivorship-biased universe muting breadth extremes.
+- **Representative side-by-sides**: 2005-09-28 his 2 / ours 1; 2007-01-18 his 5 / ours 5; 2007-06-04 his 6 / ours 5; 2007-10-17 his 5 / ours 5; 2007-12-13 his 4 / ours 3; 2008-03-26 his 3 / ours 3; 2008-04-21 his 5 / ours 4; 2008-12-03 his 6 / ours 1 (an outlier miss — a thin-panel day in the crash).
 
 For T2108: the **nyse** universe flavor tracked his reported T2108 readings best — Pearson correlation ≈ 0.932, RMSE ≈ 10.7 percentage points, mean bias ≈ +4.4 (ours − his, reconstruction reads high). The broad-universe flavor has lower RMSE (≈ 9.9) but slightly lower correlation (≈ 0.930); both flavors read optimistically in past crashes.
 

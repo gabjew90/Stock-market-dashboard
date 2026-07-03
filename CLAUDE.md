@@ -147,7 +147,9 @@ ask for a single-source ingest — same steps.
 
 ### Lint
 Run `ww lint .` (mechanical) and periodically do a **semantic** pass yourself:
-- Mechanical (`ww lint`): broken internal links; pages missing a `## Sources`
+- Mechanical (`ww lint`): broken internal links (links into `raw/` are only
+  verified when the scraped corpus is present — `raw/` is gitignored, so CI
+  checkouts skip them with a warning); pages missing a `## Sources`
   section; pages not catalogued in `index.md`; orphan pages (no inbound link from
   any other wiki page; `overview.md`/`index.md`/`log.md` exempt); `posts.jsonl`
   rows whose `summary_page` points at a missing file. Non-zero exit on errors. CI runs it.
