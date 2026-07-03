@@ -1,6 +1,8 @@
 name: build-dashboard
 
 # Rebuild the Market Regime dashboard every weekday after the US market close and publish to GitHub Pages.
+# (Nudge 2026-07-03: retrigger after two deploy-pages "Deployment failed, try again later" errors —
+# build/staging were green both times; suspected transient Pages-service failure, not a build defect.)
 # Three cron times so today's data still lands even if GitHub Actions delays the primary slot
 # (we observed 55-min slippage on 2026-05-15 and a complete miss on 2026-05-19 — scheduled
 # workflows can be queued behind interactive jobs for hours during peak load). The build is
