@@ -105,6 +105,15 @@ Troubleshooting:
 - **Deploy step fails with an auth error** → the `CLOUDFLARE_API_TOKEN`
   secret is missing/expired, or it's an *environment* secret (it must be a
   **repository** secret — the job doesn't declare an environment).
+- **Cloudflare emails "update your nameservers to X/Y.ns.cloudflare.com"** →
+  the domain was also added as a zone in a *second* Cloudflare account (each
+  account assigns its own NS pair; the live zone here uses
+  `arushi`/`gabriel`). Ignore the instructions — the domain is on Cloudflare
+  Registrar in this account, so its nameservers are locked and the duplicate
+  zone can never activate. To stop the emails, log into the account that
+  received them and remove the `seraphsys.us` site from it (Overview →
+  Remove site); otherwise Cloudflare purges the pending zone itself after
+  ~28 days. Diagnosed 2026-07-03.
 - **"Scrub site copy" step fails** → the leak gate found an identifying
   string the rewrites didn't cover (usually a new absolute URL added to a
   build script). Read the `::error::leak gate:` lines in the log, extend
