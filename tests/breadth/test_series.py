@@ -98,6 +98,24 @@ def test_breadth_returns_nan_not_zero_when_nyse_sub_universe_is_empty(tmp_path):
     assert last["t2108_broad"] == 100.0                                       # NAS_A is rising -> above its 40d MA
 
 
+def test_breadth_falls_back_to_close_when_adj_close_is_nan_for_a_bar(tmp_path):
+    # A degraded re-fetch can leave adj_close NaN on a bar whose raw close is fine.
+    # Reading adj_close alone made those names look like they weren't trading, which
+    # shrank the universe for that date (the n_nyse 1919 -> 1480 collapse that tripped
+    # the build-dashboard guardrail). The raw close must be used instead.
+    panel = tmp_path / "panel"
+    _write_panel(panel, "AAA", list(np.linspace(10, 60, 50)))
+    _write_panel(panel, "BBB", list(np.linspace(10, 60, 50)))
+    p = panel / "BBB.parquet"
+    df = pd.read_parquet(p)
+    df.iloc[-1, df.columns.get_loc("adj_close")] = np.nan                     # close still intact
+    df.to_parquet(p)
+    uni = pd.DataFrame({"ticker": ["AAA", "BBB"], "in_nyse": [True, True]})
+    last = compute_breadth_series(panel, uni).iloc[-1]
+    assert last["n_nyse"] == 2, "BBB must stay in the universe on its adj_close-less bar"
+    assert last["t2108_nyse"] == 100.0
+
+
 def _adjclose_frame(tickers, idx, vals_for):
     cols = pd.MultiIndex.from_product([list(tickers), ["Adj Close"]])
     data = {(t, "Adj Close"): list(vals_for(t)) for t in tickers}

@@ -41,6 +41,14 @@ def _split_multi(frame: pd.DataFrame, yf_tickers: Sequence[str]) -> dict[str, pd
             sub = frame
         sub = sub.rename(columns={k: v for k, v in _YF_FIELDS.items() if k in sub.columns})
         sub = sub[[c for c in _OHLCV if c in sub.columns]].dropna(how="all")
+        # Drop price-less rows. yfinance can return a placeholder bar for the
+        # session in progress (or one it hasn't finished ingesting): NaN prices
+        # but a non-NaN volume, which survives dropna(how="all"). Such a row is
+        # not a bar — letting it through put a NaN close into the panel and
+        # silently dropped the ticker out of that day's breadth universe.
+        price_cols = [c for c in ("adj_close", "close") if c in sub.columns]
+        if price_cols:
+            sub = sub.dropna(subset=price_cols, how="all")
         if sub.empty:
             continue
         sub.index = pd.to_datetime(sub.index)
@@ -74,8 +82,18 @@ def _write_panel(panel_dir: Path, ticker: str, df: pd.DataFrame, *, append: bool
     out = panel_dir / f"{ticker}.parquet"
     if append and out.exists():
         old = pd.read_parquet(out)
-        df = pd.concat([old, df])
+        old = old[~old.index.duplicated(keep="last")].sort_index()
         df = df[~df.index.duplicated(keep="last")].sort_index()
+        # Merge cell-by-cell, not row-by-row. The new download wins wherever it
+        # actually carries a value, but a NaN in the re-fetch never erases a
+        # good value we already have. The old `keep="last"` dedup was
+        # destructive: a degraded re-fetch (missing the Adj Close column, or a
+        # partial response) overwrote bars that were already correct, which is
+        # how n_nyse collapsed from ~1,919 to 1,480 for 2026-07-24 between two
+        # runs of the same day's data (build-dashboard #135 -> #136).
+        merged = df.combine_first(old)
+        cols = [c for c in _OHLCV if c in merged.columns] + [c for c in merged.columns if c not in _OHLCV]
+        df = merged[cols].sort_index()
     out.parent.mkdir(parents=True, exist_ok=True)
     df.to_parquet(out)
 
