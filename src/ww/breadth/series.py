@@ -34,7 +34,16 @@ def _load_close_matrix(panel_dir: Path, tickers: Sequence[str]) -> pd.DataFrame:
             continue
         df = pd.read_parquet(p)
         col = "adj_close" if "adj_close" in df.columns else "close"
-        series[t] = df[col].astype(float)
+        s = df[col].astype(float)
+        # Per-BAR fallback, not just per-column: a re-fetch that came back
+        # without an Adj Close column leaves adj_close NaN on the bars it
+        # added, and a NaN close reads as "not trading" (has_bar=False), which
+        # silently shrinks that date's breadth universe. For a single recent
+        # bar adj_close == close absent a same-day split/dividend, so falling
+        # back to the raw close is far better than dropping the name.
+        if col == "adj_close" and "close" in df.columns:
+            s = s.fillna(df["close"].astype(float))
+        series[t] = s
     if not series:
         return pd.DataFrame()
     mat = pd.DataFrame(series).sort_index()

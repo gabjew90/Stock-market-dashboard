@@ -85,3 +85,101 @@ def test_update_panel_appends_new_rows_deduped(tmp_path):
     # the overlapping 01-03 row kept the NEW value (later download wins)
     assert a.loc["2020-01-03", "close"] == 99.0
     # untouched-ticker case: a ticker the downloader returns nothing for is just skipped (no crash)
+
+
+def _panel_with(panel: Path, ticker: str, dates, closes) -> None:
+    df = pd.DataFrame({"open": closes, "high": closes, "low": closes, "close": closes,
+                       "adj_close": closes, "volume": [1] * len(closes)}, index=pd.DatetimeIndex(dates))
+    df.index.name = "date"
+    panel.mkdir(parents=True, exist_ok=True)
+    df.to_parquet(panel / f"{ticker}.parquet")
+
+
+def test_update_panel_placeholder_row_does_not_erase_a_good_bar(tmp_path):
+    """A re-fetch whose latest bar has NaN prices (but a volume) must not wipe the bar we already have.
+
+    This is the build-dashboard #136 failure: the 01:00 UTC cron ran late, re-fetched a day
+    that run #135 had already captured correctly, and ~440 NYSE names lost their 2026-07-24
+    close — dropping n_nyse to 1480 and tripping the <1500 universe-collapse guardrail.
+    """
+    panel = tmp_path / "panel"
+    dates = ["2020-01-02", "2020-01-03"]
+    _panel_with(panel, "AAA", dates, [10.0, 11.0])
+    uni = pd.DataFrame({"ticker": ["AAA"], "in_nyse": [True]})
+
+    def downloader(yf_tickers, **kw):
+        f = _fake_frame(yf_tickers, dates)
+        f.loc["2020-01-03", [(t, c) for t in yf_tickers for c in ("Open", "High", "Low", "Close", "Adj Close")]] = float("nan")
+        return f                                    # 01-03 comes back price-less, volume still present
+
+    update_panel(uni, panel, downloader=downloader)
+    a = pd.read_parquet(panel / "AAA.parquet")
+    assert a.loc["2020-01-03", "close"] == 11.0     # the good bar survived
+    assert a.loc["2020-01-03", "adj_close"] == 11.0
+    assert not a["close"].isna().any()
+
+
+def test_update_panel_keeps_adj_close_when_refetch_omits_the_column(tmp_path):
+    """yfinance sometimes returns a frame with no Adj Close; the existing adj_close must survive."""
+    panel = tmp_path / "panel"
+    dates = ["2020-01-02", "2020-01-03"]
+    _panel_with(panel, "AAA", dates, [10.0, 11.0])
+    uni = pd.DataFrame({"ticker": ["AAA"], "in_nyse": [True]})
+
+    def downloader(yf_tickers, **kw):
+        f = _fake_frame(yf_tickers, dates)
+        return f.drop(columns=[(t, "Adj Close") for t in yf_tickers])
+
+    update_panel(uni, panel, downloader=downloader)
+    a = pd.read_parquet(panel / "AAA.parquet")
+    assert list(a.columns) == ["open", "high", "low", "close", "adj_close", "volume"]
+    assert a.loc["2020-01-03", "adj_close"] == 11.0
+
+
+def test_update_panel_reports_a_degraded_fetch(tmp_path, caplog):
+    """The non-destructive merge hides a bad fetch from the build gate, so it must be logged instead."""
+    panel = tmp_path / "panel"
+    dates = ["2020-01-02", "2020-01-03"]
+    tickers = [f"T{i:02d}" for i in range(10)]
+    for t in tickers:
+        _panel_with(panel, t, dates, [10.0, 11.0])
+    uni = pd.DataFrame({"ticker": tickers, "in_nyse": [True] * len(tickers)})
+
+    def downloader(yf_tickers, **kw):
+        f = _fake_frame(yf_tickers, dates)
+        f.loc["2020-01-03", [(t, c) for t in yf_tickers for c in ("Open", "High", "Low", "Close", "Adj Close")]] = float("nan")
+        return f
+
+    with caplog.at_level("WARNING"):
+        update_panel(uni, panel, downloader=downloader)
+    msg = caplog.text
+    assert "DEGRADED yfinance response" in msg
+    assert "10 price-less rows dropped across 10 tickers" in msg
+
+
+def test_update_panel_silent_on_a_clean_fetch(tmp_path, caplog):
+    panel = tmp_path / "panel"
+    _panel_with(panel, "AAA", ["2020-01-02", "2020-01-03"], [10.0, 11.0])
+    uni = pd.DataFrame({"ticker": ["AAA"], "in_nyse": [True]})
+
+    def downloader(yf_tickers, **kw):
+        return _fake_frame(yf_tickers, pd.date_range("2020-01-06", periods=2, freq="B"), base=50.0)
+
+    with caplog.at_level("WARNING"):
+        update_panel(uni, panel, downloader=downloader)
+    assert "fetch quality" not in caplog.text
+
+
+def test_update_panel_still_appends_genuinely_new_bars(tmp_path):
+    """The non-destructive merge must not stop real new bars from landing."""
+    panel = tmp_path / "panel"
+    _panel_with(panel, "AAA", ["2020-01-02", "2020-01-03"], [10.0, 11.0])
+    uni = pd.DataFrame({"ticker": ["AAA"], "in_nyse": [True]})
+
+    def downloader(yf_tickers, **kw):
+        return _fake_frame(yf_tickers, pd.date_range("2020-01-06", periods=2, freq="B"), base=50.0)
+
+    update_panel(uni, panel, downloader=downloader)
+    a = pd.read_parquet(panel / "AAA.parquet")
+    assert list(a.index) == [pd.Timestamp(d) for d in ("2020-01-02", "2020-01-03", "2020-01-06", "2020-01-07")]
+    assert a.loc["2020-01-06", "close"] == 50.0
