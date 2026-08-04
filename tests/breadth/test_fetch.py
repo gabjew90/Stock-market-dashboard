@@ -136,6 +136,40 @@ def test_update_panel_keeps_adj_close_when_refetch_omits_the_column(tmp_path):
     assert a.loc["2020-01-03", "adj_close"] == 11.0
 
 
+def test_update_panel_reports_a_degraded_fetch(tmp_path, caplog):
+    """The non-destructive merge hides a bad fetch from the build gate, so it must be logged instead."""
+    panel = tmp_path / "panel"
+    dates = ["2020-01-02", "2020-01-03"]
+    tickers = [f"T{i:02d}" for i in range(10)]
+    for t in tickers:
+        _panel_with(panel, t, dates, [10.0, 11.0])
+    uni = pd.DataFrame({"ticker": tickers, "in_nyse": [True] * len(tickers)})
+
+    def downloader(yf_tickers, **kw):
+        f = _fake_frame(yf_tickers, dates)
+        f.loc["2020-01-03", [(t, c) for t in yf_tickers for c in ("Open", "High", "Low", "Close", "Adj Close")]] = float("nan")
+        return f
+
+    with caplog.at_level("WARNING"):
+        update_panel(uni, panel, downloader=downloader)
+    msg = caplog.text
+    assert "DEGRADED yfinance response" in msg
+    assert "10 price-less rows dropped across 10 tickers" in msg
+
+
+def test_update_panel_silent_on_a_clean_fetch(tmp_path, caplog):
+    panel = tmp_path / "panel"
+    _panel_with(panel, "AAA", ["2020-01-02", "2020-01-03"], [10.0, 11.0])
+    uni = pd.DataFrame({"ticker": ["AAA"], "in_nyse": [True]})
+
+    def downloader(yf_tickers, **kw):
+        return _fake_frame(yf_tickers, pd.date_range("2020-01-06", periods=2, freq="B"), base=50.0)
+
+    with caplog.at_level("WARNING"):
+        update_panel(uni, panel, downloader=downloader)
+    assert "fetch quality" not in caplog.text
+
+
 def test_update_panel_still_appends_genuinely_new_bars(tmp_path):
     """The non-destructive merge must not stop real new bars from landing."""
     panel = tmp_path / "panel"
