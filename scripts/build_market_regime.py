@@ -1105,7 +1105,7 @@ function setChartTitle() {
   if (!el) return;
   el.textContent = VIEW === "daily"
     ? `${SYM} · 6 mo · daily candles + 21ema, 30/50/200-day SMA`
-    : `${SYM} · 1 yr · weekly candles + 10-week & 30-week SMA`;
+    : `${SYM} · 6 mo · weekly candles + 10-week & 30-week SMA`;
 }
 
 function renderLegend() {
@@ -1400,7 +1400,7 @@ function drawSpark(centerIdx, markerIdx) {
       statOverlay.appendChild(row);
     }
     const qClose = daily ? selDaily.cl : (selWeekly && selWeekly.c);
-    addStat('Q',   qClose != null ? qClose.toFixed(0) : null, "#1c1813");
+    addStat(SYM,   qClose != null ? qClose.toFixed(0) : null, "#1c1813");
     if (daily && maOn.e21 && selDaily.e21 != null)
       addStat('21e', selDaily.e21.toFixed(0), MA_COLORS.e21);
     if (daily && maOn.m30 && selDaily.m30 != null)
@@ -1588,7 +1588,7 @@ const POP = {
   dayN: "<b>Day N of QQQ short-term trend</b><br>The count of consecutive trading days QQQ has been on its current side of the 30-day SMA. Resets to 1 when QQQ crosses through the line on a closing basis.",
   stage: "<b>Weinstein stage</b><br>The four-stage classification from Stan Weinstein, used for the long-term picture:<br><b>Stage 1 — Basing</b>: shallow dip below a rising 30wk, or price back above it before the 10wk > 30wk cross confirms. No new buys yet.<br><b>Stage 2 — Advancing</b>: price above rising 30wk + 10wk > 30wk confirmed. <i>Only stage we buy long.</i><br><b>Stage 3 — Topping</b>: price above 30wk but the line is flattening or curling down. We sell into this.<br><b>Stage 4 — Declining</b>: price below falling 30wk + 10wk < 30wk. Defensive.",
   redshade: "<b>RED-shaded periods</b><br>Days when QQQ is in a <b>short-term down-trend</b> (closed below its 30-day SMA). Aligns with the Day-N pill at the top: shading ends exactly when the ST trend flips to up.<br><br>Note: this is distinct from the GMI gate (GREEN/RED badge above). The gate uses the full 6-component GMI score with a 2-day confirmation — it can stay RED for a few days after the ST trend turns up, by design.",
-  qqq: "<b>QQQ candles</b><br>Standard OHLC candles. <span style='color:#2f6b3f;font-weight:600'>Green</span> = close ≥ open. <span style='color:#8c2f24;font-weight:600'>Red</span> = close &lt; open. Wick = high–low; body = open–close.<br><br><b>Daily view:</b> ~126 daily candles (6 months) centered on selected day.<br><b>Weekly view:</b> ~50 Friday-close candles (1 year) — the timeframe we use for the 10wk/30wk stage view.",
+  qqq: "<b>QQQ candles</b><br>Standard OHLC candles. <span style='color:#2f6b3f;font-weight:600'>Green</span> = close ≥ open. <span style='color:#8c2f24;font-weight:600'>Red</span> = close &lt; open. Wick = high–low; body = open–close.<br><br><b>Daily view:</b> ~126 daily candles (6 months) centered on selected day.<br><b>Weekly view:</b> ~27 Friday-close candles over the same 6-month window (the axes stay locked when you toggle views) — the timeframe we use for the 10wk/30wk stage view.",
   m30: "<b>30-day SMA (daily)</b><br>The daily short-term trend anchor. QQQ closing above = ST up; below = ST down. Drives the Day-N count and components 3 & 4 of the GMI.",
   e21: "<b>21-day EMA (daily)</b><br>The short-term swing-trade trend filter, faster than the 30-day SMA — it weights recent prices more heavily so it turns first when a trend changes. A close above the 21-EMA is a swing-long bias; a clean break below often precedes a 30-day SMA break. Useful as an early-warning companion to the 30-day SMA, not a trade signal on its own.",
   m50: "<b>50-day SMA (daily chart)</b><br>The classic institutional trend line. In a healthy Stage-2 advance price pulls back to the 50-day and holds; losing it on rising volume is the first warning that the advance is tiring. Not used in any GMI component — it is a context line.",
