@@ -30,7 +30,14 @@ from ww.indicators.ma_stages import weinstein_stage_series
 ROOT = Path(__file__).resolve().parents[1]
 START = "2010-01-01"
 QQQ_OHLC_CACHE = ROOT / "data" / "backtest" / "qqq_ohlc.parquet"
+SPY_OHLC_CACHE = ROOT / "data" / "backtest" / "spy_ohlc.parquet"
 PRICES_CACHE = ROOT / "data" / "backtest" / "prices.parquet"
+
+# Symbols the candle chart can display. QQQ stays first/default — every indicator
+# on this dashboard (GMI components, Day-N, gate state, stage) is QQQ-derived, so
+# SPY is a comparison view of the SAME regime, not a second regime.
+CHART_SYMBOLS = ("QQQ", "SPY")
+_OHLC_CACHES = {"QQQ": QQQ_OHLC_CACHE, "SPY": SPY_OHLC_CACHE}
 
 # yfinance retry knobs. 3 attempts × 60s wait covers the typical 5-15 min
 # transient-flakiness window we saw on 2026-05-18→19 without blowing the CI
@@ -152,64 +159,148 @@ def _ensure_prices(tickers=("QQQ", "SPY", "TQQQ", "SQQQ"), max_age_days: int = 0
     return df
 
 
-def fetch_qqq_ohlc() -> pd.DataFrame:
-    """Fetch QQQ OHLC from yfinance with split/dividend adjustment so all four
-    series are on the same scale. Cached at QQQ_OHLC_CACHE; refreshes whenever
-    the cache's last row is from before today (matches prices.parquet's
-    daily-fresh discipline). Robust to yfinance hiccups: a transient fetch
-    failure or empty response falls back to the cached copy rather than
-    aborting the whole build (the 2026-05-18 cron failure that left the live
-    site stale for a day was caused by a yfinance call returning an empty
-    frame here and the build crashing on the column subset)."""
+def fetch_ohlc(ticker: str, cache_path: Path | None = None) -> pd.DataFrame:
+    """Fetch `ticker` OHLC from yfinance with split/dividend adjustment so all
+    series sit on the same scale as the MAs. Cached per-ticker; refreshes
+    whenever the cache's last row is from before today (matches
+    prices.parquet's daily-fresh discipline). Robust to yfinance hiccups: a
+    transient fetch failure or empty response falls back to the cached copy
+    rather than aborting the whole build (the 2026-05-18 cron failure that left
+    the live site stale for a day was caused by a yfinance call returning an
+    empty frame here and the build crashing on the column subset)."""
     import yfinance as yf
 
+    cache_path = cache_path or _OHLC_CACHES.get(ticker, ROOT / "data" / "backtest" / f"{ticker.lower()}_ohlc.parquet")
+    label = f"fetch_ohlc[{ticker}]"
+    cols = {"open", "high", "low", "close", "volume"}
+
     cached: pd.DataFrame | None = None
-    if QQQ_OHLC_CACHE.exists():
-        cached = pd.read_parquet(QQQ_OHLC_CACHE)
+    if cache_path.exists():
+        cached = pd.read_parquet(cache_path)
         cached.index = pd.to_datetime(cached.index)
         age = (pd.Timestamp.today().normalize() - cached.index.max()).days
         if age <= 0 and "volume" in cached.columns:
             return cached
 
     def _try_fetch() -> pd.DataFrame | None:
-        # Primary: batch download. auto_adjust=True → OHLC back-adjusted for divs/splits.
+        # Primary: batch download. auto_adjust=True -> OHLC back-adjusted for divs/splits.
         try:
-            df = yf.download("QQQ", start="1999-01-01", auto_adjust=True, progress=False)
+            df = yf.download(ticker, start="1999-01-01", auto_adjust=True, progress=False)
             if isinstance(df.columns, pd.MultiIndex):
                 df.columns = [c[0].lower() for c in df.columns]
             else:
                 df.columns = [c.lower() for c in df.columns]
-            if not df.empty and {"open", "high", "low", "close", "volume"} <= set(df.columns):
+            if not df.empty and cols <= set(df.columns):
                 df = df[["open", "high", "low", "close", "volume"]].dropna()
                 if not df.empty:
                     return df
-            print("  fetch_qqq_ohlc: yf.download returned empty/incomplete; trying yf.Ticker fallback…")
+            print(f"  {label}: yf.download returned empty/incomplete; trying yf.Ticker fallback…")
         except Exception as e:
-            print(f"  fetch_qqq_ohlc: yf.download raised {type(e).__name__}: {e}; trying yf.Ticker fallback…")
+            print(f"  {label}: yf.download raised {type(e).__name__}: {e}; trying yf.Ticker fallback…")
         # Fallback: per-ticker history call (different code path inside yfinance).
         try:
-            tk = yf.Ticker("QQQ").history(period="max", auto_adjust=True)
+            tk = yf.Ticker(ticker).history(period="max", auto_adjust=True)
             tk.columns = [c.lower() for c in tk.columns]
-            if not tk.empty and {"open", "high", "low", "close", "volume"} <= set(tk.columns):
+            if not tk.empty and cols <= set(tk.columns):
                 return tk[["open", "high", "low", "close", "volume"]].dropna()
         except Exception as e:
-            print(f"  fetch_qqq_ohlc: yf.Ticker.history raised {type(e).__name__}: {e}")
+            print(f"  {label}: yf.Ticker.history raised {type(e).__name__}: {e}")
         return None
 
-    df = _yf_retry(_try_fetch, label="fetch_qqq_ohlc")
+    df = _yf_retry(_try_fetch, label=label)
     if df is None:
         if cached is not None and "volume" in cached.columns:
-            print(f"  fetch_qqq_ohlc: all retries failed — falling back to cached copy ending {cached.index.max().date()}")
+            print(f"  {label}: all retries failed — falling back to cached copy ending {cached.index.max().date()}")
             return cached
-        raise RuntimeError("fetch_qqq_ohlc: no cached OHLC and all yfinance retries failed")
+        raise RuntimeError(f"{label}: no cached OHLC and all yfinance retries failed")
     df.index = pd.to_datetime(df.index)
     if df.index.tz is not None:
         df.index = df.index.tz_localize(None)
     if cached is not None and df.index.max() < cached.index.max():
-        print(f"  fetch_qqq_ohlc: fresh data ends {df.index.max().date()}, older than cache {cached.index.max().date()}; keeping cache")
+        print(f"  {label}: fresh data ends {df.index.max().date()}, older than cache {cached.index.max().date()}; keeping cache")
         return cached
-    df.to_parquet(QQQ_OHLC_CACHE)
+    cache_path.parent.mkdir(parents=True, exist_ok=True)
+    df.to_parquet(cache_path)
     return df
+
+
+def fetch_qqq_ohlc() -> pd.DataFrame:
+    """Back-compat alias — QQQ is the dashboard's primary series."""
+    return fetch_ohlc("QQQ", QQQ_OHLC_CACHE)
+
+
+def _chart_series(close: pd.Series, ohlc: pd.DataFrame, idx: pd.DatetimeIndex,
+                  state: pd.Series, start: str) -> dict:
+    """Daily + weekly candle/MA/volume series for one chart symbol.
+
+    Candles and volume come from `ohlc` (auto-adjusted, so bodies are the real
+    session's prints). The moving averages come from `close` — the same
+    prices.parquet series the indicator math uses — so the charted 30-day line
+    is exactly the line the Day-N pill and the red shading are computed against.
+    Reindexed WITHOUT forward-fill: a missing session stays NaN and the renderer
+    skips that candle rather than drawing yesterday's body again.
+
+    Every average is computed on the FULL history and sliced to `start`
+    afterwards, so the first visible bar already has a correct 200-day mean
+    behind it instead of ramping up from the window edge.
+    """
+    o = ohlc["open"].reindex(idx)
+    h = ohlc["high"].reindex(idx)
+    lo = ohlc["low"].reindex(idx)
+    c = ohlc["close"].reindex(idx)
+    v = (ohlc["volume"].reindex(idx) if "volume" in ohlc.columns
+         else pd.Series(np.nan, index=idx))
+
+    ema21 = close.ewm(span=21, adjust=False, min_periods=21).mean()
+    sma30 = close.rolling(30, min_periods=30).mean()
+    sma50 = close.rolling(50, min_periods=50).mean()
+    sma200 = close.rolling(200, min_periods=200).mean()
+    vma50 = v.rolling(50, min_periods=10).mean()
+
+    def _n(x, nd=2):
+        return None if x is None or pd.isna(x) else round(float(x), nd)
+
+    def _i(x):
+        return None if x is None or pd.isna(x) else int(x)
+
+    daily = []
+    for d in idx[idx >= pd.Timestamp(start)]:
+        daily.append({
+            "d": d.strftime("%Y-%m-%d"),
+            "o": _n(o.get(d)), "h": _n(h.get(d)), "l": _n(lo.get(d)), "cl": _n(c.get(d)),
+            "v": _i(v.get(d)),
+            "e21": _n(ema21.get(d)), "m30": _n(sma30.get(d)),
+            "m50": _n(sma50.get(d)), "m200": _n(sma200.get(d)),
+            "vm50": _i(vma50.get(d)),
+        })
+
+    # Weekly bars (W-FRI: the last completed week ends on Friday).
+    wk_close = close.resample("W-FRI").last().dropna()
+    wk10 = wk_close.rolling(10, min_periods=10).mean()
+    wk30 = wk_close.rolling(30, min_periods=30).mean()
+    wk = pd.DataFrame({
+        "o": o.resample("W-FRI").first(),
+        "h": h.resample("W-FRI").max(),
+        "l": lo.resample("W-FRI").min(),
+        "c": c.resample("W-FRI").last(),
+        "v": v.resample("W-FRI").sum(min_count=1),
+    }).dropna(subset=["o", "h", "l", "c"])
+    wk["vm50"] = wk["v"].rolling(50, min_periods=10).mean()
+    wk["m10"] = wk10.reindex(wk.index)
+    wk["m30"] = wk30.reindex(wk.index)
+    wk["s"] = state.resample("W-FRI").last().reindex(wk.index).ffill()
+    wk = wk.loc[wk.index >= pd.Timestamp(start)]
+
+    weekly = []
+    for wd, wr in wk.iterrows():
+        weekly.append({
+            "d": wd.strftime("%Y-%m-%d"),
+            "o": _n(wr["o"]), "h": _n(wr["h"]), "l": _n(wr["l"]), "c": _n(wr["c"]),
+            "v": _i(wr["v"]), "vm50": _i(wr["vm50"]),
+            "m10": _n(wr["m10"]), "m30": _n(wr["m30"]),
+            "s": 1 if pd.isna(wr["s"]) else int(wr["s"]),
+        })
+    return {"daily": daily, "weekly": weekly}
 
 
 def _streak_and_state(daily_above: pd.Series) -> tuple[pd.Series, pd.Series]:
@@ -256,7 +347,8 @@ def build_payload() -> dict:
     # the merge previously left today's row with yesterday's o/h/l/cl, so the
     # candle rendered green-when-red. Leaving NaN here makes the renderer skip
     # the candle until real OHLC arrives.
-    ohlc = fetch_qqq_ohlc().reindex(idx)
+    qqq_ohlc_raw = fetch_ohlc("QQQ")
+    ohlc = qqq_ohlc_raw.reindex(idx)
     qopen = ohlc["open"]
     qhigh = ohlc["high"]
     qlow = ohlc["low"]
@@ -274,6 +366,16 @@ def build_payload() -> dict:
 
     gmi = daily_gmi_series(ROOT, prices, source="reconstructed")
     state = green_state_machine(gmi)
+
+    # Candle-chart series for every selectable symbol. The indicators above stay
+    # QQQ-derived — SPY is a second view of the SAME regime, so the gate shading
+    # and Day-N pill mean the same thing under either set of candles.
+    _closes = {"QQQ": qqq, "SPY": spy}
+    chart: dict[str, dict] = {}
+    for _sym in CHART_SYMBOLS:
+        print(f"building {_sym} chart series…")
+        _raw = qqq_ohlc_raw if _sym == "QQQ" else fetch_ohlc(_sym)
+        chart[_sym] = _chart_series(_closes[_sym], _raw, idx, state, START)
 
     # MAs (the canonical set used by the dashboard)
     sma30 = qqq.rolling(30, min_periods=30).mean()
@@ -383,64 +485,16 @@ def build_payload() -> dict:
     long_trends.sort(key=lambda f: f["d"], reverse=True)
     long_trends = long_trends[:8]
 
-    # Weekly OHLC bars (W-FRI: last completed week ends on Friday). Used by the weekly chart view.
-    wk_o = qopen.resample("W-FRI").first()
-    wk_h = qhigh.resample("W-FRI").max()
-    wk_l = qlow.resample("W-FRI").min()
-    wk_c = qclose_ohlc.resample("W-FRI").last()
-    wk_v = qvol.resample("W-FRI").sum()
-    wk_df = pd.DataFrame({"o": wk_o, "h": wk_h, "l": wk_l, "c": wk_c, "v": wk_v}).dropna()
-    wk_df = wk_df.loc[(wk_df.index >= pd.Timestamp(START))].copy()
-    wk_df["m10"] = wk10_s.reindex(wk_df.index)
-    wk_df["m30"] = wk30_s.reindex(wk_df.index)
-    # Gate state on the last trading day of each week (used for red shading in weekly view)
-    wk_df["s"] = state.resample("W-FRI").last().reindex(wk_df.index).ffill()
-    weekly_rows = []
-    for wd, wr in wk_df.iterrows():
-        weekly_rows.append({
-            "d": wd.strftime("%Y-%m-%d"),
-            "o": None if pd.isna(wr["o"]) else round(float(wr["o"]), 2),
-            "h": None if pd.isna(wr["h"]) else round(float(wr["h"]), 2),
-            "l": None if pd.isna(wr["l"]) else round(float(wr["l"]), 2),
-            "c": None if pd.isna(wr["c"]) else round(float(wr["c"]), 2),
-            "v": None if pd.isna(wr["v"]) else int(wr["v"]),
-            "m10": None if pd.isna(wr["m10"]) else round(float(wr["m10"]), 2),
-            "m30": None if pd.isna(wr["m30"]) else round(float(wr["m30"]), 2),
-            "s": int(wr["s"]) if not pd.isna(wr["s"]) else 1,
-        })
-
-    # For each daily row, the index of the weekly bar it belongs to (the next-Friday-or-later weekly bar).
-    wk_index_array = wk_df.index
-    wk_pos: dict[pd.Timestamp, int] = {wd: i for i, wd in enumerate(wk_index_array)}
-
     df.index = df.index.strftime("%Y-%m-%d")
 
     rows = []
     for d, r in df.iterrows():
-        # Find weekly bar this daily date belongs to (next Friday ≥ this date).
-        dt = pd.Timestamp(d)
-        after = wk_index_array[wk_index_array >= dt]
-        if len(after):
-            wi = wk_pos[after[0]]
-        elif len(wk_index_array):
-            wi = len(wk_index_array) - 1
-        else:
-            wi = 0
         rows.append({
-            "d": d, "wi": wi,
+            "d": d,
             "g": int(r["gmi"]) if not np.isnan(r["gmi"]) else 0,
             "c": [int(r[f"c{i}"]) for i in range(1, 7)],
             "s": int(r["state"]),
             "q": float(r["qqq"]) if not np.isnan(r["qqq"]) else None,
-            "o": None if np.isnan(r["oo"]) else float(r["oo"]),
-            "h": None if np.isnan(r["hh"]) else float(r["hh"]),
-            "l": None if np.isnan(r["ll"]) else float(r["ll"]),
-            "cl": None if np.isnan(r["cc"]) else float(r["cc"]),  # OHLC close; "c" key reserved for components array
-            "v": None if pd.isna(r["vv"]) else int(r["vv"]),
-            "m30": None if np.isnan(r["sma30"]) else float(r["sma30"]),
-            "e21": None if np.isnan(r["ema21"]) else float(r["ema21"]),
-            "w10": None if np.isnan(r["wk10"]) else float(r["wk10"]),
-            "w30": None if np.isnan(r["wk30"]) else float(r["wk30"]),
             "dn": int(r["day"]),
             "sd": r["side"],
             "st": int(r["stage"]),
@@ -459,7 +513,8 @@ def build_payload() -> dict:
             "f20": None if np.isnan(r["fwd20"]) else float(r["fwd20"]),
             "f60": None if np.isnan(r["fwd60"]) else float(r["fwd60"]),
         })
-    return {"rows": rows, "asof": df.index[-1], "long_trends": long_trends, "weekly": weekly_rows}
+    return {"rows": rows, "asof": df.index[-1], "long_trends": long_trends,
+            "chart": chart, "symbols": list(CHART_SYMBOLS)}
 
 
 TEMPLATE = r"""<!doctype html>
@@ -762,8 +817,9 @@ TEMPLATE = r"""<!doctype html>
   <!-- Chart -->
   <section class="chart-panel">
     <div class="chart-header">
-      <span class="small" id="chartTitle">QQQ · 6 mo · daily candles + 30-day SMA</span>
+      <span class="small" id="chartTitle">QQQ · 6 mo · daily candles + 21ema, 30/50/200-day SMA</span>
       <span class="vtoggle">
+        <span class="seg"><button data-sym="QQQ" class="on">QQQ</button><button data-sym="SPY">SPY</button></span>
         <span class="seg"><button data-view="daily" class="on">Daily</button><button data-view="weekly">Weekly</button></span>
         <button class="qmark" data-pop="qqq" aria-label="About the chart">?</button>
       </span>
@@ -774,7 +830,7 @@ TEMPLATE = r"""<!doctype html>
       <div class="x-axis-labels" id="xAxisLabels"></div>
     </div>
     <div class="legend" id="legend"></div>
-    <p class="chart-foot">Shaded passages mark short-term down-trends — sessions QQQ closed beneath its 30-day average. Drag the marker to read any prior date · tap a chip to toggle a line · tap any <b>?</b> for an explanation.</p>
+    <p class="chart-foot">Shaded passages mark short-term down-trends — sessions QQQ closed beneath its 30-day average. They track the QQQ regime in both symbol views, so the shading stays comparable when you switch to SPY. Drag the marker to read any prior date · tap a chip to toggle a line · tap any <b>?</b> for an explanation.</p>
   </section>
 
   <!-- Navigation + Since Day 1 -->
@@ -813,7 +869,19 @@ TEMPLATE = r"""<!doctype html>
 <script>
 const DATA = __DATA__;
 const ROWS = DATA.rows;
-const WEEKLY = DATA.weekly || [];
+const CHART = DATA.chart || {};
+const SYMBOLS = DATA.symbols || ["QQQ"];
+let SYM = SYMBOLS[0] || "QQQ";
+// Chart rows for the active symbol. DAILY is index-aligned 1:1 with ROWS, so the
+// slider index, the red shading and the Day-N pill keep referring to the same
+// session regardless of which symbol's candles are on screen.
+const dailyRows = () => (CHART[SYM] && CHART[SYM].daily) || [];
+const weeklyRows = () => (CHART[SYM] && CHART[SYM].weekly) || [];
+// Weekly bar a given daily date belongs to = the first bar whose Friday >= that date.
+function weeklyIdxForDate(dStr, wrows) {
+  for (let i = 0; i < wrows.length; i++) if (wrows[i].d >= dStr) return i;
+  return wrows.length - 1;
+}
 const LONG_TRENDS = DATA.long_trends || [];
 
 // Surface when the data was last refreshed (build timestamp, in US Eastern).
@@ -1009,20 +1077,36 @@ const STAGE_INFO = {
 // Chart drawing: HLC bars (doji-style — vertical H–L line + close tick on right)
 // ============================================================================
 
-const MA_COLORS = { qqq: "#1c1813", m30: "#a8740a", e21: "#6b4fd6", w10: "#2f6b3f", w30: "#b07d18" };
-const maOn = { qqq: true, m30: true, e21: true, w10: true, w30: true };  // QQQ is always on
+const MA_COLORS = { qqq: "#1c1813", m30: "#a8740a", e21: "#6b4fd6", m50: "#1f6f8b",
+                    m200: "#8c2f24", w10: "#2f6b3f", w30: "#b07d18", vm50: "#6b625a" };
+// Candles are always drawn (the "qqq" key predates the symbol toggle and now just
+// means "price/volume on"). Every MA defaults on.
+const maOn = { qqq: true, m30: true, e21: true, m50: true, m200: true,
+               w10: true, w30: true, vm50: true };
 
 // Legend definitions per view (QQQ candles are always rendered — no chip needed)
 const LEGEND = {
   daily: [
-    {key: "e21", color: MA_COLORS.e21, label: "21-day EMA", pop: "e21"},
-    {key: "m30", color: MA_COLORS.m30, label: "30-day SMA", pop: "m30"},
+    {key: "e21",  color: MA_COLORS.e21,  label: "21-day EMA",  pop: "e21"},
+    {key: "m30",  color: MA_COLORS.m30,  label: "30-day SMA",  pop: "m30"},
+    {key: "m50",  color: MA_COLORS.m50,  label: "50-day SMA",  pop: "m50"},
+    {key: "m200", color: MA_COLORS.m200, label: "200-day SMA", pop: "m200"},
+    {key: "vm50", color: MA_COLORS.vm50, label: "Vol 50 SMA",  pop: "vm50"},
   ],
   weekly: [
-    {key: "w10", color: MA_COLORS.w10, label: "10-week SMA", pop: "w10"},
-    {key: "w30", color: MA_COLORS.w30, label: "30-week SMA", pop: "w30"},
+    {key: "w10",  color: MA_COLORS.w10,  label: "10-week SMA", pop: "w10"},
+    {key: "w30",  color: MA_COLORS.w30,  label: "30-week SMA", pop: "w30"},
+    {key: "vm50", color: MA_COLORS.vm50, label: "Vol 50 SMA",  pop: "vm50"},
   ],
 };
+
+function setChartTitle() {
+  const el = document.getElementById('chartTitle');
+  if (!el) return;
+  el.textContent = VIEW === "daily"
+    ? `${SYM} · 6 mo · daily candles + 21ema, 30/50/200-day SMA`
+    : `${SYM} · 1 yr · weekly candles + 10-week & 30-week SMA`;
+}
 
 function renderLegend() {
   const box = document.getElementById('legend');
@@ -1067,17 +1151,18 @@ function drawSpark(centerIdx, markerIdx) {
   if (dStart < 0) { dEnd = Math.min(ROWS.length - 1, dEnd - dStart); dStart = 0; }
   const firstDate = ROWS[dStart].d;
   const lastDate = ROWS[dEnd].d;
+  const DAILY = dailyRows(), WEEKLY = weeklyRows();
   let slice, localCenter, daily;
   if (VIEW === "daily") {
     daily = true;
-    slice = ROWS.slice(dStart, dEnd + 1).filter(r => r.h != null && r.l != null);
+    slice = DAILY.slice(dStart, dEnd + 1).filter(r => r.h != null && r.l != null);
     localCenter = slice.findIndex(r => r.d === ROWS[markerIdx].d);
     if (localCenter < 0) localCenter = markerIdx - dStart;
   } else {
     daily = false;
     slice = WEEKLY.filter(r => r.d >= firstDate && r.d <= lastDate && r.h != null);
     if (slice.length < 2) return;
-    const selWeekDate = WEEKLY[ROWS[markerIdx].wi].d;
+    const selWeekDate = (WEEKLY[weeklyIdxForDate(ROWS[markerIdx].d, WEEKLY)] || {}).d;
     localCenter = slice.findIndex(r => r.d === selWeekDate);
     if (localCenter < 0) localCenter = slice.length - 1;
   }
@@ -1088,7 +1173,8 @@ function drawSpark(centerIdx, markerIdx) {
   const ys = [];
   if (maOn.qqq) {
     for (let i = dStart; i <= dEnd; i++) {
-      const dr = ROWS[i];
+      const dr = DAILY[i];
+      if (!dr) continue;
       if (dr.h != null) ys.push(dr.h);
       if (dr.l != null) ys.push(dr.l);
     }
@@ -1097,6 +1183,8 @@ function drawSpark(centerIdx, markerIdx) {
   slice.forEach(r => {
     if (daily && maOn.m30 && r.m30 != null) ys.push(r.m30);
     if (daily && maOn.e21 && r.e21 != null) ys.push(r.e21);
+    if (daily && maOn.m50 && r.m50 != null) ys.push(r.m50);
+    if (daily && maOn.m200 && r.m200 != null) ys.push(r.m200);
     if (!daily && maOn.w10 && r.m10 != null) ys.push(r.m10);
     if (!daily && maOn.w30 && r.m30 != null) ys.push(r.m30);
   });
@@ -1166,6 +1254,8 @@ function drawSpark(centerIdx, markerIdx) {
     svg.appendChild(path);
   }
   // Draw 21-EMA underneath the 30-SMA so the SMA stays the more prominent reference.
+  if (daily && maOn.m200) plotLine("m200", MA_COLORS.m200, 1.6, 0.85);
+  if (daily && maOn.m50) plotLine("m50", MA_COLORS.m50, 1.4, 0.85);
   if (daily && maOn.e21) plotLine("e21", MA_COLORS.e21, 1.4, 0.9);
   if (daily && maOn.m30) plotLine("m30", MA_COLORS.m30, 1.4, 0.85);
   if (!daily && maOn.w30) plotLine("m30", MA_COLORS.w30, 1.6, 0.9);
@@ -1231,6 +1321,27 @@ function drawSpark(centerIdx, markerIdx) {
         rect.setAttribute('fill', color);
         svg.appendChild(rect);
       });
+      // ----- 50-period volume SMA, drawn in the volume band on the same scale
+      // as the bars. Weekly bars carry a 50-WEEK average of weekly totals, so
+      // the line is always "50 bars of whatever this view shows".
+      if (maOn.vm50) {
+        const pts = [];
+        slice.forEach((r, i) => {
+          if (r.vm50 == null) return;
+          const y = volBaseY - Math.min(r.vm50 / maxV, 1) * volBandH;
+          pts.push(`${xAt(i).toFixed(2)},${y.toFixed(2)}`);
+        });
+        if (pts.length > 1) {
+          const vline = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
+          vline.setAttribute('points', pts.join(' '));
+          vline.setAttribute('fill', 'none');
+          vline.setAttribute('stroke', MA_COLORS.vm50);
+          vline.setAttribute('stroke-width', '1.1');
+          vline.setAttribute('stroke-opacity', '0.95');
+          vline.setAttribute('vector-effect', 'non-scaling-stroke');
+          svg.appendChild(vline);
+        }
+      }
       // Thin separator line between price and volume bands
       const sep = document.createElementNS('http://www.w3.org/2000/svg', 'line');
       sep.setAttribute('x1', PADX); sep.setAttribute('x2', W - PADX);
@@ -1251,11 +1362,11 @@ function drawSpark(centerIdx, markerIdx) {
 
   // ===== Selected-date marker + dynamic value labels =====
   const selectedDailyDate = ROWS[markerIdx].d;
-  const selDaily = ROWS[markerIdx];
+  const selDaily = dailyRows()[markerIdx] || {};
   // In weekly view we still want the labels at the WEEK'S MA values (since that's what the chart shows).
   // selectedWeekly = the WEEKLY row whose Friday-date >= the selected daily date.
-  const selWeeklyIdx = selDaily.wi;
-  const selWeekly = WEEKLY[selWeeklyIdx] || null;
+  const selWeeklyRows = weeklyRows();
+  const selWeekly = selWeeklyRows[weeklyIdxForDate(ROWS[markerIdx].d, selWeeklyRows)] || null;
   {
     const x = xAtDate(selectedDailyDate);
     const vline = document.createElementNS('http://www.w3.org/2000/svg', 'line');
@@ -1294,6 +1405,10 @@ function drawSpark(centerIdx, markerIdx) {
       addStat('21e', selDaily.e21.toFixed(0), MA_COLORS.e21);
     if (daily && maOn.m30 && selDaily.m30 != null)
       addStat('30d', selDaily.m30.toFixed(0), MA_COLORS.m30);
+    if (daily && maOn.m50 && selDaily.m50 != null)
+      addStat('50d', selDaily.m50.toFixed(0), MA_COLORS.m50);
+    if (daily && maOn.m200 && selDaily.m200 != null)
+      addStat('200d', selDaily.m200.toFixed(0), MA_COLORS.m200);
     if (!daily && maOn.w10 && selWeekly && selWeekly.m10 != null)
       addStat('10w', selWeekly.m10.toFixed(0), MA_COLORS.w10);
     if (!daily && maOn.w30 && selWeekly && selWeekly.m30 != null)
@@ -1303,6 +1418,8 @@ function drawSpark(centerIdx, markerIdx) {
     if (vol != null && qClose != null && oo != null) {
       const volColor = qClose >= oo ? "#2f6b3f" : "#8c2f24";
       addStat('V', fmtVol(vol), volColor);
+      const vavg = daily ? selDaily.vm50 : (selWeekly && selWeekly.vm50);
+      if (maOn.vm50 && vavg != null) addStat('V50', fmtVol(vavg), MA_COLORS.vm50);
     }
   }
 
@@ -1474,6 +1591,9 @@ const POP = {
   qqq: "<b>QQQ candles</b><br>Standard OHLC candles. <span style='color:#2f6b3f;font-weight:600'>Green</span> = close ≥ open. <span style='color:#8c2f24;font-weight:600'>Red</span> = close &lt; open. Wick = high–low; body = open–close.<br><br><b>Daily view:</b> ~126 daily candles (6 months) centered on selected day.<br><b>Weekly view:</b> ~50 Friday-close candles (1 year) — the timeframe we use for the 10wk/30wk stage view.",
   m30: "<b>30-day SMA (daily)</b><br>The daily short-term trend anchor. QQQ closing above = ST up; below = ST down. Drives the Day-N count and components 3 & 4 of the GMI.",
   e21: "<b>21-day EMA (daily)</b><br>The short-term swing-trade trend filter, faster than the 30-day SMA — it weights recent prices more heavily so it turns first when a trend changes. A close above the 21-EMA is a swing-long bias; a clean break below often precedes a 30-day SMA break. Useful as an early-warning companion to the 30-day SMA, not a trade signal on its own.",
+  m50: "<b>50-day SMA (daily chart)</b><br>The classic institutional trend line. In a healthy Stage-2 advance price pulls back to the 50-day and holds; losing it on rising volume is the first warning that the advance is tiring. Not used in any GMI component — it is a context line.",
+  m200: "<b>200-day SMA (daily chart)</b><br>The long-term dividing line between bull and bear tape. Roughly the daily equivalent of the 30-week (40-week) SMA the weekly chart uses, so the two views should broadly agree. Price below a falling 200-day is Stage-4 territory.",
+  vm50: "<b>50-period volume SMA</b><br>Average volume over the last 50 bars of whatever the chart is showing — 50 sessions on the daily view, 50 weeks on the weekly. Bars above the line mark conviction: breakouts want above-average volume, and a decline on heavy volume is distribution.",
   w10: "<b>10-week SMA (weekly chart)</b><br>Our medium-term hold line. Computed on Friday weekly closes. The <b>10wk crossing above 30wk</b> is the bull re-entry signal (confirmed live 2025-06 and 2026-05). The <b>10wk crossing below 30wk</b> confirms Stage 4 onset (April 2025 tariff decline).",
   w30: "<b>30-week SMA (weekly chart)</b><br>Our most important MA — Stan Weinstein's classic. Got us out before 2000 and 2008. Price above + line rising = Stage 2 uptrend — the only stage we buy long.",
   c1: "<b>Successful 10-day new high</b><br>Component 1 of GMI. Fires when ≥50% of stocks that hit a new 52-week high 10 trading days ago closed higher today. Tests whether breakouts are still being rewarded.",
@@ -1532,14 +1652,28 @@ document.querySelectorAll('[data-view]').forEach(el => {
     if (v === VIEW) return;
     VIEW = v;
     document.querySelectorAll('[data-view]').forEach(b => b.classList.toggle('on', b.dataset.view === VIEW));
-    document.getElementById('chartTitle').textContent =
-      VIEW === "daily" ? "QQQ · 6 mo · daily candles + 30-day SMA"
-                       : "QQQ · 1 yr · weekly candles + 10-week & 30-week SMA";
+    setChartTitle();
     renderLegend();
     drawSpark(Number(dateSlider.value));
   });
 });
 
+// Symbol toggle (QQQ / SPY). Only the candles, MAs and volume change — every
+// indicator on the page stays QQQ-derived, so the gate shading and Day-N pill
+// describe the same regime under either symbol.
+document.querySelectorAll('[data-sym]').forEach(el => {
+  el.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const v = el.dataset.sym;
+    if (v === SYM || !CHART[v]) return;
+    SYM = v;
+    document.querySelectorAll('[data-sym]').forEach(b => b.classList.toggle('on', b.dataset.sym === SYM));
+    setChartTitle();
+    drawSpark(Number(dateSlider.value));
+  });
+});
+
+setChartTitle();
 renderLegend();
 
 setIndex(ROWS.length - 1);
@@ -1579,14 +1713,17 @@ function renderVerdict(r, stateInfo){
 
 // nav price + folio date from the live payload
 (function(){
-  const lastRow = ROWS[ROWS.length-1], prev = ROWS[ROWS.length-2];
+  // Nav price is always QQQ — it is the dashboard's subject, not the chart's selection.
+  const qd = (CHART.QQQ && CHART.QQQ.daily) || [];
+  const lastRow = qd[qd.length-1], prev = qd[qd.length-2];
+  const lastIdx = ROWS[ROWS.length-1], prevIdx = ROWS[ROWS.length-2];
   if (lastRow && prev) {
     // OHLC close ("cl") can be null when the OHLC cache lags prices by a day —
     // fall back to the adjusted close ("q"), which is always present. Without the
     // guard a null cl threw here and left the folio date stuck at its hardcoded
     // placeholder because this IIFE died before reaching it.
-    const last = lastRow.cl != null ? lastRow.cl : lastRow.q;
-    const prevC = prev.cl != null ? prev.cl : prev.q;
+    const last = lastRow.cl != null ? lastRow.cl : (lastIdx && lastIdx.q);
+    const prevC = prev.cl != null ? prev.cl : (prevIdx && prevIdx.q);
     const np = document.getElementById("navPrice");
     if (np && last != null && prevC != null) {
       const chg = ((last/prevC)-1)*100;
