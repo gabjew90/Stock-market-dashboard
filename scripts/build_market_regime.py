@@ -671,7 +671,7 @@ TEMPLATE = r"""<!doctype html>
   .vtoggle .seg button { background: var(--paper-2); color: var(--muted); border: none; font-family: var(--mono); font-size: 9.5px; font-weight: 700;
     letter-spacing: 0.14em; text-transform: uppercase; padding: 6px 12px; cursor: pointer; }
   .vtoggle .seg button.on { background: var(--ink); color: var(--paper); }
-  .chart-wrap { position: relative; height: 520px; border: 1px solid var(--rule); border-top: none; background: var(--paper-2);
+  .chart-wrap { position: relative; height: 628px; border: 1px solid var(--rule); border-top: none; background: var(--paper-2);
     background-image: repeating-linear-gradient(0deg, rgba(28,24,19,0.05) 0 1px, transparent 1px 42px), repeating-linear-gradient(90deg, rgba(28,24,19,0.05) 0 1px, transparent 1px 42px); }
   .spark { width: 100%; height: 100%; display: block; touch-action: none; user-select: none;
     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'><circle cx='10' cy='10' r='5' fill='none' stroke='%23a8740a' stroke-width='1'/><circle cx='10' cy='10' r='1.2' fill='%23a8740a'/><line x1='0' y1='10' x2='4' y2='10' stroke='%23a8740a'/><line x1='16' y1='10' x2='20' y2='10' stroke='%23a8740a'/><line x1='10' y1='0' x2='10' y2='4' stroke='%23a8740a'/><line x1='10' y1='16' x2='10' y2='20' stroke='%23a8740a'/></svg>") 10 10, ew-resize; }
@@ -825,7 +825,7 @@ TEMPLATE = r"""<!doctype html>
       </span>
     </div>
     <div class="chart-wrap">
-      <svg class="spark" id="spark" viewBox="0 0 800 240" preserveAspectRatio="none"></svg>
+      <svg class="spark" id="spark" viewBox="0 0 800 290" preserveAspectRatio="none"></svg>
       <div class="stat-overlay" id="statOverlay"></div>
       <div class="x-axis-labels" id="xAxisLabels"></div>
     </div>
@@ -1082,7 +1082,66 @@ const MA_COLORS = { qqq: "#1c1813", m30: "#a8740a", e21: "#6b4fd6", m50: "#1f6f8
 // Candles are always drawn (the "qqq" key predates the symbol toggle and now just
 // means "price/volume on"). Every MA defaults on.
 const maOn = { qqq: true, m30: true, e21: true, m50: true, m200: true,
-               w10: true, w30: true, vm50: true };
+               w10: true, w30: true, vm50: true, gmma: true };
+
+// ===== GMMA (Guppy) — Dr. Wish's RWB/BWR read. Six short EMAs drawn red, six
+// long EMAs drawn blue (his TC2000 colors — "Red White Blue" = red band over
+// blue with white space between). Periods are the standard Guppy defaults; Dr.
+// Wish never published his exact list. Computed client-side from the candle
+// closes already in the payload, over the FULL series so every EMA is warm long
+// before the visible window. Values are attached to the row objects (r._g) so
+// filtered slices keep their values without index bookkeeping.
+const GMMA_SHORT = [3, 5, 8, 10, 12, 15], GMMA_LONG = [30, 35, 40, 45, 50, 60];
+const GMMA_RED = "#a03123", GMMA_BLUE = "#2e5e8f";
+const _gmmaDone = {};
+function ensureGmma(sym, view) {
+  const key = sym + ":" + view;
+  if (_gmmaDone[key] || !CHART[sym]) return;
+  const rows = view === "daily" ? CHART[sym].daily : CHART[sym].weekly;
+  for (const p of [...GMMA_SHORT, ...GMMA_LONG]) {
+    const a = 2 / (p + 1);
+    // Mirrors pandas ewm(span=p, adjust=False).mean() with its default
+    // ignore_na=False (what ww.indicators.guppy.gmma computes): a gap session
+    // decays the old EMA's weight by (1-a) without contributing an observation,
+    // and the next real close joins via a renormalized weighted mean. Verified
+    // numerically against pandas 3.0.3 across gap shapes for every alpha except
+    // exactly a=0.5 (span 3), where pandas exhibits an isolated anomaly on
+    // gapped series; on gapless stretches (virtually all sessions) all twelve
+    // EMAs agree exactly.
+    let e = null, oldWt = 1;
+    for (const r of rows) {
+      const c = view === "daily" ? r.cl : r.c;
+      if (e == null) {
+        if (c != null) e = c;
+      } else {
+        oldWt *= (1 - a);
+        if (c != null) {
+          e = (oldWt * e + a * c) / (oldWt + a);
+          oldWt = 1;
+        }
+      }
+      (r._g || (r._g = {}))["e" + p] = e;
+    }
+  }
+  _gmmaDone[key] = true;
+}
+// Wish's pattern call at row i (mirrors ww.indicators.guppy.rwb_state): RWB needs
+// every red EMA above every blue EMA with all 12 rising over ~10 bars; BWR is the
+// mirror image with the close under all 12; anything else is a transition.
+function gmmaStateAt(rows, i, view) {
+  const g = rows[i] && rows[i]._g;
+  const look = Math.min(10, i);
+  const g0 = rows[i - look] && rows[i - look]._g;
+  if (!g || !g0 || g.e60 == null || g0.e60 == null) return null;
+  const s = GMMA_SHORT.map(p => g["e" + p]), l = GMMA_LONG.map(p => g["e" + p]);
+  const s0 = GMMA_SHORT.map(p => g0["e" + p]), l0 = GMMA_LONG.map(p => g0["e" + p]);
+  const rising = s.every((v, k) => v > s0[k]) && l.every((v, k) => v > l0[k]);
+  const falling = s.every((v, k) => v < s0[k]) && l.every((v, k) => v < l0[k]);
+  const c = view === "daily" ? rows[i].cl : rows[i].c;
+  if (Math.min(...s) > Math.max(...l) && rising) return "RWB";
+  if (Math.max(...s) < Math.min(...l) && falling && c != null && c < Math.min(...s, ...l)) return "BWR";
+  return "transition";
+}
 
 // Legend definitions per view (QQQ candles are always rendered — no chip needed)
 const LEGEND = {
@@ -1092,11 +1151,13 @@ const LEGEND = {
     {key: "m50",  color: MA_COLORS.m50,  label: "50-day SMA",  pop: "m50"},
     {key: "m200", color: MA_COLORS.m200, label: "200-day SMA", pop: "m200"},
     {key: "vm50", color: MA_COLORS.vm50, label: "Vol 50 SMA",  pop: "vm50"},
+    {key: "gmma", color: GMMA_RED,       label: "GMMA",        pop: "gmma"},
   ],
   weekly: [
     {key: "w10",  color: MA_COLORS.w10,  label: "10-week SMA", pop: "w10"},
     {key: "w30",  color: MA_COLORS.w30,  label: "30-week SMA", pop: "w30"},
     {key: "vm50", color: MA_COLORS.vm50, label: "Vol 50 SMA",  pop: "vm50"},
+    {key: "gmma", color: GMMA_RED,       label: "GMMA",        pop: "gmma"},
   ],
 };
 
@@ -1139,7 +1200,9 @@ function drawSpark(centerIdx, markerIdx) {
   if (markerIdx === undefined) markerIdx = centerIdx;
   const svg = document.getElementById('spark');
   svg.innerHTML = "";
-  const W = 800, H = 240, PADX = 6, PADY_TOP = 4, PADY_BOT = 30, VOL_H = 38;
+  // GMMA_H is carved out UNDER the volume band: with H raised by the same 50,
+  // every pre-existing band keeps its exact former pixel position.
+  const W = 800, H = 290, PADX = 6, PADY_TOP = 4, PADY_BOT = 30, VOL_H = 38, GMMA_H = 50;
 
   // Both views share the same ~6-month date window (locked axes across toggle).
   // Symmetric ±63 so the marker is centered. When the centerIdx is near today,
@@ -1193,7 +1256,7 @@ function drawSpark(centerIdx, markerIdx) {
   const pad = (ymax0 - ymin0) * 0.05 || 1;
   const ymin = ymin0 - pad, ymax = ymax0 + pad;
   const yspan = ymax - ymin;
-  const plotH = H - PADY_TOP - PADY_BOT - VOL_H;  // price plot, leaves a VOL_H band for volume
+  const plotH = H - PADY_TOP - PADY_BOT - VOL_H - GMMA_H;  // price plot, leaves bands for volume + GMMA
   const plotW = W - 2 * PADX;
   // Time-based x positioning: same calendar date sits at the same x in BOTH views.
   const firstTs = Date.parse(firstDate);
@@ -1201,10 +1264,12 @@ function drawSpark(centerIdx, markerIdx) {
   const tSpan = (lastTs - firstTs) || 1;
   const xAtDate = (dStr) => ((Date.parse(dStr) - firstTs) / tSpan) * plotW + PADX;
   const xAt = (i) => xAtDate(slice[i].d);
-  // Price plot occupies [PADY_TOP, H - PADY_BOT - VOL_H]. Volume occupies the strip just below.
-  const yAt = (v) => (H - PADY_BOT - VOL_H) - ((v - ymin) / yspan) * plotH;
-  const volBaseY = H - PADY_BOT;   // bottom of volume band
-  const volTopY = H - PADY_BOT - VOL_H + 2;  // top (with a 2px gap)
+  // Price plot on top, then the volume strip, then the GMMA strip, then x labels.
+  const yAt = (v) => (H - PADY_BOT - VOL_H - GMMA_H) - ((v - ymin) / yspan) * plotH;
+  const volBaseY = H - PADY_BOT - GMMA_H;   // bottom of volume band
+  const volTopY = H - PADY_BOT - VOL_H - GMMA_H + 2;  // top (with a 2px gap)
+  const gmmaBaseY = H - PADY_BOT;           // bottom of GMMA band
+  const gmmaTopY = volBaseY + 2;
   // Publish the current chart window so the pointer-drag handler can map x -> date.
   window._chartView = { firstTs, lastTs, tSpan, dStart, dEnd, PADX, plotW, W };
   // Average bar width — used to size candle bodies. Daily ~3-4 px, weekly ~16-18 px.
@@ -1360,6 +1425,58 @@ function drawSpark(centerIdx, markerIdx) {
     }
   }
 
+  // ===== GMMA band (Guppy — Wish's RWB read; red short EMAs over blue long EMAs) =====
+  if (maOn.gmma) {
+    ensureGmma(SYM, daily ? "daily" : "weekly");
+    let gmin = Infinity, gmax = -Infinity;
+    slice.forEach(r => {
+      const g = r._g;
+      if (!g) return;
+      for (const p of [...GMMA_SHORT, ...GMMA_LONG]) {
+        const v = g["e" + p];
+        if (v != null) { if (v < gmin) gmin = v; if (v > gmax) gmax = v; }
+      }
+    });
+    if (gmax > gmin) {
+      const gpad = (gmax - gmin) * 0.06 || 1;
+      const gspan = (gmax - gmin) + 2 * gpad;
+      const gAt = (v) => gmmaBaseY - ((v - (gmin - gpad)) / gspan) * (gmmaBaseY - gmmaTopY);
+      // Long (blue) band first so the red band draws on top where they cross.
+      for (const [periods, color] of [[GMMA_LONG, GMMA_BLUE], [GMMA_SHORT, GMMA_RED]]) {
+        for (const p of periods) {
+          const pts = [];
+          slice.forEach((r, i) => {
+            const v = r._g && r._g["e" + p];
+            if (v != null) pts.push(`${xAt(i).toFixed(2)},${gAt(v).toFixed(2)}`);
+          });
+          if (pts.length > 1) {
+            const line = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
+            line.setAttribute('points', pts.join(' '));
+            line.setAttribute('fill', 'none');
+            line.setAttribute('stroke', color);
+            line.setAttribute('stroke-width', '0.9');
+            line.setAttribute('stroke-opacity', '0.85');
+            line.setAttribute('vector-effect', 'non-scaling-stroke');
+            svg.appendChild(line);
+          }
+        }
+      }
+      const gsep = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      gsep.setAttribute('x1', PADX); gsep.setAttribute('x2', W - PADX);
+      gsep.setAttribute('y1', gmmaTopY - 1); gsep.setAttribute('y2', gmmaTopY - 1);
+      gsep.setAttribute('stroke', '#cdbfa6'); gsep.setAttribute('stroke-width', '0.5');
+      gsep.setAttribute('stroke-dasharray', '2,2');
+      svg.appendChild(gsep);
+      const glbl = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      glbl.setAttribute('x', PADX + 2); glbl.setAttribute('y', gmmaTopY + 8);
+      glbl.setAttribute('font-size', '8');
+      glbl.setAttribute('font-family', 'ui-monospace,Menlo,Consolas,monospace');
+      glbl.setAttribute('fill', '#7c7060');
+      glbl.textContent = 'GMMA';
+      svg.appendChild(glbl);
+    }
+  }
+
   // ===== Selected-date marker + dynamic value labels =====
   const selectedDailyDate = ROWS[markerIdx].d;
   const selDaily = dailyRows()[markerIdx] || {};
@@ -1420,6 +1537,13 @@ function drawSpark(centerIdx, markerIdx) {
       addStat('V', fmtVol(vol), volColor);
       const vavg = daily ? selDaily.vm50 : (selWeekly && selWeekly.vm50);
       if (maOn.vm50 && vavg != null) addStat('V50', fmtVol(vavg), MA_COLORS.vm50);
+    }
+    if (maOn.gmma) {
+      const grows = daily ? dailyRows() : weeklyRows();
+      const gi = daily ? markerIdx : weeklyIdxForDate(ROWS[markerIdx].d, grows);
+      const st = gmmaStateAt(grows, gi, daily ? "daily" : "weekly");
+      if (st) addStat('GMMA', st === "transition" ? "trans." : st,
+                      st === "RWB" ? "#2f6b3f" : st === "BWR" ? "#8c2f24" : "#7c7060");
     }
   }
 
@@ -1593,6 +1717,7 @@ const POP = {
   e21: "<b>21-day EMA (daily)</b><br>The short-term swing-trade trend filter, faster than the 30-day SMA — it weights recent prices more heavily so it turns first when a trend changes. A close above the 21-EMA is a swing-long bias; a clean break below often precedes a 30-day SMA break. Useful as an early-warning companion to the 30-day SMA, not a trade signal on its own.",
   m50: "<b>50-day SMA (daily chart)</b><br>The classic institutional trend line. In a healthy Stage-2 advance price pulls back to the 50-day and holds; losing it on rising volume is the first warning that the advance is tiring. Not used in any GMI component — it is a context line.",
   m200: "<b>200-day SMA (daily chart)</b><br>The long-term dividing line between bull and bear tape. Roughly the daily equivalent of the 30-week (40-week) SMA the weekly chart uses, so the two views should broadly agree. Price below a falling 200-day is Stage-4 territory.",
+  gmma: "<b>GMMA (Guppy) — Dr. Wish's RWB chart</b><br>Twelve EMAs in two bands: six <span style='color:#a03123;font-weight:600'>red</span> short-term (3–15) and six <span style='color:#2e5e8f;font-weight:600'>blue</span> long-term (30–60), his TC2000 colors. Red band above blue with white space between and everything rising = <b>RWB</b> (\"Red White Blue\") — the up-trend pattern he wants before buying. The mirror image with price under all 12 = <b>BWR</b>, his stay-out pattern. Bands tangled = transition. The stat box shows the call at the selected date. Periods are the standard Guppy defaults — Dr. Wish never published his exact list.",
   vm50: "<b>50-period volume SMA</b><br>Average volume over the last 50 bars of whatever the chart is showing — 50 sessions on the daily view, 50 weeks on the weekly. Bars above the line mark conviction: breakouts want above-average volume, and a decline on heavy volume is distribution.",
   w10: "<b>10-week SMA (weekly chart)</b><br>Our medium-term hold line. Computed on Friday weekly closes. The <b>10wk crossing above 30wk</b> is the bull re-entry signal (confirmed live 2025-06 and 2026-05). The <b>10wk crossing below 30wk</b> confirms Stage 4 onset (April 2025 tariff decline).",
   w30: "<b>30-week SMA (weekly chart)</b><br>Our most important MA — Stan Weinstein's classic. Got us out before 2000 and 2008. Price above + line rising = Stage 2 uptrend — the only stage we buy long.",
