@@ -3,6 +3,8 @@ title: Trading philosophy — the five propositions
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2005-04-20-stop-this-madness.md
+  - raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md
   - raw/posts/2009-11-26-my-trading-philosophy-and-why-i-use-technical-analysis.md
   - raw/posts/2018-03-11-green-dot-strategy-defined.md
   - raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md
@@ -68,6 +70,38 @@ because it wins more often but because it makes Proposition 5 easy: "if I think 
 bottomed and turned up, **I know exactly where to get out if I am wrong** — if the recent
 bottom does not hold." ([WW 2018-03-11](../../raw/posts/2018-03-11-green-dot-strategy-defined.md))
 
+## Your own hit rate is an indicator
+
+A meta-signal stated in 2005 and not repeated elsewhere: **when your usual edge stops working,
+that is itself information about the regime.**
+
+> "a hard lesson to learn is that **the strategy that does beautifully in a bull market fails
+> miserably in a bear market**... **A good indication that things are souring is when the types
+> of trades I have been profiting from suddenly produce a string of losses.**" ([WW 2005-04-20](../../raw/posts/2005-04-20-stop-this-madness.md))
+
+This sits underneath the whole market-state apparatus. The GMI and the day count are attempts to
+detect the regime change *before* the string of losses arrives, but the string of losses is the
+ground truth they are proxies for.
+
+## Emotional detachment is engineered, not willed
+
+He treats emotion as something to design around rather than overcome:
+
+- **The stop is what buys detachment.** Having bought GOOG at ~$220 with a stop at ~$214: "I have
+  placed my wager and **can now separate myself emotionally from the stock**. I will either
+  profit or lose a little." ([WW 2005-05-04](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md))
+- **Distance helps.** "Darvas made his fortune when he was out of the country and far away from
+  the market. **The further one is away from the market, the less the emotion that can kill one's
+  judgment**, and the trade." He notes he does not watch the position much.
+- **The entry price of the whole approach:** "**If you are unwilling to have a lot of small losses
+  you should not trade stocks.**"
+- **And the one prohibition he puts in capitals:** "**NEVER BUY MORE OF A STOCK THAT HAS DECLINED
+  — NEVER THROW GOOD $$$ AFTER BAD.** Just take your loss, admit you were wrong and learn from
+  your mistake." ([WW 2005-05-04](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md))
+
+Note that Proposition 4's "small initial trades" is the [pilot buy](glossary.md), and its mirror
+is this prohibition: add only to positions that have proved you right.
+
 ## Never one indicator
 
 A methodological rule stated alongside the green-dot strategy: "**I try not to rely on a single
@@ -101,3 +135,5 @@ and the [backtest](backtest-timing-overlay.md).
 - [WW 2018-03-11 — Green Dot strategy defined](../../raw/posts/2018-03-11-green-dot-strategy-defined.md) ([summary](../sources/2018-03-11-green-dot-strategy-defined.md))
 - [WW 2015-02-22 — An important limitation of the GMI signals](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md) ([summary](../sources/2015-02-22-an-important-limitation-of-the-gmi-signals.md))
 </content>
+- [WW 2005-04-20 — STOP THIS MADNESS: the GMI's components, six days before the GMI](../../raw/posts/2005-04-20-stop-this-madness.md) ([summary](../sources/2005-04-20-stop-this-madness.md))
+- [WW 2005-05-04 — A Google Confession: the gap rule and the doubling rationale](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md) ([summary](../sources/2005-05-04-a-google-confession-ww-gmi-1.md))

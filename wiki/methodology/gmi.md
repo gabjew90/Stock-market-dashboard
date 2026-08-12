@@ -3,6 +3,7 @@ title: General Market Index (GMI)
 type: entity
 updated: 2026-08-12
 sources:
+  - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md
   - raw/posts/2013-01-07-3rd-day-of-qqq-short-term-up-trend-t2108-82.md
   - raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md
@@ -36,6 +37,29 @@ sources:
 # General Market Index (GMI)
 
 The 0–6 composite indicator Dr. Wish uses to decide whether the market is GREEN (be invested) or RED (be cautious / in cash). It counts six binary conditions about the state of the market; each true condition adds 1 point.
+
+## Pre-history — the components existed before the index did
+
+The GMI was not invented on 2005-04-26. **Six days earlier** he was already running three of its
+six components as standalone indicators, and explaining each more fully than the founding post
+does ([WW 2005-04-20](../../raw/posts/2005-04-20-stop-this-madness.md)):
+
+- **Component 2:** "if there are not at least 100 stocks on the NYSE or NASDAQ that are making
+  new 52 week highs, the market is not strong enough."
+- **Component 6, with its composition:** the IBD mutual fund index "tracks the performance of
+  **23 growth mutual funds**." The reasoning: "if this index is below its 50 day moving average,
+  then I cannot make money trading growth stocks. In other words, **if the pros running these
+  funds cannot make money I will not.** These managers are the ones who drive these growth stocks
+  higher with their huge resources."
+- **Component 1, with the origin of its threshold:** he had built the Successful 10-Day index in
+  TC2005 over the 4,000-stock universe. "When I first computed this index in **March**, I found
+  that over 100 stocks met these criteria. Today, there were only **12 stocks out of 4,000**." So
+  the founding post's "greater than 100" is simply the March 2005 reading — which is exactly why
+  he called it provisional and reserved the right to change it. He did, twice: ≥50% by 2014, plus
+  the `min. 20` floor visible on the published table.
+
+The GMI is therefore best read as a *packaging* of instruments already in use, which is also why
+its components have proved so stable — they predate the index.
 
 ## The six components (original 2005 definition)
 
@@ -386,3 +410,4 @@ Run it: `ww compute gmi 2026-05-11 --breadth` for a full 0–6 GMI on any date t
 - [WW 2020-01-05 — GMI table: GMI2 grown to 8; MACD breadth row](../../raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md)
 - [WW 2026-01-04 — GMI table: verbatim component labels; GMI2 at 9](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md)
 - [WW 2015-02-22 — An important limitation of the GMI signals](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md) ([summary](../sources/2015-02-22-an-important-limitation-of-the-gmi-signals.md))
+- [WW 2005-04-20 — STOP THIS MADNESS: the GMI's components, six days before the GMI](../../raw/posts/2005-04-20-stop-this-madness.md) ([summary](../sources/2005-04-20-stop-this-madness.md))

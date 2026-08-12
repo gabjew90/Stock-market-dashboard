@@ -114,6 +114,12 @@ How Dr. Wish's system changed year by year. (Blog archive runs 2005 → present;
 
 ---
 
+## April 2005 — the components before the index; "STOP THIS MADNESS"
+
+**"STOP THIS MADNESS" (2005-04-20):** six days before the GMI was named, three of its six components are already running as standalone indicators — the 100-new-highs test, the IBD mutual fund index (disclosed here as tracking **23 growth mutual funds**) against its 50-day average, and the Successful 10-Day index, whose "greater than 100" threshold turns out to be simply its March 2005 reading ("over 100 stocks met these criteria... Today, there were only 12 stocks out of 4,000"). The GMI is a *packaging* of instruments already in use, which is why its components proved so stable. Also states his 2000 exit plainly, gives a meta-signal the wiki lacked — "**a good indication that things are souring is when the types of trades I have been profiting from suddenly produce a string of losses**" — and rebuts the "you'll miss the best N days" argument against timing as "absurd." ([WW 2005-04-20](../../raw/posts/2005-04-20-stop-this-madness.md))
+
+---
+
 ## April 2005 — blog launch; GMI v1 introduced
 
 Dr. Wish begins the Wishing Wealth Blog. In the first weeks he publishes three foundational posts that establish the core framework.
@@ -131,6 +137,12 @@ Dr. Wish begins the Wishing Wealth Blog. In the first weeks he publishes three f
 At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md))
 
 **"My Trading Strategy, Part II" (2005-04-30):** the rocket-launch metaphor. Technical analysis is about observing launched rockets (price + volume action); a blend with lightweight fundamentals (product quality, earnings) is optimal. Market environment is the prerequisite for any stock-picking approach. ([WW 2005-04-30](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md))
+
+---
+
+## May 2005 — the gap rule and the doubling rationale (GOOG)
+
+**"A Google Confession" (2005-05-04):** a worked GOOG trade — bought ~$220, immediate stop ~$214 — teaching why the stop is what buys emotional detachment ("I have placed my wager and can now separate myself emotionally from the stock"). Carries the earliest form of the **gap rule** that becomes the 2022 gap-up scan: "The trick is to wait to see if the gap is filled. If the stock keeps on rising to new heights without closing the gap, it is often a sign of tremendous strength," with the failure case on the same chart. Explains Darvas's already-doubled criterion as a base-rate argument, and states the one prohibition in capitals: "**NEVER BUY MORE OF A STOCK THAT HAS DECLINED.**" Framed as a confession — he took the trade while telling readers to stay in cash. ([WW 2005-05-04](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md))
 
 ---
 
@@ -843,3 +855,5 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2015-02-22 — An important limitation of the GMI signals](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md) ([summary](../sources/2015-02-22-an-important-limitation-of-the-gmi-signals.md))
 - [WW 2017-06-25 — How I use Yellowband up- and down-trends](../../raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md) ([summary](../sources/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md))
 - [WW 2018-03-11 — Green Dot strategy defined](../../raw/posts/2018-03-11-green-dot-strategy-defined.md) ([summary](../sources/2018-03-11-green-dot-strategy-defined.md))
+- [WW 2005-04-20 — STOP THIS MADNESS: the GMI's components, six days before the GMI](../../raw/posts/2005-04-20-stop-this-madness.md) ([summary](../sources/2005-04-20-stop-this-madness.md))
+- [WW 2005-05-04 — A Google Confession: the gap rule and the doubling rationale](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md) ([summary](../sources/2005-05-04-a-google-confession-ww-gmi-1.md))

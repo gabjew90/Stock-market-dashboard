@@ -3,6 +3,7 @@ title: Risk & cash
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md
   - raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md
   - raw/posts/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md
@@ -154,6 +155,26 @@ In May 2022, Dr. Wish articulated his framework for recognizing that a bear mark
 - Weekly BWR pattern on QQQ and SPY was just beginning to form, paralleling early 2008 in timing. He shows side-by-side weekly charts: 2008 was a more mature BWR by the same calendar date; 2022 was just entering the pattern.
 - He applied the GLB concept to index ETFs: DIA and SPY had not broken above their green line tops from November 2020; QQQ's last GLB was June 2020. "We will be back to a roaring trader's market again when these indexes have another GLB to all-time highs, but it could be months or even years."
 - Historical precedent: the Dow failed repeatedly to break 1,000 between 1965 and 1982 — a 17-year flat period after prior all-time-high runs. ([WW 2022-05-01](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
+
+## His rebuttal of "you'll miss the best N days"
+
+The standard argument against market timing — that missing the handful of biggest up days
+destroys your return — he calls **"absurd"**, and gives two reasons ([WW 2005-04-20](../../raw/posts/2005-04-20-stop-this-madness.md)):
+
+1. **The big up day is usually partly retraced.** "say the market climbs 100 points in one day
+   and you were out of the market. The market could decline and retrace much of that move on the
+   subsequent days or weeks, when you could have bought in. **You did not necessarily lose the
+   full 100 points.**"
+2. **Nobody is that unlucky.** "given that we cannot predict the market's daily moves, who in the
+   world would be so unlucky so as to miss all or most of the days of big moves?"
+
+And the disposition behind it: "**There is always time to catch a genuine bull move.**" The same
+sentiment recurs throughout — he re-enters in stages after confirmation rather than racing the
+turn.
+
+Worth reading against the [backtest](backtest-timing-overlay.md), which measures the actual cost:
+the overlay does give up CAGR versus buy-and-hold. His argument is not that timing is free — it
+is that the standard framing overstates the cost.
 
 ## The pension has an administrative constraint, not just a signal
 
@@ -339,3 +360,4 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2007-12-17 — Capital conservation stated as doctrine](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md) ([summary](../sources/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
 - [WW 2014-02-23 — Covered call income on GLD; do NOT sell calls on rocket stocks](../../raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md) ([summary](../sources/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md))
 - [WW 2010-12-06 — Mutual funds restrict market timing; IBD drops the follow-through day](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md)
+- [WW 2005-04-20 — STOP THIS MADNESS: the GMI's components, six days before the GMI](../../raw/posts/2005-04-20-stop-this-madness.md) ([summary](../sources/2005-04-20-stop-this-madness.md))

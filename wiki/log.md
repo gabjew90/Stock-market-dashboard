@@ -775,3 +775,60 @@ Touched: `src/ww/search/index.py` (+5 tests), `cli.py`, **new** `methodology/rea
 
 **Still unmined:** ~373 of the Q→A pairs and the 3,458 reader-authored comments (which show
 what people actually find unclear — a map of where the wiki should be more explicit).
+
+## [2026-08-12] lint | post-coverage audit — the honest denominator, and what is actually missing
+
+Direct question: has the wiki covered all the blog posts? **No — 2.5%.** The full taxonomy,
+measured rather than estimated:
+
+| Bucket | Posts | Share |
+|---|---:|---:|
+| 1. Ingested, with a `wiki/sources/` page | 121 | 2.6% |
+| 2. Cited in a wiki page, no summary page | 40 | 0.9% |
+| 3. Parsed into `raw/timeline.parquet` only (structured signal extraction, no prose) | 1,784 | 38.0% |
+| 4. **Untouched — never read, never parsed** | 2,749 | 58.6% |
+
+**But bucket 4 is not 2,749 lost essays**, and this is the part that changes the plan. Its word
+counts: median **33**, p75 118, and **77% are under 150 words**. 2,269 of them carry at least one
+chart. They are overwhelmingly image-first daily posts where the text is a caption and the
+content is in the picture — which is why `kind_guess` calls 2,659 of them "unknown."
+
+**The real target is the prose subset: 574 untouched posts with ≥250 words.** By year that set is
+front-loaded hard — **113 are from 2005**, 59 from 2006, and the longest untouched post in the
+corpus is 1,909 words from 2005-05-13. The early blog was long-form essay writing and we had read
+almost none of it. Also in bucket 4: 67 of his "My Favorite Posts", 37 "Nicolas Darvas" posts.
+
+**Sampling confirmed real loss, not just noise.** A random draw of six untouched posts returned
+one that is plainly methodology — 2017-07-23, "TC2000 Scan for bounce up off of support," 312
+words describing a new scan with its criteria — alongside genuinely empty ones ("[CHART]
+Screenshot", 1 word). So the untouched bucket is low-density, not zero-density.
+
+**First 2005 batch ingested as proof of the thesis, and it was the richest material in weeks:**
+
+- **2005-04-20 "STOP THIS MADNESS"** — written *six days before the GMI was named*, and three of
+  its six components are already running as standalone indicators, each explained more fully
+  than in the founding post. **The GMI is a packaging of instruments already in use**, which is
+  the best explanation yet for why its components have been so stable for twenty years. It also
+  discloses that the IBD mutual fund index tracks **23 growth mutual funds** (new), reveals that
+  component 1's "greater than 100" threshold is simply its March-2005 reading (hence
+  "provisional"), and adds a meta-signal the wiki had nowhere: "**a good indication that things
+  are souring is when the types of trades I have been profiting from suddenly produce a string
+  of losses**." Plus a full rebuttal of the "you'll miss the best N days" anti-timing argument.
+- **2005-05-04 "A Google Confession"** — the earliest form of the **gap rule** ("the trick is to
+  wait to see if the gap is filled"), which is the conceptual ancestor of the 2022 gap-up scan,
+  seventeen years earlier. Explains Darvas's already-doubled criterion as a base-rate argument.
+  Treats the stop as the thing that *buys emotional detachment*. And states the one prohibition
+  in capitals: "NEVER BUY MORE OF A STOCK THAT HAS DECLINED."
+
+**Revised priority.** Chasing raw post coverage is the wrong goal — bucket 4 is 58.6% of posts
+but a small share of the *prose*. The ordered targets are now:
+
+1. **The 574 untouched ≥250-word posts**, worked newest-value-first but with **2005–2006 (172 of
+   them) treated as a block** — that is where the founding reasoning lives.
+2. The 90 remaining "My Favorite Posts".
+3. **2008** — still 1 source page for the crisis year, and it contains zero favorites, so his own
+   curation will never surface it.
+4. The image layer: `wpm<date>` and `ibdperf<date>` tables are still unread, and 3,888 chart
+   images sit inside bucket 4.
+
+`ww lint .` clean; 194 tests pass; ledger exported (121 rows).

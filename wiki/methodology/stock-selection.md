@@ -3,6 +3,7 @@ title: Stock selection
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md
   - raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md
   - raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md
   - raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md
@@ -54,6 +55,25 @@ How Dr. Wish narrows the universe to buy candidates: technical strength first, a
 The foundational idea, stated early and repeated throughout the blog: buy stocks that have **already moved up** with strong volume — "a rocket that has been launched and is climbing nicely." ([WW 2005-04-30](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md)) Avoid buying fallen or falling stocks, or stocks that haven't yet shown strong buying by others. Darvas called this becoming "a silent partner of the insiders." ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
 
 Market environment is a prerequisite: "The best rules for picking stocks will fail in an adverse market environment." ([WW 2005-04-30](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md)) A [GMI](gmi.md) ≥ 4 is the gate; below that, stock-picking stops.
+
+## Why "already doubled" — and the gap rule
+
+Two 2005 principles that underpin later machinery.
+
+**The doubling criterion is a base-rate argument, not a momentum slogan.** "Darvas wrote that one
+thing he looked for in a stock was a doubling in the past year. **The best predictor of a
+person's behavior is his/her past behavior. The same is true for stocks.** Want to find a stock
+that will double in the next year — find one that has already doubled in the past year." The
+consequence he draws: "Rockets keep doubling and hitting new highs and **always appear too
+expensive**." ([WW 2005-05-04](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md))
+
+**The gap rule — the ancestor of the 2022 [gap-up scan](glossary.md).** Seventeen years before he
+published the TC2000 formula, the idea is already precise: "many stocks begin their advance or
+decline with a huge gap in price. **The trick is to wait to see if the gap is filled.** If the
+stock keeps on rising to new heights without closing the gap, it is often a sign of tremendous
+strength." He gives the failure case on the same chart — a January 2005 GOOG gap that "was
+quickly filled — and failed" — and notes he scans the whole market for gaps in TC2005.
+([WW 2005-05-04](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md))
 
 ## The blend: technical + fundamental
 
@@ -320,3 +340,4 @@ After a Boston IBD Meetup presentation in May 2025, Dr. Wish published the most 
 - [WW 2007-09-17 — IBD100 survivorship bias; leadership decays after ~4 months](../../raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md) ([summary](../sources/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md))
 - [WW 2007-10-01 — IBD100 outperformance in a rising market; buy-stop automation (PAY)](../../raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md) ([summary](../sources/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md))
 - [WW 2023-04-24 — WING missed GLB; TC2000 price alerts](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md) ([summary](../sources/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
+- [WW 2005-05-04 — A Google Confession: the gap rule and the doubling rationale](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md) ([summary](../sources/2005-05-04-a-google-confession-ww-gmi-1.md))
