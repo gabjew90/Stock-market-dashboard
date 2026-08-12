@@ -3,6 +3,7 @@ title: Trading philosophy — the five propositions
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md
   - raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md
   - raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md
   - raw/posts/2005-04-20-stop-this-madness.md
@@ -114,6 +115,17 @@ He treats emotion as something to design around rather than overcome:
 Note that Proposition 4's "small initial trades" is the [pilot buy](glossary.md), and its mirror
 is this prohibition: add only to positions that have proved you right.
 
+## The orthodox agnostic
+
+His name for his own epistemics, from 2005: "Why do so many people need a reason for the market
+to rally. If there are good reasons, **they almost always come out after the move**. If the
+train or rocket is moving, why should we fixate on an explanation — just jump on board. I guess
+I am an **orthodox agnostic** when it comes to believing in a rationale for stock movements."
+([WW 2005-05-30](../../raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md))
+The same stance recurs as "the bad news usually comes out long after a stock has peaked" (2011)
+and "behavior rather than words" (2011) — price first, narrative later, on both sides of the
+market.
+
 ## Simple beats clever
 
 "Patterns are meant to be broken. **The road is littered with the carcasses of Ph.D.'s who
@@ -160,3 +172,4 @@ and the [backtest](backtest-timing-overlay.md).
 - [WW 2005-05-04 — A Google Confession: the gap rule and the doubling rationale](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md) ([summary](../sources/2005-05-04-a-google-confession-ww-gmi-1.md))
 - [WW 2014-05-26 — Stage Analysis as the pundit filter; timeframe as a life choice](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md) ([summary](../sources/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
 - [WW 2010-12-13 — The 95-year Dow cycle framework](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md) ([summary](../sources/2010-12-13-where-are-we-in-the-market-cycle.md))
+- [WW 2005-05-30 — The orthodox agnostic; window dressing explained; the MW plan](../../raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md) ([summary](../sources/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md))

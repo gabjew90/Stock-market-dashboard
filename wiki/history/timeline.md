@@ -3,6 +3,10 @@ title: Timeline — evolution of the methodology
 type: history
 updated: 2026-08-12
 sources:
+  - raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md
+  - raw/posts/2010-06-04-ibd-says-market-in-new-up-trend-i-am-not-yet-convinced-some-possible-rocket-stocks.md
+  - raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md
+  - raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md
   - raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md
   - raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md
   - raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md
@@ -192,6 +196,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## May 2005 (epistemics) — the orthodox agnostic; window dressing
+
+**"GOOG, MW, Other rockets, fabricated fantasy revisited" (2005-05-30):** the self-description that names his epistemics — "I guess I am an **orthodox agnostic** when it comes to believing in a rationale for stock movements... just jump on board." The window-dressing mechanism explained in full (with the Bogle counter-anecdote and an SEC disclosure proposal); the Successful 10-Day read as a *ratio* when counts are thin, nine years before the formal rule change; and the MW plan with the **re-entry pre-written at entry** ("If I got stopped out, I would buy it again if it bounces near its 50 day average"). ([WW 2005-05-30](../../raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md))
+
+---
+
 ## June 2005 — put options as insurance (the original tutorial)
 
 **"Using put options to limit losses on CME and GOOG" (2005-06-08):** the protective-put insurance framing, fully formed four years before the 2009 post the wiki had as its origin — with the decision rule: a put beats a stop when **shakeout risk** is high ("I might get shaken out only to see the stock rebound... So, I bought insurance instead"). Strike = the would-be stop price; expiry chosen past the window that matters. ([WW 2005-06-08](../../raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md))
@@ -352,6 +362,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## June 2010 — IBD calls a follow-through day; he stays in cash
+
+**"IBD says market in new up-trend, I am not yet convinced" (2010-06-04):** the FTD disagreement worked in real time — IBD confirmed an up-trend on its follow-through rule while his instruments read Day 21 down, GMI 1. "They may be right, but I need more of an advance." The June rally failed; the July pension exit followed. Thin new-high lists mined for future leaders meanwhile — preparation without participation. ([WW 2010-06-04](../../raw/posts/2010-06-04-ibd-says-market-in-new-up-trend-i-am-not-yet-convinced-some-possible-rocket-stocks.md))
+
+---
+
 ## July 2010 — Pension exit at GMI=0; topping-pattern PCF
 
 **"At the beginning of a big market decline?" (2010-07-06):** Dr. Wish moves 60% of his pension to money market despite the market having already declined significantly. His TC2007 topping-pattern PCF flags 91 of 951 ETFs, including world indexes and US sectors. GMI and GMI-R both at 0. T2108 at 25% — not yet at oversold extreme. He articulates his "regret-free late exit" philosophy: better to exit after some decline and re-enter higher than to ride the full bear. ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
@@ -433,6 +449,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## April 2012 — GMI buy signal criterion stated; AAPL as ATH-breakout case study
 
 **"How I find the next AAPL growth stock" (2012-04-30):** Dr. Wish states his GMI buy signal criterion explicitly: GMI > 3 on two consecutive days. Uses AAPL's 2012 run to make the case for buying at all-time highs — AAPL hit new daily highs 65% of trading days in February 2012 alone. Monthly-chart multi-month consolidation breakouts (like PSMT) are his target. IBD 50 outperformance data published: median +20% vs NASDAQ 100 +15% vs S&P 500 +10% during the 2011–2012 rally. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
+
+---
+
+## May 2012 — the 30-day close rule; new money vs old money
+
+**"GMI sell signal; in cash; techs look very weak" (2012-05-07):** the 30-day close rule endorsed flat-out ("check this signal out, it really works for me"), read at market scale with 79% of Nasdaq 100 stocks below their 30-days; AAPL failing to rally on blow-out earnings as the leader tell; a rare GMI-above-4-inside-a-down-trend divergence recorded; and the **new-money-vs-old-money** distinction — pension contributions keep buying funds on the way down while the balance sits in cash, "I never do so with individual stocks, because a company could go bankrupt." ([WW 2012-05-07](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md))
 
 ---
 
@@ -764,6 +786,12 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 ---
 
+## August 2022 — the hourly GMMA
+
+**"How to use hourly/daily/weekly GMMA charts" (2022-08-07):** the hourly layer documented — the adapted GMMA's 13th "average" plotting price itself (the dotted line that should lead in an up-trend), red-line convergence as a base at any timescale, and the hourly's job: showing where inside the daily trend you are. Completes the ladder hourly → daily → weekly → monthly. ([WW 2022-08-07](../../raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md))
+
+---
+
 ## May 2022 — T2108 monthly at 27%; weekly BWR onset vs 2008; GLB applied to indexes
 
 **"Based on my analysis of the market, it is nowhere oversold enough to be near a bottom" (2022-05-01):** written at the start of the 2022 bear market. Dr. Wish presents three strands of evidence that the decline was just beginning. **T2108 at 27% on the monthly chart**: he will "hold his nose and buy just a little SPY" only when T2108 drops below 10%, then accumulate only on the way up — not at the very bottom. At 27%, the market is nowhere near that oversold threshold. **Weekly BWR comparison**: the 2022 SPY chart was "just beginning" a weekly BWR (red-below-blue) Guppy pattern, paralleling early 2008 in timing — suggesting major further decline ahead if the historical parallel holds. **GLB concept extended to index ETFs**: DIA and SPY formed green line tops at their November 2020 monthly peaks; QQQ's last GLB to ATH was June 2020. "We will be back to a roaring trader's market again when these indexes have another GLB to all-time highs, but it could be months or even years before that." **Historical perspective**: between 1965 and 1982 the Dow failed repeatedly to break 1,000 — a 17-year period of flatness after prior all-time-high runs — and Dr. Wish (who was investing at the time) suggests such a period could repeat. He holds no individual stocks; GMI is Red; he remains in cash. ([WW 2022-05-01](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
@@ -1067,3 +1095,7 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2016-02-07 — The December 2015 Sell signal audited; cash over short](../../raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md) ([summary](../sources/2016-02-07-why-i-follow-my-general-market-index-gmi.md))
 - [WW 2017-09-17 — The yellowband scan criteria; purple dots; the club channel](../../raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md) ([summary](../sources/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md))
 - [WW 2011-01-31 — The Zweig template abroad; the pre-decline warning stack](../../raw/posts/2011-01-31-warning-india-stocks.md) ([summary](../sources/2011-01-31-warning-india-stocks.md))
+- [WW 2022-08-07 — The hourly GMMA; the adapted Guppy across three timeframes](../../raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md) ([summary](../sources/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md))
+- [WW 2010-06-04 — IBD calls a follow-through day; he stays in cash](../../raw/posts/2010-06-04-ibd-says-market-in-new-up-trend-i-am-not-yet-convinced-some-possible-rocket-stocks.md) ([summary](../sources/2010-06-04-ibd-says-market-in-new-up-trend-i-am-not-yet-convinced-some-possible-rocket-stocks.md))
+- [WW 2005-05-30 — The orthodox agnostic; window dressing explained; the MW plan](../../raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md) ([summary](../sources/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md))
+- [WW 2012-05-07 — The 30-day close rule at full strength; new money vs old money](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md) ([summary](../sources/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md))

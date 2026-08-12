@@ -1076,3 +1076,34 @@ Touched: `playbooks/exits.md` (order types + resting buy-stop), `methodology/gmi
 `methodology/glossary.md` (yellowband scan, purple dots), `history/timeline.md` (4 sections),
 `index.md`; 4 new `sources/` pages. `ww lint .` clean; 194 tests pass; ledger 149 rows.
 Favorites remaining: ~74.
+
+## [2026-08-12] ingest | the hourly layer, the FTD disagreement, the orthodox agnostic — 4 posts
+
+Two more named gaps from the reviews closed.
+
+- **2022-08-07** — the **hourly GMMA**, the timeframe flagged as undocumented in review #1. Also
+  recovers a construction detail no page had: his adapted Guppy carries a **13th "average" equal
+  to 1 that plots price itself** — the dotted line that should lead in an up-trend — and
+  red-line convergence reads as a base at any timescale. The ladder is complete:
+  hourly → daily → weekly → monthly, each with a distinct job.
+- **2010-06-04** — the **follow-through-day disagreement worked in real time** (review #2 flagged
+  his FTD scepticism): IBD confirmed an up-trend, his instruments said Day 21 down, he stayed in
+  cash — and was right; the July 2010 pension exit followed. "Preparation without participation":
+  mining thin new-high lists for the next leaders while unconvinced.
+- **2005-05-30** — the **orthodox agnostic** ("if there are good reasons, they almost always come
+  out after the move... just jump on board"), the fullest **window-dressing** explanation in the
+  corpus (131 mentions, previously unexplained; Bogle's denial noted; an SEC disclosure fix
+  proposed), the Successful 10-Day read as a *ratio* nine years before the formal rule change,
+  and the MW plan with the **re-entry condition pre-written at entry**.
+- **2012-05-07** — the 30-day close rule endorsed at full strength; the AAPL
+  good-news-no-rise tell repeated; a rare GMI-above-4-inside-a-down-trend divergence; and the
+  **new-money-vs-old-money** distinction — pension contributions keep buying funds on the way
+  down while the balance sits in cash, "I never do so with individual stocks, because a company
+  could go bankrupt (GM, Enron, Lehman)." DCA is acceptable exactly where bankruptcy is
+  impossible.
+
+Touched: `methodology/moving-average-rules.md` (hourly layer; 30-day rule),
+`methodology/risk-and-cash.md` (FTD worked; new-vs-old money), `methodology/glossary.md`
+(window dressing), `methodology/trading-philosophy.md` (the orthodox agnostic),
+`history/timeline.md` (4 sections), `index.md`; 4 new `sources/` pages.
+`ww lint .` clean; 194 tests pass; ledger 153 rows.

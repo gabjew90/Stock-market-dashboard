@@ -3,6 +3,7 @@ title: Glossary
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md
   - raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md
   - raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md
   - raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md
@@ -143,6 +144,8 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 
 **VCP (volatility compression pattern)** — a pre-breakout consolidation in which successive pullbacks get progressively shallower, tightening the price range. Not Dr. Wish's own construct — he cites it as external supporting evidence alongside his own signals, noting on BNTX that "The VCP pattern prior to the break-out also encouraged me to buy." Referenced: ([WW 2021-08-11](../../raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md))
 
+**Window dressing** — the quarter-end period when "mutual fund managers are rumored to load up on the current quarter's winners **so that they can look smart** when they publish their quarterly reports listing their holdings." He trades around it (expecting quarter-end strength in leaders) while filing it as unproven — John Bogle told him personally it doesn't happen — and proposing the fix: require funds to disclose the **date and price** of purchases. 131 corpus mentions; first full explanation: ([WW 2005-05-30](../../raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md))
+
 **WPM (WishingWealth Pulse of the Market)** — a composite table introduced July 2005 tracking the Dow 30, S&P 500, Nasdaq 100, S&P 400, and S&P 600 indexes. For each index: is it above its 30-day average? Above its 30-week average? What % of component stocks are above each average? Published periodically. ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
 
 **x8/x21/30-day setup** — a daily-chart bounce-off-support entry introduced in June 2024. The structural requirement is a bullish daily alignment: 8-day EMA (x8) > 21-day EMA (x21) > 30-day SMA — all three averages in ascending order. Entry trigger: buy a stock bouncing up off the x8 (8-day EMA). Failure/exit trigger: sell if the stock closes back below the x8. TC2000 scan criteria: x8>x21>30 alignment + up ≥50% from a year ago + ATH within the last 5 weeks + currently bouncing off x8. Fundamentals checked in MarketSmith before committing. The 8-day EMA influence comes from Pat Walker; 21-day EMA from IBD/CAN SLIM research; the combined construction is Dr. Wish's own. Worked examples at introduction: COST, ANF, NVDA, CVLT. Introduced: ([WW 2024-06-16](../../raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md))
@@ -218,3 +221,4 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 - [WW 2005-05-13 — Rotation by component breadth; MoneyStream; a pilot buy priced](../../raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md) ([summary](../sources/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md))
 - [WW 2016-11-27 — The weekly consolidation-breakout scan; short interest as fuel](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md) ([summary](../sources/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md))
 - [WW 2017-09-17 — The yellowband scan criteria; purple dots; the club channel](../../raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md) ([summary](../sources/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md))
+- [WW 2005-05-30 — The orthodox agnostic; window dressing explained; the MW plan](../../raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md) ([summary](../sources/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md))

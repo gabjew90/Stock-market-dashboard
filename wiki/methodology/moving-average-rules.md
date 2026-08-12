@@ -3,6 +3,8 @@ title: Moving-average rules
 type: entity
 updated: 2026-08-12
 sources:
+  - raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md
+  - raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md
   - raw/posts/2014-06-08-what-a-market-top-looks-like.md
   - raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md
   - raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md
@@ -285,6 +287,21 @@ The core rules have not changed. These posts confirm them as active practice:
 - [Stock selection](stock-selection.md) — RWB pattern; daily RWB scan; weekly green bar
 - [Exits (playbook)](../playbooks/exits.md)
 
+## The hourly layer — bases inside the trend
+
+The bottom rung of the ladder, and the one the wiki lacked. His *adapted* GMMA is "12
+exponential moving averages... **and a 13th average equal to 1 which shows the current price**"
+(the dotted line) — in an up-trend the price line should be "leading all of the other averages
+higher." Red-line **convergence reveals a base** at whatever timescale you are on: "all of the
+red lines come together, thus showing no price differences over the 6 shorter time periods."
+The hourly chart's job is to show *where inside the daily trend you are* — QQQ in August 2022
+was in an hourly RWB up-trend "forming a small base with the red lines converging. I am
+watching for a move up or down out of the base this week" — resting or resuming, without
+predicting the break. ([WW 2022-08-07](../../raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md))
+
+The full ladder: **hourly** (base/resumption inside the trend) → **daily** (the operative RWB
+trend; RLC exits) → **weekly** (stage; pension) → **monthly** (regime tops and cycle bottoms).
+
 ## The monthly layer — tops and cycles
 
 Two instruments slower than the weekly chart, both previously undocumented:
@@ -313,6 +330,15 @@ The weekly Guppy chart can be read as a single total-exit trigger: "If QQQ (dott
 below **all 12 GMMA averages**, lowest is currently at 269.55, then **it will be time to exit all
 positions**." Stated with a concrete price during the October 2020 pullback — the strictest form
 of the RWB-gone test, sitting below the red-line and 10-week exits in his ladder. ([WW 2020-10-04](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
+
+## The 30-day close rule at full strength
+
+For individual growth stocks the fastest standing exit is the 30-day average, and he endorses it
+flat-out: "I typically sell a growth stock **as soon as it looks like it will *close* below its
+30 day average. Check this signal out, it really works for me.** Why would one want to keep a
+stock that closes *below* its average closing price over the past six weeks?" On the day he
+wrote that, 79% of Nasdaq 100 stocks were below their 30-days — the rule read at market scale.
+([WW 2012-05-07](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md))
 
 ## Consolidation is what health looks like
 
@@ -362,3 +388,5 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2020-10-04 — The IBD screener workflow; the all-12-GMMA exit line](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md) ([summary](../sources/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
 - [WW 2014-06-08 — What a market top looks like: the monthly GMMA template](../../raw/posts/2014-06-08-what-a-market-top-looks-like.md) ([summary](../sources/2014-06-08-what-a-market-top-looks-like.md))
 - [WW 2010-12-13 — The 95-year Dow cycle framework](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md) ([summary](../sources/2010-12-13-where-are-we-in-the-market-cycle.md))
+- [WW 2022-08-07 — The hourly GMMA; the adapted Guppy across three timeframes](../../raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md) ([summary](../sources/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md))
+- [WW 2012-05-07 — The 30-day close rule at full strength; new money vs old money](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md) ([summary](../sources/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md))

@@ -3,6 +3,8 @@ title: Risk & cash
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2010-06-04-ibd-says-market-in-new-up-trend-i-am-not-yet-convinced-some-possible-rocket-stocks.md
+  - raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md
   - raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md
   - raw/posts/2011-01-31-warning-india-stocks.md
   - raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md
@@ -293,6 +295,25 @@ It worked in practice during the 2007 up-trend: a +5% account month in September
 
 Two constraints. It is market-state dependent like everything else — the writes happen on stocks in up-trends, during GMI-Green periods. And by 2014 he had added an explicit exclusion: **do not sell calls on rocket stocks**, because capping the upside on the few large winners defeats the strategy that pays for all the small losses (see the GLD covered-call post, [WW 2014-02-23](../../raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md)). His own caveat: "Like any trading strategy, this not the Holy Grail, and requires study and on the job training."
 
+## The follow-through-day disagreement, worked (June 2010)
+
+IBD declared a follow-through day and a confirmed up-trend; his instruments said Day 21 of the
+down-trend, GMI 1, GMI-R 4. "**They may be right, but I need more of an advance**" — he stayed
+in cash, and the June 2010 rally failed (the July pension exit followed). The method difference:
+the FTD keys on one high-volume up day; his flip requires persistent structure. Meanwhile he
+mined the thin new-high list for future leaders — "*if* the market trend turns up" — preparation
+without participation. ([WW 2010-06-04](../../raw/posts/2010-06-04-ibd-says-market-in-new-up-trend-i-am-not-yet-convinced-some-possible-rocket-stocks.md))
+
+## New money vs old money in a decline
+
+A distinction the wiki lacked: even with the pension **balance** moved to money market, "money
+is being contributed each pay period [and] **I continue to have new money invested in mutual
+funds**... I don't mind investing new money into mutual funds on the way down, assuming that
+the market will eventually rebound. **I never do so with individual stocks, because a company
+could go bankrupt, as was the case with GM and Enron and Lehman.**" Dollar-cost averaging is
+acceptable exactly where bankruptcy is impossible; never-average-down governs single names.
+([WW 2012-05-07](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md))
+
 ## A warning stack, weeks early (January 2011)
 
 Published while the headline indicators still read strong (GMI 5; 21 weeks above the 10-week),
@@ -494,3 +515,5 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2011-09-19 — Behavior over words; adviser-sentiment inversion; the point-move arithmetic](../../raw/posts/2011-09-19-3118.md) ([summary](../sources/2011-09-19-3118.md))
 - [WW 2016-02-07 — The December 2015 Sell signal audited; cash over short](../../raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md) ([summary](../sources/2016-02-07-why-i-follow-my-general-market-index-gmi.md))
 - [WW 2011-01-31 — The Zweig template abroad; the pre-decline warning stack](../../raw/posts/2011-01-31-warning-india-stocks.md) ([summary](../sources/2011-01-31-warning-india-stocks.md))
+- [WW 2010-06-04 — IBD calls a follow-through day; he stays in cash](../../raw/posts/2010-06-04-ibd-says-market-in-new-up-trend-i-am-not-yet-convinced-some-possible-rocket-stocks.md) ([summary](../sources/2010-06-04-ibd-says-market-in-new-up-trend-i-am-not-yet-convinced-some-possible-rocket-stocks.md))
+- [WW 2012-05-07 — The 30-day close rule at full strength; new money vs old money](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md) ([summary](../sources/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md))
