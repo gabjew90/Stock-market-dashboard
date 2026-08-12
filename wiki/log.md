@@ -318,7 +318,7 @@ a scrape.
 (GitHub-only), so the corpus could not be re-fetched here and no new posts were ingested.
 Everything above works without post bodies. `ww lint .` clean; 181 tests pass.
 
-## [2026-08-12] ingest | OSB/ATHOSB doctrine + the $200 revision + GMI component 6 resolved — 13 posts, tier=teaching×8/trade_example×5
+## [2026-08-12] ingest | OSB/ATHOSB doctrine + the $200 revision + GMI component 6 resolved — 13 posts, tier=teaching×9/trade_example×4
 
 Corpus restored (`ww scrape`, 4,694 posts) and committed, which unblocked the three
 highest-priority gaps from the review entries above.

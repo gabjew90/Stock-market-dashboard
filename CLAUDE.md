@@ -204,7 +204,7 @@ re-scraped and **committed** — `raw/posts/` and `raw/posts.jsonl` are now in v
 (see §1). The scrape picked up 39 posts published since the previous 2026-05-11 corpus.
 `raw/url_map.json` still catalogues slug→URL.
 
-**111 posts are ingested** (104 `teaching` + 7 `trade_example`), each with a page under
+**111 posts are ingested** (101 `teaching` + 10 `trade_example`), each with a page under
 `wiki/sources/` and a row in `raw/ingest-ledger.jsonl`. Run `uv run ww ledger export` after
 every batch and commit the ledger alongside `posts.jsonl`.
 
