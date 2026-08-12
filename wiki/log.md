@@ -221,3 +221,62 @@ schema. No posts ingested yet — `raw/posts.jsonl` has ~4,655 rows, all
 ## [2026-07-02] lint | fixed backtest-timing-overlay.md — equity-curve image path was resolving to a nonexistent wiki/methodology/assets/ (now ../../assets/backtest/equity_curve.png) and the page was missing from index.md (added under Methodology); clears the CI wiki-lint failure on main
 
 ## [2026-07-02] note | QC of GMI/T2108/stage logic — stage determination consolidated into src/ww/indicators/ma_stages.py (weinstein_stage_series): Stage 2 now requires the weekly 10wk>30wk cross (per WW 2026-05-10 / the 2010-05-09 pension rule; the April-2026 recovery had been labelled Stage 2 three weeks early), and the slope test gained a 2-week curl-down guard (long-window slope misses fresh tops). Historical impact: 2.9% of days since 2010 relabelled, all premature-Stage-2 recoveries or rolling tops. Re-ran ww breadth validate after the point-in-time gmi() fix: exact-match 20%->24%, corr 0.60->0.66, his-GMI-0 days now reconstruct 0-1 (was 3-4); methodology/gmi.md validation section updated.
+
+## [2026-08-12] lint | end-to-end semantic review — coverage, provenance and backfill gaps
+
+Full pass over `wiki/**` against the corpus manifest (`raw/url_map.json`, 4,655 posts).
+Caveat: `raw/posts/` and `raw/posts.jsonl` were absent and `wishingwealthblog.com` is
+blocked by this environment's egress proxy, so post *bodies* could not be re-read; the
+coverage analysis works from post titles/slugs plus the wiki's own citations.
+`ww lint .` is clean (0 errors, 1 corpus-absent warning).
+
+**Provenance risk (highest priority).** `raw/posts.jsonl` has never been committed
+(`git log --all -- raw/posts.jsonl` is empty) and `/raw/posts/` is gitignored. The ingest
+ledger — tier, summary, indicators, tickers and the `ingested` flag for all 4,655 posts —
+therefore exists only outside version control. Recoverable state in git is limited to the
+91 filenames under `wiki/sources/` plus this log. Re-deriving it requires both a machine
+that can reach the blog and the WordPress API still serving the full archive.
+
+**CLAUDE.md §6 resume state is stale.** It reports "~31 teaching and ~2 trade_example
+fully ingested … ~149 long_form remaining" as of 2026-05-11; batches 6–8 (logged below
+that date) took it to 91 source-summary pages / ~79+ ingested. A fresh session reading the
+schema starts from the wrong picture.
+
+**Corpus coverage.** 91 posts (2.0%) have summary pages; 129 distinct posts are cited
+anywhere in the wiki. Year holes: **2007** — 185 posts, 0 source pages, 0 `timeline.md`
+sections, despite spanning the October 2007 top; **2015** — 1 source page, 0 timeline
+sections; **2019** — 1 source page; 2006, 2008 and 2024 are thin. A title-pattern sweep
+finds ~109 un-ingested posts carrying explicit teaching markers ("how I…", "introducing…",
+"why I…", "…explained"), clustered in 2021–2022 (26) and 2019–2020 (14).
+
+**Concept gaps — taught on the blog, absent from the wiki.** (1) **OSB / ATHOSB**
+(oversold bounce) — zero occurrences anywhere in `wiki/`, yet 2023-07-13 states he *prefers*
+the OSB setup over breakouts; doctrine-level omission. (2) The **$200 price-level revision**
+(2021-08-11 "why buying stocks over 200 works better revisited") supersedes the $80/$100
+rule that `stock-selection.md` still presents as current. (3) **Hourly / multi-timeframe
+GMMA** (2022-08-07, 2019-11-03) — the hourly layer is undocumented. (4) **Position sizing
+and portfolio construction** — no page; only scattered asides. (5) **Short-side playbook** —
+SQQQ, protective puts and the submarine scan are spread across three pages with no unifying
+page. (6) **Off-blog teaching corpus** — ~63 posts point at Worden webinars, AAII workshops,
+TraderLion, TASC interviews, YouTube tutorials and his TC2000 club; the wiki has no map of
+where that material lives. (7) **Trading psychology / discipline** — 2009-11-26 ("my trading
+philosophy and why I use technical analysis") and 2019-03-15 ("how I avoid getting shaken out
+of strong growth stocks") are un-ingested; no page owns the topic. (8) **Twitter/tweet alerts**
+as his signal-delivery channel. (9) **University-course context** — the 2020-12-13 "final 10
+thoughts for my fall semester freshmen class" is an un-ingested capstone summary.
+
+**Open definitional questions still unclosed.** The GMI's *current* six components are
+unconfirmed — `gmi.md` documents the 2005 list, flags component 6 as "later replaced or
+modified" without resolving it, and records GMI-R/GMI2 components as undisclosed. The QQQ
+short-term flip rule remains an inference (30-day MA) rather than a verbatim disclosure.
+
+**Page-level defects found.** `overview.md` carries four stale `*(stub)*` markers for
+`market-state.md`, `buying-glb.md`, `exits.md` and `track-record.md` — all four are now
+populated (817–2,565 words). `timeline.md` is ordered by ingest sequence, not chronology
+(April 2005 → November 2005 → June 2005 → … → February 2009 → January 2009), which defeats
+the page's purpose. 24 in-body citations across 9 pages are absent from those pages'
+`## Sources` blocks (`trend-flip-log.md` 8, `buying-glb.md` 4, `market-state.md` 3) — `ww lint`
+checks only that the heading exists, so this drift is invisible to CI. The founding GMI post
+`2005-04-26-general-market-index-gmi` is cited on 5 pages and is the most-cited post with no
+summary page. All 129 cited slugs resolve to real posts in `url_map.json` — no fabricated
+citations.
