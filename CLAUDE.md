@@ -176,6 +176,9 @@ Run `ww lint .` (mechanical) and periodically do a **semantic** pass yourself:
 
 `ww scrape` — (re)build `raw/` from the blog's WordPress API. Captures his own
 `categories`/`tags` onto each `PostRecord` (see `raw/categories.json`).
+`ww comments` — pull all 4,136 reader comments into `raw/comments.jsonl` (committed;
+the page cache `raw/api-comments/` is not). The threads carry rule clarifications that
+appear nowhere in the post bodies — 678 of the comments are Dr. Wish replying.
 `ww batch --category "My Favorite Posts"` — **the primary ingest queue**: his own curation
 of what matters most (145 posts). Also `Tutorial`, `UMDSMC Education Posts`, `Nicolas Darvas`.
 `ww ledger export` — write the curated post state (tier/summary/ingested/summary_page) to `raw/ingest-ledger.jsonl`. **Run this after every Ingest batch and commit the result** alongside `raw/posts.jsonl`.

@@ -187,6 +187,23 @@ def scrape(
 
 
 @app.command()
+def comments(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root (writes raw/comments.jsonl)."),
+    base_url: str = typer.Option(DEFAULT_BASE_URL, "--base-url", help="Blog base URL."),
+    delay: float = typer.Option(1.0, "--delay", help="Seconds between network requests (cache hits are free)."),
+) -> None:
+    """Pull every reader comment into raw/comments.jsonl.
+
+    The threads are where readers pin down rules the posts state loosely, and Dr. Wish
+    answers — clarifications that appear nowhere in the post bodies.
+    """
+    from ww.scrape.comments import scrape_comments
+
+    n = scrape_comments(base_url, root=root, delay=delay)
+    typer.echo(f"Scraped {n} comments -> {root / 'raw' / 'comments.jsonl'}")
+
+
+@app.command()
 def stats(
     root: Path = typer.Option(Path("."), "--root", help="Repo root."),
 ) -> None:

@@ -12,6 +12,7 @@ __pycache__/
 # raw/api/ stays ignored: it is a redundant JSON cache of the same content,
 # re-fetchable with `ww scrape`.
 /raw/api/
+/raw/api-comments/
 /data/index/
 
 # generated single-file site
