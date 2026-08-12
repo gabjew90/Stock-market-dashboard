@@ -1,0 +1,10 @@
+---
+url: https://wishingwealthblog.com/2009/09/ultra-3x-etfs-beat-individual-stocks-again/
+date: '2009-09-21T07:00:24'
+post_id: 2047
+title: Ultra 3X ETF’s beat individual stocks again!
+---
+
+The table below, like the one I showed in late August, shows me the wisdom of forsaking individual stocks in favor of the 2X or 3X ETF”s.   Why try to find the few stocks that can beat these ETF’s when the odds are so low?   Since the current short bounce began September 1, the standard NASADQ 100 index ETF (QQQQ) rose 8%.  [![3Xcomparison](https://www.wishingwealthblog.com/wp-content/uploads/2009/09/3Xcomparison2-300x132.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2009/09/3Xcomparison2.jpg) During this same period, the comparable Ultra 2X ETF (QLD) rose 17% and the tech 3x ETH (TYH) rose 21%.   If I had   been trying to pick the specific NASDAQ 100 stock that would outperform these ETF’s,   I would only have had a little better than even chance (57%) of beating the QQQQ.   But only 13% of the NASDAQ 100 stocks beat the QLD and 11% beat the TYH.   So, why search for the low probability winning   stock when I can just buy the Ultra ETF’s?   Furthermore, a single stock can be slammed by bad news, but the ETF’s are less vulnerable to that because they represent an index or   a collection of stocks. The key to trading profits is to play the odds and not to try to look smart by beating them….. Meanwhile, the GMI and GMI-R remain at their maximum
+
+values.   With all of my indicators showing an up-trend, I must trade consistent with it.  [![GMI0918](https://www.wishingwealthblog.com/wp-content/uploads/2009/09/GMI0918-300x290.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2009/09/GMI0918.jpg) For those who are still looking for possible growth stocks, I ran my “Darvas” scan that detects stocks near all-time highs with good last quarter earnings.   If I were looking for winners I would begin by researching the stocks on this list:   SXCI,DISCA,ROST,ARO,DLTR,LZ,GYMB,RKT,SWM,PEGA,EMS,NEU,WES,CBD,SCL,FFH………

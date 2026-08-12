@@ -1,0 +1,14 @@
+---
+url: https://wishingwealthblog.com/2010/08/successful-saturday-aaia-presentation-ung-bottoming/
+date: '2010-08-02T07:00:49'
+post_id: 2352
+title: Successful Saturday AAIA presentation; UNG bottoming?
+---
+
+On Saturday, I had the honor of speaking before the Virginia AAII Computerized Investing SIG.   I spoke about my technical analysis course at the University of Maryland and my trading strategy.   I presented a lot of material which I included in my Worden webinar.   For those who missed Saturday’s session or would like to review my material, please go to www.worden.com and scroll down to the webinar, “A word from the professor.”   I think that Saturday’s   session went well and I was pleased to see that most attendees said they would enroll in a future workshop, if I should arrange one. If anyone who was there would like my oversold stochastic followed by a buy signal PCF, please email me at:   silenknight@wishingwealthblog.com
+
+Meanwhile, the GMI is still at 5 (of 6), with only my Weekly QQQQ trend indicator remaining negative. [![](https://www.wishingwealthblog.com/wp-content/uploads/2010/08/GMI07302010-300x234.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2010/08/GMI07302010.jpg)The short term trend of the QQQQ remains up and has just passed its 6th day.   The QQQQ and SPY   ETF’s have closed above their critical 10 week averages for two weeks.   I tend to make money trading on the long side only when these indexes close above their 10 week averages.   The Worden T2108 Indicator is at 79%, near overbought territory, where it can often remain for months. Finally, 73% of the Nasdaq 100 stocks have a MACD above its signal line, a sign of near term strength.
+
+With the Weekly QQQQ Index still negative, I am reticent to commit to the long side of the market.   I therefore remain heavily in cash.   However, as I wrote on Friday, I think that UNG may be bottoming   and I have a long position in this natural gas ETF.   I usually only buy stocks at all-time highs.   Commodities are different, however, because they have a true value.   Natural gas is not likely to go to zero.   I therefore think that commodities go back and forth between oversold and overbought. Since UNG seems to me to be forming a bottom after a tremendous decline, I am willing to place a small bullish bet on it.   It recently gave me a buy signal after hitting extreme lows on its stochastic indicator. If I am right and UNG continues to strengthen, I will add to my position.   Below is a monthly chart of UNG. (click on chart to enlarge.)   UNG has closed above its 5 month moving average (dotted line) for the first time since the decline began in July, 2008.
+
+[![](https://www.wishingwealthblog.com/wp-content/uploads/2010/08/UNGmonthly-300x185.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2010/08/UNGmonthly.jpg)

@@ -1,0 +1,16 @@
+---
+url: https://wishingwealthblog.com/2006/03/gmi-6-short-housing/
+date: '2006-03-06T00:01:00'
+post_id: 617
+title: 'GMI: +6; Short housing?'
+---
+
+The GMI closed the week at +6, and the QQQQ showed signs of strength.  [![Gmi0303](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/gmi0303.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/gmi0303.gif) There were 274 new 52 week highs on Friday and only 14 new lows in my universe of 4,000 stocks.  61% of the 327 stocks that hit a new high 10 days ago closed higher on Friday than they did 10 days earlier.  It is a sign of strength when many stocks hit a new high and retain a gain 2 weeks later.  51% of stocks are in a short term up trend, 30% are in a strong rise. Almost two thirds of stocks closed above their 10 week averages, indicating a longer term up trend.  Almost one third (32%) of stocks closed within 5% of their 52 week highs.
+
+The WPM indicates that the Nasdaq 100 stocks did a little better than the other stocks last week.  [![Wpm0303](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/wpm0303.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/wpm0303.gif) While all five indexes closed above their 30 day and 30 week averages, only the QQQQ showed an increase in the percentage of its component stocks that closed above these two  averages. The QQQQ may be playing catch up with the rest of the market.
+
+The long term bonds weakened substantially last week, suggesting that Greenspan’s conundrum may have been resolved.  [![Tlt0303](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/tlt0303.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/tlt0303.gif) This chart of the 20+ year Treasury Index shows an ominous curving down of the 30 week average.  In addition, the ten week average is below the 30 week for the first time since September, 2004.  The recent peak in this index is very close to the prior peak in June, 2003–a double top? The shorter term bond indexes have similar ominous charts.  Just when everyone agrees that the Fed has failed to drive long term rates up, will the Fed suddenly prevail?
+
+Housing stocks continue to decline, and their demise may be just the first of the consequences of higher interest rates. Is it too late to short housing–or is this the beginning of a decline? [![Housing0303](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/housing0303.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/housing0303.gif) The chart of the residential housing index looks to me as if it is completing the right shoulder of a head and shoulders top.  A close below 1705 would indicate  a major top and a decline to come. If I were a betting man, I would come down on the bearish side of this one.  If housing goes, what will happen to the rest of the economy?  We need to watch our indicators and charts very closely during this critical ninth inning of the economic recovery….
+
+Please send your comments to:  [silentknight@wishingwealthblog.com](mailto:silentknight@wishingwealthblog.com).

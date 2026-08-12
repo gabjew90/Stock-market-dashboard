@@ -1,0 +1,12 @@
+---
+url: https://wishingwealthblog.com/2007/11/gmi-1-gmi-r1-trend-is-down-in-cash-or-short/
+date: '2007-11-12T00:01:00'
+post_id: 288
+title: 'GMI: 1; GMI-R:1; Trend is down; in cash or short'
+---
+
+Don’t try to fight the tide.  The GMI (and GMI-R) is now one and the QQQQ is in its *first* day of a short term down-trend (D-1). [![Gmi1109](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/2007/11/11/gmi1109.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/2007/11/11/gmi1109.gif) (Click on chart to enlarge.) The QQQQ as well as the SPY are now below their 10 week averages.  I rarely make money trading growth stocks when the QQQQ is below its 10 week.  In addition, the Worden T2108 indicator is now at 26%, in bearish territory but not low enough to be in bottoming territory. The major indexes are now all in down-trends.  And it looks to me like this decline is just beginning, not near its end.
+
+This chart shows changes in the GMI over the past few months.  [![Gmiperf1109](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/2007/11/11/gmiperf1109.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/2007/11/11/gmiperf1109.gif) (Click on chart to enlarge.)  Note that the QQQQ has just broken below its 30 day average (red line) and that the 10 day average (blue dotted line), while declining, has yet to close below the 30 day.  Looking back to the decline last August we can see a lot more damage then than now.  While there is no guarantee that the current decline will last as long as the one last August, it could be worse.  Under these conditions it makes no sense to be long stocks.  Look how long we had last September to jump on board the up-trend, well after the August bottom.  It makes much more sense to wait for a bottom to be in place before committing funds.  Trend followers follow trends, they do not, cannot, anticipate them.  To fight this down-trend by owning stocks is to be reduced to the level of gambling.  Much better, and more likely to profit, is to wait and jump on the train once it has turned.
+
+[![Blogdisclaimer](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/2007/11/11/blogdisclaimer.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/2007/11/11/blogdisclaimer.gif)

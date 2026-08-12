@@ -1,0 +1,14 @@
+---
+url: https://wishingwealthblog.com/2009/10/ibd-100-list-top-ten-do-outperform/
+date: '2009-10-12T07:00:06'
+post_id: 2058
+title: IBD 100 list top ten stocks do outperform!
+---
+
+From time to time I attend stock meet-ups and listen to members opine about how useless the IBD 100 lists are.   People just like to denigrate things without examining the evidence and these untruths tend to get passed on unchallenged.   Each Monday, IBD publishes a list   of the top 100 growth stocks that meet their technical and fundamental criteria.   I feel a lot more confident buying stocks on this list because IBD’s stock selection criteria are based on analyses of their comprehensive database of the best stocks over the past 100 years.   Imagine that–they actually analyzed the characteristics of past market winners to design an empirically based system for selecting winners BEFORE they take off.   Because human trading psychology is pretty stable, one can discern lasting technical   patterns (which are really trading decisions)   that are characteristic of winning stocks.
+
+So, one of the exclamations that I have heard from   self-proclaimed experts is that by the time that a stock gets to the top of the IBD 100 list, it is too late to trade it for a profit.   The table below shows this assertion to be nonsense, at least   for the top ten stocks on the list published on
+
+August 3, 2009.   [![Screen shot 2009-10-11 at 3.41.28 PM](https://www.wishingwealthblog.com/wp-content/uploads/2009/10/Screen-shot-2009-10-11-at-3.41.28-PM-300x237.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2009/10/Screen-shot-2009-10-11-at-3.41.28-PM.jpg)70% of these ten stocks that were at the top of the IBD 100 list outperformed the QQQQ and SPY, through last Friday.   (TYH, the ultra 3x technology ETF,   went up 25% during this period, again showing the advantage of riding these ETF’s over individual stocks. ) While it is true that some of these 10 stocks declined before they recovered, it is clear that many of them ended up doing quite well over the past 50 days after August 3.   A similar analysis of the top ten stocks from the list published on July 27 also showed that 70% beat these two averages. The best 2 were CISG (+28%) and FUQI (+26.8%), with NTES again being the one loser (-4%).   It looks to me like the top ten stocks on the IBD100 list   may be worth investigating for potential buys….
+
+Meanwhile, the GMI is at 5 and the GMI-R is at 9.   A lot of stocks are breaking out as we go into option expiration this Friday.     [![GMI1009](https://www.wishingwealthblog.com/wp-content/uploads/2009/10/GMI1009-300x233.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2009/10/GMI1009.jpg)It never ceases to amaze me how the pundits focus on questioning   the viability of the up-trend instead of riding it until it ends. When they all do jump on the bandwagon, it will probably be time to get defensive.

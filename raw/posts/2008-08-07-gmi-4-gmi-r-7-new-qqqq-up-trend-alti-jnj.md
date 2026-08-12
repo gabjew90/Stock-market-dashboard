@@ -1,0 +1,14 @@
+---
+url: https://wishingwealthblog.com/2008/08/gmi-4-gmi-r-7-new-qqqq-up-trend-alti-jnj/
+date: '2008-08-07T07:55:05'
+post_id: 105
+title: 'GMI: 4; GMI-R: 7; New QQQQ up-trend; ALTI, JNJ'
+---
+
+For the first time since June 17, the GMI is 4 (of 6); the GMI-R is 7 (of 10).  In addition, the QQQQ completed day one of a new short term up-trend, U-1.  My longer term indicator for QQQQ remains in a down-trend.  So, this may be a tradeable bounce. There is no way to determine how long it will last.  It just means to me that I can tiptoe into this market on the long side and play the up-trend until it ends.  I am buying some QLD and taking on some small positions in other strong stocks (RIMM, AFAM, BABY, BAX)….
+
+A few weeks ago, my smart stock picking, bottom fishing friend, Judy, called and said I should buy ALTI.  ALTI makes special batteries and she liked the concept.  She got in around $1.80.  I told her I was unwilling to buy anything during the down-trend, and  that I do not typically buy cheap stocks.  (I made an exception with her prior pick, CPST, that went from $1 to $4 and topped out.)  Well, ALTI closed at $2.72 on Wednesday, and in the after hours I bought some.  I ignore Judy's calls at my peril.  Of course, there is no guarantee that ALTI will continue rising, but they did announce a new defense department contract yesterday……
+
+I have learned from past bear markets that when they end, people are most confident about buying defensive, tried and true businesses.  After the new bull market is evident to everyone and people have some profits under their belts, they buy the more speculative stocks.  So, given the apparent new up-trend, what stock is more safe to buy than JNJ? ![Jnj](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/.a/6a00d8341c7f8253ef00e553eea4bd8834-320pi "Jnj")
+
+As this monthly chart shows, JNJ has just broken out of a 3 year consolidation to a new all-time high.  I bought some.  But, the most interesting thing was that because of the  stock's low volatility, I could buy a long term January, 2009 deep in-the-money LEAP call option for just a few cents of time premium.  So, instead of putting down about $7,100 to buy 100 shares, I purchased the right (not the obligation) to buy 100 shares of JNJ at $55.00 per share for about $1,620.  Thus, until January 16, I control about $7,000 worth of stock for only about 23% of the cost.  Where else can you buy a stock with the equivalent of 23% down without taking on a margin loan and paying interest!  (I even do this in my IRA!) Even better, in the highly unlikely event that JNJ is selling at $0.00 at option expiration in January, the most I can lose is the cost of the option, about $1,620.  If you don't understand what I have written, it may be worth your while to read up on buying in-the-money call options to buy stock at a discount.  Lee Lowell's  *Get Rich with Options*, has a great chapter on this technique.

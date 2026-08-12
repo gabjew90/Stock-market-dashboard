@@ -1,0 +1,16 @@
+---
+url: https://wishingwealthblog.com/2006/06/gmi-1-shame-on-ibd-and-jim-cramer/
+date: '2006-06-08T00:01:00'
+post_id: 565
+title: 'GMI: +1; Shame on IBD and Jim Cramer!'
+---
+
+The GMI rose on Wednesday to +1 because 50% of the 23 stocks that hit a new high ten days ago closed higher on Wednesday than they closed ten days earlier. However, with such a small number (14) of successful 10 day highs, this indicator is still weak and could turn negative on Thursday again.  There were 30 new highs and 72 new lows in my universe of 4,000 stocks.  Only 20% of the Nasdaq 100 stocks closed above their 30 day averages.  [![Gmi0607](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/gmi0607.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/gmi0607.gif) Between 36-41% of the stocks in the Nasdaq 100, S&P 500 and Dow 30 indexes advanced on Wednesday.  The QQQQ has closed below its 10 week average for the fourth week.  The QQQQ has been in a short term down trend for nineteen (D-19) days………..
+
+Shame on IBD!  On Wednesday, after weeks of claiming that the market was in a rally, IBD wrote that, "Today’s Market Pulse notes that the market is in a downtrend, which has been the case for nearly a month."  IBD is a great newspaper, but they should have the integrity to admit that they have been repeatedly wrong on the market’s recent trend.  However, the GMI and my indicators have been calling the down trend for 19 straight days……………
+
+Perhaps IBD is smarting from the terrible performance of the IBD 100 stocks.  [![Ibd0607_1](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/ibd0607_1.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/ibd0607_1.gif) While 38% of my universe of stocks advanced on Wednesday, only 30% of the IBD 100 rose.  More of my universe of stocks closed above their 10 day (32% vs. 16%) and their 30 day averages (26% vs. 18%).  Note that since this IBD 100 list was published on 5/15, only 14% of these stocks have risen.  Thus, 86% of the IBD 100 stocks have declined or gone nowhere, along with the market……
+
+Note also that more of my universe of stocks are within 5% of their yearly lows than highs (14% vs. 11%).  What this adds up to is that the market has been in a significant decline where it has been relatively easy to make money, as long as one stayed with the short trend.  My puts have done nicely during this period (see my post on 5/24 for an example of one of my shorts).  People short change themselves (no pun intended) to only trade on the bull side of the market.  Buying puts in an IRA (or taxable account) is one way to take advantage of the market’s decline while limiting potential losses.  We have all been brainwashed into avoiding the short side of the market.  Shame on Jim Cramer, who used to short the market while running his hedge fund, but refuses to advocate that his CNBC audience short stocks.  He and the other media pundits instead encourage people to try to find those rare stocks that can rise against the trend.  Why not take the easy way and trade the 80%+ of stocks that go with the major market trend…………………….
+
+Please send your comments to:  [silentknight@wishingwealthblog.com](mailto:silentknight@wishingwealthblog.com).

@@ -1,0 +1,13 @@
+---
+url: https://wishingwealthblog.com/2006/11/gmi-6-ibd-100-stocks-not-outperforming-macd-bearish-divergence-hans-has-had-it/
+date: '2006-11-13T00:01:00'
+post_id: 472
+title: 'GMI: 6; IBD 100 stocks not outperforming: MACD bearish divergence; HANS has
+  had it?'
+---
+
+The GMI is still at the maximum of 6 and the trend remains up.   [![Gmi1110_1](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/gmi1110_1.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/gmi1110_1.gif) 67% of the Nasdaq 100 stocks rose on Friday, along with 68% of the S&P 500 and 53% of the Dow 30 stocks.   There were 115 successful 10 day new highs (stocks that hit a new high 10 days ago that closed higher on Friday than 10 days ago) and 183 new highs in my universe of 4,000 stocks.   Friday was the 60th day in the current QQQQ up-trend and that index has closed above its 10 week average for 13 consecutive weeks.   The only serious cloud on the horizon, partially reflected in the GMI-S reading of 75, is that the MACD statistics of the QQQQ, DIA ans SPY   ETF’s have failed to hit new highs   with their indexes.   This bearish divergence is a troubling sign and I am ready to move quickly if the GMI should weaken.   [![Ibdperf1110](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/ibdperf1110.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/ibdperf1110.gif)
+
+The IBD 100 stocks have been doing about as well as the Nasdaq 100 stocks recently.   Note, however, that only 44% of the stocks on the list published on 10/16 closed higher on Friday than they did of the day the list was published.   Only 5 of those stocks hit a new high on Friday.
+
+As you know, I do not fight the market trend.   However, I think we should watch a real juicy short developing.   After rising for three years, I think HANS looks like it is about to roll over.   Take a look at this   weekly chart. After months where the 10 week average (dotted line) was above its 30 week average (red line), the 10 week average is now below the 30 week which is curving down.   At the bottom you can see the big red spikes representing high volume selling.   I wonder when the bad news will come out.   If I were inclined to fight the general market trend, I would be buying put options on HANS in my IRA…….. [![Hans_1](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/hans_1.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/hans_1.gif)

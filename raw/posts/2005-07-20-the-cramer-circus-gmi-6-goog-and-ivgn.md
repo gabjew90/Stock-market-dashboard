@@ -1,0 +1,14 @@
+---
+url: https://wishingwealthblog.com/2005/07/the-cramer-circus-gmi-6-goog-and-ivgn/
+date: '2005-07-20T22:30:00'
+post_id: 765
+title: 'The Cramer Circus; GMI: +6; GOOG and IVGN'
+---
+
+Did you see the Cramer Circus tonight?   It was   a live show complete with a hand picked audience filled with shouting fans and extreme adulation for JC.   Elmer Gantry could not have done better.   I   attended a speech by Jim Glassman around 2000, soon after he had published his book, DOW 36,000, in which he made the “rational” case for the bull market to exceed that figure. I remember thinking that if there ever was a sign of a bull market top, this was it.   And so I felt today.   It may not come tomorrow or this month or next month, but the Cramer show today smacked of froth and irrational exuberance.
+
+We now know why the short term interest rate indicator rose and the closed end bond funds I wrote about declined   earlier in the week.   Alan is committed to more interest rate hikes.   It is my experience that when the market stops worrying about the higher rates and believes the economy can tolerate them, the bottom falls out of the market.   I think we are getting near that point.   Alas, October is always a good month for the market to bottom.
+
+But I wait for the GMI to detect the change in trend.   And right now things are fine at a steady +6.   [![Gmi720](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/gmi720.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/gmi720.gif) There were 250 successful 10 day new highs today and a whopping 423 new highs in my universe of 4,000 stocks.   One in ten stocks hitting a 52 week high–hmmm.   There were 10 new lows.   69% of the Nasdaq 100 and S&P 500 stocks rose today, along with 60% of the DOW 30 stocks.   This is day nine (U-9) of the QQQQ rally.
+
+With EBAY’s stellar earnings release tonight, GOOG appears ready to take off toward that well expected $350 level.   Heaven help us if its earnings disappoint tomorrow. [![Ivgn](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/ivgn.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/ivgn.gif) By the way, I added more IVGN today. As this monthly chart shows, IVGN topped out in 2000 at 99.50 after a rapid run-up, declined until early 2003 and rallied and peaked again around $82 in 2004.   It began a new rally in August, 2004 and has recently broken through the   $82 prior 2004 peak.   [IVGN’s](http://finance.yahoo.com/q/pr?s=IVGN) earnings have been up triple digit.   The company provides supplies to many biotech companies. I think IVGN provides a way to ride the biotech boom without depending on new drug discoveries to power the stock.

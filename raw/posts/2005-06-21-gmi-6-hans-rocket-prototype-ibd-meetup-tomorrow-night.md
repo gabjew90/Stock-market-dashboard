@@ -1,0 +1,12 @@
+---
+url: https://wishingwealthblog.com/2005/06/gmi-6-hans-rocket-prototype-ibd-meetup-tomorrow-night/
+date: '2005-06-21T21:55:00'
+post_id: 784
+title: 'GMI: +6; HANS-rocket prototype; IBD Meetup tomorrow night'
+---
+
+It was another positive day, with 213 successful 10 day new highs, the most in weeks. (See archive post on 4/26 for indicator definitions.)   Buying stocks at new highs has been profitable.   In fact, the median increase in the 213 stocks that hit a new high 10 days ago and rose is 3%, with 24% of them increasing 4% or more and the top 11 rising 9-23%.   The largest gainer was SWN, up 23% in the past 10 days, followed by CNQ, up 18%, both energy stocks.[![Gmi621](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/gmi621.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/gmi621.gif) The GMI remains at +6.   There were 168 new highs today (in my universe of almost 4,000 stocks) and only 15 new lows.   The Nasdaq 100 did better today than yesterday with 44% of its stocks rising, compared to 40% of the S&P 500 and 33% of the Dow 30 stocks. This is day 32 of the up trend (U-32).   The percentage of stocks closing above their 10 week average declined 2 points, to 78%…………………………………
+
+Check out HANS, one of the most consistent risers of this market. [![Hans2](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/hans2.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/hans2.gif) (Click on weekly chart to enlarge.)    It broke to a new high today.   Note that HANS has not closed below its rising 10 week average (dotted line) since October 2004.   This is the prototype of a rocket and you might want to compare all of your potential purchases to this chart.   A shrewd investor could have bought HANS anytime since October, 2004, placed a stop below its 10 week average, moved it up as it rose, and never lost any sleep over the stock.   He didn’t have to wait for a base to form or for a bounce.   In my opinion, this is the sanest way to trade.   Too simple?   Check it out on the runs of past winners (for example TASR, 6/03-4/04)…………………………………………..
+
+Tomorrow night is the IBD Meetup group meeting. It will be interesting to see if the members have rebounded.   Last month’s meeting, you will remember, consisted of only 3 persons and the low turnout was a wonderful contrary indicator.   When traders won’t even meet to talk about the market, a rally is imminent.

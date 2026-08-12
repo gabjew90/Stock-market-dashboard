@@ -1,0 +1,12 @@
+---
+url: https://wishingwealthblog.com/2007/10/gmi-4-gmi-r-5-techs-show-strength-mainly-in-cash/
+date: '2007-10-22T00:01:00'
+post_id: 302
+title: 'GMI: 4; GMI-R: 5; Techs show strength; Mainly in cash'
+---
+
+The GMI fell to 4 (of 6)  and the GMI-R is now at 50%.  There were more than twice as many new lows than new highs in my universe of 4,000 stocks (226/91) on Friday, an ominous sign.[![Gmi1019](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/2007/10/21/gmi1019.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/2007/10/21/gmi1019.gif)   Many of the new lows are banks, apparel companies and trucks, possible indications of a slowing economy. Less than one half (47%) of the Nasdaq 100 stocks closed above their 30 day averages, a level not seen since late last August.  I should have noticed earlier last week that there are now 3 times as many bullish advisors than bearish advisors in the latest poll, with over 60% being bullish–almost at the 5 year high.  Finally, the Worden T2108 indicator is now at 44%, down from 82% and suggesting to me that this market pendulum is falling out of the bullish range.  All of these may be signs of some type of a top in the market.
+
+On the other hand, the tech stocks,  as indicated by the Nasdaq 100 index remains in an up-trend.  And the put/call ratio on Friday broke 1.00 (1.08) indicating that 108 puts were traded for every 100 calls.  This is a sign that options players are getting bearish, at least short term, a good contrary signal.  And we are approaching a seasonally strong end-of-year period for the market. This decline could set up a nice year-end rally. So, maybe Monday will bring a reversal to the up-side, after the hysterics and media pundits realize that 2007 is not 1987.
+
+So what to do?  Almost all of my covered call stocks were exercised and bought out this weekend.  So, I am left with a lot of cash.  With the markets so volatile, I prefer to stay in cash and write more calls at the end of October.  I am willing to forfeit some additional premium in order to gain a little more clarity on where this market is heading.  I will also consider closing out my QLD position early this week if the QQQQ fails to show sustained strength.  I know the market climbs a wall of worry, but this wall appears to be lined with barbed-wire and land mines.

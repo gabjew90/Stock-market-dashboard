@@ -1,0 +1,14 @@
+---
+url: https://wishingwealthblog.com/2009/01/ibd100-stocks-at-new-highs-gmi-2-gmi-r-6-t2108-72/
+date: '2009-01-02T00:01:00'
+post_id: 10
+title: 'IBD100 stocks at new highs; GMI: 2; GMI-R: 6; T2108: 72%'
+---
+
+The markets showed some life on the last days of trading for 2008.
+
+The GMI remains at 2 (of 6), but the more sensitive GMI-R is now a 6 (of 10). The last time the GMI-R was at 6 was on August 28.   And the Worden T2108 indicator is now at 72%, not far from the 80% level where advances tend to end.   The last time the T2108 was this high was last May, before the start of the summer swoon.   However, in June of 2003 when the market took off after the 2002 bottom, the T2108 did get up to 92+ during the first market rebound.   So this rise could have more to go.   Meanwhile, there were more new highs than lows (26 vs. 24) in my universe of 4,000 stocks on Wednesday.   The last time new highs exceeded new lows was September 2nd, just before the market fell off of a cliff.   The QQQQ completed the 16th day of its current short term up-trend on Wednesday. So, the market technicals have strengthened considerably. I am ready to nibble a little, but would prefer a GMI over 3 to really wade in…..
+
+I love down markets because the winners become much easier to spot.   If a stock can be trading near its all-time high after the market action of the past year, it might have a lot going for it when the entire market rises.   I therefore scan the market each night for stocks at new *highs* and look to see if they are also near their all-time high.   Such stocks have no crowd of persons waiting to sell out at higher prices to recoup prior losses in that stock.   If one   wants to find a rocket to the moon, here is where they reside, not among the new lows–vehicles falling back to the earth.   I am particularly interested in stocks that IBD has included among its IBD100 lists in their Monday editions.   IBD100 stocks have both strong fundamentals and technicals.   If an IBD100 stock hits a new high, I don’t worry about its fundamentals–IBD has already approved them.   So,   10 of the 26 stocks at new highs (not all are at all-time highs) on Wednesday were on my IBD100 watchlists from the prior year.
+
+These are:   EBS,GTIV, NCIT,CWT, SJI,ALGT,SXCI,SHEN,LPHI,and THOR.   (I own many of these.)   My trading performance improved substantially once I started reading IBD years ago, and   I have found many winners among the IBD100 stocks.   If this rally holds, I suspect that some of the above stocks will be among the new market leaders.   The way I trade them is to take a small position, place a sell stop to limit any loss, and average up (never down) with more buys if the stock continues rising.   I am hoping to ride a trend that lasts for months, not days.   I therefore have plenty of time to accumulate my position.

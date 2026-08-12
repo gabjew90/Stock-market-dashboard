@@ -1,0 +1,14 @@
+---
+url: https://wishingwealthblog.com/2006/09/gmi-6-nasdaq-100-stocks-outperform-ibd-100-stocks-nibbling-at-goog/
+date: '2006-09-18T00:01:00'
+post_id: 511
+title: 'GMI: 6; Nasdaq 100 stocks outperform IBD 100 stocks; Nibbling at GOOG?'
+---
+
+The GMI has been 6 for the past four sessions.  [![Gmi0915](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/gmi0915.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/gmi0915.gif) 51-60% of the stocks in the Nasdaq 100, S&P 500 and Dow 30 indexes rose on Friday.  There were 227 new yearly highs in my universe of 4,000 stocks.  In addition, there were 112 successful 10 day new highs, indicating that buying new highs has likely to have been profitable.  Friday was the 20th day in the current QQQQ up-trend.  81% of the Nasdaq 100 stocks closed above their 30 day average, compared with 71% of my stock universe.  Thus, tech stocks are a little stronger.
+
+Nevertheless, the performance of the IBD 100 stock lists has been spotty.  Only 23% of the stocks on the list published on 5/15 closed higher on Friday than they closed on 5/15.  Furthermore, only 49% of the stocks on the list published on 8/14 have closed higher.  Thus, the majority of the IBD 100 stocks have closed lower since they closed on the lists published on these dates.   The IBD 100 stock index performance published by IBD is heavily biased upward by the fact that each week they delete from the index (and its computation) as many as 20% of the worst performing stocks.  (Why compute such an unstable index?) In comparison, on Friday, 89% of the Nasdaq 100 stocks closed higher on Friday than on 8/14.  So the Nasdaq 100 stocks are vastly outperforming the IBD 100 stocks????!!!!!
+
+I am looking at GOOG as a possible buy.  Technically and fundamentally GOOG looks very interesting to me.  A few weeks ago it looked like GOOG was ready to decline.  Its 30 week average (red line) appeared to be reversing down.  But last week the stock showed signs of life with a rise above its 30 week average on increased volume.   [![Goog0915](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/goog0915.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/goog0915.gif) The stock closed near its weekly high and right up against its descending trendline.  The fundamentals aren’t shabby either, last quarterly earnings +98% and a PE ratio of only 55.  Maybe GOOG’s chart  is revealing buying by insiders and institutions who expect more good earnings from this giant on October 19.  If this tech rally lasts, GOOG could have a huge move, given this consolidation that dates back to the beginning of this year.  I just might nibble at this stock if it can break through this trendline…….
+
+Please send your comments to:  [silentknight@wishingwealthblog.com](mailto:silentknight@wishingwealthblog.com).

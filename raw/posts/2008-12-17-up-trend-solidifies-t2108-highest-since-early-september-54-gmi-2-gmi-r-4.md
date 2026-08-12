@@ -1,0 +1,9 @@
+---
+url: https://wishingwealthblog.com/2008/12/up-trend-solidifies-t2108-highest-since-early-september-54-gmi-2-gmi-r-4/
+date: '2008-12-17T07:58:15'
+post_id: 20
+title: 'Up-trend solidifies; T2108 highest since early September (54%); GMI: 2; GMI-R:
+  4'
+---
+
+The GMI and GMI-R are back to 2 and 4, respectively.  The QQQQ short term up-trend has continued for 6 days, and typically an up-trend lasts for a while after it passes 5 days.  The Worden T2108 indicator climbed 22, to 54% and is now at its highest level since September 2nd.  73% of Nasdaq 100 stocks closed above their 30 day average, the most since August 28th.  This market continues to gain technical strength.  I find that I must tune out the media, who are embracing  an ever declining bear market.  Last weekend I became optimistic after studying my charts and then became very anxious when I listened to the Fox channel business shows on Sunday morning.  The pundits tend to drive with their hands on the rear view mirror. The truck/car is moving up and I am slowly jumping aboard.  I can always jump off when it changes direction.  I am gradually accumulating the ultra long index ETF's, QLD and DDM. Two of the stocks on my IBD 100 lists hit a new high yesterday, [CWT](http://seekingalpha.com/article/110941-california-water-service-continues-to-trade-at-peak-levels?source=yahoo) (a water stock) and [ALGT](http://finance.yahoo.com/q/pr?s=ALGT) (I own some).  In addition, it looks like all of the cash secured puts I wrote about several posts ago will expire on Friday unassigned, and highly profitable for me.  In early January I will consider selling a new batch of cash secured puts. My university pension funds will remain in cash until the longer term trends turn up. Until they do, I consider this to be a short term rally within a solid down-trend.  But short term rallies are tradeable for me……

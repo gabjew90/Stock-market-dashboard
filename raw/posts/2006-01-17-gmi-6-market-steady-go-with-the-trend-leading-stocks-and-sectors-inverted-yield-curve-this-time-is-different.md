@@ -1,0 +1,19 @@
+---
+url: https://wishingwealthblog.com/2006/01/gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different/
+date: '2006-01-17T00:01:00'
+post_id: 650
+title: 'GMI: +6; Market steady; Go with the trend; Leading stocks and sectors; Inverted
+  yield curve–this time is different?'
+---
+
+The market held its own on Friday and the GMI stayed at +6.  [![Gmi0113](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/gmi0113.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/gmi0113.gif) There were only 154 new highs in my universe of 4,000 stocks, the least of any day last week.  74% of the 91 stocks that hit a new high ten days ago closed Friday above their close ten days earlier.  So buying new highs 2 weeks ago tended to be profitable. But only 7% of the stocks that doubled in the past year hit a new high on Friday.  The up trend completed its seventh day (U-7) and 65% of all stocks are in a short term up trend.  This number is not far from the maximum percentage (68%) reached since I began counting it last April.  Three quarters (76%) of all stocks closed above their ten week averages and the QQQQ has closed above its 10 week average for the past ten weeks.  One third of all stocks are within 5% of a yearly high.
+
+The WPM shows minimal changes since last week.  All five indexes closed above their 30 day and 30 week moving averages. [![Wpm0113](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/wpm0113.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/wpm0113.gif) And 60% or more of their component stocks closed above their 30 day and 30 week averages.  Thus we have a pattern of a strong up trend, short term and longer term.  In such a market the odds of success strongly favor being long stocks.
+
+Since the QQQQ closed above its ten week average on October 18, the index has climbed 13.4%.  During this period 86% of the Nasdaq 100 stocks have advanced, with 42 of the stocks advancing more than 14%, and the top 20 stocks advanced between 27-64%.  The top five gainers were: AAPL (64%), JOYG (60%), GOOG (54%), JDSU (52%) and MNST (51%).  Equally impressive, during this same period, 88% of the S&P 500 stocks rose, along with 87% of the Dow 30 stocks.  Over and over again, we find that by trading consistent with the trend of the key market averages, we have considerable odds of profiting.  The trend is your friend…….
+
+So what industry groups did the best in this period?  Semiconductor-memory chips (+48%), Drug Delivery (+40%); Major Airlines (+34%); Oil & Gas Equipment and Services (+33%); Computer Peripherals (+31%)and Gold (+31%).  In the leading semiconductor-memory chips group the stocks over $10 that climbed the most were RMBS  (+173%) and NETL (+55%)….
+
+While this market remains in an uptrend, I am still troubled by the persistent rise in my short term interest rate indicator.  [![Irx0113](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/irx0113.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/irx0113.gif) This weekly chart of the index shows that it has been on a steady rise since June, 2004 and has broken to new highs the past two weeks.  There is no sign of a plateau in short rates.  I am concerned about what this suggests about future Fed activity and the possibility of an inverted yield curve.  The market cannot climb an inverted wall of interest rates.  We may be at the point when the seers will claim, "but this time is different."  If so, hold onto your wallets and your profits when this earnings rally ends………..
+
+Please send your comments to:  [silentknight@wishingwealthblog.com](mailto:silentknight@wishingwealthblog.com).

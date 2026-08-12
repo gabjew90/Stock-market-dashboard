@@ -1,0 +1,15 @@
+---
+url: https://wishingwealthblog.com/2013/04/qqq-short-term-up-trend-may-end-head-and-shoulders-top-back-in-play-sell-in-may/
+date: '2013-04-07T22:00:15'
+post_id: 4152
+title: QQQ short term up-trend may end; head and shoulders top back in play; Sell
+  in May?
+---
+
+I wrote on Friday morning that the QQQ short term up-trend may falter. More important, after 13 weeks, the QQQ has now closed the week below its critical 10 week average.   In contrast, the SPY completed its 14th week above its 10 week average. I have found it difficult to make money on the long side with tech stocks when the QQQ closes below its 10 week average. In fact, this weekly chart of the QQQ shows that the QQQ may be completing the right side of a [head and shoulders top pattern](http://stockcharts.com/school/doku.php?id=chart_school:chart_analysis:chart_patterns:head_and_shoulders_t).   A few weeks ago it looked like the index was moving above this region, signified by the blue horizontal line, but it has come back down.   We can see that the QQQ is now below the 10 week average (blue dotted line) and the critical 30 week average (red line) may be starting to curve down–a very ominous sign.   The QQQ is about where it was at the formation of the left shoulder last March, for a yearly gain of zero! A *close* below its 30 week   average (currently 66.81) would lead me to get very defensive on QQQ and IBD type stocks.   But it is best for me to wait for a definitive breakdown and not to anticipate one that may never materialize. Even if this is not a classic head and shoulders top, a failure of the rebound that began last November will likely lead to considerable short term weakness.
+
+[![wklyqqq40052013](https://www.wishingwealthblog.com/wp-content/uploads/2013/04/wklyqqq40052013-300x209.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2013/04/wklyqqq40052013.jpg)
+
+Meanwhile, IBD still sees the general market up-trend under pressure, and the GMI-2 is now at 3, reflecting short term weakness. The   GMI remains on the buy signal issued on February 28 and is at 5, but the QQQ short term trend could turn down with another weak day on Monday. The QQQ short term up-trend reached its 24th day on Friday. The Worden T2108 is at 48%, in neutral territory. Only 32% of the Nasdaq 100 stocks closed with their MACD above its signal line, also reflecting short term weakness. However, with the SPY and DIA still showing strength, this is a split market and very difficult   to trade. I remain 100% invested long in mutual funds in my university pension where I cannot trade often.   I am largely in cash in my trading accounts. If the QQQ continues to weaken I may buy some QID or SQQQ in my trading accounts and bet on weakness in the QQQ. We are getting close to the ominous [Sell in May](http://en.wikipedia.org/wiki/Halloween_indicator) period.
+
+[![GMI04052013](https://www.wishingwealthblog.com/wp-content/uploads/2013/04/GMI040520131-300x296.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2013/04/GMI040520131.jpg)

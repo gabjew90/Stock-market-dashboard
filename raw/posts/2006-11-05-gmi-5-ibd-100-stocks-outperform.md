@@ -1,0 +1,10 @@
+---
+url: https://wishingwealthblog.com/2006/11/gmi-5-ibd-100-stocks-outperform/
+date: '2006-11-05T21:38:36'
+post_id: 477
+title: 'GMI: 5; IBD 100 stocks outperform'
+---
+
+The GMI rose to 5, as 39% of the Nasdaq 100 stocks advanced on Friday along with 33% of the S&P 500 and 20% of the Dow 30 stocks.   [![Gmi1103_1](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/gmi1103_1.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/gmi1103_1.gif) There were 104 new yearly highs in my universe of 4,000 stocks. However, only 49% of the Nasdaq 100 stocks closed above their 30 day averages, down from a high of 88% on October 16.   The Daily QQQQ index is very close to turning negative.   The next few days will tell the story.   Last week I lightened up on my weaker stocks and was stopped out of several.   It pays to be defensive when the indexes decline so much.   However, the QQQQ up-trend completed its 55th day and the QQQQ has closed above its 10 week average for 12 straight weeks. During this time the QQQQ has advanced 8.7% and 69 of the Nasdaq 100 stocks have advanced, 41 of them are up 10% or more.   In the same period, 74% of the S&P 500 stocks advanced, 30% rose more than 10%.   So, the time since August 16 has been good to those of us who went long.
+
+On Friday, the IBD 100 type stocks outperformed the Nasdaq 100 tech stocks.   [![Ibdperf1103](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/ibdperf1103.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/ibdperf1103.gif) 58-69% of the stocks in four recent IBD 100 lists advanced on Friday, compared with only 39% of the Nasdaq 100 tech stocks.   None of these lists has many new highs, however.   The statistics in this table suggest that most stocks closed on Friday below their prices when the IBD 100 lists were published.   It will be interesting to see whether Friday’s relatively stronger performance suggests that traders will be buying the stronger growth stocks in the next few weeks…..

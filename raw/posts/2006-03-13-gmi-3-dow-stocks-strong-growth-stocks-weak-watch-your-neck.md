@@ -1,0 +1,10 @@
+---
+url: https://wishingwealthblog.com/2006/03/gmi-3-dow-stocks-strong-growth-stocks-weak-watch-your-neck/
+date: '2006-03-13T00:01:00'
+post_id: 612
+title: 'GMI: +3; Dow stocks strong, growth stocks weak; watch your neck'
+---
+
+The GMI weakened on Friday to +3.  I was pretty worn down by the large drops in growth stocks last week.  [![Gmi0310_1](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/gmi0310_1.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/gmi0310_1.gif) I did not realize until this weekend that the IBD growth mutual fund index has been below its 50 day average for much of last week.  So subtract one point from the GMI for each day last week.  The bottom line is that if the growth mutual fund managers cannot do well buying growth stocks, neither can I.  Friday was the fourth day in the short term decline in the QQQQ.  Still, 67% of the Nasdaq 100 stocks advanced, along with 82% of the S&P 500 stocks and 93% of the Dow 30 stocks.  The GMI-S rose a little to 38, although all of the QQQQ indicators remain negative.  The small and mid cap stocks had been a ray of sunshine in this market.  But as the WPM shows, these stocks weakened last week.  [![Wpm0310](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/wpm0310.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/wpm0310.gif) The QQQQ, MDY and IJR indexes all closed below their 30 day averages, as did the majority of their component stocks.  Only the DIA stocks strengthened last week.  Nevertheless, all five indexes and their component stocks remained above their longer term 30 week averages.  A market like this is so divided and trendless, that it may be better to be on the sidelines.  But with everyone pointing out the head and shoulders top in the QQQQ, we could be fooled by a surprise rally in the tech stocks this week.  We just shouldn’t stick our necks out too far.
+
+Please send your comments to:  [silentknight@wishingwealthblog.com](mailto:silentknight@wishingwealthblog.com).

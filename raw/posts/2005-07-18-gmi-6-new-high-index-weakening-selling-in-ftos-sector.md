@@ -1,0 +1,12 @@
+---
+url: https://wishingwealthblog.com/2005/07/gmi-6-new-high-index-weakening-selling-in-ftos-sector/
+date: '2005-07-18T23:27:18'
+post_id: 767
+title: 'GMI: +6; new high index weakening; selling in FTO’s sector'
+---
+
+The GMI remains at +6.   [![Gmi718](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/gmi718.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/gmi718.gif) However,   the 10 day new high index was weak.   Only 103 (56%) of the 183 stocks that hit a new high 10 days ago closed higher today than they closed 10 days ago.   Both Darvas and O’Neil have written that when breakouts to new highs begin to fail, the market may be topping.   Only 28% of the Nasdaq 100 stocks rose today, 30% of the S&P 500 stocks and 17% of the Dow 30 stocks.   On the other hand, there were 130 new highs and only 8 new lows today.   We are in the 7th day of this up trend in the QQQQ.   I am not worried yet, but I am watching my stocks more closely and not adding to positions.
+
+Just for fun, I ran a scan of stocks that seemed to be breaking down today below their 30 day average.   I was surprised to find a lot of closed end funds that invest in bonds, especially municipal bonds.   Are long term interest rates finally going to rise, ending Alan’s conundrum? [![Irx718_1](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/irx718_1.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/irx718_1.gif) Look at this chart of the short term interest rate indicator.   It just keep rising, suggesting that at least near term rates are headed higher.   Here are some examples of interest rate related stocks that appeared in my scan today:   MUA, MVF, MYD, MQT, NXZ, NPX, NPM, NPT, PMX, PMF.   Most of these are bond funds.   Why are they breaking down?   Maybe some of you have some ideas about this pattern of declines?
+
+I would also watch out for the oil and gas refining stocks.   Note the recent high volume selling in FTO, one of the strongest stocks in the group. [![Fto](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/fto.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/fto.gif) Other stocks with high volume declines include IMO, GI, IOC, SU, MRO.   Is oil finally topping out or is this just a rest–   caveat emptor!

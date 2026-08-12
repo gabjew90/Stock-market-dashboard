@@ -1,0 +1,14 @@
+---
+url: https://wishingwealthblog.com/2011/03/gmi-dives-to-1-in-cash-and-inverse-etfs/
+date: '2011-03-11T06:47:09'
+post_id: 2833
+title: GMI dives to 1; in cash and inverse ETF’s
+---
+
+The GMI declined to 1; the only positive indicator remaining is the  WishingWealth Weekly QQQQ Index, which is still in a Stage 2 up-trend.   But even the IBD Mutual Fund Index is now below its 50 day average, showing that the growth mutual funds are weakening.   The QQQQ short term down-trend is now 3 days old (D-3). The last time the GMI was this low was August 31, at the end of a decline just before the big rally began in September. But the market has now rallied for seven months.
+
+All of us look smart when the trend is up and our trades are profitable.   Now we must accept that our trading gains the past 2 years have been largely the result of a rising market.   “A rising tide raises all ships.”   Well, the tide is going out now and our job is to conserve capital.   I should not be long now, anymore than it made sense to be short during the market’s rise.   A lot of media pundits have been looking for a market correction so they can buy more stocks at lower prices.   Such sentiment is a negative signal.   The market tends to bottom when the pundits report that stocks are going down and should be down. So, this could be the beginning of a major decline—or it could end today.   The point is no one knows how long a decline will last.   So, the key is to protect capital by being in cash or riding the down-trend with short positions or by buying inverse ETF’s. (My long term university pension funds remain invested in mutual finds.)
+
+[Inverse ETF’s](https://www.wishingwealthblog.com/2009/02/the-new-3x-etfs-triple-your-pleasure-or-pain/) rise as the relevant index declines.   So, one no longer needs to short individual stocks when one can ride a decline by buying an inverse index ETF.   Among the inverse index ETF’s   and how they performed in Thursday’s decline are QID (+3%), SQQQ (+4.6%), SDS (+3.8%), DXD (+3.7%), DOG (+1.9%), SH (+1.9%) , PSQ (+1.6%). The reason some of these rose much more than others is because they are *leveraged* ultra short ETF’s designed to   rise 2-3X more than their underlying index declines.   Just keep in mind that the leveraged inverse ETF’s also fall more quickly when their relevant index rises.   So, I therefore begin to *slowly* accumulate one of these inverse indexes when the short term trend turns down. It is also possible in uncertain times to hedge one’s long stock positions by buying one of these inverse ETF’s, in case the market should decline. Check out the inverse ETF’s by entering their symbol at the [Yahoo finance site](http://finance.yahoo.com/q?s=sqqq&ql=1).
+
+[![](https://www.wishingwealthblog.com/wp-content/uploads/2011/03/SQQQ03102011-300x212.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2011/03/SQQQ03102011.jpg)

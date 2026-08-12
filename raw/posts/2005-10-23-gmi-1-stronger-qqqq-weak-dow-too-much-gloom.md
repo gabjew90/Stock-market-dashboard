@@ -1,0 +1,14 @@
+---
+url: https://wishingwealthblog.com/2005/10/gmi-1-stronger-qqqq-weak-dow-too-much-gloom/
+date: '2005-10-23T23:28:00'
+post_id: 705
+title: 'GMI: +1; Stronger QQQQ–weak Dow, Too much gloom'
+---
+
+The GMI is still at +1.  [![Gmi1021_2](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/gmi1021_2.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/gmi1021_2.gif)  But there were some signs of strength last week.  On Friday, 68% (19/28) of the stocks that hit a new high 10 days ago closed higher than they closed 10 days earlier.  Still, this represented only 19 successful 10 day highs.  There were 60 new highs on Friday and 96 new lows.  More than one half (51%) of the 183 stocks that doubled in the past year closed above their 30 day averages, indicating support for the strongest stocks.  And 42% of the Nasdaq 100 stocks closed above their 30 day averages, up from 21% on October 12.  9% of the stocks in my universe of 4,000 stocks are now within 5% of their yearly highs.
+
+The greater strength in the Nasdaq 100 stocks is also apparent in this week’s WPM.  [![Wpm1021](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/wpm1021.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/wpm1021.gif) The QQQQ ([the Nasdaq 100 ETF](http://www.marketwatch.com/tools/etfs/html-profile.asp?symb=qqqq&siteid=mktw)) is the only index of 5 that is still above its 30 week average.  Moreover, 42% of its components stocks are above their 30 day averages, and 47% are above their 30 week averages.  The QQQQ stocks are therefore showing both short and longer term support.  In contrast, the Dow stocks are the weakest group and may lag the market in the next rally. Don’t judge the market by the Dow 30’s action.
+
+Last week, [Mark Hulbert](http://www.marketwatch.com/news/story.asp?dist=&param=archive&siteid=mktw&guid=%7B61DAA0E4%2DA16A%2D4009%2D94B6%2D3F67D0F8507E%7D&garden=&minisite=) published an article stating that the investment newsletter writers’ sentiment is extremely bearish.  In the past, such readings were found at market bottoms.   There are just too many bears for comfort, and we are entering the end of year period when the market tends to rally.  In the past, when I became so frustrated with losses that I abandoned the market (like the present), the market often turned.  Thus, in spite of the GMI ‘s being stuck at +1, I am looking to buy promising Nasdaq type stocks, especially if the QQQQ reclaims its 30 day average tomorrow.  Among the stocks that my scan for strong stocks came up with are:  PSYS, WCC, SMTS, KNDL, NDAQ, URBN and VIVO.
+
+Please send me your feedback at: [silentknight@wishingwealthblog.com](mailto:silentknight@wishingwealthblog.com).

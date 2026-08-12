@@ -1,0 +1,15 @@
+---
+url: https://wishingwealthblog.com/2007/05/gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls/
+date: '2007-05-22T19:38:23'
+post_id: 375
+title: 'GMI: 6; No longer post daily-but when GMI changes; the ideal boomer strategy–writing
+  covered calls?'
+---
+
+I have found that posting daily takes too much time and is not really necessarily.  I have a full-time job and have developed a trading strategy that aims for gains over weeks, not days.  It is not necessary and is, perhaps, detrimental to take the pulse of the market too often.  I have therefore decided to post less often and to post at a minimum whenever the GMI changes.  A doctor can gain an idea of my health by checking my blood pressure or lipids, etc. on an infrequent basis.  Imagine how many wrong decisions would be made if these measurements were taken minute by minute of even daily.  For me, the larger trend of the market is what I need to know to trade successfully.
+
+For example, the GMI has been 6 since April 3.  During that period the Nasdaq 100 stock index has risen 6.5% and 69%  of its component stocks have advanced; 45% are up 5% or more. By focusing on the GMI, I could have had a 69% chance of picking a winning stock–that is the odds I get from trading individual stocks when following the longer market trend.  Roughly 70-80% of stocks follow the relevant market averages.  The QLD,  the [Proshares Ultra QQQQ ETF](http://www.proshares.com/funds/qld/2671651.html) that attempts to double the performance of the QQQQ, advanced 12.3% in this same period. By trading the QLD, I do not have to hope that I have picked a winning individual stock–during this period the QLD outperformed 76% of the Nasdaq 100 stocks.  Thus, only 24 of the Nasdaq 100 stocks did better.  I like the odds of trading the QLD, rather than individual stocks, in an up-trending market, as indicated by the GMI….
+
+Because I am a boomer and have acquired a sizable trading capital in my IRA, I have become more conservative lately in trading growth stocks.  I am now reluctant to pile into a break out stock and assume the risk of a sudden down-turn.  I have therefore been training myself in the **relatively** **conservative** strategy of selling one month covered calls on stocks I own that are in an up-trend.  Using this method I write a few calls in many different up-trending stocks so that I limit my risk. Applying this method in  a rising market, I have been able to achieve returns of 2-4% **each month–**five to ten times the .4% monthly returns I get by leaving my money in a money market fund.  On option expiration day most of my stocks are called away and I get to reassess the market trend and select individual stocks for new writes.  If it is true that 70-90% of all options expire worthless each month, why not behave like the casino and take in the option buyers (bettors) money into our IRA’s?   Like any trading strategy, this not the Holy Grail, and requires study and on the job training. Leave a comment if you want me to post more about this best kept secret.
+
+See my prior post for my important disclaimers.

@@ -1,0 +1,12 @@
+---
+url: https://wishingwealthblog.com/2006/11/gmi-6-qld-outperforms-even-the-ibd-100-goog-to-take-off/
+date: '2006-11-20T00:01:00'
+post_id: 467
+title: 'GMI: 6; QLD outperforms even the IBD 100; GOOG to take off?'
+---
+
+The GMI remains at 6.   Only 42% of the Nasdaq 100 stocks advanced on Friday, along with 41% of the S&P 500 stocks and 57% of the Dow 30 stocks.   [![Gmi1117_3](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/gmi1117_3.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/gmi1117_3.gif) There were 172 new 52 week highs in my universe of 4,000 stocks.   Friday was the 65th day in the current QQQQ up-trend.   The GMI-L and GMI-S are   both at 100, indicating that long and short term indicators for four indexes are positive. Since this up-trend began on 8/16, the QQQQ has advanced 14.8% and the Ultra QQQQ ETF, QLD, has advanced 29.3%.   As I have been saying all along, by just riding the QLD, one would have beaten 90% of the Nasdaq 100 stocks and 95% of the S&P 500 stocks.   In fact, only 14 of the IBD 100 stocks from 8/14 advanced more than the QLD.   What a way to ride an up-trend by just jumping aboard the QLD! And the volatility (and risk) of the QLD is far less than that of individual stocks.
+
+The IBD 100 stocks have been performing better of late.   [![Ibdperf1117](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/ibdperf1117.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/ibdperf1117.gif)The majority of the stocks in the recent IBD 100 lists have closed above their average closes of the last 30 days. With the exception of the list from 5/16, the majority of the stocks on the lists closed higher on Friday than when the list came out.   Note that the stocks on today’s list had 11 new highs on Friday and 88% of them closed above their 30 day averages.   New lists are apparently skewed towards stocks that have been rising in the past month.   It will be interesting to see how the stocks on today’s list do towards the end of the year.
+
+By the way, GOOG had a hard time getting above $500 last week.   Is it possible that traders wanted to hold the November 500 calls below 500?(so they would expire worthless)   It will be interesting to see if GOOG takes off now that option expiration is over……

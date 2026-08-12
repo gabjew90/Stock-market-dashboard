@@ -1,0 +1,13 @@
+---
+url: https://wishingwealthblog.com/2008/03/gmi-1-gmi-r-1-50th-day-of-qqqq-down-trend-dgly-cup-with-handle/
+date: '2008-03-17T00:01:00'
+post_id: 200
+title: 'GMI: 1; GMI-R: 1; 50th day of QQQQ down-trend; DGLY, cup-with-handle?'
+---
+
+The GMI is one (of 6) and the GMI-R is one (0f 10).  Friday was the 50th day of the current short term QQQQ down-trend.  On Friday, there were 64 new highs and 304 new lows in my universe of 4,000 stocks.  The number of new lows remains  fewer than the number reached the prior Friday ( 504) and last January at the lows (1,453).  The Worden T2108 indicator is at 27%, above the low reading of 19% on March 10.  A reading of 19% is low enough to maybe constitute a market bottom, at least for now.  24% of the Nasdaq 100 stocks closed Friday above their 30 day averages, up from 10% on Wednesday.  On January 23rd this statistic bottomed out at 10% with the market. So, in spite of the volatility we experienced last week, the market seems to be holding.  But with the GMI and GMI-R at one, the Nasdaq 100 index remains in a confirmed down-trend, now in its 50th day.  Since I labeled this down-trend on January 3, the QQQQ has declined 16.5%.  During that time, 82% of the Nasdaq 100 stocks have declined, as have 78% of the S&P 500 stocks and 83% of the Dow 30 stocks.  It clearly does not pay to fight the market trend!  I either go short in a down-trend or stay safely in cash.
+
+Still, I cannot resist looking for the next possible rocket stock to break out if this market should strengthen later this month (see my prior post).  I scanned the market using [TC2007](http://www.worden.com) this weekend and discovered a stock that appears to be forming a nice cup-with-handle base (outlined in yellow) after a sharp up-trend.[![Dgly](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/2008/03/16/dgly.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/2008/03/16/dgly.gif)  
+(Click on chart to enlarge.)  If DGLY should trade above the pivot point (about 7.85) with a large increase in volume, I  just might be tempted to  take a chance. I found an [article](http://seekingalpha.com/article/67578-digital-ally-microcap-with-explosive-appeal?source=yahoo) that talked about the company’s huge recent increase in sales and have added this company to my watch-list.  In this market environment, it will pay to wait for a high volume breakout before I bite.
+
+[![Newdisclaimer](https://www.wishingwealthblog.com/wp-content/uploads/migrated/wishingwealth.typepad.com/report/images/2008/03/16/newdisclaimer.gif)](http://wishingwealth.typepad.com/.shared/image.html?/photos/uncategorized/2008/03/16/newdisclaimer.gif)

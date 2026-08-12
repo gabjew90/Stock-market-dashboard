@@ -1,0 +1,13 @@
+---
+url: https://wishingwealthblog.com/2010/03/with-ipad-debut-on-the-horizon-aapl-shines-tech-up-trend-continues-but-qld-beats-most-ibd100-stocks-again/
+date: '2010-03-29T07:00:54'
+post_id: 2179
+title: With iPad debut on the horizon, AAPL shines; Tech Up-Trend Continues, but QLD
+  beats most IBD100 stocks again
+---
+
+Well, we will finally see if the iPad success is already built into the stock’s price.   While a lot of pundits think that the stock is over priced, a look at the monthly chart suggests to me that the stock has just broken out of a 2 year base.   This stock may have a long way to go now that it is at an all-time high.   I concentrate my buys on stocks that are at their all-time highs because there is no overhead supply of stock from sellers who bought at higher levels who are trying to get out.   Think about it, AAPL has come back from   the major declines of 2000-2002 and 2008.   That is a display of amazing strength.   It was the great Nicolas Darvas who taught me to buy stocks at all-time highs.   The monthly chart below
+
+says it all (click on to enlarge).   [![](https://www.wishingwealthblog.com/wp-content/uploads/2010/03/AAPL03262010-300x198.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2010/03/AAPL03262010.jpg)After consolidating for 5 months near its all-time high, AAPL has finally broken out.   While there is no guarantee with stocks, most stocks that act this way have a long way to advance.   Look how AAPL climbed in 2007, once it broke out.   The iPad comes out next weekend and we shall see if iPad mania propels the stock. (I own it.)……..
+
+Meanwhile, the GMI and GMI-R remain at their maximum values.   Some of my indicators have receded, though.   The Worden T2108 Indicator is now at 79%, down from 86% on Wednesday.   And only 46% of Nasdaq 100 stocks closed with their daily MACD (12/26/9) above its signal line, down from the 80’s last week.   Friday was the 26th day of the current QQQQ short term up-trend (U-26), by my definition.   During that time, the QQQQ has risen 7%, while the ultra long QQQQ ETF (QLD) has advanced almost 15% and TYH has advanced 13%.   During that same period, only 17% of the stocks on the IBD100 list published on 2/22 rose more than QLD did.   Again, I learn that it may be better to just ride the ultra index ETF’s than to try to find the few stocks that will beat it. The next time my QQQQ short term trend indicator turns down, I will probably go short QQQQ with the ultra bear ETF, QID. [![](https://www.wishingwealthblog.com/wp-content/uploads/2010/03/GMI03262010.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2010/03/GMI03262010.jpg)

@@ -1,0 +1,12 @@
+---
+url: https://wishingwealthblog.com/2009/06/stage-2-bullish-up-trend-in-sight-some-darvas-type-stocks-to-watch/
+date: '2009-06-22T08:00:40'
+post_id: 1865
+title: Stage 2 bullish up-trend in sight; Some Darvas type stocks to watch
+---
+
+The market held by the end of last week and I am getting more bullish.   This is because we appear to be at the beginning of a significant turn up in the QQQQ.   According to Weinstein’s stage analysis, the QQQQ is beginning a Stage 2 up-trend, as shown by the fact that its 30 week average is now starting to curve up.   This is the *sine qua non (*I went to Boston Latin School*)*  of a bull move. Weinstein’s stage analysis (note his classic book, to the lower right) is the most important way for me to determine the trend of individual stocks and the general market.   By staying out of the market during aStage 4 declines (like the one we just finished) one can put the odds in favor of one’s portfolio’s long term growth.   The GMI, which includes this measure from stage analysis, remains at 4 (of 6).
+
+And the more sensitive GMI-R is at 6 (of 10).  [![GMI0619](https://www.wishingwealthblog.com/wp-content/uploads/2009/06/GMI0619-300x267.GIF)](https://www.wishingwealthblog.com/wp-content/uploads/2009/06/GMI0619.GIF) The recent weakness in tech stocks is evident in that only 16% of the Nasdaq 100 stocks now have their MACD above their signal lines.   And the Worden T2108 Indicator is down to 60%, in neutral territory.   But the QQQQ has been above its 10 week average for 14 weeks, and the SPY for 13 weeks.   To me, this is a real up-trend that I can ride.   So, I will accumulate QLD , the Ultra long QQQQ ETF, that strives to move 2x the QQQQ.   I might also nibble at TYH, a 3x bull tech stocks ETF…
+
+In terms of individual stocks, I like the way HMSY and SYNA behaved last week and I own some of each.   I ran this weekend my “Darvas Scan” for stocks that I think have the fundamental and technical characteristics that the great trader Nicolas Darvas wrote about.   Among the stocks I identified are:   STEC, VIT, SYNA, HMSY, ARST, SXCI, BWY, NPK, PEGA.   My strategy is to make a pilot buy, place a sell stop at a technical point where I think I am proved wrong, and to add to my position only if the stock rises from my first purchase.   The idea is to take many small losses when I am wrong and to concentrate my money only   in a stock which is moving up as I anticipated.   I only buy growth stocks this way when the general market trend appears to be turning up, as now…………

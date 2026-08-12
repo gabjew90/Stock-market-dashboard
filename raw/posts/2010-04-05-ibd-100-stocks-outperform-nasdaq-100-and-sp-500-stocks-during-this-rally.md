@@ -1,0 +1,10 @@
+---
+url: https://wishingwealthblog.com/2010/04/ibd-100-stocks-outperform-nasdaq-100-and-sp-500-stocks-during-this-rally/
+date: '2010-04-05T07:00:07'
+post_id: 2183
+title: IBD 100 Stocks Outperform Nasdaq 100 and S&P 500 Stocks During This Rally
+---
+
+I wrote on [February 10th](https://www.wishingwealthblog.com/2010/02/ibd-100-top-10-stocks-get-trounced-in-market-decline/) that during January’s decline, the IBD100 stocks got “trounced.”   Well, I just looked at the performance of IBD100 stocks during the current rally.   The table below shows that the stocks on the IBD 100 list published on February 22nd have clearly outperformed the stocks in the Nasdaq 100 and S&P500 indexes in the same period. [![](https://www.wishingwealthblog.com/wp-content/uploads/2010/04/PERFOF1BD100022220101-299x131.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2010/04/PERFOF1BD100022220101.jpg)While it is true that about 60% of the stocks in the three groups have advanced at least 5% since 2/22, the IBD 100 stocks have clearly advanced more.   42% of them rose 10% or more compared with just 27% of the Nasdaq 100 stocks and 33% of the S&P 500 stocks.   And the IBD 100 stocks were much more likely to have advanced 20% or more (12% vs. 3-6%).   As we have noted before, IBD   100 type growth stocks tend to outperform during up-trends and to underperform during down-trends when traders take profits.
+
+The GMI remains at 6/6 and the GMI-R at 10/10.   Their short and longer term indicators continue to be positive.   [![](https://www.wishingwealthblog.com/wp-content/uploads/2010/04/GMI04012010-300x232.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2010/04/GMI04012010.jpg)Last week was the 5th week that the SPY and QQQQ index ETF’s closed above their 10 week averages.   Thursday was the 30th day of the current short term up-trend in the QQQQ. The Worden T2108 Indicator is at 83%, not yet seriously overbought. And only   32% of the Nasdaq 100 stocks had their MACD above its signal line. So, I remain long and continue to ride the up-trend. With first quarter earnings due to come out this month, volatility will probably increase.

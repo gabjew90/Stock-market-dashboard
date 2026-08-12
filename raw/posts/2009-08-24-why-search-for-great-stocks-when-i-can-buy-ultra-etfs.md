@@ -1,0 +1,18 @@
+---
+url: https://wishingwealthblog.com/2009/08/why-search-for-great-stocks-when-i-can-buy-ultra-etfs/
+date: '2009-08-24T08:00:31'
+post_id: 2002
+title: Why search for great stocks when I can buy ultra ETF’s?
+---
+
+I spend so much time trying to find the right growth stock that will outperform the market.   Now that we have the extreme ultra (3x) ETF’s it may be preferable to trade them.   An ultra ETF is a basket of leveraged stocks or futures that attempts to outperform the relevant index.   Since I like to trade tech stocks, I focus on the NASDAQ 100 index, which escaped some of the carnage last year because it contains no financial stocks.
+
+I could simply buy the QQQQ ETF when I think the market is in an up-trend.   In this way, I do not have to pick individual stocks but am invested in the 100 stocks in the NASDAQ 100 index.   Lately, stocks tend to explode or implode when earnings are announced.   Because the QQQQ represents 100 stocks, there is less impact from individual earnings announcements.   If I want to place a leveraged bet on the QQQQ I can even trade options on that ETF.
+
+Enter the Ultra QQQQ ETF, QLD which attempts to double (2X) the bullish performance of the QQQQ.     While there is no 3X ETF for the QQQQ, there is a bullish tech 3X tech ETF, TYH.   (There are also analogous bearish ETF’s for those betting on a decline in these stocks, which I will not discuss today.)   Keep in mind that since these ultra ETF’s are leveraged securities, they can move more quickly in both directions–up or down.
+
+So, if I am betting on an up-trend I could buy any one of these ETF’s to make money as tech stocks go up.   The table below compares how one would have done by buying each of these ETF’s during the rally that began after 7/14 through 8/21.
+
+I was somewhat astonished by the findings. During this period, the QQQQ increased about 13%.   The Ultra 2x ETF, QLD, advanced 27% and the 3x tech ETF, TYH, advanced 42%.   I expected these types of results if the ultra ETF’s were performing as intended.     [![QQQQ COMPARISON](https://www.wishingwealthblog.com/wp-content/uploads/2009/08/QQQQ-COMPARISON-300x137.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2009/08/QQQQ-COMPARISON.jpg)But what surprised me was how poorly I might have done if I had tried to do better by buying individual NASDAQ 100 component stocks.   About 57% of the NASDAQ 100 stocks rose more than the 13% that the QQQQ ETF did. So I would have had a better than even chance that the stock I bought would do better than the standard ETF.   However, only 19% of the NASDAQ 100 stocks beat the 2X ETF, QLD, and only 5% beat the 3X ultra tech ETF, TYH.   The odds of one of my stocks beating the ultra ETF’s were quite low!   IF I can be right on the trend, and the GMI guides me here, it seems that I can have much better odds of a good gain by buying the ultra ETF’s–and with less impact from earnings surprises.   Now, I know that you are thinking that we all could do better by not   limiting ourselves to the NASDAQ 100 stocks, but I suspect the odds of success from buying individual stocks   would still be   lower than buying the ultra ETFs……
+
+Meanwhile the trend remains up, according to my indicators. The GMI is at 4 and could turn 6 with an up day on Monday.   It is curious to me that rather than enjoying the party, people prefer to worry about how long it will last.   I will ride this trend until it ends. [![GMI0821](https://www.wishingwealthblog.com/wp-content/uploads/2009/08/GMI0821-300x265.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2009/08/GMI0821.jpg)

@@ -1,0 +1,8 @@
+---
+url: https://wishingwealthblog.com/2008/04/gmi-4-gmi-r-7-23rd-day-of-qqqq-short-term-up-trend-buying-qld-and-dzz/
+date: '2008-04-25T00:01:00'
+post_id: 172
+title: 'GMI: 4; GMI-R: 7; 23rd day of QQQQ short term up-trend; Buying QLD and DZZ'
+---
+
+The GMI remains at 4 (of 6) and the GMI-R  at 7 (of 10).  There were 51 new highs and 84 new lows in my universe of 4,000 stocks on Thursday.  My GMI and GMI-R will rise when there are at least 100 new highs and more new highs than lows in a day.  But the QQQQ short term up-trend remains intact, having completed its 23rd day.  I am confident enough of the short term trend to be buying stocks and accumulating QLD in my IRA.  Note, however, that I am careful to stress that the *short term* trend is up. My Weekly QQQQ Index remains negative, indicating that the longer term trend remains down.  So, this is a trade-able rally in an overall down-trend.  If the Weekly  QQQQ  Index turns positive, the GMI will turn 6 and I will move my university pension funds from a money market fund to a growth mutual fund.  I trade my university pension account much less often because there are limits to the number of trades I can make each year.  I therefore wait for the longer term up-trend to assert itself before I will transfer  from cash.  I have no such restrictions in my IRA, where I can move in and out of stocks quickly if my short term indicators should reverse. Right now I am comfortable riding QLD and a few stocks, some of which I have written calls on. I also own [DZZ,](http://www.marketwatch.com/news/story/new-deutsche-bank-etns-provide/story.aspx?guid=%7B74B66BFC%2D9A33%2D4AAA%2DB312%2DDE02DDA71842%7D&dist=TQP_Mod_mktwN) the new ultra short ETF on gold.

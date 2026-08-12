@@ -1,0 +1,8 @@
+---
+url: https://wishingwealthblog.com/2012/04/66th-day-of-qqq-short-term-up-trend-short-term-weakness-selling-weekly-options/
+date: '2012-04-02T07:00:40'
+post_id: 3483
+title: 66th day of QQQ short term up-trend; short term weakness; selling weekly options
+---
+
+Market remains in up-trend but IBD says “Uptrend under pressure.”   Until first quarter earnings are released later in April, there could be some weakness.   There is nothing to push the market up until strong earrings are reported.   The GMI and GMI-2 remain at 6 each.   But the short term indicators like MACD and stochastics are showing some weakness.  [![](https://www.wishingwealthblog.com/wp-content/uploads/2012/04/GMI03302012-300x291.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2012/04/GMI03302012.jpg) For example, only 44% of the Nasdaq 100 stocks closed with their MACD above its signal line.   And only 15% of the Nasdaq 100 stocks had their fast stochastics above the their slow stochastics.   These are signs of short term weakness. The Worden T2108 Indicator is at 54%, in neutral territory, but its trend is clearly down, reflecting weakness in the NYSE stocks. GLD continues to show weakness. And 66 days is relatively long for a short term up-trend. Nevertheless, with the GMI at 6, I remain fully invested in mutual funds in my university pension. In my trading account I have some longs but I prefer to write covered calls or sell cash secured puts on the *weekly* stock index options. The premium received from 4x a   weekly option is more than   the total premium for a monthly option. I like [selling weekly options](http://www.mycoveredcallwriting.com/top-five-reasons-to-sell-weekly-call-options.html).

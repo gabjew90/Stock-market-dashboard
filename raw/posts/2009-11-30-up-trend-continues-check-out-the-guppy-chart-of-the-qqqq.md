@@ -1,0 +1,12 @@
+---
+url: https://wishingwealthblog.com/2009/11/up-trend-continues-check-out-the-guppy-chart-of-the-qqqq/
+date: '2009-11-30T07:00:47'
+post_id: 2085
+title: Up-trend continues–check out the Guppy Chart of the QQQQ
+---
+
+I received few comments regarding my trading philosophy.   Does that mean you all agree with me?   Your comments really do make a difference and inspire me to continue this blog.   So, please keep them coming.   In a few weeks I will begin teaching two courses on TA at the University of Maryland.   I expect that many of my students will be following this blog and I will probably post more content.   The GMI is at
+
+5 and the more sensitive GMI-R is at 8.   [![GMI1127](https://www.wishingwealthblog.com/wp-content/uploads/2009/11/GMI1127-300x236.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2009/11/GMI1127.jpg)The QQQQ is in the 15th day of its recent short term up-trend.   However, as I wrote last week, the QQQQ’s stochastics were in a down-trend and are now low enough such that the QQQQ may be ready to turn up again.   What I have noticed, however, is that if I had ignored the short term trends and merely stayed long with the longer term trends I would have done much better with less stress.   The longer term trends   have been   in a solid Weinstein Stage 2 up-trend since last May.   My university pension has therefore grown nicely, as I have been invested in mutual funds since that time.   In my IRA, where I trade according to the short term trends, I have hopped in and out of the market and have done less well.   Jesse Livermore wrote that it took him a long time to learn that the big money is made in the big swing.   Once the up-trend has begun, get in and stay until it ends. The daily Guppy chart of the QQQQ below, (see Guppy’s book, to the lower right) clearly shows the start of the current   up-trend (and the prior down-trend).   Note that   all of the short term averages (in black) have been   above the long term averages (red) since March.   All of the long term averages are now rising.   It does not take a rocket scientist to see the change in trends.   Just watch the market’s behavior and ignore everything else–it’s that simple! (This strategy has kept me out of the market during all major declines since 1995.)
+
+[![GuppydailyQQQQ](https://www.wishingwealthblog.com/wp-content/uploads/2009/11/GuppydailyQQQQ.jpg)](https://www.wishingwealthblog.com/wp-content/uploads/2009/11/GuppydailyQQQQ.jpg)

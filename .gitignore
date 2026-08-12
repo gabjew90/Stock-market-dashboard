@@ -5,13 +5,13 @@ __pycache__/
 .venv/
 *.egg-info/
 
-# Scraped data (rebuildable via `ww scrape`; do not commit ~5k post files).
-# The curated half of posts.jsonl — tiers, summaries, ingested flags — is NOT
-# rebuildable by scraping, so it is committed separately as raw/ingest-ledger.jsonl
-# (`ww ledger export` / `ww ledger apply`).
+# The corpus (raw/posts/ + raw/posts.jsonl) IS committed: it is Layer 1, the
+# source of truth every wiki citation links into, and `ww lint` can only verify
+# those links when it is present. ~22 MB of markdown — worth it to make CI
+# checkouts and blocked-egress environments self-sufficient.
+# raw/api/ stays ignored: it is a redundant JSON cache of the same content,
+# re-fetchable with `ww scrape`.
 /raw/api/
-/raw/posts/
-/raw/posts.jsonl
 /data/index/
 
 # generated single-file site
