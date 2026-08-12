@@ -3,6 +3,10 @@ title: Timeline — evolution of the methodology
 type: history
 updated: 2026-08-12
 sources:
+  - raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md
+  - raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md
+  - raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md
+  - raw/posts/2011-09-19-3118.md
   - raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md
   - raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md
   - raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md
@@ -404,6 +408,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## September 2011 — behavior over words; the re-entry read
+
+**"GMI rises to 3; Market may be turning" (2011-09-19):** the behaviorist epistemics — "To understand human beings, one must concentrate on their behavior rather than their words. The same goes for the markets." Adviser-sentiment inversion (5% more bears than bulls among professionals) plus leader durability (AAPL within 1% of its ATH through the decline) as re-entry evidence; wading in, AAPL first. The point-move arithmetic priced through an option: "a 17 point move on one call option = $1,700." ([WW 2011-09-19](../../raw/posts/2011-09-19-3118.md))
+
+---
+
 ## April 2012 — GMI buy signal criterion stated; AAPL as ATH-breakout case study
 
 **"How I find the next AAPL growth stock" (2012-04-30):** Dr. Wish states his GMI buy signal criterion explicitly: GMI > 3 on two consecutive days. Uses AAPL's 2012 run to make the case for buying at all-time highs — AAPL hit new daily highs 65% of trading days in February 2012 alone. Monthly-chart multi-month consolidation breakouts (like PSMT) are his target. IBD 50 outperformance data published: median +20% vs NASDAQ 100 +15% vs S&P 500 +10% during the 2011–2012 rally. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
@@ -431,6 +441,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## June 2013 — 2-for-1 risk management method introduced; TQQQ +28.6% vs QQQ +9.4%
 
 **"Up-trend intact; 2-for-1 method for managing stock market risk" (2013-06-09):** Dr. Wish introduces the **2-for-1** position management method (traced to a Connors trading guide, via Powell's Books): (1) buy a position; (2) when the position gains enough to double your initial risk (i.e., gains twice the stop distance), sell half; (3) move the stop on the remaining half up to the original purchase price (breakeven); (4) result: locked-in gain and the remaining half protected from a loss. He states this helps students avoid the most common failure mode: watching a profit turn into a loss. Data from the February 28–June 7, 2013 GMI buy signal period: TQQQ advanced +28.6%, QQQ advanced +9.4%. Only 7 of the Nasdaq 100 stocks advanced more than 29%. "Do we want to spend (waste?) our time searching for the 7% of stocks that will out-perform just holding the TQQQ?" TSLA new-high count: "TSLA has hit a new high on 14 of 49 trading days" since its April 1 breakout — illustrating how true rocket stocks keep appearing on the new-high list. ([WW 2013-06-09](../../raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md))
+
+---
+
+## October 2013 (cont.) — the AAII talk: sleeping point; failed GLBs; GLD's Stage 4
+
+**"Saturday's Baltimore AAII meeting" (2013-10-13):** "sell down to the **sleeping point**"; the failed-GLB logic inverted into a sell-side signal ("when a new green line top is formed... I watch for an exit"), worked on GLD's 2011–2013 Stage 3→4 sequence; "I never hold a security that closes below its 30 week average"; the SPY-plus-stages simplification offered to non-traders; and a link to the December 2012 Worden webinar as the canonical strategy summary. ([WW 2013-10-13](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md))
 
 ---
 
@@ -628,6 +644,12 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 ---
 
+## March 2019 — buy on the daily, sell only off the weekly
+
+**"How I Avoid Getting Shaken Out of Strong Growth Stocks" (2019-03-15):** the anti-shakeout rule as a standing procedure — check the weekly before every sale; if the stock holds its rising 10-week average, hold. "While I may time the purchase of a stock based on its set-up of daily indicators, **I should only sell it after viewing its weekly chart.**" COUP as the hard test: two daily sell signals fired, the weekly said hold, he held. ([WW 2019-03-15](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md))
+
+---
+
 ## March 2020 — COVID crash: 2020 exit documented; "amputation without anaesthetics"
 
 **"Livermore: Amputation without anaesthetics" (2020-03-15):** written in real time at the start of the COVID crash. GMI had turned Red on February 26, 2020; Dr. Wish was already 100% cash weeks before this post. He identifies SPY as beginning a Weinstein Stage 4 decline (large weekly selling volume; only 3 weeks below the 30-week average). He explicitly does not call the bottom: "I do not care if I miss the bottom or the top. There is plenty of room to make money in between." He emphasizes the tax-deferred account note: IRA/401(k) holders can exit and re-enter without tax consequences. Livermore's "amputation without anaesthetics" quote from 1907 is cited. ([WW 2020-03-15](../../raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md))
@@ -637,6 +659,12 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 ## July 2020 — Bounce-off-support: green dot signal + stop below bounce low
 
 **"My bounce off of support strategy; DDOG, ETSY, NET, BAND, PLMR examples" (2020-07-19):** A detailed description of the bounce-off-support complementary entry strategy. The **green dot signal** — low fast stochastic crosses above slow stochastic in TC2000 — marks the end of an oversold pullback in an advancing stock. Once the green dot appears, place a GTC stop just below the recent bounce low — if the trade fails, the loss is kept small. Key insight: "The shake out often sets up a nice subsequent advance" because high-volume selling exhausts weak holders and sets up shorts. The advantage over a GLB entry: the stop is the bounce low, not the green line, so the entry-to-stop distance is narrower. Wait for the bounce to confirm — do not anticipate it. ([WW 2020-07-19](../../raw/posts/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md))
+
+---
+
+## September 2020 — the weekly doubler-ATH scan, syntax published
+
+**"10 doublers that last week reached an ATH on above average volume" (2020-09-20):** Darvas's criterion as a weekly TC2000 column scan with verbatim syntax (`H=maxH50; H>2*H50 or H>1.5*MinL50; V>1.3*AvgV50; C>20`) — 74 of 5,096; the monthly green line still drawn by hand afterwards; "Taser went up 7x, consolidated, and then went up 7x again"; and the note taped to the monitor: "I must look at the weekly chart before I sell." ([WW 2020-09-20](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
 
 ---
 
@@ -1003,3 +1031,7 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2015-07-26 — The warning four weeks before the flash crash](../../raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md) ([summary](../sources/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md))
 - [WW 2016-11-27 — The weekly consolidation-breakout scan; short interest as fuel](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md) ([summary](../sources/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md))
 - [WW 2005-06-08 — Put options as insurance: the 2005 original](../../raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md) ([summary](../sources/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md))
+- [WW 2019-03-15 — Buy on the daily, sell only off the weekly (COUP)](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md) ([summary](../sources/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md))
+- [WW 2020-09-20 — The weekly doubler-ATH scan, full syntax; the note on the monitor](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) ([summary](../sources/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
+- [WW 2013-10-13 — The sleeping point; failed GLBs as sell-side weakness; GLD Stage 4](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md) ([summary](../sources/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md))
+- [WW 2011-09-19 — Behavior over words; adviser-sentiment inversion; the point-move arithmetic](../../raw/posts/2011-09-19-3118.md) ([summary](../sources/2011-09-19-3118.md))

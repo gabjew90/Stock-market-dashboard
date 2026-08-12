@@ -3,6 +3,8 @@ title: Playbook — exits
 type: playbook
 updated: 2026-05-12
 sources:
+  - raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md
+  - raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
   - raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md
   - raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md
@@ -118,6 +120,26 @@ When the overall market turns against you, the individual-stock trailing rules m
 - [Moving-average rules](../methodology/moving-average-rules.md)
 - [Green Line Breakouts (GLB)](../methodology/green-line-breakouts.md)
 
+## The timeframe asymmetry: buy on the daily, sell only off the weekly
+
+The anti-shakeout rule, stated as a standing procedure: "**look at the stock's weekly chart
+before every sale** of a long position. If the stock is still holding its **rising 10 week
+average**, do not sell" — because "most of the time one gets shaken out of a good stock it is
+because there is a sudden drop below an indicator **on the daily chart**." The asymmetry in
+full: "while I may **time the purchase** of a stock based on its set-up of **daily** indicators,
+I should only **sell it after viewing its weekly chart**." The COUP example is a hard test — two
+of his own daily sell signals fired (an intraday green-line violation and an
+above-average-volume decline) while the weekly showed a bounce off the rising 10-week; he held.
+([WW 2019-03-15](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md))
+
+He enforces it physically: "**I have created a note on my monitor that says I must look at the
+weekly chart before I sell.**" ([WW 2020-09-20](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
+
+Note the tension this manages: the daily-RWB red-line exit (2017) and the weekly-first rule
+coexist as fast and slow exits — the daily system for extended winners where profit give-back
+is the risk, the weekly check where shakeout is the risk. His own words pick the weekly as the
+default for strong holdings.
+
 ## Sources
 
 - [WW 2017-12-17 — A strategy for deciding when to sell stocks; GDS, NVDA](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md) ([summary](../sources/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
@@ -130,3 +152,5 @@ When the overall market turns against you, the individual-stock trailing rules m
 - [WW 2016-11-20 — Weekly 4wk/10wk hold discipline; NTES and NVDA](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md) ([summary](../sources/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
 - [WW 2011-03-07 — Introducing the GMI2](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md) ([summary](../sources/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md))
 - [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
+- [WW 2019-03-15 — Buy on the daily, sell only off the weekly (COUP)](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md) ([summary](../sources/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md))
+- [WW 2020-09-20 — The weekly doubler-ATH scan, full syntax; the note on the monitor](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) ([summary](../sources/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))

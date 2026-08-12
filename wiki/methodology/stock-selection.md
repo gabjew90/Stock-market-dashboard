@@ -3,6 +3,8 @@ title: Stock selection
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md
+  - raw/posts/2011-09-19-3118.md
   - raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md
   - raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md
   - raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md
@@ -144,6 +146,11 @@ Worked examples: **BNTX**, flagged by the OSB scan on 2021-07-16 at ~$231, rose 
 
 *Note the direction of travel: 2011 $80 → 2018 $100 → 2021 $200. Each revision is upward and each is justified the same way (points, not percent; institutional sponsorship; room to pyramid). A reader applying the rule today should use $200; the earlier numbers are the audit trail, and the 2011/2018 scan results remain the only quantitative evidence he has published for any of the three.*
 
+**The point-move arithmetic, priced through an option:** AZO's $17 move in ten days — "I buy
+expensive stocks and trade on the point move, not the percentage move, and **a 17 point move on
+one call option = $1,700**." The 100-share multiplier is what converts the dollar-move doctrine
+into account performance. ([WW 2011-09-19](../../raw/posts/2011-09-19-3118.md))
+
 **How to access expensive stocks with limited capital:** Dr. Wish uses **deep in-the-money (DITM) call options** — near-month calls with 3–6 weeks to expiration that cost roughly 10–20% of the stock's price but move dollar-for-dollar with the stock above the break-even. He never uses this leverage to buy *more* shares than he could have afforded outright; the DITM option reduces capital outlay for the same effective share count, not a way to oversize the position. See [glossary: DITM](glossary.md) for the mechanics. ([WW 2011-07-25](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
 
 ## The RWB pattern — the visual filter for rocket stocks (introduced 2010)
@@ -166,6 +173,16 @@ For timing entries, Dr. Wish uses a **daily** RWB chart with the Red Line Count 
 Filter condition: any stock in the scan that is **not above its last green line top** is disqualified because of overhead supply from prior buyers at higher prices. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
 
 For market-wide assessment using the same tool: monitor QQQ, SPY, and DIA RLCs. In March 2017, SPY had RLC = 0 and the Dow Jones Transportation Average had lost its entire RWB pattern — a warning he flagged as a potential Dow Theory caution. ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
+
+## The weekly doubler-ATH scan (2020) — full syntax
+
+Darvas's doubled-in-a-year criterion operationalised as a weekly TC2000 column scan, syntax
+published verbatim: `H=maxH50` (52-week high this week); `H>2*H50 or H>1.5*MinL50` (doubled
+year-over-year, or 1.5× off the yearly low); `V>1.3*AvgV50` (breakout-week volume 130% of
+average); `C>20` ("I don't buy cheap stocks"). Yield: 74 of 5,096 US stocks, 25 of his 948-stock
+IBD/MS watchlist. The scan feeds the GLB step rather than replacing it — each survivor's
+*monthly* chart is opened and the green line drawn by hand. Best example of the doubling logic:
+"Taser went up 7x, consolidated, and then went up 7x again." ([WW 2020-09-20](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
 
 ## The weekly consolidation-breakout scan (2016) — and short interest as fuel
 
@@ -390,3 +407,5 @@ After a Boston IBD Meetup presentation in May 2025, Dr. Wish published the most 
 - [WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap; LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md) ([summary](../sources/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
 - [WW 2013-12-09 — Yes, one can time the market; the IBD50 downside test](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md) ([summary](../sources/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))
 - [WW 2016-11-27 — The weekly consolidation-breakout scan; short interest as fuel](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md) ([summary](../sources/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md))
+- [WW 2020-09-20 — The weekly doubler-ATH scan, full syntax; the note on the monitor](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) ([summary](../sources/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
+- [WW 2011-09-19 — Behavior over words; adviser-sentiment inversion; the point-move arithmetic](../../raw/posts/2011-09-19-3118.md) ([summary](../sources/2011-09-19-3118.md))

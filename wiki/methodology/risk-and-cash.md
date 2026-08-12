@@ -3,6 +3,8 @@ title: Risk & cash
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md
+  - raw/posts/2011-09-19-3118.md
   - raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md
   - raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md
   - raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md
@@ -289,7 +291,22 @@ It worked in practice during the 2007 up-trend: a +5% account month in September
 
 Two constraints. It is market-state dependent like everything else — the writes happen on stocks in up-trends, during GMI-Green periods. And by 2014 he had added an explicit exclusion: **do not sell calls on rocket stocks**, because capping the upside on the few large winners defeats the strategy that pays for all the small losses (see the GLD covered-call post, [WW 2014-02-23](../../raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md)). His own caveat: "Like any trading strategy, this not the Holy Grail, and requires study and on the job training."
 
+## Sell down to the sleeping point
+
+The portfolio-sizing version of the cash doctrine, from his AAII talk: "it is not a crime to get
+out of the market and to **sell down to the sleeping point** (when one is comfortable with one's
+portfolio risk)." Offered alongside the honest simplification for non-traders — "the best
+strategy for me might be just to own the SPY, using Stage Analysis to time entries and exits" —
+and the universal minimum: "**have an exit plan for every trade.**" ([WW 2013-10-13](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md))
+
 ## Contrarian sentiment is a bounce warning, not a re-entry trigger
+
+One professional-sentiment inversion *did* support re-entry: in September 2011 the Investors
+Intelligence poll showed ~5% more bearish advisers than bullish — "This rarely happens and the
+market often goes up when so many professionals have given up" — and he waded in (AAPL first),
+with leader durability (AAPL within 1% of its ATH through the decline) as the confirming
+evidence. The distinction from 2007: there the sentiment extreme argued only for a bounce inside
+a down-trend; here it coincided with indexes retaking their averages. ([WW 2011-09-19](../../raw/posts/2011-09-19-3118.md))
 
 In November 2007 four contrarian indicators lined up at once — put/call ratio at 1.19 ("a major contrary indicator suggestive of at least a short term bounce up"), openly bearish media pundits talking of depression, bearish bloggers tripling to over 60% in a sentiment poll he participated in, and the strongest bullish seasonal period beginning.
 
@@ -452,3 +469,5 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2011-08-15 — The August 2011 full exit; the addiction line](../../raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md) ([summary](../sources/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md))
 - [WW 2015-07-26 — The warning four weeks before the flash crash](../../raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md) ([summary](../sources/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md))
 - [WW 2005-06-08 — Put options as insurance: the 2005 original](../../raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md) ([summary](../sources/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md))
+- [WW 2013-10-13 — The sleeping point; failed GLBs as sell-side weakness; GLD Stage 4](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md) ([summary](../sources/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md))
+- [WW 2011-09-19 — Behavior over words; adviser-sentiment inversion; the point-move arithmetic](../../raw/posts/2011-09-19-3118.md) ([summary](../sources/2011-09-19-3118.md))

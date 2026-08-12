@@ -3,6 +3,7 @@ title: Green Line Breakouts (GLB)
 type: entity
 updated: 2026-08-12
 sources:
+  - raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md
   - raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md
   - raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md
   - raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md
@@ -267,6 +268,16 @@ any post ([reader-qa.md](reader-qa.md)):
    horizontal green line at a monthly high that has not been surpassed for three months (3 bars)"
    — by hand, per chart. ([WW 2018-04-01](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
 
+## The sell-side inversion: a new green line is a warning
+
+The GLB logic runs in reverse for holdings: "When a green line break-out fails, it is often a
+sign of technical weakness. Stocks should break through a green line top and keep rising. **When
+a new green line top is formed (after 3 months without breaking its all-time high), I watch for
+an exit.**" A stock that stalls long enough to *build* a fresh green line has stopped behaving
+like a rocket; if it then enters Stage 4, "I should be out of the security or short it" — worked
+on GLD's 2011–2013 top-to-Stage-4 sequence, with the standing rule "**I never hold a security
+that closes below its 30 week average.**" ([WW 2013-10-13](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md))
+
 ## A caveat on the GLB as an *entry*
 
 The GLB is load-bearing as an **identification** tool — it is how a rocket stock gets onto the list, and "above its last green line top" remains a filter on nearly every other setup he runs. It is weaker as an **entry trigger**, and he says so directly: after a failed CAVA breakout in July 2023 he wrote that he *prefers the [oversold bounce](oversold-bounce.md) setup over breakouts*, because a failed breakout has no naturally-defined stop while a bounce does. ([WW 2023-07-13](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
@@ -306,3 +317,4 @@ This is continuous with the 2016 [BOS](stock-selection.md) preference ("I actual
 - [WW 2026-05-10 — 5-day EMA post-GLB exit rule; 4wk>10wk>30wk up-trend confirmed 2026](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md) ([summary](../sources/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
 - [WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap; LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md) ([summary](../sources/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
 - [WW 2023-01-16 — How I trade a GLB: the close-below rule shown intraday](../../raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md) ([summary](../sources/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md))
+- [WW 2013-10-13 — The sleeping point; failed GLBs as sell-side weakness; GLD Stage 4](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md) ([summary](../sources/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md))

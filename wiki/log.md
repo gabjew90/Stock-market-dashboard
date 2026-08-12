@@ -1021,3 +1021,33 @@ Touched: `methodology/risk-and-cash.md` (3 new sections), `methodology/stock-sel
 (weekly consolidation scan), `methodology/glossary.md` (short interest ratio),
 `history/timeline.md` (4 sections), `index.md`; 4 new `sources/` pages.
 `ww lint .` clean; 194 tests pass; ledger 141 rows. Favorites remaining: 81.
+
+## [2026-08-12] ingest | the shaken-out rule and its enforcement — 4 posts, tier=teaching
+
+Closes the "how I avoid getting shaken out" gap named in review #1, and completes the
+weekly-first exit doctrine across three posts written over seven years.
+
+- **2019-03-15** — the rule itself: **buy on daily set-ups, sell only off the weekly.** "Look at
+  the stock's weekly chart before every sale... if the stock is still holding its rising 10 week
+  average, do not sell." COUP as the hard test: two of his own daily sell signals fired; the
+  weekly said hold; he held.
+- **2020-09-20** — the enforcement ("**I have created a note on my monitor** that says I must
+  look at the weekly chart before I sell") plus a scan the catalogue lacked, with **verbatim
+  TC2000 syntax**: `H=maxH50; H>2*H50 or H>1.5*MinL50; V>1.3*AvgV50; C>20` → 74 of 5,096.
+  Machine screen, hand-drawn green line afterwards — consistent everywhere now.
+- **2013-10-13** — the AAII talk: "**sell down to the sleeping point**"; the failed-GLB logic
+  inverted into a sell-side warning (a stock that *builds a new green line* is a candidate to
+  leave), worked on GLD's Stage 3→4; the SPY-plus-stages simplification; and a dated link into
+  the off-blog corpus (the December 2012 Worden webinar).
+- **2011-09-19** — the behaviorist epistemics in one line ("concentrate on their behavior rather
+  than their words — the same goes for the markets"); adviser-sentiment inversion as re-entry
+  evidence, distinguished from the 2007 bounce-only case; and the **point-move arithmetic priced
+  through an option**: "a 17 point move on one call option = $1,700."
+
+Also: `exits.md` now reconciles the fast daily-RWB exit with the slow weekly-first rule as two
+tools for two risks (give-back vs shakeout).
+
+Touched: `playbooks/exits.md`, `methodology/stock-selection.md` (doubler scan + point-move),
+`methodology/risk-and-cash.md` (sleeping point; 2011 sentiment case),
+`methodology/green-line-breakouts.md` (sell-side inversion), `history/timeline.md` (4 sections),
+`index.md`; 4 new `sources/` pages. `ww lint .` clean; 194 tests pass; ledger 145 rows.
