@@ -3,6 +3,7 @@ title: Moving-average rules
 type: entity
 updated: 2026-08-12
 sources:
+  - raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md
   - raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
@@ -282,6 +283,13 @@ The core rules have not changed. These posts confirm them as active practice:
 - [Stock selection](stock-selection.md) — RWB pattern; daily RWB scan; weekly green bar
 - [Exits (playbook)](../playbooks/exits.md)
 
+## The all-12-GMMA exit line
+
+The weekly Guppy chart can be read as a single total-exit trigger: "If QQQ (dotted line) declines
+below **all 12 GMMA averages**, lowest is currently at 269.55, then **it will be time to exit all
+positions**." Stated with a concrete price during the October 2020 pullback — the strictest form
+of the RWB-gone test, sitting below the red-line and 10-week exits in his ladder. ([WW 2020-10-04](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
+
 ## Consolidation is what health looks like
 
 Against 2014 punditry bemoaning a flat tape: "These indexes are all up over 30% since 2013 and
@@ -327,3 +335,4 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2018-03-25 — GMI Red March 2018; put/call contrarian; 30-week curve-down pension trigger](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md) ([summary](../sources/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))
 - [WW 2010-09-27 — Introducing Red White and Blue (RWB) Stocks](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md) ([summary](../sources/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
 - [WW 2014-05-26 — Stage Analysis as the pundit filter; timeframe as a life choice](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md) ([summary](../sources/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
+- [WW 2020-10-04 — The IBD screener workflow; the all-12-GMMA exit line](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md) ([summary](../sources/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))

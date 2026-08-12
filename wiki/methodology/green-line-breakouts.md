@@ -3,6 +3,8 @@ title: Green Line Breakouts (GLB)
 type: entity
 updated: 2026-08-12
 sources:
+  - raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md
+  - raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md
   - raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md
   - raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md
   - raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md
@@ -234,6 +236,15 @@ Run it on a ticker: `ww compute green-line MSFT` — Microsoft has set (and brok
 - [The oversold bounce (OSB / ATHOSB)](oversold-bounce.md) — the entry he prefers to the breakout moment
 - [Glossary](glossary.md) — green line, GLB, stage analysis
 
+## The close-below rule, justified by a case
+
+Why does the exit rule key on the *close* rather than any trade below the line? The ACLX example
+shows the failure mode the rule avoids: the day after its December 2022 GLB, ACLX "**traded below
+the green line but closed the day above it**. That is why I sell a GLB only if the stock
+***closes*** a day back below the green line." An intraday violation is noise; the close is the
+verdict. The same tutorial teaches the [OSB](oversold-bounce.md) as the standard alternative to
+buying the GLB day itself — wait for the black dot, stop below the bounce low. ([WW 2023-01-16](../../raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md))
+
 ## How the line is actually drawn (from the comment threads)
 
 Three clarifications he gave readers, which sharpen the definition above and are not stated in
@@ -252,6 +263,9 @@ any post ([reader-qa.md](reader-qa.md)):
    put in alerts for when a stock crosses the green line." ([WW comment 2013-09-28](https://wishingwealthblog.com/2013/09/#comment-14708))
    The detection is a manual chart-by-chart judgement; only the alerting is automated. This is
    worth stating plainly because the rest of his toolkit is heavily scan-driven.
+   Corroborated in a post as well as the comments: the ATH-watchlist workflow ends with "draw a
+   horizontal green line at a monthly high that has not been surpassed for three months (3 bars)"
+   — by hand, per chart. ([WW 2018-04-01](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
 
 ## A caveat on the GLB as an *entry*
 
@@ -290,3 +304,5 @@ This is continuous with the 2016 [BOS](stock-selection.md) preference ("I actual
 - [WW 2025-06-29 — GLB applied to mutual funds; 10wk/30wk crossover for pension; Guppy weekly RWB](../../raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md) ([summary](../sources/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md))
 - [WW 2025-10-23 — 4wk bounce entry; SPY GLB in June 2025; Stage 2 weekly alignment](../../raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md) ([summary](../sources/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md))
 - [WW 2026-05-10 — 5-day EMA post-GLB exit rule; 4wk>10wk>30wk up-trend confirmed 2026](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md) ([summary](../sources/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
+- [WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap; LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md) ([summary](../sources/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
+- [WW 2023-01-16 — How I trade a GLB: the close-below rule shown intraday](../../raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md) ([summary](../sources/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md))

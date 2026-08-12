@@ -3,6 +3,9 @@ title: Timeline — evolution of the methodology
 type: history
 updated: 2026-08-12
 sources:
+  - raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md
+  - raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md
+  - raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md
   - raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md
   - raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md
   - raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md
@@ -557,6 +560,12 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 ---
 
+## April 2018 — the ATH watchlist workflow; TC2000's survivorship trap
+
+**"How I track stocks at all time highs" (2018-04-01):** the construction of the ~800-stock ATH watchlist — barchart.com (because TC2000's filters return null for stocks that didn't exist over the lookback, silently dropping recent IPOs: a survivorship trap he names in his own tooling) → Excel → TC2000, then a manual pass deleting false ATHs and **drawing green lines by hand**. Rationale: "A stock that can come through market turmoil and still hit an all time high... might take off when the market strengthens" (GMCR, April 2009). LULU worked example; buying on a Red signal allowed only with "a very close stop loss." ([WW 2018-04-01](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
+
+---
+
 ## April 2019 — IPO GLB; IIPR; QQQ trend duration statistics
 
 **"Trading IPOs with a GLB and a green dot signal: $IIPR; QQQ short-term up-trend in 61st day" (2019-04-07):** Dr. Wish applies the GLB concept to recent IPOs, citing Jesse Livermore's 100-year-old principle of waiting for an IPO to settle and then trading it at a new ATH. IIPR (cannabis REIT) is the worked example: IPO December 2016, green line at $20.54, GLB in December 2017, subsequently quadrupled. FB cited as a historical comparison — first GLB at $45, 17 months after IPO. The **green dot** signal is introduced as a secondary re-entry tool after a GLB. The post also includes the most detailed published tabulation of **QQQ trend duration statistics** (through March 2019): ~40% of new down-trends end in fewer than 6 days; longest up-trend 88 days; longest down-trend 69 days. ([WW 2019-04-07](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md))
@@ -578,6 +587,12 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 ## September 2020 — Monitoring GLBs in corrections; weekly chart management
 
 **"This week will determine if tech is starting a down-trend; how I monitor my GLBs during corrections" (2020-09-27):** Dr. Wish describes how he handles GLBs when the market corrects: he only exits a GLB position if the stock closes below its green line on a weekly chart. Intraday dips below the green line during a correction are not exits — only a weekly close below the green line triggers a sell. He monitors the weekly chart and uses the 4-week average as a secondary reference. During corrections he often continues to hold GLBs that remain above their green lines, because the best rocket stocks maintain relative strength. ([WW 2020-09-27](../../raw/posts/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md))
+
+---
+
+## October 2020 — the IBD screener; the all-12-GMMA exit line
+
+**"How I used the IBD screener to identify 36 launched rocket stocks" (2020-10-04):** a four-criterion screen (RS 90-99, ACC/DIS A/B, Price>30, Next-Q EPS est >100%) → 36 of 7,000+, piped Excel→TC2000. The O'Neil origin credit ("I began to make money in the market after reading it"), the earnings engine ("great earnings propel stocks higher"), and a hard exit line: QQQ below **all 12 GMMA averages** (then 269.55) = "time to exit all positions." Tutorial by his student Richard Moglen. ([WW 2020-10-04](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
 
 ---
 
@@ -658,6 +673,12 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 ## December 2022 — Gap-up volume scan introduced
 
 **"Day 15 of QQQ short-term up-trend; TC2000 gap-up scan" (2022-12-04):** a new TC2000 scan for finding stocks that had a large-volume gap-up day in the past 25 trading days and are now consolidating or resuming their advance. Formula: `L>H1 and V=maxv20 and H=MaxH10` applied as "true within 25 bars." The post also articulates his post-decline re-entry philosophy: enter gradually after indexes retake key moving averages; people initially buy large-caps, then shift to growth stocks as confidence returns. ([WW 2022-12-04](../../raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md))
+
+---
+
+## January 2023 — how I trade a GLB; the close-below rule shown intraday
+
+**"GMI turns GREEN... How I trade a GLB, 2 examples" (2023-01-16):** the ACLX case that justifies the close-below rule — the day after its GLB it "traded below the green line but closed the day above it. That is why I sell a GLB only if the stock *closes* a day back below the green line." Buying the GLB day is optional; the OSB (black dot, stop below the bounce low) is taught as the standard alternative six months before the CAVA doctrine post. Confidence tiered by GMI score: TQQQ accumulation starts at Green, conviction "when the GMI=6." ([WW 2023-01-16](../../raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md))
 
 ---
 
@@ -915,3 +936,6 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2008-10-13 — Capitulation week: 2,832 new lows, T2108 at 1%](../../raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md) ([summary](../sources/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md))
 - [WW 2008-10-22 — Down-trend duration as a base rate; rockets inside the crash](../../raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md) ([summary](../sources/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md))
 - [WW 2008-11-21 — The retest read via breadth; T2108's earlier bands](../../raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md) ([summary](../sources/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md))
+- [WW 2020-10-04 — The IBD screener workflow; the all-12-GMMA exit line](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md) ([summary](../sources/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
+- [WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap; LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md) ([summary](../sources/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
+- [WW 2023-01-16 — How I trade a GLB: the close-below rule shown intraday](../../raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md) ([summary](../sources/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md))

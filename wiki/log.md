@@ -941,3 +941,30 @@ Touched: `methodology/t2108.md` (extreme-lows table + threshold evolution),
 `methodology/qqq-short-term-timing.md` (duration base rates), `history/timeline.md`
 (Oct–Nov 2008 section), `index.md`; 3 new `sources/` pages. `ww lint .` clean; 194 tests pass;
 ledger 130 rows.
+
+## [2026-08-12] ingest | three teaching favorites — screener, ATH watchlist, GLB mechanics
+
+Continuing the "My Favorite Posts" queue with the three strongest remaining how-to titles.
+87 favorites remain un-ingested.
+
+- **2018-04-01 "How I track stocks at all time highs"** — the construction of the ~800-stock
+  ATH watchlist several scans run against. Notable: **he identifies a survivorship trap in his
+  own tooling** — TC2000 filters return null for stocks that didn't exist over the lookback,
+  silently dropping recent IPOs — and engineers around it via barchart.com → Excel → TC2000.
+  Green lines then drawn **by hand** on monthly charts, corroborating the comment-thread
+  finding from a post. Red-signal buying allowed only with "a very close stop loss."
+- **2020-10-04 "How I used the IBD screener"** — the four-criterion screen verbatim (RS 90-99,
+  ACC/DIS A/B, >$30, next-Q EPS est >100% → 36 of 7,000+), the Excel→TC2000 pipeline, the
+  O'Neil origin credit ("I began to make money in the market after reading it"), and a hard
+  total-exit line: QQQ below **all 12 GMMA averages** = "time to exit all positions," stated
+  with the price. Tutorial video by his own student Richard Moglen — the student channel again.
+- **2023-01-16 "How I trade a GLB"** — the ACLX case that *justifies* the close-below rule:
+  the day after its GLB it traded below the line intraday but closed above, "that is why I sell
+  a GLB only if the stock *closes* a day back below." OSB taught as the standard alternative
+  entry six months before the CAVA doctrine post; TQQQ accumulation tiered by GMI score
+  (start at Green, conviction at 6).
+
+Touched: `methodology/stock-selection.md` (ATH pipeline + IBD screener sections),
+`methodology/green-line-breakouts.md` (close-below case; manual-drawing corroboration),
+`methodology/moving-average-rules.md` (all-12-GMMA exit), `history/timeline.md` (3 sections),
+`index.md`; 3 new `sources/` pages. `ww lint .` clean; 194 tests pass; ledger 133 rows.

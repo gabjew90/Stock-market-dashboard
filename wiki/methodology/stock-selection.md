@@ -3,6 +3,8 @@ title: Stock selection
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md
+  - raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md
   - raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md
   - raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md
   - raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md
@@ -200,6 +202,29 @@ After a BOS entry, if the stock holds and advances, Dr. Wish can add to the posi
 
 Additional entry support levels for BOS (besides the 15.2 BB): bounces off the 30-day, 50-day, or 8-day moving average also qualify. See the [BGNE trade example (WW 2017-09-04)](../../raw/posts/2017-09-04-bgne-example-of-a-stock-purchase-set-up-for-my-new-students-gmi-green.md) for a full three-chart (monthly/weekly/daily) BOS setup procedure.
 
+## Building the ATH watchlist — and TC2000's survivorship trap
+
+The ~800-stock all-time-high watchlist that several scans run against is built by hand, around a
+tooling limitation he identifies explicitly: TC2000 "returns a **null result** on a filter if the
+stock did not exist in the time period examined," so an all-time-high formula silently drops
+recent IPOs — a survivorship trap in the scan tool itself. The workaround: barchart.com's
+new-highs table switched to *all-time high* → Excel → paste into a TC2000 watchlist,
+periodically repeated; then a manual pass that deletes false ATHs and **draws the green lines by
+hand** on the monthly charts. The rationale for mining ATHs in weak markets: "A stock that can
+come through market turmoil and still hit an all time high is a stock that **might take off when
+the market strengthens**" (how he found GMCR in April 2009). ([WW 2018-04-01](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
+
+## The IBD screener workflow (2020)
+
+A four-criterion screen on IBD's own tool: "**RS 90-99, ACC/DIS = A or B, Price >30, Next
+Quarter EPS est >100%**" — 36 survivors out of 7,000+, exported to Excel and imported into
+TC2000 for alerts on his set-ups. The survivors read like his existing watchlist (CRWD, DDOG,
+ETSY, PTON, ZM, ZS), which is the point: the screen mechanises the sourcing. The engine behind
+the criteria: "William O'Neil and David Ryan teach people to buy great stocks with proven or
+expected large earnings increases. **Great earnings propel stocks higher**" — and the origin
+credit, "I began to make money in the market after reading [O'Neil's book]." Tutorial video by
+his student Richard Moglen. ([WW 2020-10-04](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
+
 ## The TSLA GLB workflow — step by step
 
 The clearest description of the full GLB detection workflow, using TSLA's April 2013 breakout as the teaching case ([WW 2013-05-20](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md)):
@@ -341,3 +366,5 @@ After a Boston IBD Meetup presentation in May 2025, Dr. Wish published the most 
 - [WW 2007-10-01 — IBD100 outperformance in a rising market; buy-stop automation (PAY)](../../raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md) ([summary](../sources/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md))
 - [WW 2023-04-24 — WING missed GLB; TC2000 price alerts](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md) ([summary](../sources/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
 - [WW 2005-05-04 — A Google Confession: the gap rule and the doubling rationale](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md) ([summary](../sources/2005-05-04-a-google-confession-ww-gmi-1.md))
+- [WW 2020-10-04 — The IBD screener workflow; the all-12-GMMA exit line](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md) ([summary](../sources/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
+- [WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap; LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md) ([summary](../sources/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
