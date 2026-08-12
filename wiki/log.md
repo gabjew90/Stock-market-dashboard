@@ -527,3 +527,75 @@ dual-dated "October 1995 (diary) / October 2016" heading, which is intentional.
 sources; (2) MACD breadth + the GMI-S sixteen; (3) a psychology/discipline page from the
 2009 and 2019 posts; (4) Minervini/modern-influences and the off-blog map; (5) split
 `stock-selection.md`; (6) 2015 and 2019; (7) thicken the playbooks.
+
+## [2026-08-12] lint | review #3 — context backfill: what we cannot reconstruct about him
+
+A third pass, asking a different question from the coverage review above: not *which topics
+are missing* but *what context is unrecoverable from what we hold*. Three structural findings,
+one of which changes how the ingest queue should be chosen.
+
+**1. He curates his own corpus, and we never captured it.** The scraper requests only
+`content,date,id,link,slug,title` (`_DEFAULT_FIELDS` in `src/ww/scrape/wp_api.py`). The
+WordPress API also exposes `categories`, `tags`, `excerpt`, `author`, `modified`, `views`
+and a separate `/comments` endpoint. His category taxonomy — now captured to
+`raw/categories.json` — is:
+
+| Category | Posts | Un-ingested |
+|---|---|---|
+| General Market Index (GMI) table | 866 | — |
+| **My Favorite Posts** | **145** | **112** |
+| Nicolas Darvas | 65 | 54 |
+| Tutorial | 13 | 7 |
+| UMDSMC Education Posts | 11 | 9 |
+
+**"My Favorite Posts" is Dr. Wish's own answer to "what matters most," and 112 of 145 are
+un-ingested.** Every ingest batch to date has selected posts by word count and title-pattern
+heuristics; his own curation was sitting in the API the whole time and is a strictly better
+signal. `Tutorial` (13, explicitly instructional) and `UMDSMC Education Posts` (his
+University of Maryland course) are small, high-density, and nearly untouched.
+
+Worth noting the two queues are *not* the same job: only 14 of the 112 un-ingested favorites
+fall in the year-holes identified in the review above, and **2007 and 2008 contain zero
+favorites at all** — his curation skews hard to 2017–2026 (91 of 145). Year coverage and
+his own curation are orthogonal priorities and should be worked separately.
+
+**2. The visual layer is ~half the blog and we read none of it.** 6,354 embedded images
+across **3,599 of 4,694 posts (77%)**, against 713k words of text. Of those, **2,547 are
+GMI-table images** on a systematic `gmi<date>` filename convention, plus `wpm<date>` (WPM
+tables) and `ibdperf<date>` (IBD performance tables). This is the direct answer to an open
+question the wiki has carried for two sessions: `gmi.md` says the current component *labels*
+for slots 3–5 "remain unrecovered because the daily GMI table is published as an image."
+Those images are enumerable, dated, and downloadable. The same applies to the GMI-R, GMI2,
+GMI-S and GMI-L component lists, all recorded as "undisclosed" — they are very likely
+printed in the table rows. A single OCR pass over a sample of `gmi*` images would probably
+close every open GMI definitional question at once.
+
+**3. 4,136 reader comments exist and none are captured.** The comments endpoint returns
+them; the scraper never asks. On a methodology blog the comment threads are where readers
+ask "what exactly counts as a close below?" and he answers — clarifications that by
+definition do not appear in the post text. This is the single largest body of primary
+material we have never looked at.
+
+**Secondary findings.**
+
+- **4,922 in-corpus self-references** (`wishingwealthblog.com/20…` links inside post bodies).
+  He builds context by citing his own prior posts constantly — that is a resolvable citation
+  graph, and it is his own map of which posts he considers foundational. Unused.
+- **Where he sends readers off-blog**, by link count: worden.com 86, guppytraders.com 71,
+  youtube.com 56, investors.com 43, amazon.com 43 (book recommendations), proshares.com 35,
+  aaiidcmetro.com 16. The "off-blog teaching corpus" gap flagged in earlier reviews now has
+  concrete destinations and volumes rather than an estimate.
+- **No biography or career-arc page.** The wiki documents the method thoroughly and the man
+  barely at all: trading since the 1960s, the 1990s diary, a university teaching career, the
+  Worden/AAII/TraderLion circuit, co-instructor David McCandlish (deceased). A reader cannot
+  currently answer "who is this and why should I trust the track record."
+
+**Recommended sequencing change.** Before the next content batch, spend one small session on
+plumbing, because it changes what every later batch can do: (a) widen `_DEFAULT_FIELDS` to
+include `categories`/`tags`/`modified` and persist them on `PostRecord`; (b) add a comments
+fetch; (c) OCR a sample of `gmi*` images to close the GMI component questions. Then work
+"My Favorite Posts" as the primary ingest queue, with the 2008 / 2015 / 2019 year-holes as a
+separate parallel track.
+
+`ww lint .` clean; 181 tests pass. `raw/categories.json` committed as the evidence and as a
+ready-made ingest queue.
