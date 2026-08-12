@@ -599,3 +599,64 @@ separate parallel track.
 
 `ww lint .` clean; 181 tests pass. `raw/categories.json` committed as the evidence and as a
 ready-made ingest queue.
+
+## [2026-08-12] ingest | the GMI table images — every open GMI definitional question closed
+
+Acting on review #3's finding that the visual layer was never read. Read four GMI table
+images spanning 2007 / 2013 / 2020 / 2026 (they are ~2,547 dated images on a systematic
+`gmi<date>` filename convention). No OCR needed — the images are legible directly.
+
+Everything the wiki had recorded as "undisclosed" or "not recovered" is printed in the table.
+
+**GMI — all six labels verbatim, and unchanged since 2005.** Two amendments the prose never
+mentioned: component 1 carries a **`min. 20` floor** (the ≥50% rule is suspended below 20
+qualifying stocks — a small-sample guard), and component 2's universe drifted with the data
+source, **`4,000 STOCKS` (2007) → `5,000+` (2013, 2020) → `6,000+` (2026)** while the
+threshold stayed at 100. That means the component has quietly got easier to satisfy, which
+matters for any cross-era comparison of GMI readings — including our own backtest.
+
+**GMI-R's four extra indicators are named** (2007 table, items 7–10 marked `*`): more new
+highs than lows; QQQQ above its 10-week, 4-week and 10-day averages. So the GMI-R is the slow
+structural GMI plus a fast QQQQ trend ladder — which is precisely why he calls it "more
+sensitive."
+
+**GMI2 was wrong on this page and is not a fixed 6-component index.** It grew
+**6 → 8 → 9** components between 2013 and 2026, inheriting the GMI-R's four extras as its own
+first four. The 2013 "QQQ closed above 5 month average" was dropped and replaced by
+oscillator tests — 10.4 and 10.1 stochastics and a 12/26/9 MACD histogram condition. Its
+character changed from a trend panel to a trend-plus-oscillator panel, and **a GMI2 value is
+not comparable across eras** (his own tables print the denominator, e.g. `GMI2: 5/6`). The
+stochastics driving GMI2 components 6 and 9 are the same ones behind the black and blue dots
+of the [oversold bounce](../methodology/oversold-bounce.md).
+
+**GMI-S construction settled.** The 2007 table prints
+`GMI Short term index (GMI-S): 44 (SPY:50, QQQ:75, DIA:25, IJR:25)` — the mean of four
+per-ETF readings, each moving in 25-point steps, i.e. four indicators per ETF. That is
+exactly the "16 short term indicators for the IJR, DIA, SPY and QQQQ" of the prose. Shape
+settled; the identity of the four per-ETF tests is still undisclosed.
+
+**The MACD question from review #2 is answered.** 231 corpus mentions against 6 in the wiki:
+it is a **breadth gauge with a permanent slot in the table** — "% of Nasdaq 100 stocks above
+MACD signal line," with weekly change — not a per-stock entry signal and not a GMI component.
+A separate MACD test on QQQ itself *is* GMI2 component 7.
+
+**A threshold conflict surfaced and is now documented rather than smoothed.** The daily table
+prints "*Market tops likely above 80, bottoms likely below 25*" (80/30 in 2007). `t2108.md`
+taught only the **<10%** contrarian zone. Both are his: 25–30% is the routine daily band,
+<10% is the rare extreme he actually buys into. The page now carries both.
+
+**Also recovered:** the table's standing context block (QQQ trend count, weeks above/below the
+10-week for QQQ and SPY, weeks the QQQ 10-week has been above the 30-week, T2108, MACD
+breadth, QQQ weekly 10.4 stochastic), and a footer that points readers at **"my favorite
+posts" for GMI definitions** — corroborating that category as the definitional source and as
+the right ingest queue.
+
+Touched: `methodology/gmi.md` (verbatim labels; GMI-R extras; the GMI2 evolution table;
+GMI-S construction; the published-table context block), `methodology/t2108.md` (two bands),
+`methodology/glossary.md` (**GMI table**, **MACD breadth**), `index.md`. 3 posts recorded as
+`daily_update` for their tables (2013-01-07, 2020-01-05, 2026-01-04). `ww lint .` clean;
+181 tests pass; ledger exported (114 rows).
+
+**Method note for future sessions:** the images are readable directly by the model — no OCR
+dependency. `wpm<date>` (WPM tables) and `ibdperf<date>` (IBD performance tables) follow the
+same convention and are still unread.

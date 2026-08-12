@@ -3,6 +3,9 @@ title: General Market Index (GMI)
 type: entity
 updated: 2026-08-12
 sources:
+  - raw/posts/2013-01-07-3rd-day-of-qqq-short-term-up-trend-t2108-82.md
+  - raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md
+  - raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md
   - raw/posts/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md
   - raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md
   - raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md
@@ -60,7 +63,41 @@ An earlier version of this page flagged component 6 as "later replaced or modifi
 
 Two consequences. First, the reconstruction's use of **FFTY** as a component-6 proxy (see below) is a substitute for a series that is still live and still readable as `0muti` on IBD's charting application — not a replacement for a retired one. Second, `0muti` is a specific, identifiable series, so a faithful component 6 is in principle obtainable rather than permanently proxied.
 
-*Still open:* the daily GMI table is published as an image, so the exact wording of all six component labels in current use has not been recovered from post text. Components 1–2 and 6 are confirmed verbally at multiple dates; 3–5 rest on the 2005 definition plus the 2012 confirmation below.
+### The published table — verbatim component labels (2007, 2013, 2020, 2026)
+
+This page previously said the current component labels "have not been recovered because the
+daily GMI table is published as an image." That was a failure of method, not a real limit:
+the tables are ~2,547 dated images on a systematic `gmi<date>` filename convention, and
+reading four of them across two decades resolves every open definitional question below.
+
+**The GMI's six components, transcribed from the table of 2026-01-02** ([WW 2026-01-04](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md)) — identical in wording to the 2020 and 2013 tables:
+
+1. `WISHING WEALTH 10 DAY SUCCESSFUL NEW HIGH INDEX GREATER THAN OR EQUAL TO 50%, min. 20`
+2. `AT LEAST 100 NEW HIGHS TODAY OUT OF 6,000+ U.S. STOCKS`
+3. `WISHING WEALTH DAILY QQQ INDEX POSITIVE`
+4. `WISHING WEALTH DAILY SPY INDEX POSITIVE`
+5. `WISHING WEALTH WEEKLY QQQ INDEX POSITIVE`
+6. `IBD MUTUAL FUND INDEX GREATER THAN 50 DAY AVERAGE`
+
+So the 2005 definition is intact after twenty years, with two amendments the prose never
+mentioned:
+
+- **Component 1 carries a `min. 20` floor.** The ≥50% rule is suspended when fewer than 20
+  stocks made new highs ten days ago — a small-sample guard. The table prints the raw
+  fraction beside it (e.g. `29%`, and in 2007 `62/128, 48%`), so the denominator is visible.
+- **Component 2's universe grew with the data source**, and the table states it explicitly:
+  `4,000 STOCKS` (2007) → `5,000+` (2013, 2020) → `6,000+ U.S. STOCKS` (2026). The *threshold*
+  stayed at 100 throughout, so the component has quietly become easier to satisfy in
+  breadth terms — worth knowing when comparing a 2007 GMI reading to a 2026 one.
+
+Components 3–5 are named as Wishing-Wealth-branded sub-indices ("DAILY QQQ INDEX") rather
+than defined in the table, so their internals remain undisclosed — but the 2007 prose pins
+the daily ones to the 30-day average and the weekly one to the 30-week average (above).
+
+The table footer also carries a standing note: **"For GMI definitions, click on 'my favorite
+posts,' at bottom right of post"** — he points readers at his own [My Favorite Posts](../../raw/categories.json)
+category as the definitional source, which is the same category the ingest queue should
+now be working from.
 
 **Later refinement of component 1:** By 2014, Dr. Wish had sharpened the Successful 10-Day New High component: the threshold is ≥50% of stocks that hit a new high 10 days ago closing higher today (not an absolute count of 100). "If at least 50% of all of the stocks that had hit a new high 10 days ago pass this criterion, then the indicator is positive." ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
 
@@ -125,15 +162,104 @@ The GMI's action thresholds are not stated identically across posts, and the wik
 
 The ≥4 / ≤3 reading is the dominant and durable one; the October 2007 "greater than 2" appears to be a looser stance taken mid-up-trend rather than a redefinition. The [backtest](backtest-timing-overlay.md) uses ≥4 long / ≤3 cash.
 
-### Intermediate — GMI-R (10 components)
+### Intermediate — GMI-R (10 components), with its four extra indicators named
 
-At some point between 2005 and 2011, Dr. Wish created the GMI-R by adding 4 more indicators to the original 6, giving a 0–10 composite. He published this alongside the GMI but did not have decision rules tied to it. He describes it as "the **more sensitive** GMI-R" — it moves before the GMI does, which is what made it useful as an early read even without rules attached. It shares component 6 with the GMI. ([WW 2009-01-12](../../raw/posts/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md))
+The GMI-R is the GMI plus four more indicators, giving a 0–10 composite, published alongside
+the GMI but with no decision rules tied to it. He calls it "the **more sensitive** GMI-R" —
+it moves before the GMI does, which is what made it useful as an early read. ([WW 2009-01-12](../../raw/posts/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md))
 
-### 2011 — GMI2 (6 components, companion indicator)
+**The four extras are printed in the table.** The 2007-10-26 table lists items 7–10 with the
+note *"Revised index requires additional indicators 7-10, with '*'"* ([WW 2007-10-29](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md)):
 
-The GMI-R was replaced by the GMI2. The GMI2 takes the 4 indicators from the GMI-R (beyond the original 6) and adds 2 more, giving a new 6-point composite. The GMI and GMI2 are separate and published together. Decision rules apply to the GMI only: "I do not have decision rules based in the GMI-R or the new GMI2." The GMI2 is for monitoring. ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md))
+7. `MORE NEW HIGHS THAN LOWS TODAY`
+8. `QQQQ CLOSED ABOVE 10 WEEK AVERAGE`
+9. `QQQQ CLOSED ABOVE 4 WEEK AVERAGE`
+10. `QQQQ CLOSED ABOVE 10 DAY AVERAGE`
 
-*Note: the exact components of the GMI-R and GMI2 are not disclosed in the posts ingested so far. Future posts may clarify.*
+Note what these are: three plain moving-average tests on QQQQ at three horizons, plus a
+breadth check. The GMI-R = slow structural GMI + a fast QQQQ trend ladder, which is exactly
+why it flips first.
+
+### 2011 → 2026 — GMI2: a *growing* companion index, not a fixed 6
+
+The GMI-R was superseded by the GMI2, which inherits the GMI-R's four extra indicators as its
+own first four. Decision rules still apply to the GMI only: "I do not have decision rules
+based in the GMI-R or the new GMI2." ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md))
+
+**This page previously described the GMI2 as a fixed 6-component composite. The tables show it
+is not fixed — it grew from 6 to 9 components between 2013 and 2026:**
+
+| # | 2013-01-04 (6) | 2020-01-03 (8) | 2026-01-02 (9) |
+|---|---|---|---|
+| 1 | MORE NEW HIGHS THAN LOWS TODAY | same | `MORE US NEW HIGHS THAN LOWS TODAY` |
+| 2 | QQQ CLOSED ABOVE 10 WEEK AVERAGE | same | same |
+| 3 | QQQ CLOSED ABOVE 4 WEEK AVERAGE | same | same |
+| 4 | QQQ CLOSED ABOVE 10 DAY AVERAGE | same | same |
+| 5 | QQQ: 4 WEEK AVERAGE >10WKAVG>30WKAVG | same | same |
+| 6 | **QQQ CLOSED ABOVE 5 MONTH AVERAGE** | `QQQ DAILY 10.4 STOCHASTIC <20` | same as 2020 |
+| 7 | — | `QQQ Daily 12/26/9 MACD HIST RISING L2DAYS OR BLACK (>0)` | same |
+| 8 | — | `QQQ 10.4.4 DAILY STOCHASTIC—FAST>SLOW OR ABOVE 80` | same |
+| 9 | — | — | `QQQ DAILY 10.1 STOCHASTIC<=20` |
+
+Sources: [WW 2013-01-07](../../raw/posts/2013-01-07-3rd-day-of-qqq-short-term-up-trend-t2108-82.md), [WW 2020-01-05](../../raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md), [WW 2026-01-04](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md).
+
+Two things follow. First, **the GMI2's character changed**: components 1–5 are trend-and-breadth
+tests, but everything added after 2013 is an *oscillator* test (stochastics and MACD). The
+2013 "5 month average" trend test was dropped to make room. The GMI2 has become an
+overbought/oversold panel bolted onto a trend panel. Second, because the denominator moved,
+**a GMI2 reading is not comparable across eras** — "GMI2: 6" means 6-of-6 in 2013 and 6-of-9
+in 2026. The wiki should always cite the denominator; his own tables print it as `GMI2: 5/6`.
+
+The oscillator components also tie the GMI2 directly to the entry signals: the 10.1 and 10.4
+stochastics driving GMI2 components 6 and 9 are the same ones behind the black and blue dots
+of the [oversold bounce](oversold-bounce.md) setup.
+
+### GMI-S — construction fully visible in the table
+
+The GMI-S is the average of four per-ETF short-term readings. The 2007-10-26 table prints it
+as `GMI Short term index (GMI-S): 44 (SPY:50, QQQ:75, DIA:25, IJR:25)` — and (50+75+25+25)/4
+= 43.75 ≈ 44. ([WW 2007-10-29](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md))
+
+Each ETF's reading moves in 25-point steps, so each is built from **four** short-term
+indicators — which is exactly the sixteen he refers to in prose: "Only one of the 16 short
+term indicators for the IJR, DIA, SPY and QQQQ is positive (GMI-S: 6%)." ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md)) The identity of
+the four per-ETF indicators is still undisclosed, but the *shape* — 4 ETFs × 4 tests, averaged
+to 0–100 — is now settled. The four are plausibly the GMI-R's ladder (10-day, 4-week, 10-week
+averages plus one more) applied per ETF, though nothing states that.
+
+The same table prints `GMI Long Term Index (GMI-L): 94`, confirming it is published as a
+single percentage rather than a component count.
+
+## What else the daily table publishes
+
+Below the two composites, every GMI table carries a standing block of context readings. These
+are the numbers he quotes in prose all the time; having the table makes clear they are a fixed
+panel, not ad-hoc mentions.
+
+| Row | 2026-01-02 value | Notes |
+|---|---|---|
+| `QQQ SHORT TERM TREND COUNT` | `D-1` | The [day count](qqq-short-term-timing.md) in the post titles. `U-`/`D-` prefix = up/down-trend. |
+| `# OF WEEKS QQQ HAS CLOSED Below ITS 10 WEEK AVERAGE` | 1 | Direction word flips Above/Below and is colour-coded. |
+| `# OF WEEKS SPY HAS CLOSED Above ITS 10 WEEK AVERAGE` | 6 | |
+| `# OF WEEKS QQQ 10 WEEK AVERAGE Above ITS 30 WEEK AVG` | 28 | The Stage-2 clock — added since 2020. |
+| `WORDEN INDICATOR T2108` | 50% (−3) | With weekly change. See [T2108](t2108.md). |
+| `Nasdaq 100 stocks above MACD signal line` | 35% (−25) | |
+| `QQQ Weekly 10.4 Stochastics (>80 = strong up-trend)` | 64 (−6) | Added since 2020. |
+
+**The MACD row settles a question from the 2026-08-12 coverage review**, which flagged 231
+corpus mentions of MACD against 6 in the wiki and could not tell what role it played. It is a
+**breadth gauge with a permanent slot in the table** — the percentage of Nasdaq 100 stocks
+whose MACD is above its signal line — not a per-stock entry signal. He reads it as short-term
+participation, and the weekly change is printed beside it. It is *not* a GMI or GMI2
+component; it sits in the context block.
+
+**The table also carries its own T2108 annotation, and it differs from the number this wiki
+teaches.** The 2013 and 2020 tables print "*Market tops likely above 80, bottoms likely below
+25*"; the 2007 table says "*below 30*." The [T2108 page](t2108.md) documents a **<10%**
+contrarian buy zone, sourced from the prose. Both are his — they serve different purposes:
+80/25–30 is the routine top/bottom band printed daily, while <10% is the rare
+back-up-the-truck extreme he writes about in crisis posts. The page should carry both bands
+rather than only the extreme.
 
 ## Code — computing the GMI
 
@@ -216,3 +342,6 @@ Run it: `ww compute gmi 2026-05-11 --breadth` for a full 0–6 GMI on any date t
 - [WW 2007-11-19 — Weekly QQQQ Index as primary long-term indicator; 2000 exit attributed](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md) ([summary](../sources/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
 - [WW 2007-12-17 — GMI-L at 31%: the pre-2008 warning](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md) ([summary](../sources/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
 - [WW 2007-05-22 — Covered calls; QLD over stock-picking; posting cadence](../../raw/posts/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md) ([summary](../sources/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md))
+- [WW 2013-01-07 — GMI table: GMI2 at 6 components; T2108 band 80/25](../../raw/posts/2013-01-07-3rd-day-of-qqq-short-term-up-trend-t2108-82.md)
+- [WW 2020-01-05 — GMI table: GMI2 grown to 8; MACD breadth row](../../raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md)
+- [WW 2026-01-04 — GMI table: verbatim component labels; GMI2 at 9](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md)

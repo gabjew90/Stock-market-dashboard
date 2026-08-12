@@ -3,6 +3,8 @@ title: Glossary
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md
+  - raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md
   - raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md
   - raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md
   - raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md
@@ -79,6 +81,10 @@ Every term Dr. Wish coins or uses, defined in a sentence or two, with a first-ap
 **GMI2** — a companion 6-point composite introduced in 2011 to replace the GMI-R. Published alongside the GMI but no decision rules are tied to it — it is monitoring only. See [gmi.md](gmi.md). Introduced: ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md))
 
 **GMI-R** — an intermediate composite (GMI's 6 components + 4 more = 10 total) used between 2005 and 2011, before being replaced by the GMI2. No decision rules were tied to it.
+
+**GMI table** — the image published with nearly every post (866 posts carry the category "General Market Index (GMI) table"). It prints the GMI components with YES/NO verdicts, the GMI2 components, and a standing context block: QQQ short-term trend count, weeks QQQ/SPY have closed above or below their 10-week averages, weeks the QQQ 10-week has been above the 30-week, T2108, **% of Nasdaq 100 stocks above their MACD signal line**, and the QQQ weekly 10.4 stochastic. Because it is an image, its contents were absent from the wiki until 2026-08-12. See [gmi.md](gmi.md). ([WW 2026-01-04](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md))
+
+**MACD breadth (% of Nasdaq 100 above signal line)** — a permanent row on the GMI table: the share of Nasdaq 100 constituents whose 12/26/9 MACD is above its signal line, with the weekly change. A short-term participation gauge, **not** a per-stock entry signal and not a GMI component. A separate MACD test on QQQ itself (`MACD HIST RISING L2DAYS OR BLACK`) *is* GMI2 component 7. ([WW 2020-01-05](../../raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md), [WW 2026-01-04](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md))
 
 **GMI-L** — Dr. Wish's "longer term measure of weekly trends," reported as a percentage positive and published alongside the GMI through the typepad era (roughly 2006–2008). It is the slow counterpart to the GMI-S. Its diagnostic use is comparative: it fell to **31%** in December 2007, "the lowest since it hit 20% in August 2006," whereas "in the two declines in 2007 (March and August), the GMI-L never fell below 50%" — so a reading under 50% distinguished the onset of the 2008 bear from an ordinary correction. It still read 94% days after the October 2007 top. Component list undisclosed; discontinued in the daily posts after the typepad era. See [gmi.md](gmi.md). ([WW 2007-10-29](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md), [WW 2007-12-17](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
 
@@ -192,3 +198,5 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 - [WW 2007-08-20 — GMI-S construction (16 indicators over IJR/DIA/SPY/QQQQ)](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md) ([summary](../sources/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
 - [WW 2007-10-29 — GMI-L at 94% days after the October 2007 top](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md) ([summary](../sources/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md))
 - [WW 2007-12-17 — GMI-L defined; 31% as the pre-2008 warning](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md) ([summary](../sources/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
+- [WW 2020-01-05 — GMI table: GMI2 grown to 8; MACD breadth row](../../raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md)
+- [WW 2026-01-04 — GMI table: verbatim component labels; GMI2 at 9](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md)
