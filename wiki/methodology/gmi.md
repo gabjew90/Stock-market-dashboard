@@ -3,6 +3,7 @@ title: General Market Index (GMI)
 type: entity
 updated: 2026-08-12
 sources:
+  - raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md
   - raw/posts/2013-01-07-3rd-day-of-qqq-short-term-up-trend-t2108-82.md
   - raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md
   - raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md
@@ -230,6 +231,36 @@ averages plus one more) applied per ETF, though nothing states that.
 The same table prints `GMI Long Term Index (GMI-L): 94`, confirming it is published as a
 single percentage rather than a component count.
 
+## A limitation he published himself (2015)
+
+In February 2015 — with the GMI reading 6 of 6 — Dr. Wish published a limitation of his own
+headline indicator and changed how he used it. Examining a GMMA chart of the QQQ he found that
+**"since early 2014, the GMI has issued 7 separate Sell signals... followed by 7 Buy signals"**
+while the QQQ "remained in a strong RWB up-trend" throughout. ([WW 2015-02-22](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md))
+
+His conclusion, and it is a demotion:
+
+> "a GMI Sell signal should only be used by me for **short term trading decisions**... I should
+> therefore probably remain invested long term in the market (at least in my university pension
+> account) **as long as the RWB pattern is in place, even when the GMI signals Sell**."
+
+This produces the two-speed design the rest of the wiki describes but had never justified:
+
+| Horizon | Signal | Account |
+|---|---|---|
+| Short-term trading | **GMI** | Speculative / trading IRA |
+| Long-term allocation | **Weekly GMMA / RWB** pattern | University pension |
+
+Major tops, he restates, are signalled by the weekly RWB→BWR transition — "when the shorter
+averages declined below the longer term averages" — not by the GMI.
+
+**This matters for the [backtest](backtest-timing-overlay.md).** Our overlay of GMI ≥ 4 long /
+≤ 3 cash on QQQ found the strategy marginal — a large cut in max drawdown bought at a cost in
+Sharpe and CAGR, with the damage concentrated in whipsaws during sustained advances. That is
+the same phenomenon he documented qualitatively in 2015, seven separate times in about a year.
+The backtest is not contradicting him; it is measuring a limitation he had already published
+and acted on.
+
 ## What else the daily table publishes
 
 Below the two composites, every GMI table carries a standing block of context readings. These
@@ -318,7 +349,7 @@ Run it: `ww compute gmi 2026-05-11 --breadth` for a full 0–6 GMI on any date t
 
 ## Sources
 
-- [WW 2005-04-26 — About the General Market Index (GMI)](../../raw/posts/2005-04-26-general-market-index-gmi.md)
+- [WW 2005-04-26 — About the General Market Index (GMI)](../../raw/posts/2005-04-26-general-market-index-gmi.md) ([summary](../sources/2005-04-26-general-market-index-gmi.md))
 - [WW 2005-06-05 — GMI back to +5; on moving averages](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md) ([summary](../sources/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md))
 - [WW 2005-07-17 — GMI since inception; introducing the WPM](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md) ([summary](../sources/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
 - [WW 2010-09-27 — Introducing Red White and Blue (RWB) Stocks](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md) ([summary](../sources/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
@@ -345,3 +376,4 @@ Run it: `ww compute gmi 2026-05-11 --breadth` for a full 0–6 GMI on any date t
 - [WW 2013-01-07 — GMI table: GMI2 at 6 components; T2108 band 80/25](../../raw/posts/2013-01-07-3rd-day-of-qqq-short-term-up-trend-t2108-82.md)
 - [WW 2020-01-05 — GMI table: GMI2 grown to 8; MACD breadth row](../../raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md)
 - [WW 2026-01-04 — GMI table: verbatim component labels; GMI2 at 9](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md)
+- [WW 2015-02-22 — An important limitation of the GMI signals](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md) ([summary](../sources/2015-02-22-an-important-limitation-of-the-gmi-signals.md))

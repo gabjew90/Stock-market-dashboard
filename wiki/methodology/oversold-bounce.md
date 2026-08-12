@@ -3,6 +3,7 @@ title: The oversold bounce (OSB / ATHOSB)
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2018-03-11-green-dot-strategy-defined.md
   - raw/posts/2021-05-06-blog-post-day-2-of-qqq-short-term-down-trend-but-378-new-highs-among-us-stocks-non-qqq-type-stocks-still-risi.md
   - raw/posts/2021-05-23-blog-post-13th-day-of-qqq-short-term-down-trend-revised-osb-oversold-bounce-scan-yields-gs-and-bgfv.md
   - raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md
@@ -29,6 +30,8 @@ The clearest statement of the doctrine came after a failed CAVA breakout in July
 > "I find it more difficult to control my loss with a failed break-out. Where should one place their stop loss? It is not always easy to designate that in advance. However, with the OSB (oversold bounce) set-up it is much easier to determine the price where the set-up has failed. Place the stop just below the low of the bounce, the place where the black dot appears." ([WW 2023-07-13](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
 
 CAVA opened above the prior day's high and closed back below its breakout line; a buyer at that open carried a large loss with no pre-defined exit. The same argument, put positively: "The beauty of buying a strong stock that may be bouncing is that if the bounce fails it is immediately apparent and I can exit promptly with a small loss." ([WW 2022-06-15](../../raw/posts/2022-06-15-blog-post-one-of-my-favorite-set-ups-athosb-found-one-stock-sqm-check-it-out-and-see-the-tutorial.md))
+
+**He had said the same thing five years earlier**, in the post defining the green dot: "I have learned over the years that I have more success trading strong up-trending stocks that are turning up after they have had a small decline **than buying break-outs**... if I think a stock has bottomed and turned up, **I know exactly where to get out if I am wrong**." ([WW 2018-03-11](../../raw/posts/2018-03-11-green-dot-strategy-defined.md)) So the 2023 post is the sharpest statement of the preference, not its origin — the reasoning is stable from at least 2016 (BOS) through 2018 to 2023.
 
 This is the same risk logic he had already given for [BOS](stock-selection.md) in 2016 — the bounce entry narrows the entry-to-stop distance — now stated as a preference over the GLB moment rather than an alternative to it. **OSB is not a new idea in 2021 so much as a renamed and tightened BOS:** BOS (2016) triggered off the lower 15.2 Bollinger Band; OSB adds an explicit recent-ATH prerequisite and a stochastic-based trigger. Both remain in use, and he still cites the 15.2 band as a supporting condition on OSB charts ([WW 2023-07-20](../../raw/posts/2023-07-20-blog-post-day-57-of-qqq-short-term-up-trend-list-of-4-growth-stocks-with-black-dot-osb-set-up-see-daily-chart.md)).
 
@@ -67,6 +70,7 @@ The pattern recurs with the later blue-dot variant: SHAK, a recent GLB, fell bac
 
 | Date | Change |
 |---|---|
+| 2018-03-11 | Bounce-over-breakout preference stated, with the green dot fully defined ([WW 2018-03-11](../../raw/posts/2018-03-11-green-dot-strategy-defined.md)) |
 | 2021-05-06 | OSB named in a post title; candidates must be above their green line tops and near ATHs ([WW 2021-05-06](../../raw/posts/2021-05-06-blog-post-day-2-of-qqq-short-term-down-trend-but-378-new-highs-among-us-stocks-non-qqq-type-stocks-still-risi.md)) |
 | 2021-05-23 | Scan revised: "detects stocks near a recent ATH that have bounced from an over-sold level" ([WW 2021-05-23](../../raw/posts/2021-05-23-blog-post-13th-day-of-qqq-short-term-down-trend-revised-osb-oversold-bounce-scan-yields-gs-and-bgfv.md)) |
 | 2021-08-11 | Price > $200 filter added to the OSB scans ([WW 2021-08-11](../../raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md)) |
@@ -98,3 +102,4 @@ The pattern recurs with the later blue-dot variant: SHAK, a recent GLB, fell bac
 - [WW 2025-07-09 — SHAK retakes green line after a Blue Dot OSB](../../raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md) ([summary](../sources/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md))
 </content>
 </invoke>
+- [WW 2018-03-11 — Green Dot strategy defined](../../raw/posts/2018-03-11-green-dot-strategy-defined.md) ([summary](../sources/2018-03-11-green-dot-strategy-defined.md))

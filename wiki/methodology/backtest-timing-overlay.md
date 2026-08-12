@@ -1,7 +1,7 @@
 ---
 title: Backtest — the market-state timing overlay
 type: methodology
-updated: 2026-05-13
+updated: 2026-08-12
 sources: []
 ---
 
@@ -81,6 +81,25 @@ Each row varies one dimension vs the default. **Picking the best-looking variant
 | 2026-01-14 | -10.5% |
 
 
+## Dr. Wish reached the same conclusion in 2015, qualitatively
+
+This backtest's verdict — a large drawdown reduction bought at a real cost in CAGR and Sharpe,
+with the damage concentrated in whipsaws during sustained advances — is not a finding *against*
+him. He published the same limitation himself, and acted on it.
+
+In February 2015, with the GMI at 6 of 6, he noted that **"since early 2014, the GMI has issued
+7 separate Sell signals... followed by 7 Buy signals"** while the QQQ never left its RWB
+up-trend. His response was to demote the signal for long-horizon money: "a GMI Sell signal
+should only be used by me for **short term trading decisions**... I should therefore probably
+remain invested long term in the market (at least in my university pension account) as long as
+the RWB pattern is in place, even when the GMI signals Sell." ([WW 2015-02-22](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md))
+
+So the honest reading of this backtest is narrower than "the GMI overlay is marginal." It is:
+**the overlay is marginal for the job he stopped using it for.** Testing GMI≥4/≤3 as a
+buy-and-hold replacement measures a use he explicitly abandoned in 2015. The corresponding
+test of what he actually does for long-horizon allocation — stay invested while the weekly
+GMMA/RWB pattern holds — has not been run, and is the obvious next backtest.
+
 ## Limitations
 
 - The reconstructed GMI reads optimistic in declines (survivorship bias in the breadth universe) -- so the strategy here is *less* defensive than Dr. Wish actually was; a faithful version would cut drawdown more (and give back more on whipsaws). - 2007-start (the breadth reconstruction is thin before then). - 5-bps cost / no slippage beyond that / no tax. - This is the *timing* layer only -- it does **not** test his GLB/WGB stock-selection signal (a separate sub-project).
@@ -91,4 +110,6 @@ Each row varies one dimension vs the default. **Picking the best-looking variant
 
 ## Sources
 
-_None -- this page is a generated backtest report; the rules it tests are documented (and cited) on the linked methodology pages._
+_This page is a generated backtest report; the rules it tests are documented (and cited) on the linked methodology pages. The one primary source cited directly:_
+
+- [WW 2015-02-22 — An important limitation of the GMI signals](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md) ([summary](../sources/2015-02-22-an-important-limitation-of-the-gmi-signals.md))

@@ -660,3 +660,65 @@ GMI-S construction; the published-table context block), `methodology/t2108.md` (
 **Method note for future sessions:** the images are readable directly by the model — no OCR
 dependency. `wpm<date>` (WPM tables) and `ibdperf<date>` (IBD performance tables) follow the
 same convention and are still unread.
+
+## [2026-08-12] ingest | first batch from "My Favorite Posts" — 5 posts, tier=teaching
+
+The first batch selected from **his own curation** rather than from word-count and title
+heuristics, using the new `ww batch --category "My Favorite Posts"`. 95 → 90 remaining.
+Deliberately chosen against the gaps the three reviews identified, and four of the five
+corrected something the wiki had wrong.
+
+**New page: `methodology/trading-philosophy.md`.** Trading psychology and first principles had
+no owner. The 2009-11-26 post supplies them as five numbered propositions: markets are
+unpredictable; trends nonetheless persist; so identify trends once begun and stay with them;
+since only ~50% of trades work, winners must dwarf losers (stops and small initial positions;
+riding and pyramiding); and therefore **success is determined mostly by exit rules, not entry**
+— "one could probably **select stocks at random** as long as losses are kept at a minimum and
+profits are maximized." Previously published under the pseudonym **Sir Silent Knight** in the
+Worden TC2007 journal. The page maps each proposition onto the machinery it produced.
+
+**The founding GMI post finally has a summary page.** `2005-04-26-general-market-index-gmi`
+was the most-cited post in the wiki with no summary across two reviews. It also shows component
+1 was explicitly provisional from day one — "I reserve the right to change this threshold" —
+which is exactly what the 2014 ≥50% rule and the table's `min. 20` floor turned out to be.
+
+**Correction — the GMI has a published limitation, and we never recorded it.** In February 2015,
+with the GMI at 6 of 6, he documented that it had issued **7 Sell and 7 Buy signals since early
+2014 while the QQQ never left its RWB up-trend**, and demoted it: GMI for short-term trading
+only, weekly GMMA for the pension. This is the origin of the two-speed design the wiki
+described but never justified. **It also reframes our own backtest**: the "marginal" verdict
+measures the GMI at a job he explicitly abandoned in 2015. `backtest-timing-overlay.md` now
+says so, and names the untested alternative (stay long while the weekly RWB holds).
+
+**Correction — yellowband is not a superseded term.** The glossary said he moved away from it.
+The 2017-06-25 post — itself a favorite — presents it as a *primary* framework: a 1990s pattern,
+defined precisely as weekly closes above a **rising** 10-week average that is itself above a
+**rising** 30-week, used both to select ("I primarily buy stocks... that have a yellowband
+up-trend") and to hold ("I try not to sell as long as the yellowband is intact"). Its job is
+preventing premature exits. The December 2017 post the glossary relied on is six months *later*
+and concerns a different job (when to leave, not whether to hold). Entry rewritten with the
+misreading noted.
+
+**Correction — the bounce-over-breakout preference is from 2018, not 2023.** The green-dot post
+states it plainly: "I have more success trading strong up-trending stocks that are turning up
+after they have had a small decline **than buying break-outs**... I know exactly where to get
+out if I am wrong." So 2023-07-13 is the sharpest statement, not the origin; the reasoning runs
+2016 (BOS) → 2018 → 2023 unchanged.
+
+**The green dot is now fully specified** rather than a one-line reference: 10.4.4 daily
+stochastic, fast crossing above slow, preferably below 50; the dot drawn **at the 5-day low**,
+so its placement *is* the stop reference; written in TC2000 by co-instructor David McCandlish;
+prerequisites (daily RWB or yellowband confirmation, price above a rising 30-week average);
+and two exit triggers. Plus a methodological rule for the philosophy page — "I try not to rely
+on a single indicator."
+
+Touched: **new** `methodology/trading-philosophy.md`; `methodology/gmi.md` (the 2015
+limitation), `methodology/glossary.md` (yellowband rewritten, green dot fully specified),
+`methodology/oversold-bounce.md` (preference back-dated to 2018),
+`methodology/backtest-timing-overlay.md` (reframed against his own finding),
+`history/timeline.md` (4 new sections: Nov 2009, Feb 2015, Jun 2017, Mar 2018), `index.md`;
+5 new `sources/` pages. `ww lint .` clean; 189 tests pass; ledger exported (119 rows).
+
+**Queue state:** 90 of 145 favorites remain un-ingested, plus `Tutorial` (7) and
+`UMDSMC Education Posts` (9). Year-holes 2008 / 2015 / 2019 / 2024 remain a separate track —
+2008 still has one source page and contains zero favorites.

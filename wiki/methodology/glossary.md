@@ -3,6 +3,8 @@ title: Glossary
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md
+  - raw/posts/2018-03-11-green-dot-strategy-defined.md
   - raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md
   - raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md
   - raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md
@@ -74,7 +76,7 @@ Every term Dr. Wish coins or uses, defined in a sentence or two, with a first-ap
 
 **Gap-up scan** — a TC2000 scan for stocks that had a large-volume gap-up day within the past 25 trading days and are now potentially setting up a BOS-type entry. Formula: `L>H1 and V=maxv20 and H=MaxH10` (gap up; highest volume in 20 days; highest price in 10 days) applied as "true within the last 25 bars." Introduced: ([WW 2022-12-04](../../raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md))
 
-**Green dot** — a TC2000 chart signal marking the possible start of a new short-term up-trend in a stock. Dr. Wish references it alongside the black dot as an entry signal after a brief decline within an up-trend. Referenced: ([WW 2020-09-06](../../raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md))
+**Green dot** — a TC2000 signal marking a stock in an up-trend resuming after a small decline. **Formula:** on a **10.4.4 daily stochastic**, the fast (10.4) line crosses above the slow (10.4.4) signal line, preferably at an oversold reading **below 50**. The dot is drawn on the crossover day and placed **at the 5-day low**, which doubles as the likely support level and therefore the stop reference. Written as a TC2000 program by his co-instructor David McCandlish, and mirrored into a TC2000 column for scanning watchlists. **Prerequisites** — the dot alone is not a signal, since "green dots can occur in declining stocks but many of them will fail": confirm a strong up-trend via daily RWB or [yellowband](#yellowband-up-trend), and require the stock to be above its rising 30-week average (Stage 2). **Exit:** close back below the green dot, *or* the fast stochastic closing back below its signal line. Works on indexes as well as individual stocks. Fully defined: ([WW 2018-03-11](../../raw/posts/2018-03-11-green-dot-strategy-defined.md)); earlier reference: ([WW 2020-09-06](../../raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md))
 
 **GMI (General Market Index)** — Dr. Wish's 0–6 composite of market conditions. GREEN (≥ 4) = be long; RED (≤ 3) = be defensive. Six binary components each worth one point. See [gmi.md](gmi.md). Introduced: ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md))
 
@@ -140,7 +142,9 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 
 ---
 
-**Yellowband up-trend** — an earlier term for an up-trend state (distinct from RWB) based on a weekly chart where the stock is above the 10-week average and the 10-week average is rising. In his 2017 exit analysis, Dr. Wish compared this approach with the daily RWB system and found the weekly close below the 10-week average gave back too much profit. He shifted to using daily RWB red-line closes as the primary exit signal. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
+**Yellowband up-trend** — a weekly-chart trend state he "noticed in the 1990s," predating both the GMI and the RWB work. Precisely: the stock **closes repeatedly above its rising 10-week average, which is in turn consistently above its rising 30-week average** (both averages rising, not merely stacked). The reverse is a yellowband down-trend. Its job is preventing *premature exits*: "If I had diligently checked a stock's yellowband pattern I would not have been shaken out and exited many great stocks too early." He buys stocks above or near their last GLB **that have a yellowband up-trend**, holds while it is intact "unless I see unusually high volume selling or a climax top," and treats a close below the 10-week average as the signal to exit or reduce. Applied to indexes as well as stocks. Fully defined: ([WW 2017-06-25](../../raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md))
+
+*An earlier version of this entry called yellowband a superseded term, on the strength of [WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md), where he compares it against the daily RWB system and finds that waiting for a weekly close below the 10-week average "gave back too much profit," shifting to daily-RWB red-line closes as his primary exit. That was a misreading: the June post is six months earlier and presents yellowband as a live, primary framework. The two coexist with different jobs — yellowband decides whether a stock is still a hold, daily RWB decides when to leave.*
 
 ---
 
@@ -200,3 +204,5 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 - [WW 2007-12-17 — GMI-L defined; 31% as the pre-2008 warning](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md) ([summary](../sources/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
 - [WW 2020-01-05 — GMI table: GMI2 grown to 8; MACD breadth row](../../raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md)
 - [WW 2026-01-04 — GMI table: verbatim component labels; GMI2 at 9](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md)
+- [WW 2017-06-25 — How I use Yellowband up- and down-trends](../../raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md) ([summary](../sources/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md))
+- [WW 2018-03-11 — Green Dot strategy defined](../../raw/posts/2018-03-11-green-dot-strategy-defined.md) ([summary](../sources/2018-03-11-green-dot-strategy-defined.md))

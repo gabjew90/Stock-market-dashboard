@@ -3,6 +3,10 @@ title: Timeline — evolution of the methodology
 type: history
 updated: 2026-08-12
 sources:
+  - raw/posts/2009-11-26-my-trading-philosophy-and-why-i-use-technical-analysis.md
+  - raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md
+  - raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md
+  - raw/posts/2018-03-11-green-dot-strategy-defined.md
   - raw/posts/2021-05-06-blog-post-day-2-of-qqq-short-term-down-trend-but-378-new-highs-among-us-stocks-non-qqq-type-stocks-still-risi.md
   - raw/posts/2021-05-23-blog-post-13th-day-of-qqq-short-term-down-trend-revised-osb-oversold-bounce-scan-yields-gs-and-bgfv.md
   - raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md
@@ -234,6 +238,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## November 2009 — the trading philosophy stated as five propositions
+
+**"My Trading Philosophy and Why I Use Technical Analysis" (2009-11-26):** the reasoning the whole system serves, in five numbered propositions — markets are unpredictable; but trends persist; so identify trends once begun and stay with them; since only ~50% of trades work, winners must dwarf losers (stops and small initial positions on one side, riding and pyramiding on the other); and therefore **success is determined mostly by exit rules, not entry** — "one could probably select stocks at random as long as losses are kept at a minimum and profits are maximized." Attributed to Darvas, Weinstein, O'Neil, the Turtles and Livermore, and previously published under the pseudonym **Sir Silent Knight** in the Worden TC2007 journal. See [trading-philosophy.md](../methodology/trading-philosophy.md). ([WW 2009-11-26](../../raw/posts/2009-11-26-my-trading-philosophy-and-why-i-use-technical-analysis.md))
+
+---
+
 ## February–April 2010 — Stock-selection scan workflow; stop-loss doctrine stated; DITM calls introduced
 
 **"How to use IBD 100 and New America stocks to find rocket stocks" (2010-02-22):** Dr. Wish publishes the complete multi-step funnel: 4,000-stock universe → 52-week highs → near 10-year ATH → earnings ≥ 30% or revenue ≥ 12% → IBD 100/New America cross-check. Result: 68% overlap with IBD lists confirms the filters agree. Prerequisite stated: GMI ≥ 3 before searching for stocks. ([WW 2010-02-22](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
@@ -382,6 +392,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## February 2015 — he publishes a limitation of the GMI and demotes it
+
+**"An important limitation of the GMI signals" (2015-02-22):** with the GMI at 6 of 6, Dr. Wish examines a GMMA chart of the QQQ and finds the GMI issued **7 Sell signals followed by 7 Buy signals since early 2014** while the QQQ never left its RWB up-trend. He restricts the signal accordingly — "a GMI Sell signal should only be used by me for short term trading decisions" — and moves long-horizon allocation onto the weekly GMMA: stay invested "as long as the RWB pattern is in place, even when the GMI signals Sell." He reinvests his pension. This is the origin of the two-speed design (GMI for the trading IRA, GMMA for the pension) and the honest frame for the [backtest](../methodology/backtest-timing-overlay.md). "One must never stop learning and adapting when it comes to the markets." ([WW 2015-02-22](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md))
+
+---
+
 ## January 2016 — Global BWR sweep; worldwide down-trends
 
 **"All World Stock Markets entering BWR Down-trends!" (2016-01-10):** Dr. Wish scans 37 global market ETFs and finds 35 of 37 in BWR down-trends in early 2016. He refines the BWR definition: the weekly close (gray dotted line) is below all 12 Guppy moving averages. He posts a monthly T2108 historical chart: readings at 1% (2008), 7% (2011), ~6% (August 2015). ([WW 2016-01-10](../../raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md))
@@ -426,6 +442,12 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 ---
 
+## June 2017 — yellowband defined; a 1990s pattern still in primary use
+
+**"How I use Yellowband up and down trends" (2017-06-25):** the definitional post for a pattern he "noticed in the 1990s" — a weekly close repeatedly above a **rising** 10-week average that is itself above a **rising** 30-week average. It is both a selection filter ("I primarily buy stocks that are above or near their last GLB **that have a yellowband up-trend**") and a hold rule ("I try not to sell as long as the yellowband is intact unless I see unusually high volume selling or a climax top"), with a close below the 10-week average as the exit. Its purpose is preventing premature exits: "If I had diligently checked a stock's yellowband pattern I would not have been shaken out and exited many great stocks too early." ([WW 2017-06-25](../../raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md))
+
+---
+
 ## July 2017 — GLB doctrine consolidated; historical lineage from Darvas restated; six worked examples
 
 **"GLB: the sine qua non of rocket stocks" (2017-07-02):** a major consolidating post on the GLB. Dr. Wish traces the full Darvas → Livermore → Dr. Wish lineage: Darvas's "no exceptions" rule for all-time highs; his "already doubled" prerequisite; Livermore's IPO-GLB insight. He explains why he switched from Darvas's daily-price boxes to monthly charts (whipsaws). Six worked GLB examples: SHOP, SQ, BABA, Z, FB, BZUN. FB had multiple GLBs. Includes the re-entry rule: "If it retakes the green line I often buy it back." ([WW 2017-07-02](../../raw/posts/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md))
@@ -453,6 +475,12 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 ## February 2018 — Monthly RWB on bond ETFs as macro regime indicator; Martin Zweig principle
 
 **"Rising interest rates suggest market to form top" (2018-02-25):** after the January/February 2018 correction, Dr. Wish applies the RWB/BWR framework to **monthly** bond ETF charts as a long-term interest-rate regime indicator. **Martin Zweig principle:** after the Fed raises rates several times, the market eventually declines — a multi-cycle pattern Dr. Wish has observed since the 1960s. **Monthly RWB on bond ETFs**: SHY (short-term bond ETF) showed an RWB pattern "through about 2013" (low-rate era); by mid-2016, SHY entered a BWR decline on the monthly chart — "for the first time since at least 2003." Monthly BWR on bonds "suggests this trend could persist for months if not years." TC2000 offers a direct chart of short-term interest rates; as of February 2018, rates were in a steep RWB up-trend. New-high count warning: only 90 US stocks hit new highs on the Friday before the post, vs 200+ per day before January 29 — breadth deteriorating. Caveat: this is a monitoring framework, not a trading rule; he still defers to the GMI for actual buy/sell decisions. ([WW 2018-02-25](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))
+
+---
+
+## March 2018 — the green dot defined, and bounce-over-breakout stated
+
+**"Green Dot strategy defined" (2018-03-11):** the full formula — a 10.4.4 daily stochastic, fast crossing above slow, preferably below 50, with the dot drawn **at the 5-day low** so its placement is the stop reference. Written in TC2000 by co-instructor David McCandlish. The dot alone is not a signal: confirm a strong up-trend via daily RWB or yellowband, and require price above a rising 30-week average. Exit on a close below the dot or the fast stochastic re-crossing below its signal. Most importantly it states the **bounce-over-breakout preference five years before the 2023 post** the wiki had treated as its origin: "I have more success trading strong up-trending stocks that are turning up after they have had a small decline than buying break-outs... I know exactly where to get out if I am wrong." Plus the methodological rule "I try not to rely on a single indicator." ([WW 2018-03-11](../../raw/posts/2018-03-11-green-dot-strategy-defined.md))
 
 ---
 
@@ -811,3 +839,7 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2007-10-29 — At the October 2007 top; GMI-L at 94%](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md) ([summary](../sources/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md))
 - [WW 2007-11-19 — QQQQ tests its 30-week average; the 2000 top attributed](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md) ([summary](../sources/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
 - [WW 2007-12-17 — GMI-L at 31%: the pre-2008 warning; capital conservation](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md) ([summary](../sources/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
+- [WW 2009-11-26 — My Trading Philosophy and Why I Use Technical Analysis](../../raw/posts/2009-11-26-my-trading-philosophy-and-why-i-use-technical-analysis.md) ([summary](../sources/2009-11-26-my-trading-philosophy-and-why-i-use-technical-analysis.md))
+- [WW 2015-02-22 — An important limitation of the GMI signals](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md) ([summary](../sources/2015-02-22-an-important-limitation-of-the-gmi-signals.md))
+- [WW 2017-06-25 — How I use Yellowband up- and down-trends](../../raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md) ([summary](../sources/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md))
+- [WW 2018-03-11 — Green Dot strategy defined](../../raw/posts/2018-03-11-green-dot-strategy-defined.md) ([summary](../sources/2018-03-11-green-dot-strategy-defined.md))
