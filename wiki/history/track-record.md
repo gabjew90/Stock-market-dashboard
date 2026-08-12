@@ -133,6 +133,29 @@ The timeline confirms GMI remained at 0 / Red through the end of 2018 before rec
 
 ---
 
+## February 2020 — what the panel read five days before the top
+
+Recovered from the published GMI table image of 2020-02-14, which the text parser had failed to
+extract (see [gmi.md](../methodology/gmi.md#the-modern-era-is-an-image-problem)):
+
+| Reading | 2020-02-14 |
+|---|---|
+| GMI | **6 of 6** — every component YES |
+| GMI2 | 7 of 8 |
+| QQQ short-term trend count | **U-86** |
+| Weeks QQQ closed above its 10-week average | 20 |
+| T2108 | 53% (+5 on the week) |
+| Nasdaq 100 above MACD signal line | 82% (+19) |
+
+QQQ peaked on 2020-02-19. So **five days before the top the instrument panel was at maximum**,
+on an 86-day up-trend, with breadth improving week-on-week. Nothing in it anticipated the crash.
+
+That is the same pattern as [October 2007](#october-2007--t2108-peak-warning-at-qqq-top): his
+indicators are trend-followers and they do not call tops. What they did was get him out fast
+afterwards — he was in 100% cash by late February, within about a week of this reading. The
+system's value is in the exit latency, not in foresight, and these two dated snapshots are the
+clearest evidence of that in the wiki.
+
 ## February–March 2020 — COVID exit to 100% cash before the crash
 
 **The call:** On **15 March 2020** — near the trough of the COVID crash — Dr. Wish published a post titled "Livermore: Amputation without anaesthetics." He disclosed that the GMI had gone **Red on 26 February 2020** and that he had been **100% in cash for weeks before that** signal, having identified warning signs ahead of the official GMI flip. He described SPY as being in "a clear Stage 4 decline" on the weekly chart. He explicitly stated: "I do not care if I miss the bottom or the top" and wrote that for tax-deferred accounts he had moved entirely to money market funds. ([WW 2020-03-15](../../raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md))

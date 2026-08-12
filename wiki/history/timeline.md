@@ -386,6 +386,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## May 2014 — Stage Analysis as the pundit filter
+
+**"Ignore the media pundits" (2014-05-26):** the corpus's best self-contained Stage Analysis tutorial, written against bearish punditry in a flat 2014 tape. Timeframe framed as a life choice ("I am too old... the equivalent of flying with the Blue Angels... I want to manage my investments only part-time"); the pension rule as a pundit filter ("I do not care what the media pundits are saying"); and consolidation-as-health ("A healthy market rises and consolidates over and over again"). IBD still called the market in correction while his GMI had been on a Buy since 4/22. ([WW 2014-05-26](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
+
+---
+
 ## August 2014 — Successful 10-Day New High Indicator explained in detail; T2108 defined
 
 **"GMI Successful 10-Day New High Indicator predicted current decline" (2014-08-03):** retrospective showing the indicator flagged the July 2014 decline. Refines the threshold: ≥ 50% of stocks that hit a high 10 days ago must be up — not the 2005 absolute count of 100. Full T2108 definition given for the first time. AAPL as a 10-week average rule example. QQQ down-trend tactics (small SQQQ, add if persists 5–6 days). ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
@@ -407,6 +413,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## February 2015 — he publishes a limitation of the GMI and demotes it
 
 **"An important limitation of the GMI signals" (2015-02-22):** with the GMI at 6 of 6, Dr. Wish examines a GMMA chart of the QQQ and finds the GMI issued **7 Sell signals followed by 7 Buy signals since early 2014** while the QQQ never left its RWB up-trend. He restricts the signal accordingly — "a GMI Sell signal should only be used by me for short term trading decisions" — and moves long-horizon allocation onto the weekly GMMA: stay invested "as long as the RWB pattern is in place, even when the GMI signals Sell." He reinvests his pension. This is the origin of the two-speed design (GMI for the trading IRA, GMMA for the pension) and the honest frame for the [backtest](../methodology/backtest-timing-overlay.md). "One must never stop learning and adapting when it comes to the markets." ([WW 2015-02-22](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md))
+
+---
+
+## August 2015 — the flash crash, from 100% cash
+
+**"Is worst of stock market decline over? I'm not betting on it" (2015-08-30):** the year's first timeline section — 2015 previously had zero. Written 13 days into the down-trend, from 100% cash in the trading accounts, GMI at 0 for five straight days. Severity judged by comparison: the technical damage was "far greater" than October 2014's analogous GMI=0 episode, so no quick recovery expected; the test is whether QQQ retakes its 30-week average. The pension trade-off in one sentence — "**I would rather miss a further 5-10% rise than sit through a possible 20-40% decline**" — plus the Boomer-supply thesis (retracement toward break-even triggers selling) and criticism of the exchanges' disorderly Monday open. ([WW 2015-08-30](../../raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md))
 
 ---
 
@@ -857,3 +869,5 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2018-03-11 — Green Dot strategy defined](../../raw/posts/2018-03-11-green-dot-strategy-defined.md) ([summary](../sources/2018-03-11-green-dot-strategy-defined.md))
 - [WW 2005-04-20 — STOP THIS MADNESS: the GMI's components, six days before the GMI](../../raw/posts/2005-04-20-stop-this-madness.md) ([summary](../sources/2005-04-20-stop-this-madness.md))
 - [WW 2005-05-04 — A Google Confession: the gap rule and the doubling rationale](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md) ([summary](../sources/2005-05-04-a-google-confession-ww-gmi-1.md))
+- [WW 2014-05-26 — Stage Analysis as the pundit filter; timeframe as a life choice](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md) ([summary](../sources/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
+- [WW 2015-08-30 — The August 2015 flash crash; pension exit criteria](../../raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md) ([summary](../sources/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md))

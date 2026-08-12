@@ -3,6 +3,7 @@ title: Trading philosophy — the five propositions
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md
   - raw/posts/2009-11-26-my-trading-philosophy-and-why-i-use-technical-analysis.md
@@ -69,6 +70,16 @@ The [oversold bounce](oversold-bounce.md) is the clearest case. He prefers it to
 because it wins more often but because it makes Proposition 5 easy: "if I think a stock has
 bottomed and turned up, **I know exactly where to get out if I am wrong** — if the recent
 bottom does not hold." ([WW 2018-03-11](../../raw/posts/2018-03-11-green-dot-strategy-defined.md))
+
+## Timeframe is a life choice, not an edge claim
+
+Why weekly charts? Not because weekly beats daily — because of what he wants his days to look
+like: "Day traders need to look at intraday trends using hourly or even 5 minute bars... I am
+too old to attempt such tactics, which are to me **the equivalent of flying with the Blue
+Angels**... I want to enjoy other things in my life... and manage my investments **only
+part-time**." ([WW 2014-05-26](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
+The system's cadence — weekly stages for the pension, a daily count for the trading account,
+evening scans, buy-stop automation — is engineered around a part-time operator.
 
 ## Your own hit rate is an indicator
 
@@ -137,3 +148,4 @@ and the [backtest](backtest-timing-overlay.md).
 </content>
 - [WW 2005-04-20 — STOP THIS MADNESS: the GMI's components, six days before the GMI](../../raw/posts/2005-04-20-stop-this-madness.md) ([summary](../sources/2005-04-20-stop-this-madness.md))
 - [WW 2005-05-04 — A Google Confession: the gap rule and the doubling rationale](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md) ([summary](../sources/2005-05-04-a-google-confession-ww-gmi-1.md))
+- [WW 2014-05-26 — Stage Analysis as the pundit filter; timeframe as a life choice](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md) ([summary](../sources/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))

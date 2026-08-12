@@ -3,6 +3,7 @@ title: Risk & cash
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md
   - raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md
@@ -155,6 +156,16 @@ In May 2022, Dr. Wish articulated his framework for recognizing that a bear mark
 - Weekly BWR pattern on QQQ and SPY was just beginning to form, paralleling early 2008 in timing. He shows side-by-side weekly charts: 2008 was a more mature BWR by the same calendar date; 2022 was just entering the pattern.
 - He applied the GLB concept to index ETFs: DIA and SPY had not broken above their green line tops from November 2020; QQQ's last GLB was June 2020. "We will be back to a roaring trader's market again when these indexes have another GLB to all-time highs, but it could be months or even years."
 - Historical precedent: the Dow failed repeatedly to break 1,000 between 1965 and 1982 — a 17-year flat period after prior all-time-high runs. ([WW 2022-05-01](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
+
+## The pension trade-off, in one sentence
+
+From 100% cash after the August 2015 flash crash, deciding whether to move even the slow 401(k)
+money: "**I would rather miss a further 5-10% rise than sit through a possible 20-40% decline.**"
+([WW 2015-08-30](../../raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md))
+That is the asymmetry of the whole risk doctrine stated as a personal exchange rate. The same
+post gives his method for judging a decline's severity: compare its technical damage against the
+last analogous episode — August 2015's break was "far greater" than October 2014's, so no quick
+recovery was expected, with the QQQ's 30-week retake as the test.
 
 ## His rebuttal of "you'll miss the best N days"
 
@@ -361,3 +372,4 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2014-02-23 — Covered call income on GLD; do NOT sell calls on rocket stocks](../../raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md) ([summary](../sources/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md))
 - [WW 2010-12-06 — Mutual funds restrict market timing; IBD drops the follow-through day](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md)
 - [WW 2005-04-20 — STOP THIS MADNESS: the GMI's components, six days before the GMI](../../raw/posts/2005-04-20-stop-this-madness.md) ([summary](../sources/2005-04-20-stop-this-madness.md))
+- [WW 2015-08-30 — The August 2015 flash crash: depth comparison; pension exit criteria](../../raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md) ([summary](../sources/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md))

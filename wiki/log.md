@@ -832,3 +832,48 @@ but a small share of the *prose*. The ordered targets are now:
    images sit inside bucket 4.
 
 `ww lint .` clean; 194 tests pass; ledger exported (121 rows).
+
+## [2026-08-12] lint+ingest | 2010–present audited — the era's record lives in images, not prose
+
+Answering "what about 2010 to present?" — measured, and it changes the diagnosis.
+
+**Coverage 2010–2026:** 3,763 posts, 93 ingested (2.5%), 1,194 in `timeline.parquet`, **2,441
+untouched**, of which only **303 carry ≥250 words of prose**. So unlike 2005–2009, the modern
+gap is *not* unread essays.
+
+**The real finding: from ~2014 the blog's information migrates out of text into the published
+images, and our text-parsing pipeline degrades in lockstep.** Untouched-post median word counts
+by era: 2010–2013 → 55; 2014–2017 → 23; 2018–2021 → **10**; 2022–2026 → 37 (with mean charts per
+post *rising* to 1.7). Meanwhile `ww timeline` — a text parser — captures 113/199 posts in 2010
+but only 24–35/year by 2020+, and **866 of its 1,811 rows have no extracted GMI value**. Sixty
+2020+ timeline rows have no parsed GMI while carrying a perfectly legible `GMI<date>` table
+image. The prose shrank to captions; the table kept publishing the full panel daily.
+
+**Worked proof, and a track-record entry from it:** the 2020-02-14 table — five days before the
+COVID top — was a parser miss. Read directly: **GMI 6/6, GMI2 7/8, day count U-86, T2108 53%
+(+5), MACD breadth 82% (+19)**. Every instrument at maximum five days before the top — the same
+"trend-followers don't call tops" pattern as October 2007, now documented with a dated snapshot
+at both ends. `track-record.md` gains the section; `gmi.md` gains "The modern era is an image
+problem," which reframes the ~2,547 `gmi*` images as *the primary daily record* for the modern
+era rather than illustrations. Future timeline work should read them, not the captions.
+
+**Also ingested — 2 of the 303 modern prose posts, both closing named gaps:**
+
+- **2015-08-30 (flash crash)** — 2015's first timeline section (the year had zero). From 100%
+  cash; severity judged by comparison against October 2014's analogous GMI=0 episode; the
+  pension trade-off in one sentence: "**I would rather miss a further 5-10% rise than sit
+  through a possible 20-40% decline**"; the Boomer-supply thesis (retracement toward break-even
+  triggers selling).
+- **2014-05-26 (Stage Analysis tutorial)** — timeframe as a *life* choice ("the equivalent of
+  flying with the Blue Angels... only part-time"); the pension rule as a pundit filter;
+  "**a healthy market rises and consolidates over and over again**"; IBD calling a correction
+  while his GMI had been on Buy for a month.
+
+Touched: `methodology/gmi.md`, `history/track-record.md`, `methodology/risk-and-cash.md`,
+`methodology/trading-philosophy.md`, `methodology/moving-average-rules.md`,
+`history/timeline.md` (Aug 2015 + May 2014 sections), `index.md`; 2 new `sources/` pages.
+`ww lint .` clean; 194 tests pass; ledger exported (123 rows).
+
+**Standing queues after this entry:** 2005–2006 block (170 prose posts remaining), 301 modern
+prose posts, 90 favorites, 2008, and now the image-first work item: read the `gmi*` tables
+into a structured series to replace the degraded text-parsed timeline for 2014+.

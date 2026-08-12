@@ -1,8 +1,9 @@
 ---
 title: Moving-average rules
 type: entity
-updated: 2026-05-12
+updated: 2026-08-12
 sources:
+  - raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
@@ -281,6 +282,13 @@ The core rules have not changed. These posts confirm them as active practice:
 - [Stock selection](stock-selection.md) — RWB pattern; daily RWB scan; weekly green bar
 - [Exits (playbook)](../playbooks/exits.md)
 
+## Consolidation is what health looks like
+
+Against 2014 punditry bemoaning a flat tape: "These indexes are all up over 30% since 2013 and
+the pundits seem to think that they should always be climbing at this super rate! No!!! **A
+healthy market rises and consolidates over and over again.**" A flat stretch inside a Stage 2 —
+price above a still-rising 30-week average — is not deterioration. ([WW 2014-05-26](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
+
 ## Sources
 
 - [WW 2005-04-23 — Let's Talk Strategy](../../raw/posts/2005-04-23-lets-talk-strategy.md) ([summary](../sources/2005-04-23-lets-talk-strategy.md))
@@ -318,3 +326,4 @@ The core rules have not changed. These posts confirm them as active practice:
 - [WW 2026-05-10 — 5-day EMA post-GLB exit; 4wk>10wk>30wk up-trend confirmed 2026](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md) ([summary](../sources/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
 - [WW 2018-03-25 — GMI Red March 2018; put/call contrarian; 30-week curve-down pension trigger](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md) ([summary](../sources/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))
 - [WW 2010-09-27 — Introducing Red White and Blue (RWB) Stocks](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md) ([summary](../sources/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
+- [WW 2014-05-26 — Stage Analysis as the pundit filter; timeframe as a life choice](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md) ([summary](../sources/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))

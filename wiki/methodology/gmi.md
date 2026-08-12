@@ -325,6 +325,28 @@ contrarian buy zone, sourced from the prose. Both are his — they serve differe
 back-up-the-truck extreme he writes about in crisis posts. The page should carry both bands
 rather than only the extreme.
 
+## The modern era is an image problem
+
+A structural fact about the corpus that shapes everything downstream: **from roughly 2014 the
+blog's information migrates out of the text and into the published images.** Untouched posts from
+2010–2013 have a median of 55 words; 2018–2021, a median of **10**. The prose shrank to captions
+while the GMI table image kept publishing the full panel daily.
+
+The consequence shows up in `raw/timeline.parquet`, which is built by parsing *text*: it captures
+113 of 199 posts in 2010 but only 24–35 per year by 2020+, and **866 of its 1,811 rows have no
+extracted GMI value** — not because the value was unpublished, but because it was published as
+pixels. Sixty 2020+ posts sit in the timeline with no parsed GMI while carrying a perfectly
+legible `GMI<date>` table image.
+
+Worked proof: the table of **2020-02-14** — five days before the COVID top — was a parser miss
+(no GMI value extracted). Read directly, it gives GMI 6/6, GMI2 7/8, day count U-86, T2108 53%
+(+5), MACD breadth 82% (+19). See [track-record.md](../history/track-record.md#february-2020--what-the-panel-read-five-days-before-the-top).
+
+The ~2,547 dated `gmi*` images are therefore not illustrations of the daily record — for the
+modern era they **are** the daily record, and any future work on the timeline dataset (or a
+higher-fidelity GMI validation series) should read them rather than the captions. The images are
+directly legible; no OCR tooling is needed, only the time to go through them.
+
 ## Code — computing the GMI
 
 The GMI is six binary checks ([`src/ww/indicators/gmi.py`](../../src/ww/indicators/gmi.py)). Three of them — QQQ daily trend, SPY daily trend, QQQ weekly trend (close above its 30-week average) — are computable from ordinary price data, so the code returns those even with a free data provider. The other three — the "Successful 10-Day New High" share, ≥100 new 52-week highs today, and the IBD Mutual Fund Index above its 50-day average — need a daily market-breadth panel and the IBD fund series, which aren't freely available; those come back as `None` (listed in `.unavailable`) until you plug in a provider that has them.
