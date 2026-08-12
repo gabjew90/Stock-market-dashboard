@@ -12,6 +12,7 @@ from ww.breadth.series import build_fund_proxy, compute_breadth_series
 from ww.breadth.symbols import build_universe, download_symbol_files
 from ww.breadth.validate import validate_against_reported
 from ww.corpus.index import read_posts_jsonl
+from ww.corpus.ledger import apply_ledger, export_ledger, reconstruct_from_wiki, write_ledger
 from ww.corpus.timeline import build_timeline
 from ww.indicators.breadth_provider import BreadthProvider
 from ww.maintain.lint import lint_wiki
@@ -190,6 +191,58 @@ def stats(
 ) -> None:
     """Print corpus counts for the raw-sources index."""
     typer.echo(yaml.safe_dump(corpus_stats(root), sort_keys=False, allow_unicode=True).rstrip())
+
+
+ledger_app = typer.Typer(
+    help="The committed ingest ledger — curated post state that survives losing raw/.",
+    no_args_is_help=True,
+)
+app.add_typer(ledger_app, name="ledger")
+
+
+def _ledger_paths(root: Path) -> tuple[Path, Path]:
+    return Path(root) / "raw" / "ingest-ledger.jsonl", Path(root) / "raw" / "posts.jsonl"
+
+
+@ledger_app.command("export")
+def ledger_export(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+) -> None:
+    """posts.jsonl -> raw/ingest-ledger.jsonl. Run after every Ingest batch, then commit the ledger."""
+    ledger_path, posts_jsonl = _ledger_paths(root)
+    n = export_ledger(posts_jsonl, ledger_path)
+    typer.echo(f"ledger: {n} curated rows -> {ledger_path} (commit it — raw/posts.jsonl is gitignored)")
+
+
+@ledger_app.command("apply")
+def ledger_apply(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+) -> None:
+    """raw/ingest-ledger.jsonl -> posts.jsonl. Run after `ww scrape` to restore ingest state."""
+    ledger_path, posts_jsonl = _ledger_paths(root)
+    applied, unmatched = apply_ledger(ledger_path, posts_jsonl)
+    typer.echo(f"ledger: restored {applied} rows into {posts_jsonl}")
+    if unmatched:
+        typer.echo(f"warning: {len(unmatched)} ledger stem(s) not present in the corpus:")
+        for stem in unmatched[:10]:
+            typer.echo(f"  {stem}")
+        if len(unmatched) > 10:
+            typer.echo(f"  ... and {len(unmatched) - 10} more")
+
+
+@ledger_app.command("rebuild")
+def ledger_rebuild(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+) -> None:
+    """Recovery path: reconstruct the ledger from wiki/sources/*.md when the ledger itself is gone."""
+    ledger_path, _ = _ledger_paths(root)
+    entries = reconstruct_from_wiki(Path(root) / "wiki")
+    write_ledger(ledger_path, entries)
+    typer.echo(
+        f"ledger: reconstructed {len(entries)} rows from wiki/sources/ -> {ledger_path}\n"
+        "note: this recovers ingested teaching/trade_example posts only — daily_update and meta "
+        "tiers have no summary page and must be re-derived."
+    )
 
 
 @app.command()

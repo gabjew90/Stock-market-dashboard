@@ -24,8 +24,28 @@ class LintReport:
         return not self.errors
 
 
+#: A citation into the corpus: `.../raw/posts/<stem>.md`, at any `../` depth.
+_POST_CITATION = re.compile(r"raw/posts/([0-9]{4}-[0-9]{2}-[0-9]{2}-[^)\s]+?)\.md")
+_SOURCES_HEADING = re.compile(r"^##\s+Sources\s*$", flags=re.MULTILINE)
+
+
 def _is_external(target: str) -> bool:
     return target.startswith(("http://", "https://", "mailto:"))
+
+
+def _uncited_in_sources(text: str) -> set[str]:
+    """Post stems cited in a page's body but absent from its '## Sources' block.
+
+    The Sources block is the page's bibliography (CLAUDE.md §3.4); a claim cited inline
+    from a post that the block never lists leaves the page's provenance incomplete. Returns
+    an empty set for pages with no Sources heading — the missing heading is reported
+    separately.
+    """
+    m = _SOURCES_HEADING.search(text)
+    if not m:
+        return set()
+    body, sources = text[: m.start()], text[m.end() :]
+    return set(_POST_CITATION.findall(body)) - set(_POST_CITATION.findall(sources))
 
 
 def _wiki_pages(wiki_dir: Path) -> list[Path]:
@@ -96,7 +116,12 @@ def lint_wiki(root: Path) -> LintReport:
             # sources/.gitkeep style files won't be .md; .md pages must be indexed.
             report.errors.append(f"{rel}: not catalogued in wiki/index.md")
 
-    # 4. Orphan pages (no inbound link from another wiki page). overview.md is explicitly exempt as a safety net — it's the entry page.
+        # 4. Every post cited in the body is listed in the page's own '## Sources' block
+        #    (CLAUDE.md §3.4). Checked on the text, so it works without the corpus.
+        for stem in sorted(_uncited_in_sources(text)):
+            report.errors.append(f"{rel}: cites raw/posts/{stem}.md but does not list it under '## Sources'")
+
+    # 5. Orphan pages (no inbound link from another wiki page). overview.md is explicitly exempt as a safety net — it's the entry page.
     for page in pages:
         if page.name == "overview.md":
             continue
@@ -108,15 +133,19 @@ def lint_wiki(root: Path) -> LintReport:
             f"raw/ corpus not present — {unverified_raw_links} link targets under raw/ not verified (rebuild with `ww scrape`)"
         )
 
-    # 5. posts.jsonl summary_page integrity (only if the index exists & is non-empty)
-    posts_jsonl = root / "raw" / "posts.jsonl"
-    if posts_jsonl.exists():
-        for i, line in enumerate(posts_jsonl.read_text(encoding="utf-8").splitlines(), start=1):
+    # 6. summary_page integrity for the corpus index and the committed ingest ledger.
+    #    posts.jsonl is gitignored so it is usually absent; the ledger is committed, which
+    #    is what makes this check meaningful in CI.
+    for rel_path in ("raw/posts.jsonl", "raw/ingest-ledger.jsonl"):
+        jsonl = root / rel_path
+        if not jsonl.exists():
+            continue
+        for i, line in enumerate(jsonl.read_text(encoding="utf-8").splitlines(), start=1):
             line = line.strip()
             if not line:
                 continue
             sp = json.loads(line).get("summary_page")
             if sp and not (root / sp).exists():
-                report.errors.append(f"raw/posts.jsonl line {i}: summary_page -> {sp} does not exist")
+                report.errors.append(f"{rel_path} line {i}: summary_page -> {sp} does not exist")
 
     return report

@@ -52,6 +52,14 @@ sources:
   - raw/posts/2026-04-14-blog-post-day-4-of-qqq-short-term-up-trend-gradually-buying-tqqq-213-us-new-highs-and-5-lows-qqq-on-way-to-at.md
   - raw/posts/2026-04-15-blog-post-day-5-of-qqq-short-term-up-trend-gmi6-qqq-has-glb-to-ath-when-gmi6-my-setups-work-best-see-weekly-c.md
   - raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md
+  - raw/posts/2007-10-08-gmi-6-t2108-indicator-at-peak.md
+  - raw/posts/2007-11-08-gmi-5-gmi-r-60-qqqq-breakdown-coming.md
+  - raw/posts/2008-11-12-gmi-0-gmi-r-0-qqqq-short-term-down-trend-51-new-global-dow-index.md
+  - raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md
+  - raw/posts/2011-01-04-2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs.md
+  - raw/posts/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md
+  - raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md
+  - raw/posts/2026-01-19-blog-post-day-9-of-qqq-short-term-up-trend-tariff-war-turbulence-ahead-silver-gold-and-cash-are-kings-since-i.md
 ---
 
 # Trend-flip log
@@ -412,3 +420,11 @@ These head-fakes explain why Dr. Wish insists on the Day-5 threshold and the two
 - [WW 2026-04-14 — Day 4 up-trend; gradually buying TQQQ](../../raw/posts/2026-04-14-blog-post-day-4-of-qqq-short-term-up-trend-gradually-buying-tqqq-213-us-new-highs-and-5-lows-qqq-on-way-to-at.md)
 - [WW 2026-04-15 — Day 5 up-trend; GMI=6; QQQ GLB to ATH](../../raw/posts/2026-04-15-blog-post-day-5-of-qqq-short-term-up-trend-gmi6-qqq-has-glb-to-ath-when-gmi6-my-setups-work-best-see-weekly-c.md)
 - [WW 2026-05-10 — Day 22 up-trend; 10wk back above 30wk; Stage 2 re-confirmed](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md) ([summary](../sources/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
+- [WW 2007-10-08 — GMI: 6; T2108 indicator at peak](../../raw/posts/2007-10-08-gmi-6-t2108-indicator-at-peak.md)
+- [WW 2007-11-08 — GMI: 5; QQQQ breakdown coming](../../raw/posts/2007-11-08-gmi-5-gmi-r-60-qqqq-breakdown-coming.md)
+- [WW 2008-11-12 — GMI: 0; QQQQ down-trend: 51; New Global Dow Index](../../raw/posts/2008-11-12-gmi-0-gmi-r-0-qqqq-short-term-down-trend-51-new-global-dow-index.md)
+- [WW 2010-07-19 — 14x IRA; stochastic 10,4,4 timing; QQQQ 10wk/30wk rule](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md) ([summary](../sources/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
+- [WW 2011-01-04 — 2010 ETF year-in-review; TQQQ beats individual stocks](../../raw/posts/2011-01-04-2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs.md) ([summary](../sources/2011-01-04-2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs.md))
+- [WW 2013-10-20 — TA vs 1987 crash; 30-day MA as short-term trend signal](../../raw/posts/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md) ([summary](../sources/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md))
+- [WW 2021-01-24 — GLB origin; overhead supply rationale; 6 recent examples](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md) ([summary](../sources/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))
+- [WW 2026-01-19 — Day 9 of QQQ up-trend; tariff-war turbulence ahead; silver, gold and cash are kings](../../raw/posts/2026-01-19-blog-post-day-9-of-qqq-short-term-up-trend-tariff-war-turbulence-ahead-silver-gold-and-cash-are-kings-since-i.md)

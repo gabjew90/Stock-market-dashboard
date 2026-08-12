@@ -54,6 +54,8 @@ UV_LINK_MODE=copy uv sync   # UV_LINK_MODE=copy required on OneDrive; safe elsew
 
 ```bash
 uv run ww scrape      # pull all public blog posts -> raw/posts/*.md + raw/posts.jsonl
+uv run ww ledger apply   # restore ingest state (tiers/summaries) onto the fresh corpus
+uv run ww ledger export  # after an ingest batch: write raw/ingest-ledger.jsonl, then commit it
 uv run ww stats       # report corpus counts
 uv run ww lint .      # mechanical wiki integrity checks
 uv run ww timeline    # parse his daily GMI/T2108/stance posts into raw/timeline.parquet
@@ -79,6 +81,14 @@ uv run ww search "green line breakout"   # ranked, cited passages from the wiki 
 
 Re-running `ww scrape` is cheap — API pages are cached under `raw/api/` and posts
 whose markdown file already exists are skipped (use `--force` to rewrite).
+
+`raw/posts/` and `raw/posts.jsonl` are gitignored, so a fresh clone has no post bodies
+until you scrape — and scraping needs outbound access to `wishingwealthblog.com`, which
+some sandboxes (Claude Code on the web, CI) do not allow. Two files carry the corpus
+through that gap and *are* committed: `raw/url_map.json` (slug → URL for all 4,655 posts)
+and `raw/ingest-ledger.jsonl` (the tier / summary / `ingested` state that scraping cannot
+regenerate). `ww ledger apply` re-attaches the latter after a scrape; `ww ledger rebuild`
+reconstructs it from `wiki/sources/` if it is ever lost.
 
 ## How the live site updates
 
@@ -129,10 +139,16 @@ page (see [`CLAUDE.md`](CLAUDE.md) §4 "Query").
 
 ## Status
 
-Plans 1–5 + B1 + B2 complete. Corpus current state (from `ww stats` —
-4,655 total posts spanning 2005-04 → 2026-05): 4,449 daily-update posts
-parsed into `raw/timeline.parquet`; 86 teaching + 5 trade-example posts
-tier-classified for wiki ingest; 18 meta + 97 unclassified. Remaining: Plan 6.
+Plans 1–5 + B1 + B2 complete. Corpus current state (4,655 total posts spanning
+2005-04 → 2026-05): 4,449 daily-update posts parsed into `raw/timeline.parquet`;
+18 meta. **91 posts are ingested into the wiki** (85 teaching + 6 trade-example),
+each with a page under `wiki/sources/` and a row in `raw/ingest-ledger.jsonl`.
+Roughly 110 un-ingested posts carry explicit teaching markers in their titles and
+are the remaining ingest queue. Remaining: Plan 6.
+
+Known coverage gaps are catalogued in the 2026-08-12 `lint` entry of
+[`wiki/log.md`](wiki/log.md) — notably 2007 (no coverage at all), the OSB setup,
+and the current GMI component list.
 
 - **Plan 1** (raw-sources layer / scraper) — done. `ww scrape` mirrors the blog into `raw/`.
 - **Plan 2** (wiki bootstrap) — done. Schema in `CLAUDE.md` + `wiki/` skeleton + `ww lint` + CI.

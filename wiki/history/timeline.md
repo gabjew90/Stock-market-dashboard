@@ -116,12 +116,6 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
-## November 2005 — first GMI historical track record chart published
-
-**"GMI:+6; My favorite posts; GMI as a trend indicator" (2005-11-13):** Dr. Wish publishes the first historical chart of his GMI readings from inception, showing that all periods of GMI ≥ 5 coincided with profitable long conditions. GMI had been +6 for all of July 2005 and at 5 or higher since November 1, 2005. He also quotes Jim Cramer's anti-chart position from his 2005 book and refutes it using Cramer's own words (that stocks anticipate company results before the news arrives). His stock selection criteria for the best candidates: at new all-time highs, up ≥ 60% in the year, and quarterly earnings growth of ≥ 100%. ([WW 2005-11-13](../../raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md))
-
----
-
 ## June 2005 — moving averages explained; QQQ trend counting begins
 
 **"GMI back to +5; on moving averages" (2005-06-05):** Dr. Wish explains the moving average from first principles, derives three rules (right period; price above MA; MA rising), and states his preference for simple over exponential MAs. He also begins the QQQ day-count practice explicitly: "day 20 (U-20) of the QQQQ up-trend." ([WW 2005-06-05](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md))
@@ -146,6 +140,18 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## November 2005 — first GMI historical track record chart published
+
+**"GMI:+6; My favorite posts; GMI as a trend indicator" (2005-11-13):** Dr. Wish publishes the first historical chart of his GMI readings from inception, showing that all periods of GMI ≥ 5 coincided with profitable long conditions. GMI had been +6 for all of July 2005 and at 5 or higher since November 1, 2005. He also quotes Jim Cramer's anti-chart position from his 2005 book and refutes it using Cramer's own words (that stocks anticipate company results before the news arrives). His stock selection criteria for the best candidates: at new all-time highs, up ≥ 60% in the year, and quarterly earnings growth of ≥ 100%. ([WW 2005-11-13](../../raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md))
+
+---
+
+## December 2005 — Early breadth divergence research; MCD trade
+
+**"GMI: +6; WPM shows DOW deterioration; breadth divergence" (2005-12-03):** Dr. Wish charts two breadth indicators against the S&P 500: % stocks above 10wk avg and % stocks in short-term up-trend (defined as 10-day avg above rising 30-day avg). He identifies a divergence at the October 2005 bottom retest: % above 10wk fell while short-term trend breadth rose — potentially a turning-point signal. Separately, buys MCD on a 5-year-high breakout from a 3-month base on high volume; JNJ topping scan flagged by his Enron PCF. ([WW 2005-12-03](../../raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md))
+
+---
+
 ## February 2006 — Wyckoff/Darvas noise isolation; GMI-S short-term index
 
 **"Darvas anticipated; GMI: +4; GMI-S: 31; Ominous market" (2006-02-06):** Dr. Wish quotes Richard Wyckoff (1924) on making his best trades while receiving only end-of-day cable prices far from Wall Street — anticipating Darvas's identical approach by 30 years. The lesson for the internet era: concentrate on price action; insulate from news, CNBC, and outside opinions. Introduces the GMI-S (a 0–100 short-term breadth sub-index), which fell sharply from 75 to 31 in one week while the GMI (at +4) was less sensitive. QQQQ had just entered Day D-1 of a new short-term down-trend. ([WW 2006-02-06](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
@@ -166,27 +172,27 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
-## February 2009 — Quantitative bear market comparison: 2008 vs 1929/1973/1987
-
-**"Comparison of Current Bear to Bear Markets of 1929, 1973-74, 1987" (2009-02-23):** Dr. Wish builds a day-by-day comparison table of the Dow's decline in 1929, 1973-74, 1987, and 2008 — from the day each bear's Dow peak. Key finding: by Day 260 post-peak, the 2008 bear was tracking more closely to 1929 (both down ~40%) than to 1973 (down only -17%) or 1987 (already recovered). The 2008 bear was running about 14 percentage points *above* the 1929 pace. If it continued tracking 1929 minus 14pp, a Dow bottom around 3,550 was possible. At the post date (342 market days post-peak), the 1929 bear lasted 714 days total — suggesting another 370+ trading days of potential further decline. GMI and GMI-R at zero; T2108 at 13% (not yet below 10%). ([WW 2009-02-23](../../raw/posts/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md))
-
----
-
 ## January 2009 — 1,200% IRA track record stated; capital conservation as core principle
 
 **"I'm up 1,200%, as my fellow boomers and college students get screwed again" (2009-01-05):** written at the start of 2009 with the 2008 bear market still fresh. Dr. Wish's most explicit early statement of his track record and philosophy. He escaped 2008 with only a −5% loss (vs indices −35–40%) by being mainly out of the market during the decline. His trading IRA is up over 1,200% (13×) since late 1994 — more than the top growth mutual fund in IBD's ranking (up 382% over the same period). The stated key: "I made money during the strong market rises and kept it, by being mainly out of the market during the major declines." IBD100 stocks were ~3× over-represented among stocks hitting new 52-week highs at that time — 50% of the 20 new-high stocks in his universe were from the IBD100 (which is only 17% of the universe). ([WW 2009-01-05](../../raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md))
 
 ---
 
-## March 2009 — Guppy weekly chart as bear-market bottom detector; trend hierarchy stated
+## February 2009 — Quantitative bear market comparison: 2008 vs 1929/1973/1987
 
-**"Is the bear market over? Check out my 'Guppy' charts" (2009-03-29):** written at the early stages of the recovery from the March 2009 lows. Dr. Wish explains how he uses GMMA **weekly** charts to evaluate whether a true bull-market bottom has been established — distinct from a short-term bounce within a down-trend. He introduces his explicit three-level trend hierarchy: each trader must define their trading time interval; his primary frame is the weekly trend. He stays mainly in cash during a weekly down-trend even if a daily up-trend is underway. The Guppy/GMMA weekly bottom signal: the short-term moving averages (black) must be **above** the long-term averages (red) at a sustained bull bottom — in March 2009 this has not yet occurred. He compares to the 1974 bear market bottom and states: "Contrary to the pundits, there is plenty of time to commit university pension money back into the long side once a solid new up-trend has begun." ([WW 2009-03-29](../../raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md))
+**"Comparison of Current Bear to Bear Markets of 1929, 1973-74, 1987" (2009-02-23):** Dr. Wish builds a day-by-day comparison table of the Dow's decline in 1929, 1973-74, 1987, and 2008 — from the day each bear's Dow peak. Key finding: by Day 260 post-peak, the 2008 bear was tracking more closely to 1929 (both down ~40%) than to 1973 (down only -17%) or 1987 (already recovered). The 2008 bear was running about 14 percentage points *above* the 1929 pace. If it continued tracking 1929 minus 14pp, a Dow bottom around 3,550 was possible. At the post date (342 market days post-peak), the 1929 bear lasted 714 days total — suggesting another 370+ trading days of potential further decline. GMI and GMI-R at zero; T2108 at 13% (not yet below 10%). ([WW 2009-02-23](../../raw/posts/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md))
 
 ---
 
 ## March 2009 — Put options as investment insurance
 
 **"How I use put options as investment insurance" (2009-03-08):** written at the March 2009 bear market bottom (T2108=7%, 1,221 new lows). Dr. Wish explains protective puts as an alternative to stop-loss orders during highly volatile markets — a put cannot be whipsawed, a stop can. The cost is the put premium. He can buy puts inside his IRA. ([WW 2009-03-08](../../raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md))
+
+---
+
+## March 2009 — Guppy weekly chart as bear-market bottom detector; trend hierarchy stated
+
+**"Is the bear market over? Check out my 'Guppy' charts" (2009-03-29):** written at the early stages of the recovery from the March 2009 lows. Dr. Wish explains how he uses GMMA **weekly** charts to evaluate whether a true bull-market bottom has been established — distinct from a short-term bounce within a down-trend. He introduces his explicit three-level trend hierarchy: each trader must define their trading time interval; his primary frame is the weekly trend. He stays mainly in cash during a weekly down-trend even if a daily up-trend is underway. The Guppy/GMMA weekly bottom signal: the short-term moving averages (black) must be **above** the long-term averages (red) at a sustained bull bottom — in March 2009 this has not yet occurred. He compares to the 1974 bear market bottom and states: "Contrary to the pundits, there is plenty of time to commit university pension money back into the long side once a solid new up-trend has begun." ([WW 2009-03-29](../../raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md))
 
 ---
 
@@ -218,6 +224,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## July 2010 — Pension exit at GMI=0; topping-pattern PCF
+
+**"At the beginning of a big market decline?" (2010-07-06):** Dr. Wish moves 60% of his pension to money market despite the market having already declined significantly. His TC2007 topping-pattern PCF flags 91 of 951 ETFs, including world indexes and US sectors. GMI and GMI-R both at 0. T2108 at 25% — not yet at oversold extreme. He articulates his "regret-free late exit" philosophy: better to exit after some decline and re-enter higher than to ride the full bear. ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
+
+---
+
 ## July 2010 — 14× IRA track record stated; stochastic 10,4,4 as timing overlay; 10wk/30wk down-trend rule
 
 **"Major indexes remain in longer-term down-trends; in cash or short" (2010-07-19):** a self-introduction post updating the track record to **14× (fourteen-fold)** since 1995 as of July 2010 (earlier posts in 2009 said 13×). Dr. Wish explains how he kept his university pension safely in cash through all major declines since 1998 — the 2000–2002 bear and the 2008 bear — and reinvested in subsequent advances. Introduces the **stochastic 10,4,4** as a short-term timing overlay: when it reaches very overbought levels on the daily chart a market decline is likely; prior declines had all ended with the stochastic "well below 50." He uses it to time secondary buys and sells but not as a primary signal. Down-trend rule stated with precision: when the QQQ/QQQQ's **10-week average crosses below its 30-week average** on the weekly chart, he will not trade long. "I cannot make money trading on the long side when these indexes are below their 10 week averages." Counter-trend short-term up-trends still occur within a weekly down-trend — he distinguishes them clearly. GMI=2, GMI-R=4, T2108=46% (neutral) at post date. ([WW 2010-07-19](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
@@ -236,6 +248,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## February 2011 — RWB methodology; IBD as required reading
+
+**"Nicolas Darvas, on the value of studying losses; RWB stocks" (2011-02-07):** Dr. Wish reprints earlier writings and explains his classroom exercise (students analyze their own losing trade charts). IBD described as the reason he "never consistently made money trading until I started reading IBD in the 1980's." RWB stocks (COST, RVBD) demonstrated; stop on RWB bounce trade placed below 30-day moving average of the individual stock. ([WW 2011-02-07](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
+
+---
+
 ## March 2011 — GMI2 replaces GMI-R; decision thresholds stated
 
 **"Introducing the GMI2" (2011-03-07):** GMI-R retired; new GMI2 introduced as a companion 6-point composite. The critical addition: Dr. Wish states his GMI decision rules explicitly for the first time — "I like to be long if the GMI is 4 or more. When it declines to 3 or below, I get defensive in my trading IRA." The GMI2 is monitoring-only. University pension vs trading IRA distinction noted. ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md))
@@ -248,191 +266,9 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
-## July 2012 — green line charts formally described
-
-**"Stage analysis and green line charts" (2012-07-23):** after an AAII workshop, Dr. Wish formally defines the green line concept: a horizontal line on a monthly chart at an all-time high that has held for 3+ months. Buying the breakout above it (GLB) is the entry signal. Stage 2 requirement stated clearly: only buys when both market and stock are in Stage 2 (above rising 30-week average). ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
-
----
-
-## April 2012 — GMI buy signal criterion stated; AAPL as ATH-breakout case study
-
-**"How I find the next AAPL growth stock" (2012-04-30):** Dr. Wish states his GMI buy signal criterion explicitly: GMI > 3 on two consecutive days. Uses AAPL's 2012 run to make the case for buying at all-time highs — AAPL hit new daily highs 65% of trading days in February 2012 alone. Monthly-chart multi-month consolidation breakouts (like PSMT) are his target. IBD 50 outperformance data published: median +20% vs NASDAQ 100 +15% vs S&P 500 +10% during the 2011–2012 rally. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
-
----
-
 ## July 2011 — Dollar-move framing and DITM options introduced
 
 **"My strategy for trading stocks that will advance $25 per share in a month" (2011-07-25):** explicit statement of the dollar-move preference over percentage-move. TC2000 scan result: 90% of stocks that advanced $25+ in 30 days were priced above $80 at the start. DITM (deep in-the-money) call options introduced as the capital-efficient way to access expensive stocks — buying 10–20% effective down payment for the same dollar-for-dollar exposure. ([WW 2011-07-25](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
-
----
-
-## August 2014 — Successful 10-Day New High Indicator explained in detail; T2108 defined
-
-**"GMI Successful 10-Day New High Indicator predicted current decline" (2014-08-03):** retrospective showing the indicator flagged the July 2014 decline. Refines the threshold: ≥ 50% of stocks that hit a high 10 days ago must be up — not the 2005 absolute count of 100. Full T2108 definition given for the first time. AAPL as a 10-week average rule example. QQQ down-trend tactics (small SQQQ, add if persists 5–6 days). ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
-
----
-
-## October 2014 — Six signals for reading a decline; Stage 4 definition stated explicitly
-
-**"11th day of $QQQ short-term down-trend" (2014-10-13):** during a 2014 October correction, Dr. Wish articulates all four Weinstein stages clearly for the first time in an ingested post. Stage 4 definition: index or stock is below its declining 30-week average. He describes the pension-money transfer protocol: move out of mutual funds "in stages" if a Stage 4 threatens. T2108 was 14%; he notes it reached 13% in 2013 and 7% in the large 2011 decline. ([WW 2014-10-13](../../raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md))
-
----
-
-## January 2016 — Global BWR sweep; worldwide down-trends
-
-**"All World Stock Markets entering BWR Down-trends!" (2016-01-10):** Dr. Wish scans 37 global market ETFs and finds 35 of 37 in BWR down-trends in early 2016. He refines the BWR definition: the weekly close (gray dotted line) is below all 12 Guppy moving averages. He posts a monthly T2108 historical chart: readings at 1% (2008), 7% (2011), ~6% (August 2015). ([WW 2016-01-10](../../raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md))
-
----
-
-## January 2017 — David Ryan on breakouts vs pullbacks; ATH-past-40-days + lower Bollinger Band scan
-
-**"On David Ryan and my new TC2000 scan for GLB rockets bouncing off support: $PLAY" (2017-01-29):** Dr. Wish quotes David Ryan (William O'Neil's three-time National Investing Champion protege) from _Momentum Masters_ (2015): "I basically simplify it down to two, breakouts and pullbacks… You just have to draw a line across the top of where most of the stock's trading has taken place. Then you buy as it moves through that line… Buying pullbacks are a bit more complicated but offer another entry point to get aboard a leading stock." He shows how this maps exactly onto his own GLB framework. New TC2000 scan introduced (`01292017ATHhipast40daysBLBB`): stocks in his ~800-stock ATH watchlist that (1) hit a new all-time high in the past 40 days AND (2) are currently bouncing from their lower Bollinger Band (15.2). This finds post-GLB pullback re-entries; distinct from the BOS scan (which uses a broader universe). Key rule: **a pullback/bounce entry does not require volume** — low volume on the pullback is a positive sign that selling has dried up. Sell stop: just below the recent bounce/support low. PLAY worked example: gapped up on unusual volume December 2016, consolidated sideways, then bounced off the lower BB; earnings +127% the prior quarter, IBD composite 93, short ratio 7.2, up 47% over the prior year. GMI=6 at post date. ([WW 2017-01-29](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
-
----
-
-## March 2017 — Daily RWB chart formalized with RLC metric
-
-**"How I use daily RWB charts to size up the market and individual stocks" (2017-03-19):** formal description of the daily RWB chart system. Key additions vs the weekly chart: Red Line Count (RLC, 0–6 red lines above price), purple dots (daily lows for stop visualization). He assesses QQQ, SPY, and DIA RLCs to gauge short-term market health. The TC2000 scan (03182017) run on his ATH watch list yielded 59 candidates. He formally attributes the GMMA to Daryl Guppy and stage analysis to Stan Weinstein. ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
-
----
-
-## June 2016 — BOS (Bounce off Support) introduced as preferred alternative to GLB timing
-
-**"Introducing BOS alerts for my tweets; GMI at 6; BOS: $RTN" (2016-06-05):** Dr. Wish formally names and introduces the BOS (Bounce off Support) strategy. He states he *likes this approach better than trading GLBs* — the GLB at the moment of breakout is often not oversold, making stop placement harder. BOS buys strong rocket stocks when they are oversold and bouncing, placing a stop just below the bounce low. He begins tweeting BOS alerts intraday (@WishingWealth) and later (2016-07-24) reveals the primary oversold signal: the lower 15.2 Bollinger Band (15-day MA, 2 standard deviations). ([WW 2016-06-05](../../raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md), [WW 2016-07-24](../../raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md))
-
----
-
-## October 1995 (diary) / October 2016 — O'Neil workshop; LMAT three-chart setup; two-close GLB failure rule
-
-**"My trading diary entry from William O'Neil's workshop in 1995" (2016-10-02):** two-section post. First, Dr. Wish quotes verbatim from his November 1995 personal trading diary (one of 200+ pages from the 1990s bull run). O'Neil was advising institutional investors to buy internet stocks like Netscape despite limited EPS — contrary to his own written rules. O'Neil stated at the lecture: "volume and price action was more important than demonstrated earnings growth." His major criterion that day: "stocks growing 100% in price a year or with 99 Relative Strength." Dr. Wish noted the tension between the written O'Neil rules and what O'Neil said in person.
-
-Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH on 8/30; the green line drawn at the prior peak; weekly RWB chart confirmed (all 6 short-term EMAs above long-term averages); IBD composite rank 99. **Two-close GLB failure rule in action:** LMAT closed above the green line twice, then traded back below for 3 days — "I immediately sell failed break-outs." A second, larger break-out followed. **BOS post-GLB entry:** bounce off the rising 30-day average and the lower daily 15.2 Bollinger Band on increased volume — "this is one of my favorite set-ups." Stop placed near the low of the bounce. ([WW 2016-10-02](../../raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md))
-
----
-
-## November 2016 — Weekly 4wk/10wk hold discipline formalized; NTES 21-week example
-
-**"Short and long term trends now up; On using weekly charts to stay in a growth stock: $NTES" (2016-11-20):** Dr. Wish addresses the most common failure mode he observes in student traders: getting shaken out of a winner prematurely by reacting to daily chart noise. His solution: make exit decisions using only the **weekly chart** with three MAs (4wk, 10wk, 30wk). William O'Neil's approach cited — O'Neil "used only weekly charts because they more clearly revealed to him the meaningful stock trends." The **4wk/10wk hold ladder**: a strong advancing growth stock maintains 4wk > 10wk > 30wk for long periods; a weekly close below the 4wk average is a *potential* warning — raise stops or sell a small piece; a weekly close below the 10wk average is an exit signal ("Growth stocks should not close the week below their 10 week average"). Critical nuance: a stock often trades *intraweek* below its 4wk average and then closes back above — use weekly closing prices only. NTES example: 4>10>30 alignment from June through November 2016 — 21 weeks; stock rose over 40%; when it finally closed below the 4wk then the 10wk in early November, that was the exit signal. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
-
----
-
-## July 2017 — GLB doctrine consolidated; historical lineage from Darvas restated; six worked examples
-
-**"GLB: the sine qua non of rocket stocks" (2017-07-02):** a major consolidating post on the GLB. Dr. Wish traces the full Darvas → Livermore → Dr. Wish lineage: Darvas's "no exceptions" rule for all-time highs; his "already doubled" prerequisite; Livermore's IPO-GLB insight. He explains why he switched from Darvas's daily-price boxes to monthly charts (whipsaws). Six worked GLB examples: SHOP, SQ, BABA, Z, FB, BZUN. FB had multiple GLBs. Includes the re-entry rule: "If it retakes the green line I often buy it back." ([WW 2017-07-02](../../raw/posts/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md))
-
----
-
-## September 2017 — Three-chart setup procedure formalized; BGNE worked example
-
-**"$BGNE: Example of a stock purchase set-up for my new students" (2017-09-04):** the three-chart analysis chain for a trade setup is documented: (1) monthly — confirm stock is above its green line top; (2) weekly — confirm yellowband/Stage 2 alignment (10wk > 30wk); (3) daily — find the BOS entry (bounce off the 30-day or 50-day MA). Earnings check explicitly required before entry. Stop levels defined before buying: low of the bounce vs. MA level. For a held position, checking the weekly chart before selling avoids getting shaken out of a solid yellowband stock. ([WW 2017-09-04](../../raw/posts/2017-09-04-bgne-example-of-a-stock-purchase-set-up-for-my-new-students-gmi-green.md))
-
----
-
-## January 2018 — $100+ price preference empirically strengthened; Wyckoff citation
-
-**"Why buying stocks over $100 is more profitable" (2018-01-21):** a standalone post quantifying the $100+ preference. Among 4,865 US stocks, 85% of the top-20 largest dollar gainers over the prior 30 trading days were priced above $100. The next-20 were 95% above $100. Richard Wyckoff's observation cited: a $150 stock averages 2.5 points of daily fluctuation vs. 1 point for a $50 stock. Five reasons given: institutional sponsorship, harder to whipsaw, time to pyramid, smaller universe, more dollars per trade. ([WW 2018-01-21](../../raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md))
-
----
-
-## February 2018 — Monthly RWB on bond ETFs as macro regime indicator; Martin Zweig principle
-
-**"Rising interest rates suggest market to form top" (2018-02-25):** after the January/February 2018 correction, Dr. Wish applies the RWB/BWR framework to **monthly** bond ETF charts as a long-term interest-rate regime indicator. **Martin Zweig principle:** after the Fed raises rates several times, the market eventually declines — a multi-cycle pattern Dr. Wish has observed since the 1960s. **Monthly RWB on bond ETFs**: SHY (short-term bond ETF) showed an RWB pattern "through about 2013" (low-rate era); by mid-2016, SHY entered a BWR decline on the monthly chart — "for the first time since at least 2003." Monthly BWR on bonds "suggests this trend could persist for months if not years." TC2000 offers a direct chart of short-term interest rates; as of February 2018, rates were in a steep RWB up-trend. New-high count warning: only 90 US stocks hit new highs on the Friday before the post, vs 200+ per day before January 29 — breadth deteriorating. Caveat: this is a monitoring framework, not a trading rule; he still defers to the GMI for actual buy/sell decisions. ([WW 2018-02-25](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))
-
----
-
-## March 2018 — GMI Red; put/call as contrarian indicator; 30-week curve-down as pension trigger
-
-**"Time for cash, GMI=1 (of 6), turns Red" (2018-03-25):** real-time post during the Q1 2018 correction. On Friday March 23, GMI fell to 1 — a Red signal and Day 1 of a new QQQ short-term down-trend. Dr. Wish documents several timing overlays he consults alongside the GMI. **Put/call ratio at 1.25** on that Friday: extreme bearishness in the options market is a contrarian indicator suggesting a short-term bounce up — though not necessarily a trend reversal. **T2108 at 26%** (well above the below-10% oversold threshold; had reached 8.6% during the February 2018 dip). **Daily stochastic 10,4 at 9** — historically the level at which index ETFs bounce short-term. About 40% of short-term down-trends resolve within 5 days. **Pension trigger rule restated with precision:** once the **30-week average itself curves down** (not merely when price crosses below it), he transfers pension money from mutual funds to money market. "That signal got me out before the 2000 and 2008 market debacles." At the time of this post, DIA and SPY's 30-week averages had already curved slightly; QQQ's had not yet — he was waiting. Seasonal note: "Sell in May and go away, come back at Halloween" — possible in 2018, but not prescriptive. The weekly GMMA chart of QQQ showed an RWB pattern had been intact since 2013, interrupted only by a flat 2015–2016 period; the Q1 2018 event could be a similar pause or the start of something larger. ([WW 2018-03-25](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))
-
----
-
-## December 2017 — Daily RWB as primary exit tool; RWB-bounce scan introduced
-
-**"A strategy for deciding when to sell stocks; GDS, NVDA" (2017-12-17):** Dr. Wish formally shifts from the weekly yellowband / 10-week close as the primary exit signal to the daily RWB red-line close. New exit rule: exit if the stock closes below all six red lines. For large profits: wait for two consecutive closes below all red lines. Red-line convergence = wait for direction, do not anticipate. He publishes the TC2000 RWB-bounce scan (12162017DailyRWBBounce). ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
-
----
-
-## November 2018 — Daily BWR pattern introduced; weekly RWB lost
-
-**"I'm back! Daily BWR pattern for $QQQ" (2018-11-25):** after the Q4 2018 decline, Dr. Wish shows that both the daily and weekly Guppy charts for QQQ have turned or are turning BWR. The GMI flashed Red on October 8, 2018. T2108 hit an intraday low of 7.6% on October 26, recovering to 28% by the time of the post. He lists his re-entry conditions: GMI returns to ≥4 for two consecutive days AND the daily Guppy chart turns from BWR back to RWB. Sentiment: investment-letter bulls dropped from 60%+ near the top to 40% — promising but not extreme. ([WW 2018-11-25](../../raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md))
-
----
-
-## March 2020 — COVID crash: 2020 exit documented; "amputation without anaesthetics"
-
-**"Livermore: Amputation without anaesthetics" (2020-03-15):** written in real time at the start of the COVID crash. GMI had turned Red on February 26, 2020; Dr. Wish was already 100% cash weeks before this post. He identifies SPY as beginning a Weinstein Stage 4 decline (large weekly selling volume; only 3 weeks below the 30-week average). He explicitly does not call the bottom: "I do not care if I miss the bottom or the top. There is plenty of room to make money in between." He emphasizes the tax-deferred account note: IRA/401(k) holders can exit and re-enter without tax consequences. Livermore's "amputation without anaesthetics" quote from 1907 is cited. ([WW 2020-03-15](../../raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md))
-
----
-
-## January 2021 — GLB overhead-supply rationale formalized; 6 examples; IPO adjustment
-
-**"In the 60s I used to receive a book containing monthly charts of stocks..." (2021-01-24):** a major teaching post explaining the GLB's origin (1960s chart book observation) and the overhead supply mechanism in precise terms. Key rule additions: (1) he does NOT set a hard stop for GLBs, only a mental stop near the end of day; (2) for very recent IPOs the green line can be drawn after only 1–2 months; (3) stocks not yet at an ATH should only be bought if trading above their last green line top. Six recent GLB examples shown: JMIA, GM, PGNY, KC, MGNI, CSIQ. ([WW 2021-01-24](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))
-
----
-
-## December 2022 — Gap-up volume scan introduced
-
-**"Day 15 of QQQ short-term up-trend; TC2000 gap-up scan" (2022-12-04):** a new TC2000 scan for finding stocks that had a large-volume gap-up day in the past 25 trading days and are now consolidating or resuming their advance. Formula: `L>H1 and V=maxv20 and H=MaxH10` applied as "true within 25 bars." The post also articulates his post-decline re-entry philosophy: enter gradually after indexes retake key moving averages; people initially buy large-caps, then shift to growth stocks as confidence returns. ([WW 2022-12-04](../../raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md))
-
----
-
-## December 2020 — WGB as second-chance IPO entry; PGNY and TSLA examples
-
-**"Buying IPOs with Green Line Break-outs (GLB) and a Weekly Green Bar (WGB) signal" (2020-12-27):** formal description of the IPO GLB logic (overhead supply dynamic; Facebook as canonical example). WGB introduced as the secondary entry signal when you miss the GLB. WGB trailing stop rule introduced: hold as long as WGBs form; exit below the most recent WGB low. TSLA's post-GLB advance showed 6 of 8 WGBs were successful hold signals. ([WW 2020-12-27](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
-
----
-
-## February 2021 — WGB TC2000 formula disclosed; TWTR as worked example
-
-**"$TWTR to take off? GLB and WGB indicators" (2021-02-28):** Dr. Wish publishes the TC2000 formula for the WGB for the first time. TWTR had a GLB after 8 years below its $74.73 green line top. He demonstrates the closing-price rule for GLB confirmation: TWTR failed its GLB on a down-3.5% QQQ day (closed $0.14 below the green line) but confirmed on the next day's close. Mental stop rule restated: sell if the stock *closes* below the green line, not on intraday dips. ([WW 2021-02-28](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
-
----
-
-## June 2021 — Black dot signal introduced; TraderLion presentation
-
-**"Follow on to TraderLion conference; black dot signals" (2021-06-13):** Dr. Wish introduces the black dot — a TC2000 daily stochastic-based oversold-bounce signal for stocks already in up-trends. Formula published. He uses TQQQ/SQQQ guided by the QQQ short-term trend count. GMI decision rules and T2108 contrarian bottom threshold restated. ([WW 2021-06-13](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
-
----
-
-## November 2021 — Exit at QQQ peak on breadth divergence
-
-QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish noticed new lows had surged to 438 while QQQ was still at all-time highs. He exited the market. The subsequent Stage 4 decline lasted over a year. (Explanation posted retroactively in June 2023. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md)))
-
----
-
-## June 2023 — New highs/lows methodology explained
-
-**"How I compute new US highs and lows" (2023-06-19):** explains the TC2000 implementation (built-in conditions; filter for close > $10 and volume > 10,000; ~6,486 stock universe). Retroactively documents the November 2021 breadth-divergence exit. As of June 2023 (GMI=6): 207 new highs, 10 new lows, 78 at ATH. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
-
----
-
-## May 2024 — Weekly green bar scan criteria formalized
-
-**"ANF worked example of the weekly green bar indicator" (2024-05-27):** the weekly green bar scan is formalized with explicit criteria: 10.4 stochastic > 80 for ≥ 5 weeks; 4wk > 10wk > 30wk; stock up ≥ 50% from a year ago; recent ATH; green bar the most recent week. Exit rules: close below 10-week average, or 4-week average declines below 10-week average. ANF traced from June 2023 to April 2024 without closing below its 10-week average. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
-
----
-
-## March 2025 — Stage 4 identified in IWM; GMI Red since February
-
-**"Day 24 of $QQQ short-term down-trend; IWM at beginning of Stage 4" (2025-03-30):** Dr. Wish uses IWM's weekly 10:30 chart to identify what looks like the beginning of a Stage 4 down-trend — the 10-week average has crossed below the 30-week average, and the weekly close is leading everything lower. He compares it to the same setup in 2022 and transferred pension accumulations out of mutual funds. GMI has been Red since February 24, 2025. He holds SQQQ and TWM as small short positions. ([WW 2025-03-30](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
-
----
-
-## December 2005 — Early breadth divergence research; MCD trade
-
-**"GMI: +6; WPM shows DOW deterioration; breadth divergence" (2005-12-03):** Dr. Wish charts two breadth indicators against the S&P 500: % stocks above 10wk avg and % stocks in short-term up-trend (defined as 10-day avg above rising 30-day avg). He identifies a divergence at the October 2005 bottom retest: % above 10wk fell while short-term trend breadth rose — potentially a turning-point signal. Separately, buys MCD on a 5-year-high breakout from a 3-month base on high volume; JNJ topping scan flagged by his Enron PCF. ([WW 2005-12-03](../../raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md))
-
----
-
-## July 2010 — Pension exit at GMI=0; topping-pattern PCF
-
-**"At the beginning of a big market decline?" (2010-07-06):** Dr. Wish moves 60% of his pension to money market despite the market having already declined significantly. His TC2007 topping-pattern PCF flags 91 of 951 ETFs, including world indexes and US sectors. GMI and GMI-R both at 0. T2108 at 25% — not yet at oversold extreme. He articulates his "regret-free late exit" philosophy: better to exit after some decline and re-enter higher than to ride the full bear. ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
-
----
-
-## February 2011 — RWB methodology; IBD as required reading
-
-**"Nicolas Darvas, on the value of studying losses; RWB stocks" (2011-02-07):** Dr. Wish reprints earlier writings and explains his classroom exercise (students analyze their own losing trade charts). IBD described as the reason he "never consistently made money trading until I started reading IBD in the 1980's." RWB stocks (COST, RVBD) demonstrated; stop on RWB bounce trade placed below 30-day moving average of the individual stock. ([WW 2011-02-07](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
 
 ---
 
@@ -442,15 +278,21 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 ---
 
+## April 2012 — GMI buy signal criterion stated; AAPL as ATH-breakout case study
+
+**"How I find the next AAPL growth stock" (2012-04-30):** Dr. Wish states his GMI buy signal criterion explicitly: GMI > 3 on two consecutive days. Uses AAPL's 2012 run to make the case for buying at all-time highs — AAPL hit new daily highs 65% of trading days in February 2012 alone. Monthly-chart multi-month consolidation breakouts (like PSMT) are his target. IBD 50 outperformance data published: median +20% vs NASDAQ 100 +15% vs S&P 500 +10% during the 2011–2012 rally. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
+
+---
+
 ## June 2012 — GMI buy-signal trigger confirmed; Darvas scan technique
 
 **"Excerpt from my trading diary; market at critical juncture" (2012-06-18):** shares a 1996 diary entry and explicitly states the GMI buy trigger: "Two consecutive days with the GMI above 3 would turn the GMI signal to buy." Entry confidence rule: "I will not weigh in heavily until the 5th day." Darvas scan described: PCF for stocks breaking to ATH. ([WW 2012-06-18](../../raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md))
 
 ---
 
-## October 2013 — 1987 crash analysis; 30-day MA as short-term trend signal
+## July 2012 — green line charts formally described
 
-**"Can TA protect ourselves from a 1987 crash?" (2013-10-20):** retroactive analysis of the 1987 Dow using his current indicators. The 30-day moving average of closing prices is explicitly named as the indicator that defines his short-term trend: price curving below the declining 30-day MA would have declared a down-trend. The 1987 crash came on Day 9 of the resulting down-trend — plenty of time to exit. Current market: GMI=6, GMI2=8, 818 new 52-week highs (comparable to November 2010 multi-month rally start). ([WW 2013-10-20](../../raw/posts/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md))
+**"Stage analysis and green line charts" (2012-07-23):** after an AAII workshop, Dr. Wish formally defines the green line concept: a horizontal line on a monthly chart at an all-time high that has held for 3+ months. Buying the breakout above it (GLB) is the entry signal. Stage 2 requirement stated clearly: only buys when both market and stock are in Stage 2 (above rising 30-week average). ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 
 ---
 
@@ -463,6 +305,12 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 ## June 2013 — 2-for-1 risk management method introduced; TQQQ +28.6% vs QQQ +9.4%
 
 **"Up-trend intact; 2-for-1 method for managing stock market risk" (2013-06-09):** Dr. Wish introduces the **2-for-1** position management method (traced to a Connors trading guide, via Powell's Books): (1) buy a position; (2) when the position gains enough to double your initial risk (i.e., gains twice the stop distance), sell half; (3) move the stop on the remaining half up to the original purchase price (breakeven); (4) result: locked-in gain and the remaining half protected from a loss. He states this helps students avoid the most common failure mode: watching a profit turn into a loss. Data from the February 28–June 7, 2013 GMI buy signal period: TQQQ advanced +28.6%, QQQ advanced +9.4%. Only 7 of the Nasdaq 100 stocks advanced more than 29%. "Do we want to spend (waste?) our time searching for the 7% of stocks that will out-perform just holding the TQQQ?" TSLA new-high count: "TSLA has hit a new high on 14 of 49 trading days" since its April 1 breakout — illustrating how true rocket stocks keep appearing on the new-high list. ([WW 2013-06-09](../../raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md))
+
+---
+
+## October 2013 — 1987 crash analysis; 30-day MA as short-term trend signal
+
+**"Can TA protect ourselves from a 1987 crash?" (2013-10-20):** retroactive analysis of the 1987 Dow using his current indicators. The 30-day moving average of closing prices is explicitly named as the indicator that defines his short-term trend: price curving below the declining 30-day MA would have declared a down-trend. The 1987 crash came on Day 9 of the resulting down-trend — plenty of time to exit. Current market: GMI=6, GMI2=8, 818 new 52-week highs (comparable to November 2010 multi-month rally start). ([WW 2013-10-20](../../raw/posts/2013-10-20-can-ta-protect-ourselves-from-a-1987-type-of-market-crash-speculative-bull-market-phase-beginning-tplm-green.md))
 
 ---
 
@@ -484,9 +332,161 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 ---
 
+## August 2014 — Successful 10-Day New High Indicator explained in detail; T2108 defined
+
+**"GMI Successful 10-Day New High Indicator predicted current decline" (2014-08-03):** retrospective showing the indicator flagged the July 2014 decline. Refines the threshold: ≥ 50% of stocks that hit a high 10 days ago must be up — not the 2005 absolute count of 100. Full T2108 definition given for the first time. AAPL as a 10-week average rule example. QQQ down-trend tactics (small SQQQ, add if persists 5–6 days). ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
+
+---
+
 ## September 2014 — Biotech scan and news-catalyst integration; AGIO example; 3:45 PM rule
 
 **"This market is not out of the woods; Finding bio-tech stars like $AGIO and $VRTX" (2014-09-28):** with GMI=1 and QQQ short-term trend turned down, Dr. Wish describes a specialized biotech scan: run a TC2000 nightly scan for biotech stocks that advanced on **unusually high volume**. The news-catalyst layer: being in the research field, he knows that "one schedules public presentations to highlight good results." Reading clinical trial presentation announcements identifies stocks where results are likely positive before they are released. AGIO had a major presentation coming at a Leerink conference — "the next day it took off." The combination: technical unusual-volume + fundamental news catalyst = pre-breakout alert. Market-state gate demonstrated: despite the scan, GMI=1 and a short-term down-trend means "I am unlikely to buy anything right now." The **3:45 PM rule** stated: "I restrict most of my daily trading to around 3:45 PM when I can estimate where things will close. If I trade earlier in the day I am often whipsawed." Breadth check used as confirming signal: 46 new highs vs 214 new lows. ([WW 2014-09-28](../../raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md))
+
+---
+
+## October 2014 — Six signals for reading a decline; Stage 4 definition stated explicitly
+
+**"11th day of $QQQ short-term down-trend" (2014-10-13):** during a 2014 October correction, Dr. Wish articulates all four Weinstein stages clearly for the first time in an ingested post. Stage 4 definition: index or stock is below its declining 30-week average. He describes the pension-money transfer protocol: move out of mutual funds "in stages" if a Stage 4 threatens. T2108 was 14%; he notes it reached 13% in 2013 and 7% in the large 2011 decline. ([WW 2014-10-13](../../raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md))
+
+---
+
+## January 2016 — Global BWR sweep; worldwide down-trends
+
+**"All World Stock Markets entering BWR Down-trends!" (2016-01-10):** Dr. Wish scans 37 global market ETFs and finds 35 of 37 in BWR down-trends in early 2016. He refines the BWR definition: the weekly close (gray dotted line) is below all 12 Guppy moving averages. He posts a monthly T2108 historical chart: readings at 1% (2008), 7% (2011), ~6% (August 2015). ([WW 2016-01-10](../../raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md))
+
+---
+
+## June 2016 — BOS (Bounce off Support) introduced as preferred alternative to GLB timing
+
+**"Introducing BOS alerts for my tweets; GMI at 6; BOS: $RTN" (2016-06-05):** Dr. Wish formally names and introduces the BOS (Bounce off Support) strategy. He states he *likes this approach better than trading GLBs* — the GLB at the moment of breakout is often not oversold, making stop placement harder. BOS buys strong rocket stocks when they are oversold and bouncing, placing a stop just below the bounce low. He begins tweeting BOS alerts intraday (@WishingWealth) and later (2016-07-24) reveals the primary oversold signal: the lower 15.2 Bollinger Band (15-day MA, 2 standard deviations). ([WW 2016-06-05](../../raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md), [WW 2016-07-24](../../raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md))
+
+---
+
+## September 2016 — DW GLB worked example; GLB tracker table purpose; weekly scan
+
+**"$DW: A Successful Green Line Breakout; updated GLB tracker table" (2016-09-05):** Written for a class of 160 freshmen as a worked example. DW (Drew Industries) broke above its green line on the highest weekly volume in months and subsequently advanced strongly. Dr. Wish shows relative strength versus QQQ (maintaining strength during QQQ corrections — marked with amber vertical lines) as a confirming factor. He also describes the **weekly GLB scan** he runs every weekend: stocks that closed at a new 52-week high on Friday, with total weekly volume at least 10% above recent average, and 500,000+ shares total — then filters those that also hit an all-time high. The **GLB tracker table** (sidebar) tracks stocks after their breakout but is explicitly described as a biased sample and education tool, not a buy list. Nine of that week's 27 scan results also closed above their last green line top. ([WW 2016-09-05](../../raw/posts/2016-09-05-dw-a-successful-green-line-break-out-updated-glb-tracker-table-all-gmi-components-positive.md))
+
+---
+
+## October 1995 (diary) / October 2016 — O'Neil workshop; LMAT three-chart setup; two-close GLB failure rule
+
+**"My trading diary entry from William O'Neil's workshop in 1995" (2016-10-02):** two-section post. First, Dr. Wish quotes verbatim from his November 1995 personal trading diary (one of 200+ pages from the 1990s bull run). O'Neil was advising institutional investors to buy internet stocks like Netscape despite limited EPS — contrary to his own written rules. O'Neil stated at the lecture: "volume and price action was more important than demonstrated earnings growth." His major criterion that day: "stocks growing 100% in price a year or with 99 Relative Strength." Dr. Wish noted the tension between the written O'Neil rules and what O'Neil said in person.
+
+Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH on 8/30; the green line drawn at the prior peak; weekly RWB chart confirmed (all 6 short-term EMAs above long-term averages); IBD composite rank 99. **Two-close GLB failure rule in action:** LMAT closed above the green line twice, then traded back below for 3 days — "I immediately sell failed break-outs." A second, larger break-out followed. **BOS post-GLB entry:** bounce off the rising 30-day average and the lower daily 15.2 Bollinger Band on increased volume — "this is one of my favorite set-ups." Stop placed near the low of the bounce. ([WW 2016-10-02](../../raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md))
+
+---
+
+## November 2016 — Weekly 4wk/10wk hold discipline formalized; NTES 21-week example
+
+**"Short and long term trends now up; On using weekly charts to stay in a growth stock: $NTES" (2016-11-20):** Dr. Wish addresses the most common failure mode he observes in student traders: getting shaken out of a winner prematurely by reacting to daily chart noise. His solution: make exit decisions using only the **weekly chart** with three MAs (4wk, 10wk, 30wk). William O'Neil's approach cited — O'Neil "used only weekly charts because they more clearly revealed to him the meaningful stock trends." The **4wk/10wk hold ladder**: a strong advancing growth stock maintains 4wk > 10wk > 30wk for long periods; a weekly close below the 4wk average is a *potential* warning — raise stops or sell a small piece; a weekly close below the 10wk average is an exit signal ("Growth stocks should not close the week below their 10 week average"). Critical nuance: a stock often trades *intraweek* below its 4wk average and then closes back above — use weekly closing prices only. NTES example: 4>10>30 alignment from June through November 2016 — 21 weeks; stock rose over 40%; when it finally closed below the 4wk then the 10wk in early November, that was the exit signal. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
+
+---
+
+## January 2017 — David Ryan on breakouts vs pullbacks; ATH-past-40-days + lower Bollinger Band scan
+
+**"On David Ryan and my new TC2000 scan for GLB rockets bouncing off support: $PLAY" (2017-01-29):** Dr. Wish quotes David Ryan (William O'Neil's three-time National Investing Champion protege) from _Momentum Masters_ (2015): "I basically simplify it down to two, breakouts and pullbacks… You just have to draw a line across the top of where most of the stock's trading has taken place. Then you buy as it moves through that line… Buying pullbacks are a bit more complicated but offer another entry point to get aboard a leading stock." He shows how this maps exactly onto his own GLB framework. New TC2000 scan introduced (`01292017ATHhipast40daysBLBB`): stocks in his ~800-stock ATH watchlist that (1) hit a new all-time high in the past 40 days AND (2) are currently bouncing from their lower Bollinger Band (15.2). This finds post-GLB pullback re-entries; distinct from the BOS scan (which uses a broader universe). Key rule: **a pullback/bounce entry does not require volume** — low volume on the pullback is a positive sign that selling has dried up. Sell stop: just below the recent bounce/support low. PLAY worked example: gapped up on unusual volume December 2016, consolidated sideways, then bounced off the lower BB; earnings +127% the prior quarter, IBD composite 93, short ratio 7.2, up 47% over the prior year. GMI=6 at post date. ([WW 2017-01-29](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
+
+---
+
+## March 2017 — Daily RWB chart formalized with RLC metric
+
+**"How I use daily RWB charts to size up the market and individual stocks" (2017-03-19):** formal description of the daily RWB chart system. Key additions vs the weekly chart: Red Line Count (RLC, 0–6 red lines above price), purple dots (daily lows for stop visualization). He assesses QQQ, SPY, and DIA RLCs to gauge short-term market health. The TC2000 scan (03182017) run on his ATH watch list yielded 59 candidates. He formally attributes the GMMA to Daryl Guppy and stage analysis to Stan Weinstein. ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
+
+---
+
+## July 2017 — GLB doctrine consolidated; historical lineage from Darvas restated; six worked examples
+
+**"GLB: the sine qua non of rocket stocks" (2017-07-02):** a major consolidating post on the GLB. Dr. Wish traces the full Darvas → Livermore → Dr. Wish lineage: Darvas's "no exceptions" rule for all-time highs; his "already doubled" prerequisite; Livermore's IPO-GLB insight. He explains why he switched from Darvas's daily-price boxes to monthly charts (whipsaws). Six worked GLB examples: SHOP, SQ, BABA, Z, FB, BZUN. FB had multiple GLBs. Includes the re-entry rule: "If it retakes the green line I often buy it back." ([WW 2017-07-02](../../raw/posts/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md))
+
+---
+
+## September 2017 — Three-chart setup procedure formalized; BGNE worked example
+
+**"$BGNE: Example of a stock purchase set-up for my new students" (2017-09-04):** the three-chart analysis chain for a trade setup is documented: (1) monthly — confirm stock is above its green line top; (2) weekly — confirm yellowband/Stage 2 alignment (10wk > 30wk); (3) daily — find the BOS entry (bounce off the 30-day or 50-day MA). Earnings check explicitly required before entry. Stop levels defined before buying: low of the bounce vs. MA level. For a held position, checking the weekly chart before selling avoids getting shaken out of a solid yellowband stock. ([WW 2017-09-04](../../raw/posts/2017-09-04-bgne-example-of-a-stock-purchase-set-up-for-my-new-students-gmi-green.md))
+
+---
+
+## December 2017 — Daily RWB as primary exit tool; RWB-bounce scan introduced
+
+**"A strategy for deciding when to sell stocks; GDS, NVDA" (2017-12-17):** Dr. Wish formally shifts from the weekly yellowband / 10-week close as the primary exit signal to the daily RWB red-line close. New exit rule: exit if the stock closes below all six red lines. For large profits: wait for two consecutive closes below all red lines. Red-line convergence = wait for direction, do not anticipate. He publishes the TC2000 RWB-bounce scan (12162017DailyRWBBounce). ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
+
+---
+
+## January 2018 — $100+ price preference empirically strengthened; Wyckoff citation
+
+**"Why buying stocks over $100 is more profitable" (2018-01-21):** a standalone post quantifying the $100+ preference. Among 4,865 US stocks, 85% of the top-20 largest dollar gainers over the prior 30 trading days were priced above $100. The next-20 were 95% above $100. Richard Wyckoff's observation cited: a $150 stock averages 2.5 points of daily fluctuation vs. 1 point for a $50 stock. Five reasons given: institutional sponsorship, harder to whipsaw, time to pyramid, smaller universe, more dollars per trade. ([WW 2018-01-21](../../raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md))
+
+---
+
+## February 2018 — Monthly RWB on bond ETFs as macro regime indicator; Martin Zweig principle
+
+**"Rising interest rates suggest market to form top" (2018-02-25):** after the January/February 2018 correction, Dr. Wish applies the RWB/BWR framework to **monthly** bond ETF charts as a long-term interest-rate regime indicator. **Martin Zweig principle:** after the Fed raises rates several times, the market eventually declines — a multi-cycle pattern Dr. Wish has observed since the 1960s. **Monthly RWB on bond ETFs**: SHY (short-term bond ETF) showed an RWB pattern "through about 2013" (low-rate era); by mid-2016, SHY entered a BWR decline on the monthly chart — "for the first time since at least 2003." Monthly BWR on bonds "suggests this trend could persist for months if not years." TC2000 offers a direct chart of short-term interest rates; as of February 2018, rates were in a steep RWB up-trend. New-high count warning: only 90 US stocks hit new highs on the Friday before the post, vs 200+ per day before January 29 — breadth deteriorating. Caveat: this is a monitoring framework, not a trading rule; he still defers to the GMI for actual buy/sell decisions. ([WW 2018-02-25](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))
+
+---
+
+## March 2018 — GMI Red; put/call as contrarian indicator; 30-week curve-down as pension trigger
+
+**"Time for cash, GMI=1 (of 6), turns Red" (2018-03-25):** real-time post during the Q1 2018 correction. On Friday March 23, GMI fell to 1 — a Red signal and Day 1 of a new QQQ short-term down-trend. Dr. Wish documents several timing overlays he consults alongside the GMI. **Put/call ratio at 1.25** on that Friday: extreme bearishness in the options market is a contrarian indicator suggesting a short-term bounce up — though not necessarily a trend reversal. **T2108 at 26%** (well above the below-10% oversold threshold; had reached 8.6% during the February 2018 dip). **Daily stochastic 10,4 at 9** — historically the level at which index ETFs bounce short-term. About 40% of short-term down-trends resolve within 5 days. **Pension trigger rule restated with precision:** once the **30-week average itself curves down** (not merely when price crosses below it), he transfers pension money from mutual funds to money market. "That signal got me out before the 2000 and 2008 market debacles." At the time of this post, DIA and SPY's 30-week averages had already curved slightly; QQQ's had not yet — he was waiting. Seasonal note: "Sell in May and go away, come back at Halloween" — possible in 2018, but not prescriptive. The weekly GMMA chart of QQQ showed an RWB pattern had been intact since 2013, interrupted only by a flat 2015–2016 period; the Q1 2018 event could be a similar pause or the start of something larger. ([WW 2018-03-25](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))
+
+---
+
+## November 2018 — Daily BWR pattern introduced; weekly RWB lost
+
+**"I'm back! Daily BWR pattern for $QQQ" (2018-11-25):** after the Q4 2018 decline, Dr. Wish shows that both the daily and weekly Guppy charts for QQQ have turned or are turning BWR. The GMI flashed Red on October 8, 2018. T2108 hit an intraday low of 7.6% on October 26, recovering to 28% by the time of the post. He lists his re-entry conditions: GMI returns to ≥4 for two consecutive days AND the daily Guppy chart turns from BWR back to RWB. Sentiment: investment-letter bulls dropped from 60%+ near the top to 40% — promising but not extreme. ([WW 2018-11-25](../../raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md))
+
+---
+
+## April 2019 — IPO GLB; IIPR; QQQ trend duration statistics
+
+**"Trading IPOs with a GLB and a green dot signal: $IIPR; QQQ short-term up-trend in 61st day" (2019-04-07):** Dr. Wish applies the GLB concept to recent IPOs, citing Jesse Livermore's 100-year-old principle of waiting for an IPO to settle and then trading it at a new ATH. IIPR (cannabis REIT) is the worked example: IPO December 2016, green line at $20.54, GLB in December 2017, subsequently quadrupled. FB cited as a historical comparison — first GLB at $45, 17 months after IPO. The **green dot** signal is introduced as a secondary re-entry tool after a GLB. The post also includes the most detailed published tabulation of **QQQ trend duration statistics** (through March 2019): ~40% of new down-trends end in fewer than 6 days; longest up-trend 88 days; longest down-trend 69 days. ([WW 2019-04-07](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md))
+
+---
+
+## March 2020 — COVID crash: 2020 exit documented; "amputation without anaesthetics"
+
+**"Livermore: Amputation without anaesthetics" (2020-03-15):** written in real time at the start of the COVID crash. GMI had turned Red on February 26, 2020; Dr. Wish was already 100% cash weeks before this post. He identifies SPY as beginning a Weinstein Stage 4 decline (large weekly selling volume; only 3 weeks below the 30-week average). He explicitly does not call the bottom: "I do not care if I miss the bottom or the top. There is plenty of room to make money in between." He emphasizes the tax-deferred account note: IRA/401(k) holders can exit and re-enter without tax consequences. Livermore's "amputation without anaesthetics" quote from 1907 is cited. ([WW 2020-03-15](../../raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md))
+
+---
+
+## July 2020 — Bounce-off-support: green dot signal + stop below bounce low
+
+**"My bounce off of support strategy; DDOG, ETSY, NET, BAND, PLMR examples" (2020-07-19):** A detailed description of the bounce-off-support complementary entry strategy. The **green dot signal** — low fast stochastic crosses above slow stochastic in TC2000 — marks the end of an oversold pullback in an advancing stock. Once the green dot appears, place a GTC stop just below the recent bounce low — if the trade fails, the loss is kept small. Key insight: "The shake out often sets up a nice subsequent advance" because high-volume selling exhausts weak holders and sets up shorts. The advantage over a GLB entry: the stop is the bounce low, not the green line, so the entry-to-stop distance is narrower. Wait for the bounce to confirm — do not anticipate it. ([WW 2020-07-19](../../raw/posts/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md))
+
+---
+
+## September 2020 — Monitoring GLBs in corrections; weekly chart management
+
+**"This week will determine if tech is starting a down-trend; how I monitor my GLBs during corrections" (2020-09-27):** Dr. Wish describes how he handles GLBs when the market corrects: he only exits a GLB position if the stock closes below its green line on a weekly chart. Intraday dips below the green line during a correction are not exits — only a weekly close below the green line triggers a sell. He monitors the weekly chart and uses the 4-week average as a secondary reference. During corrections he often continues to hold GLBs that remain above their green lines, because the best rocket stocks maintain relative strength. ([WW 2020-09-27](../../raw/posts/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md))
+
+---
+
+## December 2020 — WGB as second-chance IPO entry; PGNY and TSLA examples
+
+**"Buying IPOs with Green Line Break-outs (GLB) and a Weekly Green Bar (WGB) signal" (2020-12-27):** formal description of the IPO GLB logic (overhead supply dynamic; Facebook as canonical example). WGB introduced as the secondary entry signal when you miss the GLB. WGB trailing stop rule introduced: hold as long as WGBs form; exit below the most recent WGB low. TSLA's post-GLB advance showed 6 of 8 WGBs were successful hold signals. ([WW 2020-12-27](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
+
+---
+
+## January 2021 — Growth stocks beat TQQQ for first time
+
+**"Many individual stocks outperformed TQQQ for the first time" (2021-01-18):** unusual result — 60% of IBD/MS growth stocks beat TQQQ during 11/5/20–1/15/21 up-trend (median +24% vs TQQQ's +17.6%). FAANG stocks declined, raising a leadership-rotation warning. Dr. Wish shifts to focus on growth stocks while managing risk with stops and position size. ([WW 2021-01-18](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))
+
+---
+
+## January 2021 — GLB overhead-supply rationale formalized; 6 examples; IPO adjustment
+
+**"In the 60s I used to receive a book containing monthly charts of stocks..." (2021-01-24):** a major teaching post explaining the GLB's origin (1960s chart book observation) and the overhead supply mechanism in precise terms. Key rule additions: (1) he does NOT set a hard stop for GLBs, only a mental stop near the end of day; (2) for very recent IPOs the green line can be drawn after only 1–2 months; (3) stocks not yet at an ATH should only be bought if trading above their last green line top. Six recent GLB examples shown: JMIA, GM, PGNY, KC, MGNI, CSIQ. ([WW 2021-01-24](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))
+
+---
+
+## February 2021 — WGB TC2000 formula disclosed; TWTR as worked example
+
+**"$TWTR to take off? GLB and WGB indicators" (2021-02-28):** Dr. Wish publishes the TC2000 formula for the WGB for the first time. TWTR had a GLB after 8 years below its $74.73 green line top. He demonstrates the closing-price rule for GLB confirmation: TWTR failed its GLB on a down-3.5% QQQ day (closed $0.14 below the green line) but confirmed on the next day's close. Mental stop rule restated: sell if the stock *closes* below the green line, not on intraday dips. ([WW 2021-02-28](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
+
+---
+
+## June 2021 — Black dot signal introduced; TraderLion presentation
+
+**"Follow on to TraderLion conference; black dot signals" (2021-06-13):** Dr. Wish introduces the black dot — a TC2000 daily stochastic-based oversold-bounce signal for stocks already in up-trends. Formula published. He uses TQQQ/SQQQ guided by the QQQ short-term trend count. GMI decision rules and T2108 contrarian bottom threshold restated. ([WW 2021-06-13](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
 
 ---
 
@@ -508,39 +508,9 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 ---
 
-## January 2021 — Growth stocks beat TQQQ for first time
+## December 2022 — Gap-up volume scan introduced
 
-**"Many individual stocks outperformed TQQQ for the first time" (2021-01-18):** unusual result — 60% of IBD/MS growth stocks beat TQQQ during 11/5/20–1/15/21 up-trend (median +24% vs TQQQ's +17.6%). FAANG stocks declined, raising a leadership-rotation warning. Dr. Wish shifts to focus on growth stocks while managing risk with stops and position size. ([WW 2021-01-18](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))
-
----
-
-## April 2023 — WING missed GLB; written GLB rules published; Turtle Traders discipline
-
-**"Day 26 of $QQQ short-term up-trend; $WING flies to ATH, how I missed the GLB" (2023-04-24):** Dr. Wish confesses missing the WING GLB despite having set TC2000 alerts — he received 3 text alerts on April 18 and "NEVER saw these alerts." He uses the failure as a teaching moment to publish his **written GLB rules for students**: (1) draw a green line at a stock's peak once it has not been surpassed for at least 3 months; (2) set a TC2000 price alert (valid 1 year) to notify when the stock trades back above the green line; (3) buy on the day of the GLB or watch for a re-test; (4) hold unless the stock *closes* back below the green line — do not exit on intraday dips; (5) if it closes below the green line: failed GLB, exit immediately; (6) if it retakes the green line and closes back above: buy it back. WING had several prior failed GLBs before the actual breakout. The **Turtle Traders rule cited:** the Turtle Traders had a rule that "they had to act on every buy signal. The one signal you do not take after several fails is often the one that works." APLS presented as a contrasting successful GLB that ran without looking back. TC2000 alert workflow explained: draw the green line and immediately set a price alert — good for one year — delivered as a text message. ([WW 2023-04-24](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
-
----
-
-## September 2016 — DW GLB worked example; GLB tracker table purpose; weekly scan
-
-**"$DW: A Successful Green Line Breakout; updated GLB tracker table" (2016-09-05):** Written for a class of 160 freshmen as a worked example. DW (Drew Industries) broke above its green line on the highest weekly volume in months and subsequently advanced strongly. Dr. Wish shows relative strength versus QQQ (maintaining strength during QQQ corrections — marked with amber vertical lines) as a confirming factor. He also describes the **weekly GLB scan** he runs every weekend: stocks that closed at a new 52-week high on Friday, with total weekly volume at least 10% above recent average, and 500,000+ shares total — then filters those that also hit an all-time high. The **GLB tracker table** (sidebar) tracks stocks after their breakout but is explicitly described as a biased sample and education tool, not a buy list. Nine of that week's 27 scan results also closed above their last green line top. ([WW 2016-09-05](../../raw/posts/2016-09-05-dw-a-successful-green-line-break-out-updated-glb-tracker-table-all-gmi-components-positive.md))
-
----
-
-## April 2019 — IPO GLB; IIPR; QQQ trend duration statistics
-
-**"Trading IPOs with a GLB and a green dot signal: $IIPR; QQQ short-term up-trend in 61st day" (2019-04-07):** Dr. Wish applies the GLB concept to recent IPOs, citing Jesse Livermore's 100-year-old principle of waiting for an IPO to settle and then trading it at a new ATH. IIPR (cannabis REIT) is the worked example: IPO December 2016, green line at $20.54, GLB in December 2017, subsequently quadrupled. FB cited as a historical comparison — first GLB at $45, 17 months after IPO. The **green dot** signal is introduced as a secondary re-entry tool after a GLB. The post also includes the most detailed published tabulation of **QQQ trend duration statistics** (through March 2019): ~40% of new down-trends end in fewer than 6 days; longest up-trend 88 days; longest down-trend 69 days. ([WW 2019-04-07](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md))
-
----
-
-## July 2020 — Bounce-off-support: green dot signal + stop below bounce low
-
-**"My bounce off of support strategy; DDOG, ETSY, NET, BAND, PLMR examples" (2020-07-19):** A detailed description of the bounce-off-support complementary entry strategy. The **green dot signal** — low fast stochastic crosses above slow stochastic in TC2000 — marks the end of an oversold pullback in an advancing stock. Once the green dot appears, place a GTC stop just below the recent bounce low — if the trade fails, the loss is kept small. Key insight: "The shake out often sets up a nice subsequent advance" because high-volume selling exhausts weak holders and sets up shorts. The advantage over a GLB entry: the stop is the bounce low, not the green line, so the entry-to-stop distance is narrower. Wait for the bounce to confirm — do not anticipate it. ([WW 2020-07-19](../../raw/posts/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md))
-
----
-
-## September 2020 — Monitoring GLBs in corrections; weekly chart management
-
-**"This week will determine if tech is starting a down-trend; how I monitor my GLBs during corrections" (2020-09-27):** Dr. Wish describes how he handles GLBs when the market corrects: he only exits a GLB position if the stock closes below its green line on a weekly chart. Intraday dips below the green line during a correction are not exits — only a weekly close below the green line triggers a sell. He monitors the weekly chart and uses the 4-week average as a secondary reference. During corrections he often continues to hold GLBs that remain above their green lines, because the best rocket stocks maintain relative strength. ([WW 2020-09-27](../../raw/posts/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md))
+**"Day 15 of QQQ short-term up-trend; TC2000 gap-up scan" (2022-12-04):** a new TC2000 scan for finding stocks that had a large-volume gap-up day in the past 25 trading days and are now consolidating or resuming their advance. Formula: `L>H1 and V=maxv20 and H=MaxH10` applied as "true within 25 bars." The post also articulates his post-decline re-entry philosophy: enter gradually after indexes retake key moving averages; people initially buy large-caps, then shift to growth stocks as confidence returns. ([WW 2022-12-04](../../raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md))
 
 ---
 
@@ -550,15 +520,45 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 ---
 
+## April 2023 — WING missed GLB; written GLB rules published; Turtle Traders discipline
+
+**"Day 26 of $QQQ short-term up-trend; $WING flies to ATH, how I missed the GLB" (2023-04-24):** Dr. Wish confesses missing the WING GLB despite having set TC2000 alerts — he received 3 text alerts on April 18 and "NEVER saw these alerts." He uses the failure as a teaching moment to publish his **written GLB rules for students**: (1) draw a green line at a stock's peak once it has not been surpassed for at least 3 months; (2) set a TC2000 price alert (valid 1 year) to notify when the stock trades back above the green line; (3) buy on the day of the GLB or watch for a re-test; (4) hold unless the stock *closes* back below the green line — do not exit on intraday dips; (5) if it closes below the green line: failed GLB, exit immediately; (6) if it retakes the green line and closes back above: buy it back. WING had several prior failed GLBs before the actual breakout. The **Turtle Traders rule cited:** the Turtle Traders had a rule that "they had to act on every buy signal. The one signal you do not take after several fails is often the one that works." APLS presented as a contrasting successful GLB that ran without looking back. TC2000 alert workflow explained: draw the green line and immediately set a price alert — good for one year — delivered as a text message. ([WW 2023-04-24](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
+
+---
+
+## November 2021 — Exit at QQQ peak on breadth divergence
+
+QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish noticed new lows had surged to 438 while QQQ was still at all-time highs. He exited the market. The subsequent Stage 4 decline lasted over a year. (Explanation posted retroactively in June 2023. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md)))
+
+---
+
+## June 2023 — New highs/lows methodology explained
+
+**"How I compute new US highs and lows" (2023-06-19):** explains the TC2000 implementation (built-in conditions; filter for close > $10 and volume > 10,000; ~6,486 stock universe). Retroactively documents the November 2021 breadth-divergence exit. As of June 2023 (GMI=6): 207 new highs, 10 new lows, 78 at ATH. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
+
+---
+
 ## November 2023 — Canonical GLB re-statement; PGR worked example
 
 **"Very important blog post explaining GLBs; PGR green line top example" (2023-11-26):** A canonical teaching post that re-states the GLB methodology from first principles — Dr. Wish's most complete single-post GLB explanation as of late 2023. PGR (Progressive Insurance) is the central worked example: a long Stage 2 advance, clear green line top on the monthly chart, and a GLB when PGR finally broke above its prior ATH on strong volume. The post links to earlier definitional posts (2012–2017) to provide historical context. He also restates the market-trend gate: "I look for a stock whose recent GLB occurred when the QQQ was in a short-term up-trend." This is the definitive reference post for the GLB concept as practised in 2023. ([WW 2023-11-26](../../raw/posts/2023-11-26-very-important-blog-post-explaining-glbs-day-15-of-qqq-short-term-up-trend-123-us-new-highs-and-2-lows-43-at.md))
 
 ---
 
+## May 2024 — Weekly green bar scan criteria formalized
+
+**"ANF worked example of the weekly green bar indicator" (2024-05-27):** the weekly green bar scan is formalized with explicit criteria: 10.4 stochastic > 80 for ≥ 5 weeks; 4wk > 10wk > 30wk; stock up ≥ 50% from a year ago; recent ATH; green bar the most recent week. Exit rules: close below 10-week average, or 4-week average declines below 10-week average. ANF traced from June 2023 to April 2024 without closing below its 10-week average. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
+
+---
+
 ## June 2024 — x8/x21/30-day daily alignment bounce setup introduced
 
 **"Day 29 of QQQ up-trend; introducing the x8/x21/30-day setup" (2024-06-16):** Dr. Wish introduces a new daily-chart bounce-off-support entry: the **x8/x21/30 setup**. Structural requirement: 8-day EMA (x8) > 21-day EMA (x21) > 30-day SMA. Entry: buy bouncing off the x8. Exit (failure): sell if stock closes below the x8. TC2000 scan: alignment + up 50%+ YoY + ATH within 5 weeks + bouncing off x8. Fundamentals checked in MarketSmith before buying. COST, ANF, NVDA, and CVLT shown as worked examples. The 8-day EMA influence comes from Pat Walker; the 21-day EMA from IBD/CAN SLIM research; the combined construction is Dr. Wish's own. ([WW 2024-06-16](../../raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md))
+
+---
+
+## March 2025 — Stage 4 identified in IWM; GMI Red since February
+
+**"Day 24 of $QQQ short-term down-trend; IWM at beginning of Stage 4" (2025-03-30):** Dr. Wish uses IWM's weekly 10:30 chart to identify what looks like the beginning of a Stage 4 down-trend — the 10-week average has crossed below the 30-week average, and the weekly close is leading everything lower. He compares it to the same setup in 2022 and transferred pension accumulations out of mutual funds. GMI has been Red since February 24, 2025. He holds SQQQ and TWM as small short positions. ([WW 2025-03-30](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
 
 ---
 

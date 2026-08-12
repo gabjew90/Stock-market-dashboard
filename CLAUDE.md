@@ -16,6 +16,9 @@ Design rationale: `docs/specs/2026-05-11-wishing-wealth-wiki-design.md`.
   `url`/`date`/`post_id`/`title`), plus `raw/posts.jsonl` (one `PostRecord` per
   post — see `src/ww/corpus/index.py`) and `raw/api/page-NNNN.json` (cached API
   responses). **You read from `raw/`; you never edit it.** Re-fetch with `ww scrape`.
+  All of that is gitignored — only `raw/url_map.json` (the slug→URL catalogue of all
+  4,655 posts) and `raw/ingest-ledger.jsonl` (the curated tier/summary/`ingested` state,
+  see §5) are committed. A fresh checkout therefore has no post bodies until you scrape.
 - **Layer 2 — `wiki/`** (you own this entirely). Markdown pages — `overview.md`,
   `methodology/`, `playbooks/`, `history/`, `sources/`, plus `index.md` and
   `log.md`. You create pages, update them when new sources are processed, maintain
@@ -130,6 +133,9 @@ is visible); prefer `kind_guess == "long_form"` and `unknown` posts first (the
 5. Append to `wiki/log.md`:
    `## [YYYY-MM-DD] ingest | <post date> <post title> — tier=<tier>; touched: <pages>`.
 6. Set `ingested: true` on that post's row in `raw/posts.jsonl`.
+7. At the end of the batch, run `ww ledger export` and commit `raw/ingest-ledger.jsonl`
+   alongside the wiki changes — otherwise the batch's tiers and summaries exist only in
+   the gitignored `posts.jsonl` and are lost with the working copy.
 For a batch of `daily_update` posts you needn't narrate each — set their tiers,
 mark them ingested, and log the batch (`## [date] ingest | daily-updates <date1>..<dateN> — N posts, no new teaching`).
 A human can also drop a brand-new post into `raw/` (the blog keeps publishing) and
@@ -150,9 +156,11 @@ Run `ww lint .` (mechanical) and periodically do a **semantic** pass yourself:
 - Mechanical (`ww lint`): broken internal links (links into `raw/` are only
   verified when the scraped corpus is present — `raw/` is gitignored, so CI
   checkouts skip them with a warning); pages missing a `## Sources`
-  section; pages not catalogued in `index.md`; orphan pages (no inbound link from
-  any other wiki page; `overview.md`/`index.md`/`log.md` exempt); `posts.jsonl`
-  rows whose `summary_page` points at a missing file. Non-zero exit on errors. CI runs it.
+  section; **posts cited in a page's body but not listed in that page's `## Sources` block**;
+  pages not catalogued in `index.md`; orphan pages (no inbound link from
+  any other wiki page; `overview.md`/`index.md`/`log.md` exempt); `posts.jsonl` **and
+  `ingest-ledger.jsonl`** rows whose `summary_page` points at a missing file.
+  Non-zero exit on errors. CI runs it.
 - Semantic (you): contradictions between pages; stale claims a later post supersedes;
   important concepts referenced but lacking their own page; missing cross-references;
   thin pages that should merge or expand; follow-up questions/sources worth chasing.
@@ -161,6 +169,9 @@ Run `ww lint .` (mechanical) and periodically do a **semantic** pass yourself:
 ## 5. CLI quick reference
 
 `ww scrape` — (re)build `raw/` from the blog's WordPress API.
+`ww ledger export` — write the curated post state (tier/summary/ingested/summary_page) to `raw/ingest-ledger.jsonl`. **Run this after every Ingest batch and commit the result** — `raw/posts.jsonl` is gitignored, so the ledger is the only copy of that state in version control.
+`ww ledger apply` — restore that state onto a freshly-scraped `raw/posts.jsonl`.
+`ww ledger rebuild` — recovery path: reconstruct the ledger from `wiki/sources/*.md` if the ledger is lost too (recovers ingested teaching/trade_example rows only).
 `ww stats` — corpus + (later) wiki counts.
 `ww lint .` — mechanical wiki integrity checks.
 `ww timeline` — (Plan 2.5) build `raw/timeline.parquet` from `daily_update` posts.
@@ -170,9 +181,31 @@ Run `ww lint .` (mechanical) and periodically do a **semantic** pass yourself:
 
 ## 6. Resuming a session
 
+0. **Check the corpus is there.** `ls raw/posts | wc -l` — if it is empty, `raw/` has not
+   been built in this checkout (it is gitignored). Run `ww scrape && ww ledger apply` to
+   rebuild it *and* restore ingest state. This needs outbound access to
+   `wishingwealthblog.com`; some sandboxes (Claude Code on the web, CI) allow GitHub only,
+   and there the blog is unreachable — say so rather than working around it. Everything
+   that does not need post bodies (wiki editing, lint, the ledger) still works without it.
 1. `git log --oneline | head` and `grep "^## \[" wiki/log.md | tail -10` — what happened recently.
-2. `ww stats` — how many posts, how many `ingested`.
+2. `ww stats` — how many posts, how many `ingested`. With no corpus, `wc -l raw/ingest-ledger.jsonl`
+   and `ls wiki/sources | wc -l` give the ingest count instead.
 3. Pick up the next Ingest batch (or whatever the human asks). Read THIS file again
    if it's been a while.
 
-**Corpus state as of 2026-05-11:** The entire corpus is fully tiered — every post has a `tier` value. There are no more `tier=None` posts. The bulk is: ~4,460 `daily_update` (parsed into `raw/timeline.parquet`), ~18 `meta` (housekeeping/announcements, skipped), ~31 `teaching` and ~2 `trade_example` (fully ingested with wiki source-summary pages). The remaining un-ingested posts are ~149 `long_form` teaching posts — these are the only ones worth a proper ingest. To find the next ingest batch: run `uv run ww batch --kind long_form` (or `uv run python -c "from pathlib import Path; from src.ww.corpus.index import read_posts_jsonl; posts = read_posts_jsonl(Path('raw/posts.jsonl')); remaining = sorted([p for p in posts if p.kind_guess=='long_form' and not p.ingested], key=lambda p: p.word_count, reverse=True); [print(p.post_id, p.date[:10], p.word_count, p.title[:70]) for p in remaining[:20]]"`) and pick the highest-word-count posts on methodology themes not yet covered.
+**Corpus state as of 2026-08-12:** 4,655 posts (2005-04-17 → 2026-05-11), catalogued slug→URL in
+the committed `raw/url_map.json`. The corpus was fully tiered as of 2026-05-11: ~4,460 `daily_update`
+(parsed into `raw/timeline.parquet`), ~18 `meta` (skipped), the rest `teaching` / `trade_example`.
+**91 posts are ingested** (85 `teaching` + 6 `trade_example`), each with a page under `wiki/sources/`
+and a row in `raw/ingest-ledger.jsonl` — that ledger, not `posts.jsonl`, is the authoritative
+committed record of what has been done. Roughly 110 un-ingested posts carry explicit teaching
+markers in their titles ("how I…", "introducing…", "why I…", "…explained"); they are the only ones
+worth a proper ingest. To pick the next batch: `uv run ww batch --kind long_form`.
+
+**Known coverage gaps** (from the 2026-08-12 lint entry in `wiki/log.md`, which has the full list):
+2007 has zero source pages and zero `timeline.md` sections despite spanning the October 2007 top;
+2015 and 2019 have one each. Nine concepts he teaches have no page — most importantly **OSB /
+ATHOSB** (he states he *prefers* it to breakouts), the **2021 $200 revision** of the $100 price rule,
+the **hourly GMMA** timeframe, **position sizing**, and the **off-blog teaching corpus** (Worden
+webinars, AAII, TraderLion, TASC interviews, YouTube). The GMI's *current* component list is still
+unconfirmed — `gmi.md` documents the 2005 definition.

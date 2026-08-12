@@ -143,3 +143,44 @@ def test_ww_lint_command_nonzero_on_errors(tmp_path: Path):
     result = _runner.invoke(cli.app, ["lint", str(tmp_path)])
     assert result.exit_code == 1
     assert "ghost.md" in result.stdout
+
+
+def test_body_citation_missing_from_sources_block_is_an_error(tmp_path: Path):
+    _good_wiki(tmp_path)
+    (tmp_path / "raw" / "posts" / "2021-02-02-y.md").write_text("body", encoding="utf-8")
+    p = tmp_path / "wiki" / "methodology" / "gmi.md"
+    p.write_text(
+        p.read_text(encoding="utf-8").replace(
+            "See ([WW 2020-01-01](../../raw/posts/2020-01-01-x.md)).",
+            "See ([WW 2020-01-01](../../raw/posts/2020-01-01-x.md)) and ([WW 2021-02-02](../../raw/posts/2021-02-02-y.md)).",
+            1,
+        ),
+        encoding="utf-8",
+    )
+    report = lint_wiki(tmp_path)
+    assert not report.ok
+    assert any("2021-02-02-y.md but does not list it under '## Sources'" in e for e in report.errors)
+
+
+def test_citation_listed_only_in_the_sources_block_is_fine(tmp_path: Path):
+    """A page may list a source it never cites inline — that is not drift."""
+    _good_wiki(tmp_path)
+    (tmp_path / "raw" / "posts" / "2021-02-02-y.md").write_text("body", encoding="utf-8")
+    p = tmp_path / "wiki" / "methodology" / "gmi.md"
+    p.write_text(
+        p.read_text(encoding="utf-8") + "- [WW 2021-02-02](../../raw/posts/2021-02-02-y.md)\n",
+        encoding="utf-8",
+    )
+    report = lint_wiki(tmp_path)
+    assert report.ok, report.errors
+
+
+def test_ledger_summary_page_must_exist(tmp_path: Path):
+    _good_wiki(tmp_path)
+    (tmp_path / "raw" / "ingest-ledger.jsonl").write_text(
+        '{"stem": "2020-01-01-x", "ingested": true, "summary_page": "wiki/sources/2020-01-01-x.md"}\n',
+        encoding="utf-8",
+    )
+    report = lint_wiki(tmp_path)
+    assert not report.ok
+    assert any("ingest-ledger.jsonl line 1: summary_page" in e for e in report.errors)

@@ -1,7 +1,7 @@
 ---
 title: Overview — Dr. Eric Wish's market methodology
 type: overview
-updated: 2026-05-11
+updated: 2026-08-12
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-26-general-market-index-gmi.md
@@ -32,18 +32,19 @@ Once the market is GREEN, the process narrows the universe to the best rocket ca
 
 - **[Green Line Breakouts (GLB)](methodology/green-line-breakouts.md)** — buying stocks that break above an all-time high that held for ≥ 3 months on a monthly chart (the "green line"). Scan for stocks on the new-52-week-high list that are breaking through a green-line base.
 - **[Stock selection](methodology/stock-selection.md)** — the RWB weekly GMMA pattern (shorter-term MAs above longer-term MAs, white space between) as the visual filter; preference for stocks priced $80+; lightweight fundamental check (earnings growth, great product).
+- **Entry timing within a candidate** — he rarely buys the GLB moment itself. The bounce-off-support family (BOS off the lower 15.2 Bollinger Band, the weekly green bar, and the black / green / blue-dot stochastic signals) gives a tighter stop and is his stated preference. See [stock-selection](methodology/stock-selection.md) and [moving-average rules](methodology/moving-average-rules.md).
 
 ## Playbooks — decisions under uncertainty
 
-- [Market state → stance](playbooks/market-state.md) *(stub)*
-- [Buying a GLB](playbooks/buying-glb.md) *(stub)*
-- [Exits](playbooks/exits.md) *(stub)*
+- [Market state → stance](playbooks/market-state.md) — the GMI + QQQ-timing + T2108 decision tree, with a stance summary table
+- [Buying a GLB](playbooks/buying-glb.md) — the 6-step entry checklist, from market gate to stop placement
+- [Exits](playbooks/exits.md) — stop mechanics, the daily-RWB red-line rule, and the weekly 4wk/10wk/30wk exit ladder
 
 ## Reference
 
 - [Glossary](methodology/glossary.md) — every term defined; first-appearance citations
 - [Timeline — how the system evolved](history/timeline.md) — 2005 GMI launch → 2010 RWB → 2011 GMI2 → 2012 GLB named → ...
-- [Track record — calls & outcomes](history/track-record.md) *(stub)*
+- [Track record — calls & outcomes](history/track-record.md) — the documented calls: the 1994–2009 13×/14× IRA, the 2000 and 2008 exits, February 2020, November 2021
 - [Trend-flip log](history/trend-flip-log.md) — every ST/LT trend flip (2007–2026) + detailed entries incl. April-2025 tariff decline and 2026 Iran-war-period decline
 - [Backtest — the timing overlay](methodology/backtest-timing-overlay.md) — quantified evidence on the GMI market-state gate vs buy-and-hold QQQ (2007–2026)
 

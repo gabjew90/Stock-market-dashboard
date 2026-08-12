@@ -280,3 +280,40 @@ checks only that the heading exists, so this drift is invisible to CI. The found
 `2005-04-26-general-market-index-gmi` is cited on 5 pages and is the most-cited post with no
 summary page. All 129 cited slugs resolve to real posts in `url_map.json` — no fabricated
 citations.
+
+## [2026-08-12] lint | acted on the review — page fixes, and the ingest ledger put under version control
+
+Follow-up to the review entry above.
+
+**Page fixes.** `timeline.md` re-sorted chronologically — its 82 sections had been
+appended in ingest order (April 2005 → November 2005 → June 2005 → … → February 2009 →
+January 2009), which defeated the page's only job; all 82 headings preserved, the diff is
+a pure reorder (123 insertions / 123 deletions). `overview.md`: the four stale `*(stub)*`
+markers replaced with real one-line descriptions (`market-state.md`, `buying-glb.md`,
+`exits.md`, `track-record.md` have all been populated for months), plus a new bullet for
+the bounce-off-support entry family (BOS / WGB / the dot signals), which the overview had
+never mentioned despite it being his stated preference over buying the GLB moment.
+The 24 in-body citations missing from their pages' `## Sources` blocks are now listed, and
+added to each page's `sources:` front-matter — 9 pages touched, link text reused from the
+canonical bullet already used elsewhere in the wiki.
+
+**Lint gained two checks**, so this class of drift fails CI instead of accumulating:
+a post cited in a page's body but absent from that page's `## Sources` block is now an
+error (text-based, so it works without the corpus), and `summary_page` integrity is
+checked on `raw/ingest-ledger.jsonl` as well as `raw/posts.jsonl`.
+
+**The ingest ledger is now committed.** `raw/ingest-ledger.jsonl` (91 rows) holds the
+curated half of `posts.jsonl` — tier, summary, indicators, tickers, `ingested`,
+`summary_page` — keyed by post stem. New module `src/ww/corpus/ledger.py` and `ww ledger
+export | apply | rebuild`: `export` after each Ingest batch (commit the result), `apply`
+after a `ww scrape` to re-attach state to a fresh corpus, `rebuild` to reconstruct from
+`wiki/sources/*.md` if the ledger itself is lost. The committed ledger was produced by
+`rebuild` and recovers 85 `teaching` + 6 `trade_example` rows with the richer one-line
+summaries catalogued in `index.md`. Verified end-to-end against a synthetic 4,655-row
+corpus built from `url_map.json`: 91 applied, 0 unmatched. `daily_update` and `meta` tiers
+have no summary page and so are *not* recoverable this way — they must be re-derived after
+a scrape.
+
+**Still blocked:** `wishingwealthblog.com` is denied by this environment's egress policy
+(GitHub-only), so the corpus could not be re-fetched here and no new posts were ingested.
+Everything above works without post bodies. `ww lint .` clean; 181 tests pass.
