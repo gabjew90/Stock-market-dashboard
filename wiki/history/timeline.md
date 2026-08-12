@@ -3,6 +3,10 @@ title: Timeline — evolution of the methodology
 type: history
 updated: 2026-08-12
 sources:
+  - raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md
+  - raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md
+  - raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md
+  - raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md
   - raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md
   - raw/posts/2014-06-08-what-a-market-top-looks-like.md
   - raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md
@@ -171,6 +175,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## June 2005 — moving averages explained; QQQ trend counting begins
 
 **"GMI back to +5; on moving averages" (2005-06-05):** Dr. Wish explains the moving average from first principles, derives three rules (right period; price above MA; MA rising), and states his preference for simple over exponential MAs. He also begins the QQQ day-count practice explicitly: "day 20 (U-20) of the QQQQ up-trend." ([WW 2005-06-05](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md))
+
+---
+
+## June 2005 — put options as insurance (the original tutorial)
+
+**"Using put options to limit losses on CME and GOOG" (2005-06-08):** the protective-put insurance framing, fully formed four years before the 2009 post the wiki had as its origin — with the decision rule: a put beats a stop when **shakeout risk** is high ("I might get shaken out only to see the stock rebound... So, I bought insurance instead"). Strike = the would-be stop price; expiry chosen past the window that matters. ([WW 2005-06-08](../../raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md))
 
 ---
 
@@ -382,6 +392,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## August 2011 (cont.) — the full exit, including the pension
+
+**"100% cash in trading accounts and university pension" (2011-08-15):** the complete exit documented the day it finished — rules and fatigue both admitted; banks breaking 2010 support read against the 2008 template; component shares below the 30-week (Dow 83%, S&P 87%, Nasdaq 81%); "I do not own *any* stock that is below its 30 week average"; the pension's timing-penalty lag costed honestly; and the addiction line: "**If one cannot exit the market to go to cash, one should not be in the market at all.**" ([WW 2011-08-15](../../raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md))
+
+---
+
 ## August 2011 — Flash crash; GMI defensive before Day 3
 
 **"Crash coming? Only 3rd day of new QQQ short-term down-trend" (2011-08-07):** GMI had been below 4 since July 27; trading accounts were already mostly in cash. The S&P downgrade of US debt caused the August 2011 flash crash on what Dr. Wish calls Day 3 of the new short-term down-trend. He uses the GMMA weekly chart to contextualize the decline as more like 2010 than 2008. T2108 at 11%. ([WW 2011-08-07](../../raw/posts/2011-08-07-crash-coming-only-3rd-day-of-new-qqq-short-term-down-trend.md))
@@ -484,6 +500,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## July 2015 — the warning: Stage IV spreading beneath a strong QQQ
+
+**"Big concerns — too many indexes in Stage IV declines" (2015-07-26):** four weeks before the flash crash — "the QQQ looked strong because of a few big name stocks, but most stocks were breaking down"; transports and utilities already Stage IV; DIA/SPY back below their 30-weeks after a failed retake; QQQ's breakout flagged as a possible head fake; SQQQ and a China put on. The reason the aftermath post opens from 100% cash. ([WW 2015-07-26](../../raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md))
+
+---
+
 ## August 2015 — the flash crash, from 100% cash
 
 **"Is worst of stock market decline over? I'm not betting on it" (2015-08-30):** the year's first timeline section — 2015 previously had zero. Written 13 days into the down-trend, from 100% cash in the trading accounts, GMI at 0 for five straight days. Severity judged by comparison: the technical damage was "far greater" than October 2014's analogous GMI=0 episode, so no quick recovery expected; the test is whether QQQ retakes its 30-week average. The pension trade-off in one sentence — "**I would rather miss a further 5-10% rise than sit through a possible 20-40% decline**" — plus the Boomer-supply thesis (retracement toward break-even triggers selling) and criticism of the exchanges' disorderly Monday open. ([WW 2015-08-30](../../raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md))
@@ -519,6 +541,12 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 ## November 2016 — Weekly 4wk/10wk hold discipline formalized; NTES 21-week example
 
 **"Short and long term trends now up; On using weekly charts to stay in a growth stock: $NTES" (2016-11-20):** Dr. Wish addresses the most common failure mode he observes in student traders: getting shaken out of a winner prematurely by reacting to daily chart noise. His solution: make exit decisions using only the **weekly chart** with three MAs (4wk, 10wk, 30wk). William O'Neil's approach cited — O'Neil "used only weekly charts because they more clearly revealed to him the meaningful stock trends." The **4wk/10wk hold ladder**: a strong advancing growth stock maintains 4wk > 10wk > 30wk for long periods; a weekly close below the 4wk average is a *potential* warning — raise stops or sell a small piece; a weekly close below the 10wk average is an exit signal ("Growth stocks should not close the week below their 10 week average"). Critical nuance: a stock often trades *intraweek* below its 4wk average and then closes back above — use weekly closing prices only. NTES example: 4>10>30 alignment from June through November 2016 — 21 weeks; stock rose over 40%; when it finally closed below the 4wk then the 10wk in early November, that was the exit signal. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
+
+---
+
+## November 2016 — the weekly consolidation-breakout scan
+
+**"New TC2000 Scan yields 4 break-outs from consolidation" (2016-11-27):** weekly-chart scan — multi-week consolidation, above-average breakout-week volume, EPS ≥ +50% — 4 of ~4,900. The annotated WB chart documents the chart-header legend, including **short interest read as breakout fuel** ("the higher the number, the greater the buying pressure from a break-out"). ([WW 2016-11-27](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md))
 
 ---
 
@@ -971,3 +999,7 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2014-06-08 — What a market top looks like: the monthly GMMA template](../../raw/posts/2014-06-08-what-a-market-top-looks-like.md) ([summary](../sources/2014-06-08-what-a-market-top-looks-like.md))
 - [WW 2010-12-13 — The 95-year Dow cycle framework](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md) ([summary](../sources/2010-12-13-where-are-we-in-the-market-cycle.md))
 - [WW 2009-06-07 — The ultra-ETF study off the March 2009 bottom](../../raw/posts/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md) ([summary](../sources/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md))
+- [WW 2011-08-15 — The August 2011 full exit; the addiction line](../../raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md) ([summary](../sources/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md))
+- [WW 2015-07-26 — The warning four weeks before the flash crash](../../raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md) ([summary](../sources/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md))
+- [WW 2016-11-27 — The weekly consolidation-breakout scan; short interest as fuel](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md) ([summary](../sources/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md))
+- [WW 2005-06-08 — Put options as insurance: the 2005 original](../../raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md) ([summary](../sources/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md))

@@ -998,3 +998,26 @@ Touched: `methodology/moving-average-rules.md` (monthly layer section),
 (earliest ETF study), `methodology/trading-philosophy.md` (simple-beats-clever),
 `history/timeline.md` (4 sections), `index.md`; 4 new `sources/` pages.
 `ww lint .` clean; 194 tests pass; ledger 137 rows.
+
+## [2026-08-12] ingest | exits and scans — 4 posts, tier=teaching
+
+- **2005-06-08** — protective puts **back-dated to 2005** (the wiki had 2009 as the origin),
+  with the decision rule the later post lacks: a put beats a stop **when shakeout risk is
+  high**; strike = the would-be stop, expiry past the window that matters.
+- **2011-08-15** — the complete August 2011 exit, both drivers admitted ("I just got tired of
+  worrying" *and* the rules); banks breaking 2010 support read against the 2008 template;
+  component shares below the 30-week (83/87/81%); "I do not own *any* stock that is below its
+  30 week average"; and the addiction line: "**If one cannot exit the market to go to cash, one
+  should not be in the market at all.**"
+- **2015-07-26** — the **warning four weeks before the flash crash**, completing 2015's
+  warning→aftermath pair: narrow leadership ("QQQ looked strong because of a few big name
+  stocks, but most stocks were breaking down"), Stage IV spreading, a failed 30-week retake as
+  the tell, SQQQ and a China put already on.
+- **2016-11-27** — a scan the catalogue lacked: weekly consolidation-breakouts (4 of ~4,900),
+  plus a concept the wiki had nowhere — **short interest read as breakout fuel** ("the higher
+  the number, the greater the buying pressure"), now a glossary entry.
+
+Touched: `methodology/risk-and-cash.md` (3 new sections), `methodology/stock-selection.md`
+(weekly consolidation scan), `methodology/glossary.md` (short interest ratio),
+`history/timeline.md` (4 sections), `index.md`; 4 new `sources/` pages.
+`ww lint .` clean; 194 tests pass; ledger 141 rows. Favorites remaining: 81.

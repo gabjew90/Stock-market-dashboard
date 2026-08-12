@@ -3,6 +3,7 @@ title: Stock selection
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md
   - raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md
   - raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md
   - raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md
@@ -165,6 +166,18 @@ For timing entries, Dr. Wish uses a **daily** RWB chart with the Red Line Count 
 Filter condition: any stock in the scan that is **not above its last green line top** is disqualified because of overhead supply from prior buyers at higher prices. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
 
 For market-wide assessment using the same tool: monitor QQQ, SPY, and DIA RLCs. In March 2017, SPY had RLC = 0 and the Dow Jones Transportation Average had lost its entire RWB pattern — a warning he flagged as a potential Dow Theory caution. ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
+
+## The weekly consolidation-breakout scan (2016) — and short interest as fuel
+
+A weekly-chart scan for growth stocks emerging from a **multi-week consolidation**: minimum
+weekly volume, **above-average volume on the breakout week**, latest quarterly EPS **≥ +50%** —
+4 survivors out of ~4,900. The annotated WB chart documents his chart-header legend: latest
+quarterly EPS, price ÷ price-250-days-ago (WB at 2.64×, the doubled-in-a-year check), projected
+earnings date, and the **short interest ratio read as breakout fuel**: at 3.6 days-to-cover,
+"the higher the number, the greater the buying pressure from a break-out" — shorts as future
+forced buyers. Epistemic tag attached even to his own hits: highest weekly volume since 2014
+"could signify the resumption of the up-trend **or it could mean nothing**."
+([WW 2016-11-27](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md))
 
 ## The weekly green bar scan — a later entry filter (formalized 2022–2024)
 
@@ -376,3 +389,4 @@ After a Boston IBD Meetup presentation in May 2025, Dr. Wish published the most 
 - [WW 2020-10-04 — The IBD screener workflow; the all-12-GMMA exit line](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md) ([summary](../sources/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
 - [WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap; LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md) ([summary](../sources/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
 - [WW 2013-12-09 — Yes, one can time the market; the IBD50 downside test](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md) ([summary](../sources/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))
+- [WW 2016-11-27 — The weekly consolidation-breakout scan; short interest as fuel](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md) ([summary](../sources/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md))

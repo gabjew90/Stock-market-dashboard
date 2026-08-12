@@ -3,6 +3,9 @@ title: Risk & cash
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md
+  - raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md
+  - raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md
   - raw/posts/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md
   - raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md
   - raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md
@@ -159,6 +162,43 @@ In May 2022, Dr. Wish articulated his framework for recognizing that a bear mark
 - Weekly BWR pattern on QQQ and SPY was just beginning to form, paralleling early 2008 in timing. He shows side-by-side weekly charts: 2008 was a more mature BWR by the same calendar date; 2022 was just entering the pattern.
 - He applied the GLB concept to index ETFs: DIA and SPY had not broken above their green line tops from November 2020; QQQ's last GLB was June 2020. "We will be back to a roaring trader's market again when these indexes have another GLB to all-time highs, but it could be months or even years."
 - Historical precedent: the Dow failed repeatedly to break 1,000 between 1965 and 1982 — a 17-year flat period after prior all-time-high runs. ([WW 2022-05-01](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
+
+## The August 2011 exit — rules, fatigue, and the addiction line
+
+The 2011 correction's full exit, documented the day it completed: trading accounts weeks
+earlier (gains intact), the pension last, sold into Friday's strength. Both drivers named
+honestly — "I just got tired of worrying about the risks" *and* "I am mainly acting on my
+established rules... when the GMI is very weak and the major indexes are below their 30 week
+averages, I am supposed to be in cash." Cross-confirmation from sector breadth against the 2008
+template (banks breaking 2010 support "just like they did in 2008 near the *beginning* of the
+financial crisis") and from component shares below the 30-week: Dow 83%, S&P 87%, Nasdaq 81% —
+with the personal rule "**I do not own *any* stock that is below its 30 week average.**" The
+post ends with the line that names the whole discipline: "**If one cannot exit the market to go
+to cash, one should not be in the market at all.** Too many people are addicted to the rush of
+trading." ([WW 2011-08-15](../../raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md))
+
+Also from that post: bottoms form slowly — "a multi-week period of backing and filling" — so
+missing the exact low costs little.
+
+## Narrow leadership as a warning (July 2015)
+
+Four weeks before the August 2015 flash crash: "**the QQQ looked strong because of a few big
+name stocks, but most stocks were breaking down**" — transports and utilities already in Stage
+IV, DIA and SPY back below their 30-week averages after a failed retake, QQQ's breakout flagged
+as a possible head fake. Positioning followed (small SQQQ, a China put), which is why the
+[aftermath post](../sources/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md)
+opens from 100% cash. Index price hiding component damage is the same divergence family as the
+November 2021 exit. ([WW 2015-07-26](../../raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md))
+
+## Protective puts — the 2005 original, and the put-vs-stop rule
+
+The insurance framing the wiki dated to March 2009 is fully formed in **June 2005**, with the
+decision rule attached: a put beats a stop **when shakeout risk is high** — "if we had a sudden
+decline I might get shaken out only to see the stock rebound by the end of the month. So, I
+bought insurance instead." Mechanics: strike = the price you'd have stopped at, expiry chosen to
+cover the window you care about (skip the near-month expiry if it ends too soon). "You do not
+regret buying the insurance if you did not have to use it." Options tradeable in his IRA even
+then. ([WW 2005-06-08](../../raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md))
 
 ## The earliest ultra-ETF study (June 2009)
 
@@ -409,3 +449,6 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2008-01-14 — Darvas on bear markets; the blog's origin story](../../raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md) ([summary](../sources/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md))
 - [WW 2008-04-21 — The 2000 pension exit in dollars; GMI-S at 100% inside a bear](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md) ([summary](../sources/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
 - [WW 2009-06-07 — The ultra-ETF study off the March 2009 bottom](../../raw/posts/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md) ([summary](../sources/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md))
+- [WW 2011-08-15 — The August 2011 full exit; the addiction line](../../raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md) ([summary](../sources/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md))
+- [WW 2015-07-26 — The warning four weeks before the flash crash](../../raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md) ([summary](../sources/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md))
+- [WW 2005-06-08 — Put options as insurance: the 2005 original](../../raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md) ([summary](../sources/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md))

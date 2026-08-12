@@ -3,6 +3,7 @@ title: Glossary
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md
   - raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md
   - raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md
   - raw/posts/2018-03-11-green-dot-strategy-defined.md
@@ -113,6 +114,8 @@ Every term Dr. Wish coins or uses, defined in a sentence or two, with a first-ap
 
 **Put/call ratio** — a contrarian sentiment indicator: the total volume of put options traded divided by call options on a given day. When the ratio rises to extremes (Dr. Wish cites 1.25 as "extreme bearishness"), it suggests the crowd is overly pessimistic — a short-term contrarian buy signal for a bounce, though not necessarily a trend reversal. He monitors it alongside T2108 and the stochastic, not as a primary signal. First explicitly cited as a signal: ([WW 2018-03-25](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))
 
+**Short interest ratio** — days-to-cover: shares sold short divided by average daily volume. Dr. Wish reads it **bullishly on a breakout candidate**: "the higher the number, the greater the buying pressure from a break-out," because shorts above the breakout level are future forced buyers. Part of his TC2000 chart-header legend rather than a standalone signal. ([WW 2016-11-27](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md))
+
 **Stage 1** — Stan Weinstein's basing stage: a stock consolidates near or below its 30-week average after a prior decline; the average is roughly flat. Dr. Wish does not buy in Stage 1.
 
 **Stage 2** — Stan Weinstein's advancing stage: price is above and following along a rising 30-week moving average. The only stage in which Dr. Wish buys long. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
@@ -210,3 +213,4 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 - [WW 2017-06-25 — How I use Yellowband up- and down-trends](../../raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md) ([summary](../sources/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md))
 - [WW 2018-03-11 — Green Dot strategy defined](../../raw/posts/2018-03-11-green-dot-strategy-defined.md) ([summary](../sources/2018-03-11-green-dot-strategy-defined.md))
 - [WW 2005-05-13 — Rotation by component breadth; MoneyStream; a pilot buy priced](../../raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md) ([summary](../sources/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md))
+- [WW 2016-11-27 — The weekly consolidation-breakout scan; short interest as fuel](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md) ([summary](../sources/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md))
