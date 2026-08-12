@@ -273,3 +273,27 @@ def test_ww_compute_gmi_breadth_flag_falls_back_when_no_series(tmp_path):
     r = runner.invoke(cli.app, ["compute", "gmi", "2014-08-01", "--breadth", "--root", str(tmp_path)])
     assert r.exit_code in (0, 1)
     assert "breadth" in r.output.lower()
+
+
+def test_ww_batch_filters_by_category_name(tmp_path):
+    """His 'My Favorite Posts' category is a better ingest queue than any heuristic,
+    so `ww batch --category` must resolve a human-readable name via raw/categories.json."""
+    import json
+    from typer.testing import CliRunner
+    from ww.cli import app
+    from ww.corpus.index import PostRecord, write_posts_jsonl
+
+    root = tmp_path
+    (root / "raw").mkdir(parents=True)
+    (root / "raw" / "categories.json").write_text(json.dumps(
+        {"categories": {"My Favorite Posts": {"id": 42, "count": 2, "posts": []}}}), encoding="utf-8")
+    write_posts_jsonl(root / "raw" / "posts.jsonl", [
+        PostRecord(post_id=1, url="u", date="2020-01-01T00:00:00", slug="fav", stem="2020-01-01-fav",
+                   title="A favourite", word_count=10, chart_count=0, categories=[42]),
+        PostRecord(post_id=2, url="u", date="2020-01-02T00:00:00", slug="other", stem="2020-01-02-other",
+                   title="Not a favourite", word_count=10, chart_count=0, categories=[1]),
+    ])
+    out = CliRunner().invoke(app, ["batch", "--root", str(root), "--category", "My Favorite Posts"])
+    assert out.exit_code == 0, out.output
+    assert "2020-01-01-fav" in out.output
+    assert "2020-01-02-other" not in out.output

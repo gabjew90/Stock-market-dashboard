@@ -8,7 +8,10 @@ from pathlib import Path
 
 import httpx
 
-_DEFAULT_FIELDS = "id,date,slug,link,title,content"
+#: Fields requested from the API. `categories`/`tags` carry Dr. Wish's own taxonomy —
+#: notably "My Favorite Posts", his curation of what matters most, which no heuristic
+#: reproduces. `modified` distinguishes a post he later revised from one he did not.
+_DEFAULT_FIELDS = "id,date,modified,slug,link,title,content,categories,tags"
 _PER_PAGE = 100
 _USER_AGENT = "wishing-wealth-wiki/0.1 (personal research project)"
 

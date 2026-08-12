@@ -1,6 +1,7 @@
 """`ww` command-line interface."""
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import pandas as pd
@@ -281,16 +282,32 @@ def batch(
     root: Path = typer.Option(Path("."), "--root", help="Repo root."),
     n: int = typer.Option(20, "-n", "--num", help="How many posts to list."),
     kind: str = typer.Option(None, "--kind", help="Filter by kind_guess (long_form / daily_update / unknown)."),
+    category: str = typer.Option(
+        None, "--category",
+        help="Filter by one of Dr. Wish's own WordPress categories, by name — e.g. "
+             "'My Favorite Posts' (his curation of what matters most), 'Tutorial', "
+             "'UMDSMC Education Posts', 'Nicolas Darvas'. Resolved via raw/categories.json.",
+    ),
     oldest_first: bool = typer.Option(False, "--oldest-first", help="List oldest un-ingested first instead of newest."),
 ) -> None:
     """List the next un-ingested posts to feed the Ingest loop (see CLAUDE.md §4)."""
     records = [r for r in read_posts_jsonl(Path(root) / "raw" / "posts.jsonl") if not r.ingested]
     if kind:
         records = [r for r in records if r.kind_guess == kind]
+    if category:
+        cat_path = Path(root) / "raw" / "categories.json"
+        if not cat_path.exists():
+            raise typer.BadParameter(f"no {cat_path} — run `ww scrape` to populate the taxonomy")
+        known = json.loads(cat_path.read_text(encoding="utf-8"))["categories"]
+        match = next((v for k, v in known.items() if k.lower() == category.lower()), None)
+        if match is None:
+            raise typer.BadParameter(f"unknown category {category!r}; known: {', '.join(sorted(known))}")
+        records = [r for r in records if match["id"] in r.categories]
     records.sort(key=lambda r: r.date, reverse=not oldest_first)
     for r in records[:n]:
         typer.echo(f"raw/posts/{r.stem}.md\t[{r.kind_guess}, {r.word_count}w]\t{r.title}")
-    typer.echo(f"# {min(n, len(records))} of {len(records)} un-ingested" + (f" ({kind})" if kind else ""))
+    suffix = "".join(f" ({x})" for x in (kind, category) if x)
+    typer.echo(f"# {min(n, len(records))} of {len(records)} un-ingested{suffix}")
 
 
 @app.command()

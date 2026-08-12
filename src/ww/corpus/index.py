@@ -17,6 +17,9 @@ class PostRecord:
     word_count: int
     chart_count: int
     chart_image_urls: list[str] = field(default_factory=list)
+    categories: list[int] = field(default_factory=list)  # his own WP taxonomy (see raw/categories.json)
+    tags: list[int] = field(default_factory=list)
+    modified: str | None = None     # ISO datetime; differs from `date` if he revised the post
     kind_guess: str = "unknown"     # daily_update | long_form | unknown  (heuristic, Plan 1)
     tier: str | None = None         # teaching | trade_example | daily_update | meta  (Plan 3, Claude)
     summary: str | None = None      # one-line summary  (Plan 3, Claude)

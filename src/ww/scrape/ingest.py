@@ -79,6 +79,9 @@ def scrape_blog(
                     word_count=cleaned.word_count,
                     chart_count=cleaned.chart_count,
                     chart_image_urls=cleaned.chart_image_urls,
+                    categories=list(post.get("categories") or []),
+                    tags=list(post.get("tags") or []),
+                    modified=post.get("modified"),
                     kind_guess=kind_guess(
                         word_count=cleaned.word_count,
                         chart_count=cleaned.chart_count,

@@ -61,3 +61,31 @@ def test_scrape_force_rewrites(fixtures_dir, tmp_path):
     md.write_text("STALE", encoding="utf-8")
     scrape_blog("https://example.test", root=tmp_path, client=_mock_client(fixtures_dir), delay=0.0, force=True)
     assert "The 10 week average is back above its 30 week average." in md.read_text(encoding="utf-8")
+
+
+def test_scrape_captures_categories_tags_and_modified(fixtures_dir, tmp_path):
+    """His own WordPress taxonomy is curation we cannot reconstruct — notably the
+    'My Favorite Posts' category. It must survive the scrape onto PostRecord."""
+    from ww.corpus.index import read_posts_jsonl
+
+    scrape_blog("https://example.test", root=tmp_path, client=_mock_client(fixtures_dir), delay=0.0)
+    by_slug = {r.slug: r for r in read_posts_jsonl(tmp_path / "raw" / "posts.jsonl")}
+
+    tagged = by_slug["day-22-of-qqq-short-term-up-trend"]
+    assert tagged.categories == [1, 42]
+    assert tagged.tags == [7]
+    assert tagged.modified == "2026-05-11T09:00:00"
+
+    # A post the API returns without those keys must not blow up, and must default empty.
+    bare = by_slug["april-17-2005-short-or-in-cash"]
+    assert bare.categories == []
+    assert bare.tags == []
+    assert bare.modified is None
+
+
+def test_default_fields_request_the_taxonomy(fixtures_dir, tmp_path):
+    """Guard the field list itself: dropping 'categories' silently loses his curation."""
+    from ww.scrape.wp_api import _DEFAULT_FIELDS
+
+    for wanted in ("categories", "tags", "modified"):
+        assert wanted in _DEFAULT_FIELDS

@@ -174,7 +174,10 @@ Run `ww lint .` (mechanical) and periodically do a **semantic** pass yourself:
 
 ## 5. CLI quick reference
 
-`ww scrape` — (re)build `raw/` from the blog's WordPress API.
+`ww scrape` — (re)build `raw/` from the blog's WordPress API. Captures his own
+`categories`/`tags` onto each `PostRecord` (see `raw/categories.json`).
+`ww batch --category "My Favorite Posts"` — **the primary ingest queue**: his own curation
+of what matters most (145 posts). Also `Tutorial`, `UMDSMC Education Posts`, `Nicolas Darvas`.
 `ww ledger export` — write the curated post state (tier/summary/ingested/summary_page) to `raw/ingest-ledger.jsonl`. **Run this after every Ingest batch and commit the result** alongside `raw/posts.jsonl`.
 `ww ledger apply` — restore that state onto a freshly-scraped `raw/posts.jsonl`.
 `ww ledger rebuild` — recovery path: reconstruct the ledger from `wiki/sources/*.md` if the ledger is lost too (recovers ingested teaching/trade_example rows only).
