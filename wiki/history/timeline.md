@@ -1,8 +1,22 @@
 ---
 title: Timeline — evolution of the methodology
 type: history
-updated: 2026-05-12
+updated: 2026-08-12
 sources:
+  - raw/posts/2021-05-06-blog-post-day-2-of-qqq-short-term-down-trend-but-378-new-highs-among-us-stocks-non-qqq-type-stocks-still-risi.md
+  - raw/posts/2021-05-23-blog-post-13th-day-of-qqq-short-term-down-trend-revised-osb-oversold-bounce-scan-yields-gs-and-bgfv.md
+  - raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md
+  - raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md
+  - raw/posts/2022-06-15-blog-post-one-of-my-favorite-set-ups-athosb-found-one-stock-sqm-check-it-out-and-see-the-tutorial.md
+  - raw/posts/2023-07-09-blog-post-day-48-of-qqq-short-term-up-trend-my-favorite-set-up-oversold-bounce-black-dot-after-a-recent-yearl.md
+  - raw/posts/2023-07-10-blog-post-day-49-of-qqq-short-term-up-trend-6-of-24-growth-stocks-came-up-in-the-black-dot-set-up-discussed-y.md
+  - raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md
+  - raw/posts/2023-07-20-blog-post-day-57-of-qqq-short-term-up-trend-list-of-4-growth-stocks-with-black-dot-osb-set-up-see-daily-chart.md
+  - raw/posts/2023-08-03-blog-post-day-67-of-qqq-short-term-up-trend-115-new-us-highs-and-44-lows-11-stocks-have-osb-after-recent-ath.md
+  - raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md
+  - raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md
+  - raw/posts/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md
+  - raw/posts/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-26-general-market-index-gmi.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
@@ -484,9 +498,29 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 ---
 
+## May 2021 — OSB (oversold bounce) named as a setup
+
+**"4 oversold bounce (OSB) stocks: PCH DELL BSIG TBK" (2021-05-06):** the first post in the corpus to carry "OSB" as a named setup. The two filters are present from the start — candidates are "above their green line tops and near their ATHs" — as is the exit rule: "If I buy an OSB stock I sell immediately if the bounce fails." Published on Day 2 of a QQQ short-term down-trend, on the reasoning that 378 non-QQQ stocks were still hitting new highs. ([WW 2021-05-06](../../raw/posts/2021-05-06-blog-post-day-2-of-qqq-short-term-down-trend-but-378-new-highs-among-us-stocks-non-qqq-type-stocks-still-risi.md))
+
+**"Revised OSB scan yields GS and BGFV" (2021-05-23):** the scan's functional definition — "It detects stocks near a recent ATH that have bounced from an over-sold level" — with the black and green dots as the chart markers, and an explicit market-state caveat attached: with the GMI Red, "This is a very difficult time to be in the market profitably." ([WW 2021-05-23](../../raw/posts/2021-05-23-blog-post-13th-day-of-qqq-short-term-down-trend-revised-osb-oversold-bounce-scan-yields-gs-and-bgfv.md))
+
+---
+
 ## June 2021 — Black dot signal introduced; TraderLion presentation
 
 **"Follow on to TraderLion conference; black dot signals" (2021-06-13):** Dr. Wish introduces the black dot — a TC2000 daily stochastic-based oversold-bounce signal for stocks already in up-trends. Formula published. He uses TQQQ/SQQQ guided by the QQQ short-term trend count. GMI decision rules and T2108 contrarian bottom threshold restated. ([WW 2021-06-13](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
+
+---
+
+## August 2021 — price-level preference revised upward to $200
+
+**"Why buying stocks over $200 works better — revisited" (2021-08-11):** Dr. Wish revisits his own [January 2018 $100+ post](../../raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md) and **raises the threshold to $200** — "I now find more success trading stocks over $200." The change is operational, not rhetorical: "I therefore have added a filter to my scans for oversold bounces that now requires a current price > $200." Same Livermore rationale (points, not percent), more room to pyramid and control risk. BNTX, flagged by the OSB scan at ~$231, ran past $430; GS went from a ~$275 GLB retest into the $400s. This supersedes the $80 (2011) and $100 (2018) thresholds — see [stock-selection](../methodology/stock-selection.md). ([WW 2021-08-11](../../raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md))
+
+---
+
+## November 2021 — Exit at QQQ peak on breadth divergence
+
+QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish noticed new lows had surged to 438 while QQQ was still at all-time highs. He exited the market. The subsequent Stage 4 decline lasted over a year. (Explanation posted retroactively in June 2023. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md)))
 
 ---
 
@@ -508,6 +542,12 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 ---
 
+## June 2022 — ATHOSB named "one of my favorite set-ups"; stochastic basis disclosed
+
+**"One of my favorite set-ups, ATHOSB, found one stock, SQM" (2022-06-15):** the setup gets its compound name — ATH + OSB — and its clearest description: "It scans for stocks that recently reached an all time high (ATH), then became oversold and now looks like it could bounce." The oversold measure is disclosed in outline for the first time: "based on the daily 10.1, 10.4 and 10.4.4 stochastics indicators," rendered as the black and green dots, with the exact composite rule withheld ("See if you can figure out the signals"). The market-state conditionality is stated flatly — "In a weak market most set-ups fail... In a strong up-trending market this is a powerful set-up" — and demonstrated: scanning 700+ IBD/MS watchlist stocks in the June 2022 bear returned exactly one candidate. Charting tutorial credited to his late co-instructor David McCandlish. ([WW 2022-06-15](../../raw/posts/2022-06-15-blog-post-one-of-my-favorite-set-ups-athosb-found-one-stock-sqm-check-it-out-and-see-the-tutorial.md))
+
+---
+
 ## December 2022 — Gap-up volume scan introduced
 
 **"Day 15 of QQQ short-term up-trend; TC2000 gap-up scan" (2022-12-04):** a new TC2000 scan for finding stocks that had a large-volume gap-up day in the past 25 trading days and are now consolidating or resuming their advance. Formula: `L>H1 and V=maxv20 and H=MaxH10` applied as "true within 25 bars." The post also articulates his post-decline re-entry philosophy: enter gradually after indexes retake key moving averages; people initially buy large-caps, then shift to growth stocks as confidence returns. ([WW 2022-12-04](../../raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md))
@@ -526,15 +566,29 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 ---
 
-## November 2021 — Exit at QQQ peak on breadth divergence
-
-QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish noticed new lows had surged to 438 while QQQ was still at all-time highs. He exited the market. The subsequent Stage 4 decline lasted over a year. (Explanation posted retroactively in June 2023. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md)))
-
----
-
 ## June 2023 — New highs/lows methodology explained
 
 **"How I compute new US highs and lows" (2023-06-19):** explains the TC2000 implementation (built-in conditions; filter for close > $10 and volume > 10,000; ~6,486 stock universe). Retroactively documents the November 2021 breadth-divergence exit. As of June 2023 (GMI=6): 207 new highs, 10 new lows, 78 at ATH. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
+
+---
+
+## July–September 2023 — the OSB stated as preferred to breakouts
+
+The clearest doctrinal shift in the later blog, spread over one summer.
+
+**"My favorite set-up, oversold bounce (black dot) after a recent yearly high" (2023-07-09):** the black-dot indicator is refined to **require a prior recent yearly high**. Scan output is ranked by close ÷ minimum price of the last 250 days. ([WW 2023-07-09](../../raw/posts/2023-07-09-blog-post-day-48-of-qqq-short-term-up-trend-my-favorite-set-up-oversold-bounce-black-dot-after-a-recent-yearl.md))
+
+**"6 of 24 growth stocks... were in residential construction" (2023-07-10):** industry clustering within the scan output is read as a signal in its own right — "suggests to me big buying interest." ([WW 2023-07-10](../../raw/posts/2023-07-10-blog-post-day-49-of-qqq-short-term-up-trend-6-of-24-growth-stocks-came-up-in-the-black-dot-set-up-discussed-y.md))
+
+**"CAVA's break-out fails — why I prefer my OSB set-up over break-outs" (2023-07-13):** the doctrine post. After CAVA opened above the prior day's high and closed back below its breakout line, Dr. Wish states the preference and its reason — stop placement, not hit-rate. "I find it more difficult to control my loss with a failed break-out. Where should one place their stop loss? It is not always easy to designate that in advance. However, with the OSB... it is much easier to determine the price where the set-up has failed. Place the stop just below the low of the bounce." This is continuous with the 2016 [BOS](../methodology/stock-selection.md) preference, now stated as doctrine. ([WW 2023-07-13](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
+
+**"4 growth stocks with Black Dot OSB set-up" (2023-07-20):** a numeric worked entry — WWE bought in the after-market, "will exit if it trades below Thursday's low (104.34)" — with the lower 15.2 Bollinger Band tying the OSB back to the older BOS trigger. ([WW 2023-07-20](../../raw/posts/2023-07-20-blog-post-day-57-of-qqq-short-term-up-trend-list-of-4-growth-stocks-with-black-dot-osb-set-up-see-daily-chart.md))
+
+**"11 stocks have OSB after recent ATH" (2023-08-03):** the stop rule made unconditional — "If I buy any OSB, I place an immediate stop below the bounce" — and earnings flagged as a hazard the stop does not cover. ([WW 2023-08-03](../../raw/posts/2023-08-03-blog-post-day-67-of-qqq-short-term-up-trend-115-new-us-highs-and-44-lows-11-stocks-have-osb-after-recent-ath.md))
+
+**"VRT has OSB and a recent GLB" (2023-09-13):** the pairing shown end to end — GLB to an ATH on 2023-08-02 on heavy volume, pullback, black dot on 09-13, "If it holds Wednesday's low of 36.22 I would become interested." ([WW 2023-09-13](../../raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md))
+
+See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 
 ---
 
@@ -589,6 +643,18 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 ## October 2025 — 4-week weekly bounce entry; SPY GLB from June 2025
 
 **"Day 43 of QQQ up-trend; how I traded the SPY GLB last June; 4-week weekly bounce" (2025-10-23):** Dr. Wish describes trading the **SPY GLB** that occurred in June 2025 (SPY broke to a new ATH after a multi-month consolidation). He shows his actual entry and how he held the position using the 4-week weekly average as a trailing guide. He also formalises the **4-week weekly bounce entry**: for stocks in Stage 2 (4wk>10wk>30wk), look for a bounce off the rising 4-week average on the weekly chart — this gives a lower-risk, tighter stop than waiting for the 10-week average. Stop: below the bounce week's low. This makes the 4wk average both an exit signal and an entry trigger depending on direction. ([WW 2025-10-23](../../raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md))
+
+---
+
+## July 2025 — the OSB carried forward on the blue dot
+
+**"SHAK has retaken green line after a recent Blue Dot OSB" (2025-07-09):** the setup survives its trigger indicator changing. "Blue Dot OSB" pairs the [blue dot of happiness](../methodology/glossary.md) with a bounce off the 8-day EMA, and rescues a GLB that had fallen back below its green line rather than abandoning it. ([WW 2025-07-09](../../raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md))
+
+---
+
+## December 2025 — GMI component 6 turns negative; FFTY in a daily BWR
+
+**"IBD 50 type growth stocks are in a BWR down-trend" (2025-12-14):** the most recent post in the corpus to describe a GMI component in words, and the one that closes a long-standing open question — **component 6 was never replaced.** "The component in my GMI table below that is positive if the IBD Growth Mutual Fund index (0MUTI) has closed above its 50 day average is now negative." Same component, same 50-day rule and same symbol as in [January 2009](../../raw/posts/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md), twenty years after launch. He also reads FFTY's daily Guppy pattern as a growth-leadership proxy running ahead of QQQ, and moves mainly to cash: "I must be defensive AND nimble." See [gmi.md](../methodology/gmi.md). ([WW 2025-12-14](../../raw/posts/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md))
 
 ---
 
@@ -706,3 +772,17 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 - [WW 2026-03-15 — Day 27 of QQQ down-trend; GMI=0 Red; Stage 4 confirmed](../../raw/posts/2026-03-15-blog-post-day-27-of-qqq-short-term-down-trend-gmi-0-and-red-more-new-us-52-week-lows-than-highs-this-weekly-c.md) ([summary](../sources/2026-03-15-blog-post-day-27-of-qqq-short-term-down-trend-gmi-0-and-red-more-new-us-52-week-lows-than-highs-this-weekly-c.md))
 - [WW 2026-05-10 — Day 22 of QQQ up-trend; 4wk>10wk>30wk re-established; 5-day EMA post-GLB exit](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md) ([summary](../sources/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
 - [WW 2005-11-13 — First GMI historical track-record chart; Cramer refutation; stock-selection criteria](../../raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md) ([summary](../sources/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md))
+- [WW 2021-05-06 — OSB named; 4 oversold bounce stocks PCH DELL BSIG TBK](../../raw/posts/2021-05-06-blog-post-day-2-of-qqq-short-term-down-trend-but-378-new-highs-among-us-stocks-non-qqq-type-stocks-still-risi.md) ([summary](../sources/2021-05-06-blog-post-day-2-of-qqq-short-term-down-trend-but-378-new-highs-among-us-stocks-non-qqq-type-stocks-still-risi.md))
+- [WW 2021-05-23 — Revised OSB (oversold bounce) scan yields GS and BGFV](../../raw/posts/2021-05-23-blog-post-13th-day-of-qqq-short-term-down-trend-revised-osb-oversold-bounce-scan-yields-gs-and-bgfv.md) ([summary](../sources/2021-05-23-blog-post-13th-day-of-qqq-short-term-down-trend-revised-osb-oversold-bounce-scan-yields-gs-and-bgfv.md))
+- [WW 2021-08-11 — Why buying stocks over $200 works better, revisited; BNTX GS](../../raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md) ([summary](../sources/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md))
+- [WW 2018-01-21 — Why buying stocks over $100 is more profitable](../../raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md) ([summary](../sources/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md))
+- [WW 2022-06-15 — One of my favorite set-ups, ATHOSB; SQM](../../raw/posts/2022-06-15-blog-post-one-of-my-favorite-set-ups-athosb-found-one-stock-sqm-check-it-out-and-see-the-tutorial.md) ([summary](../sources/2022-06-15-blog-post-one-of-my-favorite-set-ups-athosb-found-one-stock-sqm-check-it-out-and-see-the-tutorial.md))
+- [WW 2023-07-09 — Oversold bounce after a recent yearly high; OPRA BELFB](../../raw/posts/2023-07-09-blog-post-day-48-of-qqq-short-term-up-trend-my-favorite-set-up-oversold-bounce-black-dot-after-a-recent-yearl.md) ([summary](../sources/2023-07-09-blog-post-day-48-of-qqq-short-term-up-trend-my-favorite-set-up-oversold-bounce-black-dot-after-a-recent-yearl.md))
+- [WW 2023-07-10 — 6 of 24 black-dot stocks in residential construction](../../raw/posts/2023-07-10-blog-post-day-49-of-qqq-short-term-up-trend-6-of-24-growth-stocks-came-up-in-the-black-dot-set-up-discussed-y.md) ([summary](../sources/2023-07-10-blog-post-day-49-of-qqq-short-term-up-trend-6-of-24-growth-stocks-came-up-in-the-black-dot-set-up-discussed-y.md))
+- [WW 2023-07-13 — CAVA's break-out fails; why I prefer my OSB set-up over break-outs](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md) ([summary](../sources/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
+- [WW 2023-07-20 — 4 growth stocks with Black Dot OSB set-up; WWE KNSL](../../raw/posts/2023-07-20-blog-post-day-57-of-qqq-short-term-up-trend-list-of-4-growth-stocks-with-black-dot-osb-set-up-see-daily-chart.md) ([summary](../sources/2023-07-20-blog-post-day-57-of-qqq-short-term-up-trend-list-of-4-growth-stocks-with-black-dot-osb-set-up-see-daily-chart.md))
+- [WW 2023-08-03 — 11 stocks have OSB after recent ATH; NVDA AMPH](../../raw/posts/2023-08-03-blog-post-day-67-of-qqq-short-term-up-trend-115-new-us-highs-and-44-lows-11-stocks-have-osb-after-recent-ath.md) ([summary](../sources/2023-08-03-blog-post-day-67-of-qqq-short-term-up-trend-115-new-us-highs-and-44-lows-11-stocks-have-osb-after-recent-ath.md))
+- [WW 2023-09-13 — VRT has OSB and a recent GLB](../../raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md) ([summary](../sources/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md))
+- [WW 2025-07-09 — SHAK retakes green line after a Blue Dot OSB](../../raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md) ([summary](../sources/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md))
+- [WW 2009-01-12 — GMI component 6 named and sourced (0muti)](../../raw/posts/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md) ([summary](../sources/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md))
+- [WW 2025-12-14 — Component 6 (0MUTI) still live and now negative; FFTY daily BWR](../../raw/posts/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md) ([summary](../sources/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md))

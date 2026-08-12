@@ -1,13 +1,16 @@
 """The ingest ledger — the curated half of `raw/posts.jsonl`, kept in version control.
 
-`raw/posts/` and `raw/posts.jsonl` are gitignored: the post bodies are large and
-re-fetchable with `ww scrape`. But `posts.jsonl` also carries the part that is *not*
-re-fetchable — the tier, summary, indicators, tickers, `ingested` flag and
-`summary_page` that Claude assigns during Ingest. Losing that means re-reading
+`posts.jsonl` mixes two very different kinds of data: scraped facts (title, url, date,
+word counts) that `ww scrape` reproduces exactly, and curated judgements — the tier,
+summary, indicators, tickers, `ingested` flag and `summary_page` that Claude assigns
+during Ingest — that nothing reproduces. Losing the second kind means re-reading
 thousands of posts to work out what has already been done.
 
-The ledger is that curated slice, keyed by post `stem`, written to `raw/ingest-ledger.jsonl`
-and committed. The round trip is:
+The ledger is that curated slice alone, keyed by post `stem`, written to
+`raw/ingest-ledger.jsonl`. Both it and `posts.jsonl` are committed as of 2026-08-12
+(the corpus itself is Layer 1 and is now in version control too), but the ledger is
+still worth keeping separate: it is small, it diffs readably, and it survives a
+re-scrape that rewrites every other field. The round trip is:
 
     ww ledger export      # after an Ingest batch — posts.jsonl -> ledger (then commit it)
     ww scrape             # on a machine that can reach the blog — rebuilds posts.jsonl

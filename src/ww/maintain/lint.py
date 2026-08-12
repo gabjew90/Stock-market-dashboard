@@ -81,10 +81,10 @@ def lint_wiki(root: Path) -> LintReport:
     pages = _wiki_pages(wiki_dir)
     inbound: dict[Path, int] = {p.resolve(): 0 for p in pages}
 
-    # raw/ is deliberately not committed (rebuild with `ww scrape`), so a fresh
-    # checkout — CI in particular — has no corpus. Citation links into raw/ can't
-    # be verified there; skip them (with a warning) rather than flag every
-    # citation in the wiki as broken.
+    # raw/posts/ is committed as of 2026-08-12, so citation links into the corpus are
+    # normally verified. This fallback remains for partial checkouts (sparse clones,
+    # or a tree where raw/ was cleaned): skip raw/ links with a warning rather than
+    # flag every citation in the wiki as broken.
     raw_dir = (root / "raw").resolve()
     corpus_present = (root / "raw" / "posts").is_dir()
     unverified_raw_links = 0
@@ -134,8 +134,8 @@ def lint_wiki(root: Path) -> LintReport:
         )
 
     # 6. summary_page integrity for the corpus index and the committed ingest ledger.
-    #    posts.jsonl is gitignored so it is usually absent; the ledger is committed, which
-    #    is what makes this check meaningful in CI.
+    #    Both are committed as of 2026-08-12; each is skipped if absent so the check still
+    #    works on a partial checkout.
     for rel_path in ("raw/posts.jsonl", "raw/ingest-ledger.jsonl"):
         jsonl = root / rel_path
         if not jsonl.exists():

@@ -211,7 +211,7 @@ def ledger_export(
     """posts.jsonl -> raw/ingest-ledger.jsonl. Run after every Ingest batch, then commit the ledger."""
     ledger_path, posts_jsonl = _ledger_paths(root)
     n = export_ledger(posts_jsonl, ledger_path)
-    typer.echo(f"ledger: {n} curated rows -> {ledger_path} (commit it — raw/posts.jsonl is gitignored)")
+    typer.echo(f"ledger: {n} curated rows -> {ledger_path} (commit it alongside raw/posts.jsonl)")
 
 
 @ledger_app.command("apply")

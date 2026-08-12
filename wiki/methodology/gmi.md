@@ -1,9 +1,13 @@
 ---
 title: General Market Index (GMI)
 type: entity
-updated: 2026-07-02
+updated: 2026-08-12
 sources:
   - raw/posts/2005-04-26-general-market-index-gmi.md
+  - raw/posts/2008-08-22-gmi-3-gmi-r-5-12th-day-of-qqqq-up-trend-still-cautious.md
+  - raw/posts/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md
+  - raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md
+  - raw/posts/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
   - raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md
@@ -37,7 +41,20 @@ Dr. Wish introduced the GMI on 2005-04-26 ([WW 2005-04-26](../../raw/posts/2005-
 
 5. **QQQQ weekly trend positive.** The same measure as #3 but on a weekly timeframe. A strong market has both daily and weekly trends positive; the daily flips first, then the weekly confirms. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md))
 
-6. **IBD Mutual Fund Index above its 50-day MA.** When growth mutual funds (the IBD index) are rising, growth stocks tend to follow. (This component was later replaced or modified — see Evolution below.) ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md))
+6. **IBD Mutual Fund Index above its 50-day MA.** When growth mutual funds (the IBD index) are rising, growth stocks tend to follow. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md)) **This component was never replaced** — see [Component 6: unchanged from 2005 to 2025](#component-6-unchanged-from-2005-to-2025) below.
+
+### Component 6: unchanged from 2005 to 2025
+
+An earlier version of this page flagged component 6 as "later replaced or modified." That was wrong, and the corpus resolves it: the component is the same in 2025 as at launch, and Dr. Wish names it in present tense at three widely separated points.
+
+- **2008-08-22** — "one of the GMI components measures whether the IBD growth mutual fund index is above its 50 day average. Well, this index has been below its 50 day average since mid-June, and I have never consistently made money trading growth stocks when this indicator is negative." ([WW 2008-08-22](../../raw/posts/2008-08-22-gmi-3-gmi-r-5-12th-day-of-qqqq-up-trend-still-cautious.md))
+- **2009-01-12** — the component belongs to both composites, and he discloses the symbol he reads it from after IBD stopped publishing the average: "IBD no longer publishes the 50 day average for the mutual fund index, but the chart with the average is available on their website's stock charting application (enter symbol: **0muti**)." ([WW 2009-01-12](../../raw/posts/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md))
+- **2023-08-09** — still a live component with the power to flip the signal: "the GMI could fall to 2 and trigger a Red signal if the IBD Mutual Fund Index (0muti) closes below its 50 day average." ([WW 2023-08-09](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md))
+- **2025-12-14** — the most recent verbal description of any GMI component in the corpus: "The component in my GMI table below that is positive if the IBD Growth Mutual Fund index (**0MUTI**) has closed above its 50 day average is now negative." ([WW 2025-12-14](../../raw/posts/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md))
+
+Two consequences. First, the reconstruction's use of **FFTY** as a component-6 proxy (see below) is a substitute for a series that is still live and still readable as `0muti` on IBD's charting application — not a replacement for a retired one. Second, `0muti` is a specific, identifiable series, so a faithful component 6 is in principle obtainable rather than permanently proxied.
+
+*Still open:* the daily GMI table is published as an image, so the exact wording of all six component labels in current use has not been recovered from post text. Components 1–2 and 6 are confirmed verbally at multiple dates; 3–5 rest on the 2005 definition plus the 2012 confirmation below.
 
 **Later refinement of component 1:** By 2014, Dr. Wish had sharpened the Successful 10-Day New High component: the threshold is ≥50% of stocks that hit a new high 10 days ago closing higher today (not an absolute count of 100). "If at least 50% of all of the stocks that had hit a new high 10 days ago pass this criterion, then the indicator is positive." ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
 
@@ -81,7 +98,7 @@ Dr. Wish occasionally published a **GMI-S** alongside the GMI. The GMI-S measure
 
 ### Intermediate — GMI-R (10 components)
 
-At some point between 2005 and 2011, Dr. Wish created the GMI-R by adding 4 more indicators to the original 6, giving a 0–10 composite. He published this alongside the GMI but did not have decision rules tied to it.
+At some point between 2005 and 2011, Dr. Wish created the GMI-R by adding 4 more indicators to the original 6, giving a 0–10 composite. He published this alongside the GMI but did not have decision rules tied to it. He describes it as "the **more sensitive** GMI-R" — it moves before the GMI does, which is what made it useful as an early read even without rules attached. It shares component 6 with the GMI. ([WW 2009-01-12](../../raw/posts/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md))
 
 ### 2011 — GMI2 (6 components, companion indicator)
 
@@ -119,7 +136,7 @@ Try it: `ww compute gmi 2026-05-01` prints the partial GMI from current QQQ/SPY 
 
 ## Reconstructing the GMI from free data
 
-The `gmi()` code can be driven by a [`BreadthProvider`](../../src/ww/indicators/breadth_provider.py) that reads a locally-built market-breadth series (`data/breadth/breadth_series.parquet`, produced by `ww breadth fetch` + `ww breadth build` from the free Nasdaq Trader symbol files + yfinance). With it, all six components are computed: components 3/4/5 from QQQ/SPY prices, components 1/2 from the reconstructed 52-week-high panel, and component 6 from the **Innovator IBD® 50 ETF (FFTY)** — IBD's own growth-leaders index, the closest tradeable thing to "IBD anything" — above its 50-day MA, spliced onto an equal-weight large-growth-mutual-fund basket (AGTHX/FCNTX/TRBCX/VWUSX, rescaled for continuity) for dates before FFTY's April-2015 inception. This is a *proxy* for the GMI's actual component 6, the proprietary **IBD Mutual Fund Index** (which has no public ticker) — and arguably a better one than a generic fund basket, though as the validation below shows it barely moves the GMI fit either way.
+The `gmi()` code can be driven by a [`BreadthProvider`](../../src/ww/indicators/breadth_provider.py) that reads a locally-built market-breadth series (`data/breadth/breadth_series.parquet`, produced by `ww breadth fetch` + `ww breadth build` from the free Nasdaq Trader symbol files + yfinance). With it, all six components are computed: components 3/4/5 from QQQ/SPY prices, components 1/2 from the reconstructed 52-week-high panel, and component 6 from the **Innovator IBD® 50 ETF (FFTY)** — IBD's own growth-leaders index, the closest tradeable thing to "IBD anything" — above its 50-day MA, spliced onto an equal-weight large-growth-mutual-fund basket (AGTHX/FCNTX/TRBCX/VWUSX, rescaled for continuity) for dates before FFTY's April-2015 inception. This is a *proxy* for the GMI's actual component 6, the proprietary **IBD Mutual Fund Index** — which has no public market ticker, though Dr. Wish reads it as symbol `0muti` inside IBD's own charting application ([WW 2009-01-12](../../raw/posts/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md)), so the series is identifiable and a faithful component 6 is obtainable by anyone with IBD access — and arguably a better one than a generic fund basket, though as the validation below shows it barely moves the GMI fit either way.
 
 **How faithful is it?** `ww breadth validate` cross-checks the reconstruction against the GMI values Dr. Wish actually reported in his daily posts (the `gmi_value` column of `raw/timeline.parquet`, 890 overlapping dates).
 
@@ -160,3 +177,7 @@ Run it: `ww compute gmi 2026-05-11 --breadth` for a full 0–6 GMI on any date t
 - [WW 2005-12-03 — Early GMI breadth details; breadth divergence signal; MCD trade](../../raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md) ([summary](../sources/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md))
 - [WW 2005-11-13 — GMI historical track record chart; Cramer vs charts argument](../../raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md) ([summary](../sources/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md))
 - [WW 2006-02-06 — Darvas/Wyckoff noise isolation; GMI-S short-term sub-index](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md) ([summary](../sources/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
+- [WW 2008-08-22 — Component 6 negative since mid-June; QQQQ up-trend distrusted](../../raw/posts/2008-08-22-gmi-3-gmi-r-5-12th-day-of-qqqq-up-trend-still-cautious.md)
+- [WW 2009-01-12 — GMI component 6 named and sourced (0muti); GMI-R "more sensitive"](../../raw/posts/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md) ([summary](../sources/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md))
+- [WW 2023-08-09 — Component 6 could flip the GMI to Red; SQQQ accumulation](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md)
+- [WW 2025-12-14 — Component 6 (0MUTI) still live and now negative; FFTY daily BWR](../../raw/posts/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md) ([summary](../sources/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md))

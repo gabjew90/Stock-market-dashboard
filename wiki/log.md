@@ -317,3 +317,55 @@ a scrape.
 **Still blocked:** `wishingwealthblog.com` is denied by this environment's egress policy
 (GitHub-only), so the corpus could not be re-fetched here and no new posts were ingested.
 Everything above works without post bodies. `ww lint .` clean; 181 tests pass.
+
+## [2026-08-12] ingest | OSB/ATHOSB doctrine + the $200 revision + GMI component 6 resolved — 13 posts, tier=teaching×8/trade_example×5
+
+Corpus restored (`ww scrape`, 4,694 posts) and committed, which unblocked the three
+highest-priority gaps from the review entries above.
+
+**(a) OSB / ATHOSB — new page `methodology/oversold-bounce.md`.** The review flagged
+zero occurrences of "OSB" anywhere in `wiki/`; the corpus has 27 posts mentioning it.
+The doctrine post is 2023-07-13: he prefers the oversold bounce **to breakouts**, and the
+reason is stop placement, not hit-rate — "with a failed break-out... it is not always easy
+to designate [the stop] in advance," whereas with an OSB you "place the stop just below the
+low of the bounce." Also recovered: the setup's first naming (2021-05-06), the scan
+definition (2021-05-23), the ATHOSB name and the disclosed oversold basis — the daily
+10.1/10.4/10.4.4 stochastics (2022-06-15), the recent-yearly-high refinement (2023-07-09),
+industry clustering as a second-order read (2023-07-10), the unconditional immediate-stop
+rule and earnings-gap caveat (2023-08-03), the GLB+OSB pairing (2023-09-13), and the
+blue-dot variant that carries the setup into current practice (2025-07-09).
+**Framing decision:** OSB is presented as a renamed and tightened continuation of BOS
+(2016), not as a new idea — BOS triggered off the lower 15.2 Bollinger Band, OSB adds the
+recent-ATH prerequisite and a stochastic trigger. `green-line-breakouts.md` gained a
+caveat section saying the GLB is load-bearing for *identification* and weaker as an
+*entry*, which is what the corpus actually supports.
+
+**(b) The $200 revision (2021-08-11).** Flagged as a supersession per CLAUDE.md §4.3
+rather than overwritten: `stock-selection.md`'s section is now
+"$80+ (2011) → $100+ (2018) → $200+ (2021)" with a callout naming $200 as current and the
+earlier numbers kept as the audit trail — they carry the only quantitative evidence he has
+ever published for any of the three. The operational detail that makes it more than a
+preference: the threshold was added as a filter to the **OSB scan** specifically.
+
+**(c) GMI component 6 — open question closed.** `gmi.md` had flagged component 6 as
+"later replaced or modified" without resolving it. **It was never replaced.** Confirmed in
+his own words at four separated dates: 2008-08-22, 2009-01-12, 2023-08-09 and 2025-12-14 —
+the last being the most recent verbal description of any GMI component in the corpus, and
+still "the IBD Growth Mutual Fund index (0MUTI) has closed above its 50 day average."
+Also recovered: the series' symbol (`0muti`, inside IBD's own charting application, adopted
+after IBD stopped publishing the 50-day average), and that the GMI-R is "more sensitive"
+than the GMI and shares component 6 with it. The reconstruction note in `gmi.md` was
+corrected accordingly — FFTY substitutes for a series that is still live and identifiable,
+not a retired one. *Still open:* the daily GMI table is published as an image, so the exact
+current wording of components 3–5 has not been recovered from post text.
+
+**Also fixed:** `timeline.md` still had one section out of chronological order —
+November 2021 sat between April 2023 and June 2023 (it had been filed by ingest date,
+since the exit was documented retroactively in a June 2023 post). Moved to 2021.
+
+Touched: **new** `methodology/oversold-bounce.md`; `methodology/gmi.md` (component-6
+resolution section, GMI-R sensitivity, reconstruction note), `methodology/stock-selection.md`
+($200 supersession, OSB cross-reference), `methodology/green-line-breakouts.md`
+(entry-vs-identification caveat), `methodology/glossary.md` (OSB, ATHOSB, 0muti, VCP),
+`history/timeline.md` (5 new sections + 1 reorder), `overview.md`, `index.md`;
+13 new `sources/` pages. `ww lint .` clean; 181 tests pass; `ww ledger export` run.

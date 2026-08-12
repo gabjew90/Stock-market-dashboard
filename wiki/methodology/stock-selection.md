@@ -1,8 +1,10 @@
 ---
 title: Stock selection
 type: concept
-updated: 2026-05-12
+updated: 2026-08-12
 sources:
+  - raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md
+  - raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
@@ -71,7 +73,9 @@ He also used the IBD 100 / IBD 50 list as a starting pool — stocks that have a
 
 IBD 50 outperformance (documented 2012): from December 2011 through April 2012, the IBD 50 median gain was +20% vs. NASDAQ 100 +15% vs. S&P 500 +10%. 34% of the IBD 50 gained 30% or more, vs. only 16% of the NASDAQ 100. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
 
-## Price level preference — the $80+ / $100+ rule
+## Price level preference — $80+ (2011) → $100+ (2018) → $200+ (2021)
+
+> **Current threshold: $200.** The $80 and $100 figures below are the earlier statements of the *same* rule, kept because the empirical work behind them is the evidence base he still cites. See [the 2021 revision](#the-2021-revision-200) at the end of this section.
 
 Dr. Wish focuses on high-priced stocks and frames it in dollar-move terms, not percentage terms: "It is the number of points in the rise" that matters, not the percentage. ([WW 2011-07-25](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
 
@@ -87,6 +91,18 @@ Additional reasoning for the $100+ preference:
 3. There is time to accumulate a position in stages as it rises — easier to pyramid.
 4. Smaller universe of stocks over $100 to monitor.
 5. A 20% move in a $100 stock is $20; in a $10 stock it is only $2 — same percentage, very different dollar outcome. ([WW 2005-06-05](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md), [WW 2018-01-21](../../raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md))
+
+### The 2021 revision — $200
+
+In August 2021 Dr. Wish revisited his own 2018 post and **raised the working threshold to $200**. He frames it as a refinement of the same Livermore principle, not a new idea: "I was planning to write a post about the virtue of trading expensive stocks and then I discovered that I had done so in 2018... **I now find more success trading stocks over $200.**" ([WW 2021-08-11](../../raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md))
+
+What changed operationally is that the threshold became a **scan filter**, not just a preference: "I therefore have added a filter to my scans for oversold bounces that now requires a current price > $200." It applies to the [OSB scan](oversold-bounce.md) specifically. ([WW 2021-08-11](../../raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md))
+
+The reasoning is the 2018 reasoning with more room: "Stocks that can rise to $200 have attracted considerable buying and allow me more flexibility to control the trade." A large point move "gave me a lot of space to pyramid into the stock and to control my risk." The 2018 empirical study is carried forward rather than re-run — "Most large point moves occur in stocks already in triple digits, see my 2018 post."
+
+Worked examples: **BNTX**, flagged by the OSB scan on 2021-07-16 at ~$231, rose past $430 — a 200-point move (a VCP consolidation before the breakout was a supporting factor). **GS**, after retesting its GLB at ~$275 in February, rose into the $400s, "with many green and black dot buy signals throughout the move." ([WW 2021-08-11](../../raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md))
+
+*Note the direction of travel: 2011 $80 → 2018 $100 → 2021 $200. Each revision is upward and each is justified the same way (points, not percent; institutional sponsorship; room to pyramid). A reader applying the rule today should use $200; the earlier numbers are the audit trail, and the 2011/2018 scan results remain the only quantitative evidence he has published for any of the three.*
 
 **How to access expensive stocks with limited capital:** Dr. Wish uses **deep in-the-money (DITM) call options** — near-month calls with 3–6 weeks to expiration that cost roughly 10–20% of the stock's price but move dollar-for-dollar with the stock above the break-even. He never uses this leverage to buy *more* shares than he could have afforded outright; the DITM option reduces capital outlay for the same effective share count, not a way to oversize the position. See [glossary: DITM](glossary.md) for the mechanics. ([WW 2011-07-25](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
 
@@ -128,6 +144,8 @@ The weekly approach gives more entry opportunities than waiting for a bounce off
 Dr. Wish introduced the **BOS (Bounce off Support)** strategy in mid-2016 and described it as his *preferred* alternative to buying stocks at the exact moment of a GLB. The GLB occurs when a stock first crosses its green line — at that point, it is typically not oversold. BOS waits for a rocket stock to pull back to a support level and then bounce up, allowing a tighter stop.
 
 The statement is explicit: "I actually like this strategy better than trading GLBs." ([WW 2016-06-05](../../raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md))
+
+> **This preference hardened over time.** BOS (2016) was renamed and tightened into the **OSB / ATHOSB** setup from 2021, which adds an explicit recent-ATH prerequisite and a stochastic-based trigger. By 2023 he stated the preference over breakouts as doctrine rather than taste, on stop-placement grounds. The full treatment is on its own page: **[the oversold bounce (OSB / ATHOSB)](oversold-bounce.md)**. ([WW 2023-07-13](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
 
 **The BOS setup requires:**
 
@@ -238,6 +256,7 @@ After a Boston IBD Meetup presentation in May 2025, Dr. Wish published the most 
 ## See also
 
 - [Green Line Breakouts (GLB)](green-line-breakouts.md)
+- [The oversold bounce (OSB / ATHOSB)](oversold-bounce.md) — the entry he prefers to the breakout itself
 - [Moving-average rules](moving-average-rules.md) — Stage 2 prerequisite; RWB; WGB formula
 - [Risk & cash](risk-and-cash.md) — market state gate; DITM discipline
 - [Buying a GLB (playbook)](../playbooks/buying-glb.md)
@@ -280,3 +299,5 @@ After a Boston IBD Meetup presentation in May 2025, Dr. Wish published the most 
 - [WW 2024-06-16 — x8/x21/30-day alignment bounce entry setup; COST ANF NVDA CVLT](../../raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md) ([summary](../sources/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md))
 - [WW 2025-05-22 — Blue dot of happiness: full TC2000 scan formula; Boston IBD Meetup](../../raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md) ([summary](../sources/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md))
 - [WW 2005-07-17 — GMI since inception; introducing the WPM](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md) ([summary](../sources/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
+- [WW 2021-08-11 — Why buying stocks over $200 works better, revisited; BNTX GS](../../raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md) ([summary](../sources/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md))
+- [WW 2023-07-13 — CAVA's break-out fails; why I prefer my OSB set-up over break-outs](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md) ([summary](../sources/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))

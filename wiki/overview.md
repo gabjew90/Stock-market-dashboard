@@ -3,6 +3,7 @@ title: Overview — Dr. Eric Wish's market methodology
 type: overview
 updated: 2026-08-12
 sources:
+  - raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-26-general-market-index-gmi.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
@@ -32,7 +33,8 @@ Once the market is GREEN, the process narrows the universe to the best rocket ca
 
 - **[Green Line Breakouts (GLB)](methodology/green-line-breakouts.md)** — buying stocks that break above an all-time high that held for ≥ 3 months on a monthly chart (the "green line"). Scan for stocks on the new-52-week-high list that are breaking through a green-line base.
 - **[Stock selection](methodology/stock-selection.md)** — the RWB weekly GMMA pattern (shorter-term MAs above longer-term MAs, white space between) as the visual filter; preference for stocks priced $80+; lightweight fundamental check (earnings growth, great product).
-- **Entry timing within a candidate** — he rarely buys the GLB moment itself. The bounce-off-support family (BOS off the lower 15.2 Bollinger Band, the weekly green bar, and the black / green / blue-dot stochastic signals) gives a tighter stop and is his stated preference. See [stock-selection](methodology/stock-selection.md) and [moving-average rules](methodology/moving-average-rules.md).
+- **[The oversold bounce (OSB / ATHOSB)](methodology/oversold-bounce.md)** — how he actually enters. He rarely buys the GLB moment itself: a strong stock near a recent ATH pulls back until it is oversold, then turns up, and he buys the turn with an immediate stop below the bounce low. He says plainly that he *prefers this to breakouts* — not for a better hit-rate but because a failed breakout has no naturally-defined stop and a failed bounce does. ([WW 2023-07-13](../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
+- **Related entry triggers** — the same bounce-off-support family: BOS off the lower 15.2 Bollinger Band, the weekly green bar, and the black / green / blue-dot stochastic signals. See [stock-selection](methodology/stock-selection.md) and [moving-average rules](methodology/moving-average-rules.md).
 
 ## Playbooks — decisions under uncertainty
 
@@ -55,3 +57,4 @@ Once the market is GREEN, the process narrows the universe to the best rocket ca
 - [WW 2005-04-30 — My Trading Strategy, Part II](../raw/posts/2005-04-30-my-trading-strategy-part-ii.md)
 - [WW 2010-09-27 — Introducing Red White and Blue (RWB) Stocks](../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md)
 - [WW 2012-07-23 — Stage analysis and green line charts](../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md)
+- [WW 2023-07-13 — CAVA's break-out fails; why I prefer my OSB set-up over break-outs](../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md) ([summary](sources/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
