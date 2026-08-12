@@ -3,6 +3,7 @@ title: Track record — calls & outcomes
 type: history
 updated: 2026-08-12
 sources:
+  - raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md
   - raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md
   - raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md
   - raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md
@@ -49,6 +50,13 @@ Dr. Wish credits the reversal of the QQQQ's 30-week moving average downward in *
 The most specific attribution, naming the month and crediting the source, comes in November 2007 while he was watching the same average being tested again: "It was **the reversal of the 30 week average in Oct 2000** that caused me to exit the markets near the top." He credits Stan Weinstein with "alerting me to the importance of the 30 week average for detecting individual stock and entire market longer term trends." ([WW 2007-11-19](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
 
 **Outcome:** the Nasdaq Composite fell approximately 78% from its March 2000 peak to its October 2002 trough.
+
+**The exit priced, in his own dollars (written April 2008):** "in 2000, I got out of my university
+pension growth fund around **$103** and by 2002 it was trading **in the 30's**" — roughly a −70%
+drawdown avoided. The same post states the fuller record: margin account closed October 2000, IRA
+up 50%+ in the 2003 recovery, pension in cash 2000–2002 and again from December 2007 — "and will
+remain in cash **until the GMI rises to 6**," a stricter pension re-entry bar than the ≥4 trading
+threshold. ([WW 2008-04-21](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
 
 ---
 
@@ -248,3 +256,4 @@ Based on 939 daily-update posts with a parseable GMI value (out of 1,797 total, 
 - [WW 2007-10-29 — At the October 2007 top; GMI-L at 94%](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md) ([summary](../sources/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md))
 - [WW 2007-11-19 — QQQQ tests its 30-week average; Oct 2000 exit attributed](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md) ([summary](../sources/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
 - [WW 2007-12-17 — GMI-L at 31%: the pre-2008 warning](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md) ([summary](../sources/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
+- [WW 2008-04-21 — The 2000 pension exit in dollars; GMI-S at 100% inside a bear](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md) ([summary](../sources/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))

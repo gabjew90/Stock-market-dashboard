@@ -3,6 +3,7 @@ title: Glossary
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md
   - raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md
   - raw/posts/2018-03-11-green-dot-strategy-defined.md
   - raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md
@@ -97,6 +98,8 @@ Every term Dr. Wish coins or uses, defined in a sentence or two, with a first-ap
 **Green line** — a horizontal line drawn on a monthly price chart at a stock's all-time high, once that high has held as a ceiling for 3 or more months. A break above it is the GLB entry signal. See [green-line-breakouts.md](green-line-breakouts.md). ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 
 **IBD 50 / IBD 100** — the Investor's Business Daily list of top stocks ranked by IBD's combined fundamental and technical criteria. Dr. Wish uses it as a candidate pool for stock selection. Referenced from early posts. ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
+
+**MoneyStream** — Worden's proprietary cumulative price-volume indicator, "similar (but not identical) to on-balance volume": volume adds on up days and subtracts on down days. In a rising stock he wants MoneyStream "at **new peaks**, indicating that the stock is rising on increasing volume." Read alongside the 50-day-average-of-volume line — strength is when nearly all above-average-volume days are up days. Fullest explanation: ([WW 2005-05-13](../../raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md))
 
 **OSB (oversold bounce)** — the entry setup Dr. Wish states he **prefers to buying breakouts**. A strong stock near a recent all-time (or yearly) high pulls back until it is oversold, then turns up; he buys the turn and places an immediate stop just below the bounce-day low — the day the black dot prints. The reason for the preference is stop placement, not hit-rate: with a failed breakout "it is not always easy to designate [the stop] in advance," whereas with an OSB "it is much easier to determine the price where the set-up has failed." See [oversold-bounce.md](oversold-bounce.md). First named: ([WW 2021-05-06](../../raw/posts/2021-05-06-blog-post-day-2-of-qqq-short-term-down-trend-but-378-new-highs-among-us-stocks-non-qqq-type-stocks-still-risi.md)); preference over breakouts stated: ([WW 2023-07-13](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
 
@@ -206,3 +209,4 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 - [WW 2026-01-04 — GMI table: verbatim component labels; GMI2 at 9](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md)
 - [WW 2017-06-25 — How I use Yellowband up- and down-trends](../../raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md) ([summary](../sources/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md))
 - [WW 2018-03-11 — Green Dot strategy defined](../../raw/posts/2018-03-11-green-dot-strategy-defined.md) ([summary](../sources/2018-03-11-green-dot-strategy-defined.md))
+- [WW 2005-05-13 — Rotation by component breadth; MoneyStream; a pilot buy priced](../../raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md) ([summary](../sources/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md))

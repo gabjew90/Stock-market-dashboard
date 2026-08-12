@@ -877,3 +877,42 @@ Touched: `methodology/gmi.md`, `history/track-record.md`, `methodology/risk-and-
 **Standing queues after this entry:** 2005–2006 block (170 prose posts remaining), 301 modern
 prose posts, 90 favorites, 2008, and now the image-first work item: read the `gmi*` tables
 into a structured series to replace the degraded text-parsed timeline for 2014+.
+
+## [2026-08-12] ingest | 2005 essays + 2008 opened — 4 posts, tier=teaching
+
+Working the queues from the coverage audit: two from the 2005–2006 essay block (including the
+corpus's longest untouched post) and the first two prose posts from **2008**, the worst
+year-hole, which his own curation would never surface (zero favorites in it).
+
+**2005-05-13 "This Schizoid Market" (1,909w, longest untouched post):** rotation detected by
+comparing the *share of components rising* across indexes on the same day; the Weekly QQQQ
+Index quantified as "a major uptrend... that typically lasts **months, not days**"; the fullest
+MoneyStream explanation in the corpus; and a pilot buy priced to the cent including the
+buy-stop alternative's extra cost. Also a self-aware caveat: new-high-based breadth *lags a
+rotation by construction*.
+
+**2005-05-18 "Livermore on profits, Cramer on sleepers":** the **track-money principle** —
+Livermore's racetrack story; risk profits freely, "risking your capital, however, was suicide";
+fear is not a valid reason to sell, only a technical signal is. The anti-sleeper argument. And
+the first fully-specified rocket scan: 4,000 → 371 new highs → EPS ≥100% → doubled → near ATH →
+15 survivors, with a PEG-style market-temperature observation.
+
+**2008-01-14 "Darvas on staying clear of bear markets":** 2008's first prose ingest. The blog's
+origin story in his own words ("It is because I was angry at how these mental midgets misled
+the public in the 2000-2002 debacle that I began this blog"), and Darvas's 1977 bear doctrine —
+"I prefer to **sleep soundly at night**, even if it means going into cash for long periods."
+
+**2008-04-21 "My GMI catches trend changes again!":** the richest live snapshot of the
+four-composite dashboard — GMI 5, GMI-R 9, **GMI-S 100%, GMI-L 50%** in the April 2008 bear
+rally, with the slow half correctly refusing to confirm. **The 2000 pension exit priced for the
+only time in the corpus: out ~$103, the fund in the 30s by 2002.** Plus the
+pension-until-GMI-6 re-entry bar (stricter than the ≥4 trading threshold) and the
+**tax-deferred precondition** — the in-and-out style works because round trips are untaxed, a
+structural fact the wiki had nowhere.
+
+Touched: `history/track-record.md` (2000 exit priced), `methodology/risk-and-cash.md` (Darvas
+doctrine, tax-deferred precondition), `methodology/gmi.md` (dashboard-in-live-use section),
+`methodology/glossary.md` (MoneyStream entry), `history/timeline.md` (3 new sections),
+`index.md`; 4 new `sources/` pages. `ww lint .` clean; 194 tests pass; ledger 127 rows.
+
+Queues: 2005–2006 block 168 remaining; 2008 has 39 more ≥250w prose posts; favorites 90.

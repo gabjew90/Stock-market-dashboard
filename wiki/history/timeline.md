@@ -3,6 +3,10 @@ title: Timeline — evolution of the methodology
 type: history
 updated: 2026-08-12
 sources:
+  - raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md
+  - raw/posts/2005-05-18-livermore-on-profits-cramer-on-sleepers-and-15-hot-stocks-ww-gmi-3.md
+  - raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md
+  - raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md
   - raw/posts/2009-11-26-my-trading-philosophy-and-why-i-use-technical-analysis.md
   - raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md
   - raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md
@@ -146,6 +150,14 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## May 2005 (cont.) — rotation by breadth; the track-money principle; the first full scan
+
+**"This Schizoid Market" (2005-05-13):** rotation detected by comparing the *share of components rising* across indexes on the same day (70% of the Nasdaq 100 up vs 25% of the S&P 500 — "Are we rotating from commodities to techs?"); the Weekly QQQQ Index's meaning quantified ("a major uptrend... that typically lasts **months, not days**"); MoneyStream fully explained; and a pilot buy priced to the cent, with the buy-stop alternative and its extra cost stated. ([WW 2005-05-13](../../raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md))
+
+**"Livermore on profits, Cramer on sleepers" (2005-05-18):** the track-money principle via Livermore's racetrack story — risk profits freely, "risking your **capital**, however, was suicide"; fear is not a valid reason to sell, only a technical signal is. The anti-sleeper argument against buying laggards, aimed at Cramer. And the first fully-specified rocket scan: 4,000 → new high within 10 days (371) → EPS ≥100% → doubled in a year → near ATH → 15 survivors, published with a PEG-style observation that their PEs all sat below their growth rates. ([WW 2005-05-18](../../raw/posts/2005-05-18-livermore-on-profits-cramer-on-sleepers-and-15-hot-stocks-ww-gmi-3.md))
+
+---
+
 ## June 2005 — moving averages explained; QQQ trend counting begins
 
 **"GMI back to +5; on moving averages" (2005-06-05):** Dr. Wish explains the moving average from first principles, derives three rules (right period; price above MA; MA rising), and states his preference for simple over exponential MAs. He also begins the QQQ day-count practice explicitly: "day 20 (U-20) of the QQQQ up-trend." ([WW 2005-06-05](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md))
@@ -209,6 +221,18 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **November 2007 — the 30-week test, and the 2000 exit attributed.** After a vertical November 7–12 decline (519 new lows on November 8), the GMI sat at 1 while the Weekly QQQQ Index stayed positive — "**This index is my primary indicator of a longer term up or down move**" — with QQQQ resting on its 30-week average. He marks the support test with a "?" that history resolved against it. The post contains the earliest attribution of his 2000 exit: "It was the reversal of the 30 week average in Oct 2000 that caused me to exit the markets near the top," crediting Weinstein. Four contrarian signals (put/call 1.19, openly bearish pundits, 60%+ bearish bloggers, bullish seasonality) are read as a bounce warning, not a re-entry trigger — he stayed mainly in cash and short via QID. ([WW 2007-11-19](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
 
 **December 2007 — GMI-L at 31%: the warning ahead of 2008.** GMI and GMI-R back to zero. The **GMI-L**, "my longer term measure of weekly trends," fell to 31% — "the lowest since it hit 20% in August 2006," and decisively worse than either 2007 correction, in which "the GMI-L never fell below 50%." T2108 failed its recovery: bottomed ~13% in November, reached ~55% on December 10, back to 28% — against the expectation that "almost always this pendulum recovers to around 80% after a large market decline," making the rebound "puny and half-hearted." The doctrine, in his capitals: "**THE KEY TO SUCCESS IN TRADING IS HOW LITTLE ONE LOSES DURING MARKET WEAKNESS.**" ([WW 2007-12-17](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
+
+---
+
+## January 2008 — Darvas on bears; the blog's origin story
+
+**"Nicolas Darvas on staying clear of bear markets" (2008-01-14):** the GMI at zero for six straight days as 2008 opens (40 new highs vs 232 new lows). The blog's purpose in his own words: "It is because I was angry at how these mental midgets misled the public in the 2000-2002 debacle that I began this blog. **I want to educate the little person.**" Darvas quoted at length from the 1977 sequel: "I would rather be safe than sorry... I prefer to **sleep soundly at night**, even if it means going into cash for long periods," with the "masochistic pleasure" line on buy-and-hold. ([WW 2008-01-14](../../raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md))
+
+---
+
+## April 2008 — the dashboard split inside a bear rally; the 2000 exit priced
+
+**"My GMI catches trend changes again!" (2008-04-21):** GMI 5, GMI-R 9, **GMI-S 100%**, GMI-L 50% — every short-term indicator positive in the April 2008 rally while the Weekly QQQQ Index alone said the bear was intact. Hindsight vindicated the slow half. Also the only dollar figures ever put on the 2000 pension exit — out "around **$103**," the fund "trading **in the 30's**" by 2002 — the pension-until-GMI-6 re-entry bar, the train metaphor, and the tax-deferred precondition: "The key is to use tax deferred accounts where there are no tax consequences from getting in and out." ([WW 2008-04-21](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
 
 ---
 
@@ -871,3 +895,7 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2005-05-04 — A Google Confession: the gap rule and the doubling rationale](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md) ([summary](../sources/2005-05-04-a-google-confession-ww-gmi-1.md))
 - [WW 2014-05-26 — Stage Analysis as the pundit filter; timeframe as a life choice](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md) ([summary](../sources/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
 - [WW 2015-08-30 — The August 2015 flash crash; pension exit criteria](../../raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md) ([summary](../sources/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md))
+- [WW 2005-05-13 — Rotation by component breadth; MoneyStream; a pilot buy priced](../../raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md) ([summary](../sources/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md))
+- [WW 2005-05-18 — Livermore's track money; anti-sleeper; the first full rocket scan](../../raw/posts/2005-05-18-livermore-on-profits-cramer-on-sleepers-and-15-hot-stocks-ww-gmi-3.md) ([summary](../sources/2005-05-18-livermore-on-profits-cramer-on-sleepers-and-15-hot-stocks-ww-gmi-3.md))
+- [WW 2008-01-14 — Darvas on bear markets; the blog's origin story](../../raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md) ([summary](../sources/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md))
+- [WW 2008-04-21 — The 2000 pension exit in dollars; GMI-S at 100% inside a bear](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md) ([summary](../sources/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))

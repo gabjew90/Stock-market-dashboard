@@ -3,6 +3,7 @@ title: General Market Index (GMI)
 type: entity
 updated: 2026-08-12
 sources:
+  - raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md
   - raw/posts/2013-01-07-3rd-day-of-qqq-short-term-up-trend-t2108-82.md
@@ -173,6 +174,15 @@ A **GMI-L** appears throughout the 2007 posts and is absent from the wiki's earl
 Its diagnostic value is in the comparison across episodes. In December 2007 it fell to **31%** — "the lowest since it hit 20% in August, **2006**, near the bottom of that four month decline" — and crucially, "in the two declines in 2007 (March and August), the GMI-L never fell below 50%." A GMI-L below 50% therefore separated a correction from what became the 2008 bear market. Six weeks earlier, days after the October 2007 top, it had still read **94%**. ([WW 2007-10-29](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md), [WW 2007-12-17](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
 
 Like the GMI-S, the component list is undisclosed, and like the GMI-S it disappears from the daily posts after the typepad era. Both are reported as percentages, as is the GMI-R (80% = 8 of 10).
+
+### The dashboard in live use — April 2008
+
+The clearest snapshot of all four composites working together, during the April 2008 bear-market
+rally: **GMI 5, GMI-R 9, GMI-S 100%, GMI-L 50%** — "all 16 short term indicators for four key
+index ETF's are positive" while "the major longer term trend is still down" (the Weekly QQQQ
+Index was the lone GMI holdout). Read with hindsight the slow indicators were right; the 2008
+collapse followed. This is the fast/slow split that later became the formal GMI-vs-GMMA
+two-speed design. ([WW 2008-04-21](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
 
 ### 2007 — threshold variation
 
@@ -433,3 +443,4 @@ Run it: `ww compute gmi 2026-05-11 --breadth` for a full 0–6 GMI on any date t
 - [WW 2026-01-04 — GMI table: verbatim component labels; GMI2 at 9](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md)
 - [WW 2015-02-22 — An important limitation of the GMI signals](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md) ([summary](../sources/2015-02-22-an-important-limitation-of-the-gmi-signals.md))
 - [WW 2005-04-20 — STOP THIS MADNESS: the GMI's components, six days before the GMI](../../raw/posts/2005-04-20-stop-this-madness.md) ([summary](../sources/2005-04-20-stop-this-madness.md))
+- [WW 2008-04-21 — The 2000 pension exit in dollars; GMI-S at 100% inside a bear](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md) ([summary](../sources/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))

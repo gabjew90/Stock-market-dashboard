@@ -3,6 +3,8 @@ title: Risk & cash
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md
+  - raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md
   - raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md
@@ -156,6 +158,25 @@ In May 2022, Dr. Wish articulated his framework for recognizing that a bear mark
 - Weekly BWR pattern on QQQ and SPY was just beginning to form, paralleling early 2008 in timing. He shows side-by-side weekly charts: 2008 was a more mature BWR by the same calendar date; 2022 was just entering the pattern.
 - He applied the GLB concept to index ETFs: DIA and SPY had not broken above their green line tops from November 2020; QQQ's last GLB was June 2020. "We will be back to a roaring trader's market again when these indexes have another GLB to all-time highs, but it could be months or even years."
 - Historical precedent: the Dow failed repeatedly to break 1,000 between 1965 and 1982 — a 17-year flat period after prior all-time-high runs. ([WW 2022-05-01](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
+
+## Darvas on sitting out bears — the temperament argument
+
+Quoted at length in January 2008 with the GMI at zero, from Darvas's rare 1977 sequel (written
+after the 1970 and 1974 bears): exceptional stocks do rise in bear markets, "**but my temperament
+is such that I would rather be safe than sorry. So I keep out in a bear market and leave such
+exceptional stocks to those who don't mind risking their money against the market trend.**" And on
+buy-and-hold: "Presumably they get some **masochistic pleasure from seeing their capital melt**
+before their eyes every two or three years... **I prefer to sleep soundly at night, even if it
+means going into cash for long periods.**" The same post carries the blog's origin story: "It is
+because I was angry at how these mental midgets misled the public in the 2000-2002 debacle that I
+began this blog." ([WW 2008-01-14](../../raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md))
+
+## The tax-deferred precondition
+
+A structural fact underneath the whole in-and-out style, stated plainly in 2008: "The key is to
+use **tax deferred accounts** where there are no tax consequences from getting in and out of
+positions." Frequent regime-driven exits and re-entries are viable *because* each round trip is
+untaxed — replicating the approach in a taxable account changes its economics. ([WW 2008-04-21](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
 
 ## The pension trade-off, in one sentence
 
@@ -373,3 +394,5 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2010-12-06 — Mutual funds restrict market timing; IBD drops the follow-through day](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md)
 - [WW 2005-04-20 — STOP THIS MADNESS: the GMI's components, six days before the GMI](../../raw/posts/2005-04-20-stop-this-madness.md) ([summary](../sources/2005-04-20-stop-this-madness.md))
 - [WW 2015-08-30 — The August 2015 flash crash: depth comparison; pension exit criteria](../../raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md) ([summary](../sources/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md))
+- [WW 2008-01-14 — Darvas on bear markets; the blog's origin story](../../raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md) ([summary](../sources/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md))
+- [WW 2008-04-21 — The 2000 pension exit in dollars; GMI-S at 100% inside a bear](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md) ([summary](../sources/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
