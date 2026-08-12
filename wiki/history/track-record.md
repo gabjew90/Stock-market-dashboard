@@ -3,6 +3,8 @@ title: Track record — calls & outcomes
 type: history
 updated: 2026-08-12
 sources:
+  - raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md
+  - raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md
   - raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md
   - raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md
   - raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md
@@ -92,6 +94,8 @@ The `raw/timeline.parquet` series shows Dr. Wish's GMI deteriorating sharply fro
 - Early January 2008: GMI at 0, "most new lows in 2 years, mostly in cash." He stayed defensive for much of the winter.
 - The QQQQ down-trend stretched to 51 days by 12 November 2008 (GMI=0), during which he wrote that "the GMI has been 0 or 1 since September 2, during which the QQQQ has declined 33.9%" and that 39% of Nasdaq 100 stocks had fallen 40–81% from September 2. ([WW 2008-11-12](../../raw/posts/2008-11-12-gmi-0-gmi-r-0-qqqq-short-term-down-trend-51-new-global-dow-index.md))
 - T2108 reached 2% on 9 October 2008 and 4% on 7 October 2008 — historically extreme oversold levels at the capitulation low.
+- **The capitulation day, from the posts written that week:** 2008-10-10 saw **2,832 new lows out of 4,000 stocks** — "the largest number of daily new lows since I started this blog" — with T2108 at **1%** ("since 1986, the level was lower only once, in October 1987, when it hit 0.5%"). ([WW 2008-10-13](../../raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md), [WW 2008-11-21](../../raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md))
+- **The November retest, read via breadth:** at the November price low only 2,185 stocks made new lows against October's 2,832 — the retest "has not eclipsed" the October internals, a positive divergence he noted while still refusing to call a bottom: a *yearly* Dow chart against 1929–32 said "we may not be near a bottom today or this year." ([WW 2008-11-21](../../raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md))
 
 **Outcome:** the S&P 500 bottomed in March 2009. The timeline shows the GMI turning back to 6 in late 2009, signalling re-entry.
 
@@ -257,3 +261,5 @@ Based on 939 daily-update posts with a parseable GMI value (out of 1,797 total, 
 - [WW 2007-11-19 — QQQQ tests its 30-week average; Oct 2000 exit attributed](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md) ([summary](../sources/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
 - [WW 2007-12-17 — GMI-L at 31%: the pre-2008 warning](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md) ([summary](../sources/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
 - [WW 2008-04-21 — The 2000 pension exit in dollars; GMI-S at 100% inside a bear](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md) ([summary](../sources/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
+- [WW 2008-10-13 — Capitulation week: 2,832 new lows, T2108 at 1%](../../raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md) ([summary](../sources/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md))
+- [WW 2008-11-21 — The retest read via breadth; T2108's earlier bands](../../raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md) ([summary](../sources/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md))

@@ -3,6 +3,9 @@ title: Timeline — evolution of the methodology
 type: history
 updated: 2026-08-12
 sources:
+  - raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md
+  - raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md
+  - raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md
   - raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md
   - raw/posts/2005-05-18-livermore-on-profits-cramer-on-sleepers-and-15-hot-stocks-ww-gmi-3.md
   - raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md
@@ -241,6 +244,16 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **Early June 2008:** Dr. Wish examined the Dow 30 component stocks, found widespread weakness, and transferred all pension accumulations from mutual funds into money market funds.
 
 **October 6, 2008** (GMI: 0, GMI-R: 0): T2108 hit 6% — the third-lowest reading going back to 1986; only October 1987 (0.5%) and August 1990 (5.3%) were lower. The GMI had been at zero since September. Dr. Wish was safely in cash. He framed the then-26% Dow decline as "relatively slow and small" compared to 1929 (−13.5% and −11.7% on consecutive days). ([WW 2008-10-06](../../raw/posts/2008-10-06-gmi-0-gmi-r-0-current-financial-mess-predicted-in-nyt-in-1999-t2108-at-extreme-low-6-my-gmi-indicators-kept-m.md))
+
+---
+
+## October–November 2008 — capitulation and retest, from the posts written that week
+
+**2008-10-13:** the record breadth extreme — 2008-10-10 saw 23 new highs and **2,832 new lows** out of 4,000 stocks ("the largest number of daily new lows since I started this blog"), T2108 at **1%**. "This is the time to be on the sidelines in cash. No one knows when this down-trend will end." Plus the education mission at its most explicit, and the Cramer receipt: pundits "have been urging people to buy stocks all the way down." ([WW 2008-10-13](../../raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md))
+
+**2008-10-22:** duration base rates computed live — Day 36, against the year's own prior down-trends of 55 and 39 days: "we may have a ways to go." The bear-market watch list doctrine applied with a numeric trigger (LPHI above 42.32): "**Stocks that can survive this market near their all-time highs are potential rockets.**" ([WW 2008-10-22](../../raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md))
+
+**2008-11-21:** the retest read via breadth — November's price low made only 2,185 new lows vs October's 2,832, a positive divergence; but the *yearly* Dow chart against 1929–32 argued "we may not be near a bottom today or this year," so no bottom call. Also a T2108 threshold-evolution datapoint: it "**used to be**" reliable at 70 (tops) / 20 (bottoms). Baruch appears in the lineage list. ([WW 2008-11-21](../../raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md))
 
 ---
 
@@ -899,3 +912,6 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2005-05-18 — Livermore's track money; anti-sleeper; the first full rocket scan](../../raw/posts/2005-05-18-livermore-on-profits-cramer-on-sleepers-and-15-hot-stocks-ww-gmi-3.md) ([summary](../sources/2005-05-18-livermore-on-profits-cramer-on-sleepers-and-15-hot-stocks-ww-gmi-3.md))
 - [WW 2008-01-14 — Darvas on bear markets; the blog's origin story](../../raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md) ([summary](../sources/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md))
 - [WW 2008-04-21 — The 2000 pension exit in dollars; GMI-S at 100% inside a bear](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md) ([summary](../sources/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
+- [WW 2008-10-13 — Capitulation week: 2,832 new lows, T2108 at 1%](../../raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md) ([summary](../sources/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md))
+- [WW 2008-10-22 — Down-trend duration as a base rate; rockets inside the crash](../../raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md) ([summary](../sources/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md))
+- [WW 2008-11-21 — The retest read via breadth; T2108's earlier bands](../../raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md) ([summary](../sources/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md))

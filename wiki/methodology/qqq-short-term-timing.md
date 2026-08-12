@@ -3,6 +3,7 @@ title: QQQ Short-Term Timing
 type: entity
 updated: 2026-05-12
 sources:
+  - raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
   - raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md
   - raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md
@@ -89,6 +90,16 @@ def trend_day_count(daily_close, *, window=30):
 - [Risk & cash](risk-and-cash.md)
 - [Market-state playbook](../playbooks/market-state.md)
 
+## Duration base rates — the reasoning, live in 2008
+
+The published trend-duration statistics (2019) have an earlier, working form: on Day 36 of the
+autumn 2008 down-trend he reasoned from the year's own prior episodes — "The short term
+down-trend... that ended on March 24, lasted **55 days**, and the one that ended on August 5,
+lasted **39 days**. So, **we may have a ways to go**." The reference class is recent same-regime
+trends, and the output is an expectation, not a prediction. He also kept the short/long split
+working mid-crisis: a reversal "would occur within a longer term down-trend but **could still be
+a trade-able rally**." ([WW 2008-10-22](../../raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md))
+
 ## Sources
 
 - [WW 2005-06-05 — GMI back to +5; on moving averages](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md) ([summary](../sources/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md))
@@ -101,3 +112,4 @@ def trend_day_count(daily_close, *, window=30):
 - [WW 2019-04-07 — IPO GLB; IIPR; QQQ trend duration statistics updated through 2019](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md) ([summary](../sources/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md))
 - [WW 2005-07-17 — GMI since inception; introducing the WPM](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md) ([summary](../sources/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
 - [WW 2022-07-10 — Day 1 of new QQQ short-term up-trend; closes above 10-week average](../../raw/posts/2022-07-10-blog-post-day-1-of-new-qqq-short-term-up-trend-closes-above-10-week-average-9-stocks-near-ath-with-rs-at-50-w.md)
+- [WW 2008-10-22 — Down-trend duration as a base rate; rockets inside the crash](../../raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md) ([summary](../sources/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md))

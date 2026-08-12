@@ -916,3 +916,28 @@ doctrine, tax-deferred precondition), `methodology/gmi.md` (dashboard-in-live-us
 `index.md`; 4 new `sources/` pages. `ww lint .` clean; 194 tests pass; ledger 127 rows.
 
 Queues: 2005–2006 block 168 remaining; 2008 has 39 more ≥250w prose posts; favorites 90.
+
+## [2026-08-12] ingest | 2008 crisis weeks — 3 posts, tier=teaching
+
+The capitulation and retest, from the posts written those weeks. 2008 now has 6 prose source
+pages (was 1 this morning).
+
+- **2008-10-13** — the record breadth extreme: 2008-10-10 saw **2,832 of 4,000 stocks at new
+  lows** (blog record) with **T2108 at 1%** — a direct calibration point for `ww breadth
+  validate`. Discipline at maximum stress ("No one knows when this down-trend will end"), the
+  Cramer receipt, and the education mission at its most explicit.
+- **2008-10-22** — **duration base rates computed live**: Day 36 against the year's own 55- and
+  39-day down-trends → "we may have a ways to go." The earliest working form of the 2019
+  published duration statistics. Watch-list doctrine with a numeric trigger; "stocks that can
+  survive this market near their all-time highs are potential rockets."
+- **2008-11-21** — **the retest read via breadth**: November's low made 2,185 new lows against
+  October's 2,832 — positive divergence noted, bottom call refused (the *yearly* Dow chart vs
+  1929–32 said not near a bottom). Also a T2108 threshold-evolution datapoint — it "used to be"
+  reliable at 70/20 — now recorded in `t2108.md`'s Evolution section, completing the
+  70/20 → 80/25–30 → <10% history. Baruch surfaces in the lineage.
+
+Touched: `methodology/t2108.md` (extreme-lows table + threshold evolution),
+`history/track-record.md` (capitulation + retest inside the 2008 account),
+`methodology/qqq-short-term-timing.md` (duration base rates), `history/timeline.md`
+(Oct–Nov 2008 section), `index.md`; 3 new `sources/` pages. `ww lint .` clean; 194 tests pass;
+ledger 130 rows.
