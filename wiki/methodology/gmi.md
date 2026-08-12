@@ -3,6 +3,7 @@ title: General Market Index (GMI)
 type: entity
 updated: 2026-08-12
 sources:
+  - raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md
   - raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md
   - raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md
   - raw/posts/2005-04-20-stop-this-madness.md
@@ -274,6 +275,16 @@ attached: "Yes, there are times when the GMI gets whip-sawed, **but only for a f
 same post links **third-party tracking** — dark-liquidity.com's monitored GMI→QLD strategy — an
 external record of the signal rather than his own bookkeeping. ([WW 2013-12-09](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))
 
+## A per-signal audit (February 2016)
+
+Two months after the December 10, 2015 Sell signal he audited it at component level: "between
+**78%-92%** of the stocks in the three ETFs I follow most closely declined," QQQ −13.5% with 92%
+of components down and 60% down 10%+ — noting the circularity honestly ("many of the GMI
+components are based on the action of the QQQ, [so] it is not surprising the QQQ performed the
+worst"). And the payoff restated in anguish terms rather than returns: "**If I get back in lower
+or even equal to where I exited, I did well enough and avoided a lot of mental anguish.**"
+([WW 2016-02-07](../../raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md))
+
 ## A limitation he published himself (2015)
 
 In February 2015 — with the GMI reading 6 of 6 — Dr. Wish published a limitation of his own
@@ -454,3 +465,4 @@ Run it: `ww compute gmi 2026-05-11 --breadth` for a full 0–6 GMI on any date t
 - [WW 2005-04-20 — STOP THIS MADNESS: the GMI's components, six days before the GMI](../../raw/posts/2005-04-20-stop-this-madness.md) ([summary](../sources/2005-04-20-stop-this-madness.md))
 - [WW 2008-04-21 — The 2000 pension exit in dollars; GMI-S at 100% inside a bear](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md) ([summary](../sources/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
 - [WW 2013-12-09 — Yes, one can time the market; the IBD50 downside test](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md) ([summary](../sources/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))
+- [WW 2016-02-07 — The December 2015 Sell signal audited; cash over short](../../raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md) ([summary](../sources/2016-02-07-why-i-follow-my-general-market-index-gmi.md))

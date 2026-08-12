@@ -1051,3 +1051,28 @@ Touched: `playbooks/exits.md`, `methodology/stock-selection.md` (doubler scan + 
 `methodology/risk-and-cash.md` (sleeping point; 2011 sentiment case),
 `methodology/green-line-breakouts.md` (sell-side inversion), `history/timeline.md` (4 sections),
 `index.md`; 4 new `sources/` pages. `ww lint .` clean; 194 tests pass; ledger 145 rows.
+
+## [2026-08-12] ingest | order doctrine, signal audits, the yellowband scan — 4 posts, tier=teaching
+
+- **2005-05-26** — order-type doctrine the wiki had nowhere: "**BUY AND SELL AT THE MARKET!**"
+  (limit orders risk missing the exit entirely), and re-entry engineered as a **resting
+  buy-stop** — the ORCT order triggered at the breakout "without my having to pay any
+  attention to it." Plus Peter Lynch's observation method with three personal receipts.
+- **2011-01-31** — a five-part **warning stack** published while headline indicators read
+  strong: 19.1% bearish advisers (the *inverse* of the re-entry read — sentiment cuts both
+  ways and both directions are now documented), sudden selling in leaders, **AAPL/GOOG failing
+  to make new highs on great earnings**, the muni worry, the calendar lull. The Zweig
+  rate-hike template applied abroad with price noticed before the explanation: "the bad news
+  usually comes out long after a stock has peaked."
+- **2016-02-07** — a **per-signal audit** of the Dec 2015 Sell: 78–92% of component stocks
+  down, circularity acknowledged; the anguish framing ("if I get back in lower or even equal to
+  where I exited, I did well enough"); and **cash over short** as the age-based bear default.
+- **2017-09-17** — the **yellowband scan** (criteria + purple-dot convention), further
+  confirming yellowband as a live 2017 framework; and the **TC2000 club** as a named off-blog
+  distribution channel for his actual scan files.
+
+Touched: `playbooks/exits.md` (order types + resting buy-stop), `methodology/gmi.md`
+(per-signal audit), `methodology/risk-and-cash.md` (warning stack; cash-over-short),
+`methodology/glossary.md` (yellowband scan, purple dots), `history/timeline.md` (4 sections),
+`index.md`; 4 new `sources/` pages. `ww lint .` clean; 194 tests pass; ledger 149 rows.
+Favorites remaining: ~74.

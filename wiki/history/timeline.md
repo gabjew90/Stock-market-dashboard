@@ -3,6 +3,10 @@ title: Timeline — evolution of the methodology
 type: history
 updated: 2026-08-12
 sources:
+  - raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md
+  - raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md
+  - raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md
+  - raw/posts/2011-01-31-warning-india-stocks.md
   - raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md
   - raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md
   - raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md
@@ -179,6 +183,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## June 2005 — moving averages explained; QQQ trend counting begins
 
 **"GMI back to +5; on moving averages" (2005-06-05):** Dr. Wish explains the moving average from first principles, derives three rules (right period; price above MA; MA rising), and states his preference for simple over exponential MAs. He also begins the QQQ day-count practice explicitly: "day 20 (U-20) of the QQQQ up-trend." ([WW 2005-06-05](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md))
+
+---
+
+## May 2005 (order doctrine) — BUY AND SELL AT THE MARKET; the standing re-entry buy-stop
+
+**"Cramer and limit orders; ORCT and PNRA" (2005-05-26):** the order-type doctrine in capitals — market orders always, because "it could be suicide to put a limit order in on a sell and not be able to sell." The ORCT sequence shows re-entry as a *resting order*: stopped out for a small loss, a buy-stop left standing above the prior peak triggered days later at the breakout, "without my having to pay any attention to it." Plus Peter Lynch's observation method with three personal receipts (PNRA at his own IBD Meetup, MSFT fumbled at IPO, XMSR from his son). ([WW 2005-05-26](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md))
 
 ---
 
@@ -372,6 +382,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## January 2011 — the warning stack; the Zweig template abroad
+
+**"Warning: India stocks" (2011-01-31):** five warning signals stacked while the headline indicators still read strong — 19.1% bearish advisers (the inverse of the re-entry read), sudden selling in leaders, **AAPL and GOOG failing to make new highs after great earnings**, the muni-bond worry, the calendar lull. The Zweig rate-hike template applied to India's hiking cycle, with the doctrine line: "the bad news usually comes out long after a stock has peaked." First IBD50-era performance test (the list lagged in a flat window). ([WW 2011-01-31](../../raw/posts/2011-01-31-warning-india-stocks.md))
+
+---
+
 ## February 2011 — RWB methodology; IBD as required reading
 
 **"Nicolas Darvas, on the value of studying losses; RWB stocks" (2011-02-07):** Dr. Wish reprints earlier writings and explains his classroom exercise (students analyze their own losing trade charts). IBD described as the reason he "never consistently made money trading until I started reading IBD in the 1980's." RWB stocks (COST, RVBD) demonstrated; stop on RWB bounce trade placed below 30-day moving average of the individual stock. ([WW 2011-02-07](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
@@ -534,6 +550,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## February 2016 — the December 2015 Sell signal audited
+
+**"Why I follow my General Market Index, GMI" (2016-02-07):** the Dec 10 Sell signal audited at component level — 78–92% of component stocks down across his three ETFs, QQQ −13.5% — with the circularity acknowledged. The anguish framing of timing ("if I get back in lower or even equal to where I exited, I did well enough") and the age-based case for cash over short. ([WW 2016-02-07](../../raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md))
+
+---
+
 ## June 2016 — BOS (Bounce off Support) introduced as preferred alternative to GLB timing
 
 **"Introducing BOS alerts for my tweets; GMI at 6; BOS: $RTN" (2016-06-05):** Dr. Wish formally names and introduces the BOS (Bounce off Support) strategy. He states he *likes this approach better than trading GLBs* — the GLB at the moment of breakout is often not oversold, making stop placement harder. BOS buys strong rocket stocks when they are oversold and bouncing, placing a stop just below the bounce low. He begins tweeting BOS alerts intraday (@WishingWealth) and later (2016-07-24) reveals the primary oversold signal: the lower 15.2 Bollinger Band (15-day MA, 2 standard deviations). ([WW 2016-06-05](../../raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md), [WW 2016-07-24](../../raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md))
@@ -587,6 +609,12 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 ## July 2017 — GLB doctrine consolidated; historical lineage from Darvas restated; six worked examples
 
 **"GLB: the sine qua non of rocket stocks" (2017-07-02):** a major consolidating post on the GLB. Dr. Wish traces the full Darvas → Livermore → Dr. Wish lineage: Darvas's "no exceptions" rule for all-time highs; his "already doubled" prerequisite; Livermore's IPO-GLB insight. He explains why he switched from Darvas's daily-price boxes to monthly charts (whipsaws). Six worked GLB examples: SHOP, SQ, BABA, Z, FB, BZUN. FB had multiple GLBs. Includes the re-entry rule: "If it retakes the green line I often buy it back." ([WW 2017-07-02](../../raw/posts/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md))
+
+---
+
+## September 2017 — the yellowband scan
+
+**"Yellowband scan picks up UCTT, NVDA..." (2017-09-17):** yellowband turned into a scan — up ≥70% from the 50-week low, within 20% of the 20-week high, in the pattern, regained the 10-week last week — with the exit attached at purchase and **purple dots** marking weekly lows. Distributed through his TC2000 club (wishingwealthblog.com/club), a named off-blog channel. ([WW 2017-09-17](../../raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md))
 
 ---
 
@@ -1035,3 +1063,7 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2020-09-20 — The weekly doubler-ATH scan, full syntax; the note on the monitor](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) ([summary](../sources/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
 - [WW 2013-10-13 — The sleeping point; failed GLBs as sell-side weakness; GLD Stage 4](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md) ([summary](../sources/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md))
 - [WW 2011-09-19 — Behavior over words; adviser-sentiment inversion; the point-move arithmetic](../../raw/posts/2011-09-19-3118.md) ([summary](../sources/2011-09-19-3118.md))
+- [WW 2005-05-26 — BUY AND SELL AT THE MARKET; the standing re-entry buy-stop; Lynch's method](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md) ([summary](../sources/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md))
+- [WW 2016-02-07 — The December 2015 Sell signal audited; cash over short](../../raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md) ([summary](../sources/2016-02-07-why-i-follow-my-general-market-index-gmi.md))
+- [WW 2017-09-17 — The yellowband scan criteria; purple dots; the club channel](../../raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md) ([summary](../sources/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md))
+- [WW 2011-01-31 — The Zweig template abroad; the pre-decline warning stack](../../raw/posts/2011-01-31-warning-india-stocks.md) ([summary](../sources/2011-01-31-warning-india-stocks.md))

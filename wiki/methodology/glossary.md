@@ -3,6 +3,7 @@ title: Glossary
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md
   - raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md
   - raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md
   - raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md
@@ -150,6 +151,8 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 
 **Yellowband up-trend** — a weekly-chart trend state he "noticed in the 1990s," predating both the GMI and the RWB work. Precisely: the stock **closes repeatedly above its rising 10-week average, which is in turn consistently above its rising 30-week average** (both averages rising, not merely stacked). The reverse is a yellowband down-trend. Its job is preventing *premature exits*: "If I had diligently checked a stock's yellowband pattern I would not have been shaken out and exited many great stocks too early." He buys stocks above or near their last GLB **that have a yellowband up-trend**, holds while it is intact "unless I see unusually high volume selling or a climax top," and treats a close below the 10-week average as the signal to exit or reduce. Applied to indexes as well as stocks. Fully defined: ([WW 2017-06-25](../../raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md))
 
+**The yellowband scan (2017):** up ≥70% from the 50-week low, within 20% of the 20-week high, in a yellowband pattern, and regained the 10-week average last week — with the exit attached at purchase (out on a close back below the rising 10-week). His weekly yellowband charts mark **purple dots at the weekly lows**; in a healthy pattern the *lows* ride above the 10-week. Distributed as a TC2000 club scan (09162017yellowband). ([WW 2017-09-17](../../raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md))
+
 *An earlier version of this entry called yellowband a superseded term, on the strength of [WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md), where he compares it against the daily RWB system and finds that waiting for a weekly close below the 10-week average "gave back too much profit," shifting to daily-RWB red-line closes as his primary exit. That was a misreading: the June post is six months earlier and presents yellowband as a live, primary framework. The two coexist with different jobs — yellowband decides whether a stock is still a hold, daily RWB decides when to leave.*
 
 ---
@@ -214,3 +217,4 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 - [WW 2018-03-11 — Green Dot strategy defined](../../raw/posts/2018-03-11-green-dot-strategy-defined.md) ([summary](../sources/2018-03-11-green-dot-strategy-defined.md))
 - [WW 2005-05-13 — Rotation by component breadth; MoneyStream; a pilot buy priced](../../raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md) ([summary](../sources/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md))
 - [WW 2016-11-27 — The weekly consolidation-breakout scan; short interest as fuel](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md) ([summary](../sources/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md))
+- [WW 2017-09-17 — The yellowband scan criteria; purple dots; the club channel](../../raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md) ([summary](../sources/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md))

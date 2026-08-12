@@ -3,6 +3,8 @@ title: Risk & cash
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md
+  - raw/posts/2011-01-31-warning-india-stocks.md
   - raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md
   - raw/posts/2011-09-19-3118.md
   - raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md
@@ -291,6 +293,25 @@ It worked in practice during the 2007 up-trend: a +5% account month in September
 
 Two constraints. It is market-state dependent like everything else — the writes happen on stocks in up-trends, during GMI-Green periods. And by 2014 he had added an explicit exclusion: **do not sell calls on rocket stocks**, because capping the upside on the few large winners defeats the strategy that pays for all the small losses (see the GLD covered-call post, [WW 2014-02-23](../../raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md)). His own caveat: "Like any trading strategy, this not the Holy Grail, and requires study and on the job training."
 
+## A warning stack, weeks early (January 2011)
+
+Published while the headline indicators still read strong (GMI 5; 21 weeks above the 10-week),
+five signals stacked: very few bearish advisers (**19.1%** — the *inverse* of the
+bears-exceed-bulls re-entry read); "sudden selling in previously strong stocks"; **AAPL and GOOG
+failing to make new highs after great earnings** — good news that cannot lift a leader is
+bearish; the municipal-bond worry he had already sold on; and the post-earnings calendar lull.
+Trading accounts were already mainly cash/short while the pension stayed invested. The same post
+carries the Zweig rate-hike template applied *abroad* (India's hiking cycle, price weakness
+noticed before the explanation was found — "the bad news usually comes out long after a stock
+has peaked"). ([WW 2011-01-31](../../raw/posts/2011-01-31-warning-india-stocks.md))
+
+## Cash over short — the age-based default
+
+"I find it very difficult to stay in and trade on the short side, and **leave that strategy to
+younger people** with greater ability to handle the risks and losses from shorting." His
+bear-market default is mostly cash with occasional small hedges (SQQQ, puts), not a short book.
+([WW 2016-02-07](../../raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md))
+
 ## Sell down to the sleeping point
 
 The portfolio-sizing version of the cash doctrine, from his AAII talk: "it is not a crime to get
@@ -471,3 +492,5 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2005-06-08 — Put options as insurance: the 2005 original](../../raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md) ([summary](../sources/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md))
 - [WW 2013-10-13 — The sleeping point; failed GLBs as sell-side weakness; GLD Stage 4](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md) ([summary](../sources/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md))
 - [WW 2011-09-19 — Behavior over words; adviser-sentiment inversion; the point-move arithmetic](../../raw/posts/2011-09-19-3118.md) ([summary](../sources/2011-09-19-3118.md))
+- [WW 2016-02-07 — The December 2015 Sell signal audited; cash over short](../../raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md) ([summary](../sources/2016-02-07-why-i-follow-my-general-market-index-gmi.md))
+- [WW 2011-01-31 — The Zweig template abroad; the pre-decline warning stack](../../raw/posts/2011-01-31-warning-india-stocks.md) ([summary](../sources/2011-01-31-warning-india-stocks.md))

@@ -3,6 +3,7 @@ title: Playbook — exits
 type: playbook
 updated: 2026-05-12
 sources:
+  - raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md
   - raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md
   - raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
@@ -120,6 +121,20 @@ When the overall market turns against you, the individual-stock trailing rules m
 - [Moving-average rules](../methodology/moving-average-rules.md)
 - [Green Line Breakouts (GLB)](../methodology/green-line-breakouts.md)
 
+## Order types: at the market, and the standing re-entry buy-stop
+
+**"BUY AND SELL AT THE MARKET!"** — his order-type doctrine, stated in 2005 against Cramer's
+limit-order advice: "fortunes have been lost by persons trying to hold out for the last 1/8th of
+a point... It could be suicide to put a limit order in on a sell and not be able to sell because
+the stock never traded at my limit price." A few cents of slippage is the premium for never
+missing the exit (or the entry). ([WW 2005-05-26](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md))
+
+The same post shows re-entry as a **resting order rather than a decision**: stopped out of ORCT
+for a small loss, he left a buy-stop standing above the prior peak — which triggered days later
+"without my having to pay any attention to it," right at the breakout. "Some of my best trades
+have come from buying back shares that I had recently been scared out of." A stop-*limit* would
+have risked missing the move. Automation carries the discipline the emotions would drop.
+
 ## The timeframe asymmetry: buy on the daily, sell only off the weekly
 
 The anti-shakeout rule, stated as a standing procedure: "**look at the stock's weekly chart
@@ -154,3 +169,4 @@ default for strong holdings.
 - [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 - [WW 2019-03-15 — Buy on the daily, sell only off the weekly (COUP)](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md) ([summary](../sources/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md))
 - [WW 2020-09-20 — The weekly doubler-ATH scan, full syntax; the note on the monitor](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) ([summary](../sources/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
+- [WW 2005-05-26 — BUY AND SELL AT THE MARKET; the standing re-entry buy-stop; Lynch's method](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md) ([summary](../sources/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md))
