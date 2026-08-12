@@ -369,3 +369,66 @@ resolution section, GMI-R sensitivity, reconstruction note), `methodology/stock-
 (entry-vs-identification caveat), `methodology/glossary.md` (OSB, ATHOSB, 0muti, VCP),
 `history/timeline.md` (5 new sections + 1 reorder), `overview.md`, `index.md`;
 13 new `sources/` pages. `ww lint .` clean; 181 tests pass; `ww ledger export` run.
+
+## [2026-08-12] ingest | 2007 — 7 posts, tier=teaching; the year-hole closed and two undocumented indicators recovered
+
+The review flagged 2007 as the worst coverage hole: 185 posts, 0 source pages, 0
+`timeline.md` sections, spanning the October 2007 top. `timeline.md` jumped straight
+from May 2006 to June 2008.
+
+**What the year actually contained.** More than a gap-fill — 2007 is when the
+supporting composites were reported in full, and two of them were absent from the wiki:
+
+- **GMI-L** — "my longer term measure of weekly trends," reported as a percentage and
+  published throughout 2007. Now documented in `gmi.md` and the glossary. Its value is
+  comparative: it fell to 31% in December 2007, and *"in the two declines in 2007 (March
+  and August), the GMI-L never fell below 50%"* — so sub-50% separated the onset of the
+  2008 bear from an ordinary correction. It still read **94%** days after the October top.
+- **GMI-S construction, disclosed** — the page previously said "its construction is not
+  disclosed." It is: "Only one of the 16 short term indicators for the IJR, DIA, SPY and
+  QQQQ is positive (GMI-S: 6%)" — i.e. the percentage of sixteen short-term indicators
+  across four index ETFs that are positive. Corrected.
+
+**Two further GMI findings.** (1) The daily-trend components are **30-day-average tests**:
+"Several closes below the 30 day would decrease the GMI" (2007-09-17). `gmi.py` had
+treated the 30-day SMA as an unverified proxy; it is better supported than that. (2)
+Component 5 is the **"Weekly QQQQ Index"**, which he singles out as "my primary indicator
+of a longer term up or down move," charted against the 30-week average (2007-11-19).
+
+**A threshold inconsistency, recorded rather than resolved.** 2007-08-20 gives "exit
+below 4, buy above 3" — the earliest statement of the rule the wiki had been citing to
+2011. But 2007-10-29 says "I will trade long as long as the GMI is greater than 2."
+`gmi.md` now carries a small table of all four stated variants; ≥4/≤3 remains the
+dominant and durable reading and is what the backtest uses.
+
+**The October 2007 top is now documented as a case where the indicators did not fire.**
+Three weeks after the peak: GMI 4 (and only because Successful 10-Day turned negative
+"barely"), GMI-L 94%, GMI-R 80%, QQQQ on Day 41, seven weeks of closes above the 10-week
+average. The long-term signal held until November, and the GMI read 1 rather than 0
+precisely *because* the Weekly QQQQ Index stayed positive while QQQQ sat on its 30-week
+average — a support test he marked with a "?" rather than calling.
+
+**Also recovered:** the earliest and sharpest statement of the capital-conservation
+doctrine ("THE KEY TO SUCCESS IN TRADING IS HOW LITTLE ONE LOSES DURING MARKET WEAKNESS",
+2007-12-17) and the behavioural failure it exists to prevent ("I used to profit in the
+up-trend and give it all back and more in the subsequent decline"); T2108's **~80%
+post-decline recovery expectation**, which makes a *failed* recovery a signal in itself;
+the **covered-call income strategy** (2–4%/month, later constrained by the 2014 "never on
+rocket stocks" rule); his own **audit of the IBD100** finding survivorship bias in IBD's
+published figures and ~4-month leadership decay; **buy-stop automation** with the Darvas
+precedent; and contrarian sentiment framed as a bounce warning, never a re-entry trigger.
+
+Touched: `history/timeline.md` (new consolidated 2007 section covering May/Aug/Sep/Oct/
+Nov/Dec), `methodology/gmi.md` (GMI-L, GMI-S construction, 30-day and Weekly-QQQQ
+corroboration, threshold table), `methodology/glossary.md` (GMI-L; GMI-S construction),
+`methodology/t2108.md` (pendulum / 80% recovery), `methodology/risk-and-cash.md` (capital
+conservation, covered calls, contrarian sentiment, relative strength in declines),
+`methodology/stock-selection.md` (IBD100 caveats, buy-stop automation),
+`history/track-record.md` (what the panel read at the top; Oct 2000 attribution),
+`index.md`; 7 new `sources/` pages. `ww lint .` clean; 181 tests pass; ledger exported
+(111 rows).
+
+**Still open from the review:** 2015 and 2019 remain at one source page each; hourly /
+multi-timeframe GMMA, position sizing, a unified short-side page, the off-blog teaching
+map, trading psychology and the Twitter alert channel are all still unwritten. The GMI
+table's current component *labels* remain unrecovered because it is published as an image.

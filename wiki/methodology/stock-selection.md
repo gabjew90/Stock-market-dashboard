@@ -3,6 +3,9 @@ title: Stock selection
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md
+  - raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md
+  - raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md
   - raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md
   - raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md
   - raw/posts/2005-04-23-lets-talk-strategy.md
@@ -70,6 +73,19 @@ By 2010 he had refined the workflow into a multi-step funnel ([WW 2010-02-22](..
 The result: starting from 222 new 52-week highs in one week, 32 were near their 10-year ATH, and 22 passed the fundamental filter, of which 15 (68%) overlapped with IBD's selections. ([WW 2010-02-22](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
 
 He also used the IBD 100 / IBD 50 list as a starting pool — stocks that have already passed IBD's fundamental and relative-strength criteria. ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
+
+### Two caveats on the IBD list, from his own 2007 audit
+
+He is not uncritical of the pool. In September 2007 he audited it and found IBD's published performance figures misleading: "**IBD continually drops poor performers from the index**, thus biasing the results heavily toward the positive." Measuring the *originally published* lists instead, only about half the stocks in each were higher later. ([WW 2007-09-17](../../raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md))
+
+1. **The list's performance is dominated by when it was published, not by its selection.** Only 31% of the stocks on the mid-July 2007 list were higher two months on — that list came out at the top of the summer rally — against 82% for the 8/20 list, published as the Nasdaq 100 bottomed. His conclusion: "**even the fate of the IBD100 stocks is largely determined by the trend of the relevant market index**... This is the reason why I always trade consistent with the trend of the market, as measured by the GMI." ([WW 2007-09-17](../../raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md))
+2. **Leadership decays on a roughly four-month half-life.** "After about 4 months, the IBD100 stock lists tend to look a lot like the stocks in the Nasdaq100 or S&P500 stock indexes, with 16-20% within 5% of their 52 week highs." Hence "not good candidates for a long term buy-and-hold strategy. Then again, neither are most stocks." A stale IBD list is not a watchlist. ([WW 2007-09-17](../../raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md))
+
+The complement, two weeks later and with the GMI at 6: **in a rising market the list does deliver.** From 8/17 to 9/28/2007 the IBD100 median stock returned +15.6% against the Nasdaq 100's +11%, and 42 of 100 rose 20%+ versus 12% of Nasdaq 100 and under 4% of S&P 500 stocks. "The IBD100 stocks list is a prime place to look for stocks that will outperform in a rising market." The two posts together are the actual position: a good pool, gated on market state, with a short shelf life. ([WW 2007-10-01](../../raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md))
+
+### Automating the entry — buy stops and price triggers
+
+Because he could not watch the market intraday, Dr. Wish placed standing orders rather than waiting at the screen: for PAY in September 2007 he entered an online order to buy above $40, which filled at ~$40.05 on the breakout while he worked. "One can use **buy stop orders or price triggers**, depending on your broker" — with the Darvas precedent: "remember Nicolas Darvas made a fortune trading while he danced around the world." The failure condition is checked the same evening: "If PAY had closed back lower on the break-out day or showed little increase in volume, I would have sold out my position immediately." ([WW 2007-10-01](../../raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md)) The same automation reappears in 2023 as TC2000 price alerts on green lines ([WW 2023-04-24](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md)).
 
 IBD 50 outperformance (documented 2012): from December 2011 through April 2012, the IBD 50 median gain was +20% vs. NASDAQ 100 +15% vs. S&P 500 +10%. 34% of the IBD 50 gained 30% or more, vs. only 16% of the NASDAQ 100. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
 
@@ -301,3 +317,6 @@ After a Boston IBD Meetup presentation in May 2025, Dr. Wish published the most 
 - [WW 2005-07-17 — GMI since inception; introducing the WPM](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md) ([summary](../sources/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
 - [WW 2021-08-11 — Why buying stocks over $200 works better, revisited; BNTX GS](../../raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md) ([summary](../sources/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md))
 - [WW 2023-07-13 — CAVA's break-out fails; why I prefer my OSB set-up over break-outs](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md) ([summary](../sources/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
+- [WW 2007-09-17 — IBD100 survivorship bias; leadership decays after ~4 months](../../raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md) ([summary](../sources/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md))
+- [WW 2007-10-01 — IBD100 outperformance in a rising market; buy-stop automation (PAY)](../../raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md) ([summary](../sources/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md))
+- [WW 2023-04-24 — WING missed GLB; TC2000 price alerts](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md) ([summary](../sources/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))

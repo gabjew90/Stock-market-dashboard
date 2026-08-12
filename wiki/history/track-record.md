@@ -1,8 +1,11 @@
 ---
 title: Track record — calls & outcomes
 type: history
-updated: 2026-05-12
+updated: 2026-08-12
 sources:
+  - raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md
+  - raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md
+  - raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md
   - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
   - raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md
@@ -43,6 +46,8 @@ During the 1995–2000 Nasdaq bull run (index up approximately 584%), Dr. Wish m
 
 Dr. Wish credits the reversal of the QQQQ's 30-week moving average downward in **2000** as the signal that took him out of the market before the dot-com crash. He describes himself (April 2005) as having "successfully dodged the 98 bear, the 2000–2002 bear and most of the present decline." ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
 
+The most specific attribution, naming the month and crediting the source, comes in November 2007 while he was watching the same average being tested again: "It was **the reversal of the 30 week average in Oct 2000** that caused me to exit the markets near the top." He credits Stan Weinstein with "alerting me to the importance of the 30 week average for detecting individual stock and entire market longer term trends." ([WW 2007-11-19](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
+
 **Outcome:** the Nasdaq Composite fell approximately 78% from its March 2000 peak to its October 2002 trough.
 
 ---
@@ -62,6 +67,12 @@ On **8 October 2007** — the day that proved to be very close to the bull-marke
 Just one month later (8 November 2007) the GMI had dropped to 5 and his post was titled "QQQQ breakdown coming" as the trend deteriorated. By 9 November the stance had shifted to "in cash." ([WW 2007-11-08](../../raw/posts/2007-11-08-gmi-5-gmi-r-60-qqqq-breakdown-coming.md))
 
 **Note:** the T2108 reading here is a warning signal, not a call to action — he did not exit at the 8 Oct top. The timeline data shows he moved to cash progressively across November as the GMI deteriorated.
+
+**What the rest of the instrument panel read at the top.** The 2007 posts make this an unusually well-documented case of a major top that the long-term indicators did *not* call. Three weeks after the peak, on 2007-10-29, the GMI had slipped only to 4 — and only because the Successful 10-Day New High component turned negative "barely" — while **GMI-L stood at 94%**, GMI-R at 80%, the QQQQ was on Day 41 of a short-term up-trend, and QQQQ and SPY had closed above their 10-week averages for seven straight weeks. ([WW 2007-10-29](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md))
+
+The long-term signal did not break until much later. On 2007-11-19, with the GMI at 1 after a vertical November 7–12 decline, he explained that the GMI still read 1 rather than 0 *because* the Weekly QQQQ Index remained positive — QQQQ was sitting on its 30-week average, and he marked the support test with a "?" rather than calling it. ([WW 2007-11-19](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
+
+**The signal that did fire, in hindsight, was the [GMI-L](../methodology/gmi.md).** By 2007-12-17 it had fallen to 31% — and the comparison is what makes it informative: "in the two declines in 2007 (March and August), the GMI-L never fell below 50%," and 31% was the lowest since August 2006. A companion warning came from T2108's failed recovery: it bottomed near 13% in November, reached only ~55% by December 10 and fell back to 28%, against his stated expectation that "almost always this pendulum recovers to around 80% after a large market decline." He called the rebound "puny and half-hearted." ([WW 2007-12-17](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
 
 ---
 
@@ -211,3 +222,6 @@ Based on 939 daily-update posts with a parseable GMI value (out of 1,797 total, 
 - [WW 2009-01-05 — 1200% IRA return; capital conservation; pension vs trading IRA](../../raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md) ([summary](../sources/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md))
 - [WW 2010-07-19 — 14× IRA track record; stochastic 10,4,4; 10wk/30wk down-trend rule](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md) ([summary](../sources/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
 - [WW 2009-02-23 — Comparison of 2008 bear to 1929/1973/1987; Dow 3,500 projection](../../raw/posts/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md) ([summary](../sources/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md))
+- [WW 2007-10-29 — At the October 2007 top; GMI-L at 94%](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md) ([summary](../sources/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md))
+- [WW 2007-11-19 — QQQQ tests its 30-week average; Oct 2000 exit attributed](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md) ([summary](../sources/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
+- [WW 2007-12-17 — GMI-L at 31%: the pre-2008 warning](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md) ([summary](../sources/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))

@@ -3,6 +3,12 @@ title: General Market Index (GMI)
 type: entity
 updated: 2026-08-12
 sources:
+  - raw/posts/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md
+  - raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md
+  - raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md
+  - raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md
+  - raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md
+  - raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md
   - raw/posts/2005-04-26-general-market-index-gmi.md
   - raw/posts/2008-08-22-gmi-3-gmi-r-5-12th-day-of-qqqq-up-trend-still-cautious.md
   - raw/posts/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md
@@ -35,11 +41,11 @@ Dr. Wish introduced the GMI on 2005-04-26 ([WW 2005-04-26](../../raw/posts/2005-
 
 2. **At least 100 new 52-week highs today** in the universe. A healthy market should produce at least 100 new highs daily. When new lows exceed new highs, the odds are against buying growth stocks. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md))
 
-3. **QQQQ daily trend positive.** Dr. Wish's technical indicators (not disclosed) must show the QQQQ (Nasdaq 100) in a rising daily trend. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md))
+3. **QQQQ daily trend positive.** Dr. Wish's technical indicators (not disclosed in 2005) must show the QQQQ (Nasdaq 100) in a rising daily trend. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md)) **The 2007 posts pin this to the 30-day average:** "I will look for support of the QQQQ at the 30 day average, currently at 47.90. Several closes below the 30 day would decrease the GMI." ([WW 2007-09-17](../../raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md)) The reconstruction in `src/ww/indicators/gmi.py` treats the 30-day SMA as a proxy for this component; that choice is better supported than "proxy" implies.
 
 4. **SPY daily trend positive.** Same test applied to the SPY (S&P 500). ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md))
 
-5. **QQQQ weekly trend positive.** The same measure as #3 but on a weekly timeframe. A strong market has both daily and weekly trends positive; the daily flips first, then the weekly confirms. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md))
+5. **QQQQ weekly trend positive.** The same measure as #3 but on a weekly timeframe. A strong market has both daily and weekly trends positive; the daily flips first, then the weekly confirms. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md)) He calls this the **"Weekly QQQQ Index"** and singles it out: "This index is my primary indicator of a longer term up or down move" — illustrated with the QQQQ weekly against its 30-week average. ([WW 2007-11-19](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
 
 6. **IBD Mutual Fund Index above its 50-day MA.** When growth mutual funds (the IBD index) are rising, growth stocks tend to follow. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-index-gmi.md)) **This component was never replaced** — see [Component 6: unchanged from 2005 to 2025](#component-6-unchanged-from-2005-to-2025) below.
 
@@ -94,7 +100,30 @@ In November 2005, Dr. Wish published his first chart of GMI values from inceptio
 
 ### 2005-2006 — GMI-S (short-term sub-index, 0–100 scale)
 
-Dr. Wish occasionally published a **GMI-S** alongside the GMI. The GMI-S measures short-term breadth within the index components on a 0–100 scale. A rapid fall from GMI-S=75 to GMI-S=31 in a single week (February 2006) signalled deterioration in the underlying breadth even when the overall GMI (at +4) had not yet dropped decisively. The GMI-S appears to be a separate proprietary measure; its construction is not disclosed. ([WW 2006-02-06](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
+Dr. Wish occasionally published a **GMI-S** alongside the GMI. The GMI-S measures short-term breadth on a 0–100 scale. A rapid fall from GMI-S=75 to GMI-S=31 in a single week (February 2006) signalled deterioration in the underlying breadth even when the overall GMI (at +4) had not yet dropped decisively. ([WW 2006-02-06](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
+
+**Its construction is disclosed in 2007**, contrary to what this page previously said: "Only one of the **16 short term indicators for the IJR, DIA, SPY and QQQQ** is positive (GMI-S: 6%)" — 1/16 ≈ 6%. So the GMI-S is the percentage of sixteen short-term indicators, four applied to each of four index ETFs (small-cap IJR, Dow DIA, S&P SPY and Nasdaq QQQQ), that are currently positive. The individual sixteen are not named. ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
+
+### 2006-2007 — GMI-L (long-term measure of weekly trends, reported as a %)
+
+A **GMI-L** appears throughout the 2007 posts and is absent from the wiki's earlier accounts. He defines it in passing as "my longer term measure of weekly trends," reported as a percentage positive, and reads it as the slow counterpart to the GMI-S. ([WW 2007-12-17](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
+
+Its diagnostic value is in the comparison across episodes. In December 2007 it fell to **31%** — "the lowest since it hit 20% in August, **2006**, near the bottom of that four month decline" — and crucially, "in the two declines in 2007 (March and August), the GMI-L never fell below 50%." A GMI-L below 50% therefore separated a correction from what became the 2008 bear market. Six weeks earlier, days after the October 2007 top, it had still read **94%**. ([WW 2007-10-29](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md), [WW 2007-12-17](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
+
+Like the GMI-S, the component list is undisclosed, and like the GMI-S it disappears from the daily posts after the typepad era. Both are reported as percentages, as is the GMI-R (80% = 8 of 10).
+
+### 2007 — threshold variation
+
+The GMI's action thresholds are not stated identically across posts, and the wiki records the variation rather than picking one:
+
+| Date | Stated rule |
+|---|---|
+| 2007-08-20 | "exit the long side... when the GMI falls below 4 and... buy once it climbs back above 3" ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md)) |
+| 2007-10-29 | "I will trade long in the market as long as the GMI is **greater than 2**" ([WW 2007-10-29](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md)) |
+| 2011-03-07 | "I like to be long if the GMI is 4 or more... When it declines to 3 or below, I get defensive" ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md)) |
+| 2012-04-30 | Buy signal = GMI > 3 on two consecutive days ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md)) |
+
+The ≥4 / ≤3 reading is the dominant and durable one; the October 2007 "greater than 2" appears to be a looser stance taken mid-up-trend rather than a redefinition. The [backtest](backtest-timing-overlay.md) uses ≥4 long / ≤3 cash.
 
 ### Intermediate — GMI-R (10 components)
 
@@ -181,3 +210,9 @@ Run it: `ww compute gmi 2026-05-11 --breadth` for a full 0–6 GMI on any date t
 - [WW 2009-01-12 — GMI component 6 named and sourced (0muti); GMI-R "more sensitive"](../../raw/posts/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md) ([summary](../sources/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md))
 - [WW 2023-08-09 — Component 6 could flip the GMI to Red; SQQQ accumulation](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md)
 - [WW 2025-12-14 — Component 6 (0MUTI) still live and now negative; FFTY daily BWR](../../raw/posts/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md) ([summary](../sources/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md))
+- [WW 2007-08-20 — GMI performance through the 2007 declines; exit/re-entry thresholds; GMI-S construction](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md) ([summary](../sources/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
+- [WW 2007-09-17 — IBD100 survivorship bias; 30-day average as a GMI input](../../raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md) ([summary](../sources/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md))
+- [WW 2007-10-29 — At the October 2007 top; GMI-L at 94%; "greater than 2" threshold](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md) ([summary](../sources/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md))
+- [WW 2007-11-19 — Weekly QQQQ Index as primary long-term indicator; 2000 exit attributed](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md) ([summary](../sources/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
+- [WW 2007-12-17 — GMI-L at 31%: the pre-2008 warning](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md) ([summary](../sources/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
+- [WW 2007-05-22 — Covered calls; QLD over stock-picking; posting cadence](../../raw/posts/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md) ([summary](../sources/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md))

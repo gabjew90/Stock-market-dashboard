@@ -1,8 +1,14 @@
 ---
 title: Risk & cash
 type: concept
-updated: 2026-05-12
+updated: 2026-08-12
 sources:
+  - raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md
+  - raw/posts/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md
+  - raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md
+  - raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md
+  - raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md
+  - raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
@@ -148,6 +154,30 @@ In May 2022, Dr. Wish articulated his framework for recognizing that a bear mark
 - He applied the GLB concept to index ETFs: DIA and SPY had not broken above their green line tops from November 2020; QQQ's last GLB was June 2020. "We will be back to a roaring trader's market again when these indexes have another GLB to all-time highs, but it could be months or even years."
 - Historical precedent: the Dow failed repeatedly to break 1,000 between 1965 and 1982 — a 17-year flat period after prior all-time-high runs. ([WW 2022-05-01](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
 
+## Covered calls as conservative income (2007)
+
+Alongside the growth-stock trading, Dr. Wish ran a deliberately **conservative** income strategy in his IRA, framed as age-appropriate: "Because I am a boomer and have acquired a sizable trading capital in my IRA, I have become more conservative lately... I am now reluctant to pile into a break out stock and assume the risk of a sudden down-turn." ([WW 2007-05-22](../../raw/posts/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md))
+
+The method: sell **one-month covered calls on stocks he already owns that are in an up-trend**, writing small amounts across many different names to limit single-stock risk. Reported returns of **2–4% per month** against 0.4% monthly in a money-market fund. On expiration day most positions are called away, at which point he reassesses the market trend and re-selects. The rationale is the casino's: "If it is true that 70-90% of all options expire worthless each month, why not behave like the casino and take in the option buyers (bettors) money into our IRA's?" ([WW 2007-05-22](../../raw/posts/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md))
+
+It worked in practice during the 2007 up-trend: a +5% account month in September, with "almost all (90%) of the stocks I wrote calls on... called away." ([WW 2007-10-01](../../raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md))
+
+Two constraints. It is market-state dependent like everything else — the writes happen on stocks in up-trends, during GMI-Green periods. And by 2014 he had added an explicit exclusion: **do not sell calls on rocket stocks**, because capping the upside on the few large winners defeats the strategy that pays for all the small losses (see the GLD covered-call post, [WW 2014-02-23](../../raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md)). His own caveat: "Like any trading strategy, this not the Holy Grail, and requires study and on the job training."
+
+## Contrarian sentiment is a bounce warning, not a re-entry trigger
+
+In November 2007 four contrarian indicators lined up at once — put/call ratio at 1.19 ("a major contrary indicator suggestive of at least a short term bounce up"), openly bearish media pundits talking of depression, bearish bloggers tripling to over 60% in a sentiment poll he participated in, and the strongest bullish seasonal period beginning.
+
+He did not re-enter. "Given all of the above and the weekly chart of the QQQQ above, **I remain mainly in cash and short the QQQQ in the QID.** But I am ready to reverse my stance immediately if this market starts up. The market will climb a wall of skepticism and **it does not pay to marry a particular market scenario**." ([WW 2007-11-19](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
+
+The rule this illustrates: sentiment extremes justify *expecting* a bounce and *being ready* to reverse, but the trend indicators — not the sentiment readings — supply the actual entry. See [market-state playbook](../playbooks/market-state.md).
+
+## Relative strength during declines as a leadership screen
+
+A recurring 2007 theme, and the constructive use of a down-trend: "While this is not the time for me to buy stocks, I find that **declines offer the best opportunity to find the next winners**. The few stocks that can resist the market decline tend to become stars." In August 2007, with 80% of the 440 IBD100 stocks he monitored down since July 19, he listed the ten biggest gainers (ISRG +33%, HMSY +32%, MORN +26%, ANSS +24%, BLUD +22%...) as the pool to focus on "when the market turns." ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
+
+Restated in November with the mechanism attached: "I love market declines because it is much easier to identify the next leaders. Stocks that can remain close to their yearly highs or even break into new high territory in the recent market environment may be among the new leaders when the market turns... **Clearly, others (insiders?) are already accumulating them.**" He ran a TC2007 new-high scan and cross-checked the survivors against quarterly earnings (+100%) and revenue (+25%) growth. ([WW 2007-11-19](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
+
 ## Shorting and hedging
 
 When defensive, he sometimes buys puts rather than simply going to cash. ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
@@ -208,6 +238,14 @@ When a new GMI buy signal fires (two consecutive days GMI > 3), the default is t
 Dr. Wish uses a TC2007 PCF (personal criteria formula) that detects stocks and ETFs whose long-term average is *just beginning* to reverse down — distinct from stocks already in established down-trends. The same PCF flagged Enron before it collapsed. In July 2010, it flagged 91 of 951 ETFs including S&P 500, Dow 30, and most world markets. The scan is not published but is described as detecting "the beginning of reversal" in the long-term average direction. ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
 
 ## Capital conservation as the long-run track record driver
+
+The sharpest formulation predates the 2009 track-record post by a year, written in December 2007 as the market rolled over:
+
+> "**THE KEY TO SUCCESS IN TRADING IS HOW LITTLE ONE LOSES DURING MARKET WEAKNESS.** Most people profit during market rises. The sine qua non is to conserve capital during declines so as to be able to trade long again during sustained market advances. It is critical to know when to get out of the market." ([WW 2007-12-17](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
+
+The same post frames staying long against the odds as a character failing rather than a strategy: "it takes a masochist and a gambler to stay long in this type of market... Why should I bet when the odds are so against me?"
+
+He also states the underlying behavioural problem autobiographically — this is the mistake the whole system exists to prevent: "It took me a very long time to learn to respect the trend of the market and not to fight it. (**I used to profit in the up-trend and give it all back and more in the subsequent decline.**) This is THE KEY to successful trading." ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
 
 The most explicit self-statement of the philosophy and its results: "The key to my success is that I made money during the strong market rises **and kept it**, by being mainly out of the market during the major declines." Trading IRA up **over 1,200% (13×) since late 1994** as of January 2009 — more than the top-ranked growth mutual fund in IBD's December 2008 ranking (which was up 382% over the same period). ([WW 2009-01-05](../../raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md))
 
@@ -274,3 +312,9 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2022-05-01 — T2108 monthly below 10% buy signal; BWR onset 2022; index GLB tops](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md) ([summary](../sources/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
 - [WW 2005-04-26 — About the General Market Index (GMI)](../../raw/posts/2005-04-26-general-market-index-gmi.md)
 - [WW 2011-03-07 — Introducing the GMI2](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md) ([summary](../sources/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md))
+- [WW 2007-05-22 — Covered calls as the boomer strategy](../../raw/posts/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md) ([summary](../sources/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md))
+- [WW 2007-08-20 — Give-it-all-back lesson; relative strength during declines](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md) ([summary](../sources/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
+- [WW 2007-10-01 — Covered-call results; September +5%](../../raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md) ([summary](../sources/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md))
+- [WW 2007-11-19 — Contrarian sentiment as a bounce warning, not a re-entry trigger](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md) ([summary](../sources/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
+- [WW 2007-12-17 — Capital conservation stated as doctrine](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md) ([summary](../sources/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
+- [WW 2014-02-23 — Covered call income on GLD; do NOT sell calls on rocket stocks](../../raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md) ([summary](../sources/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md))
