@@ -432,3 +432,98 @@ conservation, covered calls, contrarian sentiment, relative strength in declines
 multi-timeframe GMMA, position sizing, a unified short-side page, the off-blog teaching
 map, trading psychology and the Twitter alert channel are all still unwritten. The GMI
 table's current component *labels* remain unrecovered because it is published as an image.
+
+## [2026-08-12] lint | end-to-end review #2 — measured against the full corpus
+
+First review run with `raw/posts/` actually present, so these are counts rather than
+title-pattern inferences. `ww lint .` clean; 181 tests pass.
+
+**Coverage.** 151 of 4,694 posts are cited anywhere in `wiki/` (3.2%); 111 have summary
+pages (2.4%). Year-by-year, citations as a share of that year's posts:
+
+| Hole | Posts | Cited | Source pages | `timeline.md` §§ |
+|---|---|---|---|---|
+| **2008** | 240 | 3 | 1 | 6 |
+| **2015** | 242 | 1 | 1 | **0** |
+| **2019** | 240 | 1 | 1 | 1 |
+| **2024** | 168 | 2 | 2 | 2 |
+| 2006 | 218 | 3 | 2 | 2 |
+| 2012 | 257 | 3 | 3 | 3 |
+| 2013 | 241 | 4 | 4 | 4 |
+
+**2008 is now the worst hole, and it is worse than 2007 was.** One source page for the
+year that contains the defining episode of his entire track record — the crisis his GMI
+is credited with avoiding. The 2007 work just done makes this more conspicuous, not less:
+the December 2007 GMI-L warning has no 2008 follow-through documented from primary sources.
+2015 is the only year left with *zero* timeline sections.
+
+**Concept gaps, ranked by corpus frequency against wiki presence.**
+
+1. **MACD as a breadth gauge — 231 corpus mentions, 6 in wiki.** Not a per-stock signal:
+   he reports "% of Nasdaq 100 stocks with MACD above its signal line" as a short-term
+   strength/weakness reading, in the same breath as the GMI. An undocumented indicator,
+   and a plausible member of the GMI-S's sixteen.
+2. **Mark Minervini — 66 mentions across 31 posts, 1 in wiki.** 2016-10-25 is a dedicated
+   post on his 3-day Master Trader Program (taught with David Ryan), covering stop-setting,
+   pyramiding, cutting losses and a session on trading psychology. The wiki has a lineage
+   (Darvas / O'Neil / Weinstein / Livermore / Wyckoff) that stops before the modern
+   influences.
+3. **Cup with handle — 60 mentions across 41 posts, 0 in wiki.** A chart pattern he names
+   and trades, entirely absent.
+4. **Window dressing — 131 mentions across 110 posts, 3 in wiki.** Quarter-end flows he
+   positions around; no page owns calendar/seasonal effects.
+5. **IBD follow-through day — 62 mentions, 3 in wiki.** Notable because he is *sceptical*
+   of it: "Maybe IBD has decided that a high volume follow through day is no longer needed"
+   (2010-12-06). A documented disagreement with IBD orthodoxy is exactly the kind of thing
+   this wiki should record.
+6. **Yellowband — 39 mentions of "yellow band", 0 (the glossary has the one-word spelling
+   only), plus an un-ingested teaching post 2017-06-25 "How I use Yellowband up and down
+   trends."** The glossary currently frames it as an *abandoned* earlier term; a 2017
+   how-to post says otherwise.
+7. **Selling climax (22/2), post-earnings handling (26/0), mutual-fund market-timing
+   restrictions.** The last is a real operational constraint on the pension strategy the
+   wiki presents as frictionless — funds blocking re-entry after a timing exit (2010-12-06).
+8. **Off-blog teaching corpus** — YouTube 78 mentions / 1 in wiki; interviews 26 / 1. Still
+   unmapped, as flagged in the first review.
+9. **Trading psychology** still has no owner. Two un-ingested posts are squarely on it:
+   2009-11-26 "My Trading Philosophy and Why I Use Technical Analysis" and 2019-03-15
+   "How I Avoid Getting Shaken Out of Strong Growth Stocks".
+
+57 un-ingested posts carry explicit teaching markers in their titles, clustered 2022 (8),
+2025 (6), 2015 (5), 2016 (5), 2023 (5).
+
+**Structural — the wiki has outgrown its own convention.** CLAUDE.md §2 says to split a
+page past ~800 words. **13 of 18 pages exceed it**, several by 4–7×: `timeline.md` 6,034,
+`stock-selection.md` 4,574, `moving-average-rules.md` 4,105, `risk-and-cash.md` 3,990,
+`green-line-breakouts.md` 3,864. `stock-selection.md` is now doing at least eight jobs
+(screens, price levels, RWB, four scans, BOS, the dots, biotech, IBD comparisons, an
+O'Neil diary excerpt) and is the natural next split — the scan catalogue and the
+entry-signal family are each their own page.
+
+**The playbooks are the thinnest layer and should be the thickest.** 3,696 words across
+three pages against ~25,000 in methodology. `market-state.md` is 891 words. These are the
+pages that answer "what do I do today," and they are the least developed.
+
+**Provenance.** 40 cited posts have no summary page. The founding GMI post
+(`2005-04-26-general-market-index-gmi`) remains the most-cited post in the wiki (5 pages)
+with no summary page — flagged in the first review, still open.
+
+**Schema drift.** CLAUDE.md §2 promises `risk-and-cash.md` covers "modified buy-and-hold"
+and `moving-average-rules.md` covers "the 10-week rule". Neither phrase occurs anywhere in
+4,694 posts. They are schema-invented terminology and should be dropped or renamed before a
+future session hunts for a concept the blog does not have.
+
+**Fixed in this pass.** `timeline.md` had one section out of chronological order — July 2025
+sat after October 2025, introduced by the OSB batch earlier today. `track-record.md`'s data
+note carried pre-re-scrape counts (1,797 / 989 / 808); refreshed to 1,811 / 995 / 816 and
+`raw/timeline.parquet` rebuilt.
+
+**Checked and cleared.** `ww timeline` keys off `kind_guess`, not `tier`, so the outstanding
+`daily_update` tier regression does not block the timeline dataset — it rebuilt cleanly
+(1,811 rows, 2005-07-25..2026-08-05). The remaining ordering flag in `timeline.md` is the
+dual-dated "October 1995 (diary) / October 2016" heading, which is intentional.
+
+**Suggested next batch, in priority order:** (1) 2008 — the crisis year, from primary
+sources; (2) MACD breadth + the GMI-S sixteen; (3) a psychology/discipline page from the
+2009 and 2019 posts; (4) Minervini/modern-influences and the off-blog map; (5) split
+`stock-selection.md`; (6) 2015 and 2019; (7) thicken the playbooks.

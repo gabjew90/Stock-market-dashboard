@@ -652,6 +652,12 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 
 ---
 
+## July 2025 — the OSB carried forward on the blue dot
+
+**"SHAK has retaken green line after a recent Blue Dot OSB" (2025-07-09):** the setup survives its trigger indicator changing. "Blue Dot OSB" pairs the [blue dot of happiness](../methodology/glossary.md) with a bounce off the 8-day EMA, and rescues a GLB that had fallen back below its green line rather than abandoning it. ([WW 2025-07-09](../../raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md))
+
+---
+
 ## August 2025 — Blue dot re-entry; stop losses as sine qua non
 
 **"Day 73 of QQQ up-trend; why I use stop-loss orders; re-entry with blue dot" (2025-08-10):** During Day 73 of the QQQ up-trend, Dr. Wish taught the role of stop-loss orders using a live re-entry example via the blue dot signal. He calls stop losses "the sine qua non of my approach" — he never holds a position without a defined exit. The blue dot provided a low-risk re-entry after a brief stock pullback: GTC stop placed immediately below the bounce low. He also discusses the common student error of not placing stops and watching profits turn to losses. In a long running up-trend (Day 73), the stop-loss discipline becomes more important, not less, as stocks are more extended. ([WW 2025-08-10](../../raw/posts/2025-08-10-blog-post-day-73-of-qqq-short-term-up-trend-shaken-out-but-back-in-blue-dot-of-happiness-signal-held-see-dail.md))
@@ -661,12 +667,6 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 ## October 2025 — 4-week weekly bounce entry; SPY GLB from June 2025
 
 **"Day 43 of QQQ up-trend; how I traded the SPY GLB last June; 4-week weekly bounce" (2025-10-23):** Dr. Wish describes trading the **SPY GLB** that occurred in June 2025 (SPY broke to a new ATH after a multi-month consolidation). He shows his actual entry and how he held the position using the 4-week weekly average as a trailing guide. He also formalises the **4-week weekly bounce entry**: for stocks in Stage 2 (4wk>10wk>30wk), look for a bounce off the rising 4-week average on the weekly chart — this gives a lower-risk, tighter stop than waiting for the 10-week average. Stop: below the bounce week's low. This makes the 4wk average both an exit signal and an entry trigger depending on direction. ([WW 2025-10-23](../../raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md))
-
----
-
-## July 2025 — the OSB carried forward on the blue dot
-
-**"SHAK has retaken green line after a recent Blue Dot OSB" (2025-07-09):** the setup survives its trigger indicator changing. "Blue Dot OSB" pairs the [blue dot of happiness](../methodology/glossary.md) with a bounce off the 8-day EMA, and rescues a GLB that had fallen back below its green line rather than abandoning it. ([WW 2025-07-09](../../raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md))
 
 ---
 

@@ -26,7 +26,7 @@ sources:
 
 Notable market calls Dr. Wish made on the blog and how they turned out.
 
-**Data note:** this page draws on `raw/timeline.parquet`, built by `ww timeline` from 1,797 parsed daily-update posts (2005–2026). Of those, 989 rows are high-confidence (GMI value or QQQ day-count extracted); 808 are flagged (narrative-only or image-only posts where the parser could not extract a number). Individual calls below are cited to the specific posts from which the claim is drawn; the timeline dataset is referenced for aggregate patterns. Do not read the dataset entries as a complete audit trail — some posts are image-only or paywalled during archival, and the parser is conservative.
+**Data note:** this page draws on `raw/timeline.parquet`, built by `ww timeline` from **1,811** parsed daily-update posts (2005-07-25 – 2026-08-05). Of those, **995** rows are high-confidence (GMI value or QQQ day-count extracted); **816** are flagged (narrative-only or image-only posts where the parser could not extract a number). *(Counts refreshed 2026-08-12 after the corpus re-scrape, which added 39 posts; the parquet is gitignored — rebuild with `ww timeline`. The build keys off `kind_guess`, not `tier`, so it is unaffected by the outstanding `daily_update` tier regression.)* Individual calls below are cited to the specific posts from which the claim is drawn; the timeline dataset is referenced for aggregate patterns. Do not read the dataset entries as a complete audit trail — some posts are image-only or paywalled during archival, and the parser is conservative.
 
 ---
 
