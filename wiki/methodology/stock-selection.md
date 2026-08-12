@@ -3,6 +3,7 @@ title: Stock selection
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md
   - raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md
   - raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md
   - raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md
@@ -281,6 +282,12 @@ A systematic study in April 2011 compared the IBD50 (published January 10, 2011)
 
 **10-week bounce scan for IBD50 stocks:** after a new QQQ short-term up-trend begins, Dr. Wish scans all IBD50 watchlist stocks for those that bounced up from their 10-week average the prior week. The prior week's low is used as the sell-stop price. ([WW 2011-04-04](../../raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md))
 
+**The downside test (2013), prompted by a student:** do the IBD50's extra big gainers come with
+extra big decliners? No — 2–10% of IBD50 stocks fell 10%+ in the study window versus Nasdaq100
+8%, Dow 0%, S&P 3%: "more likely to contain stocks that had large gains... but are not more
+likely to have large decliners." With the standing caveat that IBD-type growth stocks "do tend
+to decline more... **during major declining markets**." ([WW 2013-12-09](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))
+
 Earlier (2012) IBD50 data: from December 2011 through April 2012, IBD50 median gain was +20% vs Nasdaq100 +15% vs S&P500 +10%; 34% of IBD50 gained 30%+, vs 16% of Nasdaq100. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
 
 ## ATH-past-40-days + lower Bollinger Band pullback scan (introduced 2017)
@@ -368,3 +375,4 @@ After a Boston IBD Meetup presentation in May 2025, Dr. Wish published the most 
 - [WW 2005-05-04 — A Google Confession: the gap rule and the doubling rationale](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md) ([summary](../sources/2005-05-04-a-google-confession-ww-gmi-1.md))
 - [WW 2020-10-04 — The IBD screener workflow; the all-12-GMMA exit line](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md) ([summary](../sources/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
 - [WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap; LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md) ([summary](../sources/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
+- [WW 2013-12-09 — Yes, one can time the market; the IBD50 downside test](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md) ([summary](../sources/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))

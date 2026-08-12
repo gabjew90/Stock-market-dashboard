@@ -3,6 +3,7 @@ title: Trading philosophy — the five propositions
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md
   - raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md
@@ -113,6 +114,15 @@ He treats emotion as something to design around rather than overcome:
 Note that Proposition 4's "small initial trades" is the [pilot buy](glossary.md), and its mirror
 is this prohibition: add only to positions that have proved you right.
 
+## Simple beats clever
+
+"Patterns are meant to be broken. **The road is littered with the carcasses of Ph.D.'s who
+wagered heavily and lost, based upon complicated mathematical relationships that worked in the
+past.** I can tell you that the *simple* patterns I have discussed... seem to me to have worked
+well over the past 95 years." Written while presenting a two-moving-averages-and-a-stochastic
+framework validated by eye against a century of Dow data. The system's indicators are all of
+this species: visible, countable, explainable in a sentence. ([WW 2010-12-13](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md))
+
 ## Never one indicator
 
 A methodological rule stated alongside the green-dot strategy: "**I try not to rely on a single
@@ -149,3 +159,4 @@ and the [backtest](backtest-timing-overlay.md).
 - [WW 2005-04-20 — STOP THIS MADNESS: the GMI's components, six days before the GMI](../../raw/posts/2005-04-20-stop-this-madness.md) ([summary](../sources/2005-04-20-stop-this-madness.md))
 - [WW 2005-05-04 — A Google Confession: the gap rule and the doubling rationale](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md) ([summary](../sources/2005-05-04-a-google-confession-ww-gmi-1.md))
 - [WW 2014-05-26 — Stage Analysis as the pundit filter; timeframe as a life choice](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md) ([summary](../sources/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
+- [WW 2010-12-13 — The 95-year Dow cycle framework](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md) ([summary](../sources/2010-12-13-where-are-we-in-the-market-cycle.md))

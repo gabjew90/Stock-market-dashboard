@@ -968,3 +968,33 @@ Touched: `methodology/stock-selection.md` (ATH pipeline + IBD screener sections)
 `methodology/green-line-breakouts.md` (close-below case; manual-drawing corroboration),
 `methodology/moving-average-rules.md` (all-12-GMMA exit), `history/timeline.md` (3 sections),
 `index.md`; 3 new `sources/` pages. `ww lint .` clean; 194 tests pass; ledger 133 rows.
+
+## [2026-08-12] ingest | four favorites — the timing evidence, the top template, the cycle layer, the first ETF study
+
+Continuing "My Favorite Posts" (83 remain). Four posts that each add a missing structural layer.
+
+- **2009-06-07** — the **earliest** ultra-ETF-vs-stock-picking study (the wiki had only the 2011
+  and 2013 versions): off the March 2009 bottom, QLD +99.2% and TYH +179.4% vs QQQQ +42.9%,
+  with the 3X matching the *best stock in the index*. The needle-vs-haystack framing originates
+  here, and the staged pension re-entry runs alongside with never-average-down applied at
+  account level.
+- **2010-12-13** — the **cycle layer**: monthly Dow, 5/30-month averages plus a 25.4.4 monthly
+  stochastic, validated by eye back to 1915. Bottoms with the stochastic <50 (severe ~20). And
+  the simple-over-complex doctrine at full strength: "the road is littered with the carcasses
+  of Ph.D.'s." Filed into moving-average-rules (completing the daily→weekly→monthly ladder) and
+  trading-philosophy.
+- **2013-12-09** — the timing thesis **with its evidence published**: the red/green GMI signal
+  chart 2006–2013, whipsaws admitted ("but only for a few days"); a link to third-party
+  tracking (dark-liquidity's GMI→QLD strategy); and the IBD50 **downside test**, run because an
+  honors student challenged the earlier study — more big gainers, no more big decliners.
+- **2014-06-08** — the **monthly GMMA top template** (SPY 2000-01 and 2007-08) and the sentence
+  the whole exit-latency defence rests on: "**Market tops take months to develop, leaving
+  plenty of time for the watchful investor to exit the market.**" This is the doctrinal
+  counterpart to the Oct-2007/Feb-2020 instrument-panel snapshots in track-record.
+
+Touched: `methodology/moving-average-rules.md` (monthly layer section),
+`methodology/gmi.md` (published signal record + third-party tracking),
+`methodology/stock-selection.md` (IBD50 downside test), `methodology/risk-and-cash.md`
+(earliest ETF study), `methodology/trading-philosophy.md` (simple-beats-clever),
+`history/timeline.md` (4 sections), `index.md`; 4 new `sources/` pages.
+`ww lint .` clean; 194 tests pass; ledger 137 rows.

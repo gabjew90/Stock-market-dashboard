@@ -3,6 +3,10 @@ title: Timeline — evolution of the methodology
 type: history
 updated: 2026-08-12
 sources:
+  - raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md
+  - raw/posts/2014-06-08-what-a-market-top-looks-like.md
+  - raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md
+  - raw/posts/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md
   - raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md
   - raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md
   - raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md
@@ -296,6 +300,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## June 2009 — the first ultra-ETF study; staged pension re-entry begins
+
+**"Why search for individual stocks when we can ride the ultra ETFs?" (2009-06-07):** off the March bottom, QQQQ +42.9% vs QLD +99.2% vs TYH +179.4% — the 3X ETF matched the best individual stock in the Nasdaq 100 (only 16% of its stocks rose 80%+). "The results blew me away." The needle-vs-haystack framing starts here, with its precondition: "the key is to discern the trend accurately." Pension re-entry begins the same week, staged: "go in slowly and only add more money if the ETF climbs above my original purchase price. I *never* average down." ([WW 2009-06-07](../../raw/posts/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md))
+
+---
+
 ## February–April 2010 — Stock-selection scan workflow; stop-loss doctrine stated; DITM calls introduced
 
 **"How to use IBD 100 and New America stocks to find rocket stocks" (2010-02-22):** Dr. Wish publishes the complete multi-step funnel: 4,000-stock universe → 52-week highs → near 10-year ATH → earnings ≥ 30% or revenue ≥ 12% → IBD 100/New America cross-check. Result: 68% overlap with IBD lists confirms the filters agree. Prerequisite stated: GMI ≥ 3 before searching for stocks. ([WW 2010-02-22](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
@@ -333,6 +343,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## September 2010 — RWB pattern coined
 
 **"Introducing Red White and Blue (RWB) Stocks" (2010-09-27):** the RWB weekly GMMA chart pattern is named and defined. Shorter-term MAs (red) above longer-term MAs (blue) with white space between them = rocket. Opposite = BWR = submarine. First explicit T2108 discussion: asymmetry (high T2108 less predictive than low T2108 below 10%). GMI-R mentioned alongside GMI. ([WW 2010-09-27](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
+
+---
+
+## December 2010 — the 95-year Dow cycle framework
+
+**"Where are we in the market cycle?" (2010-12-13):** the slowest instrument — monthly Dow, 5- and 30-month averages, 25.4.4 monthly stochastic, eyeballed back to 1915. Bottoms with the stochastic below 50 (severe ones ~20); tops led by a sustained stochastic decline plus a 5/30-month cross. The simple-over-complex line: "The road is littered with the carcasses of Ph.D.'s who wagered heavily and lost." ([WW 2010-12-13](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md))
 
 ---
 
@@ -414,6 +430,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## December 2013 — the timing thesis with its evidence published
+
+**"Yes, one can time the market!" (2013-12-09):** the red/green GMI signal chart 2006–2013 published for readers to judge, whipsaws admitted ("but only for a few days"); third-party tracking linked (dark-liquidity's GMI→QLD strategy); the IBD50 downside test answering an honors student — more big gainers, no more big decliners; and the pension grievance: "my pension plan prevents me from market timing... I refuse to do so." ([WW 2013-12-09](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))
+
+---
+
 ## February 2014 — Covered call strategy; three concurrent GLBs
 
 **"9th day of QQQ up-trend; covered calls on GLD; GMCR, QCOR, IRBT GLBs" (2014-02-23):** explains covered call income strategy on GLD (Stage 2 ETF): sell weekly at-the-money calls at ~0.79%/week = ~3.17%/month. Explicitly notes: do not sell covered calls on rocket growth stocks (capped upside). Three concurrent GLBs shown: GMCR (new ATH base after 2009 original GLB), QCOR, IRBT. ([WW 2014-02-23](../../raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md))
@@ -429,6 +451,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## May 2014 — Stage Analysis as the pundit filter
 
 **"Ignore the media pundits" (2014-05-26):** the corpus's best self-contained Stage Analysis tutorial, written against bearish punditry in a flat 2014 tape. Timeframe framed as a life choice ("I am too old... the equivalent of flying with the Blue Angels... I want to manage my investments only part-time"); the pension rule as a pundit filter ("I do not care what the media pundits are saying"); and consolidation-as-health ("A healthy market rises and consolidates over and over again"). IBD still called the market in correction while his GMI had been on a Buy since 4/22. ([WW 2014-05-26](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
+
+---
+
+## June 2014 — what a market top looks like
+
+**"What a market top looks like" (2014-06-08):** the monthly GMMA top template — 2000-01 and 2007-08 SPY published as the two worked instances of red converging under blue at monthly scale — and the sentence the exit-latency defence rests on: "**Market tops take months to develop, leaving plenty of time for the watchful investor to exit the market.**" ([WW 2014-06-08](../../raw/posts/2014-06-08-what-a-market-top-looks-like.md))
 
 ---
 
@@ -939,3 +967,7 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2020-10-04 — The IBD screener workflow; the all-12-GMMA exit line](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md) ([summary](../sources/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
 - [WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap; LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md) ([summary](../sources/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
 - [WW 2023-01-16 — How I trade a GLB: the close-below rule shown intraday](../../raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md) ([summary](../sources/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md))
+- [WW 2013-12-09 — Yes, one can time the market; the IBD50 downside test](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md) ([summary](../sources/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))
+- [WW 2014-06-08 — What a market top looks like: the monthly GMMA template](../../raw/posts/2014-06-08-what-a-market-top-looks-like.md) ([summary](../sources/2014-06-08-what-a-market-top-looks-like.md))
+- [WW 2010-12-13 — The 95-year Dow cycle framework](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md) ([summary](../sources/2010-12-13-where-are-we-in-the-market-cycle.md))
+- [WW 2009-06-07 — The ultra-ETF study off the March 2009 bottom](../../raw/posts/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md) ([summary](../sources/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md))

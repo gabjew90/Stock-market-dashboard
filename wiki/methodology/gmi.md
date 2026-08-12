@@ -3,6 +3,7 @@ title: General Market Index (GMI)
 type: entity
 updated: 2026-08-12
 sources:
+  - raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md
   - raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md
@@ -265,6 +266,14 @@ averages plus one more) applied per ETF, though nothing states that.
 The same table prints `GMI Long Term Index (GMI-L): 94`, confirming it is published as a
 single percentage rather than a component count.
 
+## The signal record he published himself (2013)
+
+Before the 2015 limitation post, he published the full **red/green GMI signal chart for
+2006–2013** over the QQQ and invited readers to "judge for yourself," with the whipsaw admission
+attached: "Yes, there are times when the GMI gets whip-sawed, **but only for a few days**." The
+same post links **third-party tracking** — dark-liquidity.com's monitored GMI→QLD strategy — an
+external record of the signal rather than his own bookkeeping. ([WW 2013-12-09](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))
+
 ## A limitation he published himself (2015)
 
 In February 2015 — with the GMI reading 6 of 6 — Dr. Wish published a limitation of his own
@@ -444,3 +453,4 @@ Run it: `ww compute gmi 2026-05-11 --breadth` for a full 0–6 GMI on any date t
 - [WW 2015-02-22 — An important limitation of the GMI signals](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md) ([summary](../sources/2015-02-22-an-important-limitation-of-the-gmi-signals.md))
 - [WW 2005-04-20 — STOP THIS MADNESS: the GMI's components, six days before the GMI](../../raw/posts/2005-04-20-stop-this-madness.md) ([summary](../sources/2005-04-20-stop-this-madness.md))
 - [WW 2008-04-21 — The 2000 pension exit in dollars; GMI-S at 100% inside a bear](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md) ([summary](../sources/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
+- [WW 2013-12-09 — Yes, one can time the market; the IBD50 downside test](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md) ([summary](../sources/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))

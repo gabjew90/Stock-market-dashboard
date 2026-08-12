@@ -3,6 +3,8 @@ title: Moving-average rules
 type: entity
 updated: 2026-08-12
 sources:
+  - raw/posts/2014-06-08-what-a-market-top-looks-like.md
+  - raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md
   - raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md
   - raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md
   - raw/posts/2005-04-23-lets-talk-strategy.md
@@ -283,6 +285,28 @@ The core rules have not changed. These posts confirm them as active practice:
 - [Stock selection](stock-selection.md) — RWB pattern; daily RWB scan; weekly green bar
 - [Exits (playbook)](../playbooks/exits.md)
 
+## The monthly layer — tops and cycles
+
+Two instruments slower than the weekly chart, both previously undocumented:
+
+**The monthly GMMA top template.** "Market tops take months to develop, **leaving plenty of time
+for the watchful investor to exit the market.**" On the *monthly* Guppy chart, a major top is the
+red averages converging with and falling below the blue — RWB → BWR at monthly scale — and he
+publishes SPY's 2000-01 and 2007-08 tops as the two worked instances of the template. This is
+the doctrine behind the system's exit-latency defence: tops are processes, not days. ([WW 2014-06-08](../../raw/posts/2014-06-08-what-a-market-top-looks-like.md))
+
+**The 95-year Dow cycle framework.** Monthly chart, **5-month and 30-month simple averages**,
+plus a **25.4.4 monthly stochastic**, eyeballed back to 1915. Up-cycle: price above a rising
+30-month, 5-month above it, stochastic parked above 80 for years at a time. Top-warning: the
+stochastic starts a sustained decline (it led the 2000 top from 1999) and the 5-month crosses
+under the 30-month. "Major bottoms in the Dow have occurred with this stochastic below 50% and
+the more severe ones, around 20%." His standing rule: no suspicion of the up-trend's end until
+both fire. ([WW 2010-12-13](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md))
+
+The timeframe ladder is therefore complete: daily Guppy (RWB/RLC exits) → weekly Guppy
+(pension/stage) → monthly Guppy + 5/30-month + monthly stochastic (regime tops and cycle
+bottoms).
+
 ## The all-12-GMMA exit line
 
 The weekly Guppy chart can be read as a single total-exit trigger: "If QQQ (dotted line) declines
@@ -336,3 +360,5 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2010-09-27 — Introducing Red White and Blue (RWB) Stocks](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md) ([summary](../sources/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
 - [WW 2014-05-26 — Stage Analysis as the pundit filter; timeframe as a life choice](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md) ([summary](../sources/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
 - [WW 2020-10-04 — The IBD screener workflow; the all-12-GMMA exit line](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md) ([summary](../sources/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
+- [WW 2014-06-08 — What a market top looks like: the monthly GMMA template](../../raw/posts/2014-06-08-what-a-market-top-looks-like.md) ([summary](../sources/2014-06-08-what-a-market-top-looks-like.md))
+- [WW 2010-12-13 — The 95-year Dow cycle framework](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md) ([summary](../sources/2010-12-13-where-are-we-in-the-market-cycle.md))
