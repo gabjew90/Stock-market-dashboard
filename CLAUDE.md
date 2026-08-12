@@ -105,6 +105,10 @@ Every wiki page (NOT `index.md`, `log.md`, or `_templates/`) has:
    (use the right number of `../` for the page's depth: methodology/playbooks/history
    pages are 2 deep → `../../raw/posts/...`; `sources/` pages are also 2 deep;
    `overview.md` is 1 deep → `../raw/posts/...`).
+3b. **Reader comments** are cited differently. They are primary material but not posts, so they
+   use the form `[WW comment YYYY-MM-DD]` + the live permalink, and are **not** listed in `## Sources` blocks
+   (which catalogue posts only). Data: `raw/comments.jsonl` via `ww comments`; search with
+   `ww search "..." --source comments`. Curated findings live in `wiki/methodology/reader-qa.md`.
 4. **Sources block** at the bottom — a `## Sources` heading followed by a bullet
    list of the posts the page draws from (each `- [WW YYYY-MM-DD — short title](../../raw/posts/...md)`),
    or the single line `_None yet._` if the page is a stub. `ww lint` requires the

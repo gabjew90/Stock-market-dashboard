@@ -234,6 +234,25 @@ Run it on a ticker: `ww compute green-line MSFT` — Microsoft has set (and brok
 - [The oversold bounce (OSB / ATHOSB)](oversold-bounce.md) — the entry he prefers to the breakout moment
 - [Glossary](glossary.md) — green line, GLB, stage analysis
 
+## How the line is actually drawn (from the comment threads)
+
+Three clarifications he gave readers, which sharpen the definition above and are not stated in
+any post ([reader-qa.md](reader-qa.md)):
+
+1. **The three months is measured in monthly closes, and the line is drawn in retrospect:** "The
+   green line is drawn only after a peak that is not followed by a **higher monthly close** for
+   3 months." ([WW comment 2013-03-13](https://wishingwealthblog.com/2013/03/#comment-11015))
+2. **It is not always the intraday all-time high.** Asked why CMG's line sat below its ATH: "I
+   draw the green line on a monthly chart, **sometimes near its highest monthly close which may
+   be below the highest price it traded at during the month if it did not hold**." ([WW comment 2013-10-01](https://wishingwealthblog.com/2013/10/#comment-14760))
+   A spike the month failed to close near does not automatically set the line — which is why two
+   readers drawing "the" green line on the same chart can legitimately differ.
+3. **There is no GLB scan.** "I do not have a single scan for this. I scan for new daily highs
+   and then look at monthly charts and **manually draw in green lines**... I also use TC2000 to
+   put in alerts for when a stock crosses the green line." ([WW comment 2013-09-28](https://wishingwealthblog.com/2013/09/#comment-14708))
+   The detection is a manual chart-by-chart judgement; only the alerting is automated. This is
+   worth stating plainly because the rest of his toolkit is heavily scan-driven.
+
 ## A caveat on the GLB as an *entry*
 
 The GLB is load-bearing as an **identification** tool — it is how a rocket stock gets onto the list, and "above its last green line top" remains a filter on nearly every other setup he runs. It is weaker as an **entry trigger**, and he says so directly: after a failed CAVA breakout in July 2023 he wrote that he *prefers the [oversold bounce](oversold-bounce.md) setup over breakouts*, because a failed breakout has no naturally-defined stop while a bounce does. ([WW 2023-07-13](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))

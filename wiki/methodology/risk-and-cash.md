@@ -3,6 +3,7 @@ title: Risk & cash
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md
   - raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md
   - raw/posts/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md
   - raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md
@@ -153,6 +154,25 @@ In May 2022, Dr. Wish articulated his framework for recognizing that a bear mark
 - Weekly BWR pattern on QQQ and SPY was just beginning to form, paralleling early 2008 in timing. He shows side-by-side weekly charts: 2008 was a more mature BWR by the same calendar date; 2022 was just entering the pattern.
 - He applied the GLB concept to index ETFs: DIA and SPY had not broken above their green line tops from November 2020; QQQ's last GLB was June 2020. "We will be back to a roaring trader's market again when these indexes have another GLB to all-time highs, but it could be months or even years."
 - Historical precedent: the Dow failed repeatedly to break 1,000 between 1965 and 1982 — a 17-year flat period after prior all-time-high runs. ([WW 2022-05-01](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
+
+## The pension has an administrative constraint, not just a signal
+
+The wiki presents pension moves as signal-driven — 30-week reversal, Stage 4 threat, staged
+25% exits. A comment adds the constraint that actually paces them: **fund families restrict how
+often you may switch.**
+
+> "**I am limited as to how often I can transfer funds in and out of equity funds** so I wait
+> for a change in the longer term before I go to cash." ([WW comment 2010-07-09](https://wishingwealthblog.com/2010/07/#comment-2405))
+
+So the slow, long-horizon signal on the pension side is partly a *response to an administrative
+limit*, not purely a judgement that long signals are better there. He also complains about the
+practice publicly — funds "do not want people to get in and out of their shares and therefore
+have instituted restrictions against timing the market... There ought to be a law against the
+prohibition of market timing for mutual funds," recommending ETFs as the workaround
+([WW 2010-12-06](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md)).
+
+This matters when reading his pension record: some of the lag between a signal and a pension
+move is structural. See [reader-qa.md](reader-qa.md).
 
 ## Covered calls as conservative income (2007)
 
@@ -318,3 +338,4 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2007-11-19 — Contrarian sentiment as a bounce warning, not a re-entry trigger](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md) ([summary](../sources/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
 - [WW 2007-12-17 — Capital conservation stated as doctrine](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md) ([summary](../sources/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
 - [WW 2014-02-23 — Covered call income on GLD; do NOT sell calls on rocket stocks](../../raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md) ([summary](../sources/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md))
+- [WW 2010-12-06 — Mutual funds restrict market timing; IBD drops the follow-through day](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md)

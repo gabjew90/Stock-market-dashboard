@@ -444,7 +444,7 @@ def search(
     query: str = typer.Argument(..., help="Search query."),
     root: Path = typer.Option(Path("."), "--root", help="Repo root."),
     k: int = typer.Option(8, "-k", "--num", help="How many hits to show."),
-    source: str = typer.Option(None, "--source", help="Restrict to 'wiki' or 'posts'."),
+    source: str = typer.Option(None, "--source", help="Restrict to 'wiki', 'posts' or 'comments'."),
     since: int = typer.Option(None, "--since", help="For post hits, only year >= this."),
 ) -> None:
     """Search the wiki + raw posts; prints ranked, cited passages (paste them into Claude for the Query workflow)."""

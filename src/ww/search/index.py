@@ -7,6 +7,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from ww.corpus.index import read_posts_jsonl
+from ww.scrape.comments import read_comments_jsonl
 from ww.search.bm25 import BM25
 from ww.search.chunk import Chunk, chunk_markdown, tokenize
 
@@ -17,24 +18,37 @@ _WIKI_SKIP_DIRS = {"_templates"}
 
 @dataclass
 class SearchHit:
-    source: str        # "wiki:<rel>" or "post:<stem>"
+    source: str        # "wiki:<rel>", "post:<stem>", or "comment:<comment_id>"
     heading: str
     text: str
     score: float
-    citation: str      # human/paste-friendly: a wiki path+heading, or a post date + URL
+    citation: str      # human/paste-friendly: a wiki path+heading, a post date + URL, or a
+                       # comment's author + date + the post it hangs off
 
 
 class SearchIndex:
-    def __init__(self, chunks: list[Chunk], *, post_meta: dict[str, tuple[str, str]]) -> None:
-        # post_meta: stem -> (iso_date, url)
+    def __init__(
+        self,
+        chunks: list[Chunk],
+        *,
+        post_meta: dict[str, tuple[str, str]],
+        comment_meta: dict[str, tuple[str, str, str, str]] | None = None,
+    ) -> None:
+        # post_meta:    stem -> (iso_date, url)
+        # comment_meta: comment_id -> (author, iso_date, parent post stem, url)
         self.chunks = chunks
         self.post_meta = post_meta
+        self.comment_meta = comment_meta or {}
         self._bm25 = BM25([tokenize(c.heading + " " + c.text) for c in chunks])
 
     # --- citations -------------------------------------------------------------
     def _citation(self, c: Chunk) -> str:
         if c.source.startswith("wiki:"):
             return f"{c.source[len('wiki:'):]} — {c.heading}"
+        if c.source.startswith("comment:"):
+            cid = c.source[len("comment:"):]
+            author, date, stem, url = self.comment_meta.get(cid, ("", "", "", ""))
+            return f"comment by {author} on {date[:10]} re: {stem} ({url})".strip()
         stem = c.source[len("post:"):]
         date, url = self.post_meta.get(stem, ("", ""))
         return f"WW {date[:10]} — {stem} ({url})".strip()
@@ -51,6 +65,8 @@ class SearchIndex:
                 continue
             if source == "posts" and not c.source.startswith("post:"):
                 continue
+            if source == "comments" and not c.source.startswith("comment:"):
+                continue
             if since is not None and c.source.startswith("post:"):
                 stem = c.source[len("post:"):]
                 year = int(stem[:4]) if stem[:4].isdigit() else 0
@@ -66,13 +82,16 @@ class SearchIndex:
         path = Path(path)
         path.parent.mkdir(parents=True, exist_ok=True)
         with path.open("wb") as fh:
-            pickle.dump({"chunks": self.chunks, "post_meta": self.post_meta}, fh)
+            pickle.dump(
+                {"chunks": self.chunks, "post_meta": self.post_meta, "comment_meta": self.comment_meta}, fh
+            )
 
     @classmethod
     def load(cls, path: Path) -> SearchIndex:
         with Path(path).open("rb") as fh:
             d = pickle.load(fh)
-        return cls(d["chunks"], post_meta=d["post_meta"])
+        # comment_meta is absent from indexes built before comments were captured.
+        return cls(d["chunks"], post_meta=d["post_meta"], comment_meta=d.get("comment_meta"))
 
 
 def _iter_wiki_files(wiki_dir: Path):
@@ -93,9 +112,25 @@ def build_index(root: Path) -> SearchIndex:
         for path, rel in _iter_wiki_files(wiki_dir):
             chunks.extend(chunk_markdown(path.read_text(encoding="utf-8"), source=f"wiki:{rel}"))
     post_meta: dict[str, tuple[str, str]] = {}
+    by_post_id: dict[int, str] = {}
     for r in read_posts_jsonl(root / "raw" / "posts.jsonl"):
         post_meta[r.stem] = (r.date, r.url)
+        by_post_id[r.post_id] = r.stem
         mdp = root / "raw" / "posts" / f"{r.stem}.md"
         if mdp.exists():
             chunks.extend(chunk_markdown(mdp.read_text(encoding="utf-8"), source=f"post:{r.stem}"))
-    return SearchIndex(chunks, post_meta=post_meta)
+
+    # Reader comments. The threads carry rule clarifications that never appear in a post
+    # body — a reader asks whether an intraday dip counts, he answers in one line. Indexed
+    # one chunk per comment (they are short) so `ww search` reaches them.
+    comment_meta: dict[str, tuple[str, str, str, str]] = {}
+    for c in read_comments_jsonl(root / "raw" / "comments.jsonl"):
+        if not c.text:
+            continue
+        cid = str(c.comment_id)
+        stem = by_post_id.get(c.post_id, "")
+        comment_meta[cid] = (c.author, c.date, stem, c.url)
+        heading = f"comment by {c.author}" + (f" on {stem}" if stem else "")
+        chunks.append(Chunk(source=f"comment:{cid}", heading=heading, text=c.text))
+
+    return SearchIndex(chunks, post_meta=post_meta, comment_meta=comment_meta)

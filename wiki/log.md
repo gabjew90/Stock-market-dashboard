@@ -722,3 +722,56 @@ limitation), `methodology/glossary.md` (yellowband rewritten, green dot fully sp
 **Queue state:** 90 of 145 favorites remain un-ingested, plus `Tutorial` (7) and
 `UMDSMC Education Posts` (9). Year-holes 2008 / 2015 / 2019 / 2024 remain a separate track —
 2008 still has one source page and contains zero favorites.
+
+## [2026-08-12] ingest | blog-post context — the comment threads made reachable and mined
+
+The 4,136 comments captured earlier today were inert: stored but unreachable and unused.
+
+**`ww search` now covers them.** `build_index` indexes one chunk per comment, and hits carry a
+citation naming the author, the date and the parent post (`ww search "…" --source comments`).
+The index grew 5,472 → 9,776 chunks. Pickles written before comments existed still load
+(`comment_meta` defaults empty).
+
+**First mining pass — new page `methodology/reader-qa.md`.** Of the 678 replies by Dr. Wish,
+501 answer a reader directly and 128 are substantive rule answers. What they contain is not a
+restatement of the posts; it is the edge cases readers pushed him on.
+
+Highest-value findings:
+
+- **How the green line is actually drawn**, three ways the posts never say. The 3-month test is
+  in *monthly closes* ("a peak that is not followed by a higher monthly close for 3 months");
+  the line is **not always the intraday ATH** ("sometimes near its highest monthly close which
+  may be below the highest price it traded at during the month if it did not hold") — which
+  explains why two readers can legitimately draw different lines on the same chart; and
+  **there is no GLB scan at all** — "I do not have a single scan for this... I **manually draw
+  in green lines**," with TC2000 automating only the alert. For a toolkit that is otherwise
+  scan-driven, that is a significant qualifier.
+- **A correction to what this log claimed a few hours ago.** The previous entry credited the
+  Feb-2015 post with originating the two-speed design (GMI for trading, GMMA for the pension).
+  It did not: the practice is stated as settled routine in a **November 2010** comment. 2015 is
+  where he published the *evidence* and formalised it. `gmi.md` corrected.
+- **The pension has an administrative constraint, not only a signal:** "I am limited as to how
+  often I can transfer funds in and out of equity funds." The wiki had presented pension moves
+  as purely signal-driven; some of the lag is structural. `risk-and-cash.md` updated, tied to
+  the 2010-12-06 post where he attacks fund market-timing restrictions publicly.
+- **What the GMI is *not*:** "GMI does not require 10 week to be above 30 week" — a useful
+  negative confirming the component list is complete and Stage 2 sits outside it. Plus its 2010
+  cadence: updated weekly, not nightly.
+- **Stops are support levels, not percentages**; the 30-day rule for momentum stocks stated in
+  2009 with a bounce entry and bounce-low stop — earlier than BOS (2016); and a defence of
+  stop-losses after the 2010 flash crash.
+- **Re-entry after being stopped out** recurs and the post pages under-weight it: "such
+  situations have often provided me with my best profits."
+- **The hourly timeframe** — flagged as undocumented in review #1 — appears in his research
+  chain: "monthly... then weekly, daily and hourly." Still no page for it.
+
+**CLAUDE.md §3 gains a citation convention** for comments (`WW comment <date>` + permalink; not
+listed in `## Sources`, which catalogue posts only).
+
+Touched: `src/ww/search/index.py` (+5 tests), `cli.py`, **new** `methodology/reader-qa.md`,
+`methodology/gmi.md` (two-speed origin corrected), `methodology/green-line-breakouts.md`
+(drawing mechanics), `methodology/risk-and-cash.md` (fund-switch constraint), `CLAUDE.md`,
+`index.md`. `ww lint .` clean; 194 tests pass.
+
+**Still unmined:** ~373 of the Q→A pairs and the 3,458 reader-authored comments (which show
+what people actually find unclear — a map of where the wiki should be more explicit).

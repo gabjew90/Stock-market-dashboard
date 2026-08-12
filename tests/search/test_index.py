@@ -73,3 +73,60 @@ def test_index_save_load_roundtrip(tmp_path):
     idx2 = SearchIndex.load(p)
     assert len(idx2.chunks) == len(idx.chunks)
     assert idx2.search("green line breakout", top_k=1)[0].text == idx.search("green line breakout", top_k=1)[0].text
+
+
+def _add_comments(root: Path) -> None:
+    """Two comments on the indexed post: a reader question and Dr. Wish's answer."""
+    rows = [
+        {"comment_id": 11, "post_id": 1, "date": "2012-07-24T08:00:00", "author": "A Reader",
+         "parent": 0, "text": "Does an intraday dip below the green line count as a violation?",
+         "url": "https://wishingwealthblog.com/2012/07/stage/#comment-11"},
+        {"comment_id": 12, "post_id": 1, "date": "2012-07-24T09:00:00", "author": "Dr. Wish",
+         "parent": 11, "text": "No, I only heed the weekly closing price below the green line.",
+         "url": "https://wishingwealthblog.com/2012/07/stage/#comment-12"},
+    ]
+    (root / "raw" / "comments.jsonl").write_text(
+        "\n".join(json.dumps(r) for r in rows) + "\n", encoding="utf-8")
+
+
+def test_build_index_includes_comments(tmp_path):
+    """4,136 reader comments carry rule clarifications absent from the post bodies —
+    they are useless unless `ww search` can reach them."""
+    _make_corpus(tmp_path)
+    _add_comments(tmp_path)
+    idx = build_index(tmp_path)
+    assert any(c.source.startswith("comment:") for c in idx.chunks)
+
+
+def test_search_finds_a_clarification_only_present_in_a_comment(tmp_path):
+    _make_corpus(tmp_path)
+    _add_comments(tmp_path)
+    idx = build_index(tmp_path)
+    hits = idx.search("intraday dip below the green line violation", top_k=5)
+    assert any(h.source.startswith("comment:") for h in hits)
+
+
+def test_comment_hits_cite_author_date_and_parent_post(tmp_path):
+    _make_corpus(tmp_path)
+    _add_comments(tmp_path)
+    idx = build_index(tmp_path)
+    hit = next(h for h in idx.search("weekly closing price below the green line", top_k=8)
+               if h.source.startswith("comment:"))
+    # A comment is only usable as evidence if you can attribute it and find the thread.
+    assert "Dr. Wish" in hit.citation
+    assert "2012-07-24" in hit.citation
+    assert "2012-07-23-stage" in hit.citation
+
+
+def test_search_source_filter_comments(tmp_path):
+    _make_corpus(tmp_path)
+    _add_comments(tmp_path)
+    idx = build_index(tmp_path)
+    hits = idx.search("green line", top_k=8, source="comments")
+    assert hits and all(h.source.startswith("comment:") for h in hits)
+
+
+def test_index_without_comments_file_still_builds(tmp_path):
+    _make_corpus(tmp_path)
+    idx = build_index(tmp_path)
+    assert idx.chunks and not any(c.source.startswith("comment:") for c in idx.chunks)

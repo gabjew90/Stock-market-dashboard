@@ -244,7 +244,16 @@ His conclusion, and it is a demotion:
 > therefore probably remain invested long term in the market (at least in my university pension
 > account) **as long as the RWB pattern is in place, even when the GMI signals Sell**."
 
-This produces the two-speed design the rest of the wiki describes but had never justified:
+This is where he *published the evidence and formalised* the two-speed design — but **not where
+the practice began.** The comment threads show it already operating as settled routine in
+November 2010: "When the GMI weakens to below 4, I start to move up stops or reduce positions
+based on each stock's technicals. However, as long as the longer term trends remain up, I stay
+invested in the mutual funds in my university pension." ([WW comment 2010-11-24](https://wishingwealthblog.com/2010/11/#comment-3072))
+There is also an administrative reason the pension moves slowly, which no post states: "I am
+limited as to how often I can transfer funds in and out of equity funds." ([WW comment 2010-07-09](https://wishingwealthblog.com/2010/07/#comment-2405))
+See [reader-qa.md](reader-qa.md).
+
+The design either way:
 
 | Horizon | Signal | Account |
 |---|---|---|
