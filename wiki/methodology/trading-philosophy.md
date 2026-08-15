@@ -3,6 +3,7 @@ title: Trading philosophy — the five propositions
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md
   - raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md
   - raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md
   - raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md
@@ -82,6 +83,24 @@ Angels**... I want to enjoy other things in my life... and manage my investments
 part-time**." ([WW 2014-05-26](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
 The system's cadence — weekly stages for the pension, a daily count for the trading account,
 evening scans, buy-stop automation — is engineered around a part-time operator.
+
+## The AOL epiphany — where the market gate came from
+
+The whole market-state apparatus traces to one personal observation from the 1990s, stated in
+January 2008: "Long before I developed the GMI, I noticed during the big tech rise of the 90's
+that **even the strongest stocks did poorly when the market went into a down-trend**. I remember
+looking at the leader, AOL, and seeing that even though it climbed greatly over that period, it
+still fell quite a bit during market declines... **This was my epiphany from my analysis of AOL
+ten years ago.**"
+
+He replicated it on ISRG, 2007's best Nasdaq 100 stock (tripled): **~69% of its gain came during
+the two major QQQQ up-trends**, and inside one 19-day down-trend it fell 22% from the prior top —
+"These losses would have occurred in a stock that *tripled* during the year! Would I have been
+brave (stupid?) enough to have held on?" Hence the rule: "I either sell out or set very close
+sell stops on my winners when the general market trend is down." ([WW 2008-01-02](../../raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md))
+
+The 70%-correlation doctrine, the GMI gate, and Proposition 3 are all downstream of this one
+chart-reading habit applied to AOL.
 
 ## Your own hit rate is an indicator
 
@@ -173,3 +192,4 @@ and the [backtest](backtest-timing-overlay.md).
 - [WW 2014-05-26 — Stage Analysis as the pundit filter; timeframe as a life choice](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md) ([summary](../sources/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
 - [WW 2010-12-13 — The 95-year Dow cycle framework](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md) ([summary](../sources/2010-12-13-where-are-we-in-the-market-cycle.md))
 - [WW 2005-05-30 — The orthodox agnostic; window dressing explained; the MW plan](../../raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md) ([summary](../sources/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md))
+- [WW 2008-01-02 — The AOL-induced epiphany, tested on ISRG](../../raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md) ([summary](../sources/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md))

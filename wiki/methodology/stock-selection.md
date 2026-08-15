@@ -3,6 +3,9 @@ title: Stock selection
 type: concept
 updated: 2026-08-12
 sources:
+  - raw/posts/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md
+  - raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md
+  - raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md
   - raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md
   - raw/posts/2011-09-19-3118.md
   - raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md
@@ -99,6 +102,18 @@ By 2010 he had refined the workflow into a multi-step funnel ([WW 2010-02-22](..
 The result: starting from 222 new 52-week highs in one week, 32 were near their 10-year ATH, and 22 passed the fundamental filter, of which 15 (68%) overlapped with IBD's selections. ([WW 2010-02-22](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
 
 He also used the IBD 100 / IBD 50 list as a starting pool — stocks that have already passed IBD's fundamental and relative-strength criteria. ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
+
+### The kiss-of-death study (2008) — the two-sided verdict
+
+Twelve months of his own monthly IBD100 snapshots, run against the folklore that appearing on
+the list marks a top. Both halves published: only 32–62% of each list's stocks were later higher
+("one cannot just buy any of the IBD100 stocks and expect a gain over time") — yet the lists
+utterly dominated on **new-high concentration** (11–16 new highs per list vs 2 in the whole
+Nasdaq 100), and the year-old list's tail was spectacular: 15% of it up 50–315% (MTL +315%, POT
++185%, BIDU +182%, RIMM +160%). "Appearing on the IBD100 list was apparently ***not* the kiss of
+death.**" The failure mode is sector concentration (the April 2008 list died with its
+ag/metals/oil load). Verdict: a leader-finder, not a portfolio — "one must not buy them and
+forget them." ([WW 2008-05-05](../../raw/posts/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md))
 
 ### Two caveats on the IBD list, from his own 2007 audit
 
@@ -331,6 +346,23 @@ In January 2017, Dr. Wish created a new TC2000 scan (name: `01292017ATHhipast40d
 
 This is distinct from the [BOS scan](stock-selection.md) (which uses a broader universe and a different trigger). The purpose is to find post-GLB pullback re-entries: stocks that already broke out, pulled back to oversold levels, and are resuming the advance. A pullback/bounce entry **does not require elevated volume** (unlike the GLB itself). Low volume on the pullback is a positive sign — selling has dried up. The stop is placed just below the recent bounce low. ([WW 2017-01-29](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
 
+## The triple-support bounce scan (2017)
+
+The strictest member of the bounce family: stocks that "bounced up off of **3 daily indicators
+of support/over-sold** within the past few days," ≥50% above the 250-day low, above $15 — **8 of
+4,800**. The PETS hit stacked everything at once: May GLB on high volume, consolidation, doubled
+in a year, EPS +37%/Comp 96/RS 98, and a rising yellowband. And the earnings-date hazard handled
+out loud: "PETS reports earnings on Monday morning... What to do? **Buy PETS a collar?!**"
+([WW 2017-07-23](../../raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md))
+
+## The pilot portfolio — 25-share radar positions (2014)
+
+The pilot buy scaled to a watchlist: across 11 biotech GLB candidates in a down-trend, "buy a
+few shares (up to 25) of each **just to keep them on my radar screen**. I then slowly add more
+to those that prove themselves and exit those that fail. I am looking for multi-month or year
+long moves." Ownership as attention; the winners select themselves. Paired with the biotech
+exemption — "so many discoveries... this is one area that can buck the market trend." ([WW 2014-10-05](../../raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md))
+
 ## The black dot — oversold-bounce signal (introduced 2021)
 
 For stocks already in an up-trend that have pulled back to an oversold level, Dr. Wish uses the **black dot** signal as an entry. A black dot appears on his TC2000 daily chart when: (1) the daily 10.1 stochastic was ≤25 in any of the past 3 days; (2) current price > prior day's price; (3) stock is above its 30-day average or its 21-day exponential average. ([WW 2021-06-13](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
@@ -409,3 +441,6 @@ After a Boston IBD Meetup presentation in May 2025, Dr. Wish published the most 
 - [WW 2016-11-27 — The weekly consolidation-breakout scan; short interest as fuel](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md) ([summary](../sources/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md))
 - [WW 2020-09-20 — The weekly doubler-ATH scan, full syntax; the note on the monitor](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) ([summary](../sources/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
 - [WW 2011-09-19 — Behavior over words; adviser-sentiment inversion; the point-move arithmetic](../../raw/posts/2011-09-19-3118.md) ([summary](../sources/2011-09-19-3118.md))
+- [WW 2008-05-05 — The kiss-of-death study](../../raw/posts/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md) ([summary](../sources/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md))
+- [WW 2017-07-23 — The triple-support bounce scan; PETS](../../raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md) ([summary](../sources/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md))
+- [WW 2014-10-05 — The pilot portfolio: 25-share radar positions](../../raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md) ([summary](../sources/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md))

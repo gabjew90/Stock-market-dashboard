@@ -1107,3 +1107,30 @@ Touched: `methodology/moving-average-rules.md` (hourly layer; 30-day rule),
 (window dressing), `methodology/trading-philosophy.md` (the orthodox agnostic),
 `history/timeline.md` (4 sections), `index.md`; 4 new `sources/` pages.
 `ww lint .` clean; 194 tests pass; ledger 153 rows.
+
+## [2026-08-12] ingest | the AOL epiphany, the kiss-of-death study, the pilot portfolio — 4 posts
+
+- **2008-01-02** — **the origin story of the market gate.** The 1990s AOL observation ("even
+  the strongest stocks did poorly when the market went into a down-trend") replicated
+  quantitatively on ISRG: 2007's best Nasdaq stock earned ~69% of its tripling inside the two
+  major up-trends and fell 22% from top inside one down-trend. The 70%-correlation doctrine,
+  the GMI gate and Proposition 3 all trace here. Also a second self-published GMI limitation:
+  its **QQQ-centricity** "masking the deterioration in the Dow and S&P 500" — named in January
+  2008, of all months.
+- **2008-05-05** — the **kiss-of-death study**: twelve months of his own monthly IBD100
+  snapshots. Two-sided verdict — a leader-finder, not a portfolio; new-high concentration
+  dominates the indexes; the year-old list's tail ran +50–315%; sector concentration is the
+  failure mode. Completes the IBD-audit series (2007 → 2008 → 2011 → 2013).
+- **2014-10-05** — the **pilot portfolio**: up-to-25-share radar positions across 11 biotech
+  GLB candidates inside a down-trend — "ownership as attention," winners self-select. The
+  biotech exemption stated; AMGN's monthly chart carries both a successful and a failed GLB.
+- **2017-07-23** — the **triple-support bounce scan** (the post that surfaced in the coverage
+  audit's random sample and proved the untouched bucket held methodology): three daily support
+  indicators bounced at once, 8 of 4,800; the PETS confluence stack; the earnings-collar idea.
+
+2008 now has 8 prose source pages (had 1 yesterday morning).
+
+Touched: `methodology/trading-philosophy.md` (AOL epiphany), `methodology/gmi.md`
+(QQQ-centricity), `methodology/stock-selection.md` (kiss-of-death; pilot portfolio;
+triple-support scan), `history/timeline.md` (4 sections), `index.md`; 4 new `sources/` pages.
+`ww lint .` clean; 194 tests pass; ledger 157 rows.

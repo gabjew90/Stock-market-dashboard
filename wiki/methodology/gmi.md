@@ -3,6 +3,7 @@ title: General Market Index (GMI)
 type: entity
 updated: 2026-08-12
 sources:
+  - raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md
   - raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md
   - raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md
   - raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md
@@ -267,6 +268,15 @@ averages plus one more) applied per ETF, though nothing states that.
 The same table prints `GMI Long Term Index (GMI-L): 94`, confirming it is published as a
 single percentage rather than a component count.
 
+## The QQQ-centricity blind spot, named in 2008
+
+A second self-published limitation, and an earlier one: "The GMI indexes focus more on the
+performance of the tech stocks, as measured by the QQQQ... The GMI therefore is **masking the
+deterioration in the Dow and S&P 500 stocks.**" Written January 2008 with SPY and DIA already
+below their 30-week averages while the GMI still read 4+. Four of the six components key on
+QQQ/breadth; only one watches SPY — so a rotation away from tech can leave the GMI optimistic.
+The WPM and the per-index stage checks exist partly to cover this flank. ([WW 2008-01-02](../../raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md))
+
 ## The signal record he published himself (2013)
 
 Before the 2015 limitation post, he published the full **red/green GMI signal chart for
@@ -466,3 +476,4 @@ Run it: `ww compute gmi 2026-05-11 --breadth` for a full 0–6 GMI on any date t
 - [WW 2008-04-21 — The 2000 pension exit in dollars; GMI-S at 100% inside a bear](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md) ([summary](../sources/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
 - [WW 2013-12-09 — Yes, one can time the market; the IBD50 downside test](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md) ([summary](../sources/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))
 - [WW 2016-02-07 — The December 2015 Sell signal audited; cash over short](../../raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md) ([summary](../sources/2016-02-07-why-i-follow-my-general-market-index-gmi.md))
+- [WW 2008-01-02 — The AOL-induced epiphany, tested on ISRG](../../raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md) ([summary](../sources/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md))

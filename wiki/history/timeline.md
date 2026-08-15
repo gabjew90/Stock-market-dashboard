@@ -3,6 +3,10 @@ title: Timeline — evolution of the methodology
 type: history
 updated: 2026-08-12
 sources:
+  - raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md
+  - raw/posts/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md
+  - raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md
+  - raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md
   - raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md
   - raw/posts/2010-06-04-ibd-says-market-in-new-up-trend-i-am-not-yet-convinced-some-possible-rocket-stocks.md
   - raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md
@@ -268,6 +272,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## January 2008 (epiphany) — the AOL analysis, tested on ISRG
+
+**"ISRG in 2007 analysis — AOL induced epiphany" (2008-01-02):** the origin of the market gate — the 1990s observation that even AOL, the era's leader, "still fell quite a bit during market declines," replicated on ISRG: 2007's best Nasdaq stock (tripled) earned ~69% of its gain inside the two major up-trends and fell 22% from top inside one down-trend. "Even the strongest stock will decline significantly during a market down-trend." Also names the GMI's QQQ-centricity blind spot — "masking the deterioration in the Dow and S&P 500 stocks" — with SPY/DIA already below their 30-weeks. ([WW 2008-01-02](../../raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md))
+
+---
+
 ## January 2008 — Darvas on bears; the blog's origin story
 
 **"Nicolas Darvas on staying clear of bear markets" (2008-01-14):** the GMI at zero for six straight days as 2008 opens (40 new highs vs 232 new lows). The blog's purpose in his own words: "It is because I was angry at how these mental midgets misled the public in the 2000-2002 debacle that I began this blog. **I want to educate the little person.**" Darvas quoted at length from the 1977 sequel: "I would rather be safe than sorry... I prefer to **sleep soundly at night**, even if it means going into cash for long periods," with the "masochistic pleasure" line on buy-and-hold. ([WW 2008-01-14](../../raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md))
@@ -277,6 +287,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## April 2008 — the dashboard split inside a bear rally; the 2000 exit priced
 
 **"My GMI catches trend changes again!" (2008-04-21):** GMI 5, GMI-R 9, **GMI-S 100%**, GMI-L 50% — every short-term indicator positive in the April 2008 rally while the Weekly QQQQ Index alone said the bear was intact. Hindsight vindicated the slow half. Also the only dollar figures ever put on the 2000 pension exit — out "around **$103**," the fund "trading **in the 30's**" by 2002 — the pension-until-GMI-6 re-entry bar, the train metaphor, and the tax-deferred precondition: "The key is to use tax deferred accounts where there are no tax consequences from getting in and out." ([WW 2008-04-21](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
+
+---
+
+## May 2008 — the kiss-of-death study
+
+**"IBD100 stock list — the kiss of death?" (2008-05-05):** twelve months of his own monthly IBD100 snapshots. Two-sided verdict: only 32–62% of each list later higher ("one cannot just buy any of the IBD100 stocks and expect a gain"), but the lists dominate on new-high concentration and the year-old list's tail ran +50–315% (MTL, POT, BIDU, RIMM). "Appearing on the IBD100 list was apparently *not* the kiss of death." Failure mode: sector concentration. ([WW 2008-05-05](../../raw/posts/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md))
 
 ---
 
@@ -542,6 +558,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## October 2014 (cont.) — the pilot portfolio
+
+**"11 biotechs with green line break-outs" (2014-10-05):** the pilot buy scaled to a watchlist — "buy a few shares (up to 25) of each just to keep them on my radar screen... slowly add more to those that prove themselves and exit those that fail" — across 11 biotech GLB candidates inside a down-trend, under the biotech exemption ("this is one area that can buck the market trend"). AMGN's monthly chart shown with both a successful (2012) and failed (2006) GLB. ([WW 2014-10-05](../../raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md))
+
+---
+
 ## October 2014 — Six signals for reading a decline; Stage 4 definition stated explicitly
 
 **"11th day of $QQQ short-term down-trend" (2014-10-13):** during a 2014 October correction, Dr. Wish articulates all four Weinstein stages clearly for the first time in an ingested post. Stage 4 definition: index or stock is below its declining 30-week average. He describes the pension-money transfer protocol: move out of mutual funds "in stages" if a Stage 4 threatens. T2108 was 14%; he notes it reached 13% in 2013 and 7% in the large 2011 decline. ([WW 2014-10-13](../../raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md))
@@ -631,6 +653,12 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 ## July 2017 — GLB doctrine consolidated; historical lineage from Darvas restated; six worked examples
 
 **"GLB: the sine qua non of rocket stocks" (2017-07-02):** a major consolidating post on the GLB. Dr. Wish traces the full Darvas → Livermore → Dr. Wish lineage: Darvas's "no exceptions" rule for all-time highs; his "already doubled" prerequisite; Livermore's IPO-GLB insight. He explains why he switched from Darvas's daily-price boxes to monthly charts (whipsaws). Six worked GLB examples: SHOP, SQ, BABA, Z, FB, BZUN. FB had multiple GLBs. Includes the re-entry rule: "If it retakes the green line I often buy it back." ([WW 2017-07-02](../../raw/posts/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md))
+
+---
+
+## July 2017 — the triple-support bounce scan
+
+**"TC2000 Scan for bounce up off of support" (2017-07-23):** the strictest bounce filter — three daily support/oversold indicators bounced within days, ≥50% above the 250-day low, >$15 — 8 of 4,800. PETS as the confluence stack (GLB + doubled + yellowband + fundamentals), and the earnings-date hazard met with "Buy PETS a collar?!" ([WW 2017-07-23](../../raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md))
 
 ---
 
@@ -1099,3 +1127,7 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2010-06-04 — IBD calls a follow-through day; he stays in cash](../../raw/posts/2010-06-04-ibd-says-market-in-new-up-trend-i-am-not-yet-convinced-some-possible-rocket-stocks.md) ([summary](../sources/2010-06-04-ibd-says-market-in-new-up-trend-i-am-not-yet-convinced-some-possible-rocket-stocks.md))
 - [WW 2005-05-30 — The orthodox agnostic; window dressing explained; the MW plan](../../raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md) ([summary](../sources/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md))
 - [WW 2012-05-07 — The 30-day close rule at full strength; new money vs old money](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md) ([summary](../sources/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md))
+- [WW 2008-01-02 — The AOL-induced epiphany, tested on ISRG](../../raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md) ([summary](../sources/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md))
+- [WW 2008-05-05 — The kiss-of-death study](../../raw/posts/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md) ([summary](../sources/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md))
+- [WW 2017-07-23 — The triple-support bounce scan; PETS](../../raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md) ([summary](../sources/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md))
+- [WW 2014-10-05 — The pilot portfolio: 25-share radar positions](../../raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md) ([summary](../sources/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md))
