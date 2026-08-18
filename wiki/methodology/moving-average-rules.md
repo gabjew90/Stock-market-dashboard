@@ -1,7 +1,7 @@
 ---
 title: Moving-average rules
 type: entity
-updated: 2026-08-12
+updated: 2026-08-18
 sources:
   - raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md
   - raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md
@@ -44,6 +44,9 @@ sources:
   - raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md
   - raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md
   - raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md
+  - raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md
+  - raw/posts/2019-03-24-decline-caused-by-inverse-yield-curve-and-or-mueller-report-stage-4-decline.md
+  - raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md
 ---
 
 # Moving-average rules
@@ -82,6 +85,8 @@ Stage analysis was introduced by Weinstein and adopted by Dr. Wish. The four sta
 - **Stage 4 — Declining.** The stock (or index) is below its declining 30-week average. "If they remain below these averages and the averages turn down, the market could be at the beginning of a major Stage 4 decline." ([WW 2014-10-13](../../raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md)) He transfers pension money out of mutual funds in stages when a Stage 4 threatens. The 10-week average crossing below the 30-week average confirms the Stage 4 onset. ([WW 2025-03-30](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
 
 **2025 example:** IWM's weekly chart in March 2025 showed the 10-week average crossing below the 30-week average while the weekly close (gray line) was leading everything lower — Dr. Wish called this "the BEGINNING of a Stage 4 down-trend," comparing it to a similar chart setup in 2022. ([WW 2025-03-30](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
+
+**A declining 30-week under a GREEN GMI (March 2019).** With the GMI at 6 and GMI2 barely weakened, what troubled him was that the QQQ and SPY 30-week averages were *still declining* — "a major sign of weakness for me, as it could indicate a Stage 4 decline." Two rules stated: "In prior large down-trends I would wait for the 30 week average to curve up before tiptoeing back into the market," and "a *close* back below the 30 week average could be ominous for the longs." He lightened up on the daily signal but sized by the weekly stage. ([WW 2019-03-24](../../raw/posts/2019-03-24-decline-caused-by-inverse-yield-curve-and-or-mueller-report-stage-4-decline.md)) Three months later, with DIA back under its 30-week: "If the 30 week average curves down, the market could be at major risk of a significant decline. That signal saved me from staying long during the 2000 and 2008 market debacles." ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
 
 ## The 30-day average — the short-term trend anchor
 
@@ -130,6 +135,8 @@ For stock selection, Dr. Wish uses the weekly GMMA (Guppy Multiple Moving Averag
 **Transition phases:** when the prior RWB pattern has ended but BWR is not yet formed (the white separation is gone), Dr. Wish is on the sidelines, waiting for direction to emerge. The 2018 Q4 decline illustrates this: the weekly QQQ had lost its RWB pattern but not yet fully formed a BWR. ([WW 2018-11-25](../../raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md))
 
 See [stock-selection.md](stock-selection.md) for the full description of how RWB is used in stock screening.
+
+**What a top looks like on the GMMA (2015).** Shown on the 2000 and 2007 QQQ tops: "The red lines converge, demonstrating little price movement over the different average lengths, and finally you get the red lines below the blue lines with a white area separating them." The rule attached: "Anytime the white space disappears and the red lines fall below the blue lines it is appropriate for me to become defensive." His chart adds a 13th average of length 1 (the weekly close) to Guppy's twelve. ([WW 2015-02-16](../../raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md))
 
 ## The 4-week / 10-week / 30-week alignment — a weekly stock rule
 
@@ -390,3 +397,6 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2010-12-13 — The 95-year Dow cycle framework](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md) ([summary](../sources/2010-12-13-where-are-we-in-the-market-cycle.md))
 - [WW 2022-08-07 — The hourly GMMA; the adapted Guppy across three timeframes](../../raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md) ([summary](../sources/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md))
 - [WW 2012-05-07 — The 30-day close rule at full strength; new money vs old money](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md) ([summary](../sources/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md))
+- [WW 2015-02-16 — GMMA charts show no market top in sight](../../raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md) ([summary](../sources/2015-02-16-gmma-charts-show-no-market-top-in-sight.md))
+- [WW 2019-03-24 — Inverted yield curve or Mueller report? Stage 4 decline?](../../raw/posts/2019-03-24-decline-caused-by-inverse-yield-curve-and-or-mueller-report-stage-4-decline.md) ([summary](../sources/2019-03-24-decline-caused-by-inverse-yield-curve-and-or-mueller-report-stage-4-decline.md))
+- [WW 2019-06-02 — Shorting stocks at new lows beats buying stocks at new highs](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md) ([summary](../sources/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))

@@ -38,6 +38,8 @@ sources:
   - raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md
   - raw/posts/2026-02-16-blog-day-8-of-qqq-short-term-down-trend-utilities-had-most-aths-13-see-list-followed-by-oilgas-10-rotation-aw.md
   - raw/posts/2026-03-15-blog-post-day-27-of-qqq-short-term-down-trend-gmi-0-and-red-more-new-us-52-week-lows-than-highs-this-weekly-c.md
+  - raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md
+  - raw/posts/2015-07-19-buying-climax-in-the-qqq.md
 ---
 
 # Risk & cash
@@ -98,6 +100,8 @@ Dr. Wish is explicit and detailed about how stops are used:
 
 He credits Nicolas Darvas's use of stop-losses as a key element of Darvas's fortune. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
 
+**A caveat from the August 2015 flash crash.** A resting stop order assumes an orderly market. On 2015-08-24 his preferred-stock ETF PFF opened at 38.52 against a 39.01 close, traded to 32.32 within ten minutes, and closed at 38.26 — priced by panic order flow, not by its holdings' value. "Imagine what would have happened if I had placed a market order to sell or had a standing sell stop order in place to protect me against a small decline! I might have been sold out at a huge loss." His conclusion was narrow — it soured him on holding *ETFs* rather than on stops ("this experience is enough to keep me away from most ETFs"; mutual funds price once, on computed NAV) — but it is the one documented case where his stop doctrine met its failure mode. ([WW 2015-09-08](../../raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md))
+
 ## Noise isolation as a precondition for clear analysis
 
 Richard Wyckoff (1924) anticipated Darvas's method: he made his best trades when isolated far from Wall Street, receiving only end-of-day prices by cable, ignoring all news and opinion. Darvas repeated this achievement thirty years later. Dr. Wish draws the direct lesson for the internet/CNBC era: "The more I insulate myself from outside influences and concentrate just on the movement of stocks, the better I trade. One must be a loner and confident in one's own judgments." ([WW 2006-02-06](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
@@ -155,6 +159,8 @@ Restated in November with the mechanism attached: "I love market declines becaus
 ## Breadth divergence as an early exit signal
 
 In addition to the GMI and 30-week average, Dr. Wish tracks daily new highs and new lows against the full US stock universe. A surge in new lows while the index is at highs is an early warning — the key signal behind his November 2021 exit, when new lows hit 438 on the day QQQ peaked (day U-26 of the short-term up-trend). He stayed out for over a year through the subsequent Stage 4 decline. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
+
+An earlier worked read, July 2015, with the GMI at 6: the QQQ closed the week +5.5% at an all-time high while SPY and DIA lagged, only 34% of Nasdaq-100 stocks rose on the day, and new yearly lows *exceeded* new highs across ~5,000 stocks — the index carried by GOOG, FB, NFLX, CELG, AMZN. "It does not bode well for an army when most troops do not follow the generals." Two overbought reads (56% of QQQ constituents overbought; QQQ above its upper 15.2 daily Bollinger Band) made the 7%-in-six-days run look like a buying climax; he held a small SQQQ position. ([WW 2015-07-19](../../raw/posts/2015-07-19-buying-climax-in-the-qqq.md)) The 2015 read and the November 2021 exit above are the same test applied six years apart.
 
 ## T2108 as a contrarian bottom signal
 
@@ -242,3 +248,5 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2025-06-29 — Day 44 of QQQ up-trend; GLB in Fidelity Contrafund; pension re-entry](../../raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md) ([summary](../sources/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md))
 - [WW 2026-02-16 — Day 8 of QQQ down-trend; QQQ pulls back to green line + 30wk](../../raw/posts/2026-02-16-blog-day-8-of-qqq-short-term-down-trend-utilities-had-most-aths-13-see-list-followed-by-oilgas-10-rotation-aw.md) ([summary](../sources/2026-02-16-blog-day-8-of-qqq-short-term-down-trend-utilities-had-most-aths-13-see-list-followed-by-oilgas-10-rotation-aw.md))
 - [WW 2026-03-15 — Day 27 of QQQ down-trend; GMI=0 Red; Stage 4 warning](../../raw/posts/2026-03-15-blog-post-day-27-of-qqq-short-term-down-trend-gmi-0-and-red-more-new-us-52-week-lows-than-highs-this-weekly-c.md) ([summary](../sources/2026-03-15-blog-post-day-27-of-qqq-short-term-down-trend-gmi-0-and-red-more-new-us-52-week-lows-than-highs-this-weekly-c.md))
+- [WW 2015-09-08 — Market trend clearly down; diminished trust in ETFs after the flash crash](../../raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md) ([summary](../sources/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md))
+- [WW 2015-07-19 — Buying climax in the QQQ?](../../raw/posts/2015-07-19-buying-climax-in-the-qqq.md) ([summary](../sources/2015-07-19-buying-climax-in-the-qqq.md))

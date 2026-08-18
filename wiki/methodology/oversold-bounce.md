@@ -15,6 +15,7 @@ sources:
   - raw/posts/2023-08-03-blog-post-day-67-of-qqq-short-term-up-trend-115-new-us-highs-and-44-lows-11-stocks-have-osb-after-recent-ath.md
   - raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md
   - raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md
+  - raw/posts/2019-02-10-green-dot-signal-lulu.md
 ---
 
 # The oversold bounce (OSB / ATHOSB)
@@ -71,6 +72,7 @@ The pattern recurs with the later blue-dot variant: SHAK, a recent GLB, fell bac
 | Date | Change |
 |---|---|
 | 2018-03-11 | Bounce-over-breakout preference stated, with the green dot fully defined ([WW 2018-03-11](../../raw/posts/2018-03-11-green-dot-strategy-defined.md)) |
+| 2019-02-10 | Bounce-over-breakout preference restated on the green dot, with the weekly-chart check and bounce-low stop worked on LULU ([WW 2019-02-10](../../raw/posts/2019-02-10-green-dot-signal-lulu.md)) |
 | 2021-05-06 | OSB named in a post title; candidates must be above their green line tops and near ATHs ([WW 2021-05-06](../../raw/posts/2021-05-06-blog-post-day-2-of-qqq-short-term-down-trend-but-378-new-highs-among-us-stocks-non-qqq-type-stocks-still-risi.md)) |
 | 2021-05-23 | Scan revised: "detects stocks near a recent ATH that have bounced from an over-sold level" ([WW 2021-05-23](../../raw/posts/2021-05-23-blog-post-13th-day-of-qqq-short-term-down-trend-revised-osb-oversold-bounce-scan-yields-gs-and-bgfv.md)) |
 | 2021-08-11 | Price > $200 filter added to the OSB scans ([WW 2021-08-11](../../raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md)) |
@@ -102,3 +104,4 @@ The pattern recurs with the later blue-dot variant: SHAK, a recent GLB, fell bac
 - [WW 2023-09-13 — VRT has OSB and a recent GLB](../../raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md) ([summary](../sources/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md))
 - [WW 2025-07-09 — SHAK retakes green line after a Blue Dot OSB](../../raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md) ([summary](../sources/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md))
 - [WW 2018-03-11 — Green Dot strategy defined](../../raw/posts/2018-03-11-green-dot-strategy-defined.md) ([summary](../sources/2018-03-11-green-dot-strategy-defined.md))
+- [WW 2019-02-10 — Green dot signal: LULU](../../raw/posts/2019-02-10-green-dot-signal-lulu.md) ([summary](../sources/2019-02-10-green-dot-signal-lulu.md))

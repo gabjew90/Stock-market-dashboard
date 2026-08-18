@@ -34,6 +34,7 @@ sources:
   - raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md
   - raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md
   - raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md
+  - raw/posts/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md
 ---
 
 # Stock selection
@@ -182,6 +183,8 @@ hand** on the monthly charts. The rationale for mining ATHs in weak markets: "A 
 come through market turmoil and still hit an all time high is a stock that **might take off when
 the market strengthens**" (how he found GMCR in April 2009). ([WW 2018-04-01](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
 
+**Weak tapes are when the watchlist gets built.** "I love weak markets when few stocks hit new yearly highs. It is easier to see the leaders. A stock that can come through a large decline at new highs is evidencing unusual buying interest." On 2015-09-11 only 37 stocks made new highs; he kept 17, most above a green-line top, with TC2000 alerts set for breakouts — and no buying "until I see a new market up-trend and have the wind at my back." That is how he found GMCR at its early-2009 GLB after the 2008 bear, a 10-bagger. ([WW 2015-09-13](../../raw/posts/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md))
+
 ## O'Neil 1995 workshop: volume over EPS
 
 From Dr. Wish's personal trading diary (November 11, 1995, copyright Dr. Eric Wish):
@@ -268,3 +271,4 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2022-06-05 — ATH-only selection; GLB re-entry; Darvas/Ryan doubler criterion](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md) ([summary](../sources/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))
 - [WW 2022-12-04 — TC2000 gap-up scan; $TMDX $TMUS](../../raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md) ([summary](../sources/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md))
 - [WW 2023-04-24 — WING missed GLB; TC2000 price alerts](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md) ([summary](../sources/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
+- [WW 2015-09-13 — Taking stock: technical indicators at extreme levels; INGN](../../raw/posts/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md) ([summary](../sources/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md))

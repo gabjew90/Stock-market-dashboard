@@ -264,9 +264,12 @@ IBD Growth Mutual Fund index (`0muti`) above its 50-day average, confirmed 2008/
 2007 also yielded two previously undocumented indicators, **GMI-L** and the **GMI-S construction**.
 *Closed 2026-08-18:* the **short-side** page (`methodology/short-side.md`); the GMI component
 *labels* (read off four table images 2007/2013/2020/2026 — see `methodology/gmi-evidence.md`).
-*Still open:* **2015** and **2019** (one source page each); the **hourly / multi-timeframe GMMA**;
+*Closed 2026-08-18 (evening):* **2015** and **2019** (now 7 source pages each — the pension
+self-correction, the GMMA top signature, the flash-crash ETF lesson, the green-dot procedure, the
+successful-10-day-new-low mirror, the too-easy sell) and **trading psychology**
+(`methodology/trading-psychology.md`). *Still open:* the **hourly / multi-timeframe GMMA**;
 **position sizing and portfolio construction**; the **off-blog
 teaching corpus** (~63 posts pointing at Worden webinars, AAII, TraderLion, TASC, YouTube);
-**trading psychology**; the **Twitter alert channel**. Historically, components 1, 2 and 6 were
+the **Twitter alert channel** (touched only via 2019-11-24). Historically, components 1, 2 and 6 were
 confirmed verbally at multiple dates, and 3–5 rested on the 2005 definition plus 2007/2012
 corroboration.

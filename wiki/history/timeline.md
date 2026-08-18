@@ -1,7 +1,7 @@
 ---
 title: Timeline — evolution of the methodology
 type: history
-updated: 2026-08-12
+updated: 2026-08-18
 sources:
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md
@@ -152,6 +152,18 @@ sources:
   - raw/posts/2026-02-16-blog-day-8-of-qqq-short-term-down-trend-utilities-had-most-aths-13-see-list-followed-by-oilgas-10-rotation-aw.md
   - raw/posts/2026-03-15-blog-post-day-27-of-qqq-short-term-down-trend-gmi-0-and-red-more-new-us-52-week-lows-than-highs-this-weekly-c.md
   - raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md
+  - raw/posts/2015-01-25-fly-by-my-gut-or-follow-my-instruments-fasten-seat-belts-aapl-looks-strong.md
+  - raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md
+  - raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md
+  - raw/posts/2015-07-19-buying-climax-in-the-qqq.md
+  - raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md
+  - raw/posts/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md
+  - raw/posts/2019-02-10-green-dot-signal-lulu.md
+  - raw/posts/2019-03-24-decline-caused-by-inverse-yield-curve-and-or-mueller-report-stage-4-decline.md
+  - raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md
+  - raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md
+  - raw/posts/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md
+  - raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md
 ---
 
 # Timeline — evolution of the methodology
@@ -582,11 +594,23 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## January 2015 — gut vs instruments; the whipsaw pattern noticed
+
+**"Fly by my gut or follow my instruments? (fasten seat-belts!) AAPL looks strong" (2015-01-25):** a GMI Buy and QQQ Day U-1 against every rational bear argument and his own gut — "the market tends to move in a direction opposite to the way my emotions point… I suspect it was my instruments." He notes the recent Buy signals had each reversed within 5–7 days, the observation he formalised four weeks later as the GMI's limitation. SPY still under its 10-week while QQQ regains it; AAPL back above its 10-week ("I have always profited by owning AAPL when it is above this average"). ([WW 2015-01-25](../../raw/posts/2015-01-25-fly-by-my-gut-or-follow-my-instruments-fasten-seat-belts-aapl-looks-strong.md))
+
 ## February 2015 — he publishes a limitation of the GMI and demotes it
 
 **"An important limitation of the GMI signals" (2015-02-22):** with the GMI at 6 of 6, Dr. Wish examines a GMMA chart of the QQQ and finds the GMI issued **7 Sell signals followed by 7 Buy signals since early 2014** while the QQQ never left its RWB up-trend. He restricts the signal accordingly — "a GMI Sell signal should only be used by me for short term trading decisions" — and moves long-horizon allocation onto the weekly GMMA: stay invested "as long as the RWB pattern is in place, even when the GMI signals Sell." He reinvests his pension. This is the origin of the two-speed design (GMI for the trading IRA, GMMA for the pension) and the honest frame for the [backtest](../methodology/backtest-timing-overlay.md). "One must never stop learning and adapting when it comes to the markets." ([WW 2015-02-22](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md))
 
 ---
+
+## February 2015 (GMMA) — what a top looks like; pension re-entry begins
+
+**"GMMA charts show no market top in sight" (2015-02-16):** the top signature on his modified weekly GMMA (12 EMAs + a 13th of length 1 for the close), shown on the 2000 and 2007 QQQ tops — red lines converge, then fall below the blue with white space between; "anytime the white space disappears and the red lines fall below the blue lines it is appropriate for me to become defensive." February 2015 is a continuing RWB advance since early 2013. He begins moving pension money back into funds, three weeks after the January 23 Buy signal: "Everyone has to sell down to their own comfort level." ([WW 2015-02-16](../../raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md))
+
+## March 2015 — the pension self-correction; the Darvas EasyScan
+
+**"On my use of the GMI; a Darvas type RWB rocket stock: AMBA" (2015-03-01):** an explicit self-correction — the pension rule is the QQQ 30-week average turning down, it never did in 2014, and he pulled the pension anyway: "the huge increase in my pension account since 2009 together with my fear of losing the gains caused me to ignore my primary rule and to prematurely go to cash. I am back in the market now." Also the TC2000 Darvas EasyScan (46 of ~6,000) with AMBA above its green-line top in a weekly RWB pattern. ([WW 2015-03-01](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md))
 
 ## July 2015 — the warning: Stage IV spreading beneath a strong QQQ
 
@@ -594,11 +618,21 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## July 2015 (breadth) — the buying-climax read: generals without troops
+
+**"Buying climax in the QQQ?" (2015-07-19):** QQQ +5.5% on the week to an ATH while SPY/DIA lag, 34% of Nasdaq-100 stocks up on the day, and new lows exceeding new highs across ~5,000 stocks — GOOG, FB, NFLX, CELG, AMZN carrying a cap-weighted index. "It does not bode well for an army when most troops do not follow the generals." 56% of QQQ constituents overbought and QQQ above its upper 15.2 daily Bollinger Band; small SQQQ position; GMI still 6. ([WW 2015-07-19](../../raw/posts/2015-07-19-buying-climax-in-the-qqq.md))
+
 ## August 2015 — the flash crash, from 100% cash
 
 **"Is worst of stock market decline over? I'm not betting on it" (2015-08-30):** the year's first timeline section — 2015 previously had zero. Written 13 days into the down-trend, from 100% cash in the trading accounts, GMI at 0 for five straight days. Severity judged by comparison: the technical damage was "far greater" than October 2014's analogous GMI=0 episode, so no quick recovery expected; the test is whether QQQ retakes its 30-week average. The pension trade-off in one sentence — "**I would rather miss a further 5-10% rise than sit through a possible 20-40% decline**" — plus the Boomer-supply thesis (retracement toward break-even triggers selling) and criticism of the exchanges' disorderly Monday open. ([WW 2015-08-30](../../raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md))
 
 ---
+
+## September 2015 — GMI 0; the ETF flash-crash lesson; leaders in a weak tape
+
+**"Market trend clearly down; my diminished trust in ETFs after the flash crash" (2015-09-08):** GMI 0 on a Sell since August 24, D-18, ~100% cash in trading accounts, most of the pension back in money market while new contributions keep dollar-cost-averaging in. The August 24 mini flash crash: PFF opened 38.52 (prior close 39.01), traded to 32.32 within ten minutes, closed 38.26 — priced by order flow, not NAV. "Imagine what would have happened if I had placed a market order to sell or had a standing sell stop order in place… I might have been sold out at a huge loss. This experience is enough to keep me away from most ETFs." ([WW 2015-09-08](../../raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md))
+
+**"Taking stock of the market — technical indicators at extreme levels; INGN" (2015-09-13):** three contrarian extremes — II bears > bulls, put/call 1.42, T2108 in single digits ("back up the truck and buy a large market index ETF like SPY… psychologically very difficult") — against a weekly BWR just beginning in DIA, on which he tends to exit; he does not buy. "I love weak markets when few stocks hit new yearly highs. It is easier to see the leaders": 37 new highs on Friday, 17 kept on a watchlist, the habit that found GMCR at its 2009 GLB (a 10-bagger). INGN, flagged December 2014 at $30.25, at $54.58. ([WW 2015-09-13](../../raw/posts/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md))
 
 ## January 2016 — Global BWR sweep; worldwide down-trends
 
@@ -728,17 +762,39 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 ---
 
+## February 2019 — the green dot procedure on LULU; bounces over breakouts restated
+
+**"Green dot signal: LULU" (2019-02-10):** the fullest green-dot walk-through — oversold fast stochastic crossing the slow; check the weekly for trend and position versus the last green-line top; stop below the bounce-day low (143.06 → 142.99); a lower-15.2-BB bounce as a plus; IBD would wait for the ~153 pivot. "This signal is not often useful for a declining stock," and with many GLBs failing "this set-up may not work." The preference restated: "I prefer to buy bounces from support rather than the actual break-out because I can set my stop loss at a technically meaningful place where the possible loss is also minimal." Idea via @TMLTrader. ([WW 2019-02-10](../../raw/posts/2019-02-10-green-dot-signal-lulu.md))
+
 ## March 2019 — buy on the daily, sell only off the weekly
 
 **"How I Avoid Getting Shaken Out of Strong Growth Stocks" (2019-03-15):** the anti-shakeout rule as a standing procedure — check the weekly before every sale; if the stock holds its rising 10-week average, hold. "While I may time the purchase of a stock based on its set-up of daily indicators, **I should only sell it after viewing its weekly chart.**" COUP as the hard test: two daily sell signals fired, the weekly said hold, he held. ([WW 2019-03-15](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md))
 
 ---
 
+## March 2019 (30-week) — a declining 30-week under a GREEN GMI; the IPO GLB stated
+
+**"Decline caused by inverse yield curve and/or Mueller report? Stage 4 decline?" (2019-03-24):** GMI 6, GMI2 barely weakened, and yet "most troubling to me is that for QQQ and SPY the 30 week average is still declining… it could indicate a Stage 4 decline." "In prior large down-trends I would wait for the 30 week average to curve up before tiptoeing back into the market"; a *close* back below the 30-week "could be ominous for the longs." He lightened up. ([WW 2019-03-24](../../raw/posts/2019-03-24-decline-caused-by-inverse-yield-curve-and-or-mueller-report-stage-4-decline.md))
+
+**"Buying IPOs with a recent GLB: SAFE, YETI, TWLO" (2019-03-29):** "recent IPOs (within last 4-5 years) that form a multi-month top and then break through on above average volume to an all-time high"; "I never hold a GLB that *closes* back below its green line, but I often will repurchase it if it closes back above its green line." ([WW 2019-03-29](../../raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md))
+
 ## April 2019 — IPO GLB; IIPR; QQQ trend duration statistics
 
 **"Trading IPOs with a GLB and a green dot signal: $IIPR; QQQ short-term up-trend in 61st day" (2019-04-07):** Dr. Wish applies the GLB concept to recent IPOs, citing Jesse Livermore's 100-year-old principle of waiting for an IPO to settle and then trading it at a new ATH. IIPR (cannabis REIT) is the worked example: IPO December 2016, green line at $20.54, GLB in December 2017, subsequently quadrupled. FB cited as a historical comparison — first GLB at $45, 17 months after IPO. The **green dot** signal is introduced as a secondary re-entry tool after a GLB. The post also includes the most detailed published tabulation of **QQQ trend duration statistics** (through March 2019): ~40% of new down-trends end in fewer than 6 days; longest up-trend 88 days; longest down-trend 69 days. ([WW 2019-04-07](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md))
 
 ---
+
+## June 2019 — the successful-10-day-new-low mirror; make money or be smart
+
+**"In this market, shorting stocks at new lows is a far better strategy than buying stocks at new highs" (2019-06-02):** the mirror of GMI component 1 disclosed — the nightly % of stocks that hit a new low 10 days ago and closed lower; since May 7 the high side ≥ 50% on 5 days, the low side on 16 of 17. "The rules for buying stocks on support that worked in the rising market fail miserably… Ask, do I want to make money or to be smart?" DIA back below its 30-week (possible triple top): "If the 30 week average curves down… That signal saved me from staying long during the 2000 and 2008 market debacles." GMI 1, T2108 24% — "typically falls below 10% at or near a market bottom." ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
+
+## July 2019 — riding SPY and TQQQ; the index-ETF version for conservative investors
+
+**"Wonderful DC AAII meeting; riding SPY and TQQQ" (2019-07-14):** the undergraduate course's slides presented to the DC AAII with a focus on index ETFs rather than growth stocks for an older audience; "I am riding SPY and TQQQ during this market up-trend. The daily RWB pattern is just too strong to ignore… I do not argue with the market or listen to media pundits. I simply follow the general market's trend until it ends." ([WW 2019-07-14](../../raw/posts/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md))
+
+## November 2019 — the too-easy voice: INMD sold at $57
+
+**"Why I sold INMD at $57; following the tweets of some smart traders" (2019-11-24):** the discretionary exit above the mechanical ones — Yahoo at ~$400 pre-split in the 1990s, INMD up ~$9 pre-market, vertical, outside its upper 15.2 daily BB on very heavy volume: "whenever my voice cautions me that way, I sell… When I make money too fast, I sell." Bought November 6 at ATH with a stop below the prior day's low, sold ~$57 (+40% in nine days); INMD closed the week at $41.55. Ideas from @markminervini and @TMLTrader. GMI 4, GMI2 short-term components negative. ([WW 2019-11-24](../../raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md))
 
 ## March 2020 — COVID crash: 2020 exit documented; "amputation without anaesthetics"
 
@@ -1143,3 +1199,15 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2008-05-05 — The kiss-of-death study](../../raw/posts/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md) ([summary](../sources/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md))
 - [WW 2017-07-23 — The triple-support bounce scan; PETS](../../raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md) ([summary](../sources/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md))
 - [WW 2014-10-05 — The pilot portfolio: 25-share radar positions](../../raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md) ([summary](../sources/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md))
+- [WW 2015-01-25 — Fly by my gut or follow my instruments? AAPL](../../raw/posts/2015-01-25-fly-by-my-gut-or-follow-my-instruments-fasten-seat-belts-aapl-looks-strong.md) ([summary](../sources/2015-01-25-fly-by-my-gut-or-follow-my-instruments-fasten-seat-belts-aapl-looks-strong.md))
+- [WW 2015-02-16 — GMMA charts show no market top in sight](../../raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md) ([summary](../sources/2015-02-16-gmma-charts-show-no-market-top-in-sight.md))
+- [WW 2015-03-01 — On my use of the GMI; pension self-correction; Darvas scan; AMBA](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md) ([summary](../sources/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md))
+- [WW 2015-07-19 — Buying climax in the QQQ?](../../raw/posts/2015-07-19-buying-climax-in-the-qqq.md) ([summary](../sources/2015-07-19-buying-climax-in-the-qqq.md))
+- [WW 2015-09-08 — Market trend clearly down; diminished trust in ETFs after the flash crash](../../raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md) ([summary](../sources/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md))
+- [WW 2015-09-13 — Taking stock: technical indicators at extreme levels; INGN](../../raw/posts/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md) ([summary](../sources/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md))
+- [WW 2019-02-10 — Green dot signal: LULU](../../raw/posts/2019-02-10-green-dot-signal-lulu.md) ([summary](../sources/2019-02-10-green-dot-signal-lulu.md))
+- [WW 2019-03-24 — Inverted yield curve or Mueller report? Stage 4 decline?](../../raw/posts/2019-03-24-decline-caused-by-inverse-yield-curve-and-or-mueller-report-stage-4-decline.md) ([summary](../sources/2019-03-24-decline-caused-by-inverse-yield-curve-and-or-mueller-report-stage-4-decline.md))
+- [WW 2019-03-29 — Buying IPOs with a recent GLB: SAFE, YETI, TWLO](../../raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md) ([summary](../sources/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md))
+- [WW 2019-06-02 — Shorting stocks at new lows beats buying stocks at new highs](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md) ([summary](../sources/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
+- [WW 2019-07-14 — DC AAII meeting; riding SPY and TQQQ](../../raw/posts/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md) ([summary](../sources/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md))
+- [WW 2019-11-24 — Why I sold INMD at $57; the too-easy voice](../../raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md) ([summary](../sources/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md))

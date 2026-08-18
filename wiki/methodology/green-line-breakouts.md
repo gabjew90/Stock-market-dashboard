@@ -1,7 +1,7 @@
 ---
 title: Green Line Breakouts (GLB)
 type: entity
-updated: 2026-08-12
+updated: 2026-08-18
 sources:
   - raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md
   - raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md
@@ -35,6 +35,7 @@ sources:
   - raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md
   - raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md
   - raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md
+  - raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -104,6 +105,8 @@ Recent IPOs are especially attractive GLB candidates because of the predictable 
 Example: Facebook came public in May 2012 at $42.05, rose to $45 in its first month, then declined 61% to $17.55 by September 2012. In September 2013 — 17 months after its IPO — FB traded at a new ATH. That is when Dr. Wish buys. FB went on to have four GLBs. ([WW 2020-12-27](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
 
 Example: TWTR IPO'd and formed a green line top at $74.73 in December 2013 (one month after its IPO). It stayed below that level for 8 years and had a GLB in February 2021. William O'Neil liked buying companies that had come public in the previous 8 years and broken out to new ATHs — TWTR fits this profile. ([WW 2021-02-28](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
+
+Stated compactly in March 2019: "I like to buy recent IPOs (within last 4-5 years) that form a multi-month top and then break through on above average volume to an all-time high" — the appeal being "a lot of room to gain as traders see the new highs and jump on board." The exit-and-re-entry pair travels with it: "I never hold a GLB that *closes* back below its green line, but I often will repurchase it if it closes back above its green line." Examples SAFE, YETI, TWLO. ([WW 2019-03-29](../../raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md))
 
 ## The WGB — a second-chance entry after a GLB
 
@@ -318,3 +321,4 @@ This is continuous with the 2016 [BOS](stock-selection.md) preference ("I actual
 - [WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap; LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md) ([summary](../sources/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
 - [WW 2023-01-16 — How I trade a GLB: the close-below rule shown intraday](../../raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md) ([summary](../sources/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md))
 - [WW 2013-10-13 — The sleeping point; failed GLBs as sell-side weakness; GLD Stage 4](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md) ([summary](../sources/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md))
+- [WW 2019-03-29 — Buying IPOs with a recent GLB: SAFE, YETI, TWLO](../../raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md) ([summary](../sources/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md))

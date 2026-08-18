@@ -24,6 +24,7 @@ sources:
   - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
   - raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md
   - raw/posts/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md
+  - raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md
 ---
 
 # General Market Index (GMI)
@@ -117,6 +118,8 @@ Dr. Wish tracks the daily count of new 52-week highs and lows in TC2000 (filtere
 The implementation requires the built-in "Price New High" and "Price New Low" TC2000 conditions, not custom PCF formulas (which fail for stocks without the full history window). ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 
 Documented example: in **November 2021**, QQQ was at all-time highs (day U-26 of the short-term up-trend) but new lows surged to **438 on 11/22/2021** — QQQ's exact peak. This divergence led Dr. Wish to exit the market. The subsequent Stage 4 decline lasted over a year. He describes it as a "lucky call" but attributes it to the breadth divergence signal. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
+
+**The mirror statistic (2019).** Component 1 has an unpublished twin he computes nightly: the **successful 10-day new low** percentage — of the stocks that hit a new low 10 days ago, the share that closed *lower* than 10 days earlier. In May–June 2019 the high-side statistic had been ≥ 50% on only 5 days while the low-side was ≥ 50% on 16 of 17 days, which is how he concluded that "shorting stocks at new lows is a far better strategy than buying stocks at new highs" in that tape. It is not a GMI component; it is the diagnostic that tells him which side the component-1 logic favours. ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md)) See [the short side](short-side.md).
 
 ## Evolution
 
@@ -260,3 +263,4 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 - [WW 2023-08-09 — Component 6 could flip the GMI to Red; SQQQ accumulation](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md)
 - [WW 2025-12-14 — Component 6 (0MUTI) still live and now negative; FFTY daily BWR](../../raw/posts/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md) ([summary](../sources/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md))
+- [WW 2019-06-02 — Shorting stocks at new lows beats buying stocks at new highs](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md) ([summary](../sources/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))

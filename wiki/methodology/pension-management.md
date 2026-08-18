@@ -12,6 +12,9 @@ sources:
   - raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md
   - raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md
   - raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md
+  - raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md
+  - raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md
+  - raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md
 ---
 
 # The two accounts — university pension vs trading IRA
@@ -37,6 +40,8 @@ When the QQQ shows signs of weakening (approaching Stage 3/4), Dr. Wish exits th
 **GMI/QQQ divergence as a warning:** a rare situation where the GMI is on a Buy signal but the QQQ short-term down-trend persists for many days (e.g., 24 days in April 2014) is treated as a warning to tighten risk, even though the GMI has not yet flipped to Sell. ([WW 2014-04-27](../../raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md))
 
 **5-day confirmation threshold for down-trends:** Dr. Wish is more confident a new QQQ short-term down-trend will persist once it has lasted **5 days**. "Once we pass that point, trends tend to last for a while." Before Day 5, a reversal is still likely and he may not act on the pension. ([WW 2010-05-09](../../raw/posts/2010-05-09-great-washington-worden-seminar-market-in-short-term-down-trend-mainly-in-cash.md))
+
+**The rule, and the one time he broke it (2014–15).** The pension trigger is the 30-week average *turning down*, not a GMI Sell: "every time [the GMI] turns to a Sell does not signify to me that a major decline is beginning. In the past, the 30 week average of the QQQ had to turn down to get me to pull my most conservative pension money out of the market." In 2014 the average never turned down, yet he moved most of the pension to money market — "the huge increase in my pension account since 2009 together with my fear of losing the gains caused me to ignore my primary rule and to prematurely go to cash." He called it a mistake in hindsight and was back in by March 2015. ([WW 2015-03-01](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md)) The re-entry had begun in mid-February, in stages, three weeks after the January 23 Buy signal — "Everyone has to sell down to their own comfort level." ([WW 2015-02-16](../../raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md)) By September 2015 the majority of the pension was back in money market with the GMI at 0 — this time with the weekly BWR pattern beginning in the major averages. ([WW 2015-09-08](../../raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md)) The psychology of the 2014 breach is on [trading psychology](trading-psychology.md#3-fear-will-make-you-break-your-own-rule--he-did-and-said-so).
 
 ## The pension has an administrative constraint, not just a signal
 
@@ -66,6 +71,8 @@ the market will eventually rebound. **I never do so with individual stocks, beca
 could go bankrupt, as was the case with GM and Enron and Lehman.**" Dollar-cost averaging is
 acceptable exactly where bankruptcy is impossible; never-average-down governs single names.
 ([WW 2012-05-07](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md))
+
+Restated in the 2015 exit: "my *new* pension contributions keep buying mutual fund shares as they fall (dollar cost averaging)" — the balance is out, the flow stays in. ([WW 2015-09-08](../../raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md))
 
 ## The pension trade-off, in one sentence
 
@@ -123,3 +130,6 @@ is that the standard framing overstates the cost.
 - [WW 2012-05-07 — The 30-day close rule at full strength; new money vs old money](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md) ([summary](../sources/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md))
 - [WW 2014-04-27 — Staged pension exit; 30-week trigger; GMI/QQQ divergence](../../raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md) ([summary](../sources/2014-04-27-i-do-not-want-to-be-long-in-this-market.md))
 - [WW 2015-08-30 — The August 2015 flash crash: depth comparison; pension exit criteria](../../raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md) ([summary](../sources/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md))
+- [WW 2015-02-16 — GMMA charts show no market top in sight](../../raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md) ([summary](../sources/2015-02-16-gmma-charts-show-no-market-top-in-sight.md))
+- [WW 2015-03-01 — On my use of the GMI; pension self-correction; Darvas scan; AMBA](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md) ([summary](../sources/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md))
+- [WW 2015-09-08 — Market trend clearly down; diminished trust in ETFs after the flash crash](../../raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md) ([summary](../sources/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md))

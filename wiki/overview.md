@@ -50,6 +50,7 @@ Once the market is GREEN, the process narrows the universe to the best rocket ca
 - [Track record — calls & outcomes](history/track-record.md) — the documented calls: the 1994–2009 13×/14× IRA, the 2000 and 2008 exits, February 2020, November 2021
 - [Trend-flip log](history/trend-flip-log.md) — every ST/LT trend flip (2007–2026) + detailed entries incl. April-2025 tariff decline and 2026 Iran-war-period decline
 - [Backtest — the timing overlay](methodology/backtest-timing-overlay.md) — quantified evidence on the GMI market-state gate vs buy-and-hold QQQ (2007–2026)
+- **[Trading psychology](methodology/trading-psychology.md)** — the eight rules he uses on himself: instruments over gut, don't marry a scenario, sell down to the sleeping point, the too-easy sell, and if you can't go to cash don't trade.
 
 ## Sources
 

@@ -16,6 +16,7 @@ sources:
   - raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md
   - raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
+  - raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md
 ---
 
 # Playbook — exits
@@ -115,6 +116,8 @@ When the overall market turns against you, the individual-stock trailing rules m
 - He distinguishes the trading IRA (active exits) from the university pension (stays invested long). Exit rules apply to the trading IRA. ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md))
 - Evolution: the 2017 shift to daily RWB exits was real but was reversed on the sell side in 2019 — see [which trailing system when](#which-trailing-system-when). Dates on the [Timeline](../history/timeline.md).
 
+- One discretionary exit sits above the mechanical ones: when a position goes vertical — outside its upper 15.2 daily Bollinger Band on very heavy volume — and "making money [feels] too easy," he sells (INMD, +40% in nine days, sold ~$57; it closed the week at $41.55). Stated as a rule on [trading psychology](../methodology/trading-psychology.md#7-when-it-feels-too-easy-sell). ([WW 2019-11-24](../../raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md))
+
 ## See also
 
 - [Buying a GLB](buying-glb.md)
@@ -180,3 +183,4 @@ So the operating rule *as of his most recent statements* is: **weekly first, alw
 - [WW 2019-03-15 — Buy on the daily, sell only off the weekly (COUP)](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md) ([summary](../sources/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md))
 - [WW 2020-09-20 — The weekly doubler-ATH scan, full syntax; the note on the monitor](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) ([summary](../sources/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
 - [WW 2005-05-26 — BUY AND SELL AT THE MARKET; the standing re-entry buy-stop; Lynch's method](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md) ([summary](../sources/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md))
+- [WW 2019-11-24 — Why I sold INMD at $57; the too-easy voice](../../raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md) ([summary](../sources/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md))
