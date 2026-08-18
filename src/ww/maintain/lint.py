@@ -130,6 +130,17 @@ def lint_wiki(root: Path) -> LintReport:
         for stem in sorted(_uncited_in_sources(text)):
             report.errors.append(f"{rel}: cites raw/posts/{stem}.md but does not list it under '## Sources'")
 
+    # 4b. Leaked tool markup in code as well as prose. The same tag leak that hit the wiki
+    #     landed in a .py file during the 2026-08-12 fix pass and produced a SyntaxError.
+    for code_dir in ("src", "tests"):
+        for path in sorted((root / code_dir).rglob("*.py")) if (root / code_dir).is_dir() else []:
+            try:
+                for lineno, line in enumerate(path.read_text(encoding="utf-8").splitlines(), start=1):
+                    if _LEAKED_MARKUP.match(line):
+                        report.errors.append(f"{path.relative_to(root).as_posix()}:{lineno}: leaked tool markup `{line.strip()}`")
+            except UnicodeDecodeError:
+                continue
+
     # 5. Orphan pages (no inbound link from another wiki page). overview.md is explicitly exempt as a safety net — it's the entry page.
     for page in pages:
         if page.name == "overview.md":

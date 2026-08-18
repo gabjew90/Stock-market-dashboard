@@ -201,3 +201,16 @@ def test_lint_flags_leaked_tool_markup(tmp_path):
     )
     report = lint_wiki(tmp_path)
     assert any("leaked" in e and "p.md" in e for e in report.errors), report.errors
+
+
+def test_lint_flags_leaked_tool_markup_in_python_sources_too(tmp_path):
+    """The same tag leak that hit 66 wiki pages landed in src/ww/corpus/heuristics.py during
+    the fix pass and produced a SyntaxError. Lint must sweep src/ and tests/ as well."""
+    from ww.maintain.lint import lint_wiki
+
+    (tmp_path / "wiki").mkdir()
+    (tmp_path / "wiki" / "index.md").write_text("# Index\n", encoding="utf-8")
+    (tmp_path / "src").mkdir()
+    (tmp_path / "src" / "mod.py").write_text("x = 1\n</content>\n", encoding="utf-8")
+    report = lint_wiki(tmp_path)
+    assert any("leaked" in e and "mod.py" in e for e in report.errors), report.errors

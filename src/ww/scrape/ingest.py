@@ -86,6 +86,7 @@ def scrape_blog(
                         word_count=cleaned.word_count,
                         chart_count=cleaned.chart_count,
                         text=cleaned.markdown,
+                        title=title,
                     ),
                 )
             )
