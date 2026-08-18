@@ -9,6 +9,8 @@ sources:
   - raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md
   - raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md
   - raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md
+  - raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md
+  - raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md
 ---
 
 # GMI evidence — the published tables, the signal record, and how the components were recovered
@@ -64,6 +66,10 @@ attached: "Yes, there are times when the GMI gets whip-sawed, **but only for a f
 same post links **third-party tracking** — dark-liquidity.com's monitored GMI→QLD strategy — an
 external record of the signal rather than his own bookkeeping. ([WW 2013-12-09](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))
 
+## The first self-audit (November 2011) — and the rule it produced
+
+The earliest systematic look at the GMI's record on the blog: every regime change from April 19 to November 25, 2011, marked on a daily QQQ chart, bullish = close at 4 or more, bearish = below 4. Twelve changes; the GMI "turned bearish for most of the June decline (signal number 6) and the declines in August (8) and October (10)"; three changes lasted a single day (2→3, 5→6, 9→10). The conclusion became the persistence rule used ever since: "*If I had used a rule that said that a change in trend had to persist for two days to be valid, I would have avoided these false signals.* I will use that rule when I write about future changes in the market trend." A student was set the same audit over five years. ([WW 2011-11-28](../../raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md)) Signal #13, on 2011-12-01, was the first issued under the rule. ([WW 2011-12-05](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md))
+
 ## A per-signal audit (February 2016)
 
 Two months after the December 10, 2015 Sell signal he audited it at component level: "between
@@ -111,3 +117,5 @@ directly legible; no OCR tooling is needed, only the time to go through them.
 - [WW 2014-08-03 — GMI 10-Day New High Indicator; T2108; AAPL](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md) ([summary](../sources/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
 - [WW 2016-02-07 — The December 2015 Sell signal audited; cash over short](../../raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md) ([summary](../sources/2016-02-07-why-i-follow-my-general-market-index-gmi.md))
 - [WW 2026-01-04 — GMI table: verbatim component labels; GMI2 at 9](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md)
+- [WW 2011-11-28 — GMI performance since April; the two-day confirmation rule adopted; CMG Stage 4?](../../raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md) ([summary](../sources/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md))
+- [WW 2011-12-05 — GMI flashes bullish signal (#13); the 'major innovation' — enter oversold in a Stage 2 up-trend](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md) ([summary](../sources/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md))

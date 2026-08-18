@@ -13,6 +13,8 @@ sources:
   - raw/posts/2018-03-11-green-dot-strategy-defined.md
   - raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md
   - raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md
+  - raw/posts/2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend.md
+  - raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md
 ---
 
 # Trading philosophy — the five propositions
@@ -146,6 +148,8 @@ The same stance recurs as "the bad news usually comes out long after a stock has
 and "behavior rather than words" (2011) — price first, narrative later, on both sides of the
 market.
 
+The credo three years before the five propositions, January 2006 — six "what ifs" (no one can predict the market; pundits predict the past; the market is a casino à la Darvas; psychology matters more than fundamentals) and their consequence: "isolate ourselves from outside opinions, use our charts to maximize the chances of a gain, place our bets, and quickly and ruthlessly cut our losses. In harmony with the trend and with thoughtful trial and error, each small loss brings us closer to the next big gain." ([WW 2006-01-03](../../raw/posts/2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend.md)) And the 2009 image for the same stance: "When you are crossing the street and a truck comes bearing down on you… you should not argue with the fact that it is there… One needs to move quickly and get out of the way or jump on board the truck." ([WW 2009-03-01](../../raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md))
+
 ## Simple beats clever
 
 "Patterns are meant to be broken. **The road is littered with the carcasses of Ph.D.'s who
@@ -198,3 +202,5 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2005-05-30 — The orthodox agnostic; window dressing explained; the MW plan](../../raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md) ([summary](../sources/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md))
 - [WW 2008-01-02 — The AOL-induced epiphany, tested on ISRG](../../raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md) ([summary](../sources/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md))
 - [WW 2016-10-25 — Back from Mark Minervini's Master Trader Program](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md) ([summary](../sources/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))
+- [WW 2006-01-03 — Happy New Year — What if?; GMI +2; trade with the trend](../../raw/posts/2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend.md) ([summary](../sources/2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend.md))
+- [WW 2009-03-01 — No bottom in sight for this bear market — how bear markets end (1932, 1974)](../../raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md) ([summary](../sources/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md))

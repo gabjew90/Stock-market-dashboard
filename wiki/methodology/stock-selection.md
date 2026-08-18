@@ -37,6 +37,7 @@ sources:
   - raw/posts/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md
   - raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md
   - raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md
+  - raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md
 ---
 
 # Stock selection
@@ -225,6 +226,8 @@ Earlier (2012) IBD50 data: from December 2011 through April 2012, IBD50 median g
 
 **Two 2010 checks that preceded the 2011 comparison.** From the IBD100 list of June 7, 2010, through June 18: 91% of the stocks advanced, median +6.5%, 21% up ≥10% — against the Nasdaq-100's 90%, +4.8%, 8%; "the IBD100 stocks were three times more likely to advance 10% or more," against the claim that appearing on the list means it is too late (with the standing caveat that such stocks fall faster in declines). Eight of the top ten rose. ([WW 2010-06-21](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md)) In December 2010, one-share portfolios of four IBD100 *top-10* lists each beat both indexes after publication — the June 28 list +44% vs Nasdaq-100 +19% and S&P 500 +13.9%, BIDU and NFLX on all four. ([WW 2010-12-06](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md))
 
+**Why the list is the starting universe (2008).** "I let IBD do the tough work of ranking all stocks by fundamental and technical strength. I then can focus on the top 100 stocks." Against "identifies winners too late": the 2007 leaders were on lists early — ISRG (8/2007 at 199.13, later 339.63), AAPL (10/2006 at 54.44 → 202.96), GOOG (10/2005 at 310.65 → 747.24), BIDU (5/2007 at 131.99 → 235.28), GRMN (10/2006 at 47.93 → 125.68). During the January 2008 decline he kept a TC2007 watchlist of the 26 IBD100 stocks resisting it (HMSY, VIVO, SRCL) — "the key is to wait for the turn and not to be seduced into them now when false moves are very likely." ([WW 2008-01-22](../../raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md))
+
 ## The pilot portfolio — 25-share radar positions (2014)
 
 The pilot buy scaled to a watchlist: across 11 biotech GLB candidates in a down-trend, "buy a
@@ -278,3 +281,4 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2015-09-13 — Taking stock: technical indicators at extreme levels; INGN](../../raw/posts/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md) ([summary](../sources/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md))
 - [WW 2010-06-21 — Stocks near all-time highs; IBD100 stocks 3× more likely to rise 10%+](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md) ([summary](../sources/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
 - [WW 2010-12-06 — IBD gives up on the follow-through day; how mutual funds rip off investors; IBD100 top 10](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md) ([summary](../sources/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md))
+- [WW 2008-01-22 — GMI 0; 12th day of down-trend; sucker rally near?; IBD100 holds winners](../../raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md) ([summary](../sources/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md))

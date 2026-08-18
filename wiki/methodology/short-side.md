@@ -17,6 +17,8 @@ sources:
   - raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md
   - raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md
   - raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md
+  - raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md
+  - raw/posts/2011-01-24-2746.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -64,6 +66,8 @@ When a new QQQ short-term down-trend begins, he often buys a small amount of the
 
 The Day-1 nibble, 2010 form: "When I get a new down-trend I sometimes buy a little QID or TYP (ultra short ETF's) with the idea of selling it if the trend reverses up, or adding to my position if the market decline deepens." The same weekend's TC2007 submarine scan returned 95 names; ten were listed, GOOG among them, as candidates "forming Stage 4 declines, a la Weinstein." ([WW 2010-06-28](../../raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md))
 
+**The 2006 case, and a 2011 thesis trade.** June 2006, GMI 0, 185 submarines to 8 rockets on the TC2005 scan: "There are clearly plenty of stocks in a down-trend that offer good odds of being profitable shorts. Too bad that we have all been brainwashed into thinking that shorting stocks is too risky. It is much more risky to buy stocks in a market down-trend." ([WW 2006-06-12](../../raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md)) January 2011 is the rare *thesis*-driven hedge: with the GMI at 5 he sold his tech stocks, bought inverse tech ETFs and puts on AGO, the municipal-bond insurer, on the muni collapse — while conceding the indicators "can only confirm a change in trend *after* it has occurred" and that he "would rather get out quickly and get back in after the dust settles. I do not mind if I am wrong." ([WW 2011-01-24](../../raw/posts/2011-01-24-2746.md))
+
 ## Protective puts — the 2005 original, and the put-vs-stop rule
 
 The insurance framing is fully formed in **June 2005** — four years before the 2009 tutorial —
@@ -108,3 +112,5 @@ Two constraints. It is market-state dependent like everything else — the write
 - [WW 2025-03-30 — Day 24 of QQQ down-trend; IWM at beginning of Stage 4](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md) ([summary](../sources/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
 - [WW 2019-06-02 — Shorting stocks at new lows beats buying stocks at new highs](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md) ([summary](../sources/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
 - [WW 2010-06-28 — I only ride the yellow band trends; in cash or short; submarine stocks](../../raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md) ([summary](../sources/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md))
+- [WW 2006-06-12 — GMI 0; 185 submarines, 8 rockets; brainwashed against shorting](../../raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md) ([summary](../sources/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md))
+- [WW 2011-01-24 — Still cautious; high-dividend ETFs; IBM breaks out; the muni thesis](../../raw/posts/2011-01-24-2746.md) ([summary](../sources/2011-01-24-2746.md))

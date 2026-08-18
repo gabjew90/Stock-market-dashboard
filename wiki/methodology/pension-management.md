@@ -15,6 +15,8 @@ sources:
   - raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md
   - raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md
   - raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md
+  - raw/posts/2011-06-20-no-one-knows-when-this-market-will-bottom.md
+  - raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md
 ---
 
 # The two accounts — university pension vs trading IRA
@@ -26,6 +28,8 @@ Dr. Wish runs money at two speeds. The **trading IRA** follows the daily signals
 Dr. Wish distinguishes between two accounts. His **trading IRA** follows the tactical rules on [risk-and-cash](risk-and-cash.md) — goes defensive at GMI ≤ 3. His **university pension** (mutual funds) stays fully invested long even when the trading IRA is defensive. ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md)) This distinction matters when interpreting his "in cash" comments — they apply to the trading account.
 
 However, when GMI falls to 0 he transfers pension funds to money market funds — and accepts the risk of triggering mutual fund timing penalties. He moves 60% of pension holdings at GMI=0, even after the market has already declined, arguing the weekly trend is more important than recent price action. "If the market were to turn up in the next few months I would have no regrets as I would simply hop back on at a higher level." ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
+
+The record as he stated it in June 2006, 100% cash in the pension: "I am a chicken and… go to cash at the first sign of market weakness. In this way, I have avoided all significant market declines since 1995, but have not missed out on the subsequent rises… there is plenty of time to jump back on board once the market has confirmed a new up-trend." ([WW 2006-06-12](../../raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md))
 
 ## The staged pension exit protocol
 
@@ -113,6 +117,8 @@ Worth reading against the [backtest](backtest-timing-overlay.md), which measures
 the overlay does give up CAGR versus buy-and-hold. His argument is not that timing is free — it
 is that the standard framing overstates the cost.
 
+The 2011 statement, mid-decline: the best-days studies "fail to note that one did the best if s/he was out of the market during the days with the worst declines!" and the arithmetic — "if I get out of a mutual fund at say, 80, and it falls to 60, as long as I get back in before it goes back above 80, I have managed the risk and done well." He had *not* exited the pension funds that time "because of their unacceptable rules against market timing" — the constraint above biting in real time. ([WW 2011-06-20](../../raw/posts/2011-06-20-no-one-knows-when-this-market-will-bottom.md))
+
 ## See also
 
 - [Risk & cash](risk-and-cash.md) — the trading-account doctrine this page was split from
@@ -135,3 +141,5 @@ is that the standard framing overstates the cost.
 - [WW 2015-02-16 — GMMA charts show no market top in sight](../../raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md) ([summary](../sources/2015-02-16-gmma-charts-show-no-market-top-in-sight.md))
 - [WW 2015-03-01 — On my use of the GMI; pension self-correction; Darvas scan; AMBA](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md) ([summary](../sources/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md))
 - [WW 2015-09-08 — Market trend clearly down; diminished trust in ETFs after the flash crash](../../raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md) ([summary](../sources/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md))
+- [WW 2011-06-20 — No one knows when this market will bottom](../../raw/posts/2011-06-20-no-one-knows-when-this-market-will-bottom.md) ([summary](../sources/2011-06-20-no-one-knows-when-this-market-will-bottom.md))
+- [WW 2006-06-12 — GMI 0; 185 submarines, 8 rockets; brainwashed against shorting](../../raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md) ([summary](../sources/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md))

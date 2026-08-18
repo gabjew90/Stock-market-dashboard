@@ -175,6 +175,15 @@ sources:
   - raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md
   - raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md
   - raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md
+  - raw/posts/2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend.md
+  - raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md
+  - raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md
+  - raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md
+  - raw/posts/2011-01-24-2746.md
+  - raw/posts/2011-06-20-no-one-knows-when-this-market-will-bottom.md
+  - raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md
+  - raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md
+  - raw/posts/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md
 ---
 
 # Timeline — evolution of the methodology
@@ -277,6 +286,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## January 2006 — the "What if?" credo; trade with the trend
+
+**"Happy New Year — What if?; GMI +2; Trade with the trend" (2006-01-03):** six what-ifs → "isolate ourselves from outside opinions, use our charts… place our bets, and quickly and ruthlessly cut our losses… each small loss brings us closer to the next big gain." Adviser sentiment 60.4% bulls as a contrary read; 3% of 176 doublers at new highs; QQQQ under its 10-week; "a time to be short or in cash." ([WW 2006-01-03](../../raw/posts/2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend.md))
+
 ## February 2006 — Wyckoff/Darvas noise isolation; GMI-S short-term index
 
 **"Darvas anticipated; GMI: +4; GMI-S: 31; Ominous market" (2006-02-06):** Dr. Wish quotes Richard Wyckoff (1924) on making his best trades while receiving only end-of-day cable prices far from Wall Street — anticipating Darvas's identical approach by 30 years. The lesson for the internet era: concentrate on price action; insulate from news, CNBC, and outside opinions. Introduces the GMI-S (a 0–100 short-term breadth sub-index), which fell sharply from 75 to 31 in one week while the GMI (at +4) was less sensitive. QQQQ had just entered Day D-1 of a new short-term down-trend. ([WW 2006-02-06](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
@@ -288,6 +301,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"GMI: 0; IBD 100 stocks decline more; My epiphany on discount brokers; Submarine stocks" (2006-05-22):** The most detailed published description of Dr. Wish's submarine scan criteria. Only 14% of IBD-100 stocks rose in the study week; the 85% that fell had a median decline of -7.2% (vs -3.5% for Nasdaq-100), confirming growth stocks amplify down-moves. Submarine scan: (1) closed below 10-week average for 7 consecutive weeks; (2) 10-week average is below 30-week average; (3) peaked ≥ 4 months ago; (4) at least one high-volume decline week since the peak; (5) recently bounced down off the declining 10-week. Entry: deep ITM puts with 6-9 months duration. Exit: stock trades above its declining 10-week. Broker insight: cash interest at a firm like Brown & Co. was near-zero; Fidelity swept cash to 4.62% money market — choose brokers that pay interest on idle cash. ([WW 2006-05-22](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
 
 ---
+
+## June 2006 — 185 submarines, 8 rockets; "brainwashed against shorting"
+
+**"GMI: 0; 185 Submarines, 8 Rockets; Brainwashed against shorting" (2006-06-12):** IBD MF index under its 200-day; GMI-L 19; the IBD100 Stage 2 statistic (68% vs 38%); 100% cash in the pension — "a chicken… avoided all significant market declines since 1995, but have not missed out on the subsequent rises"; "it is much more risky to buy stocks in a market down-trend." ([WW 2006-06-12](../../raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md))
 
 ## 2007 — the year the indicators were tested at a real top
 
@@ -318,6 +335,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"Nicolas Darvas on staying clear of bear markets" (2008-01-14):** the GMI at zero for six straight days as 2008 opens (40 new highs vs 232 new lows). The blog's purpose in his own words: "It is because I was angry at how these mental midgets misled the public in the 2000-2002 debacle that I began this blog. **I want to educate the little person.**" Darvas quoted at length from the 1977 sequel: "I would rather be safe than sorry... I prefer to **sleep soundly at night**, even if it means going into cash for long periods," with the "masochistic pleasure" line on buy-and-hold. ([WW 2008-01-14](../../raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md))
 
 ---
+
+## January 2008 (odds) — the 10-week odds; sucker rallies; IBD100 held the 2007 leaders
+
+**"GMI 0; 12th day of down-trend, sucker rally near?; IBD100 holds winners" (2008-01-22):** 844 lows / 10 highs; ten weeks under the 10-week → 82% of Nasdaq-100 lower; T2108 19% possible bottom but "a rally would have to exceed about +10% for me to call a change in trend"; ISRG/AAPL/GOOG/BIDU/GRMN on IBD100 lists early; a 26-stock resisters watchlist; wait for the turn. ([WW 2008-01-22](../../raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md))
 
 ## April 2008 — the dashboard split inside a bear rally; the 2000 exit priced
 
@@ -372,6 +393,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"Is the bear market over? Check out my 'Guppy' charts" (2009-03-29):** written at the early stages of the recovery from the March 2009 lows. Dr. Wish explains how he uses GMMA **weekly** charts to evaluate whether a true bull-market bottom has been established — distinct from a short-term bounce within a down-trend. He introduces his explicit three-level trend hierarchy: each trader must define their trading time interval; his primary frame is the weekly trend. He stays mainly in cash during a weekly down-trend even if a daily up-trend is underway. The Guppy/GMMA weekly bottom signal: the short-term moving averages (black) must be **above** the long-term averages (red) at a sustained bull bottom — in March 2009 this has not yet occurred. He compares to the 1974 bear market bottom and states: "Contrary to the pundits, there is plenty of time to commit university pension money back into the long side once a solid new up-trend has begun." ([WW 2009-03-29](../../raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md))
 
 ---
+
+## March 2009 (bottoms) — how bear markets end: the volume signature
+
+**"No bottom in sight for this bear market — it's just the beginning?" (2009-03-01):** the truck metaphor; 1932 and 1974 bottoms on weekly volume — shrinking down-volume, then the largest up-volume weeks in months, larger again after the re-test; February 2009 the opposite; mainly cash with IRA puts. The low came a week later. ([WW 2009-03-01](../../raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md))
 
 ## May 2009 (Guppy) — the first weekly Guppy chart; rely on the weekly
 
@@ -469,6 +494,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## January 2011 (muni) — a thesis-driven hedge under a GREEN GMI; T2108 bands stated
+
+**"Still cautious, high dividend paying ETF's, IBM breaks out" (2011-01-24):** GMI 5 / GMI-R 8, yet tech sold, inverse ETFs and AGO puts bought on the muni-bond collapse — "these indicators… can only confirm a change in trend *after* it has occurred"; "I am a chicken… I do not mind if I am wrong. Every loss brings me to the next gain." 20 straight weeks above the 10-week; T2108 "near 80% typical at tops, below 20% near bottoms." ([WW 2011-01-24](../../raw/posts/2011-01-24-2746.md))
+
 ## February 2011 — RWB methodology; IBD as required reading
 
 **"Nicolas Darvas, on the value of studying losses; RWB stocks" (2011-02-07):** Dr. Wish reprints earlier writings and explains his classroom exercise (students analyze their own losing trade charts). IBD described as the reason he "never consistently made money trading until I started reading IBD in the 1980's." RWB stocks (COST, RVBD) demonstrated; stop on RWB bounce trade placed below 30-day moving average of the individual stock. ([WW 2011-02-07](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
@@ -486,6 +515,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"IBD50 list from 1/10 out-performs Nasdaq100 and S&P500 stocks" (2011-04-04):** a quantitative study measuring the performance of the January 10, 2011 IBD50 list through late March 2011. Results: 60% of IBD50 stocks rose (vs 67% for Nasdaq100 and 77% for S&P500) — a lower hit rate. But the IBD50 produced 18% of its stocks gaining 20%+, vs only 11% for Nasdaq100 and 10% for S&P500. Interpretation: the IBD50 is not where you find the most stocks going up, but it **concentrates the big winners** — 50 stocks instead of 500. Largest gainer: SINA at +45% (IBD50). Caveat: during the measurement period tech underperformed the S&P500 (QQQ +2.5%, SPY +4.9%), which would suppress IBD50 results. The 10-week bounce scan demonstrated: Dr. Wish scanned all IBD50 stocks in his TC2000 watchlist for those that bounced up from their 10-week average the prior week, and set sell stops just below each stock's prior-week low. GMI=6, GMI2=5, T2108=73% (overbought caution zone). ([WW 2011-04-04](../../raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md))
 
 ---
+
+## June 2011 — no one knows when this market will bottom; the best-days rebuttal
+
+**"No one knows when this market will bottom" (2011-06-20):** the missing-best-days studies "fail to note that one did the best if s/he was out of the market during the days with the worst declines"; the 80 → 60 → back-below-80 arithmetic; pension not exited because of the funds' timing rules; trading account doubled from the September 2010 re-entry, still +70%; weekly 10.4.4 stochastic near 20 as a relative-oversold gauge; D-19 vs 29 (2010) and 69 (2008). ([WW 2011-06-20](../../raw/posts/2011-06-20-no-one-knows-when-this-market-will-bottom.md))
 
 ## July 2011 — Dollar-move framing and DITM options introduced
 
@@ -510,6 +543,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"GMI rises to 3; Market may be turning" (2011-09-19):** the behaviorist epistemics — "To understand human beings, one must concentrate on their behavior rather than their words. The same goes for the markets." Adviser-sentiment inversion (5% more bears than bulls among professionals) plus leader durability (AAPL within 1% of its ATH through the decline) as re-entry evidence; wading in, AAPL first. The point-move arithmetic priced through an option: "a 17 point move on one call option = $1,700." ([WW 2011-09-19](../../raw/posts/2011-09-19-3118.md))
 
 ---
+
+## November–December 2011 — the two-day rule adopted; the oversold-entry doctrine announced
+
+**"6th day of QQQ short term down-trend; GMI performance since April" (2011-11-28):** twelve GMI regime changes since April 19 plotted; three one-day whipsaws — "if I had used a rule that said that a change in trend had to persist for two days to be valid, I would have avoided these false signals. I will use that rule." 86% of Nasdaq-100 with stochastic < 20, T2108 24% — not the time to start shorts; CMG under its 30-week. ([WW 2011-11-28](../../raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md))
+
+**"GMI flashes bullish signal, but other indicators are mixed" (2011-12-05):** signal #13 under "my new criterion… of needing 2 days with a GMI of at least 4," while IBD (no FTD) still calls a correction. And: "**This is a major innovation in my trading. Instead of trying to enter equities when they break out, I seek to enter when an equity is in a weekly Stage 2 up-trend and has become oversold on the daily time frame. I go long and then place a stop (or buy a put) just below support**" — the OSB doctrine, five years before BOS. QLD bought oversold with a put; the rubber-band model. ([WW 2011-12-05](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md))
 
 ## April 2012 — GMI buy signal criterion stated; AAPL as ATH-breakout case study
 
@@ -586,6 +625,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"I do not want to be long in this market" (2014-04-27):** during a 24-day QQQ short-term down-trend, Dr. Wish provides the most explicit description of his **staged 401(k)/pension exit protocol**: "I will do it in stages, maybe 25% at a time." Trigger 1: QQQ closes back below its 30-week average → begin moving from mutual funds to money market, ~25% at a time. Trigger 2: the 30-week average itself starts to decline → "move towards 100% invested in money market funds." At time of writing: QQQ at $86.19, 30-week average at $85.93 (barely above it); the 4-week average already below the 30-week — early weakening. He also identifies a rare divergence: the GMI is on a Buy signal even while the QQQ short-term down-trend is active — "This is a rare divergence." The QQQ had nearly started a new up-trend the prior week but failed: "this failure was a significant event to me." Boomer panic thesis: "With the 2000 and 2008 declines in their rear view mirrors, I suspect that most boomers who rode the market up since 2009 are going to flee at the first signs of trouble." ([WW 2014-04-27](../../raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md))
 
 ---
+
+## April 2014 (GMMA) — the periods stated; the split market; "they shoot the leaders first"
+
+**"Market at critical juncture. Guppy charts show relative weakness in QQQ vs SPY" (2014-04-20):** the modified GMMA defined (red 3/5/8/10/12/15, blue 30/35/40/45/50/60, +1 for the close; daily and weekly); "it pays to be invested long in the market only when an RWB pattern is present"; QQQ in a daily BWR while SPY merely converged; CMG +$32 → −$33 on good earnings, AMZN and TSLA broken — "they shoot the leaders first"; GMI 3, D-19; on the sidelines. ([WW 2014-04-20](../../raw/posts/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md))
 
 ## May 2014 — Stage Analysis as the pundit filter
 
@@ -1271,3 +1314,12 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2014-06-22 — RWB patterns in QQQ across time periods; PTLA and STZ](../../raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md) ([summary](../sources/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md))
 - [WW 2016-10-25 — Back from Mark Minervini's Master Trader Program](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md) ([summary](../sources/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))
 - [WW 2016-12-11 — All GMI components positive; QQQ near ATH; new TC2000 scan for bounces: CELG](../../raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md) ([summary](../sources/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md))
+- [WW 2006-01-03 — Happy New Year — What if?; GMI +2; trade with the trend](../../raw/posts/2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend.md) ([summary](../sources/2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend.md))
+- [WW 2006-06-12 — GMI 0; 185 submarines, 8 rockets; brainwashed against shorting](../../raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md) ([summary](../sources/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md))
+- [WW 2008-01-22 — GMI 0; 12th day of down-trend; sucker rally near?; IBD100 holds winners](../../raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md) ([summary](../sources/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md))
+- [WW 2009-03-01 — No bottom in sight for this bear market — how bear markets end (1932, 1974)](../../raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md) ([summary](../sources/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md))
+- [WW 2011-01-24 — Still cautious; high-dividend ETFs; IBM breaks out; the muni thesis](../../raw/posts/2011-01-24-2746.md) ([summary](../sources/2011-01-24-2746.md))
+- [WW 2011-06-20 — No one knows when this market will bottom](../../raw/posts/2011-06-20-no-one-knows-when-this-market-will-bottom.md) ([summary](../sources/2011-06-20-no-one-knows-when-this-market-will-bottom.md))
+- [WW 2011-11-28 — GMI performance since April; the two-day confirmation rule adopted; CMG Stage 4?](../../raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md) ([summary](../sources/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md))
+- [WW 2011-12-05 — GMI flashes bullish signal (#13); the 'major innovation' — enter oversold in a Stage 2 up-trend](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md) ([summary](../sources/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md))
+- [WW 2014-04-20 — Market at critical juncture; Guppy charts show relative weakness in QQQ vs SPY](../../raw/posts/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md) ([summary](../sources/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md))

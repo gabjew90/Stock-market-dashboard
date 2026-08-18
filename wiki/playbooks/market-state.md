@@ -20,6 +20,7 @@ sources:
   - raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md
   - raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md
   - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
+  - raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md
 ---
 
 # Playbook — market state → stance
@@ -49,7 +50,7 @@ He runs two speeds, and the rest of this page is for the fast one.
 
 | Reading | Stance (trading account) |
 |---|---|
-| **> 3 for two consecutive days** | **Buy signal.** ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md)) Default first purchase is the leveraged index ETF — TQQQ — accumulated as the trend confirms; his studies had TQQQ beating 90%+ of individual stocks during QQQ up-trends. ([WW 2013-11-24](../../raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md)) Then run the [GLB](buying-glb.md) and [OSB](buying-osb.md) playbooks for stocks. |
+| **> 3 for two consecutive days** | **Buy signal.** (Two-day rule adopted 2011-11-28 — ([WW 2011-11-28](../../raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md)); stated as the criterion in [WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md)) Default first purchase is the leveraged index ETF — TQQQ — accumulated as the trend confirms; his studies had TQQQ beating 90%+ of individual stocks during QQQ up-trends. ([WW 2013-11-24](../../raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md)) Then run the [GLB](buying-glb.md) and [OSB](buying-osb.md) playbooks for stocks. |
 | **≥ 4 (GREEN), signal already on** | Long. "I like to be long if the GMI is 4 or more." ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md)) |
 | **= 3** | Hold state — defensive but not yet Sell. Raise stops; no new buys. ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md)) |
 | **< 3 for two consecutive days** | **Sell signal.** "The GMI is now at 1 (of 6) and if it registers below 3 on Monday, it will flash a Sell signal." ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md)) Exit the long side of the trading account; cash is the default over shorting (see [risk-and-cash](../methodology/risk-and-cash.md#cash-over-short--the-age-based-default)). |
@@ -137,3 +138,4 @@ New lows surging while the index is at a high is an exit signal *before* the GMI
 - [WW 2015-02-22 — An important limitation of the GMI signals](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md) ([summary](../sources/2015-02-22-an-important-limitation-of-the-gmi-signals.md))
 - [WW 2022-05-01 — Nowhere oversold enough to be near a bottom; T2108 monthly](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md) ([summary](../sources/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
 - [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
+- [WW 2011-11-28 — 6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg](../../raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md) ([summary](../sources/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md))

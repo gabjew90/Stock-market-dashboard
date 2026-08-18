@@ -16,6 +16,7 @@ sources:
   - raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md
   - raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md
   - raw/posts/2019-02-10-green-dot-signal-lulu.md
+  - raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md
 ---
 
 # The oversold bounce (OSB / ATHOSB)
@@ -35,6 +36,8 @@ CAVA opened above the prior day's high and closed back below its breakout line; 
 **He had said the same thing five years earlier**, in the post defining the green dot: "I have learned over the years that I have more success trading strong up-trending stocks that are turning up after they have had a small decline **than buying break-outs**... if I think a stock has bottomed and turned up, **I know exactly where to get out if I am wrong**." ([WW 2018-03-11](../../raw/posts/2018-03-11-green-dot-strategy-defined.md)) So the 2023 post is the sharpest statement of the preference, not its origin — the reasoning is stable from at least 2016 (BOS) through 2018 to 2023.
 
 This is the same risk logic he had already given for [BOS](stock-selection.md) in 2016 — the bounce entry narrows the entry-to-stop distance — now stated as a preference over the GLB moment rather than an alternative to it. **OSB is not a new idea in 2021 so much as a renamed and tightened BOS:** BOS (2016) triggered off the lower 15.2 Bollinger Band; OSB adds an explicit recent-ATH prerequisite and a stochastic-based trigger. Both remain in use, and he still cites the 15.2 band as a supporting condition on OSB charts ([WW 2023-07-20](../../raw/posts/2023-07-20-blog-post-day-57-of-qqq-short-term-up-trend-list-of-4-growth-stocks-with-black-dot-osb-set-up-see-daily-chart.md)).
+
+**The doctrine is dated: December 2011.** Before BOS (2016) and before the green dot (2018), he announced it as new: "**This is a major innovation in my trading. Instead of trying to enter equities when they break out, I seek to enter when an equity is in a weekly Stage 2 up-trend and has become oversold on the daily time frame. I go long and then place a stop (or buy a put) just below support in case the decline resumes.**" The index version came the same week — QLD bought at an oversold extreme with a protective put, on a rubber-band model of the market: "if one can get out of the market near the top of a range and then wait for one of these oversold periods to re-enter on the long side — that is the key." ([WW 2011-12-05](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md)) Everything after — BOS, the dots, ATHOSB — is this sentence with a scan attached.
 
 ## The setup
 
@@ -71,6 +74,7 @@ The pattern recurs with the later blue-dot variant: SHAK, a recent GLB, fell bac
 
 | Date | Change |
 |---|---|
+| 2011-12-05 | The doctrine announced as "a major innovation in my trading": enter a weekly Stage 2 stock when oversold on the daily, stop or put under support ([WW 2011-12-05](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md)) |
 | 2018-03-11 | Bounce-over-breakout preference stated, with the green dot fully defined ([WW 2018-03-11](../../raw/posts/2018-03-11-green-dot-strategy-defined.md)) |
 | 2019-02-10 | Bounce-over-breakout preference restated on the green dot, with the weekly-chart check and bounce-low stop worked on LULU ([WW 2019-02-10](../../raw/posts/2019-02-10-green-dot-signal-lulu.md)) |
 | 2021-05-06 | OSB named in a post title; candidates must be above their green line tops and near ATHs ([WW 2021-05-06](../../raw/posts/2021-05-06-blog-post-day-2-of-qqq-short-term-down-trend-but-378-new-highs-among-us-stocks-non-qqq-type-stocks-still-risi.md)) |
@@ -105,3 +109,4 @@ The pattern recurs with the later blue-dot variant: SHAK, a recent GLB, fell bac
 - [WW 2025-07-09 — SHAK retakes green line after a Blue Dot OSB](../../raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md) ([summary](../sources/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md))
 - [WW 2018-03-11 — Green Dot strategy defined](../../raw/posts/2018-03-11-green-dot-strategy-defined.md) ([summary](../sources/2018-03-11-green-dot-strategy-defined.md))
 - [WW 2019-02-10 — Green dot signal: LULU](../../raw/posts/2019-02-10-green-dot-signal-lulu.md) ([summary](../sources/2019-02-10-green-dot-signal-lulu.md))
+- [WW 2011-12-05 — GMI flashes bullish signal (#13); the 'major innovation' — enter oversold in a Stage 2 up-trend](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md) ([summary](../sources/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md))

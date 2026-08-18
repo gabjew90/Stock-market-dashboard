@@ -13,6 +13,7 @@ sources:
   - raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md
   - raw/posts/2019-02-10-green-dot-signal-lulu.md
   - raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md
+  - raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md
 ---
 
 # Entry signals — BOS, the dots, and the daily bounce setups
@@ -74,6 +75,8 @@ The five triggers are successive dress for one idea, and the later ones do not r
 
 The green dot has a dated ancestor: the December 2016 TC2000 bounce scan (fast 10.4 above slow 10.4.4, fast < 20 within two days and ≤ 50, close > 50-day, ≥15% off the 50-day low, volume > 100k), taught on CELG with the stop under the bounce and the exit on the fast line closing back under the slow — the exact exit the 2018 definition carries. ([WW 2016-12-11](../../raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md)) So the sequence is BOS (2016-06) → stochastic bounce scan (2016-12) → green dot (2018-03). Spec on [the scans](scans.md#the-stochastic-bounce-scan-2016--the-green-dots-ancestor).
 
+And before any of the triggers, the doctrine itself is dated to December 2011 — "a major innovation in my trading… enter when an equity is in a weekly Stage 2 up-trend and has become oversold on the daily time frame" ([WW 2011-12-05](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md)) — so the full sequence is doctrine (2011-12) → BOS (2016-06) → stochastic bounce scan (2016-12) → green dot (2018-03) → black dot (2021) → x8/x21/30 (2024) → blue dot (2025).
+
 ## See also
 
 - [The oversold bounce (OSB / ATHOSB)](oversold-bounce.md) — the doctrine these triggers serve
@@ -94,3 +97,4 @@ The green dot has a dated ancestor: the December 2016 TC2000 bounce scan (fast 1
 - [WW 2025-05-22 — Blue dot of happiness: full TC2000 scan formula; Boston IBD Meetup](../../raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md) ([summary](../sources/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md))
 - [WW 2019-02-10 — Green dot signal: LULU](../../raw/posts/2019-02-10-green-dot-signal-lulu.md) ([summary](../sources/2019-02-10-green-dot-signal-lulu.md))
 - [WW 2016-12-11 — All GMI components positive; QQQ near ATH; new TC2000 scan for bounces: CELG](../../raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md) ([summary](../sources/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md))
+- [WW 2011-12-05 — GMI flashes bullish signal (#13); the 'major innovation' — enter oversold in a Stage 2 up-trend](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md) ([summary](../sources/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md))

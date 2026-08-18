@@ -26,6 +26,9 @@ sources:
   - raw/posts/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md
   - raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md
   - raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md
+  - raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md
+  - raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md
+  - raw/posts/2011-01-24-2746.md
 ---
 
 # General Market Index (GMI)
@@ -91,6 +94,7 @@ The score becomes a *signal* only with persistence, and the two sides are symmet
 | Signal | Rule | Source |
 |---|---|---|
 | **Buy** | GMI **> 3 for two consecutive days** | "The GMI was >3 for two consecutive days, which is my criterion for a buy signal." ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md)) |
+| *(origin of the two-day rule)* | a change of regime (GMI ≥ 4 ↔ < 4) must **persist for two days** | Adopted 2011-11-28 after a self-audit found three one-day whipsaws among 12 regime changes since April 2011: "If I had used a rule that said that a change in trend had to persist for two days to be valid, I would have avoided these false signals. I will use that rule." ([WW 2011-11-28](../../raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md)) First applied to signal #13 on 2011-12-01: "my new criterion… of needing 2 days with a GMI of at least 4 to signal a new up-trend." ([WW 2011-12-05](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md)) |
 | **Sell** | GMI **< 3 (≤ 2) for two consecutive days** | "The GMI is now at 1 (of 6) and if it registers below 3 on Monday, it will flash a Sell signal." ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md)) |
 | **Defensive** | GMI ≤ 3 (no signal flip yet) | "When it declines to 3 or below, I get defensive in my trading IRA." ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md)) |
 
@@ -113,6 +117,8 @@ The GMI can move between extremes very quickly — in one documented instance, i
 He uses the GMI alongside the [QQQ Short-Term Timing](qqq-short-term-timing.md) count and [T2108](t2108.md). See the [market-state playbook](../playbooks/market-state.md) for how these combine.
 
 **Grading at the margin is discretionary.** When components are "too close to call" he has marked them "?" and left the prior day's total standing — "those of you who prefer a rigid adherence to the criteria can go with readings of 3 and 6, respectively" (June 2010, GMI held at 4 and GMI-R at 7). The published number is his call on borderline days, not a pure formula. ([WW 2010-06-21](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
+
+**A limit he states himself:** the indicators "can only confirm a change in trend *after* it has occurred" — said in January 2011 while he overrode a GREEN GMI on a thesis about municipal bonds. ([WW 2011-01-24](../../raw/posts/2011-01-24-2746.md))
 
 ## New highs / new lows — a breadth supplement to the GMI
 
@@ -268,3 +274,6 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2025-12-14 — Component 6 (0MUTI) still live and now negative; FFTY daily BWR](../../raw/posts/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md) ([summary](../sources/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md))
 - [WW 2019-06-02 — Shorting stocks at new lows beats buying stocks at new highs](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md) ([summary](../sources/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
 - [WW 2010-06-21 — Stocks near all-time highs; IBD100 stocks 3× more likely to rise 10%+](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md) ([summary](../sources/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
+- [WW 2011-11-28 — GMI performance since April; the two-day confirmation rule adopted; CMG Stage 4?](../../raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md) ([summary](../sources/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md))
+- [WW 2011-12-05 — GMI flashes bullish signal (#13); the 'major innovation' — enter oversold in a Stage 2 up-trend](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md) ([summary](../sources/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md))
+- [WW 2011-01-24 — Still cautious; high-dividend ETFs; IBM breaks out; the muni thesis](../../raw/posts/2011-01-24-2746.md) ([summary](../sources/2011-01-24-2746.md))

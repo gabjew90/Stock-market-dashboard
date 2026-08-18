@@ -53,6 +53,10 @@ sources:
   - raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md
   - raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md
   - raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md
+  - raw/posts/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md
+  - raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md
+  - raw/posts/2011-01-24-2746.md
+  - raw/posts/2011-06-20-no-one-knows-when-this-market-will-bottom.md
 ---
 
 # Moving-average rules
@@ -119,9 +123,13 @@ Dr. Wish uses the **daily 10,4,4 stochastic** as a timing overlay on top of the 
 - **Use in down-trends:** he does not take new short positions when the stochastic is very low (oversold), preferring to wait for a bounce first.
 - **Not as a standalone buy signal:** the stochastic provides *timing context*, not a direction decision. The GMI and trend regime govern direction; the stochastic adjusts entry timing within that direction.
 
+**On the weekly, as a relative-oversold gauge for the index (2011).** In the 19th day of a decline he read the QQQ's *weekly* 10.4.4 stochastic against prior bottoms: the fast line "almost below" 20, "approaching the severely oversold levels seen at other recent market bottoms, even during the 2008 debacle" — but "other big declines ended *below* the 20% level. So, we may have more to go." Used to decide it was "not the time to *begin* to go short," not as a buy. ([WW 2011-06-20](../../raw/posts/2011-06-20-no-one-knows-when-this-market-will-bottom.md))
+
 ## The 10-week average — the holding rule for individual stocks
 
 For individual stocks, a weekly close below the **rising 10-week average** is an exit signal. He is explicit about this with AAPL as an example: "I have found AAPL fine to own as long as it remained above its rising 10 week average." A weekly close below that level is a concern; he uses it to decide when to exit a position. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
+
+**The odds below it, in his own numbers.** January 2008: ten weeks under the 10-week, QQQQ −12%, 82% of its components lower, 87% of the S&P 500 lower — "can you see why it makes no sense to fight such odds?" And the flip side of the same rule: with the 10-week ~10% above price, "a rally would have to exceed about +10% for me to call a change in trend. There is clearly a lot of room on the up-side for failed, sucker rallies." ([WW 2008-01-22](../../raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md)) January 2011: 20 straight weeks above it — "as long as these indexes stay above their 10 week averages, I am likely to make money by being long stocks." ([WW 2011-01-24](../../raw/posts/2011-01-24-2746.md))
 
 ## The RWB / BWR patterns — multiple MAs on a Guppy chart
 
@@ -147,6 +155,8 @@ See [stock-selection.md](stock-selection.md) for the full description of how RWB
 **Before it had a name (May 2009).** The first Guppy chart on the blog is a *weekly* QQQQ chart with 12 averages, shorter in black and longer in red, presented with the conclusion "the more that I analyze the market, the more I become convinced that I should rely on the longer term weekly trends to determine the market trend." The 2007 decline had bottomed, the long averages had "stopped declining, and some are beginning to curve around," and he would "wade slowly back into this market with my most conservative money… willing to get out again if the shorter term averages turn down again." The self-description travels with it: "a trend following swing trader, trying to catch the multi-month up-swings… The key to success for me is to be out of the market (and lose little $$) when the black lines are below the red lines." ([WW 2009-05-31](../../raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md)) Sixteen months later the colours were fixed and the pattern named RWB.
 
 **Yellow band on the index (June 2010).** The yellow-band idea, discovered on individual stocks, applied to the Guppy *daily* chart of the QQQQ: a band drawn between certain short- and long-term averages that are rising or falling together; "it is during yellow band trends that I can usually make money trading consistent with the trend," and the lesson underneath — "one of the toughest lessons I have learned over the past 40 years is that I should only stay in the market when there is a well defined trend," after years of riding up-trends and giving it all back. ([WW 2010-06-28](../../raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md))
+
+**The periods, stated in April 2014.** "12 exponential moving averages (3,5,8,10,12,15 = short term averages in red and 30,35,40,45,50,60 = longer term averages in blue). I also add a moving average = 1 to show the current close shown as a gray dotted line," plotted daily and weekly. Reading rules in the same breath: RWB = red rising well above blue; "when the white space between the red and blue averages disappears the advance of the index is weakening"; BWR "demonstrates considerable weakness"; and "it pays to be invested long in the market only when an RWB pattern is present." Used that week to read a split market — QQQ in a daily BWR while SPY had merely converged. ([WW 2014-04-20](../../raw/posts/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md))
 
 ## The 4-week / 10-week / 30-week alignment — a weekly stock rule
 
@@ -426,3 +436,7 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2009-05-31 — Rally gaining strength; Guppy chart reveals major turn](../../raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md) ([summary](../sources/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md))
 - [WW 2014-06-22 — RWB patterns in QQQ across time periods; PTLA and STZ](../../raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md) ([summary](../sources/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md))
 - [WW 2010-06-28 — I only ride the yellow band trends; in cash or short; submarine stocks](../../raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md) ([summary](../sources/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md))
+- [WW 2014-04-20 — Market at critical juncture; Guppy charts show relative weakness in QQQ vs SPY](../../raw/posts/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md) ([summary](../sources/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md))
+- [WW 2008-01-22 — GMI 0; 12th day of down-trend; sucker rally near?; IBD100 holds winners](../../raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md) ([summary](../sources/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md))
+- [WW 2011-01-24 — Still cautious; high-dividend ETFs; IBM breaks out; the muni thesis](../../raw/posts/2011-01-24-2746.md) ([summary](../sources/2011-01-24-2746.md))
+- [WW 2011-06-20 — No one knows when this market will bottom](../../raw/posts/2011-06-20-no-one-knows-when-this-market-will-bottom.md) ([summary](../sources/2011-06-20-no-one-knows-when-this-market-will-bottom.md))
