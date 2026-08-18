@@ -57,19 +57,31 @@ Design rationale: `docs/specs/2026-05-11-wishing-wealth-wiki-design.md`.
     to the GMI.
   - `moving-average-rules.md` — the 10-week / 30-week (and 4-week) MA stage rules;
     "the 10-week rule"; the 4wk>10wk>30wk alignment; weekly-close extension above MAs.
-  - `stock-selection.md` — the fundamental + relative-strength overlay; the scans
-    he runs; how he picks GLB candidates.
-  - `risk-and-cash.md` — when to be in cash, drawdown discipline, "modified
-    buy-and-hold", how the indicators tell him to exit before big declines.
+  - `stock-selection.md` — what he is looking for: launched rockets, the fundamental
+    overlay, the price-level rule, the ATH watchlist. Its scan definitions live on
+    `scans.md`; its daily-chart entry triggers (BOS, the dots, x8/x21/30) on `entry-signals.md`.
+  - `oversold-bounce.md` — the OSB / ATHOSB doctrine: the entry he prefers to the breakout.
+  - `risk-and-cash.md` — the trading-account doctrine: when to be in cash, stops, cutting
+    losses. Split out of it (2026-08-18): `pension-management.md` (the two accounts, staged
+    pension exit), `short-side.md` (submarine scan, hedging, options), `leveraged-etf-default.md`
+    (TQQQ on a Buy signal), and `history/defensive-episodes.md` (worked case studies).
+  - `gmi-family.md` (GMI-S/L/R/2 and the rest of the daily table) and `gmi-evidence.md`
+    (verbatim table labels, signal record, audits) — split out of `gmi.md` 2026-08-18.
+  - `backtest-timing-overlay.md`, `trading-philosophy.md`, `reader-qa.md` — analysis pages.
   - `glossary.md` — every term he coins/uses, defined in one or two sentences, each
     with a first-appearance citation. Alphabetical.
 - `wiki/playbooks/*.md` — decision procedures:
   - `market-state.md` — given GMI + QQQ-timing + T2108, what stance? (a decision tree).
   - `buying-glb.md` — the mechanical GLB entry checklist.
-  - `exits.md` — how/when he sells; trailing rules.
+  - `buying-osb.md` — the mechanical OSB entry checklist (the dot triggers tabulated).
+  - `exits.md` — how/when he sells; the three trailing systems reconciled by date.
+  Playbooks hold **procedure only** (~1,200 words); doctrine lives on the concept page (§4).
 - `wiki/history/*.md`:
   - `timeline.md` — how the methodology evolved year by year; inflection points
     (new indicators introduced, rules changed, lessons from 2008/2020/2022/etc.).
+    **Kept in strict chronological order by section heading** — insert new sections in place.
+  - `defensive-episodes.md` — worked case studies of the defensive doctrine applied.
+  - `trend-flip-log.md` — every documented QQQ short-term trend flip.
   - `track-record.md` — notable market calls + outcomes (built largely from the
     timeline dataset once Plan 2.5 produces `raw/timeline.parquet`).
 - `wiki/sources/<YYYY-MM-DD>-<slug>.md` — one **summary page per ingested
@@ -250,10 +262,11 @@ To pick the next batch: `uv run ww batch --kind long_form`.
 timeline section), and the **GMI component 6** question — it was never replaced; it is still the
 IBD Growth Mutual Fund index (`0muti`) above its 50-day average, confirmed 2008/2009/2023/2025.
 2007 also yielded two previously undocumented indicators, **GMI-L** and the **GMI-S construction**.
+*Closed 2026-08-18:* the **short-side** page (`methodology/short-side.md`); the GMI component
+*labels* (read off four table images 2007/2013/2020/2026 — see `methodology/gmi-evidence.md`).
 *Still open:* **2015** and **2019** (one source page each); the **hourly / multi-timeframe GMMA**;
-**position sizing and portfolio construction**; a unified **short-side** page; the **off-blog
+**position sizing and portfolio construction**; the **off-blog
 teaching corpus** (~63 posts pointing at Worden webinars, AAII, TraderLion, TASC, YouTube);
-**trading psychology**; the **Twitter alert channel**. The GMI's current component *labels* remain
-unrecovered because the daily GMI table is published as an image — components 1, 2 and 6 are
-confirmed verbally at multiple dates, and 3–5 rest on the 2005 definition plus 2007/2012
+**trading psychology**; the **Twitter alert channel**. Historically, components 1, 2 and 6 were
+confirmed verbally at multiple dates, and 3–5 rested on the 2005 definition plus 2007/2012
 corroboration.
