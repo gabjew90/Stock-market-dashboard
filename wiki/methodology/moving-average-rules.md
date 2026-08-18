@@ -50,6 +50,9 @@ sources:
   - raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md
   - raw/posts/2022-07-12-blog-post-day-1-of-new-qqq-short-term-down-trend-hourly-gmma-looks-weak-see-chart-gmi0.md
   - raw/posts/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md
+  - raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md
+  - raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md
+  - raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md
 ---
 
 # Moving-average rules
@@ -140,6 +143,10 @@ For stock selection, Dr. Wish uses the weekly GMMA (Guppy Multiple Moving Averag
 See [stock-selection.md](stock-selection.md) for the full description of how RWB is used in stock screening.
 
 **What a top looks like on the GMMA (2015).** Shown on the 2000 and 2007 QQQ tops: "The red lines converge, demonstrating little price movement over the different average lengths, and finally you get the red lines below the blue lines with a white area separating them." The rule attached: "Anytime the white space disappears and the red lines fall below the blue lines it is appropriate for me to become defensive." His chart adds a 13th average of length 1 (the weekly close) to Guppy's twelve. ([WW 2015-02-16](../../raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md))
+
+**Before it had a name (May 2009).** The first Guppy chart on the blog is a *weekly* QQQQ chart with 12 averages, shorter in black and longer in red, presented with the conclusion "the more that I analyze the market, the more I become convinced that I should rely on the longer term weekly trends to determine the market trend." The 2007 decline had bottomed, the long averages had "stopped declining, and some are beginning to curve around," and he would "wade slowly back into this market with my most conservative money… willing to get out again if the shorter term averages turn down again." The self-description travels with it: "a trend following swing trader, trying to catch the multi-month up-swings… The key to success for me is to be out of the market (and lose little $$) when the black lines are below the red lines." ([WW 2009-05-31](../../raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md)) Sixteen months later the colours were fixed and the pattern named RWB.
+
+**Yellow band on the index (June 2010).** The yellow-band idea, discovered on individual stocks, applied to the Guppy *daily* chart of the QQQQ: a band drawn between certain short- and long-term averages that are rising or falling together; "it is during yellow band trends that I can usually make money trading consistent with the trend," and the lesson underneath — "one of the toughest lessons I have learned over the past 40 years is that I should only stay in the market when there is a well defined trend," after years of riding up-trends and giving it all back. ([WW 2010-06-28](../../raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md))
 
 ## The 4-week / 10-week / 30-week alignment — a weekly stock rule
 
@@ -320,6 +327,8 @@ trend; RLC exits) → **weekly** (stage; pension) → **monthly** (regime tops a
 
 None of these overrides the daily count or the weekly stage; they size the *nibble* and time the entry inside a trend the slower layers have already called.
 
+**The ladder, first stated (June 2014).** Two years before the RWB-across-timeframes tutorials, he showed the QQQ's modified GMMA at four resolutions — weekly, daily, hourly, 5-minute — and assigned the roles that still hold: "As a longer term swing trader I focus on the weekly and daily charts. The hourly and 5 minute charts are useful only if I want to pinpoint areas for entries or where to put sell stops." Monitoring is delegated to TC2000 email alerts when the index crosses a key average. ([WW 2014-06-22](../../raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md))
+
 ## The monthly layer — tops and cycles
 
 Two instruments slower than the weekly chart, both previously undocumented:
@@ -414,3 +423,6 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2022-06-26 — QQQ down-trend may end Monday; 69% of Nasdaq-100 in hourly RWB up-trends; RS-at-50-week-high scan; LLY](../../raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md) ([summary](../sources/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md))
 - [WW 2022-07-12 — Day 1 of new QQQ down-trend; hourly GMMA looks weak; GMI=0](../../raw/posts/2022-07-12-blog-post-day-1-of-new-qqq-short-term-down-trend-hourly-gmma-looks-weak-see-chart-gmi0.md)
 - [WW 2022-08-01 — Day 11 of QQQ up-trend; MACD hourly histograms reveal weakening](../../raw/posts/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md) ([summary](../sources/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md))
+- [WW 2009-05-31 — Rally gaining strength; Guppy chart reveals major turn](../../raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md) ([summary](../sources/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md))
+- [WW 2014-06-22 — RWB patterns in QQQ across time periods; PTLA and STZ](../../raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md) ([summary](../sources/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md))
+- [WW 2010-06-28 — I only ride the yellow band trends; in cash or short; submarine stocks](../../raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md) ([summary](../sources/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md))

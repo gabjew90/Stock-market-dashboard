@@ -62,6 +62,8 @@ prohibition of market timing for mutual funds," recommending ETFs as the workaro
 This matters when reading his pension record: some of the lag between a signal and a pension
 move is structural. See [reader-qa.md](reader-qa.md).
 
+The constraint reached the blog in December 2010, from a reader locked out of re-buying a fund after selling: "a lot of funds… have instituted restrictions against timing the market… I do not trade my university pension mutual funds often, but when my indicators tell me that a big down-trend is likely, I move to cash. I therefore safely rode out the 2000-2002 and 2008 declines on the sidelines… The only good alternative right now is to get out of mutual funds and invest in suitable ETF's." ([WW 2010-12-06](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md)) (Five years later the August 2015 flash crash cooled him on ETFs for the slow money — see above.)
+
 ## New money vs old money in a decline
 
 A distinction between the balance and the flow: even with the pension **balance** moved to money market, "money

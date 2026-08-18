@@ -14,6 +14,8 @@ sources:
   - raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md
   - raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md
   - raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md
+  - raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md
+  - raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -54,6 +56,8 @@ The one discretionary override he grants himself on the exit side. Yahoo around 
 
 The line that closes the August 2011 exit post, after admitting both drivers — "I am mainly acting on my established rules" *and* "I just got tired of worrying about the risks": "**If one cannot exit the market to go to cash, one should not be in the market at all.** Too many people are addicted to the rush of trading." ([WW 2011-08-15](../../raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md)) Cash is the psychological precondition for every other rule here; see [risk-and-cash](risk-and-cash.md).
 
+A corollary he stated in 2009 while sitting out a rally his own indicators favoured: "I cannot trade successfully when I am stressed by other concerns" — personal circumstances are a reason not to trade, whatever the chart says. ([WW 2009-05-31](../../raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md)) And the fear at the other end, named in 2010: "At the beginning of a new up-trend, we often are scared to go long because we are driving along, looking through the rear view mirror at the recently ended decline." ([WW 2010-06-21](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
+
 ## How the rules fit together
 
 Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or the need to be active. Rules 3, 4 and 6 are about *fear* — expect it, size for it, and pre-commit against it in writing. Rules 5 and 7 are about the *exit* — the stop removes emotion at entry, and the too-easy voice is the single place he lets emotion back in, on the profitable side only. Nothing on this page asks for a temperament he does not have; each item is a rule written after he watched himself fail without it.
@@ -77,3 +81,5 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2019-11-24 — Why I sold INMD at $57; the too-easy voice](../../raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md) ([summary](../sources/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md))
 - [WW 2020-03-15 — Livermore: amputation without anaesthetics](../../raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md) ([summary](../sources/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md))
 - [WW 2020-09-20 — 10 doublers; the note on the monitor](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) ([summary](../sources/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
+- [WW 2009-05-31 — Rally gaining strength; Guppy chart reveals major turn](../../raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md) ([summary](../sources/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md))
+- [WW 2010-06-21 — Stocks near all-time highs; IBD100 stocks 3× more likely to rise 10%+](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md) ([summary](../sources/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))

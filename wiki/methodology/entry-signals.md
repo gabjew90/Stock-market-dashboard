@@ -12,6 +12,7 @@ sources:
   - raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md
   - raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md
   - raw/posts/2019-02-10-green-dot-signal-lulu.md
+  - raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md
 ---
 
 # Entry signals — BOS, the dots, and the daily bounce setups
@@ -71,6 +72,8 @@ The fullest single walk-through of the green-dot procedure, a year after the def
 
 The five triggers are successive dress for one idea, and the later ones do not retire the earlier ones so much as add a name to the chart. Read chronologically: **BOS (2016)** triggered off the lower 15.2 Bollinger Band; the **green dot (2018)** put a stochastic crossover on it and fixed the stop at the 5-day low; the **black dot (2021)** switched to the 10.1 stochastic ≤ 25 and became the OSB's trigger of record through 2023; the **x8/x21/30 alignment (2024)** added a moving-average structure test; and by **2025 the OSB was being called on the blue dot** (10.1 crossing above 20, with the full TC2000 formula published) — the SHAK example on [oversold-bounce](oversold-bounce.md#combining-osb-with-a-glb) shows the hand-over. He still cites the 15.2 band as a supporting condition on 2023 black-dot charts, so nothing here has been formally withdrawn; the blue dot is simply the most recent and the only one disclosed as a formula. The [OSB playbook](../playbooks/buying-osb.md#step-3--wait-for-oversold-then-the-turn-the-osb) tabulates the three dot triggers side by side.
 
+The green dot has a dated ancestor: the December 2016 TC2000 bounce scan (fast 10.4 above slow 10.4.4, fast < 20 within two days and ≤ 50, close > 50-day, ≥15% off the 50-day low, volume > 100k), taught on CELG with the stop under the bounce and the exit on the fast line closing back under the slow — the exact exit the 2018 definition carries. ([WW 2016-12-11](../../raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md)) So the sequence is BOS (2016-06) → stochastic bounce scan (2016-12) → green dot (2018-03). Spec on [the scans](scans.md#the-stochastic-bounce-scan-2016--the-green-dots-ancestor).
+
 ## See also
 
 - [The oversold bounce (OSB / ATHOSB)](oversold-bounce.md) — the doctrine these triggers serve
@@ -90,3 +93,4 @@ The five triggers are successive dress for one idea, and the later ones do not r
 - [WW 2024-06-16 — x8/x21/30-day alignment bounce entry setup; COST ANF NVDA CVLT](../../raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md) ([summary](../sources/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md))
 - [WW 2025-05-22 — Blue dot of happiness: full TC2000 scan formula; Boston IBD Meetup](../../raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md) ([summary](../sources/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md))
 - [WW 2019-02-10 — Green dot signal: LULU](../../raw/posts/2019-02-10-green-dot-signal-lulu.md) ([summary](../sources/2019-02-10-green-dot-signal-lulu.md))
+- [WW 2016-12-11 — All GMI components positive; QQQ near ATH; new TC2000 scan for bounces: CELG](../../raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md) ([summary](../sources/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md))

@@ -35,6 +35,8 @@ sources:
   - raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md
   - raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md
   - raw/posts/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md
+  - raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md
+  - raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md
 ---
 
 # Stock selection
@@ -221,6 +223,8 @@ to decline more... **during major declining markets**." ([WW 2013-12-09](../../r
 
 Earlier (2012) IBD50 data: from December 2011 through April 2012, IBD50 median gain was +20% vs Nasdaq100 +15% vs S&P500 +10%; 34% of IBD50 gained 30%+, vs 16% of Nasdaq100. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
 
+**Two 2010 checks that preceded the 2011 comparison.** From the IBD100 list of June 7, 2010, through June 18: 91% of the stocks advanced, median +6.5%, 21% up ≥10% — against the Nasdaq-100's 90%, +4.8%, 8%; "the IBD100 stocks were three times more likely to advance 10% or more," against the claim that appearing on the list means it is too late (with the standing caveat that such stocks fall faster in declines). Eight of the top ten rose. ([WW 2010-06-21](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md)) In December 2010, one-share portfolios of four IBD100 *top-10* lists each beat both indexes after publication — the June 28 list +44% vs Nasdaq-100 +19% and S&P 500 +13.9%, BIDU and NFLX on all four. ([WW 2010-12-06](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md))
+
 ## The pilot portfolio — 25-share radar positions (2014)
 
 The pilot buy scaled to a watchlist: across 11 biotech GLB candidates in a down-trend, "buy a
@@ -272,3 +276,5 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2022-12-04 — TC2000 gap-up scan; $TMDX $TMUS](../../raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md) ([summary](../sources/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md))
 - [WW 2023-04-24 — WING missed GLB; TC2000 price alerts](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md) ([summary](../sources/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
 - [WW 2015-09-13 — Taking stock: technical indicators at extreme levels; INGN](../../raw/posts/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md) ([summary](../sources/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md))
+- [WW 2010-06-21 — Stocks near all-time highs; IBD100 stocks 3× more likely to rise 10%+](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md) ([summary](../sources/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
+- [WW 2010-12-06 — IBD gives up on the follow-through day; how mutual funds rip off investors; IBD100 top 10](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md) ([summary](../sources/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md))

@@ -16,6 +16,8 @@ sources:
   - raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md
   - raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md
   - raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md
+  - raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md
+  - raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -123,6 +125,14 @@ The clearest description of the full GLB detection workflow, using TSLA's April 
 
 **General principle:** "Why are so many people averse to buying stocks that break from a multi-month base (green line top) to a new all-time high? In the stock market I do not want to buy bargains." ([WW 2013-05-20](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md))
 
+## The new-high + EPS ≥ 50% scan (2010)
+
+The 2010 form of the leader search: stocks that hit a new 52-week high on the day, are near their all-time high, and posted a most-recent-quarter EPS increase of at least +50%; the review table adds the prior quarter's EPS change, annual EPS, P/E, price ÷ price a year ago, last-quarter revenue change and P/S. On 2010-06-18 it produced 11 names, all with rising revenue and 64% already flagged from his IBD100/New America lists; "the next step is to research each stock's fundamentals and business concept before considering a purchase." ([WW 2010-06-21](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
+
+## The stochastic bounce scan (2016) — the green dot's ancestor
+
+Posted to his TC2000 club in December 2016 and specified in full: **(1)** the fast daily 10.4 stochastic above the slow 10.4.4, the fast **< 20 within the past 2 days** (rising from oversold) and **≤ 50** (not extended), close above the 50-day average; **(2)** at least a **15% rise from the 50-day low** at some point in the past 50 days; **(3)** volume > 100,000. Five hits on 2016-12-09 (CELG, MMS, HELE, AVXS, FTV; HELE dropped for a Stage II decline). The trade as taught on CELG: buy, stop below the recent bounce just under $110, and sell "if/when the fast stochastics closes back below the slow stochastics"; a bounce off the lower 15.2 daily Bollinger Band is a bonus "not required by this scan." ([WW 2016-12-11](../../raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md)) Fifteen months later the same crossover became the [green dot](entry-signals.md).
+
 ## The relative-strength-at-a-50-week-high scan (2022)
 
 Run on his ~780-stock IBD/MarketSmith watchlist during the 2022 bear: stocks **near an all-time high** whose **weekly relative strength versus SPY is at a 50-week high**, sorted by change from 250 days ago (HRMY +76% topped the June 2022 list of 12). The logic is the same as the weak-tape watchlist on [stock-selection](stock-selection.md#building-the-ath-watchlist--and-tc2000s-survivorship-trap): "any stock that can come through the recent market down-trend near an ATH is worth monitoring," whereas fallen leaders "may never come back to an ATH, as many people who bought at higher prices and rode them down are grateful to sell as soon as they can get their original investments back." LLY was the worked example, with a successful retest of its March 2022 GLB. ([WW 2022-06-26](../../raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md))
@@ -154,3 +164,5 @@ A TC2000 EasyScan he designed to approximate Darvas's selection criteria, run ag
 - [WW 2024-05-27 — ANF worked example (weekly green bar)](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md) ([summary](../sources/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
 - [WW 2015-03-01 — On my use of the GMI; pension self-correction; Darvas scan; AMBA](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md) ([summary](../sources/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md))
 - [WW 2022-06-26 — QQQ down-trend may end Monday; 69% of Nasdaq-100 in hourly RWB up-trends; RS-at-50-week-high scan; LLY](../../raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md) ([summary](../sources/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md))
+- [WW 2010-06-21 — Stocks near all-time highs; IBD100 stocks 3× more likely to rise 10%+](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md) ([summary](../sources/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
+- [WW 2016-12-11 — All GMI components positive; QQQ near ATH; new TC2000 scan for bounces: CELG](../../raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md) ([summary](../sources/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md))

@@ -36,6 +36,8 @@ sources:
   - raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md
   - raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md
   - raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md
+  - raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md
+  - raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -65,6 +67,8 @@ In 2017, Dr. Wish cited Darvas's own text: asked directly whether a stock needed
 ### GLB origin — the 1960s observation
 
 Dr. Wish traces the GLB concept to a monthly stock-chart book he received in the 1960s. He noticed that stocks that reached an ATH, declined for a few months, and then went on to a new ATH "were often big gainers." Many years later he formalized this into the green line system. ([WW 2021-01-24](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))
+
+**The March 2013 statement.** "One of my most important discoveries is the green line chart… a green line break-out stock has no overhead supply of stock from people who bought at higher levels and are holding losses." Workflow: TC2000 GLB scan → draw the line on the monthly → check recency on the weekly. Entry: "buy a little and wait to see if the green line holds. If it does, and the stock gathers strength I add to my position. A lot of stocks will fall back to the green line before they advance." Horizon: "meant to find stocks that will rise for months." Best environment: "up-trending markets, with the GMI on a buy signal." Post-bear GLBs are the biggest winners — GMCR's 2009 breakout, drawn in after the fact, ran ~900%. And the GLB applied to indexes: DJ-20 and DIA both broke green lines in March 2013, "completing a classic Dow Theory buy signal." ([WW 2013-03-17](../../raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md))
 
 ## How he uses it
 
@@ -107,6 +111,8 @@ Example: Facebook came public in May 2012 at $42.05, rose to $45 in its first mo
 Example: TWTR IPO'd and formed a green line top at $74.73 in December 2013 (one month after its IPO). It stayed below that level for 8 years and had a GLB in February 2021. William O'Neil liked buying companies that had come public in the previous 8 years and broken out to new ATHs — TWTR fits this profile. ([WW 2021-02-28](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
 
 Stated compactly in March 2019: "I like to buy recent IPOs (within last 4-5 years) that form a multi-month top and then break through on above average volume to an all-time high" — the appeal being "a lot of room to gain as traders see the new highs and jump on board." The exit-and-re-entry pair travels with it: "I never hold a GLB that *closes* back below its green line, but I often will repurchase it if it closes back above its green line." Examples SAFE, YETI, TWLO. ([WW 2019-03-29](../../raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md))
+
+The idea predates the label: in June 2014, on PTLA, "I think it to be an important technical signal when a recent IPO forms a multi-month base and then breaks to a new all-time high." ([WW 2014-06-22](../../raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md))
 
 ## The WGB — a second-chance entry after a GLB
 
@@ -322,3 +328,5 @@ This is continuous with the 2016 [BOS](stock-selection.md) preference ("I actual
 - [WW 2023-01-16 — How I trade a GLB: the close-below rule shown intraday](../../raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md) ([summary](../sources/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md))
 - [WW 2013-10-13 — The sleeping point; failed GLBs as sell-side weakness; GLD Stage 4](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md) ([summary](../sources/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md))
 - [WW 2019-03-29 — Buying IPOs with a recent GLB: SAFE, YETI, TWLO](../../raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md) ([summary](../sources/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md))
+- [WW 2014-06-22 — RWB patterns in QQQ across time periods; PTLA and STZ](../../raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md) ([summary](../sources/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md))
+- [WW 2013-03-17 — More green line break-out stocks: DFS, WAT, CAB, NEE; Dow Theory buy signal](../../raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md) ([summary](../sources/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md))

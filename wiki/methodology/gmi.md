@@ -25,6 +25,7 @@ sources:
   - raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md
   - raw/posts/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md
   - raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md
+  - raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md
 ---
 
 # General Market Index (GMI)
@@ -110,6 +111,8 @@ The GMI can move between extremes very quickly — in one documented instance, i
 **GMI buy signal criterion (2012):** GMI > 3 on **two consecutive days**. At that point he closes all shorts and goes long. "I will be much more confident of the new up-trend once it lasts 5 days." ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md)) Confirmed independently: "Two consecutive days with the GMI above 3 would turn the GMI signal to buy." ([WW 2012-06-18](../../raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md))
 
 He uses the GMI alongside the [QQQ Short-Term Timing](qqq-short-term-timing.md) count and [T2108](t2108.md). See the [market-state playbook](../playbooks/market-state.md) for how these combine.
+
+**Grading at the margin is discretionary.** When components are "too close to call" he has marked them "?" and left the prior day's total standing — "those of you who prefer a rigid adherence to the criteria can go with readings of 3 and 6, respectively" (June 2010, GMI held at 4 and GMI-R at 7). The published number is his call on borderline days, not a pure formula. ([WW 2010-06-21](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
 
 ## New highs / new lows — a breadth supplement to the GMI
 
@@ -264,3 +267,4 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2023-08-09 — Component 6 could flip the GMI to Red; SQQQ accumulation](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md)
 - [WW 2025-12-14 — Component 6 (0MUTI) still live and now negative; FFTY daily BWR](../../raw/posts/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md) ([summary](../sources/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md))
 - [WW 2019-06-02 — Shorting stocks at new lows beats buying stocks at new highs](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md) ([summary](../sources/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
+- [WW 2010-06-21 — Stocks near all-time highs; IBD100 stocks 3× more likely to rise 10%+](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md) ([summary](../sources/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))

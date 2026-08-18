@@ -1174,3 +1174,12 @@ triple-support scan), `history/timeline.md` (4 sections), `index.md`; 4 new `sou
 ## [2026-08-18] ingest | 2022-06-26 69% of Nasdaq-100 in hourly RWB up-trends; RS-at-50-week-high scan; LLY — tier=teaching; touched: moving-average-rules (hourly layer), scans (new scan), timeline
 ## [2026-08-18] ingest | 2022-08-01 MACD hourly histograms reveal weakening — tier=teaching; touched: moving-average-rules (hourly layer), timeline
 ## [2026-08-18] ingest | 2022-07-12 Day 1 of new QQQ down-trend; hourly GMMA looks weak — tier=daily_update (cited inline, no summary page); touched: moving-average-rules, timeline. Closes the hourly-GMMA gap.
+
+## [2026-08-18] ingest | 2009-05-31 Rally gaining strength; Guppy chart reveals major turn — tier=teaching; touched: moving-average-rules (the first weekly Guppy chart, May 2009; "rely on the weekly"), t2108, trading-psychology, timeline
+## [2026-08-18] ingest | 2010-06-21 Stocks near ATH; IBD100 3× more likely to rise 10%+ — tier=teaching; touched: stock-selection (2010 IBD100 check), scans (new-high + EPS≥50%), gmi (the "?" grade), t2108 (pendulum), trading-psychology, timeline
+## [2026-08-18] ingest | 2010-06-28 I only ride the yellow band trends — tier=teaching; touched: moving-average-rules (yellow band on the index), risk-and-cash (many small losses), short-side, timeline
+## [2026-08-18] ingest | 2010-12-06 IBD gives up on the FTD; mutual funds restrict timing; IBD100 top-10 — tier=teaching; touched: pension-management (the constraint from the post itself), stock-selection, timeline
+## [2026-08-18] ingest | 2013-03-17 More GLB stocks; pilot buy; Dow Theory buy signal — tier=teaching; touched: green-line-breakouts (2013 statement; index GLBs), timeline
+## [2026-08-18] ingest | 2014-06-22 RWB patterns in QQQ across four timeframes — tier=teaching; touched: moving-average-rules (the ladder and each layer's role, first stated), green-line-breakouts (IPO precursor), timeline
+## [2026-08-18] ingest | 2016-10-25 Back from Minervini's Master Trader Program — tier=teaching; touched: trading-philosophy (the lineage he names), timeline
+## [2026-08-18] ingest | 2016-12-11 New TC2000 scan for bounces: CELG — tier=teaching; touched: scans (full spec), entry-signals (the green dot's dated ancestor: BOS 2016-06 → bounce scan 2016-12 → green dot 2018-03), timeline

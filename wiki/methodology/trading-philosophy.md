@@ -1,7 +1,7 @@
 ---
 title: Trading philosophy — the five propositions
 type: concept
-updated: 2026-08-12
+updated: 2026-08-18
 sources:
   - raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md
   - raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md
@@ -12,6 +12,7 @@ sources:
   - raw/posts/2009-11-26-my-trading-philosophy-and-why-i-use-technical-analysis.md
   - raw/posts/2018-03-11-green-dot-strategy-defined.md
   - raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md
+  - raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md
 ---
 
 # Trading philosophy — the five propositions
@@ -173,6 +174,10 @@ signals to short-term trading and using the weekly GMMA for long-term allocation
 never stop learning and adapting when it comes to the markets." ([WW 2015-02-22](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md)) See [gmi.md](gmi.md#a-limitation-he-published-himself-2015)
 and the [backtest](backtest-timing-overlay.md).
 
+## The lineage he names
+
+The influences are stated, not implied: Darvas (the first book he assigns), Weinstein's stage analysis, O'Neil, Livermore via Lefèvre, Guppy for the multiple-moving-average charts, and — from October 2016 — Mark Minervini and David Ryan, after three days at Minervini's Master Trader Program: "600 slides that taught everything from how to select stocks, the price patterns that are most profitable, the way to set stops, pyramid up, and close out positions. They gave the best information on the value of cutting losses that I have ever seen… He has put into a 3 day session much of what it took me over 50 years to learn." Both offered to lecture his students, and the later @markminervini / MarketSmith / VCP references on the blog trace to this. ([WW 2016-10-25](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))
+
 ## See also
 
 - [Risk & cash](risk-and-cash.md) — capital conservation, the doctrine this philosophy produces
@@ -192,3 +197,4 @@ and the [backtest](backtest-timing-overlay.md).
 - [WW 2010-12-13 — The 95-year Dow cycle framework](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md) ([summary](../sources/2010-12-13-where-are-we-in-the-market-cycle.md))
 - [WW 2005-05-30 — The orthodox agnostic; window dressing explained; the MW plan](../../raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md) ([summary](../sources/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md))
 - [WW 2008-01-02 — The AOL-induced epiphany, tested on ISRG](../../raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md) ([summary](../sources/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md))
+- [WW 2016-10-25 — Back from Mark Minervini's Master Trader Program](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md) ([summary](../sources/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))

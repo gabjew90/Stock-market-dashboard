@@ -167,6 +167,14 @@ sources:
   - raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md
   - raw/posts/2022-07-12-blog-post-day-1-of-new-qqq-short-term-down-trend-hourly-gmma-looks-weak-see-chart-gmi0.md
   - raw/posts/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md
+  - raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md
+  - raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md
+  - raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md
+  - raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md
+  - raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md
+  - raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md
+  - raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md
+  - raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md
 ---
 
 # Timeline — evolution of the methodology
@@ -365,6 +373,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## May 2009 (Guppy) — the first weekly Guppy chart; rely on the weekly
+
+**"Rally gaining strength; Guppy chart reveals major turn" (2009-05-31):** after a two-day head-fake in the daily count — "I should rely on the longer term weekly trends to determine the market trend." First weekly Guppy chart of QQQQ (12 averages, black short / red long, white space = bull); long averages curving up; "wade slowly back… with my most conservative money." "A trend following swing trader, trying to catch the multi-month up-swings." 50% of Nasdaq-100 with MACD above signal; T2108 82%. ([WW 2009-05-31](../../raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md))
+
 ## June 2009 — Re-entry after the 2008–2009 bear; GMI track record documented
 
 **"How my GMI kept me and my 401K out of the bear market" (2009-06-14):** retrospective weekly GMI chart covering the full 2008–2009 bear. GMI hit 4 in early April 2009 and held at 4. Re-entry condition: 10-week average crossed back above the 30-week average — "a key characteristic of tradable advances." Dr. Wish moved 15% of pension from money market to a growth mutual fund and made pilot buys in SYNA and HMSY. ([WW 2009-06-14](../../raw/posts/2009-06-14-how-my-general-market-indicator-gmi-kept-me-and-my-401k-out-of-the-bear-market.md))
@@ -411,6 +423,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## June 2010 (IBD100 / yellow band) — 3× more likely to rise 10%; the "?" grade; yellow band on the index
+
+**"Some stocks near all-time highs; IBD100 stocks 3x more likely to rise 10%+" (2010-06-21):** new-high scan (near ATH, EPS ≥ +50%); IBD100 6/7 list vs Nasdaq-100 through 6/18: 91%/90% advanced, median +6.5%/+4.8%, 21%/8% up ≥10%; two GMI components graded "?" and held; T2108 50% → "typically goes back to around 80%"; the rear-view-mirror fear. ([WW 2010-06-21](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
+
+**"I only ride the yellow band trends! Down-trend, in cash or short" (2010-06-28):** GMI 0, D-1; the yellow band applied to the Guppy daily chart of QQQQ — "I should only stay in the market when there is a well defined trend"; "many small losses and a few very large gains"; a little QID/TYP on Day 1; 95 submarines incl. GOOG. ([WW 2010-06-28](../../raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md))
+
 ## July 2010 — Pension exit at GMI=0; topping-pattern PCF
 
 **"At the beginning of a big market decline?" (2010-07-06):** Dr. Wish moves 60% of his pension to money market despite the market having already declined significantly. His TC2007 topping-pattern PCF flags 91 of 951 ETFs, including world indexes and US sectors. GMI and GMI-R both at 0. T2108 at 25% — not yet at oversold extreme. He articulates his "regret-free late exit" philosophy: better to exit after some decline and re-enter higher than to ride the full bear. ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
@@ -434,6 +452,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"Where are we in the market cycle?" (2010-12-13):** the slowest instrument — monthly Dow, 5- and 30-month averages, 25.4.4 monthly stochastic, eyeballed back to 1915. Bottoms with the stochastic below 50 (severe ones ~20); tops led by a sustained stochastic decline plus a 5/30-month cross. The simple-over-complex line: "The road is littered with the carcasses of Ph.D.'s who wagered heavily and lost." ([WW 2010-12-13](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md))
 
 ---
+
+## December 2010 (IBD / funds) — IBD drops the follow-through day; funds restrict timing; IBD100 top-10 beats the indexes
+
+**"IBD announces 'resumed confirmed up-trend', gives up on follow-through day; how mutual funds rip off investors" (2010-12-06):** IBD calls an up-trend without a high-volume FTD; a reader barred from re-buying a fund — "there ought to be a law against the prohibition of market timing for mutual funds… get out of mutual funds and invest in suitable ETF's"; four IBD100 top-10 portfolios each beat both indexes (6/28 list +44% vs +19%/+13.9%). SPY/QQQQ above their 10-week 14 straight weeks. ([WW 2010-12-06](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md))
 
 ## January 2011 — 2010 year-in-review; TQQQ default established; Day-1 entry tactic
 
@@ -513,6 +535,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## March 2013 (GLB) — the green line stated; pilot buy; Dow Theory via GLB
+
+**"Some more green line break-out stocks: DFS, WAT, CAB, NEE; Dow Theory buy signal" (2013-03-17):** "one of my most important discoveries"; no overhead supply; scan → monthly line → weekly recency; "buy a little and wait to see if the green line holds… a lot of stocks will fall back to the green line before they advance"; GMCR's 2009 GLB ran ~900% — post-bear GLBs are the big winners; DJ-20 and DIA GLBs = "a classic Dow Theory buy signal." GMI Buy since Feb 28. ([WW 2013-03-17](../../raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md))
+
 ## May 2013 — TSLA GLB worked example; 5-step detection workflow
 
 **"How to find a TSLA-like explosive stock before its huge advance" (2013-05-20):** with TSLA at $91.50 after its April 2013 breakout from $39.95, Dr. Wish traces the full 5-step GLB detection workflow: (1) run an evening new-high scan — TSLA appeared on April 1, 2013; (2) look at the monthly chart immediately — TSLA closed above its prior peak of $39.95 (from March 2012, more than a year earlier); (3) check the weekly chart for "the highest weekly volume ever" confirming institutional interest; (4) look for a gap-up above the green line on the daily chart on high volume; (5) watch for a re-test of the breakout level — TSLA pulled back to the green line giving a lower-risk second entry. IPO advantage explained: as a recent IPO in a new growth industry, most funds would not yet own TSLA — therefore a large future buyer base exists. Exit rule restated: "If the stock closes back below the green line we can sell with a small loss." ([WW 2013-05-20](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md))
@@ -572,6 +598,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"What a market top looks like" (2014-06-08):** the monthly GMMA top template — 2000-01 and 2007-08 SPY published as the two worked instances of red converging under blue at monthly scale — and the sentence the exit-latency defence rests on: "**Market tops take months to develop, leaving plenty of time for the watchful investor to exit the market.**" ([WW 2014-06-08](../../raw/posts/2014-06-08-what-a-market-top-looks-like.md))
 
 ---
+
+## June 2014 (timeframes) — RWB across weekly / daily / hourly / 5-minute; which ones he trades from
+
+**"RWB patterns in QQQ across time periods; PTLA and STZ" (2014-06-22):** the modified GMMA at four resolutions; "as a longer term swing trader I focus on the weekly and daily charts. The hourly and 5 minute charts are useful only if I want to pinpoint areas for entries or where to put sell stops"; TC2000 alerts on average crosses; PTLA — a recent IPO's multi-month base then ATH as "an important technical signal"; STZ cup-and-handle. ([WW 2014-06-22](../../raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md))
 
 ## August 2014 — Successful 10-Day New High Indicator explained in detail; T2108 defined
 
@@ -669,6 +699,10 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 ---
 
+## October 2016 — Minervini's Master Trader Program
+
+**"Back from Mark Minervini's Wonderful Master Trader Program" (2016-10-25):** three days with Minervini and David Ryan — selection, patterns, stops, pyramiding, closing positions, "the best information on the value of cutting losses that I have ever seen," a live-trading day, a psychology session; "much of what it took me over 50 years to learn"; both to lecture his students. ([WW 2016-10-25](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))
+
 ## November 2016 — Weekly 4wk/10wk hold discipline formalized; NTES 21-week example
 
 **"Short and long term trends now up; On using weekly charts to stay in a growth stock: $NTES" (2016-11-20):** Dr. Wish addresses the most common failure mode he observes in student traders: getting shaken out of a winner prematurely by reacting to daily chart noise. His solution: make exit decisions using only the **weekly chart** with three MAs (4wk, 10wk, 30wk). William O'Neil's approach cited — O'Neil "used only weekly charts because they more clearly revealed to him the meaningful stock trends." The **4wk/10wk hold ladder**: a strong advancing growth stock maintains 4wk > 10wk > 30wk for long periods; a weekly close below the 4wk average is a *potential* warning — raise stops or sell a small piece; a weekly close below the 10wk average is an exit signal ("Growth stocks should not close the week below their 10 week average"). Critical nuance: a stock often trades *intraweek* below its 4wk average and then closes back above — use weekly closing prices only. NTES example: 4>10>30 alignment from June through November 2016 — 21 weeks; stock rose over 40%; when it finally closed below the 4wk then the 10wk in early November, that was the exit signal. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
@@ -680,6 +714,10 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 **"New TC2000 Scan yields 4 break-outs from consolidation" (2016-11-27):** weekly-chart scan — multi-week consolidation, above-average breakout-week volume, EPS ≥ +50% — 4 of ~4,900. The annotated WB chart documents the chart-header legend, including **short interest read as breakout fuel** ("the higher the number, the greater the buying pressure from a break-out"). ([WW 2016-11-27](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md))
 
 ---
+
+## December 2016 — the stochastic bounce scan, fully specified (the green dot's ancestor)
+
+**"All GMI components positive; QQQ near all-time peak; new TC2000 scan for bounces: CELG" (2016-12-11):** fast 10.4 > slow 10.4.4, fast < 20 within 2 days and ≤ 50, close > 50-day, ≥15% off the 50-day low within 50 days, volume > 100k → CELG, MMS, HELE, AVXS, FTV; buy, stop under the bounce (~$110), sell when the fast closes back under the slow; lower 15.2 BB as a bonus. QQQ 119.50 vs the 2000 top at 120.50. ([WW 2016-12-11](../../raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md))
 
 ## January 2017 — David Ryan on breakouts vs pullbacks; ATH-past-40-days + lower Bollinger Band scan
 
@@ -1225,3 +1263,11 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2022-06-26 — QQQ down-trend may end Monday; 69% of Nasdaq-100 in hourly RWB up-trends; RS-at-50-week-high scan; LLY](../../raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md) ([summary](../sources/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md))
 - [WW 2022-07-12 — Day 1 of new QQQ down-trend; hourly GMMA looks weak; GMI=0](../../raw/posts/2022-07-12-blog-post-day-1-of-new-qqq-short-term-down-trend-hourly-gmma-looks-weak-see-chart-gmi0.md)
 - [WW 2022-08-01 — Day 11 of QQQ up-trend; MACD hourly histograms reveal weakening](../../raw/posts/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md) ([summary](../sources/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md))
+- [WW 2009-05-31 — Rally gaining strength; Guppy chart reveals major turn](../../raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md) ([summary](../sources/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md))
+- [WW 2010-06-21 — Stocks near all-time highs; IBD100 stocks 3× more likely to rise 10%+](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md) ([summary](../sources/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
+- [WW 2010-06-28 — I only ride the yellow band trends; in cash or short; submarine stocks](../../raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md) ([summary](../sources/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md))
+- [WW 2010-12-06 — IBD gives up on the follow-through day; how mutual funds rip off investors; IBD100 top 10](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md) ([summary](../sources/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md))
+- [WW 2013-03-17 — More green line break-out stocks: DFS, WAT, CAB, NEE; Dow Theory buy signal](../../raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md) ([summary](../sources/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md))
+- [WW 2014-06-22 — RWB patterns in QQQ across time periods; PTLA and STZ](../../raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md) ([summary](../sources/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md))
+- [WW 2016-10-25 — Back from Mark Minervini's Master Trader Program](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md) ([summary](../sources/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))
+- [WW 2016-12-11 — All GMI components positive; QQQ near ATH; new TC2000 scan for bounces: CELG](../../raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md) ([summary](../sources/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md))

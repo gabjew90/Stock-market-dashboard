@@ -45,6 +45,7 @@ sources:
   - raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md
   - raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md
   - raw/posts/2022-09-19-blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho.md
+  - raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md
 ---
 
 # Risk & cash
@@ -93,6 +94,8 @@ Losses are cut quickly and without ego. O'Neil's example: many small losses, a f
 He can "turn on a dime" because he uses a deep-discount broker and trades in a tax-sheltered IRA (no wash-sale concerns). He has bought back the same stock the same day after taking a small loss, if the trend resumes. ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
 
 The 10-week average rule applies at the individual stock level: he holds AAPL (and similar) only while it is above its rising 10-week average. A weekly close below that level is a concern. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
+
+The distribution he is playing for, stated in 2010: "The key to trading success is to have many small losses and a few very large gains." ([WW 2010-06-28](../../raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md))
 
 ## Stop-loss discipline — the mechanics
 
@@ -274,3 +277,4 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2014-05-26 — ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md) ([summary](../sources/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
 - [WW 2021-01-18 — blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md) ([summary](../sources/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))
 - [WW 2022-09-19 — blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho](../../raw/posts/2022-09-19-blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho.md)
+- [WW 2010-06-28 — I only ride the yellow band trends; in cash or short; submarine stocks](../../raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md) ([summary](../sources/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md))
