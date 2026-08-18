@@ -17,6 +17,9 @@ sources:
   - raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md
   - raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md
   - raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md
+  - raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md
+  - raw/posts/2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline.md
+  - raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md
 ---
 
 # Trading philosophy — the five propositions
@@ -182,6 +185,8 @@ signals to short-term trading and using the weekly GMMA for long-term allocation
 never stop learning and adapting when it comes to the markets." ([WW 2015-02-22](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md)) See [gmi.md](gmi.md#a-limitation-he-published-himself-2015)
 and the [backtest](backtest-timing-overlay.md).
 
+Two 2013 lines that pair with it: "The critical key is to not anticipate a change in trend, but to react *after* the signal is evident. Such is the goal of the trend-*follower*." ([WW 2013-04-14](../../raw/posts/2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline.md)) "In this business, one trades against the market trend at one's peril. The market is usually right, opinions are often wrong." ([WW 2013-09-08](../../raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md)) And the market's *reaction* to news as data, from 2006: "the way that the market responds to major events provides valuable clues as to how the masses are feeling towards stocks." ([WW 2006-08-21](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md))
+
 ## The lineage he names
 
 The influences are stated, not implied: Darvas (the first book he assigns), Weinstein's stage analysis, O'Neil, Livermore via Lefèvre, Guppy for the multiple-moving-average charts, and — from October 2016 — Mark Minervini and David Ryan, after three days at Minervini's Master Trader Program: "600 slides that taught everything from how to select stocks, the price patterns that are most profitable, the way to set stops, pyramid up, and close out positions. They gave the best information on the value of cutting losses that I have ever seen… He has put into a 3 day session much of what it took me over 50 years to learn." Both offered to lecture his students, and the later @markminervini / MarketSmith / VCP references on the blog trace to this. ([WW 2016-10-25](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))
@@ -210,3 +215,6 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2009-03-01 — No bottom in sight for this bear market — how bear markets end (1932, 1974)](../../raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md) ([summary](../sources/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md))
 - [WW 2008-04-07 — GMI 3; 9th day of QQQQ up-trend; QLD; URBN](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md) ([summary](../sources/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md))
 - [WW 2012-04-16 — Thoughts about the Worden DC seminar; GMI 2; in cash and short GLD](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md) ([summary](../sources/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))
+- [WW 2006-08-21 — GMI 5?; GMI-S 100; short-term rally?; IAI](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md) ([summary](../sources/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md))
+- [WW 2013-04-14 — Market in strong up-trend; beware the bearish pundits; gold's 'sudden' decline](../../raw/posts/2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline.md) ([summary](../sources/2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline.md))
+- [WW 2013-09-08 — Technical strength continues to grow; FB green line break-out coming?](../../raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md) ([summary](../sources/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md))

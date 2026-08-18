@@ -22,6 +22,7 @@ sources:
   - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
   - raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md
   - raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md
+  - raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md
 ---
 
 # Playbook — market state → stance
@@ -67,6 +68,8 @@ Signals flip fast — 3 → 6 in a day is documented — and "when the instrumen
 - **GMI Buy signal but the QQQ down-trend persists for many days:** treat as a warning, not a contradiction to trade through — with the GMI on a Buy and the QQQ "in its 24th day" of a down-trend he was making "a small bet on a continuation of this down-trend." ([WW 2014-04-27](../../raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md))
 
 ---
+
+- **Both trends down:** "when we are in short *and* long term down-trends… I do not go long until *both* trends have signaled a new up-trend. This means that if this rally is the start of a new up-trend, I will miss some of the gains, but such is the fate of the trend follower." ([WW 2010-07-12](../../raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md))
 
 ## Step 3 — Read T2108 (two bands, not one)
 
@@ -141,3 +144,4 @@ New lows surging while the index is at a high is an exit signal *before* the GMI
 - [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 - [WW 2011-11-28 — 6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg](../../raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md) ([summary](../sources/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md))
 - [WW 2012-04-16 — thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md) ([summary](../sources/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))
+- [WW 2010-07-12 — New up-trend or dead cat bounce?](../../raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md) ([summary](../sources/2010-07-12-new-up-trend-or-dead-cat-bounce.md))

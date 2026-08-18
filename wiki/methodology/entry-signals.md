@@ -14,6 +14,7 @@ sources:
   - raw/posts/2019-02-10-green-dot-signal-lulu.md
   - raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md
   - raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md
+  - raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md
 ---
 
 # Entry signals — BOS, the dots, and the daily bounce setups
@@ -77,6 +78,8 @@ The green dot has a dated ancestor: the December 2016 TC2000 bounce scan (fast 1
 
 And before any of the triggers, the doctrine itself is dated to December 2011 — "a major innovation in my trading… enter when an equity is in a weekly Stage 2 up-trend and has become oversold on the daily time frame" ([WW 2011-12-05](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md)) — so the full sequence is doctrine (2011-12) → BOS (2016-06) → stochastic bounce scan (2016-12) → green dot (2018-03) → black dot (2021) → x8/x21/30 (2024) → blue dot (2025).
 
+Between the doctrine (2011-12) and BOS (2016) sits a February 2011 scan of the IBD 50 for stocks "bouncing off of support" — NOG, MELI, COH, EZPW, LYB — with O'Neil's 8%-below-the-pivot GTC stop attached; the vocabulary of BOS before its acronym. ([WW 2011-02-14](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md))
+
 ## See also
 
 - [The oversold bounce (OSB / ATHOSB)](oversold-bounce.md) — the doctrine these triggers serve
@@ -98,3 +101,4 @@ And before any of the triggers, the doctrine itself is dated to December 2011 �
 - [WW 2019-02-10 — Green dot signal: LULU](../../raw/posts/2019-02-10-green-dot-signal-lulu.md) ([summary](../sources/2019-02-10-green-dot-signal-lulu.md))
 - [WW 2016-12-11 — All GMI components positive; QQQ near ATH; new TC2000 scan for bounces: CELG](../../raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md) ([summary](../sources/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md))
 - [WW 2011-12-05 — GMI flashes bullish signal (#13); the 'major innovation' — enter oversold in a Stage 2 up-trend](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md) ([summary](../sources/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md))
+- [WW 2011-02-14 — NOG: RWB rocket stock with possible cup-with-handle break-out](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md) ([summary](../sources/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md))

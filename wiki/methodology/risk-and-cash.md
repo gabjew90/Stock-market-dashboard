@@ -49,6 +49,10 @@ sources:
   - raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md
   - raw/posts/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md
   - raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md
+  - raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md
+  - raw/posts/2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious.md
+  - raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md
+  - raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md
 ---
 
 # Risk & cash
@@ -85,6 +89,8 @@ Historical examples he credits to this discipline:
 - **2025 (IWM Stage 4, March):** GMI turned Red on February 24, 2025. IWM's 10-week average crossed below its 30-week average in March 2025 — Dr. Wish identified this as a likely Stage 4 onset and transferred pension accumulations out of mutual funds. Held SQQQ (inverse QQQ) and TWM (inverse IWM) as small short positions. ([WW 2025-03-30](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
 
 **Leaders breaking on good news.** April 2014: CMG opened +$32 on good earnings and closed −$33; AMZN and TSLA well off their highs — "this type of volatility in a market leader suggests to me underlying weakness in the market… more likely to me… that they shoot the leaders first, followed by the rest of the market. With that as a possibility, why would I hold stocks now?" ([WW 2014-04-20](../../raw/posts/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md))
+
+**The caution triggers, listed (2011):** "I tend to become cautious when the market indexes close below their 10 week averages or when the GMI declines to 3 or less. I also become concerned when the market leaders, like GOOG, AAPL, NFLX, weaken." ([WW 2011-02-23](../../raw/posts/2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious.md)) The 2006 form of the leader tell: when the biggest three-day losers in the Nasdaq-100 are YHOO, INTC, AAPL and GOOG, "when the biggest losers are the major big names, it may signify that the market is going to crumble" — and bad reactions to good earnings point the same way. ([WW 2006-01-23](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
 
 ## Position management within a bull market
 
@@ -164,6 +170,8 @@ He did not re-enter. "Given all of the above and the weekly chart of the QQQQ ab
 The rule this illustrates: sentiment extremes justify *expecting* a bounce and *being ready* to reverse, but the trend indicators — not the sentiment readings — supply the actual entry. See [market-state playbook](../playbooks/market-state.md).
 
 The Investors Intelligence survey is the sentiment gauge he cites most: bears > bulls (38% vs 29%) in September 2010 was "an exceedingly rare phenomenon and should have told us all that the market would rally"; over 50% bulls "is time to start looking for a market decline." ([WW 2010-09-07](../../raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md)) The same rare inversion appeared in September 2015 (see [T2108](t2108.md)).
+
+The full trio, read in hindsight in July 2010: seven consecutive down days, put/call ~1.2, Investors Intelligence bears ≈ bulls, and the daily 10.4.4 stochastic near zero — enough to have expected at least a bounce, not enough to change his rule that in short *and* long-term down-trends he does not go long "until *both* trends have signaled a new up-trend." ([WW 2010-07-12](../../raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md)) The put/call threshold he uses is 1.2 — "a ratio of at least 1.2 usually indicates extreme bearishness among the option players… and the market often bounces." ([WW 2014-04-13](../../raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md))
 
 ## Relative strength during declines as a leadership screen
 
@@ -292,3 +300,7 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2009-03-01 — No bottom in sight for this bear market — how bear markets end (1932, 1974)](../../raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md) ([summary](../sources/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md))
 - [WW 2014-04-20 — Market at critical juncture; Guppy charts show relative weakness in QQQ vs SPY](../../raw/posts/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md) ([summary](../sources/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md))
 - [WW 2010-09-07 — This rally may have legs — IBD100 top ten out-shine again](../../raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md) ([summary](../sources/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md))
+- [WW 2006-01-23 — GMI +4; clues to this rout? WPM shows small/mid caps stronger; chickens survive](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md) ([summary](../sources/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
+- [WW 2011-02-23 — GMI declines to 5, GMI-R to 7; getting cautious](../../raw/posts/2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious.md) ([summary](../sources/2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious.md))
+- [WW 2010-07-12 — New up-trend or dead cat bounce?](../../raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md) ([summary](../sources/2010-07-12-new-up-trend-or-dead-cat-bounce.md))
+- [WW 2014-04-13 — 15th day of QQQ down-trend; 100% in cash; head and shoulders top to form?](../../raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md) ([summary](../sources/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md))

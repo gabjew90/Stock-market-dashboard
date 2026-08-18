@@ -9,6 +9,7 @@ sources:
   - raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md
   - raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md
   - raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md
+  - raw/posts/2011-01-18-the-municipal-bond-collapse-has-begun-taking-cover.md
 ---
 
 # Defensive episodes, worked — 2010, 2011, 2015, 2018, 2022
@@ -35,6 +36,8 @@ Trading accounts were already mainly cash/short while the pension stayed investe
 carries the Zweig rate-hike template applied *abroad* (India's hiking cycle, price weakness
 noticed before the explanation was found — "the bad news usually comes out long after a stock
 has peaked"). ([WW 2011-01-31](../../raw/posts/2011-01-31-warning-india-stocks.md))
+
+The stack opened on January 18: 116 new 52-week lows on an *up* day, sorted by industry, almost all municipal-bond funds in a uniform weekly pattern "similar to that shown by the bank stocks in 2008, as they *began* their horrific descent"; TFI a textbook Stage 4 with heavy institutional volume; Investors Intelligence bears at 19.1%. "It may be time for me to take most of my profits off of the table and to prepare for the worst… these indicators only detect a change in trend *after* it has occurred." ([WW 2011-01-18](../../raw/posts/2011-01-18-the-municipal-bond-collapse-has-begun-taking-cover.md))
 
 ## The August 2011 exit — rules, fatigue, and the addiction line
 
@@ -96,3 +99,4 @@ In May 2022, Dr. Wish articulated his framework for recognizing that a bear mark
 - [WW 2015-07-26 — The warning four weeks before the flash crash](../../raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md) ([summary](../sources/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md))
 - [WW 2018-03-25 — GMI Red March 2018; put/call contrarian; 30-week curve-down pension trigger](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md) ([summary](../sources/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))
 - [WW 2022-05-01 — T2108 monthly below 10% buy signal; BWR onset 2022; index GLB tops](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md) ([summary](../sources/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
+- [WW 2011-01-18 — The municipal bond collapse has begun — taking cover](../../raw/posts/2011-01-18-the-municipal-bond-collapse-has-begun-taking-cover.md) ([summary](../sources/2011-01-18-the-municipal-bond-collapse-has-begun-taking-cover.md))

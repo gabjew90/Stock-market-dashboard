@@ -192,6 +192,19 @@ sources:
   - raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md
   - raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md
   - raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md
+  - raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md
+  - raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md
+  - raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md
+  - raw/posts/2010-02-01-short-term-down-trend-deepens-qqqq-guppy-chart-ominous-in-cash.md
+  - raw/posts/2010-05-17-china-in-free-fall-buying-fxp-qqqq-completes-8th-day-of-short-term-down-trend.md
+  - raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md
+  - raw/posts/2011-01-18-the-municipal-bond-collapse-has-begun-taking-cover.md
+  - raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md
+  - raw/posts/2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious.md
+  - raw/posts/2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline.md
+  - raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md
+  - raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md
+  - raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md
 ---
 
 # Timeline — evolution of the methodology
@@ -298,6 +311,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"Happy New Year — What if?; GMI +2; Trade with the trend" (2006-01-03):** six what-ifs → "isolate ourselves from outside opinions, use our charts… place our bets, and quickly and ruthlessly cut our losses… each small loss brings us closer to the next big gain." Adviser sentiment 60.4% bulls as a contrary read; 3% of 176 doublers at new highs; QQQQ under its 10-week; "a time to be short or in cash." ([WW 2006-01-03](../../raw/posts/2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend.md))
 
+## January 2006 (cont.) — the GMI confirms, it does not predict; the leader tell; chickens survive
+
+**"GMI: +4; Clues to this rout?" (2006-01-23):** "The GMI cannot predict changes in trend, it only provides me with a reasonably certain indication that the trend has changed"; the biggest three-day losers YHOO/INTC/AAPL/GOOG — "when the biggest losers are the major big names, it may signify that the market is going to crumble"; WPM localises the rout in large caps; "a chicken lives to play another day." ([WW 2006-01-23](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
+
 ## February 2006 — Wyckoff/Darvas noise isolation; GMI-S short-term index
 
 **"Darvas anticipated; GMI: +4; GMI-S: 31; Ominous market" (2006-02-06):** Dr. Wish quotes Richard Wyckoff (1924) on making his best trades while receiving only end-of-day cable prices far from Wall Street — anticipating Darvas's identical approach by 30 years. The lesson for the internet era: concentrate on price action; insulate from news, CNBC, and outside opinions. Introduces the GMI-S (a 0–100 short-term breadth sub-index), which fell sharply from 75 to 31 in one week while the GMI (at +4) was less sensitive. QQQQ had just entered Day D-1 of a new short-term down-trend. ([WW 2006-02-06](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
@@ -319,6 +336,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"GMI: +3; QQQQ masks underlying strength in IBD-100" (2006-08-07):** the successful-10-day-new-**low** percentage already in the table (25% of 260 → "shorting new lows has been unlikely to have been profitable"); "% above MACD signal line" called "my earliest indicator of a possible up-trend"; IBD MF index back near its 50-day; CNBC muted à la Roppel; "wade slowly." ([WW 2006-08-07](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md))
 
 **"Cramer Contrary Indicator and GMI have protected us; IBD 100 Index rigged?" (2006-08-14):** the May 12 warning re-quoted ("when a major index is below its 30 week average I get very defensive"); the GMI's May–August record audited; "patience is the sine qua non of successful trading"; the IBD 100 Index removes losers weekly — survivorship named a year before the 2007 audit. ([WW 2006-08-14](../../raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md))
+
+## August 2006 (cont.) — a tradeable rally: GMI-S 100 vs GMI-L 63; the reaction to news
+
+**"GMI: 5?; GMI-S: 100; Short-term rally?" (2006-08-21):** the market's failure to fall on the British terror plot as a strength tell; "5?" at 97 new highs; GMI-S 100 / GMI-L 63 → tradeable rally, shorts closed, wading in long; bet on the brokers (IAI). ([WW 2006-08-21](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md))
 
 ## 2007 — the year the indicators were tested at a real top
 
@@ -404,6 +425,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## February 2009 (record) — the 2008 record in numbers; IBD100 turnover; TSYS cup-with-handle
+
+**"Jim Cramer finds (TA) religion; TSYS" (2009-02-15):** since GMI < 4 in August 2008: QQQQ/SPY −35%, 95% of Nasdaq-100 down, every Dow stock down; "I prefer the GMI to be at least 4 before I commit many IRA funds, and especially my university pension"; a third of the IBD100 replaced in three weeks; TSYS's cup-with-handle anatomy. ([WW 2009-02-15](../../raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md))
+
 ## March 2009 — Put options as investment insurance
 
 **"How I use put options as investment insurance" (2009-03-08):** written at the March 2009 bear market bottom (T2108=7%, 1,221 new lows). Dr. Wish explains protective puts as an alternative to stop-loss orders during highly volatile markets — a put cannot be whipsawed, a stop can. The cost is the put premium. He can buy puts inside his IRA. ([WW 2009-03-08](../../raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md))
@@ -456,6 +481,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## February 2010 — the GMI explained for students; T2108 30/20; the daily Guppy turns bearish
+
+**"Short term down-trend deepens; QQQQ Guppy chart ominous; In cash" (2010-02-01):** GMI construction for a new class (Nasdaq-100 focus, ≥100 new highs in ~4,000 stocks above $5, weekly QQQQ = longer term); T2108 30% beginning oversold, < 20% expect a rebound; the daily Guppy's short averages under the long for the first time since March 2009. ([WW 2010-02-01](../../raw/posts/2010-02-01-short-term-down-trend-deepens-qqqq-guppy-chart-ominous-in-cash.md))
+
 ## May 2010 — TC2007 submarine scan applied to former IBD100 leaders; PWRD/NTES sector failure
 
 **"Market showing serious signs of weakness; surprising TC2007 submarine scan results" (2010-05-03):** written on May 3, 2010 — just days before the Flash Crash. Dr. Wish applies his submarine scan specifically to former IBD100 and New America stocks (bull-market leaders) and finds surprising names among the 13 results: MSTR, SWN, CVLT, GILD, ATHN, PWRD, NTES, GS, ABVT, SYKE, GOOG, SQM, MCFE. GS and GOOG on the submarine list was "especially surprising." Key sector-pair validation introduced: when two stocks in the same industry fail simultaneously — here PWRD and NTES (Chinese online gaming), showing identical bearish weekly patterns — it confirms a sector-wide decline rather than an idiosyncratic event. Bare PWRD chart description: shorter averages (4-week, 10-week) already below the 30-week, and the 30-week "beginning to curve down" — the precursor to confirmed Stage 4. Earnings-season refractory period explained: stocks tend to rise into their earnings releases, then often regroup and decline until the next quarter's anticipation begins. Reminder of the core thesis: "The bad news usually comes out long after a stock has peaked." T2108 at 64% but in a downtrend; Nasdaq-100 MACD-above-signal percentage at 24% — its lowest since February, an early warning indicator. ([WW 2010-05-03](../../raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md))
@@ -467,6 +496,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"Great Washington Worden Seminar" (2010-05-09):** written after the May 5–6 market drop (prelude to the May 6 Flash Crash). Dr. Wish recaps presenting his TC2007 workflow to ~120 attendees at a Worden software workshop. He gives the most precise statement of the **Stage 2 pension rule**: he only transfers pension funds to money market when the QQQ weekly trend enters Stage 4 — defined as when the 30-week average has *curved down*. As long as the 30-week average is still rising (Stage 2), the pension stays fully invested in mutual funds, even during a short-term down-trend; he would "dollar cost average in with new contributions." Short-term down-trend confirmation threshold stated: he will be "more certain" a new down-trend is underway if it lasts 5 days. Submarine scan validated: ran the scan on April 29; all 9 resulting stocks declined, with 33% declining 17%+ (vs only 5% of Nasdaq 100 at that level). Self-described trading style: "I trade like a chicken, run from a down-trend, and conserve my capital to trade only when the odds are in my favor." ([WW 2010-05-09](../../raw/posts/2010-05-09-great-washington-worden-seminar-market-in-short-term-down-trend-mainly-in-cash.md))
 
 ---
+
+## May 2010 (pension) — the pension trigger stated: weekly QQQQ index / Stage 4
+
+**"China in Free-fall, buying FXP; QQQQ completes 8th day" (2010-05-17):** GMI/GMI-R at one; "if [the weekly QQQQ index] should turn negative… I will consider moving my university pension funds… I typically, however, like to see a Stage 4 down-trend begin before I do that"; D-8: 90% of Nasdaq-100 down. ([WW 2010-05-17](../../raw/posts/2010-05-17-china-in-free-fall-buying-fxp-qqqq-completes-8th-day-of-short-term-down-trend.md))
 
 ## June 2010 — IBD calls a follow-through day; he stays in cash
 
@@ -491,6 +524,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"Major indexes remain in longer-term down-trends; in cash or short" (2010-07-19):** a self-introduction post updating the track record to **14× (fourteen-fold)** since 1995 as of July 2010 (earlier posts in 2009 said 13×). Dr. Wish explains how he kept his university pension safely in cash through all major declines since 1998 — the 2000–2002 bear and the 2008 bear — and reinvested in subsequent advances. Introduces the **stochastic 10,4,4** as a short-term timing overlay: when it reaches very overbought levels on the daily chart a market decline is likely; prior declines had all ended with the stochastic "well below 50." He uses it to time secondary buys and sells but not as a primary signal. Down-trend rule stated with precision: when the QQQ/QQQQ's **10-week average crosses below its 30-week average** on the weekly chart, he will not trade long. "I cannot make money trading on the long side when these indexes are below their 10 week averages." Counter-trend short-term up-trends still occur within a weekly down-trend — he distinguishes them clearly. GMI=2, GMI-R=4, T2108=46% (neutral) at post date. ([WW 2010-07-19](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
 
 ---
+
+## July 2010 (rules) — new up-trend or dead cat bounce? the both-trends rule
+
+**"New up-trend or dead cat bounce?" (2010-07-12):** "when we are in short *and* long term down-trends… I do not go long until *both* trends have signaled a new up-trend… such is the fate of the trend follower"; the contrarian trio (7 down days, put/call ~1.2, II bears ≈ bulls) plus a stochastic near zero, seen in hindsight; QQQQ/SPY under their 10-week ten weeks. ([WW 2010-07-12](../../raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md))
 
 ## September 2010 — RWB pattern coined
 
@@ -528,11 +565,21 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"Still cautious, high dividend paying ETF's, IBM breaks out" (2011-01-24):** GMI 5 / GMI-R 8, yet tech sold, inverse ETFs and AGO puts bought on the muni-bond collapse — "these indicators… can only confirm a change in trend *after* it has occurred"; "I am a chicken… I do not mind if I am wrong. Every loss brings me to the next gain." 20 straight weeks above the 10-week; T2108 "near 80% typical at tops, below 20% near bottoms." ([WW 2011-01-24](../../raw/posts/2011-01-24-2746.md))
 
+## January 2011 (muni) — the municipal-bond alarm: new lows sorted by industry
+
+**"The municipal bond collapse has begun — taking cover" (2011-01-18):** 116 new lows on an up day, almost all muni funds, in the 2008 bank pattern; TFI in a Stage 4 with institutional volume, BWR "more like what I call a submarine pattern"; "I act on what the market behavior tells me, not what people opine"; the GMI at maximum "only detect[s] a change in trend after it has occurred"; II bears 19.1%. ([WW 2011-01-18](../../raw/posts/2011-01-18-the-municipal-bond-collapse-has-begun-taking-cover.md))
+
 ## February 2011 — RWB methodology; IBD as required reading
 
 **"Nicolas Darvas, on the value of studying losses; RWB stocks" (2011-02-07):** Dr. Wish reprints earlier writings and explains his classroom exercise (students analyze their own losing trade charts). IBD described as the reason he "never consistently made money trading until I started reading IBD in the 1980's." RWB stocks (COST, RVBD) demonstrated; stop on RWB bounce trade placed below 30-day moving average of the individual stock. ([WW 2011-02-07](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
 
 ---
+
+## February 2011 (cont.) — one eye on the exits; the ultra-ETF arithmetic; an IBD 50 bounce scan; T2108 pendulum; the caution triggers
+
+**"NOG: RWB rocket stock with possible cup-with-handle break-out" (2011-02-14):** exited too early on the muni news — "the proper course for me is to remain on the long side, with one eye always on the exits"; 58-day up-trend: TQQQ +37.2% vs 20% of Nasdaq-100 up ≥ 20% → wade into ultras with the short-term trend; an IBD 50 scan for stocks bouncing off support (NOG, MELI, COH, EZPW, LYB); O'Neil's 8% GTC stop. ([WW 2011-02-14](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md))
+
+**"GMI declines to 5, GMI-R to 7; getting cautious" (2011-02-23):** T2108 "acts like a pendulum… up-trends tend to end near 80% and down-trends below 20%"; "I tend to become cautious when the market indexes close below their 10 week averages or when the GMI declines to 3 or less… [or] when the market leaders… weaken"; "a lot of little losses and a few very large gains." ([WW 2011-02-23](../../raw/posts/2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious.md))
 
 ## March 2011 — GMI2 replaces GMI-R; decision thresholds stated
 
@@ -612,6 +659,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"Some more green line break-out stocks: DFS, WAT, CAB, NEE; Dow Theory buy signal" (2013-03-17):** "one of my most important discoveries"; no overhead supply; scan → monthly line → weekly recency; "buy a little and wait to see if the green line holds… a lot of stocks will fall back to the green line before they advance"; GMCR's 2009 GLB ran ~900% — post-bear GLBs are the big winners; DJ-20 and DIA GLBs = "a classic Dow Theory buy signal." GMI Buy since Feb 28. ([WW 2013-03-17](../../raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md))
 
+## April 2013 (index GLBs) — SPY and DIA break their green lines; react, don't anticipate; GLD's failed GLB
+
+**"Market in strong up-trend; Beware the bearish media pundits; Gold's 'sudden' decline" (2013-04-14):** SPY/DIA GLBs → "often followed by a multi-month rise… should stay above its green line… if it fails… a major reversal"; "not anticipate a change in trend, but to react after the signal is evident"; QQQ's 2000 green line ~119; GLD in a Stage 4 with a failed GLB and a new green line — "the time to buy… is when it first breaks above a green line top." ([WW 2013-04-14](../../raw/posts/2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline.md))
+
 ## May 2013 — TSLA GLB worked example; 5-step detection workflow
 
 **"How to find a TSLA-like explosive stock before its huge advance" (2013-05-20):** with TSLA at $91.50 after its April 2013 breakout from $39.95, Dr. Wish traces the full 5-step GLB detection workflow: (1) run an evening new-high scan — TSLA appeared on April 1, 2013; (2) look at the monthly chart immediately — TSLA closed above its prior peak of $39.95 (from March 2012, more than a year earlier); (3) check the weekly chart for "the highest weekly volume ever" confirming institutional interest; (4) look for a gap-up above the green line on the daily chart on high volume; (5) watch for a re-test of the breakout level — TSLA pulled back to the green line giving a lower-risk second entry. IPO advantage explained: as a recent IPO in a new growth industry, most funds would not yet own TSLA — therefore a large future buyer base exists. Exit rule restated: "If the stock closes back below the green line we can sell with a small loss." ([WW 2013-05-20](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md))
@@ -623,6 +674,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"Up-trend intact; 2-for-1 method for managing stock market risk" (2013-06-09):** Dr. Wish introduces the **2-for-1** position management method (traced to a Connors trading guide, via Powell's Books): (1) buy a position; (2) when the position gains enough to double your initial risk (i.e., gains twice the stop distance), sell half; (3) move the stop on the remaining half up to the original purchase price (breakeven); (4) result: locked-in gain and the remaining half protected from a loss. He states this helps students avoid the most common failure mode: watching a profit turn into a loss. Data from the February 28–June 7, 2013 GMI buy signal period: TQQQ advanced +28.6%, QQQ advanced +9.4%. Only 7 of the Nasdaq 100 stocks advanced more than 29%. "Do we want to spend (waste?) our time searching for the 7% of stocks that will out-perform just holding the TQQQ?" TSLA new-high count: "TSLA has hit a new high on 14 of 49 trading days" since its April 1 breakout — illustrating how true rocket stocks keep appearing on the new-high list. ([WW 2013-06-09](../../raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md))
 
 ---
+
+## September 2013 — Livermore's 1940 pivotal points as the green line's ancestor; FB at $45
+
+**"Technical strength of market continues to grow; FB green line break-out coming?" (2013-09-08):** "the market is usually right, opinions are often wrong"; Livermore 1940 on new listings touching "a brand new high" — "Livermore was describing my concept of a green line break-out"; FB: accumulate on a *close* above $45, hold while above; overhead supply from 2012's $40 buyers; AAPL's failed October-2012 GLB as the exit example. ([WW 2013-09-08](../../raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md))
 
 ## October 2013 — 1987 crash analysis; 30-day MA as short-term trend signal
 
@@ -664,6 +719,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"Market at critical juncture. Guppy charts show relative weakness in QQQ vs SPY" (2014-04-20):** the modified GMMA defined (red 3/5/8/10/12/15, blue 30/35/40/45/50/60, +1 for the close; daily and weekly); "it pays to be invested long in the market only when an RWB pattern is present"; QQQ in a daily BWR while SPY merely converged; CMG +$32 → −$33 on good earnings, AMZN and TSLA broken — "they shoot the leaders first"; GMI 3, D-19; on the sidelines. ([WW 2014-04-20](../../raw/posts/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md))
 
+## April 2014 (30-week) — first weekly close under the 30-week since 2012; 100% cash in trading; the pension waits
+
+**"15th day of QQQ short term down-trend; 100% in cash; head and shoulders top to form???" (2014-04-13):** "if the QQQ remains below its 30 week average so that the average itself turns down, it will signal to me the beginning of the end of the Stage 2 up-trend"; four prior dips since 2009 all resolved up; GMI Sell + D-15 → speculative accounts out; the 401(k) stays because of fund limits — would lighten on a rally to ~89; put/call 1.15 (1.2 = extreme); T2108 41% too high for a bottom. ([WW 2014-04-13](../../raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md))
+
 ## May 2014 — Stage Analysis as the pundit filter
 
 **"Ignore the media pundits" (2014-05-26):** the corpus's best self-contained Stage Analysis tutorial, written against bearish punditry in a flat 2014 tape. Timeframe framed as a life choice ("I am too old... the equivalent of flying with the Blue Angels... I want to manage my investments only part-time"); the pension rule as a pundit filter ("I do not care what the media pundits are saying"); and consolidation-as-health ("A healthy market rises and consolidates over and over again"). IBD still called the market in correction while his GMI had been on a Buy since 4/22. ([WW 2014-05-26](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
@@ -697,6 +756,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"11th day of $QQQ short-term down-trend" (2014-10-13):** during a 2014 October correction, Dr. Wish articulates all four Weinstein stages clearly for the first time in an ingested post. Stage 4 definition: index or stock is below its declining 30-week average. He describes the pension-money transfer protocol: move out of mutual funds "in stages" if a Stage 4 threatens. T2108 was 14%; he notes it reached 13% in 2013 and 7% in the large 2011 decline. ([WW 2014-10-13](../../raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md))
 
 ---
+
+## October 2014 (turn) — the short-term trend turns up and retakes the 30-week; Day-1 TQQQ nibble; GLB stocks shine
+
+**"QQQ short term trend turns up, retakes 30 week average; GLB stocks shine" (2014-10-26):** "it has to last 5 days for me to heavily accumulate TQQQ. I did take a small position… Buying right after a technical buy signal is actually low risk to me"; QQQ above its 30-week → Stage 2 intact; Q4 seasonality / window dressing; AAPL above its rising 10-week and green line; BABY, AGIO, RGLS, REGN; "I do not have the confidence to hold such stocks… through thick and thin." ([WW 2014-10-26](../../raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md))
 
 ## October 2014 (cont.) — the pilot portfolio
 
@@ -1369,3 +1432,16 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2010-09-07 — This rally may have legs — IBD100 top ten out-shine again](../../raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md) ([summary](../sources/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md))
 - [WW 2012-04-16 — Thoughts about the Worden DC seminar; GMI 2; in cash and short GLD](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md) ([summary](../sources/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))
 - [WW 2016-11-13 — QQQ short-term down-trend but GMI Green; 16 GLB stocks; OLLI](../../raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md) ([summary](../sources/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md))
+- [WW 2006-01-23 — GMI +4; clues to this rout? WPM shows small/mid caps stronger; chickens survive](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md) ([summary](../sources/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
+- [WW 2006-08-21 — GMI 5?; GMI-S 100; short-term rally?; IAI](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md) ([summary](../sources/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md))
+- [WW 2009-02-15 — Jim Cramer finds TA religion; TSYS cup with handle; promising IBD100 stocks](../../raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md) ([summary](../sources/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md))
+- [WW 2010-02-01 — Short-term down-trend deepens; QQQQ Guppy chart ominous; in cash](../../raw/posts/2010-02-01-short-term-down-trend-deepens-qqqq-guppy-chart-ominous-in-cash.md) ([summary](../sources/2010-02-01-short-term-down-trend-deepens-qqqq-guppy-chart-ominous-in-cash.md))
+- [WW 2010-05-17 — China in free-fall, buying FXP; QQQQ completes 8th day of down-trend](../../raw/posts/2010-05-17-china-in-free-fall-buying-fxp-qqqq-completes-8th-day-of-short-term-down-trend.md) ([summary](../sources/2010-05-17-china-in-free-fall-buying-fxp-qqqq-completes-8th-day-of-short-term-down-trend.md))
+- [WW 2010-07-12 — New up-trend or dead cat bounce?](../../raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md) ([summary](../sources/2010-07-12-new-up-trend-or-dead-cat-bounce.md))
+- [WW 2011-01-18 — The municipal bond collapse has begun — taking cover](../../raw/posts/2011-01-18-the-municipal-bond-collapse-has-begun-taking-cover.md) ([summary](../sources/2011-01-18-the-municipal-bond-collapse-has-begun-taking-cover.md))
+- [WW 2011-02-14 — NOG: RWB rocket stock with possible cup-with-handle break-out](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md) ([summary](../sources/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md))
+- [WW 2011-02-23 — GMI declines to 5, GMI-R to 7; getting cautious](../../raw/posts/2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious.md) ([summary](../sources/2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious.md))
+- [WW 2013-04-14 — Market in strong up-trend; beware the bearish pundits; gold's 'sudden' decline](../../raw/posts/2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline.md) ([summary](../sources/2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline.md))
+- [WW 2013-09-08 — Technical strength continues to grow; FB green line break-out coming?](../../raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md) ([summary](../sources/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md))
+- [WW 2014-04-13 — 15th day of QQQ down-trend; 100% in cash; head and shoulders top to form?](../../raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md) ([summary](../sources/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md))
+- [WW 2014-10-26 — QQQ short-term trend turns up, retakes 30-week average; GLB stocks shine](../../raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md) ([summary](../sources/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md))

@@ -18,6 +18,8 @@ sources:
   - raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md
   - raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md
   - raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md
+  - raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md
+  - raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -29,6 +31,8 @@ Dr. Wish writes about emotion the way he writes about indicators: as something t
 "Every once in a while my technical indicators point one way and my gut to another. While I have never systematically analysed how often which way was correct, I suspect it was my instruments. **The market tends to move in a direction opposite to the way my emotions point.**" Written the weekend a GMI Buy signal and QQQ Day U-1 arrived against a wall of rational bear arguments and several recent Buy signals that had reversed within 5–7 days; he took the signal. ([WW 2015-01-25](../../raw/posts/2015-01-25-fly-by-my-gut-or-follow-my-instruments-fasten-seat-belts-aapl-looks-strong.md)) The 2019 restatement: "I do not argue with the market or listen to media pundits. I simply follow the general market's trend until it ends." ([WW 2019-07-14](../../raw/posts/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md))
 
 The honesty of the first sentence matters — he flags the claim as untested. The [backtest of the timing overlay](backtest-timing-overlay.md) is the closest the wiki has to the test he never ran.
+
+The cost of the chicken's reflex, admitted in February 2011 after exiting too early on the muni-bond news: "the GMI only tells me the current trend. It will signal a down-trend only after it has begun. So, the proper course for me is to remain on the long side, with one eye always on the exits." ([WW 2011-02-14](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md)) And the animal taxonomy, 2006: "A chicken lives to play another day, while hogs get slaughtered and ostriches get run over." ([WW 2006-01-23](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
 
 ## 2. Do not marry a scenario
 
@@ -89,3 +93,5 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2010-06-21 — Stocks near all-time highs; IBD100 stocks 3× more likely to rise 10%+](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md) ([summary](../sources/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
 - [WW 2006-08-14 — Cramer contrary indicator and GMI have protected us; GMI 1; IBD 100 Index rigged?](../../raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md) ([summary](../sources/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md))
 - [WW 2016-11-13 — QQQ short-term down-trend but GMI Green; 16 GLB stocks; OLLI](../../raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md) ([summary](../sources/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md))
+- [WW 2006-01-23 — GMI +4; clues to this rout? WPM shows small/mid caps stronger; chickens survive](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md) ([summary](../sources/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
+- [WW 2011-02-14 — NOG: RWB rocket stock with possible cup-with-handle break-out](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md) ([summary](../sources/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md))

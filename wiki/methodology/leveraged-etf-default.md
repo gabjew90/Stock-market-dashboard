@@ -9,6 +9,8 @@ sources:
   - raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md
   - raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md
   - raw/posts/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md
+  - raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md
+  - raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md
 ---
 
 # The leveraged-ETF default — TQQQ on a GMI Buy signal
@@ -31,6 +33,8 @@ above my original purchase price. I *never* average down." ([WW 2009-06-07](../.
 When a new GMI buy signal fires (two consecutive days GMI > 3), the default is to begin accumulating TQQQ (see the year-in-review data below). Studies spanning 2013–2020 consistently show TQQQ beats 90%+ of individual stocks during QQQ short-term up-trends. ([WW 2013-11-24](../../raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md))
 
 In practice, mid-2019: "I am riding SPY and TQQQ during this market up-trend. The daily RWB pattern is just too strong to ignore… I simply follow the general market's trend until it ends." The same post frames index-ETF investing as the conservative version of the method he presents to older audiences. ([WW 2019-07-14](../../raw/posts/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md))
+
+The 2011 arithmetic that produced the default: over a 58-day up-trend QQQQ +11.4%, QLD +23.9%, TYH +39.9%, TQQQ +37.2%, while only 20% of Nasdaq-100 stocks rose ≥ 20% — "the best strategy may be to slowly buy into one of these ultra long index ETFs when the short term trend turns up and to slowly wade into the inverse ultra ETF's (QID, TYP, SQQQ) when the trend turns down." ([WW 2011-02-14](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md)) And the entry timing in practice, October 2014: "a new QQQ short term up-trend has begun. However, it has to last 5 days for me to heavily accumulate TQQQ. I did take a small position in TQQQ at the end of the day on Friday. Buying right after a technical buy signal is actually low risk to me, because if the technical buy signal fails, I can quickly sell out with a relatively small loss." ([WW 2014-10-26](../../raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md))
 
 ## The TQQQ default and year-in-review performance data
 
@@ -58,3 +62,5 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2013-11-24 — GMI 3X ETF strategy beats IBD 50 stocks](../../raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md) ([summary](../sources/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md))
 - [WW 2021-01-18 — IBD/MS growth stocks beat TQQQ for first time](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md) ([summary](../sources/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))
 - [WW 2019-07-14 — DC AAII meeting; riding SPY and TQQQ](../../raw/posts/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md) ([summary](../sources/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md))
+- [WW 2011-02-14 — NOG: RWB rocket stock with possible cup-with-handle break-out](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md) ([summary](../sources/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md))
+- [WW 2014-10-26 — QQQ short-term trend turns up, retakes 30-week average; GLB stocks shine](../../raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md) ([summary](../sources/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md))

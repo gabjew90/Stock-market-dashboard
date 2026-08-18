@@ -32,6 +32,9 @@ sources:
   - raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md
   - raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md
   - raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md
+  - raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md
+  - raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md
+  - raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md
 ---
 
 # General Market Index (GMI)
@@ -124,6 +127,8 @@ He uses the GMI alongside the [QQQ Short-Term Timing](qqq-short-term-timing.md) 
 **Grading at the margin is discretionary.** When components are "too close to call" he has marked them "?" and left the prior day's total standing — "those of you who prefer a rigid adherence to the criteria can go with readings of 3 and 6, respectively" (June 2010, GMI held at 4 and GMI-R at 7). The published number is his call on borderline days, not a pure formula. ([WW 2010-06-21](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
 
 **A limit he states himself:** the indicators "can only confirm a change in trend *after* it has occurred" — said in January 2011 while he overrode a GREEN GMI on a thesis about municipal bonds. ([WW 2011-01-24](../../raw/posts/2011-01-24-2746.md))
+
+Stated as early as January 2006: "The GMI cannot predict changes in trend, it only provides me with a reasonably certain indication that the trend has changed." ([WW 2006-01-23](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md)) And the "?" grade goes back to 2006 too — "GMI: 5?" with 97 new highs against the 100 needed. ([WW 2006-08-21](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md)) The threshold for committing money: "I prefer the GMI to be at least 4 before I commit many IRA funds, and especially my university pension, to the long side." ([WW 2009-02-15](../../raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md))
 
 ## New highs / new lows — a breadth supplement to the GMI
 
@@ -285,3 +290,6 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2006-08-07 — GMI +3; QQQQ masks underlying strength in IBD-100; stocks to watch](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md) ([summary](../sources/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md))
 - [WW 2008-04-07 — GMI 3; 9th day of QQQQ up-trend; QLD; URBN](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md) ([summary](../sources/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md))
 - [WW 2012-04-16 — Thoughts about the Worden DC seminar; GMI 2; in cash and short GLD](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md) ([summary](../sources/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))
+- [WW 2006-01-23 — GMI +4; clues to this rout? WPM shows small/mid caps stronger; chickens survive](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md) ([summary](../sources/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
+- [WW 2006-08-21 — GMI 5?; GMI-S 100; short-term rally?; IAI](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md) ([summary](../sources/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md))
+- [WW 2009-02-15 — Jim Cramer finds TA religion; TSYS cup with handle; promising IBD100 stocks](../../raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md) ([summary](../sources/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md))

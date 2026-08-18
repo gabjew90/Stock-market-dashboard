@@ -16,6 +16,7 @@ sources:
   - raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md
   - raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md
   - raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md
+  - raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md
 ---
 
 # The GMI family — GMI-S, GMI-L, GMI-R, GMI2 and the rest of the daily table
@@ -27,6 +28,8 @@ The [GMI](gmi.md) proper is a fixed 0–6 count. Around it Dr. Wish has built an
 Dr. Wish occasionally published a **GMI-S** alongside the GMI. The GMI-S measures short-term breadth on a 0–100 scale. A rapid fall from GMI-S=75 to GMI-S=31 in a single week (February 2006) signalled deterioration in the underlying breadth even when the overall GMI (at +4) had not yet dropped decisively. ([WW 2006-02-06](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
 
 **Its construction is disclosed in 2007:** "Only one of the **16 short term indicators for the IJR, DIA, SPY and QQQQ** is positive (GMI-S: 6%)" — 1/16 ≈ 6%. So the GMI-S is the percentage of sixteen short-term indicators, four applied to each of four index ETFs (small-cap IJR, Dow DIA, S&P SPY and Nasdaq QQQQ), that are currently positive. The individual sixteen are not named. ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
+
+Read together with the GMI-L in August 2006: GMI-S 100 (every short-term indicator on four indexes positive) against GMI-L 63 and a still-negative weekly QQQQ component — "a tradeable rally," on which he closed shorts and waded in long, not a new bull. ([WW 2006-08-21](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md))
 
 ## GMI-S — construction fully visible in the table
 
@@ -181,3 +184,4 @@ rather than only the extreme.
 - [WW 2026-01-04 — GMI table: verbatim component labels; GMI2 at 9](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md)
 - [WW 2006-08-07 — GMI +3; QQQQ masks underlying strength in IBD-100; stocks to watch](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md) ([summary](../sources/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md))
 - [WW 2007-02-26 — GMI 6; GMI-S 88; Dow climbs wall of worry; IBD 100 performance; cups with handles](../../raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md) ([summary](../sources/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md))
+- [WW 2006-08-21 — GMI 5?; GMI-S 100; short-term rally?; IAI](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md) ([summary](../sources/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md))
