@@ -1169,3 +1169,8 @@ triple-support scan), `history/timeline.md` (4 sections), `index.md`; 4 new `sou
 ## [2026-08-18] ingest | 2019-11-24 Why I sold INMD at $57 — tier=trade_example; touched: trading-psychology (the too-easy sell), exits (discretionary parabolic exit pointer), timeline
 
 ## [2026-08-18] query | what are the rules he uses to manage his own psychology? — filed: methodology/trading-psychology.md (8 rules, 11 sources; closes the "trading psychology" gap). 2015 and 2019 now have 7 source pages each (were 1 each).
+
+## [2026-08-18] query | does he have a position-sizing rule? — answer: no, by his own account ("I have no specific rules for that", comment 2014-05-31; "I go in in phases", 2012-11-13; reading list Weinstein/O'Neil/Lefèvre/Covel, 2011-01-06). Filed as risk-and-cash.md#position-sizing (the stand-in habits: pilot buy → add to winners, wade in, 2-for-1, sleeping point, "manage the risk with stops and position size") and reader-qa.md. Closes the position-sizing gap.
+## [2026-08-18] ingest | 2022-06-26 69% of Nasdaq-100 in hourly RWB up-trends; RS-at-50-week-high scan; LLY — tier=teaching; touched: moving-average-rules (hourly layer), scans (new scan), timeline
+## [2026-08-18] ingest | 2022-08-01 MACD hourly histograms reveal weakening — tier=teaching; touched: moving-average-rules (hourly layer), timeline
+## [2026-08-18] ingest | 2022-07-12 Day 1 of new QQQ down-trend; hourly GMMA looks weak — tier=daily_update (cited inline, no summary page); touched: moving-average-rules, timeline. Closes the hourly-GMMA gap.

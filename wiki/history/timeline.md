@@ -164,6 +164,9 @@ sources:
   - raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md
   - raw/posts/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md
   - raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md
+  - raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md
+  - raw/posts/2022-07-12-blog-post-day-1-of-new-qqq-short-term-down-trend-hourly-gmma-looks-weak-see-chart-gmi0.md
+  - raw/posts/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md
 ---
 
 # Timeline — evolution of the methodology
@@ -900,6 +903,14 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 ---
 
+## June 2022 (hourly) — hourly breadth; the RS-at-50-week-high scan
+
+**"QQQ short term down-trend may end Monday; 69% of Nasdaq100 stocks in hourly RWB up-trends" (2022-06-26):** GMI 0, but QQQ in a new hourly RWB up-trend with 69% of Nasdaq-100 components in the same pattern — "this rally has some legs"; "a change in the longer term trend always begins with a change in the shorter term trend," any flip trusted only after 5 days. New scan on the 780-stock watchlist: near an ATH with weekly RS vs SPY at a 50-week high (12 names; HRMY +76%); LLY as the example. ([WW 2022-06-26](../../raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md))
+
+## July–August 2022 (hourly) — the hourly close below all 12; the hourly MACD histogram
+
+**"Day 1 of new QQQ short term down-trend; hourly GMMA looks weak" (2022-07-12):** the hourly close under all 12 averages → "I nibbled at SQQQ. If the new short term down-trend reaches day 5, I will be more confident that it will be significant." ([WW 2022-07-12](../../raw/posts/2022-07-12-blog-post-day-1-of-new-qqq-short-term-down-trend-hourly-gmma-looks-weak-see-chart-gmi0.md)) **"MACD hourly histograms reveal weakening in QQQ, SPY and DIA" (2022-08-01):** the 12/26/9 histogram on the hourly as a very-short-term momentum read — declining red bars against rising price "can signal weakness"; rising bars foreshadowed the prior bounce. ([WW 2022-08-01](../../raw/posts/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md))
+
 ## August 2022 — the hourly GMMA
 
 **"How to use hourly/daily/weekly GMMA charts" (2022-08-07):** the hourly layer documented — the adapted GMMA's 13th "average" plotting price itself (the dotted line that should lead in an up-trend), red-line convergence as a base at any timescale, and the hourly's job: showing where inside the daily trend you are. Completes the ladder hourly → daily → weekly → monthly. ([WW 2022-08-07](../../raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md))
@@ -1211,3 +1222,6 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2019-06-02 — Shorting stocks at new lows beats buying stocks at new highs](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md) ([summary](../sources/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
 - [WW 2019-07-14 — DC AAII meeting; riding SPY and TQQQ](../../raw/posts/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md) ([summary](../sources/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md))
 - [WW 2019-11-24 — Why I sold INMD at $57; the too-easy voice](../../raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md) ([summary](../sources/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md))
+- [WW 2022-06-26 — QQQ down-trend may end Monday; 69% of Nasdaq-100 in hourly RWB up-trends; RS-at-50-week-high scan; LLY](../../raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md) ([summary](../sources/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md))
+- [WW 2022-07-12 — Day 1 of new QQQ down-trend; hourly GMMA looks weak; GMI=0](../../raw/posts/2022-07-12-blog-post-day-1-of-new-qqq-short-term-down-trend-hourly-gmma-looks-weak-see-chart-gmi0.md)
+- [WW 2022-08-01 — Day 11 of QQQ up-trend; MACD hourly histograms reveal weakening](../../raw/posts/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md) ([summary](../sources/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md))

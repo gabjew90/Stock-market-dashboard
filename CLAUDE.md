@@ -267,9 +267,11 @@ IBD Growth Mutual Fund index (`0muti`) above its 50-day average, confirmed 2008/
 *Closed 2026-08-18 (evening):* **2015** and **2019** (now 7 source pages each — the pension
 self-correction, the GMMA top signature, the flash-crash ETF lesson, the green-dot procedure, the
 successful-10-day-new-low mirror, the too-easy sell) and **trading psychology**
-(`methodology/trading-psychology.md`). *Still open:* the **hourly / multi-timeframe GMMA**;
-**position sizing and portfolio construction**; the **off-blog
-teaching corpus** (~63 posts pointing at Worden webinars, AAII, TraderLion, TASC, YouTube);
-the **Twitter alert channel** (touched only via 2019-11-24). Historically, components 1, 2 and 6 were
+(`methodology/trading-psychology.md`); the **hourly GMMA** (three 2022 posts folded into
+`moving-average-rules.md#the-hourly-layer`); **position sizing** — closed as a documented *absence*:
+he told readers "I have no specific rules for that" (comment 2014-05-31) and the stand-in habits are
+collected on `risk-and-cash.md#position-sizing`. *Still open:* the **off-blog teaching corpus**
+(~63 posts pointing at Worden webinars, AAII, TraderLion, TASC, YouTube); the **Twitter alert
+channel** (touched only via 2019-11-24). Historically, components 1, 2 and 6 were
 confirmed verbally at multiple dates, and 3–5 rested on the 2005 definition plus 2007/2012
 corroboration.

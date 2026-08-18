@@ -47,6 +47,9 @@ sources:
   - raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md
   - raw/posts/2019-03-24-decline-caused-by-inverse-yield-curve-and-or-mueller-report-stage-4-decline.md
   - raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md
+  - raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md
+  - raw/posts/2022-07-12-blog-post-day-1-of-new-qqq-short-term-down-trend-hourly-gmma-looks-weak-see-chart-gmi0.md
+  - raw/posts/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md
 ---
 
 # Moving-average rules
@@ -309,6 +312,14 @@ predicting the break. ([WW 2022-08-07](../../raw/posts/2022-08-07-blog-post-day-
 The full ladder: **hourly** (base/resumption inside the trend) → **daily** (the operative RWB
 trend; RLC exits) → **weekly** (stage; pension) → **monthly** (regime tops and cycle bottoms).
 
+**How the hourly layer is read, from the surrounding 2022 posts.** Three uses beyond the base-inside-the-trend read above:
+
+- *Hourly breadth.* On 2022-06-26, with the GMI at 0, QQQ was in a new hourly RWB up-trend and **69% of Nasdaq-100 stocks were in the same hourly pattern** — "which suggests to me this rally has some legs." The principle stated with it: "a change in the longer term trend always begins with a change in the shorter term trend," tempered by "any change in the short term trend needs to last 5 days for me to really trust it." He might buy "a little TQQQ… with a close stop." ([WW 2022-06-26](../../raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md))
+- *The hourly close below all 12.* On Day 1 of a new down-trend, "the hourly GMMA chart shows that QQQ closed (dotted line) the last hour below all 12 averages. I nibbled at SQQQ. If the new short term down-trend reaches day 5, I will be more confident that it will be significant." ([WW 2022-07-12](../../raw/posts/2022-07-12-blog-post-day-1-of-new-qqq-short-term-down-trend-hourly-gmma-looks-weak-see-chart-gmi0.md))
+- *The hourly MACD histogram.* "One of the ways I use the 12/26/9 MACD indicator is to focus on the hourly histograms… When the histograms decline and turn RED, it can signal weakness" — negative divergence against a rising price, "a very short term indicator [that] signals small moves"; rising bars foreshadowed the prior bounce. ([WW 2022-08-01](../../raw/posts/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md))
+
+None of these overrides the daily count or the weekly stage; they size the *nibble* and time the entry inside a trend the slower layers have already called.
+
 ## The monthly layer — tops and cycles
 
 Two instruments slower than the weekly chart, both previously undocumented:
@@ -400,3 +411,6 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2015-02-16 — GMMA charts show no market top in sight](../../raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md) ([summary](../sources/2015-02-16-gmma-charts-show-no-market-top-in-sight.md))
 - [WW 2019-03-24 — Inverted yield curve or Mueller report? Stage 4 decline?](../../raw/posts/2019-03-24-decline-caused-by-inverse-yield-curve-and-or-mueller-report-stage-4-decline.md) ([summary](../sources/2019-03-24-decline-caused-by-inverse-yield-curve-and-or-mueller-report-stage-4-decline.md))
 - [WW 2019-06-02 — Shorting stocks at new lows beats buying stocks at new highs](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md) ([summary](../sources/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
+- [WW 2022-06-26 — QQQ down-trend may end Monday; 69% of Nasdaq-100 in hourly RWB up-trends; RS-at-50-week-high scan; LLY](../../raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md) ([summary](../sources/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md))
+- [WW 2022-07-12 — Day 1 of new QQQ down-trend; hourly GMMA looks weak; GMI=0](../../raw/posts/2022-07-12-blog-post-day-1-of-new-qqq-short-term-down-trend-hourly-gmma-looks-weak-see-chart-gmi0.md)
+- [WW 2022-08-01 — Day 11 of QQQ up-trend; MACD hourly histograms reveal weakening](../../raw/posts/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md) ([summary](../sources/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md))

@@ -1,7 +1,7 @@
 ---
 title: Reader Q&A — rules clarified in the comment threads
 type: concept
-updated: 2026-08-12
+updated: 2026-08-18
 sources: []
 ---
 
@@ -113,6 +113,10 @@ chain: asked how he researches a scan hit — "First thing I do is check to see 
 line stock on a **monthly** chart. I then look at the **weekly, daily and hourly** patterns. I
 also see if it has been on the IBD 50 list." ([WW comment 2013-05-08](https://wishingwealthblog.com/2013/05/#comment-12122))
 Four timeframes, monthly first. The hourly layer still has no page.
+
+## Position sizing — asked repeatedly, answered once
+
+Readers asked for sizing rules at least five times (2009, 2011, 2012 ×2, 2014). The answers, in full: "I have no specific rules for that" ([WW comment 2014-05-31](https://wishingwealthblog.com/2014/05/ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend/comment-page-1/#comment-17827)); "I go in in phases. I am 95% in cash" ([WW comment 2012-11-13](https://wishingwealthblog.com/2012/11/gmi0-23rd-day-of-qqq-short-term-down-trend/comment-page-1/#comment-5365)); and a reading list — Weinstein, O'Neil, Lefèvre, and Covel's *Complete Turtle Trader* as "the best example I have found of a specific system for increasing one's position and managing risk" — with the instruction to "determine your own rules for averaging up and managing risk" ([WW comment 2011-01-06](https://wishingwealthblog.com/2011/01/2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs/comment-page-1/#comment-2656)). The habits that stand in for a rule are collected on [risk-and-cash — position sizing](risk-and-cash.md#position-sizing--what-he-has-said-and-what-he-has-not).
 
 ## On his own method
 
