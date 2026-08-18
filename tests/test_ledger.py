@@ -58,7 +58,7 @@ def test_ledger_round_trip_restores_state(tmp_path: Path):
 
     # Simulate a fresh `ww scrape`: same posts, all curated state lost.
     write_posts_jsonl(posts_jsonl, [_post("2012-07-23-stage-analysis"), _post("2012-07-24-daily")])
-    applied, unmatched = apply_ledger(ledger_path, posts_jsonl)
+    applied, unmatched, _reverted = apply_ledger(ledger_path, posts_jsonl)
 
     assert (applied, unmatched) == (1, [])
     restored = {p.stem: p for p in read_posts_jsonl(posts_jsonl)}
@@ -71,7 +71,7 @@ def test_ledger_round_trip_restores_state(tmp_path: Path):
 
 def test_apply_reports_stems_missing_from_the_corpus():
     posts = [_post("2020-01-01-present")]
-    applied, unmatched = apply_to_posts(
+    applied, unmatched, _reverted = apply_to_posts(
         [LedgerEntry(stem="2020-01-01-present", tier="teaching"), LedgerEntry(stem="1999-01-01-gone")],
         posts,
     )
@@ -122,3 +122,27 @@ def test_reconstruct_falls_back_to_the_h1_when_the_index_has_no_entry(tmp_path: 
     )
     (entry,) = reconstruct_from_wiki(wiki)
     assert entry.summary == "WW 2005-04-23 — Let's Talk Strategy"
+
+
+def test_apply_reports_rows_it_would_revert(tmp_path):
+    """If a session ingested posts but forgot `ww ledger export`, `apply` silently
+    overwrites the newer state in posts.jsonl with the older ledger. It must at least
+    report which rows carry newer curated state than the ledger."""
+    from ww.corpus.index import PostRecord, write_posts_jsonl
+    from ww.corpus.ledger import LedgerEntry, write_ledger, apply_ledger
+
+    posts_p = tmp_path / "posts.jsonl"; ledger_p = tmp_path / "ledger.jsonl"
+    # posts.jsonl: stem A already curated locally (newer), stem B untouched.
+    write_posts_jsonl(posts_p, [
+        PostRecord(post_id=1, url="u", date="2020-01-01T00:00:00", slug="a", stem="2020-01-01-a", title="A",
+                   word_count=1, chart_count=0, tier="teaching", summary="local newer", ingested=True,
+                   summary_page="wiki/sources/2020-01-01-a.md"),
+        PostRecord(post_id=2, url="u", date="2020-01-02T00:00:00", slug="b", stem="2020-01-02-b", title="B",
+                   word_count=1, chart_count=0),
+    ])
+    # ledger: stem A with OLDER, different state.
+    write_ledger(ledger_p, [LedgerEntry(stem="2020-01-01-a", tier="teaching", summary="ledger older", ingested=True,
+                                        summary_page="wiki/sources/2020-01-01-a.md")])
+    applied, unmatched, reverted = apply_ledger(ledger_p, posts_p)
+    assert applied == 1 and unmatched == []
+    assert reverted == ["2020-01-01-a"]

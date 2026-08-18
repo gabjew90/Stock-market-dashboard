@@ -191,6 +191,7 @@ def comments(
     root: Path = typer.Option(Path("."), "--root", help="Repo root (writes raw/comments.jsonl)."),
     base_url: str = typer.Option(DEFAULT_BASE_URL, "--base-url", help="Blog base URL."),
     delay: float = typer.Option(1.0, "--delay", help="Seconds between network requests (cache hits are free)."),
+    force: bool = typer.Option(False, "--force", help="Allow overwriting raw/comments.jsonl with FEWER rows than it currently holds."),
 ) -> None:
     """Pull every reader comment into raw/comments.jsonl.
 
@@ -199,7 +200,13 @@ def comments(
     """
     from ww.scrape.comments import scrape_comments
 
-    n = scrape_comments(base_url, root=root, delay=delay)
+    from ww.scrape.comments import read_comments_jsonl
+
+    before = len(read_comments_jsonl(root / "raw" / "comments.jsonl"))
+    n = scrape_comments(base_url, root=root, delay=delay, force=force)
+    if n < before and not force:
+        typer.echo(f"fetched {n} comments but {before} are already on disk — refusing to shrink raw/comments.jsonl (pass --force if this is intended)")
+        raise typer.Exit(1)
     typer.echo(f"Scraped {n} comments -> {root / 'raw' / 'comments.jsonl'}")
 
 
@@ -238,8 +245,18 @@ def ledger_apply(
 ) -> None:
     """raw/ingest-ledger.jsonl -> posts.jsonl. Run after `ww scrape` to restore ingest state."""
     ledger_path, posts_jsonl = _ledger_paths(root)
-    applied, unmatched = apply_ledger(ledger_path, posts_jsonl)
+    applied, unmatched, reverted = apply_ledger(ledger_path, posts_jsonl)
     typer.echo(f"ledger: restored {applied} rows into {posts_jsonl}")
+    if reverted:
+        typer.echo(
+            f"warning: {len(reverted)} row(s) in posts.jsonl carried curated state that DIFFERED from the ledger "
+            f"and were overwritten — usually a forgotten `ww ledger export`. If that local state was newer, "
+            f"restore it from git and run `ww ledger export` instead:"
+        )
+        for stem in reverted[:10]:
+            typer.echo(f"  {stem}")
+        if len(reverted) > 10:
+            typer.echo(f"  ... and {len(reverted) - 10} more")
     if unmatched:
         typer.echo(f"warning: {len(unmatched)} ledger stem(s) not present in the corpus:")
         for stem in unmatched[:10]:

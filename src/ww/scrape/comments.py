@@ -79,12 +79,25 @@ def iter_comment_pages(
                     params={"per_page": per_page, "page": page, "orderby": "date", "order": "asc"},
                 )
                 if resp.status_code == 400:
-                    break
+                    # Only "past the last page" is a legitimate end. Anything else (a bad
+                    # per_page, a WAF block, a renamed param) is an error — treating it as
+                    # the end would return zero rows and let the caller clobber good data.
+                    try:
+                        code = resp.json().get("code")
+                    except Exception:
+                        code = None
+                    if code == "rest_comment_invalid_page_number":
+                        break
+                    resp.raise_for_status()
                 resp.raise_for_status()
                 body = resp.json()
                 if not body:
                     break
-                cp.write_text(json.dumps(body, ensure_ascii=False), encoding="utf-8")
+                # Cache only FULL pages. The final short page is where new comments land;
+                # if we cached it, `ww comments` would never see them until the total
+                # crossed the next per_page boundary.
+                if len(body) >= per_page:
+                    cp.write_text(json.dumps(body, ensure_ascii=False), encoding="utf-8")
                 if delay:
                     time.sleep(delay)
             if not body:
@@ -125,8 +138,13 @@ def scrape_comments(
     client: httpx.Client | None = None,
     delay: float = 1.0,
     max_pages: int | None = None,
+    force: bool = False,
 ) -> int:
-    """Pull every comment into `<root>/raw/comments.jsonl`. Returns the count written."""
+    """Pull every comment into `<root>/raw/comments.jsonl`. Returns the count fetched.
+
+    Refuses to overwrite an existing, LARGER file unless `force=True` — a partial or
+    truncated fetch must never silently shrink the committed corpus.
+    """
     root = Path(root)
     records: list[CommentRecord] = []
     for page in iter_comment_pages(
@@ -145,5 +163,10 @@ def scrape_comments(
                 )
             )
     records.sort(key=lambda r: (r.date, r.comment_id))
-    write_comments_jsonl(root / "raw" / "comments.jsonl", records)
+    out = root / "raw" / "comments.jsonl"
+    existing = len(read_comments_jsonl(out))
+    if existing > len(records) and not force:
+        # Do not clobber. The caller decides whether the shrink is real (force=True).
+        return len(records)
+    write_comments_jsonl(out, records)
     return len(records)

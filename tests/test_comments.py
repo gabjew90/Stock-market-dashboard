@@ -81,11 +81,13 @@ def test_scrape_comments_caches_pages_and_reuses_them(tmp_path):
         return httpx.Response(400, json={"code": "rest_comment_invalid_page_number"})
 
     client = httpx.Client(transport=httpx.MockTransport(handler), base_url="https://example.test")
-    scrape_comments("https://example.test", root=tmp_path, client=client, delay=0.0)
+    # Use per_page=2 so the 2-row page counts as FULL and is therefore cacheable.
+    from ww.scrape.comments import iter_comment_pages
+    list(iter_comment_pages("https://example.test", cache_dir=tmp_path / "raw" / "api-comments", client=client, per_page=2, delay=0.0))
     assert calls["n"] == 2                     # page 1 (data) + page 2 (the terminal 400)
     assert (tmp_path / "raw" / "api-comments" / "page-0001.json").exists()
 
-    scrape_comments("https://example.test", root=tmp_path, client=client, delay=0.0)
+    list(iter_comment_pages("https://example.test", cache_dir=tmp_path / "raw" / "api-comments", client=client, per_page=2, delay=0.0))
     # Page 1 is served from cache; only the terminal 400 probe is re-issued, because a
     # 400 is not a cacheable result — the next run must re-check whether page 2 now exists.
     assert calls["n"] == 3
@@ -99,3 +101,48 @@ def test_comment_text_survives_a_round_trip(tmp_path):
     scrape_comments("https://example.test", root=tmp_path, client=_client({1: _PAGE1}), delay=0.0)
     raw = (tmp_path / "raw" / "comments.jsonl").read_text(encoding="utf-8").splitlines()
     assert json.loads(raw[0])["text"].startswith("Does a close")
+
+
+def test_non_terminal_400_raises_instead_of_ending_pagination(tmp_path):
+    """A 400 that is NOT rest_comment_invalid_page_number (bad per_page, WAF, blocked param)
+    is an error, not the end of the list. Treating it as the end yields zero comments and,
+    worse, would overwrite the committed 4,136-row file with an empty one."""
+    import pytest
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(400, json={"code": "rest_invalid_param", "message": "per_page too big"})
+
+    client = httpx.Client(transport=httpx.MockTransport(handler), base_url="https://example.test")
+    with pytest.raises(httpx.HTTPStatusError):
+        scrape_comments("https://example.test", root=tmp_path, client=client, delay=0.0)
+
+
+def test_scrape_refuses_to_shrink_committed_comments_file(tmp_path):
+    """Even a well-formed but truncated response must not clobber a larger file on disk
+    without an explicit --force."""
+    from ww.scrape.comments import write_comments_jsonl
+
+    existing = [CommentRecord(comment_id=i, post_id=1, date=f"2020-01-0{i}T00:00:00", author="x", parent=0, text="t") for i in range(1, 6)]
+    write_comments_jsonl(tmp_path / "raw" / "comments.jsonl", existing)
+    n = scrape_comments("https://example.test", root=tmp_path, client=_client({1: _PAGE1}), delay=0.0)
+    # 2 fetched < 5 on disk -> refuse; the file is untouched.
+    assert n == 2
+    assert len(read_comments_jsonl(tmp_path / "raw" / "comments.jsonl")) == 5
+
+
+def test_scrape_force_allows_shrinking(tmp_path):
+    from ww.scrape.comments import write_comments_jsonl
+
+    existing = [CommentRecord(comment_id=i, post_id=1, date=f"2020-01-0{i}T00:00:00", author="x", parent=0, text="t") for i in range(1, 6)]
+    write_comments_jsonl(tmp_path / "raw" / "comments.jsonl", existing)
+    scrape_comments("https://example.test", root=tmp_path, client=_client({1: _PAGE1}), delay=0.0, force=True)
+    assert len(read_comments_jsonl(tmp_path / "raw" / "comments.jsonl")) == 2
+
+
+def test_short_last_page_is_not_cached(tmp_path):
+    """The final page (< per_page rows) is where new comments will land. Caching it means
+    `ww comments` never sees them until the count crosses a 100-boundary."""
+    scrape_comments("https://example.test", root=tmp_path, client=_client({1: _PAGE1}), delay=0.0)
+    cache = tmp_path / "raw" / "api-comments"
+    # Page 1 held only 2 rows (< per_page=100): it must not have been persisted.
+    assert not (cache / "page-0001.json").exists()

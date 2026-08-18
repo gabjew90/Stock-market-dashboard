@@ -50,7 +50,11 @@ def iter_post_pages(
         page = 1
         while max_pages is None or page <= max_pages:
             cp = _cache_path(cache_dir, page)
-            if cp.exists():
+            # Page 1 is never served from cache: posts are fetched newest-first, so a
+            # post published since the last scrape lands on page 1, and a cached page 1
+            # would hide it forever. One extra request per scrape is the price of the
+            # documented "ww scrape to pull new posts" workflow actually working.
+            if page != 1 and cp.exists():
                 posts = json.loads(cp.read_text(encoding="utf-8"))
             else:
                 resp = client.get(
@@ -67,7 +71,11 @@ def iter_post_pages(
                     resp.raise_for_status()
                 resp.raise_for_status()
                 posts = resp.json()
-                cp.write_text(json.dumps(posts, ensure_ascii=False), encoding="utf-8")
+                # Cache full pages only (and never page 1 — see above). A short final page
+                # is where the oldest overflow sits after new posts push everything down;
+                # caching it would pin a stale boundary.
+                if page != 1 and len(posts) >= per_page:
+                    cp.write_text(json.dumps(posts, ensure_ascii=False), encoding="utf-8")
                 if delay:
                     time.sleep(delay)
             if not posts:

@@ -89,3 +89,70 @@ def test_default_fields_request_the_taxonomy(fixtures_dir, tmp_path):
 
     for wanted in ("categories", "tags", "modified"):
         assert wanted in _DEFAULT_FIELDS
+
+
+def test_rescrape_picks_up_a_newly_published_post(fixtures_dir, tmp_path):
+    """Posts are fetched newest-first, so a NEW post lands on page 1. If page 1 is served
+    from the disk cache forever, `ww scrape` can never surface it — which silently breaks
+    the documented 'ww scrape to pull new posts' workflow."""
+    import json as _json
+    from ww.corpus.index import read_posts_jsonl
+
+    page1 = _json.loads((fixtures_dir / "wp_api_page1.json").read_text())
+    state = {"posts": list(page1)}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        page = int(request.url.params.get("page", "1"))
+        if page == 1:
+            return httpx.Response(200, json=state["posts"], headers={"X-WP-TotalPages": "1"})
+        return httpx.Response(400, json={"code": "rest_post_invalid_page_number"})
+
+    client = httpx.Client(transport=httpx.MockTransport(handler), base_url="https://example.test")
+    scrape_blog("https://example.test", root=tmp_path, client=client, delay=0.0)
+    assert len(read_posts_jsonl(tmp_path / "raw" / "posts.jsonl")) == 2
+
+    # A new post is published.
+    state["posts"] = [{
+        "id": 99999, "date": "2026-08-13T10:00:00", "slug": "brand-new-post",
+        "link": "https://example.test/2026/08/brand-new-post/",
+        "title": {"rendered": "Brand new"}, "content": {"rendered": "<p>New content.</p>"},
+    }] + list(page1)
+
+    scrape_blog("https://example.test", root=tmp_path, client=client, delay=0.0)
+    stems = {r.stem for r in read_posts_jsonl(tmp_path / "raw" / "posts.jsonl")}
+    assert "2026-08-13-brand-new-post" in stems
+
+
+def test_scrape_writes_categories_json_from_the_taxonomy_endpoint(fixtures_dir, tmp_path):
+    """CLAUDE.md says `ww scrape` captures his category taxonomy to raw/categories.json,
+    and `ww batch --category` depends on that file. Nothing in src/ wrote it until now."""
+    import json as _json
+    from ww.scrape.ingest import scrape_blog
+
+    page1 = _json.loads((fixtures_dir / "wp_api_page1.json").read_text())
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        path = request.url.path
+        page = int(request.url.params.get("page", "1"))
+        if path.endswith("/categories"):
+            return httpx.Response(200, json=[
+                {"id": 1, "name": "All Posts", "count": 2},
+                {"id": 42, "name": "My Favorite Posts", "count": 1},
+                {"id": 7, "name": "Empty", "count": 0},
+            ])
+        if path.endswith("/posts"):
+            cats = request.url.params.get("categories")
+            if cats == "42":
+                return httpx.Response(200, json=page1[:1]) if page == 1 else httpx.Response(400, json={"code": "rest_post_invalid_page_number"})
+            return httpx.Response(200, json=page1) if page == 1 else httpx.Response(400, json={"code": "rest_post_invalid_page_number"})
+        return httpx.Response(404)
+
+    client = httpx.Client(transport=httpx.MockTransport(handler), base_url="https://example.test")
+    scrape_blog("https://example.test", root=tmp_path, client=client, delay=0.0)
+
+    cats = _json.loads((tmp_path / "raw" / "categories.json").read_text(encoding="utf-8"))["categories"]
+    assert "My Favorite Posts" in cats and cats["My Favorite Posts"]["id"] == 42
+    assert "Empty" not in cats                       # zero-count categories dropped
+    assert "All Posts" not in cats                   # the catch-all is noise
+    stems = [m["stem"] for m in cats["My Favorite Posts"]["posts"]]
+    assert stems == ["2026-05-10-day-22-of-qqq-short-term-up-trend"]

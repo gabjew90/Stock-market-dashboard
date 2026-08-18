@@ -82,24 +82,33 @@ def export_from_posts(posts: list[PostRecord]) -> list[LedgerEntry]:
     ]
 
 
-def apply_to_posts(entries: list[LedgerEntry], posts: list[PostRecord]) -> tuple[int, list[str]]:
-    """Copy ledger state onto matching posts, in place. Returns (applied, unmatched stems).
+def apply_to_posts(entries: list[LedgerEntry], posts: list[PostRecord]) -> tuple[int, list[str], list[str]]:
+    """Copy ledger state onto matching posts, in place.
+
+    Returns (applied, unmatched stems, reverted stems).
 
     Matching is by `stem`. A stem in the ledger with no corresponding post means the
     corpus is older than the ledger (or was scraped with a different slug) — reported
     rather than silently dropped.
+
+    `reverted` lists posts that ALREADY carried curated state differing from the ledger's —
+    i.e. work done locally after the last `ww ledger export`. `apply` overwrites it (the
+    ledger is the committed record), but the caller must be told, because the usual cause
+    is a forgotten export and the fix is to re-export from the local state instead.
     """
     by_stem = {p.stem: p for p in posts}
-    applied, unmatched = 0, []
+    applied, unmatched, reverted = 0, [], []
     for e in entries:
         target = by_stem.get(e.stem)
         if target is None:
             unmatched.append(e.stem)
             continue
+        if _is_curated(target) and any(getattr(target, f) != getattr(e, f) for f in CURATED_FIELDS):
+            reverted.append(e.stem)
         for f in CURATED_FIELDS:
             setattr(target, f, getattr(e, f))
         applied += 1
-    return applied, unmatched
+    return applied, unmatched, reverted
 
 
 def export_ledger(posts_jsonl: Path, ledger_path: Path) -> int:
@@ -108,13 +117,13 @@ def export_ledger(posts_jsonl: Path, ledger_path: Path) -> int:
     return len(entries)
 
 
-def apply_ledger(ledger_path: Path, posts_jsonl: Path) -> tuple[int, list[str]]:
+def apply_ledger(ledger_path: Path, posts_jsonl: Path) -> tuple[int, list[str], list[str]]:
     posts = read_posts_jsonl(posts_jsonl)
     if not posts:
         raise FileNotFoundError(f"no corpus at {posts_jsonl} — run `ww scrape` first")
-    applied, unmatched = apply_to_posts(read_ledger(ledger_path), posts)
+    applied, unmatched, reverted = apply_to_posts(read_ledger(ledger_path), posts)
     write_posts_jsonl(posts_jsonl, posts)
-    return applied, unmatched
+    return applied, unmatched, reverted
 
 
 _TIER_RE = re.compile(r"·\s*tier:\s*([a-z_]+)")
