@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md]
 ---
 
-# WW 2008-10-13 — Capitulation week: 2,832 new lows, T2108 at 1%
+# WW 2008-10-13 — Capitulation week: 2,832 new lows, T2108 at 1%; the education mission
 
 **Source:** [GMI: 0; GMI-R: 0; 2,832 new lows on Friday; T2108: 1%; Our embarrassing failure to educate youth about the market](../../raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md) · [original](https://wishingwealthblog.com/2008/10/gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market/) · tier: teaching
 
@@ -47,4 +47,3 @@ hardest, and states the education mission that later becomes the university cour
 ## Sources
 
 - [GMI: 0; 2,832 new lows on Friday; T2108: 1%](../../raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md)
-</content>

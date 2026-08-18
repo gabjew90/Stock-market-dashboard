@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md]
 ---
 
-# WW 2005-06-08 — Put options as insurance: the original tutorial
+# WW 2005-06-08 — Put options as insurance: the original tutorial, four years before the 2009 post
 
 **Source:** [Using put options to limit losses on CME and GOOG; GMI back to +5](../../raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md) · [original](https://wishingwealthblog.com/2005/06/using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5/) · tier: teaching
 
@@ -42,4 +42,3 @@ choosing a put over a stop: **shakeout avoidance in choppy tape**.
 ## Sources
 
 - [Using put options to limit losses on CME and GOOG](../../raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md)
-</content>

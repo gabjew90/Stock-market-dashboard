@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md]
 ---
 
-# WW 2008-11-21 — The retest read via breadth; the Dow yearly chart
+# WW 2008-11-21 — The retest read via breadth; the Dow yearly chart; T2108's earlier bands
 
 **Source:** [GMI: 0; GMI-R: 0; T2108: 5%; In context of market history, current decline minuscule](../../raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md) · [original](https://wishingwealthblog.com/2008/11/gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule/) · tier: teaching
 
@@ -48,4 +48,3 @@ against 1929–32) and a historical note on T2108's earlier thresholds.
 ## Sources
 
 - [GMI: 0; T2108: 5%; In context of market history, current decline minuscule](../../raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md)
-</content>

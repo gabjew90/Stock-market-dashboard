@@ -44,4 +44,3 @@ interest read as buying-pressure fuel for a breakout.**
 ## Sources
 
 - [New TC2000 Scan yields 4 break-outs from consolidation](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md)
-</content>

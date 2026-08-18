@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md]
 ---
 
-# WW 2013-10-13 — The AAII talk: sleeping point, failed GLBs, GLD's Stage 4
+# WW 2013-10-13 — The AAII talk: sleeping point, failed GLBs as weakness, GLD's Stage 4
 
 **Source:** [Saturday's Baltimore AAII meeting; GLD in Stage 4; All GMI components positive, but I am waiting](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md) · [original](https://wishingwealthblog.com/2013/10/saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting/) · tier: teaching
 
@@ -49,4 +49,3 @@ sell-side form, and a full GLD stage walkthrough on the short side.
 ## Sources
 
 - [Saturday's Baltimore AAII meeting; GLD in Stage 4](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md)
-</content>

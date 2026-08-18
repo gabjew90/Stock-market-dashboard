@@ -27,4 +27,3 @@ The earliest post in the corpus to use "OSB" as a named setup in the title. Dr. 
 ## Sources
 
 - [Day 2 of $QQQ short term down-trend; 4 oversold bounce (OSB) stocks](../../raw/posts/2021-05-06-blog-post-day-2-of-qqq-short-term-down-trend-but-378-new-highs-among-us-stocks-non-qqq-type-stocks-still-risi.md)
-</content>

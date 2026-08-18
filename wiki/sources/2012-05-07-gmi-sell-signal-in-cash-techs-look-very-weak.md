@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md]
 ---
 
-# WW 2012-05-07 — The 30-day close rule; new money vs old money
+# WW 2012-05-07 — The 30-day close rule at full strength; new money vs old money in a decline
 
 **Source:** [GMI sell signal; in cash; techs look very weak](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md) · [original](https://wishingwealthblog.com/2012/05/gmi-sell-signal-in-cash-techs-look-very-weak/) · tier: teaching
 
@@ -52,4 +52,3 @@ bankrupt and individual stocks can.
 ## Sources
 
 - [GMI sell signal; in cash; techs look very weak](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md)
-</content>

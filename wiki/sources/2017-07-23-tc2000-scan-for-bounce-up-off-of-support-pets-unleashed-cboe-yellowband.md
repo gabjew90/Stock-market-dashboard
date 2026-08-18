@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md]
 ---
 
-# WW 2017-07-23 — The triple-support bounce scan
+# WW 2017-07-23 — The triple-support bounce scan; the PETS confluence; the earnings-date hazard
 
 **Source:** [TC2000 Scan for bounce up off of support; $PETS unleashed? $CBOE yellowband](../../raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md) · [original](https://wishingwealthblog.com/2017/07/tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband/) · tier: teaching
 
@@ -41,4 +41,3 @@ with a hedge idea.
 ## Sources
 
 - [TC2000 Scan for bounce up off of support; $PETS](../../raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md)
-</content>

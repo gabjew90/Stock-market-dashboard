@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md]
 ---
 
-# WW 2015-07-26 — The warning four weeks before the flash crash
+# WW 2015-07-26 — The warning four weeks before the flash crash: Stage IV spreading beneath a strong QQQ
 
 **Source:** [Big concerns — too many indexes in Stage IV declines; GMI near Sell](../../raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md) · [original](https://wishingwealthblog.com/2015/07/big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell/) · tier: teaching
 
@@ -47,4 +47,3 @@ and the aftermath from primary sources.
 
 - [Big concerns — too many indexes in Stage IV declines](../../raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md)
 - [WW 2015-08-30 — the aftermath post](../../raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md) ([summary](2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md))
-</content>

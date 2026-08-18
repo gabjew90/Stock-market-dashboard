@@ -35,4 +35,3 @@ Written days after the **October 2007 market top**, and valuable precisely becau
 ## Sources
 
 - [GMI: 4; GMI-R: 8; GMI performance; Judy's pick: CYTR](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md)
-</content>

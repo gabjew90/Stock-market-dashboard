@@ -5,9 +5,9 @@ updated: 2026-08-12
 sources: [raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md]
 ---
 
-# WW 2022-08-07 — The hourly GMMA
+# WW 2022-08-07 — The hourly GMMA: the adapted Guppy chart across three timeframes
 
-**Source:** [Day 15 of $QQQ short term up-trend; GMI back to 4 (of 6); How to use hourly/daily/weekly GMMA charts](../../raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md) · [original](https://wishingwealthblog.com/2022/08/blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to-assess-trends/) · tier: teaching
+**Source:** [Day 15 of $QQQ short term up-trend; GMI back to 4 (of 6); How to use hourly/daily/weekly GMMA charts](../../raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md) · [original](https://wishingwealthblog.com/2022/08/blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to-analyze-the-market/) · tier: teaching
 
 ## What it covers
 
@@ -42,4 +42,3 @@ Guppy in one detail the wiki had never recorded: a 13th "average" that plots pri
 ## Sources
 
 - [How to use hourly/daily/weekly GMMA charts](../../raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md)
-</content>

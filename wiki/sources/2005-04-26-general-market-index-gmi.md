@@ -56,4 +56,3 @@ waste our time talking about stocks to buy."
 ## Sources
 
 - [About the General Market Index (GMI)](../../raw/posts/2005-04-26-general-market-index-gmi.md)
-</content>

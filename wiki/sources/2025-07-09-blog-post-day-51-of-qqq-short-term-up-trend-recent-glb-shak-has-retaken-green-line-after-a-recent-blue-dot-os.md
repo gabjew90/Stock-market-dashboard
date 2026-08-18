@@ -29,4 +29,3 @@ Shows the OSB concept surviving into its **blue-dot** form and combining with th
 ## Sources
 
 - [Day 51 of $QQQ short term up-trend; $SHAK has retaken green line after a recent Blue Dot OSB](../../raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md)
-</content>

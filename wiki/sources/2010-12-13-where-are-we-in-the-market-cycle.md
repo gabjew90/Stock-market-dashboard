@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md]
 ---
 
-# WW 2010-12-13 — The 95-year Dow cycle framework
+# WW 2010-12-13 — The 95-year Dow cycle framework: monthly 5/30 MAs + 25.4.4 stochastic
 
 **Source:** [Where are we in the market cycle? Riding the up-trend](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md) · [original](https://wishingwealthblog.com/2010/12/where-are-we-in-the-market-cycle/) · tier: teaching
 
@@ -45,4 +45,3 @@ principle.
 ## Sources
 
 - [Where are we in the market cycle?](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md)
-</content>

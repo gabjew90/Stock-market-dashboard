@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md]
 ---
 
-# WW 2014-10-05 — The pilot portfolio: 25-share radar positions
+# WW 2014-10-05 — The pilot portfolio: 25-share radar positions; biotech GLBs against the trend
 
 **Source:** [6th day of QQQ short-term down-trend; 11 biotechs with green line break-outs](../../raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md) · [original](https://wishingwealthblog.com/2014/10/6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctcmrxbstcttph/) · tier: teaching
 
@@ -47,4 +47,3 @@ sizing-of-conviction detail from the middle of a down-trend.
 ## Sources
 
 - [6th day of QQQ down-trend; 11 biotechs with GLBs](../../raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md)
-</content>

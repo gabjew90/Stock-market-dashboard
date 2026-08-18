@@ -54,4 +54,3 @@ citing as the origin of that doctrine.
 ## Sources
 
 - [Green Dot strategy defined](../../raw/posts/2018-03-11-green-dot-strategy-defined.md)
-</content>

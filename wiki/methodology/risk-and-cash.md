@@ -368,7 +368,7 @@ When defensive, he sometimes buys puts rather than simply going to cash. ([WW 20
 
 **Protective puts as a stop-loss alternative (2009):** during volatile bear markets, he uses put options to protect long positions instead of (or in addition to) stop-loss orders. The advantage: a put cannot be whipsawed — if the stock drops below the strike and then recovers, you still hold your shares. A stop-loss would have sold you out. The cost: the put premium raises the break-even price. ([WW 2009-03-08](../../raw/posts/2009-03-08-how-i-use-put-options-as-investment-insurance.md))
 
-When a new QQQ short-term down-trend begins, he often buys a small amount of the 3X bearish QQQ ETF (SQQQ), adding to it only if the down-trend lasts 5–6 days. Most QQQ short-term down-trends since 2006 have lasted less than 6 days (about one quarter last fewer than 6). ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
+When a new QQQ short-term down-trend begins, he often buys a small amount of the 3X bearish QQQ ETF (SQQQ), adding to it only if the down-trend lasts 5–6 days. About **one quarter** of new QQQ short-term down-trends since 2006 have ended in fewer than 6 days — most run longer, which is why he only adds after day 5–6. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
 
 3X leveraged ETF tactic: always start with a small position and average up only as the ETF moves in your favor. He would not add to a losing 3X ETF position. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
 
@@ -407,7 +407,7 @@ When the QQQ shows signs of weakening (approaching Stage 3/4), Dr. Wish exits th
 2. **Each subsequent signal:** move another 25% if conditions continue to deteriorate.
 3. **Final trigger:** the 30-week average itself starts declining → move toward 100% money market.
 
-"If the market were to turn up in the next few months I would have no regrets — I would simply hop back on at a higher level." ([WW 2014-04-27](../../raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md))
+"If the market were to turn up in the next few months I would have no regrets — I would simply hop back on at a higher level." ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
 
 **GMI/QQQ divergence as a warning:** a rare situation where the GMI is on a Buy signal but the QQQ short-term down-trend persists for many days (e.g., 24 days in April 2014) is treated as a warning to tighten risk, even though the GMI has not yet flipped to Sell. ([WW 2014-04-27](../../raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md))
 

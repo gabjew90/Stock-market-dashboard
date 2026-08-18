@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2011-01-31-warning-india-stocks.md]
 ---
 
-# WW 2011-01-31 — The Zweig template abroad; the pre-decline warning stack
+# WW 2011-01-31 — The Zweig rate-hike template applied abroad; the pre-decline warning stack
 
 **Source:** [Warning: India stocks; QQQQ short term up-trend in jeopardy; IBD50 list performance](../../raw/posts/2011-01-31-warning-india-stocks.md) · [original](https://wishingwealthblog.com/2011/01/warning-india-stocks/) · tier: teaching
 
@@ -49,4 +49,3 @@ early-warning signals weeks before trouble, and the first IBD50-era performance 
 ## Sources
 
 - [Warning: India stocks](../../raw/posts/2011-01-31-warning-india-stocks.md)
-</content>

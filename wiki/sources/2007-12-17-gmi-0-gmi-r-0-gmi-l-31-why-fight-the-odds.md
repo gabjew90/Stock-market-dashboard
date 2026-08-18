@@ -11,7 +11,7 @@ sources: [raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md]
 
 ## What it covers
 
-The last significant methodology post of 2007 and, in hindsight, the warning ahead of 2008. It is the fullest description of the **GMI-L** — a long-term composite the wiki had never documented — and it contains the sharpest statement of his capital-conservation doctrine. Also shows how he handles genuinely ambiguous indicator readings.
+In hindsight, the warning ahead of 2008. It is the fullest description found so far of the **GMI-L** — a long-term composite the wiki had never documented — and it contains the sharpest statement of his capital-conservation doctrine. Also shows how he handles genuinely ambiguous indicator readings.
 
 ## Key claims
 
@@ -35,4 +35,3 @@ The last significant methodology post of 2007 and, in hindsight, the warning ahe
 ## Sources
 
 - [GMI: 0??; GMI-R: 0??; GMI-L: 31%; Why fight the odds?](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md)
-</content>

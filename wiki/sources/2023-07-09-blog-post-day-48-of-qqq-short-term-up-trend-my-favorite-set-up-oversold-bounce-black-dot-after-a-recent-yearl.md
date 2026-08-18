@@ -30,4 +30,3 @@ Documents a refinement to the black-dot indicator — the addition of a **prior 
 ## Sources
 
 - [Day 48 of $QQQ short term up-trend; My favorite set-up, oversold bounce (black dot) after a recent yearly high](../../raw/posts/2023-07-09-blog-post-day-48-of-qqq-short-term-up-trend-my-favorite-set-up-oversold-bounce-black-dot-after-a-recent-yearl.md)
-</content>

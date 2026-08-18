@@ -16,7 +16,7 @@ Examining a GMMA chart of the QQQ, he finds the GMI issued **seven Sell signals 
 signals since early 2014** while the QQQ never left its RWB up-trend. His conclusion: the GMI
 whipsaws inside a sustained advance, so it should not drive long-term allocation.
 
-Doctrine-level, and the single most important post for reading the [backtest](../methodology/backtest-timing-overlay.md)
+The key post for reading the [backtest](../methodology/backtest-timing-overlay.md)
 honestly — our own quantitative finding and his 2015 qualitative one agree.
 
 ## Key claims
@@ -35,7 +35,7 @@ honestly — our own quantitative finding and his 2015 qualitative one agree.
   only to guide my shorter term trading in my more speculative accounts. I will heed the GMMA
   chart for longer term trends."
 - **On major tops:** he restates that they are signalled "when the shorter averages declined
-  below the longer term averages" — i.e. the weekly RWB→BWR transition, not the GMI.
+  below the longer term averages" — the GMMA short-over-long crossover (timeframe unstated), not the GMI.
 - "One must never stop learning and adapting when it comes to the markets."
 - Note the GMI read **6 of 6** the day he published this. The limitation is not sour grapes
   after a bad signal.
@@ -51,4 +51,3 @@ honestly — our own quantitative finding and his 2015 qualitative one agree.
 ## Sources
 
 - [An important limitation of the GMI signals](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md)
-</content>

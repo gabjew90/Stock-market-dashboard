@@ -32,4 +32,3 @@ Published two weeks before the October 2007 market top, with the GMI at 6 and th
 ## Sources
 
 - [GMI: 6; IBD100 stocks do outperform; Meet Judy](../../raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md)
-</content>

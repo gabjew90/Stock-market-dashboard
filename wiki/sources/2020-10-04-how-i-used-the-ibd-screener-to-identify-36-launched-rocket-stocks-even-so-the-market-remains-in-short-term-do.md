@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md]
 ---
 
-# WW 2020-10-04 — The IBD screener workflow; the all-12-GMMA exit line
+# WW 2020-10-04 — The IBD screener workflow (4 criteria → 36 stocks); the all-12-GMMA exit line
 
 **Source:** [How I used the IBD screener to identify 36 launched rocket stocks](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md) · [original](https://wishingwealthblog.com/2020/10/how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-down-trend-and-daily-rwb-pattern-did-not-form-for-qqq/) · tier: teaching
 
@@ -44,4 +44,3 @@ the student channel: the tutorial he points readers to is by his own student, Ri
 ## Sources
 
 - [How I used the IBD screener to identify 36 launched rocket stocks](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md)
-</content>

@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md]
 ---
 
-# WW 2014-05-26 — Stage Analysis as the pundit filter
+# WW 2014-05-26 — Stage Analysis as the pundit filter; timeframe choice as a life choice
 
 **Source:** [Ignore the media pundits — Stage Analysis shows markets remain in up-trend](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md) · [original](https://wishingwealthblog.com/2014/05/ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend/) · tier: teaching
 
@@ -53,4 +53,3 @@ consolidations inside Stage 2 are what health looks like.
 ## Sources
 
 - [Ignore the media pundits — Stage Analysis shows markets remain in up-trend](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md)
-</content>

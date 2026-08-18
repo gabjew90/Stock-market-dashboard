@@ -51,4 +51,3 @@ page. Trading psychology and first principles had no owner in the wiki before th
 ## Sources
 
 - [My Trading Philosophy and Why I Use Technical Analysis](../../raw/posts/2009-11-26-my-trading-philosophy-and-why-i-use-technical-analysis.md)
-</content>

@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md]
 ---
 
-# WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap
+# WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap; LULU
 
 **Source:** [How I track stocks at all time highs; GLB: $LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md) · [original](https://wishingwealthblog.com/2018/04/how-i-track-stocks-at-all-time-highs-glb-lulu/) · tier: teaching
 
@@ -46,4 +46,3 @@ corroboration that green lines are drawn *manually*.
 ## Sources
 
 - [How I track stocks at all time highs; GLB: $LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md)
-</content>

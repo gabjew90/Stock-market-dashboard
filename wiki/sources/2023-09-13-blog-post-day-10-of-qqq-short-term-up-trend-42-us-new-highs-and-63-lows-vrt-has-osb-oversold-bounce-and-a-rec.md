@@ -29,4 +29,3 @@ The cleanest worked example of the **GLB + OSB pairing**: the green line breakou
 ## Sources
 
 - [Day 10 of $QQQ short term up-trend; $VRT has OSB and a recent GLB](../../raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md)
-</content>

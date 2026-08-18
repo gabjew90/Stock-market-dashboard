@@ -30,4 +30,3 @@ The most recent post in the corpus to describe a GMI component in words, and the
 ## Sources
 
 - [Day 11 of $QQQ short term up-trend; $IBD 50 type growth stocks are in a BWR down-trend](../../raw/posts/2025-12-14-blog-post-day-11-of-qqq-short-term-up-trend-it-could-end-on-monday-ibd-50-type-growth-stocks-are-in-a-bwr-dow.md)
-</content>

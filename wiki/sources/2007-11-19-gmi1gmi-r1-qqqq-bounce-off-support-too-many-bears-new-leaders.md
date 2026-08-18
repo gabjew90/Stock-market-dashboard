@@ -36,4 +36,3 @@ Written six weeks after the October 2007 top, with the GMI at 1 and the Nasdaq 1
 ## Sources
 
 - [GMI:1; QQQQ bounce off support?; Too many bears?](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md)
-</content>

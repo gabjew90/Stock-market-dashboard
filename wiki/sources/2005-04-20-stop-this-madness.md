@@ -16,7 +16,7 @@ components as indicators he was using individually. The GMI was not invented in 
 2005-04-26; it was a *packaging* of instruments he had already been running. This post is the
 pre-history, and it explains the reasoning behind each one more fully than the founding post does.
 
-Also his angriest piece of market writing, aimed at pundits telling people to buy the 2000–2002
+Also a sharply angry piece, aimed at pundits telling people to buy the 2000–2002
 decline.
 
 ## Key claims
@@ -31,8 +31,8 @@ decline.
 - **Component 1's origin story, with numbers:** he had built the Successful 10-Day index in
   TC2005 over the ~4,000-stock universe. "When I first computed this index in **March**, I found
   that over 100 stocks met these criteria. Today, there were only **12 stocks out of 4,000**."
-  This is where the "greater than 100" threshold of the founding post comes from — it is the
-  March reading, not a derived figure.
+  This appears to be where the "greater than 100" threshold of the founding post comes from — the
+  March reading rather than a derived figure.
 - **A meta-signal the wiki did not have:** "**A good indication that things are souring is when
   the types of trades I have been profiting from suddenly produce a string of losses.**" Your own
   hit rate is an indicator.
@@ -58,4 +58,3 @@ decline.
 ## Sources
 
 - [STOP THIS MADNESS](../../raw/posts/2005-04-20-stop-this-madness.md)
-</content>

@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md]
 ---
 
-# WW 2015-08-30 — The August 2015 flash crash
+# WW 2015-08-30 — The August 2015 flash crash: depth comparison, Boomer thesis, pension exit criteria
 
 **Source:** [Is worst of stock market decline over? I'm not betting on it](../../raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md) · [original](https://wishingwealthblog.com/2015/08/13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over/) · tier: teaching
 
@@ -56,4 +56,3 @@ sentence he has written on the pension risk trade-off.
 ## Sources
 
 - [Is worst of stock market decline over?](../../raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md)
-</content>

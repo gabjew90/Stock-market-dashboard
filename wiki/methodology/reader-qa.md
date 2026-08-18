@@ -133,4 +133,3 @@ Four timeframes, monthly first. The hourly layer still has no page.
 
 _Comments, not posts — each claim is cited inline to its permalink. The underlying data is
 `raw/comments.jsonl` (`ww comments`); search it with `ww search "…" --source comments`._
-</content>

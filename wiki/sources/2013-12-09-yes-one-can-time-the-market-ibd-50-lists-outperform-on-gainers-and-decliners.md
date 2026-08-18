@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md]
 ---
 
-# WW 2013-12-09 — Yes, one can time the market; the IBD50 downside test
+# WW 2013-12-09 — Yes, one can time the market; the IBD50 downside test; third-party GMI tracking
 
 **Source:** [Yes, one can time the market!; IBD 50 lists outperform on gainers and decliners](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md) · [original](https://wishingwealthblog.com/2013/12/yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners/) · tier: teaching
 
@@ -49,4 +49,3 @@ a GMI-based strategy. Also the sharpest statement of the pension-restriction gri
 ## Sources
 
 - [Yes, one can time the market!](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md)
-</content>

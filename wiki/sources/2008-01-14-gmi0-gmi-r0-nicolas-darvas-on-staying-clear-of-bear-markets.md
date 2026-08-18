@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md]
 ---
 
-# WW 2008-01-14 — Darvas on bear markets; the blog's origin story
+# WW 2008-01-14 — Darvas on bear markets; the blog's origin story; GMI 0 as 2008 opens
 
 **Source:** [GMI:0; GMI-R:0; Nicolas Darvas on staying clear of bear markets](../../raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md) · [original](https://wishingwealthblog.com/2008/01/gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets/) · tier: teaching
 
@@ -45,4 +45,3 @@ excerpt from Darvas's rare 1977 sequel on why he sat out bear markets entirely.
 ## Sources
 
 - [GMI:0; Nicolas Darvas on staying clear of bear markets](../../raw/posts/2008-01-14-gmi0-gmi-r0-nicolas-darvas-on-staying-clear-of-bear-markets.md)
-</content>

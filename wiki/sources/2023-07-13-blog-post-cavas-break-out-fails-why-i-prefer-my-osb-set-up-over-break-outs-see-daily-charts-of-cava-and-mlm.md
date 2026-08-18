@@ -11,7 +11,7 @@ sources: [raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-o
 
 ## What it covers
 
-The doctrine-level post on the OSB. Dr. Wish states directly that he **prefers the oversold-bounce setup to buying breakouts**, and gives the reason: stop placement. A breakout has no naturally-defined failure price; a bounce does. Uses a failed CAVA breakout against a clean MLM oversold bounce as the paired illustration.
+The post that states the OSB preference most directly. Dr. Wish states directly that he **prefers the oversold-bounce setup to buying breakouts**, and gives the reason: stop placement. A breakout has no naturally-defined failure price; a bounce does. Uses a failed CAVA breakout against an MLM oversold bounce as the paired illustration.
 
 This is the single most important source for [oversold-bounce.md](../methodology/oversold-bounce.md), and it qualifies the emphasis the wiki had previously placed on the [GLB](../methodology/green-line-breakouts.md) as the entry trigger.
 
@@ -27,9 +27,8 @@ This is the single most important source for [oversold-bounce.md](../methodology
 
 - [oversold-bounce.md](../methodology/oversold-bounce.md) — the stated preference over breakouts; the stop-placement argument
 - [green-line-breakouts.md](../methodology/green-line-breakouts.md) — qualifies the GLB as an identification tool more than an entry trigger
-- [buying-glb.md](../playbooks/buying-glb.md) — the gap-open failure case and why he waits for a bounce instead
+- [buying-glb.md](../playbooks/buying-glb.md) — the gap-open failure case (the stop-placement problem the OSB avoids)
 
 ## Sources
 
 - [$CAVA's break-out fails–why I prefer my OSB set-up over break-outs](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md)
-</content>

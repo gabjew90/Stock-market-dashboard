@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md]
 ---
 
-# WW 2009-06-07 — The ultra-ETF study off the March 2009 bottom
+# WW 2009-06-07 — The ultra-ETF study off the March 2009 bottom: the earliest needle-vs-haystack numbers
 
 **Source:** [Why search for individual stocks when we can ride the ultra ETFs?](../../raw/posts/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md) · [original](https://wishingwealthblog.com/2009/06/why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs/) · tier: teaching
 
@@ -45,4 +45,3 @@ the account level.
 ## Sources
 
 - [Why search for individual stocks when we can ride the ultra ETFs?](../../raw/posts/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md)
-</content>

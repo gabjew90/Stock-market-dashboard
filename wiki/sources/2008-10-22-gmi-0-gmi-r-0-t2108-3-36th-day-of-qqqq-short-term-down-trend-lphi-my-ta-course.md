@@ -40,4 +40,3 @@ reasoning that later becomes the published QQQ trend-duration statistics.
 ## Sources
 
 - [GMI: 0; T2108: 3%; 36th day of QQQQ down-trend; LPHI](../../raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md)
-</content>

@@ -132,6 +132,22 @@ now be working from.
 
 **One GMI component confirmed:** The QQQ (or QQQQ) closing above its 30-week moving average is one of the six GMI components. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 
+## The signals — Buy, Sell, and the hold state at 3
+
+The score becomes a *signal* only with persistence, and the two sides are symmetric around 3:
+
+| Signal | Rule | Source |
+|---|---|---|
+| **Buy** | GMI **> 3 for two consecutive days** | "The GMI was >3 for two consecutive days, which is my criterion for a buy signal." ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md)) |
+| **Sell** | GMI **< 3 (≤ 2) for two consecutive days** | "The GMI is now at 1 (of 6) and if it registers below 3 on Monday, it will flash a Sell signal." ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md)) |
+| **Defensive** | GMI ≤ 3 (no signal flip yet) | "When it declines to 3 or below, I get defensive in my trading IRA." ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md)) |
+
+So **GMI = 3 is a hold state**: not high enough to be Buy, not low enough to be Sell. A reading of 3
+tightens stops and stops new buying but does not by itself flip the signal to Red — the same
+hysteresis that keeps the Buy side from flipping on a single day above 3. (An earlier version of
+the playbooks stated the Sell rule as "≤ 3 for two consecutive readings" and cited it to 2011-03-07,
+which contains no such clause; corrected 2026-08-12.)
+
 ## How he uses it
 
 The GMI is read as GREEN or RED based on its score:

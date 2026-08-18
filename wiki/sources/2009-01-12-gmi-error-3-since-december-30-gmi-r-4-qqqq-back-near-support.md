@@ -30,4 +30,3 @@ Resolves what the wiki had recorded as an open question about **GMI component 6*
 ## Sources
 
 - [GMI error: 3 since December 30; GMI-R: 4](../../raw/posts/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md)
-</content>

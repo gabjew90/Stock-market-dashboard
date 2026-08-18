@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md]
 ---
 
-# WW 2005-05-30 — The orthodox agnostic; window dressing explained
+# WW 2005-05-30 — The orthodox agnostic; window dressing explained; the MW plan with re-entry pre-written
 
 **Source:** [GOOG, MW, Other rockets, fabricated fantasy revisited, GMI +5](../../raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md) · [original](https://wishingwealthblog.com/2005/05/goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5/) · tier: teaching
 
@@ -53,4 +53,3 @@ stock — including the re-entry pre-written at the moment of entry.
 ## Sources
 
 - [GOOG, MW, Other rockets, fabricated fantasy revisited](../../raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md)
-</content>

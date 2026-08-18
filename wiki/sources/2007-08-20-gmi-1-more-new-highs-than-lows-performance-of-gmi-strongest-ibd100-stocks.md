@@ -35,4 +35,3 @@ The clearest 2007 statement of what the GMI is *for*, with the year's two declin
 ## Sources
 
 - [GMI: 1; Performance of GMI; Strongest IBD100 stocks](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md)
-</content>

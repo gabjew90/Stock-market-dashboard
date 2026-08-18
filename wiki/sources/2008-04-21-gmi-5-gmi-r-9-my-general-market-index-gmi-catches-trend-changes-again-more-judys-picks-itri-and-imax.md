@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md]
 ---
 
-# WW 2008-04-21 — The 2000 pension exit in dollars; GMI-S at 100% inside a bear
+# WW 2008-04-21 — The 2000 pension exit in dollars; GMI-S at 100% inside a bear; the tax-deferred key
 
 **Source:** [GMI: 5; GMI-R: 9; My General Market Index catches trend changes again!; more Judy's picks: ITRI and IMAX](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md) · [original](https://wishingwealthblog.com/2008/04/gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax/) · tier: teaching
 
@@ -52,4 +52,3 @@ precondition for the whole trading style.
 ## Sources
 
 - [GMI: 5; GMI-R: 9; My GMI catches trend changes again!](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md)
-</content>

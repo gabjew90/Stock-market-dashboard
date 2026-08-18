@@ -27,6 +27,8 @@ class LintReport:
 #: A citation into the corpus: `.../raw/posts/<stem>.md`, at any `../` depth.
 _POST_CITATION = re.compile(r"raw/posts/([0-9]{4}-[0-9]{2}-[0-9]{2}-[^)\s]+?)\.md")
 _SOURCES_HEADING = re.compile(r"^##\s+Sources\s*$", flags=re.MULTILINE)
+#: A line that is nothing but a bare XML-ish closing tag, e.g. `</content>` or `</invoke>`.
+_LEAKED_MARKUP = re.compile(r"^\s*</[a-zA-Z][\w-]*>\s*$")
 
 
 def _is_external(target: str) -> bool:
@@ -115,6 +117,13 @@ def lint_wiki(root: Path) -> LintReport:
         if page.resolve() not in index_pages:
             # sources/.gitkeep style files won't be .md; .md pages must be indexed.
             report.errors.append(f"{rel}: not catalogued in wiki/index.md")
+
+        # 3b. Leaked tool markup. Editing tools that wrap file content in XML-ish tags have
+        #     left bare closing tags (`</content>`, `</invoke>`) at the end of pages; a bare
+        #     closing tag on its own line is never legitimate wiki prose.
+        for lineno, line in enumerate(text.splitlines(), start=1):
+            if _LEAKED_MARKUP.match(line):
+                report.errors.append(f"{rel}:{lineno}: leaked tool markup `{line.strip()}`")
 
         # 4. Every post cited in the body is listed in the page's own '## Sources' block
         #    (CLAUDE.md §3.4). Checked on the text, so it works without the corpus.

@@ -27,4 +27,3 @@ A worked OSB entry with the stop stated as a specific number, plus a "here is wh
 ## Sources
 
 - [Day 57 of $QQQ short term up-trend; 4 growth stocks with Black Dot OSB set-up](../../raw/posts/2023-07-20-blog-post-day-57-of-qqq-short-term-up-trend-list-of-4-growth-stocks-with-black-dot-osb-set-up-see-daily-chart.md)
-</content>

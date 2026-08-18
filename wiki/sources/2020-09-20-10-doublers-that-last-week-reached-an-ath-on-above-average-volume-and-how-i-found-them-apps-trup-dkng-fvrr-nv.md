@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md]
 ---
 
-# WW 2020-09-20 — The weekly doubler-ATH scan, full TC2000 syntax
+# WW 2020-09-20 — The weekly doubler-ATH scan, full TC2000 syntax; the note on the monitor
 
 **Source:** [10 doublers that last week reached an ATH on above average volume and how I found them](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) · [original](https://wishingwealthblog.com/2020/09/10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nvcr-grvy-nvta-penn-swav-wkhs/) · tier: teaching
 
@@ -48,4 +48,3 @@ shaken-out rule in its most human form: a physical note taped to the monitor.
 ## Sources
 
 - [10 doublers that last week reached an ATH on above average volume](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md)
-</content>

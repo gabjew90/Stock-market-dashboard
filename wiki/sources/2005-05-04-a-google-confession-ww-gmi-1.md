@@ -5,15 +5,14 @@ updated: 2026-08-12
 sources: [raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md]
 ---
 
-# WW 2005-05-04 — A Google Confession
+# WW 2005-05-04 — A Google Confession: the gap rule, the doubling rationale, and buying against his own trend call
 
 **Source:** [A Google Confession — WW-GMI: +1](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md) · [original](https://wishingwealthblog.com/2005/05/a-google-confession-ww-gmi-1/) · tier: teaching
 
 ## What it covers
 
 A worked GOOG trade used to teach entry, stop placement and emotional detachment — and framed
-as a **confession**, because he took it while telling readers to stay in cash. One of his "My
-Favorite Posts." Contains the earliest statement of the **gap rule** that becomes the 2022
+as a **confession**, because he took it while telling readers to stay in cash. Contains the earliest statement of the **gap rule** that becomes the 2022
 gap-up scan, and the clearest explanation of *why* Darvas's already-doubled criterion works.
 
 ## Key claims
@@ -60,4 +59,3 @@ gap-up scan, and the clearest explanation of *why* Darvas's already-doubled crit
 ## Sources
 
 - [A Google Confession — WW-GMI: +1](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md)
-</content>

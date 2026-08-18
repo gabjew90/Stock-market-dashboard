@@ -3,6 +3,7 @@ title: Playbook — market state → stance
 type: playbook
 updated: 2026-05-11
 sources:
+  - raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md
   - raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md
   - raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
@@ -34,14 +35,15 @@ Given the current readings of the [GMI](../methodology/gmi.md), [QQQ Short-Term 
 **Full bull posture.** Be long; run the [GLB buying playbook](buying-glb.md). ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md))
 
 - **QQQ in a short-term up-trend:** normal bull mode. Buy GLBs. Add to winners.
-- **QQQ in a short-term down-trend, early days (≤ 5 days):** most short-term down-trends last fewer than 6 days — do not panic. Optionally buy a small position in SQQQ (3X inverse QQQ) for a hedge. Add more SQQQ only if the down-trend lasts 5–6 days. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
+- **QQQ in a short-term down-trend, early days (≤ 5 days):** about **one quarter** of new short-term down-trends have ended in fewer than 6 days (2014 figure; a 2019 update put it at ~40%) — so an early down-trend is not yet a verdict. Optionally buy a small position in SQQQ (3X inverse QQQ) for a hedge. Add more SQQQ only if the down-trend lasts 5–6 days. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
 - **T2108 > 80% (overbought):** do not add new positions; move stops up to protect gains. The market can remain overbought for a while, but the risk of a pullback is elevated. ([WW 2010-09-27](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md)) ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
 
 ### GMI ≤ 3 (RED)
 
 **Defensive posture.** Get defensive in the trading IRA. ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md)) No new long entries. Raise stops. Reduce exposure.
 
-- **GMI ≤ 3 for two consecutive readings:** move to cash or begin shorting. ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md))
+- **GMI ≤ 3:** get defensive — raise stops, reduce exposure. "When it declines to 3 or below, I get defensive in my trading IRA." ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md))
+- **GMI < 3 (i.e. ≤ 2) on two consecutive days = Sell signal:** move to cash or begin shorting. "The GMI is now at 1 (of 6) and if it registers below 3 on Monday, it will flash a Sell signal." ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md)) Note that GMI = 3 is therefore a *hold* state — defensive but not yet Sell — mirroring the Buy side, where the signal is > 3 for two consecutive days ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md)).
 - **QQQ/SPY closes below 30-week average:** become "very defensive" — stop all new buys, raise stops on all positions. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 - **30-week average of QQQ/SPY turns down:** typically exit the market entirely. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 
@@ -96,3 +98,4 @@ Watch the daily new-high / new-low counts against the full US stock universe (fi
 - [WW 2005-04-23 — Let's Talk Strategy](../../raw/posts/2005-04-23-lets-talk-strategy.md) ([summary](../sources/2005-04-23-lets-talk-strategy.md))
 - [WW 2005-07-17 — GMI since inception; introducing the WPM](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md) ([summary](../sources/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
 - [WW 2010-03-15 — Jim Cramer on stop loss orders; how I trade the 3X ETFs](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md) ([summary](../sources/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
+- [WW 2012-04-30 — GMI buy signal = >3 two consecutive days](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md) ([summary](../sources/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))

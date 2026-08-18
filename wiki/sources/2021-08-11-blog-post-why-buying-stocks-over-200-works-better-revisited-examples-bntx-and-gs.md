@@ -33,4 +33,3 @@ sources: [raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better
 
 - [Why buying stocks over $200 works better–revisited; $BNTX $GS](../../raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md)
 - [WW 2018-01-21 — Why buying stocks over $100 is more profitable](../../raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md) ([summary](2018-01-21-why-buying-stocks-over-100-is-more-profitable.md)) — the post this one supersedes
-</content>

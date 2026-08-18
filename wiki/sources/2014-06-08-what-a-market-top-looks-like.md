@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2014-06-08-what-a-market-top-looks-like.md]
 ---
 
-# WW 2014-06-08 — What a market top looks like
+# WW 2014-06-08 — What a market top looks like: the monthly GMMA template for 2000 and 2008
 
 **Source:** [What a market top looks like](../../raw/posts/2014-06-08-what-a-market-top-looks-like.md) · [original](https://wishingwealthblog.com/2014/06/what-a-market-top-looks-like/) · tier: teaching
 
@@ -42,4 +42,3 @@ the pundits then predicting an imminent top by fundamentals.
 ## Sources
 
 - [What a market top looks like](../../raw/posts/2014-06-08-what-a-market-top-looks-like.md)
-</content>

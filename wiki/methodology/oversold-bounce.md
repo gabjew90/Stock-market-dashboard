@@ -100,6 +100,4 @@ The pattern recurs with the later blue-dot variant: SHAK, a recent GLB, fell bac
 - [WW 2023-08-03 — 11 stocks have OSB after recent ATH; NVDA AMPH](../../raw/posts/2023-08-03-blog-post-day-67-of-qqq-short-term-up-trend-115-new-us-highs-and-44-lows-11-stocks-have-osb-after-recent-ath.md) ([summary](../sources/2023-08-03-blog-post-day-67-of-qqq-short-term-up-trend-115-new-us-highs-and-44-lows-11-stocks-have-osb-after-recent-ath.md))
 - [WW 2023-09-13 — VRT has OSB and a recent GLB](../../raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md) ([summary](../sources/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md))
 - [WW 2025-07-09 — SHAK retakes green line after a Blue Dot OSB](../../raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md) ([summary](../sources/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md))
-</content>
-</invoke>
 - [WW 2018-03-11 — Green Dot strategy defined](../../raw/posts/2018-03-11-green-dot-strategy-defined.md) ([summary](../sources/2018-03-11-green-dot-strategy-defined.md))

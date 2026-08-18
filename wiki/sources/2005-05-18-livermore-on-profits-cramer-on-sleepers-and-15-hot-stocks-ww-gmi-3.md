@@ -49,4 +49,3 @@ corpus, run live with its 15 survivors published.
 ## Sources
 
 - [Livermore on profits, Cramer on sleepers and 15 Hot Stocks](../../raw/posts/2005-05-18-livermore-on-profits-cramer-on-sleepers-and-15-hot-stocks-ww-gmi-3.md)
-</content>

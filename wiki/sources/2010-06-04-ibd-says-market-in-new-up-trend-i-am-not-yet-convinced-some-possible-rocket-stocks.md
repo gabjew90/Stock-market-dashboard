@@ -42,4 +42,3 @@ clean instance.
 ## Sources
 
 - [IBD says market in new up-trend, I am not yet convinced](../../raw/posts/2010-06-04-ibd-says-market-in-new-up-trend-i-am-not-yet-convinced-some-possible-rocket-stocks.md)
-</content>

@@ -43,4 +43,3 @@ the anguish-avoidance framing of timing, and the age-based case against shorting
 ## Sources
 
 - [Why I follow my General Market Index, GMI](../../raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md)
-</content>

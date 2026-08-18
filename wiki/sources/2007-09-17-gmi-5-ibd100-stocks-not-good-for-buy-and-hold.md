@@ -31,4 +31,3 @@ A sceptical audit of his own primary candidate pool. Dr. Wish criticises the **s
 ## Sources
 
 - [GMI: 5; IBD100 stocks not good for buy-and-hold](../../raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md)
-</content>

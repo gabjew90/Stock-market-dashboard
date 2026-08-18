@@ -31,4 +31,3 @@ Two durable methodological positions stated early: the **covered-call income str
 ## Sources
 
 - [GMI: 6; the ideal boomer strategy—writing covered calls](../../raw/posts/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md)
-</content>

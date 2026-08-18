@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md]
 ---
 
-# WW 2023-01-16 — How I trade a GLB: the close-below rule shown intraday
+# WW 2023-01-16 — How I trade a GLB: the close-below rule shown intraday; OSB as the built-in alternative
 
 **Source:** [GMI turns GREEN and Day 2 of $QQQ short term up-trend; How I trade a GLB (green line breakout), 2 examples](../../raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md) · [original](https://wishingwealthblog.com/2023/01/blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl/) · tier: teaching
 
@@ -46,4 +46,3 @@ that the OSB is a built-in alternative entry to the GLB day.
 ## Sources
 
 - [GMI turns GREEN; How I trade a GLB, 2 examples](../../raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md)
-</content>

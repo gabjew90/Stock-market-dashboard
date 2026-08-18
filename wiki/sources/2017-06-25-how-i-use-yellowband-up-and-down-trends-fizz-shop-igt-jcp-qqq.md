@@ -57,4 +57,3 @@ as superseded. It was not.
 ## Sources
 
 - [How I use Yellowband up and down trends](../../raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md)
-</content>

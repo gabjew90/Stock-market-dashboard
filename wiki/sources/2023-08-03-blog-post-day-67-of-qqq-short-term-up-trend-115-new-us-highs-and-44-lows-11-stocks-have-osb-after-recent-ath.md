@@ -29,4 +29,3 @@ A routine OSB scan publication that nonetheless pins down two rules precisely: t
 ## Sources
 
 - [Day 67 of $QQQ short term up-trend; 11 stocks have OSB after recent ATH](../../raw/posts/2023-08-03-blog-post-day-67-of-qqq-short-term-up-trend-115-new-us-highs-and-44-lows-11-stocks-have-osb-after-recent-ath.md)
-</content>

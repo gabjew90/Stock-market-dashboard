@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md]
 ---
 
-# WW 2011-08-15 — The August 2011 full exit
+# WW 2011-08-15 — The August 2011 full exit: rules plus fatigue, sector confirmation, and the addiction line
 
 **Source:** [100% cash in trading accounts and university pension](../../raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md) · [original](https://wishingwealthblog.com/2011/08/100-cash-in-trading-accounts-and-university-pension/) · tier: teaching
 
@@ -28,7 +28,7 @@ index components below their 30-week averages used as the market-level stage che
   banking stocks was in 2008 near the **beginning** of the financial crisis" — with the same
   pattern across brokerage, trucking, construction, steel, airlines.
 - **Component-level stage check, quantified:** "the percentage of stocks closing *below* their
-  critical 30 week long term averages are: Dow 30, **83%**; S&P500, **87%**; Nasdaq 100,
+  critical 30 week long term averages are: Dow 30, **83%**; S&P500, **87%** and Nasdaq 100,
   **81%**." And the personal rule it feeds: "**I do not own *any* stock that is below its 30
   week average.**"
 - **The pension-lag cost admitted:** the trading accounts exited weeks earlier with gains
@@ -50,4 +50,3 @@ index components below their 30-week averages used as the market-level stage che
 ## Sources
 
 - [100% cash in trading accounts and university pension](../../raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md)
-</content>

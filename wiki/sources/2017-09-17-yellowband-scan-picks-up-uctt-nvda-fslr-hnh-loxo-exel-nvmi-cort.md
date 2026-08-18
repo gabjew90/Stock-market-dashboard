@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md]
 ---
 
-# WW 2017-09-17 — The yellowband scan criteria; purple dots; the club channel
+# WW 2017-09-17 — The yellowband scan criteria; purple dots; the TC2000 club channel
 
 **Source:** [Yellowband scan picks up $UCTT, $NVDA, $FSLR, $HNH, $LOXO, $EXEL, $NVMI, $CORT](../../raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md) · [original](https://wishingwealthblog.com/2017/09/yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort/) · tier: teaching
 
@@ -46,4 +46,3 @@ chart convention.
 ## Sources
 
 - [Yellowband scan picks up UCTT, NVDA, FSLR...](../../raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md)
-</content>

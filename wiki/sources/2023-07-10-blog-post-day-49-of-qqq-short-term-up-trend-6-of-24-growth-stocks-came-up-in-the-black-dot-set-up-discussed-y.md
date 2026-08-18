@@ -26,4 +26,3 @@ A short but methodologically distinct post: it establishes **industry clustering
 ## Sources
 
 - [Day 49 of $QQQ short term up-trend; 6 of 24 growth stocks in residential construction](../../raw/posts/2023-07-10-blog-post-day-49-of-qqq-short-term-up-trend-6-of-24-growth-stocks-came-up-in-the-black-dot-set-up-discussed-y.md)
-</content>

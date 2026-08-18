@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md]
 ---
 
-# WW 2005-05-13 — Rotation detection by component breadth; MoneyStream; a pilot buy priced
+# WW 2005-05-13 — Rotation detection by component breadth; MoneyStream explained; a pilot buy priced
 
 **Source:** [This Schizoid Market, Everybody Rotate, Promising Stock PRGS — WW-GMI: +1](../../raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md) · [original](https://wishingwealthblog.com/2005/05/this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1/) · tier: teaching
 
@@ -52,4 +52,3 @@ buy-stop alternative and its cost.
 ## Sources
 
 - [This Schizoid Market — WW-GMI: +1](../../raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md)
-</content>

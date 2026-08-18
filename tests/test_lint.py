@@ -184,3 +184,20 @@ def test_ledger_summary_page_must_exist(tmp_path: Path):
     report = lint_wiki(tmp_path)
     assert not report.ok
     assert any("ingest-ledger.jsonl line 1: summary_page" in e for e in report.errors)
+
+
+def test_lint_flags_leaked_tool_markup(tmp_path):
+    """Write-tool closing tags leaked into 66 wiki files on 2026-08-12 and lint never
+    noticed. Any line that is bare XML-ish closing markup is never legitimate wiki prose."""
+    from ww.maintain.lint import lint_wiki
+
+    wiki = tmp_path / "wiki"
+    (wiki / "methodology").mkdir(parents=True)
+    (wiki / "index.md").write_text("# Index\n\n- [P](methodology/p.md) — x\n", encoding="utf-8")
+    (wiki / "methodology" / "p.md").write_text(
+        "---\ntitle: P\ntype: concept\nupdated: 2026-08-12\nsources: []\n---\n\n# P\n\nBody.\n\n"
+        "## Sources\n\n_None yet._\n</content>\n</invoke>\n",
+        encoding="utf-8",
+    )
+    report = lint_wiki(tmp_path)
+    assert any("leaked" in e and "p.md" in e for e in report.errors), report.errors

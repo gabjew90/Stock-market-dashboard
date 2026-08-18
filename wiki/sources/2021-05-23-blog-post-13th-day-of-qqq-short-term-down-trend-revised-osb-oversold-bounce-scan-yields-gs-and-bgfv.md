@@ -28,4 +28,3 @@ Gives the one-line functional definition of the revised OSB scan and pairs it wi
 ## Sources
 
 - [13th day of $QQQ short term down-trend; Revised OSB scan yields $GS and $BGFV](../../raw/posts/2021-05-23-blog-post-13th-day-of-qqq-short-term-down-trend-revised-osb-oversold-bounce-scan-yields-gs-and-bgfv.md)
-</content>

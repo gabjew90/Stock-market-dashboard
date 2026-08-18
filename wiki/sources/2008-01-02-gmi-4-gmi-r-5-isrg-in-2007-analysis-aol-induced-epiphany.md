@@ -5,13 +5,13 @@ updated: 2026-08-12
 sources: [raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md]
 ---
 
-# WW 2008-01-02 — The AOL-induced epiphany, tested on ISRG
+# WW 2008-01-02 — The AOL-induced epiphany: why the market gate exists, tested on ISRG
 
 **Source:** [GMI: 4+; GMI-R: 5+; ISRG in 2007 analysis — AOL induced epiphany](../../raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md) · [original](https://wishingwealthblog.com/2008/01/gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany/) · tier: teaching
 
 ## What it covers
 
-**The origin story of the market gate** — the personal observation, ten years before the GMI,
+**The origin story of the market gate** — the personal observation, made "ten years ago" as of 2008,
 that convinced him no stock is strong enough to override the market's trend — replicated
 quantitatively on 2007's strongest Nasdaq stock. The wiki carries the 70%-correlation rule as
 doctrine; this is where the doctrine came from.
@@ -28,7 +28,7 @@ doctrine; this is where the doctrine came from.
   **~69% of its total gain came during the two major QQQQ up-trends** (April and August). And
   the risk side: inside the 11/9–12/6 down-trend it fell from 293.88 to 264 (−10%), or **−22%
   from the prior up-trend's top** — "These losses would have occurred in a stock that *tripled*
-  during the year! Would I have been brave (stupid?) enough to have held on?"
+  during the year! Would I have been brave (stupid?) enough to have held on to ISRG during such a decline?"
 - **The conclusion, restated as the operating rule:** "even the strongest stock will decline
   significantly during a market down-trend. Others will decline more. For that reason, I either
   sell out or set very close sell stops on my winners when the general market trend is down."
@@ -50,4 +50,3 @@ doctrine; this is where the doctrine came from.
 ## Sources
 
 - [ISRG in 2007 analysis — AOL induced epiphany](../../raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md)
-</content>

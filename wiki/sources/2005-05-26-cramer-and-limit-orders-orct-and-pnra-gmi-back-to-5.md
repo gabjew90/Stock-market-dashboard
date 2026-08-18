@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md]
 ---
 
-# WW 2005-05-26 — BUY AND SELL AT THE MARKET; the standing buy-stop; Lynch's method
+# WW 2005-05-26 — BUY AND SELL AT THE MARKET; the standing buy-stop that re-enters for you; Peter Lynch's method
 
 **Source:** [Cramer and limit orders; ORCT and PNRA; GMI back to +5](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md) · [original](https://wishingwealthblog.com/2005/05/cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5/) · tier: teaching
 
@@ -50,4 +50,3 @@ three personal cases.
 ## Sources
 
 - [Cramer and limit orders; ORCT and PNRA](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md)
-</content>

@@ -32,4 +32,3 @@ Names the setup **ATHOSB** (all-time high → oversold → bounce), calls it "on
 ## Sources
 
 - [One of my favorite set-ups, ATHOSB; $SQM](../../raw/posts/2022-06-15-blog-post-one-of-my-favorite-set-ups-athosb-found-one-stock-sqm-check-it-out-and-see-the-tutorial.md)
-</content>

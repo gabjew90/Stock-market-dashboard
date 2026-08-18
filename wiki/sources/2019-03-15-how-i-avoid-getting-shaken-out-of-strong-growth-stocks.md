@@ -5,7 +5,7 @@ updated: 2026-08-12
 sources: [raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md]
 ---
 
-# WW 2019-03-15 — How I avoid getting shaken out
+# WW 2019-03-15 — How I avoid getting shaken out: buy on the daily, sell only off the weekly
 
 **Source:** [How I Avoid Getting Shaken Out of Strong Growth Stocks](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md) · [original](https://wishingwealthblog.com/2019/03/how-i-avoid-getting-shaken-out-of-strong-growth-stocks/) · tier: teaching
 
@@ -18,7 +18,7 @@ until today.
 
 ## Key claims
 
-- **The problem, named as his biggest:** "One of the biggest problems I have faced is that I own
+- **The problem, named as one of his biggest:** "One of the biggest problems I have faced is that I own
   a growth stock in a nice up-trend and get shaken out, only to see the stock continue rising."
 - **The rule:** "the rule of **looking at the stock's weekly chart before every sale** of a long
   position. If the stock is still holding its **rising 10 week average** I suggest not selling."
@@ -45,4 +45,3 @@ until today.
 ## Sources
 
 - [How I Avoid Getting Shaken Out of Strong Growth Stocks](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md)
-</content>
