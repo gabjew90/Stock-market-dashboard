@@ -243,8 +243,9 @@ re-scraped and **committed** — `raw/posts/` and `raw/posts.jsonl` are now in v
 (see §1). The scrape picked up 39 posts published since the previous 2026-05-11 corpus.
 `raw/url_map.json` still catalogues slug→URL.
 
-**111 posts are ingested** (101 `teaching` + 10 `trade_example`), each with a page under
-`wiki/sources/` and a row in `raw/ingest-ledger.jsonl`. Run `uv run ww ledger export` after
+**246 posts are ingested as of 2026-08-18** (ledger rows; ~220 `teaching`/`trade_example` with a page under
+`wiki/sources/`, plus ~25 `daily_update` rows carrying only a summary). **The `long_form` queue is
+fully ingested (175/175)**; the remaining work is `unknown`-kind posts (2,700+, mostly daily notes). Run `uv run ww ledger export` after
 every batch and commit the ledger alongside `posts.jsonl`.
 
 *Tier regression to be aware of:* the corpus had been fully tiered before it was lost, but
@@ -254,7 +255,7 @@ not block ingest work (`kind_guess` still partitions the corpus: 2,708 `unknown`
 1,811 `daily_update`, 175 `long_form`), but `ww stats` by-tier counts will look wrong until
 someone re-runs the tiering. `raw/timeline.parquet` is unaffected — rebuild with `ww timeline`.
 
-To pick the next batch: `uv run ww batch --kind long_form`.
+To pick the next batch: `uv run ww batch --kind unknown` (long_form is exhausted); prefer posts whose titles carry a teaching hook ("how I", "why", scans, rules) — see the 2026-08-18 lint entries in `wiki/log.md` for the triage method.
 
 **Known coverage gaps** (full list in the 2026-08-12 lint entry in `wiki/log.md`). *Closed
 2026-08-12:* **OSB / ATHOSB** (now `methodology/oversold-bounce.md`), the **2021 $200 revision**

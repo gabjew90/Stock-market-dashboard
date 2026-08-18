@@ -35,6 +35,10 @@ sources:
   - raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md
   - raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md
   - raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md
+  - raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md
+  - raw/posts/2005-07-11-a-hot-market-gmi-6-more-rockets-covered-calls-on-goog.md
+  - raw/posts/2005-06-11-gmi-back-to-4-performance-of-my-picks.md
+  - raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md
 ---
 
 # General Market Index (GMI)
@@ -95,6 +99,8 @@ Two consequences. First, the reconstruction's use of **FFTY** as a component-6 p
 
 **Why component 1 carries a minimum count.** "This indicator is very unstable when only a few stocks hit new highs 10 days ago" — said in April 2008 when it alone knocked the GMI from 4 to 3 in a young up-trend, and the reason the published table later reads it as ≥ 50% *with a minimum of 20* (see [GMI evidence](gmi-evidence.md)). ([WW 2008-04-07](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md))
 
+**Component 1 was redefined on July 11, 2005.** The launch definition was a raw count (>100 successful 10-day new highs). Ten weeks in, with only 95 stocks having made new highs ten days earlier — so the count could never reach 100 — he changed it: "I changed the criterion for the 10 day new high index to be positive if there were 100 successful stocks **or at least 50%** of the stocks that hit a new high 10 days ago closed higher today than 10 days ago… So today, 76/95 stocks or 80% qualified." That is the origin of the ≥ 50% rule the daily table has carried ever since (with the minimum count later set at 20 — see [GMI evidence](gmi-evidence.md)). ([WW 2005-07-11](../../raw/posts/2005-07-11-a-hot-market-gmi-6-more-rockets-covered-calls-on-goog.md)) The count form had first turned positive on June 2, 2005 — "for the first time since we began to post the GMI, there were more than 100 successful 10 day new highs." ([WW 2005-06-02](../../raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md))
+
 ## The signals — Buy, Sell, and the hold state at 3
 
 The score becomes a *signal* only with persistence, and the two sides are symmetric around 3:
@@ -130,6 +136,8 @@ He uses the GMI alongside the [QQQ Short-Term Timing](qqq-short-term-timing.md) 
 
 Stated as early as January 2006: "The GMI cannot predict changes in trend, it only provides me with a reasonably certain indication that the trend has changed." ([WW 2006-01-23](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md)) And the "?" grade goes back to 2006 too — "GMI: 5?" with 97 new highs against the 100 needed. ([WW 2006-08-21](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md)) The threshold for committing money: "I prefer the GMI to be at least 4 before I commit many IRA funds, and especially my university pension, to the long side." ([WW 2009-02-15](../../raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md))
 
+The strict-rules reflex was there from the start: with the weekly QQQQ index "too close to call" in June 2005 — "if I strictly follow my rules, then it is a negative." ([WW 2005-06-11](../../raw/posts/2005-06-11-gmi-back-to-4-performance-of-my-picks.md))
+
 ## New highs / new lows — a breadth supplement to the GMI
 
 Dr. Wish tracks the daily count of new 52-week highs and lows in TC2000 (filtered for close > $10 and volume > 10,000 against the full US stock universe of ~6,486 stocks). These are a leading breadth indicator that can diverge from the GMI and the index price, giving an early warning. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
@@ -139,6 +147,8 @@ The implementation requires the built-in "Price New High" and "Price New Low" TC
 Documented example: in **November 2021**, QQQ was at all-time highs (day U-26 of the short-term up-trend) but new lows surged to **438 on 11/22/2021** — QQQ's exact peak. This divergence led Dr. Wish to exit the market. The subsequent Stage 4 decline lasted over a year. He describes it as a "lucky call" but attributes it to the breadth divergence signal. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 
 **The mirror statistic (in use by 2006; named 2019).** Component 1 has an unpublished twin he computes nightly — already in the table in August 2006: "only 25% of the 260 stocks that hit a new low 10 days ago closed lower. This suggests that shorting new lows has been unlikely to have been profitable recently." ([WW 2006-08-07](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md)) As disclosed in 2019: the **successful 10-day new low** percentage — of the stocks that hit a new low 10 days ago, the share that closed *lower* than 10 days earlier. In May–June 2019 the high-side statistic had been ≥ 50% on only 5 days while the low-side was ≥ 50% on 16 of 17 days, which is how he concluded that "shorting stocks at new lows is a far better strategy than buying stocks at new highs" in that tape. It is not a GMI component; it is the diagnostic that tells him which side the component-1 logic favours. ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md)) See [the short side](short-side.md).
+
+The earliest form of the mirror comparison is May 2005: 65% of the stocks that made new highs ten days earlier closed higher, against only a third of the new lows lower — "the market is telling us that buying new highs has been a better strategy than shorting new lows." ([WW 2005-05-22](../../raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md))
 
 ## Evolution
 
@@ -293,3 +303,7 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2006-01-23 — GMI +4; clues to this rout? WPM shows small/mid caps stronger; chickens survive](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md) ([summary](../sources/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
 - [WW 2006-08-21 — GMI 5?; GMI-S 100; short-term rally?; IAI](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md) ([summary](../sources/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md))
 - [WW 2009-02-15 — Jim Cramer finds TA religion; TSYS cup with handle; promising IBD100 stocks](../../raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md) ([summary](../sources/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md))
+- [WW 2005-06-02 — GMI goes to the max: +6, CME, QSII, CMN](../../raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md) ([summary](../sources/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md))
+- [WW 2005-07-11 — A hot market; GMI: +6; more rockets; covered calls on GOOG](../../raw/posts/2005-07-11-a-hot-market-gmi-6-more-rockets-covered-calls-on-goog.md) ([summary](../sources/2005-07-11-a-hot-market-gmi-6-more-rockets-covered-calls-on-goog.md))
+- [WW 2005-06-11 — GMI back to +4; Performance of my picks](../../raw/posts/2005-06-11-gmi-back-to-4-performance-of-my-picks.md)
+- [WW 2005-05-22 — GMI rises to +5, The Google Rocket, Lucky Bill Miller](../../raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md) ([summary](../sources/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md))

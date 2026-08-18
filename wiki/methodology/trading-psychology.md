@@ -20,6 +20,9 @@ sources:
   - raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md
   - raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md
   - raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md
+  - raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md
+  - raw/posts/2005-06-01-googlemania-gmi-5-and-growing-stronger.md
+  - raw/posts/2005-12-11-appels-new-book-on-ta-gmi-declines-to-5-wpm-shows-short-term-weakness-long-bonds-to-weaken-some-weak-sectors.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -33,6 +36,8 @@ Dr. Wish writes about emotion the way he writes about indicators: as something t
 The honesty of the first sentence matters — he flags the claim as untested. The [backtest of the timing overlay](backtest-timing-overlay.md) is the closest the wiki has to the test he never ran.
 
 The cost of the chicken's reflex, admitted in February 2011 after exiting too early on the muni-bond news: "the GMI only tells me the current trend. It will signal a down-trend only after it has begun. So, the proper course for me is to remain on the long side, with one eye always on the exits." ([WW 2011-02-14](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md)) And the animal taxonomy, 2006: "A chicken lives to play another day, while hogs get slaughtered and ostriches get run over." ([WW 2006-01-23](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
+
+The rule is as old as the blog. May 2005: "my gut was telling me the market should go down but my instruments were telling me to buy. **One must always go with his/her instruments — the market action.** I do not waste a lot of time trying to divine the market's direction by focusing on economic news or current events. Don't get attached to a scenario." ([WW 2005-05-22](../../raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md))
 
 ## 2. Do not marry a scenario
 
@@ -59,6 +64,8 @@ Knowing that daily charts shake him out of good stocks, he did not resolve to be
 ## 7. When it feels too easy, sell
 
 The one discretionary override he grants himself on the exit side. Yahoo around $400 pre-split in the 1990s, up $50 in a week on a large position — "my internal voice said making money was too easy… I tell my students that whenever my voice cautions me that way, I sell. (It rarely happens!)" It happened with INMD in November 2019: up ~$9 pre-market, vertical, outside its upper 15.2 daily Bollinger Band on very heavy volume; sold ~$57 for 40%+ in nine days, and the stock closed the week at $41.55. "**When I make money too fast, I sell.** Bulls make money, Bears make money and Pigs get slaughtered." ([WW 2019-11-24](../../raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md)) The observable trigger is the parabolic move, not the feeling — which is what makes it a rule rather than a mood.
+
+The trap on the other side, from Appel, quoted December 2005: "One successful trade makes us feel good. Two successful trades in a row make us feel pretty smart. Three consecutive successful trades makes us feel like a genius. That's when they get us." ([WW 2005-12-11](../../raw/posts/2005-12-11-appels-new-book-on-ta-gmi-declines-to-5-wpm-shows-short-term-weakness-long-bonds-to-weaken-some-weak-sectors.md)) And the 2005 handling of a parabolic move — GOOG "into a vertical rise on the highest daily volume in 4 months… very far from its 50 day average" — was to hold and stop adding "until the stock reacts a little or forms a plateau." ([WW 2005-06-01](../../raw/posts/2005-06-01-googlemania-gmi-5-and-growing-stronger.md))
 
 ## 8. If you cannot go to cash, do not trade
 
@@ -95,3 +102,6 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2016-11-13 — QQQ short-term down-trend but GMI Green; 16 GLB stocks; OLLI](../../raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md) ([summary](../sources/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md))
 - [WW 2006-01-23 — GMI +4; clues to this rout? WPM shows small/mid caps stronger; chickens survive](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md) ([summary](../sources/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
 - [WW 2011-02-14 — NOG: RWB rocket stock with possible cup-with-handle break-out](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md) ([summary](../sources/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md))
+- [WW 2005-05-22 — GMI rises to +5, The Google Rocket, Lucky Bill Miller](../../raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md) ([summary](../sources/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md))
+- [WW 2005-06-01 — Googlemania, GMI +5 and growing stronger](../../raw/posts/2005-06-01-googlemania-gmi-5-and-growing-stronger.md)
+- [WW 2005-12-11 — Appel’s new book on TA; GMI declines to +5; WPM shows short term weakness;  Long bonds to weaken; Some weak se](../../raw/posts/2005-12-11-appels-new-book-on-ta-gmi-declines-to-5-wpm-shows-short-term-weakness-long-bonds-to-weaken-some-weak-sectors.md) ([summary](../sources/2005-12-11-appels-new-book-on-ta-gmi-declines-to-5-wpm-shows-short-term-weakness-long-bonds-to-weaken-some-weak-sectors.md))

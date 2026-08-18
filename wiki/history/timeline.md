@@ -205,6 +205,23 @@ sources:
   - raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md
   - raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md
   - raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md
+  - raw/posts/2005-04-18-put-me-on-ira.md
+  - raw/posts/2005-05-01-taking-stock-of-the-market.md
+  - raw/posts/2005-05-03-cnbc-forever-bullish.md
+  - raw/posts/2005-05-05-is-the-fed-done-ww-gmi-2.md
+  - raw/posts/2005-05-07-some-potential-rockets-ww-gmi-2.md
+  - raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md
+  - raw/posts/2005-05-23-google-rockets-on-funds-to-time-the-market-boom-cup-with-handle-gmi-5.md
+  - raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md
+  - raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md
+  - raw/posts/2005-06-14-gmi-at-the-max-6-buying-gaps-gm-hans.md
+  - raw/posts/2005-06-26-can-cramer-hedge-gmi-sinks-to-1-content-to-remain-in-cash.md
+  - raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md
+  - raw/posts/2005-07-11-a-hot-market-gmi-6-more-rockets-covered-calls-on-goog.md
+  - raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md
+  - raw/posts/2005-08-17-gmi-declines-to-5-only-27-of-stocks-in-up-trend-cramer-commits-hara-kiri-over-dks-a-polar-bear.md
+  - raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md
+  - raw/posts/2005-12-11-appels-new-book-on-ta-gmi-declines-to-5-wpm-shows-short-term-weakness-long-bonds-to-weaken-some-weak-sectors.md
 ---
 
 # Timeline — evolution of the methodology
@@ -239,6 +256,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## April 2005 (short side) — 'why play only one side of the game'
+
+**"Put me on, IRA" (2005-04-18):** "the market always goes further than everyone thinks is justified — up or down"; "experienced traders do not care which way the market goes, as long as it moves in a trend… why play only one side of the game"; short-selling explained; the short-rate index jumps. ([WW 2005-04-18](../../raw/posts/2005-04-18-put-me-on-ira.md))
+
 ## May 2005 — the gap rule and the doubling rationale (GOOG)
 
 **"A Google Confession" (2005-05-04):** a worked GOOG trade — bought ~$220, immediate stop ~$214 — teaching why the stop is what buys emotional detachment ("I have placed my wager and can now separate myself emotionally from the stock"). Carries the earliest form of the **gap rule** that becomes the 2022 gap-up scan: "The trick is to wait to see if the gap is filled. If the stock keeps on rising to new heights without closing the gap, it is often a sign of tremendous strength," with the failure case on the same chart. Explains Darvas's already-doubled criterion as a base-rate argument, and states the one prohibition in capitals: "**NEVER BUY MORE OF A STOCK THAT HAS DECLINED.**" Framed as a confession — he took the trade while telling readers to stay in cash. ([WW 2005-05-04](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md))
@@ -256,6 +277,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"GOOG, MW, Other rockets, fabricated fantasy revisited" (2005-05-30):** the self-description that names his epistemics — "I guess I am an **orthodox agnostic** when it comes to believing in a rationale for stock movements... just jump on board." The window-dressing mechanism explained in full (with the Bogle counter-anecdote and an SEC disclosure proposal); the Successful 10-Day read as a *ratio* when counts are thin, nine years before the formal rule change; and the MW plan with the **re-entry pre-written at entry** ("If I got stopped out, I would buy it again if it bounces near its 50 day average"). ([WW 2005-05-30](../../raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md))
 
 ---
+
+## May 2005 (roots) — Darvas's one reason; the letter to Cramer; Loeb's pyramid; the freight train; go with your instruments; the 401(k) back in
+
+**"Taking Stock of the Market" (2005-05-01):** Darvas — "my only sound reason for buying a stock is that it is rising in price"; the AMEX once suspended stop orders after his book; Livermore/Loeb/O'Neil on new highs. ([WW 2005-05-01](../../raw/posts/2005-05-01-taking-stock-of-the-market.md)) **"CNBC: Forever Bullish" (2005-05-03):** the April 15 letter to Cramer — "mutual funds must stay invested, individuals do not. About 70% of stocks go with the market indexes." ([WW 2005-05-03](../../raw/posts/2005-05-03-cnbc-forever-bullish.md)) **"Is the Fed Done?" (2005-05-05):** Loeb's pyramiding as the pilot buy's root. ([WW 2005-05-05](../../raw/posts/2005-05-05-is-the-fed-done-ww-gmi-2.md)) **"Some Potential Rockets" (2005-05-07):** the hobo and the freight train. ([WW 2005-05-07](../../raw/posts/2005-05-07-some-potential-rockets-ww-gmi-2.md)) **"GMI rises to +5" (2005-05-22):** "one must always go with his/her instruments — the market action… Don't get attached to a scenario"; new highs (65%) beat new lows. ([WW 2005-05-22](../../raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md)) **"Google rockets on; Funds to time the market" (2005-05-23):** the 401(k) back into equities; fund families built for timing. ([WW 2005-05-23](../../raw/posts/2005-05-23-google-rockets-on-funds-to-time-the-market-boom-cup-with-handle-gmi-5.md))
 
 ## May 2005 (cont.) — rotation by breadth; the track-money principle; the first full scan
 
@@ -277,17 +302,29 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## June 2005 (cont.) — first >100 successful new highs; the first GMI performance chart; buy-stops; the first pension exit
+
+**"GMI goes to the max: +6" (2005-06-02):** first day of >100 successful 10-day new highs; the prior comparable up-trend ran ~92 days. ([WW 2005-06-02](../../raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md)) **"GMI back to +5; Chart of GMI performance; BTU" (2005-06-13):** the first performance chart; a buy-stop above Friday's high, sell-stop under Friday's low. ([WW 2005-06-13](../../raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md)) **"GMI at the max: +6; Buying Gaps" (2005-06-14):** 75% of Nasdaq-100 up in the up-trend — the 70% rule measured. ([WW 2005-06-14](../../raw/posts/2005-06-14-gmi-at-the-max-6-buying-gaps-gm-hans.md)) **"Can Cramer hedge? GMI sinks to +1" (2005-06-26):** 95% cash IRA, 100% money market pension — the earliest pension exit; "because I trade in tax deferred accounts, I do not care if I get out too soon." ([WW 2005-06-26](../../raw/posts/2005-06-26-can-cramer-hedge-gmi-sinks-to-1-content-to-remain-in-cash.md))
+
 ## July 2005 — WPM introduced; 30-week credited with 2000 exit
 
 **"GMI since inception; introducing the WPM" (2005-07-17):** introduces the WishingWealth Pulse of the Market (WPM) — a composite table tracking five index families on 30-day and 30-week averages. He credits the 30-week average reversal in 2000 (exit) and 2003 (re-entry) as proof of concept. States the 30-day average as the best short-term trend indicator. ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
 
 ---
 
+## July 2005 (cont.) — the 'M' in CAN SLIM; component 1 redefined (≥100 OR ≥50%); the 10-day line; 'why mess around with individual stocks'
+
+**"The trend is our friend; GMI: +3" (2005-07-02):** 70% ↔ O'Neil's "M"; "I would lose all of my hard earned trading profits and more, when I kept buying break-out stocks in the inevitable decline"; D-6 odds 38/62. ([WW 2005-07-02](../../raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md)) **"A hot market; GMI: +6" (2005-07-11):** component 1 redefined — positive if ≥ 100 successful new highs **or** ≥ 50% of the stocks that made new highs 10 days ago closed higher (76/95 = 80% that day). ([WW 2005-07-11](../../raw/posts/2005-07-11-a-hot-market-gmi-6-more-rockets-covered-calls-on-goog.md)) **"Another strong day; GMI: +6 and its track record; Benefits of naked charts" (2005-07-28):** the QQQQ above its rising 10-day every day since July 8 — "when is the market weakening? Wait for a close below the dotted line"; "why mess around with individual stocks when one can merely trade this index?" ([WW 2005-07-28](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
+
 ## August 2005 — Weinstein Dow sell signal; bank and SBUX shorts; bear scenario
 
 **"Stan Weinstein Dow sell signal; GMI: +1; Sick bank stocks; SBUX-in the drink?" (2005-08-27):** The Dow closed below its 30-week moving average — the first such close in some time. Dr. Wish quotes Weinstein's 1988 book verbatim on the defensive actions required: suspend buying, sell weak stocks, tighten stops, hunt short-sale candidates. He introduces his short-sale thesis: rising short-term interest rates squeezing bank profit margins makes bank stocks attractive submarine candidates (WFC, C, JPM, WB, BAC below their 30-week averages). SBUX is identified as a potential short based solely on the 10-week average crossing below the 30-week average. GMI at +1 (one step from zero). The WPM shows all major indexes except the DIA still above their 30-week averages — a mixed signal. ([WW 2005-08-27](../../raw/posts/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md))
 
 ---
+
+## August–September 2005 (breadth) — % in a short-term up-trend; the doubler indicator; the truck
+
+**"GMI declines to +5; only 27% of stocks in up-trend" (2005-08-17):** the short-term-up-trend percentage falls from 68% (7/14) to 27% — weakness at the start of this decline exceeds that at the end of the last; only 24% of 511 new highs succeeded. ([WW 2005-08-17](../../raw/posts/2005-08-17-gmi-declines-to-5-only-27-of-stocks-in-up-trend-cramer-commits-hara-kiri-over-dks-a-polar-bear.md)) **"GMI: +6; New 'doubler' indicator" (2005-09-11):** doublers above their 30-day as a leader gauge; "one must trade with 'what is'"; the truck. ([WW 2005-09-11](../../raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md))
 
 ## October 2005 — Darvas lineage analyzed; market-peak dependency thesis
 
@@ -306,6 +343,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"GMI: +6; WPM shows DOW deterioration; breadth divergence" (2005-12-03):** Dr. Wish charts two breadth indicators against the S&P 500: % stocks above 10wk avg and % stocks in short-term up-trend (defined as 10-day avg above rising 30-day avg). He identifies a divergence at the October 2005 bottom retest: % above 10wk fell while short-term trend breadth rose — potentially a turning-point signal. Separately, buys MCD on a 5-year-high breakout from a 3-month base on high volume; JNJ topping scan flagged by his Enron PCF. ([WW 2005-12-03](../../raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md))
 
 ---
+
+## December 2005 (Appel) — 'three consecutive successful trades… that's when they get us'
+
+**"Appel's new book on TA; GMI declines to +5" (2005-12-11):** Appel on the streak trap; his book as the step after Weinstein; component 1 under 50% — "failed breakouts in growth stocks is often a sign of a topping market." ([WW 2005-12-11](../../raw/posts/2005-12-11-appels-new-book-on-ta-gmi-declines-to-5-wpm-shows-short-term-weakness-long-bonds-to-weaken-some-weak-sectors.md))
 
 ## January 2006 — the "What if?" credo; trade with the trend
 
@@ -1445,3 +1486,20 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2013-09-08 — Technical strength continues to grow; FB green line break-out coming?](../../raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md) ([summary](../sources/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md))
 - [WW 2014-04-13 — 15th day of QQQ down-trend; 100% in cash; head and shoulders top to form?](../../raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md) ([summary](../sources/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md))
 - [WW 2014-10-26 — QQQ short-term trend turns up, retakes 30-week average; GLB stocks shine](../../raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md) ([summary](../sources/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md))
+- [WW 2005-04-18 — Put me on, IRA](../../raw/posts/2005-04-18-put-me-on-ira.md) ([summary](../sources/2005-04-18-put-me-on-ira.md))
+- [WW 2005-05-01 — Taking Stock of the Market](../../raw/posts/2005-05-01-taking-stock-of-the-market.md) ([summary](../sources/2005-05-01-taking-stock-of-the-market.md))
+- [WW 2005-05-03 — CNBC:  Forever Bullish](../../raw/posts/2005-05-03-cnbc-forever-bullish.md) ([summary](../sources/2005-05-03-cnbc-forever-bullish.md))
+- [WW 2005-05-05 — Is the Fed Done?  WW-GMI: +2](../../raw/posts/2005-05-05-is-the-fed-done-ww-gmi-2.md) ([summary](../sources/2005-05-05-is-the-fed-done-ww-gmi-2.md))
+- [WW 2005-05-07 — Some Potential Rockets  WW-GMI: +2](../../raw/posts/2005-05-07-some-potential-rockets-ww-gmi-2.md) ([summary](../sources/2005-05-07-some-potential-rockets-ww-gmi-2.md))
+- [WW 2005-05-22 — GMI rises to +5, The Google Rocket, Lucky Bill Miller](../../raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md) ([summary](../sources/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md))
+- [WW 2005-05-23 — Google rockets on; Funds to time the market; BOOM-cup with handle; GMI–+5](../../raw/posts/2005-05-23-google-rockets-on-funds-to-time-the-market-boom-cup-with-handle-gmi-5.md) ([summary](../sources/2005-05-23-google-rockets-on-funds-to-time-the-market-boom-cup-with-handle-gmi-5.md))
+- [WW 2005-06-02 — GMI goes to the max: +6, CME, QSII, CMN](../../raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md) ([summary](../sources/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md))
+- [WW 2005-06-13 — GMI back to +5; Chart of GMI performance; BTU](../../raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md) ([summary](../sources/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md))
+- [WW 2005-06-14 — GMI at the max:  +6; Buying Gaps; GM, HANS](../../raw/posts/2005-06-14-gmi-at-the-max-6-buying-gaps-gm-hans.md) ([summary](../sources/2005-06-14-gmi-at-the-max-6-buying-gaps-gm-hans.md))
+- [WW 2005-06-26 — Can Cramer hedge? GMI sinks to +1; Content to remain in cash](../../raw/posts/2005-06-26-can-cramer-hedge-gmi-sinks-to-1-content-to-remain-in-cash.md) ([summary](../sources/2005-06-26-can-cramer-hedge-gmi-sinks-to-1-content-to-remain-in-cash.md))
+- [WW 2005-07-02 — The trend is our friend; GMI: +3; Interest rates rising; a short list of stocks](../../raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md) ([summary](../sources/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md))
+- [WW 2005-07-11 — A hot market; GMI: +6; more rockets; covered calls on GOOG](../../raw/posts/2005-07-11-a-hot-market-gmi-6-more-rockets-covered-calls-on-goog.md) ([summary](../sources/2005-07-11-a-hot-market-gmi-6-more-rockets-covered-calls-on-goog.md))
+- [WW 2005-07-28 — Another strong day; GMI: +6 and its track record; Benefits of naked charts; Some Darvas type stocks](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md) ([summary](../sources/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
+- [WW 2005-08-17 — GMI declines to +5;  only 27% of stocks in up-trend; Cramer commits hara-kiri over DKS; a polar bear?](../../raw/posts/2005-08-17-gmi-declines-to-5-only-27-of-stocks-in-up-trend-cramer-commits-hara-kiri-over-dks-a-polar-bear.md) ([summary](../sources/2005-08-17-gmi-declines-to-5-only-27-of-stocks-in-up-trend-cramer-commits-hara-kiri-over-dks-a-polar-bear.md))
+- [WW 2005-09-11 — GMI: +6; New “doubler” indicator; GMI and QQQQ trends; WPM shows short AND longer term strength; Staying long](../../raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md) ([summary](../sources/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md))
+- [WW 2005-12-11 — Appel’s new book on TA; GMI declines to +5; WPM shows short term weakness;  Long bonds to weaken; Some weak se](../../raw/posts/2005-12-11-appels-new-book-on-ta-gmi-declines-to-5-wpm-shows-short-term-weakness-long-bonds-to-weaken-some-weak-sectors.md) ([summary](../sources/2005-12-11-appels-new-book-on-ta-gmi-declines-to-5-wpm-shows-short-term-weakness-long-bonds-to-weaken-some-weak-sectors.md))

@@ -41,6 +41,7 @@ sources:
   - raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md
   - raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md
   - raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md
+  - raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md
 ---
 
 # Stock selection
@@ -117,6 +118,8 @@ The complement, two weeks later and with the GMI at 6: **in a rising market the 
 Because he could not watch the market intraday, Dr. Wish placed standing orders rather than waiting at the screen: for PAY in September 2007 he entered an online order to buy above $40, which filled at ~$40.05 on the breakout while he worked. "One can use **buy stop orders or price triggers**, depending on your broker" — with the Darvas precedent: "remember Nicolas Darvas made a fortune trading while he danced around the world." The failure condition is checked the same evening: "If PAY had closed back lower on the break-out day or showed little increase in volume, I would have sold out my position immediately." ([WW 2007-10-01](../../raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md)) The same automation reappears in 2023 as TC2000 price alerts on green lines ([WW 2023-04-24](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md)).
 
 IBD 50 outperformance (documented 2012): from December 2011 through April 2012, the IBD 50 median gain was +20% vs. NASDAQ 100 +15% vs. S&P 500 +10%. 34% of the IBD 50 gained 30% or more, vs. only 16% of the NASDAQ 100. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
+
+The buy-stop entry, worked on BTU in June 2005: a gap to a new high on Friday at 52.71; "I placed a stop order Sunday night to buy the stock if it traded above Friday's intraday high price of 52.91. After the buy stop was executed around 53.10 on Monday, I placed a sell stop in just below Friday's" low. ([WW 2005-06-13](../../raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md))
 
 ## Price level preference — $80+ (2011) → $100+ (2018) → $200+ (2021)
 
@@ -292,3 +295,4 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2006-08-14 — Cramer contrary indicator and GMI have protected us; GMI 1; IBD 100 Index rigged?](../../raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md) ([summary](../sources/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md))
 - [WW 2010-09-07 — This rally may have legs — IBD100 top ten out-shine again](../../raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md) ([summary](../sources/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md))
 - [WW 2009-02-15 — Jim Cramer finds TA religion; TSYS cup with handle; promising IBD100 stocks](../../raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md) ([summary](../sources/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md))
+- [WW 2005-06-13 — GMI back to +5; Chart of GMI performance; BTU](../../raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md) ([summary](../sources/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md))

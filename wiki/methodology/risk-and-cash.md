@@ -53,6 +53,11 @@ sources:
   - raw/posts/2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious.md
   - raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md
   - raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md
+  - raw/posts/2005-04-18-put-me-on-ira.md
+  - raw/posts/2005-05-03-cnbc-forever-bullish.md
+  - raw/posts/2005-06-14-gmi-at-the-max-6-buying-gaps-gm-hans.md
+  - raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md
+  - raw/posts/2005-05-05-is-the-fed-done-ww-gmi-2.md
 ---
 
 # Risk & cash
@@ -64,6 +69,8 @@ When Dr. Wish sits in cash, his discipline around going defensive, and how the i
 The principle stated earliest and most emphatically: "I therefore vowed never to be long when my general market trend indicators suggest a declining trend. I sell all of my holdings and sometimes buy puts." ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
 
 The mechanistic backing: more than **70% of all stocks move in the same direction as the major market indexes**. Buying growth stocks when the market is in a downtrend puts the odds against you. ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
+
+The rule's first appearances: the April 15, 2005 letter to Cramer — "Mutual funds must stay invested, individuals do not. About 70% of stocks go with the market indexes. When the indexes are declining… it is your duty to tell people not to fight the trend. Get out of the way, safely in cash, or go short" ([WW 2005-05-03](../../raw/posts/2005-05-03-cnbc-forever-bullish.md)); measured on the May–June 2005 up-trend, 75% of Nasdaq-100 stocks rose ([WW 2005-06-14](../../raw/posts/2005-06-14-gmi-at-the-max-6-buying-gaps-gm-hans.md)); tied to O'Neil's "M" and to his own history — "I would lose all of my hard earned trading profits and more, when I kept buying break-out stocks in the inevitable decline that followed a bull move" ([WW 2005-07-02](../../raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md)); and stated for the short side — "why play only one side of the game." ([WW 2005-04-18](../../raw/posts/2005-04-18-put-me-on-ira.md))
 
 ## When to go defensive
 
@@ -234,6 +241,8 @@ What stands in for a sizing rule is a set of habits, each documented elsewhere o
 
 So the honest summary for anyone reproducing the method: entries are sized small and grown by the market's confirmation, exits are sized by the stop, and the account is sized by sleep — with no percentages attached, by his own account. The one place a fixed rule appears is the pension's staged exit (25% tranches), on [the two accounts](pension-management.md#the-staged-pension-exit-protocol).
 
+The root of the pilot buy is Gerald Loeb, quoted in May 2005: buy 100, sell if it does not act right, buy 100 of the next, add 200 as it advances — "long a big line of the right stock with a small initial risk… the risk in the stock I bought on the way up was mainly the risk of my paper profits." "All of the great stock traders speak of pyramiding their purchases… make a small pilot buy, test the waters, and then add more." ([WW 2005-05-05](../../raw/posts/2005-05-05-is-the-fed-done-ww-gmi-2.md))
+
 ## Split-out pages
 
 This page used to carry ~6,700 words; on 2026-08-18 four bodies of material moved to their own pages so that each does one job:
@@ -304,3 +313,8 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2011-02-23 — GMI declines to 5, GMI-R to 7; getting cautious](../../raw/posts/2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious.md) ([summary](../sources/2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious.md))
 - [WW 2010-07-12 — New up-trend or dead cat bounce?](../../raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md) ([summary](../sources/2010-07-12-new-up-trend-or-dead-cat-bounce.md))
 - [WW 2014-04-13 — 15th day of QQQ down-trend; 100% in cash; head and shoulders top to form?](../../raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md) ([summary](../sources/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md))
+- [WW 2005-04-18 — Put me on, IRA](../../raw/posts/2005-04-18-put-me-on-ira.md) ([summary](../sources/2005-04-18-put-me-on-ira.md))
+- [WW 2005-05-03 — CNBC:  Forever Bullish](../../raw/posts/2005-05-03-cnbc-forever-bullish.md) ([summary](../sources/2005-05-03-cnbc-forever-bullish.md))
+- [WW 2005-06-14 — GMI at the max:  +6; Buying Gaps; GM, HANS](../../raw/posts/2005-06-14-gmi-at-the-max-6-buying-gaps-gm-hans.md) ([summary](../sources/2005-06-14-gmi-at-the-max-6-buying-gaps-gm-hans.md))
+- [WW 2005-07-02 — The trend is our friend; GMI: +3; Interest rates rising; a short list of stocks](../../raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md) ([summary](../sources/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md))
+- [WW 2005-05-05 — Is the Fed Done?  WW-GMI: +2](../../raw/posts/2005-05-05-is-the-fed-done-ww-gmi-2.md) ([summary](../sources/2005-05-05-is-the-fed-done-ww-gmi-2.md))

@@ -21,6 +21,8 @@ sources:
   - raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md
   - raw/posts/2010-05-17-china-in-free-fall-buying-fxp-qqqq-completes-8th-day-of-short-term-down-trend.md
   - raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md
+  - raw/posts/2005-05-23-google-rockets-on-funds-to-time-the-market-boom-cup-with-handle-gmi-5.md
+  - raw/posts/2005-06-26-can-cramer-hedge-gmi-sinks-to-1-content-to-remain-in-cash.md
 ---
 
 # The two accounts — university pension vs trading IRA
@@ -36,6 +38,8 @@ However, when GMI falls to 0 he transfers pension funds to money market funds �
 The record as he stated it in June 2006, 100% cash in the pension: "I am a chicken and… go to cash at the first sign of market weakness. In this way, I have avoided all significant market declines since 1995, but have not missed out on the subsequent rises… there is plenty of time to jump back on board once the market has confirmed a new up-trend." ([WW 2006-06-12](../../raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md))
 
 The 2012 statement, the clearest early one: "The QQQ weekly chart is in a Stage 2 up-trend. As long as the weekly pattern remains in a Stage 2, I keep my university pension invested in mutual funds. There are limits to how often I can trade the mutual funds. I only sell my pension funds when the 30 week average curves down. I am short or in cash with my more short term IRA and speculative money, however, because the GMI gave me a sell signal last week (2 consecutive days below 3)." ([WW 2012-04-16](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md)) In 2007 the stay-invested condition was read off the GMI-L: above 90 since September 2006, "100% invested in mutual funds since last fall." ([WW 2007-02-26](../../raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md))
+
+The earliest pension moves on the blog: back into equities in mid-May 2005 ("I moved my 401(k) funds from the money market fund to equities about a week ago… there are at least 2 mutual fund families that are designed to allow you to time the market") ([WW 2005-05-23](../../raw/posts/2005-05-23-google-rockets-on-funds-to-time-the-market-boom-cup-with-handle-gmi-5.md)), and out again on June 26 at GMI +1 — "95% cash in my IRA and 100% money market funds in my university pension… Because I trade in tax deferred accounts, I do not care if I get out too soon." ([WW 2005-06-26](../../raw/posts/2005-06-26-can-cramer-hedge-gmi-sinks-to-1-content-to-remain-in-cash.md))
 
 ## The staged pension exit protocol
 
@@ -155,3 +159,5 @@ The 2011 statement, mid-decline: the best-days studies "fail to note that one di
 - [WW 2012-04-16 — Thoughts about the Worden DC seminar; GMI 2; in cash and short GLD](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md) ([summary](../sources/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))
 - [WW 2010-05-17 — China in free-fall, buying FXP; QQQQ completes 8th day of down-trend](../../raw/posts/2010-05-17-china-in-free-fall-buying-fxp-qqqq-completes-8th-day-of-short-term-down-trend.md) ([summary](../sources/2010-05-17-china-in-free-fall-buying-fxp-qqqq-completes-8th-day-of-short-term-down-trend.md))
 - [WW 2014-04-13 — 15th day of QQQ down-trend; 100% in cash; head and shoulders top to form?](../../raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md) ([summary](../sources/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md))
+- [WW 2005-05-23 — Google rockets on; Funds to time the market; BOOM-cup with handle; GMI–+5](../../raw/posts/2005-05-23-google-rockets-on-funds-to-time-the-market-boom-cup-with-handle-gmi-5.md) ([summary](../sources/2005-05-23-google-rockets-on-funds-to-time-the-market-boom-cup-with-handle-gmi-5.md))
+- [WW 2005-06-26 — Can Cramer hedge? GMI sinks to +1; Content to remain in cash](../../raw/posts/2005-06-26-can-cramer-hedge-gmi-sinks-to-1-content-to-remain-in-cash.md) ([summary](../sources/2005-06-26-can-cramer-hedge-gmi-sinks-to-1-content-to-remain-in-cash.md))

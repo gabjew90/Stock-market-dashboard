@@ -12,6 +12,8 @@ sources:
   - raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md
   - raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md
   - raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md
+  - raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md
+  - raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md
 ---
 
 # GMI evidence — the published tables, the signal record, and how the components were recovered
@@ -58,6 +60,10 @@ now be working from.
 ## 2005 — GMI historical track record chart (first published)
 
 In November 2005, Dr. Wish published his first chart of GMI values from inception, visually showing that GMI ≥ 5 periods coincided with profitable long conditions and GMI < 3 periods coincided with market weakness. The chart confirmed that GMI was +6 for all of July 2005 and had been 5 or higher since November 1, 2005. He left readers to judge its usefulness: "It is for me." ([WW 2005-11-13](../../raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md))
+
+## The first performance charts (June–July 2005)
+
+Two months after launch he charted the GMI against the QQQQ: zero as the QQQQ bottomed in late April, 1 on May 4, 1–3 for a few days, then "consistently registered 3 or above" from May 18. ([WW 2005-06-13](../../raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md)) A second chart in late July showed the same rally with the QQQQ closing above its rising 10-day average every day since July 8. ([WW 2005-07-28](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md)) These, not the 2011 audit, are the earliest published record.
 
 ## The signal record he published himself (2013)
 
@@ -123,3 +129,5 @@ directly legible; no OCR tooling is needed, only the time to go through them.
 - [WW 2011-11-28 — GMI performance since April; the two-day confirmation rule adopted; CMG Stage 4?](../../raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md) ([summary](../sources/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md))
 - [WW 2011-12-05 — GMI flashes bullish signal (#13); the 'major innovation' — enter oversold in a Stage 2 up-trend](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md) ([summary](../sources/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md))
 - [WW 2009-02-15 — Jim Cramer finds TA religion; TSYS cup with handle; promising IBD100 stocks](../../raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md) ([summary](../sources/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md))
+- [WW 2005-06-13 — GMI back to +5; Chart of GMI performance; BTU](../../raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md) ([summary](../sources/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md))
+- [WW 2005-07-28 — Another strong day; GMI: +6 and its track record; Benefits of naked charts; Some Darvas type stocks](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md) ([summary](../sources/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))

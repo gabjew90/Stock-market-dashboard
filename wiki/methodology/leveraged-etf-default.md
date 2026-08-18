@@ -11,6 +11,7 @@ sources:
   - raw/posts/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md
   - raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md
   - raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md
+  - raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md
 ---
 
 # The leveraged-ETF default — TQQQ on a GMI Buy signal
@@ -27,6 +28,8 @@ The precondition travels with it: "The key is to **discern the trend accurately*
 downstream of timing. The same post shows the staged pension re-entry beginning, with the
 discipline applied at account level: "go in slowly and only add more money if the ETF climbs
 above my original purchase price. I *never* average down." ([WW 2009-06-07](../../raw/posts/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md))
+
+The idea is older than the leveraged funds: July 2005 — "to make $$$ in this rise one merely could have bought the QQQQ on July 8 or 9 and held on. Aggressive traders could have bought call options on the QQQQ and made a killing. **Why mess around with individual stocks when one can merely trade this index?**" ([WW 2005-07-28](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
 
 ## The GMI buy signal and TQQQ default
 
@@ -64,3 +67,4 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2019-07-14 — DC AAII meeting; riding SPY and TQQQ](../../raw/posts/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md) ([summary](../sources/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md))
 - [WW 2011-02-14 — NOG: RWB rocket stock with possible cup-with-handle break-out](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md) ([summary](../sources/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md))
 - [WW 2014-10-26 — QQQ short-term trend turns up, retakes 30-week average; GLB stocks shine](../../raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md) ([summary](../sources/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md))
+- [WW 2005-07-28 — Another strong day; GMI: +6 and its track record; Benefits of naked charts; Some Darvas type stocks](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md) ([summary](../sources/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))

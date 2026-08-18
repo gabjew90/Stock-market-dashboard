@@ -21,6 +21,8 @@ sources:
   - raw/posts/2011-01-24-2746.md
   - raw/posts/2009-04-11-the-dirty-little-secret-about-the-up-tick-rule-rigging-the-market.md
   - raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md
+  - raw/posts/2005-04-18-put-me-on-ira.md
+  - raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -72,6 +74,8 @@ The Day-1 nibble, 2010 form: "When I get a new down-trend I sometimes buy a litt
 
 **The mechanics, taught (2009).** Written during the 2009 campaign to restore the uptick rule: what a short sale is, why heavy short interest is latent buying — every short "must eventually buy back to close their positions. This is why shares with a large short interest often times rebound quickly after a decline" — and the symmetry argument, "if we need an uptick rule to protect us from frenzied short selling, then we need a downtick rule to protect us from frenzied buying." The abuse worth policing is naked shorting. ([WW 2009-04-11](../../raw/posts/2009-04-11-the-dirty-little-secret-about-the-up-tick-rule-rigging-the-market.md)) This is the mechanism behind the short-interest filter on [the scans](scans.md).
 
+The 2005 founding statement: "Experienced traders do not care which way the market goes, as long as it moves in a trend… A good bear lasts 10 or more months and prices decline quicker than they go up — fear is quite a motivator. Why play only one side of the game." ([WW 2005-04-18](../../raw/posts/2005-04-18-put-me-on-ira.md)) And the odds stated in a decline: on day 6 of the July 2005 down-trend 38% of Nasdaq-100 stocks had risen — a long had a 38% chance, a short 62%. ([WW 2005-07-02](../../raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md))
+
 ## Protective puts — the 2005 original, and the put-vs-stop rule
 
 The insurance framing is fully formed in **June 2005** — four years before the 2009 tutorial —
@@ -122,3 +126,5 @@ By 2012 he was "teaching myself to write the new weekly covered calls on the SPY
 - [WW 2011-01-24 — Still cautious; high-dividend ETFs; IBM breaks out; the muni thesis](../../raw/posts/2011-01-24-2746.md) ([summary](../sources/2011-01-24-2746.md))
 - [WW 2009-04-11 — The dirty little secret about the up-tick rule](../../raw/posts/2009-04-11-the-dirty-little-secret-about-the-up-tick-rule-rigging-the-market.md) ([summary](../sources/2009-04-11-the-dirty-little-secret-about-the-up-tick-rule-rigging-the-market.md))
 - [WW 2012-04-16 — Thoughts about the Worden DC seminar; GMI 2; in cash and short GLD](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md) ([summary](../sources/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))
+- [WW 2005-04-18 — Put me on, IRA](../../raw/posts/2005-04-18-put-me-on-ira.md) ([summary](../sources/2005-04-18-put-me-on-ira.md))
+- [WW 2005-07-02 — The trend is our friend; GMI: +3; Interest rates rising; a short list of stocks](../../raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md) ([summary](../sources/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md))

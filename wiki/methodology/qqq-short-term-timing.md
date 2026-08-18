@@ -1,7 +1,7 @@
 ---
 title: QQQ Short-Term Timing
 type: entity
-updated: 2026-05-12
+updated: 2026-08-18
 sources:
   - raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
@@ -14,6 +14,9 @@ sources:
   - raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
   - raw/posts/2022-07-10-blog-post-day-1-of-new-qqq-short-term-up-trend-closes-above-10-week-average-9-stocks-near-ath-with-rs-at-50-w.md
+  - raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md
+  - raw/posts/2005-06-07-a-strange-day-gmi-back-to-6.md
+  - raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md
 ---
 
 # QQQ Short-Term Timing
@@ -62,6 +65,8 @@ The QQQ short-term timing count is separate from, but published alongside, the G
 The count was present from the blog's earliest posts (2005) and appears in post titles consistently. The flip rule is now well-evidenced: closing below/above the **30-day moving average** is the primary trigger; the 10-week average may be a secondary confirmation. See the "What it is" section above for full evidence.
 
 *Note: In early posts (2005–2010) the ETF was called QQQQ (4 Qs); it was later renamed QQQ (3 Qs). Same index.*
+
+**2005 — the 10-day line.** In the first summer the operative short-term line for the QQQQ was its 10-day moving average: "in this rise as in the prior May rally the QQQQ consistently closed above its rising 10 day moving average… Hint: When is the market weakening? Wait for a close below the dotted line." ([WW 2005-07-28](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md)) A first close under it after 26 days was read as "the steep rise may be over" and the cue to move stops up. ([WW 2005-06-07](../../raw/posts/2005-06-07-a-strange-day-gmi-back-to-6.md)) And the first duration base rate: the comparable up-trend before May 2005 "lasted about 92 trading days." ([WW 2005-06-02](../../raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md))
 
 ## Code — an approximation of the day count
 
@@ -113,3 +118,6 @@ a trade-able rally**." ([WW 2008-10-22](../../raw/posts/2008-10-22-gmi-0-gmi-r-0
 - [WW 2005-07-17 — GMI since inception; introducing the WPM](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md) ([summary](../sources/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
 - [WW 2022-07-10 — Day 1 of new QQQ short-term up-trend; closes above 10-week average](../../raw/posts/2022-07-10-blog-post-day-1-of-new-qqq-short-term-up-trend-closes-above-10-week-average-9-stocks-near-ath-with-rs-at-50-w.md)
 - [WW 2008-10-22 — Down-trend duration as a base rate; rockets inside the crash](../../raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md) ([summary](../sources/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md))
+- [WW 2005-06-02 — GMI goes to the max: +6, CME, QSII, CMN](../../raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md) ([summary](../sources/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md))
+- [WW 2005-06-07 — A strange day, GMI back to +6](../../raw/posts/2005-06-07-a-strange-day-gmi-back-to-6.md)
+- [WW 2005-07-28 — Another strong day; GMI: +6 and its track record; Benefits of naked charts; Some Darvas type stocks](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md) ([summary](../sources/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
