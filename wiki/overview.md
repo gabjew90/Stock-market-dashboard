@@ -25,6 +25,7 @@ Every trade depends on a favorable market environment. "More than 70% of all sto
 - **[QQQ Short-Term Timing](methodology/qqq-short-term-timing.md)** — a day-count of the QQQ's current short-term up-trend or down-trend. Published in each post title as "Day N of the QQQ short-term up-trend."
 - **[T2108](methodology/t2108.md)** — breadth: % of NYSE stocks above their 40-day MA. > 80% = extended; < 10% = contrarian buy zone.
 - **[Moving-average rules](methodology/moving-average-rules.md)** — 30-week average of QQQ/SPY as the long-term trend boundary; 10-week as the individual-stock holding rule.
+- **[GMMA charts](methodology/gmma-charts.md)** — the adapted Guppy chart at every timescale: RWB is the pattern of rockets and healthy indexes, BWR of submarines and tops; the daily RWB system; the timeframe ladder.
 - **[Risk & cash](methodology/risk-and-cash.md)** — when to sit out; the 30-week average exit trigger; drawdown discipline. Split out from it: [the two accounts](methodology/pension-management.md) (pension vs trading IRA, the staged pension exit), [the short side](methodology/short-side.md) (submarine scan, hedging, options), [the leveraged-ETF default](methodology/leveraged-etf-default.md) (TQQQ on a Buy signal), and the worked [defensive episodes](history/defensive-episodes.md).
 
 ## The stock-selection side — what to buy

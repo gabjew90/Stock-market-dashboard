@@ -23,7 +23,7 @@ With the GMI at 0 and the longer trend down, the *hourly* adapted GMMA shows QQQ
 
 ## Feeds wiki pages
 
-- [Moving-average rules](../methodology/moving-average-rules.md#the-hourly-layer--bases-inside-the-trend) — hourly breadth across the Nasdaq-100; shorter trend leads longer
+- [Moving-average rules](../methodology/gmma-charts.md#the-hourly-layer--bases-inside-the-trend) — hourly breadth across the Nasdaq-100; shorter trend leads longer
 - [The scans](../methodology/scans.md) — the RS-at-50-week-high scan
 - [Timeline](../history/timeline.md) — June 2022
 

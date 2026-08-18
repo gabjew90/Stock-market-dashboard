@@ -22,7 +22,7 @@ The same modified GMMA on the QQQ at four resolutions — weekly (classic RWB em
 
 ## Feeds wiki pages
 
-- [Moving-average rules](../methodology/moving-average-rules.md#the-hourly-layer--bases-inside-the-trend) — the timeframe ladder and the role of each layer
+- [Moving-average rules](../methodology/gmma-charts.md#the-hourly-layer--bases-inside-the-trend) — the timeframe ladder and the role of each layer
 - [Green Line Breakouts](../methodology/green-line-breakouts.md#the-ipo-glb--a-high-probability-variant) — 2014 precursor
 - [Timeline](../history/timeline.md) — June 2014
 

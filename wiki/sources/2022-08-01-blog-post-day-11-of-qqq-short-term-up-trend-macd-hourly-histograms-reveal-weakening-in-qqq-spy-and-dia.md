@@ -21,7 +21,7 @@ The hourly 12/26/9 MACD histogram as a very-short-term momentum read: when the b
 
 ## Feeds wiki pages
 
-- [Moving-average rules](../methodology/moving-average-rules.md#the-hourly-layer--bases-inside-the-trend) — the hourly MACD histogram alongside the hourly GMMA
+- [Moving-average rules](../methodology/gmma-charts.md#the-hourly-layer--bases-inside-the-trend) — the hourly MACD histogram alongside the hourly GMMA
 - [Timeline](../history/timeline.md) — August 2022
 
 ## Sources
