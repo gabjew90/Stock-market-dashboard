@@ -60,8 +60,8 @@ When a new QQQ short-term down-trend begins, he often buys a small amount of the
 
 ## Protective puts — the 2005 original, and the put-vs-stop rule
 
-The insurance framing the wiki dated to March 2009 is fully formed in **June 2005**, with the
-decision rule attached: a put beats a stop **when shakeout risk is high** — "if we had a sudden
+The insurance framing is fully formed in **June 2005** — four years before the 2009 tutorial —
+with the decision rule attached: a put beats a stop **when shakeout risk is high** — "if we had a sudden
 decline I might get shaken out only to see the stock rebound by the end of the month. So, I
 bought insurance instead." Mechanics: strike = the price you'd have stopped at, expiry chosen to
 cover the window you care about (skip the near-month expiry if it ends too soon). "You do not

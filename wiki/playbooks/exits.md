@@ -34,7 +34,7 @@ How and when Dr. Wish sells. He uses two timeframes for exit rules: the initial 
 
 Dr. Wish decides his exit price *before* placing a buy order. The stop is based on one of: a prior support level, a moving average, or a recent reaction low. "The best way to enter a trade is to assume it will go wrong, so that I can calmly prepare my risk control strategy in advance." ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
 
-**As soon as the buy order fills:** place a GTC (good-til-cancelled) stop-loss order at the predetermined exit price. A day order expires at the close; a GTC order remains active until triggered or manually cancelled. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
+**As soon as the buy order fills:** place a GTC (good-til-cancelled) stop-loss order at the predetermined exit price. A day order expires at the close; a GTC order remains active until triggered or manually cancelled. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md)) **Exception:** for a GLB he does not enter the stop as a resting order — the same level is checked on the *close*, to avoid intraday probes of the green line; see [buying-glb Step 5](buying-glb.md#step-5--set-the-initial-stop-immediately--but-for-a-glb-on-a-close-basis).
 
 He does **not** use automatic trailing stops. He raises the stop manually after reviewing the stock's technicals. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
 

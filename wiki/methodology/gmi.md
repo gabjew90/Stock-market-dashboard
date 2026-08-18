@@ -73,7 +73,7 @@ How confident each of these six is, and the verbatim labels read off his publish
 
 ### Component 6: unchanged from 2005 to 2025
 
-An earlier version of this page flagged component 6 as "later replaced or modified." That was wrong, and the corpus resolves it: the component is the same in 2025 as at launch, and Dr. Wish names it in present tense at three widely separated points.
+Component 6 was never replaced or modified: it is the same in 2025 as at launch, and Dr. Wish names it in present tense at four widely separated points.
 
 - **2008-08-22** — "one of the GMI components measures whether the IBD growth mutual fund index is above its 50 day average. Well, this index has been below its 50 day average since mid-June, and I have never consistently made money trading growth stocks when this indicator is negative." ([WW 2008-08-22](../../raw/posts/2008-08-22-gmi-3-gmi-r-5-12th-day-of-qqqq-up-trend-still-cautious.md))
 - **2009-01-12** — the component belongs to both composites, and he discloses the symbol he reads it from after IBD stopped publishing the average: "IBD no longer publishes the 50 day average for the mutual fund index, but the chart with the average is available on their website's stock charting application (enter symbol: **0muti**)." ([WW 2009-01-12](../../raw/posts/2009-01-12-gmi-error-3-since-december-30-gmi-r-4-qqqq-back-near-support.md))
@@ -94,9 +94,7 @@ The score becomes a *signal* only with persistence, and the two sides are symmet
 
 So **GMI = 3 is a hold state**: not high enough to be Buy, not low enough to be Sell. A reading of 3
 tightens stops and stops new buying but does not by itself flip the signal to Red — the same
-hysteresis that keeps the Buy side from flipping on a single day above 3. (An earlier version of
-the playbooks stated the Sell rule as "≤ 3 for two consecutive readings" and cited it to 2011-03-07,
-which contains no such clause; corrected 2026-08-12.)
+hysteresis that keeps the Buy side from flipping on a single day above 3.
 
 ## How he uses it
 

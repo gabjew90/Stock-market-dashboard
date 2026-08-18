@@ -68,8 +68,8 @@ formalised the rule, not where the practice began.
 **And the constraint that drives it is administrative, not just analytical:** "**I am limited as
 to how often I can transfer funds in and out of equity funds** so I wait for a change in the
 longer term before I go to cash." ([WW comment 2010-07-09](https://wishingwealthblog.com/2010/07/#comment-2405))
-Mutual-fund market-timing restrictions are a real limit on the pension strategy — the wiki had
-presented pension moves as purely signal-driven.
+Mutual-fund market-timing restrictions are a real limit on the pension strategy — the moves are
+signal-driven but paced by the fund families' switching rules.
 
 ## Stops and exits
 

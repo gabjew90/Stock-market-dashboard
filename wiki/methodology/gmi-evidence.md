@@ -17,10 +17,7 @@ The [GMI's](gmi.md) six components were defined in prose once, in 2005, and ther
 
 ## The published table — verbatim component labels (2007, 2013, 2020, 2026)
 
-This page previously said the current component labels "have not been recovered because the
-daily GMI table is published as an image." That was a failure of method, not a real limit:
-the tables are ~2,547 dated images on a systematic `gmi<date>` filename convention, and
-reading four of them across two decades resolves every open definitional question below.
+The daily GMI table is published as an image, so the component labels are invisible to text search — but not unrecoverable: the tables are ~2,547 dated images on a systematic `gmi<date>` filename convention, and reading four of them across two decades resolves every open definitional question below.
 
 **The GMI's six components, transcribed from the table of 2026-01-02** ([WW 2026-01-04](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md)) — identical in wording to the 2020 and 2013 tables:
 

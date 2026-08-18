@@ -289,7 +289,7 @@ The core rules have not changed. These posts confirm them as active practice:
 
 ## The hourly layer — bases inside the trend
 
-The bottom rung of the ladder, and the one the wiki lacked. His *adapted* GMMA is "12
+The bottom rung of the ladder. His *adapted* GMMA is "12
 exponential moving averages... **and a 13th average equal to 1 which shows the current price**"
 (the dotted line) — in an up-trend the price line should be "leading all of the other averages
 higher." Red-line **convergence reveals a base** at whatever timescale you are on: "all of the

@@ -3,6 +3,7 @@ title: Playbook — buying a Green Line Breakout
 type: playbook
 updated: 2026-08-18
 sources:
+  - raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
   - raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md
@@ -80,9 +81,14 @@ He also watches the GLB for the highest weekly volume since the prior high (a si
 
 ---
 
-## Step 5 — Set the initial stop immediately
+## Step 5 — Set the initial stop immediately — but for a GLB, on a *close* basis
 
-As soon as the buy order fills, place a GTC stop at the chosen level. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md)) The stop is typically set just below the breakout level (the green line). If the stock fails the GLB quickly (drops back below the breakout level), exit with a small loss.
+Two rules that look contradictory and are not:
+
+- **General rule (2010, all positions):** decide the exit level *before* buying, and as soon as the order fills place a **GTC stop-loss order** there — "once I have my stop loss order in place, I have taken my emotion out of the trade," and part-time traders who are not watching the screen are precisely the ones who need the automatic order. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
+- **GLB-specific override (2021):** for a GLB he does **not** enter the stop as a resting order — "I do not set a stop loss for a GLB to avoid being sold out when a stock trades intraday below the green line only to close the day above it." The exit level is the same (just under the green line) but it is a **mental stop evaluated on the close**: if the stock *closes* below the green line, sell — "no hesitation or remorse." ([WW 2021-01-24](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md), [WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
+
+So: the *level* is fixed before the buy in every case; whether it is a resting GTC order or a close-of-day check depends on the setup. Breakout levels attract intraday probes, which is why the GLB gets the close-basis exception; an [OSB](buying-osb.md) stop under the bounce low is placed as an order immediately. If the GLB fails on a close, exit with a small loss.
 
 ---
 
@@ -97,7 +103,7 @@ If the stock holds above the red lines on the daily RWB chart and continues adva
 
 ### Exit rules for a GLB position
 
-- **Initial stop:** sell immediately (mental stop, close basis) if the stock closes below its green line. "No hesitation or remorse" — the primary reason for the position has failed. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
+- **Initial stop:** as in Step 5 — sell if the stock *closes* below its green line (mental stop, close basis; no resting order for a GLB). "No hesitation or remorse" — the primary reason for the position has failed. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
 - **Failed GLB, then buy-back:** after exiting a failed GLB, watching for a new confirmed GLB on the same stock is explicitly encouraged. No ego — a stock previously researched and evaluated can be bought back. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
 - **Pyramided position hold rule:** if a GLB position is successfully pyramided (averaged up over multiple entries as the stock advances), Dr. Wish suggests holding until the stock "closes below its rising 30 week average." This is a longer, more patient exit than the green-line mental stop that applies at the initial entry level. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
 
@@ -149,3 +155,4 @@ Written and published in April 2023 after missing the WING breakout — these ar
 - [WW 2010-03-15 — Jim Cramer on stop loss orders; how I trade the 3X ETFs](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md) ([summary](../sources/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
 - [WW 2010-04-19 — How I buy AAPL for 12% down without using margin](../../raw/posts/2010-04-19-how-i-buy-aapl-for-12-down-without-using-margin.md) ([summary](../sources/2010-04-19-how-i-buy-aapl-for-12-down-without-using-margin.md))
 - [WW 2010-09-27 — Introducing Red White and Blue (RWB) Stocks](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md) ([summary](../sources/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
+- [WW 2021-01-24 — In the 60s I used to receive a book of monthly charts; GLB origin; no stop-loss order for a GLB](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md) ([summary](../sources/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))

@@ -24,7 +24,7 @@ The [GMI](gmi.md) proper is a fixed 0–6 count. Around it Dr. Wish has built an
 
 Dr. Wish occasionally published a **GMI-S** alongside the GMI. The GMI-S measures short-term breadth on a 0–100 scale. A rapid fall from GMI-S=75 to GMI-S=31 in a single week (February 2006) signalled deterioration in the underlying breadth even when the overall GMI (at +4) had not yet dropped decisively. ([WW 2006-02-06](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
 
-**Its construction is disclosed in 2007**, contrary to what this page previously said: "Only one of the **16 short term indicators for the IJR, DIA, SPY and QQQQ** is positive (GMI-S: 6%)" — 1/16 ≈ 6%. So the GMI-S is the percentage of sixteen short-term indicators, four applied to each of four index ETFs (small-cap IJR, Dow DIA, S&P SPY and Nasdaq QQQQ), that are currently positive. The individual sixteen are not named. ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
+**Its construction is disclosed in 2007:** "Only one of the **16 short term indicators for the IJR, DIA, SPY and QQQQ** is positive (GMI-S: 6%)" — 1/16 ≈ 6%. So the GMI-S is the percentage of sixteen short-term indicators, four applied to each of four index ETFs (small-cap IJR, Dow DIA, S&P SPY and Nasdaq QQQQ), that are currently positive. The individual sixteen are not named. ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
 
 ## GMI-S — construction fully visible in the table
 
@@ -44,7 +44,7 @@ single percentage rather than a component count.
 
 ## 2006-2007 — GMI-L (long-term measure of weekly trends, reported as a %)
 
-A **GMI-L** appears throughout the 2007 posts and is absent from the wiki's earlier accounts. He defines it in passing as "my longer term measure of weekly trends," reported as a percentage positive, and reads it as the slow counterpart to the GMI-S. ([WW 2007-12-17](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
+A **GMI-L** appears throughout the 2007 posts. He defines it in passing as "my longer term measure of weekly trends," reported as a percentage positive, and reads it as the slow counterpart to the GMI-S. ([WW 2007-12-17](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
 
 Its diagnostic value is in the comparison across episodes. In December 2007 it fell to **31%** — "the lowest since it hit 20% in August, **2006**, near the bottom of that four month decline" — and crucially, "in the two declines in 2007 (March and August), the GMI-L never fell below 50%." A GMI-L below 50% therefore separated a correction from what became the 2008 bear market. Six weeks earlier, days after the October 2007 top, it had still read **94%**. ([WW 2007-10-29](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md), [WW 2007-12-17](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
 

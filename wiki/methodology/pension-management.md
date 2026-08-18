@@ -40,8 +40,8 @@ When the QQQ shows signs of weakening (approaching Stage 3/4), Dr. Wish exits th
 
 ## The pension has an administrative constraint, not just a signal
 
-The wiki presents pension moves as signal-driven — 30-week reversal, Stage 4 threat, staged
-25% exits. A comment adds the constraint that actually paces them: **fund families restrict how
+The pension moves are signal-driven — 30-week reversal, Stage 4 threat, staged 25% exits — but
+a comment adds the constraint that actually paces them: **fund families restrict how
 often you may switch.**
 
 > "**I am limited as to how often I can transfer funds in and out of equity funds** so I wait
@@ -59,7 +59,7 @@ move is structural. See [reader-qa.md](reader-qa.md).
 
 ## New money vs old money in a decline
 
-A distinction the wiki lacked: even with the pension **balance** moved to money market, "money
+A distinction between the balance and the flow: even with the pension **balance** moved to money market, "money
 is being contributed each pay period [and] **I continue to have new money invested in mutual
 funds**... I don't mind investing new money into mutual funds on the way down, assuming that
 the market will eventually rebound. **I never do so with individual stocks, because a company
