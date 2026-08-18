@@ -21,7 +21,7 @@ def _good_wiki(root: Path) -> None:
     _write(root / "wiki" / "overview.md",
            "---\ntitle: Overview\ntype: overview\nupdated: 2026-05-11\nsources: []\n---\n\n# Overview\n\n- [GMI](methodology/gmi.md)\n\n## Sources\n\n_None yet._\n")
     _write(root / "wiki" / "methodology" / "gmi.md",
-           "---\ntitle: GMI\ntype: entity\nupdated: 2026-05-11\nsources: []\n---\n\n# GMI\n\nSee ([WW 2020-01-01](../../raw/posts/2020-01-01-x.md)).\n\n## Sources\n\n- [WW 2020-01-01](../../raw/posts/2020-01-01-x.md)\n"
+           "---\ntitle: GMI\ntype: entity\nupdated: 2026-05-11\nsources: [raw/posts/2020-01-01-x.md]\n---\n\n# GMI\n\nSee ([WW 2020-01-01](../../raw/posts/2020-01-01-x.md)).\n\n## Sources\n\n- [WW 2020-01-01](../../raw/posts/2020-01-01-x.md)\n"
            )
     _write(root / "wiki" / "_templates" / "entity-page.md", "---\ntitle: <x>\n---\n# <x>\n## Sources\n_None yet._\n")
     (root / "wiki" / "sources").mkdir(parents=True, exist_ok=True)
@@ -167,10 +167,13 @@ def test_citation_listed_only_in_the_sources_block_is_fine(tmp_path: Path):
     _good_wiki(tmp_path)
     (tmp_path / "raw" / "posts" / "2021-02-02-y.md").write_text("body", encoding="utf-8")
     p = tmp_path / "wiki" / "methodology" / "gmi.md"
-    p.write_text(
-        p.read_text(encoding="utf-8") + "- [WW 2021-02-02](../../raw/posts/2021-02-02-y.md)\n",
-        encoding="utf-8",
+    text = p.read_text(encoding="utf-8")
+    text = text.replace(
+        "sources: [raw/posts/2020-01-01-x.md]",
+        "sources: [raw/posts/2020-01-01-x.md, raw/posts/2021-02-02-y.md]",
+        1,
     )
+    p.write_text(text + "- [WW 2021-02-02](../../raw/posts/2021-02-02-y.md)\n", encoding="utf-8")
     report = lint_wiki(tmp_path)
     assert report.ok, report.errors
 
@@ -214,3 +217,56 @@ def test_lint_flags_leaked_tool_markup_in_python_sources_too(tmp_path):
     (tmp_path / "src" / "mod.py").write_text("x = 1\n</content>\n", encoding="utf-8")
     report = lint_wiki(tmp_path)
     assert any("leaked" in e and "mod.py" in e for e in report.errors), report.errors
+
+
+def _page(front: str, body: str = "# P\n\nBody.\n\n## Sources\n\n_None yet._\n") -> str:
+    return f"---\n{front}---\n\n{body}"
+
+
+def _root_with(tmp_path, page_text: str):
+    wiki = tmp_path / "wiki"
+    (wiki / "methodology").mkdir(parents=True)
+    (wiki / "index.md").write_text("# Index\n\n- [P](methodology/p.md) — x\n", encoding="utf-8")
+    (wiki / "methodology" / "p.md").write_text(page_text, encoding="utf-8")
+    return tmp_path
+
+
+def test_lint_requires_front_matter_keys(tmp_path):
+    """CLAUDE.md §3.1 requires title/type/updated/sources on every page. Lint never checked."""
+    from ww.maintain.lint import lint_wiki
+    root = _root_with(tmp_path, _page("title: P\ntype: concept\n"))   # missing updated + sources
+    errs = lint_wiki(root).errors
+    assert any("front-matter" in e and "updated" in e for e in errs), errs
+    assert any("front-matter" in e and "sources" in e for e in errs), errs
+
+
+def test_lint_requires_iso_updated_date(tmp_path):
+    from ww.maintain.lint import lint_wiki
+    root = _root_with(tmp_path, _page("title: P\ntype: concept\nupdated: yesterday\nsources: []\n"))
+    assert any("updated" in e and "YYYY-MM-DD" in e for e in lint_wiki(root).errors)
+
+
+def test_lint_requires_sources_frontmatter_to_match_sources_block(tmp_path):
+    """The `sources:` list and the `## Sources` block are the same bibliography twice; when
+    they disagree a reader cannot tell which is complete."""
+    from ww.maintain.lint import lint_wiki
+    (tmp_path / "raw" / "posts").mkdir(parents=True)
+    for s in ("2020-01-01-a", "2020-01-02-b"):
+        (tmp_path / "raw" / "posts" / f"{s}.md").write_text("x", encoding="utf-8")
+    body = ("# P\n\nClaim. ([WW 2020-01-01](../../raw/posts/2020-01-01-a.md))\n\n"
+            "## Sources\n\n- [WW 2020-01-01](../../raw/posts/2020-01-01-a.md)\n"
+            "- [WW 2020-01-02](../../raw/posts/2020-01-02-b.md)\n")
+    # front-matter lists only a; the block lists a and b -> mismatch
+    root = _root_with(tmp_path, _page("title: P\ntype: concept\nupdated: 2026-08-12\nsources:\n  - raw/posts/2020-01-01-a.md\n", body))
+    errs = lint_wiki(root).errors
+    assert any("sources:" in e and "2020-01-02-b" in e for e in errs), errs
+
+
+def test_lint_accepts_a_well_formed_page(tmp_path):
+    from ww.maintain.lint import lint_wiki
+    (tmp_path / "raw" / "posts").mkdir(parents=True)
+    (tmp_path / "raw" / "posts" / "2020-01-01-a.md").write_text("x", encoding="utf-8")
+    body = ("# P\n\nClaim. ([WW 2020-01-01](../../raw/posts/2020-01-01-a.md))\n\n"
+            "## Sources\n\n- [WW 2020-01-01](../../raw/posts/2020-01-01-a.md)\n")
+    root = _root_with(tmp_path, _page("title: P\ntype: concept\nupdated: 2026-08-12\nsources:\n  - raw/posts/2020-01-01-a.md\n", body))
+    assert lint_wiki(root).errors == []

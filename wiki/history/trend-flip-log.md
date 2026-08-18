@@ -3,6 +3,10 @@ title: Trend-flip log — every ST/LT trend flip and Dr. Wish's reaction
 type: history
 updated: 2026-05-12
 sources:
+  - raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md
+  - raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md
+  - raw/posts/2026-02-16-blog-day-8-of-qqq-short-term-down-trend-utilities-had-most-aths-13-see-list-followed-by-oilgas-10-rotation-aw.md
+  - raw/posts/2026-03-19-blog-post-day-31-of-qqq-short-term-down-trend-and-gmigmi20-i-have-been-warning-you-since-february-4-that-cash.md
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md

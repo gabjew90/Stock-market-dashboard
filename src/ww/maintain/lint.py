@@ -50,6 +50,34 @@ def _uncited_in_sources(text: str) -> set[str]:
     return set(_POST_CITATION.findall(body)) - set(_POST_CITATION.findall(sources))
 
 
+_FRONT_MATTER = re.compile(r"\A---\n(.*?)\n---\n", flags=re.S)
+_REQUIRED_KEYS = ("title", "type", "updated", "sources")
+_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def _front_matter_issues(text: str) -> tuple[list[str], set[str] | None]:
+    """Return (issues, front-matter source stems or None if unparseable).
+
+    CLAUDE.md §3.1 requires `title`, `type`, `updated` (YYYY-MM-DD) and `sources` on every
+    page. `sources` is parsed as either an inline `[a, b]` list or a `- item` block and
+    reduced to post stems for comparison with the `## Sources` block.
+    """
+    m = _FRONT_MATTER.match(text)
+    if not m:
+        return ["front-matter missing (page must start with a `---` YAML block)"], None
+    fm = m.group(1)
+    issues: list[str] = []
+    keys = {ln.split(":", 1)[0].strip() for ln in fm.splitlines() if ":" in ln and not ln.startswith((" ", "-"))}
+    for k in _REQUIRED_KEYS:
+        if k not in keys:
+            issues.append(f"front-matter missing required key `{k}`")
+    um = re.search(r"^updated:\s*(.+?)\s*$", fm, flags=re.M)
+    if um and not _ISO_DATE.match(um.group(1).strip("'\"")):
+        issues.append(f"front-matter `updated:` must be YYYY-MM-DD, got `{um.group(1)}`")
+    stems = set(_POST_CITATION.findall(fm))
+    return issues, stems
+
+
 def _wiki_pages(wiki_dir: Path) -> list[Path]:
     """All markdown files under wiki/ that count as 'pages' (subject to conventions)."""
     pages: list[Path] = []
@@ -125,6 +153,21 @@ def lint_wiki(root: Path) -> LintReport:
             if _LEAKED_MARKUP.match(line):
                 report.errors.append(f"{rel}:{lineno}: leaked tool markup `{line.strip()}`")
 
+        # 3c. Front-matter present and well-formed (CLAUDE.md §3.1), and its `sources:` list
+        #     agrees with the `## Sources` block — they are the same bibliography twice, and
+        #     when they disagree a reader cannot tell which is complete.
+        fm_issues, fm_stems = _front_matter_issues(text)
+        for issue in fm_issues:
+            report.errors.append(f"{rel}: {issue}")
+        if fm_stems is not None:
+            sm = _SOURCES_HEADING.search(text)
+            if sm:
+                block_stems = set(_POST_CITATION.findall(text[sm.end():]))
+                for stem in sorted(block_stems - fm_stems):
+                    report.errors.append(f"{rel}: '## Sources' lists raw/posts/{stem}.md but front-matter `sources:` does not")
+                for stem in sorted(fm_stems - block_stems):
+                    report.errors.append(f"{rel}: front-matter `sources:` lists raw/posts/{stem}.md but '## Sources' does not")
+
         # 4. Every post cited in the body is listed in the page's own '## Sources' block
         #    (CLAUDE.md §3.4). Checked on the text, so it works without the corpus.
         for stem in sorted(_uncited_in_sources(text)):
@@ -133,7 +176,10 @@ def lint_wiki(root: Path) -> LintReport:
     # 4b. Leaked tool markup in code as well as prose. The same tag leak that hit the wiki
     #     landed in a .py file during the 2026-08-12 fix pass and produced a SyntaxError.
     for code_dir in ("src", "tests"):
-        for path in sorted((root / code_dir).rglob("*.py")) if (root / code_dir).is_dir() else []:
+        code_root = root / code_dir
+        if not code_root.is_dir():
+            continue
+        for path in sorted(code_root.rglob("*.py")):
             try:
                 for lineno, line in enumerate(path.read_text(encoding="utf-8").splitlines(), start=1):
                     if _LEAKED_MARKUP.match(line):

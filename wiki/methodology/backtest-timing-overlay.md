@@ -2,7 +2,8 @@
 title: Backtest — the market-state timing overlay
 type: methodology
 updated: 2026-08-12
-sources: []
+sources:
+  - raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md
 ---
 
 # Backtest — does the GMI timing overlay beat buy-and-hold QQQ?

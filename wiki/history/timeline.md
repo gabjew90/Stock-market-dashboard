@@ -3,6 +3,18 @@ title: Timeline — evolution of the methodology
 type: history
 updated: 2026-08-12
 sources:
+  - raw/posts/2005-04-20-stop-this-madness.md
+  - raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md
+  - raw/posts/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md
+  - raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md
+  - raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md
+  - raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md
+  - raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md
+  - raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md
+  - raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md
+  - raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md
+  - raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md
+  - raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md
   - raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md
   - raw/posts/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md
   - raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md

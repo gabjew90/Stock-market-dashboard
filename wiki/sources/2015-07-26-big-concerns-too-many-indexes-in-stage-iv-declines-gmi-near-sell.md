@@ -2,7 +2,9 @@
 title: "WW 2015-07-26 — The warning four weeks before the flash crash: Stage IV spreading beneath a strong QQQ"
 type: source-summary
 updated: 2026-08-12
-sources: [raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md]
+sources:
+  - raw/posts/2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell.md
+  - raw/posts/2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over.md
 ---
 
 # WW 2015-07-26 — The warning four weeks before the flash crash: Stage IV spreading beneath a strong QQQ

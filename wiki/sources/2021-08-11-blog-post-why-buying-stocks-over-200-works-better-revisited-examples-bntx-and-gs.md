@@ -2,7 +2,9 @@
 title: "WW 2021-08-11 — Why buying stocks over $200 works better, revisited"
 type: source-summary
 updated: 2026-08-12
-sources: [raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md]
+sources:
+  - raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md
+  - raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md
 ---
 
 # WW 2021-08-11 — Why buying stocks over $200 works better, revisited

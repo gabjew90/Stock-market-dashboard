@@ -3,6 +3,7 @@ title: Playbook — exits
 type: playbook
 updated: 2026-05-12
 sources:
+  - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
   - raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md
   - raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md
   - raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md
