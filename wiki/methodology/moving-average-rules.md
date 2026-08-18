@@ -57,6 +57,9 @@ sources:
   - raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md
   - raw/posts/2011-01-24-2746.md
   - raw/posts/2011-06-20-no-one-knows-when-this-market-will-bottom.md
+  - raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md
+  - raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md
+  - raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md
 ---
 
 # Moving-average rules
@@ -98,6 +101,8 @@ Stage analysis was introduced by Weinstein and adopted by Dr. Wish. The four sta
 
 **A declining 30-week under a GREEN GMI (March 2019).** With the GMI at 6 and GMI2 barely weakened, what troubled him was that the QQQ and SPY 30-week averages were *still declining* — "a major sign of weakness for me, as it could indicate a Stage 4 decline." Two rules stated: "In prior large down-trends I would wait for the 30 week average to curve up before tiptoeing back into the market," and "a *close* back below the 30 week average could be ominous for the longs." He lightened up on the daily signal but sized by the weekly stage. ([WW 2019-03-24](../../raw/posts/2019-03-24-decline-caused-by-inverse-yield-curve-and-or-mueller-report-stage-4-decline.md)) Three months later, with DIA back under its 30-week: "If the 30 week average curves down, the market could be at major risk of a significant decline. That signal saved me from staying long during the 2000 and 2008 market debacles." ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
 
+The 2006 form of the rule: "When a major index is below its 30 week average I get very defensive in the stocks represented by that indicator" — written the week the QQQQ first closed under it since the prior October. ([WW 2006-08-14](../../raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md))
+
 ## The 30-day average — the short-term trend anchor
 
 Dr. Wish calls the 30-day moving average "the most reliable indicator of the short term trend." The WishingWealth Pulse of the Market (WPM) tracks whether each major index is above its 30-day average, and what percentage of component stocks are above it. ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
@@ -130,6 +135,8 @@ Dr. Wish uses the **daily 10,4,4 stochastic** as a timing overlay on top of the 
 For individual stocks, a weekly close below the **rising 10-week average** is an exit signal. He is explicit about this with AAPL as an example: "I have found AAPL fine to own as long as it remained above its rising 10 week average." A weekly close below that level is a concern; he uses it to decide when to exit a position. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
 
 **The odds below it, in his own numbers.** January 2008: ten weeks under the 10-week, QQQQ −12%, 82% of its components lower, 87% of the S&P 500 lower — "can you see why it makes no sense to fight such odds?" And the flip side of the same rule: with the 10-week ~10% above price, "a rally would have to exceed about +10% for me to call a change in trend. There is clearly a lot of room on the up-side for failed, sucker rallies." ([WW 2008-01-22](../../raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md)) January 2011: 20 straight weeks above it — "as long as these indexes stay above their 10 week averages, I am likely to make money by being long stocks." ([WW 2011-01-24](../../raw/posts/2011-01-24-2746.md))
+
+April 2008, the positive case: QQQQ above a *rising* 10-week is when "I have the best chance of profiting from buying IBD 100 type growth stocks hitting new highs"; and the 55-day down-trend just ended in numbers — 72% of Nasdaq-100 components down, "the odds are 2 to 1 that an individual stock will decline." ([WW 2008-04-07](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md)) September 2010: SPY and DIA back above their 10-week, "the level at which I can begin to trade profitably on the long side." ([WW 2010-09-07](../../raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md))
 
 ## The RWB / BWR patterns — multiple MAs on a Guppy chart
 
@@ -440,3 +447,6 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2008-01-22 — GMI 0; 12th day of down-trend; sucker rally near?; IBD100 holds winners](../../raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md) ([summary](../sources/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md))
 - [WW 2011-01-24 — Still cautious; high-dividend ETFs; IBM breaks out; the muni thesis](../../raw/posts/2011-01-24-2746.md) ([summary](../sources/2011-01-24-2746.md))
 - [WW 2011-06-20 — No one knows when this market will bottom](../../raw/posts/2011-06-20-no-one-knows-when-this-market-will-bottom.md) ([summary](../sources/2011-06-20-no-one-knows-when-this-market-will-bottom.md))
+- [WW 2006-08-14 — Cramer contrary indicator and GMI have protected us; GMI 1; IBD 100 Index rigged?](../../raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md) ([summary](../sources/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md))
+- [WW 2008-04-07 — GMI 3; 9th day of QQQQ up-trend; QLD; URBN](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md) ([summary](../sources/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md))
+- [WW 2010-09-07 — This rally may have legs — IBD100 top ten out-shine again](../../raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md) ([summary](../sources/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md))

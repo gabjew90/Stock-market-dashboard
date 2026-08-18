@@ -29,6 +29,9 @@ sources:
   - raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md
   - raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md
   - raw/posts/2011-01-24-2746.md
+  - raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md
+  - raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md
+  - raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md
 ---
 
 # General Market Index (GMI)
@@ -87,6 +90,8 @@ Component 6 was never replaced or modified: it is the same in 2025 as at launch,
 
 Two consequences. First, the reconstruction's use of **FFTY** as a component-6 proxy (see below) is a substitute for a series that is still live and still readable as `0muti` on IBD's charting application — not a replacement for a retired one. Second, `0muti` is a specific, identifiable series, so a faithful component 6 is in principle obtainable rather than permanently proxied.
 
+**Why component 1 carries a minimum count.** "This indicator is very unstable when only a few stocks hit new highs 10 days ago" — said in April 2008 when it alone knocked the GMI from 4 to 3 in a young up-trend, and the reason the published table later reads it as ≥ 50% *with a minimum of 20* (see [GMI evidence](gmi-evidence.md)). ([WW 2008-04-07](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md))
+
 ## The signals — Buy, Sell, and the hold state at 3
 
 The score becomes a *signal* only with persistence, and the two sides are symmetric around 3:
@@ -95,7 +100,7 @@ The score becomes a *signal* only with persistence, and the two sides are symmet
 |---|---|---|
 | **Buy** | GMI **> 3 for two consecutive days** | "The GMI was >3 for two consecutive days, which is my criterion for a buy signal." ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md)) |
 | *(origin of the two-day rule)* | a change of regime (GMI ≥ 4 ↔ < 4) must **persist for two days** | Adopted 2011-11-28 after a self-audit found three one-day whipsaws among 12 regime changes since April 2011: "If I had used a rule that said that a change in trend had to persist for two days to be valid, I would have avoided these false signals. I will use that rule." ([WW 2011-11-28](../../raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md)) First applied to signal #13 on 2011-12-01: "my new criterion… of needing 2 days with a GMI of at least 4 to signal a new up-trend." ([WW 2011-12-05](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md)) |
-| **Sell** | GMI **< 3 (≤ 2) for two consecutive days** | "The GMI is now at 1 (of 6) and if it registers below 3 on Monday, it will flash a Sell signal." ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md)) |
+| **Sell** | GMI **< 3 (≤ 2) for two consecutive days** | Stated April 2012: "the GMI gave me a sell signal last week (2 consecutive days below 3)." ([WW 2012-04-16](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md)) Restated 2014: "The GMI is now at 1 (of 6) and if it registers below 3 on Monday, it will flash a Sell signal." ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md)) |
 | **Defensive** | GMI ≤ 3 (no signal flip yet) | "When it declines to 3 or below, I get defensive in my trading IRA." ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md)) |
 
 So **GMI = 3 is a hold state**: not high enough to be Buy, not low enough to be Sell. A reading of 3
@@ -128,7 +133,7 @@ The implementation requires the built-in "Price New High" and "Price New Low" TC
 
 Documented example: in **November 2021**, QQQ was at all-time highs (day U-26 of the short-term up-trend) but new lows surged to **438 on 11/22/2021** — QQQ's exact peak. This divergence led Dr. Wish to exit the market. The subsequent Stage 4 decline lasted over a year. He describes it as a "lucky call" but attributes it to the breadth divergence signal. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 
-**The mirror statistic (2019).** Component 1 has an unpublished twin he computes nightly: the **successful 10-day new low** percentage — of the stocks that hit a new low 10 days ago, the share that closed *lower* than 10 days earlier. In May–June 2019 the high-side statistic had been ≥ 50% on only 5 days while the low-side was ≥ 50% on 16 of 17 days, which is how he concluded that "shorting stocks at new lows is a far better strategy than buying stocks at new highs" in that tape. It is not a GMI component; it is the diagnostic that tells him which side the component-1 logic favours. ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md)) See [the short side](short-side.md).
+**The mirror statistic (in use by 2006; named 2019).** Component 1 has an unpublished twin he computes nightly — already in the table in August 2006: "only 25% of the 260 stocks that hit a new low 10 days ago closed lower. This suggests that shorting new lows has been unlikely to have been profitable recently." ([WW 2006-08-07](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md)) As disclosed in 2019: the **successful 10-day new low** percentage — of the stocks that hit a new low 10 days ago, the share that closed *lower* than 10 days earlier. In May–June 2019 the high-side statistic had been ≥ 50% on only 5 days while the low-side was ≥ 50% on 16 of 17 days, which is how he concluded that "shorting stocks at new lows is a far better strategy than buying stocks at new highs" in that tape. It is not a GMI component; it is the diagnostic that tells him which side the component-1 logic favours. ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md)) See [the short side](short-side.md).
 
 ## Evolution
 
@@ -277,3 +282,6 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2011-11-28 — GMI performance since April; the two-day confirmation rule adopted; CMG Stage 4?](../../raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md) ([summary](../sources/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md))
 - [WW 2011-12-05 — GMI flashes bullish signal (#13); the 'major innovation' — enter oversold in a Stage 2 up-trend](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md) ([summary](../sources/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md))
 - [WW 2011-01-24 — Still cautious; high-dividend ETFs; IBM breaks out; the muni thesis](../../raw/posts/2011-01-24-2746.md) ([summary](../sources/2011-01-24-2746.md))
+- [WW 2006-08-07 — GMI +3; QQQQ masks underlying strength in IBD-100; stocks to watch](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md) ([summary](../sources/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md))
+- [WW 2008-04-07 — GMI 3; 9th day of QQQQ up-trend; QLD; URBN](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md) ([summary](../sources/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md))
+- [WW 2012-04-16 — Thoughts about the Worden DC seminar; GMI 2; in cash and short GLD](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md) ([summary](../sources/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))

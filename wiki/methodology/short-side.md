@@ -19,6 +19,8 @@ sources:
   - raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md
   - raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md
   - raw/posts/2011-01-24-2746.md
+  - raw/posts/2009-04-11-the-dirty-little-secret-about-the-up-tick-rule-rigging-the-market.md
+  - raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -68,6 +70,8 @@ The Day-1 nibble, 2010 form: "When I get a new down-trend I sometimes buy a litt
 
 **The 2006 case, and a 2011 thesis trade.** June 2006, GMI 0, 185 submarines to 8 rockets on the TC2005 scan: "There are clearly plenty of stocks in a down-trend that offer good odds of being profitable shorts. Too bad that we have all been brainwashed into thinking that shorting stocks is too risky. It is much more risky to buy stocks in a market down-trend." ([WW 2006-06-12](../../raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md)) January 2011 is the rare *thesis*-driven hedge: with the GMI at 5 he sold his tech stocks, bought inverse tech ETFs and puts on AGO, the municipal-bond insurer, on the muni collapse — while conceding the indicators "can only confirm a change in trend *after* it has occurred" and that he "would rather get out quickly and get back in after the dust settles. I do not mind if I am wrong." ([WW 2011-01-24](../../raw/posts/2011-01-24-2746.md))
 
+**The mechanics, taught (2009).** Written during the 2009 campaign to restore the uptick rule: what a short sale is, why heavy short interest is latent buying — every short "must eventually buy back to close their positions. This is why shares with a large short interest often times rebound quickly after a decline" — and the symmetry argument, "if we need an uptick rule to protect us from frenzied short selling, then we need a downtick rule to protect us from frenzied buying." The abuse worth policing is naked shorting. ([WW 2009-04-11](../../raw/posts/2009-04-11-the-dirty-little-secret-about-the-up-tick-rule-rigging-the-market.md)) This is the mechanism behind the short-interest filter on [the scans](scans.md).
+
 ## Protective puts — the 2005 original, and the put-vs-stop rule
 
 The insurance framing is fully formed in **June 2005** — four years before the 2009 tutorial —
@@ -87,6 +91,8 @@ The method: sell **one-month covered calls on stocks he already owns that are in
 It worked in practice during the 2007 up-trend: a +5% account month in September, with "almost all (90%) of the stocks I wrote calls on... called away." ([WW 2007-10-01](../../raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md))
 
 Two constraints. It is market-state dependent like everything else — the writes happen on stocks in up-trends, during GMI-Green periods. And by 2014 he had added an explicit exclusion: **do not sell calls on rocket stocks**, because capping the upside on the few large winners defeats the strategy that pays for all the small losses (see the GLD covered-call post, [WW 2014-02-23](../../raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md)). His own caveat: "Like any trading strategy, this not the Holy Grail, and requires study and on the job training."
+
+By 2012 he was "teaching myself to write the new weekly covered calls on the SPY and QQQ," recommending Alan Ellman's books as the primer and calling the strategy "great… for us boomers, once we have a systematic way for selecting appropriate stocks." ([WW 2012-04-16](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))
 
 ## See also
 
@@ -114,3 +120,5 @@ Two constraints. It is market-state dependent like everything else — the write
 - [WW 2010-06-28 — I only ride the yellow band trends; in cash or short; submarine stocks](../../raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md) ([summary](../sources/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md))
 - [WW 2006-06-12 — GMI 0; 185 submarines, 8 rockets; brainwashed against shorting](../../raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md) ([summary](../sources/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md))
 - [WW 2011-01-24 — Still cautious; high-dividend ETFs; IBM breaks out; the muni thesis](../../raw/posts/2011-01-24-2746.md) ([summary](../sources/2011-01-24-2746.md))
+- [WW 2009-04-11 — The dirty little secret about the up-tick rule](../../raw/posts/2009-04-11-the-dirty-little-secret-about-the-up-tick-rule-rigging-the-market.md) ([summary](../sources/2009-04-11-the-dirty-little-secret-about-the-up-tick-rule-rigging-the-market.md))
+- [WW 2012-04-16 — Thoughts about the Worden DC seminar; GMI 2; in cash and short GLD](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md) ([summary](../sources/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))

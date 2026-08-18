@@ -59,6 +59,7 @@ sources:
   - raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md
   - raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md
   - raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md
+  - raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md
 ---
 
 # Glossary
@@ -157,7 +158,7 @@ Every term Dr. Wish coins or uses, defined in a sentence or two, with a first-ap
 
 **Successful 10-Day New High Indicator** — one of the six GMI components: the percentage of stocks that hit a 52-week high 10 days ago and have closed higher today than they did on that day. Threshold: ≥ 50% = positive; < 50% = negative. A rising cluster of negative readings (failed breakouts) warns of a weakening up-trend. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
 
-**Successful 10-Day New Low indicator** — the unpublished mirror of the [Successful 10-Day New High Indicator](#successful-10-day-new-high-indicator): of the stocks that hit a new low 10 days ago, the percentage that closed *lower* than they did 10 days earlier, computed nightly. When it runs ≥ 50% day after day while the high-side statistic cannot, the tape favours shorting new lows over buying new highs. Not a GMI component. Disclosed: ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
+**Successful 10-Day New Low indicator** — the unpublished mirror of the [Successful 10-Day New High Indicator](#successful-10-day-new-high-indicator): of the stocks that hit a new low 10 days ago, the percentage that closed *lower* than they did 10 days earlier, computed nightly. When it runs ≥ 50% day after day while the high-side statistic cannot, the tape favours shorting new lows over buying new highs. Not a GMI component. Already in the daily table by August 2006 ([WW 2006-08-07](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md)); described in full: ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
 
 **T2108** — the percentage of NYSE stocks trading above their 40-day simple moving average. Source: Worden/TC2000. Thresholds: > 80% = extended/overbought; < 10% = near-bottom contrarian buy zone. See [t2108.md](t2108.md). ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
 
@@ -246,3 +247,4 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 - [WW 2013-10-13 — Baltimore AAII meeting; GLD in Stage 4; sleeping point](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md) ([summary](../sources/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md))
 - [WW 2020-09-20 — 10 doublers that reached an ATH on above-average volume](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) ([summary](../sources/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
 - [WW 2019-06-02 — Shorting stocks at new lows beats buying stocks at new highs](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md) ([summary](../sources/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
+- [WW 2006-08-07 — gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md) ([summary](../sources/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md))

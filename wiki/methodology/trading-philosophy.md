@@ -15,6 +15,8 @@ sources:
   - raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md
   - raw/posts/2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend.md
   - raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md
+  - raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md
+  - raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md
 ---
 
 # Trading philosophy — the five propositions
@@ -150,6 +152,8 @@ market.
 
 The credo three years before the five propositions, January 2006 — six "what ifs" (no one can predict the market; pundits predict the past; the market is a casino à la Darvas; psychology matters more than fundamentals) and their consequence: "isolate ourselves from outside opinions, use our charts to maximize the chances of a gain, place our bets, and quickly and ruthlessly cut our losses. In harmony with the trend and with thoughtful trial and error, each small loss brings us closer to the next big gain." ([WW 2006-01-03](../../raw/posts/2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend.md)) And the 2009 image for the same stance: "When you are crossing the street and a truck comes bearing down on you… you should not argue with the fact that it is there… One needs to move quickly and get out of the way or jump on board the truck." ([WW 2009-03-01](../../raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md))
 
+The truck was first told to his students in April 2008, against resisting an up-trend on bad economic news: "the news is usually worst *after* the market has already turned. As long as I have rules for getting out of my positions if the market returns to a down-trend, then I am content to go long now." ([WW 2008-04-07](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md)) And the corollary he gives audiences without rules: "Every person must design a systematic set of entry and exit rules that fit with his/her tolerance for risk. Without such a set of rules, it is preferable to forego individual stocks and to buy some index ETF's like SPY or QQQ and to just ride the major market trend." ([WW 2012-04-16](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))
+
 ## Simple beats clever
 
 "Patterns are meant to be broken. **The road is littered with the carcasses of Ph.D.'s who
@@ -204,3 +208,5 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2016-10-25 — Back from Mark Minervini's Master Trader Program](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md) ([summary](../sources/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))
 - [WW 2006-01-03 — Happy New Year — What if?; GMI +2; trade with the trend](../../raw/posts/2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend.md) ([summary](../sources/2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend.md))
 - [WW 2009-03-01 — No bottom in sight for this bear market — how bear markets end (1932, 1974)](../../raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md) ([summary](../sources/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md))
+- [WW 2008-04-07 — GMI 3; 9th day of QQQQ up-trend; QLD; URBN](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md) ([summary](../sources/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md))
+- [WW 2012-04-16 — Thoughts about the Worden DC seminar; GMI 2; in cash and short GLD](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md) ([summary](../sources/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))

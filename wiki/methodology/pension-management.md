@@ -17,6 +17,8 @@ sources:
   - raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md
   - raw/posts/2011-06-20-no-one-knows-when-this-market-will-bottom.md
   - raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md
+  - raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md
+  - raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md
 ---
 
 # The two accounts — university pension vs trading IRA
@@ -30,6 +32,8 @@ Dr. Wish distinguishes between two accounts. His **trading IRA** follows the tac
 However, when GMI falls to 0 he transfers pension funds to money market funds — and accepts the risk of triggering mutual fund timing penalties. He moves 60% of pension holdings at GMI=0, even after the market has already declined, arguing the weekly trend is more important than recent price action. "If the market were to turn up in the next few months I would have no regrets as I would simply hop back on at a higher level." ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
 
 The record as he stated it in June 2006, 100% cash in the pension: "I am a chicken and… go to cash at the first sign of market weakness. In this way, I have avoided all significant market declines since 1995, but have not missed out on the subsequent rises… there is plenty of time to jump back on board once the market has confirmed a new up-trend." ([WW 2006-06-12](../../raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md))
+
+The 2012 statement, the clearest early one: "The QQQ weekly chart is in a Stage 2 up-trend. As long as the weekly pattern remains in a Stage 2, I keep my university pension invested in mutual funds. There are limits to how often I can trade the mutual funds. I only sell my pension funds when the 30 week average curves down. I am short or in cash with my more short term IRA and speculative money, however, because the GMI gave me a sell signal last week (2 consecutive days below 3)." ([WW 2012-04-16](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md)) In 2007 the stay-invested condition was read off the GMI-L: above 90 since September 2006, "100% invested in mutual funds since last fall." ([WW 2007-02-26](../../raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md))
 
 ## The staged pension exit protocol
 
@@ -143,3 +147,5 @@ The 2011 statement, mid-decline: the best-days studies "fail to note that one di
 - [WW 2015-09-08 — Market trend clearly down; diminished trust in ETFs after the flash crash](../../raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md) ([summary](../sources/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md))
 - [WW 2011-06-20 — No one knows when this market will bottom](../../raw/posts/2011-06-20-no-one-knows-when-this-market-will-bottom.md) ([summary](../sources/2011-06-20-no-one-knows-when-this-market-will-bottom.md))
 - [WW 2006-06-12 — GMI 0; 185 submarines, 8 rockets; brainwashed against shorting](../../raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md) ([summary](../sources/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md))
+- [WW 2007-02-26 — GMI 6; GMI-S 88; Dow climbs wall of worry; IBD 100 performance; cups with handles](../../raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md) ([summary](../sources/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md))
+- [WW 2012-04-16 — Thoughts about the Worden DC seminar; GMI 2; in cash and short GLD](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md) ([summary](../sources/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))

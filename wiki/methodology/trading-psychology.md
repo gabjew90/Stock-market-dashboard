@@ -16,6 +16,8 @@ sources:
   - raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md
   - raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md
   - raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md
+  - raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md
+  - raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -31,6 +33,8 @@ The honesty of the first sentence matters — he flags the claim as untested. Th
 ## 2. Do not marry a scenario
 
 "We must always guard against marrying a scenario and be ready to change direction to be consistent with the market's main trend." Said while pundits called a top and his GMMA charts showed a two-year RWB advance intact. ([WW 2015-02-16](../../raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md)) The same instinct in a down-trend: "Buying or holding stocks at or near new highs is now a losers game. Everyone must do some self-analysis to determine why they would do so during a market down-trend. **Ask, do I want to make money or to be smart?**" ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
+
+The stock-level version, from November 2016: "I do not marry a stock. As William O'Neil has written, all stocks are bad, unless they are going up!" — with the mechanism that makes it possible: "I always know in advance the price action that will tell me that my purchase is wrong and where I must exit." ([WW 2016-11-13](../../raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md)) And a 2006 line on the same theme: "Patience is the sine qua non of successful trading." ([WW 2006-08-14](../../raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md))
 
 ## 3. Fear will make you break your own rule — he did, and said so
 
@@ -83,3 +87,5 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2020-09-20 — 10 doublers; the note on the monitor](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) ([summary](../sources/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
 - [WW 2009-05-31 — Rally gaining strength; Guppy chart reveals major turn](../../raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md) ([summary](../sources/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md))
 - [WW 2010-06-21 — Stocks near all-time highs; IBD100 stocks 3× more likely to rise 10%+](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md) ([summary](../sources/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
+- [WW 2006-08-14 — Cramer contrary indicator and GMI have protected us; GMI 1; IBD 100 Index rigged?](../../raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md) ([summary](../sources/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md))
+- [WW 2016-11-13 — QQQ short-term down-trend but GMI Green; 16 GLB stocks; OLLI](../../raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md) ([summary](../sources/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md))

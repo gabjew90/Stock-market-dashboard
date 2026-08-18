@@ -14,6 +14,8 @@ sources:
   - raw/posts/2013-01-07-3rd-day-of-qqq-short-term-up-trend-t2108-82.md
   - raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md
   - raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md
+  - raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md
+  - raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md
 ---
 
 # The GMI family — GMI-S, GMI-L, GMI-R, GMI2 and the rest of the daily table
@@ -155,6 +157,8 @@ contrarian buy zone, sourced from the prose. Both are his — they serve differe
 back-up-the-truck extreme he writes about in crisis posts. The page should carry both bands
 rather than only the extreme.
 
+**MACD breadth is the oldest of the extra rows.** In August 2006 he called the percentage of stocks above their MACD signal line "my earliest indicator of a possible up-trend" (69% for both his universe and the IBD100 that week). ([WW 2006-08-07](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md)) And the GMI-L was the pension's stay-invested condition in early 2007: "the GMI-L longer term indicators for four indexes have closed above 90 since last September. In my major pension account… I have stayed 100% invested in mutual funds since last fall." ([WW 2007-02-26](../../raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md))
+
 ## See also
 
 - [General Market Index (GMI)](gmi.md) — the core index; the page this was split from
@@ -175,3 +179,5 @@ rather than only the extreme.
 - [WW 2013-01-07 — GMI table: GMI2 at 6 components; T2108 band 80/25](../../raw/posts/2013-01-07-3rd-day-of-qqq-short-term-up-trend-t2108-82.md)
 - [WW 2020-01-05 — GMI table: GMI2 grown to 8; MACD breadth row](../../raw/posts/2020-01-05-my-pet-stocks-frpt-and-pawz.md)
 - [WW 2026-01-04 — GMI table: verbatim component labels; GMI2 at 9](../../raw/posts/2026-01-04-blog-post-day-1-of-qqq-short-term-down-trend-gmi2-and-could-turn-red-on-monday-qqq-has-now-closed-below-its-1.md)
+- [WW 2006-08-07 — GMI +3; QQQQ masks underlying strength in IBD-100; stocks to watch](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md) ([summary](../sources/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md))
+- [WW 2007-02-26 — GMI 6; GMI-S 88; Dow climbs wall of worry; IBD 100 performance; cups with handles](../../raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md) ([summary](../sources/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md))

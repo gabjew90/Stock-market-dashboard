@@ -48,6 +48,7 @@ sources:
   - raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md
   - raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md
   - raw/posts/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md
+  - raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md
 ---
 
 # Risk & cash
@@ -161,6 +162,8 @@ In November 2007 four contrarian indicators lined up at once — put/call ratio 
 He did not re-enter. "Given all of the above and the weekly chart of the QQQQ above, **I remain mainly in cash and short the QQQQ in the QID.** But I am ready to reverse my stance immediately if this market starts up. The market will climb a wall of skepticism and **it does not pay to marry a particular market scenario**." ([WW 2007-11-19](../../raw/posts/2007-11-19-gmi1gmi-r1-qqqq-bounce-off-support-too-many-bears-new-leaders.md))
 
 The rule this illustrates: sentiment extremes justify *expecting* a bounce and *being ready* to reverse, but the trend indicators — not the sentiment readings — supply the actual entry. See [market-state playbook](../playbooks/market-state.md).
+
+The Investors Intelligence survey is the sentiment gauge he cites most: bears > bulls (38% vs 29%) in September 2010 was "an exceedingly rare phenomenon and should have told us all that the market would rally"; over 50% bulls "is time to start looking for a market decline." ([WW 2010-09-07](../../raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md)) The same rare inversion appeared in September 2015 (see [T2108](t2108.md)).
 
 ## Relative strength during declines as a leadership screen
 
@@ -288,3 +291,4 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2010-06-28 — I only ride the yellow band trends; in cash or short; submarine stocks](../../raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md) ([summary](../sources/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md))
 - [WW 2009-03-01 — No bottom in sight for this bear market — how bear markets end (1932, 1974)](../../raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md) ([summary](../sources/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md))
 - [WW 2014-04-20 — Market at critical juncture; Guppy charts show relative weakness in QQQ vs SPY](../../raw/posts/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md) ([summary](../sources/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md))
+- [WW 2010-09-07 — This rally may have legs — IBD100 top ten out-shine again](../../raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md) ([summary](../sources/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md))

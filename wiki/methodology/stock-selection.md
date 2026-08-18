@@ -38,6 +38,8 @@ sources:
   - raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md
   - raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md
   - raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md
+  - raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md
+  - raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md
 ---
 
 # Stock selection
@@ -228,6 +230,8 @@ Earlier (2012) IBD50 data: from December 2011 through April 2012, IBD50 median g
 
 **Why the list is the starting universe (2008).** "I let IBD do the tough work of ranking all stocks by fundamental and technical strength. I then can focus on the top 100 stocks." Against "identifies winners too late": the 2007 leaders were on lists early — ISRG (8/2007 at 199.13, later 339.63), AAPL (10/2006 at 54.44 → 202.96), GOOG (10/2005 at 310.65 → 747.24), BIDU (5/2007 at 131.99 → 235.28), GRMN (10/2006 at 47.93 → 125.68). During the January 2008 decline he kept a TC2007 watchlist of the 26 IBD100 stocks resisting it (HMSY, VIVO, SRCL) — "the key is to wait for the turn and not to be seduced into them now when false moves are very likely." ([WW 2008-01-22](../../raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md))
 
+**The strategy in one sentence (2010):** "select stocks from the IBD 100 list, the top 100 stocks that meet the IBD CAN SLIM criteria. I then time the entry according to my own trading rules." The top ten of the July 12, 2010 list through September 3: 90% rose and 70% gained ≥20%, against 17% of the Nasdaq-100 and 11% of the S&P 500. ([WW 2010-09-07](../../raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md)) And the survivorship caveat predates the 2007 audit: in August 2006 he noted IBD's published IBD 100 Index (+127.8% vs the S&P's +37.6% since 2003) removes poor performers weekly as it is recalculated — "we readers deserve a more accurate system for tracking the performance of the IBD 100 selections." ([WW 2006-08-14](../../raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md))
+
 ## The pilot portfolio — 25-share radar positions (2014)
 
 The pilot buy scaled to a watchlist: across 11 biotech GLB candidates in a down-trend, "buy a
@@ -282,3 +286,5 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2010-06-21 — Stocks near all-time highs; IBD100 stocks 3× more likely to rise 10%+](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md) ([summary](../sources/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
 - [WW 2010-12-06 — IBD gives up on the follow-through day; how mutual funds rip off investors; IBD100 top 10](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md) ([summary](../sources/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md))
 - [WW 2008-01-22 — GMI 0; 12th day of down-trend; sucker rally near?; IBD100 holds winners](../../raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md) ([summary](../sources/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md))
+- [WW 2006-08-14 — Cramer contrary indicator and GMI have protected us; GMI 1; IBD 100 Index rigged?](../../raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md) ([summary](../sources/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md))
+- [WW 2010-09-07 — This rally may have legs — IBD100 top ten out-shine again](../../raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md) ([summary](../sources/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md))

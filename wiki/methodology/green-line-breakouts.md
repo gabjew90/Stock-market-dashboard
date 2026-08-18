@@ -38,6 +38,9 @@ sources:
   - raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md
   - raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md
   - raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md
+  - raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md
+  - raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md
+  - raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -97,6 +100,8 @@ Once a GLB is working, Dr. Wish explicitly discusses pyramiding (adding to) the 
 
 **GLB Tracker list:** Dr. Wish maintained a sidebar list of stocks with recent GLBs (updated to Friday of the GLB week). The list was a sentiment instrument — a way to track how many recent GLBs were continuing to advance — not a buy list. Stocks on it still required individual evaluation. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
 
+The exit, stated as a general rule while buying OLLI's GLB in November 2016: "I will exit if the break out above the green line fails. *I always know in advance the price action that will tell me that my purchase is wrong and where I must exit. When a stock fails to behave as I anticipated I get out with a small loss and move on to the next winner. I do not marry a stock. As William O'Neil has written, all stocks are bad, unless they are going up!*" ([WW 2016-11-13](../../raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md)) O'Neil's own stop, cited in 2007: a stock bought at the proper pivot "should not decline 8% below that point. If it does, it should be sold." ([WW 2007-02-26](../../raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md))
+
 ## The IPO GLB — a high-probability variant
 
 Recent IPOs are especially attractive GLB candidates because of the predictable overhead supply dynamic:
@@ -127,6 +132,8 @@ The GLB's intellectual ancestor is Darvas's box system and his preference for bu
 Darvas's explicit principles (from his 1977 book): check the market trend; check the industry group's strength; only buy a stock that is rising in price on volume. His 1960 account does not emphasize market-trend assessment as a prerequisite — his stops would passively remove him from bad markets through repeated failed trades. Dr. Wish notes this discrepancy and argues that the market-trend gate is load-bearing. ([WW 2005-10-09](../../raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md))
 
 Dr. Wish's implication for GLBs: they should be expected to work best when the broader market is itself at or near all-time highs, not when it is well below prior peaks. Written in 2005 (Nasdaq still ~59% below its 2000 peak), he warned that outstanding growth-stock returns might not be achievable until markets returned to historic peaks "maybe in 2016." ([WW 2005-10-09](../../raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md))
+
+**Two pre-history statements.** February 2007, on the Dow's monthly chart: "when a market declines and then builds a large multi-year base and has the buying strength to overcome the overhead supply (from persons who bought at higher levels and sell as soon as they break even) and pushes through to new highs, it often portends a considerable rise" — the Dow's 1,000 ceiling broken in 1982 "at the *start* of a long bull move." ([WW 2007-02-26](../../raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md)) April 2008, on URBN out to all-time highs on the highest volume since 1994 after a 3-year consolidation: "one can often identify major break-outs by looking at a stock's monthly chart" (FDG the prior example). ([WW 2008-04-07](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md)) The concept is complete here; only the green line and the name are missing.
 
 ## Patience after a GLB — the PNRA and FIZZ case (2017)
 
@@ -330,3 +337,6 @@ This is continuous with the 2016 [BOS](stock-selection.md) preference ("I actual
 - [WW 2019-03-29 — Buying IPOs with a recent GLB: SAFE, YETI, TWLO](../../raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md) ([summary](../sources/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md))
 - [WW 2014-06-22 — RWB patterns in QQQ across time periods; PTLA and STZ](../../raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md) ([summary](../sources/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md))
 - [WW 2013-03-17 — More green line break-out stocks: DFS, WAT, CAB, NEE; Dow Theory buy signal](../../raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md) ([summary](../sources/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md))
+- [WW 2007-02-26 — GMI 6; GMI-S 88; Dow climbs wall of worry; IBD 100 performance; cups with handles](../../raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md) ([summary](../sources/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md))
+- [WW 2008-04-07 — GMI 3; 9th day of QQQQ up-trend; QLD; URBN](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md) ([summary](../sources/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md))
+- [WW 2016-11-13 — QQQ short-term down-trend but GMI Green; 16 GLB stocks; OLLI](../../raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md) ([summary](../sources/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md))
