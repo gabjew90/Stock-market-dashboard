@@ -148,7 +148,7 @@ The timeline confirms GMI remained at 0 / Red through the end of 2018 before rec
 ## February 2020 — what the panel read five days before the top
 
 Recovered from the published GMI table image of 2020-02-14, which the text parser had failed to
-extract (see [gmi.md](../methodology/gmi.md#the-modern-era-is-an-image-problem)):
+extract (see [GMI evidence](../methodology/gmi-evidence.md#the-modern-era-is-an-image-problem)):
 
 | Reading | 2020-02-14 |
 |---|---|

@@ -1,58 +1,39 @@
 ---
 title: Stock selection
 type: concept
-updated: 2026-08-12
+updated: 2026-08-18
 sources:
-  - raw/posts/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md
-  - raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md
-  - raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md
-  - raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md
-  - raw/posts/2011-09-19-3118.md
-  - raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md
-  - raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md
-  - raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md
-  - raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md
-  - raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md
-  - raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md
-  - raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md
-  - raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md
-  - raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md
-  - raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
+  - raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
-  - raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md
-  - raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md
-  - raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md
-  - raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md
-  - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
-  - raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md
-  - raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md
-  - raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md
-  - raw/posts/2017-09-04-bgne-example-of-a-stock-purchase-set-up-for-my-new-students-gmi-green.md
-  - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
-  - raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md
-  - raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md
-  - raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md
-  - raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md
-  - raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md
-  - raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md
-  - raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md
-  - raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md
-  - raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md
-  - raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md
-  - raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md
-  - raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md
-  - raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md
-  - raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md
-  - raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md
-  - raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md
-  - raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md
-  - raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md
-  - raw/posts/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md
-  - raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md
-  - raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
+  - raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md
+  - raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md
+  - raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md
+  - raw/posts/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md
+  - raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md
+  - raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md
+  - raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md
+  - raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md
+  - raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md
+  - raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md
+  - raw/posts/2011-09-19-3118.md
+  - raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md
+  - raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md
+  - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
+  - raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md
+  - raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md
+  - raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md
+  - raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md
+  - raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md
+  - raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md
+  - raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md
+  - raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md
+  - raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md
+  - raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md
+  - raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md
+  - raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md
 ---
 
 # Stock selection
@@ -181,72 +162,13 @@ He urges: "I urge my students to paste copies of these stocks to their computer 
 
 The RWB pattern is universally applicable: a stock can remain RWB for a year or more, rewarding patient holders. CMI was cited as a submarine stock that transformed into a rocket. ([WW 2010-09-27](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
 
-## The daily RWB scan — finding RWB-bounce entries (introduced 2017)
+## The scans
 
-For timing entries, Dr. Wish uses a **daily** RWB chart with the Red Line Count (RLC) metric. An advancing stock will have RLC = 6 (above all six red lines). A stock that dips below all red lines (RLC = 0) and then recovers above all of them is a re-entry candidate — the "RWB bounce." He published a TC2000 scan (12162017DailyRWBBounce) that finds such stocks. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
+The published scan definitions — daily RWB bounce (2017), weekly doubler-ATH (2020), weekly consolidation-breakout (2016), weekly green bar (2022–24), ATH-past-40-days + Bollinger pullback (2017), triple-support bounce (2017), the biotech scan, the IBD screener workflow (2020) and the TSLA GLB workflow — now live on their own page: [The scans](scans.md).
 
-Filter condition: any stock in the scan that is **not above its last green line top** is disqualified because of overhead supply from prior buyers at higher prices. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
+## Entry signals
 
-For market-wide assessment using the same tool: monitor QQQ, SPY, and DIA RLCs. In March 2017, SPY had RLC = 0 and the Dow Jones Transportation Average had lost its entire RWB pattern — a warning he flagged as a potential Dow Theory caution. ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
-
-## The weekly doubler-ATH scan (2020) — full syntax
-
-Darvas's doubled-in-a-year criterion operationalised as a weekly TC2000 column scan, syntax
-published verbatim: `H=maxH50` (52-week high this week); `H>2*H50 or H>1.5*MinL50` (doubled
-year-over-year, or 1.5× off the yearly low); `V>1.3*AvgV50` (breakout-week volume 130% of
-average); `C>20` ("I don't buy cheap stocks"). Yield: 74 of 5,096 US stocks, 25 of his 948-stock
-IBD/MS watchlist. The scan feeds the GLB step rather than replacing it — each survivor's
-*monthly* chart is opened and the green line drawn by hand. Best example of the doubling logic:
-"Taser went up 7x, consolidated, and then went up 7x again." ([WW 2020-09-20](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
-
-## The weekly consolidation-breakout scan (2016) — and short interest as fuel
-
-A weekly-chart scan for growth stocks emerging from a **multi-week consolidation**: minimum
-weekly volume, **above-average volume on the breakout week**, latest quarterly EPS **≥ +50%** —
-4 survivors out of ~4,900. The annotated WB chart documents his chart-header legend: latest
-quarterly EPS, price ÷ price-250-days-ago (WB at 2.64×, the doubled-in-a-year check), projected
-earnings date, and the **short interest ratio read as breakout fuel**: at 3.6 days-to-cover,
-"the higher the number, the greater the buying pressure from a break-out" — shorts as future
-forced buyers. Epistemic tag attached even to his own hits: highest weekly volume since 2014
-"could signify the resumption of the up-trend **or it could mean nothing**."
-([WW 2016-11-27](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md))
-
-## The weekly green bar scan — a later entry filter (formalized 2022–2024)
-
-Dr. Wish also runs a weekly scan for "green bar" setups — stocks bouncing off the rising 4-week average. An early version of the scan criteria (April 2022) required: (1) stock in 4wk>10wk>30wk alignment (Stage 2), (2) bounced off the rising 4-week average last week, (3) weekly close *higher than the prior week's close* (this is the "green bar" — a week that does not close higher is not green even if it bounced the 4wk avg), (4) RS vs S&P 500 at a 20-week high, (5) hit an ATH last week. Candidate pool: the IBD/MarketSmith watchlist. ([WW 2022-04-17](../../raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md))
-
-By 2024 the formalized scan added: weekly 10.4 stochastic above 80 for at least 5 weeks; stock up ≥ 50% from a year ago. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
-
-**Trailing stop rules for WGB positions (explicit):** "An advancing stock rides its rising 4 wk avg for many weeks." Stop logic: (1) initial stop: sell if stock trades back below last week's low; (2) trailing: lighten or sell when the stock ends a week *below its 4-week average*; (3) final exit: close below the 10-week average. Can also trail stop at each subsequent green bar's low. ([WW 2022-04-17](../../raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md))
-
-The weekly approach gives more entry opportunities than waiting for a bounce off the 10-week average: in ANF's 2023–2024 up-trend, the 4-week average generated 20+ green-bar entries vs. only 4 bounces off the 10-week average. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
-
-**The WGB scan works during GMI Red periods** if a subsector is in Stage 2. In April 2022, 25 stocks (commodities, oil/defense) passed the scan while the broader market was in Stage 4. ([WW 2022-04-17](../../raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md))
-
-## BOS (Bounce off Support) — the preferred alternative to buying at the GLB (introduced 2016)
-
-Dr. Wish introduced the **BOS (Bounce off Support)** strategy in mid-2016 and described it as his *preferred* alternative to buying stocks at the exact moment of a GLB. The GLB occurs when a stock first crosses its green line — at that point, it is typically not oversold. BOS waits for a rocket stock to pull back to a support level and then bounce up, allowing a tighter stop.
-
-The statement is explicit: "I actually like this strategy better than trading GLBs." ([WW 2016-06-05](../../raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md))
-
-> **This preference hardened over time.** BOS (2016) was renamed and tightened into the **OSB / ATHOSB** setup from 2021, which adds an explicit recent-ATH prerequisite and a stochastic-based trigger. By 2023 he stated the preference over breakouts as doctrine rather than taste, on stop-placement grounds. The full treatment is on its own page: **[the oversold bounce (OSB / ATHOSB)](oversold-bounce.md)**. ([WW 2023-07-13](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
-
-**The BOS setup requires:**
-
-1. A strong, rising rocket stock (RWB pattern, above its last green line top).
-2. A market in an up-trend (GMI on Buy signal or QQQ short-term up-trend active).
-3. The stock has pulled back to support and is bouncing up.
-4. **Primary oversold signal:** the stock's daily low has traded down to or below the **lower 15.2 Bollinger Band** (a 15-day moving average ± 2 standard deviations). ([WW 2016-07-24](../../raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md))
-
-**Entry and stop mechanics:**
-
-- Buy on strength — if the stock trades above the prior day's high (i.e., the bounce is confirmed with upward price action).
-- Place a GTC sell stop immediately and automatically, just below the low of the bounce (e.g., slightly below the low that touched the Bollinger Band). This keeps losses small because the stop is very close to the entry.
-- "Each small loss brings me closer to the next big gain — no ego allowed." ([WW 2016-07-24](../../raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md))
-
-After a BOS entry, if the stock holds and advances, Dr. Wish can add to the position so that the few large winners more than offset the many small losses. He also tweets BOS alerts intraday (@WishingWealth), specifying the symbol and the price at which the trade would be considered failed. ([WW 2016-06-05](../../raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md))
-
-Additional entry support levels for BOS (besides the 15.2 BB): bounces off the 30-day, 50-day, or 8-day moving average also qualify. See the [BGNE trade example (WW 2017-09-04)](../../raw/posts/2017-09-04-bgne-example-of-a-stock-purchase-set-up-for-my-new-students-gmi-green.md) for a full three-chart (monthly/weekly/daily) BOS setup procedure.
+BOS (2016), the black dot (2021), the recent-practice bounce setups (green dot 2020, x8/x21/30 2024, blue dot 2025) now live on their own page: [Entry signals](entry-signals.md).
 
 ## Building the ATH watchlist — and TC2000's survivorship trap
 
@@ -259,45 +181,6 @@ periodically repeated; then a manual pass that deletes false ATHs and **draws th
 hand** on the monthly charts. The rationale for mining ATHs in weak markets: "A stock that can
 come through market turmoil and still hit an all time high is a stock that **might take off when
 the market strengthens**" (how he found GMCR in April 2009). ([WW 2018-04-01](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
-
-## The IBD screener workflow (2020)
-
-A four-criterion screen on IBD's own tool: "**RS 90-99, ACC/DIS = A or B, Price >30, Next
-Quarter EPS est >100%**" — 36 survivors out of 7,000+, exported to Excel and imported into
-TC2000 for alerts on his set-ups. The survivors read like his existing watchlist (CRWD, DDOG,
-ETSY, PTON, ZM, ZS), which is the point: the screen mechanises the sourcing. The engine behind
-the criteria: "William O'Neil and David Ryan teach people to buy great stocks with proven or
-expected large earnings increases. **Great earnings propel stocks higher**" — and the origin
-credit, "I began to make money in the market after reading [O'Neil's book]." Tutorial video by
-his student Richard Moglen. ([WW 2020-10-04](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
-
-## The TSLA GLB workflow — step by step
-
-The clearest description of the full GLB detection workflow, using TSLA's April 2013 breakout as the teaching case ([WW 2013-05-20](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md)):
-
-1. **Evening scan:** run a scan for stocks hitting new 52-week highs. TSLA appeared on the new-high list on April 1, 2013.
-2. **Monthly GLB check:** immediately look at the monthly chart. TSLA closed at $43.93 on April 1 — well above its prior peak of $39.95 from March 2012. Draw the green line at $39.95.
-3. **Weekly chart:** check for confirmation via volume. TSLA's weekly volume on the breakout week was "the highest weekly volume ever" — a sign of institutional accumulation.
-4. **Daily chart:** look for a gap-up above the green line on high daily volume. TSLA gapped to a new all-time high on above-average volume on April 1.
-5. **Re-test entry:** TSLA pulled back to the green line ($39.95) after the initial breakout, giving a lower-risk second entry. If the stock closes back below the green line after the re-test, exit with a small loss.
-
-**IPO advantage:** TSLA was a recent IPO in a new growth industry (battery-powered cars). Most funds would not yet own it — therefore a large future buyer base existed. IPO stocks breaking to new ATHs often carry this advantage.
-
-**General principle:** "Why are so many people averse to buying stocks that break from a multi-month base (green line top) to a new all-time high? In the stock market I do not want to buy bargains." ([WW 2013-05-20](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md))
-
-## The biotech scan — volume plus news catalyst
-
-In addition to the general RWB/GLB scans, Dr. Wish runs a specialized scan for biotech stocks. The combination: technical unusual-volume alert + fundamental news-catalyst reading.
-
-**TC2000 scan:** each evening, scan for biotech stocks that advanced on **unusually high volume** that day. High volume in a biotech signals that someone knows something.
-
-**News-catalyst reading:** read news reports about drug companies' scheduled clinical trial presentations or FDA review dates. "Being in the research field, I know that one schedules public presentations to highlight good research results." An upcoming major presentation is a likely positive-catalyst indicator.
-
-**AGIO example (September 2014):** AGIO had a major presentation scheduled at a Leerink conference. The nightly scan had flagged it. The stock "took off" the next day. ([WW 2014-09-28](../../raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md))
-
-**General rule:** the scan produces candidates; the news determines which are worth owning. Dr. Wish maintains a growing watchlist of stocks that have appeared in the scan and monitors them over time for further technical strength. He intentionally does not publish specific output because he wants people to do their own due diligence.
-
-**3:45 PM intraday timing rule:** "I restrict most of my daily trading to around 3:45 PM when I can estimate where things will close. If I trade earlier in the day I am often whipsawed." ([WW 2014-09-28](../../raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md))
 
 ## O'Neil 1995 workshop: volume over EPS
 
@@ -335,26 +218,6 @@ to decline more... **during major declining markets**." ([WW 2013-12-09](../../r
 
 Earlier (2012) IBD50 data: from December 2011 through April 2012, IBD50 median gain was +20% vs Nasdaq100 +15% vs S&P500 +10%; 34% of IBD50 gained 30%+, vs 16% of Nasdaq100. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
 
-## ATH-past-40-days + lower Bollinger Band pullback scan (introduced 2017)
-
-David Ryan (William O'Neil's protege), as quoted in _Momentum Masters_ (2015, p. 72): "I basically simplify it down to two, breakouts and pullbacks. Don't get confused by all the different formations. You just have to draw a line across the top of where most of the stock's trading has taken place. Then you buy as it moves through that line… Buying pullbacks are a bit more complicated but offer another entry point to get aboard a leading stock." ([WW 2017-01-29](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
-
-In January 2017, Dr. Wish created a new TC2000 scan (name: `01292017ATHhipast40daysBLBB`) that embodies the pullback approach. Applied to his ~800-stock ATH watchlist, it finds:
-
-1. Stock hit a new all-time high within the past 40 days
-2. Stock is currently bouncing up from its lower Bollinger Band (15.2 setting)
-
-This is distinct from the [BOS scan](stock-selection.md) (which uses a broader universe and a different trigger). The purpose is to find post-GLB pullback re-entries: stocks that already broke out, pulled back to oversold levels, and are resuming the advance. A pullback/bounce entry **does not require elevated volume** (unlike the GLB itself). Low volume on the pullback is a positive sign — selling has dried up. The stop is placed just below the recent bounce low. ([WW 2017-01-29](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
-
-## The triple-support bounce scan (2017)
-
-The strictest member of the bounce family: stocks that "bounced up off of **3 daily indicators
-of support/over-sold** within the past few days," ≥50% above the 250-day low, above $15 — **8 of
-4,800**. The PETS hit stacked everything at once: May GLB on high volume, consolidation, doubled
-in a year, EPS +37%/Comp 96/RS 98, and a rising yellowband. And the earnings-date hazard handled
-out loud: "PETS reports earnings on Monday morning... What to do? **Buy PETS a collar?!**"
-([WW 2017-07-23](../../raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md))
-
 ## The pilot portfolio — 25-share radar positions (2014)
 
 The pilot buy scaled to a watchlist: across 11 biotech GLB candidates in a down-trend, "buy a
@@ -362,26 +225,6 @@ few shares (up to 25) of each **just to keep them on my radar screen**. I then s
 to those that prove themselves and exit those that fail. I am looking for multi-month or year
 long moves." Ownership as attention; the winners select themselves. Paired with the biotech
 exemption — "so many discoveries... this is one area that can buck the market trend." ([WW 2014-10-05](../../raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md))
-
-## The black dot — oversold-bounce signal (introduced 2021)
-
-For stocks already in an up-trend that have pulled back to an oversold level, Dr. Wish uses the **black dot** signal as an entry. A black dot appears on his TC2000 daily chart when: (1) the daily 10.1 stochastic was ≤25 in any of the past 3 days; (2) current price > prior day's price; (3) stock is above its 30-day average or its 21-day exponential average. ([WW 2021-06-13](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
-
-The black dot only works on stocks already in a confirmed up-trend. He often combines it with the GLB: "I love a black dot that occurs after a GLB." The scan finds stocks that recently hit an ATH, became oversold, and are starting to turn up — placing the stop below the bounce gives a tight risk level.
-
-## Recent practice (2020-2025)
-
-### Bounce-off-support: green dot + stop below bounce low (2020)
-
-A July 2020 post formalised a complementary entry strategy that Dr. Wish had been using alongside GLBs. The logic: strong growth stocks that have already appreciated significantly will sometimes become oversold and bounce off support. The **green dot** signal — "low fast stochastic turns up and crosses above the slow stochastic" in TC2000 — marks the oversold bounce. Entry: after the green dot appears, buy on strength. Stop: GTC sell stop placed just below the recent bounce low. "The shake out often sets up a nice subsequent advance" — high-volume down days before the bounce can be bullish because weak holders sold and shorts are set up against the stock. The key advantage over a GLB entry: at a GLB, the stop is the green line, which may be far from the current price if the stock moved quickly; the bounce-off-support approach narrows the distance between entry and stop, reducing maximum loss per trade. Do not anticipate the bounce — wait for the green dot before buying. ([WW 2020-07-19](../../raw/posts/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md))
-
-### x8/x21/30-day alignment: the daily bounce setup (introduced 2024)
-
-In June 2024 Dr. Wish introduced a new daily-chart entry framework driven by three exponential/simple moving averages: the **8-day EMA (x8)**, the **21-day EMA (x21)**, and the **30-day SMA**. The structure requirement for a tradeable setup is x8 > x21 > 30-day — all three in ascending order on the daily chart. Entry trigger: buy a stock that is bouncing up off the 8-day EMA. Failure trigger: sell (GTC stop below the 8-day EMA) if the stock closes back below it. The setup's primary value is that it defines a very specific, immediate failure exit — any close below x8 = out. TC2000 scan criteria: x8>x21>30 alignment + up ≥50% from a year ago + ATH within the last 5 weeks + currently bouncing off the x8. Fundamentals are verified in MarketSmith before committing capital. Worked examples at introduction: COST, ANF, NVDA, and CVLT. The 8-day EMA influence comes from Pat Walker; the 21-day EMA from IBD/CAN SLIM research; the combined construction is Dr. Wish's own. ([WW 2024-06-16](../../raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md))
-
-### Blue dot of happiness: full scan formula disclosed (2025)
-
-After a Boston IBD Meetup presentation in May 2025, Dr. Wish published the most complete public disclosure of his **Blue Dot of Happiness** TC2000 indicator and scan criteria. The indicator formula: `IIf(Stoc10.1 > 20 AND Stoc10.1[1] < 20, close - 1, null)` — it marks, as a dot one dollar below the day's low, the day the 10.1 daily stochastic crosses above 20. Full scan criteria: (1) blue dot appeared within the last 3 days; (2) stochastic above 20 today, below 20 yesterday (the crossover condition); (3) volume > 200,000 shares; (4) close > $15; (5) Stoc1.1 > 50 (price in the top half of the current day's range); (6) within 3 months of a 250-bar monthly high (near-ATH proxy); (7) optionally: bounced off the lower 15.2 Bollinger Band within the last 3 days. The scan runs against a curated watchlist of stocks that have previously appeared on IBD50 or MarketSurge. Earnings-date and fundamental checks are applied before buying. Exit context: he also restated the broad portfolio exit rule — "If QQQ should close back below its 30-week average I will exit all stocks again." ([WW 2025-05-22](../../raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md))
 
 ## See also
 
@@ -396,51 +239,32 @@ After a Boston IBD Meetup presentation in May 2025, Dr. Wish published the most 
 
 - [WW 2005-04-23 — Let's Talk Strategy](../../raw/posts/2005-04-23-lets-talk-strategy.md) ([summary](../sources/2005-04-23-lets-talk-strategy.md))
 - [WW 2005-04-30 — My Trading Strategy, Part II](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md) ([summary](../sources/2005-04-30-my-trading-strategy-part-ii.md))
+- [WW 2005-05-04 — A Google Confession: the gap rule and the doubling rationale](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md) ([summary](../sources/2005-05-04-a-google-confession-ww-gmi-1.md))
 - [WW 2005-06-05 — GMI back to +5; on moving averages](../../raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md) ([summary](../sources/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md))
-- [WW 2010-02-22 — How to use IBD 100 and New America stocks to find rocket stocks](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md) ([summary](../sources/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
-- [WW 2010-09-27 — Introducing Red White and Blue (RWB) Stocks](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md) ([summary](../sources/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
-- [WW 2011-07-25 — My strategy for trading stocks that will advance $25 per share in a month](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md) ([summary](../sources/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
-- [WW 2012-04-30 — How I find the next AAPL growth stock; new GMI buy signal](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md) ([summary](../sources/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
-- [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
-- [WW 2016-06-05 — Introducing BOS (Bounce off Support)](../../raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md) ([summary](../sources/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md))
-- [WW 2016-07-24 — BOS mechanics: the Bollinger Band bounce and stop placement](../../raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md) ([summary](../sources/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md))
-- [WW 2017-03-19 — How I use daily RWB charts to size up the market and individual stocks](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md) ([summary](../sources/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
-- [WW 2017-09-04 — BGNE: monthly/weekly/daily trade setup example](../../raw/posts/2017-09-04-bgne-example-of-a-stock-purchase-set-up-for-my-new-students-gmi-green.md) ([summary](../sources/2017-09-04-bgne-example-of-a-stock-purchase-set-up-for-my-new-students-gmi-green.md))
-- [WW 2017-12-17 — A strategy for deciding when to sell stocks; GDS, NVDA](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md) ([summary](../sources/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
-- [WW 2018-01-21 — Why buying stocks over $100 is more profitable](../../raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md) ([summary](../sources/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md))
-- [WW 2020-09-06 — Bollinger Bands: entry and extension signals](../../raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md) ([summary](../sources/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md))
-- [WW 2021-06-13 — TraderLion conference; black dot signals; GMI=6](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md) ([summary](../sources/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
-- [WW 2022-12-04 — TC2000 gap-up scan; $TMDX $TMUS](../../raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md) ([summary](../sources/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md))
-- [WW 2024-05-27 — ANF worked example (weekly green bar)](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md) ([summary](../sources/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
-- [WW 2022-04-17 — WeeklyGreenBar scan full criteria; trailing stop rule](../../raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md) ([summary](../sources/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md))
-- [WW 2022-06-05 — ATH-only selection; GLB re-entry; Darvas/Ryan doubler criterion](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md) ([summary](../sources/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))
-- [WW 2012-06-18 — 1990s trading diary; Darvas scan; stock-selection funnel](../../raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md) ([summary](../sources/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md))
-- [WW 2021-01-18 — IBD/MS growth stocks outperform; stock selection justification](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md) ([summary](../sources/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))
-- [WW 2011-02-07 — IBD as required reading; 30-day avg as stop on RWB bounce](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md) ([summary](../sources/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
-- [WW 2013-05-20 — TSLA GLB worked example; full stock-selection workflow](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md) ([summary](../sources/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md))
-- [WW 2013-06-09 — 2-for-1 method; TQQQ vs individual stocks data](../../raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md) ([summary](../sources/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md))
-- [WW 2014-09-28 — Biotech scan; news catalyst; AGIO and VRTX; 3:45 PM rule](../../raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md) ([summary](../sources/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md))
-- [WW 2016-10-02 — O'Neil 1995 workshop diary; LMAT BOS setup; two-close GLB rule](../../raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md) ([summary](../sources/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md))
-- [WW 2011-04-04 — IBD50 vs Nasdaq100/S&P500 systematic comparison; 10-week bounce scan](../../raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md) ([summary](../sources/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md))
-- [WW 2017-01-29 — David Ryan quote; ATH-past-40-days + lower BB pullback scan; PLAY](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md) ([summary](../sources/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
-- [WW 2006-05-22 — Submarine scan criteria; IBD-100 amplifies down-moves](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md) ([summary](../sources/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
-- [WW 2010-05-03 — TC2007 submarine scan; sector-pair validation method](../../raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md) ([summary](../sources/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md))
-- [WW 2020-07-19 — Bounce-off-support: green dot + stop below bounce low](../../raw/posts/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md) ([summary](../sources/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md))
-- [WW 2024-06-16 — x8/x21/30-day alignment bounce entry setup; COST ANF NVDA CVLT](../../raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md) ([summary](../sources/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md))
-- [WW 2025-05-22 — Blue dot of happiness: full TC2000 scan formula; Boston IBD Meetup](../../raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md) ([summary](../sources/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md))
 - [WW 2005-07-17 — GMI since inception; introducing the WPM](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md) ([summary](../sources/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
-- [WW 2021-08-11 — Why buying stocks over $200 works better, revisited; BNTX GS](../../raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md) ([summary](../sources/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md))
-- [WW 2023-07-13 — CAVA's break-out fails; why I prefer my OSB set-up over break-outs](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md) ([summary](../sources/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
+- [WW 2006-05-22 — Submarine scan criteria; IBD-100 amplifies down-moves](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md) ([summary](../sources/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
 - [WW 2007-09-17 — IBD100 survivorship bias; leadership decays after ~4 months](../../raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md) ([summary](../sources/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md))
 - [WW 2007-10-01 — IBD100 outperformance in a rising market; buy-stop automation (PAY)](../../raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md) ([summary](../sources/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md))
-- [WW 2023-04-24 — WING missed GLB; TC2000 price alerts](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md) ([summary](../sources/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
-- [WW 2005-05-04 — A Google Confession: the gap rule and the doubling rationale](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md) ([summary](../sources/2005-05-04-a-google-confession-ww-gmi-1.md))
-- [WW 2020-10-04 — The IBD screener workflow; the all-12-GMMA exit line](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md) ([summary](../sources/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
-- [WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap; LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md) ([summary](../sources/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
-- [WW 2013-12-09 — Yes, one can time the market; the IBD50 downside test](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md) ([summary](../sources/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))
-- [WW 2016-11-27 — The weekly consolidation-breakout scan; short interest as fuel](../../raw/posts/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md) ([summary](../sources/2016-11-27-new-tc2000-scan-yields-4-break-outs-from-consolidation-wb-sina-hpp-arcw.md))
-- [WW 2020-09-20 — The weekly doubler-ATH scan, full syntax; the note on the monitor](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) ([summary](../sources/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
-- [WW 2011-09-19 — Behavior over words; adviser-sentiment inversion; the point-move arithmetic](../../raw/posts/2011-09-19-3118.md) ([summary](../sources/2011-09-19-3118.md))
 - [WW 2008-05-05 — The kiss-of-death study](../../raw/posts/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md) ([summary](../sources/2008-05-05-gmi-4-gmi-r-8-ibd100-stock-list-the-kiss-of-death.md))
-- [WW 2017-07-23 — The triple-support bounce scan; PETS](../../raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md) ([summary](../sources/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md))
+- [WW 2010-02-22 — How to use IBD 100 and New America stocks to find rocket stocks](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md) ([summary](../sources/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
+- [WW 2010-05-03 — TC2007 submarine scan; sector-pair validation method](../../raw/posts/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md) ([summary](../sources/2010-05-03-market-showing-serious-signs-of-weakness-surprising-tc2007-submarine-scan-results.md))
+- [WW 2010-09-27 — Introducing Red White and Blue (RWB) Stocks](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md) ([summary](../sources/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
+- [WW 2011-02-07 — IBD as required reading; 30-day avg as stop on RWB bounce](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md) ([summary](../sources/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
+- [WW 2011-04-04 — IBD50 vs Nasdaq100/S&P500 systematic comparison; 10-week bounce scan](../../raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md) ([summary](../sources/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md))
+- [WW 2011-07-25 — My strategy for trading stocks that will advance $25 per share in a month](../../raw/posts/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md) ([summary](../sources/2011-07-25-my-strategy-for-trading-stocks-that-will-advance-25-per-share-in-a-month.md))
+- [WW 2011-09-19 — Behavior over words; adviser-sentiment inversion; the point-move arithmetic](../../raw/posts/2011-09-19-3118.md) ([summary](../sources/2011-09-19-3118.md))
+- [WW 2012-04-30 — How I find the next AAPL growth stock; new GMI buy signal](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md) ([summary](../sources/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
+- [WW 2012-06-18 — 1990s trading diary; Darvas scan; stock-selection funnel](../../raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md) ([summary](../sources/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md))
+- [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
+- [WW 2013-06-09 — 2-for-1 method; TQQQ vs individual stocks data](../../raw/posts/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md) ([summary](../sources/2013-06-09-up-trend-intact-2-for-1-method-for-managing-stock-market-risk-gmi-based-system-to-trade-qld-leads-the-pack-ag.md))
+- [WW 2013-12-09 — Yes, one can time the market; the IBD50 downside test](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md) ([summary](../sources/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))
 - [WW 2014-10-05 — The pilot portfolio: 25-share radar positions](../../raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md) ([summary](../sources/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md))
+- [WW 2016-10-02 — O'Neil 1995 workshop diary; LMAT BOS setup; two-close GLB rule](../../raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md) ([summary](../sources/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md))
+- [WW 2018-01-21 — Why buying stocks over $100 is more profitable](../../raw/posts/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md) ([summary](../sources/2018-01-21-why-buying-stocks-over-100-is-more-profitable.md))
+- [WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap; LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md) ([summary](../sources/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
+- [WW 2020-09-06 — Bollinger Bands: entry and extension signals](../../raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md) ([summary](../sources/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md))
+- [WW 2021-01-18 — IBD/MS growth stocks outperform; stock selection justification](../../raw/posts/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md) ([summary](../sources/2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up.md))
+- [WW 2021-08-11 — Why buying stocks over $200 works better, revisited; BNTX GS](../../raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md) ([summary](../sources/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md))
+- [WW 2022-06-05 — ATH-only selection; GLB re-entry; Darvas/Ryan doubler criterion](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md) ([summary](../sources/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))
+- [WW 2022-12-04 — TC2000 gap-up scan; $TMDX $TMUS](../../raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md) ([summary](../sources/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md))
+- [WW 2023-04-24 — WING missed GLB; TC2000 price alerts](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md) ([summary](../sources/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))

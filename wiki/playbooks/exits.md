@@ -102,7 +102,7 @@ The weekly approach suits part-time traders: decisions are made on Friday evenin
 
 When the overall market turns against you, the individual-stock trailing rules may be too slow.
 
-- **GMI ≤ 3:** he "like[s] to be long if the GMI is 4 or more" — below that, get defensive: raise stops, reduce exposure. ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md)) Full signal table on the [GMI page](../methodology/gmi.md#signals).
+- **GMI ≤ 3:** he "like[s] to be long if the GMI is 4 or more" — below that, get defensive: raise stops, reduce exposure. ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md)) Full signal table on the [GMI page](../methodology/gmi.md#the-signals--buy-sell-and-the-hold-state-at-3).
 - **GMI below 3 for two consecutive days = Sell signal:** exit the long side of the trading accounts. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
 - **30-week average of QQQ/SPY closes below and then turns down:** typically exit the market. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 - **New lows surging while index at ATH (breadth divergence):** a signal to exit. Example: in November 2021, QQQ was at all-time highs (day U-26) while new lows reached 438. Dr. Wish exited and stayed out for over a year through the subsequent Stage 4 decline. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))

@@ -41,7 +41,7 @@ Given today's readings of the [GMI](../methodology/gmi.md), the [QQQ short-term 
 He runs two speeds, and the rest of this page is for the fast one.
 
 - **Trading IRA:** follows every rule below — "when [the GMI] declines to 3 or below, I get defensive in my trading IRA." ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md))
-- **University pension:** stays invested while the *weekly* trend holds, and ignores GMI Sell signals — after seven Sell/Buy whipsaws in a year he concluded "a GMI Sell signal should only be used by me for short term trading decisions" and that he should "remain invested long term... as long as the RWB pattern is in place." ([WW 2015-02-22](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md)) The pension exits by the [staged 30-week protocol](#step-5--weekly-stage-check-and-the-pension), not by the GMI. Full treatment: [risk-and-cash](../methodology/risk-and-cash.md#university-pension-vs-trading-ira).
+- **University pension:** stays invested while the *weekly* trend holds, and ignores GMI Sell signals — after seven Sell/Buy whipsaws in a year he concluded "a GMI Sell signal should only be used by me for short term trading decisions" and that he should "remain invested long term... as long as the RWB pattern is in place." ([WW 2015-02-22](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md)) The pension exits by the [staged 30-week protocol](#step-5--weekly-stage-check-and-the-pension), not by the GMI. Full treatment: [the two accounts](../methodology/pension-management.md#university-pension-vs-trading-ira).
 
 ---
 
@@ -86,7 +86,7 @@ New lows surging while the index is at a high is an exit signal *before* the GMI
 
 - **QQQ/SPY closes below its 30-week average:** "very defensive" — no new buys, raise stops on everything. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 - **The 30-week average itself turns down (Stage 4):** typically exit the market. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
-- **Pension, staged:** first close under the 30-week → move ~25% to money market; another 25% on each further deterioration; toward 100% when the 30-week is declining. At GMI = 0 he has moved 60% at once, timing penalties accepted — "if the market were to turn up in the next few months I would have no regrets as I would simply hop back on at a higher level." ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md)) Protocol in full: [risk-and-cash](../methodology/risk-and-cash.md#the-staged-pension-exit-protocol).
+- **Pension, staged:** first close under the 30-week → move ~25% to money market; another 25% on each further deterioration; toward 100% when the 30-week is declining. At GMI = 0 he has moved 60% at once, timing penalties accepted — "if the market were to turn up in the next few months I would have no regrets as I would simply hop back on at a higher level." ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md)) Protocol in full: [the two accounts](../methodology/pension-management.md#the-staged-pension-exit-protocol).
 
 ---
 

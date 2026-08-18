@@ -21,20 +21,20 @@ Dr. Wish has traded since the 1960s and blogs daily (since April 2005) about mar
 
 Every trade depends on a favorable market environment. "More than 70% of all stocks move in the same direction of the trend in the major indexes." ([WW 2005-04-23](../raw/posts/2005-04-23-lets-talk-strategy.md))
 
-- **[General Market Index (GMI)](methodology/gmi.md)** — the 0–6 composite. Score ≥ 4 = GREEN (be long); score ≤ 3 = RED (be defensive). Six binary components covering new-high quality, index trend, and breadth.
+- **[General Market Index (GMI)](methodology/gmi.md)** — the 0–6 composite. Score ≥ 4 = GREEN (be long); score ≤ 3 = RED (be defensive). Six binary components covering new-high quality, index trend, and breadth. Companion indexes (GMI-S, GMI-L, GMI-R, GMI2) are on [the GMI family](methodology/gmi-family.md); how the components were recovered from his published tables is on [GMI evidence](methodology/gmi-evidence.md).
 - **[QQQ Short-Term Timing](methodology/qqq-short-term-timing.md)** — a day-count of the QQQ's current short-term up-trend or down-trend. Published in each post title as "Day N of the QQQ short-term up-trend."
 - **[T2108](methodology/t2108.md)** — breadth: % of NYSE stocks above their 40-day MA. > 80% = extended; < 10% = contrarian buy zone.
 - **[Moving-average rules](methodology/moving-average-rules.md)** — 30-week average of QQQ/SPY as the long-term trend boundary; 10-week as the individual-stock holding rule.
-- **[Risk & cash](methodology/risk-and-cash.md)** — when to sit out; the 30-week average exit trigger; drawdown discipline.
+- **[Risk & cash](methodology/risk-and-cash.md)** — when to sit out; the 30-week average exit trigger; drawdown discipline. Split out from it: [the two accounts](methodology/pension-management.md) (pension vs trading IRA, the staged pension exit), [the short side](methodology/short-side.md) (submarine scan, hedging, options), [the leveraged-ETF default](methodology/leveraged-etf-default.md) (TQQQ on a Buy signal), and the worked [defensive episodes](history/defensive-episodes.md).
 
 ## The stock-selection side — what to buy
 
 Once the market is GREEN, the process narrows the universe to the best rocket candidates.
 
 - **[Green Line Breakouts (GLB)](methodology/green-line-breakouts.md)** — buying stocks that break above an all-time high that held for ≥ 3 months on a monthly chart (the "green line"). Scan for stocks on the new-52-week-high list that are breaking through a green-line base.
-- **[Stock selection](methodology/stock-selection.md)** — the RWB weekly GMMA pattern (shorter-term MAs above longer-term MAs, white space between) as the visual filter; preference for stocks priced $80+; lightweight fundamental check (earnings growth, great product).
+- **[Stock selection](methodology/stock-selection.md)** — the RWB weekly GMMA pattern (shorter-term MAs above longer-term MAs, white space between) as the visual filter; preference for stocks priced $80+; lightweight fundamental check (earnings growth, great product). The published scan definitions are catalogued on [the scans](methodology/scans.md).
 - **[The oversold bounce (OSB / ATHOSB)](methodology/oversold-bounce.md)** — how he actually enters. He rarely buys the GLB moment itself: a strong stock near a recent ATH pulls back until it is oversold, then turns up, and he buys the turn with an immediate stop below the bounce low. He says plainly that he *prefers this to breakouts* — not for a better hit-rate but because a failed breakout has no naturally-defined stop and a failed bounce does. ([WW 2023-07-13](../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
-- **Related entry triggers** — the same bounce-off-support family: BOS off the lower 15.2 Bollinger Band, the weekly green bar, and the black / green / blue-dot stochastic signals. See [stock-selection](methodology/stock-selection.md) and [moving-average rules](methodology/moving-average-rules.md).
+- **Related entry triggers** — the same bounce-off-support family: BOS off the lower 15.2 Bollinger Band, the weekly green bar, and the black / green / blue-dot stochastic signals. See [entry signals](methodology/entry-signals.md) and [moving-average rules](methodology/moving-average-rules.md).
 
 ## Playbooks — decisions under uncertainty
 
