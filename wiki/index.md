@@ -26,6 +26,7 @@ answering a question, then drill into the linked pages. (Updated on every Ingest
 
 - [Market state → stance](playbooks/market-state.md) — GMI + QQQ-timing + T2108 + breadth divergence → bull/defensive/cash stance; decision tree. (updated 2026-05-11, 5 sources)
 - [Buying a Green Line Breakout](playbooks/buying-glb.md) — 6-step GLB entry checklist: market gate → candidate identification → RWB/Stage 2 check → entry → stop → adding; exit rules incl. immediate-sell and pyramiding-to-30wk hold; written GLB rules as student checklist + Turtle Traders discipline. (updated 2026-05-12, 9 sources)
+- [Buying an oversold bounce (OSB / ATHOSB)](playbooks/buying-osb.md) — 6-step entry checklist for the setup he prefers to breakouts: market gate → qualify (recent ATH, above green line, daily up-trend, >$200, earnings date) → wait for the turn (black / green / blue dot triggers tabulated) → rank by close÷250-day low → buy the bounce day with an immediate stop under its low → manage; how it chains onto the GLB playbook. (updated 2026-08-18, 14 sources)
 - [Exits](playbooks/exits.md) — stop-loss mechanics; stop vs. protective put; daily RWB red-line exit rule; weekly 10wk-average rule; market-state exits. (updated 2026-05-11, 7 sources)
 
 ## History

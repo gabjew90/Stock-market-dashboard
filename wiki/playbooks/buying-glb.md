@@ -1,7 +1,7 @@
 ---
 title: Playbook — buying a Green Line Breakout
 type: playbook
-updated: 2026-05-12
+updated: 2026-08-18
 sources:
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
@@ -128,6 +128,7 @@ Written and published in April 2023 after missing the WING breakout — these ar
 ## See also
 
 - [Exits](exits.md)
+- [Buying an OSB](buying-osb.md) — the alternative entry if you missed the breakout day, or want the tighter, pre-definable stop
 - [Green Line Breakouts (GLB)](../methodology/green-line-breakouts.md)
 - [Stock selection](../methodology/stock-selection.md)
 - [Market state → stance](market-state.md)

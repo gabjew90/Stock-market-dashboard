@@ -1,7 +1,7 @@
 ---
 title: The oversold bounce (OSB / ATHOSB)
 type: concept
-updated: 2026-08-12
+updated: 2026-08-18
 sources:
   - raw/posts/2018-03-11-green-dot-strategy-defined.md
   - raw/posts/2021-05-06-blog-post-day-2-of-qqq-short-term-down-trend-but-378-new-highs-among-us-stocks-non-qqq-type-stocks-still-risi.md
@@ -81,6 +81,7 @@ The pattern recurs with the later blue-dot variant: SHAK, a recent GLB, fell bac
 
 ## See also
 
+- [Playbook — buying an OSB](../playbooks/buying-osb.md) — the step-by-step entry procedure distilled from this page
 - [Stock selection](stock-selection.md) — BOS, the black/green/blue dots, the $200 rule
 - [Green Line Breakouts (GLB)](green-line-breakouts.md) — what OSB is preferred *to*, and what it pairs with
 - [Exits](../playbooks/exits.md) — stop mechanics

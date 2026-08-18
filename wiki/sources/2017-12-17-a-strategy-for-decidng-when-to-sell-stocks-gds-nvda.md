@@ -1,7 +1,7 @@
 ---
 title: "WW 2017-12-17 — A strategy for deciding when to sell stocks; GDS, NVDA"
 type: source-summary
-updated: 2026-05-11
+updated: 2026-08-18
 sources: [raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md]
 ---
 
@@ -11,7 +11,7 @@ sources: [raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nv
 
 ## What it covers
 
-Dr. Wish describes his shift to **daily RWB charts** as the primary tool for both entry timing and exits. He had previously used the weekly yellowband up-trend with the 10-week average as the exit signal, but found that a weekly close below the 10-week average could give back too much profit. The daily chart offers a faster, more precise sell signal. He also introduces a new TC2000 scan ("12162017DailyRWBBounce") that finds RWB stocks that recently dipped below all six red lines and have now recovered above them, and illustrates the system on GDS (a Chinese tech IPO) and NVDA.
+Dr. Wish describes his (December 2017) shift to **daily RWB charts** as the tool for both entry timing and exits — a position he reversed on the sell side in March 2019, when he made the weekly chart the veto on every sale (see the [exits playbook](../playbooks/exits.md#which-trailing-system-when)). He had previously used the weekly yellowband up-trend with the 10-week average as the exit signal, but found that a weekly close below the 10-week average could give back too much profit. The daily chart offers a faster, more precise sell signal. He also introduces a new TC2000 scan ("12162017DailyRWBBounce") that finds RWB stocks that recently dipped below all six red lines and have now recovered above them, and illustrates the system on GDS (a Chinese tech IPO) and NVDA.
 
 ## Key claims
 

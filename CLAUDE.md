@@ -134,11 +134,24 @@ is visible); prefer `kind_guess == "long_form"` and `unknown` posts first (the
 2. If `tier` is `teaching` or `trade_example`: create `wiki/sources/<stem>.md` from
    `_templates/source-summary.md` — what it teaches/shows, key claims, cited; set
    that post's `summary_page` to `wiki/sources/<stem>.md`.
-3. Update the affected `methodology/`, `playbooks/`, `history/timeline.md` pages —
-   integrate the new information, revise summaries, **flag where it contradicts or
-   refines an earlier claim** (don't silently overwrite — note "Earlier (2009) he
-   said X; by 2015 this became Y"). Bump each touched page's `updated:` and add the
-   post to its `sources:` front-matter and `## Sources` block.
+3. Integrate the new information into the wiki — **one canonical page per fact, then
+   links**. The 2026-08-18 audit found the same claim written out in full on 3–5 pages
+   (GMI signal rules on gmi.md, market-state.md, exits.md, risk-and-cash.md, timeline.md),
+   which is how the "two consecutive readings" fabrication and the "one quarter" drift
+   propagated. So, for each new fact:
+   - **Pick the one page that owns it** (the entity/concept page for a definition or rule;
+     `history/timeline.md` for *when* it changed; a playbook only for the *procedure*).
+     Write it there, cited, and **flag where it contradicts or refines an earlier claim**
+     (don't silently overwrite — note "Earlier (2009) he said X; by 2015 this became Y").
+   - Every other page that needs it gets a one-line pointer (`see [GMI signals](gmi.md#signals)`),
+     not a re-statement. A playbook step may restate a rule in ≤1 sentence *with the same
+     citation* — never a paraphrase from memory.
+   - **Playbooks have a word budget (~1,200)** and hold procedure only. Doctrine, history,
+     worked examples and quotes belong on the concept page the playbook links to. If a
+     playbook step needs more than a sentence of justification, that justification lives
+     on the concept page.
+   Bump each touched page's `updated:` and add the post to its `sources:` front-matter
+   **and** its `## Sources` block (`ww lint` errors if the two disagree).
 4. Update `wiki/index.md` for any new/changed pages.
 5. Append to `wiki/log.md`:
    `## [YYYY-MM-DD] ingest | <post date> <post title> — tier=<tier>; touched: <pages>`.
@@ -169,7 +182,11 @@ Run `ww lint .` (mechanical) and periodically do a **semantic** pass yourself:
   section; **posts cited in a page's body but not listed in that page's `## Sources` block**;
   pages not catalogued in `index.md`; orphan pages (no inbound link from
   any other wiki page; `overview.md`/`index.md`/`log.md` exempt); `posts.jsonl` **and
-  `ingest-ledger.jsonl`** rows whose `summary_page` points at a missing file.
+  `ingest-ledger.jsonl`** rows whose `summary_page` points at a missing file;
+  **front-matter present with `title`/`type`/`updated` (ISO date)/`sources`, and the
+  front-matter `sources:` list agreeing both ways with the `## Sources` block**;
+  **leaked tool markup** (a bare `</content>`-style closing tag on its own line) in any
+  wiki page or `.py` file under `src/`/`tests/`.
   Non-zero exit on errors. CI runs it.
 - Semantic (you): contradictions between pages; stale claims a later post supersedes;
   important concepts referenced but lacking their own page; missing cross-references;

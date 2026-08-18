@@ -1134,3 +1134,11 @@ Touched: `methodology/trading-philosophy.md` (AOL epiphany), `methodology/gmi.md
 (QQQ-centricity), `methodology/stock-selection.md` (kiss-of-death; pilot portfolio;
 triple-support scan), `history/timeline.md` (4 sections), `index.md`; 4 new `sources/` pages.
 `ww lint .` clean; 194 tests pass; ledger 157 rows.
+
+## [2026-08-18] lint | front-matter enforcement — 20 `sources:`↔`## Sources` drifts synced (timeline ×12, trend-flip-log ×4, exits, backtest-timing-overlay, sources/2015-07-26, sources/2021-08-11); `ww lint` now requires title/type/updated(ISO)/sources and two-way agreement; test fixtures updated
+
+## [2026-08-18] note | CLAUDE.md §4 ingest step 3 rewritten: one canonical page per fact, pointers elsewhere, playbooks hold procedure only (~1,200-word budget). Motivation: the audit found the GMI signal rules restated on 5 pages, which is how the "two consecutive ≤3" fabrication and the "one quarter" drift propagated. §4 Lint updated to list the new mechanical checks.
+
+## [2026-08-18] query | what is the step-by-step OSB entry procedure? — filed: playbooks/buying-osb.md (14 sources; black/green/blue dot triggers tabulated; chains onto buying-glb.md); linked from overview, index, oversold-bounce.md, buying-glb.md
+
+## [2026-08-18] note | exits.md reconciled — the three trailing systems (2016 weekly ladder, 2017 daily RWB, 2024 green bars) plus the 2019 weekly-first veto laid out as one dated evolution in a new "Which trailing system when" section; the page's earlier "daily RWB is primary post-2017" claim corrected to "primary Dec 2017–early 2019, reversed on the sell side March 2019"; same correction propagated to sources/2017-12-17 and the timeline's 2017 entry; Step 4's GMI≤3 line now quotes 2011-03-07 verbatim and points at gmi.md#signals

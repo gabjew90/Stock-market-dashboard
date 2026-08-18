@@ -1,7 +1,7 @@
 ---
 title: Overview — Dr. Eric Wish's market methodology
 type: overview
-updated: 2026-08-12
+updated: 2026-08-18
 sources:
   - raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md
   - raw/posts/2005-04-23-lets-talk-strategy.md
@@ -40,6 +40,7 @@ Once the market is GREEN, the process narrows the universe to the best rocket ca
 
 - [Market state → stance](playbooks/market-state.md) — the GMI + QQQ-timing + T2108 decision tree, with a stance summary table
 - [Buying a GLB](playbooks/buying-glb.md) — the 6-step entry checklist, from market gate to stop placement
+- [Buying an OSB](playbooks/buying-osb.md) — the same checklist for the pullback-and-turn entry he prefers to the breakout, with the stop under the bounce low
 - [Exits](playbooks/exits.md) — stop mechanics, the daily-RWB red-line rule, and the weekly 4wk/10wk/30wk exit ladder
 
 ## Reference

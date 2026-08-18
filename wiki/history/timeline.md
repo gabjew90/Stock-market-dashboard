@@ -688,7 +688,7 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 ## December 2017 — Daily RWB as primary exit tool; RWB-bounce scan introduced
 
-**"A strategy for deciding when to sell stocks; GDS, NVDA" (2017-12-17):** Dr. Wish formally shifts from the weekly yellowband / 10-week close as the primary exit signal to the daily RWB red-line close. New exit rule: exit if the stock closes below all six red lines. For large profits: wait for two consecutive closes below all red lines. Red-line convergence = wait for direction, do not anticipate. He publishes the TC2000 RWB-bounce scan (12162017DailyRWBBounce). ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
+**"A strategy for deciding when to sell stocks; GDS, NVDA" (2017-12-17):** Dr. Wish formally shifts from the weekly yellowband / 10-week close as the primary exit signal to the daily RWB red-line close. New exit rule: exit if the stock closes below all six red lines. For large profits: wait for two consecutive closes below all red lines. Red-line convergence = wait for direction, do not anticipate. He publishes the TC2000 RWB-bounce scan (12162017DailyRWBBounce). ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md)) *This shift was reversed on the sell side in March 2019 — see the 2019 entry and the [exits playbook reconciliation](../playbooks/exits.md#which-trailing-system-when).*
 
 ---
 
