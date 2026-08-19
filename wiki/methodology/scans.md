@@ -23,6 +23,9 @@ sources:
   - raw/posts/2021-04-18-blog-post-wish-darvas-scan-finds-14-stocks-to-monitor-monday-cash-camt-myrg-gm-hibb-wsm-8-others-listed.md
   - raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md
   - raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md
+  - raw/posts/2017-02-12-new-tc2000-scan-finds-glb-and-possible-cup-with-handle-break-out-pjc-next-post-tuesday-night.md
+  - raw/posts/2023-02-12-blog-post-day-21-of-qqq-short-term-up-trend-only-70-us-stocks-at-new-highs-and-63-at-new-lows-on-friday-11-at.md
+  - raw/posts/2025-07-27-blog-post-day-63-of-qqq-short-term-up-trend-had-a-wonderful-talk-with-richard-at-traderlion-annual-conference.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -144,6 +147,10 @@ Run on his ~780-stock IBD/MarketSmith watchlist during the 2022 bear: stocks **n
 
 An earlier, tighter form of the same condition ran in March 2022: "one component of my scan requires the stock to have a **weekly RS (SPY) at a 20 week high**." Thirteen of the fifteen stocks it produced *rose* during a declining week; the hits clustered in agriculture, fertiliser, metals and defence, and he ran the same scan across industry indexes to confirm the clustering. ([WW 2022-03-06](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))
 
+**The 2023 form, with its stop attached.** "One of my favorite scans… searches for a stock **in a strong up-trend, at a 20 week high in relative strength vs. SPY, that reached an ATH in the past 3 months and that has bounced up off of its rising 4 week average.** If I buy one of these stocks I place my sell stop at the bottom of the weekly green bar." 29 of nearly 7,000 stocks passed on 2023-02-10, ranked by close ÷ 250-day low (`c/minl250`); seven had doubled off their low. He colours the weekly bar green for *any* stock bouncing off its 4-week average, whether or not it clears the rest of the scan. ([WW 2023-02-12](../../raw/posts/2023-02-12-blog-post-day-21-of-qqq-short-term-up-trend-only-70-us-stocks-at-new-highs-and-63-at-new-lows-on-friday-11-at.md))
+
+**The 8-EMA bounce scan (July 2025).** Shown at his TraderLion Day 6 talk alongside the GLB and the Blue Dot: stocks with a **recent ATH that had been tracking, and just bounced off, the daily 8 EMA** — 26 of 6,200, ranked by close ÷ close 250 days earlier. ([WW 2025-07-27](../../raw/posts/2025-07-27-blog-post-day-63-of-qqq-short-term-up-trend-had-a-wonderful-talk-with-richard-at-traderlion-annual-conference.md)) Three months later he revised the trailing line to the [5 EMA](entry-signals.md#lineage--which-trigger-is-current).
+
 ## The <5%-below-a-recent-ATH column scan (2022)
 
 Built after his TraderLion presentation, on the argument that "most of the stocks that Bill O'Neil graphed as among his greatest winners were stocks that had bases at or approaching their all-time-highs." The point is to catch both stocks that have already had a [GLB](green-line-breakouts.md) and those still just under one. The TC2000 column, as published:
@@ -153,6 +160,10 @@ Built after his TraderLion presentation, on the argument that "most of the stock
 - **`C > 30`** and **`V > 10000`** "to get rid of junk."
 
 He then draws the green lines on the survivors by hand and looks for setups. ([WW 2022-10-03](../../raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md))
+
+## The first-day 100-day-high scan (2017)
+
+Two design choices make this one worth copying. The criteria: a **100-day high that was *not* also a 100-day high the prior day** ("I want a stock to be just breaking out"), up significantly from a year ago, on above-average volume — 19 hits on 2017-02-10. The timing: "**I like to run this scan during the last hour of the trading day** (I do not want a stock that breaks out early only to reverse by the end of the day)." Entry is an initial position with a sell stop below the day's low, and the framing is explicit — "I use the results of my scans as a *starting point* to identify strong stocks that I must then research." ([WW 2017-02-12](../../raw/posts/2017-02-12-new-tc2000-scan-finds-glb-and-possible-cup-with-handle-break-out-pjc-next-post-tuesday-night.md))
 
 ## The Wish-Darvas scan (2021) — the criteria in full
 
@@ -207,3 +218,6 @@ The scans and watchlists are not private: he documents them in the blog's glossa
 - [WW 2021-04-18 — Blog post: Wish-Darvas scan finds 14 stocks to monitor Monday: $CASH $CAMT $MYRG $GM $HIBB $WSM + 8 others lis](../../raw/posts/2021-04-18-blog-post-wish-darvas-scan-finds-14-stocks-to-monitor-monday-cash-camt-myrg-gm-hibb-wsm-8-others-listed.md) ([summary](../sources/2021-04-18-blog-post-wish-darvas-scan-finds-14-stocks-to-monitor-monday-cash-camt-myrg-gm-hibb-wsm-8-others-listed.md))
 - [WW 2022-03-06 — Blog post: Investors Intelligence poll finds more bears than bulls (34.5/29.9%) =extreme bearish sentiment in ](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md) ([summary](../sources/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))
 - [WW 2017-01-22 — Recent GLB $IRBT resuming up-trend; $ANET GLB fails; Access my TC2000 scans–newly described in my blog’s gloss](../../raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md) ([summary](../sources/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md))
+- [WW 2017-02-12 — New TC2000 Scan finds GLB and possible cup with handle break-out $PJC;  next post Tuesday night](../../raw/posts/2017-02-12-new-tc2000-scan-finds-glb-and-possible-cup-with-handle-break-out-pjc-next-post-tuesday-night.md) ([summary](../sources/2017-02-12-new-tc2000-scan-finds-glb-and-possible-cup-with-handle-break-out-pjc-next-post-tuesday-night.md))
+- [WW 2023-02-12 — Blog Post: Day 21 of $QQQ short term up-trend;  Only 70 US stocks at new highs and 63 at new lows on Friday, 1](../../raw/posts/2023-02-12-blog-post-day-21-of-qqq-short-term-up-trend-only-70-us-stocks-at-new-highs-and-63-at-new-lows-on-friday-11-at.md) ([summary](../sources/2023-02-12-blog-post-day-21-of-qqq-short-term-up-trend-only-70-us-stocks-at-new-highs-and-63-at-new-lows-on-friday-11-at.md))
+- [WW 2025-07-27 — Blog Post: Day 63 of $QQQ short term up-trend; Had a wonderful talk with Richard at TraderLion annual  confere](../../raw/posts/2025-07-27-blog-post-day-63-of-qqq-short-term-up-trend-had-a-wonderful-talk-with-richard-at-traderlion-annual-conference.md) ([summary](../sources/2025-07-27-blog-post-day-63-of-qqq-short-term-up-trend-had-a-wonderful-talk-with-richard-at-traderlion-annual-conference.md))

@@ -14,6 +14,7 @@ sources:
   - raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md
   - raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md
   - raw/posts/2024-01-21-blog-post-day-8-of-qqq-short-term-up-trend-and-spy-has-a-glb-see-daily-chart-and-explanation-tqqq-beats-95-of.md
+  - raw/posts/2021-07-05-blog-post-gmi-is-at-6-of-6-and-up-trends-remain-intact-the-qqq-short-term-trend-count-is-u-27-my-profitable-s.md
 ---
 
 # The leveraged-ETF default — TQQQ on a GMI Buy signal
@@ -55,6 +56,8 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 
 **Measured again in January 2024.** From the January 8 up-trend signal: QQQ +4%, TQQQ +11.9%, and only five Nasdaq-100 stocks and six S&P 500 stocks beat TQQQ — "**in a QQQ up-trend TQQQ advances more than 95% of stocks. Why search for the rare needles in the hay stock (5% or less) that can beat TQQQ. I just ride TQQQ.**" He accumulated "as the short term up-trend developed" rather than in one purchase, while keeping smaller positions in three of the six outperformers. ([WW 2024-01-21](../../raw/posts/2024-01-21-blog-post-day-8-of-qqq-short-term-up-trend-and-spy-has-a-glb-see-daily-chart-and-explanation-tqqq-beats-95-of.md))
 
+**And in July 2021**, measured from U-1 on 5/26: TQQQ +23.3%, beaten by "only 4% of the Nasdaq100 stocks, 1% of the S&P500 stocks, none of the Dow 30 stocks, and 6% of all US stocks… holding TQQQ during an up-trend beats more than 94% of individual stocks." The question he puts to readers: "**Are you trying to find the needle in the haystack rare stock that will out perform TQQQ, or are you interested in a higher probability approach to making money in the market?**" ([WW 2021-07-05](../../raw/posts/2021-07-05-blog-post-gmi-is-at-6-of-6-and-up-trends-remain-intact-the-qqq-short-term-trend-count-is-u-27-my-profitable-s.md))
+
 ## See also
 
 - [Risk & cash](risk-and-cash.md) — the page this was split from; the cash side of the same coin
@@ -76,3 +79,4 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2005-07-28 — Another strong day; GMI: +6 and its track record; Benefits of naked charts; Some Darvas type stocks](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md) ([summary](../sources/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
 - [WW 2025-04-20 — Blog Post: Day 38 of $QQQ short term down-trend; If one had bought $SQQQ on Day 1 of the down-trend, it would ](../../raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md) ([summary](../sources/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md))
 - [WW 2024-01-21 — Blog Post: Day 8 of $QQQ short term up-trend and $SPY has a GLB! See daily chart and explanation; $TQQQ beats ](../../raw/posts/2024-01-21-blog-post-day-8-of-qqq-short-term-up-trend-and-spy-has-a-glb-see-daily-chart-and-explanation-tqqq-beats-95-of.md) ([summary](../sources/2024-01-21-blog-post-day-8-of-qqq-short-term-up-trend-and-spy-has-a-glb-see-daily-chart-and-explanation-tqqq-beats-95-of.md))
+- [WW 2021-07-05 — Blog post: GMI is at 6 (of 6) and up-trends remain intact; the $QQQ short term trend count is U-27; my profita](../../raw/posts/2021-07-05-blog-post-gmi-is-at-6-of-6-and-up-trends-remain-intact-the-qqq-short-term-trend-count-is-u-27-my-profitable-s.md) ([summary](../sources/2021-07-05-blog-post-gmi-is-at-6-of-6-and-up-trends-remain-intact-the-qqq-short-term-trend-count-is-u-27-my-profitable-s.md))

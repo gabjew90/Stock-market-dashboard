@@ -45,6 +45,8 @@ sources:
   - raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md
   - raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md
   - raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md
+  - raw/posts/2022-09-19-blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho.md
+  - raw/posts/2025-03-16-blog-post-day-14-of-qqq-short-term-down-trend-finally-got-the-bounce-will-it-hold-hint-no-one-knows-but-the-g.md
 ---
 
 # Stock selection
@@ -83,6 +85,8 @@ quickly filled — and failed" — and notes he scans the whole market for gaps 
 ## The blend: technical + fundamental
 
 Pure technical or pure fundamental analysis alone is insufficient. From Darvas: choose a rocket that is already launched (technical strength via price and volume), but also know something about the rocket's capabilities (fundamental quality). ([WW 2005-04-30](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md)) He does not use deep fundamental analysis; the filter is lightweight — earnings growth, a compelling product, an industry with a future.
+
+**The order, worked (2022).** INSW surfaced because it was one of four US stocks at an ATH that day; only then came MarketSmith — composite 98, Acc/Dis A+, group RS 98, triple-digit sales growth two quarters running, rising fund ownership, projected EPS $5.03 (no profit yet). Chart first: a GLB on above-average volume, a close back below the green line the next day, a retake two days later, then a new ATH on the heaviest volume since April, with repeated support at the 8-day EMA riding above the 21-day. ([WW 2022-09-19](../../raw/posts/2022-09-19-blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho.md))
 
 ## Screen criteria — detailed 2010 workflow
 
@@ -201,6 +205,8 @@ the market strengthens**" (how he found GMCR in April 2009). ([WW 2018-04-01](..
 
 **Weak tapes are when the watchlist gets built.** "I love weak markets when few stocks hit new yearly highs. It is easier to see the leaders. A stock that can come through a large decline at new highs is evidencing unusual buying interest." On 2015-09-11 only 37 stocks made new highs; he kept 17, most above a green-line top, with TC2000 alerts set for breakouts — and no buying "until I see a new market up-trend and have the wind at my back." That is how he found GMCR at its early-2009 GLB after the 2008 bear, a 10-bagger. ([WW 2015-09-13](../../raw/posts/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md))
 
+**Read the list hardest when it is shortest.** March 2025, GMI Red, eight of 6,100 US stocks at an ATH: "very few stocks are reaching all-time highs, so the odds are against my profiting from buying such break-outs now… **I always look at the list each day, however, because when the market does turn, new leaders appear among the stocks breaking out to ATHs.** That is how in 2009, after the market debacle, I found GMCR making an ATH, a green line break-out, GLB, which then became a 13 bagger." ([WW 2025-03-16](../../raw/posts/2025-03-16-blog-post-day-14-of-qqq-short-term-down-trend-finally-got-the-bounce-will-it-hold-hint-no-one-knows-but-the-g.md))
+
 ## O'Neil 1995 workshop: volume over EPS
 
 From Dr. Wish's personal trading diary (November 11, 1995, copyright Dr. Eric Wish):
@@ -306,3 +312,5 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2022-10-03 — Blog Post: Day 25 of $QQQ short term down-trend; See my new way to scan for stocks near their recent ATH and G](../../raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md) ([summary](../sources/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md))
 - [WW 2025-04-20 — Blog Post: Day 38 of $QQQ short term down-trend; If one had bought $SQQQ on Day 1 of the down-trend, it would ](../../raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md) ([summary](../sources/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md))
 - [WW 2022-03-06 — Blog post: Investors Intelligence poll finds more bears than bulls (34.5/29.9%) =extreme bearish sentiment in ](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md) ([summary](../sources/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))
+- [WW 2022-09-19 — Blog Post; 35 US new highs and 438 new lows; $INSW is one of 4 stocks at ATH,  see daily chart of $INSW and ho](../../raw/posts/2022-09-19-blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho.md) ([summary](../sources/2022-09-19-blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho.md))
+- [WW 2025-03-16 — Blog Post: Day 14 of $QQQ short term down-trend; Finally got the bounce, will it hold? Hint: No one knows, but](../../raw/posts/2025-03-16-blog-post-day-14-of-qqq-short-term-down-trend-finally-got-the-bounce-will-it-hold-hint-no-one-knows-but-the-g.md) ([summary](../sources/2025-03-16-blog-post-day-14-of-qqq-short-term-down-trend-finally-got-the-bounce-will-it-hold-hint-no-one-knows-but-the-g.md))

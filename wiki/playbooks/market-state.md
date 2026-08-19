@@ -26,6 +26,7 @@ sources:
   - raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md
   - raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md
   - raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md
+  - raw/posts/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md
 ---
 
 # Playbook — market state → stance
@@ -104,6 +105,8 @@ New lows surging while the index is at a high is an exit signal *before* the GMI
 
 - **Window-dressing rallies** into quarter- and year-end are exit and stop-raising opportunities in a weakening tape, not entries: such a rally "may be a great time to exit positions or raise stops." ([WW 2016-12-04](../../raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md))
 
+- **Confirming a bottom:** the weekly **10-week average crossing back above the 30-week** is the entry-side signal, and the same cross downward ends the trade — the 2020 instance gave 1.6 years of up-trend. "One does not have to catch the bottom. Wait until it is in place… Sitting is the hard part." ([WW 2022-09-15](../../raw/posts/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md))
+
 ## Stance summary table (trading account)
 
 | GMI | QQQ short-term | 30-wk MA | T2108 / breadth | Stance |
@@ -157,3 +160,4 @@ New lows surging while the index is at a high is an exit signal *before* the GMI
 - [WW 2022-01-30 — Blog post: Day 16 of $QQQ short term down-trend; Some end of decline signs I am looking for; Promising stock s](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md) ([summary](../sources/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
 - [WW 2016-12-04 — New $QQQ short term down-trend; $NFLX breaking out? TC2000 scan results: 7 rocket stocks](../../raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md) ([summary](../sources/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md))
 - [WW 2022-03-06 — Blog post: Investors Intelligence poll finds more bears than bulls (34.5/29.9%) =extreme bearish sentiment in ](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md) ([summary](../sources/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))
+- [WW 2022-09-15 — Blog Post: Day 13 of $QQQ short term down-trend; weekly chart of $DIA suggests re-test of last June’s lows;  h](../../raw/posts/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md) ([summary](../sources/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md))

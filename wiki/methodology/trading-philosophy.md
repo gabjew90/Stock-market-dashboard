@@ -23,6 +23,9 @@ sources:
   - raw/posts/2005-05-01-taking-stock-of-the-market.md
   - raw/posts/2005-05-07-some-potential-rockets-ww-gmi-2.md
   - raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md
+  - raw/posts/2025-10-05-blog-post-day-29-of-qqq-short-term-up-trend-thank-you-for-the-many-likes-i-received-for-my-post-about-the-pun.md
+  - raw/posts/2021-08-22-blog-post-stocks-rally-and-2-day-old-qqq-short-term-down-trend-may-end-monday-nke-an-example-of-how-i-use-my.md
+  - raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md
 ---
 
 # Trading philosophy — the five propositions
@@ -126,6 +129,8 @@ This sits underneath the whole market-state apparatus. The GMI and the day count
 detect the regime change *before* the string of losses arrives, but the string of losses is the
 ground truth they are proxies for.
 
+**He turns the same scepticism on the genre he writes in (2025).** "Anyone can show us collections of *winning* stocks that demonstrate how various technical setups have worked. But by definition, these setups work on strong rising stocks. **Just buying every Friday could have yielded profits on a steadily rising stock.**… **These collections do not show us the number of times that each setup fails, especially in a declining market!** I think every one of these collections should include examples of the same setups when they fail in order to teach people that they must always control risk. Most traders say that 50% or more of their trades fail, thus implying that their own favorite setups often fail." He applies it to his own teaching — failures were shown alongside the Blue Dot at TraderLion, and he walks through RDDT's failed GLB. ([WW 2025-10-05](../../raw/posts/2025-10-05-blog-post-day-29-of-qqq-short-term-up-trend-thank-you-for-the-many-likes-i-received-for-my-post-about-the-pun.md)) Read every worked example on this wiki with that caveat: the blog shows far more successes than failures, and the [backtest](backtest-timing-overlay.md) is the only unselected evidence here.
+
 ## Emotional detachment is engineered, not willed
 
 He treats emotion as something to design around rather than overcome:
@@ -162,6 +167,8 @@ The truck was told to his students in April 2008 (it had been on the blog since 
 
 The 2005 roots of the stance. Darvas: "MY ONLY SOUND REASON FOR BUYING A STOCK IS THAT IT IS RISING IN PRICE. IF THAT IS HAPPENING, NO OTHER REASON IS REQUIRED." ([WW 2005-05-01](../../raw/posts/2005-05-01-taking-stock-of-the-market.md)) His own freight-train image: "the hobo knows he wants to travel West… he waits by the track for a train to come by heading West. He jumps on. He does not have a schedule and does not know how far the train will go. If the train stops or changes direction he jumps off. If the train then restarts… he jumps back on. He does not argue with the train." ([WW 2005-05-07](../../raw/posts/2005-05-07-some-potential-rockets-ww-gmi-2.md)) And the truck is already on the blog in September 2005 — "if a truck is bearing down on me, it makes no sense to question whether it should be there… I must react quickly to what is happening" — with "one must trade with 'what is' and not what I think or hope should be." ([WW 2005-09-11](../../raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md))
 
+And why he does not wait for the story: "**a stock's strong behavior often occurs *before* the news is out.** Insiders may have been buying PANW prior to the announcement and their buying caused the stock to have a green line breakout" — PANW's GLB preceded its S&P 500 inclusion by days. "Nicolas Darvas wrote years ago that the atypical volume in a rising stock often enabled him to get on board with the insiders who knew good news was coming." ([WW 2023-06-04](../../raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md))
+
 ## Simple beats clever
 
 "Patterns are meant to be broken. **The road is littered with the carcasses of Ph.D.'s who
@@ -191,6 +198,8 @@ never stop learning and adapting when it comes to the markets." ([WW 2015-02-22]
 and the [backtest](backtest-timing-overlay.md).
 
 Two 2013 lines that pair with it: "The critical key is to not anticipate a change in trend, but to react *after* the signal is evident. Such is the goal of the trend-*follower*." ([WW 2013-04-14](../../raw/posts/2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline.md)) "In this business, one trades against the market trend at one's peril. The market is usually right, opinions are often wrong." ([WW 2013-09-08](../../raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md)) And the market's *reaction* to news as data, from 2006: "the way that the market responds to major events provides valuable clues as to how the masses are feeling towards stocks." ([WW 2006-08-21](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md))
+
+**What a set-up is, defined (2021).** "The key to prospering in the market is to have developed a set-up, defined by **objective conditions** which leads one to expect that a stock will rise almost immediately. **The set-up must also suggest a price at which to set a stop loss** to sell out with a small loss if the set-up fails. If the set-up is good, one will likely end up with a lot of small losses and a few big winners that more than make up for the losses." ([WW 2021-08-22](../../raw/posts/2021-08-22-blog-post-stocks-rally-and-2-day-old-qqq-short-term-down-trend-may-end-monday-nke-an-example-of-how-i-use-my.md)) Every entry on this wiki has that shape: conditions, an implied stop, and an asymmetric payoff — which is why "where is the stop" is the question that selects between the [GLB](green-line-breakouts.md) and the [OSB](oversold-bounce.md).
 
 ## The lineage he names
 
@@ -226,3 +235,6 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2005-05-01 — Taking Stock of the Market](../../raw/posts/2005-05-01-taking-stock-of-the-market.md) ([summary](../sources/2005-05-01-taking-stock-of-the-market.md))
 - [WW 2005-05-07 — Some Potential Rockets  WW-GMI: +2](../../raw/posts/2005-05-07-some-potential-rockets-ww-gmi-2.md) ([summary](../sources/2005-05-07-some-potential-rockets-ww-gmi-2.md))
 - [WW 2005-09-11 — GMI: +6; New “doubler” indicator; GMI and QQQQ trends; WPM shows short AND longer term strength; Staying long](../../raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md) ([summary](../sources/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md))
+- [WW 2025-10-05 — Blog Post: Day 29 of $QQQ short term up-trend; Thank you for the many “likes” I received for my post about the](../../raw/posts/2025-10-05-blog-post-day-29-of-qqq-short-term-up-trend-thank-you-for-the-many-likes-i-received-for-my-post-about-the-pun.md) ([summary](../sources/2025-10-05-blog-post-day-29-of-qqq-short-term-up-trend-thank-you-for-the-many-likes-i-received-for-my-post-about-the-pun.md))
+- [WW 2021-08-22 — Blog post: Stocks rally and 2 day old $QQQ short term down-trend may end Monday; $NKE–an example of how I use ](../../raw/posts/2021-08-22-blog-post-stocks-rally-and-2-day-old-qqq-short-term-down-trend-may-end-monday-nke-an-example-of-how-i-use-my.md) ([summary](../sources/2021-08-22-blog-post-stocks-rally-and-2-day-old-qqq-short-term-down-trend-may-end-monday-nke-an-example-of-how-i-use-my.md))
+- [WW 2023-06-04 — Blog Post: Day 25 of $QQQ short term up-trend; GMI=6 (of 6) and Green; Market in solid up-trend, set-ups worki](../../raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md) ([summary](../sources/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md))

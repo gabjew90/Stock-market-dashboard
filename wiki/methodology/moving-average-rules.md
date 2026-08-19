@@ -42,6 +42,8 @@ sources:
   - raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md
   - raw/posts/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md
   - raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md
+  - raw/posts/2005-12-29-my-apology-gmi-2-short-term-down-trend-defined-why-fight-the-odds.md
+  - raw/posts/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md
 ---
 
 # Moving-average rules
@@ -107,6 +109,8 @@ Dr. Wish applies the same 30-day average to market indices for the **short-term 
 
 For RWB stocks, the 30-day moving average of the individual stock (not the index) serves as a stop on bounce trades. In February 2011, Dr. Wish described his stop for RVBD as "below 30-day MA ~$34.95" — the exact dollar level was read off the chart at the time of entry. This is the same MA used for short-term trend signals; for stocks it functions as a trailing stop rather than a trend-flip signal. ([WW 2011-02-07](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
 
+The 2005 statement of the rule: "**when the indexes close below their 30 day averages, I tend to get in cash or go short**" — written with QQQQ, SPY and DIA all below theirs, the doubler indicator at 6% ("further evidence that the leaders are weak"), and the longer-term up-trend still intact. ([WW 2005-12-29](../../raw/posts/2005-12-29-my-apology-gmi-2-short-term-down-trend-defined-why-fight-the-odds.md))
+
 ## The stochastic 10,4,4 — a secondary timing overlay
 
 Dr. Wish uses the **daily 10,4,4 stochastic** as a timing overlay on top of the trend signals (not a primary signal). The stochastic measures short-term overbought/oversold conditions within a trend:
@@ -156,6 +160,8 @@ Dr. Wish uses successive WGBs as a trailing stop mechanism:
 3. Exit when the stock trades below the most recent WGB low.
 
 This approach captured most of the advance in TSLA after its GLB: 6 of 8 WGBs were successful entry/hold points. ([WW 2020-12-27](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
+
+**The 10/30 cross as the bottom signal (2022).** "Looking back to the 2020 bottom… **the 10 week average turns around and climbs above the 30 week average. Once that happened one had 1.6 years to ride the up-trend until the 10 week average closed back below the 30 week**" — the same pattern on DIA, QQQ and SPY. "One does not have to catch the bottom. Wait until it is in place before risking one's fortune by going long… **Sitting is the hard part**, as Jesse Livermore more eloquently said." ([WW 2022-09-15](../../raw/posts/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md)) This is the entry-side counterpart of the [30-week curve-up](#the-30-week-average--the-long-term-trend-anchor) rule.
 
 ## Code — stages, the WGB, and the Guppy bands
 
@@ -279,3 +285,5 @@ wrote that, 79% of Nasdaq 100 stocks were below their 30-days — the rule read 
 - [WW 2021-11-21 — Blog post: Day 25 of $QQQ short term up-trend; I started this blog in 2006 to share with people what I was doi](../../raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md) ([summary](../sources/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md))
 - [WW 2014-09-01 — New Rocket Scan; 12th day of $QQQ short term up-trend; $THRM, $LEA-cup and handle](../../raw/posts/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md) ([summary](../sources/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md))
 - [WW 2025-10-15 — Blog Post: Day 37 of $QQQ short term up-trend; Check out this amazing daily chart showing how $GLD has closed ](../../raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md) ([summary](../sources/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md))
+- [WW 2005-12-29 — My apology; GMI: +2; Short term down trend defined; Why fight the odds?](../../raw/posts/2005-12-29-my-apology-gmi-2-short-term-down-trend-defined-why-fight-the-odds.md) ([summary](../sources/2005-12-29-my-apology-gmi-2-short-term-down-trend-defined-why-fight-the-odds.md))
+- [WW 2022-09-15 — Blog Post: Day 13 of $QQQ short term down-trend; weekly chart of $DIA suggests re-test of last June’s lows;  h](../../raw/posts/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md) ([summary](../sources/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md))
