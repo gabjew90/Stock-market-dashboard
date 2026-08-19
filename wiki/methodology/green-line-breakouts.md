@@ -49,6 +49,7 @@ sources:
   - raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md
   - raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md
   - raw/posts/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md
+  - raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -119,6 +120,8 @@ The exit, stated as a general rule while buying OLLI's GLB in November 2016: "I 
 **Price moves before the news.** PANW made a GLB to an ATH on May 26, 2023 and closed above its green line at $213.61 on June 1; he bought the next day, and that evening its S&P 500 inclusion was announced. "**A stock's strong behavior often occurs *before* the news is out.** Insiders may have been buying PANW prior to the announcement and their buying caused the stock to have a green line breakout." ([WW 2023-06-04](../../raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md))
 
 **The alert is set weeks before the breakout.** "TC2000 sent me a text yesterday immediately when AMD crossed the green line. I had created the alert on June 19" — five weeks earlier. The alert is the monitoring counterpart of the [Darvas GTC buy-stop](../playbooks/buying-glb.md#step-5--set-the-initial-stop-immediately--but-for-a-glb-on-a-close-basis): one tells you, the other buys for you. Breakout volume is still checked after it fires. ([WW 2020-07-23](../../raw/posts/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md))
+
+**GLB → consolidation → WGB, in one chart (2020).** TSM: a green line breakout at 60.64 in early July, +31% in five weeks to $84, a nine-week consolidation, then a fresh breakout on a **weekly green bar** — "the 3 weekly averages of price were lined up properly with 4wk>10wk>30wk and the stock bounced up off of" the 4-week average. ([WW 2020-10-11](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))
 
 ## The IPO GLB — a high-probability variant
 
@@ -368,3 +371,4 @@ This is continuous with the 2016 [BOS](stock-selection.md) preference ("I actual
 - [WW 2023-06-04 — Blog Post: Day 25 of $QQQ short term up-trend; GMI=6 (of 6) and Green; Market in solid up-trend, set-ups worki](../../raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md) ([summary](../sources/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md))
 - [WW 2022-07-07 — Blog post: Friday could be first day of new $QQQ short term up-trend; why this $QQQ rally may be different; ho](../../raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md) ([summary](../sources/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md))
 - [WW 2020-07-23 — Blog post: TC2000 alerted me to a high volume GLB yesterday: $AMD–learn how to set GLB alerts](../../raw/posts/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md) ([summary](../sources/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md))
+- [WW 2020-10-11 — With GMI=Green and a $QQQ short term up-trend and daily RWB pattern in place, it is time for me to buy TQQQ an](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md) ([summary](../sources/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))

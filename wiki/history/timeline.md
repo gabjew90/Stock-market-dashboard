@@ -262,6 +262,13 @@ sources:
   - raw/posts/2023-03-06-blog-post-day-1-of-new-qqq-short-term-up-trend-will-powell-kill-it-137-new-us-highs-100-lows-and-41-at-ath-6.md
   - raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md
   - raw/posts/2026-06-01-how-i-identified-and-exited-at-the-market-top-in-2000-when-the-30-week-average-curved-down-to-identify-a-like.md
+  - raw/posts/2005-05-02-fed-up-with-this-market.md
+  - raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md
+  - raw/posts/2011-03-13-qqqq-short-term-down-trend-reaches-4th-day-gmi-1-mainly-in-cash-3x-inverse-etfs-surge.md
+  - raw/posts/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md
+  - raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md
+  - raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md
+  - raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md
 ---
 
 # Timeline — evolution of the methodology
@@ -321,6 +328,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## May 2005 (roots) — Darvas's one reason; the letter to Cramer; Loeb's pyramid; the freight train; go with your instruments; the 401(k) back in
 
 **"Taking Stock of the Market" (2005-05-01):** Darvas — "my only sound reason for buying a stock is that it is rising in price"; the AMEX once suspended stop orders after his book; Livermore/Loeb/O'Neil on new highs. ([WW 2005-05-01](../../raw/posts/2005-05-01-taking-stock-of-the-market.md)) **"CNBC: Forever Bullish" (2005-05-03):** the April 15 letter to Cramer — "mutual funds must stay invested, individuals do not. About 70% of stocks go with the market indexes." ([WW 2005-05-03](../../raw/posts/2005-05-03-cnbc-forever-bullish.md)) **"Is the Fed Done?" (2005-05-05):** Loeb's pyramiding as the pilot buy's root. ([WW 2005-05-05](../../raw/posts/2005-05-05-is-the-fed-done-ww-gmi-2.md)) **"Some Potential Rockets" (2005-05-07):** the hobo and the freight train. ([WW 2005-05-07](../../raw/posts/2005-05-07-some-potential-rockets-ww-gmi-2.md)) **"GMI rises to +5" (2005-05-22):** "one must always go with his/her instruments — the market action… Don't get attached to a scenario"; new highs (65%) beat new lows. ([WW 2005-05-22](../../raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md)) **"Google rockets on; Funds to time the market" (2005-05-23):** the 401(k) back into equities; fund families built for timing. ([WW 2005-05-23](../../raw/posts/2005-05-23-google-rockets-on-funds-to-time-the-market-boom-cup-with-handle-gmi-5.md))
+
+## May 2005 (disclaimer) — the GMI is not a leading indicator
+
+**"Fed up with this market" (2005-05-02):** one week after the GMI launched — "the WW-GMI is **not a leading indicator**… by definition, the index will not register a strong market until after the turn has come"; pre-committed price levels (QQQQ close above 35.84) "to get me interested, not to get me confident to buy." ([WW 2005-05-02](../../raw/posts/2005-05-02-fed-up-with-this-market.md))
 
 ## May 2005 (cont.) — rotation by breadth; the track-money principle; the first full scan
 
@@ -554,6 +565,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## October 2009 — buying extended from support, the mistake that made the bounce doctrine
+
+**"Using Bollinger Bands to avoid buying extended from support" (2009-10-19):** "the biggest mistake they make in trading is buying a stock when it is too extended from support… I did that a lot until I reviewed several losses and discovered that pattern. To make money, all I had to do was to reverse my actions — buy where I had been selling and sell where I had been buying." Bollinger Bands at the **standard 20-day / 2-SD** setting, years before his 15.2. ([WW 2009-10-19](../../raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md))
+
 ## November 2009 — the trading philosophy stated as five propositions
 
 **"My Trading Philosophy and Why I Use Technical Analysis" (2009-11-26):** the reasoning the whole system serves, in five numbered propositions — markets are unpredictable; but trends persist; so identify trends once begun and stay with them; since only ~50% of trades work, winners must dwarf losers (stops and small initial positions on one side, riding and pyramiding on the other); and therefore **success is determined mostly by exit rules, not entry** — "one could probably select stocks at random as long as losses are kept at a minimum and profits are maximized." Attributed to Darvas, Weinstein, O'Neil, the Turtles and Livermore, and previously published under the pseudonym **Sir Silent Knight** in the Worden TC2007 journal. See [trading-philosophy.md](../methodology/trading-philosophy.md). ([WW 2009-11-26](../../raw/posts/2009-11-26-my-trading-philosophy-and-why-i-use-technical-analysis.md))
@@ -684,6 +699,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## March 2011 (10-week) — a 26-week run above the 10-week ends
+
+**"QQQQ short term down-trend reaches 4th day" (2011-03-13):** the QQQQ closes below its 10-week after 26 straight weeks — "when the QQQQ closes below its 10 week average, I am unlikely to make money buying tech stocks. It does not mean that the market will enter a long down-trend, only that the odds are" against it; SPY still on its own 10-week at week 27. ([WW 2011-03-13](../../raw/posts/2011-03-13-qqqq-short-term-down-trend-reaches-4th-day-gmi-1-mainly-in-cash-3x-inverse-etfs-surge.md))
+
 ## April 2011 — IBD50 vs Nasdaq100/S&P500 systematic comparison; 10-week bounce scan
 
 **"IBD50 list from 1/10 out-performs Nasdaq100 and S&P500 stocks" (2011-04-04):** a quantitative study measuring the performance of the January 10, 2011 IBD50 list through late March 2011. Results: 60% of IBD50 stocks rose (vs 67% for Nasdaq100 and 77% for S&P500) — a lower hit rate. But the IBD50 produced 18% of its stocks gaining 20%+, vs only 11% for Nasdaq100 and 10% for S&P500. Interpretation: the IBD50 is not where you find the most stocks going up, but it **concentrates the big winners** — 50 stocks instead of 500. Largest gainer: SINA at +45% (IBD50). Caveat: during the measurement period tech underperformed the S&P500 (QQQ +2.5%, SPY +4.9%), which would suppress IBD50 results. The 10-week bounce scan demonstrated: Dr. Wish scanned all IBD50 stocks in his TC2000 watchlist for those that bounced up from their 10-week average the prior week, and set sell stops just below each stock's prior-week low. GMI=6, GMI2=5, T2108=73% (overbought caution zone). ([WW 2011-04-04](../../raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md))
@@ -807,6 +826,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"Yes, one can time the market!" (2013-12-09):** the red/green GMI signal chart 2006–2013 published for readers to judge, whipsaws admitted ("but only for a few days"); third-party tracking linked (dark-liquidity's GMI→QLD strategy); the IBD50 downside test answering an honors student — more big gainers, no more big decliners; and the pension grievance: "my pension plan prevents me from market timing... I refuse to do so." ([WW 2013-12-09](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))
 
 ---
+
+## January–February 2014 (durations) — 52 up-trends since 2006; easing from SQQQ into TQQQ
+
+**"QQQ short term up-trend in jeopardy" (2014-01-26):** "since 2006, there have been 52 short term up-trends in the QQQ," with a table of the ten longest; the current one at day 72 was the fourth longest; "the end of a short term up-trend has not necessarily implied the beginning of an extended short term down-trend." ([WW 2014-01-26](../../raw/posts/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md))
+
+**"Is this the end of the correction?" (2014-02-09):** the turn procedure — sell the SQQQ, take "a very small position in TQQQ and… only add to it at a higher price later in the week… **the key is to not rush in but to ease into the new move**"; and the other branch pre-planned: "one must be agnostic in this business and ride whatever trend becomes apparent." ([WW 2014-02-09](../../raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md))
 
 ## February 2014 — Covered call strategy; three concurrent GLBs
 
@@ -1116,6 +1141,10 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 ---
 
+## March 2020 (cont.) — 13 needles in the haystack: the daily-RWB column filter
+
+**"13 needles in a haystack" (2020-03-29):** a TC2000 column filter for daily RWB up-trends above $20, run on the ~800-stock IBD/MS watchlist: 13 hits — built as a list for the turn, not to trade now. "I usually do not buy such needles in the haystack in a declining market — the odds are against my profiting." ([WW 2020-03-29](../../raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md))
+
 ## June–July 2020 (mechanics) — the green dot's gate; TC2000 GLB alerts
 
 **"FB and AMD had green dot signals" (2020-06-09):** the green dot defined (fast 10.4 crossing above slow 10.4.4) with the gate he calls decisive — "both of these stocks are above their last green line tops, a critical requirement for me" — plus above-average volume on the dot. ([WW 2020-06-09](../../raw/posts/2020-06-09-fb-and-amd-had-green-dot-signals-tuesday-go-to-my-tc2000-club-to-view-the-green-dot-tutorial.md))
@@ -1145,6 +1174,10 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 **"How I used the IBD screener to identify 36 launched rocket stocks" (2020-10-04):** a four-criterion screen (RS 90-99, ACC/DIS A/B, Price>30, Next-Q EPS est >100%) → 36 of 7,000+, piped Excel→TC2000. The O'Neil origin credit ("I began to make money in the market after reading it"), the earnings engine ("great earnings propel stocks higher"), and a hard exit line: QQQ below **all 12 GMMA averages** (then 269.55) = "time to exit all positions." Tutorial by his student Richard Moglen. ([WW 2020-10-04](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
 
 ---
+
+## October 2020 (re-entry) — TQQQ bought without ego; TSM's GLB → consolidation → WGB
+
+**"With GMI=Green and a $QQQ short term up-trend and daily RWB pattern in place" (2020-10-11):** all three indexes retake their 10-week; TQQQ bought — "a new up-trend is always met with skepticism… **if the up-trend should falter, I can exit with a small loss — without emotion and no ego involvement**"; "TQQQ will rise in a sustained up-trend more than 90%+ of individual stocks"; TSM's GLB at 60.64, +31%, a nine-week base, then a WGB breakout. ([WW 2020-10-11](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))
 
 ## December 2020 — WGB as second-chance IPO entry; PGNY and TSLA examples
 
@@ -1735,3 +1768,10 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2023-03-06 — Blog Post: Day 1 of new $QQQ short term up-trend, will Powell kill it? 137  new US highs, 100 lows and 41 at A](../../raw/posts/2023-03-06-blog-post-day-1-of-new-qqq-short-term-up-trend-will-powell-kill-it-137-new-us-highs-100-lows-and-41-at-ath-6.md) ([summary](../sources/2023-03-06-blog-post-day-1-of-new-qqq-short-term-up-trend-will-powell-kill-it-137-new-us-highs-100-lows-and-41-at-ath-6.md))
 - [WW 2024-01-04 — Blog Post: $QQQ short term up-trend could end Friday;  Meanwhile, $QS rockets higher on battery test results. ](../../raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md) ([summary](../sources/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md))
 - [WW 2026-06-01 — HOW I IDENTIFIED AND EXITED AT THE  MARKET TOP IN 2000–WHEN THE 30 WEEK AVERAGE CURVED DOWN. TO IDENTIFY A LIK](../../raw/posts/2026-06-01-how-i-identified-and-exited-at-the-market-top-in-2000-when-the-30-week-average-curved-down-to-identify-a-like.md) ([summary](../sources/2026-06-01-how-i-identified-and-exited-at-the-market-top-in-2000-when-the-30-week-average-curved-down-to-identify-a-like.md))
+- [WW 2005-05-02 — Fed Up With This Market?](../../raw/posts/2005-05-02-fed-up-with-this-market.md) ([summary](../sources/2005-05-02-fed-up-with-this-market.md))
+- [WW 2009-10-19 — Using Bollinger bands to avoid buying  extended from support.](../../raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md) ([summary](../sources/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md))
+- [WW 2011-03-13 — QQQQ short term down-trend reaches 4th day; GMI: 1, mainly in cash; 3X inverse ETF’s surge](../../raw/posts/2011-03-13-qqqq-short-term-down-trend-reaches-4th-day-gmi-1-mainly-in-cash-3x-inverse-etfs-surge.md) ([summary](../sources/2011-03-13-qqqq-short-term-down-trend-reaches-4th-day-gmi-1-mainly-in-cash-3x-inverse-etfs-surge.md))
+- [WW 2014-01-26 — $QQQ short term up-trend in jeopardy; $AAPL to break out of channel?](../../raw/posts/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md) ([summary](../sources/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md))
+- [WW 2014-02-09 — Is this the end of the correction? 14 stocks at all-time highs!](../../raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md) ([summary](../sources/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md))
+- [WW 2020-03-29 — 13 Needles in a haystack; $TNK, $ZM, $CHWY, $QDEL, $TDOC, $CTXS, $LMNX, $NET + 5 more………](../../raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md) ([summary](../sources/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md))
+- [WW 2020-10-11 — With GMI=Green and a $QQQ short term up-trend and daily RWB pattern in place, it is time for me to buy TQQQ an](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md) ([summary](../sources/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))

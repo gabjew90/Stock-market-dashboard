@@ -48,6 +48,8 @@ sources:
   - raw/posts/2022-09-19-blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho.md
   - raw/posts/2025-03-16-blog-post-day-14-of-qqq-short-term-down-trend-finally-got-the-bounce-will-it-hold-hint-no-one-knows-but-the-g.md
   - raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md
+  - raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md
+  - raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md
 ---
 
 # Stock selection
@@ -210,6 +212,8 @@ the market strengthens**" (how he found GMCR in April 2009). ([WW 2018-04-01](..
 
 **Read the list hardest when it is shortest.** March 2025, GMI Red, eight of 6,100 US stocks at an ATH: "very few stocks are reaching all-time highs, so the odds are against my profiting from buying such break-outs now… **I always look at the list each day, however, because when the market does turn, new leaders appear among the stocks breaking out to ATHs.** That is how in 2009, after the market debacle, I found GMCR making an ATH, a green line break-out, GLB, which then became a 13 bagger." ([WW 2025-03-16](../../raw/posts/2025-03-16-blog-post-day-14-of-qqq-short-term-down-trend-finally-got-the-bounce-will-it-hold-hint-no-one-knows-but-the-g.md))
 
+The same habit in the COVID crash: "when the market is in a down-trend it is much easier to identify the few gems that are resisting the downward pull of the general market, or even flourishing. Such stocks (like GMCR in 2009) may become the new leaders when the market turns." ([WW 2020-03-29](../../raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md)) And during the January 2014 decline: "I find it to be very useful… to watch the new high list during declines because stocks appearing on it are exhibiting unusual strength." ([WW 2014-02-09](../../raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md))
+
 ## O'Neil 1995 workshop: volume over EPS
 
 From Dr. Wish's personal trading diary (November 11, 1995, copyright Dr. Eric Wish):
@@ -318,3 +322,5 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2022-09-19 — Blog Post; 35 US new highs and 438 new lows; $INSW is one of 4 stocks at ATH,  see daily chart of $INSW and ho](../../raw/posts/2022-09-19-blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho.md) ([summary](../sources/2022-09-19-blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho.md))
 - [WW 2025-03-16 — Blog Post: Day 14 of $QQQ short term down-trend; Finally got the bounce, will it hold? Hint: No one knows, but](../../raw/posts/2025-03-16-blog-post-day-14-of-qqq-short-term-down-trend-finally-got-the-bounce-will-it-hold-hint-no-one-knows-but-the-g.md) ([summary](../sources/2025-03-16-blog-post-day-14-of-qqq-short-term-down-trend-finally-got-the-bounce-will-it-hold-hint-no-one-knows-but-the-g.md))
 - [WW 2024-01-04 — Blog Post: $QQQ short term up-trend could end Friday;  Meanwhile, $QS rockets higher on battery test results. ](../../raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md) ([summary](../sources/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md))
+- [WW 2014-02-09 — Is this the end of the correction? 14 stocks at all-time highs!](../../raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md) ([summary](../sources/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md))
+- [WW 2020-03-29 — 13 Needles in a haystack; $TNK, $ZM, $CHWY, $QDEL, $TDOC, $CTXS, $LMNX, $NET + 5 more………](../../raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md) ([summary](../sources/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md))

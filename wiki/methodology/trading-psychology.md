@@ -26,6 +26,8 @@ sources:
   - raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md
   - raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md
   - raw/posts/2005-07-24-bear-trap-gmi-6-wpm-dia-and-qqqq-weaker-scan-for-bouncers-able-or-not-able.md
+  - raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md
+  - raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -63,6 +65,8 @@ The rule that absorbs the fear instead of fighting it: "it is not a crime to get
 ## 5. The stop is how emotion leaves the trade
 
 "Once I have my stop loss order in place, I have taken my emotion out of the trade." Written against Cramer's advice that part-time traders skip stops — "it is precisely the part-time traders who are not watching the market every minute who need to have automatic stop-loss orders" — with his own 2005 TASR loss as the lesson. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md)) The Livermore line he quotes for the alternative: those "dreading the pain of a small loss at the beginning, were now about to suffer total amputation – without anaesthetics." ([WW 2020-03-15](../../raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md)) Mechanics: [exits playbook](../playbooks/exits.md).
+
+The 2020 formulation adds the ego to the ledger: "a new up-trend is always met with skepticism because most people remain intimidated by the recent down-trend. **If the up-trend should falter, I can exit with a small loss — without emotion and no ego involvement.**" ([WW 2020-10-11](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md)) And the rule that came out of a loss review: reviewing several losses revealed he had been "buying a stock when it is too extended from support… To make money, all I had to do was to reverse my actions." ([WW 2009-10-19](../../raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md))
 
 ## 6. Enforce the anti-shakeout rule physically
 
@@ -115,3 +119,5 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2022-01-30 — Blog post: Day 16 of $QQQ short term down-trend; Some end of decline signs I am looking for; Promising stock s](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md) ([summary](../sources/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
 - [WW 2025-04-20 — Blog Post: Day 38 of $QQQ short term down-trend; If one had bought $SQQQ on Day 1 of the down-trend, it would ](../../raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md) ([summary](../sources/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md))
 - [WW 2005-07-24 — Bear trap; GMI: +6; WPM–DIA and QQQQ weaker; Scan for bouncers; ABLE or NOT-ABLE?](../../raw/posts/2005-07-24-bear-trap-gmi-6-wpm-dia-and-qqqq-weaker-scan-for-bouncers-able-or-not-able.md) ([summary](../sources/2005-07-24-bear-trap-gmi-6-wpm-dia-and-qqqq-weaker-scan-for-bouncers-able-or-not-able.md))
+- [WW 2009-10-19 — Using Bollinger bands to avoid buying  extended from support.](../../raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md) ([summary](../sources/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md))
+- [WW 2020-10-11 — With GMI=Green and a $QQQ short term up-trend and daily RWB pattern in place, it is time for me to buy TQQQ an](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md) ([summary](../sources/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))

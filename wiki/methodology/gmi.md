@@ -39,6 +39,7 @@ sources:
   - raw/posts/2005-07-11-a-hot-market-gmi-6-more-rockets-covered-calls-on-goog.md
   - raw/posts/2005-06-11-gmi-back-to-4-performance-of-my-picks.md
   - raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md
+  - raw/posts/2005-05-02-fed-up-with-this-market.md
 ---
 
 # General Market Index (GMI)
@@ -137,6 +138,8 @@ He uses the GMI alongside the [QQQ Short-Term Timing](qqq-short-term-timing.md) 
 Stated as early as January 2006: "The GMI cannot predict changes in trend, it only provides me with a reasonably certain indication that the trend has changed." ([WW 2006-01-23](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md)) And the "?" grade goes back to 2006 too — "GMI: 5?" with 97 new highs against the 100 needed. ([WW 2006-08-21](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md)) The threshold for committing money: "I prefer the GMI to be at least 4 before I commit many IRA funds, and especially my university pension, to the long side." ([WW 2009-02-15](../../raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md))
 
 The strict-rules reflex was there from the start: with the weekly QQQQ index "too close to call" in June 2005 — "if I strictly follow my rules, then it is a negative." ([WW 2005-06-11](../../raw/posts/2005-06-11-gmi-back-to-4-performance-of-my-picks.md))
+
+**And the disclaimer he attached one week after launching it (2005):** "The WW-GMI is **not a leading indicator**. It is a summary of the indicators I watch to tell me the current trend. **By definition, the index will not register a strong market until after the turn has come.**" In the same post he pre-commits to the prices that would change his stance — "the QQQQ would have to *close* above 35.84 to get me interested… note that I said, to get me interested, not to get me confident to buy." ([WW 2005-05-02](../../raw/posts/2005-05-02-fed-up-with-this-market.md))
 
 ## New highs / new lows — a breadth supplement to the GMI
 
@@ -307,3 +310,4 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2005-07-11 — A hot market; GMI: +6; more rockets; covered calls on GOOG](../../raw/posts/2005-07-11-a-hot-market-gmi-6-more-rockets-covered-calls-on-goog.md) ([summary](../sources/2005-07-11-a-hot-market-gmi-6-more-rockets-covered-calls-on-goog.md))
 - [WW 2005-06-11 — GMI back to +4; Performance of my picks](../../raw/posts/2005-06-11-gmi-back-to-4-performance-of-my-picks.md)
 - [WW 2005-05-22 — GMI rises to +5, The Google Rocket, Lucky Bill Miller](../../raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md) ([summary](../sources/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md))
+- [WW 2005-05-02 — Fed Up With This Market?](../../raw/posts/2005-05-02-fed-up-with-this-market.md) ([summary](../sources/2005-05-02-fed-up-with-this-market.md))
