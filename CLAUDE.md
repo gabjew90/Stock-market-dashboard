@@ -243,9 +243,9 @@ re-scraped and **committed** — `raw/posts/` and `raw/posts.jsonl` are now in v
 (see §1). The scrape picked up 39 posts published since the previous 2026-05-11 corpus.
 `raw/url_map.json` still catalogues slug→URL.
 
-**246 posts are ingested as of 2026-08-18** (ledger rows; ~220 `teaching`/`trade_example` with a page under
-`wiki/sources/`, plus ~25 `daily_update` rows carrying only a summary). **The `long_form` queue is
-fully ingested (175/175)**; the remaining work is `unknown`-kind posts (2,700+, mostly daily notes). Run `uv run ww ledger export` after
+**299 posts are ingested as of 2026-08-18** (ledger rows; ~265 `teaching`/`trade_example` with a page under
+`wiki/sources/`, plus ~34 `daily_update` rows carrying only a summary). **The `long_form` queue is
+fully ingested (175/175)**; the remaining work is `unknown`-kind posts (~1,030, mostly daily notes). Run `uv run ww ledger export` after
 every batch and commit the ledger alongside `posts.jsonl`.
 
 *Tier regression to be aware of:* the corpus had been fully tiered before it was lost, but
