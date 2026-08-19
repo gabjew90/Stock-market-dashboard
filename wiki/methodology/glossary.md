@@ -62,6 +62,7 @@ sources:
   - raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md
   - raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md
   - raw/posts/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md
+  - raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md
 ---
 
 # Glossary
@@ -133,6 +134,8 @@ Every term Dr. Wish coins or uses, defined in a sentence or two, with a first-ap
 **Pilot buy** — a small initial position, taken before full commitment. From Jesse Livermore (via Lefevre). Dr. Wish makes a pilot buy and adds to the position only as the stock moves in the expected direction. ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
 
 **Put/call ratio** — a contrarian sentiment indicator: the total volume of put options traded divided by call options on a given day. When the ratio rises to extremes (Dr. Wish cites 1.25 as "extreme bearishness"), it suggests the crowd is overly pessimistic — a short-term contrarian buy signal for a bounce, though not necessarily a trend reversal. He monitors it alongside T2108 and the stochastic, not as a primary signal. First explicitly cited as a signal: ([WW 2018-03-25](../../raw/posts/2018-03-25-time-for-cash-gmi1-of-6-turns-red.md))
+
+**RWBCount** — the weekly counterpart of the [RLC](#rlc-red-line-count): how many of the 12 weekly GMMA averages are in their correct RWB order, 0–12. "A maximum RWBCount of 12 (of 12). All of the weekly moving averages line up properly." ([WW 2017-01-22](../../raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md))
 
 **RLC (Red Line Count)** — the count (0–6) of the six shorter-term red exponential moving averages that the daily closing price is currently above. Displayed on the header of Dr. Wish's TC2000 daily RWB charts. RLC = 6 = full bullish alignment; RLC = 0 = price is below all red lines (caution or exit signal). Introduced: ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
 
@@ -254,3 +257,4 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 - [WW 2006-08-07 — gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md) ([summary](../sources/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md))
 - [WW 2005-09-11 — GMI: +6; New “doubler” indicator; GMI and QQQQ trends; WPM shows short AND longer term strength; Staying long](../../raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md) ([summary](../sources/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md))
 - [WW 2022-02-08 — Blog post: How I use Bollinger Bands to analyze QQQ — watch out for QQQ around  372; 12 of the 13 stocks from ](../../raw/posts/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md) ([summary](../sources/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md))
+- [WW 2017-01-22 — Recent GLB $IRBT resuming up-trend; $ANET GLB fails; Access my TC2000 scans–newly described in my blog’s gloss](../../raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md) ([summary](../sources/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md))

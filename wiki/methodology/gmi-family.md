@@ -19,6 +19,7 @@ sources:
   - raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md
   - raw/posts/2005-08-17-gmi-declines-to-5-only-27-of-stocks-in-up-trend-cramer-commits-hara-kiri-over-dks-a-polar-bear.md
   - raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md
+  - raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md
 ---
 
 # The GMI family — GMI-S, GMI-L, GMI-R, GMI2 and the rest of the daily table
@@ -166,6 +167,8 @@ rather than only the extreme.
 
 **The 2005 breadth rows.** Before the GMI-S and GMI-L, the table and the WPM carried three breadth statistics that recur for years: the percentage of his 4,000 stocks above their 10-week average; the percentage in a short-term up-trend (tracked from late June 2005 — 68% at the July 14 peak, 27% by August 16: "the market weakness we are seeing now — near the beginning of a decline — is greater than we saw at the end of the previous decline") ([WW 2005-08-17](../../raw/posts/2005-08-17-gmi-declines-to-5-only-27-of-stocks-in-up-trend-cramer-commits-hara-kiri-over-dks-a-polar-bear.md)); and, from September 2005, the **doubler indicator** — the share of stocks that doubled in the past year closing above their 30-day average, a leader-health gauge. ([WW 2005-09-11](../../raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md))
 
+**Oversold breadth.** Alongside the MACD row he has quoted the share of Nasdaq-100 stocks with a daily 10.4 stochastic below 20: 53% in August 2022 against **85% at the June 16, 2022 bottom**, with only one day above 10% in the two months between — a scale for how oversold "oversold" is. ([WW 2022-08-25](../../raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md))
+
 ## See also
 
 - [General Market Index (GMI)](gmi.md) — the core index; the page this was split from
@@ -191,3 +194,4 @@ rather than only the extreme.
 - [WW 2006-08-21 — GMI 5?; GMI-S 100; short-term rally?; IAI](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md) ([summary](../sources/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md))
 - [WW 2005-08-17 — GMI declines to +5;  only 27% of stocks in up-trend; Cramer commits hara-kiri over DKS; a polar bear?](../../raw/posts/2005-08-17-gmi-declines-to-5-only-27-of-stocks-in-up-trend-cramer-commits-hara-kiri-over-dks-a-polar-bear.md) ([summary](../sources/2005-08-17-gmi-declines-to-5-only-27-of-stocks-in-up-trend-cramer-commits-hara-kiri-over-dks-a-polar-bear.md))
 - [WW 2005-09-11 — GMI: +6; New “doubler” indicator; GMI and QQQQ trends; WPM shows short AND longer term strength; Staying long](../../raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md) ([summary](../sources/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md))
+- [WW 2022-08-25 — Blog Post: Day 28 of $QQQ short term up-trend; $QQQ very oversold and bounce likely; GLB: $CLH, how I buy a GL](../../raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md) ([summary](../sources/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md))

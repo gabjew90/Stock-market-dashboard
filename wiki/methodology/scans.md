@@ -19,6 +19,10 @@ sources:
   - raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md
   - raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md
   - raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md
+  - raw/posts/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md
+  - raw/posts/2021-04-18-blog-post-wish-darvas-scan-finds-14-stocks-to-monitor-monday-cash-camt-myrg-gm-hibb-wsm-8-others-listed.md
+  - raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md
+  - raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -138,6 +142,8 @@ Posted to his TC2000 club in December 2016 and specified in full: **(1)** the fa
 
 Run on his ~780-stock IBD/MarketSmith watchlist during the 2022 bear: stocks **near an all-time high** whose **weekly relative strength versus SPY is at a 50-week high**, sorted by change from 250 days ago (HRMY +76% topped the June 2022 list of 12). The logic is the same as the weak-tape watchlist on [stock-selection](stock-selection.md#building-the-ath-watchlist--and-tc2000s-survivorship-trap): "any stock that can come through the recent market down-trend near an ATH is worth monitoring," whereas fallen leaders "may never come back to an ATH, as many people who bought at higher prices and rode them down are grateful to sell as soon as they can get their original investments back." LLY was the worked example, with a successful retest of its March 2022 GLB. ([WW 2022-06-26](../../raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md))
 
+An earlier, tighter form of the same condition ran in March 2022: "one component of my scan requires the stock to have a **weekly RS (SPY) at a 20 week high**." Thirteen of the fifteen stocks it produced *rose* during a declining week; the hits clustered in agriculture, fertiliser, metals and defence, and he ran the same scan across industry indexes to confirm the clustering. ([WW 2022-03-06](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))
+
 ## The <5%-below-a-recent-ATH column scan (2022)
 
 Built after his TraderLion presentation, on the argument that "most of the stocks that Bill O'Neil graphed as among his greatest winners were stocks that had bases at or approaching their all-time-highs." The point is to catch both stocks that have already had a [GLB](green-line-breakouts.md) and those still just under one. The TC2000 column, as published:
@@ -148,9 +154,28 @@ Built after his TraderLion presentation, on the argument that "most of the stock
 
 He then draws the green lines on the survivors by hand and looks for setups. ([WW 2022-10-03](../../raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md))
 
+## The Wish-Darvas scan (2021) — the criteria in full
+
+"A new scan column in TC2000 that puts together most of the characteristics of winning stocks that I have embraced over the years. Some were suggested by the great Nicolas Darvas. Most, I created based on my trading experience and reading the past 50+ years." As published:
+
+- price **> $20**
+- **near an all-time high**, and reached a **new high within the last 25 days**
+- in a **[yellowband](glossary.md#yellowband-up-trend) pattern for 5+ weeks**
+- **closed up today**
+- **up > 80% from a year ago** ("Darvas liked +100%")
+- **bounced up off its 21-day EMA or 30-day SMA today**
+
+Fourteen of 6,081 US stocks qualified on 2021-04-16; six already carried his IBD/MarketSmith flag. Survivors go to a watchlist with projected earnings dates and a column testing whether Monday's high exceeds Friday's — "another sign of strength." The exit is fixed at entry: "if I buy a stock after a bounce up off of one of these moving averages, I must sell immediately if it ***closes*** below" it. ([WW 2021-04-18](../../raw/posts/2021-04-18-blog-post-wish-darvas-scan-finds-14-stocks-to-monitor-monday-cash-camt-myrg-gm-hibb-wsm-8-others-listed.md))
+
+## The rocket-bounce-off-the-10-week scan (2014)
+
+"One of the best areas of support for a rising stock is its 10 week moving average. A lot of rocket stocks rest there and then resume their rise." The scan runs over 6,000 US stocks for a strong rocket pattern **plus** a bounce off the 10-week average; ten names on 2014-08-29. ([WW 2014-09-01](../../raw/posts/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md))
+
 ## The Darvas EasyScan (2015)
 
 A TC2000 EasyScan he designed to approximate Darvas's selection criteria, run against ~6,000 stocks; on 2015-02-27 it returned 46 names, of which AMBA — above its green-line top, in a weekly RWB pattern — was the example. The criteria are not listed in the post; he points to his 2012 Houston TC2000 webinar for the walk-through. ([WW 2015-03-01](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md))
+
+The scans and watchlists are not private: he documents them in the blog's glossary and publishes them to his **TC2000 Club**, including an `Alltimehighs` watchlist the other scans run against. The Darvas scan returned 53 stocks on the weekend of 2017-01-21. ([WW 2017-01-22](../../raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md))
 
 ## See also
 
@@ -178,3 +203,7 @@ A TC2000 EasyScan he designed to approximate Darvas's selection criteria, run ag
 - [WW 2010-06-21 — Stocks near all-time highs; IBD100 stocks 3× more likely to rise 10%+](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md) ([summary](../sources/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
 - [WW 2016-12-11 — All GMI components positive; QQQ near ATH; new TC2000 scan for bounces: CELG](../../raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md) ([summary](../sources/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md))
 - [WW 2022-10-03 — Blog Post: Day 25 of $QQQ short term down-trend; See my new way to scan for stocks near their recent ATH and G](../../raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md) ([summary](../sources/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md))
+- [WW 2014-09-01 — New Rocket Scan; 12th day of $QQQ short term up-trend; $THRM, $LEA-cup and handle](../../raw/posts/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md) ([summary](../sources/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md))
+- [WW 2021-04-18 — Blog post: Wish-Darvas scan finds 14 stocks to monitor Monday: $CASH $CAMT $MYRG $GM $HIBB $WSM + 8 others lis](../../raw/posts/2021-04-18-blog-post-wish-darvas-scan-finds-14-stocks-to-monitor-monday-cash-camt-myrg-gm-hibb-wsm-8-others-listed.md) ([summary](../sources/2021-04-18-blog-post-wish-darvas-scan-finds-14-stocks-to-monitor-monday-cash-camt-myrg-gm-hibb-wsm-8-others-listed.md))
+- [WW 2022-03-06 — Blog post: Investors Intelligence poll finds more bears than bulls (34.5/29.9%) =extreme bearish sentiment in ](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md) ([summary](../sources/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))
+- [WW 2017-01-22 — Recent GLB $IRBT resuming up-trend; $ANET GLB fails; Access my TC2000 scans–newly described in my blog’s gloss](../../raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md) ([summary](../sources/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md))

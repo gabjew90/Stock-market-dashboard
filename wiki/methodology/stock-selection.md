@@ -44,6 +44,7 @@ sources:
   - raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md
   - raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md
   - raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md
+  - raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md
 ---
 
 # Stock selection
@@ -57,6 +58,8 @@ The foundational idea, stated early and repeated throughout the blog: buy stocks
 Market environment is a prerequisite: "The best rules for picking stocks will fail in an adverse market environment." ([WW 2005-04-30](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md)) A [GMI](gmi.md) ≥ 4 is the gate; below that, stock-picking stops.
 
 Restated in 2022 with its O'Neil provenance — "most of the stocks that Bill O'Neil graphed as among his greatest winners were stocks that had bases at or approaching their all-time-highs. If you want to ride a stock to the moon one needs to get on a launched rocket that is hitting a series of ATHs" ([WW 2022-10-03](../../raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md)) — and in 2025 with the exclusion made explicit: "like Nicolas Darvas and William O'Neil, [I] buy only when a stock trades at or near an ATH. I am not interested in buying the fallen leaders until or **IF** they ever trade at an ATH. We never know in advance when a rebound will end. The stocks that reach an ATH early in a market up-trend are proving themselves worthy of my attention and money." ([WW 2025-04-20](../../raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md))
+
+And the negative rule, March 2022: "growth stocks are underperforming now and few of the fallen leaders will retake their ATHs. **We need to stop looking for bargains.** The leaders will show up on the new 52 week high list, preferably reaching all-time-highs." ([WW 2022-03-06](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))
 
 ## Why "already doubled" — and the gap rule
 
@@ -302,3 +305,4 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2005-06-13 — GMI back to +5; Chart of GMI performance; BTU](../../raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md) ([summary](../sources/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md))
 - [WW 2022-10-03 — Blog Post: Day 25 of $QQQ short term down-trend; See my new way to scan for stocks near their recent ATH and G](../../raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md) ([summary](../sources/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md))
 - [WW 2025-04-20 — Blog Post: Day 38 of $QQQ short term down-trend; If one had bought $SQQQ on Day 1 of the down-trend, it would ](../../raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md) ([summary](../sources/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md))
+- [WW 2022-03-06 — Blog post: Investors Intelligence poll finds more bears than bulls (34.5/29.9%) =extreme bearish sentiment in ](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md) ([summary](../sources/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))

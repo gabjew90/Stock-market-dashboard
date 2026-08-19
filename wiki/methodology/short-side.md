@@ -23,6 +23,8 @@ sources:
   - raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md
   - raw/posts/2005-04-18-put-me-on-ira.md
   - raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md
+  - raw/posts/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md
+  - raw/posts/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -50,6 +52,8 @@ When the GMI is weak and the market is in a down-trend, Dr. Wish scans for **sub
 
 **IBD-100 stocks in down-trends fall harder:** Dr. Wish documented that in the May 2006 market decline, only 14% of IBD-100 stocks rose while 85% declined, with a median decline of -7.2% vs -3.5% for Nasdaq-100 stocks. Growth stocks amplify both up-moves and down-moves — this is why they need to be sold (or shorted) when the market trend turns. ([WW 2006-05-22](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
 
+**Measured once, in 2010.** The nine stocks the scan produced on 2010-04-29 were tracked with a TC2007 watchlist report: all nine declined, and **five (56%) fell 15% or more**, against 17% of Nasdaq-100 and 19% of S&P 500 components over a stretch in which QQQQ fell 11% and SPY 10% — "my submarine scan detected stocks that were more likely to have taken big dives than would be expected." PWRD, singled out in the original post, gapped down hard on 5/17. ([WW 2010-05-24](../../raw/posts/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md)) It is the only published performance check on the scan.
+
 ## The topping-pattern scan
 
 Dr. Wish uses a TC2007 PCF (personal criteria formula) that detects stocks and ETFs whose long-term average is *just beginning* to reverse down — distinct from stocks already in established down-trends. The same PCF flagged Enron before it collapsed. In July 2010, it flagged 91 of 951 ETFs including S&P 500, Dow 30, and most world markets. The scan is not published but is described as detecting "the beginning of reversal" in the long-term average direction. ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md))
@@ -75,6 +79,8 @@ The Day-1 nibble, 2010 form: "When I get a new down-trend I sometimes buy a litt
 **The mechanics, taught (2009).** Written during the 2009 campaign to restore the uptick rule: what a short sale is, why heavy short interest is latent buying — every short "must eventually buy back to close their positions. This is why shares with a large short interest often times rebound quickly after a decline" — and the symmetry argument, "if we need an uptick rule to protect us from frenzied short selling, then we need a downtick rule to protect us from frenzied buying." The abuse worth policing is naked shorting. ([WW 2009-04-11](../../raw/posts/2009-04-11-the-dirty-little-secret-about-the-up-tick-rule-rigging-the-market.md)) This is the mechanism behind the short-interest filter on [the scans](scans.md).
 
 The 2005 founding statement: "Experienced traders do not care which way the market goes, as long as it moves in a trend… A good bear lasts 10 or more months and prices decline quicker than they go up — fear is quite a motivator. Why play only one side of the game." ([WW 2005-04-18](../../raw/posts/2005-04-18-put-me-on-ira.md)) And the odds stated in a decline: on day 6 of the July 2005 down-trend 38% of Nasdaq-100 stocks had risen — a long had a 38% chance, a short 62%. ([WW 2005-07-02](../../raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md))
+
+**The scaling rule on the short side mirrors the long side.** On day 3 of a new down-trend, holding small positions in QID and TECS: "I am more sure of a change of trend once it lasts for 5 days… if the down-trend continues Monday I will start to add to these positions." ([WW 2012-09-30](../../raw/posts/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md))
 
 ## Protective puts — the 2005 original, and the put-vs-stop rule
 
@@ -128,3 +134,5 @@ By 2012 he was "teaching myself to write the new weekly covered calls on the SPY
 - [WW 2012-04-16 — Thoughts about the Worden DC seminar; GMI 2; in cash and short GLD](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md) ([summary](../sources/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))
 - [WW 2005-04-18 — Put me on, IRA](../../raw/posts/2005-04-18-put-me-on-ira.md) ([summary](../sources/2005-04-18-put-me-on-ira.md))
 - [WW 2005-07-02 — The trend is our friend; GMI: +3; Interest rates rising; a short list of stocks](../../raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md) ([summary](../sources/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md))
+- [WW 2010-05-24 — Submarine scan worked–PWRD dives; Market treacherous](../../raw/posts/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md) ([summary](../sources/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md))
+- [WW 2012-09-30 — 3rd day of QQQ short term down-trend; Teach MarketWatch Contest Value of TA](../../raw/posts/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md) ([summary](../sources/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md))

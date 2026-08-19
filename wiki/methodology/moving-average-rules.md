@@ -39,6 +39,9 @@ sources:
   - raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md
   - raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md
   - raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md
+  - raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md
+  - raw/posts/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md
+  - raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md
 ---
 
 # Moving-average rules
@@ -86,6 +89,8 @@ The 2006 form of the rule: "When a major index is below its 30 week average I ge
 
 **Curve-up is the definitive re-entry, not the close (2022).** "Now that the QQQ is below its 30 week average, the first thing I will look for is a close above that average. But… the index can whip-saw above and below that average. **I therefore want to see the 30 week average curving up again. That is the definitive signal to get me back in.**" The mirror, stated in the same post: "if the 30 week average curves down it will signify to me the *beginning* of a major decline." ([WW 2022-01-30](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
 
+**What "declining" means, arithmetically (2021):** "a declining 30 week moving average occurs when the latest week's price being added to the average is less than the 31st week being dropped. In other words, **the current week's closing price is less than its closing price 31 weeks ago**, a serious sign of weakness." ([WW 2021-11-21](../../raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md))
+
 ## The 30-day average — the short-term trend anchor
 
 Dr. Wish calls the 30-day moving average "the most reliable indicator of the short term trend." The WishingWealth Pulse of the Market (WPM) tracks whether each major index is above its 30-day average, and what percentage of component stocks are above it. ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
@@ -120,6 +125,8 @@ For individual stocks, a weekly close below the **rising 10-week average** is an
 **The odds below it, in his own numbers.** January 2008: ten weeks under the 10-week, QQQQ −12%, 82% of its components lower, 87% of the S&P 500 lower — "can you see why it makes no sense to fight such odds?" And the flip side of the same rule: with the 10-week ~10% above price, "a rally would have to exceed about +10% for me to call a change in trend. There is clearly a lot of room on the up-side for failed, sucker rallies." ([WW 2008-01-22](../../raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md)) January 2011: 20 straight weeks above it — "as long as these indexes stay above their 10 week averages, I am likely to make money by being long stocks." ([WW 2011-01-24](../../raw/posts/2011-01-24-2746.md))
 
 April 2008, the positive case: QQQQ above a *rising* 10-week is when "I have the best chance of profiting from buying IBD 100 type growth stocks hitting new highs"; and the 55-day down-trend just ended in numbers — 72% of Nasdaq-100 components down, "the odds are 2 to 1 that an individual stock will decline." ([WW 2008-04-07](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md)) September 2010: SPY and DIA back above their 10-week, "the level at which I can begin to trade profitably on the long side." ([WW 2010-09-07](../../raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md))
+
+As *support* rather than a boundary: "one of the best areas of support for a rising stock is its 10 week moving average. A lot of rocket stocks rest there and then resume their rise" — the premise of a 2014 scan for rocket patterns bouncing off it. ([WW 2014-09-01](../../raw/posts/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md))
 
 ## The 4-week / 10-week / 30-week alignment — a weekly stock rule
 
@@ -207,6 +214,8 @@ The core rules have not changed. These posts confirm them as active practice:
 
 **x8/x21/30-day alignment — a daily bounce setup (2024):** introduced in June 2024. When the 8-day EMA > 21-day EMA > 30-day simple average on a daily chart, the stock is in a bullish alignment. Entry: buy when the stock bounces up off the 8-day EMA. Exit: sell if it closes below the 8-day EMA. TC2000 scan: alignment present, up 50%+ YoY, ATH within last 5 weeks, bouncing off x8. COST, ANF, NVDA, and CVLT are the worked examples. ([WW 2024-06-16](../../raw/posts/2024-06-16-blog-post-day-29-of-qqq-short-term-up-trend-introducing-the-x8-x21-30-day-set-up-examplescost-anf-nvda-cvlt.md))
 
+**The 5-day EMA (2025).** For a stock rising after a [Blue Dot](entry-signals.md), the trailing line he now prefers is the **daily 5 EMA**, revising the 8 EMA he had presented at TraderLion weeks earlier: "I have since found the 5 EMA to work even better for many rising stocks." GLD rode between its 5 EMA and its upper 2.15 Bollinger Band from August to October 2025, closing below the 5 EMA once. The rule attached: "if I owned GLD I would become defensive the first day it **closes** below the 5 EMA." ([WW 2025-10-15](../../raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md))
+
 ## Split-out page
 
 The RWB / BWR patterns, the daily RWB system (RLC, the red-line exit, the scan), the weekly Guppy chart as a bottom detector, the monthly RWB on bond ETFs, the hourly and monthly layers, the all-12 exit line and the consolidation read now live on their own page: [GMMA charts](gmma-charts.md).
@@ -267,3 +276,6 @@ wrote that, 79% of Nasdaq 100 stocks were below their 30-days — the rule read 
 - [WW 2025-10-23 — 4wk weekly bounce-entry rule; SPY Stage 2 in 2025](../../raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md) ([summary](../sources/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md))
 - [WW 2026-05-10 — 5-day EMA post-GLB exit; 4wk>10wk>30wk up-trend confirmed 2026](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md) ([summary](../sources/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
 - [WW 2022-01-30 — Blog post: Day 16 of $QQQ short term down-trend; Some end of decline signs I am looking for; Promising stock s](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md) ([summary](../sources/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
+- [WW 2021-11-21 — Blog post: Day 25 of $QQQ short term up-trend; I started this blog in 2006 to share with people what I was doi](../../raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md) ([summary](../sources/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md))
+- [WW 2014-09-01 — New Rocket Scan; 12th day of $QQQ short term up-trend; $THRM, $LEA-cup and handle](../../raw/posts/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md) ([summary](../sources/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md))
+- [WW 2025-10-15 — Blog Post: Day 37 of $QQQ short term up-trend; Check out this amazing daily chart showing how $GLD has closed ](../../raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md) ([summary](../sources/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md))

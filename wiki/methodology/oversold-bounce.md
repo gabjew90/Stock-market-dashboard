@@ -17,6 +17,7 @@ sources:
   - raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md
   - raw/posts/2019-02-10-green-dot-signal-lulu.md
   - raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md
+  - raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md
 ---
 
 # The oversold bounce (OSB / ATHOSB)
@@ -83,6 +84,7 @@ The pattern recurs with the later blue-dot variant: SHAK, a recent GLB, fell bac
 | 2022-06-15 | Named **ATHOSB**; oversold measure disclosed as the daily 10.1 / 10.4 / 10.4.4 stochastics ([WW 2022-06-15](../../raw/posts/2022-06-15-blog-post-one-of-my-favorite-set-ups-athosb-found-one-stock-sqm-check-it-out-and-see-the-tutorial.md)) |
 | 2023-07-09 | Black-dot indicator refined to **require a prior recent yearly high** ([WW 2023-07-09](../../raw/posts/2023-07-09-blog-post-day-48-of-qqq-short-term-up-trend-my-favorite-set-up-oversold-bounce-black-dot-after-a-recent-yearl.md)) |
 | 2023-07-13 | Stated preference for OSB **over** breakouts, on stop-placement grounds ([WW 2023-07-13](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md)) |
+| 2025-10-15 | The trail revised: **the 5-day EMA supersedes the 8** for a rising post-blue-dot stock — "I have since found the 5 EMA to work even better" ([WW 2025-10-15](../../raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md)) |
 | 2025-07-09 | Blue-dot OSB used alongside the 8-day EMA bounce ([WW 2025-07-09](../../raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md)) |
 
 ## See also
@@ -110,3 +112,4 @@ The pattern recurs with the later blue-dot variant: SHAK, a recent GLB, fell bac
 - [WW 2018-03-11 — Green Dot strategy defined](../../raw/posts/2018-03-11-green-dot-strategy-defined.md) ([summary](../sources/2018-03-11-green-dot-strategy-defined.md))
 - [WW 2019-02-10 — Green dot signal: LULU](../../raw/posts/2019-02-10-green-dot-signal-lulu.md) ([summary](../sources/2019-02-10-green-dot-signal-lulu.md))
 - [WW 2011-12-05 — GMI flashes bullish signal (#13); the 'major innovation' — enter oversold in a Stage 2 up-trend](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md) ([summary](../sources/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md))
+- [WW 2025-10-15 — blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo](../../raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md) ([summary](../sources/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md))

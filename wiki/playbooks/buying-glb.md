@@ -17,6 +17,7 @@ sources:
   - raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md
   - raw/posts/2010-04-19-how-i-buy-aapl-for-12-down-without-using-margin.md
   - raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md
+  - raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md
 ---
 
 # Playbook — buying a Green Line Breakout
@@ -92,6 +93,8 @@ So: the *level* is fixed before the buy in every case; whether it is a resting G
 
 ---
 
+**Buying a GLB you cannot watch.** The entry problem has a Darvas answer he restates in 2022, with CLH approaching a GLB at $118.89: "how could I buy it if it traded through that price without being glued to my monitor? Nicolas Darvas had the answer… Once he had figured out a possible break-out price he had his broker enter a **good til cancelled buy stop order**. This meant that as soon as the stock traded at the price he specified his order to buy shares was entered as a market order. Darvas said that the buy stop order was a critical tool for him." ([WW 2022-08-25](../../raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md))
+
 ## Step 6 — Monitor and add to the position
 
 If the stock holds above the red lines on the daily RWB chart and continues advancing:
@@ -156,3 +159,4 @@ Written and published in April 2023 after missing the WING breakout — these ar
 - [WW 2010-04-19 — How I buy AAPL for 12% down without using margin](../../raw/posts/2010-04-19-how-i-buy-aapl-for-12-down-without-using-margin.md) ([summary](../sources/2010-04-19-how-i-buy-aapl-for-12-down-without-using-margin.md))
 - [WW 2010-09-27 — Introducing Red White and Blue (RWB) Stocks](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md) ([summary](../sources/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
 - [WW 2021-01-24 — In the 60s I used to receive a book of monthly charts; GLB origin; no stop-loss order for a GLB](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md) ([summary](../sources/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))
+- [WW 2022-08-25 — Blog Post: Day 28 of $QQQ short term up-trend; $QQQ very oversold and bounce likely; GLB: $CLH, how I buy a GL](../../raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md) ([summary](../sources/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md))

@@ -232,6 +232,16 @@ sources:
   - raw/posts/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md
   - raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md
   - raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md
+  - raw/posts/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md
+  - raw/posts/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md
+  - raw/posts/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md
+  - raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md
+  - raw/posts/2021-04-18-blog-post-wish-darvas-scan-finds-14-stocks-to-monitor-monday-cash-camt-myrg-gm-hibb-wsm-8-others-listed.md
+  - raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md
+  - raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md
+  - raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md
+  - raw/posts/2024-01-21-blog-post-day-8-of-qqq-short-term-up-trend-and-spy-has-a-glb-see-daily-chart-and-explanation-tqqq-beats-95-of.md
+  - raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md
 ---
 
 # Timeline — evolution of the methodology
@@ -552,6 +562,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"China in Free-fall, buying FXP; QQQQ completes 8th day" (2010-05-17):** GMI/GMI-R at one; "if [the weekly QQQQ index] should turn negative… I will consider moving my university pension funds… I typically, however, like to see a Stage 4 down-trend begin before I do that"; D-8: 90% of Nasdaq-100 down. ([WW 2010-05-17](../../raw/posts/2010-05-17-china-in-free-fall-buying-fxp-qqqq-completes-8th-day-of-short-term-down-trend.md))
 
+## May 2010 (scan check) — the submarine scan measured against index base rates
+
+**"Submarine scan worked — PWRD dives" (2010-05-24):** the nine stocks from the 4/29 scan tracked in TC2007 — all nine down, five (56%) down ≥15% against 17% of Nasdaq-100 and 19% of S&P 500 components. The only published performance check on one of his scans. ([WW 2010-05-24](../../raw/posts/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md))
+
 ## June 2010 — IBD calls a follow-through day; he stays in cash
 
 **"IBD says market in new up-trend, I am not yet convinced" (2010-06-04):** the FTD disagreement worked in real time — IBD confirmed an up-trend on its follow-through rule while his instruments read Day 21 down, GMI 1. "They may be right, but I need more of an advance." The June rally failed; the July pension exit followed. Thin new-high lists mined for future leaders meanwhile — preparation without participation. ([WW 2010-06-04](../../raw/posts/2010-06-04-ibd-says-market-in-new-up-trend-i-am-not-yet-convinced-some-possible-rocket-stocks.md))
@@ -706,6 +720,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## September 2012 — the 5-day rule applied to inverse ETFs
+
+**"3rd day of QQQ short term down-trend" (2012-09-30):** small QID and TECS positions on day 3 — "I am more sure of a change of trend once it lasts for 5 days… if the down-trend continues Monday I will start to add"; pension still fully long on the weekly trend. ([WW 2012-09-30](../../raw/posts/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md))
+
 ## March 2013 (GLB) — the green line stated; pilot buy; Dow Theory via GLB
 
 **"Some more green line break-out stocks: DFS, WAT, CAB, NEE; Dow Theory buy signal" (2013-03-17):** "one of my most important discoveries"; no overhead supply; scan → monthly line → weekly recency; "buy a little and wait to see if the green line holds… a lot of stocks will fall back to the green line before they advance"; GMCR's 2009 GLB ran ~900% — post-bear GLBs are the big winners; DJ-20 and DIA GLBs = "a classic Dow Theory buy signal." GMI Buy since Feb 28. ([WW 2013-03-17](../../raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md))
@@ -805,6 +823,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"This market is not out of the woods; Finding bio-tech stars like $AGIO and $VRTX" (2014-09-28):** with GMI=1 and QQQ short-term trend turned down, Dr. Wish describes a specialized biotech scan: run a TC2000 nightly scan for biotech stocks that advanced on **unusually high volume**. The news-catalyst layer: being in the research field, he knows that "one schedules public presentations to highlight good results." Reading clinical trial presentation announcements identifies stocks where results are likely positive before they are released. AGIO had a major presentation coming at a Leerink conference — "the next day it took off." The combination: technical unusual-volume + fundamental news catalyst = pre-breakout alert. Market-state gate demonstrated: despite the scan, GMI=1 and a short-term down-trend means "I am unlikely to buy anything right now." The **3:45 PM rule** stated: "I restrict most of my daily trading to around 3:45 PM when I can estimate where things will close. If I trade earlier in the day I am often whipsawed." Breadth check used as confirming signal: 46 new highs vs 214 new lows. ([WW 2014-09-28](../../raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md))
 
 ---
+
+## September 2014 (scan) — a bounce-off-the-10-week rocket scan; the cup-and-handle's three parts
+
+**"New Rocket Scan" (2014-09-01):** "one of the best areas of support for a rising stock is its 10 week moving average"; a scan over 6,000 stocks for rocket patterns bouncing off it; the cup-with-handle taught in three components (prior up-trend, the shape, the handle-top breakout on volume) on THRM. ([WW 2014-09-01](../../raw/posts/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md))
 
 ## October 2014 — Six signals for reading a decline; Stage 4 definition stated explicitly
 
@@ -927,6 +949,10 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 **"On David Ryan and my new TC2000 scan for GLB rockets bouncing off support: $PLAY" (2017-01-29):** Dr. Wish quotes David Ryan (William O'Neil's three-time National Investing Champion protege) from _Momentum Masters_ (2015): "I basically simplify it down to two, breakouts and pullbacks… You just have to draw a line across the top of where most of the stock's trading has taken place. Then you buy as it moves through that line… Buying pullbacks are a bit more complicated but offer another entry point to get aboard a leading stock." He shows how this maps exactly onto his own GLB framework. New TC2000 scan introduced (`01292017ATHhipast40daysBLBB`): stocks in his ~800-stock ATH watchlist that (1) hit a new all-time high in the past 40 days AND (2) are currently bouncing from their lower Bollinger Band (15.2). This finds post-GLB pullback re-entries; distinct from the BOS scan (which uses a broader universe). Key rule: **a pullback/bounce entry does not require volume** — low volume on the pullback is a positive sign that selling has dried up. Sell stop: just below the recent bounce/support low. PLAY worked example: gapped up on unusual volume December 2016, consolidated sideways, then bounced off the lower BB; earnings +127% the prior quarter, IBD composite 93, short ratio 7.2, up 47% over the prior year. GMI=6 at post date. ([WW 2017-01-29](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
 
 ---
+
+## January 2017 (club) — scans published; the Darvas scan's yield; RWBCount 12 of 12
+
+**"Recent GLB $IRBT resuming up-trend; $ANET GLB fails" (2017-01-22):** watchlists and EasyScans documented in the blog glossary and published to his TC2000 Club (incl. an `Alltimehighs` watchlist); the Darvas scan returns 53 stocks; IRBT at RWBCount 12/12 after a five-week post-GLB consolidation; and the limit — no indicator warned of ANET's news gap. ([WW 2017-01-22](../../raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md))
 
 ## March 2017 — Daily RWB chart formalized with RLC metric
 
@@ -1102,6 +1128,10 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 ---
 
+## April 2021 (scan) — the Wish-Darvas scan, criteria in full
+
+**"Wish-Darvas scan finds 14 stocks to monitor Monday" (2021-04-18):** >$20; near an ATH; yellowband 5+ weeks; new high within 25 days; closed up today; up >80% from a year ago ("Darvas liked +100%"); bounced off the 21-day EMA or 30-day SMA — 14 of 6,081 stocks. Exit fixed at entry: sell immediately on a *close* below the bounce average. ([WW 2021-04-18](../../raw/posts/2021-04-18-blog-post-wish-darvas-scan-finds-14-stocks-to-monitor-monday-cash-camt-myrg-gm-hibb-wsm-8-others-listed.md))
+
 ## May 2021 — OSB (oversold bounce) named as a setup
 
 **"4 oversold bounce (OSB) stocks: PCH DELL BSIG TBK" (2021-05-06):** the first post in the corpus to carry "OSB" as a named setup. The two filters are present from the start — candidates are "above their green line tops and near their ATHs" — as is the exit rule: "If I buy an OSB stock I sell immediately if the bounce fails." Published on Day 2 of a QQQ short-term down-trend, on the reasoning that 378 non-QQQ stocks were still hitting new highs. ([WW 2021-05-06](../../raw/posts/2021-05-06-blog-post-day-2-of-qqq-short-term-down-trend-but-378-new-highs-among-us-stocks-non-qqq-type-stocks-still-risi.md))
@@ -1136,11 +1166,19 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 ---
 
+## November 2021 (mechanics) — what a declining 30-week means; cap-weighting masks the decline
+
+**"I started this blog in 2006 to share with people…" (2021-11-21):** "a declining 30 week moving average occurs when the latest week's price being added to the average is less than the 31st week being dropped… the current week's closing price is less than its closing price 31 weeks ago"; and cap-weighted SPY/QQQ at ATHs while the price-weighted DIA was not — mega-caps hiding the internal decline, days before the exit. ([WW 2021-11-21](../../raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md))
+
 ## January–February 2022 — end-of-decline signs; how he uses Bollinger Bands
 
 **"Some end of decline signs I am looking for" (2022-01-30):** a close above the 30-week whipsaws — "I want to see the 30 week average curving up again. That is the definitive signal to get me back in"; the bottom-watch pair p/c > 1.10 and T2108 < 10%; buy a little SPY and add only at higher levels; "going in early in anticipation of a change in trend often leads to losses." ([WW 2022-01-30](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
 
 **"How I use Bollinger Bands to analyze QQQ" (2022-02-08):** the 15.2 setting ("I use 15.2… because they work for me"), the band bounce (close far below the lower band, then back above), and the pinch — "usually leads to a big move up or down… So we wait." ([WW 2022-02-08](../../raw/posts/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md))
+
+## March 2022 (sentiment) — bears outnumber bulls, but T2108 says no; the RS-at-a-20-week-high condition
+
+**"Investors Intelligence poll finds more bears than bulls" (2022-03-06):** the rare inversion suggests a bounce, "but T2108, at 37%, is far above the level where bottoms occur"; "we need to stop looking for bargains"; the ATH scan's weekly-RS-vs-SPY-at-a-20-week-high condition, with 13 of 15 hits rising in a down week and clustering in agriculture, metals and defence. ([WW 2022-03-06](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))
 
 ## April 2022 — WeeklyGreenBar scan formalized; subsector strategies
 
@@ -1179,6 +1217,10 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 **"How to use hourly/daily/weekly GMMA charts" (2022-08-07):** the hourly layer documented — the adapted GMMA's 13th "average" plotting price itself (the dotted line that should lead in an up-trend), red-line convergence as a base at any timescale, and the hourly's job: showing where inside the daily trend you are. Completes the ladder hourly → daily → weekly → monthly. ([WW 2022-08-07](../../raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md))
 
 ---
+
+## August 2022 (entry) — Darvas's GTC buy-stop; oversold breadth scaled
+
+**"$QQQ very oversold and bounce likely; GLB: $CLH" (2022-08-25):** how to buy a GLB you cannot watch — "Darvas said that the buy stop order was a critical tool for him"; and oversold breadth scaled: 53% of Nasdaq-100 stocks with a daily 10.4 stochastic < 20, against 85% at the June 16 bottom. ([WW 2022-08-25](../../raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md))
 
 ## October 2022 — the <5%-below-a-recent-ATH column scan
 
@@ -1240,6 +1282,10 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 
 ---
 
+## January 2024 (measure) — TQQQ beats >95% of stocks; blue dot → green dot → GLB
+
+**"Day 8 of $QQQ short term up-trend and $SPY has a GLB!" (2024-01-21):** from the January 8 signal, QQQ +4% and TQQQ +11.9%, with only five Nasdaq-100 and six S&P 500 stocks ahead of it — "in a QQQ up-trend TQQQ advances more than 95% of stocks… I just ride TQQQ"; the dot sequence on one chart; SPY's GLB above its January 2022 top. ([WW 2024-01-21](../../raw/posts/2024-01-21-blog-post-day-8-of-qqq-short-term-up-trend-and-spy-has-a-glb-see-daily-chart-and-explanation-tqqq-beats-95-of.md))
+
 ## May 2024 — Weekly green bar scan criteria formalized
 
 **"ANF worked example of the weekly green bar indicator" (2024-05-27):** the weekly green bar scan is formalized with explicit criteria: 10.4 stochastic > 80 for ≥ 5 weeks; 4wk > 10wk > 30wk; stock up ≥ 50% from a year ago; recent ATH; green bar the most recent week. Exit rules: close below 10-week average, or 4-week average declines below 10-week average. ANF traced from June 2023 to April 2024 without closing below its 10-week average. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
@@ -1297,6 +1343,10 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 **"Day 43 of QQQ up-trend; how I traded the SPY GLB last June; 4-week weekly bounce" (2025-10-23):** Dr. Wish describes trading the **SPY GLB** that occurred in June 2025 (SPY broke to a new ATH after a multi-month consolidation). He shows his actual entry and how he held the position using the 4-week weekly average as a trailing guide. He also formalises the **4-week weekly bounce entry**: for stocks in Stage 2 (4wk>10wk>30wk), look for a bounce off the rising 4-week average on the weekly chart — this gives a lower-risk, tighter stop than waiting for the 10-week average. Stop: below the bounce week's low. This makes the 4wk average both an exit signal and an entry trigger depending on direction. ([WW 2025-10-23](../../raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md))
 
 ---
+
+## October 2025 (revision) — the 5-day EMA supersedes the 8 for trailing
+
+**"Check out this amazing daily chart showing how $GLD…" (2025-10-15):** after GLD's August 20 Blue Dot it rode its **daily 5 EMA** for two months, closing below once — "I described the Blue Dot of Happiness signal and how I was using the 8 EMA. **I have since found the 5 EMA to work even better for many rising stocks**"; the channel between the 5 EMA and the upper 2.15 Bollinger Band; defensive on the first close below. "Why this can work, I do not know, or care." ([WW 2025-10-15](../../raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md))
 
 ## December 2025 — GMI component 6 turns negative; FFTY in a daily BWR
 
@@ -1561,3 +1611,13 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2022-02-08 — Blog post: How I use Bollinger Bands to analyze QQQ — watch out for QQQ around  372; 12 of the 13 stocks from ](../../raw/posts/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md) ([summary](../sources/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md))
 - [WW 2022-10-03 — Blog Post: Day 25 of $QQQ short term down-trend; See my new way to scan for stocks near their recent ATH and G](../../raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md) ([summary](../sources/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md))
 - [WW 2025-04-20 — Blog Post: Day 38 of $QQQ short term down-trend; If one had bought $SQQQ on Day 1 of the down-trend, it would ](../../raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md) ([summary](../sources/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md))
+- [WW 2010-05-24 — Submarine scan worked–PWRD dives; Market treacherous](../../raw/posts/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md) ([summary](../sources/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md))
+- [WW 2012-09-30 — 3rd day of QQQ short term down-trend; Teach MarketWatch Contest Value of TA](../../raw/posts/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md) ([summary](../sources/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md))
+- [WW 2014-09-01 — New Rocket Scan; 12th day of $QQQ short term up-trend; $THRM, $LEA-cup and handle](../../raw/posts/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md) ([summary](../sources/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md))
+- [WW 2017-01-22 — Recent GLB $IRBT resuming up-trend; $ANET GLB fails; Access my TC2000 scans–newly described in my blog’s gloss](../../raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md) ([summary](../sources/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md))
+- [WW 2021-04-18 — Blog post: Wish-Darvas scan finds 14 stocks to monitor Monday: $CASH $CAMT $MYRG $GM $HIBB $WSM + 8 others lis](../../raw/posts/2021-04-18-blog-post-wish-darvas-scan-finds-14-stocks-to-monitor-monday-cash-camt-myrg-gm-hibb-wsm-8-others-listed.md) ([summary](../sources/2021-04-18-blog-post-wish-darvas-scan-finds-14-stocks-to-monitor-monday-cash-camt-myrg-gm-hibb-wsm-8-others-listed.md))
+- [WW 2021-11-21 — Blog post: Day 25 of $QQQ short term up-trend; I started this blog in 2006 to share with people what I was doi](../../raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md) ([summary](../sources/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md))
+- [WW 2022-03-06 — Blog post: Investors Intelligence poll finds more bears than bulls (34.5/29.9%) =extreme bearish sentiment in ](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md) ([summary](../sources/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))
+- [WW 2022-08-25 — Blog Post: Day 28 of $QQQ short term up-trend; $QQQ very oversold and bounce likely; GLB: $CLH, how I buy a GL](../../raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md) ([summary](../sources/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md))
+- [WW 2024-01-21 — Blog Post: Day 8 of $QQQ short term up-trend and $SPY has a GLB! See daily chart and explanation; $TQQQ beats ](../../raw/posts/2024-01-21-blog-post-day-8-of-qqq-short-term-up-trend-and-spy-has-a-glb-see-daily-chart-and-explanation-tqqq-beats-95-of.md) ([summary](../sources/2024-01-21-blog-post-day-8-of-qqq-short-term-up-trend-and-spy-has-a-glb-see-daily-chart-and-explanation-tqqq-beats-95-of.md))
+- [WW 2025-10-15 — Blog Post: Day 37 of $QQQ short term up-trend; Check out this amazing daily chart showing how $GLD has closed ](../../raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md) ([summary](../sources/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md))

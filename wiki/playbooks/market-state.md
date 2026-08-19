@@ -25,6 +25,7 @@ sources:
   - raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md
   - raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md
   - raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md
+  - raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md
 ---
 
 # Playbook — market state → stance
@@ -84,6 +85,8 @@ Thresholds and their history: [t2108.md#thresholds](../methodology/t2108.md#thre
 ---
 
 - **The bottom-watch pair (2022):** put/call **> 1.10** *and* T2108 **< 10%** as "early indicators of a possible bottom"; on a T2108 break below 10% he will "buy a little SPY and buy more only at *higher* levels after a bottom is in." The re-entry itself waits on the weekly: a close above the 30-week can whipsaw, so "I want to see the 30 week average curving up again. That is the definitive signal to get me back in." ([WW 2022-01-30](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
+
+- **Sentiment does not overrule breadth.** March 2022: more bearish than bullish newsletters — "a very rare event [that] suggests that at least a bounce may be coming. **But T2108, at 37%, is far above the level where bottoms occur. And the p/c ratio, in the .80s, is not extreme.**" He stayed in cash. ([WW 2022-03-06](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))
 
 ## Step 4 — Check breadth divergence (overrides a GREEN GMI)
 
@@ -153,3 +156,4 @@ New lows surging while the index is at a high is an exit signal *before* the GMI
 - [WW 2010-07-12 — New up-trend or dead cat bounce?](../../raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md) ([summary](../sources/2010-07-12-new-up-trend-or-dead-cat-bounce.md))
 - [WW 2022-01-30 — Blog post: Day 16 of $QQQ short term down-trend; Some end of decline signs I am looking for; Promising stock s](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md) ([summary](../sources/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
 - [WW 2016-12-04 — New $QQQ short term down-trend; $NFLX breaking out? TC2000 scan results: 7 rocket stocks](../../raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md) ([summary](../sources/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md))
+- [WW 2022-03-06 — Blog post: Investors Intelligence poll finds more bears than bulls (34.5/29.9%) =extreme bearish sentiment in ](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md) ([summary](../sources/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))

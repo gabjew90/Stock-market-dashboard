@@ -58,6 +58,7 @@ sources:
   - raw/posts/2005-06-14-gmi-at-the-max-6-buying-gaps-gm-hans.md
   - raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md
   - raw/posts/2005-05-05-is-the-fed-done-ww-gmi-2.md
+  - raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md
 ---
 
 # Risk & cash
@@ -192,6 +193,8 @@ In addition to the GMI and 30-week average, Dr. Wish tracks daily new highs and 
 
 An earlier worked read, July 2015, with the GMI at 6: the QQQ closed the week +5.5% at an all-time high while SPY and DIA lagged, only 34% of Nasdaq-100 stocks rose on the day, and new yearly lows *exceeded* new highs across ~5,000 stocks — the index carried by GOOG, FB, NFLX, CELG, AMZN. "It does not bode well for an army when most troops do not follow the generals." Two overbought reads (56% of QQQ constituents overbought; QQQ above its upper 15.2 daily Bollinger Band) made the 7%-in-six-days run look like a buying climax; he held a small SQQQ position. ([WW 2015-07-19](../../raw/posts/2015-07-19-buying-climax-in-the-qqq.md)) The 2015 read and the November 2021 exit above are the same test applied six years apart.
 
+**The mechanism, spelled out days before the November 2021 exit.** SPY and QQQ are capitalisation-weighted, so "the few huge cap stocks like AAPL, MSFT etc. account for most of the movement in the index," while the price-weighted DIA was *not* at all-time highs — "the strength in the few very popular huge cap stocks are causing SPY and QQQ to not reflect the decline in most of their component stocks." ([WW 2021-11-21](../../raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md))
+
 ## T2108 as a contrarian bottom signal
 
 When [T2108](t2108.md) drops below 10%, the market is usually near the bottom of a steep decline. His action: "grit my teeth while the market gossip is terrible and buy a market index ETF." The market (not every individual stock) has always recovered from such extremes. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
@@ -318,3 +321,4 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2005-06-14 — GMI at the max:  +6; Buying Gaps; GM, HANS](../../raw/posts/2005-06-14-gmi-at-the-max-6-buying-gaps-gm-hans.md) ([summary](../sources/2005-06-14-gmi-at-the-max-6-buying-gaps-gm-hans.md))
 - [WW 2005-07-02 — The trend is our friend; GMI: +3; Interest rates rising; a short list of stocks](../../raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md) ([summary](../sources/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md))
 - [WW 2005-05-05 — Is the Fed Done?  WW-GMI: +2](../../raw/posts/2005-05-05-is-the-fed-done-ww-gmi-2.md) ([summary](../sources/2005-05-05-is-the-fed-done-ww-gmi-2.md))
+- [WW 2021-11-21 — Blog post: Day 25 of $QQQ short term up-trend; I started this blog in 2006 to share with people what I was doi](../../raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md) ([summary](../sources/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md))

@@ -32,6 +32,7 @@ sources:
   - raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md
   - raw/posts/2017-03-20-qqq-strongest-gs-weakens-wd-resumes-advance-and-yin-has-glb-a-strategy-for-setting-stops.md
   - raw/posts/2018-07-16-rwb-weekly-strategy-can-keep-me-in-a-good-position-qqq-spy-ge-cat-sq.md
+  - raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md
 ---
 
 # GMMA charts — RWB / BWR, the daily RWB system, and the timeframe ladder
@@ -68,6 +69,8 @@ See [stock-selection.md](stock-selection.md) for the full description of how RWB
 The daily Guppy chart was already a cash/short reason in February 2010 — short averages "projecting below the long term averages… the first time this has happened since the market bottomed in March." ([WW 2010-02-01](../../raw/posts/2010-02-01-short-term-down-trend-deepens-qqqq-guppy-chart-ominous-in-cash.md)) And BWR on a sector: the municipal-bond ETFs' weekly GMMA in January 2011 — "the bearish pattern (BWR) is the opposite of the bullish RWB rocket stock pattern, and is more like what I call a submarine pattern." ([WW 2011-01-18](../../raw/posts/2011-01-18-the-municipal-bond-collapse-has-begun-taking-cover.md))
 
 **The weekly hold rule (2018).** "Daily stock charts are good for determining entry set-ups and initial stops, but daily charts often mislead me and scare me out of good positions… once my entry set-up holds and I am not stopped out, I could actually just hold onto any equity in an RWB weekly up-trend pattern **until the white band in the middle (the W in RWB) disappears**." Weekly closes dipping below the red lines are noise while red stays above blue; "in a strong up-trend the equity repeatedly closes the week above all 12 averages." The prohibition attached: "never buy and… sell or sell short any equity with the opposite BWR weekly down-trend pattern" — GE from April 2017 as the example. ([WW 2018-07-16](../../raw/posts/2018-07-16-rwb-weekly-strategy-can-keep-me-in-a-good-position-qqq-spy-ge-cat-sq.md)) This sits between the 2017 daily-RWB exit and the 2019 weekly-first rule; see [which trailing system when](../playbooks/exits.md#which-trailing-system-when).
+
+**RWBCount** is the weekly analogue of the daily [RLC](#the-daily-rwb-chart--a-finer-grained-tool): the count (0–12) of weekly GMMA averages in their correct order. "A maximum RWBCount of 12 (of 12). All of the weekly moving averages line up properly" — IRBT, January 2017. ([WW 2017-01-22](../../raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md))
 
 ## The daily RWB chart — a finer-grained tool
 
@@ -232,3 +235,4 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2022-08-07 — The hourly GMMA; the adapted Guppy across three timeframes](../../raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md) ([summary](../sources/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md))
 - [WW 2017-03-20 — $QQQ strongest; $GS weakens, $WD resumes advance and $YIN has GLB; a strategy for setting stops](../../raw/posts/2017-03-20-qqq-strongest-gs-weakens-wd-resumes-advance-and-yin-has-glb-a-strategy-for-setting-stops.md) ([summary](../sources/2017-03-20-qqq-strongest-gs-weakens-wd-resumes-advance-and-yin-has-glb-a-strategy-for-setting-stops.md))
 - [WW 2018-07-16 — RWB weekly strategy can keep me in a good position; $QQQ $SPY $GE $CAT $SQ](../../raw/posts/2018-07-16-rwb-weekly-strategy-can-keep-me-in-a-good-position-qqq-spy-ge-cat-sq.md) ([summary](../sources/2018-07-16-rwb-weekly-strategy-can-keep-me-in-a-good-position-qqq-spy-ge-cat-sq.md))
+- [WW 2017-01-22 — Recent GLB $IRBT resuming up-trend; $ANET GLB fails; Access my TC2000 scans–newly described in my blog’s gloss](../../raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md) ([summary](../sources/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md))
