@@ -38,6 +38,7 @@ sources:
   - raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md
   - raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md
   - raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md
+  - raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md
 ---
 
 # Moving-average rules
@@ -82,6 +83,8 @@ Stage analysis was introduced by Weinstein and adopted by Dr. Wish. The four sta
 The 2006 form of the rule: "When a major index is below its 30 week average I get very defensive in the stocks represented by that indicator" — written the week the QQQQ first closed under it since the prior October. ([WW 2006-08-14](../../raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md))
 
 **The sequence, stated in April 2014.** First weekly close under the 30-week since December 2012: "a serious sign of weakness that bears careful watching. If the QQQ remains below its 30 week average so that the average itself turns down, it will signal to me the beginning of the end of the Stage 2 up-trend and possibly lead to a Stage 4 market decline… A trend follower must wait for the top to be in and for a significant decline to begin. I cannot therefore avoid giving back some gains." Four earlier multi-week dips under the 30-week since 2009 had all resolved upward. ([WW 2014-04-13](../../raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md)) Six months later, the retake: "the QQQ is now back above its critical 30 week average, indicating that the Stage 2 advance is still intact." ([WW 2014-10-26](../../raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md))
+
+**Curve-up is the definitive re-entry, not the close (2022).** "Now that the QQQ is below its 30 week average, the first thing I will look for is a close above that average. But… the index can whip-saw above and below that average. **I therefore want to see the 30 week average curving up again. That is the definitive signal to get me back in.**" The mirror, stated in the same post: "if the 30 week average curves down it will signify to me the *beginning* of a major decline." ([WW 2022-01-30](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
 
 ## The 30-day average — the short-term trend anchor
 
@@ -263,3 +266,4 @@ wrote that, 79% of Nasdaq 100 stocks were below their 30-days — the rule read 
 - [WW 2025-06-29 — 10wk/30wk crossover for pension; Guppy weekly RWB 2025; mutual fund GLB](../../raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md) ([summary](../sources/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md))
 - [WW 2025-10-23 — 4wk weekly bounce-entry rule; SPY Stage 2 in 2025](../../raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md) ([summary](../sources/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md))
 - [WW 2026-05-10 — 5-day EMA post-GLB exit; 4wk>10wk>30wk up-trend confirmed 2026](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md) ([summary](../sources/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
+- [WW 2022-01-30 — Blog post: Day 16 of $QQQ short term down-trend; Some end of decline signs I am looking for; Promising stock s](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md) ([summary](../sources/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))

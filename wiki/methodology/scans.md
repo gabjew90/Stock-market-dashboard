@@ -18,6 +18,7 @@ sources:
   - raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md
   - raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md
   - raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md
+  - raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -137,6 +138,16 @@ Posted to his TC2000 club in December 2016 and specified in full: **(1)** the fa
 
 Run on his ~780-stock IBD/MarketSmith watchlist during the 2022 bear: stocks **near an all-time high** whose **weekly relative strength versus SPY is at a 50-week high**, sorted by change from 250 days ago (HRMY +76% topped the June 2022 list of 12). The logic is the same as the weak-tape watchlist on [stock-selection](stock-selection.md#building-the-ath-watchlist--and-tc2000s-survivorship-trap): "any stock that can come through the recent market down-trend near an ATH is worth monitoring," whereas fallen leaders "may never come back to an ATH, as many people who bought at higher prices and rode them down are grateful to sell as soon as they can get their original investments back." LLY was the worked example, with a successful retest of its March 2022 GLB. ([WW 2022-06-26](../../raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md))
 
+## The <5%-below-a-recent-ATH column scan (2022)
+
+Built after his TraderLion presentation, on the argument that "most of the stocks that Bill O'Neil graphed as among his greatest winners were stocks that had bases at or approaching their all-time-highs." The point is to catch both stocks that have already had a [GLB](green-line-breakouts.md) and those still just under one. The TC2000 column, as published:
+
+- **Price New High**, set to **monthly, 500-bar high within the last 3 bars** — a 500-month (~41-year) high made within the last three months.
+- Daily formula **`h > .95*maxh60`** — today's high within 5% of the highest high of the last 60 days.
+- **`C > 30`** and **`V > 10000`** "to get rid of junk."
+
+He then draws the green lines on the survivors by hand and looks for setups. ([WW 2022-10-03](../../raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md))
+
 ## The Darvas EasyScan (2015)
 
 A TC2000 EasyScan he designed to approximate Darvas's selection criteria, run against ~6,000 stocks; on 2015-02-27 it returned 46 names, of which AMBA — above its green-line top, in a weekly RWB pattern — was the example. The criteria are not listed in the post; he points to his 2012 Houston TC2000 webinar for the walk-through. ([WW 2015-03-01](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md))
@@ -166,3 +177,4 @@ A TC2000 EasyScan he designed to approximate Darvas's selection criteria, run ag
 - [WW 2022-06-26 — QQQ down-trend may end Monday; 69% of Nasdaq-100 in hourly RWB up-trends; RS-at-50-week-high scan; LLY](../../raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md) ([summary](../sources/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md))
 - [WW 2010-06-21 — Stocks near all-time highs; IBD100 stocks 3× more likely to rise 10%+](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md) ([summary](../sources/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
 - [WW 2016-12-11 — All GMI components positive; QQQ near ATH; new TC2000 scan for bounces: CELG](../../raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md) ([summary](../sources/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md))
+- [WW 2022-10-03 — Blog Post: Day 25 of $QQQ short term down-trend; See my new way to scan for stocks near their recent ATH and G](../../raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md) ([summary](../sources/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md))

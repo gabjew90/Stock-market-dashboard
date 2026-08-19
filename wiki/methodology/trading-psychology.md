@@ -23,6 +23,8 @@ sources:
   - raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md
   - raw/posts/2005-06-01-googlemania-gmi-5-and-growing-stronger.md
   - raw/posts/2005-12-11-appels-new-book-on-ta-gmi-declines-to-5-wpm-shows-short-term-weakness-long-bonds-to-weaken-some-weak-sectors.md
+  - raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md
+  - raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -44,6 +46,8 @@ The rule is as old as the blog. May 2005: "my gut was telling me the market shou
 "We must always guard against marrying a scenario and be ready to change direction to be consistent with the market's main trend." Said while pundits called a top and his GMMA charts showed a two-year RWB advance intact. ([WW 2015-02-16](../../raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md)) The same instinct in a down-trend: "Buying or holding stocks at or near new highs is now a losers game. Everyone must do some self-analysis to determine why they would do so during a market down-trend. **Ask, do I want to make money or to be smart?**" ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
 
 The stock-level version, from November 2016: "I do not marry a stock. As William O'Neil has written, all stocks are bad, unless they are going up!" — with the mechanism that makes it possible: "I always know in advance the price action that will tell me that my purchase is wrong and where I must exit." ([WW 2016-11-13](../../raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md)) And a 2006 line on the same theme: "Patience is the sine qua non of successful trading." ([WW 2006-08-14](../../raw/posts/2006-08-14-cramer-contrary-indicator-and-gmi-have-protected-us-gmi1-ibd-100-index-rigged.md))
+
+The bottom-calling version, 2025: "**Stop trying to predict a bottom and wait for it to define itself.**" With the arithmetic that makes patience affordable: "I do not have to reinvest at the bottom, just return in a new up-trend before the market rises to the point I got out." ([WW 2025-04-20](../../raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md)) And 2022: "by definition, a trend follower follows the trend. I will get back in long after a bottom is formed, not before. Going in early in anticipation of a change in trend often leads to losses." ([WW 2022-01-30](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
 
 ## 3. Fear will make you break your own rule — he did, and said so
 
@@ -105,3 +109,5 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2005-05-22 — GMI rises to +5, The Google Rocket, Lucky Bill Miller](../../raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md) ([summary](../sources/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md))
 - [WW 2005-06-01 — Googlemania, GMI +5 and growing stronger](../../raw/posts/2005-06-01-googlemania-gmi-5-and-growing-stronger.md)
 - [WW 2005-12-11 — Appel’s new book on TA; GMI declines to +5; WPM shows short term weakness;  Long bonds to weaken; Some weak se](../../raw/posts/2005-12-11-appels-new-book-on-ta-gmi-declines-to-5-wpm-shows-short-term-weakness-long-bonds-to-weaken-some-weak-sectors.md) ([summary](../sources/2005-12-11-appels-new-book-on-ta-gmi-declines-to-5-wpm-shows-short-term-weakness-long-bonds-to-weaken-some-weak-sectors.md))
+- [WW 2022-01-30 — Blog post: Day 16 of $QQQ short term down-trend; Some end of decline signs I am looking for; Promising stock s](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md) ([summary](../sources/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
+- [WW 2025-04-20 — Blog Post: Day 38 of $QQQ short term down-trend; If one had bought $SQQQ on Day 1 of the down-trend, it would ](../../raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md) ([summary](../sources/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md))

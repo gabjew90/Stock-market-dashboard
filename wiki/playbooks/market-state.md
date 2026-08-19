@@ -23,6 +23,8 @@ sources:
   - raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md
   - raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md
   - raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md
+  - raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md
+  - raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md
 ---
 
 # Playbook — market state → stance
@@ -81,6 +83,8 @@ Thresholds and their history: [t2108.md#thresholds](../methodology/t2108.md#thre
 
 ---
 
+- **The bottom-watch pair (2022):** put/call **> 1.10** *and* T2108 **< 10%** as "early indicators of a possible bottom"; on a T2108 break below 10% he will "buy a little SPY and buy more only at *higher* levels after a bottom is in." The re-entry itself waits on the weekly: a close above the 30-week can whipsaw, so "I want to see the 30 week average curving up again. That is the definitive signal to get me back in." ([WW 2022-01-30](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
+
 ## Step 4 — Check breadth divergence (overrides a GREEN GMI)
 
 New lows surging while the index is at a high is an exit signal *before* the GMI turns: in November 2021 QQQ was at all-time highs (day U-26) while new lows reached 438; he exited near the peak and stayed out for over a year of Stage 4. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md)) Counts are over the full US universe filtered for close > $10 and volume > 10,000. Raise stops or go to cash on the divergence, GMI colour notwithstanding.
@@ -94,6 +98,8 @@ New lows surging while the index is at a high is an exit signal *before* the GMI
 - **Pension, staged:** first close under the 30-week → move ~25% to money market; another 25% on each further deterioration; toward 100% when the 30-week is declining. At GMI = 0 he has moved 60% at once, timing penalties accepted — "if the market were to turn up in the next few months I would have no regrets as I would simply hop back on at a higher level." ([WW 2010-07-06](../../raw/posts/2010-07-06-at-the-beginning-of-a-big-market-decline-my-next-worden-webinar.md)) Protocol in full: [the two accounts](../methodology/pension-management.md#the-staged-pension-exit-protocol).
 
 ---
+
+- **Window-dressing rallies** into quarter- and year-end are exit and stop-raising opportunities in a weakening tape, not entries: such a rally "may be a great time to exit positions or raise stops." ([WW 2016-12-04](../../raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md))
 
 ## Stance summary table (trading account)
 
@@ -145,3 +151,5 @@ New lows surging while the index is at a high is an exit signal *before* the GMI
 - [WW 2011-11-28 — 6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg](../../raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md) ([summary](../sources/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md))
 - [WW 2012-04-16 — thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md) ([summary](../sources/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))
 - [WW 2010-07-12 — New up-trend or dead cat bounce?](../../raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md) ([summary](../sources/2010-07-12-new-up-trend-or-dead-cat-bounce.md))
+- [WW 2022-01-30 — Blog post: Day 16 of $QQQ short term down-trend; Some end of decline signs I am looking for; Promising stock s](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md) ([summary](../sources/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
+- [WW 2016-12-04 — New $QQQ short term down-trend; $NFLX breaking out? TC2000 scan results: 7 rocket stocks](../../raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md) ([summary](../sources/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md))

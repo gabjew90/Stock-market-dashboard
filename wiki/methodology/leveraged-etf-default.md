@@ -12,6 +12,7 @@ sources:
   - raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md
   - raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md
   - raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md
+  - raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md
 ---
 
 # The leveraged-ETF default — TQQQ on a GMI Buy signal
@@ -38,6 +39,8 @@ When a new GMI buy signal fires (two consecutive days GMI > 3), the default is t
 In practice, mid-2019: "I am riding SPY and TQQQ during this market up-trend. The daily RWB pattern is just too strong to ignore… I simply follow the general market's trend until it ends." The same post frames index-ETF investing as the conservative version of the method he presents to older audiences. ([WW 2019-07-14](../../raw/posts/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md))
 
 The 2011 arithmetic that produced the default: over a 58-day up-trend QQQQ +11.4%, QLD +23.9%, TYH +39.9%, TQQQ +37.2%, while only 20% of Nasdaq-100 stocks rose ≥ 20% — "the best strategy may be to slowly buy into one of these ultra long index ETFs when the short term trend turns up and to slowly wade into the inverse ultra ETF's (QID, TYP, SQQQ) when the trend turns down." ([WW 2011-02-14](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md)) And the entry timing in practice, October 2014: "a new QQQ short term up-trend has begun. However, it has to last 5 days for me to heavily accumulate TQQQ. I did take a small position in TQQQ at the end of the day on Friday. Buying right after a technical buy signal is actually low risk to me, because if the technical buy signal fails, I can quickly sell out with a relatively small loss." ([WW 2014-10-26](../../raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md))
+
+**The symmetric statement (2025):** "if I can buy TQQQ on Day 1 of a new QQQ short term up-trend and if the up-trend lasts, it beats almost all individual stocks. **Similarly, SQQQ beats almost all individual stocks in a sustained down-trend.** The key is to buy on Day 1 and hold, but to sell quickly if the trend reverses." ([WW 2025-04-20](../../raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md))
 
 ## The TQQQ default and year-in-review performance data
 
@@ -68,3 +71,4 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2011-02-14 — NOG: RWB rocket stock with possible cup-with-handle break-out](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md) ([summary](../sources/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md))
 - [WW 2014-10-26 — QQQ short-term trend turns up, retakes 30-week average; GLB stocks shine](../../raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md) ([summary](../sources/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md))
 - [WW 2005-07-28 — Another strong day; GMI: +6 and its track record; Benefits of naked charts; Some Darvas type stocks](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md) ([summary](../sources/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
+- [WW 2025-04-20 — Blog Post: Day 38 of $QQQ short term down-trend; If one had bought $SQQQ on Day 1 of the down-trend, it would ](../../raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md) ([summary](../sources/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md))

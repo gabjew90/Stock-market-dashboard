@@ -17,6 +17,8 @@ sources:
   - raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md
   - raw/posts/2005-06-07-a-strange-day-gmi-back-to-6.md
   - raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md
+  - raw/posts/2013-06-24-sell-in-may-worked-my-confession-d-9-of-current-short-term-down-trend.md
+  - raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md
 ---
 
 # QQQ Short-Term Timing
@@ -56,6 +58,8 @@ Most QQQ short-term down-trends since 2006 are short: "about one quarter of new 
 
 An April 2019 post included the most detailed published tabulation of QQQ trend duration statistics, updated through March 2019 (data going back to 2006): about **40% of new QQQ short-term down-trends end in fewer than 6 days**; 60% of both up-trends and down-trends last 6–47 days; the longest recorded up-trend in the dataset was 88 days; the longest down-trend was 69 days. Dr. Wish was in Day 61 of an up-trend when writing the post. These statistics explain his discipline of taking a small SQQQ position on Day 1 of a down-trend and adding to it only after Day 5 — by that point, the probability of a quick reversal has dropped substantially. ([WW 2019-04-07](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md))
 
+A 2016 statement of the same base rate: "many (about 40%) QQQ short term down-trends end in under 5 days" — matching the 2019 tabulation and superseding the "about one quarter" figure of 2014. ([WW 2016-12-04](../../raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md))
+
 ## Relationship to the GMI
 
 The QQQ short-term timing count is separate from, but published alongside, the GMI. Several GMI components measure the QQQ's daily and weekly trend — the short-term count overlaps with these but is more granular (it counts days; the GMI components are binary). When the GMI goes GREEN (≥ 4), the QQQ is typically also in a short-term up-trend. When the GMI flashes RED (≤ 3), the QQQ short-term count is typically down.
@@ -67,6 +71,8 @@ The count was present from the blog's earliest posts (2005) and appears in post 
 *Note: In early posts (2005–2010) the ETF was called QQQQ (4 Qs); it was later renamed QQQ (3 Qs). Same index.*
 
 **2005 — the 10-day line.** In the first summer the operative short-term line for the QQQQ was its 10-day moving average: "in this rise as in the prior May rally the QQQQ consistently closed above its rising 10 day moving average… Hint: When is the market weakening? Wait for a close below the dotted line." ([WW 2005-07-28](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md)) A first close under it after 26 days was read as "the steep rise may be over" and the cue to move stops up. ([WW 2005-06-07](../../raw/posts/2005-06-07-a-strange-day-gmi-back-to-6.md)) And the first duration base rate: the comparable up-trend before May 2005 "lasted about 92 trading days." ([WW 2005-06-02](../../raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md))
+
+**2013 — a criterion experiment, tried and reverted.** In June 2013 he adopted a new short-term-trend-change criterion "trying to minimize the risk of being whip-sawed in my short term trend count." It cost him the start of a decline: "in doing so, I missed the beginning of the current decline. So I went back to my original method and counted the down trend from where it would have begun" — and re-published the corrected sequence (U-31 ending June 5, a 2-day down-trend, a 2-day up-trend, then the current down-trend from June 12). Two-day trends are therefore *expected output* of the rule he uses, not a defect to be filtered. ([WW 2013-06-24](../../raw/posts/2013-06-24-sell-in-may-worked-my-confession-d-9-of-current-short-term-down-trend.md)) The published day counts are also corrected in public when readers question them.
 
 ## Code — an approximation of the day count
 
@@ -121,3 +127,5 @@ a trade-able rally**." ([WW 2008-10-22](../../raw/posts/2008-10-22-gmi-0-gmi-r-0
 - [WW 2005-06-02 — GMI goes to the max: +6, CME, QSII, CMN](../../raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md) ([summary](../sources/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md))
 - [WW 2005-06-07 — A strange day, GMI back to +6](../../raw/posts/2005-06-07-a-strange-day-gmi-back-to-6.md)
 - [WW 2005-07-28 — Another strong day; GMI: +6 and its track record; Benefits of naked charts; Some Darvas type stocks](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md) ([summary](../sources/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
+- [WW 2013-06-24 — Sell in May worked?  My confession; D-9 of current short term down-trend](../../raw/posts/2013-06-24-sell-in-may-worked-my-confession-d-9-of-current-short-term-down-trend.md) ([summary](../sources/2013-06-24-sell-in-may-worked-my-confession-d-9-of-current-short-term-down-trend.md))
+- [WW 2016-12-04 — New $QQQ short term down-trend; $NFLX breaking out? TC2000 scan results: 7 rocket stocks](../../raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md) ([summary](../sources/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md))

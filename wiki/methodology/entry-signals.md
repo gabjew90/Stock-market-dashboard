@@ -15,6 +15,8 @@ sources:
   - raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md
   - raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md
   - raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md
+  - raw/posts/2021-07-12-blog-post-32nd-day-of-qqq-short-term-up-trend-key-to-success-in-market-is-to-have-an-objective-defined-set-up.md
+  - raw/posts/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md
 ---
 
 # Entry signals — BOS, the dots, and the daily bounce setups
@@ -52,6 +54,8 @@ For stocks already in an up-trend that have pulled back to an oversold level, Dr
 
 The black dot only works on stocks already in a confirmed up-trend. He often combines it with the GLB: "I love a black dot that occurs after a GLB." The scan finds stocks that recently hit an ATH, became oversold, and are starting to turn up — placing the stop below the bounce gives a tight risk level.
 
+**The formula, published (July 2021).** "I want the 10.1 daily stochastic in any of the last three days to be ≤ 25 and for the stock to be higher today than yesterday and to be above its 30 day simple average or its 21 day exponential moving average. **The dot is placed at the 5 day low price**" — so the dot doubles as the stop reference, as the green dot's does. The claim it rests on: "**I have discovered that almost every significant rise in a stock begins from an oversold level. But not every oversold level leads to a big rise.**" That second sentence is why the ATH prerequisite exists — the oversold condition is necessary, the launched-rocket filter is what makes it sufficient. "I love a black dot signal soon after a green line break-out." ([WW 2021-07-12](../../raw/posts/2021-07-12-blog-post-32nd-day-of-qqq-short-term-up-trend-key-to-success-in-market-is-to-have-an-objective-defined-set-up.md))
+
 ## Recent practice (2020-2025)
 
 ### Bounce-off-support: green dot + stop below bounce low (2020)
@@ -69,6 +73,10 @@ After a Boston IBD Meetup presentation in May 2025, Dr. Wish published the most 
 ### The green dot in practice: LULU (2019)
 
 The fullest single walk-through of the green-dot procedure, a year after the definition: the signal is "an oversold fast stochastic crossing above a slow stochastic," and "before I act on a green dot signal I look at the weekly chart to see the trend and the stock's position regarding its last green-line top." LULU was *below* its last green-line top (drawn only after an ATH has held ≥ 3 months) but in a possible cup-with-handle; the stop would go below the bounce-day low (143.06 → 142.99); a recent bounce off the lower 15.2 daily Bollinger Band counted in its favour; IBD would instead wait for the ~153 pivot on volume. Two caveats stated with it — "this signal is not often useful for a declining stock," and in a market where many GLBs are failing "this set-up may not work" — and the preference restated: "I prefer to buy bounces from support rather than the actual break-out because I can set my stop loss at a technically meaningful place where the possible loss is also minimal." ([WW 2019-02-10](../../raw/posts/2019-02-10-green-dot-signal-lulu.md))
+
+### Bollinger Bands: the bounce and the pinch (2022)
+
+"I have the 15.2 daily Bollinger Bands drawn on all of my daily charts… According to John Bollinger, about 90% of prices should remain within the 2 bands when he used a 20.2 setting. **I use 15.2 as settings because they work for me.**" Three uses: bounces off the lower band (and hesitation at the upper); the **Bollinger Band bounce** — a bar that closes far below the lower band and then closes back above it, marked on his charts with green price bars (the January 24, 2022 low was one); and the **pinch** — "the Bollinger Bands are now forming a pinch with each band moving towards the other one. A pinch usually leads to a big move up or down. One does not know in advance which way the stock or index will break. So we wait." A band level coinciding with a moving average makes a stronger reference — QQQ's upper band at 372 sitting on its 30-day. ([WW 2022-02-08](../../raw/posts/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md))
 
 ## Lineage — which trigger is current
 
@@ -102,3 +110,5 @@ Between the doctrine (2011-12) and BOS (2016) sits a February 2011 scan of the I
 - [WW 2016-12-11 — All GMI components positive; QQQ near ATH; new TC2000 scan for bounces: CELG](../../raw/posts/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md) ([summary](../sources/2016-12-11-all-gmi-components-positive-qqq-near-all-time-peak-new-tc2000-scan-for-bounces-celg.md))
 - [WW 2011-12-05 — GMI flashes bullish signal (#13); the 'major innovation' — enter oversold in a Stage 2 up-trend](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md) ([summary](../sources/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md))
 - [WW 2011-02-14 — NOG: RWB rocket stock with possible cup-with-handle break-out](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md) ([summary](../sources/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md))
+- [WW 2021-07-12 — Blog post: 32nd day of $QQQ short term up-trend; Key to success in market is to have an objective, defined set](../../raw/posts/2021-07-12-blog-post-32nd-day-of-qqq-short-term-up-trend-key-to-success-in-market-is-to-have-an-objective-defined-set-up.md) ([summary](../sources/2021-07-12-blog-post-32nd-day-of-qqq-short-term-up-trend-key-to-success-in-market-is-to-have-an-objective-defined-set-up.md))
+- [WW 2022-02-08 — Blog post: How I use Bollinger Bands to analyze QQQ — watch out for QQQ around  372; 12 of the 13 stocks from ](../../raw/posts/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md) ([summary](../sources/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md))

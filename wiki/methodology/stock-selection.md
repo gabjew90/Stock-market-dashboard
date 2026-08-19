@@ -42,6 +42,8 @@ sources:
   - raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md
   - raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md
   - raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md
+  - raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md
+  - raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md
 ---
 
 # Stock selection
@@ -53,6 +55,8 @@ How Dr. Wish narrows the universe to buy candidates: technical strength first, a
 The foundational idea, stated early and repeated throughout the blog: buy stocks that have **already moved up** with strong volume — "a rocket that has been launched and is climbing nicely." ([WW 2005-04-30](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md)) Avoid buying fallen or falling stocks, or stocks that haven't yet shown strong buying by others. Darvas called this becoming "a silent partner of the insiders." ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
 
 Market environment is a prerequisite: "The best rules for picking stocks will fail in an adverse market environment." ([WW 2005-04-30](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md)) A [GMI](gmi.md) ≥ 4 is the gate; below that, stock-picking stops.
+
+Restated in 2022 with its O'Neil provenance — "most of the stocks that Bill O'Neil graphed as among his greatest winners were stocks that had bases at or approaching their all-time-highs. If you want to ride a stock to the moon one needs to get on a launched rocket that is hitting a series of ATHs" ([WW 2022-10-03](../../raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md)) — and in 2025 with the exclusion made explicit: "like Nicolas Darvas and William O'Neil, [I] buy only when a stock trades at or near an ATH. I am not interested in buying the fallen leaders until or **IF** they ever trade at an ATH. We never know in advance when a rebound will end. The stocks that reach an ATH early in a market up-trend are proving themselves worthy of my attention and money." ([WW 2025-04-20](../../raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md))
 
 ## Why "already doubled" — and the gap rule
 
@@ -296,3 +300,5 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2010-09-07 — This rally may have legs — IBD100 top ten out-shine again](../../raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md) ([summary](../sources/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md))
 - [WW 2009-02-15 — Jim Cramer finds TA religion; TSYS cup with handle; promising IBD100 stocks](../../raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md) ([summary](../sources/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md))
 - [WW 2005-06-13 — GMI back to +5; Chart of GMI performance; BTU](../../raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md) ([summary](../sources/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md))
+- [WW 2022-10-03 — Blog Post: Day 25 of $QQQ short term down-trend; See my new way to scan for stocks near their recent ATH and G](../../raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md) ([summary](../sources/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md))
+- [WW 2025-04-20 — Blog Post: Day 38 of $QQQ short term down-trend; If one had bought $SQQQ on Day 1 of the down-trend, it would ](../../raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md) ([summary](../sources/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md))

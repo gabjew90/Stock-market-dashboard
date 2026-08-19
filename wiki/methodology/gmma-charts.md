@@ -30,6 +30,8 @@ sources:
   - raw/posts/2022-07-12-blog-post-day-1-of-new-qqq-short-term-down-trend-hourly-gmma-looks-weak-see-chart-gmi0.md
   - raw/posts/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md
   - raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md
+  - raw/posts/2017-03-20-qqq-strongest-gs-weakens-wd-resumes-advance-and-yin-has-glb-a-strategy-for-setting-stops.md
+  - raw/posts/2018-07-16-rwb-weekly-strategy-can-keep-me-in-a-good-position-qqq-spy-ge-cat-sq.md
 ---
 
 # GMMA charts — RWB / BWR, the daily RWB system, and the timeframe ladder
@@ -64,6 +66,8 @@ See [stock-selection.md](stock-selection.md) for the full description of how RWB
 **The periods, stated in April 2014.** "12 exponential moving averages (3,5,8,10,12,15 = short term averages in red and 30,35,40,45,50,60 = longer term averages in blue). I also add a moving average = 1 to show the current close shown as a gray dotted line," plotted daily and weekly. Reading rules in the same breath: RWB = red rising well above blue; "when the white space between the red and blue averages disappears the advance of the index is weakening"; BWR "demonstrates considerable weakness"; and "it pays to be invested long in the market only when an RWB pattern is present." Used that week to read a split market — QQQ in a daily BWR while SPY had merely converged. ([WW 2014-04-20](../../raw/posts/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md))
 
 The daily Guppy chart was already a cash/short reason in February 2010 — short averages "projecting below the long term averages… the first time this has happened since the market bottomed in March." ([WW 2010-02-01](../../raw/posts/2010-02-01-short-term-down-trend-deepens-qqqq-guppy-chart-ominous-in-cash.md)) And BWR on a sector: the municipal-bond ETFs' weekly GMMA in January 2011 — "the bearish pattern (BWR) is the opposite of the bullish RWB rocket stock pattern, and is more like what I call a submarine pattern." ([WW 2011-01-18](../../raw/posts/2011-01-18-the-municipal-bond-collapse-has-begun-taking-cover.md))
+
+**The weekly hold rule (2018).** "Daily stock charts are good for determining entry set-ups and initial stops, but daily charts often mislead me and scare me out of good positions… once my entry set-up holds and I am not stopped out, I could actually just hold onto any equity in an RWB weekly up-trend pattern **until the white band in the middle (the W in RWB) disappears**." Weekly closes dipping below the red lines are noise while red stays above blue; "in a strong up-trend the equity repeatedly closes the week above all 12 averages." The prohibition attached: "never buy and… sell or sell short any equity with the opposite BWR weekly down-trend pattern" — GE from April 2017 as the example. ([WW 2018-07-16](../../raw/posts/2018-07-16-rwb-weekly-strategy-can-keep-me-in-a-good-position-qqq-spy-ge-cat-sq.md)) This sits between the 2017 daily-RWB exit and the 2019 weekly-first rule; see [which trailing system when](../playbooks/exits.md#which-trailing-system-when).
 
 ## The daily RWB chart — a finer-grained tool
 
@@ -106,6 +110,8 @@ Dr. Wish uses **15-day Bollinger Bands** (15-day MA ± 2 standard deviations) as
 ### Daily RWB 12/12/6/6 notation explained
 
 The notation format used on daily RWB chart headers (e.g., "12/12/6/6") means: TLC/TLC-on-weekly/RLC/BLC. A "12/12/6/6" reading = TLC=12 (perfect daily alignment), 12/12 on weekly (all 12 weekly MAs aligned), RLC=6, BLC=6. A "12/9/6/6" means the weekly has only 9 of 12 MAs aligned. Diminishing white space between red and blue lines (visible on the chart) is a caution signal even if the counts remain high. ([WW 2017-04-02](../../raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md))
+
+**RLC in practice, and where the stop goes (2017).** A day's read across the board: QQQ = 6, SPY = 0, DIA = 1, DJ-20 = 0, GLD = 6, with ten Dow 30 stocks at 0. On GS, which had failed to hold its GLB and closed under all six red lines: "while this is not the kiss of death, I would not buy GS again (or hold it) until GS can close back above its 6 red lines (RLC=6)." On WD, breaking out with RLC = 6, he names two stop references and prefers the second: "its lowest red line = 41.18… is around where I might place my first sell stop. However, recent daily lows (shown by purple dots) are around 40 and may be a better place of prior support to set my stop." ([WW 2017-03-20](../../raw/posts/2017-03-20-qqq-strongest-gs-weakens-wd-resumes-advance-and-yin-has-glb-a-strategy-for-setting-stops.md))
 
 ## Guppy weekly chart as a bear-market bottom detector
 
@@ -224,3 +230,5 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2022-07-12 — Day 1 of new QQQ down-trend; hourly GMMA looks weak; GMI=0](../../raw/posts/2022-07-12-blog-post-day-1-of-new-qqq-short-term-down-trend-hourly-gmma-looks-weak-see-chart-gmi0.md)
 - [WW 2022-08-01 — Day 11 of QQQ up-trend; MACD hourly histograms reveal weakening](../../raw/posts/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md) ([summary](../sources/2022-08-01-blog-post-day-11-of-qqq-short-term-up-trend-macd-hourly-histograms-reveal-weakening-in-qqq-spy-and-dia.md))
 - [WW 2022-08-07 — The hourly GMMA; the adapted Guppy across three timeframes](../../raw/posts/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md) ([summary](../sources/2022-08-07-blog-post-day-15-of-qqq-short-term-up-trend-gmi-back-to-4-of-6-how-to-use-hourly-daily-weekly-gmma-charts-to.md))
+- [WW 2017-03-20 — $QQQ strongest; $GS weakens, $WD resumes advance and $YIN has GLB; a strategy for setting stops](../../raw/posts/2017-03-20-qqq-strongest-gs-weakens-wd-resumes-advance-and-yin-has-glb-a-strategy-for-setting-stops.md) ([summary](../sources/2017-03-20-qqq-strongest-gs-weakens-wd-resumes-advance-and-yin-has-glb-a-strategy-for-setting-stops.md))
+- [WW 2018-07-16 — RWB weekly strategy can keep me in a good position; $QQQ $SPY $GE $CAT $SQ](../../raw/posts/2018-07-16-rwb-weekly-strategy-can-keep-me-in-a-good-position-qqq-spy-ge-cat-sq.md) ([summary](../sources/2018-07-16-rwb-weekly-strategy-can-keep-me-in-a-good-position-qqq-spy-ge-cat-sq.md))
