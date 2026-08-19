@@ -26,6 +26,8 @@ sources:
   - raw/posts/2017-02-12-new-tc2000-scan-finds-glb-and-possible-cup-with-handle-break-out-pjc-next-post-tuesday-night.md
   - raw/posts/2023-02-12-blog-post-day-21-of-qqq-short-term-up-trend-only-70-us-stocks-at-new-highs-and-63-at-new-lows-on-friday-11-at.md
   - raw/posts/2025-07-27-blog-post-day-63-of-qqq-short-term-up-trend-had-a-wonderful-talk-with-richard-at-traderlion-annual-conference.md
+  - raw/posts/2010-04-14-webinar-is-archived-and-available-get-a-copy-of-my-tc2007-scan.md
+  - raw/posts/2023-03-06-blog-post-day-1-of-new-qqq-short-term-up-trend-will-powell-kill-it-137-new-us-highs-100-lows-and-41-at-ath-6.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -151,6 +153,8 @@ An earlier, tighter form of the same condition ran in March 2022: "one component
 
 **The 8-EMA bounce scan (July 2025).** Shown at his TraderLion Day 6 talk alongside the GLB and the Blue Dot: stocks with a **recent ATH that had been tracking, and just bounced off, the daily 8 EMA** — 26 of 6,200, ranked by close ÷ close 250 days earlier. ([WW 2025-07-27](../../raw/posts/2025-07-27-blog-post-day-63-of-qqq-short-term-up-trend-had-a-wonderful-talk-with-richard-at-traderlion-annual-conference.md)) Three months later he revised the trailing line to the [5 EMA](entry-signals.md#lineage--which-trigger-is-current).
 
+**The one-line form (March 2023):** "**Green bar scan = ATH in past 3 months, rising pattern of 4wk>10wk>30wk, currently bouncing rising 4wk avg and RS at 20 week high**" — run against his IBD/MarketSmith watchlist and sorted by close ÷ 250-day minimum low. ([WW 2023-03-06](../../raw/posts/2023-03-06-blog-post-day-1-of-new-qqq-short-term-up-trend-will-powell-kill-it-137-new-us-highs-100-lows-and-41-at-ath-6.md))
+
 ## The <5%-below-a-recent-ATH column scan (2022)
 
 Built after his TraderLion presentation, on the argument that "most of the stocks that Bill O'Neil graphed as among his greatest winners were stocks that had bases at or approaching their all-time-highs." The point is to catch both stocks that have already had a [GLB](green-line-breakouts.md) and those still just under one. The TC2000 column, as published:
@@ -160,6 +164,10 @@ Built after his TraderLion presentation, on the argument that "most of the stock
 - **`C > 30`** and **`V > 10000`** "to get rid of junk."
 
 He then draws the green lines on the survivors by hand and looks for setups. ([WW 2022-10-03](../../raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md))
+
+## The Worden webinar scan (2010) — the oldest oversold-bounce scan
+
+Published after a webinar with Worden's Julia Ormond: "a scan that I use to find a stock rebounding from an oversold condition. It employs **an oversold stochastic together with a bounce from, or break out above, the 30 day moving average**." Offered to readers as a PDF. ([WW 2010-04-14](../../raw/posts/2010-04-14-webinar-is-archived-and-available-get-a-copy-of-my-tc2007-scan.md)) It is the earliest oversold-bounce scan on the blog — six years before [BOS](entry-signals.md) was named and eight before the green dot.
 
 ## The first-day 100-day-high scan (2017)
 
@@ -221,3 +229,5 @@ The scans and watchlists are not private: he documents them in the blog's glossa
 - [WW 2017-02-12 — New TC2000 Scan finds GLB and possible cup with handle break-out $PJC;  next post Tuesday night](../../raw/posts/2017-02-12-new-tc2000-scan-finds-glb-and-possible-cup-with-handle-break-out-pjc-next-post-tuesday-night.md) ([summary](../sources/2017-02-12-new-tc2000-scan-finds-glb-and-possible-cup-with-handle-break-out-pjc-next-post-tuesday-night.md))
 - [WW 2023-02-12 — Blog Post: Day 21 of $QQQ short term up-trend;  Only 70 US stocks at new highs and 63 at new lows on Friday, 1](../../raw/posts/2023-02-12-blog-post-day-21-of-qqq-short-term-up-trend-only-70-us-stocks-at-new-highs-and-63-at-new-lows-on-friday-11-at.md) ([summary](../sources/2023-02-12-blog-post-day-21-of-qqq-short-term-up-trend-only-70-us-stocks-at-new-highs-and-63-at-new-lows-on-friday-11-at.md))
 - [WW 2025-07-27 — Blog Post: Day 63 of $QQQ short term up-trend; Had a wonderful talk with Richard at TraderLion annual  confere](../../raw/posts/2025-07-27-blog-post-day-63-of-qqq-short-term-up-trend-had-a-wonderful-talk-with-richard-at-traderlion-annual-conference.md) ([summary](../sources/2025-07-27-blog-post-day-63-of-qqq-short-term-up-trend-had-a-wonderful-talk-with-richard-at-traderlion-annual-conference.md))
+- [WW 2010-04-14 — Webinar is archived and available; Get a copy of my TC2007 scan](../../raw/posts/2010-04-14-webinar-is-archived-and-available-get-a-copy-of-my-tc2007-scan.md) ([summary](../sources/2010-04-14-webinar-is-archived-and-available-get-a-copy-of-my-tc2007-scan.md))
+- [WW 2023-03-06 — Blog Post: Day 1 of new $QQQ short term up-trend, will Powell kill it? 137  new US highs, 100 lows and 41 at A](../../raw/posts/2023-03-06-blog-post-day-1-of-new-qqq-short-term-up-trend-will-powell-kill-it-137-new-us-highs-100-lows-and-41-at-ath-6.md) ([summary](../sources/2023-03-06-blog-post-day-1-of-new-qqq-short-term-up-trend-will-powell-kill-it-137-new-us-highs-100-lows-and-41-at-ath-6.md))

@@ -44,6 +44,8 @@ sources:
   - raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md
   - raw/posts/2005-12-29-my-apology-gmi-2-short-term-down-trend-defined-why-fight-the-odds.md
   - raw/posts/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md
+  - raw/posts/2023-01-25-blog-post-two-stocks-that-came-up-in-my-tc2000-weekly-green-bar-scan-for-stocks-at-ath-with-20-week-high-in-r.md
+  - raw/posts/2026-06-01-how-i-identified-and-exited-at-the-market-top-in-2000-when-the-30-week-average-curved-down-to-identify-a-like.md
 ---
 
 # Moving-average rules
@@ -92,6 +94,8 @@ The 2006 form of the rule: "When a major index is below its 30 week average I ge
 **Curve-up is the definitive re-entry, not the close (2022).** "Now that the QQQ is below its 30 week average, the first thing I will look for is a close above that average. But… the index can whip-saw above and below that average. **I therefore want to see the 30 week average curving up again. That is the definitive signal to get me back in.**" The mirror, stated in the same post: "if the 30 week average curves down it will signify to me the *beginning* of a major decline." ([WW 2022-01-30](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
 
 **What "declining" means, arithmetically (2021):** "a declining 30 week moving average occurs when the latest week's price being added to the average is less than the 31st week being dropped. In other words, **the current week's closing price is less than its closing price 31 weeks ago**, a serious sign of weakness." ([WW 2021-11-21](../../raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md))
+
+**The 2026 restatement, with the 2000 chart beside it.** "**This signal helped me to get out at the beginning of all major declines since 2000**… Thank you Stan Weinstein for teaching me stage analysis." And the most recent application: "**I got defensive in April 2025 until the 30 week resumed its rise.**" ([WW 2026-06-01](../../raw/posts/2026-06-01-how-i-identified-and-exited-at-the-market-top-in-2000-when-the-30-week-average-curved-down-to-identify-a-like.md))
 
 ## The 30-day average — the short-term trend anchor
 
@@ -162,6 +166,8 @@ Dr. Wish uses successive WGBs as a trailing stop mechanism:
 This approach captured most of the advance in TSLA after its GLB: 6 of 8 WGBs were successful entry/hold points. ([WW 2020-12-27](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
 
 **The 10/30 cross as the bottom signal (2022).** "Looking back to the 2020 bottom… **the 10 week average turns around and climbs above the 30 week average. Once that happened one had 1.6 years to ride the up-trend until the 10 week average closed back below the 30 week**" — the same pattern on DIA, QQQ and SPY. "One does not have to catch the bottom. Wait until it is in place before risking one's fortune by going long… **Sitting is the hard part**, as Jesse Livermore more eloquently said." ([WW 2022-09-15](../../raw/posts/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md)) This is the entry-side counterpart of the [30-week curve-up](#the-30-week-average--the-long-term-trend-anchor) rule.
+
+He names it outright in 2023: "**4wk>10wk>30wk averages, my prime pattern for advancing stocks**" — with the weekly green bar (a bounce up off the 4-week) as the entry inside it, and the observation that "stocks at new ATHs after a market decline are often the new leaders." ([WW 2023-01-25](../../raw/posts/2023-01-25-blog-post-two-stocks-that-came-up-in-my-tc2000-weekly-green-bar-scan-for-stocks-at-ath-with-20-week-high-in-r.md))
 
 ## Code — stages, the WGB, and the Guppy bands
 
@@ -287,3 +293,5 @@ wrote that, 79% of Nasdaq 100 stocks were below their 30-days — the rule read 
 - [WW 2025-10-15 — Blog Post: Day 37 of $QQQ short term up-trend; Check out this amazing daily chart showing how $GLD has closed ](../../raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md) ([summary](../sources/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md))
 - [WW 2005-12-29 — My apology; GMI: +2; Short term down trend defined; Why fight the odds?](../../raw/posts/2005-12-29-my-apology-gmi-2-short-term-down-trend-defined-why-fight-the-odds.md) ([summary](../sources/2005-12-29-my-apology-gmi-2-short-term-down-trend-defined-why-fight-the-odds.md))
 - [WW 2022-09-15 — Blog Post: Day 13 of $QQQ short term down-trend; weekly chart of $DIA suggests re-test of last June’s lows;  h](../../raw/posts/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md) ([summary](../sources/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md))
+- [WW 2023-01-25 — Blog Post: Two stocks that came up in my TC2000 Weekly Green Bar scan for stocks at ATH with 20 week high in R](../../raw/posts/2023-01-25-blog-post-two-stocks-that-came-up-in-my-tc2000-weekly-green-bar-scan-for-stocks-at-ath-with-20-week-high-in-r.md) ([summary](../sources/2023-01-25-blog-post-two-stocks-that-came-up-in-my-tc2000-weekly-green-bar-scan-for-stocks-at-ath-with-20-week-high-in-r.md))
+- [WW 2026-06-01 — HOW I IDENTIFIED AND EXITED AT THE  MARKET TOP IN 2000–WHEN THE 30 WEEK AVERAGE CURVED DOWN. TO IDENTIFY A LIK](../../raw/posts/2026-06-01-how-i-identified-and-exited-at-the-market-top-in-2000-when-the-30-week-average-curved-down-to-identify-a-like.md) ([summary](../sources/2026-06-01-how-i-identified-and-exited-at-the-market-top-in-2000-when-the-30-week-average-curved-down-to-identify-a-like.md))

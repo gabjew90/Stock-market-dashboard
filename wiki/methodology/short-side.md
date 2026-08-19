@@ -25,6 +25,7 @@ sources:
   - raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md
   - raw/posts/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md
   - raw/posts/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md
+  - raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -82,6 +83,8 @@ The 2005 founding statement: "Experienced traders do not care which way the mark
 
 **The scaling rule on the short side mirrors the long side.** On day 3 of a new down-trend, holding small positions in QID and TECS: "I am more sure of a change of trend once it lasts for 5 days… if the down-trend continues Monday I will start to add to these positions." ([WW 2012-09-30](../../raw/posts/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md))
 
+**Short interest read from the long side (2024).** On QS, rocketing on solid-state-battery news: "QS had a **high short interest ratio** signifying that many speculators will need to rush to buy shares to cover their short positions" — the squeeze as an accelerant on good news, the same mechanism he had explained in the [2009 uptick-rule essay](#shorting-and-hedging). ([WW 2024-01-04](../../raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md))
+
 ## Protective puts — the 2005 original, and the put-vs-stop rule
 
 The insurance framing is fully formed in **June 2005** — four years before the 2009 tutorial —
@@ -136,3 +139,4 @@ By 2012 he was "teaching myself to write the new weekly covered calls on the SPY
 - [WW 2005-07-02 — The trend is our friend; GMI: +3; Interest rates rising; a short list of stocks](../../raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md) ([summary](../sources/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md))
 - [WW 2010-05-24 — Submarine scan worked–PWRD dives; Market treacherous](../../raw/posts/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md) ([summary](../sources/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md))
 - [WW 2012-09-30 — 3rd day of QQQ short term down-trend; Teach MarketWatch Contest Value of TA](../../raw/posts/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md) ([summary](../sources/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md))
+- [WW 2024-01-04 — Blog Post: $QQQ short term up-trend could end Friday;  Meanwhile, $QS rockets higher on battery test results. ](../../raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md) ([summary](../sources/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md))

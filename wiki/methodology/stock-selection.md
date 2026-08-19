@@ -47,6 +47,7 @@ sources:
   - raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md
   - raw/posts/2022-09-19-blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho.md
   - raw/posts/2025-03-16-blog-post-day-14-of-qqq-short-term-down-trend-finally-got-the-bounce-will-it-hold-hint-no-one-knows-but-the-g.md
+  - raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md
 ---
 
 # Stock selection
@@ -87,6 +88,8 @@ quickly filled — and failed" — and notes he scans the whole market for gaps 
 Pure technical or pure fundamental analysis alone is insufficient. From Darvas: choose a rocket that is already launched (technical strength via price and volume), but also know something about the rocket's capabilities (fundamental quality). ([WW 2005-04-30](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md)) He does not use deep fundamental analysis; the filter is lightweight — earnings growth, a compelling product, an industry with a future.
 
 **The order, worked (2022).** INSW surfaced because it was one of four US stocks at an ATH that day; only then came MarketSmith — composite 98, Acc/Dis A+, group RS 98, triple-digit sales growth two quarters running, rising fund ownership, projected EPS $5.03 (no profit yet). Chart first: a GLB on above-average volume, a close back below the green line the next day, a retake two days later, then a new ATH on the heaviest volume since April, with repeated support at the 8-day EMA riding above the 21-day. ([WW 2022-09-19](../../raw/posts/2022-09-19-blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho.md))
+
+**The exception he grants himself.** QS in January 2024 was a concept trade on Judy's research — solid-state batteries, tests exceeding expectations, Volkswagen invested — bought small on a high-volume news day and "holding the shares long term," which is the horizon he says elsewhere he lacks the confidence for. Worth marking as an exception rather than a rule: nothing else in the corpus is bought and held on a story. ([WW 2024-01-04](../../raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md))
 
 ## Screen criteria — detailed 2010 workflow
 
@@ -314,3 +317,4 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2022-03-06 — Blog post: Investors Intelligence poll finds more bears than bulls (34.5/29.9%) =extreme bearish sentiment in ](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md) ([summary](../sources/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))
 - [WW 2022-09-19 — Blog Post; 35 US new highs and 438 new lows; $INSW is one of 4 stocks at ATH,  see daily chart of $INSW and ho](../../raw/posts/2022-09-19-blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho.md) ([summary](../sources/2022-09-19-blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho.md))
 - [WW 2025-03-16 — Blog Post: Day 14 of $QQQ short term down-trend; Finally got the bounce, will it hold? Hint: No one knows, but](../../raw/posts/2025-03-16-blog-post-day-14-of-qqq-short-term-down-trend-finally-got-the-bounce-will-it-hold-hint-no-one-knows-but-the-g.md) ([summary](../sources/2025-03-16-blog-post-day-14-of-qqq-short-term-down-trend-finally-got-the-bounce-will-it-hold-hint-no-one-knows-but-the-g.md))
+- [WW 2024-01-04 — Blog Post: $QQQ short term up-trend could end Friday;  Meanwhile, $QS rockets higher on battery test results. ](../../raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md) ([summary](../sources/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md))
