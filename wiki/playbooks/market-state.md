@@ -71,7 +71,7 @@ Signals flip fast: "when the instruments tell me the market is reversing directi
 - **GMI Buy but the QQQ down-trend persists for many days:** a warning, not a licence to trade through it. ([WW 2014-04-27](../../raw/posts/2014-04-27-i-do-not-want-to-be-long-in-this-market.md))
 - **Short *and* long trends both down:** no longs "until *both* trends have signaled a new up-trend… such is the fate of the trend follower." ([WW 2010-07-12](../../raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md))
 
-Duration base rates: [qqq-short-term-timing.md](../methodology/qqq-short-term-timing.md#down-trend-duration-statistics).
+Duration base rates: [qqq-short-term-timing.md](../methodology/qqq-short-term-timing.md#trend-duration-statistics--what-he-has-actually-published).
 
 ---
 

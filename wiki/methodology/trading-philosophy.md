@@ -27,6 +27,8 @@ sources:
   - raw/posts/2021-08-22-blog-post-stocks-rally-and-2-day-old-qqq-short-term-down-trend-may-end-monday-nke-an-example-of-how-i-use-my.md
   - raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md
   - raw/posts/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md
+  - raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md
+  - raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md
 ---
 
 # Trading philosophy — the five propositions
@@ -172,6 +174,8 @@ The 2005 roots of the stance. Darvas: "MY ONLY SOUND REASON FOR BUYING A STOCK I
 
 And why he does not wait for the story: "**a stock's strong behavior often occurs *before* the news is out.** Insiders may have been buying PANW prior to the announcement and their buying caused the stock to have a green line breakout" — PANW's GLB preceded its S&P 500 inclusion by days. "Nicolas Darvas wrote years ago that the atypical volume in a rising stock often enabled him to get on board with the insiders who knew good news was coming." ([WW 2023-06-04](../../raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md))
 
+**Value as a myth (2025).** "As several great traders have opined, **all stocks are bad unless they are going up. Stocks are only worth what someone will pay for them. Value is a myth.** When the psychology turns and the masses become scared, they sell and all stocks decline." ([WW 2025-03-06](../../raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md)) It is the same position as the orthodox-agnostic line, stated at its most uncompromising — and the reason the method never screens for cheapness.
+
 ## Simple beats clever
 
 "Patterns are meant to be broken. **The road is littered with the carcasses of Ph.D.'s who
@@ -203,6 +207,8 @@ and the [backtest](backtest-timing-overlay.md).
 Two 2013 lines that pair with it: "The critical key is to not anticipate a change in trend, but to react *after* the signal is evident. Such is the goal of the trend-*follower*." ([WW 2013-04-14](../../raw/posts/2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline.md)) "In this business, one trades against the market trend at one's peril. The market is usually right, opinions are often wrong." ([WW 2013-09-08](../../raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md)) And the market's *reaction* to news as data, from 2006: "the way that the market responds to major events provides valuable clues as to how the masses are feeling towards stocks." ([WW 2006-08-21](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md))
 
 **What a set-up is, defined (2021).** "The key to prospering in the market is to have developed a set-up, defined by **objective conditions** which leads one to expect that a stock will rise almost immediately. **The set-up must also suggest a price at which to set a stop loss** to sell out with a small loss if the set-up fails. If the set-up is good, one will likely end up with a lot of small losses and a few big winners that more than make up for the losses." ([WW 2021-08-22](../../raw/posts/2021-08-22-blog-post-stocks-rally-and-2-day-old-qqq-short-term-down-trend-may-end-monday-nke-an-example-of-how-i-use-my.md)) Every entry on this wiki has that shape: conditions, an implied stop, and an asymmetric payoff — which is why "where is the stop" is the question that selects between the [GLB](green-line-breakouts.md) and the [OSB](oversold-bounce.md).
+
+"**The key in technical analysis is to be prepared to react once a trend is in**" — and on a seasonal he has observed for years: "the post earnings decline sets up the next rise. **But rather than predict, I prefer to wait and then react.**" ([WW 2023-08-20](../../raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md))
 
 ## The lineage he names
 
@@ -242,3 +248,5 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2021-08-22 — Blog post: Stocks rally and 2 day old $QQQ short term down-trend may end Monday; $NKE–an example of how I use ](../../raw/posts/2021-08-22-blog-post-stocks-rally-and-2-day-old-qqq-short-term-down-trend-may-end-monday-nke-an-example-of-how-i-use-my.md) ([summary](../sources/2021-08-22-blog-post-stocks-rally-and-2-day-old-qqq-short-term-down-trend-may-end-monday-nke-an-example-of-how-i-use-my.md))
 - [WW 2023-06-04 — Blog Post: Day 25 of $QQQ short term up-trend; GMI=6 (of 6) and Green; Market in solid up-trend, set-ups worki](../../raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md) ([summary](../sources/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md))
 - [WW 2013-02-03 — When will this bull advance end? Performance of leveraged ETF’s](../../raw/posts/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md) ([summary](../sources/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md))
+- [WW 2025-03-06 — Blog Post: Day 8 of $QQQ short term down-trend; 28 US new highs, 81 lows and 5 at ATH; I will resist the inevi](../../raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md) ([summary](../sources/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md))
+- [WW 2023-08-20 — Blog Post: Day 8 of $QQQ short term down-trend; $QQQ,$SPY,$DIA,$IWM closed below all 12 averages in my adapted](../../raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md) ([summary](../sources/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md))

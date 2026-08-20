@@ -52,6 +52,7 @@ sources:
   - raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md
   - raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md
   - raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md
+  - raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -183,6 +184,8 @@ Dr. Wish does not abandon a stock after a failed GLB. His practice is to sell im
 In June 2022 (during a down-trend) he noted 14 IBD/MarketSmith stocks at 20-year highs: these stocks were at or very near GLB territory even in a bear market, and he used them as a watch list for when market conditions improved. The ATH-only philosophy means he never buys below the green line just because the stock "looks cheap." ([WW 2022-06-05](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))
 
 He counts this among his best sources of profit, not a consolation: "I never hold a GLB stock that closes back below the green line but will buy it back if it retakes it. **Some of my best gains have come from stocks that have shaken me out for a small loss and then produced another buy signal.**" ([WW 2018-06-03](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md)) The same post lists the entry options as one menu rather than alternatives: "I like to buy such stocks on the day of the break-out **or afterwards when they consolidate or bounce off of support or give a green dot signal**."
+
+The 2016 statement pairs the failure rule with the buy-back in one breath: "**when I do buy a GLB, I always exit if the stock comes back below the green line. This is a sign of a false break-out and technical weakness**… **I often buy a stock back if it then closes back above the green line.**" He also wants "an increase in volume as others rush in to buy" on the breakout itself. ([WW 2016-03-06](../../raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md))
 
 ## The GLB in the daily RWB system (2017)
 
@@ -380,3 +383,4 @@ This is continuous with the 2016 [BOS](stock-selection.md) preference ("I actual
 - [WW 2020-10-11 — With GMI=Green and a $QQQ short term up-trend and daily RWB pattern in place, it is time for me to buy TQQQ an](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md) ([summary](../sources/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))
 - [WW 2018-06-03 — 3 Recent GLB stocks: $ENVA $GDOT $TSG](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md) ([summary](../sources/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md))
 - [WW 2018-08-26 — 19 Recent IPOs at ATH with recent GLB: $MTCH $TWLO $SEND $SFIX $ROKU $CABO….](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md) ([summary](../sources/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))
+- [WW 2016-03-06 — 13 recent GLB stocks to monitor: $ALGN, $BMS, $CINF, $CNSL, $CPRT, $ELLI, $MO, $NLSN, $PNRA, $SWHC, $SYY, $TFX](../../raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md) ([summary](../sources/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md))

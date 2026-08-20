@@ -296,6 +296,12 @@ sources:
   - raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md
   - raw/posts/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md
   - raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md
+  - raw/posts/2009-07-20-turn-is-here-50-invested.md
+  - raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md
+  - raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md
+  - raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md
+  - raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md
+  - raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md
 ---
 
 # Timeline — evolution of the methodology
@@ -625,6 +631,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"Why search for individual stocks when we can ride the ultra ETFs?" (2009-06-07):** off the March bottom, QQQQ +42.9% vs QLD +99.2% vs TYH +179.4% — the 3X ETF matched the best individual stock in the Nasdaq 100 (only 16% of its stocks rose 80%+). "The results blew me away." The needle-vs-haystack framing starts here, with its precondition: "the key is to discern the trend accurately." Pension re-entry begins the same week, staged: "go in slowly and only add more money if the ETF climbs above my original purchase price. I *never* average down." ([WW 2009-06-07](../../raw/posts/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md))
 
 ---
+
+## July 2009 (cont.) — the 30-week rule as a whole system: 'BUT IT WORKS!!'
+
+**"Turn is here; 50% invested" (2009-07-20):** the 30-week averages of SPY, QQQQ and DIA turning up — "**I get out of the market when the 30 week averages turn down and back in when they turn up. I know this seems simplistic and naive, BUT IT WORKS!!**… 70-80% of stocks follow the general market's trend — end of story"; 50% invested; MACD breadth 10% → 79% in a week. ([WW 2009-07-20](../../raw/posts/2009-07-20-turn-is-here-50-invested.md))
 
 ## October 2009 — buying extended from support, the mistake that made the bounce doctrine
 
@@ -1054,6 +1064,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"Going back in, but slowly" (2016-03-18):** "the Worden T2108 indicator again called the bottom, in late January, with an extremely oversold reading of **3.8%, a low level only surpassed by the bottoms in 1987 and 2008**"; and the confession — "I promise that the next time the T2108 goes into single digits I will buy an index ETF. **But I know I will be too scared.**" Pension money moved back into a fund for the first time in months, to be re-entered "slowly as long as the upward trend continues." ([WW 2016-03-18](../../raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md))
 
+## March 2016 (cont.) — the two speeds diverge; the GLB's false-breakout rule
+
+**"13 recent GLB stocks to monitor" (2016-03-06):** "I have been tip-toeing back into this market in my trading IRA. **However, the longer term trend is not up, so I am not ready to reinvest my university pension funds**"; "when I do buy a GLB, I always exit if the stock comes back below the green line. This is a sign of a false break-out"; "I often buy a stock back if it then closes back above the green line." ([WW 2016-03-06](../../raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md))
+
 ## June 2016 — BOS (Bounce off Support) introduced as preferred alternative to GLB timing
 
 **"Introducing BOS alerts for my tweets; GMI at 6; BOS: $RTN" (2016-06-05):** Dr. Wish formally names and introduces the BOS (Bounce off Support) strategy. He states he *likes this approach better than trading GLBs* — the GLB at the moment of breakout is often not oversold, making stop placement harder. BOS buys strong rocket stocks when they are oversold and bouncing, placing a stop just below the bounce low. He begins tweeting BOS alerts intraday (@WishingWealth) and later (2016-07-24) reveals the primary oversold signal: the lower 15.2 Bollinger Band (15-day MA, 2 standard deviations). ([WW 2016-06-05](../../raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md), [WW 2016-07-24](../../raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md))
@@ -1374,6 +1388,10 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 **"How I use Bollinger Bands to analyze QQQ" (2022-02-08):** the 15.2 setting ("I use 15.2… because they work for me"), the band bounce (close far below the lower band, then back above), and the pinch — "usually leads to a big move up or down… So we wait." ([WW 2022-02-08](../../raw/posts/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md))
 
+## January 2022 (pension) — already ~20% invested; 'selling too soon' in good company
+
+**"The weekly charts of $QQQ, $DIA and $SPY show each having three huge volume down weeks" (2022-01-09):** QQQ approaching its 30-week at 375.59 — "a weekly close below that level would get me out of everything, even in my university pension, **which is already reduced to about 20% invested**"; three huge-volume down weeks = institutions exiting; "penetration of the 30 week average saved me from the market debacles in 2000, 2008 and 2020"; Rothschild, Baruch and Livermore all quoted on selling too soon. ([WW 2022-01-09](../../raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md))
+
 ## March 2022 (sentiment) — bears outnumber bulls, but T2108 says no; the RS-at-a-20-week-high condition
 
 **"Investors Intelligence poll finds more bears than bulls" (2022-03-06):** the rare inversion suggests a bounce, "but T2108, at 37%, is far above the level where bottoms occur"; "we need to stop looking for bargains"; the ATH scan's weekly-RS-vs-SPY-at-a-20-week-high condition, with 13 of 15 hits rising in a down week and clustering in agriculture, metals and defence. ([WW 2022-03-06](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))
@@ -1409,6 +1427,10 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 ## June 2022 (hourly) — hourly breadth; the RS-at-50-week-high scan
 
 **"QQQ short term down-trend may end Monday; 69% of Nasdaq100 stocks in hourly RWB up-trends" (2022-06-26):** GMI 0, but QQQ in a new hourly RWB up-trend with 69% of Nasdaq-100 components in the same pattern — "this rally has some legs"; "a change in the longer term trend always begins with a change in the shorter term trend," any flip trusted only after 5 days. New scan on the 780-stock watchlist: near an ATH with weekly RS vs SPY at a 50-week high (12 names; HRMY +76%); LLY as the example. ([WW 2022-06-26](../../raw/posts/2022-06-26-blog-post-qqq-short-term-down-trend-may-end-monday-69-of-nasdaq100-stocks-in-hourly-rwb-up-trends-scan-shows.md))
+
+## June 2022 (durations) — 1990–2021: 23% of up-trends last 5 days or less
+
+**"Day 1 of new $QQQ short term up-trend and GMI=4" (2022-06-07):** "**our analyses from 1990-2021 showed that 23% of QQQ short term up-trends lasted 5 days or less, or 77% lasted longer. After 5 days these short term trends tend to last**" — the quantitative basis for the Day-5 rule, over a 31-year window; "I buy a little TQQQ and will slowly accumulate more on the way up. If QQQ falters I will quickly sell"; "Mr. Market tends to fool most of the people." ([WW 2022-06-07](../../raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md))
 
 ## July–August 2022 (hourly) — the hourly close below all 12; the hourly MACD histogram
 
@@ -1506,6 +1528,10 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 
 ---
 
+## August 2023 (react) — RWB up-trends over; 'be prepared to react once a trend is in'
+
+**"Day 8 of $QQQ short term down-trend; QQQ/SPY/DIA/IWM closed below all 12" (2023-08-20):** the indexes below all 12 daily Guppy averages with BWR possible; "**the key in technical analysis is to be prepared to react once a trend is in**"; "being long right now is fighting the tide"; the post-earnings lull "sets up the next rise. But rather than predict, I prefer to wait and then react." ([WW 2023-08-20](../../raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md))
+
 ## August 2023 (cont.) — accumulating SQQQ; 0muti sitting on its 50-day
 
 **"Day 1 of new $QQQ short term down-trend and GMI=3" (2023-08-09):** "about 40% of new QQQ short term down-trends, **as I define them**, end in 5 days or less. I bought a little SQQQ on Wednesday and will accumulate more as the down-trend progresses, especially if it can pass a fifth day"; the GMI would go Red if 0muti closed under its 50-day — "it is right on it now"; darlings hitting air pockets on earnings beats. ([WW 2023-08-09](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md))
@@ -1549,6 +1575,10 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 ## March 2025 (cont.) — eight stocks at an ATH, and why he still reads the list
 
 **"Finally got the bounce, will it hold?" (2025-03-16):** 8 of 6,100 US stocks at an ATH — "I always look at the list each day… because when the market does turn, new leaders appear among the stocks breaking out to ATHs. That is how in 2009… I found GMCR making an ATH… which then became a 13 bagger"; the media's crash talk dismissed. ([WW 2025-03-16](../../raw/posts/2025-03-16-blog-post-day-14-of-qqq-short-term-down-trend-finally-got-the-bounce-will-it-hold-hint-no-one-knows-but-the-g.md))
+
+## March 2025 (cont.) — 'value is a myth'; selling the remainder into a bounce
+
+**"Day 8 of $QQQ short term down-trend; 28 US new highs, 81 lows" (2025-03-06):** "**all stocks are bad unless they are going up. Stocks are only worth what someone will pay for them. Value is a myth**"; cash in the trading accounts and reduced equity in the retirement accounts — "will sell the rest when we get a good bounce"; T2108 26% with below-10% as the bottom tell; "it took 25 years for the market (the Dow) to exceed the 1929 top." ([WW 2025-03-06](../../raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md))
 
 ## April 2025 — T2108 at 7%; 10wk/30wk cross-down; tariff decline; Dr. Wish in cash
 
@@ -1933,3 +1963,9 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2018-08-26 — 19 Recent IPOs at ATH with recent GLB: $MTCH $TWLO $SEND $SFIX $ROKU $CABO….](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md) ([summary](../sources/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))
 - [WW 2019-04-21 — GMI signals applied to $QQQ, January, 2016-April 18, 2019](../../raw/posts/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md) ([summary](../sources/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md))
 - [WW 2024-03-12 — Blog Post: Day 44 of $QQQ short term up-trend; $QQQ has black dot, oversold bounce, see daily chart and list o](../../raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md) ([summary](../sources/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md))
+- [WW 2009-07-20 — Up-trend is here; 50% invested; some rocket stocks](../../raw/posts/2009-07-20-turn-is-here-50-invested.md) ([summary](../sources/2009-07-20-turn-is-here-50-invested.md))
+- [WW 2016-03-06 — 13 recent GLB stocks to monitor: $ALGN, $BMS, $CINF, $CNSL, $CPRT, $ELLI, $MO, $NLSN, $PNRA, $SWHC, $SYY, $TFX](../../raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md) ([summary](../sources/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md))
+- [WW 2022-01-09 — Blog post: The weekly charts of $QQQ, $DIA and $SPY show each having three heavy volume down weeks, suggesting](../../raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md) ([summary](../sources/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md))
+- [WW 2022-06-07 — Blog Post: Day 1 of new $QQQ short term up-trend and GMI=4; Nibbling at $TQQQ, see 24 stocks at ATHs](../../raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md) ([summary](../sources/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md))
+- [WW 2023-08-20 — Blog Post: Day 8 of $QQQ short term down-trend; $QQQ,$SPY,$DIA,$IWM closed below all 12 averages in my adapted](../../raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md) ([summary](../sources/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md))
+- [WW 2025-03-06 — Blog Post: Day 8 of $QQQ short term down-trend; 28 US new highs, 81 lows and 5 at ATH; I will resist the inevi](../../raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md) ([summary](../sources/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md))

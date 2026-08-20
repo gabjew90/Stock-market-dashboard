@@ -22,7 +22,7 @@ The earliest published duration *table* in the corpus: "since 2006, there have b
 
 ## Feeds wiki pages
 
-- [QQQ short-term timing](../methodology/qqq-short-term-timing.md#down-trend-duration-statistics) — the 2014 duration table
+- [QQQ short-term timing](../methodology/qqq-short-term-timing.md#trend-duration-statistics--what-he-has-actually-published) — the 2014 duration table
 - [T2108](../methodology/t2108.md) — not-oversold as a bearish argument
 - [Timeline](../history/timeline.md) — January 2014
 

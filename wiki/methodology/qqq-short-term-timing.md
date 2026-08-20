@@ -22,6 +22,9 @@ sources:
   - raw/posts/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md
   - raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md
   - raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md
+  - raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md
+  - raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md
+  - raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md
 ---
 
 # QQQ Short-Term Timing
@@ -55,17 +58,31 @@ The QQQ short-term trend count is used alongside the [GMI](gmi.md):
 - **New up-trend:** a buy signal (used in combination with GMI ≥ 4 and both the market and stock in Stage 2).
 - **New down-trend:** he often makes a small purchase of the 3X bearish QQQ ETF (SQQQ) as a hedge; he adds to it only if the down-trend lasts 5–6 days. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
 
-### Down-trend duration statistics
+### Trend duration statistics — what he has actually published
 
-Most QQQ short-term down-trends since 2006 are short: "about one quarter of new short term down-trends have lasted less than 6 days." He does not automatically go fully defensive — he waits to see if the down-trend persists before adding to his short position. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
+Four separate figures, over three different windows and two different trends. They are not
+interchangeable, and the later ones supersede rather than confirm the earlier ones.
 
-An April 2019 post included the most detailed published tabulation of QQQ trend duration statistics, updated through March 2019 (data going back to 2006): about **40% of new QQQ short-term down-trends end in fewer than 6 days**; 60% of both up-trends and down-trends last 6–47 days; the longest recorded up-trend in the dataset was 88 days; the longest down-trend was 69 days. Dr. Wish was in Day 61 of an up-trend when writing the post. These statistics explain his discipline of taking a small SQQQ position on Day 1 of a down-trend and adding to it only after Day 5 — by that point, the probability of a quick reversal has dropped substantially. ([WW 2019-04-07](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md))
+| Published | Window | Measures | Figure |
+|---|---|---|---|
+| 2014-08-03 | since 2006 | **down**-trends | "about one quarter of new short term down-trends have lasted less than 6 days" ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md)) |
+| 2016-12-04 | since 2006 | **down**-trends | "many (about 40%) QQQ short term down-trends end in under 5 days" ([WW 2016-12-04](../../raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md)) |
+| 2019-04-07 | 2006 – Mar 2019 | **both** | ~40% of down-trends end in fewer than 6 days; 60% of *both* up- and down-trends last 6–47 days; longest up-trend 88 days, longest down-trend 69 ([WW 2019-04-07](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md)) |
+| 2022-06-07 | **1990 – 2021** | **up**-trends | "**23% of QQQ short term up-trends lasted 5 days or less, or 77% lasted longer. After 5 days these short term trends tend to last**" ([WW 2022-06-07](../../raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md)) |
 
-A 2016 statement of the same base rate: "many (about 40%) QQQ short term down-trends end in under 5 days" — matching the 2019 tabulation and superseding the "about one quarter" figure of 2014. ([WW 2016-12-04](../../raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md))
+**The 2022 study is the one that grounds the Day-5 rule** — it is the only figure drawn from a
+31-year window rather than from 2006 onward, it measures *up*-trends (the side the rule is usually
+applied to when buying TQQQ), and it states the rule's rationale directly. Note "our analyses": the
+work was collaborative, not a solo count. The 2014 "one quarter" figure for down-trends is
+superseded by the ~40% of 2016 and 2019.
 
-**The earliest published duration table (January 2014).** "Since 2006, there have been **52 short term up-trends in the QQQ**," with a table of the ten longest; the up-trend then running was in its 72nd day, "the fourth longest up-trend since 2006, the way I define them." He draws the two-sided conclusion explicitly: "the end of a short term up-trend has not necessarily implied the beginning of an extended short term down-trend. The new down-trend could become only a short pause in this long term up-trend." ([WW 2014-01-26](../../raw/posts/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md)) The fuller tabulation came in April 2019.
-
-Two earlier data points on the *up* side, from October 2007: "the last two recent large up-trends lasted **80 days and 86 days**" — cited as the reason a 31-day up-trend "could have further to go." ([WW 2007-10-15](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md)) And the down-side figure restated in 2023 with its provenance made explicit: "about 40% of new QQQ short term down-trends, **as I define them**, end in 5 days or less." ([WW 2023-08-09](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md))
+**Individual long trends, for scale.** October 2007: "the last two recent large up-trends lasted
+**80 days and 86 days**" ([WW 2007-10-15](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md)).
+January 2014: "since 2006, there have been **52 short term up-trends in the QQQ**," with a table of
+the ten longest — the one then running was at day 72, the fourth longest
+([WW 2014-01-26](../../raw/posts/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md)).
+He draws the two-sided conclusion explicitly: the end of an up-trend "has not necessarily implied
+the beginning of an extended short term down-trend."
 
 ## Relationship to the GMI
 
@@ -139,3 +156,6 @@ a trade-able rally**." ([WW 2008-10-22](../../raw/posts/2008-10-22-gmi-0-gmi-r-0
 - [WW 2014-01-26 — $QQQ short term up-trend in jeopardy; $AAPL to break out of channel?](../../raw/posts/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md) ([summary](../sources/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md))
 - [WW 2007-10-15 — GMI: 6; IBD100 stocks out-perform Nasdaq100 and S&P500 stocks](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md) ([summary](../sources/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md))
 - [WW 2023-08-09 — Blog Post: Day 1 of new $QQQ short term down-trend and GMI=3. Many fallen angels, $SMCI, $AAPL, $CMG; Buying $](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md) ([summary](../sources/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md))
+- [WW 2022-06-07 — Blog Post: Day 1 of new $QQQ short term up-trend and GMI=4; Nibbling at $TQQQ, see 24 stocks at ATHs](../../raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md) ([summary](../sources/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md))
+- [WW 2007-10-15 — gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks-some-cups-with-handles](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md)
+- [WW 2022-06-07 — blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-24-stocks-in-my-watchlist-hit-an-ath](../../raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md)

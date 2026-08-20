@@ -21,7 +21,7 @@ Day 1 of a new short-term down-trend, with the base rate attached: "many (about 
 
 ## Feeds wiki pages
 
-- [QQQ short-term timing](../methodology/qqq-short-term-timing.md#down-trend-duration-statistics) — the 2016 duration figure
+- [QQQ short-term timing](../methodology/qqq-short-term-timing.md#trend-duration-statistics--what-he-has-actually-published) — the 2016 duration figure
 - [Moving-average rules](../methodology/moving-average-rules.md) — the weekly stack compared across indexes
 - [Timeline](../history/timeline.md) — December 2016
 

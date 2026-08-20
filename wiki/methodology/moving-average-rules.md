@@ -51,6 +51,8 @@ sources:
   - raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md
   - raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md
   - raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md
+  - raw/posts/2009-07-20-turn-is-here-50-invested.md
+  - raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md
 ---
 
 # Moving-average rules
@@ -101,6 +103,8 @@ The 2006 form of the rule: "When a major index is below its 30 week average I ge
 **What "declining" means, arithmetically (2021):** "a declining 30 week moving average occurs when the latest week's price being added to the average is less than the 31st week being dropped. In other words, **the current week's closing price is less than its closing price 31 weeks ago**, a serious sign of weakness." ([WW 2021-11-21](../../raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md))
 
 **The 2026 restatement, with the 2000 chart beside it.** "**This signal helped me to get out at the beginning of all major declines since 2000**… Thank you Stan Weinstein for teaching me stage analysis." And the most recent application: "**I got defensive in April 2025 until the 30 week resumed its rise.**" ([WW 2026-06-01](../../raw/posts/2026-06-01-how-i-identified-and-exited-at-the-market-top-in-2000-when-the-30-week-average-curved-down-to-identify-a-like.md))
+
+**Stated as a complete system (July 2009, at the re-entry):** "the 30 week averages for the SPY, QQQQ and DIA are turning up. This is a classic Weinstein Stage 2 pattern. **I get out of the market when the 30 week averages turn down and back in when they turn up. I know this seems simplistic and naive, BUT IT WORKS!! It keeps me on the right side of the market's primary trend.**" ([WW 2009-07-20](../../raw/posts/2009-07-20-turn-is-here-50-invested.md)) And its record, as he scores it in January 2022: "**penetration of the 30 week average saved me from the market debacles in 2000, 2008 and 2020**" — written with QQQ approaching its 30-week at 375.59, and "a weekly close below that level would get me out of everything." ([WW 2022-01-09](../../raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md))
 
 ## The 30-day average — the short-term trend anchor
 
@@ -313,3 +317,5 @@ wrote that, 79% of Nasdaq 100 stocks were below their 30-days — the rule read 
 - [WW 2012-06-11 — 39th day of QQQ short term down-trend; ASPS break-out?](../../raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md) ([summary](../sources/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md))
 - [WW 2019-03-15 — how-i-avoid-getting-shaken-out-of-strong-growth-stocks](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md) ([summary](../sources/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md))
 - [WW 2020-09-20 — 10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) ([summary](../sources/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
+- [WW 2009-07-20 — Up-trend is here; 50% invested; some rocket stocks](../../raw/posts/2009-07-20-turn-is-here-50-invested.md) ([summary](../sources/2009-07-20-turn-is-here-50-invested.md))
+- [WW 2022-01-09 — Blog post: The weekly charts of $QQQ, $DIA and $SPY show each having three heavy volume down weeks, suggesting](../../raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md) ([summary](../sources/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md))

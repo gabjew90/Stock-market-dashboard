@@ -61,6 +61,7 @@ sources:
   - raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md
   - raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md
   - raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md
+  - raw/posts/2009-07-20-turn-is-here-50-invested.md
 ---
 
 # Risk & cash
@@ -74,6 +75,8 @@ The principle stated earliest and most emphatically: "I therefore vowed never to
 The mechanistic backing: more than **70% of all stocks move in the same direction as the major market indexes**. Buying growth stocks when the market is in a downtrend puts the odds against you. ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
 
 The rule's first appearances: the April 15, 2005 letter to Cramer — "Mutual funds must stay invested, individuals do not. About 70% of stocks go with the market indexes. When the indexes are declining… it is your duty to tell people not to fight the trend. Get out of the way, safely in cash, or go short" ([WW 2005-05-03](../../raw/posts/2005-05-03-cnbc-forever-bullish.md)); measured on the May–June 2005 up-trend, 75% of Nasdaq-100 stocks rose ([WW 2005-06-14](../../raw/posts/2005-06-14-gmi-at-the-max-6-buying-gaps-gm-hans.md)); tied to O'Neil's "M" and to his own history — "I would lose all of my hard earned trading profits and more, when I kept buying break-out stocks in the inevitable decline that followed a bull move" ([WW 2005-07-02](../../raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md)); and stated for the short side — "why play only one side of the game." ([WW 2005-04-18](../../raw/posts/2005-04-18-put-me-on-ira.md))
+
+The correlation figure is given as **70–80%** in July 2009 — "70-80% of stocks follow the general market's trend — end of story" — against the 70% he uses elsewhere. ([WW 2009-07-20](../../raw/posts/2009-07-20-turn-is-here-50-invested.md))
 
 ## When to go defensive
 
@@ -330,3 +333,4 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2021-11-21 — Blog post: Day 25 of $QQQ short term up-trend; I started this blog in 2006 to share with people what I was doi](../../raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md) ([summary](../sources/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md))
 - [WW 2005-05-26 — cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md) ([summary](../sources/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md))
 - [WW 2011-02-04 — Nasdaq100 stocks (QQQQ): RWB up-trend; Ultra ETF’s outperform most stocks again](../../raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md) ([summary](../sources/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md))
+- [WW 2009-07-20 — Up-trend is here; 50% invested; some rocket stocks](../../raw/posts/2009-07-20-turn-is-here-50-invested.md) ([summary](../sources/2009-07-20-turn-is-here-50-invested.md))
