@@ -53,6 +53,8 @@ sources:
   - raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md
   - raw/posts/2009-07-20-turn-is-here-50-invested.md
   - raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md
+  - raw/posts/2010-07-15-overbought-condition-continues-index-stochastics-at-extreme-levels.md
+  - raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md
 ---
 
 # Moving-average rules
@@ -135,6 +137,8 @@ Dr. Wish uses the **daily 10,4,4 stochastic** as a timing overlay on top of the 
 
 **On the weekly, as a relative-oversold gauge for the index (2011).** In the 19th day of a decline he read the QQQ's *weekly* 10.4.4 stochastic against prior bottoms: the fast line "almost below" 20, "approaching the severely oversold levels seen at other recent market bottoms, even during the 2008 debacle" — but "other big declines ended *below* the 20% level. So, we may have more to go." Used to decide it was "not the time to *begin* to go short," not as a buy. ([WW 2011-06-20](../../raw/posts/2011-06-20-no-one-knows-when-this-market-will-bottom.md))
 
+**The rule, stated as a rule (July 2010).** With the daily 10,4 stochastic at 85/95/97 across QQQQ, SPY and DIA: "**Stocks and index ETF's can stay overbought for a long time. The important point to remember, though, is that declines tend to begin from a stochastic reading above 80 and advances begin from a level below 20.**" An extreme reading is the *precondition* for a turn, not the trigger — "at some point we will get the decline and the key to the trend will be where it bottoms out." ([WW 2010-07-15](../../raw/posts/2010-07-15-overbought-condition-continues-index-stochastics-at-extreme-levels.md))
+
 ## The 10-week average — the holding rule for individual stocks
 
 For individual stocks, a weekly close below the **rising 10-week average** is an exit signal. He is explicit about this with AAPL as an example: "I have found AAPL fine to own as long as it remained above its rising 10 week average." A weekly close below that level is a concern; he uses it to decide when to exit a position. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
@@ -185,6 +189,8 @@ This approach captured most of the advance in TSLA after its GLB: 6 of 8 WGBs we
 He names it outright in 2023: "**4wk>10wk>30wk averages, my prime pattern for advancing stocks**" — with the weekly green bar (a bounce up off the 4-week) as the entry inside it, and the observation that "stocks at new ATHs after a market decline are often the new leaders." ([WW 2023-01-25](../../raw/posts/2023-01-25-blog-post-two-stocks-that-came-up-in-my-tc2000-weekly-green-bar-scan-for-stocks-at-ath-with-20-week-high-in-r.md))
 
 **Why the weekly ladder exists, and how it reads.** Three simple weekly averages (4, 10, 30) keep him in an advancing growth stock "without being prematurely shaken out by daily noise"; O'Neil reportedly used only weekly charts because they "more clearly revealed the meaningful stock trends." A strong stock holds 4wk > 10wk > 30wk near an all-time high for long stretches, often going many weeks without a weekly close under the 4wk. A close under the **4wk** warns (raise stops, or sell a small piece); a close under the **10wk** exits — "growth stocks should not close the week below their 10 week average." Use weekly *closing* prices only: a stock often trades intraweek below the 4wk and closes back above it. Worked: NTES held 4>10>30 for 21 weeks while advancing 40%+ in 2016; NVDA did the same through its 2016 advance. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md)) The approach suits part-time traders: decisions are made on Friday evening with the full weekly bar available. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
+
+**Consecutive weeks above the rising 4-week as a strength count.** On CRDO in June 2025: "**CRDO has closed the last 9 weeks above its rising 4 week average, a major sign of a rising stock**" — the same measure he applied to NTES's 21 weeks in 2016. ([WW 2025-06-22](../../raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md))
 
 ## Code — stages, the WGB, and the Guppy bands
 
@@ -319,3 +325,5 @@ wrote that, 79% of Nasdaq 100 stocks were below their 30-days — the rule read 
 - [WW 2020-09-20 — 10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) ([summary](../sources/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
 - [WW 2009-07-20 — Up-trend is here; 50% invested; some rocket stocks](../../raw/posts/2009-07-20-turn-is-here-50-invested.md) ([summary](../sources/2009-07-20-turn-is-here-50-invested.md))
 - [WW 2022-01-09 — Blog post: The weekly charts of $QQQ, $DIA and $SPY show each having three heavy volume down weeks, suggesting](../../raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md) ([summary](../sources/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md))
+- [WW 2010-07-15 — Overbought condition continues; index stochastics at extreme levels](../../raw/posts/2010-07-15-overbought-condition-continues-index-stochastics-at-extreme-levels.md) ([summary](../sources/2010-07-15-overbought-condition-continues-index-stochastics-at-extreme-levels.md))
+- [WW 2025-06-22 — Blog Post: Day 39 of $QQQ short term up-trend; $QQQ wedged between green line top and rising 4 week average; W](../../raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md) ([summary](../sources/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md))

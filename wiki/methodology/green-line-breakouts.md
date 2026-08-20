@@ -53,6 +53,7 @@ sources:
   - raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md
   - raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md
   - raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md
+  - raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -125,6 +126,8 @@ The exit, stated as a general rule while buying OLLI's GLB in November 2016: "I 
 **The alert is set weeks before the breakout.** "TC2000 sent me a text yesterday immediately when AMD crossed the green line. I had created the alert on June 19" — five weeks earlier. The alert is the monitoring counterpart of the [Darvas GTC buy-stop](../playbooks/buying-glb.md#step-5--set-the-initial-stop-immediately--but-for-a-glb-on-a-close-basis): one tells you, the other buys for you. Breakout volume is still checked after it fires. ([WW 2020-07-23](../../raw/posts/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md))
 
 **GLB → consolidation → WGB, in one chart (2020).** TSM: a green line breakout at 60.64 in early July, +31% in five weeks to $84, a nine-week consolidation, then a fresh breakout on a **weekly green bar** — "the 3 weekly averages of price were lined up properly with 4wk>10wk>30wk and the stock bounced up off of" the 4-week average. ([WW 2020-10-11](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))
+
+**The exit at its strictest wording (2025):** "if I buy a GLB, **I must sell it if it closes *any day* back below its green line**. If it does and I exit, I often buy it back if/when it closes back above its green line." ([WW 2025-06-22](../../raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md)) And the patience that precedes the entry, with QQQ wedged just under its green line and the 10-week converging on a flat 30-week — "something has to give… **rather than predicting the future, I prefer to react to a break-out or break-down, once it has occurred.**"
 
 ## The IPO GLB — a high-probability variant
 
@@ -384,3 +387,4 @@ This is continuous with the 2016 [BOS](stock-selection.md) preference ("I actual
 - [WW 2018-06-03 — 3 Recent GLB stocks: $ENVA $GDOT $TSG](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md) ([summary](../sources/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md))
 - [WW 2018-08-26 — 19 Recent IPOs at ATH with recent GLB: $MTCH $TWLO $SEND $SFIX $ROKU $CABO….](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md) ([summary](../sources/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))
 - [WW 2016-03-06 — 13 recent GLB stocks to monitor: $ALGN, $BMS, $CINF, $CNSL, $CPRT, $ELLI, $MO, $NLSN, $PNRA, $SWHC, $SYY, $TFX](../../raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md) ([summary](../sources/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md))
+- [WW 2025-06-22 — Blog Post: Day 39 of $QQQ short term up-trend; $QQQ wedged between green line top and rising 4 week average; W](../../raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md) ([summary](../sources/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md))

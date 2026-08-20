@@ -302,6 +302,12 @@ sources:
   - raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md
   - raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md
   - raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md
+  - raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md
+  - raw/posts/2010-07-15-overbought-condition-continues-index-stochastics-at-extreme-levels.md
+  - raw/posts/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md
+  - raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md
+  - raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md
+  - raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md
 ---
 
 # Timeline — evolution of the methodology
@@ -505,6 +511,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## February 2007 (cont.) — GMI-L 100; the Dow's multi-year base; O'Neil's 8% rule
 
 **"GMI: 6; GMI-S: 88; Dow climbs wall of worry" (2007-02-26):** GMI-L > 90 since September, pension 100% invested since the fall; the Dow's five-year base and the overhead-supply logic — "it often portends a considerable rise" — with the 1982 break of 1,000 as precedent (the GLB idea on an index); IBD100 lists tracking the Nasdaq-100; O'Neil's 8%-below-pivot stop; "I like to buy IBD 100 stocks that break from a base on high volume." ([WW 2007-02-26](../../raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md))
+
+## September 2007 (cont.) — component 1's thresholds clarified as inclusive
+
+**"GMI: 3; IBD100 stocks at new highs" (2007-09-04):** "I clarified in the table that the 10 Day Successful New High Index is positive if the number is ***greater than or equal* to 100 or 50%**"; "I look forward to market declines when it is much easier to see emerging leaders"; 20 of 400+ IBD100 names at new highs against 66 in the whole universe; T2108 had marked the August bottom below 8%. ([WW 2007-09-04](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))
 
 ## October 2007 (cont.) — 'it is futile to try to anticipate market turns'
 
@@ -716,6 +726,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"New up-trend or dead cat bounce?" (2010-07-12):** "when we are in short *and* long term down-trends… I do not go long until *both* trends have signaled a new up-trend… such is the fate of the trend follower"; the contrarian trio (7 down days, put/call ~1.2, II bears ≈ bulls) plus a stochastic near zero, seen in hindsight; QQQQ/SPY under their 10-week ten weeks. ([WW 2010-07-12](../../raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md))
 
+## July 2010 (stochastic) — declines begin above 80, advances below 20
+
+**"Overbought condition continues; index stochastics at extremes" (2010-07-15):** daily 10,4 stochastic at 85/95/97 — "**stocks and index ETF's can stay overbought for a long time**… declines tend to begin from a stochastic reading above 80 and advances begin from a level below 20"; the extreme is a precondition, not a trigger; GMI 2 but GMI-R 6 as the short-term trend turns. ([WW 2010-07-15](../../raw/posts/2010-07-15-overbought-condition-continues-index-stochastics-at-extreme-levels.md))
+
 ## August 2010 (scan) — the oversold-stochastic-then-buy-signal scan; PCLN
 
 **"How my oversold stochastic followed by a buy signal scan found PCLN" (2010-08-04):** the two-step sequence — stochastic below 20, then a close above the 30-day average; PCLN caught weeks before its blow-out earnings but not bought "because of the low GMI reading"; "this scan does not typically work so well in a down market"; "one must always use stops." ([WW 2010-08-04](../../raw/posts/2010-08-04-how-my-oversold-stochastic-followed-by-a-buy-signal-scan-found-pcln.md))
@@ -789,6 +803,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## March 2011 (10-week) — a 26-week run above the 10-week ends
 
 **"QQQQ short term down-trend reaches 4th day" (2011-03-13):** the QQQQ closes below its 10-week after 26 straight weeks — "when the QQQQ closes below its 10 week average, I am unlikely to make money buying tech stocks. It does not mean that the market will enter a long down-trend, only that the odds are" against it; SPY still on its own 10-week at week 27. ([WW 2011-03-13](../../raw/posts/2011-03-13-qqqq-short-term-down-trend-reaches-4th-day-gmi-1-mainly-in-cash-3x-inverse-etfs-surge.md))
+
+## March 2011 (cont.) — 'every long term down-trend begins with a short term down-trend'
+
+**"GMI at 1 as $QQQQ short term down-trend completes 5th day" (2011-03-15):** "I never fight the trend of the general market"; the February 16 peak preceded the Japanese earthquake by weeks — "the events in Japan have merely enhanced the speed and the depth of the decline"; "**every long term down-trend begins with a short term down-trend**"; "it took me many years to learn this valuable lesson." ([WW 2011-03-15](../../raw/posts/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md))
 
 ## April 2011 — IBD50 vs Nasdaq100/S&P500 systematic comparison; 10-week bounce scan
 
@@ -941,6 +959,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"9th day of QQQ up-trend; covered calls on GLD; GMCR, QCOR, IRBT GLBs" (2014-02-23):** explains covered call income strategy on GLD (Stage 2 ETF): sell weekly at-the-money calls at ~0.79%/week = ~3.17%/month. Explicitly notes: do not sell covered calls on rocket growth stocks (capped upside). Three concurrent GLBs shown: GMCR (new ATH base after 2009 original GLB), QCOR, IRBT. ([WW 2014-02-23](../../raw/posts/2014-02-23-9th-day-of-qqq-short-term-up-trend-gld-turning-up-writing-calls-on-gld-gmcr-qcor-irbt-green-line-break-outs.md))
 
 ---
+
+## March 2014 (cont.) — the 3:45 PM rule, six months before its recorded origin
+
+**"5th day of $QQQ short term down-trend; $FANG shows strength" (2014-03-30):** "the key is to wait for the end of the trading day, **around 3:45 PM**, to see where the market will settle" — predating the September 2014 statement; a 52-week-high + recent-earnings scan yielding 17 names, half energy; FANG with expanding Bollinger bands after a five-week base; but "with the GMI on a recent Sell signal, I will keep my powder dry." ([WW 2014-03-30](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md))
 
 ## April 2014 — Staged pension exit protocol published; GMI/QQQ divergence warning
 
@@ -1566,6 +1588,10 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 
 ---
 
+## January 2025 (cont.) — wading into SQQQ with one foot out the door
+
+**"Day 6 of $QQQ short term down-trend; 144 US stocks at new lows" (2025-01-09):** "if it should close below [the rising 30 week average], **my GMI will turn to 0 and I will start to transfer university retirement accounts to cash**"; "I will *slowly* wade into SQQQ… **it also falls 3x as much as QQQ advances, so I always have one foot out the door**"; more new lows than highs as weakness; the weekly GMMA still RWB. ([WW 2025-01-09](../../raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md))
+
 ## March 2025 — Stage 4 identified in IWM; GMI Red since February
 
 **"Day 24 of $QQQ short-term down-trend; IWM at beginning of Stage 4" (2025-03-30):** Dr. Wish uses IWM's weekly 10:30 chart to identify what looks like the beginning of a Stage 4 down-trend — the 10-week average has crossed below the 30-week average, and the weekly close is leading everything lower. He compares it to the same setup in 2022 and transferred pension accumulations out of mutual funds. GMI has been Red since February 24, 2025. He holds SQQQ and TWM as small short positions. ([WW 2025-03-30](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
@@ -1601,6 +1627,10 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 **"Day 44 of QQQ up-trend; TA works for mutual funds; GLB in Fidelity Contrafund" (2025-06-29):** Dr. Wish extends the GLB concept to **mutual funds**: Fidelity Contrafund had a green line top on its weekly chart; when it broke above that level on high weekly volume, he treated it as a GLB entry signal to begin transferring pension cash back into mutual funds. The weekly Guppy chart of QQQ confirmed a full RWB pattern. GMI reached 6 of 6. This documents the 2025 pension re-entry: after exiting in the April tariff decline, he re-entered gradually as 4wk>10wk>30wk re-established on QQQ, SPY, and Fidelity Contrafund. "Slowly transferred cash from money market funds to mutual funds and stocks." ([WW 2025-06-29](../../raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md))
 
 ---
+
+## June 2025 (cont.) — QQQ wedged below its green line; the any-day close rule
+
+**"Day 39 of $QQQ short term up-trend; $QQQ wedged between green line and averages" (2025-06-22):** the 10-week rising toward a flat 30-week — "something has to give… **rather than predicting the future, I prefer to react to a break-out or break-down, once it has occurred**"; CRDO in the same shape, nine consecutive weekly closes above its rising 4-week; and the GLB exit at its strictest — "I must sell it if it **closes any day** back below its green line." ([WW 2025-06-22](../../raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md))
 
 ## July 2025 — the OSB carried forward on the blue dot
 
@@ -1969,3 +1999,9 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2022-06-07 — Blog Post: Day 1 of new $QQQ short term up-trend and GMI=4; Nibbling at $TQQQ, see 24 stocks at ATHs](../../raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md) ([summary](../sources/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md))
 - [WW 2023-08-20 — Blog Post: Day 8 of $QQQ short term down-trend; $QQQ,$SPY,$DIA,$IWM closed below all 12 averages in my adapted](../../raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md) ([summary](../sources/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md))
 - [WW 2025-03-06 — Blog Post: Day 8 of $QQQ short term down-trend; 28 US new highs, 81 lows and 5 at ATH; I will resist the inevi](../../raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md) ([summary](../sources/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md))
+- [WW 2007-09-04 — GMI: 3++; IBD100 stocks at new highs](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md) ([summary](../sources/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))
+- [WW 2010-07-15 — Overbought condition continues; index stochastics at extreme levels](../../raw/posts/2010-07-15-overbought-condition-continues-index-stochastics-at-extreme-levels.md) ([summary](../sources/2010-07-15-overbought-condition-continues-index-stochastics-at-extreme-levels.md))
+- [WW 2011-03-15 — GMI at 1, as QQQQ short term down-trend completes 5th day; in cash and short; T2108 still neutral](../../raw/posts/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md) ([summary](../sources/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md))
+- [WW 2014-03-30 — 5th day of $QQQ short term down-trend; $FANG shows strength](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md) ([summary](../sources/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md))
+- [WW 2025-01-09 — Blog Post: Day 6 of $QQQ short term down-trend; 144 US stocks at new lows and 42 at highs; $QQQ,$SPY,$DIA and ](../../raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md) ([summary](../sources/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md))
+- [WW 2025-06-22 — Blog Post: Day 39 of $QQQ short term up-trend; $QQQ wedged between green line top and rising 4 week average; W](../../raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md) ([summary](../sources/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md))

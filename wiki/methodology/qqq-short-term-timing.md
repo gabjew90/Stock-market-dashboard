@@ -25,6 +25,7 @@ sources:
   - raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md
   - raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md
   - raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md
+  - raw/posts/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md
 ---
 
 # QQQ Short-Term Timing
@@ -87,6 +88,8 @@ the beginning of an extended short term down-trend."
 ## Relationship to the GMI
 
 The QQQ short-term timing count is separate from, but published alongside, the GMI. Several GMI components measure the QQQ's daily and weekly trend — the short-term count overlaps with these but is more granular (it counts days; the GMI components are binary). When the GMI goes GREEN (≥ 4), the QQQ is typically also in a short-term up-trend. When the GMI flashes RED (≤ 3), the QQQ short-term count is typically down.
+
+**Why the daily count is watched inside an intact weekly up-trend:** "the longer term market trends remain up, for now. **But remember, every long term down-trend begins with a short term down-trend.**" ([WW 2011-03-15](../../raw/posts/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md)) The same post notes that the February 2011 peak preceded the Japanese earthquake by weeks — "the events in Japan have merely enhanced the speed and the depth of the decline." News accelerates a turn the tape has already made.
 
 ## Evolution
 
@@ -159,3 +162,4 @@ a trade-able rally**." ([WW 2008-10-22](../../raw/posts/2008-10-22-gmi-0-gmi-r-0
 - [WW 2022-06-07 — Blog Post: Day 1 of new $QQQ short term up-trend and GMI=4; Nibbling at $TQQQ, see 24 stocks at ATHs](../../raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md) ([summary](../sources/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md))
 - [WW 2007-10-15 — gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks-some-cups-with-handles](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md)
 - [WW 2022-06-07 — blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-24-stocks-in-my-watchlist-hit-an-ath](../../raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md)
+- [WW 2011-03-15 — GMI at 1, as QQQQ short term down-trend completes 5th day; in cash and short; T2108 still neutral](../../raw/posts/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md) ([summary](../sources/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md))

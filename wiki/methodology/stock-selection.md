@@ -54,6 +54,8 @@ sources:
   - raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md
   - raw/posts/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md
   - raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md
+  - raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md
+  - raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md
 ---
 
 # Stock selection
@@ -147,6 +149,8 @@ IBD 50 outperformance (documented 2012): from December 2011 through April 2012, 
 
 The buy-stop entry, worked on BTU in June 2005: a gap to a new high on Friday at 52.71; "I placed a stop order Sunday night to buy the stock if it traded above Friday's intraday high price of 52.91. After the buy stop was executed around 53.10 on Monday, I placed a sell stop in just below Friday's" low. ([WW 2005-06-13](../../raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md))
 
+**A 52-week-high + recent-earnings scan (March 2014).** Seventeen hits, almost half of them energy, with FANG the pick on a 30% February rise, a five-week consolidation, a fresh breakout and expanding Bollinger bands. The market gate still bound: "with the GMI on a recent Sell signal, I will keep my powder dry." ([WW 2014-03-30](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md)) The same post carries the [3:45 PM rule](scans.md#the-biotech-scan--volume-plus-news-catalyst), six months before the September 2014 statement usually cited for it.
+
 ## Price level preference — $80+ (2011) → $100+ (2018) → $200+ (2021)
 
 > **Current threshold: $200.** The $80 and $100 figures below are the earlier statements of the *same* rule, kept because the empirical work behind them is the evidence base he still cites. See [the 2021 revision](#the-2021-revision-200) at the end of this section.
@@ -225,6 +229,8 @@ the market strengthens**" (how he found GMCR in April 2009). ([WW 2018-04-01](..
 The same habit in the COVID crash: "when the market is in a down-trend it is much easier to identify the few gems that are resisting the downward pull of the general market, or even flourishing. Such stocks (like GMCR in 2009) may become the new leaders when the market turns." ([WW 2020-03-29](../../raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md)) And during the January 2014 decline: "I find it to be very useful… to watch the new high list during declines because stocks appearing on it are exhibiting unusual strength." ([WW 2014-02-09](../../raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md))
 
 The rationale, stated outright in a 39-day down-trend with 98 new highs out of ~6,000: "**It is in the new high list that I look for the leaders of the next move up. Any stock that can reach a new high, and especially an all-time high, during protracted market weakness is likely to be reflecting some serious buying pressure.**" ([WW 2012-06-11](../../raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md))
+
+Stated as a preference as early as September 2007: "**I look forward to market declines when it is much easier to see emerging leaders. Stocks that hit new highs quickly after a decline are often likely to lead if the market turns.**" That week, 20 of 400+ IBD100 names made new highs against just 66 in his whole 4,000-stock universe. ([WW 2007-09-04](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))
 
 ## O'Neil 1995 workshop: volume over EPS
 
@@ -340,3 +346,5 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2018-06-03 — 3 Recent GLB stocks: $ENVA $GDOT $TSG](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md) ([summary](../sources/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md))
 - [WW 2009-04-12 — Buying Rocket Stocks; My market indicators are very strong.](../../raw/posts/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md) ([summary](../sources/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md))
 - [WW 2010-08-05 — Going long—FFIV and other Darvas Scan stocks](../../raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md) ([summary](../sources/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md))
+- [WW 2014-03-30 — 5th day of $QQQ short term down-trend; $FANG shows strength](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md) ([summary](../sources/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md))
+- [WW 2007-09-04 — GMI: 3++; IBD100 stocks at new highs](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md) ([summary](../sources/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))

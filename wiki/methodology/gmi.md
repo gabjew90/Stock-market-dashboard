@@ -45,6 +45,7 @@ sources:
   - raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md
   - raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md
   - raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md
+  - raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md
 ---
 
 # General Market Index (GMI)
@@ -112,6 +113,8 @@ Two consequences. First, the reconstruction's use of **FFTY** as a component-6 p
 **Component 1 read diagnostically.** A sub-50% reading is not just a negative component — it is a description of what the market is doing to breakouts: "only 49% of the 351 stocks that hit a new high 10 days ago closed higher… **This is a sign of failed break-outs**" (December 2005) ([WW 2005-12-08](../../raw/posts/2005-12-08-gmi-6-short-term-weakening-failed-break-outs-cmtl.md)), and he repeats the reading as a topping sign in December 2005 and again in 2019. When the raw count collapses instead, the conclusion is different and harsher: with 12 new highs out of 4,000 in March 2008, "**a growth stock strategy of buying stocks at new highs will not work in an environment when only 12 stocks out of 4,000 can hit a new high in a day.**" ([WW 2008-03-31](../../raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md))
 
 Watched as the swing vote in August 2023: "the GMI could fall to 2 and trigger a Red signal if the IBD Mutual Fund Index (0muti) closes below its 50 day average. **It is right on it now.**" ([WW 2023-08-09](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md))
+
+**And a clarification in September 2007:** the thresholds are **inclusive** — "I clarified in the table that the 10 Day Successful New High Index is positive if the number is *greater than or equal* to 100 or 50%." ([WW 2007-09-04](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))
 
 ## The signals — Buy, Sell, and the hold state at 3
 
@@ -331,3 +334,4 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2008-03-31 — GMI-1; GMI-R: 3; RICK- a stock for a “bare” market?](../../raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md) ([summary](../sources/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md))
 - [WW 2015-10-04 — IBD calls market up-trend; $SLP –green line break out worth watching](../../raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md) ([summary](../sources/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md))
 - [WW 2008-02-11 — GMI: 0; GMI-R: 0; 13th week since top; DBC, DJP, DBA](../../raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md) ([summary](../sources/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md))
+- [WW 2007-09-04 — GMI: 3++; IBD100 stocks at new highs](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md) ([summary](../sources/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))

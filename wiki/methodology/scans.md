@@ -33,6 +33,7 @@ sources:
   - raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md
   - raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md
   - raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md
+  - raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -113,7 +114,7 @@ In addition to the general RWB/GLB scans, Dr. Wish runs a specialized scan for b
 
 **General rule:** the scan produces candidates; the news determines which are worth owning. Dr. Wish maintains a growing watchlist of stocks that have appeared in the scan and monitors them over time for further technical strength. He intentionally does not publish specific output because he wants people to do their own due diligence.
 
-**3:45 PM intraday timing rule:** "I restrict most of my daily trading to around 3:45 PM when I can estimate where things will close. If I trade earlier in the day I am often whipsawed." ([WW 2014-09-28](../../raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md))
+**3:45 PM intraday timing rule:** "I restrict most of my daily trading to around 3:45 PM when I can estimate where things will close. If I trade earlier in the day I am often whipsawed." ([WW 2014-09-28](../../raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md)) The rule is older than that post: it appears in **March 2014** — "the key is to wait for the end of the trading day, around 3:45 PM, to see where the market will settle." ([WW 2014-03-30](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md))
 
 ## The IBD screener workflow (2020)
 
@@ -262,3 +263,4 @@ It is also the one scan he declines to share: "**Please do not ask me to post my
 - [WW 2010-08-05 — Going long—FFIV and other Darvas Scan stocks](../../raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md) ([summary](../sources/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md))
 - [WW 2018-08-26 — 19 Recent IPOs at ATH with recent GLB: $MTCH $TWLO $SEND $SFIX $ROKU $CABO….](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md) ([summary](../sources/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))
 - [WW 2024-03-12 — Blog Post: Day 44 of $QQQ short term up-trend; $QQQ has black dot, oversold bounce, see daily chart and list o](../../raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md) ([summary](../sources/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md))
+- [WW 2014-03-30 — 5th-day-of-qqq-short-term-down-trend-fang-shows-strength](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md) ([summary](../sources/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md))
