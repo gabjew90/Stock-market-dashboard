@@ -30,6 +30,7 @@ sources:
   - raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md
   - raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md
   - raw/posts/2010-04-26-true-religion-trlg-break-out.md
+  - raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -132,6 +133,14 @@ Two constraints. It is market-state dependent like everything else — the write
 
 By 2012 he was "teaching myself to write the new weekly covered calls on the SPY and QQQ," recommending Alan Ellman's books as the primer and calling the strategy "great… for us boomers, once we have a systematic way for selecting appropriate stocks." ([WW 2012-04-16](../../raw/posts/2012-04-16-thoughts-about-the-worden-dc-seminar-gmi-2-in-cash-and-short-gld.md))
 
+**Weekly calls, with a number (2014).** The 2012 "teaching myself to write the new weekly covered calls"
+note had become routine practice by February 2014, run on a gold position: "I have been buying GLD and
+**writing weekly calls** on the position. **The return is about 3% *per month* on my investment.**"
+([WW 2014-02-17](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md)) That sits at the top of the 2–4% monthly range he reported for the one-month version in 2007,
+which is what shortening the expiry is supposed to buy. The underlying was chosen on a stage change, not
+a bottom guess — GLD closing back above its 30-week average for the first time since January 2013, with
+a double bottom near 114.50 and the 30-week flattening.
+
 ## See also
 
 - [Risk & cash](risk-and-cash.md) — cash as the default; the page this was split from
@@ -169,3 +178,4 @@ By 2012 he was "teaching myself to write the new weekly covered calls on the SPY
 - [WW 2025-01-09 — Blog Post: Day 6 of $QQQ short term down-trend; 144 US stocks at new lows and 42 at highs; $QQQ,$SPY,$DIA and ](../../raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md) ([summary](../sources/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md))
 - [WW 2006-06-08 — Shame on IBD and Cramer; puts in an IRA; the IBD 100 audited mid-decline](../../raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md) ([summary](../sources/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md))
 - [WW 2010-04-26 — TRLG: the round trip back to an all-time high, expressed in calls](../../raw/posts/2010-04-26-true-religion-trlg-break-out.md) ([summary](../sources/2010-04-26-true-religion-trlg-break-out.md))
+- [WW 2014-02-17 — ETFs to lower stress; I-bonds; weekly calls on GLD](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md) ([summary](../sources/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md))

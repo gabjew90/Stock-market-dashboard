@@ -36,6 +36,7 @@ sources:
   - raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md
   - raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md
   - raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md
+  - raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -117,6 +118,27 @@ attaches the same patience to Darvas, and it is the disposition underneath
 [rule 8](#8-if-you-cannot-go-to-cash-do-not-trade) — being able to hold cash comfortably and being able
 to skip a session are the same capacity at different timescales.
 
+## 10. The seductive stock in a bad market — and the safety valve
+
+The most candid of the rules, because he states it as a temptation he still has rather than one he has
+mastered: "even in weak markets, **I am tempted to go long when I find the 'perfect' text book price
+pattern that brought huge profits in a prior rising market.**" The correction is a fact about setups
+rather than about discipline — "**the same price pattern that works so well in a rising market, is
+likely to fail in a declining market**" — which reframes the urge as a base-rate error instead of a
+character flaw. "Half of the battle for conserving capital is to resist the temptation to buy that
+unusually strong stock in a bad market. The odds of success are against me. **And yet, being in the
+market is so seductive.**" ([WW 2005-10-08](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md))
+
+What he does about it is the useful part, and it is a sizing decision rather than an act of will:
+"**One way I handle such a temptation is to use a very small portion of my portfolio to buy that
+irresistible stock — just in case I am right.**" The urge gets an outlet small enough that acting on it
+cannot damage the account, which is the same design as
+[rule 5](#5-the-stop-is-how-emotion-leaves-the-trade) and
+[rule 6](#6-enforce-the-anti-shakeout-rule-physically): build the machine so that being human is
+affordable. Compare the [pilot portfolio](stock-selection.md#the-pilot-portfolio--25-share-radar-positions-2014),
+which applies the same trick to a different problem — 25-share positions bought to keep a stock on the
+radar rather than to make money on it.
+
 ## How the rules fit together
 
 Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or the need to be active. Rules 3, 4 and 6 are about *fear* — expect it, size for it, and pre-commit against it in writing. Rules 5 and 7 are about the *exit* — the stop removes emotion at entry, and the too-easy voice is the single place he lets emotion back in, on the profitable side only. Nothing on this page asks for a temperament he does not have; each item is a rule written after he watched himself fail without it.
@@ -162,3 +184,4 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2022-01-09 — Blog post: The weekly charts of $QQQ, $DIA and $SPY show each having three heavy volume down weeks, suggesting](../../raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md) ([summary](../sources/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md))
 - [WW 2025-03-06 — Blog Post: Day 8 of $QQQ short term down-trend; 28 US new highs, 81 lows and 5 at ATH; I will resist the inevi](../../raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md) ([summary](../sources/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md))
 - [WW 2017-07-16 — O'Neil's shopping list — the watch-list procedure, and the discipline of not trading](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md) ([summary](../sources/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))
+- [WW 2005-10-08 — The folly of fighting the trend — and the small-position safety valve](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md) ([summary](../sources/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md))

@@ -32,6 +32,7 @@ sources:
   - raw/posts/2005-05-03-cnbc-forever-bullish.md
   - raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md
   - raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md
+  - raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md
 ---
 
 # Trading philosophy — the five propositions
@@ -236,6 +237,13 @@ consistent with most of the index's gain coming from a handful of names, which i
 is a rule of thumb he has never formally tested, and the one measurement he published is a favourable
 special case.
 
+**The same measurement on the downside (October 2005).** The gate is symmetric, and he measured it in
+the losing direction first: since the QQQQ peak on August 2 the index had fallen 4.3%, "and **only 34%
+of its component stocks have advanced, with only 18 stocks (18%) advancing 5% or more. Why fight these
+odds?**" ([WW 2005-10-08](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md)) Two-thirds of the components fell in a 4.3% index decline — which is the number that
+matters for the rule actually being defended, since the rule is a prohibition on being long in a
+down-trend rather than an instruction to be long in an up-trend.
+
 ## The lineage he names
 
 The influences are stated, not implied: Darvas (the first book he assigns), Weinstein's stage analysis, O'Neil, Livermore via Lefèvre, Guppy for the multiple-moving-average charts, and — from October 2016 — Mark Minervini and David Ryan, after three days at Minervini's Master Trader Program: "600 slides that taught everything from how to select stocks, the price patterns that are most profitable, the way to set stops, pyramid up, and close out positions. They gave the best information on the value of cutting losses that I have ever seen… He has put into a 3 day session much of what it took me over 50 years to learn." Both offered to lecture his students, and the later @markminervini / MarketSmith / VCP references on the blog trace to this. ([WW 2016-10-25](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))
@@ -279,3 +287,4 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2005-05-03 — cnbc-forever-bullish](../../raw/posts/2005-05-03-cnbc-forever-bullish.md) ([summary](../sources/2005-05-03-cnbc-forever-bullish.md))
 - [WW 2006-01-17 — The advance measured across three indexes; the inverted-yield-curve worry](../../raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md) ([summary](../sources/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md))
 - [WW 2006-06-08 — Shame on IBD and Cramer; puts in an IRA; the IBD 100 audited mid-decline](../../raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md) ([summary](../sources/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md))
+- [WW 2005-10-08 — The folly of fighting the trend — and the small-position safety valve](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md) ([summary](../sources/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md))

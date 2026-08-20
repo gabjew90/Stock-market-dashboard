@@ -55,6 +55,9 @@ sources:
   - raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md
   - raw/posts/2010-07-15-overbought-condition-continues-index-stochastics-at-extreme-levels.md
   - raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md
+  - raw/posts/2005-06-09-gmi-5-stay-the-course-and-watch-the-10-day-for-the-qqqq.md
+  - raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md
+  - raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md
 ---
 
 # Moving-average rules
@@ -107,6 +110,22 @@ The 2006 form of the rule: "When a major index is below its 30 week average I ge
 **The 2026 restatement, with the 2000 chart beside it.** "**This signal helped me to get out at the beginning of all major declines since 2000**… Thank you Stan Weinstein for teaching me stage analysis." And the most recent application: "**I got defensive in April 2025 until the 30 week resumed its rise.**" ([WW 2026-06-01](../../raw/posts/2026-06-01-how-i-identified-and-exited-at-the-market-top-in-2000-when-the-30-week-average-curved-down-to-identify-a-like.md))
 
 **Stated as a complete system (July 2009, at the re-entry):** "the 30 week averages for the SPY, QQQQ and DIA are turning up. This is a classic Weinstein Stage 2 pattern. **I get out of the market when the 30 week averages turn down and back in when they turn up. I know this seems simplistic and naive, BUT IT WORKS!! It keeps me on the right side of the market's primary trend.**" ([WW 2009-07-20](../../raw/posts/2009-07-20-turn-is-here-50-invested.md)) And its record, as he scores it in January 2022: "**penetration of the 30 week average saved me from the market debacles in 2000, 2008 and 2020**" — written with QQQ approaching its 30-week at 375.59, and "a weekly close below that level would get me out of everything." ([WW 2022-01-09](../../raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md))
+
+## The 10-day average — the yellow light
+
+The fastest average on his charts is not a signal line. Its job is to say that a sharp advance has
+stopped being sharp: "**Sharply rising stocks, including the QQQQ index, tend to remain above their
+rising 10 day average. A close below the average may not be a sell signal, but it serves as a yellow
+light to me.**" ([WW 2005-06-09](../../raw/posts/2005-06-09-gmi-5-stay-the-course-and-watch-the-10-day-for-the-qqqq.md)) What the yellow light actually changes is *buying*, not holding — "**I would
+not take on new positions until the QQQQ closes above its 10 day average**" — so it gates new
+commitments while leaving existing positions to their own stops. Duration matters more than the single
+close: three consecutive days below is what he calls "an ominous sign."
+
+The same average appears a month later as the hold rule for a strong trend — the QQQQ above its rising
+10-day every day from July 8, with "when is the market weakening? Wait for a close below the dotted
+line" ([WW 2005-07-28](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md)) — and by December 2005 the
+10-day/30-day *relationship* had become the published short-term trend test. The progression is from a
+line watched by eye to a rule with a definition.
 
 ## The 30-day average — the short-term trend anchor
 
@@ -264,6 +283,35 @@ stock that closes *below* its average closing price over the past six weeks?" On
 wrote that, 79% of Nasdaq 100 stocks were below their 30-days — the rule read at market scale.
 ([WW 2012-05-07](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md))
 
+## When moving averages fail — the 2006 epiphany
+
+The limitation is his own, and it is the sharpest thing he has written about his primary tool. Returning
+from a break in March 2006 — "I have been burnt out on this market. **Nothing I have done worked and my
+account has gone nowhere**" — he diagnoses the stretch rather than his execution: "**I realized that
+moving averages are useless for providing signals in a trendless market.**" The QQQQ had been in a flat
+channel since the previous November, and "the index has gone back and forth over the 30 day (red) and 50
+day (green) moving averages. Thus, **the averages and the GMI have been giving erratic, contradictory
+signals.**" ([WW 2006-03-30](../../raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md))
+
+Two things follow. The first is diagnostic discipline: "This index has gone nowhere since last November.
+**Why should we expect to have made any money trading tech stocks in this period?**" — a flat index is a
+sufficient explanation for a flat account, and he checks the regime before concluding the method is
+broken. The dispersion is noted too: IJR trended cleanly over the same months, so "traders in small cap
+stocks probably made money in this period."
+
+The second is the substitute tool. In a channel he reads **trend lines** — support and resistance,
+with a volume condition on the break: he would believe the rally "only if the index closes above the
+upper channel line (around 42.10) **on higher volume**," and expected a decline back toward 40.19 if it
+bounced off instead. On why they work he is openly instrumentalist: "**I guess because so many people
+think they work. Why should I care to understand the reasons, so long as the lines help me to predict
+probable levels of support and resistance.**"
+
+This is the earliest of his three self-published limitations, and the most general — the
+[QQQ-centricity blind spot](gmi.md#the-qqq-centricity-blind-spot-named-in-2008) (2008) and the
+[whipsaw demotion](gmi.md#a-limitation-he-published-himself-2015) (2015) both concern *what* the GMI
+measures, while this one concerns the conditions under which any trend-following measurement carries
+information at all.
+
 ## See also
 
 - [GMMA charts](gmma-charts.md) — RWB / BWR, the daily RWB system, the timeframe ladder
@@ -327,3 +375,6 @@ wrote that, 79% of Nasdaq 100 stocks were below their 30-days — the rule read 
 - [WW 2022-01-09 — Blog post: The weekly charts of $QQQ, $DIA and $SPY show each having three heavy volume down weeks, suggesting](../../raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md) ([summary](../sources/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md))
 - [WW 2010-07-15 — Overbought condition continues; index stochastics at extreme levels](../../raw/posts/2010-07-15-overbought-condition-continues-index-stochastics-at-extreme-levels.md) ([summary](../sources/2010-07-15-overbought-condition-continues-index-stochastics-at-extreme-levels.md))
 - [WW 2025-06-22 — Blog Post: Day 39 of $QQQ short term up-trend; $QQQ wedged between green line top and rising 4 week average; W](../../raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md) ([summary](../sources/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md))
+- [WW 2005-06-09 — The 10-day average as a yellow light; put insurance on the volatile names](../../raw/posts/2005-06-09-gmi-5-stay-the-course-and-watch-the-10-day-for-the-qqqq.md) ([summary](../sources/2005-06-09-gmi-5-stay-the-course-and-watch-the-10-day-for-the-qqqq.md))
+- [WW 2005-07-28 — another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md) ([summary](../sources/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
+- [WW 2006-03-30 — The epiphany: moving averages are useless in a trendless market](../../raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md) ([summary](../sources/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md))

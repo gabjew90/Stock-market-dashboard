@@ -36,6 +36,7 @@ sources:
   - raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md
   - raw/posts/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md
   - raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md
+  - raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md
 ---
 
 # GMMA charts — RWB / BWR, the daily RWB system, and the timeframe ladder
@@ -136,6 +137,19 @@ The notation format used on daily RWB chart headers (e.g., "12/12/6/6") means: T
 **The exit rules on the daily chart, in full.** Sell when the stock *closes* below all six red lines — intraday dips do not count; for a position with a large unrealised gain, wait for **two consecutive closes** below them to reduce whipsaw. When the six red lines **converge**, the stock has stalled: "react, do not anticipate" — wait for a break either way. If the **white space disappears** entirely (red and blue sets converging), sell. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md), [WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md)) Two stop levels come off the same chart: the **lowest red line** (the 15-day EMA, shown in large digits on the TC2000 chart after the word "optionable") as a dollar stop, or — more conservatively — below the most recent cluster of **purple dots** (daily lows). ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md), [WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
 
 **All twelve as the trend-over signal (2023).** With the major indexes closing below all 12 daily averages, "the RWB up-trends are over and… it is possible we will see BWR down-trends." The principle he draws: "**The key in technical analysis is to be prepared to react once a trend is in**" — and "being long right now is fighting the tide. It is so much easier to profit on the long side when the GMI is Green and the short term trends are up." ([WW 2023-08-20](../../raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md))
+
+**The extremes of the notation, and the buy signal hidden in it (2017).** The count is also a trigger.
+Daily SPY reading "the **0/0 pattern**, reflecting that the SPY has now closed below all 12 daily moving
+averages" — and the re-entry rule stated against it: "**A return to 6/6, signifying a close above all 12
+averages, would be a new buy signal for me.**" ([WW 2017-04-16](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md)) The weekly chart of the same index read
+**10/5/0/0**, where "the 10 shows that 10 of the 12 *weekly* averages line up properly with each above
+the next longer average" — so the first figure is an ordering count, not a price-position count.
+
+**Reading the two speeds against each other.** Daily RWB gone while the weekly RWB holds is diagnosed
+as "a **short term pause within a longer term up-trend**," not as a top; the operational summary is that
+"**it is so much more safe and profitable to trade on the long side when the daily and weekly charts
+both form RWB patterns.**" The pension is governed by the slower chart alone — see
+[pension management](pension-management.md).
 
 ## Guppy weekly chart as a bear-market bottom detector
 
@@ -260,3 +274,4 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2023-08-20 — Blog Post: Day 8 of $QQQ short term down-trend; $QQQ,$SPY,$DIA,$IWM closed below all 12 averages in my adapted](../../raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md) ([summary](../sources/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md))
 - [WW 2016-12-26 — 12th day of $QQQ short term up-trend; $QQQ and $CDW have an RWBCount= 12](../../raw/posts/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md) ([summary](../sources/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md))
 - [WW 2016-01-03 — Never hold a long position in a BWR down-trend; the market read index by index](../../raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md) ([summary](../sources/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md))
+- [WW 2017-04-16 — 0/0 to 6/6 as the re-entry rule; the dwindling new-high list as an advantage](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md) ([summary](../sources/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))

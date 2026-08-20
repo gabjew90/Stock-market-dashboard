@@ -71,6 +71,9 @@ sources:
   - raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md
   - raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md
   - raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md
+  - raw/posts/2005-06-23-gmi-falls-to-3-getting-defensive-raising-stops.md
+  - raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md
+  - raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md
 ---
 
 # Risk & cash
@@ -143,6 +146,25 @@ QQQQ down-trend began: "**If we get a bounce during earnings season the next few
 good time to unload losers and raise cash.**" ([WW 2005-10-06](../../raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md)) A rally inside a confirmed down-trend is
 liquidity to exit on — the same logic as the [contrarian sentiment](#contrarian-sentiment-is-a-bounce-warning-not-a-re-entry-trigger)
 rule below.
+
+**The defensive sequence, in order (2005).** Stops first, cash second, and the two triggered by
+different things. At GMI +3 on day 34 of a rally: "I was stopped out of NDAQ and BOOM today. **I am
+moving all of my stops up close to today's lows.** I think the odds of having successful longs is
+decreasing." The final step is keyed not to the GMI but to the trend indicator: "**When my QQQQ daily
+index definitely turns negative, I go to 100% cash.**" ([WW 2005-06-23](../../raw/posts/2005-06-23-gmi-falls-to-3-getting-defensive-raising-stops.md)) The temperament is stated without
+euphemism — "**I have told you that I am a chicken. I would rather be sold out even if I am wrong,
+preserve my capital, and live to trade another day**" — and the supporting evidence that evening was
+read as *change* rather than level: the share of his universe above the 10-week average down from 80%
+to 73%, and the QQQQ falling "on the biggest volume since its decline on April 20."
+
+**Resisting the strong stock in a bad market — and the safety valve.** The temptation is named as the
+main threat to capital preservation, and it is a temptation he admits to rather than one he warns others
+about: "even in weak markets, **I am tempted to go long when I find the 'perfect' text book price
+pattern that brought huge profits in a prior rising market. The critical point to remember is that the
+same price pattern that works so well in a rising market, is likely to fail in a declining market.**
+Half of the battle for conserving capital is to resist the temptation to buy that unusually strong stock
+in a bad market." His handling of it is a sizing decision, not an act of will — see
+[trading psychology, rule 10](trading-psychology.md#10-the-seductive-stock-in-a-bad-market--and-the-safety-valve). ([WW 2005-10-08](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md))
 
 ## Position management within a bull market
 
@@ -229,6 +251,11 @@ The full trio, read in hindsight in July 2010: seven consecutive down days, put/
 
 He also reads sentiment from a room. At an IBD Meetup 33 days into the 2005 rally: "**What a difference a rally makes!**… **most members had not wanted to attend last month's meeting**… **I asked people about GOOG — most were afraid of it — a good sign.**" Attendance at the lows and fear of the leading stock both read as contrarian evidence. ([WW 2005-06-22](../../raw/posts/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md))
 
+**The tell stated as its own inverse (2014).** Complaint is not the warning; agreement is. "The market
+climbs a 'wall of worry' so bring on the whiners. **I will become concerned when the pundits start
+saying that the market has nowhere to go but up.**" ([WW 2014-02-17](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md)) This is the same instrument as the
+"people who never talk about stocks are buying" tell above, read from the professional side.
+
 ## Relative strength during declines as a leadership screen
 
 A recurring 2007 theme, and the constructive use of a down-trend: "While this is not the time for me to buy stocks, I find that **declines offer the best opportunity to find the next winners**. The few stocks that can resist the market decline tend to become stars." In August 2007, with 80% of the 440 IBD100 stocks he monitored down since July 19, he listed the ten biggest gainers (ISRG +33%, HMSY +32%, MORN +26%, ANSS +24%, BLUD +22%...) as the pool to focus on "when the market turns." ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
@@ -279,6 +306,21 @@ Note: the 1,200% figure combines two things — strong performance during bull p
 ## How bear markets end — the volume signature (2009)
 
 Studied on the 1929–32 and 1974 bears with a 50-week average of weekly volume: the bottom arrives when down-week volume shrinks below the average, then "a huge green spike soon after the bottom, followed by a number of green spikes several months later, after a re-test" — up-volume larger than anything in months, larger again after the re-test as "people became more confident of the earlier bottom." Applied to February 2009: "the red spikes are unceasing… the green spikes (up weeks) tend to be *lower* than the red spikes. This is not a market set to bottom like the prior bears." He stayed mainly in cash with some IRA puts, and the low arrived a week later — the signature was for confirming a bottom, not for predicting one: "no one can detect a bottom until sometime after it has occurred." ([WW 2009-03-01](../../raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md))
+
+## Where the cash sits — I-bonds as the ultra-safe sleeve
+
+Cash is a position he holds for months at a time, and in 2014 he named the instrument he prefers for it:
+**US Government I-bonds**, "US savings bonds that adjust every 6 months to the level of inflation. Thus
+they are very safe and their yield will rise if interest rates do. **They will not fall in value like
+regular bonds can when rates rise.** I believe they are better than CD's or savings accounts." The yield
+at the time was 1.38%. ([WW 2014-02-17](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md))
+
+The choice is consistent with the [rates thesis](#the-rate-indicator-is-on-his-charts-from-the-start)
+above rather than incidental to it: the risk he is insuring against is a rate reversal that would mark
+down conventional bonds, and an inflation-adjusted floating instrument is the one form of safe money
+that reprices the right way when that happens. Note the audience — this was advice offered to a room of
+retirees, alongside the recommendation to trade ETFs rather than individual stocks to lower volatility
+and stress.
 
 ## Position sizing — what he has said, and what he has not
 
@@ -386,3 +428,6 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2005-10-06 — The Hindenburg Omen; failed break-outs as the reason component 1 exists](../../raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md) ([summary](../sources/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md))
 - [WW 2016-01-03 — Never hold a long position in a BWR down-trend; the market read index by index](../../raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md) ([summary](../sources/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md))
 - [WW 2006-01-17 — The advance measured across three indexes; the inverted-yield-curve worry](../../raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md) ([summary](../sources/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md))
+- [WW 2005-06-23 — Raising stops before going to cash; 'I am a chicken'](../../raw/posts/2005-06-23-gmi-falls-to-3-getting-defensive-raising-stops.md) ([summary](../sources/2005-06-23-gmi-falls-to-3-getting-defensive-raising-stops.md))
+- [WW 2005-10-08 — The folly of fighting the trend — and the small-position safety valve](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md) ([summary](../sources/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md))
+- [WW 2014-02-17 — ETFs to lower stress; I-bonds; weekly calls on GLD](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md) ([summary](../sources/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md))

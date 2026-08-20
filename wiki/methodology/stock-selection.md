@@ -59,6 +59,8 @@ sources:
   - raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md
   - raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md
   - raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md
+  - raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md
+  - raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md
 ---
 
 # Stock selection
@@ -247,6 +249,21 @@ The rationale, stated outright in a 39-day down-trend with 98 new highs out of ~
 
 Stated as a preference as early as September 2007: "**I look forward to market declines when it is much easier to see emerging leaders. Stocks that hit new highs quickly after a decline are often likely to lead if the market turns.**" That week, 20 of 400+ IBD100 names made new highs against just 66 in his whole 4,000-stock universe. ([WW 2007-09-04](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))
 
+**Why he prefers to hunt in a decline (2017).** The habit above has a stated *advantage*, not just a
+rationale: "**I like market declines because it is easier for me to find potential leaders in a
+dwindling new high list.**" With 60 new 52-week highs in a 4,800-stock universe, the list is short
+enough to read in full — "I looked through them to see if there were any green line break-outs (GLB)
+going to all time highs. That is how I found TWOU," a 2014 IPO at \$13 that had tripled, in a daily RWB
+(11/5/6) with "above average green volume spikes on up days." The screening burden falls as the market
+falls, which is the opposite of how it feels. ([WW 2017-04-16](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))
+
+**And the recommendation he gives non-traders**: at a 2014 AAII workshop for an audience "primarily
+Boomers," he "stressed the desirability of **focusing more on ETF's than individual stocks in order to
+lessen volatility and stress levels**." ([WW 2014-02-17](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md)) The stock-selection machinery on this page is what he
+does; it is not what he tells everyone to do. Compare the
+[leveraged-ETF default](leveraged-etf-default.md), which reaches the same instrument from the return
+side rather than the stress side.
+
 ## The watch list — O'Neil's shopping list, and where his procedure comes from
 
 He traces his own entry workflow to a passage in O'Neil's *How To Make Money in Stocks* (1st ed.
@@ -389,3 +406,5 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2009-04-05 — Dow “bottom rally” puny thus far!; IBD100 and other growth stocks at new highs; I’m bullish for now](../../raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md) ([summary](../sources/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md))
 - [WW 2017-07-16 — O'Neil's shopping list — the watch-list procedure, and the discipline of not trading](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md) ([summary](../sources/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))
 - [WW 2006-06-08 — Shame on IBD and Cramer; puts in an IRA; the IBD 100 audited mid-decline](../../raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md) ([summary](../sources/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md))
+- [WW 2014-02-17 — ETFs to lower stress; I-bonds; weekly calls on GLD](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md) ([summary](../sources/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md))
+- [WW 2017-04-16 — 0/0 to 6/6 as the re-entry rule; the dwindling new-high list as an advantage](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md) ([summary](../sources/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))

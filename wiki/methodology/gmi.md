@@ -49,6 +49,8 @@ sources:
   - raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md
   - raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md
   - raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md
+  - raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md
+  - raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md
 ---
 
 # General Market Index (GMI)
@@ -143,6 +145,11 @@ The score becomes a *signal* only with persistence, and the two sides are symmet
 So **GMI = 3 is a hold state**: not high enough to be Buy, not low enough to be Sell. A reading of 3
 tightens stops and stops new buying but does not by itself flip the signal to Red — the same
 hysteresis that keeps the Buy side from flipping on a single day above 3.
+
+**The Sell rule corroborated in practice (2017).** A worked instance of the score and the signal coming
+apart, which is what the persistence rule is for: "The GMI is now at 1 (of 6) and **still on a GREEN
+signal. One more day below 3 will change it to RED.**" ([WW 2017-04-16](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md)) A score of 1 — the second-worst reading
+possible — did not by itself move him out, six years into the two-day rule's use.
 
 ## How he uses it
 
@@ -257,6 +264,14 @@ the same phenomenon he documented qualitatively in 2015, seven separate times in
 The backtest is not contradicting him; it is measuring a limitation he had already published
 and acted on.
 
+**And an earlier, more general one (2006).** Nine years before the whipsaw audit, he had already named
+the regime in which the machinery stops working: "**I realized that moving averages are useless for
+providing signals in a trendless market**… the averages and the GMI have been giving erratic,
+contradictory signals." ([WW 2006-03-30](../../raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md)) The 2015 finding is the same failure measured — seven Sell signals
+and seven Buys inside one intact up-trend — and the 2011 two-day persistence rule is the mitigation
+adopted between them. Full treatment on
+[when moving averages fail](moving-average-rules.md#when-moving-averages-fail--the-2006-epiphany).
+
 ## Code — computing the GMI
 
 The GMI is six binary checks ([`src/ww/indicators/gmi.py`](../../src/ww/indicators/gmi.py)). Three of them — QQQ daily trend, SPY daily trend, QQQ weekly trend (close above its 30-week average) — are computable from ordinary price data, so the code returns those even with a free data provider. The other three — the "Successful 10-Day New High" share, ≥100 new 52-week highs today, and the IBD Mutual Fund Index above its 50-day average — need a daily market-breadth panel and the IBD fund series, which aren't freely available; those come back as `None` (listed in `.unavailable`) until you plug in a provider that has them.
@@ -368,3 +383,5 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2009-04-05 — Dow “bottom rally” puny thus far!; IBD100 and other growth stocks at new highs; I’m bullish for now](../../raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md) ([summary](../sources/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md))
 - [WW 2005-10-06 — The Hindenburg Omen; failed break-outs as the reason component 1 exists](../../raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md) ([summary](../sources/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md))
 - [WW 2017-01-08 — Why component 1 exists, in one sentence; SHOP's GLB and a missed alert](../../raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md) ([summary](../sources/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md))
+- [WW 2006-03-30 — The epiphany: moving averages are useless in a trendless market](../../raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md) ([summary](../sources/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md))
+- [WW 2017-04-16 — 0/0 to 6/6 as the re-entry rule; the dwindling new-high list as an advantage](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md) ([summary](../sources/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))

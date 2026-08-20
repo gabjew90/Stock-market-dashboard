@@ -333,6 +333,12 @@ sources:
   - raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md
   - raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md
   - raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md
+  - raw/posts/2005-06-09-gmi-5-stay-the-course-and-watch-the-10-day-for-the-qqqq.md
+  - raw/posts/2005-06-23-gmi-falls-to-3-getting-defensive-raising-stops.md
+  - raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md
+  - raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md
+  - raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md
+  - raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md
 ---
 
 # Timeline — evolution of the methodology
@@ -421,6 +427,17 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## June 2005 (10-day) — the yellow light; put insurance allocated by volatility
+
+**"GMI: +5; Stay the course and watch the 10-day for the QQQQ" (2005-06-09):** the 10-day average given a
+job that is not a sell rule — "**sharply rising stocks, including the QQQQ index, tend to remain above their
+rising 10 day average. A close below the average may not be a sell signal, but it serves as a yellow light to
+me**" — with the operative consequence a gate on *new* buying ("I would not take on new positions until the QQQQ
+closes above its 10 day average"), and three consecutive days below called "ominous." Protective puts appear in
+practice, allocated by volatility rather than across the book: "put insurance" held on "**my most volatile
+positions** (CME and GOOG)." And the exclusion of macro stated outright — price and volume only, because the
+rest "merely obfuscate the true nature of the market." ([WW 2005-06-09](../../raw/posts/2005-06-09-gmi-5-stay-the-course-and-watch-the-10-day-for-the-qqqq.md))
+
 ## June 2005 (sentiment) — the IBD Meetup room as a gauge
 
 **"Cramer discovers techs finally; IBD Meetup" (2005-06-22):** sentiment read from a room 33 days into a rally — "**what a difference a rally makes!**… most members had not wanted to attend last month's meeting… **I asked people about GOOG — most were afraid of it — a good sign**"; and Cramer arriving 33 days late, "not a believer in charts — he attempts to discern the mythical value of stocks." ([WW 2005-06-22](../../raw/posts/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md))
@@ -428,6 +445,17 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## June 2005 (cont.) — first >100 successful new highs; the first GMI performance chart; buy-stops; the first pension exit
 
 **"GMI goes to the max: +6" (2005-06-02):** first day of >100 successful 10-day new highs; the prior comparable up-trend ran ~92 days. ([WW 2005-06-02](../../raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md)) **"GMI back to +5; Chart of GMI performance; BTU" (2005-06-13):** the first performance chart; a buy-stop above Friday's high, sell-stop under Friday's low. ([WW 2005-06-13](../../raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md)) **"GMI at the max: +6; Buying Gaps" (2005-06-14):** 75% of Nasdaq-100 up in the up-trend — the 70% rule measured. ([WW 2005-06-14](../../raw/posts/2005-06-14-gmi-at-the-max-6-buying-gaps-gm-hans.md)) **"Can Cramer hedge? GMI sinks to +1" (2005-06-26):** 95% cash IRA, 100% money market pension — the earliest pension exit; "because I trade in tax deferred accounts, I do not care if I get out too soon." ([WW 2005-06-26](../../raw/posts/2005-06-26-can-cramer-hedge-gmi-sinks-to-1-content-to-remain-in-cash.md))
+
+## June 2005 (defense) — raising stops before cash; 'I am a chicken'
+
+**"GMI falls to +3; Getting defensive-raising stops" (2005-06-23):** the defensive sequence in order, and
+the two steps triggered by different things. Stops first — "I was stopped out of NDAQ and BOOM today. **I am
+moving all of my stops up close to today's lows**" — and cash on the trend indicator rather than the GMI:
+"**when my QQQQ daily index definitely turns negative, I go to 100% cash.**" The temperament without euphemism:
+"**I have told you that I am a chicken. I would rather be sold out even if I am wrong, preserve my capital, and
+live to trade another day.**" Evidence read as change rather than level — the share of his universe above the
+10-week average down from 80% to 73% — and the decline confirmed by volume, "the biggest volume since its
+decline on April 20." ([WW 2005-06-23](../../raw/posts/2005-06-23-gmi-falls-to-3-getting-defensive-raising-stops.md))
 
 ## July 2005 — WPM introduced; 30-week credited with 2000 exit
 
@@ -469,6 +497,19 @@ market." The full disclaimer block appears here, dating his experience at 40 yea
 **"Nicolas Darvas trading techniques require markets at all-time peaks" (2005-10-09):** Dr. Wish presents a critical historical analysis showing that Darvas made his $2M fortune in 18 months during a 65% Dow advance to all-time highs (1957–1960). He argues the Darvas/O'Neil ATH-breakout approach requires a strong bull market at historic peaks to deliver outstanding returns. Written with the Nasdaq still ~59% below its 2000 peak, he speculates growth-stock trading may not deliver comparable results until markets return to prior highs — "maybe in 2016." He also multiplied his own IRA 14-fold during the 1995–2000 Nasdaq bull run (584% advance). ([WW 2005-10-09](../../raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md))
 
 ---
+
+## October 2005 (temptation) — the folly of fighting the trend; the small-position safety valve
+
+**"GMI: +1; Folly of fighting market's trend; On Nicolas Darvas" (2005-10-08):** the gate measured on the
+*losing* side — since the August 2 peak the QQQQ had fallen 4.3% while "**only 34% of its component stocks have
+advanced, with only 18 stocks (18%) advancing 5% or more. Why fight these odds?**" — the mirror of the January
+2006 measurement. Then the most candid passage in the early blog: "**it has taken me 40+ years of trading to
+understand the folly of fighting the overall market trend**… even in weak markets, I am tempted to go long when
+I find the 'perfect' text book price pattern that brought huge profits in a prior rising market. **The critical
+point to remember is that the same price pattern that works so well in a rising market, is likely to fail in a
+declining market.**" The urge is handled by sizing rather than by will: "**one way I handle such a temptation is
+to use a very small portion of my portfolio to buy that irresistible stock — just in case I am right.**"
+Lineage: Livermore's line of least resistance, O'Neil's "M," Darvas. ([WW 2005-10-08](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md))
 
 ## October 2005 (breadth) — the Hindenburg Omen; failed break-outs as component 1's rationale
 
@@ -538,6 +579,21 @@ the 68% ceiling observed since April 2005. ([WW 2006-01-17](../../raw/posts/2006
 **"Darvas anticipated; GMI: +4; GMI-S: 31; Ominous market" (2006-02-06):** Dr. Wish quotes Richard Wyckoff (1924) on making his best trades while receiving only end-of-day cable prices far from Wall Street — anticipating Darvas's identical approach by 30 years. The lesson for the internet era: concentrate on price action; insulate from news, CNBC, and outside opinions. Introduces the GMI-S (a 0–100 short-term breadth sub-index), which fell sharply from 75 to 31 in one week while the GMI (at +4) was less sensitive. QQQQ had just entered Day D-1 of a new short-term down-trend. ([WW 2006-02-06](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
 
 ---
+
+## March 2006 (limits) — 'moving averages are useless in a trendless market'
+
+**"An epiphany on moving averages and trend lines" (2006-03-30):** the earliest and most general of his
+three self-published limitations. Back from a break — "I have been burnt out on this market. **Nothing I have
+done worked and my account has gone nowhere**" — he diagnoses the regime rather than his execution: "**I realized
+that moving averages are useless for providing signals in a trendless market**… the index has gone back and
+forth over the 30 day (red) and 50 day (green) moving averages. Thus, **the averages and the GMI have been
+giving erratic, contradictory signals.**" The check he runs first is the one worth copying: "this index has gone
+nowhere since last November. **Why should we expect to have made any money trading tech stocks in this
+period?**" — with IJR trending cleanly over the same months as the dispersion case. The substitute tool in a
+channel is the **trend line**, with a volume condition on the break (above 42.10 "on higher volume"), and his
+justification for it is openly instrumentalist: "**I guess because so many people think they work. Why should I
+care to understand the reasons, so long as the lines help me to predict probable levels of support and
+resistance.**" ([WW 2006-03-30](../../raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md))
 
 ## May 2006 — Submarine scan fully described; IBD-100 in down-trends; cash-interest broker note
 
@@ -1086,6 +1142,21 @@ but not always," his highest published upper band. ([WW 2010-04-26](../../raw/po
 
 ---
 
+## February 2014 (audience) — ETFs to lower stress; I-bonds; weekly calls quantified
+
+**"Further Thoughts for DC Metro AAII; $TSLA green line break-out" (2014-02-17):** notes after a workshop
+for an audience "primarily Boomers," and the advice is fitted to them — "**I stressed the desirability of
+focusing more on ETF's than individual stocks in order to lessen volatility and stress levels**," a reminder
+that the stock-selection machinery is what he does rather than what he prescribes. The afterthought he wished he
+had included is his only recommendation of a specific cash instrument: **US Government I-bonds**, inflation-
+adjusted every six months, which "**will not fall in value like regular bonds can when rates rise. I believe
+they are better than CD's or savings accounts**" — consistent with the rate-reversal thesis he was writing about
+that year. The covered-call overlay gets a number: buying GLD and "**writing weekly calls** on the position. The
+return is about **3% per month** on my investment," the position opened on a stage change (a close back above
+the 30-week average for the first time since January 2013). Sentiment stated as its own inverse: "the market
+climbs a 'wall of worry' so bring on the whiners. **I will become concerned when the pundits start saying that
+the market has nowhere to go but up.**" TSLA had a GLB the previous week. ([WW 2014-02-17](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md))
+
 ## March 2014 (cont.) — the 3:45 PM rule, six months before its recorded origin
 
 **"5th day of $QQQ short term down-trend; $FANG shows strength" (2014-03-30):** "the key is to wait for the end of the trading day, **around 3:45 PM**, to see where the market will settle" — predating the September 2014 statement; a 52-week-high + recent-earnings scan yielding 17 names, half energy; FANG with expanding Bollinger bands after a five-week base; but "with the GMI on a recent Sell signal, I will keep my powder dry." ([WW 2014-03-30](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md))
@@ -1332,6 +1403,21 @@ eventually comes back are vindicated — if they held on for 16 years!" ([WW 201
 ## March 2017 (RLC) — RLC in practice; two stop references
 
 **"$QQQ strongest; $GS weakens… a strategy for setting stops" (2017-03-20):** RLC across indexes and stocks (QQQ 6, SPY 0, DIA 1, DJ-20 0); GS at RLC 0 after a failed GLB — "I would not buy GS again (or hold it) until GS can close back above its 6 red lines"; on WD, the lowest red line (41.18) versus the recent daily lows (~40, purple dots) as stop candidates, preferring the latter. ([WW 2017-03-20](../../raw/posts/2017-03-20-qqq-strongest-gs-weakens-wd-resumes-advance-and-yin-has-glb-a-strategy-for-setting-stops.md))
+
+## April 2017 (notation) — 0/0 to 6/6 as a buy signal; the dwindling new-high list
+
+**"GMI may turn RED on Monday; $QQQ up-trend ends at 86th day; GLB: $TWOU" (2017-04-16):** the RWB count
+notation turned into a trigger — daily SPY at "the **0/0 pattern**, reflecting that the SPY has now closed below
+all 12 daily moving averages," against which "**a return to 6/6, signifying a close above all 12 averages, would
+be a new buy signal for me**"; the weekly chart read 10/5/0/0, where the leading figure counts averages in
+correct order rather than price position. The two speeds disagreeing is diagnosed as "a **short term pause
+within a longer term up-trend**," and the pension trigger is restated in GMMA terms: "**should the *weekly*
+chart turn BWR I would consider transferring my university pension from equity mutual funds into money market
+funds, something I do very rarely**" — while the GMI was about to turn RED and the QQQ was on D-1, because "the
+longer term trends remain up and **I must respect that**." And the screening inversion: "**I like market
+declines because it is easier for me to find potential leaders in a dwindling new high list**" — 60 new highs in
+a 4,800-stock universe, read in full, which is how he found TWOU. The Sell rule corroborated in passing: a GMI
+of 1 "**still on a GREEN signal. One more day below 3 will change it to RED.**" ([WW 2017-04-16](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))
 
 ## June 2017 — yellowband defined; a 1990s pattern still in primary use
 
@@ -2223,3 +2309,9 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2016-01-03 — new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis](../../raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md) ([summary](../sources/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md))
 - [WW 2017-01-08 — qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex](../../raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md) ([summary](../sources/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md))
 - [WW 2017-07-16 — some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md) ([summary](../sources/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))
+- [WW 2005-06-09 — gmi-5-stay-the-course-and-watch-the-10-day-for-the-qqqq](../../raw/posts/2005-06-09-gmi-5-stay-the-course-and-watch-the-10-day-for-the-qqqq.md) ([summary](../sources/2005-06-09-gmi-5-stay-the-course-and-watch-the-10-day-for-the-qqqq.md))
+- [WW 2005-06-23 — gmi-falls-to-3-getting-defensive-raising-stops](../../raw/posts/2005-06-23-gmi-falls-to-3-getting-defensive-raising-stops.md) ([summary](../sources/2005-06-23-gmi-falls-to-3-getting-defensive-raising-stops.md))
+- [WW 2005-10-08 — gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md) ([summary](../sources/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md))
+- [WW 2006-03-30 — an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn](../../raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md) ([summary](../sources/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md))
+- [WW 2014-02-17 — further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md) ([summary](../sources/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md))
+- [WW 2017-04-16 — gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md) ([summary](../sources/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))
