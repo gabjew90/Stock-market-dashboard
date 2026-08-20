@@ -1,7 +1,7 @@
 ---
 title: Glossary
 type: concept
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md
   - raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md
@@ -63,6 +63,7 @@ sources:
   - raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md
   - raw/posts/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md
   - raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md
+  - raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md
 ---
 
 # Glossary
@@ -122,6 +123,8 @@ Every term Dr. Wish coins or uses, defined in a sentence or two, with a first-ap
 **Green dot** — a TC2000 signal marking a stock in an up-trend resuming after a small decline. **Formula:** on a **10.4.4 daily stochastic**, the fast (10.4) line crosses above the slow (10.4.4) signal line, preferably at an oversold reading **below 50**. The dot is drawn on the crossover day and placed **at the 5-day low**, which doubles as the likely support level and therefore the stop reference. Written as a TC2000 program by his co-instructor David McCandlish, and mirrored into a TC2000 column for scanning watchlists. **Prerequisites** — the dot alone is not a signal, since "green dots can occur in declining stocks but many of them will fail": confirm a strong up-trend via daily RWB or [yellowband](#yellowband-up-trend), and require the stock to be above its rising 30-week average (Stage 2). **Exit:** close back below the green dot, *or* the fast stochastic closing back below its signal line. Works on indexes as well as individual stocks. Fully defined: ([WW 2018-03-11](../../raw/posts/2018-03-11-green-dot-strategy-defined.md)); earlier reference: ([WW 2020-09-06](../../raw/posts/2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed.md))
 
 **Green line** — a horizontal line drawn on a monthly price chart at a stock's all-time high, once that high has held as a ceiling for 3 or more months. A break above it is the GLB entry signal. See [green-line-breakouts.md](green-line-breakouts.md). ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
+
+**Hindenburg Omen** — the coincidence of an unusually high count of 52-week *highs* **and** 52-week *lows* on the same day, read as a market splitting rather than trending. Dr. Wish had already been treating the combination as a warning before learning the name for it in October 2005 (41 new highs against 148 new lows). Named once, not built into an indicator. See [gmi.md](gmi.md#new-highs--new-lows--a-breadth-supplement-to-the-gmi). ([WW 2005-10-06](../../raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md))
 
 **IBD 50 / IBD 100** — the Investor's Business Daily list of top stocks ranked by IBD's combined fundamental and technical criteria. Dr. Wish uses it as a candidate pool for stock selection. Referenced from early posts. ([WW 2005-07-17](../../raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md))
 
@@ -258,3 +261,4 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 - [WW 2005-09-11 — GMI: +6; New “doubler” indicator; GMI and QQQQ trends; WPM shows short AND longer term strength; Staying long](../../raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md) ([summary](../sources/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md))
 - [WW 2022-02-08 — Blog post: How I use Bollinger Bands to analyze QQQ — watch out for QQQ around  372; 12 of the 13 stocks from ](../../raw/posts/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md) ([summary](../sources/2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund.md))
 - [WW 2017-01-22 — Recent GLB $IRBT resuming up-trend; $ANET GLB fails; Access my TC2000 scans–newly described in my blog’s gloss](../../raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md) ([summary](../sources/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md))
+- [WW 2005-10-06 — The Hindenburg Omen; failed break-outs as the reason component 1 exists](../../raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md) ([summary](../sources/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md))

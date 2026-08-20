@@ -325,6 +325,14 @@ sources:
   - raw/posts/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md
   - raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md
   - raw/posts/2014-10-19-16th-day-of-qqq-short-term-down-trend-bottom-or-dead-cat-bounce-keeping-an-eye-on-the-baby.md
+  - raw/posts/2005-07-21-slammed-leaders-and-rising-rates-increase-market-risk-gmi-6-shorts-as-a-hedge.md
+  - raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md
+  - raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md
+  - raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md
+  - raw/posts/2010-04-26-true-religion-trlg-break-out.md
+  - raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md
+  - raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md
+  - raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md
 ---
 
 # Timeline — evolution of the methodology
@@ -435,6 +443,17 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"The trend is our friend; GMI: +3" (2005-07-02):** 70% ↔ O'Neil's "M"; "I would lose all of my hard earned trading profits and more, when I kept buying break-out stocks in the inevitable decline"; D-6 odds 38/62. ([WW 2005-07-02](../../raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md)) **"A hot market; GMI: +6" (2005-07-11):** component 1 redefined — positive if ≥ 100 successful new highs **or** ≥ 50% of the stocks that made new highs 10 days ago closed higher (76/95 = 80% that day). ([WW 2005-07-11](../../raw/posts/2005-07-11-a-hot-market-gmi-6-more-rockets-covered-calls-on-goog.md)) **"Another strong day; GMI: +6 and its track record; Benefits of naked charts" (2005-07-28):** the QQQQ above its rising 10-day every day since July 8 — "when is the market weakening? Wait for a close below the dotted line"; "why mess around with individual stocks when one can merely trade this index?" ([WW 2005-07-28](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
 
+## July 2005 (override) — selling ahead of the GMI; leaders slammed on good earnings
+
+**"Slammed leaders and rising rates increase market risk; GMI: +6" (2005-07-21):** the earliest case of
+leadership damage outranking a maximum GMI — "**Yes, I know the GMI is still at +6, but if I wait for it to give
+a definite sell I will lose most of my profits**"; the tell is GOOG and MSFT sold off after good earnings ("If
+good earnings cannot support GOOG, then what type of news is left to support it?… when the leaders get into
+trouble, the rest of the market is not far behind"), which recurs in 2006, 2014 and 2016; his short-term
+interest-rate indicator gapping to new highs, with 1998–2000 as the precedent; component 1 soft inside the +6
+(92 of 174, 53%); and his own forecasting flagged as a departure — "I know I am not supposed to predict the
+market." The full disclaimer block appears here, dating his experience at 40 years as of 2005. ([WW 2005-07-21](../../raw/posts/2005-07-21-slammed-leaders-and-rising-rates-increase-market-risk-gmi-6-shorts-as-a-hedge.md))
+
 ## August 2005 — Weinstein Dow sell signal; bank and SBUX shorts; bear scenario
 
 **"Stan Weinstein Dow sell signal; GMI: +1; Sick bank stocks; SBUX-in the drink?" (2005-08-27):** The Dow closed below its 30-week moving average — the first such close in some time. Dr. Wish quotes Weinstein's 1988 book verbatim on the defensive actions required: suspend buying, sell weak stocks, tighten stops, hunt short-sale candidates. He introduces his short-sale thesis: rising short-term interest rates squeezing bank profit margins makes bank stocks attractive submarine candidates (WFC, C, JPM, WB, BAC below their 30-week averages). SBUX is identified as a potential short based solely on the 10-week average crossing below the 30-week average. GMI at +1 (one step from zero). The WPM shows all major indexes except the DIA still above their 30-week averages — a mixed signal. ([WW 2005-08-27](../../raw/posts/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md))
@@ -450,6 +469,19 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"Nicolas Darvas trading techniques require markets at all-time peaks" (2005-10-09):** Dr. Wish presents a critical historical analysis showing that Darvas made his $2M fortune in 18 months during a 65% Dow advance to all-time highs (1957–1960). He argues the Darvas/O'Neil ATH-breakout approach requires a strong bull market at historic peaks to deliver outstanding returns. Written with the Nasdaq still ~59% below its 2000 peak, he speculates growth-stock trading may not deliver comparable results until markets return to prior highs — "maybe in 2016." He also multiplied his own IRA 14-fold during the 1995–2000 Nasdaq bull run (584% advance). ([WW 2005-10-09](../../raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md))
 
 ---
+
+## October 2005 (breadth) — the Hindenburg Omen; failed break-outs as component 1's rationale
+
+**"GMI: 0; Disastrous day; Hindenburg Omen" (2005-10-06):** three firsts on the day the GMI reached zero.
+**Component 1's rationale**, credited rather than claimed — "many of the gurus cited in the books to the right
+have observed that **failed break-outs are a sign of impending market weakness**" (only 35% followed through
+that day). The **low-side mirror counted in the table**: "there were more (99) 'successful' 10 day new lows,
+suggesting that shorting stocks at new lows has been profitable" — ten months earlier than the August 2006
+instance previously documented. And the **Hindenburg Omen** named, with 41 new highs against 148 new lows:
+"having a lot of new highs AND new lows suggested a troubled market." Also: the % of his universe above the
+10-week average has been tabulated since June 17, 2005; D-1 of a new QQQQ down-trend; and the
+bounce-as-exit instruction — "if we get a bounce during earnings season the next few days, it might be a good
+time to unload losers and raise cash." ([WW 2005-10-06](../../raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md))
 
 ## November 2005 — first GMI historical track record chart published
 
@@ -489,6 +521,18 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"GMI: +4; Clues to this rout?" (2006-01-23):** "The GMI cannot predict changes in trend, it only provides me with a reasonably certain indication that the trend has changed"; the biggest three-day losers YHOO/INTC/AAPL/GOOG — "when the biggest losers are the major big names, it may signify that the market is going to crumble"; WPM localises the rout in large caps; "a chicken lives to play another day." ([WW 2006-01-23](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
 
+## January 2006 (odds) — the advance measured across three indexes; the inverted-wall warning
+
+**"GMI: +6; Go with the trend; Inverted yield curve — this time is different?" (2006-01-17):** the market
+gate quantified. Since the QQQQ closed above its 10-week average on October 18 the index had gained **13.4%**,
+over which **86% of the Nasdaq-100 stocks advanced** (42 by more than 14%, the top twenty 27–64%), **88% of the
+S&P 500** and **87% of the Dow 30** — "over and over again, we find that by trading consistent with the trend of
+the key market averages, we have considerable odds of profiting." The same measurement form the ultra-ETF posts
+would use nine months later. Against it, the rate worry: the short-term rate indicator "on a steady rise since
+June, 2004… no sign of a plateau… **the market cannot climb an inverted wall of interest rates**," with "but
+this time is different" flagged as the phrase to fear. Also: 65% of all stocks in a short-term up-trend, near
+the 68% ceiling observed since April 2005. ([WW 2006-01-17](../../raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md))
+
 ## February 2006 — Wyckoff/Darvas noise isolation; GMI-S short-term index
 
 **"Darvas anticipated; GMI: +4; GMI-S: 31; Ominous market" (2006-02-06):** Dr. Wish quotes Richard Wyckoff (1924) on making his best trades while receiving only end-of-day cable prices far from Wall Street — anticipating Darvas's identical approach by 30 years. The lesson for the internet era: concentrate on price action; insulate from news, CNBC, and outside opinions. Introduces the GMI-S (a 0–100 short-term breadth sub-index), which fell sharply from 75 to 31 in one week while the GMI (at +4) was less sensitive. QQQQ had just entered Day D-1 of a new short-term down-trend. ([WW 2006-02-06](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
@@ -500,6 +544,19 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"GMI: 0; IBD 100 stocks decline more; My epiphany on discount brokers; Submarine stocks" (2006-05-22):** The most detailed published description of Dr. Wish's submarine scan criteria. Only 14% of IBD-100 stocks rose in the study week; the 85% that fell had a median decline of -7.2% (vs -3.5% for Nasdaq-100), confirming growth stocks amplify down-moves. Submarine scan: (1) closed below 10-week average for 7 consecutive weeks; (2) 10-week average is below 30-week average; (3) peaked ≥ 4 months ago; (4) at least one high-volume decline week since the peak; (5) recently bounced down off the declining 10-week. Entry: deep ITM puts with 6-9 months duration. Exit: stock trades above its declining 10-week. Broker insight: cash interest at a firm like Brown & Co. was near-zero; Fidelity swept cash to 4.62% money market — choose brokers that pay interest on idle cash. ([WW 2006-05-22](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
 
 ---
+
+## June 2006 (short side) — puts in an IRA; the IBD 100 audited mid-decline
+
+**"GMI: +1; Shame on IBD and Jim Cramer!" (2006-06-08):** the retail short-side argument four days before
+the submarine post — "people short change themselves… to only trade on the bull side of the market. **Buying
+puts in an IRA (or taxable account) is one way to take advantage of the market's decline while limiting
+potential losses. We have all been brainwashed into avoiding the short side of the market**," with Cramer
+singled out for shorting as a hedge-fund manager while refusing to advocate it on television. His stated
+follow-the-trend figure rises here to "**the 80%+ of stocks that go with the major market trend**" (it was ~70%
+through 2005). And an **IBD 100 audit taken mid-decline**: three weeks after the 5/15 list, "only 14% of these
+stocks have risen… 86% of the IBD 100 stocks have declined or gone nowhere," underperforming his own universe on
+advancing (30% vs 38%), above the 10-day (16% vs 32%) and above the 30-day (18% vs 26%). He also scores IBD's
+market call against his own — 19 straight days of a down-trend the paper had spent weeks denying. ([WW 2006-06-08](../../raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md))
 
 ## June 2006 — 185 submarines, 8 rockets; "brainwashed against shorting"
 
@@ -722,6 +779,18 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## April 2010 (scan) — the Worden webinar scan: an oversold stochastic plus a 30-day bounce
 
 **"Webinar is archived; get a copy of my TC2007 scan" (2010-04-14):** the oldest oversold-bounce scan on the blog — "an oversold stochastic together with a bounce from, or break out above, the 30 day moving average," published as a PDF. Six years before BOS was named. ([WW 2010-04-14](../../raw/posts/2010-04-14-webinar-is-archived-and-available-get-a-copy-of-my-tc2007-scan.md))
+
+## April 2010 (trade) — TRLG: the round trip to an ATH, expressed in calls
+
+**"True Religion (TRLG) break-out?" (2010-04-26):** the all-time-high pattern worked end to end two years
+before the green line was named. Screened on a 52-week high, decided on the **monthly** chart: a high of 31.82
+from September 2008, a low of 7.80 in March 2009, and a close at 33.11 — "**when a stock can regain all of its
+lost ground and push to an all-time high, I become very interested**." He names the defect while buying — "the
+only thing that was missing was unusual high volume when it broke out" — and, with earnings eight days out,
+expresses it in **May calls** rather than shares: "the most I can lose is the cost of the calls." Supporting
+filters: a 2005 IPO inside O'Neil's ~8-year window, an IBD *New America* mention, a short ratio of 11.7. Regime:
+GMI and GMI-R at maximum, U-45, T2108 at 81% — "acts like a pendulum… tops around 90% and bottoms below 20%,
+but not always," his highest published upper band. ([WW 2010-04-26](../../raw/posts/2010-04-26-true-religion-trlg-break-out.md))
 
 ## May 2010 — TC2007 submarine scan applied to former IBD100 leaders; PWRD/NTES sector failure
 
@@ -1139,6 +1208,18 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"IBD calls market up-trend; $SLP green line break-out" (2015-10-04):** IBD's follow-through day rated "analogous to my very short term trend indicator," but "**my short term trend count for the QQQ is NOT the same as my GMI indicator**… it takes much stronger action for my GMI to signal a Buy"; support at the lower **10.2** Bollinger Band with resistance at the declining 50-day, the 150-day and the upper band. ([WW 2015-10-04](../../raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md))
 
+## January 2016 (GMMA) — 'I would never hold a long position… in a BWR down-trend'
+
+**"New $QQQ short term up-trend in jeopardy" (2016-01-03):** the RWB/BWR rule in its most absolute form —
+"**I would never hold a long position in a stock or ETF in a BWR down-trend**" — and the survey that produces
+it, six charts in one evening: Dow Transports in a confirmed BWR after a multi-year RWB ("ominous… for those who
+follow the Dow theory"), the NYSE index BWR, XLE BWR with "no one but a gambler would try to pick a bottom
+here," the Dow 30 and SPY out of RWB but not yet BWR, and the QQQ "bearly" still RWB. The read is a **split**
+market — energy and multinationals broken, tech holding. The leader tell restated on NKE selling off after good
+earnings ("**when leaders cannot rise on good news, it is telling us something about the inner strength… of the
+market**") and DIS failing to rally on Star Wars; AAPL read as a completed weekly head-and-shoulders with an
+objective near 80. GMI on a Sell while the QQQ was on U-2 — the slower instrument governing. ([WW 2016-01-03](../../raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md))
+
 ## January 2016 — Global BWR sweep; worldwide down-trends
 
 **"All World Stock Markets entering BWR Down-trends!" (2016-01-10):** Dr. Wish scans 37 global market ETFs and finds 35 of 37 in BWR down-trends in early 2016. He refines the BWR definition: the weekly close (gray dotted line) is below all 12 Guppy moving averages. He posts a monthly T2108 historical chart: readings at 1% (2008), 7% (2011), ~6% (August 2015). ([WW 2016-01-10](../../raw/posts/2016-01-10-all-world-stock-markets-entering-bwr-down-trends-i-am-in-cash-and-scared-and-monitoring-t2108.md))
@@ -1215,6 +1296,19 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 **"12th day of $QQQ short term up-trend; $QQQ and $CDW have an RWBCount=12" (2016-12-26):** "**I have created a new indicator that counts the number of averages that are rising above each longer average. The indicator, called the RWBCount, goes from 0-12**" — testing strict ordering (1>3>5>…>60), not merely red-above-blue; QQQ, DIA and SPY all at 12. ([WW 2016-12-26](../../raw/posts/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md))
 
+## January 2017 (component 1) — the follow-through test stated as a purpose; SHOP's GLB
+
+**"$QQQ short term up-trend reaches 20th day; GLB: $SHOP" (2017-01-08):** the plainest statement of what
+GMI component 1 is *for* — the GMI sat at 5 of 6 because only a third of the stocks that hit a new high ten days
+earlier closed higher, and "**when stocks that hit a new high do not continue to rise, it is one sign of
+potential weakness I track**." Alongside it, a breadth divergence he declines to trade: the QQQ broke above its
+April 2000 high of 120.50 (closing 121.93, sixteen years later) while only 138 of nearly 5,000 stocks made new
+highs, against 430–908 daily in early December — "tremendous heterogeneity"; but "**regardless, I must ride the
+trend until it ends.**" SHOP's GLB came "after consolidating about 4 months around its green line" on high
+volume, with the exit stated at entry; the alert he had set "went off but I did not notice it until this
+weekend" — the same miss as WING in 2023. On buy-and-hold: those who "never take a loss because the market
+eventually comes back are vindicated — if they held on for 16 years!" ([WW 2017-01-08](../../raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md))
+
 ## January 2017 — David Ryan on breakouts vs pullbacks; ATH-past-40-days + lower Bollinger Band scan
 
 **"On David Ryan and my new TC2000 scan for GLB rockets bouncing off support: $PLAY" (2017-01-29):** Dr. Wish quotes David Ryan (William O'Neil's three-time National Investing Champion protege) from _Momentum Masters_ (2015): "I basically simplify it down to two, breakouts and pullbacks… You just have to draw a line across the top of where most of the stock's trading has taken place. Then you buy as it moves through that line… Buying pullbacks are a bit more complicated but offer another entry point to get aboard a leading stock." He shows how this maps exactly onto his own GLB framework. New TC2000 scan introduced (`01292017ATHhipast40daysBLBB`): stocks in his ~800-stock ATH watchlist that (1) hit a new all-time high in the past 40 days AND (2) are currently bouncing from their lower Bollinger Band (15.2). This finds post-GLB pullback re-entries; distinct from the BOS scan (which uses a broader universe). Key rule: **a pullback/bounce entry does not require volume** — low volume on the pullback is a positive sign that selling has dried up. Sell stop: just below the recent bounce/support low. PLAY worked example: gapped up on unusual volume December 2016, consolidated sideways, then bounced off the lower BB; earnings +127% the prior quarter, IBD composite 93, short ratio 7.2, up 47% over the prior year. GMI=6 at post date. ([WW 2017-01-29](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
@@ -1256,6 +1350,20 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 **"TC2000 Scan for bounce up off of support" (2017-07-23):** the strictest bounce filter — three daily support/oversold indicators bounced within days, ≥50% above the 250-day low, >$15 — 8 of 4,800. PETS as the confluence stack (GLB + doubled + yellowband + fundamentals), and the earnings-date hazard met with "Buy PETS a collar?!" ([WW 2017-07-23](../../raw/posts/2017-07-23-tc2000-scan-for-bounce-up-off-of-support-pets-unleashed-cboe-yellowband.md))
 
 ---
+
+## July 2017 (procedure) — O'Neil's shopping list; the discipline of not trading
+
+**"Some of William O'Neil's wisdom exemplified by the great traders I watched" (2017-07-16):** he sources
+his own entry workflow to O'Neil (*How To Make Money in Stocks*, 1st ed. rev., 1988, p. 197) — a weekly review
+producing a short list, each name carrying a **pivot price** and its **average daily volume**, acted on when the
+stock trades at that price on volume running at least 50% above average. His gloss is where the value is: the
+work happens "during **the unemotional calm of the weekend or night before trading**," it "assumes that one's
+trading is rule based and systematic, guided by specific criteria," and the payoff is that "one can then pull
+the trigger quickly." His implementation is named here — "**I use TC2000 to alert me when a stock on my list is
+having a GLB on unusually high daily volume — volume buzz**" — a year before the October 2018 intraday ATH
+condition set. The discipline half comes from watching Minervini and David Ryan trade live: "when neither of
+them found a stock on their watch lists that met their criteria that day, **they just sat tight** — Wow!!! How
+many of us think we have to buy something every day and get seduced by the action?" ([WW 2017-07-16](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))
 
 ## September 2017 — the yellowband scan
 
@@ -2107,3 +2215,11 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2006-07-18 — GMI: 0; Indicators deteriorate; On biased market indexes](../../raw/posts/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md) ([summary](../sources/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md))
 - [WW 2006-10-23 — GMI: 6; IBD 100 performance; AAPL and GOOG](../../raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md) ([summary](../sources/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md))
 - [WW 2014-10-19 — 16th day of $QQQ short term down-trend; Bottom or dead cat bounce? Keeping an eye on the $BABY](../../raw/posts/2014-10-19-16th-day-of-qqq-short-term-down-trend-bottom-or-dead-cat-bounce-keeping-an-eye-on-the-baby.md) ([summary](../sources/2014-10-19-16th-day-of-qqq-short-term-down-trend-bottom-or-dead-cat-bounce-keeping-an-eye-on-the-baby.md))
+- [WW 2005-07-21 — slammed-leaders-and-rising-rates-increase-market-risk-gmi-6-shorts-as-a-hedge](../../raw/posts/2005-07-21-slammed-leaders-and-rising-rates-increase-market-risk-gmi-6-shorts-as-a-hedge.md) ([summary](../sources/2005-07-21-slammed-leaders-and-rising-rates-increase-market-risk-gmi-6-shorts-as-a-hedge.md))
+- [WW 2005-10-06 — gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle](../../raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md) ([summary](../sources/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md))
+- [WW 2006-01-17 — gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different](../../raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md) ([summary](../sources/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md))
+- [WW 2006-06-08 — gmi-1-shame-on-ibd-and-jim-cramer](../../raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md) ([summary](../sources/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md))
+- [WW 2010-04-26 — true-religion-trlg-break-out](../../raw/posts/2010-04-26-true-religion-trlg-break-out.md) ([summary](../sources/2010-04-26-true-religion-trlg-break-out.md))
+- [WW 2016-01-03 — new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis](../../raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md) ([summary](../sources/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md))
+- [WW 2017-01-08 — qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex](../../raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md) ([summary](../sources/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md))
+- [WW 2017-07-16 — some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md) ([summary](../sources/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))

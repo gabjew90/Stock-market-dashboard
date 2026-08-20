@@ -22,6 +22,9 @@ sources:
   - raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md
   - raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md
   - raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md
+  - raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md
+  - raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md
+  - raw/posts/2010-04-26-true-religion-trlg-break-out.md
 ---
 
 # The GLB in practice — worked cases, failures, and what he learned from each
@@ -41,6 +44,24 @@ After a GLB, two hold signals apply simultaneously:
 FIZZ (National Beverage, another 2017 example) shows the opposite case: an ideal GLB that had a perfect 12/12/6/6 daily RWB from before the breakout, with no consolidation whatsoever — it just kept rising. Not all GLBs require patience; some prove themselves quickly. ([WW 2017-04-02](../../raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md))
 
 Jesse Livermore: "it was his sitting tight not his trading that made him big money." ([WW 2017-04-02](../../raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md))
+
+## TRLG (2010) — the round trip, and the missing volume
+
+The pattern he likes most, worked end to end two years before he named the green line. TRLG "came to my
+attention when it hit a 52 week high a few weeks ago" — the 52-week high is the screen; the **monthly**
+chart is where the decision gets made. There he found a stock about to break its all-time high of 31.82
+from September 2008, having fallen to 7.80 in March 2009 and recovered the whole distance to close at
+33.11. The statement of the setup: "**When a stock can regain all of its lost ground and push to an
+all-time high, I become very interested.**" ([WW 2010-04-26](../../raw/posts/2010-04-26-true-religion-trlg-break-out.md))
+
+Two details make it useful as a case rather than an anecdote. First, he names the **defect** instead of
+talking past it: "**The only thing that was missing was unusual high volume when it broke out.**" A
+breakout without demand behind it is a weaker breakout, and he says so while buying. Second, the entry
+sat eight days in front of an earnings report — "maybe the stock is rising because insiders know
+earnings will be great, or maybe the company will miss and the stock will dive" — so he expressed it in
+**May calls** rather than shares, capping the loss at the premium where a stop could have been gapped
+through. Supporting filters: a 2005 IPO (inside O'Neil's ~8-years-public window), an IBD *New America*
+mention, and a short ratio of 11.7 as squeeze fuel.
 
 ## Re-entry after a failed GLB
 
@@ -67,6 +88,19 @@ Dr. Wish's operational workflow: as soon as he draws a green line on a monthly c
 4. Hold unless the stock **closes** back below the green line. Many times a stock trades below the green line intraday but closes back above it — do not exit on intraday dips.
 5. If it closes below the green line: failed GLB, exit immediately.
 6. If it retakes the green line and closes back above it: buy it back.
+
+**The same miss, six years earlier (2017).** The WING story is not the first time an alert fired
+unseen. January 2017: "**a TC2000 alert I had set went off but I did not notice it until this
+weekend**" — the stock was SHOP, which "convincingly broke above its green line (GLB) to an all-time
+high, **after consolidating about 4 months around its green line**" on "a wonderful high volume
+break-out." The exit was attached in the same sentence as the hypothetical entry: "If I bought it I
+would exit if it returns below its green line." ([WW 2017-01-08](../../raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md)) Two documented instances of the same failure
+mode, six years apart, are the reason the Turtle rule above is stated as a rule rather than a
+resolution.
+
+**The alert habit is documented from July 2017** — "I use TC2000 to alert me when a stock on my list is
+having a GLB on unusually high daily volume — volume buzz" ([WW 2017-07-16](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md)) — a year before the intraday ATH
+condition set he published in October 2018, and six years before the written rules above.
 
 ## The close-below rule, justified by a case
 
@@ -143,3 +177,6 @@ The core rules have remained stable. These posts from 2019 onward confirm the ru
 - [WW 2025-10-15 — blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo](../../raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md) ([summary](../sources/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md))
 - [WW 2025-10-23 — 4wk bounce entry; SPY GLB in June 2025; Stage 2 weekly alignment](../../raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md) ([summary](../sources/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md))
 - [WW 2026-05-10 — 5-day EMA post-GLB exit rule; 4wk>10wk>30wk up-trend confirmed 2026](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md) ([summary](../sources/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
+- [WW 2017-01-08 — Why component 1 exists, in one sentence; SHOP's GLB and a missed alert](../../raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md) ([summary](../sources/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md))
+- [WW 2017-07-16 — O'Neil's shopping list — the watch-list procedure, and the discipline of not trading](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md) ([summary](../sources/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))
+- [WW 2010-04-26 — TRLG: the round trip back to an all-time high, expressed in calls](../../raw/posts/2010-04-26-true-religion-trlg-break-out.md) ([summary](../sources/2010-04-26-true-religion-trlg-break-out.md))

@@ -47,6 +47,8 @@ sources:
   - raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md
   - raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md
   - raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md
+  - raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md
+  - raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md
 ---
 
 # General Market Index (GMI)
@@ -119,6 +121,14 @@ Watched as the swing vote in August 2023: "the GMI could fall to 2 and trigger a
 
 **Why the component is there at all**, in one sentence from April 2009: "the IBD Mutual Fund Index is above its 50 day average, indicating to me that growth mutual funds are starting to make money. **When these fund managers can make money buying growth stocks, so can I.**" ([WW 2009-04-05](../../raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md)) Component 6 is a proxy for whether professionals running his own strategy, with more resources than he has, are currently able to make it work — which is why he treats it as a precondition rather than as one vote among six.
 
+**Why component 1 exists.** He credits the underlying observation to the trading literature rather
+than to his own research: "Many of the gurus cited in the books to the right have observed that
+**failed break-outs are a sign of impending market weakness**." ([WW 2005-10-06](../../raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md)) The purpose, stated in a
+single sentence twelve years later: "**When stocks that hit a new high do not continue to rise, it is
+one sign of potential weakness I track.**" ([WW 2017-01-08](../../raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md)) The component is a *follow-through* test rather
+than a new-high count — which is why the denominator floor added in 2008 mattered enough to publish
+(see [GMI evidence](gmi-evidence.md)).
+
 ## The signals — Buy, Sell, and the hold state at 3
 
 The score becomes a *signal* only with persistence, and the two sides are symmetric around 3:
@@ -170,9 +180,26 @@ The implementation requires the built-in "Price New High" and "Price New Low" TC
 
 Documented example: in **November 2021**, QQQ was at all-time highs (day U-26 of the short-term up-trend) but new lows surged to **438 on 11/22/2021** — QQQ's exact peak. This divergence led Dr. Wish to exit the market. The subsequent Stage 4 decline lasted over a year. He describes it as a "lucky call" but attributes it to the breadth divergence signal. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 
-**The mirror statistic (in use by 2006; named 2019).** Component 1 has an unpublished twin he computes nightly — already in the table in August 2006: "only 25% of the 260 stocks that hit a new low 10 days ago closed lower. This suggests that shorting new lows has been unlikely to have been profitable recently." ([WW 2006-08-07](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md)) As disclosed in 2019: the **successful 10-day new low** percentage — of the stocks that hit a new low 10 days ago, the share that closed *lower* than 10 days earlier. In May–June 2019 the high-side statistic had been ≥ 50% on only 5 days while the low-side was ≥ 50% on 16 of 17 days, which is how he concluded that "shorting stocks at new lows is a far better strategy than buying stocks at new highs" in that tape. It is not a GMI component; it is the diagnostic that tells him which side the component-1 logic favours. ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md)) See [the short side](short-side.md).
+**The mirror statistic (in use by 2005; named 2019).** Component 1 has an unpublished twin he computes nightly. It is being counted in the table by **October 2005**: "there were more (99) '**successful**' 10 day new lows, suggesting that **shorting stocks at new lows has been profitable**" — against only 54 successful new highs that day, 35% of those that qualified. ([WW 2005-10-06](../../raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md)) Ten months later, in August 2006: "only 25% of the 260 stocks that hit a new low 10 days ago closed lower. This suggests that shorting new lows has been unlikely to have been profitable recently." ([WW 2006-08-07](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md)) As disclosed in 2019: the **successful 10-day new low** percentage — of the stocks that hit a new low 10 days ago, the share that closed *lower* than 10 days earlier. In May–June 2019 the high-side statistic had been ≥ 50% on only 5 days while the low-side was ≥ 50% on 16 of 17 days, which is how he concluded that "shorting stocks at new lows is a far better strategy than buying stocks at new highs" in that tape. It is not a GMI component; it is the diagnostic that tells him which side the component-1 logic favours. ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md)) See [the short side](short-side.md).
 
 The earliest form of the mirror comparison is May 2005: 65% of the stocks that made new highs ten days earlier closed higher, against only a third of the new lows lower — "the market is telling us that buying new highs has been a better strategy than shorting new lows." ([WW 2005-05-22](../../raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md))
+
+**The Hindenburg Omen — new highs and new lows elevated together.** The reading he takes from the raw
+counts is not their difference but their *coincidence*. October 2005, with 41 new yearly highs against
+148 new lows: "I mentioned last post that **having a lot of new highs AND new lows suggested a troubled
+market**. Well, I read today that this phenomenon is known as the '**Hindenburg Omen**.'" ([WW 2005-10-06](../../raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md))
+The logic is that a market splitting into simultaneous extremes is one whose participants no longer
+agree — a distinct diagnostic from a simple lows-exceed-highs deterioration. He names it once and does
+not build a component around it; the durable practice is the divergence reading above.
+
+**The divergence read at an index top, and declined.** January 2017, with the QQQ closing above its
+April 2000 high of 120.50 for the first time in sixteen years: "only 138 of almost 5,000 stocks hit a
+new high on Friday… On December 5-12, the number of stocks hitting new highs each day ranged from
+430-908… only 39% of all stocks rose, compared to about two thirds of the Nasdaq 100 stocks. So there
+is **tremendous heterogeneity in the way stocks are performing**." His response is the discipline, not
+the inference: "**Regardless, I must ride the trend until it ends. You know better than to ask me (or
+anyone else) to predict when that will be.**" ([WW 2017-01-08](../../raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md)) Compare November 2021, where the same
+divergence — new lows surging at an index all-time high — is the one he *did* act on.
 
 ## Evolution
 
@@ -339,3 +366,5 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2008-02-11 — GMI: 0; GMI-R: 0; 13th week since top; DBC, DJP, DBA](../../raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md) ([summary](../sources/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md))
 - [WW 2007-09-04 — GMI: 3++; IBD100 stocks at new highs](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md) ([summary](../sources/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))
 - [WW 2009-04-05 — Dow “bottom rally” puny thus far!; IBD100 and other growth stocks at new highs; I’m bullish for now](../../raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md) ([summary](../sources/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md))
+- [WW 2005-10-06 — The Hindenburg Omen; failed break-outs as the reason component 1 exists](../../raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md) ([summary](../sources/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md))
+- [WW 2017-01-08 — Why component 1 exists, in one sentence; SHOP's GLB and a missed alert](../../raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md) ([summary](../sources/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md))

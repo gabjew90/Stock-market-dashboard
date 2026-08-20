@@ -1,7 +1,7 @@
 ---
 title: GMMA charts — RWB / BWR, the daily RWB system, and the timeframe ladder
 type: concept
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md
   - raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md
@@ -35,6 +35,7 @@ sources:
   - raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md
   - raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md
   - raw/posts/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md
+  - raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md
 ---
 
 # GMMA charts — RWB / BWR, the daily RWB system, and the timeframe ladder
@@ -75,6 +76,18 @@ The daily Guppy chart was already a cash/short reason in February 2010 — short
 **RWBCount was introduced on 2016-12-26** — "I have created a new indicator that counts the number of averages that are rising above each longer average. **The indicator, called the RWBCount, goes from 0-12.**" It tests *strict ordering* rather than merely red-above-blue: "when all 13 averages line up with each shorter average rising above the next one (1>3>5>8……..60) this constitutes a really strong up-trend." QQQ, DIA and SPY all read 12 that week. ([WW 2016-12-26](../../raw/posts/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md))
 
 **RWBCount** is the weekly analogue of the daily [RLC](#the-daily-rwb-chart--a-finer-grained-tool): the count (0–12) of weekly GMMA averages in their correct order. "A maximum RWBCount of 12 (of 12). All of the weekly moving averages line up properly" — IRBT, January 2017. ([WW 2017-01-22](../../raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md))
+
+**The rule in its absolute form (2016), and the survey that produces it.** "**I would never hold a long
+position in a stock or ETF in a BWR down-trend.**" ([WW 2016-01-03](../../raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md)) The same evening shows what the framework
+is *for*: run across six charts it maps which parts of the market have broken. The Dow Transports were
+in a confirmed BWR after "a strong RWB up-trend [that] lasted for several years, through early 2015" —
+"an ominous pattern for those who follow the **Dow theory** of the market"; the NYSE index "definitely
+in a BWR down-trend"; the energy ETF XLE confirmed BWR, where "**no one but a gambler would try to pick
+a bottom**"; the Dow 30 and SPY out of RWB but not yet BWR; and the QQQ "bearly? remains in an RWB
+up-trend." The read is a **split** market rather than a uniform one — energy and multinationals broken
+while tech held — and the reason the pattern is worth the trouble: "**How much easier (and more
+profitable) it is to hold stocks when the indexes are in strong RWB up-trends!**" Note the two
+prohibitions are distinct: BWR bars holding a long *and* bars buying the bottom.
 
 ## The daily RWB chart — a finer-grained tool
 
@@ -246,3 +259,4 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2017-01-22 — Recent GLB $IRBT resuming up-trend; $ANET GLB fails; Access my TC2000 scans–newly described in my blog’s gloss](../../raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md) ([summary](../sources/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md))
 - [WW 2023-08-20 — Blog Post: Day 8 of $QQQ short term down-trend; $QQQ,$SPY,$DIA,$IWM closed below all 12 averages in my adapted](../../raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md) ([summary](../sources/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md))
 - [WW 2016-12-26 — 12th day of $QQQ short term up-trend; $QQQ and $CDW have an RWBCount= 12](../../raw/posts/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md) ([summary](../sources/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md))
+- [WW 2016-01-03 — Never hold a long position in a BWR down-trend; the market read index by index](../../raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md) ([summary](../sources/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md))

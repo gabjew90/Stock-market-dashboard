@@ -1,7 +1,7 @@
 ---
 title: Trading psychology — the rules he uses on himself
 type: concept
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md
   - raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md
@@ -35,6 +35,7 @@ sources:
   - raw/posts/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md
   - raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md
   - raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md
+  - raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -101,6 +102,21 @@ The line that closes the August 2011 exit post, after admitting both drivers —
 
 A corollary he stated in 2009 while sitting out a rally his own indicators favoured: "I cannot trade successfully when I am stressed by other concerns" — personal circumstances are a reason not to trade, whatever the chart says. ([WW 2009-05-31](../../raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md)) And the fear at the other end, named in 2010: "At the beginning of a new up-trend, we often are scared to go long because we are driving along, looking through the rear view mirror at the recently ended decline." ([WW 2010-06-21](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
 
+## 9. Not trading is a position — the day nothing qualifies
+
+The lesson he took from watching two traders he rates highly work a full session live at Mark
+Minervini's October 2016 workshop: "**both men showed extreme discipline, and when neither of them
+found a stock on their watch lists that met their criteria that day, they just sat tight — Wow!!!**"
+The question he puts to the reader is the point: "**How many of us think we have to buy something every
+day and get seduced by the action?**" ([WW 2017-07-16](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))
+
+This is the behavioural half of the [watch-list procedure](stock-selection.md#the-watch-list--oneils-shopping-list-and-where-his-procedure-comes-from):
+criteria written down in advance are what make a no-trade day legible as *compliance* rather than as
+indecision. Without them, sitting out feels like failing to act; with them, it is the system working. He
+attaches the same patience to Darvas, and it is the disposition underneath
+[rule 8](#8-if-you-cannot-go-to-cash-do-not-trade) — being able to hold cash comfortably and being able
+to skip a session are the same capacity at different timescales.
+
 ## How the rules fit together
 
 Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or the need to be active. Rules 3, 4 and 6 are about *fear* — expect it, size for it, and pre-commit against it in writing. Rules 5 and 7 are about the *exit* — the stop removes emotion at entry, and the too-easy voice is the single place he lets emotion back in, on the profitable side only. Nothing on this page asks for a temperament he does not have; each item is a rule written after he watched himself fail without it.
@@ -145,3 +161,4 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2008-04-17 — GMI: 5; GMI-R: 9; QQQQ short term up-trend confirmed!; 41 IBD100 new highs](../../raw/posts/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md) ([summary](../sources/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md))
 - [WW 2022-01-09 — Blog post: The weekly charts of $QQQ, $DIA and $SPY show each having three heavy volume down weeks, suggesting](../../raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md) ([summary](../sources/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md))
 - [WW 2025-03-06 — Blog Post: Day 8 of $QQQ short term down-trend; 28 US new highs, 81 lows and 5 at ATH; I will resist the inevi](../../raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md) ([summary](../sources/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md))
+- [WW 2017-07-16 — O'Neil's shopping list — the watch-list procedure, and the discipline of not trading](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md) ([summary](../sources/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))

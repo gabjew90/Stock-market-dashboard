@@ -24,6 +24,7 @@ sources:
   - raw/posts/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md
   - raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md
   - raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md
+  - raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md
 ---
 
 # The leveraged-ETF default — TQQQ on a GMI Buy signal
@@ -33,6 +34,15 @@ When the market turns up, Dr. Wish's first purchase is usually not a stock but t
 ## The thesis is older than the studies — October 2006
 
 Nearly three years before the June 2009 study below, the argument is already made *and measured*. Over an advance from August 16, 2006: QQQQ +8.9% with 73% of Nasdaq-100 stocks advancing (41% by more than 10%), while **QLD rose 16.9%**, SSO 10.9% and the Dow ultra 11.7%. His conclusion: "**by simply buying the QLD when the GMI signaled a rise and holding on during this rise, one could have received a 17% return — a return that beat 84% of the Nasdaq 100 stocks… Why try to find the few individual stocks that outperform the QQQQ**?" ([WW 2006-10-23](../../raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md)) Note that the entry condition is already the GMI, and the comparison is already against the *distribution* of component stocks rather than an average — the form every later measurement takes.
+
+**And the measurement form is older still — January 2006.** Nine months before the QLD post, the same
+comparison is run without the leveraged instrument: between the QQQQ closing above its 10-week average
+on 18 October 2005 and mid-January 2006 the index gained 13.4%, over which "**86% of the Nasdaq 100
+stocks have advanced**," 88% of the S&P 500 and 87% of the Dow 30. ([WW 2006-01-17](../../raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md)) The template is already
+complete — take an index entry signal his own method generates, hold to a date, then score the index
+against the *distribution* of its components rather than their average. October 2006 adds the leverage
+and inverts the conclusion into a recommendation; the arithmetic is unchanged. See
+[how many stocks actually follow the index](trading-philosophy.md#how-many-stocks-actually-follow-the-index--and-how-his-number-moved).
 
 ## The earliest ultra-ETF study (June 2009)
 
@@ -114,3 +124,4 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2009-08-24 — Why search for great stocks when I can buy ultra ETF’s?](../../raw/posts/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md) ([summary](../sources/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md))
 - [WW 2012-03-12 — GMI out-performs in new study; GLD starting Stage 4 decline?](../../raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md) ([summary](../sources/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md))
 - [WW 2006-10-23 — GMI: 6; IBD 100 performance; AAPL and GOOG](../../raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md) ([summary](../sources/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md))
+- [WW 2006-01-17 — The advance measured across three indexes; the inverted-yield-curve worry](../../raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md) ([summary](../sources/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md))

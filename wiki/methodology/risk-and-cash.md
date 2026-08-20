@@ -67,6 +67,10 @@ sources:
   - raw/posts/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md
   - raw/posts/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md
   - raw/posts/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md
+  - raw/posts/2005-07-21-slammed-leaders-and-rising-rates-increase-market-risk-gmi-6-shorts-as-a-hedge.md
+  - raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md
+  - raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md
+  - raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md
 ---
 
 # Risk & cash
@@ -110,9 +114,35 @@ Historical examples he credits to this discipline:
 
 **The caution triggers, listed (2011):** "I tend to become cautious when the market indexes close below their 10 week averages or when the GMI declines to 3 or less. I also become concerned when the market leaders, like GOOG, AAPL, NFLX, weaken." ([WW 2011-02-23](../../raw/posts/2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious.md)) The 2006 form of the leader tell: when the biggest three-day losers in the Nasdaq-100 are YHOO, INTC, AAPL and GOOG, "when the biggest losers are the major big names, it may signify that the market is going to crumble" — and bad reactions to good earnings point the same way. ([WW 2006-01-23](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
 
+**The rate indicator is on his charts from the start.** A "short term interest rate indicator" — the 13-week bill yield — is charted weekly and monthly from 2005, and read for the *trend* rather than the level. July 2005: it "has gapped up and keeps hitting new highs," with the monthly chart showing "it took much less of an increase in rates from 1998-2000 to burst the market bubble." ([WW 2005-07-21](../../raw/posts/2005-07-21-slammed-leaders-and-rising-rates-increase-market-risk-gmi-6-shorts-as-a-hedge.md)) January 2006, with the GMI at 6: it "has been on a steady rise since June, 2004 and has broken to new highs the past two weeks. There is no sign of a plateau in short rates… **The market cannot climb an inverted wall of interest rates.** We may be at the point when the seers will claim, 'but this time is different.'" ([WW 2006-01-17](../../raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md)) The concern in both cases is the yield curve inverting, and in neither does it cause him to sell — it is a standing worry laid alongside the indicators, not a signal.
+
 **The rates thesis he watches for (2014).** Not a forecast but a mechanism: bondholders enriched by a decade of falling rates "will likely flee their bonds if (when?) rates start to reverse up," and "after the turn when rates rise enough to be attractive, **people will exit risky stocks in favor of more conservative bonds or CDs, precipitating a bear market in stocks**." Made concrete: "**if the day ever returns that I could nail down 6% annual interest in insured CDs, I and many other boomers would presumably be happy to get out of stocks**… it is for this reason that I need to be very vigilant for the first signs that interest rates are reversing up." ([WW 2014-12-25](../../raw/posts/2014-12-25-more-on-bonds-and-rising-rates-buy-and-hold-index-funds.md)) This is why bond ETFs sit on his charts at all — see [monthly RWB on bond ETFs](gmma-charts.md#monthly-rwb-on-bond-etfs--a-macro-regime-indicator).
 
 **Warnings that do not trigger a sale.** Several of his tells are explicitly read while a trend is still intact. December 2013, 52 days into an up-trend: "**when people I know who have little interest in the market (because they are scared or cautious) begin to tell me they are buying stocks, I become a little more cautious. Also, when most of my holdings are climbing rapidly we are near a top — and they are!**" ([WW 2013-12-26](../../raw/posts/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md)) April 2014, with tech weak while the large caps held: "**when the market leaders fail, the rest of the stocks eventually falter. If the exciting growth stocks cannot climb higher, one should not expect the slower growing stocks to push higher**" — and a rotation *into* value read as a late-cycle tell rather than an opportunity, since value leads early in a cycle and growth late. ([WW 2014-04-06](../../raw/posts/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md))
+
+**Selling ahead of the GMI — the override, stated in 2005.** The clearest case of leadership damage
+outranking the index: with the GMI at its maximum of **+6**, "Well, now I am a little concerned. When
+stocks like GOOG and MSFT get slammed after reporting earnings, it may be time to take some money off
+of the table… **Yes, I know the GMI is still at +6, but if I wait for it to give a definite sell I will
+lose most of my profits.**" The reasoning is the lag: "If good earnings cannot support GOOG, then what
+type of news is left to support it?… **When the leaders get into trouble, the rest of the market is not
+far behind.**" ([WW 2005-07-21](../../raw/posts/2005-07-21-slammed-leaders-and-rising-rates-increase-market-risk-gmi-6-shorts-as-a-hedge.md)) He is candid that the forecast is a departure from his own method — "I know I
+am not supposed to predict the market, but I have the feeling we are in for a rough period." This is the
+doctrinal counterpart to the [GMI's lagging-by-design](gmi.md#a-limitation-he-published-himself-2015)
+disclaimer: the index tells you when a trend has turned, and the leaders sometimes tell you first.
+
+**The leader-on-good-news tell, dated.** It recurs across eleven years in near-identical language:
+July 2005 (GOOG and MSFT slammed after earnings) ([WW 2005-07-21](../../raw/posts/2005-07-21-slammed-leaders-and-rising-rates-increase-market-risk-gmi-6-shorts-as-a-hedge.md)); January 2006 (the biggest three-day losers
+being the big names); April 2014 (CMG +$32 → −$33); and January 2016 — NKE "sold off after a good
+earnings report. **When leaders cannot rise on good news, it is telling us something about the inner
+strength (or lack thereof) of the market**," with DIS unable to rally on the release of Star Wars as
+the second instance that week. ([WW 2016-01-03](../../raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md))
+
+**Sell into the bounce, not out of the hole.** October 2005, the day the GMI reached zero and a new
+QQQQ down-trend began: "**If we get a bounce during earnings season the next few days, it might be a
+good time to unload losers and raise cash.**" ([WW 2005-10-06](../../raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md)) A rally inside a confirmed down-trend is
+liquidity to exit on — the same logic as the [contrarian sentiment](#contrarian-sentiment-is-a-bounce-warning-not-a-re-entry-trigger)
+rule below.
 
 ## Position management within a bull market
 
@@ -352,3 +382,7 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2014-04-06 — A Tale of Two Markets; IBD goes back to market in correction; Sell in May?](../../raw/posts/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md) ([summary](../sources/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md))
 - [WW 2005-06-22 — Cramer discovers techs–finally!  IBD MeetUp; GMI: +5: Catching HANS](../../raw/posts/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md) ([summary](../sources/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md))
 - [WW 2006-07-18 — GMI: 0; Indicators deteriorate; On biased market indexes](../../raw/posts/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md) ([summary](../sources/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md))
+- [WW 2005-07-21 — Selling ahead of the GMI; leaders slammed on good earnings](../../raw/posts/2005-07-21-slammed-leaders-and-rising-rates-increase-market-risk-gmi-6-shorts-as-a-hedge.md) ([summary](../sources/2005-07-21-slammed-leaders-and-rising-rates-increase-market-risk-gmi-6-shorts-as-a-hedge.md))
+- [WW 2005-10-06 — The Hindenburg Omen; failed break-outs as the reason component 1 exists](../../raw/posts/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md) ([summary](../sources/2005-10-06-gmi-0-disastrous-day-hindenburg-omen-recession-4-year-cycle.md))
+- [WW 2016-01-03 — Never hold a long position in a BWR down-trend; the market read index by index](../../raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md) ([summary](../sources/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md))
+- [WW 2006-01-17 — The advance measured across three indexes; the inverted-yield-curve worry](../../raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md) ([summary](../sources/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md))

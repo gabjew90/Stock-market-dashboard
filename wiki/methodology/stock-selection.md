@@ -57,6 +57,8 @@ sources:
   - raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md
   - raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md
   - raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md
+  - raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md
+  - raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md
 ---
 
 # Stock selection
@@ -143,6 +145,16 @@ He is not uncritical of the pool. In September 2007 he audited it and found IBD'
 2. **Leadership decays on a roughly four-month half-life.** "After about 4 months, the IBD100 stock lists tend to look a lot like the stocks in the Nasdaq100 or S&P500 stock indexes, with 16-20% within 5% of their 52 week highs." Hence "not good candidates for a long term buy-and-hold strategy. Then again, neither are most stocks." A stale IBD list is not a watchlist. ([WW 2007-09-17](../../raw/posts/2007-09-17-gmi-5-ibd100-stocks-not-good-for-buy-and-hold.md))
 
 The complement, two weeks later and with the GMI at 6: **in a rising market the list does deliver.** From 8/17 to 9/28/2007 the IBD100 median stock returned +15.6% against the Nasdaq 100's +11%, and 42 of 100 rose 20%+ versus 12% of Nasdaq 100 and under 4% of S&P 500 stocks. "The IBD100 stocks list is a prime place to look for stocks that will outperform in a rising market." The two posts together are the actual position: a good pool, gated on market state, with a short shelf life. ([WW 2007-10-01](../../raw/posts/2007-10-01-gmi-6-ibd100-stocks-do-outperform-meet-judy-a-great-stock-picker.md))
+
+**An earlier audit, taken mid-decline (2006).** The 2007 audit was not the first. Three weeks after an
+IBD 100 list was published on 5/15/2006, "since this IBD 100 list was published on 5/15, only **14%** of
+these stocks have risen. Thus, **86% of the IBD 100 stocks have declined or gone nowhere**, along with
+the market" — and that day the list underperformed his own 4,000-stock universe on every measure he
+tracks: 30% advancing against 38%, 16% above their 10-day average against 32%, 18% above their 30-day
+against 26%. ([WW 2006-06-08](../../raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md)) The conclusion he draws is about the market, not the list: a growth-stock
+selection is only as good as the tape it is published into, which is the same finding as the
+[kiss-of-death study](#the-kiss-of-death-study-2008--the-two-sided-verdict) reached from the other
+direction.
 
 ### Automating the entry — buy stops and price triggers
 
@@ -234,6 +246,29 @@ The same habit in the COVID crash: "when the market is in a down-trend it is muc
 The rationale, stated outright in a 39-day down-trend with 98 new highs out of ~6,000: "**It is in the new high list that I look for the leaders of the next move up. Any stock that can reach a new high, and especially an all-time high, during protracted market weakness is likely to be reflecting some serious buying pressure.**" ([WW 2012-06-11](../../raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md))
 
 Stated as a preference as early as September 2007: "**I look forward to market declines when it is much easier to see emerging leaders. Stocks that hit new highs quickly after a decline are often likely to lead if the market turns.**" That week, 20 of 400+ IBD100 names made new highs against just 66 in his whole 4,000-stock universe. ([WW 2007-09-04](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))
+
+## The watch list — O'Neil's shopping list, and where his procedure comes from
+
+He traces his own entry workflow to a passage in O'Neil's *How To Make Money in Stocks* (1st ed.
+revised, 1988, p. 197), which he reproduces in full. O'Neil's procedure: review a chart book each week;
+list the stocks meeting your technical **and** fundamental criteria; write down for each the **pivot
+price** you would buy at and its **average daily volume**; carry the list for the next couple of weeks;
+and act when a stock trades at your price on volume you judge will close at least **50% above
+average** — "the more demand for a stock at the buy point, the better."
+
+What he takes from it is the *timing of the decision*: "**The approach here is very different than just
+scanning the market real time and buying something that looks good.** This more reasoned approach
+suggests that during **the unemotional calm of the weekend or night before trading**, review stocks
+that are setting up and have the technical and fundamental characteristics that one values. **This
+strategy assumes that one's trading is rule based and systematic, guided by specific criteria.** Then
+make a small list of candidates to monitor for a break-out on above average volume. **One can then pull
+the trigger quickly.** (I use TC2000 to alert me when a stock on my list is having a GLB on unusually
+high daily volume — volume buzz.)" ([WW 2017-07-16](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))
+
+The pre-stated criteria are what make the fast trigger safe, and the volume condition is the reason a
+quiet breakout gets flagged as defective even when he buys it anyway (see [TRLG](glb-in-practice.md#trlg-2010--the-round-trip-and-the-missing-volume)).
+The discipline half of the same post — sitting out a day when nothing qualifies — is on
+[trading psychology](trading-psychology.md).
 
 ## O'Neil 1995 workshop: volume over EPS
 
@@ -352,3 +387,5 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2014-03-30 — 5th day of $QQQ short term down-trend; $FANG shows strength](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md) ([summary](../sources/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md))
 - [WW 2007-09-04 — GMI: 3++; IBD100 stocks at new highs](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md) ([summary](../sources/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))
 - [WW 2009-04-05 — Dow “bottom rally” puny thus far!; IBD100 and other growth stocks at new highs; I’m bullish for now](../../raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md) ([summary](../sources/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md))
+- [WW 2017-07-16 — O'Neil's shopping list — the watch-list procedure, and the discipline of not trading](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md) ([summary](../sources/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))
+- [WW 2006-06-08 — Shame on IBD and Cramer; puts in an IRA; the IBD 100 audited mid-decline](../../raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md) ([summary](../sources/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md))

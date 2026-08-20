@@ -1,7 +1,7 @@
 ---
 title: Trading philosophy — the five propositions
 type: concept
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md
   - raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md
@@ -29,6 +29,9 @@ sources:
   - raw/posts/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md
   - raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md
   - raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md
+  - raw/posts/2005-05-03-cnbc-forever-bullish.md
+  - raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md
+  - raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md
 ---
 
 # Trading philosophy — the five propositions
@@ -210,6 +213,29 @@ Two 2013 lines that pair with it: "The critical key is to not anticipate a chang
 
 "**The key in technical analysis is to be prepared to react once a trend is in**" — and on a seasonal he has observed for years: "the post earnings decline sets up the next rise. **But rather than predict, I prefer to wait and then react.**" ([WW 2023-08-20](../../raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md))
 
+## How many stocks actually follow the index — and how his number moved
+
+Proposition 3 (trade with the trend) rests on an empirical claim he restates constantly and has
+measured at least once. The claim's stated size drifted upward over his first year of writing:
+**"about 70% of stocks go with the market indexes"** in April–May 2005 ([WW 2005-05-03](../../raw/posts/2005-05-03-cnbc-forever-bullish.md));
+**"the 80%+ of stocks that go with the major market trend"** by June 2006 ([WW 2006-06-08](../../raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md)). Neither figure is
+sourced to a study.
+
+The one time he measures it, the answer for that particular advance is higher than either. Between the
+QQQQ closing above its 10-week average on 18 October 2005 and mid-January 2006 — a 13.4% index gain —
+**86% of the Nasdaq-100 stocks advanced** (42 of them by more than 14%, the top twenty between 27% and
+64%), **88% of the S&P 500** and **87% of the Dow 30**. "Over and over again, we find that **by trading
+consistent with the trend of the key market averages, we have considerable odds of profiting**." ([WW 2006-01-17](../../raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md))
+
+Two cautions about reading that as a general number. It covers one up-trend of one quarter, chosen after
+the fact and measured from the entry signal his own method would have given — so it measures the gate
+working, not the base rate. And the measurement is of *direction*, not of magnitude: 86% advancing is
+consistent with most of the index's gain coming from a handful of names, which is exactly what the
+[ultra-ETF argument](leveraged-etf-default.md) exploits by measuring the leveraged index against the
+*distribution* of the components instead of their average. The honest summary is that his 70–80% claim
+is a rule of thumb he has never formally tested, and the one measurement he published is a favourable
+special case.
+
 ## The lineage he names
 
 The influences are stated, not implied: Darvas (the first book he assigns), Weinstein's stage analysis, O'Neil, Livermore via Lefèvre, Guppy for the multiple-moving-average charts, and — from October 2016 — Mark Minervini and David Ryan, after three days at Minervini's Master Trader Program: "600 slides that taught everything from how to select stocks, the price patterns that are most profitable, the way to set stops, pyramid up, and close out positions. They gave the best information on the value of cutting losses that I have ever seen… He has put into a 3 day session much of what it took me over 50 years to learn." Both offered to lecture his students, and the later @markminervini / MarketSmith / VCP references on the blog trace to this. ([WW 2016-10-25](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))
@@ -250,3 +276,6 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2013-02-03 — When will this bull advance end? Performance of leveraged ETF’s](../../raw/posts/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md) ([summary](../sources/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md))
 - [WW 2025-03-06 — Blog Post: Day 8 of $QQQ short term down-trend; 28 US new highs, 81 lows and 5 at ATH; I will resist the inevi](../../raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md) ([summary](../sources/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md))
 - [WW 2023-08-20 — Blog Post: Day 8 of $QQQ short term down-trend; $QQQ,$SPY,$DIA,$IWM closed below all 12 averages in my adapted](../../raw/posts/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md) ([summary](../sources/2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu.md))
+- [WW 2005-05-03 — cnbc-forever-bullish](../../raw/posts/2005-05-03-cnbc-forever-bullish.md) ([summary](../sources/2005-05-03-cnbc-forever-bullish.md))
+- [WW 2006-01-17 — The advance measured across three indexes; the inverted-yield-curve worry](../../raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md) ([summary](../sources/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md))
+- [WW 2006-06-08 — Shame on IBD and Cramer; puts in an IRA; the IBD 100 audited mid-decline](../../raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md) ([summary](../sources/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md))

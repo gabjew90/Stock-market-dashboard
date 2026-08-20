@@ -1,7 +1,7 @@
 ---
 title: The short side — submarine scan, shorting, hedging and options overlays
 type: concept
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md
@@ -28,6 +28,8 @@ sources:
   - raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md
   - raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md
   - raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md
+  - raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md
+  - raw/posts/2010-04-26-true-religion-trlg-break-out.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -91,6 +93,23 @@ The 2005 founding statement: "Experienced traders do not care which way the mark
 
 **Sizing the inverse position (2025).** "Given that the QQQ short term down-trend has lasted 6 days, I will ***slowly*** wade into SQQQ, the inverse ETF that rises 3x as much as QQQ declines. **It also falls 3x as much as QQQ advances, so I always have one foot out the door.**" ([WW 2025-01-09](../../raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md))
 
+**The retail case for the short side, June 2006.** Four days before the "185 submarines" post, the same
+argument aimed at instruments rather than scans: "People short change themselves… to only trade on the
+bull side of the market. **Buying puts in an IRA (or taxable account) is one way to take advantage of
+the market's decline while limiting potential losses. We have all been brainwashed into avoiding the
+short side of the market.**" The alternative he names is not stock-picking against the tape but going
+with it: "**Why not take the easy way and trade the 80%+ of stocks that go with the major market
+trend?**" He aims the same charge at Jim Cramer, "who used to short the market while running his hedge
+fund, but refuses to advocate that his CNBC audience short stocks," and at the media generally for
+encouraging viewers "to try to find those rare stocks that can rise against the trend." ([WW 2006-06-08](../../raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md))
+
+**Options as a risk cap rather than a direction bet (2010).** The same instrument logic on the long
+side. Buying TRLG's breakout eight days before an earnings report — where a stop can be gapped through
+and the outcome is genuinely two-sided — he used **May calls**: "If I am wrong and TRLG comes back down,
+**the most I can lose is the cost of the calls**." ([WW 2010-04-26](../../raw/posts/2010-04-26-true-religion-trlg-break-out.md)) The premium buys certainty about the size
+of the loss, which is the same trade-off as the
+[protective put](#protective-puts--the-2005-original-and-the-put-vs-stop-rule) taken from the other side.
+
 ## Protective puts — the 2005 original, and the put-vs-stop rule
 
 The insurance framing is fully formed in **June 2005** — four years before the 2009 tutorial —
@@ -148,3 +167,5 @@ By 2012 he was "teaching myself to write the new weekly covered calls on the SPY
 - [WW 2024-01-04 — Blog Post: $QQQ short term up-trend could end Friday;  Meanwhile, $QS rockets higher on battery test results. ](../../raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md) ([summary](../sources/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md))
 - [WW 2023-08-09 — Blog Post: Day 1 of new $QQQ short term down-trend and GMI=3. Many fallen angels, $SMCI, $AAPL, $CMG; Buying $](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md) ([summary](../sources/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md))
 - [WW 2025-01-09 — Blog Post: Day 6 of $QQQ short term down-trend; 144 US stocks at new lows and 42 at highs; $QQQ,$SPY,$DIA and ](../../raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md) ([summary](../sources/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md))
+- [WW 2006-06-08 — Shame on IBD and Cramer; puts in an IRA; the IBD 100 audited mid-decline](../../raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md) ([summary](../sources/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md))
+- [WW 2010-04-26 — TRLG: the round trip back to an all-time high, expressed in calls](../../raw/posts/2010-04-26-true-religion-trlg-break-out.md) ([summary](../sources/2010-04-26-true-religion-trlg-break-out.md))
