@@ -1,7 +1,7 @@
 ---
 title: General Market Index (GMI)
 type: entity
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2005-04-26-general-market-index-gmi.md
@@ -46,6 +46,7 @@ sources:
   - raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md
   - raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md
   - raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md
+  - raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md
 ---
 
 # General Market Index (GMI)
@@ -115,6 +116,8 @@ Two consequences. First, the reconstruction's use of **FFTY** as a component-6 p
 Watched as the swing vote in August 2023: "the GMI could fall to 2 and trigger a Red signal if the IBD Mutual Fund Index (0muti) closes below its 50 day average. **It is right on it now.**" ([WW 2023-08-09](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md))
 
 **And a clarification in September 2007:** the thresholds are **inclusive** — "I clarified in the table that the 10 Day Successful New High Index is positive if the number is *greater than or equal* to 100 or 50%." ([WW 2007-09-04](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))
+
+**Why the component is there at all**, in one sentence from April 2009: "the IBD Mutual Fund Index is above its 50 day average, indicating to me that growth mutual funds are starting to make money. **When these fund managers can make money buying growth stocks, so can I.**" ([WW 2009-04-05](../../raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md)) Component 6 is a proxy for whether professionals running his own strategy, with more resources than he has, are currently able to make it work — which is why he treats it as a precondition rather than as one vote among six.
 
 ## The signals — Buy, Sell, and the hold state at 3
 
@@ -335,3 +338,4 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2015-10-04 — IBD calls market up-trend; $SLP –green line break out worth watching](../../raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md) ([summary](../sources/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md))
 - [WW 2008-02-11 — GMI: 0; GMI-R: 0; 13th week since top; DBC, DJP, DBA](../../raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md) ([summary](../sources/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md))
 - [WW 2007-09-04 — GMI: 3++; IBD100 stocks at new highs](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md) ([summary](../sources/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))
+- [WW 2009-04-05 — Dow “bottom rally” puny thus far!; IBD100 and other growth stocks at new highs; I’m bullish for now](../../raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md) ([summary](../sources/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md))

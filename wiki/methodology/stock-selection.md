@@ -1,7 +1,7 @@
 ---
 title: Stock selection
 type: concept
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
@@ -56,6 +56,7 @@ sources:
   - raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md
   - raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md
   - raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md
+  - raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md
 ---
 
 # Stock selection
@@ -104,6 +105,8 @@ Pure technical or pure fundamental analysis alone is insufficient. From Darvas: 
 **The exception he grants himself.** QS in January 2024 was a concept trade on Judy's research — solid-state batteries, tests exceeding expectations, Volkswagen invested — bought small on a high-volume news day and "holding the shares long term," which is the horizon he says elsewhere he lacks the confidence for. Worth marking as an exception rather than a rule: nothing else in the corpus is bought and held on a story. ([WW 2024-01-04](../../raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md))
 
 **The filter as a three-part checklist (2010):** "I prefer to buy stocks that have **already doubled in the past year** and that are **trading at or near their all-time highs**. I also want the stock to have **appeared on the IBD New America or IBD100 list**." FFIV met all three, plus his Darvas scan, and had just burst through an all-time high set in late 1999; he "purchased a little… and will add to it if it keeps rising." ([WW 2010-08-05](../../raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md))
+
+**O'Neil's IPO-age criterion**, cited in 2009: two new-high names "came public within the past 8 years, **a prime criterion of past winning stocks, according to IBD founder William O'Neil**." ([WW 2009-04-05](../../raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md)) It is the same idea that later drives the IPO-GLB variant.
 
 ## Screen criteria — detailed 2010 workflow
 
@@ -348,3 +351,4 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2010-08-05 — Going long—FFIV and other Darvas Scan stocks](../../raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md) ([summary](../sources/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md))
 - [WW 2014-03-30 — 5th day of $QQQ short term down-trend; $FANG shows strength](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md) ([summary](../sources/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md))
 - [WW 2007-09-04 — GMI: 3++; IBD100 stocks at new highs](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md) ([summary](../sources/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))
+- [WW 2009-04-05 — Dow “bottom rally” puny thus far!; IBD100 and other growth stocks at new highs; I’m bullish for now](../../raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md) ([summary](../sources/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md))

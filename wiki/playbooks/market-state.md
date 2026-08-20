@@ -1,7 +1,7 @@
 ---
 title: Playbook — market state → stance
 type: playbook
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
@@ -28,6 +28,7 @@ sources:
   - raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md
   - raw/posts/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md
   - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
+  - raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md
 ---
 
 # Playbook — market state → stance
@@ -101,6 +102,8 @@ New lows surging while the index is at a high is an exit signal *before* the GMI
 - **Confirming a bottom:** the weekly **10-week crossing back above the 30-week**; the same cross downward ends the trade. ([WW 2022-09-15](../../raw/posts/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md))
 - **Window-dressing rallies** into quarter- and year-end are exit and stop-raising opportunities in a weakening tape, not entries. ([WW 2016-12-04](../../raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md))
 
+- **Seasonals he has noted** (context, not triggers): September is historically the weakest month; **bottoms often come in October**, when third-quarter earnings revive stocks; the post-earnings lull "typically sets up the next earnings propelled rise"; and "**large declines on Fridays often lead to ugly Mondays**, when the public gets a chance to sell after pondering their portfolio losses over the weekend." ([WW 2016-09-11](../../raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md))
+
 ---
 
 ## Stance summary table (trading account)
@@ -159,3 +162,4 @@ New lows surging while the index is at a high is an exit signal *before* the GMI
 - [WW 2022-05-01 — Nowhere oversold enough to be near a bottom; T2108 monthly](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md) ([summary](../sources/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
 - [WW 2022-09-15 — How to discern a bottom: the 10-week crossing above the 30-week](../../raw/posts/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md) ([summary](../sources/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md))
 - [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
+- [WW 2016-09-11 — September swoon? Weak Fridays often lead to Ugly Mondays—Indicators I watch for a bottom](../../raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md) ([summary](../sources/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md))

@@ -1,7 +1,7 @@
 ---
 title: Timeline — evolution of the methodology
 type: history
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md
@@ -314,6 +314,12 @@ sources:
   - raw/posts/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md
   - raw/posts/2018-07-08-draw-green-dot-signals-on-charts-ssti-sfix-gmi-to-turn-green-trade-deficits-bad.md
   - raw/posts/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md
+  - raw/posts/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md
+  - raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md
+  - raw/posts/2011-02-28-market-indexes-hold-many-stocks-bounce-off-of-support-ibd50-stock-lulu-cup-with-handle-mstr.md
+  - raw/posts/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md
+  - raw/posts/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md
+  - raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md
 ---
 
 # Timeline — evolution of the methodology
@@ -401,6 +407,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"Using put options to limit losses on CME and GOOG" (2005-06-08):** the protective-put insurance framing, fully formed four years before the 2009 tutorial — with the decision rule: a put beats a stop when **shakeout risk** is high ("I might get shaken out only to see the stock rebound... So, I bought insurance instead"). Strike = the would-be stop price; expiry chosen past the window that matters. ([WW 2005-06-08](../../raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md))
 
 ---
+
+## June 2005 (sentiment) — the IBD Meetup room as a gauge
+
+**"Cramer discovers techs finally; IBD Meetup" (2005-06-22):** sentiment read from a room 33 days into a rally — "**what a difference a rally makes!**… most members had not wanted to attend last month's meeting… **I asked people about GOOG — most were afraid of it — a good sign**"; and Cramer arriving 33 days late, "not a believer in charts — he attempts to discern the mythical value of stocks." ([WW 2005-06-22](../../raw/posts/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md))
 
 ## June 2005 (cont.) — first >100 successful new highs; the first GMI performance chart; buy-stops; the first pension exit
 
@@ -628,6 +638,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"The dirty little secret about the up-tick rule: rigging the market" (2009-04-11):** short-selling mechanics for students; short interest as latent buying ("rebound quickly… as the short sellers buy back"); the downtick-rule symmetry argument; naked shorting as the real abuse. ([WW 2009-04-11](../../raw/posts/2009-04-11-the-dirty-little-secret-about-the-up-tick-rule-rigging-the-market.md))
 
+## April 2009 (component 6) — 'when these fund managers can make money, so can I'
+
+**"Dow bottom? Rally puny thus far" (2009-04-05):** the clearest rationale for GMI component 6 — "the IBD Mutual Fund Index is above its 50 day average, indicating to me that growth mutual funds are starting to make money. **When these fund managers can make money buying growth stocks, so can I**"; O'Neil's criterion that winners are typically public within ~8 years; T2108 at 84% discounted because the market was snapping back from very oversold. ([WW 2009-04-05](../../raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md))
+
 ## April 2009 (cont.) — rockets to the moon, not bargains at new lows
 
 **"Buying rocket stocks; my market indicators are very strong" (2009-04-12):** GMI 5 for the first time since August 2008 and component 1 finally positive; "**while most of the world looks for bargain stocks at new lows, I seek rockets heading to the moon**… if you want to hop a rocket to the moon, it better be pointing up and gaining altitude"; GMCR among the IBD100 names near all-time highs. ([WW 2009-04-12](../../raw/posts/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md))
@@ -798,6 +812,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"Nasdaq100 stocks, $QQQQ RWB up-trend, ultra ETFs outperform" (2011-02-04):** the RWB pattern read on the *index*; "**I usually wade into these in stages with each purchase having to be higher than the previous one. I never add to a long position that is moving down — I always average up**"; from November 30, QQQQ +9.5%, QLD +19.9%, TQQQ +30.8% against 3% of Nasdaq-100 stocks up ≥30%. ([WW 2011-02-04](../../raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md))
 
+## February 2011 (support) — why a breakout level becomes support
+
+**"Market indexes hold; many stocks bounce off of support" (2011-02-28):** "**when a stock breaks out of a trading range, the level where it has been turned back… once broken, becomes a support level. (This occurs because people who missed the break-out get a second chance to buy the stock near that level.)**" LULU retraced to its breakout point and held; "place my sell stop below the low of the recent bounce." ([WW 2011-02-28](../../raw/posts/2011-02-28-market-indexes-hold-many-stocks-bounce-off-of-support-ibd50-stock-lulu-cup-with-handle-mstr.md))
+
 ## February 2011 (cont.) — one eye on the exits; the ultra-ETF arithmetic; an IBD 50 bounce scan; T2108 pendulum; the caution triggers
 
 **"NOG: RWB rocket stock with possible cup-with-handle break-out" (2011-02-14):** exited too early on the muni news — "the proper course for me is to remain on the long side, with one eye always on the exits"; 58-day up-trend: TQQQ +37.2% vs 20% of Nasdaq-100 up ≥ 20% → wade into ultras with the short-term trend; an IBD 50 scan for stocks bouncing off support (NOG, MELI, COH, EZPW, LYB); O'Neil's 8% GTC stop. ([WW 2011-02-14](../../raw/posts/2011-02-14-nog-rwb-rocket-stock-with-possible-cup-with-handle-break-out.md))
@@ -962,6 +980,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## December 2013 (cont.) — when the uninterested start buying
+
+**"52nd day of $QQQ short term up-trend; $IEF showing interest rates rising" (2013-12-26):** "**when people I know who have little interest in the market… begin to tell me they are buying stocks, I become a little more cautious. Also, when most of my holdings are climbing rapidly we are near a top — and they are!**"; "money seeks the place with the best yield with the least risk"; declines have begun in January before. ([WW 2013-12-26](../../raw/posts/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md))
+
 ## January–February 2014 (durations) — 52 up-trends since 2006; easing from SQQQ into TQQQ
 
 **"QQQ short term up-trend in jeopardy" (2014-01-26):** "since 2006, there have been 52 short term up-trends in the QQQ," with a table of the ten longest; the current one at day 72 was the fourth longest; "the end of a short term up-trend has not necessarily implied the beginning of an extended short term down-trend." ([WW 2014-01-26](../../raw/posts/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md))
@@ -991,6 +1013,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## April 2014 (30-week) — first weekly close under the 30-week since 2012; 100% cash in trading; the pension waits
 
 **"15th day of QQQ short term down-trend; 100% in cash; head and shoulders top to form???" (2014-04-13):** "if the QQQ remains below its 30 week average so that the average itself turns down, it will signal to me the beginning of the end of the Stage 2 up-trend"; four prior dips since 2009 all resolved up; GMI Sell + D-15 → speculative accounts out; the 401(k) stays because of fund limits — would lighten on a rally to ~89; put/call 1.15 (1.2 = extreme); T2108 41% too high for a bottom. ([WW 2014-04-13](../../raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md))
+
+## April 2014 (leaders) — 'when the market leaders fail, the rest follow'
+
+**"A tale of two markets; IBD goes back to market in correction" (2014-04-06):** tech weak while SPY and DIA held — "**the weak tech stocks were forecasting overall market weakness**… when the market leaders fail, the rest of the stocks eventually falter"; and a rotation into value read as a late-cycle tell, since "value stocks outperform… typically after a bear market when people tiptoe into the conservative stocks first." ([WW 2014-04-06](../../raw/posts/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md))
 
 ## May 2014 — Stage Analysis as the pundit filter
 
@@ -1119,6 +1145,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"$DW: A Successful Green Line Breakout; updated GLB tracker table" (2016-09-05):** Written for a class of 160 freshmen as a worked example. DW (Drew Industries) broke above its green line on the highest weekly volume in months and subsequently advanced strongly. Dr. Wish shows relative strength versus QQQ (maintaining strength during QQQ corrections — marked with amber vertical lines) as a confirming factor. He also describes the **weekly GLB scan** he runs every weekend: stocks that closed at a new 52-week high on Friday, with total weekly volume at least 10% above recent average, and 500,000+ shares total — then filters those that also hit an all-time high. The **GLB tracker table** (sidebar) tracks stocks after their breakout but is explicitly described as a biased sample and education tool, not a buy list. Nine of that week's 27 scan results also closed above their last green line top. ([WW 2016-09-05](../../raw/posts/2016-09-05-dw-a-successful-green-line-break-out-updated-glb-tracker-table-all-gmi-components-positive.md))
 
 ---
+
+## September 2016 (bands) — expansion as the start of a major move
+
+**"September swoon; weak Fridays often lead to ugly Mondays" (2016-09-11):** a high-volume decline out of a narrowing 15.2-band channel — "**the expansion (widening) of the bands often signals the beginning of a major move**"; "large declines on Fridays often lead to ugly Mondays"; "bottoms often come in October… a decline typically sets up the next earnings propelled rise." ([WW 2016-09-11](../../raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md))
 
 ## October 1995 (diary) / October 2016 — O'Neil workshop; LMAT three-chart setup; two-close GLB failure rule
 
@@ -2041,3 +2071,9 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2016-12-26 — 12th day of $QQQ short term up-trend; $QQQ and $CDW have an RWBCount= 12](../../raw/posts/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md) ([summary](../sources/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md))
 - [WW 2018-07-08 — Draw green dot signals on charts; $SSTI  $SFIX; GMI to turn Green? Trade deficits bad?](../../raw/posts/2018-07-08-draw-green-dot-signals-on-charts-ssti-sfix-gmi-to-turn-green-trade-deficits-bad.md) ([summary](../sources/2018-07-08-draw-green-dot-signals-on-charts-ssti-sfix-gmi-to-turn-green-trade-deficits-bad.md))
 - [WW 2018-10-21 — TC2000 workshop gems; $QQQ $SPY in daily BWR down-trends](../../raw/posts/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md) ([summary](../sources/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md))
+- [WW 2005-06-22 — Cramer discovers techs–finally!  IBD MeetUp; GMI: +5: Catching HANS](../../raw/posts/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md) ([summary](../sources/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md))
+- [WW 2009-04-05 — Dow “bottom rally” puny thus far!; IBD100 and other growth stocks at new highs; I’m bullish for now](../../raw/posts/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md) ([summary](../sources/2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now.md))
+- [WW 2011-02-28 — Market indexes hold; Many stocks bounce off of support; IBD50 stock, LULU; Cup-with handle–MSTR.](../../raw/posts/2011-02-28-market-indexes-hold-many-stocks-bounce-off-of-support-ibd50-stock-lulu-cup-with-handle-mstr.md) ([summary](../sources/2011-02-28-market-indexes-hold-many-stocks-bounce-off-of-support-ibd50-stock-lulu-cup-with-handle-mstr.md))
+- [WW 2013-12-26 — 52nd day of $QQQ short term up-trend; $IEF and $TLT showing interest rates rising-getting more cautious](../../raw/posts/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md) ([summary](../sources/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md))
+- [WW 2014-04-06 — A Tale of Two Markets; IBD goes back to market in correction; Sell in May?](../../raw/posts/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md) ([summary](../sources/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md))
+- [WW 2016-09-11 — September swoon? Weak Fridays often lead to Ugly Mondays—Indicators I watch for a bottom](../../raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md) ([summary](../sources/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md))

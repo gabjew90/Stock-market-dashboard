@@ -1,7 +1,7 @@
 ---
 title: Risk & cash
 type: concept
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-26-general-market-index-gmi.md
@@ -63,6 +63,9 @@ sources:
   - raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md
   - raw/posts/2009-07-20-turn-is-here-50-invested.md
   - raw/posts/2014-12-25-more-on-bonds-and-rising-rates-buy-and-hold-index-funds.md
+  - raw/posts/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md
+  - raw/posts/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md
+  - raw/posts/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md
 ---
 
 # Risk & cash
@@ -107,6 +110,8 @@ Historical examples he credits to this discipline:
 **The caution triggers, listed (2011):** "I tend to become cautious when the market indexes close below their 10 week averages or when the GMI declines to 3 or less. I also become concerned when the market leaders, like GOOG, AAPL, NFLX, weaken." ([WW 2011-02-23](../../raw/posts/2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious.md)) The 2006 form of the leader tell: when the biggest three-day losers in the Nasdaq-100 are YHOO, INTC, AAPL and GOOG, "when the biggest losers are the major big names, it may signify that the market is going to crumble" — and bad reactions to good earnings point the same way. ([WW 2006-01-23](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
 
 **The rates thesis he watches for (2014).** Not a forecast but a mechanism: bondholders enriched by a decade of falling rates "will likely flee their bonds if (when?) rates start to reverse up," and "after the turn when rates rise enough to be attractive, **people will exit risky stocks in favor of more conservative bonds or CDs, precipitating a bear market in stocks**." Made concrete: "**if the day ever returns that I could nail down 6% annual interest in insured CDs, I and many other boomers would presumably be happy to get out of stocks**… it is for this reason that I need to be very vigilant for the first signs that interest rates are reversing up." ([WW 2014-12-25](../../raw/posts/2014-12-25-more-on-bonds-and-rising-rates-buy-and-hold-index-funds.md)) This is why bond ETFs sit on his charts at all — see [monthly RWB on bond ETFs](gmma-charts.md#monthly-rwb-on-bond-etfs--a-macro-regime-indicator).
+
+**Warnings that do not trigger a sale.** Several of his tells are explicitly read while a trend is still intact. December 2013, 52 days into an up-trend: "**when people I know who have little interest in the market (because they are scared or cautious) begin to tell me they are buying stocks, I become a little more cautious. Also, when most of my holdings are climbing rapidly we are near a top — and they are!**" ([WW 2013-12-26](../../raw/posts/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md)) April 2014, with tech weak while the large caps held: "**when the market leaders fail, the rest of the stocks eventually falter. If the exciting growth stocks cannot climb higher, one should not expect the slower growing stocks to push higher**" — and a rotation *into* value read as a late-cycle tell rather than an opportunity, since value leads early in a cycle and growth late. ([WW 2014-04-06](../../raw/posts/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md))
 
 ## Position management within a bull market
 
@@ -190,6 +195,8 @@ The rule this illustrates: sentiment extremes justify *expecting* a bounce and *
 The Investors Intelligence survey is the sentiment gauge he cites most: bears > bulls (38% vs 29%) in September 2010 was "an exceedingly rare phenomenon and should have told us all that the market would rally"; over 50% bulls "is time to start looking for a market decline." ([WW 2010-09-07](../../raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md)) The same rare inversion appeared in September 2015 (see [T2108](t2108.md)).
 
 The full trio, read in hindsight in July 2010: seven consecutive down days, put/call ~1.2, Investors Intelligence bears ≈ bulls, and the daily 10.4.4 stochastic near zero — enough to have expected at least a bounce, not enough to change his rule that in short *and* long-term down-trends he does not go long "until *both* trends have signaled a new up-trend." ([WW 2010-07-12](../../raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md)) The put/call threshold he uses is 1.2 — "a ratio of at least 1.2 usually indicates extreme bearishness among the option players… and the market often bounces." ([WW 2014-04-13](../../raw/posts/2014-04-13-15th-day-of-qqq-short-term-down-trend-100-in-cash-head-and-shoulders-top-to-form.md))
+
+He also reads sentiment from a room. At an IBD Meetup 33 days into the 2005 rally: "**What a difference a rally makes!**… **most members had not wanted to attend last month's meeting**… **I asked people about GOOG — most were afraid of it — a good sign.**" Attendance at the lows and fear of the leading stock both read as contrarian evidence. ([WW 2005-06-22](../../raw/posts/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md))
 
 ## Relative strength during declines as a leadership screen
 
@@ -338,3 +345,6 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2011-02-04 — Nasdaq100 stocks (QQQQ): RWB up-trend; Ultra ETF’s outperform most stocks again](../../raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md) ([summary](../sources/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md))
 - [WW 2009-07-20 — Up-trend is here; 50% invested; some rocket stocks](../../raw/posts/2009-07-20-turn-is-here-50-invested.md) ([summary](../sources/2009-07-20-turn-is-here-50-invested.md))
 - [WW 2014-12-25 — More on bonds and rising rates; Buy and hold index funds?](../../raw/posts/2014-12-25-more-on-bonds-and-rising-rates-buy-and-hold-index-funds.md) ([summary](../sources/2014-12-25-more-on-bonds-and-rising-rates-buy-and-hold-index-funds.md))
+- [WW 2013-12-26 — 52nd day of $QQQ short term up-trend; $IEF and $TLT showing interest rates rising-getting more cautious](../../raw/posts/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md) ([summary](../sources/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md))
+- [WW 2014-04-06 — A Tale of Two Markets; IBD goes back to market in correction; Sell in May?](../../raw/posts/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md) ([summary](../sources/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md))
+- [WW 2005-06-22 — Cramer discovers techs–finally!  IBD MeetUp; GMI: +5: Catching HANS](../../raw/posts/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md) ([summary](../sources/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md))
