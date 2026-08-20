@@ -284,6 +284,12 @@ sources:
   - raw/posts/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md
   - raw/posts/2022-04-06-blog-post-jesse-livermore-said-finally-there-came-the-awful-day-of-reckoning-for-the-bulls-and-the-optimists.md
   - raw/posts/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md
+  - raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md
+  - raw/posts/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md
+  - raw/posts/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md
+  - raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md
+  - raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md
+  - raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md
 ---
 
 # Timeline — evolution of the methodology
@@ -488,6 +494,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"GMI: 6; GMI-S: 88; Dow climbs wall of worry" (2007-02-26):** GMI-L > 90 since September, pension 100% invested since the fall; the Dow's five-year base and the overhead-supply logic — "it often portends a considerable rise" — with the 1982 break of 1,000 as precedent (the GLB idea on an index); IBD100 lists tracking the Nasdaq-100; O'Neil's 8%-below-pivot stop; "I like to buy IBD 100 stocks that break from a base on high volume." ([WW 2007-02-26](../../raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md))
 
+## October 2007 (cont.) — 'it is futile to try to anticipate market turns'
+
+**"GMI: 6; IBD100 stocks out-perform" (2007-10-15):** "I have learned over the years that it is futile to try to anticipate market turns… **of course, this means that I lose some profits as the top is formed. However, I prefer to take this approach**"; T2108 74% off an 82% high — the indicator "can take a long time to top out as it remains in the 70-80 area"; recent large up-trends of 80 and 86 days; "unlike most people with answers, I have data." ([WW 2007-10-15](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md))
+
 ## January 2008 (epiphany) — the AOL analysis, tested on ISRG
 
 **"ISRG in 2007 analysis — AOL induced epiphany" (2008-01-02):** the origin of the market gate — the 1990s observation that even AOL, the era's leader, "still fell quite a bit during market declines," replicated on ISRG: 2007's best Nasdaq stock (tripled) earned ~69% of its gain inside the two major up-trends and fell 22% from top inside one down-trend. "Even the strongest stock will decline significantly during a market down-trend." Also names the GMI's QQQ-centricity blind spot — "masking the deterioration in the Dow and S&P 500 stocks" — with SPY/DIA already below their 30-weeks. ([WW 2008-01-02](../../raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md))
@@ -517,6 +527,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## April 2008 (odds) — component 1's instability; 2:1 down-trend odds; QLD/QID; the truck; URBN
 
 **"GMI: 3; GMI-R: 7; 9th day of QQQQ short term up-trend; QLD; URBN" (2008-04-07):** the Successful 10-Day New High indicator "very unstable when only a few stocks hit new highs 10 days ago" (why the floor exists); the 55-day down-trend: 72% of Nasdaq-100 down, "odds are 2 to 1"; QLD −24% vs QID +22% — trade the two; the truck told to students; Baruch 1929; in-and-out in an IRA; URBN's monthly-chart breakout on the highest volume since 1994. ([WW 2008-04-07](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md))
+
+## April 2008 (cont.) — hedging inside an up-trend cost him
+
+**"GMI: 5; GMI-R: 9; QQQQ short term up-trend confirmed" (2008-04-17):** more than 100 new highs for the first time since February 26, 94% of Nasdaq-100 up; "again, I had to learn the lesson not to *anticipate* a change in trend… **I was hedged and made less money than if I had just stayed 100% long with the up-trend**"; time to accumulate QLD and strong IBD 100 stocks. ([WW 2008-04-17](../../raw/posts/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md))
 
 ## May 2008 — the kiss-of-death study
 
@@ -581,6 +595,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## April 2009 (shorting) — the up-tick rule essay
 
 **"The dirty little secret about the up-tick rule: rigging the market" (2009-04-11):** short-selling mechanics for students; short interest as latent buying ("rebound quickly… as the short sellers buy back"); the downtick-rule symmetry argument; naked shorting as the real abuse. ([WW 2009-04-11](../../raw/posts/2009-04-11-the-dirty-little-secret-about-the-up-tick-rule-rigging-the-market.md))
+
+## April 2009 (cont.) — rockets to the moon, not bargains at new lows
+
+**"Buying rocket stocks; my market indicators are very strong" (2009-04-12):** GMI 5 for the first time since August 2008 and component 1 finally positive; "**while most of the world looks for bargain stocks at new lows, I seek rockets heading to the moon**… if you want to hop a rocket to the moon, it better be pointing up and gaining altitude"; GMCR among the IBD100 names near all-time highs. ([WW 2009-04-12](../../raw/posts/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md))
 
 ## May 2009 (Guppy) — the first weekly Guppy chart; rely on the weekly
 
@@ -727,6 +745,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"Nicolas Darvas, on the value of studying losses; RWB stocks" (2011-02-07):** Dr. Wish reprints earlier writings and explains his classroom exercise (students analyze their own losing trade charts). IBD described as the reason he "never consistently made money trading until I started reading IBD in the 1980's." RWB stocks (COST, RVBD) demonstrated; stop on RWB bounce trade placed below 30-day moving average of the individual stock. ([WW 2011-02-07](../../raw/posts/2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd.md))
 
 ---
+
+## February 2011 (sizing) — never average down, and each purchase higher than the last
+
+**"Nasdaq100 stocks, $QQQQ RWB up-trend, ultra ETFs outperform" (2011-02-04):** the RWB pattern read on the *index*; "**I usually wade into these in stages with each purchase having to be higher than the previous one. I never add to a long position that is moving down — I always average up**"; from November 30, QQQQ +9.5%, QLD +19.9%, TQQQ +30.8% against 3% of Nasdaq-100 stocks up ≥30%. ([WW 2011-02-04](../../raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md))
 
 ## February 2011 (cont.) — one eye on the exits; the ultra-ETF arithmetic; an IBD 50 bounce scan; T2108 pendulum; the caution triggers
 
@@ -993,6 +1015,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"Market trend clearly down; my diminished trust in ETFs after the flash crash" (2015-09-08):** GMI 0 on a Sell since August 24, D-18, ~100% cash in trading accounts, most of the pension back in money market while new contributions keep dollar-cost-averaging in. The August 24 mini flash crash: PFF opened 38.52 (prior close 39.01), traded to 32.32 within ten minutes, closed 38.26 — priced by order flow, not NAV. "Imagine what would have happened if I had placed a market order to sell or had a standing sell stop order in place… I might have been sold out at a huge loss. This experience is enough to keep me away from most ETFs." ([WW 2015-09-08](../../raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md))
 
 **"Taking stock of the market — technical indicators at extreme levels; INGN" (2015-09-13):** three contrarian extremes — II bears > bulls, put/call 1.42, T2108 in single digits ("back up the truck and buy a large market index ETF like SPY… psychologically very difficult") — against a weekly BWR just beginning in DIA, on which he tends to exit; he does not buy. "I love weak markets when few stocks hit new yearly highs. It is easier to see the leaders": 37 new highs on Friday, 17 kept on a watchlist, the habit that found GMCR at its 2009 GLB (a 10-bagger). INGN, flagged December 2014 at $30.25, at $54.58. ([WW 2015-09-13](../../raw/posts/2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn.md))
+
+## October 2015 (signals) — IBD's call, his day count, and the GMI are three different things
+
+**"IBD calls market up-trend; $SLP green line break-out" (2015-10-04):** IBD's follow-through day rated "analogous to my very short term trend indicator," but "**my short term trend count for the QQQ is NOT the same as my GMI indicator**… it takes much stronger action for my GMI to signal a Buy"; support at the lower **10.2** Bollinger Band with resistance at the declining 50-day, the 150-day and the upper band. ([WW 2015-10-04](../../raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md))
 
 ## January 2016 — Global BWR sweep; worldwide down-trends
 
@@ -1454,6 +1480,10 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 
 ---
 
+## August 2023 (cont.) — accumulating SQQQ; 0muti sitting on its 50-day
+
+**"Day 1 of new $QQQ short term down-trend and GMI=3" (2023-08-09):** "about 40% of new QQQ short term down-trends, **as I define them**, end in 5 days or less. I bought a little SQQQ on Wednesday and will accumulate more as the down-trend progresses, especially if it can pass a fifth day"; the GMI would go Red if 0muti closed under its 50-day — "it is right on it now"; darlings hitting air pockets on earnings beats. ([WW 2023-08-09](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md))
+
 ## November 2023 — Canonical GLB re-statement; PGR worked example
 
 **"Very important blog post explaining GLBs; PGR green line top example" (2023-11-26):** A canonical teaching post that re-states the GLB methodology from first principles — Dr. Wish's most complete single-post GLB explanation as of late 2023. PGR (Progressive Insurance) is the central worked example: a long Stage 2 advance, clear green line top on the monthly chart, and a GLB when PGR finally broke above its prior ATH on strong volume. The post links to earlier definitional posts (2012–2017) to provide historical context. He also restates the market-trend gate: "I look for a stock whose recent GLB occurred when the QQQ was in a short-term up-trend." This is the definitive reference post for the GLB concept as practised in 2023. ([WW 2023-11-26](../../raw/posts/2023-11-26-very-important-blog-post-explaining-glbs-day-15-of-qqq-short-term-up-trend-123-us-new-highs-and-2-lows-43-at.md))
@@ -1861,3 +1891,9 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2013-02-03 — When will this bull advance end? Performance of leveraged ETF’s](../../raw/posts/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md) ([summary](../sources/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md))
 - [WW 2022-04-06 — Blog post: Jesse Livermore said: “Finally there came the awful day of reckoning for the bulls and the optimist](../../raw/posts/2022-04-06-blog-post-jesse-livermore-said-finally-there-came-the-awful-day-of-reckoning-for-the-bulls-and-the-optimists.md) ([summary](../sources/2022-04-06-blog-post-jesse-livermore-said-finally-there-came-the-awful-day-of-reckoning-for-the-bulls-and-the-optimists.md))
 - [WW 2023-06-11 — Blog Post:  Day 30 of $QQQ short term up-trend; If one had bought $TQQQ on Day 1 of the $QQQ short term up-tre](../../raw/posts/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md) ([summary](../sources/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md))
+- [WW 2007-10-15 — GMI: 6; IBD100 stocks out-perform Nasdaq100 and S&P500 stocks](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md) ([summary](../sources/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md))
+- [WW 2008-04-17 — GMI: 5; GMI-R: 9; QQQQ short term up-trend confirmed!; 41 IBD100 new highs](../../raw/posts/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md) ([summary](../sources/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md))
+- [WW 2009-04-12 — Buying Rocket Stocks; My market indicators are very strong.](../../raw/posts/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md) ([summary](../sources/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md))
+- [WW 2011-02-04 — Nasdaq100 stocks (QQQQ): RWB up-trend; Ultra ETF’s outperform most stocks again](../../raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md) ([summary](../sources/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md))
+- [WW 2015-10-04 — IBD calls market up-trend; $SLP –green line break out worth watching](../../raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md) ([summary](../sources/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md))
+- [WW 2023-08-09 — Blog Post: Day 1 of new $QQQ short term down-trend and GMI=3. Many fallen angels, $SMCI, $AAPL, $CMG; Buying $](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md) ([summary](../sources/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md))

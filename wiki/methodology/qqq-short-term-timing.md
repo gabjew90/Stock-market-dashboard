@@ -20,6 +20,8 @@ sources:
   - raw/posts/2013-06-24-sell-in-may-worked-my-confession-d-9-of-current-short-term-down-trend.md
   - raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md
   - raw/posts/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md
+  - raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md
+  - raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md
 ---
 
 # QQQ Short-Term Timing
@@ -62,6 +64,8 @@ An April 2019 post included the most detailed published tabulation of QQQ trend 
 A 2016 statement of the same base rate: "many (about 40%) QQQ short term down-trends end in under 5 days" — matching the 2019 tabulation and superseding the "about one quarter" figure of 2014. ([WW 2016-12-04](../../raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md))
 
 **The earliest published duration table (January 2014).** "Since 2006, there have been **52 short term up-trends in the QQQ**," with a table of the ten longest; the up-trend then running was in its 72nd day, "the fourth longest up-trend since 2006, the way I define them." He draws the two-sided conclusion explicitly: "the end of a short term up-trend has not necessarily implied the beginning of an extended short term down-trend. The new down-trend could become only a short pause in this long term up-trend." ([WW 2014-01-26](../../raw/posts/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md)) The fuller tabulation came in April 2019.
+
+Two earlier data points on the *up* side, from October 2007: "the last two recent large up-trends lasted **80 days and 86 days**" — cited as the reason a 31-day up-trend "could have further to go." ([WW 2007-10-15](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md)) And the down-side figure restated in 2023 with its provenance made explicit: "about 40% of new QQQ short term down-trends, **as I define them**, end in 5 days or less." ([WW 2023-08-09](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md))
 
 ## Relationship to the GMI
 
@@ -133,3 +137,5 @@ a trade-able rally**." ([WW 2008-10-22](../../raw/posts/2008-10-22-gmi-0-gmi-r-0
 - [WW 2013-06-24 — Sell in May worked?  My confession; D-9 of current short term down-trend](../../raw/posts/2013-06-24-sell-in-may-worked-my-confession-d-9-of-current-short-term-down-trend.md) ([summary](../sources/2013-06-24-sell-in-may-worked-my-confession-d-9-of-current-short-term-down-trend.md))
 - [WW 2016-12-04 — New $QQQ short term down-trend; $NFLX breaking out? TC2000 scan results: 7 rocket stocks](../../raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md) ([summary](../sources/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md))
 - [WW 2014-01-26 — $QQQ short term up-trend in jeopardy; $AAPL to break out of channel?](../../raw/posts/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md) ([summary](../sources/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md))
+- [WW 2007-10-15 — GMI: 6; IBD100 stocks out-perform Nasdaq100 and S&P500 stocks](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md) ([summary](../sources/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md))
+- [WW 2023-08-09 — Blog Post: Day 1 of new $QQQ short term down-trend and GMI=3. Many fallen angels, $SMCI, $AAPL, $CMG; Buying $](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md) ([summary](../sources/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md))

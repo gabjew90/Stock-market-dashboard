@@ -31,6 +31,8 @@ sources:
   - raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md
   - raw/posts/2005-04-21-the-10000-bounce.md
   - raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md
+  - raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md
+  - raw/posts/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -60,6 +62,8 @@ The bottom-calling version, 2025: "**Stop trying to predict a bottom and wait fo
 The error named on himself in 2005: "I fell into a bear trap last week. I started to talk about shorting when the GMI was still at +6. How many times have I noted that one must go with the market trend — not try to anticipate it. I was so disappointed with the way HANS and GOOG acted last week that I became prematurely bearish… **The point is to act AFTER the decline has begun.**" ([WW 2005-07-24](../../raw/posts/2005-07-24-bear-trap-gmi-6-wpm-dia-and-qqqq-weaker-scan-for-bouncers-able-or-not-able.md))
 
 **The vocabulary version, from the blog's first week (2005).** "**I have been using the term bear market — and this habit is dangerous. It is much safer to say that the market is in a down trend.**" Naming a regime commits you to a scenario the tape has not confirmed; naming a *trend* commits you only to what is observable. In the same post he fixes a level for changing his mind — "the Dow would have to close 300 points higher for me to start to consider the bull case." ([WW 2005-04-21](../../raw/posts/2005-04-21-the-10000-bounce.md))
+
+**The cost of *not* anticipating, priced honestly (2007).** "I have learned over the years that it is futile to try to anticipate market turns. It is far better to wait until my GMI signals the turn has occurred. **Of course, this means that I lose some profits as the top is formed. However, I prefer to take this approach over trying repeatedly (and mistakenly) to predict the turn.**" ([WW 2007-10-15](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md)) He relearns it the other way round in April 2008 — hedging inside an intact up-trend is also a form of anticipating: "again, I had to learn the lesson not to *anticipate* a change in trend and kept a lot of my longs through today, **although I was hedged and made less money than if I had just stayed 100% long with the up-trend**." ([WW 2008-04-17](../../raw/posts/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md))
 
 ## 3. Fear will make you break your own rule — he did, and said so
 
@@ -133,3 +137,5 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2016-03-18 — Going back in, but slowly; TC2000 alert example: $EDU- GLB; $TSE, $ISRG](../../raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md) ([summary](../sources/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md))
 - [WW 2005-04-21 — The 10,000 Bounce](../../raw/posts/2005-04-21-the-10000-bounce.md) ([summary](../sources/2005-04-21-the-10000-bounce.md))
 - [WW 2009-11-09 — Market up-trend back on track after bouncing off of Bollinger band; Gold shines, STEC falters.](../../raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md) ([summary](../sources/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md))
+- [WW 2007-10-15 — GMI: 6; IBD100 stocks out-perform Nasdaq100 and S&P500 stocks](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md) ([summary](../sources/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md))
+- [WW 2008-04-17 — GMI: 5; GMI-R: 9; QQQQ short term up-trend confirmed!; 41 IBD100 new highs](../../raw/posts/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md) ([summary](../sources/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md))

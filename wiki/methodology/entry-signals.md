@@ -23,6 +23,7 @@ sources:
   - raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md
   - raw/posts/2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold.md
   - raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md
+  - raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md
 ---
 
 # Entry signals — BOS, the dots, and the daily bounce setups
@@ -104,6 +105,10 @@ Run over the weekend of 2018-08-04 for green-dot stocks **over $70** — "(**I h
 
 Long before the dots, he numbered lower-Bollinger-Band bounces on a running QQQQ chart — adding the **fifth** in red to the chart he had published three weeks earlier after four. The lesson he draws is the one the whole bounce family later encodes: "**If only I had the patience to wait for the bounce to enter my long positions! Maybe next time.**" ([WW 2009-11-09](../../raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md))
 
+### A note on the Bollinger settings
+
+He has used three over the years: the textbook **20-day, 2 SD** while teaching students in 2009, a **10.2** setting on a 2015 QQQ chart (support at "the lower 10.2 BB"), and the **15.2** he settled on and describes as standard from 2022 — "I use 15.2 as settings because they work for me." Read a band reference against its date. ([WW 2015-10-04](../../raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md))
+
 ## Lineage — which trigger is current
 
 The five triggers are successive dress for one idea, and the later ones do not retire the earlier ones so much as add a name to the chart. Read chronologically: **BOS (2016)** triggered off the lower 15.2 Bollinger Band; the **green dot (2018)** put a stochastic crossover on it and fixed the stop at the 5-day low; the **black dot (2021)** switched to the 10.1 stochastic ≤ 25 and became the OSB's trigger of record through 2023; the **x8/x21/30 alignment (2024)** added a moving-average structure test; and by **2025 the OSB was being called on the blue dot** (10.1 crossing above 20, with the full TC2000 formula published) — the SHAK example on [oversold-bounce](oversold-bounce.md#combining-osb-with-a-glb) shows the hand-over. He still cites the 15.2 band as a supporting condition on 2023 black-dot charts, so nothing here has been formally withdrawn; the blue dot is simply the most recent and the only one disclosed as a formula. The [OSB playbook](../playbooks/buying-osb.md#step-3--wait-for-oversold-then-the-turn-the-osb) tabulates the three dot triggers side by side.
@@ -146,3 +151,4 @@ Between the doctrine (2011-12) and BOS (2016) sits a February 2011 scan of the I
 - [WW 2009-10-19 — Using Bollinger bands to avoid buying  extended from support.](../../raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md) ([summary](../sources/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md))
 - [WW 2018-08-05 — 16 Stocks with a Green Dot Bounce from Oversold](../../raw/posts/2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold.md) ([summary](../sources/2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold.md))
 - [WW 2009-11-09 — Market up-trend back on track after bouncing off of Bollinger band; Gold shines, STEC falters.](../../raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md) ([summary](../sources/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md))
+- [WW 2015-10-04 — IBD calls market up-trend; $SLP –green line break out worth watching](../../raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md) ([summary](../sources/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md))

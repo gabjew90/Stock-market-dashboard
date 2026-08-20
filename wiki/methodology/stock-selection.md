@@ -52,6 +52,7 @@ sources:
   - raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md
   - raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md
   - raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md
+  - raw/posts/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md
 ---
 
 # Stock selection
@@ -67,6 +68,8 @@ Market environment is a prerequisite: "The best rules for picking stocks will fa
 Restated in 2022 with its O'Neil provenance — "most of the stocks that Bill O'Neil graphed as among his greatest winners were stocks that had bases at or approaching their all-time-highs. If you want to ride a stock to the moon one needs to get on a launched rocket that is hitting a series of ATHs" ([WW 2022-10-03](../../raw/posts/2022-10-03-blog-post-day-25-of-qqq-short-term-down-trend-see-my-new-way-to-scan-for-stocks-near-their-recent-ath-and-glb.md)) — and in 2025 with the exclusion made explicit: "like Nicolas Darvas and William O'Neil, [I] buy only when a stock trades at or near an ATH. I am not interested in buying the fallen leaders until or **IF** they ever trade at an ATH. We never know in advance when a rebound will end. The stocks that reach an ATH early in a market up-trend are proving themselves worthy of my attention and money." ([WW 2025-04-20](../../raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md))
 
 And the negative rule, March 2022: "growth stocks are underperforming now and few of the fallen leaders will retake their ATHs. **We need to stop looking for bargains.** The leaders will show up on the new 52 week high list, preferably reaching all-time-highs." ([WW 2022-03-06](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))
+
+**The most quotable statement of it (April 2009, as the bottom turned):** "Stocks on the 52 week new high lists that are also at or near all time highs is where I find potential rockets… **While most of the world looks for bargain stocks at new lows, I seek rockets heading to the moon.** The greatest winning stocks are those heading up to ever higher levels. Think of how many times that YHOO or CSCO or MSFT hit all time new highs as they multiplied their prices many times… **If you want to hop a rocket to the moon, it better be pointing up and gaining altitude.**" ([WW 2009-04-12](../../raw/posts/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md))
 
 ## Why "already doubled" — and the gap rule
 
@@ -332,3 +335,4 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2020-03-29 — 13 Needles in a haystack; $TNK, $ZM, $CHWY, $QDEL, $TDOC, $CTXS, $LMNX, $NET + 5 more………](../../raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md) ([summary](../sources/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md))
 - [WW 2012-06-11 — 39th day of QQQ short term down-trend; ASPS break-out?](../../raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md) ([summary](../sources/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md))
 - [WW 2018-06-03 — 3 Recent GLB stocks: $ENVA $GDOT $TSG](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md) ([summary](../sources/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md))
+- [WW 2009-04-12 — Buying Rocket Stocks; My market indicators are very strong.](../../raw/posts/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md) ([summary](../sources/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md))

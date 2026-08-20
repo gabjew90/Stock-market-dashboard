@@ -26,6 +26,7 @@ sources:
   - raw/posts/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md
   - raw/posts/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md
   - raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md
+  - raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -85,6 +86,8 @@ The 2005 founding statement: "Experienced traders do not care which way the mark
 
 **Short interest read from the long side (2024).** On QS, rocketing on solid-state-battery news: "QS had a **high short interest ratio** signifying that many speculators will need to rush to buy shares to cover their short positions" — the squeeze as an accelerant on good news, the same mechanism he had explained in the [2009 uptick-rule essay](#shorting-and-hedging). ([WW 2024-01-04](../../raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md))
 
+**The down-side accumulation rule, with a live position (2023).** "About 40% of new QQQ short term down-trends, as I define them, end in 5 days or less. **I bought a little SQQQ on Wednesday and will accumulate more as the down-trend progresses, especially if it can pass a fifth day.**" The mirror of the Day-1/Day-5 rule on the long side. ([WW 2023-08-09](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md))
+
 ## Protective puts — the 2005 original, and the put-vs-stop rule
 
 The insurance framing is fully formed in **June 2005** — four years before the 2009 tutorial —
@@ -140,3 +143,4 @@ By 2012 he was "teaching myself to write the new weekly covered calls on the SPY
 - [WW 2010-05-24 — Submarine scan worked–PWRD dives; Market treacherous](../../raw/posts/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md) ([summary](../sources/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md))
 - [WW 2012-09-30 — 3rd day of QQQ short term down-trend; Teach MarketWatch Contest Value of TA](../../raw/posts/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md) ([summary](../sources/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md))
 - [WW 2024-01-04 — Blog Post: $QQQ short term up-trend could end Friday;  Meanwhile, $QS rockets higher on battery test results. ](../../raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md) ([summary](../sources/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md))
+- [WW 2023-08-09 — Blog Post: Day 1 of new $QQQ short term down-trend and GMI=3. Many fallen angels, $SMCI, $AAPL, $CMG; Buying $](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md) ([summary](../sources/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md))
