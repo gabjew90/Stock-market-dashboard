@@ -12,8 +12,9 @@ from ww.breadth.fetch import fetch_panel, update_panel
 from ww.breadth.series import build_fund_proxy, compute_breadth_series
 from ww.breadth.symbols import build_universe, download_symbol_files
 from ww.breadth.validate import validate_against_reported
-from ww.corpus.index import read_posts_jsonl
+from ww.corpus.index import read_posts_jsonl, update_records
 from ww.corpus.ledger import apply_ledger, export_ledger, reconstruct_from_wiki, write_ledger
+from ww.corpus.tiering import screen
 from ww.corpus.timeline import build_timeline
 from ww.indicators.breadth_provider import BreadthProvider
 from ww.maintain.lint import lint_wiki
@@ -342,6 +343,47 @@ def batch(
         typer.echo(f"raw/posts/{r.stem}.md\t[{r.kind_guess}, {r.word_count}w]\t{r.title}")
     suffix = "".join(f" ({x})" for x in (kind, category) if x)
     typer.echo(f"# {min(n, len(records))} of {len(records)} un-ingested{suffix}")
+
+
+@app.command()
+def tier(
+    root: Path = typer.Option(Path("."), "--root", help="Repo root."),
+    apply: bool = typer.Option(False, "--apply", help="Write the tiers. Without this, dry-run only."),
+    show: int = typer.Option(10, "--show", help="How many held posts to list."),
+) -> None:
+    """Bulk-tier un-ingested routine market notes as `daily_update`, holding anything that
+    might teach (see `ww.corpus.tiering`).
+
+    A *held* post is left untiered and un-ingested on purpose — "not yet read" is not a
+    classification, and the point is to leave a small prioritised queue rather than sweep
+    the corpus flat. Dry-run by default.
+    """
+    posts_jsonl = Path(root) / "raw" / "posts.jsonl"
+    records = [r for r in read_posts_jsonl(posts_jsonl) if not r.ingested]
+    tiered, held = {}, []
+    for r in records:
+        body_path = Path(root) / "raw" / "posts" / f"{r.stem}.md"
+        body = body_path.read_text(encoding="utf-8").split("---", 2)[-1] if body_path.exists() else ""
+        s = screen(kind_guess=r.kind_guess or "unknown", word_count=r.word_count or 0,
+                   text=body, title=r.title or "")
+        if s.hold:
+            held.append((r, s))
+        else:
+            tiered[r.post_id] = {"tier": s.tier, "ingested": True,
+                                 "summary": f"[bulk-tiered] {s.reason}"}
+
+    for r, s in sorted(held, key=lambda h: -(h[0].word_count or 0))[:show]:
+        typer.echo(f"hold  {r.date[:10]}  {r.word_count or 0:4d}w  {r.stem[:56]:56s}  {s.reason}")
+    if len(held) > show:
+        typer.echo(f"# ... and {len(held) - show} more held")
+
+    typer.echo(f"tier: {len(tiered)} -> daily_update, {len(held)} held for reading"
+               f" (of {len(records)} un-ingested)")
+    if not apply:
+        typer.echo("# dry run — re-run with --apply to write, then `ww ledger export`")
+        return
+    update_records(posts_jsonl, tiered)
+    typer.echo(f"tier: wrote {len(tiered)} rows to {posts_jsonl}")
 
 
 @app.command()

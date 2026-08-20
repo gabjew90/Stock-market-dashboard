@@ -217,6 +217,10 @@ of what matters most (145 posts). Also `Tutorial`, `UMDSMC Education Posts`, `Ni
 `ww ledger export` — write the curated post state (tier/summary/ingested/summary_page) to `raw/ingest-ledger.jsonl`. **Run this after every Ingest batch and commit the result** alongside `raw/posts.jsonl`.
 `ww ledger apply` — restore that state onto a freshly-scraped `raw/posts.jsonl`.
 `ww ledger rebuild` — recovery path: reconstruct the ledger from `wiki/sources/*.md` if the ledger is lost too (recovers ingested teaching/trade_example rows only).
+`ww tier` — bulk-tier un-ingested **routine** market notes as `daily_update`, *holding* anything that
+might teach (a first-person rule statement in the body, a long body, or `kind_guess == long_form`).
+Held posts are left untiered and un-ingested so the queue stays a real prioritised list. Dry-run by
+default; `--apply` writes, then run `ww ledger export`. Logic and thresholds: `src/ww/corpus/tiering.py`.
 `ww stats` — corpus + (later) wiki counts.
 `ww lint .` — mechanical wiki integrity checks.
 `ww timeline` — (Plan 2.5) build `raw/timeline.parquet` from `daily_update` posts.
@@ -243,19 +247,21 @@ re-scraped and **committed** — `raw/posts/` and `raw/posts.jsonl` are now in v
 (see §1). The scrape picked up 39 posts published since the previous 2026-05-11 corpus.
 `raw/url_map.json` still catalogues slug→URL.
 
-**299 posts are ingested as of 2026-08-18** (ledger rows; ~265 `teaching`/`trade_example` with a page under
-`wiki/sources/`, plus ~34 `daily_update` rows carrying only a summary). **The `long_form` queue is
-fully ingested (175/175)**; the remaining work is `unknown`-kind posts (~1,030, mostly daily notes). Run `uv run ww ledger export` after
-every batch and commit the ledger alongside `posts.jsonl`.
+**4,246 posts are ingested as of 2026-08-18** (ledger rows): **314 read by hand** (~285
+`teaching`/`trade_example` with a page under `wiki/sources/`, the rest `daily_update` rows carrying
+only a summary), plus **3,932 bulk-tiered** by `ww tier` — routine market notes screened and marked
+`daily_update`, each with a `[bulk-tiered]` summary saying why. **The `long_form` queue is fully
+ingested (175/175).** Run `uv run ww ledger export` after every batch and commit the ledger
+alongside `posts.jsonl`. (The tier regression noted here through 2026-08-18 is resolved: `ww stats`
+by-tier counts are meaningful again.)
 
-*Tier regression to be aware of:* the corpus had been fully tiered before it was lost, but
-`ww ledger apply` only restores rows that have a summary page, so **the ~4,460 `daily_update`
-and ~18 `meta` tiers must be re-derived** — currently ~4,583 rows have `tier: null`. This does
-not block ingest work (`kind_guess` still partitions the corpus: 2,708 `unknown`,
-1,811 `daily_update`, 175 `long_form`), but `ww stats` by-tier counts will look wrong until
-someone re-runs the tiering. `raw/timeline.parquet` is unaffected — rebuild with `ww timeline`.
-
-To pick the next batch: `uv run ww batch --kind unknown` (long_form is exhausted); prefer posts whose titles carry a teaching hook ("how I", "why", scans, rules) — see the 2026-08-18 lint entries in `wiki/log.md` for the triage method.
+**The remaining queue is 448 posts** — everything `ww tier` *held* rather than swept: 373 carrying a
+first-person teaching marker in the body and 75 with a long body and no marker. These are untiered
+and un-ingested on purpose ("not yet read" is not a classification). Pick the next batch with
+`uv run ww batch -n 20`, or re-run `uv run ww tier` to see the held list with its reasons, longest
+first. Both hand-triage seams that produced the 314 are worked out — filtering *titles* for teaching
+hooks, then scanning *bodies* for rule statements — so the 448 are what those screens could not
+clear; read them.
 
 **Known coverage gaps** (full list in the 2026-08-12 lint entry in `wiki/log.md`). *Closed
 2026-08-12:* **OSB / ATHOSB** (now `methodology/oversold-bounce.md`), the **2021 $200 revision**
