@@ -1,7 +1,7 @@
 ---
 title: Track record — calls & outcomes
 type: history
-updated: 2026-08-12
+updated: 2026-08-18
 sources:
   - raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md
   - raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md
@@ -29,7 +29,7 @@ sources:
 
 Notable market calls Dr. Wish made on the blog and how they turned out.
 
-**Data note:** this page draws on `raw/timeline.parquet`, built by `ww timeline` from **3,402** parsed daily-update posts (2005-07-25 – 2026-08-11). Of those, **997** rows are high-confidence (GMI value or QQQ day-count extracted); **2,405** are flagged (narrative-only or image-only posts where the parser could not extract a number). *(Counts refreshed 2026-08-12 after `kind_guess` became title-aware, which reclassified ~1,600 title-only daily posts from `unknown` to `daily_update` and nearly doubled the row count. The high-confidence count barely moved because those posts carry their readings in the title or the GMI-table image, not the body — parsing the images is the outstanding upgrade. The parquet is gitignored; rebuild with `ww timeline`.)* Individual calls below are cited to the specific posts from which the claim is drawn; the timeline dataset is referenced for aggregate patterns. Do not read the dataset entries as a complete audit trail — some posts are image-only or paywalled during archival, and the parser is conservative.
+**Data note:** this page draws on `raw/timeline.parquet`, built by `ww timeline` from **4,197** parsed daily-update posts (2005-04-24 – 2026-08-11). Of those, **1,154** rows are high-confidence (GMI value or QQQ day-count extracted); **3,043** are flagged (narrative-only or image-only posts where the parser could not extract a number). *(Counts refreshed 2026-08-18 after `ww tier` bulk-tiered 3,932 routine notes as `daily_update` — `ww timeline` parses only that tier, so the row count rose from 3,402 and the start date moved back from 2005-07-25 to the blog's second week. The high-confidence share is still ~27%: most of these posts carry their readings in the title or the GMI-table image rather than the body, so parsing the table images remains the outstanding upgrade.)* Individual calls below are cited to the specific posts from which the claim is drawn; the timeline dataset is referenced for aggregate patterns. Do not read the dataset entries as a complete audit trail — some posts are image-only or paywalled during archival, and the parser is conservative.
 
 ---
 
