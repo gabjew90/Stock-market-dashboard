@@ -59,6 +59,7 @@ sources:
   - raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md
   - raw/posts/2005-05-05-is-the-fed-done-ww-gmi-2.md
   - raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md
+  - raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md
 ---
 
 # Risk & cash
@@ -128,6 +129,8 @@ Dr. Wish is explicit and detailed about how stops are used:
 He credits Nicolas Darvas's use of stop-losses as a key element of Darvas's fortune. ([WW 2010-03-15](../../raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md))
 
 **A caveat from the August 2015 flash crash.** A resting stop order assumes an orderly market. On 2015-08-24 his preferred-stock ETF PFF opened at 38.52 against a 39.01 close, traded to 32.32 within ten minutes, and closed at 38.26 — priced by panic order flow, not by its holdings' value. "Imagine what would have happened if I had placed a market order to sell or had a standing sell stop order in place to protect me against a small decline! I might have been sold out at a huge loss." His conclusion was narrow — it soured him on holding *ETFs* rather than on stops ("this experience is enough to keep me away from most ETFs"; mutual funds price once, on computed NAV) — but it is the one documented case where his stop doctrine met its failure mode. ([WW 2015-09-08](../../raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md))
+
+**Order type: at the market.** His doctrine, stated in 2005 against Cramer's limit-order advice: "**BUY AND SELL AT THE MARKET!**… fortunes have been lost by persons trying to hold out for the last 1/8th of a point… It could be suicide to put a limit order in on a sell and not be able to sell because the stock never traded at my limit price." A few cents of slippage is the premium for never missing the exit — or the entry. The same post shows re-entry as a **resting order rather than a decision**: stopped out of ORCT for a small loss, he left a buy-stop standing above the prior peak, which triggered days later "without my having to pay any attention to it," right at the breakout. "Some of my best trades have come from buying back shares that I had recently been scared out of." A stop-*limit* would have risked missing the move — automation carries the discipline the emotions would drop. ([WW 2005-05-26](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md))
 
 ## Noise isolation as a precondition for clear analysis
 
@@ -322,3 +325,4 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2005-07-02 — The trend is our friend; GMI: +3; Interest rates rising; a short list of stocks](../../raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md) ([summary](../sources/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md))
 - [WW 2005-05-05 — Is the Fed Done?  WW-GMI: +2](../../raw/posts/2005-05-05-is-the-fed-done-ww-gmi-2.md) ([summary](../sources/2005-05-05-is-the-fed-done-ww-gmi-2.md))
 - [WW 2021-11-21 — Blog post: Day 25 of $QQQ short term up-trend; I started this blog in 2006 to share with people what I was doi](../../raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md) ([summary](../sources/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md))
+- [WW 2005-05-26 — cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md) ([summary](../sources/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md))

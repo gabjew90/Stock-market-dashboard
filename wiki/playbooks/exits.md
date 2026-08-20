@@ -61,41 +61,17 @@ He can buy protective puts inside his IRA (requires option account approval). ([
 
 ---
 
-## Step 3 — Trailing the stop as the position profits
+## Step 3 — Trail the stop as the position profits
 
-As the stock advances, move the stop up to protect profits. He has published **three trailing systems** and they are not interchangeable — which one applies depends on the horizon and on how much profit is at risk. Read the [reconciliation](#which-trailing-system-when) before picking one.
+Three published trailing systems, not interchangeable — [which one applies](#which-trailing-system-when) depends on horizon and how much profit is at risk.
 
-**Daily RWB chart — the fast exit for extended winners (2017):**
+| System | Trigger to exit | Detail |
+|---|---|---|
+| **Weekly 4/10/30 ladder** (2016, the default) | Weekly *close* under the **10-week** exits; a close under the 4-week warns | [moving-average-rules](../methodology/moving-average-rules.md#the-4-week--10-week--30-week-alignment--a-weekly-stock-rule) |
+| **Daily RWB** (2017, for extended winners) | A *close* below all six red lines — two closes if the gain is large | [gmma-charts](../methodology/gmma-charts.md#the-daily-rwb-chart--a-finer-grained-tool) |
+| **Weekly green bars** (2024) | 4wk crossing below 10wk, or a close under the last green bar's low | ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md)) |
 
-In December 2017 he wrote that the weekly 10-week close rule "could lose me a lot of the profit" and that he had "therefore returned to using a daily RWB chart... to inform both my buy and sell decisions." ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md)) That was a real shift at the time — but by 2019 he had reversed the *sell* side back to weekly-first (see below), keeping the daily exit for the case that motivated it: a big winner where a weekly close under the 10wk gives back too much.
-
-The daily chart has 12 exponential moving averages plotted: 6 shorter-term (red) and 6 longer-term (blue). The price is shown as a dotted line. Exit rules:
-
-- **Standard rule:** sell if the stock *closes below all six red lines*. Intraday dips below the red lines do not count — only closes. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
-- **Large-profit modification:** for positions with a large unrealized gain, wait for **two consecutive closes below all red lines** before selling, to reduce whipsaw risk. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
-- **Red-line convergence:** when the six red lines converge (compress together), the stock has stalled. Do not anticipate direction — wait for a breakout in either direction. "React, do not anticipate." ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
-- **White space disappears:** if the white gap between the red and blue averages closes entirely (the two sets converge), sell the position. ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
-
-**Stop level from the daily chart:** the value of the *lowest red line* (the 15-day EMA, shown in large digits on the TC2000 chart after the word "optionable") is a specific dollar-level stop. If the stock looks like it will close below that value, exit. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
-
-Alternatively, the pattern of purple dots (daily lows) on the chart shows recent support levels — a more conservative stop can be placed below the most recent cluster of daily lows. ([WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
-
-**Weekly chart — the 4wk/10wk hold ladder (2016), the default for strong holdings:**
-
-Dr. Wish uses three simple moving averages on the weekly chart (4wk, 10wk, 30wk) to stay in an advancing growth stock without being prematurely shaken out by daily noise. Inspiration: William O'Neil reportedly used only weekly charts because they "more clearly revealed the meaningful stock trends." ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
-
-Rules:
-- A strong growth stock maintains 4wk > 10wk > 30wk and stays near an all-time high for long stretches. During a strong advance it often goes many weeks without a weekly close below the 4wk average.
-- **4wk close violation:** weekly close below the 4wk average → potential sign of weakening. Raise stops or sell a small piece of the position; watch closely. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
-- **10wk close violation:** weekly close below the 10-week moving average → **exit the position immediately**. "Growth stocks should not close the week below their 10 week average." ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
-- **Intraweek noise rule:** a stock often trades intraweek below the 4wk average only to close the week back above it. Use weekly *closing* prices only — not intraday levels — to evaluate these rules. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
-- Worked examples: NTES held the 4>10>30 pattern for 21 weeks while advancing 40%+ in 2016. NVDA held a similar pattern through its major 2016 advance. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
-
-**Weekly green-bar system (2024)** — the same weekly logic restated with a bar-colour overlay:
-- Sell if the **4-week average declines below the 10-week average**. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
-- Sell (or tighten stop) if the stock closes below the low of the most recent green bar. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
-
-The weekly approach suits part-time traders: decisions are made on Friday evening or over the weekend with the full weekly bar available. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md); [WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
+Stop *levels* on the daily chart: the lowest red line (15-day EMA), or below the recent cluster of daily lows for a more conservative stop. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md), [WW 2017-03-19](../../raw/posts/2017-03-19-how-i-use-daily-rwb-charts-to-size-up-the-market-and-individual-stocks-run-my-new-scan.md))
 
 ---
 
@@ -109,6 +85,31 @@ When the overall market turns against you, the individual-stock trailing rules m
 - **New lows surging while index at ATH (breadth divergence):** a signal to exit. Example: in November 2021, QQQ was at all-time highs (day U-26) while new lows reached 438. Dr. Wish exited and stayed out for over a year through the subsequent Stage 4 decline. ([WW 2023-06-19](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 
 ---
+
+## Step 5 — Before every sale, check the weekly
+
+The standing veto on daily-chart sell signals: **look at the stock's weekly chart before every sale of a long position; if it is still holding its rising 10-week average, do not sell.** He buys on daily set-ups and sells only off the weekly. ([WW 2019-03-15](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md)) The worked case (COUP, two daily sell signals overruled) and the note he keeps on his monitor are on [moving-average-rules](../methodology/moving-average-rules.md#the-10-week-average--the-holding-rule-for-individual-stocks).
+
+---
+
+## Step 6 — Use market orders
+
+Sell (and buy) **at the market**, not with limit orders — "it could be suicide to put a limit order in on a sell and not be able to sell because the stock never traded at my limit price." If you want back in after being stopped out, leave a **standing buy-stop** above the prior peak rather than deciding again later. ([WW 2005-05-26](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md)) Reasoning: [risk-and-cash](../methodology/risk-and-cash.md#stop-loss-discipline--the-mechanics).
+
+---
+
+## Which trailing system when
+
+The three systems above plus the weekly-first rule look contradictory read in isolation. Laid out by date and by the risk each one manages, they are one policy:
+
+| Year | System | Manages | When it governs |
+|---|---|---|---|
+| 2016 | Weekly 4wk > 10wk > 30wk ladder — warn on a close under the 4wk, exit on a close under the 10wk ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md)) | Shakeout — being bounced out of a good stock by daily noise | The **default** for a strong growth stock in an ordinary advance |
+| 2017 | Daily RWB — sell on a close under all six red lines (two closes if the gain is large); at the time stated as governing "both my buy and sell decisions" ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md)) | Profit give-back — waiting for a weekly close under the 10wk "could lose me a lot of the profit" | Dec 2017 – early 2019: his stated default. After 2019: an **extended winner** that has run far above its weekly averages |
+| 2019–20 | "Look at the weekly chart before every sale... if the stock is still holding its rising 10 week average, do not sell" ([WW 2019-03-15](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md), [WW 2020-09-20](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md)) | Shakeout, again — an explicit veto on daily-chart sell signals | **Every** discretionary sale of a long; it reverses the 2017 sell-side shift and re-asserts 2016 as the default |
+| 2024 | Weekly green-bar overlay — sell if 4wk < 10wk or on a close under the last green bar's low ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md)) | Same as 2016, restated visually | Interchangeable with the 2016 ladder |
+
+So the operating rule *as of his most recent statements* is: **weekly first, always; the daily RWB exit is the exception he grants himself for a big winner where the 10-week close would cost too much.** The sequence is a genuine evolution, not a contradiction: weekly (2016) → daily for both buy and sell (Dec 2017) → sell only off the weekly, buy off the daily (2019, enforced with a note on his monitor in 2020) → weekly green bars (2024). Where a page elsewhere in this wiki calls the daily RWB exit his "primary" trailing signal, that is correct for 2017–18 and stale after March 2019.
 
 ## Notes / caveats
 
@@ -125,48 +126,6 @@ When the overall market turns against you, the individual-stock trailing rules m
 - [Risk & cash](../methodology/risk-and-cash.md)
 - [Moving-average rules](../methodology/moving-average-rules.md)
 - [Green Line Breakouts (GLB)](../methodology/green-line-breakouts.md)
-
-## Order types: at the market, and the standing re-entry buy-stop
-
-**"BUY AND SELL AT THE MARKET!"** — his order-type doctrine, stated in 2005 against Cramer's
-limit-order advice: "fortunes have been lost by persons trying to hold out for the last 1/8th of
-a point... It could be suicide to put a limit order in on a sell and not be able to sell because
-the stock never traded at my limit price." A few cents of slippage is the premium for never
-missing the exit (or the entry). ([WW 2005-05-26](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md))
-
-The same post shows re-entry as a **resting order rather than a decision**: stopped out of ORCT
-for a small loss, he left a buy-stop standing above the prior peak — which triggered days later
-"without my having to pay any attention to it," right at the breakout. "Some of my best trades
-have come from buying back shares that I had recently been scared out of." A stop-*limit* would
-have risked missing the move. Automation carries the discipline the emotions would drop.
-
-## The timeframe asymmetry: buy on the daily, sell only off the weekly
-
-The anti-shakeout rule, stated as a standing procedure: "**look at the stock's weekly chart
-before every sale** of a long position. If the stock is still holding its **rising 10 week
-average**, do not sell" — because "most of the time one gets shaken out of a good stock it is
-because there is a sudden drop below an indicator **on the daily chart**." The asymmetry in
-full: "while I may **time the purchase** of a stock based on its set-up of **daily** indicators,
-I should only **sell it after viewing its weekly chart**." The COUP example is a hard test — two
-of his own daily sell signals fired (an intraday green-line violation and an
-above-average-volume decline) while the weekly showed a bounce off the rising 10-week; he held.
-([WW 2019-03-15](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md))
-
-He enforces it physically: "**I have created a note on my monitor that says I must look at the
-weekly chart before I sell.**" ([WW 2020-09-20](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
-
-## Which trailing system when
-
-The three systems above plus the weekly-first rule look contradictory read in isolation. Laid out by date and by the risk each one manages, they are one policy:
-
-| Year | System | Manages | When it governs |
-|---|---|---|---|
-| 2016 | Weekly 4wk > 10wk > 30wk ladder — warn on a close under the 4wk, exit on a close under the 10wk ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md)) | Shakeout — being bounced out of a good stock by daily noise | The **default** for a strong growth stock in an ordinary advance |
-| 2017 | Daily RWB — sell on a close under all six red lines (two closes if the gain is large); at the time stated as governing "both my buy and sell decisions" ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md)) | Profit give-back — waiting for a weekly close under the 10wk "could lose me a lot of the profit" | Dec 2017 – early 2019: his stated default. After 2019: an **extended winner** that has run far above its weekly averages |
-| 2019–20 | "Look at the weekly chart before every sale... if the stock is still holding its rising 10 week average, do not sell" ([WW 2019-03-15](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md), [WW 2020-09-20](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md)) | Shakeout, again — an explicit veto on daily-chart sell signals | **Every** discretionary sale of a long; it reverses the 2017 sell-side shift and re-asserts 2016 as the default |
-| 2024 | Weekly green-bar overlay — sell if 4wk < 10wk or on a close under the last green bar's low ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md)) | Same as 2016, restated visually | Interchangeable with the 2016 ladder |
-
-So the operating rule *as of his most recent statements* is: **weekly first, always; the daily RWB exit is the exception he grants himself for a big winner where the 10-week close would cost too much.** The sequence is a genuine evolution, not a contradiction: weekly (2016) → daily for both buy and sell (Dec 2017) → sell only off the weekly, buy off the daily (2019, enforced with a note on his monitor in 2020) → weekly green bars (2024). Where a page elsewhere in this wiki calls the daily RWB exit his "primary" trailing signal, that is correct for 2017–18 and stale after March 2019.
 
 ## Sources
 
