@@ -320,6 +320,11 @@ sources:
   - raw/posts/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md
   - raw/posts/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md
   - raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md
+  - raw/posts/2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks.md
+  - raw/posts/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md
+  - raw/posts/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md
+  - raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md
+  - raw/posts/2014-10-19-16th-day-of-qqq-short-term-down-trend-bottom-or-dead-cat-bounce-keeping-an-eye-on-the-baby.md
 ---
 
 # Timeline — evolution of the methodology
@@ -472,6 +477,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"My apology; GMI: +2; short term down-trend defined" (2005-12-29):** "when the indexes close below their 30 day averages, I tend to get in cash or go short"; only 6% of doublers at a new high — "further evidence that the leaders are weak"; the longer-term up-trend still intact. ([WW 2005-12-29](../../raw/posts/2005-12-29-my-apology-gmi-2-short-term-down-trend-defined-why-fight-the-odds.md))
 
+## December 2005 (cont.) — the 10-day/30-day cross as the short-term test
+
+**"GMI: +4; mixed signals" (2005-12-26):** the short-term trend read off the averages before the day count existed — "its declining 10 day average is just above the 30 day average (41.52/41.49). The last time the QQQQ's 10 day average was below its 30 day was on October 31 at the beginning of the rally"; only 10% of doublers at a new high — "there is some pressure on the leaders." ([WW 2005-12-26](../../raw/posts/2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks.md))
+
 ## January 2006 — the "What if?" credo; trade with the trend
 
 **"Happy New Year — What if?; GMI +2; Trade with the trend" (2006-01-03):** six what-ifs → "isolate ourselves from outside opinions, use our charts… place our bets, and quickly and ruthlessly cut our losses… each small loss brings us closer to the next big gain." Adviser sentiment 60.4% bulls as a contrary read; 3% of 176 doublers at new highs; QQQQ under its 10-week; "a time to be short or in cash." ([WW 2006-01-03](../../raw/posts/2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend.md))
@@ -496,6 +505,14 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"GMI: 0; 185 Submarines, 8 Rockets; Brainwashed against shorting" (2006-06-12):** IBD MF index under its 200-day; GMI-L 19; the IBD100 Stage 2 statistic (68% vs 38%); 100% cash in the pension — "a chicken… avoided all significant market declines since 1995, but have not missed out on the subsequent rises"; "it is much more risky to buy stocks in a market down-trend." ([WW 2006-06-12](../../raw/posts/2006-06-12-gmi-0-185-submarines-8-rockets-brainwashed-against-shorting.md))
 
+## June 2006 (construction) — GMI-S and GMI-L share one design
+
+**"GMI: +2; indicators still improving" (2006-06-05):** "**each index measures 4 trend indicators each for the DIA, IJR, SPY and QQQQ**" — GMI-S and GMI-L are both 16 tests, four per ETF, differing only in horizon; component 1 read as a probability (55% long vs 40% short) on a denominator of 11 he calls small. ([WW 2006-06-05](../../raw/posts/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md))
+
+## July 2006 (breadth) — cap-weighted indexes masking the decline
+
+**"GMI: 0; indicators deteriorate on biased market indexes" (2006-07-18):** "50-54% of the stocks in the Nasdaq 100, S&P 500 and Dow 30 indexes advanced on Monday, **but only 36% of my universe of 4,000 stocks rose**"; 16 new highs against 195 new lows; component 1 at 19% — "buying stocks at new highs has not been profitable." The 2021 divergence mechanism, observed in 2006. ([WW 2006-07-18](../../raw/posts/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md))
+
 ## August 2006 — the new-low mirror statistic; MACD breadth as the earliest indicator; the IBD 100 Index survivorship caveat
 
 **"GMI: +3; QQQQ masks underlying strength in IBD-100" (2006-08-07):** the successful-10-day-new-**low** percentage already in the table (25% of 260 → "shorting new lows has been unlikely to have been profitable"); "% above MACD signal line" called "my earliest indicator of a possible up-trend"; IBD MF index back near its 50-day; CNBC muted à la Roppel; "wade slowly." ([WW 2006-08-07](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md))
@@ -505,6 +522,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## August 2006 (cont.) — a tradeable rally: GMI-S 100 vs GMI-L 63; the reaction to news
 
 **"GMI: 5?; GMI-S: 100; Short-term rally?" (2006-08-21):** the market's failure to fall on the British terror plot as a strength tell; "5?" at 97 new highs; GMI-S 100 / GMI-L 63 → tradeable rally, shorts closed, wading in long; bet on the brokers (IAI). ([WW 2006-08-21](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md))
+
+## October 2006 (ETFs) — the ultra-ETF case, already quantified
+
+**"GMI: 6; IBD 100 performance; AAPL and GOOG" (2006-10-23):** QQQQ +8.9% since August 16 while **QLD rose 16.9%** — "by simply buying the QLD when the GMI signaled a rise and holding on… one could have received a 17% return — **a return that beat 84% of the Nasdaq 100 stocks**. Why try to find the few individual stocks that outperform the QQQQ?" The thesis, measured, nearly three years before the 2009 study. ([WW 2006-10-23](../../raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md))
 
 ## 2007 — the year the indicators were tested at a real top
 
@@ -1059,6 +1080,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## October 2014 (turn) — the short-term trend turns up and retakes the 30-week; Day-1 TQQQ nibble; GLB stocks shine
 
 **"QQQ short term trend turns up, retakes 30 week average; GLB stocks shine" (2014-10-26):** "it has to last 5 days for me to heavily accumulate TQQQ. I did take a small position… Buying right after a technical buy signal is actually low risk to me"; QQQ above its 30-week → Stage 2 intact; Q4 seasonality / window dressing; AAPL above its rising 10-week and green line; BABY, AGIO, RGLS, REGN; "I do not have the confidence to hold such stocks… through thick and thin." ([WW 2014-10-26](../../raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md))
+
+## October 2014 (pension) — taking money out into resistance
+
+**"16th day of $QQQ short term down-trend; bottom or dead cat bounce?" (2014-10-19):** GMI 0 after a sharp oversold bounce — "I therefore took **a very small amount** of my university pension out… **if the market rises to likely resistance levels, I will take more of my pension out of mutual funds, just in case**"; a broken multi-year SPY trendline, the 30-week penetrated, heavy down-volume; "I trade like a chicken. If I am wrong… I can always go back in." ([WW 2014-10-19](../../raw/posts/2014-10-19-16th-day-of-qqq-short-term-down-trend-bottom-or-dead-cat-bounce-keeping-an-eye-on-the-baby.md))
 
 ## October 2014 (cont.) — the pilot portfolio
 
@@ -2077,3 +2102,8 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2013-12-26 — 52nd day of $QQQ short term up-trend; $IEF and $TLT showing interest rates rising-getting more cautious](../../raw/posts/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md) ([summary](../sources/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md))
 - [WW 2014-04-06 — A Tale of Two Markets; IBD goes back to market in correction; Sell in May?](../../raw/posts/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md) ([summary](../sources/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md))
 - [WW 2016-09-11 — September swoon? Weak Fridays often lead to Ugly Mondays—Indicators I watch for a bottom](../../raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md) ([summary](../sources/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md))
+- [WW 2005-12-26 — GMI: +4; Mixed signals; GMI: contrary indicator?  New Year Nicolas Darvas type stocks](../../raw/posts/2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks.md) ([summary](../sources/2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks.md))
+- [WW 2006-06-05 — GMI: +2; Indicators still improving; New leaders?](../../raw/posts/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md) ([summary](../sources/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md))
+- [WW 2006-07-18 — GMI: 0; Indicators deteriorate; On biased market indexes](../../raw/posts/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md) ([summary](../sources/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md))
+- [WW 2006-10-23 — GMI: 6; IBD 100 performance; AAPL and GOOG](../../raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md) ([summary](../sources/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md))
+- [WW 2014-10-19 — 16th day of $QQQ short term down-trend; Bottom or dead cat bounce? Keeping an eye on the $BABY](../../raw/posts/2014-10-19-16th-day-of-qqq-short-term-down-trend-bottom-or-dead-cat-bounce-keeping-an-eye-on-the-baby.md) ([summary](../sources/2014-10-19-16th-day-of-qqq-short-term-down-trend-bottom-or-dead-cat-bounce-keeping-an-eye-on-the-baby.md))

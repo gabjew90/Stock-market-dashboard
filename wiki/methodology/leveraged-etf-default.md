@@ -1,7 +1,7 @@
 ---
 title: The leveraged-ETF default — TQQQ on a GMI Buy signal
 type: concept
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md
   - raw/posts/2011-01-04-2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs.md
@@ -23,11 +23,16 @@ sources:
   - raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md
   - raw/posts/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md
   - raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md
+  - raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md
 ---
 
 # The leveraged-ETF default — TQQQ on a GMI Buy signal
 
 When the market turns up, Dr. Wish's first purchase is usually not a stock but the 3× Nasdaq-100 ETF (TQQQ; earlier QLD/UPRO), bought on the first day of a new QQQ short-term up-trend and added to as the trend confirms. He justifies it with a series of year-in-review studies from 2009 on: the leveraged index ETF beat the large majority of individual growth stocks — including the IBD 50 — during QQQ up-trends, without the stock-picking problem. This page collects the studies and the rule. Where it sits in the daily decision is [Step 1 of the market-state playbook](../playbooks/market-state.md#step-1--read-the-gmi); the day-count statistics that make the Day-1 entry sensible are on [QQQ short-term timing](qqq-short-term-timing.md).
+
+## The thesis is older than the studies — October 2006
+
+Nearly three years before the June 2009 study below, the argument is already made *and measured*. Over an advance from August 16, 2006: QQQQ +8.9% with 73% of Nasdaq-100 stocks advancing (41% by more than 10%), while **QLD rose 16.9%**, SSO 10.9% and the Dow ultra 11.7%. His conclusion: "**by simply buying the QLD when the GMI signaled a rise and holding on during this rise, one could have received a 17% return — a return that beat 84% of the Nasdaq 100 stocks… Why try to find the few individual stocks that outperform the QQQQ**?" ([WW 2006-10-23](../../raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md)) Note that the entry condition is already the GMI, and the comparison is already against the *distribution* of component stocks rather than an average — the form every later measurement takes.
 
 ## The earliest ultra-ETF study (June 2009)
 
@@ -108,3 +113,4 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2011-02-04 — Nasdaq100 stocks (QQQQ): RWB up-trend; Ultra ETF’s outperform most stocks again](../../raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md) ([summary](../sources/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md))
 - [WW 2009-08-24 — Why search for great stocks when I can buy ultra ETF’s?](../../raw/posts/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md) ([summary](../sources/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md))
 - [WW 2012-03-12 — GMI out-performs in new study; GLD starting Stage 4 decline?](../../raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md) ([summary](../sources/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md))
+- [WW 2006-10-23 — GMI: 6; IBD 100 performance; AAPL and GOOG](../../raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md) ([summary](../sources/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md))

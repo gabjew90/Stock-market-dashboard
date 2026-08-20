@@ -26,6 +26,7 @@ sources:
   - raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md
   - raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md
   - raw/posts/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md
+  - raw/posts/2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks.md
 ---
 
 # QQQ Short-Term Timing
@@ -101,6 +102,8 @@ The count was present from the blog's earliest posts (2005) and appears in post 
 
 **2013 — a criterion experiment, tried and reverted.** In June 2013 he adopted a new short-term-trend-change criterion "trying to minimize the risk of being whip-sawed in my short term trend count." It cost him the start of a decline: "in doing so, I missed the beginning of the current decline. So I went back to my original method and counted the down trend from where it would have begun" — and re-published the corrected sequence (U-31 ending June 5, a 2-day down-trend, a 2-day up-trend, then the current down-trend from June 12). Two-day trends are therefore *expected output* of the rule he uses, not a defect to be filtered. ([WW 2013-06-24](../../raw/posts/2013-06-24-sell-in-may-worked-my-confession-d-9-of-current-short-term-down-trend.md)) The published day counts are also corrected in public when readers question them.
 
+**2005 — the 10-day/30-day relationship.** Before the day count became the published measure, the short-term trend was read off the averages: "the QQQQ closed Friday just below its 30 day average, and **its declining 10 day average is just above the 30 day average (41.52/41.49). The last time the QQQQ's 10 day average was below its 30 day was on October 31 at the beginning of the rally.**" ([WW 2005-12-26](../../raw/posts/2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks.md))
+
 ## Code — an approximation of the day count
 
 Based on the evidence above (see "What it is"), the 30-day MA rule is now well-supported rather than merely a proxy. [`src/ww/indicators/qqq_timing.py`](../../src/ww/indicators/qqq_timing.py) uses *close above its 30-day SMA = up* — this matches his explicit 2013 description of his current techniques. The day count tracks consecutive days since the last MA crossing:
@@ -163,3 +166,4 @@ a trade-able rally**." ([WW 2008-10-22](../../raw/posts/2008-10-22-gmi-0-gmi-r-0
 - [WW 2007-10-15 — gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks-some-cups-with-handles](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md)
 - [WW 2022-06-07 — blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-24-stocks-in-my-watchlist-hit-an-ath](../../raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md)
 - [WW 2011-03-15 — GMI at 1, as QQQQ short term down-trend completes 5th day; in cash and short; T2108 still neutral](../../raw/posts/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md) ([summary](../sources/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md))
+- [WW 2005-12-26 — GMI: +4; Mixed signals; GMI: contrary indicator?  New Year Nicolas Darvas type stocks](../../raw/posts/2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks.md) ([summary](../sources/2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks.md))

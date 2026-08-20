@@ -1,7 +1,7 @@
 ---
 title: The two accounts — university pension vs trading IRA
 type: concept
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md
@@ -30,6 +30,7 @@ sources:
   - raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md
   - raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md
   - raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md
+  - raw/posts/2014-10-19-16th-day-of-qqq-short-term-down-trend-bottom-or-dead-cat-bounce-keeping-an-eye-on-the-baby.md
 ---
 
 # The two accounts — university pension vs trading IRA
@@ -81,6 +82,8 @@ On the horizon question he gives the recovery time as **26 years** here — "aft
 **The January 2022 state, which corroborates the early exit.** With QQQ approaching its 30-week: "a weekly close below that level would get me out of everything, even in my university pension, **which is already reduced to about 20% invested in mutual funds**." ([WW 2022-01-09](../../raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md)) So by 9 January 2022 the pension was already ~80% out — consistent with the November 2021 breadth-divergence move he described in April 2022, and further evidence the formal 30-week trigger was not what drove it. In March 2025 the same sequence runs again, with the exit paced into strength: cash in the trading accounts, equity exposure reduced in the retirement accounts, "**and will sell the rest when we get a good bounce**." ([WW 2025-03-06](../../raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md))
 
 **The 2025 form of the conditional**, stated in one line while the market was still above its rising 30-week: "if it should close below that, **my GMI will turn to 0 and I will start to transfer university retirement accounts to cash**." ([WW 2025-01-09](../../raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md))
+
+**Sold into strength, not dumped (October 2014).** With the GMI at 0 after a sharp oversold bounce: "I therefore took **a very small amount** of my university pension out of the market on Friday. **If the market rises to likely resistance levels, I will take more of my pension out of mutual funds, just in case.**" ([WW 2014-10-19](../../raw/posts/2014-10-19-16th-day-of-qqq-short-term-down-trend-bottom-or-dead-cat-bounce-keeping-an-eye-on-the-baby.md)) The pacing is symmetric with his entries — scale out into strength as he scales in on confirmation — and it is the same instruction he gives in March 2025 ("will sell the rest when we get a good bounce"). What makes it affordable is reversibility: "if I am wrong, and the GMI returns to a Buy signal, I can always go back in."
 
 ## The pension has an administrative constraint, not just a signal
 
@@ -191,3 +194,4 @@ The 2011 statement, mid-decline: the best-days studies "fail to note that one di
 - [WW 2025-03-06 — Blog Post: Day 8 of $QQQ short term down-trend; 28 US new highs, 81 lows and 5 at ATH; I will resist the inevi](../../raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md) ([summary](../sources/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md))
 - [WW 2016-03-06 — 13 recent GLB stocks to monitor: $ALGN, $BMS, $CINF, $CNSL, $CPRT, $ELLI, $MO, $NLSN, $PNRA, $SWHC, $SYY, $TFX](../../raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md) ([summary](../sources/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md))
 - [WW 2025-01-09 — Blog Post: Day 6 of $QQQ short term down-trend; 144 US stocks at new lows and 42 at highs; $QQQ,$SPY,$DIA and ](../../raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md) ([summary](../sources/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md))
+- [WW 2014-10-19 — 16th day of $QQQ short term down-trend; Bottom or dead cat bounce? Keeping an eye on the $BABY](../../raw/posts/2014-10-19-16th-day-of-qqq-short-term-down-trend-bottom-or-dead-cat-bounce-keeping-an-eye-on-the-baby.md) ([summary](../sources/2014-10-19-16th-day-of-qqq-short-term-down-trend-bottom-or-dead-cat-bounce-keeping-an-eye-on-the-baby.md))

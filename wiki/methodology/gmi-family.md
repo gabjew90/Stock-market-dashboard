@@ -1,7 +1,7 @@
 ---
 title: The GMI family — GMI-S, GMI-L, GMI-R, GMI2 and the rest of the daily table
 type: concept
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md
   - raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md
@@ -21,6 +21,7 @@ sources:
   - raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md
   - raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md
   - raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md
+  - raw/posts/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md
 ---
 
 # The GMI family — GMI-S, GMI-L, GMI-R, GMI2 and the rest of the daily table
@@ -34,6 +35,8 @@ Dr. Wish occasionally published a **GMI-S** alongside the GMI. The GMI-S measure
 **Its construction is disclosed in 2007:** "Only one of the **16 short term indicators for the IJR, DIA, SPY and QQQQ** is positive (GMI-S: 6%)" — 1/16 ≈ 6%. So the GMI-S is the percentage of sixteen short-term indicators, four applied to each of four index ETFs (small-cap IJR, Dow DIA, S&P SPY and Nasdaq QQQQ), that are currently positive. The individual sixteen are not named. ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
 
 Read together with the GMI-L in August 2006: GMI-S 100 (every short-term indicator on four indexes positive) against GMI-L 63 and a still-negative weekly QQQQ component — "a tradeable rally," on which he closed shorts and waded in long, not a new bull. ([WW 2006-08-21](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md))
+
+**GMI-S and GMI-L share one construction.** A June 2006 line settles it: "63% of the GMI-L indicators are now positive as well as 44% of the GMI-S indicators. **Each index measures 4 trend indicators each for the DIA, IJR, SPY and QQQQ.**" ([WW 2006-06-05](../../raw/posts/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md)) So both are 16 tests — four per index ETF — reported as a percentage positive; they differ in the *horizon* of the trend indicators, not in design. That also explains why the two are always quoted together and on the same scale.
 
 ## GMI-S — construction fully visible in the table
 
@@ -199,3 +202,4 @@ rather than only the extreme.
 - [WW 2005-09-11 — GMI: +6; New “doubler” indicator; GMI and QQQQ trends; WPM shows short AND longer term strength; Staying long](../../raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md) ([summary](../sources/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md))
 - [WW 2022-08-25 — Blog Post: Day 28 of $QQQ short term up-trend; $QQQ very oversold and bounce likely; GLB: $CLH, how I buy a GL](../../raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md) ([summary](../sources/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md))
 - [WW 2013-08-25 — QQQ remains in Stage 2 up-trend; GMI2=8 (of 8)](../../raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md) ([summary](../sources/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md))
+- [WW 2006-06-05 — GMI: +2; Indicators still improving; New leaders?](../../raw/posts/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md) ([summary](../sources/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md))

@@ -66,6 +66,7 @@ sources:
   - raw/posts/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md
   - raw/posts/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md
   - raw/posts/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md
+  - raw/posts/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md
 ---
 
 # Risk & cash
@@ -212,6 +213,8 @@ An earlier worked read, July 2015, with the GMI at 6: the QQQ closed the week +5
 
 **The mechanism, spelled out days before the November 2021 exit.** SPY and QQQ are capitalisation-weighted, so "the few huge cap stocks like AAPL, MSFT etc. account for most of the movement in the index," while the price-weighted DIA was *not* at all-time highs — "the strength in the few very popular huge cap stocks are causing SPY and QQQ to not reflect the decline in most of their component stocks." ([WW 2021-11-21](../../raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md))
 
+**The 2006 instance, fifteen years before the 2021 exit.** "The markets weakened a lot more than was reflected in the major indexes. **50-54% of the stocks in the Nasdaq 100, S&P 500 and Dow 30 indexes advanced on Monday, but only 36% of my universe of 4,000 stocks rose**, along with just 23% of the stocks in the IBD 100 list… it was the large cap stocks reflected in the big indexes that were most likely to rise." With 16 new highs against 195 new lows and component 1 at 19% — "buying stocks at new highs has not been profitable." ([WW 2006-07-18](../../raw/posts/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md)) The measure is the same one he uses throughout: index-level breadth against universe-level breadth.
+
 ## T2108 as a contrarian bottom signal
 
 When [T2108](t2108.md) drops below 10%, the market is usually near the bottom of a steep decline. His action: "grit my teeth while the market gossip is terrible and buy a market index ETF." The market (not every individual stock) has always recovered from such extremes. ([WW 2014-08-03](../../raw/posts/2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl.md))
@@ -348,3 +351,4 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2013-12-26 — 52nd day of $QQQ short term up-trend; $IEF and $TLT showing interest rates rising-getting more cautious](../../raw/posts/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md) ([summary](../sources/2013-12-26-52nd-day-of-qqq-short-term-up-trend-ief-showing-interest-rates-rising-getting-more-cautious.md))
 - [WW 2014-04-06 — A Tale of Two Markets; IBD goes back to market in correction; Sell in May?](../../raw/posts/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md) ([summary](../sources/2014-04-06-a-tale-of-two-markets-ibd-goes-back-to-market-in-correction-sell-in-may.md))
 - [WW 2005-06-22 — Cramer discovers techs–finally!  IBD MeetUp; GMI: +5: Catching HANS](../../raw/posts/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md) ([summary](../sources/2005-06-22-cramer-discovers-techs-finally-ibd-meetup-gmi-5-catching-hans.md))
+- [WW 2006-07-18 — GMI: 0; Indicators deteriorate; On biased market indexes](../../raw/posts/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md) ([summary](../sources/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md))
