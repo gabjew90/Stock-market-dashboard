@@ -49,6 +49,8 @@ March 2016, after the January bottom: "for the first time in months, I moved som
 
 When the QQQ shows signs of weakening (approaching Stage 3/4), Dr. Wish exits the pension (401k/mutual fund) in stages to reduce timing error:
 
+*(The protocol as he practised it through 2014–2020; see the revision in practice below.)*
+
 1. **First trigger:** QQQ closes back below its 30-week average → begin moving 25% of pension from mutual funds to money market.
 2. **Each subsequent signal:** move another 25% if conditions continue to deteriorate.
 3. **Final trigger:** the 30-week average itself starts declining → move toward 100% money market.
