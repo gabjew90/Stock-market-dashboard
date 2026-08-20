@@ -1,7 +1,7 @@
 ---
 title: QQQ Short-Term Timing
 type: entity
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
@@ -121,13 +121,6 @@ def trend_day_count(daily_close, *, window=30):
 
 `ww compute qqq-timing QQQ` prints the approximated trend and day count — with the caveat printed alongside.
 
-## See also
-
-- [General Market Index (GMI)](gmi.md)
-- [Moving-average rules](moving-average-rules.md)
-- [Risk & cash](risk-and-cash.md)
-- [Market-state playbook](../playbooks/market-state.md)
-
 ## Duration base rates — the reasoning, live in 2008
 
 The published trend-duration statistics (2019) have an earlier, working form: on Day 36 of the
@@ -137,6 +130,13 @@ lasted **39 days**. So, **we may have a ways to go**." The reference class is re
 trends, and the output is an expectation, not a prediction. He also kept the short/long split
 working mid-crisis: a reversal "would occur within a longer term down-trend but **could still be
 a trade-able rally**." ([WW 2008-10-22](../../raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md))
+
+## See also
+
+- [General Market Index (GMI)](gmi.md)
+- [Moving-average rules](moving-average-rules.md)
+- [Risk & cash](risk-and-cash.md)
+- [Market-state playbook](../playbooks/market-state.md)
 
 ## Sources
 

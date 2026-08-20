@@ -270,3 +270,29 @@ def test_lint_accepts_a_well_formed_page(tmp_path):
             "## Sources\n\n- [WW 2020-01-01](../../raw/posts/2020-01-01-a.md)\n")
     root = _root_with(tmp_path, _page("title: P\ntype: concept\nupdated: 2026-08-12\nsources:\n  - raw/posts/2020-01-01-a.md\n", body))
     assert lint_wiki(root).errors == []
+
+
+def test_lint_flags_sections_appended_after_see_also(tmp_path):
+    """Repeated appends push new sections past '## See also', stranding it mid-page.
+
+    'See also' and 'Sources' are the page's closing matter; content after them reads as
+    an afterthought and is easy to miss.
+    """
+    body = ("# P\n\nBody.\n\n## See also\n\n- the index\n\n"
+            "## A section appended later\n\nStranded.\n\n## Sources\n\n_None yet._\n")
+    root = _root_with(tmp_path, _page("title: P\ntype: concept\nupdated: 2026-05-11\nsources: []\n", body))
+    report = lint_wiki(root)
+    assert any("after '## See also'" in e for e in report.errors), report.errors
+
+
+def test_lint_accepts_see_also_immediately_before_sources(tmp_path):
+    body = ("# P\n\nBody.\n\n## Real section\n\nText.\n\n## See also\n\n- the index\n\n"
+            "## Sources\n\n_None yet._\n")
+    root = _root_with(tmp_path, _page("title: P\ntype: concept\nupdated: 2026-05-11\nsources: []\n", body))
+    assert lint_wiki(root).ok, lint_wiki(root).errors
+
+
+def test_lint_accepts_a_page_without_a_see_also_section(tmp_path):
+    body = "# P\n\nBody.\n\n## Only section\n\nText.\n\n## Sources\n\n_None yet._\n"
+    root = _root_with(tmp_path, _page("title: P\ntype: concept\nupdated: 2026-05-11\nsources: []\n", body))
+    assert lint_wiki(root).ok, lint_wiki(root).errors

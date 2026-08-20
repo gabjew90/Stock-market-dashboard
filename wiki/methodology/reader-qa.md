@@ -1,8 +1,9 @@
 ---
 title: Reader Q&A — rules clarified in the comment threads
 type: concept
-updated: 2026-08-18
-sources: []
+updated: 2026-08-20
+sources:
+  - raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md
 ---
 
 # Reader Q&A — rules clarified in the comment threads
@@ -32,7 +33,9 @@ mechanics considerably more precise, and both differ from the naive reading.
   high: "I draw the green line on a monthly chart, **sometimes near its highest monthly close
   which may be below the highest price it traded at during the month if it did not hold**."
   ([WW comment 2013-10-01](https://wishingwealthblog.com/2013/10/#comment-14760)) A spike that
-  the month did not close near is not automatically the line.
+  the month did not close near is not automatically the line. **But note the supersession:** in
+  2022 he states the rule as the *high of the highest monthly bar*, above a month's close — see
+  [green-line-breakouts](green-line-breakouts.md#what-it-is). This comment describes 2013 practice. ([WW 2022-07-07](../../raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md))
 - **There is no GLB scan.** Asked to share one: "I do not have a single scan for this. I scan
   for new daily highs and then look at monthly charts and **manually draw in green lines** at
   all-time highs. Then I look for daily break-outs of the green line. I also use TC2000 to put
@@ -137,3 +140,8 @@ Readers asked for sizing rules at least five times (2009, 2011, 2012 ×2, 2014).
 
 _Comments, not posts — each claim is cited inline to its permalink. The underlying data is
 `raw/comments.jsonl` (`ww comments`); search it with `ww search "…" --source comments`._
+
+_The one post cited here, for a supersession:_
+
+- [WW 2022-07-07 — where the green line is drawn](../../raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md) ([summary](../sources/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md))
+

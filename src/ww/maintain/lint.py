@@ -29,6 +29,21 @@ _POST_CITATION = re.compile(r"raw/posts/([0-9]{4}-[0-9]{2}-[0-9]{2}-[^)\s]+?)\.m
 _SOURCES_HEADING = re.compile(r"^##\s+Sources\s*$", flags=re.MULTILINE)
 #: A line that is nothing but a bare XML-ish closing tag, e.g. `</content>` or `</invoke>`.
 _LEAKED_MARKUP = re.compile(r"^\s*</[a-zA-Z][\w-]*>\s*$")
+#: Top-level section headings, in document order.
+_H2 = re.compile(r"^##\s+(.+?)\s*$", flags=re.MULTILINE)
+
+
+def _sections_after_see_also(text: str) -> list[str]:
+    """Top-level sections that follow '## See also' other than '## Sources'.
+
+    Appending to a page repeatedly tends to push new sections past the closing matter,
+    stranding 'See also' in the middle: the new content then reads as an afterthought
+    and is easy to miss. 'See also' and 'Sources' are the page's last two sections.
+    """
+    names = _H2.findall(text)
+    if "See also" not in names:
+        return []
+    return [n for n in names[names.index("See also") + 1:] if n != "Sources"]
 
 
 def _is_external(target: str) -> bool:
@@ -167,6 +182,10 @@ def lint_wiki(root: Path) -> LintReport:
                     report.errors.append(f"{rel}: '## Sources' lists raw/posts/{stem}.md but front-matter `sources:` does not")
                 for stem in sorted(fm_stems - block_stems):
                     report.errors.append(f"{rel}: front-matter `sources:` lists raw/posts/{stem}.md but '## Sources' does not")
+
+        # 3d. Closing matter last. See `_sections_after_see_also`.
+        for name in _sections_after_see_also(text):
+            report.errors.append(f"{rel}: section '## {name}' appears after '## See also' — closing matter goes last")
 
         # 4. Every post cited in the body is listed in the page's own '## Sources' block
         #    (CLAUDE.md §3.4). Checked on the text, so it works without the corpus.

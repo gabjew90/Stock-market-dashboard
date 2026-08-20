@@ -1,58 +1,39 @@
 ---
 title: Green Line Breakouts (GLB)
 type: entity
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
-  - raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md
-  - raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md
-  - raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md
-  - raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md
-  - raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md
-  - raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
   - raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md
+  - raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md
+  - raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md
   - raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
-  - raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md
+  - raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md
+  - raw/posts/2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline.md
+  - raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md
+  - raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md
+  - raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md
+  - raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md
+  - raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md
+  - raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md
+  - raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md
   - raw/posts/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md
   - raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md
+  - raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md
   - raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md
-  - raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md
-  - raw/posts/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md
+  - raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md
+  - raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md
+  - raw/posts/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md
+  - raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md
   - raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md
   - raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md
   - raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md
-  - raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md
-  - raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md
-  - raw/posts/2016-09-05-dw-a-successful-green-line-break-out-updated-glb-tracker-table-all-gmi-components-positive.md
-  - raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md
-  - raw/posts/2023-02-15-blog-post-day-24-of-qqq-short-term-up-trend-when-technical-analysis-fails-crdo-my-confession.md
-  - raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md
-  - raw/posts/2023-11-26-very-important-blog-post-explaining-glbs-day-15-of-qqq-short-term-up-trend-123-us-new-highs-and-2-lows-43-at.md
-  - raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md
-  - raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md
-  - raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md
-  - raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md
-  - raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md
-  - raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md
-  - raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md
-  - raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md
-  - raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md
-  - raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md
-  - raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md
-  - raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md
-  - raw/posts/2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline.md
-  - raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md
   - raw/posts/2021-05-31-blog-post-glb-green-line-break-out-explained-some-stocks-having-a-glb-last-week-mec-omp-tgls-flng-cubi.md
-  - raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md
-  - raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md
+  - raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md
   - raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md
-  - raw/posts/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md
-  - raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md
-  - raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md
-  - raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md
-  - raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md
+  - raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md
   - raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md
 ---
 
@@ -86,7 +67,9 @@ Dr. Wish traces the GLB concept to a monthly stock-chart book he received in the
 
 **The March 2013 statement.** "One of my most important discoveries is the green line chart… a green line break-out stock has no overhead supply of stock from people who bought at higher levels and are holding losses." Workflow: TC2000 GLB scan → draw the line on the monthly → check recency on the weekly. Entry: "buy a little and wait to see if the green line holds. If it does, and the stock gathers strength I add to my position. A lot of stocks will fall back to the green line before they advance." Horizon: "meant to find stocks that will rise for months." Best environment: "up-trending markets, with the GMI on a buy signal." Post-bear GLBs are the biggest winners — GMCR's 2009 breakout, drawn in after the fact, ran ~900%. And the GLB applied to indexes: DJ-20 and DIA both broke green lines in March 2013, "completing a classic Dow Theory buy signal." ([WW 2013-03-17](../../raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md))
 
-**Where the line goes on the chart.** A reader question in 2022 settles the ambiguity: on HALO, "I drew it at **the top of the highest monthly bar even though the stock retreated from the high that month**. Some people think it should be drawn at 51.57, the peak reached two months later" — he keeps the former. The green line marks the *intramonth high of the highest monthly bar*, not the highest close, and a later lower peak does not move it. ([WW 2022-07-07](../../raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md))
+**Where the line goes on the chart.** A reader question in 2022 settles the ambiguity: on HALO, "I drew it at **the top of the highest monthly bar even though the stock retreated from the high that month**. Some people think it should be drawn at 51.57, the peak reached two months later" — he keeps the former. The green line marks the *intramonth high of the highest monthly bar*, not the highest close, and a later lower peak does not move it. ([WW 2022-07-07](../../raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md)) On HALO he kept the line at **56.40**, the high of the highest monthly bar, rather than the 51.57 peak two months later — "**I adhere to the rule to draw it at the highest monthly bar… When it crosses that line it is truly at an ATH.**"
+
+**This supersedes a looser earlier practice.** In a 2013 comment thread he described drawing the line "**sometimes** near its highest monthly close which may be below the highest price it traded at during the month if it did not hold" ([WW comment 2013-10-01](https://wishingwealthblog.com/2013/10/#comment-14760)) — the *close*, not the bar high, and with "sometimes" doing real work. By 2022 it is stated as **the rule**, with a reason: only the bar high guarantees that a cross is a true all-time high. Where the two disagree, use the 2022 form; the comment threads remain the better guide to how much judgement the *3-month* test involves (see [reader-qa](reader-qa.md)).
 
 **The drawing rule, stated exactly (2021):** "A green line can only be drawn after 3 months (3 monthly bars) have passed since a peak price bar that has not been surpassed." TC2000 draws it on the monthly chart and alerts him the moment price trades above it. The IPO exception is explicit: "I make an exception for recent IPOs when the green line may be drawn after consolidating a few weeks after reaching a peak ATH." Exit unchanged: "if I buy a stock after a GLB I sell it immediately if it *closes* back below its green line. **A failed set-up on which I base my purchase must always be sold.**" Above-average weekly volume preferred; PGNY ran 75% above its GLB in five months. ([WW 2021-05-31](../../raw/posts/2021-05-31-blog-post-glb-green-line-break-out-explained-some-stocks-having-a-glb-last-week-mec-omp-tgls-flng-cubi.md))
 
@@ -166,51 +149,11 @@ Dr. Wish's implication for GLBs: they should be expected to work best when the b
 
 **The Livermore root, in his own attribution (2013).** From *How to Trade in Stocks* (1940): for a stock listed within the last two or three years whose high was made two or three years ago, "usually it is a safe play to buy the minute it touches a brand new high" — wait for the break, never anticipate it, and get out if the stock does not act well afterwards. "Livermore was describing my concept of a green line break-out." He applied it to FB at $45 the same week: accumulate on a *close* above the line, hold while above, out quickly on failure (AAPL, October 2012). ([WW 2013-09-08](../../raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md))
 
-## Patience after a GLB — the PNRA and FIZZ case (2017)
-
-Chart patterns make patience look easy in retrospect. Dr. Wish documented the psychological challenge with PNRA: after a GLB to an ATH on above-average volume, PNRA went sideways for approximately 23 days. "In reality it often means that we buyers need to have incredible patience to hold on" — you "do not know what the outcome will be."
-
-The daily RWB pattern helped: PNRA "never closed below all of its red lines (RLC never equalled 0)" during the 23-day consolidation. Even when the daily low (purple dot on the chart) dipped into the white space between the red and blue lines 4 times, the *close* always recovered within the red lines — not an exit signal.
-
-After a GLB, two hold signals apply simultaneously:
-1. The stock has not closed below the green breakout line (hard floor).
-2. The daily RWB RLC has not equalled 0 (no close below all red lines).
-
-FIZZ (National Beverage, another 2017 example) shows the opposite case: an ideal GLB that had a perfect 12/12/6/6 daily RWB from before the breakout, with no consolidation whatsoever — it just kept rising. Not all GLBs require patience; some prove themselves quickly. ([WW 2017-04-02](../../raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md))
-
-Jesse Livermore: "it was his sitting tight not his trading that made him big money." ([WW 2017-04-02](../../raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md))
-
-## Re-entry after a failed GLB
-
-Dr. Wish does not abandon a stock after a failed GLB. His practice is to sell immediately when the stock closes below the green line, but then watch for the **next GLB** on the same stock. "I often repurchase upon the next GLB." This applies whether the failure was a few days after breakout or a few weeks later. The failed GLB itself is not a disqualifier — the stock just needs to re-base above its prior green line and break out again on volume.
-
-In June 2022 (during a down-trend) he noted 14 IBD/MarketSmith stocks at 20-year highs: these stocks were at or very near GLB territory even in a bear market, and he used them as a watch list for when market conditions improved. The ATH-only philosophy means he never buys below the green line just because the stock "looks cheap." ([WW 2022-06-05](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))
-
-He counts this among his best sources of profit, not a consolation: "I never hold a GLB stock that closes back below the green line but will buy it back if it retakes it. **Some of my best gains have come from stocks that have shaken me out for a small loss and then produced another buy signal.**" ([WW 2018-06-03](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md)) The same post lists the entry options as one menu rather than alternatives: "I like to buy such stocks on the day of the break-out **or afterwards when they consolidate or bounce off of support or give a green dot signal**."
-
-The 2016 statement pairs the failure rule with the buy-back in one breath: "**when I do buy a GLB, I always exit if the stock comes back below the green line. This is a sign of a false break-out and technical weakness**… **I often buy a stock back if it then closes back above the green line.**" He also wants "an increase in volume as others rush in to buy" on the breakout itself. ([WW 2016-03-06](../../raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md))
-
 ## The GLB in the daily RWB system (2017)
 
 When Dr. Wish shifted to daily RWB charts for timing, the GLB concept was incorporated into the scan: stocks must be above their last green line top to be considered — any stock below its most recent ATH has overhead supply from prior holders. This screen is applied after the RWB-bounce scan produces candidates. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
 
 Example from the 2017-12-17 post: GDS had a GLB to ATH in September 2016 on the highest weekly volume since its IPO; the breakout was followed by a 3-month advance of nearly 100% before the first close below all red lines. ([WW 2017-12-17](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
-
-## TC2000 alert workflow and the missed GLB lesson
-
-Dr. Wish's operational workflow: as soon as he draws a green line on a monthly chart, he immediately sets a TC2000 price alert — valid for one year — to send him a text when the stock trades back above the green line. This applies to every stock he monitors.
-
-**The WING story (April 2023):** He had set 3 alerts on WING (accidentally duplicated) and received them all on April 18, 2023. He "NEVER saw these alerts" because he "was too busy with other things and too down on how the market was behaving." WING broke out on March 18, 2023 and was at an ATH by late April. He had previously incurred small losses on multiple earlier failed GLBs on WING.
-
-**The Turtle Traders rule:** The Turtle Traders "had a rule that they had to act on every buy signal. The one signal you do not take after several fails is often the one that works." Dr. Wish explicitly applies this as the lesson from the WING miss. ([WW 2023-04-24](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
-
-**Written GLB rules (as published for students in April 2023):**
-1. Draw a green line at a stock's peak once it has not been surpassed for at least 3 months.
-2. Set a TC2000 alert (valid 1 year) to notify when the stock trades back above the green line.
-3. Buy on the day of the GLB. May buy a little and see if the stock continues, or wait for a re-test.
-4. Hold unless the stock **closes** back below the green line. Many times a stock trades below the green line intraday but closes back above it — do not exit on intraday dips.
-5. If it closes below the green line: failed GLB, exit immediately.
-6. If it retakes the green line and closes back above it: buy it back.
 
 ## Post-GLB pullback scan — ATH-past-40-days + lower Bollinger Band (2017)
 
@@ -222,29 +165,7 @@ Key rule: **no volume required** on the pullback. Low volume during the consolid
 
 ## GLB applied to index ETFs (2022)
 
-The green line concept extends to index ETFs. In May 2022, Dr. Wish noted that DIA and SPY each formed green line tops (highest monthly close not surpassed for 3+ months) at their November 2020 peaks; QQQ's last green line top was its June 2020 monthly high. These index-level green lines serve as macro bull-market re-entry gates: "We will be back to a roaring trader's market again when these indexes have another GLB to all-time highs, but it could be months or even years before that." He does not buy individual stocks until the GMI is Green; and the index GLB is his long-term context for knowing when broad conditions have fully recovered. ([WW 2022-05-01](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
-
-## The GLB in recent practice (2019–2026)
-
-The core rules have remained stable. These posts from 2019 onward confirm the rules as still in force and add nuance:
-
-**IPO GLB articulated (2019):** Dr. Wish explicitly linked his GLB to Jesse Livermore's 100-year-old principle — "wait for the IPO to settle and to then trade at an all-time high." IIPR (cannabis REIT) demonstrated this: IPO in December 2016, green line top at $20.54, GLB in December 2017, subsequently quadrupled. FB's first GLB at $45 (17 months after IPO) is the historical comparison. ([WW 2019-04-07](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md))
-
-**Monitoring GLBs during corrections (2020):** "Market leaders are born during corrections." Dr. Wish watches the daily and weekly new-high lists for GLBs even when GMI is Red. The practice: observe which stocks break to ATH on above-average volume during the correction — these are the coming leaders. PINS, PTON, ZM, and CRWD were examples in September 2020. ([WW 2020-09-27](../../raw/posts/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md))
-
-**Weekly chart management of GLB positions (2020):** After a GLB, once the stock has proven itself, the hold signal switches from the green line to the weekly 10-week average. "BEFORE SELLING, LOOK AT WEEKLY CHART" is a rule posted on his screen. A close below the 10-week average on the weekly chart (not the daily) is the exit trigger for a pyramided GLB position. ([WW 2020-09-27](../../raw/posts/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md))
-
-**Canonical 2023 re-statement (PGR example):** In November 2023, Dr. Wish flagged his GLB post as "very important" and restated the full definition for a new audience. PGR had a GLB on October 13, 2023 on heavy volume; never closed back below the green line; was up 9.2% from the green line by late November. The explicit rule restated: "I sell immediately if it closes back below the green line." He also named 16 recent GLB stocks at that time (CMG, MSFT, DUOL, WING, etc.). ([WW 2023-11-26](../../raw/posts/2023-11-26-very-important-blog-post-explaining-glbs-day-15-of-qqq-short-term-up-trend-123-us-new-highs-and-2-lows-43-at.md))
-
-**CRDO failure lesson (2023):** After a technically sound GLB at $18.00 in February 2023, CRDO collapsed 47% overnight when the company announced a major customer cut. Stop-loss orders cannot protect against gap-down opens: "EVEN IF I HAD A HARD SELL STOP IN, IT WOULD NOT HAVE PROTECTED ME." Lesson: never concentrate too heavily at the point of breakout; average up after the stock proves itself; consider puts to protect large gains; larger companies are less vulnerable to this kind of surprise. ([WW 2023-02-15](../../raw/posts/2023-02-15-blog-post-day-24-of-qqq-short-term-up-trend-when-technical-analysis-fails-crdo-my-confession.md))
-
-**GLB applied to mutual funds (2025):** Fidelity Contrafund (FCNKX) had a GLB on its weekly chart in June 2025, confirming the GLB concept extends to mutual funds held in university retirement accounts. The 10:30 weekly chart crossover (10-week average crossing above 30-week) is the pension-account signal for major up-trends. ([WW 2025-06-29](../../raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md))
-
-**SPY GLB to ATH (October 2025):** SPY had a GLB to an all-time high in June 2025. As of October 2025 it had only closed the week below its 4-week average twice since the GLB. The classic weekly Stage 2 pattern: 4wk > 10wk > 30wk averages all rising. ([WW 2025-10-23](../../raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md))
-
-**5-day EMA post-GLB exit rule (2026; origin October 2025 — ([WW 2025-10-15](../../raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md)), where the 5 EMA is stated to supersede the 8 for rising stocks):** The newest exit technique for managing a GLB position during an advance: track the stock against its 5-day exponential moving average. Hold while the stock closes above the 5-day EMA; place a sell stop below the low of the day it closes beneath the 5-day EMA. INTC and QQQ are the worked examples from May 2026. "It is amazing how well GLBs have been working!" ([WW 2026-05-10](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
-
-**Weekly scan for GLBs (2016):** Each weekend, scan for stocks that: closed at a new 52-week high on Friday; total weekly trading volume 10%+ above the recent average; at least 500,000 shares traded that week; verify the stock is at an all-time high (not just a 52-week high). From the surviving list, the ones above their last green line top are the GLB candidates. ([WW 2016-09-05](../../raw/posts/2016-09-05-dw-a-successful-green-line-break-out-updated-glb-tracker-table-all-gmi-components-positive.md))
+The green line concept extends to index ETFs. In May 2022, Dr. Wish noted that DIA and SPY each formed green line tops (an all-time high not surpassed for 3+ months) at their November 2020 peaks; QQQ's last green line top was its June 2020 monthly high. These index-level green lines serve as macro bull-market re-entry gates: "We will be back to a roaring trader's market again when these indexes have another GLB to all-time highs, but it could be months or even years before that." He does not buy individual stocks until the GMI is Green; and the index GLB is his long-term context for knowing when broad conditions have fully recovered. ([WW 2022-05-01](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
 
 ## Evolution
 
@@ -280,23 +201,6 @@ def is_green_line_breakout(*, close, green_line):
 
 Run it on a ticker: `ww compute green-line MSFT` — Microsoft has set (and broken) many green lines since the 1990s; the command prints the current line, the last close, and whether you're above it. (yfinance supplies the monthly bars; `--csv` lets you feed your own.)
 
-## See also
-
-- [Stock selection](stock-selection.md) — the RWB filter for GLB candidates
-- [Moving-average rules](moving-average-rules.md) — Stage 2 definition; the 30-week average boundary
-- [Buying a GLB (playbook)](../playbooks/buying-glb.md)
-- [The oversold bounce (OSB / ATHOSB)](oversold-bounce.md) — the entry he prefers to the breakout moment
-- [Glossary](glossary.md) — green line, GLB, stage analysis
-
-## The close-below rule, justified by a case
-
-Why does the exit rule key on the *close* rather than any trade below the line? The ACLX example
-shows the failure mode the rule avoids: the day after its December 2022 GLB, ACLX "**traded below
-the green line but closed the day above it**. That is why I sell a GLB only if the stock
-***closes*** a day back below the green line." An intraday violation is noise; the close is the
-verdict. The same tutorial teaches the [OSB](oversold-bounce.md) as the standard alternative to
-buying the GLB day itself — wait for the black dot, stop below the bounce low. ([WW 2023-01-16](../../raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md))
-
 ## How the line is actually drawn (from the comment threads)
 
 Three clarifications he gave readers, which sharpen the definition above and are not stated in
@@ -309,7 +213,9 @@ any post ([reader-qa.md](reader-qa.md)):
    draw the green line on a monthly chart, **sometimes near its highest monthly close which may
    be below the highest price it traded at during the month if it did not hold**." ([WW comment 2013-10-01](https://wishingwealthblog.com/2013/10/#comment-14760))
    A spike the month failed to close near does not automatically set the line — which is why two
-   readers drawing "the" green line on the same chart can legitimately differ.
+   readers drawing "the" green line on the same chart can legitimately differ. **Superseded on this
+   point:** in 2022 he states the rule as the *high of the highest monthly bar*, explicitly keeping
+   the line above a month's close. Read this comment as 2013 practice, not the current rule. ([WW 2022-07-07](../../raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md))
 3. **There is no GLB scan.** "I do not have a single scan for this. I scan for new daily highs
    and then look at monthly charts and **manually draw in green lines**... I also use TC2000 to
    put in alerts for when a stock crosses the green line." ([WW comment 2013-09-28](https://wishingwealthblog.com/2013/09/#comment-14708))
@@ -319,72 +225,50 @@ any post ([reader-qa.md](reader-qa.md)):
    horizontal green line at a monthly high that has not been surpassed for three months (3 bars)"
    — by hand, per chart. ([WW 2018-04-01](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
 
-## The sell-side inversion: a new green line is a warning
+## Worked cases and failures
 
-The GLB logic runs in reverse for holdings: "When a green line break-out fails, it is often a
-sign of technical weakness. Stocks should break through a green line top and keep rising. **When
-a new green line top is formed (after 3 months without breaking its all-time high), I watch for
-an exit.**" A stock that stalls long enough to *build* a fresh green line has stopped behaving
-like a rocket; if it then enters Stage 4, "I should be out of the security or short it" — worked
-on GLD's 2011–2013 top-to-Stage-4 sequence, with the standing rule "**I never hold a security
-that closes below its 30 week average.**" ([WW 2013-10-13](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md))
+The published case studies — patience after a GLB (PNRA, FIZZ), re-entry after a failure, the TC2000 alert workflow and the missed WING breakout, the close-below rule justified on ACLX, the sell-side inversion, the caveat on the GLB as an entry, and recent practice 2019–2026 — now live on their own page: [The GLB in practice](glb-in-practice.md).
 
-## A caveat on the GLB as an *entry*
+## See also
 
-The GLB is load-bearing as an **identification** tool — it is how a rocket stock gets onto the list, and "above its last green line top" remains a filter on nearly every other setup he runs. It is weaker as an **entry trigger**, and he says so directly: after a failed CAVA breakout in July 2023 he wrote that he *prefers the [oversold bounce](oversold-bounce.md) setup over breakouts*, because a failed breakout has no naturally-defined stop while a bounce does. ([WW 2023-07-13](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
-
-This is continuous with the 2016 [BOS](stock-selection.md) preference ("I actually like this strategy better than trading GLBs") and with the post-GLB pullback scans, rather than a reversal. In current practice the two work as a pair: the GLB names the stock, the OSB times the buy — see the VRT sequence ([WW 2023-09-13](../../raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md)) and SHAK retaking its green line after a blue-dot OSB ([WW 2025-07-09](../../raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md)).
+- [The GLB in practice](glb-in-practice.md) — the worked cases, failures and refinements
+- [Stock selection](stock-selection.md) — the RWB filter for GLB candidates
+- [Moving-average rules](moving-average-rules.md) — Stage 2 definition; the 30-week average boundary
+- [Buying a GLB (playbook)](../playbooks/buying-glb.md)
+- [The oversold bounce (OSB / ATHOSB)](oversold-bounce.md) — the entry he prefers to the breakout moment
+- [Glossary](glossary.md) — green line, GLB, stage analysis
 
 ## Sources
 
 - [WW 2005-04-23 — Let's Talk Strategy](../../raw/posts/2005-04-23-lets-talk-strategy.md) ([summary](../sources/2005-04-23-lets-talk-strategy.md))
 - [WW 2005-04-30 — My Trading Strategy, Part II](../../raw/posts/2005-04-30-my-trading-strategy-part-ii.md) ([summary](../sources/2005-04-30-my-trading-strategy-part-ii.md))
 - [WW 2005-10-09 — Nicolas Darvas trading techniques require markets at all-time peaks](../../raw/posts/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md) ([summary](../sources/2005-10-09-nicolas-darvas-trading-techniques-require-markets-at-all-time-peaks.md))
-- [WW 2010-02-22 — How to use IBD 100 and New America stocks to find rocket stocks](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md) ([summary](../sources/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
-- [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
-- [WW 2017-12-17 — A strategy for deciding when to sell stocks; GDS, NVDA](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md) ([summary](../sources/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
-- [WW 2018-05-20 — Green line breakout (GLB) explained; GMI remains Green](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md) ([summary](../sources/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
-- [WW 2020-12-27 — Buying IPOs with GLB and WGB signal; $PGNY $TSLA](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md) ([summary](../sources/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
-- [WW 2017-04-02 — Patience after a GLB: PNRA and FIZZ](../../raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md) ([summary](../sources/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md))
-- [WW 2017-07-02 — GLB: the sine qua non of rocket stocks; $SHOP, $SQ, $BABA, $Z, $FB, $BZUN](../../raw/posts/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md) ([summary](../sources/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md))
-- [WW 2021-01-24 — GLB origin; overhead supply rationale; 6 recent examples](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md) ([summary](../sources/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))
-- [WW 2021-02-28 — $TWTR: GLB and WGB indicators](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md) ([summary](../sources/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
-- [WW 2022-06-05 — Day 37 of QQQ down-trend; ATH-only philosophy; GLB re-entry after failure](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md) ([summary](../sources/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))
-- [WW 2013-05-20 — TSLA GLB worked example; full stock-selection workflow](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md) ([summary](../sources/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md))
-- [WW 2016-10-02 — O'Neil 1995 workshop diary; LMAT BOS setup; two-close GLB rule](../../raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md) ([summary](../sources/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md))
-- [WW 2023-04-24 — WING missed GLB; TC2000 alert workflow; written GLB rules](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md) ([summary](../sources/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
-- [WW 2023-07-13 — CAVA's break-out fails; why I prefer my OSB set-up over break-outs](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md) ([summary](../sources/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
-- [WW 2023-09-13 — VRT has OSB and a recent GLB](../../raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md) ([summary](../sources/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md))
-- [WW 2025-07-09 — SHAK retakes green line after a Blue Dot OSB](../../raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md) ([summary](../sources/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md))
-- [WW 2017-01-29 — David Ryan; ATH-past-40-days + lower BB pullback scan; PLAY](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md) ([summary](../sources/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
-- [WW 2022-05-01 — T2108 monthly at 27%; BWR onset vs 2008; GLB applied to index ETFs](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md) ([summary](../sources/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
-- [WW 2019-04-07 — GLB applied to IPOs; IIPR and FB worked examples; green dot secondary entry](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md) ([summary](../sources/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md))
-- [WW 2020-09-27 — Monitoring GLBs during corrections; weekly chart management; PINS, PTON, ZM, CRWD](../../raw/posts/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md) ([summary](../sources/2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction.md))
-- [WW 2023-02-15 — CRDO GLB failure; stops cannot protect against gap-downs; position sizing](../../raw/posts/2023-02-15-blog-post-day-24-of-qqq-short-term-up-trend-when-technical-analysis-fails-crdo-my-confession.md) ([summary](../sources/2023-02-15-blog-post-day-24-of-qqq-short-term-up-trend-when-technical-analysis-fails-crdo-my-confession.md))
-- [WW 2023-11-26 — Canonical GLB re-statement; PGR worked example; buy high sell higher](../../raw/posts/2023-11-26-very-important-blog-post-explaining-glbs-day-15-of-qqq-short-term-up-trend-123-us-new-highs-and-2-lows-43-at.md) ([summary](../sources/2023-11-26-very-important-blog-post-explaining-glbs-day-15-of-qqq-short-term-up-trend-123-us-new-highs-and-2-lows-43-at.md))
-- [WW 2016-09-05 — DW GLB worked example; GLB tracker table; weekly volume scan criteria](../../raw/posts/2016-09-05-dw-a-successful-green-line-break-out-updated-glb-tracker-table-all-gmi-components-positive.md) ([summary](../sources/2016-09-05-dw-a-successful-green-line-break-out-updated-glb-tracker-table-all-gmi-components-positive.md))
-- [WW 2025-06-29 — GLB applied to mutual funds; 10wk/30wk crossover for pension; Guppy weekly RWB](../../raw/posts/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md) ([summary](../sources/2025-06-29-blog-post-day-44-of-qqq-short-term-up-trend-ta-works-also-for-mutual-funds-see-glb-last-week-in-fidelity-cont.md))
-- [WW 2025-10-23 — 4wk bounce entry; SPY GLB in June 2025; Stage 2 weekly alignment](../../raw/posts/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md) ([summary](../sources/2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic.md))
-- [WW 2026-05-10 — 5-day EMA post-GLB exit rule; 4wk>10wk>30wk up-trend confirmed 2026](../../raw/posts/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md) ([summary](../sources/2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou.md))
-- [WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap; LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md) ([summary](../sources/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
-- [WW 2023-01-16 — How I trade a GLB: the close-below rule shown intraday](../../raw/posts/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md) ([summary](../sources/2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl.md))
-- [WW 2013-10-13 — The sleeping point; failed GLBs as sell-side weakness; GLD Stage 4](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md) ([summary](../sources/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md))
-- [WW 2019-03-29 — Buying IPOs with a recent GLB: SAFE, YETI, TWLO](../../raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md) ([summary](../sources/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md))
-- [WW 2014-06-22 — RWB patterns in QQQ across time periods; PTLA and STZ](../../raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md) ([summary](../sources/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md))
-- [WW 2013-03-17 — More green line break-out stocks: DFS, WAT, CAB, NEE; Dow Theory buy signal](../../raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md) ([summary](../sources/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md))
 - [WW 2007-02-26 — GMI 6; GMI-S 88; Dow climbs wall of worry; IBD 100 performance; cups with handles](../../raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md) ([summary](../sources/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md))
 - [WW 2008-04-07 — GMI 3; 9th day of QQQQ up-trend; QLD; URBN](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md) ([summary](../sources/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md))
-- [WW 2016-11-13 — QQQ short-term down-trend but GMI Green; 16 GLB stocks; OLLI](../../raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md) ([summary](../sources/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md))
-- [WW 2013-09-08 — Technical strength continues to grow; FB green line break-out coming?](../../raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md) ([summary](../sources/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md))
+- [WW 2010-02-22 — How to use IBD 100 and New America stocks to find rocket stocks](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md) ([summary](../sources/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
+- [WW 2012-07-23 — Stage analysis and green line charts](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md) ([summary](../sources/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
+- [WW 2013-03-17 — More green line break-out stocks: DFS, WAT, CAB, NEE; Dow Theory buy signal](../../raw/posts/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md) ([summary](../sources/2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal.md))
 - [WW 2013-04-14 — Market in strong up-trend; beware the bearish pundits; gold's 'sudden' decline](../../raw/posts/2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline.md) ([summary](../sources/2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline.md))
+- [WW 2013-05-20 — TSLA GLB worked example; full stock-selection workflow](../../raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md) ([summary](../sources/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md))
+- [WW 2013-09-08 — Technical strength continues to grow; FB green line break-out coming?](../../raw/posts/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md) ([summary](../sources/2013-09-08-technical-strength-of-market-continues-to-grow-fb-green-line-break-out-coming.md))
+- [WW 2014-06-22 — RWB patterns in QQQ across time periods; PTLA and STZ](../../raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md) ([summary](../sources/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md))
 - [WW 2014-10-26 — QQQ short-term trend turns up, retakes 30-week average; GLB stocks shine](../../raw/posts/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md) ([summary](../sources/2014-10-26-qqq-short-term-trend-turns-up-retakes-30-week-average-glb-stocks-shine-aaplbabyagiorglsregn.md))
-- [WW 2021-05-31 — Blog post: GLB (green line break-out) explained; Some stocks having a GLB last week:  $MEC $OMP $TGLS $FLNG $C](../../raw/posts/2021-05-31-blog-post-glb-green-line-break-out-explained-some-stocks-having-a-glb-last-week-mec-omp-tgls-flng-cubi.md) ([summary](../sources/2021-05-31-blog-post-glb-green-line-break-out-explained-some-stocks-having-a-glb-last-week-mec-omp-tgls-flng-cubi.md))
-- [WW 2025-10-15 — blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo](../../raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md) ([summary](../sources/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md))
-- [WW 2023-06-04 — Blog Post: Day 25 of $QQQ short term up-trend; GMI=6 (of 6) and Green; Market in solid up-trend, set-ups worki](../../raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md) ([summary](../sources/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md))
-- [WW 2022-07-07 — Blog post: Friday could be first day of new $QQQ short term up-trend; why this $QQQ rally may be different; ho](../../raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md) ([summary](../sources/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md))
+- [WW 2016-10-02 — O'Neil 1995 workshop diary; LMAT BOS setup; two-close GLB rule](../../raw/posts/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md) ([summary](../sources/2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea.md))
+- [WW 2016-11-13 — QQQ short-term down-trend but GMI Green; 16 GLB stocks; OLLI](../../raw/posts/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md) ([summary](../sources/2016-11-13-qqq-short-term-down-trend-but-gmi-green-16-glb-stocks-olli-wor-aosl-cohr-plnt-amph-irbt-lmat-vsat-aste-wldn-c.md))
+- [WW 2017-01-29 — David Ryan; ATH-past-40-days + lower BB pullback scan; PLAY](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md) ([summary](../sources/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
+- [WW 2017-07-02 — GLB: the sine qua non of rocket stocks; $SHOP, $SQ, $BABA, $Z, $FB, $BZUN](../../raw/posts/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md) ([summary](../sources/2017-07-02-green-line-break-outs-glb-the-sine-qua-non-of-rocket-stocks-shop-sq-baba-z-fb-bzun.md))
+- [WW 2017-12-17 — A strategy for deciding when to sell stocks; GDS, NVDA](../../raw/posts/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md) ([summary](../sources/2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda.md))
+- [WW 2018-04-01 — The ATH watchlist workflow; TC2000's survivorship trap; LULU](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md) ([summary](../sources/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
+- [WW 2018-05-20 — Green line breakout (GLB) explained; GMI remains Green](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md) ([summary](../sources/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
+- [WW 2018-08-26 — 19 Recent IPOs at ATH with recent GLB: $MTCH $TWLO $SEND $SFIX $ROKU $CABO….](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md) ([summary](../sources/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))
+- [WW 2019-03-29 — Buying IPOs with a recent GLB: SAFE, YETI, TWLO](../../raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md) ([summary](../sources/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md))
 - [WW 2020-07-23 — Blog post: TC2000 alerted me to a high volume GLB yesterday: $AMD–learn how to set GLB alerts](../../raw/posts/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md) ([summary](../sources/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md))
 - [WW 2020-10-11 — With GMI=Green and a $QQQ short term up-trend and daily RWB pattern in place, it is time for me to buy TQQQ an](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md) ([summary](../sources/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))
-- [WW 2018-06-03 — 3 Recent GLB stocks: $ENVA $GDOT $TSG](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md) ([summary](../sources/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md))
-- [WW 2018-08-26 — 19 Recent IPOs at ATH with recent GLB: $MTCH $TWLO $SEND $SFIX $ROKU $CABO….](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md) ([summary](../sources/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))
-- [WW 2016-03-06 — 13 recent GLB stocks to monitor: $ALGN, $BMS, $CINF, $CNSL, $CPRT, $ELLI, $MO, $NLSN, $PNRA, $SWHC, $SYY, $TFX](../../raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md) ([summary](../sources/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md))
+- [WW 2020-12-27 — Buying IPOs with GLB and WGB signal; $PGNY $TSLA](../../raw/posts/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md) ([summary](../sources/2020-12-27-blog-post-buying-ipos-with-green-line-break-outs-glb-and-a-weekly-green-bar-wgb-signal-pgny-tsla.md))
+- [WW 2021-01-24 — GLB origin; overhead supply rationale; 6 recent examples](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md) ([summary](../sources/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))
+- [WW 2021-02-28 — $TWTR: GLB and WGB indicators](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md) ([summary](../sources/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
+- [WW 2021-05-31 — Blog post: GLB (green line break-out) explained; Some stocks having a GLB last week:  $MEC $OMP $TGLS $FLNG $C](../../raw/posts/2021-05-31-blog-post-glb-green-line-break-out-explained-some-stocks-having-a-glb-last-week-mec-omp-tgls-flng-cubi.md) ([summary](../sources/2021-05-31-blog-post-glb-green-line-break-out-explained-some-stocks-having-a-glb-last-week-mec-omp-tgls-flng-cubi.md))
+- [WW 2022-05-01 — T2108 monthly at 27%; BWR onset vs 2008; GLB applied to index ETFs](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md) ([summary](../sources/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
+- [WW 2022-07-07 — Blog post: Friday could be first day of new $QQQ short term up-trend; why this $QQQ rally may be different; ho](../../raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md) ([summary](../sources/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md))
+- [WW 2023-06-04 — Blog Post: Day 25 of $QQQ short term up-trend; GMI=6 (of 6) and Green; Market in solid up-trend, set-ups worki](../../raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md) ([summary](../sources/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md))
 - [WW 2025-06-22 — Blog Post: Day 39 of $QQQ short term up-trend; $QQQ wedged between green line top and rising 4 week average; W](../../raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md) ([summary](../sources/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md))

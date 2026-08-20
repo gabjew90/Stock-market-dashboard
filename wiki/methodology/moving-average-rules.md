@@ -1,7 +1,7 @@
 ---
 title: Moving-average rules
 type: entity
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
@@ -255,15 +255,6 @@ The core rules have not changed. These posts confirm them as active practice:
 
 The RWB / BWR patterns, the daily RWB system (RLC, the red-line exit, the scan), the weekly Guppy chart as a bottom detector, the monthly RWB on bond ETFs, the hourly and monthly layers, the all-12 exit line and the consolidation read now live on their own page: [GMMA charts](gmma-charts.md).
 
-## See also
-
-- [GMMA charts](gmma-charts.md) — RWB / BWR, the daily RWB system, the timeframe ladder
-- [General Market Index (GMI)](gmi.md) — the 30-week average is one GMI component
-- [QQQ Short-Term Timing](qqq-short-term-timing.md)
-- [Green Line Breakouts (GLB)](green-line-breakouts.md) — Stage 2 is the prerequisite
-- [Stock selection](stock-selection.md) — RWB pattern; daily RWB scan; weekly green bar
-- [Exits (playbook)](../playbooks/exits.md)
-
 ## The 30-day close rule at full strength
 
 For individual growth stocks the fastest standing exit is the 30-day average, and he endorses it
@@ -272,6 +263,15 @@ flat-out: "I typically sell a growth stock **as soon as it looks like it will *c
 stock that closes *below* its average closing price over the past six weeks?" On the day he
 wrote that, 79% of Nasdaq 100 stocks were below their 30-days — the rule read at market scale.
 ([WW 2012-05-07](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md))
+
+## See also
+
+- [GMMA charts](gmma-charts.md) — RWB / BWR, the daily RWB system, the timeframe ladder
+- [General Market Index (GMI)](gmi.md) — the 30-week average is one GMI component
+- [QQQ Short-Term Timing](qqq-short-term-timing.md)
+- [Green Line Breakouts (GLB)](green-line-breakouts.md) — Stage 2 is the prerequisite
+- [Stock selection](stock-selection.md) — RWB pattern; daily RWB scan; weekly green bar
+- [Exits (playbook)](../playbooks/exits.md)
 
 ## Sources
 
