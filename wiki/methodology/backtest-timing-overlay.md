@@ -1,9 +1,10 @@
 ---
 title: Backtest — the market-state timing overlay
 type: methodology
-updated: 2026-08-12
+updated: 2026-08-18
 sources:
   - raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md
+  - raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md
 ---
 
 # Backtest — does the GMI timing overlay beat buy-and-hold QQQ?
@@ -105,6 +106,8 @@ GMMA/RWB pattern holds — has not been run, and is the obvious next backtest.
 
 - The reconstructed GMI reads optimistic in declines (survivorship bias in the breadth universe) -- so the strategy here is *less* defensive than Dr. Wish actually was; a faithful version would cut drawdown more (and give back more on whipsaws). - 2007-start (the breadth reconstruction is thin before then). - 5-bps cost / no slippage beyond that / no tax. - This is the *timing* layer only -- it does **not** test his GLB/WGB stock-selection signal (a separate sub-project).
 
+**Prior art: he backtested the GMI himself.** In March 2012 he refers to "the same decision rules that **my student and I backtested to 2006 with incredible success**," and notes that a third-party site (dark-liquidity.com) had independently charted GMI-driven QQQ/QLD performance, on which "using the GMI to trade the QLD has greatly outperformed all other strategies." ([WW 2012-03-12](../../raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md)) Neither the rules as tested, the parameters, nor the results are reproduced on the blog, so the claim cannot be checked — but it means the reconstruction above is not the first attempt to quantify the signal, and any comparison should note that his own test used his *reported* GMI rather than a reconstruction.
+
 ## See also
 
 - [General Market Index (GMI)](gmi.md) · [Moving-average rules](moving-average-rules.md) · [QQQ Short-Term Timing](qqq-short-term-timing.md) · [Trend-flip log](../history/trend-flip-log.md)
@@ -114,3 +117,4 @@ GMMA/RWB pattern holds — has not been run, and is the obvious next backtest.
 _This page is a generated backtest report; the rules it tests are documented (and cited) on the linked methodology pages. The one primary source cited directly:_
 
 - [WW 2015-02-22 — An important limitation of the GMI signals](../../raw/posts/2015-02-22-an-important-limitation-of-the-gmi-signals.md) ([summary](../sources/2015-02-22-an-important-limitation-of-the-gmi-signals.md))
+- [WW 2012-03-12 — GMI out-performs in new study; GLD starting Stage 4 decline?](../../raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md) ([summary](../sources/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md))

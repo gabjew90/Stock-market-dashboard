@@ -308,6 +308,12 @@ sources:
   - raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md
   - raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md
   - raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md
+  - raw/posts/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md
+  - raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md
+  - raw/posts/2014-12-25-more-on-bonds-and-rising-rates-buy-and-hold-index-funds.md
+  - raw/posts/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md
+  - raw/posts/2018-07-08-draw-green-dot-signals-on-charts-ssti-sfix-gmi-to-turn-green-trade-deficits-bad.md
+  - raw/posts/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md
 ---
 
 # Timeline — evolution of the methodology
@@ -646,6 +652,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"Turn is here; 50% invested" (2009-07-20):** the 30-week averages of SPY, QQQQ and DIA turning up — "**I get out of the market when the 30 week averages turn down and back in when they turn up. I know this seems simplistic and naive, BUT IT WORKS!!**… 70-80% of stocks follow the general market's trend — end of story"; 50% invested; MACD breadth 10% → 79% in a week. ([WW 2009-07-20](../../raw/posts/2009-07-20-turn-is-here-50-invested.md))
 
+## August 2009 (ETFs) — 'why search for great stocks when I can buy ultra ETFs?'
+
+**"Why search for great stocks when I can buy ultra ETFs?" (2009-08-24):** the full argument, before TQQQ existed (3× tech had to come via **TYH**); the Nasdaq-100 preferred partly because it "contains no financial stocks"; and a 100-stock basket blunts single-name earnings risk — "stocks tend to explode or implode when earnings are announced." ([WW 2009-08-24](../../raw/posts/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md))
+
 ## October 2009 — buying extended from support, the mistake that made the bounce doctrine
 
 **"Using Bollinger Bands to avoid buying extended from support" (2009-10-19):** "the biggest mistake they make in trading is buying a stock when it is too extended from support… I did that a lot until I reviewed several losses and discovered that pattern. To make money, all I had to do was to reverse my actions — buy where I had been selling and sell where I had been buying." Bollinger Bands at the **standard 20-day / 2-SD** setting, years before his 15.2. ([WW 2009-10-19](../../raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md))
@@ -848,6 +858,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"GMI flashes bullish signal, but other indicators are mixed" (2011-12-05):** signal #13 under "my new criterion… of needing 2 days with a GMI of at least 4," while IBD (no FTD) still calls a correction. And: "**This is a major innovation in my trading. Instead of trying to enter equities when they break out, I seek to enter when an equity is in a weekly Stage 2 up-trend and has become oversold on the daily time frame. I go long and then place a stop (or buy a put) just below support**" — the OSB doctrine, five years before BOS. QLD bought oversold with a put; the rubber-band model. ([WW 2011-12-05](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md))
 
+## March 2012 (evidence) — the GMI backtested to 2006 with a student
+
+**"GMI out-performs in new study; GLD starting Stage 4" (2012-03-12):** from the 12/23 buy signal QQQ +15.9%, QLD +33.9%, AAPL +35.2% — "**riding a single stock is much more dangerous to me than riding an index**"; dark-liquidity.com independently charting GMI-driven QQQ/QLD performance, using "**the same decision rules that my student and I backtested to 2006 with incredible success**"; and the compounding warning on leveraged ETFs. ([WW 2012-03-12](../../raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md))
+
 ## April 2012 — GMI buy signal criterion stated; AAPL as ATH-breakout case study
 
 **"How I find the next AAPL growth stock" (2012-04-30):** Dr. Wish states his GMI buy signal criterion explicitly: GMI > 3 on two consecutive days. Uses AAPL's 2012 run to make the case for buying at all-time highs — AAPL hit new daily highs 65% of trading days in February 2012 alone. Monthly-chart multi-month consolidation breakouts (like PSMT) are his target. IBD 50 outperformance data published: median +20% vs NASDAQ 100 +15% vs S&P 500 +10% during the 2011–2012 rally. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
@@ -1026,6 +1040,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## December 2014 (rates) — the thesis that would end the bull
+
+**"More on bonds and rising rates; buy and hold index funds" (2014-12-25):** rising rates as the mechanism — "people will exit risky stocks in favor of more conservative bonds or CDs, **precipitating a bear market in stocks**"; the personal threshold — "if the day ever returns that I could nail down 6% annual interest in insured CDs, I and many other boomers would presumably be happy to get out of stocks"; "Mr Market tends to seduce people into the stock market so that the most persons get hurt." ([WW 2014-12-25](../../raw/posts/2014-12-25-more-on-bonds-and-rising-rates-buy-and-hold-index-funds.md))
+
 ## January 2015 — gut vs instruments; the whipsaw pattern noticed
 
 **"Fly by my gut or follow my instruments? (fasten seat-belts!) AAPL looks strong" (2015-01-25):** a GMI Buy and QQQ Day U-1 against every rational bear argument and his own gut — "the market tends to move in a direction opposite to the way my emotions point… I suspect it was my instruments." He notes the recent Buy signals had each reversed within 5–7 days, the observation he formalised four weeks later as the GMI's limitation. SPY still under its 10-week while QQQ regains it; AAPL back above its 10-week ("I have always profited by owning AAPL when it is above this average"). ([WW 2015-01-25](../../raw/posts/2015-01-25-fly-by-my-gut-or-follow-my-instruments-fasten-seat-belts-aapl-looks-strong.md))
@@ -1138,6 +1156,10 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 **"New $QQQ short term down-trend; NFLX breaking out?" (2016-12-04):** "many (about 40%) QQQ short term down-trends end in under 5 days"; SPY climbing its 4-week above its 10- and 30-week while QQQ sits below both with a possible head-and-shoulders; window-dressing rallies as exit/stop-raising opportunities. ([WW 2016-12-04](../../raw/posts/2016-12-04-new-qqq-short-term-down-trend-nflx-breaking-out-tc2000-scan-results-7-rocket-stocks.md))
 
+## December 2016 (cont.) — RWBCount introduced
+
+**"12th day of $QQQ short term up-trend; $QQQ and $CDW have an RWBCount=12" (2016-12-26):** "**I have created a new indicator that counts the number of averages that are rising above each longer average. The indicator, called the RWBCount, goes from 0-12**" — testing strict ordering (1>3>5>…>60), not merely red-above-blue; QQQ, DIA and SPY all at 12. ([WW 2016-12-26](../../raw/posts/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md))
+
 ## January 2017 — David Ryan on breakouts vs pullbacks; ATH-past-40-days + lower Bollinger Band scan
 
 **"On David Ryan and my new TC2000 scan for GLB rockets bouncing off support: $PLAY" (2017-01-29):** Dr. Wish quotes David Ryan (William O'Neil's three-time National Investing Champion protege) from _Momentum Masters_ (2015): "I basically simplify it down to two, breakouts and pullbacks… You just have to draw a line across the top of where most of the stock's trading has taken place. Then you buy as it moves through that line… Buying pullbacks are a bit more complicated but offer another entry point to get aboard a leading stock." He shows how this maps exactly onto his own GLB framework. New TC2000 scan introduced (`01292017ATHhipast40daysBLBB`): stocks in his ~800-stock ATH watchlist that (1) hit a new all-time high in the past 40 days AND (2) are currently bouncing from their lower Bollinger Band (15.2). This finds post-GLB pullback re-entries; distinct from the BOS scan (which uses a broader universe). Key rule: **a pullback/bounce entry does not require volume** — low volume on the pullback is a positive sign that selling has dried up. Sell stop: just below the recent bounce/support low. PLAY worked example: gapped up on unusual volume December 2016, consolidated sideways, then bounced off the lower BB; earnings +127% the prior quarter, IBD composite 93, short ratio 7.2, up 47% over the prior year. GMI=6 at post date. ([WW 2017-01-29](../../raw/posts/2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play.md))
@@ -1238,9 +1260,17 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 **"RWB weekly strategy can keep me in a good position" (2018-07-16):** "daily charts often mislead me and scare me out of good positions"; hold any equity in a weekly RWB "until the white band in the middle… disappears"; weekly closes under the red lines are noise while red stays above blue; "never buy and… sell or sell short any equity with the opposite BWR weekly down-trend pattern" (GE). ([WW 2018-07-16](../../raw/posts/2018-07-16-rwb-weekly-strategy-can-keep-me-in-a-good-position-qqq-spy-ge-cat-sq.md))
 
+## July 2018 (hit rate) — 'all green dot signals do not work'
+
+**"Draw green dot signals on charts" (2018-07-08):** "note that **all green dot signals do not work** and if it were possible to predict in advance which ones will, I would be living on my own island"; what makes it workable is the cheap failure — "if the bounce fails, I can get out quickly with a small loss — **the crucial sine qua non of trading success**"; tutorials via the TC2000 club. ([WW 2018-07-08](../../raw/posts/2018-07-08-draw-green-dot-signals-on-charts-ssti-sfix-gmi-to-turn-green-trade-deficits-bad.md))
+
 ## August 2018 (workflow) — barchart → TC2000 for recent-IPO GLBs
 
 **"19 recent IPOs at ATH with recent GLB" (2018-08-26):** "every rocket stock has a long series of repeated ATH"; the day's ATH list from barchart.com → Excel → TC2000, a `c/c4` yearly column to isolate post-2015 IPOs, then monthly charts read by hand for an ATH plus a 3-month consolidation and a close above the drawn green line, volume preferred; "the great trader, Jesse Livermore, liked to buy the first GLB… of a recent IPO." ([WW 2018-08-26](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))
+
+## October 2018 (tooling) — an intraday all-time-high condition set
+
+**"TC2000 workshop gems" (2018-10-21):** a condition built from TC2000's built-in variables that finds stocks at an ATH **during the trading day**, with his own filters (price > $10, volume > 50,000); run as a column against a watchlist, then "plot the stocks on a monthly chart, draw in the green line tops and find stocks having a green line break-out during the current day," preferring "a high volume buzz." ([WW 2018-10-21](../../raw/posts/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md))
 
 ## November 2018 — Daily BWR pattern introduced; weekly RWB lost
 
@@ -2005,3 +2035,9 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2014-03-30 — 5th day of $QQQ short term down-trend; $FANG shows strength](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md) ([summary](../sources/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md))
 - [WW 2025-01-09 — Blog Post: Day 6 of $QQQ short term down-trend; 144 US stocks at new lows and 42 at highs; $QQQ,$SPY,$DIA and ](../../raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md) ([summary](../sources/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md))
 - [WW 2025-06-22 — Blog Post: Day 39 of $QQQ short term up-trend; $QQQ wedged between green line top and rising 4 week average; W](../../raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md) ([summary](../sources/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md))
+- [WW 2009-08-24 — Why search for great stocks when I can buy ultra ETF’s?](../../raw/posts/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md) ([summary](../sources/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md))
+- [WW 2012-03-12 — GMI out-performs in new study; GLD starting Stage 4 decline?](../../raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md) ([summary](../sources/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md))
+- [WW 2014-12-25 — More on bonds and rising rates; Buy and hold index funds?](../../raw/posts/2014-12-25-more-on-bonds-and-rising-rates-buy-and-hold-index-funds.md) ([summary](../sources/2014-12-25-more-on-bonds-and-rising-rates-buy-and-hold-index-funds.md))
+- [WW 2016-12-26 — 12th day of $QQQ short term up-trend; $QQQ and $CDW have an RWBCount= 12](../../raw/posts/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md) ([summary](../sources/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md))
+- [WW 2018-07-08 — Draw green dot signals on charts; $SSTI  $SFIX; GMI to turn Green? Trade deficits bad?](../../raw/posts/2018-07-08-draw-green-dot-signals-on-charts-ssti-sfix-gmi-to-turn-green-trade-deficits-bad.md) ([summary](../sources/2018-07-08-draw-green-dot-signals-on-charts-ssti-sfix-gmi-to-turn-green-trade-deficits-bad.md))
+- [WW 2018-10-21 — TC2000 workshop gems; $QQQ $SPY in daily BWR down-trends](../../raw/posts/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md) ([summary](../sources/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md))

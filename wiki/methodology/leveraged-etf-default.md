@@ -21,6 +21,8 @@ sources:
   - raw/posts/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md
   - raw/posts/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md
   - raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md
+  - raw/posts/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md
+  - raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md
 ---
 
 # The leveraged-ETF default — TQQQ on a GMI Buy signal
@@ -41,6 +43,10 @@ above my original purchase price. I *never* average down." ([WW 2009-06-07](../.
 The idea is older than the leveraged funds: July 2005 — "to make $$$ in this rise one merely could have bought the QQQQ on July 8 or 9 and held on. Aggressive traders could have bought call options on the QQQQ and made a killing. **Why mess around with individual stocks when one can merely trade this index?**" ([WW 2005-07-28](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
 
 **The 3× vehicles arrive (February 2009).** Until then the pair was 2×: "when I try to trade the trend of the QQQQ, I buy QLD (ultra long) or QID (ultra short)." He catalogues the new Direxion 3× funds as they appear — bulls FAS, BGU, TNA, ERX, EDC, MWJ, TYH, DZK; bears FAZ, BGZ, TZA, ERY, EDZ, MWN, TYP, DPK — noting eight already traded over a million shares a day. The caveat is the title: "**Remember, the leverage works both ways**… Still, if I have a good idea of the trend, these ETF's may prove better than going to the casino." ([WW 2009-02-08](../../raw/posts/2009-02-08-the-new-3x-etfs-triple-your-pleasure-or-pain.md))
+
+**The argument in full, two months later (August 2009).** "I spend so much time trying to find the right growth stock that will outperform the market. **Now that we have the extreme ultra (3x) ETF's it may be preferable to trade them.**" Two structural reasons for the Nasdaq-100 in particular: it "escaped some of the carnage last year because **it contains no financial stocks**"; and "stocks tend to explode or implode when earnings are announced. **Because the QQQQ represents 100 stocks, there is less impact from individual earnings announcements**." Written before TQQQ existed — 3× tech exposure had to come through **TYH**. ([WW 2009-08-24](../../raw/posts/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md))
+
+**And the risk argument, stated against a stock that beat him (March 2012).** From the 12/23 buy signal: QQQ +15.9%, QLD +33.9% — while AAPL managed +35.2% over the same window. He still prefers the index: "**riding a single stock is much more dangerous to me than riding an index that reflects a basket of stocks**." The caveat rides along: "leveraged ETFs, because of daily compounding of results, can be extremely dangerous when a decline sets in." ([WW 2012-03-12](../../raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md))
 
 ## The GMI buy signal and TQQQ default
 
@@ -100,3 +106,5 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2023-06-11 — Blog Post:  Day 30 of $QQQ short term up-trend; If one had bought $TQQQ on Day 1 of the $QQQ short term up-tre](../../raw/posts/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md) ([summary](../sources/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md))
 - [WW 2008-04-17 — GMI: 5; GMI-R: 9; QQQQ short term up-trend confirmed!; 41 IBD100 new highs](../../raw/posts/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md) ([summary](../sources/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md))
 - [WW 2011-02-04 — Nasdaq100 stocks (QQQQ): RWB up-trend; Ultra ETF’s outperform most stocks again](../../raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md) ([summary](../sources/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md))
+- [WW 2009-08-24 — Why search for great stocks when I can buy ultra ETF’s?](../../raw/posts/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md) ([summary](../sources/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md))
+- [WW 2012-03-12 — GMI out-performs in new study; GLD starting Stage 4 decline?](../../raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md) ([summary](../sources/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md))

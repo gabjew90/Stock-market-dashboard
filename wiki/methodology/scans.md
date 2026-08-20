@@ -34,6 +34,7 @@ sources:
   - raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md
   - raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md
   - raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md
+  - raw/posts/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -183,6 +184,10 @@ Four months later he states the same scan as a two-step sequence and shows what 
 
 Two design choices make this one worth copying. The criteria: a **100-day high that was *not* also a 100-day high the prior day** ("I want a stock to be just breaking out"), up significantly from a year ago, on above-average volume — 19 hits on 2017-02-10. The timing: "**I like to run this scan during the last hour of the trading day** (I do not want a stock that breaks out early only to reverse by the end of the day)." Entry is an initial position with a sell stop below the day's low, and the framing is explicit — "I use the results of my scans as a *starting point* to identify strong stocks that I must then research." ([WW 2017-02-12](../../raw/posts/2017-02-12-new-tc2000-scan-finds-glb-and-possible-cup-with-handle-break-out-pjc-next-post-tuesday-night.md))
 
+## The intraday all-time-high condition set (2018)
+
+Learned at a TC2000 workshop and adapted: a condition built from TC2000's built-in variables that finds stocks at an **all-time high during the trading day** — with his own universe filters on top, "**price > $10 and daily volume > 50,000**… my specs [which] differ from those used by Michael [Thompson]." Run as a column or scan against a watchlist, it surfaces intraday ATHs; "one can then plot the stocks on a monthly chart, **draw in the green line tops** (an all-time high not surpassed for at least 3 months) **and find stocks having a green line break-out during the current day**," preferring one with "a high volume buzz." The manual step survives the automation: the green line is still drawn by hand. ([WW 2018-10-21](../../raw/posts/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md))
+
 ## The barchart → TC2000 IPO-GLB workflow (2018)
 
 A cross-tool screen for recent IPOs breaking out, on the premise that "**every rocket stock has a long series of repeated ATH**":
@@ -264,3 +269,4 @@ It is also the one scan he declines to share: "**Please do not ask me to post my
 - [WW 2018-08-26 — 19 Recent IPOs at ATH with recent GLB: $MTCH $TWLO $SEND $SFIX $ROKU $CABO….](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md) ([summary](../sources/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))
 - [WW 2024-03-12 — Blog Post: Day 44 of $QQQ short term up-trend; $QQQ has black dot, oversold bounce, see daily chart and list o](../../raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md) ([summary](../sources/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md))
 - [WW 2014-03-30 — 5th-day-of-qqq-short-term-down-trend-fang-shows-strength](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md) ([summary](../sources/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md))
+- [WW 2018-10-21 — TC2000 workshop gems; $QQQ $SPY in daily BWR down-trends](../../raw/posts/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md) ([summary](../sources/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md))

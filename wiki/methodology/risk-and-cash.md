@@ -62,6 +62,7 @@ sources:
   - raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md
   - raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md
   - raw/posts/2009-07-20-turn-is-here-50-invested.md
+  - raw/posts/2014-12-25-more-on-bonds-and-rising-rates-buy-and-hold-index-funds.md
 ---
 
 # Risk & cash
@@ -104,6 +105,8 @@ Historical examples he credits to this discipline:
 **Leaders breaking on good news.** April 2014: CMG opened +$32 on good earnings and closed −$33; AMZN and TSLA well off their highs — "this type of volatility in a market leader suggests to me underlying weakness in the market… more likely to me… that they shoot the leaders first, followed by the rest of the market. With that as a possibility, why would I hold stocks now?" ([WW 2014-04-20](../../raw/posts/2014-04-20-market-at-critical-juncture-guppy-charts-show-relative-weakness-in-qqq-vs-spy.md))
 
 **The caution triggers, listed (2011):** "I tend to become cautious when the market indexes close below their 10 week averages or when the GMI declines to 3 or less. I also become concerned when the market leaders, like GOOG, AAPL, NFLX, weaken." ([WW 2011-02-23](../../raw/posts/2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious.md)) The 2006 form of the leader tell: when the biggest three-day losers in the Nasdaq-100 are YHOO, INTC, AAPL and GOOG, "when the biggest losers are the major big names, it may signify that the market is going to crumble" — and bad reactions to good earnings point the same way. ([WW 2006-01-23](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
+
+**The rates thesis he watches for (2014).** Not a forecast but a mechanism: bondholders enriched by a decade of falling rates "will likely flee their bonds if (when?) rates start to reverse up," and "after the turn when rates rise enough to be attractive, **people will exit risky stocks in favor of more conservative bonds or CDs, precipitating a bear market in stocks**." Made concrete: "**if the day ever returns that I could nail down 6% annual interest in insured CDs, I and many other boomers would presumably be happy to get out of stocks**… it is for this reason that I need to be very vigilant for the first signs that interest rates are reversing up." ([WW 2014-12-25](../../raw/posts/2014-12-25-more-on-bonds-and-rising-rates-buy-and-hold-index-funds.md)) This is why bond ETFs sit on his charts at all — see [monthly RWB on bond ETFs](gmma-charts.md#monthly-rwb-on-bond-etfs--a-macro-regime-indicator).
 
 ## Position management within a bull market
 
@@ -334,3 +337,4 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2005-05-26 — cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md) ([summary](../sources/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md))
 - [WW 2011-02-04 — Nasdaq100 stocks (QQQQ): RWB up-trend; Ultra ETF’s outperform most stocks again](../../raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md) ([summary](../sources/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md))
 - [WW 2009-07-20 — Up-trend is here; 50% invested; some rocket stocks](../../raw/posts/2009-07-20-turn-is-here-50-invested.md) ([summary](../sources/2009-07-20-turn-is-here-50-invested.md))
+- [WW 2014-12-25 — More on bonds and rising rates; Buy and hold index funds?](../../raw/posts/2014-12-25-more-on-bonds-and-rising-rates-buy-and-hold-index-funds.md) ([summary](../sources/2014-12-25-more-on-bonds-and-rising-rates-buy-and-hold-index-funds.md))
