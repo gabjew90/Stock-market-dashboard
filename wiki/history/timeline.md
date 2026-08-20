@@ -278,6 +278,12 @@ sources:
   - raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md
   - raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md
   - raw/posts/2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold.md
+  - raw/posts/2005-04-21-the-10000-bounce.md
+  - raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md
+  - raw/posts/2012-06-04-is-the-market-near-a-bottom-video-on-worden-t2108.md
+  - raw/posts/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md
+  - raw/posts/2022-04-06-blog-post-jesse-livermore-said-finally-there-came-the-awful-day-of-reckoning-for-the-bulls-and-the-optimists.md
+  - raw/posts/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md
 ---
 
 # Timeline — evolution of the methodology
@@ -315,6 +321,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## April 2005 (short side) — 'why play only one side of the game'
 
 **"Put me on, IRA" (2005-04-18):** "the market always goes further than everyone thinks is justified — up or down"; "experienced traders do not care which way the market goes, as long as it moves in a trend… why play only one side of the game"; short-selling explained; the short-rate index jumps. ([WW 2005-04-18](../../raw/posts/2005-04-18-put-me-on-ira.md))
+
+## April 2005 (language) — 'bear market' is a dangerous habit of speech
+
+**"The 10,000 bounce" (2005-04-21):** "**I have been using the term bear market — and this habit is dangerous. It is much safer to say that the market is in a down trend**"; the Dow's 200-point bounce off 10,000 does not nullify a 500-point decline — "the Dow would have to close 300 points higher for me to start to consider the bull case"; a fast break of the round number would probably have produced the capitulation. ([WW 2005-04-21](../../raw/posts/2005-04-21-the-10000-bounce.md))
 
 ## May 2005 — the gap rule and the doubling rationale (GOOG)
 
@@ -598,6 +608,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## November 2009 (bounces) — the fifth lower-band bounce; flying by instrument
+
+**"Market up-trend back on track after bouncing off of Bollinger band" (2009-11-09):** the QQQQ's fifth lower-Bollinger-Band bounce added in red to the chart posted three weeks earlier — "**if only I had the patience to wait for the bounce to enter my long positions!**"; "if I flew solely by instrument, I would have to be long again"; a named neckline (40.6) and close stops against the head-and-shoulders risk. ([WW 2009-11-09](../../raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md))
+
 ## February–April 2010 — Stock-selection scan workflow; stop-loss doctrine stated; DITM calls introduced
 
 **"How to use IBD 100 and New America stocks to find rocket stocks" (2010-02-22):** Dr. Wish publishes the complete multi-step funnel: 4,000-stock universe → 52-week highs → near 10-year ATH → earnings ≥ 30% or revenue ≥ 12% → IBD 100/New America cross-check. Result: 68% overlap with IBD lists confirms the filters agree. Prerequisite stated: GMI ≥ 3 before searching for stocks. ([WW 2010-02-22](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
@@ -796,6 +810,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"39th day of QQQ short term down-trend; ASPS break-out" (2012-06-11):** 98 new highs out of ~6,000 — "**it is in the new high list that I look for the leaders of the next move up. Any stock that can reach a new high… during protracted market weakness is likely to be reflecting some serious buying pressure**"; ASPS followed from $43.50 to ~$65. ([WW 2012-06-11](../../raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md))
 
+## June 2012 (T2108) — the indicator from its 1986 inception
+
+**"Is the market near a bottom? Video on Worden T2108" (2012-06-04):** a monthly chart from the series' start in **September 1986**; "**while it cannot call a top or bottom, the more extreme it becomes, the greater the likelihood** that the market is near a top (>80%) or bottom (<10%)"; 19% "not yet at a very extreme level"; "if T2108 gets into single digits, I will look to slowly buy an index ETF." ([WW 2012-06-04](../../raw/posts/2012-06-04-is-the-market-near-a-bottom-video-on-worden-t2108.md))
+
 ## July 2012 — green line charts formally described
 
 **"Stage analysis and green line charts" (2012-07-23):** after an AAII workshop, Dr. Wish formally defines the green line concept: a horizontal line on a monthly chart at an all-time high that has held for 3+ months. Buying the breakout above it (GLB) is the entry signal. Stage 2 requirement stated clearly: only buys when both market and stock are in Stage 2 (above rising 30-week average). ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
@@ -805,6 +823,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## September 2012 — the 5-day rule applied to inverse ETFs
 
 **"3rd day of QQQ short term down-trend" (2012-09-30):** small QID and TECS positions on day 3 — "I am more sure of a change of trend once it lasts for 5 days… if the down-trend continues Monday I will start to add"; pension still fully long on the weekly trend. ([WW 2012-09-30](../../raw/posts/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md))
+
+## February 2013 (regime) — the yearly S&P chart and the 1970s lesson
+
+**"When will this bull advance end? Performance of leveraged ETFs" (2013-02-03):** a yearly-bar chart built to test O'Neil's multi-year-advance call; "for most of the 70's… the Dow Jones average kept hitting 1,000 and backing off. **I would make money and then give it all back and more**"; "we all tend to steer our cars (lives) with our hands on the rear view mirror." ([WW 2013-02-03](../../raw/posts/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md))
 
 ## March 2013 (GLB) — the green line stated; pilot buy; Dow Theory via GLB
 
@@ -1310,6 +1332,10 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 ---
 
+## April 2022 (pension) — the 30-week trigger, revised in practice
+
+**"Jesse Livermore said…" (2022-04-06):** "**in the past when I took more chances I would wait for the 30 week average to curve down before taking my conservative university pension money out of the market**… **however, as I wrote last November, I began to transfer my university pension money out then because of the technical weakness I saw**" — the November 2021 breadth exit moved the pension five months before the formal trigger. "I will reenter when the 30 week averages start rising again"; the 1929 recovery given as 26 years. ([WW 2022-04-06](../../raw/posts/2022-04-06-blog-post-jesse-livermore-said-finally-there-came-the-awful-day-of-reckoning-for-the-bulls-and-the-optimists.md))
+
 ## May 2022 — T2108 monthly at 27%; weekly BWR onset vs 2008; GLB applied to indexes
 
 **"Based on my analysis of the market, it is nowhere oversold enough to be near a bottom" (2022-05-01):** written at the start of the 2022 bear market. Dr. Wish presents three strands of evidence that the decline was just beginning. **T2108 at 27% on the monthly chart**: he will "hold his nose and buy just a little SPY" only when T2108 drops below 10%, then accumulate only on the way up — not at the very bottom. At 27%, the market is nowhere near that oversold threshold. **Weekly BWR comparison**: the 2022 SPY chart was "just beginning" a weekly BWR (red-below-blue) Guppy pattern, paralleling early 2008 in timing — suggesting major further decline ahead if the historical parallel holds. **GLB concept extended to index ETFs**: DIA and SPY formed green line tops at their November 2020 monthly peaks; QQQ's last GLB to ATH was June 2020. "We will be back to a roaring trader's market again when these indexes have another GLB to all-time highs, but it could be months or even years before that." **Historical perspective**: between 1965 and 1982 the Dow failed repeatedly to break 1,000 — a 17-year period of flatness after prior all-time-high runs — and Dr. Wish (who was investing at the time) suggests such a period could repeat. He holds no individual stocks; GMI is Red; he remains in cash. ([WW 2022-05-01](../../raw/posts/2022-05-01-blog-post-based-on-my-analysis-of-the-market-it-is-nowhere-oversold-enough-to-be-near-a-bottom-here-is-the-ev.md))
@@ -1403,6 +1429,10 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 ## June 2023 (news) — price moves before the news: PANW's GLB and the S&P 500 announcement
 
 **"GMI=6 (of 6) and Green; Market in solid up-trend" (2023-06-04):** PANW's GLB at $213.61, bought Friday, S&P 500 inclusion announced that evening — "a stock's strong behavior often occurs *before* the news is out"; Darvas on atypical volume as the tell of informed buying. ([WW 2023-06-04](../../raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md))
+
+## June 2023 (measure) — TQQQ +29.6% beats 99% of the S&P 500 and 90% of a curated growth list
+
+**"If one had bought TQQQ on Day 1…" (2023-06-11):** from the 4/28 up-trend call through 6/9, TQQQ +29.6% — six Nasdaq-100 stocks ahead, five S&P 500 stocks ahead ("TQQQ outperformed 99% of the S&P 500 stocks"), and it beat "more than 90%" of his MarketSmith Growth 250 watchlist; "one must have a valid indicat[or]" because the leverage runs both ways. ([WW 2023-06-11](../../raw/posts/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md))
 
 ## July–September 2023 — the OSB stated as preferred to breakouts
 
@@ -1825,3 +1855,9 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2016-03-18 — Going back in, but slowly; TC2000 alert example: $EDU- GLB; $TSE, $ISRG](../../raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md) ([summary](../sources/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md))
 - [WW 2018-06-03 — 3 Recent GLB stocks: $ENVA $GDOT $TSG](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md) ([summary](../sources/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md))
 - [WW 2018-08-05 — 16 Stocks with a Green Dot Bounce from Oversold](../../raw/posts/2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold.md) ([summary](../sources/2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold.md))
+- [WW 2005-04-21 — The 10,000 Bounce](../../raw/posts/2005-04-21-the-10000-bounce.md) ([summary](../sources/2005-04-21-the-10000-bounce.md))
+- [WW 2009-11-09 — Market up-trend back on track after bouncing off of Bollinger band; Gold shines, STEC falters.](../../raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md) ([summary](../sources/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md))
+- [WW 2012-06-04 — Is the market  near a bottom?](../../raw/posts/2012-06-04-is-the-market-near-a-bottom-video-on-worden-t2108.md) ([summary](../sources/2012-06-04-is-the-market-near-a-bottom-video-on-worden-t2108.md))
+- [WW 2013-02-03 — When will this bull advance end? Performance of leveraged ETF’s](../../raw/posts/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md) ([summary](../sources/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md))
+- [WW 2022-04-06 — Blog post: Jesse Livermore said: “Finally there came the awful day of reckoning for the bulls and the optimist](../../raw/posts/2022-04-06-blog-post-jesse-livermore-said-finally-there-came-the-awful-day-of-reckoning-for-the-bulls-and-the-optimists.md) ([summary](../sources/2022-04-06-blog-post-jesse-livermore-said-finally-there-came-the-awful-day-of-reckoning-for-the-bulls-and-the-optimists.md))
+- [WW 2023-06-11 — Blog Post:  Day 30 of $QQQ short term up-trend; If one had bought $TQQQ on Day 1 of the $QQQ short term up-tre](../../raw/posts/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md) ([summary](../sources/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md))

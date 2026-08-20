@@ -26,6 +26,7 @@ sources:
   - raw/posts/2025-10-05-blog-post-day-29-of-qqq-short-term-up-trend-thank-you-for-the-many-likes-i-received-for-my-post-about-the-pun.md
   - raw/posts/2021-08-22-blog-post-stocks-rally-and-2-day-old-qqq-short-term-down-trend-may-end-monday-nke-an-example-of-how-i-use-my.md
   - raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md
+  - raw/posts/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md
 ---
 
 # Trading philosophy — the five propositions
@@ -97,6 +98,8 @@ Angels**... I want to enjoy other things in my life... and manage my investments
 part-time**." ([WW 2014-05-26](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
 The system's cadence — weekly stages for the pension, a daily count for the trading account,
 evening scans, buy-stop automation — is engineered around a part-time operator.
+
+**The yearly bar, and why the 1970s made him a trend follower.** In February 2013, with O'Neil and a newly chart-converted Cramer both calling for a multi-year advance, he built a *yearly*-bar chart of the S&P 500 to judge it himself. His own reference period is the one that taught him the method: "for most of the 70's, when I first traded in the market, the market went up and down in a trading range and could not break out. The Dow Jones average kept hitting 1,000 and backing off. **I would make money and then give it all back and more.**" And on why advances feel untrustworthy: "**we all tend to steer our cars (lives) with our hands on the rear view mirror rather than by holding the steering wheel and looking ahead.**" ([WW 2013-02-03](../../raw/posts/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md))
 
 ## The AOL epiphany — where the market gate came from
 
@@ -238,3 +241,4 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2025-10-05 — Blog Post: Day 29 of $QQQ short term up-trend; Thank you for the many “likes” I received for my post about the](../../raw/posts/2025-10-05-blog-post-day-29-of-qqq-short-term-up-trend-thank-you-for-the-many-likes-i-received-for-my-post-about-the-pun.md) ([summary](../sources/2025-10-05-blog-post-day-29-of-qqq-short-term-up-trend-thank-you-for-the-many-likes-i-received-for-my-post-about-the-pun.md))
 - [WW 2021-08-22 — Blog post: Stocks rally and 2 day old $QQQ short term down-trend may end Monday; $NKE–an example of how I use ](../../raw/posts/2021-08-22-blog-post-stocks-rally-and-2-day-old-qqq-short-term-down-trend-may-end-monday-nke-an-example-of-how-i-use-my.md) ([summary](../sources/2021-08-22-blog-post-stocks-rally-and-2-day-old-qqq-short-term-down-trend-may-end-monday-nke-an-example-of-how-i-use-my.md))
 - [WW 2023-06-04 — Blog Post: Day 25 of $QQQ short term up-trend; GMI=6 (of 6) and Green; Market in solid up-trend, set-ups worki](../../raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md) ([summary](../sources/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md))
+- [WW 2013-02-03 — When will this bull advance end? Performance of leveraged ETF’s](../../raw/posts/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md) ([summary](../sources/2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs.md))

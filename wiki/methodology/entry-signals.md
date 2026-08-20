@@ -22,6 +22,7 @@ sources:
   - raw/posts/2020-06-09-fb-and-amd-had-green-dot-signals-tuesday-go-to-my-tc2000-club-to-view-the-green-dot-tutorial.md
   - raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md
   - raw/posts/2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold.md
+  - raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md
 ---
 
 # Entry signals — BOS, the dots, and the daily bounce setups
@@ -99,6 +100,10 @@ The error the whole bounce family exists to prevent, named on his students and o
 
 Run over the weekend of 2018-08-04 for green-dot stocks **over $70** — "(**I have more success with expensive stocks**)" — that were recently very oversold: 16 hits. CRM is the worked case, with a green dot plus a bounce off both the **rising 50-day average** and the **lower Bollinger Band**, and earnings flagged for 8/28. The stop: "a decline back below a green dot would be the spot for my stop loss or an exit point." And the honest framing of a repeated signal: "**four prior green dot signals have worked for CRM but the signal can fail at any time.**" ([WW 2018-08-05](../../raw/posts/2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold.md)) The $70 floor is scan-specific and sits between the [$100 preference of January 2018 and the $200 rule of 2021](stock-selection.md#price-level-preference--80-2011--100-2018--200-2021).
 
+### The lower-band bounce, tracked in series (2009)
+
+Long before the dots, he numbered lower-Bollinger-Band bounces on a running QQQQ chart — adding the **fifth** in red to the chart he had published three weeks earlier after four. The lesson he draws is the one the whole bounce family later encodes: "**If only I had the patience to wait for the bounce to enter my long positions! Maybe next time.**" ([WW 2009-11-09](../../raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md))
+
 ## Lineage — which trigger is current
 
 The five triggers are successive dress for one idea, and the later ones do not retire the earlier ones so much as add a name to the chart. Read chronologically: **BOS (2016)** triggered off the lower 15.2 Bollinger Band; the **green dot (2018)** put a stochastic crossover on it and fixed the stop at the 5-day low; the **black dot (2021)** switched to the 10.1 stochastic ≤ 25 and became the OSB's trigger of record through 2023; the **x8/x21/30 alignment (2024)** added a moving-average structure test; and by **2025 the OSB was being called on the blue dot** (10.1 crossing above 20, with the full TC2000 formula published) — the SHAK example on [oversold-bounce](oversold-bounce.md#combining-osb-with-a-glb) shows the hand-over. He still cites the 15.2 band as a supporting condition on 2023 black-dot charts, so nothing here has been formally withdrawn; the blue dot is simply the most recent and the only one disclosed as a formula. The [OSB playbook](../playbooks/buying-osb.md#step-3--wait-for-oversold-then-the-turn-the-osb) tabulates the three dot triggers side by side.
@@ -140,3 +145,4 @@ Between the doctrine (2011-12) and BOS (2016) sits a February 2011 scan of the I
 - [WW 2020-06-09 — $FB and $AMD had green dot signals Tuesday; go to my TC2000 club to view the green dot tutorial](../../raw/posts/2020-06-09-fb-and-amd-had-green-dot-signals-tuesday-go-to-my-tc2000-club-to-view-the-green-dot-tutorial.md) ([summary](../sources/2020-06-09-fb-and-amd-had-green-dot-signals-tuesday-go-to-my-tc2000-club-to-view-the-green-dot-tutorial.md))
 - [WW 2009-10-19 — Using Bollinger bands to avoid buying  extended from support.](../../raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md) ([summary](../sources/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md))
 - [WW 2018-08-05 — 16 Stocks with a Green Dot Bounce from Oversold](../../raw/posts/2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold.md) ([summary](../sources/2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold.md))
+- [WW 2009-11-09 — Market up-trend back on track after bouncing off of Bollinger band; Gold shines, STEC falters.](../../raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md) ([summary](../sources/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md))

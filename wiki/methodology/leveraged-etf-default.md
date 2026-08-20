@@ -18,6 +18,7 @@ sources:
   - raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md
   - raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md
   - raw/posts/2009-02-08-the-new-3x-etfs-triple-your-pleasure-or-pain.md
+  - raw/posts/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md
 ---
 
 # The leveraged-ETF default — TQQQ on a GMI Buy signal
@@ -65,6 +66,8 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 
 **And in July 2021**, measured from U-1 on 5/26: TQQQ +23.3%, beaten by "only 4% of the Nasdaq100 stocks, 1% of the S&P500 stocks, none of the Dow 30 stocks, and 6% of all US stocks… holding TQQQ during an up-trend beats more than 94% of individual stocks." The question he puts to readers: "**Are you trying to find the needle in the haystack rare stock that will out perform TQQQ, or are you interested in a higher probability approach to making money in the market?**" ([WW 2021-07-05](../../raw/posts/2021-07-05-blog-post-gmi-is-at-6-of-6-and-up-trends-remain-intact-the-qqq-short-term-trend-count-is-u-27-my-profitable-s.md))
 
+**The best-measured statement (June 2023).** From day one of the up-trend he called on 4/28 through 6/9, **TQQQ advanced 29.6%**: only six Nasdaq-100 stocks beat it, only five S&P 500 stocks did — "**TQQQ outperformed 99% of the S&P 500 stocks**" — and against his *curated* MarketSmith Growth 250 watchlist from 4/13, "**TQQQ even beat more than 90% of those promising stocks**." That last comparison is the strongest form of the claim, since the comparison set was pre-selected for quality. The caveat rides with it: "TQQQ is triple leveraged and moves 3x as fast as QQQ, *up or down*. So one must have a valid indicat[or]" of the trend. ([WW 2023-06-11](../../raw/posts/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md))
+
 ## See also
 
 - [Risk & cash](risk-and-cash.md) — the page this was split from; the cash side of the same coin
@@ -90,3 +93,4 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2014-02-09 — Is this the end of the correction? 14 stocks at all-time highs!](../../raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md) ([summary](../sources/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md))
 - [WW 2020-10-11 — With GMI=Green and a $QQQ short term up-trend and daily RWB pattern in place, it is time for me to buy TQQQ an](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md) ([summary](../sources/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))
 - [WW 2009-02-08 — The new 3x ETF’s–triple your pleasure — or pain](../../raw/posts/2009-02-08-the-new-3x-etfs-triple-your-pleasure-or-pain.md) ([summary](../sources/2009-02-08-the-new-3x-etfs-triple-your-pleasure-or-pain.md))
+- [WW 2023-06-11 — Blog Post:  Day 30 of $QQQ short term up-trend; If one had bought $TQQQ on Day 1 of the $QQQ short term up-tre](../../raw/posts/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md) ([summary](../sources/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md))

@@ -29,6 +29,8 @@ sources:
   - raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md
   - raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md
   - raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md
+  - raw/posts/2005-04-21-the-10000-bounce.md
+  - raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -45,6 +47,8 @@ The cost of the chicken's reflex, admitted in February 2011 after exiting too ea
 
 The rule is as old as the blog. May 2005: "my gut was telling me the market should go down but my instruments were telling me to buy. **One must always go with his/her instruments — the market action.** I do not waste a lot of time trying to divine the market's direction by focusing on economic news or current events. Don't get attached to a scenario." ([WW 2005-05-22](../../raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md))
 
+The pilot metaphor again in November 2009, after a whipsaw: "as much as I hate being whipsawed by the recent decline, **if I flew solely by instrument, I would have to be long again**." He went long with close stops and a named neckline level to invalidate. ([WW 2009-11-09](../../raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md)) The same post carries the wish that the bounce doctrine later formalised: "**if only I had the patience to wait for the bounce to enter my long positions!**"
+
 ## 2. Do not marry a scenario
 
 "We must always guard against marrying a scenario and be ready to change direction to be consistent with the market's main trend." Said while pundits called a top and his GMMA charts showed a two-year RWB advance intact. ([WW 2015-02-16](../../raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md)) The same instinct in a down-trend: "Buying or holding stocks at or near new highs is now a losers game. Everyone must do some self-analysis to determine why they would do so during a market down-trend. **Ask, do I want to make money or to be smart?**" ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
@@ -54,6 +58,8 @@ The stock-level version, from November 2016: "I do not marry a stock. As William
 The bottom-calling version, 2025: "**Stop trying to predict a bottom and wait for it to define itself.**" With the arithmetic that makes patience affordable: "I do not have to reinvest at the bottom, just return in a new up-trend before the market rises to the point I got out." ([WW 2025-04-20](../../raw/posts/2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now.md)) And 2022: "by definition, a trend follower follows the trend. I will get back in long after a bottom is formed, not before. Going in early in anticipation of a change in trend often leads to losses." ([WW 2022-01-30](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
 
 The error named on himself in 2005: "I fell into a bear trap last week. I started to talk about shorting when the GMI was still at +6. How many times have I noted that one must go with the market trend — not try to anticipate it. I was so disappointed with the way HANS and GOOG acted last week that I became prematurely bearish… **The point is to act AFTER the decline has begun.**" ([WW 2005-07-24](../../raw/posts/2005-07-24-bear-trap-gmi-6-wpm-dia-and-qqqq-weaker-scan-for-bouncers-able-or-not-able.md))
+
+**The vocabulary version, from the blog's first week (2005).** "**I have been using the term bear market — and this habit is dangerous. It is much safer to say that the market is in a down trend.**" Naming a regime commits you to a scenario the tape has not confirmed; naming a *trend* commits you only to what is observable. In the same post he fixes a level for changing his mind — "the Dow would have to close 300 points higher for me to start to consider the bull case." ([WW 2005-04-21](../../raw/posts/2005-04-21-the-10000-bounce.md))
 
 ## 3. Fear will make you break your own rule — he did, and said so
 
@@ -125,3 +131,5 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2009-10-19 — Using Bollinger bands to avoid buying  extended from support.](../../raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md) ([summary](../sources/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md))
 - [WW 2020-10-11 — With GMI=Green and a $QQQ short term up-trend and daily RWB pattern in place, it is time for me to buy TQQQ an](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md) ([summary](../sources/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))
 - [WW 2016-03-18 — Going back in, but slowly; TC2000 alert example: $EDU- GLB; $TSE, $ISRG](../../raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md) ([summary](../sources/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md))
+- [WW 2005-04-21 — The 10,000 Bounce](../../raw/posts/2005-04-21-the-10000-bounce.md) ([summary](../sources/2005-04-21-the-10000-bounce.md))
+- [WW 2009-11-09 — Market up-trend back on track after bouncing off of Bollinger band; Gold shines, STEC falters.](../../raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md) ([summary](../sources/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md))
