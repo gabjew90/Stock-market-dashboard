@@ -44,6 +44,7 @@ sources:
   - raw/posts/2005-12-08-gmi-6-short-term-weakening-failed-break-outs-cmtl.md
   - raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md
   - raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md
+  - raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md
 ---
 
 # General Market Index (GMI)
@@ -103,6 +104,8 @@ Component 6 was never replaced or modified: it is the same in 2025 as at launch,
 Two consequences. First, the reconstruction's use of **FFTY** as a component-6 proxy (see below) is a substitute for a series that is still live and still readable as `0muti` on IBD's charting application — not a replacement for a retired one. Second, `0muti` is a specific, identifiable series, so a faithful component 6 is in principle obtainable rather than permanently proxied.
 
 **Why component 1 carries a minimum count.** "This indicator is very unstable when only a few stocks hit new highs 10 days ago" — said in April 2008 when it alone knocked the GMI from 4 to 3 in a young up-trend, and the reason the published table later reads it as ≥ 50% *with a minimum of 20* (see [GMI evidence](gmi-evidence.md)). ([WW 2008-04-07](../../raw/posts/2008-04-07-gmi-3-gmi-r-7-9th-day-of-qqqq-short-term-up-trend-qld-urbn.md))
+
+**And the `min. 20` floor was added on February 11, 2008** — the third and final revision. "This indicator is positive if there are 100 successful 10-day new highs, or if not, if the percentage of these stocks that are higher is at least 50%. **I have added the additional requirement that it be 50% *and* that there were at least 20 new highs 10 days ago (the denominator ≥ 20). I think that the 50% requirement is not enough if it is based on fewer than 20 stocks.**" ([WW 2008-02-11](../../raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md)) So the full definitional history is: raw count > 100 (April 2005) → count **or** ≥ 50% (July 2005) → **and** denominator ≥ 20 (February 2008), which is the form the published table has carried ever since. The April 2008 remark about the indicator being "very unstable when only a few stocks hit new highs" comes *after* the fix, not before it.
 
 **Component 1 was redefined on July 11, 2005.** The launch definition was a raw count (>100 successful 10-day new highs). Ten weeks in, with only 95 stocks having made new highs ten days earlier — so the count could never reach 100 — he changed it: "I changed the criterion for the 10 day new high index to be positive if there were 100 successful stocks **or at least 50%** of the stocks that hit a new high 10 days ago closed higher today than 10 days ago… So today, 76/95 stocks or 80% qualified." That is the origin of the ≥ 50% rule the daily table has carried ever since (with the minimum count later set at 20 — see [GMI evidence](gmi-evidence.md)). ([WW 2005-07-11](../../raw/posts/2005-07-11-a-hot-market-gmi-6-more-rockets-covered-calls-on-goog.md)) The count form had first turned positive on June 2, 2005 — "for the first time since we began to post the GMI, there were more than 100 successful 10 day new highs." ([WW 2005-06-02](../../raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md))
 
@@ -327,3 +330,4 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2005-12-08 — GMI: +6; Short term weakening; Failed break-outs: CMTL](../../raw/posts/2005-12-08-gmi-6-short-term-weakening-failed-break-outs-cmtl.md) ([summary](../sources/2005-12-08-gmi-6-short-term-weakening-failed-break-outs-cmtl.md))
 - [WW 2008-03-31 — GMI-1; GMI-R: 3; RICK- a stock for a “bare” market?](../../raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md) ([summary](../sources/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md))
 - [WW 2015-10-04 — IBD calls market up-trend; $SLP –green line break out worth watching](../../raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md) ([summary](../sources/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md))
+- [WW 2008-02-11 — GMI: 0; GMI-R: 0; 13th week since top; DBC, DJP, DBA](../../raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md) ([summary](../sources/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md))

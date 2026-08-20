@@ -30,6 +30,9 @@ sources:
   - raw/posts/2023-03-06-blog-post-day-1-of-new-qqq-short-term-up-trend-will-powell-kill-it-137-new-us-highs-100-lows-and-41-at-ath-6.md
   - raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md
   - raw/posts/2010-08-04-how-my-oversold-stochastic-followed-by-a-buy-signal-scan-found-pcln.md
+  - raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md
+  - raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md
+  - raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -179,6 +182,21 @@ Four months later he states the same scan as a two-step sequence and shows what 
 
 Two design choices make this one worth copying. The criteria: a **100-day high that was *not* also a 100-day high the prior day** ("I want a stock to be just breaking out"), up significantly from a year ago, on above-average volume — 19 hits on 2017-02-10. The timing: "**I like to run this scan during the last hour of the trading day** (I do not want a stock that breaks out early only to reverse by the end of the day)." Entry is an initial position with a sell stop below the day's low, and the framing is explicit — "I use the results of my scans as a *starting point* to identify strong stocks that I must then research." ([WW 2017-02-12](../../raw/posts/2017-02-12-new-tc2000-scan-finds-glb-and-possible-cup-with-handle-break-out-pjc-next-post-tuesday-night.md))
 
+## The barchart → TC2000 IPO-GLB workflow (2018)
+
+A cross-tool screen for recent IPOs breaking out, on the premise that "**every rocket stock has a long series of repeated ATH**":
+
+1. Take the day's **all-time-high list from barchart.com**; copy it through Excel into a TC2000 watchlist.
+2. Isolate recent IPOs with a TC2000 column formula **`c/c4` set to yearly** — a result of `**` means the stock did not trade before 2015, so it cannot be calculated.
+3. Read each **monthly** chart by hand for an ATH followed by a consolidation of **at least 3 months**; draw the green line at the pre-consolidation peak.
+4. Keep those that have since **closed above** the line, preferring **above-average volume in the GLB week**.
+
+"The great trader, Jesse Livermore, liked to buy the first GLB (he did not use my term!) of a recent IPO." Exit unchanged: a *close* back below the green line sells it immediately. ([WW 2018-08-26](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))
+
+## The black-dot ATH scan (2024)
+
+"Technically strong stocks that are **up at least 50% the past year**, **hit an ATH in the last 10 weeks** and **had a black dot, or oversold bounce**." The stop differs from the usual bounce-day low: "**if I buy such a stock I place my sell stop just below the low of the past 2 days**." ([WW 2024-03-12](../../raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md))
+
 ## The Wish-Darvas scan (2021) — the criteria in full
 
 "A new scan column in TC2000 that puts together most of the characteristics of winning stocks that I have embraced over the years. Some were suggested by the great Nicolas Darvas. Most, I created based on my trading experience and reading the past 50+ years." As published:
@@ -201,6 +219,8 @@ Fourteen of 6,081 US stocks qualified on 2021-04-16; six already carried his IBD
 A TC2000 EasyScan he designed to approximate Darvas's selection criteria, run against ~6,000 stocks; on 2015-02-27 it returned 46 names, of which AMBA — above its green-line top, in a weekly RWB pattern — was the example. The criteria are not listed in the post; he points to his 2012 Houston TC2000 webinar for the walk-through. ([WW 2015-03-01](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md))
 
 The scans and watchlists are not private: he documents them in the blog's glossary and publishes them to his **TC2000 Club**, including an `Alltimehighs` watchlist the other scans run against. The Darvas scan returned 53 stocks on the weekend of 2017-01-21. ([WW 2017-01-22](../../raw/posts/2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary.md))
+
+It is also the one scan he declines to share: "**Please do not ask me to post my Darvas Scan.**" — unlike the club scans, its criteria stay private, though he describes it as identifying "stocks that have many of the attributes [Darvas] liked." ([WW 2010-08-05](../../raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md))
 
 ## See also
 
@@ -239,3 +259,6 @@ The scans and watchlists are not private: he documents them in the blog's glossa
 - [WW 2023-03-06 — Blog Post: Day 1 of new $QQQ short term up-trend, will Powell kill it? 137  new US highs, 100 lows and 41 at A](../../raw/posts/2023-03-06-blog-post-day-1-of-new-qqq-short-term-up-trend-will-powell-kill-it-137-new-us-highs-100-lows-and-41-at-ath-6.md) ([summary](../sources/2023-03-06-blog-post-day-1-of-new-qqq-short-term-up-trend-will-powell-kill-it-137-new-us-highs-100-lows-and-41-at-ath-6.md))
 - [WW 2020-03-29 — 13 Needles in a haystack; $TNK, $ZM, $CHWY, $QDEL, $TDOC, $CTXS, $LMNX, $NET + 5 more………](../../raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md) ([summary](../sources/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md))
 - [WW 2010-08-04 — How my “oversold stochastic followed by a buy signal” scan found PCLN](../../raw/posts/2010-08-04-how-my-oversold-stochastic-followed-by-a-buy-signal-scan-found-pcln.md) ([summary](../sources/2010-08-04-how-my-oversold-stochastic-followed-by-a-buy-signal-scan-found-pcln.md))
+- [WW 2010-08-05 — Going long—FFIV and other Darvas Scan stocks](../../raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md) ([summary](../sources/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md))
+- [WW 2018-08-26 — 19 Recent IPOs at ATH with recent GLB: $MTCH $TWLO $SEND $SFIX $ROKU $CABO….](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md) ([summary](../sources/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))
+- [WW 2024-03-12 — Blog Post: Day 44 of $QQQ short term up-trend; $QQQ has black dot, oversold bounce, see daily chart and list o](../../raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md) ([summary](../sources/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md))

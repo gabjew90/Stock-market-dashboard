@@ -51,6 +51,7 @@ sources:
   - raw/posts/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md
   - raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md
   - raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md
+  - raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -140,6 +141,8 @@ Example: TWTR IPO'd and formed a green line top at $74.73 in December 2013 (one 
 Stated compactly in March 2019: "I like to buy recent IPOs (within last 4-5 years) that form a multi-month top and then break through on above average volume to an all-time high" — the appeal being "a lot of room to gain as traders see the new highs and jump on board." The exit-and-re-entry pair travels with it: "I never hold a GLB that *closes* back below its green line, but I often will repurchase it if it closes back above its green line." Examples SAFE, YETI, TWLO. ([WW 2019-03-29](../../raw/posts/2019-03-29-buying-ipos-with-a-recent-glb-safe-yeti-twlo.md))
 
 The idea predates the label: in June 2014, on PTLA, "I think it to be an important technical signal when a recent IPO forms a multi-month base and then breaks to a new all-time high." ([WW 2014-06-22](../../raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md))
+
+The lineage is Livermore's: "the great trader, Jesse Livermore, liked to buy the **first GLB** (he did not use my term!) **of a recent IPO**." ([WW 2018-08-26](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))
 
 ## The WGB — a second-chance entry after a GLB
 
@@ -376,3 +379,4 @@ This is continuous with the 2016 [BOS](stock-selection.md) preference ("I actual
 - [WW 2020-07-23 — Blog post: TC2000 alerted me to a high volume GLB yesterday: $AMD–learn how to set GLB alerts](../../raw/posts/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md) ([summary](../sources/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md))
 - [WW 2020-10-11 — With GMI=Green and a $QQQ short term up-trend and daily RWB pattern in place, it is time for me to buy TQQQ an](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md) ([summary](../sources/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))
 - [WW 2018-06-03 — 3 Recent GLB stocks: $ENVA $GDOT $TSG](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md) ([summary](../sources/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md))
+- [WW 2018-08-26 — 19 Recent IPOs at ATH with recent GLB: $MTCH $TWLO $SEND $SFIX $ROKU $CABO….](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md) ([summary](../sources/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))

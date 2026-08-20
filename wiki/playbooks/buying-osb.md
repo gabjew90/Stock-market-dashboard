@@ -17,6 +17,7 @@ sources:
   - raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md
   - raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md
   - raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md
+  - raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md
 ---
 
 # Playbook — buying an oversold bounce (OSB / ATHOSB)
@@ -81,6 +82,8 @@ Sort by **close ÷ lowest close of the past 250 days** — strongest movers to t
 - **Stop:** immediately, just below the **low of the bounce day**. "If I buy any OSB, I place an immediate stop below the bounce." ([WW 2023-08-03](../../raw/posts/2023-08-03-blog-post-day-67-of-qqq-short-term-up-trend-115-new-us-highs-and-44-lows-11-stocks-have-osb-after-recent-ath.md)) Worked numerically: WWE bought in the after-market, "will exit if it trades below Thursday's low (104.34)." ([WW 2023-07-20](../../raw/posts/2023-07-20-blog-post-day-57-of-qqq-short-term-up-trend-list-of-4-growth-stocks-with-black-dot-osb-set-up-see-daily-chart.md)) For a green-dot entry the dot itself sits at the 5-day low and *is* the stop reference. ([WW 2018-03-11](../../raw/posts/2018-03-11-green-dot-strategy-defined.md))
 - **Why this is the whole point.** The stop is the reason he prefers this to the breakout: "with the OSB set-up it is much easier to determine the price where the set-up has failed." ([WW 2023-07-13](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md)) An entry without the stop is not this setup.
 
+- **Stop variant (2024):** on his black-dot ATH scan he places the stop "just below the low of the **past 2 days**" rather than the bounce day alone — a slightly wider window on the same idea. ([WW 2024-03-12](../../raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md))
+
 ---
 
 ## Step 6 — Manage
@@ -122,3 +125,4 @@ The two are one workflow, not two. "If I did not buy the day of the gap, I could
 - [WW 2023-09-13 — VRT has OSB and a recent GLB](../../raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md) ([summary](../sources/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md))
 - [WW 2025-05-22 — Boston IBD Meetup; blue dot formula and scan disclosed](../../raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md) ([summary](../sources/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md))
 - [WW 2025-07-09 — SHAK retakes green line after a Blue Dot OSB](../../raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md) ([summary](../sources/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md))
+- [WW 2024-03-12 — Blog Post: Day 44 of $QQQ short term up-trend; $QQQ has black dot, oversold bounce, see daily chart and list o](../../raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md) ([summary](../sources/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md))

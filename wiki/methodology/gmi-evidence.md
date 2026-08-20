@@ -14,6 +14,8 @@ sources:
   - raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md
   - raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md
   - raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md
+  - raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md
+  - raw/posts/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md
 ---
 
 # GMI evidence — the published tables, the signal record, and how the components were recovered
@@ -57,6 +59,8 @@ now be working from.
 
 **One GMI component confirmed:** The QQQ (or QQQQ) closing above its 30-week moving average is one of the six GMI components. ([WW 2012-07-23](../../raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md))
 
+The floor is not a table artefact — he introduced it deliberately on 2008-02-11 and said why: "the 50% requirement is not enough if it is based on fewer than 20 stocks." ([WW 2008-02-11](../../raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md))
+
 ## 2005 — GMI historical track record chart (first published)
 
 In November 2005, Dr. Wish published his first chart of GMI values from inception, visually showing that GMI ≥ 5 periods coincided with profitable long conditions and GMI < 3 periods coincided with market weakness. The chart confirmed that GMI was +6 for all of July 2005 and had been 5 or higher since November 1, 2005. He left readers to judge its usefulness: "It is for me." ([WW 2005-11-13](../../raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md))
@@ -78,6 +82,8 @@ The 2008 record, in his February 2009 numbers: since the GMI last read 4 (late A
 ## The first self-audit (November 2011) — and the rule it produced
 
 The earliest systematic look at the GMI's record on the blog: every regime change from April 19 to November 25, 2011, marked on a daily QQQ chart, bullish = close at 4 or more, bearish = below 4. Twelve changes; the GMI "turned bearish for most of the June decline (signal number 6) and the declines in August (8) and October (10)"; three changes lasted a single day (2→3, 5→6, 9→10). The conclusion became the persistence rule used ever since: "*If I had used a rule that said that a change in trend had to persist for two days to be valid, I would have avoided these false signals.* I will use that rule when I write about future changes in the market trend." A student was set the same audit over five years. ([WW 2011-11-28](../../raw/posts/2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg.md)) Signal #13, on 2011-12-01, was the first issued under the rule. ([WW 2011-12-05](../../raw/posts/2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed.md))
+
+**A third audit, three years wide (April 2019).** A QQQ chart marked with every Red and Green GMI period from January 2016 to April 2019, criteria printed beneath it — the same exercise as 2011 and 2016 over a longer window. The daily routine behind the signal: "every day after the market closes I compute the GMI total (out of 6) and post the current Red or Green signal," because "the GMI helps me to trade consistent with the longer term trend of the market." ([WW 2019-04-21](../../raw/posts/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md))
 
 ## A per-signal audit (February 2016)
 
@@ -131,3 +137,5 @@ directly legible; no OCR tooling is needed, only the time to go through them.
 - [WW 2009-02-15 — Jim Cramer finds TA religion; TSYS cup with handle; promising IBD100 stocks](../../raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md) ([summary](../sources/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md))
 - [WW 2005-06-13 — GMI back to +5; Chart of GMI performance; BTU](../../raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md) ([summary](../sources/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md))
 - [WW 2005-07-28 — Another strong day; GMI: +6 and its track record; Benefits of naked charts; Some Darvas type stocks](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md) ([summary](../sources/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
+- [WW 2008-02-11 — GMI: 0; GMI-R: 0; 13th week since top; DBC, DJP, DBA](../../raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md) ([summary](../sources/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md))
+- [WW 2019-04-21 — GMI signals applied to $QQQ, January, 2016-April 18, 2019](../../raw/posts/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md) ([summary](../sources/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md))

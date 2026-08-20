@@ -53,6 +53,7 @@ sources:
   - raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md
   - raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md
   - raw/posts/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md
+  - raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md
 ---
 
 # Stock selection
@@ -99,6 +100,8 @@ Pure technical or pure fundamental analysis alone is insufficient. From Darvas: 
 **The order, worked (2022).** INSW surfaced because it was one of four US stocks at an ATH that day; only then came MarketSmith — composite 98, Acc/Dis A+, group RS 98, triple-digit sales growth two quarters running, rising fund ownership, projected EPS $5.03 (no profit yet). Chart first: a GLB on above-average volume, a close back below the green line the next day, a retake two days later, then a new ATH on the heaviest volume since April, with repeated support at the 8-day EMA riding above the 21-day. ([WW 2022-09-19](../../raw/posts/2022-09-19-blog-post-35-us-new-highs-and-438-new-lows-4-stocks-at-ath-one-of-them-is-insw-see-daily-chart-of-insw-and-ho.md))
 
 **The exception he grants himself.** QS in January 2024 was a concept trade on Judy's research — solid-state batteries, tests exceeding expectations, Volkswagen invested — bought small on a high-volume news day and "holding the shares long term," which is the horizon he says elsewhere he lacks the confidence for. Worth marking as an exception rather than a rule: nothing else in the corpus is bought and held on a story. ([WW 2024-01-04](../../raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md))
+
+**The filter as a three-part checklist (2010):** "I prefer to buy stocks that have **already doubled in the past year** and that are **trading at or near their all-time highs**. I also want the stock to have **appeared on the IBD New America or IBD100 list**." FFIV met all three, plus his Darvas scan, and had just burst through an all-time high set in late 1999; he "purchased a little… and will add to it if it keeps rising." ([WW 2010-08-05](../../raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md))
 
 ## Screen criteria — detailed 2010 workflow
 
@@ -336,3 +339,4 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2012-06-11 — 39th day of QQQ short term down-trend; ASPS break-out?](../../raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md) ([summary](../sources/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md))
 - [WW 2018-06-03 — 3 Recent GLB stocks: $ENVA $GDOT $TSG](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md) ([summary](../sources/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md))
 - [WW 2009-04-12 — Buying Rocket Stocks; My market indicators are very strong.](../../raw/posts/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md) ([summary](../sources/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md))
+- [WW 2010-08-05 — Going long—FFIV and other Darvas Scan stocks](../../raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md) ([summary](../sources/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md))

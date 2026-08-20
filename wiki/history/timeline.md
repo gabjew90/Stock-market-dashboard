@@ -290,6 +290,12 @@ sources:
   - raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md
   - raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md
   - raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md
+  - raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md
+  - raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md
+  - raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md
+  - raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md
+  - raw/posts/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md
+  - raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md
 ---
 
 # Timeline — evolution of the methodology
@@ -514,6 +520,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"GMI 0; 12th day of down-trend, sucker rally near?; IBD100 holds winners" (2008-01-22):** 844 lows / 10 highs; ten weeks under the 10-week → 82% of Nasdaq-100 lower; T2108 19% possible bottom but "a rally would have to exceed about +10% for me to call a change in trend"; ISRG/AAPL/GOOG/BIDU/GRMN on IBD100 lists early; a 26-stock resisters watchlist; wait for the turn. ([WW 2008-01-22](../../raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md))
 
+## February 2008 (component 1) — the `min. 20` floor added
+
+**"GMI: 0; GMI-R: 0; 13th week since top" (2008-02-11):** the third and final revision to component 1 — "I have added the additional requirement that it be 50% **and** that there were at least 20 new highs 10 days ago (the denominator ≥ 20). I think that the 50% requirement is not enough if it is based on fewer than 20 stocks." The definitional history completes: count > 100 (Apr 2005) → count or ≥ 50% (Jul 2005) → and denominator ≥ 20 (Feb 2008). ([WW 2008-02-11](../../raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md))
+
 ## March 2008 (precondition) — twelve new highs out of 4,000
 
 **"GMI: 1; GMI-R: 3" (2008-03-31):** "**a growth stock strategy of buying stocks at new highs will not work in an environment when only 12 stocks out of 4,000 can hit a new high in a day**"; "my strategy of buying rockets going to new highs works best when the averages are consistently above their 10 week averages"; exit level named in advance; "the key is to conserve capital." ([WW 2008-03-31](../../raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md))
@@ -700,6 +710,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"How my oversold stochastic followed by a buy signal scan found PCLN" (2010-08-04):** the two-step sequence — stochastic below 20, then a close above the 30-day average; PCLN caught weeks before its blow-out earnings but not bought "because of the low GMI reading"; "this scan does not typically work so well in a down market"; "one must always use stops." ([WW 2010-08-04](../../raw/posts/2010-08-04-how-my-oversold-stochastic-followed-by-a-buy-signal-scan-found-pcln.md))
 
+## August 2010 (filter) — the three-part selection checklist; the private Darvas scan
+
+**"Going long $FFIV and other Darvas scan stocks" (2010-08-05):** "I prefer to buy stocks that have **already doubled in the past year** and that are **trading at or near their all-time highs**. I also want the stock to have **appeared on the IBD New America or IBD100 list**"; FFIV bursting through a late-1999 ATH; bought a little, "will add to it if it keeps rising"; and "please do not ask me to post my Darvas Scan." ([WW 2010-08-05](../../raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md))
+
 ## September 2010 — RWB pattern coined
 
 **"Introducing Red White and Blue (RWB) Stocks" (2010-09-27):** the RWB weekly GMMA chart pattern is named and defined. Shorter-term MAs (red) above longer-term MAs (blue) with white space between them = rocket. Opposite = BWR = submarine. First explicit T2108 discussion: asymmetry (high T2108 less predictive than low T2108 below 10%). GMI-R mentioned alongside GMI. ([WW 2010-09-27](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
@@ -873,6 +887,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## June 2013 (count) — a trend-count criterion tried and reverted
 
 **"Sell in May worked? My confession" (2013-06-24):** an anti-whipsaw criterion for the QQQ short-term trend count, adopted and abandoned in weeks — "in doing so, I missed the beginning of the current decline. So I went back to my original method"; the corrected sequence published (U-31 to June 5, a 2-day down-trend, a 2-day up-trend, then D-9 from June 12). Two-day trends are expected output of the original rule. ([WW 2013-06-24](../../raw/posts/2013-06-24-sell-in-may-worked-my-confession-d-9-of-current-short-term-down-trend.md))
+
+## August 2013 (GMI2) — revised from 6 to 8 components
+
+**"$QQQ remains in Stage 2 up-trend; GMI2=8 (of 8)" (2013-08-25):** "I have revised the GMI2 by **adding two new indicators (7 and 8)**… I use the GMI2 to keep me focused on this set of 8 very technical indicators and **not for specific buy/sell signals**"; and the pension rule in one line — all major indexes in Stage 2 ⇒ "I remain 100% invested in my primary university pension accounts." ([WW 2013-08-25](../../raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md))
 
 ## September 2013 — Livermore's 1940 pivotal points as the green line's ancestor; FB at $45
 
@@ -1184,6 +1202,10 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 **"RWB weekly strategy can keep me in a good position" (2018-07-16):** "daily charts often mislead me and scare me out of good positions"; hold any equity in a weekly RWB "until the white band in the middle… disappears"; weekly closes under the red lines are noise while red stays above blue; "never buy and… sell or sell short any equity with the opposite BWR weekly down-trend pattern" (GE). ([WW 2018-07-16](../../raw/posts/2018-07-16-rwb-weekly-strategy-can-keep-me-in-a-good-position-qqq-spy-ge-cat-sq.md))
 
+## August 2018 (workflow) — barchart → TC2000 for recent-IPO GLBs
+
+**"19 recent IPOs at ATH with recent GLB" (2018-08-26):** "every rocket stock has a long series of repeated ATH"; the day's ATH list from barchart.com → Excel → TC2000, a `c/c4` yearly column to isolate post-2015 IPOs, then monthly charts read by hand for an ATH plus a 3-month consolidation and a close above the drawn green line, volume preferred; "the great trader, Jesse Livermore, liked to buy the first GLB… of a recent IPO." ([WW 2018-08-26](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))
+
 ## November 2018 — Daily BWR pattern introduced; weekly RWB lost
 
 **"I'm back! Daily BWR pattern for $QQQ" (2018-11-25):** after the Q4 2018 decline, Dr. Wish shows that both the daily and weekly Guppy charts for QQQ have turned or are turning BWR. The GMI flashed Red on October 8, 2018. T2108 hit an intraday low of 7.6% on October 26, recovering to 28% by the time of the post. He lists his re-entry conditions: GMI returns to ≥4 for two consecutive days AND the daily Guppy chart turns from BWR back to RWB. Sentiment: investment-letter bulls dropped from 60%+ near the top to 40% — promising but not extreme. ([WW 2018-11-25](../../raw/posts/2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines.md))
@@ -1211,6 +1233,10 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 **"Trading IPOs with a GLB and a green dot signal: $IIPR; QQQ short-term up-trend in 61st day" (2019-04-07):** Dr. Wish applies the GLB concept to recent IPOs, citing Jesse Livermore's 100-year-old principle of waiting for an IPO to settle and then trading it at a new ATH. IIPR (cannabis REIT) is the worked example: IPO December 2016, green line at $20.54, GLB in December 2017, subsequently quadrupled. FB cited as a historical comparison — first GLB at $45, 17 months after IPO. The **green dot** signal is introduced as a secondary re-entry tool after a GLB. The post also includes the most detailed published tabulation of **QQQ trend duration statistics** (through March 2019): ~40% of new down-trends end in fewer than 6 days; longest up-trend 88 days; longest down-trend 69 days. ([WW 2019-04-07](../../raw/posts/2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day.md))
 
 ---
+
+## April 2019 (audit) — the GMI signal record 2016–2019
+
+**"GMI signals applied to $QQQ, January 2016 – April 18, 2019" (2019-04-21):** a three-year chart of every Red and Green period with the colour-change criteria printed beneath; "every day after the market closes I compute the GMI total (out of 6) and post the current Red or Green signal"; "the GMI helps me to trade consistent with the longer term trend of the market." ([WW 2019-04-21](../../raw/posts/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md))
 
 ## June 2019 — the successful-10-day-new-low mirror; make money or be smart
 
@@ -1497,6 +1523,10 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 ## January 2024 (exception) — QS: short interest as fuel, and a concept held long
 
 **"$QQQ short term up-trend could end Friday" (2024-01-04):** Judy's QS call — solid-state batteries, "rocketing higher on news with enormous trading volume," and "a high short interest ratio signifying that many speculators will need to rush to buy shares to cover"; bought at $8.02, $10.03 the same day, held long term on the concept — the exception to his own trend-following horizon. ([WW 2024-01-04](../../raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md))
+
+## March 2024 (scan) — the black-dot ATH scan and its two-day stop
+
+**"Day 44 of $QQQ short term up-trend; QQQ has black dot" (2024-03-12):** "technically strong stocks that are up at least 50% the past year, hit an ATH in the last 10 weeks and had a black dot, or oversold bounce. **If I buy such a stock I place my sell stop just below the low of the past 2 days**"; TQQQ bought the same week. ([WW 2024-03-12](../../raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md))
 
 ## May 2024 — Weekly green bar scan criteria formalized
 
@@ -1897,3 +1927,9 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2011-02-04 — Nasdaq100 stocks (QQQQ): RWB up-trend; Ultra ETF’s outperform most stocks again](../../raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md) ([summary](../sources/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md))
 - [WW 2015-10-04 — IBD calls market up-trend; $SLP –green line break out worth watching](../../raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md) ([summary](../sources/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md))
 - [WW 2023-08-09 — Blog Post: Day 1 of new $QQQ short term down-trend and GMI=3. Many fallen angels, $SMCI, $AAPL, $CMG; Buying $](../../raw/posts/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md) ([summary](../sources/2023-08-09-blog-post-day-1-of-new-qqq-short-term-down-trend-and-gmi3-many-fallen-angels-smci-aapl-cmg-buying-sqqq-now-bu.md))
+- [WW 2008-02-11 — GMI: 0; GMI-R: 0; 13th week since top; DBC, DJP, DBA](../../raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md) ([summary](../sources/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md))
+- [WW 2010-08-05 — Going long—FFIV and other Darvas Scan stocks](../../raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md) ([summary](../sources/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md))
+- [WW 2013-08-25 — QQQ remains in Stage 2 up-trend; GMI2=8 (of 8)](../../raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md) ([summary](../sources/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md))
+- [WW 2018-08-26 — 19 Recent IPOs at ATH with recent GLB: $MTCH $TWLO $SEND $SFIX $ROKU $CABO….](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md) ([summary](../sources/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))
+- [WW 2019-04-21 — GMI signals applied to $QQQ, January, 2016-April 18, 2019](../../raw/posts/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md) ([summary](../sources/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md))
+- [WW 2024-03-12 — Blog Post: Day 44 of $QQQ short term up-trend; $QQQ has black dot, oversold bounce, see daily chart and list o](../../raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md) ([summary](../sources/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md))

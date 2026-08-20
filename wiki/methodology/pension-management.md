@@ -25,6 +25,7 @@ sources:
   - raw/posts/2005-06-26-can-cramer-hedge-gmi-sinks-to-1-content-to-remain-in-cash.md
   - raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md
   - raw/posts/2022-04-06-blog-post-jesse-livermore-said-finally-there-came-the-awful-day-of-reckoning-for-the-bulls-and-the-optimists.md
+  - raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md
 ---
 
 # The two accounts — university pension vs trading IRA
@@ -44,6 +45,8 @@ The 2012 statement, the clearest early one: "The QQQ weekly chart is in a Stage 
 The earliest pension moves on the blog: back into equities in mid-May 2005 ("I moved my 401(k) funds from the money market fund to equities about a week ago… there are at least 2 mutual fund families that are designed to allow you to time the market") ([WW 2005-05-23](../../raw/posts/2005-05-23-google-rockets-on-funds-to-time-the-market-boom-cup-with-handle-gmi-5.md)), and out again on June 26 at GMI +1 — "95% cash in my IRA and 100% money market funds in my university pension… Because I trade in tax deferred accounts, I do not care if I get out too soon." ([WW 2005-06-26](../../raw/posts/2005-06-26-can-cramer-hedge-gmi-sinks-to-1-content-to-remain-in-cash.md))
 
 March 2016, after the January bottom: "for the first time in months, I moved some of my most conservative university pension money back into a mutual fund from a money market fund" — GMI 6, all major indexes back above their 30-week — "**I will re-enter the market slowly as long as the upward trend continues. If it fails, I will exit again.**" ([WW 2016-03-18](../../raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md))
+
+The 2013 one-liner, with all three indexes in Stage 2: "as long as the major indexes show this pattern, **I remain 100% invested in my primary university pension accounts**" — the weekly chart "usually provides me with a better picture of the market's main trend." ([WW 2013-08-25](../../raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md))
 
 ## The staged pension exit protocol
 
@@ -173,3 +176,4 @@ The 2011 statement, mid-decline: the best-days studies "fail to note that one di
 - [WW 2005-06-26 — Can Cramer hedge? GMI sinks to +1; Content to remain in cash](../../raw/posts/2005-06-26-can-cramer-hedge-gmi-sinks-to-1-content-to-remain-in-cash.md) ([summary](../sources/2005-06-26-can-cramer-hedge-gmi-sinks-to-1-content-to-remain-in-cash.md))
 - [WW 2016-03-18 — Going back in, but slowly; TC2000 alert example: $EDU- GLB; $TSE, $ISRG](../../raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md) ([summary](../sources/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md))
 - [WW 2022-04-06 — Blog post: Jesse Livermore said: “Finally there came the awful day of reckoning for the bulls and the optimist](../../raw/posts/2022-04-06-blog-post-jesse-livermore-said-finally-there-came-the-awful-day-of-reckoning-for-the-bulls-and-the-optimists.md) ([summary](../sources/2022-04-06-blog-post-jesse-livermore-said-finally-there-came-the-awful-day-of-reckoning-for-the-bulls-and-the-optimists.md))
+- [WW 2013-08-25 — QQQ remains in Stage 2 up-trend; GMI2=8 (of 8)](../../raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md) ([summary](../sources/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md))

@@ -20,6 +20,7 @@ sources:
   - raw/posts/2005-08-17-gmi-declines-to-5-only-27-of-stocks-in-up-trend-cramer-commits-hara-kiri-over-dks-a-polar-bear.md
   - raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md
   - raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md
+  - raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md
 ---
 
 # The GMI family — GMI-S, GMI-L, GMI-R, GMI2 and the rest of the daily table
@@ -99,6 +100,8 @@ collapse followed. This is the fast/slow split that later became the formal GMI-
 two-speed design. ([WW 2008-04-21](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
 
 ## 2011 → 2026 — GMI2: a *growing* companion index, not a fixed 6
+
+**The 6 → 8 step is dated: 2013-08-25.** "I have revised the GMI2 by **adding two new indicators (7 and 8)** that I want to monitor. **I use the GMI2 to keep me focused on this set of 8 very technical indicators and not for specific buy/sell signals.**" ([WW 2013-08-25](../../raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md)) Until now the 8-component form was known only from a 2020 table image; this is the post that makes the change.
 
 The GMI-R was superseded by the GMI2, which inherits the GMI-R's four extra indicators as its
 own first four. Decision rules still apply to the GMI only: "I do not have decision rules
@@ -195,3 +198,4 @@ rather than only the extreme.
 - [WW 2005-08-17 — GMI declines to +5;  only 27% of stocks in up-trend; Cramer commits hara-kiri over DKS; a polar bear?](../../raw/posts/2005-08-17-gmi-declines-to-5-only-27-of-stocks-in-up-trend-cramer-commits-hara-kiri-over-dks-a-polar-bear.md) ([summary](../sources/2005-08-17-gmi-declines-to-5-only-27-of-stocks-in-up-trend-cramer-commits-hara-kiri-over-dks-a-polar-bear.md))
 - [WW 2005-09-11 — GMI: +6; New “doubler” indicator; GMI and QQQQ trends; WPM shows short AND longer term strength; Staying long](../../raw/posts/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md) ([summary](../sources/2005-09-11-gmi-6-new-doubler-indicator-gmi-and-qqqq-trends-wpm-shows-short-and-longer-term-strength-staying-long.md))
 - [WW 2022-08-25 — Blog Post: Day 28 of $QQQ short term up-trend; $QQQ very oversold and bounce likely; GLB: $CLH, how I buy a GL](../../raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md) ([summary](../sources/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md))
+- [WW 2013-08-25 — QQQ remains in Stage 2 up-trend; GMI2=8 (of 8)](../../raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md) ([summary](../sources/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md))
