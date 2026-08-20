@@ -47,6 +47,8 @@ sources:
   - raw/posts/2023-01-25-blog-post-two-stocks-that-came-up-in-my-tc2000-weekly-green-bar-scan-for-stocks-at-ath-with-20-week-high-in-r.md
   - raw/posts/2026-06-01-how-i-identified-and-exited-at-the-market-top-in-2000-when-the-30-week-average-curved-down-to-identify-a-like.md
   - raw/posts/2011-03-13-qqqq-short-term-down-trend-reaches-4th-day-gmi-1-mainly-in-cash-3x-inverse-etfs-surge.md
+  - raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md
+  - raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md
 ---
 
 # Moving-average rules
@@ -138,6 +140,8 @@ April 2008, the positive case: QQQQ above a *rising* 10-week is when "I have the
 As *support* rather than a boundary: "one of the best areas of support for a rising stock is its 10 week moving average. A lot of rocket stocks rest there and then resume their rise" — the premise of a 2014 scan for rocket patterns bouncing off it. ([WW 2014-09-01](../../raw/posts/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md))
 
 **The odds framing, 2011.** The QQQQ closed below its 10-week after **26 straight weeks** above it: "I have found that when the QQQQ closes below its 10 week average, I am unlikely to make money buying tech stocks. **It does not mean that the market will enter a long down-trend, only that the odds are**" against him — with SPY still sitting on its own 10-week at week 27, a divergence he reads rather than averages away. ([WW 2011-03-13](../../raw/posts/2011-03-13-qqqq-short-term-down-trend-reaches-4th-day-gmi-1-mainly-in-cash-3x-inverse-etfs-surge.md))
+
+The strategy's gate, stated twice more: "**I have learned that my strategy of buying rockets going to new highs works best when the averages are consistently above their 10 week averages**" (March 2008, with QQQQ below its 10-week for most of 19 weeks) ([WW 2008-03-31](../../raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md)); and "I cannot consistently make money trading on the long side when these indexes are below their 10 week averages" (June 2012, six weeks below). ([WW 2012-06-11](../../raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md))
 
 ## The 4-week / 10-week / 30-week alignment — a weekly stock rule
 
@@ -299,3 +303,5 @@ wrote that, 79% of Nasdaq 100 stocks were below their 30-days — the rule read 
 - [WW 2023-01-25 — Blog Post: Two stocks that came up in my TC2000 Weekly Green Bar scan for stocks at ATH with 20 week high in R](../../raw/posts/2023-01-25-blog-post-two-stocks-that-came-up-in-my-tc2000-weekly-green-bar-scan-for-stocks-at-ath-with-20-week-high-in-r.md) ([summary](../sources/2023-01-25-blog-post-two-stocks-that-came-up-in-my-tc2000-weekly-green-bar-scan-for-stocks-at-ath-with-20-week-high-in-r.md))
 - [WW 2026-06-01 — HOW I IDENTIFIED AND EXITED AT THE  MARKET TOP IN 2000–WHEN THE 30 WEEK AVERAGE CURVED DOWN. TO IDENTIFY A LIK](../../raw/posts/2026-06-01-how-i-identified-and-exited-at-the-market-top-in-2000-when-the-30-week-average-curved-down-to-identify-a-like.md) ([summary](../sources/2026-06-01-how-i-identified-and-exited-at-the-market-top-in-2000-when-the-30-week-average-curved-down-to-identify-a-like.md))
 - [WW 2011-03-13 — QQQQ short term down-trend reaches 4th day; GMI: 1, mainly in cash; 3X inverse ETF’s surge](../../raw/posts/2011-03-13-qqqq-short-term-down-trend-reaches-4th-day-gmi-1-mainly-in-cash-3x-inverse-etfs-surge.md) ([summary](../sources/2011-03-13-qqqq-short-term-down-trend-reaches-4th-day-gmi-1-mainly-in-cash-3x-inverse-etfs-surge.md))
+- [WW 2008-03-31 — GMI-1; GMI-R: 3; RICK- a stock for a “bare” market?](../../raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md) ([summary](../sources/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md))
+- [WW 2012-06-11 — 39th day of QQQ short term down-trend; ASPS break-out?](../../raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md) ([summary](../sources/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md))

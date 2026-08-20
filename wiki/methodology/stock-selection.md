@@ -50,6 +50,8 @@ sources:
   - raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md
   - raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md
   - raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md
+  - raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md
+  - raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md
 ---
 
 # Stock selection
@@ -84,6 +86,8 @@ stock keeps on rising to new heights without closing the gap, it is often a sign
 strength." He gives the failure case on the same chart — a January 2005 GOOG gap that "was
 quickly filled — and failed" — and notes he scans the whole market for gaps in TC2005.
 ([WW 2005-05-04](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md))
+
+Restated in 2018 as a forward-looking filter, not just a screen: three recent GLB stocks "have doubled over the past year, another important sign I look for. **Stocks that have doubled often go on to double again.**" ([WW 2018-06-03](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md))
 
 ## The blend: technical + fundamental
 
@@ -214,6 +218,8 @@ the market strengthens**" (how he found GMCR in April 2009). ([WW 2018-04-01](..
 
 The same habit in the COVID crash: "when the market is in a down-trend it is much easier to identify the few gems that are resisting the downward pull of the general market, or even flourishing. Such stocks (like GMCR in 2009) may become the new leaders when the market turns." ([WW 2020-03-29](../../raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md)) And during the January 2014 decline: "I find it to be very useful… to watch the new high list during declines because stocks appearing on it are exhibiting unusual strength." ([WW 2014-02-09](../../raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md))
 
+The rationale, stated outright in a 39-day down-trend with 98 new highs out of ~6,000: "**It is in the new high list that I look for the leaders of the next move up. Any stock that can reach a new high, and especially an all-time high, during protracted market weakness is likely to be reflecting some serious buying pressure.**" ([WW 2012-06-11](../../raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md))
+
 ## O'Neil 1995 workshop: volume over EPS
 
 From Dr. Wish's personal trading diary (November 11, 1995, copyright Dr. Eric Wish):
@@ -324,3 +330,5 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2024-01-04 — Blog Post: $QQQ short term up-trend could end Friday;  Meanwhile, $QS rockets higher on battery test results. ](../../raw/posts/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md) ([summary](../sources/2024-01-04-blog-post-qqq-short-term-up-trend-could-end-friday-meanwhile-qs-rockets-higher-on-battery-test-results-i-dont.md))
 - [WW 2014-02-09 — Is this the end of the correction? 14 stocks at all-time highs!](../../raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md) ([summary](../sources/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md))
 - [WW 2020-03-29 — 13 Needles in a haystack; $TNK, $ZM, $CHWY, $QDEL, $TDOC, $CTXS, $LMNX, $NET + 5 more………](../../raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md) ([summary](../sources/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md))
+- [WW 2012-06-11 — 39th day of QQQ short term down-trend; ASPS break-out?](../../raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md) ([summary](../sources/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md))
+- [WW 2018-06-03 — 3 Recent GLB stocks: $ENVA $GDOT $TSG](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md) ([summary](../sources/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md))

@@ -40,6 +40,9 @@ sources:
   - raw/posts/2005-06-11-gmi-back-to-4-performance-of-my-picks.md
   - raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md
   - raw/posts/2005-05-02-fed-up-with-this-market.md
+  - raw/posts/2005-11-25-reader-comment-gmi-6-strong-market-nasdaq-in-long-term-uptrend.md
+  - raw/posts/2005-12-08-gmi-6-short-term-weakening-failed-break-outs-cmtl.md
+  - raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md
 ---
 
 # General Market Index (GMI)
@@ -102,6 +105,8 @@ Two consequences. First, the reconstruction's use of **FFTY** as a component-6 p
 
 **Component 1 was redefined on July 11, 2005.** The launch definition was a raw count (>100 successful 10-day new highs). Ten weeks in, with only 95 stocks having made new highs ten days earlier — so the count could never reach 100 — he changed it: "I changed the criterion for the 10 day new high index to be positive if there were 100 successful stocks **or at least 50%** of the stocks that hit a new high 10 days ago closed higher today than 10 days ago… So today, 76/95 stocks or 80% qualified." That is the origin of the ≥ 50% rule the daily table has carried ever since (with the minimum count later set at 20 — see [GMI evidence](gmi-evidence.md)). ([WW 2005-07-11](../../raw/posts/2005-07-11-a-hot-market-gmi-6-more-rockets-covered-calls-on-goog.md)) The count form had first turned positive on June 2, 2005 — "for the first time since we began to post the GMI, there were more than 100 successful 10 day new highs." ([WW 2005-06-02](../../raw/posts/2005-06-02-gmi-goes-to-the-max-6-cme-qsii-cmn.md))
 
+**Component 1 read diagnostically.** A sub-50% reading is not just a negative component — it is a description of what the market is doing to breakouts: "only 49% of the 351 stocks that hit a new high 10 days ago closed higher… **This is a sign of failed break-outs**" (December 2005) ([WW 2005-12-08](../../raw/posts/2005-12-08-gmi-6-short-term-weakening-failed-break-outs-cmtl.md)), and he repeats the reading as a topping sign in December 2005 and again in 2019. When the raw count collapses instead, the conclusion is different and harsher: with 12 new highs out of 4,000 in March 2008, "**a growth stock strategy of buying stocks at new highs will not work in an environment when only 12 stocks out of 4,000 can hit a new high in a day.**" ([WW 2008-03-31](../../raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md))
+
 ## The signals — Buy, Sell, and the hold state at 3
 
 The score becomes a *signal* only with persistence, and the two sides are symmetric around 3:
@@ -140,6 +145,8 @@ Stated as early as January 2006: "The GMI cannot predict changes in trend, it on
 The strict-rules reflex was there from the start: with the weekly QQQQ index "too close to call" in June 2005 — "if I strictly follow my rules, then it is a negative." ([WW 2005-06-11](../../raw/posts/2005-06-11-gmi-back-to-4-performance-of-my-picks.md))
 
 **And the disclaimer he attached one week after launching it (2005):** "The WW-GMI is **not a leading indicator**. It is a summary of the indicators I watch to tell me the current trend. **By definition, the index will not register a strong market until after the turn has come.**" In the same post he pre-commits to the prices that would change his stance — "the QQQQ would have to *close* above 35.84 to get me interested… note that I said, to get me interested, not to get me confident to buy." ([WW 2005-05-02](../../raw/posts/2005-05-02-fed-up-with-this-market.md))
+
+**The one-line version, from 2005:** "I use the GMI… to determine whether to be in the market on the long or short side. **I always trade consistent with the GMI.**" A reader's description he reprints approvingly puts it in CAN SLIM terms — the GMI as the "tie breaker" among several indicators for whether to be in the market at all. ([WW 2005-11-25](../../raw/posts/2005-11-25-reader-comment-gmi-6-strong-market-nasdaq-in-long-term-uptrend.md))
 
 ## New highs / new lows — a breadth supplement to the GMI
 
@@ -311,3 +318,6 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2005-06-11 — GMI back to +4; Performance of my picks](../../raw/posts/2005-06-11-gmi-back-to-4-performance-of-my-picks.md)
 - [WW 2005-05-22 — GMI rises to +5, The Google Rocket, Lucky Bill Miller](../../raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md) ([summary](../sources/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md))
 - [WW 2005-05-02 — Fed Up With This Market?](../../raw/posts/2005-05-02-fed-up-with-this-market.md) ([summary](../sources/2005-05-02-fed-up-with-this-market.md))
+- [WW 2005-11-25 — Reader comment; GMI: +6:  Strong market; Nasdaq in long term uptrend?](../../raw/posts/2005-11-25-reader-comment-gmi-6-strong-market-nasdaq-in-long-term-uptrend.md) ([summary](../sources/2005-11-25-reader-comment-gmi-6-strong-market-nasdaq-in-long-term-uptrend.md))
+- [WW 2005-12-08 — GMI: +6; Short term weakening; Failed break-outs: CMTL](../../raw/posts/2005-12-08-gmi-6-short-term-weakening-failed-break-outs-cmtl.md) ([summary](../sources/2005-12-08-gmi-6-short-term-weakening-failed-break-outs-cmtl.md))
+- [WW 2008-03-31 — GMI-1; GMI-R: 3; RICK- a stock for a “bare” market?](../../raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md) ([summary](../sources/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md))

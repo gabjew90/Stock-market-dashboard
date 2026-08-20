@@ -29,6 +29,7 @@ sources:
   - raw/posts/2010-04-14-webinar-is-archived-and-available-get-a-copy-of-my-tc2007-scan.md
   - raw/posts/2023-03-06-blog-post-day-1-of-new-qqq-short-term-up-trend-will-powell-kill-it-137-new-us-highs-100-lows-and-41-at-ath-6.md
   - raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md
+  - raw/posts/2010-08-04-how-my-oversold-stochastic-followed-by-a-buy-signal-scan-found-pcln.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -172,6 +173,8 @@ Published after a webinar with Worden's Julia Ormond: "a scan that I use to find
 
 **The daily-RWB column filter (March 2020).** In the COVID crash he built "a set of column filters in TC2000 to find stocks in **daily RWB up-trends that closed over $20**," run against his ~800-stock IBD/MarketSmith watchlist: 13 hits. The purpose is a list for the turn, not a buy list — "I usually do not buy such needles in the haystack in a declining market — the odds are against my profiting." ([WW 2020-03-29](../../raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md))
 
+Four months later he states the same scan as a two-step sequence and shows what it caught: a stochastic declining **below 20**, then a **close above the 30-day average** — "indicating a buy signal for me." PCLN triggered it weeks before its blow-out earnings; he did not buy, "because of the low GMI reading." The caveats travel with it: "**this scan does not typically work so well in a down market**, but… in an up-trending market it can work quite well," and "no technique is perfect and one must always use stops to minimize losses." ([WW 2010-08-04](../../raw/posts/2010-08-04-how-my-oversold-stochastic-followed-by-a-buy-signal-scan-found-pcln.md))
+
 ## The first-day 100-day-high scan (2017)
 
 Two design choices make this one worth copying. The criteria: a **100-day high that was *not* also a 100-day high the prior day** ("I want a stock to be just breaking out"), up significantly from a year ago, on above-average volume — 19 hits on 2017-02-10. The timing: "**I like to run this scan during the last hour of the trading day** (I do not want a stock that breaks out early only to reverse by the end of the day)." Entry is an initial position with a sell stop below the day's low, and the framing is explicit — "I use the results of my scans as a *starting point* to identify strong stocks that I must then research." ([WW 2017-02-12](../../raw/posts/2017-02-12-new-tc2000-scan-finds-glb-and-possible-cup-with-handle-break-out-pjc-next-post-tuesday-night.md))
@@ -235,3 +238,4 @@ The scans and watchlists are not private: he documents them in the blog's glossa
 - [WW 2010-04-14 — Webinar is archived and available; Get a copy of my TC2007 scan](../../raw/posts/2010-04-14-webinar-is-archived-and-available-get-a-copy-of-my-tc2007-scan.md) ([summary](../sources/2010-04-14-webinar-is-archived-and-available-get-a-copy-of-my-tc2007-scan.md))
 - [WW 2023-03-06 — Blog Post: Day 1 of new $QQQ short term up-trend, will Powell kill it? 137  new US highs, 100 lows and 41 at A](../../raw/posts/2023-03-06-blog-post-day-1-of-new-qqq-short-term-up-trend-will-powell-kill-it-137-new-us-highs-100-lows-and-41-at-ath-6.md) ([summary](../sources/2023-03-06-blog-post-day-1-of-new-qqq-short-term-up-trend-will-powell-kill-it-137-new-us-highs-100-lows-and-41-at-ath-6.md))
 - [WW 2020-03-29 — 13 Needles in a haystack; $TNK, $ZM, $CHWY, $QDEL, $TDOC, $CTXS, $LMNX, $NET + 5 more………](../../raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md) ([summary](../sources/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md))
+- [WW 2010-08-04 — How my “oversold stochastic followed by a buy signal” scan found PCLN](../../raw/posts/2010-08-04-how-my-oversold-stochastic-followed-by-a-buy-signal-scan-found-pcln.md) ([summary](../sources/2010-08-04-how-my-oversold-stochastic-followed-by-a-buy-signal-scan-found-pcln.md))

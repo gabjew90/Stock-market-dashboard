@@ -269,6 +269,15 @@ sources:
   - raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md
   - raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md
   - raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md
+  - raw/posts/2005-11-25-reader-comment-gmi-6-strong-market-nasdaq-in-long-term-uptrend.md
+  - raw/posts/2005-12-08-gmi-6-short-term-weakening-failed-break-outs-cmtl.md
+  - raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md
+  - raw/posts/2009-02-08-the-new-3x-etfs-triple-your-pleasure-or-pain.md
+  - raw/posts/2010-08-04-how-my-oversold-stochastic-followed-by-a-buy-signal-scan-found-pcln.md
+  - raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md
+  - raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md
+  - raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md
+  - raw/posts/2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold.md
 ---
 
 # Timeline — evolution of the methodology
@@ -393,6 +402,12 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## November–December 2005 (usage) — the GMI as tie breaker; failed break-outs as a topping sign
+
+**"Reader comment; GMI: +6" (2005-11-25):** a reader calls the GMI his "tie breaker" for whether to be in the market; the reply — "I use the GMI… to determine whether to be in the market on the long or short side. **I always trade consistent with the GMI**"; 82% of doublers above their 30-day. ([WW 2005-11-25](../../raw/posts/2005-11-25-reader-comment-gmi-6-strong-market-nasdaq-in-long-term-uptrend.md))
+
+**"GMI: +6; short term weakening; failed break-outs" (2005-12-08):** SPY and DIA close below their 10-day averages; only 49% of 351 new highs succeeded — "**this is a sign of failed break-outs**"; short-term up-trend breadth 65% → 53% while leadership breadth holds. ([WW 2005-12-08](../../raw/posts/2005-12-08-gmi-6-short-term-weakening-failed-break-outs-cmtl.md))
+
 ## December 2005 — Early breadth divergence research; MCD trade
 
 **"GMI: +6; WPM shows DOW deterioration; breadth divergence" (2005-12-03):** Dr. Wish charts two breadth indicators against the S&P 500: % stocks above 10wk avg and % stocks in short-term up-trend (defined as 10-day avg above rising 30-day avg). He identifies a divergence at the October 2005 bottom retest: % above 10wk fell while short-term trend breadth rose — potentially a turning-point signal. Separately, buys MCD on a 5-year-high breakout from a 3-month base on high volume; JNJ topping scan flagged by his Enron PCF. ([WW 2005-12-03](../../raw/posts/2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick.md))
@@ -479,6 +494,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 **"GMI 0; 12th day of down-trend, sucker rally near?; IBD100 holds winners" (2008-01-22):** 844 lows / 10 highs; ten weeks under the 10-week → 82% of Nasdaq-100 lower; T2108 19% possible bottom but "a rally would have to exceed about +10% for me to call a change in trend"; ISRG/AAPL/GOOG/BIDU/GRMN on IBD100 lists early; a 26-stock resisters watchlist; wait for the turn. ([WW 2008-01-22](../../raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md))
 
+## March 2008 (precondition) — twelve new highs out of 4,000
+
+**"GMI: 1; GMI-R: 3" (2008-03-31):** "**a growth stock strategy of buying stocks at new highs will not work in an environment when only 12 stocks out of 4,000 can hit a new high in a day**"; "my strategy of buying rockets going to new highs works best when the averages are consistently above their 10 week averages"; exit level named in advance; "the key is to conserve capital." ([WW 2008-03-31](../../raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md))
+
 ## April 2008 — the dashboard split inside a bear rally; the 2000 exit priced
 
 **"My GMI catches trend changes again!" (2008-04-21):** GMI 5, GMI-R 9, **GMI-S 100%**, GMI-L 50% — every short-term indicator positive in the April 2008 rally while the Weekly QQQQ Index alone said the bear was intact. Hindsight vindicated the slow half. Also the only dollar figures ever put on the 2000 pension exit — out "around **$103**," the fund "trading **in the 30's**" by 2002 — the pension-until-GMI-6 re-entry bar, the train metaphor, and the tax-deferred precondition: "The key is to use tax deferred accounts where there are no tax consequences from getting in and out." ([WW 2008-04-21](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
@@ -528,6 +547,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## February 2009 (record) — the 2008 record in numbers; IBD100 turnover; TSYS cup-with-handle
 
 **"Jim Cramer finds (TA) religion; TSYS" (2009-02-15):** since GMI < 4 in August 2008: QQQQ/SPY −35%, 95% of Nasdaq-100 down, every Dow stock down; "I prefer the GMI to be at least 4 before I commit many IRA funds, and especially my university pension"; a third of the IBD100 replaced in three weeks; TSYS's cup-with-handle anatomy. ([WW 2009-02-15](../../raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md))
+
+## February 2009 (vehicles) — the 3X ETFs arrive
+
+**"The new 3X ETFs: triple your pleasure or pain" (2009-02-08):** until now the pair was 2× (QLD / QID); sixteen new Direxion 3× funds catalogued (FAS, BGU, TNA, ERX, EDC, MWJ, TYH, DZK; FAZ, BGZ, TZA, ERY, EDZ, MWN, TYP, DPK), eight already over a million shares a day — "**remember, the leverage works both ways**." ([WW 2009-02-08](../../raw/posts/2009-02-08-the-new-3x-etfs-triple-your-pleasure-or-pain.md))
 
 ## March 2009 — Put options as investment insurance
 
@@ -640,6 +663,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## July 2010 (rules) — new up-trend or dead cat bounce? the both-trends rule
 
 **"New up-trend or dead cat bounce?" (2010-07-12):** "when we are in short *and* long term down-trends… I do not go long until *both* trends have signaled a new up-trend… such is the fate of the trend follower"; the contrarian trio (7 down days, put/call ~1.2, II bears ≈ bulls) plus a stochastic near zero, seen in hindsight; QQQQ/SPY under their 10-week ten weeks. ([WW 2010-07-12](../../raw/posts/2010-07-12-new-up-trend-or-dead-cat-bounce.md))
+
+## August 2010 (scan) — the oversold-stochastic-then-buy-signal scan; PCLN
+
+**"How my oversold stochastic followed by a buy signal scan found PCLN" (2010-08-04):** the two-step sequence — stochastic below 20, then a close above the 30-day average; PCLN caught weeks before its blow-out earnings but not bought "because of the low GMI reading"; "this scan does not typically work so well in a down market"; "one must always use stops." ([WW 2010-08-04](../../raw/posts/2010-08-04-how-my-oversold-stochastic-followed-by-a-buy-signal-scan-found-pcln.md))
 
 ## September 2010 — RWB pattern coined
 
@@ -764,6 +791,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"Excerpt from my trading diary; market at critical juncture" (2012-06-18):** shares a 1996 diary entry and explicitly states the GMI buy trigger: "Two consecutive days with the GMI above 3 would turn the GMI signal to buy." Entry confidence rule: "I will not weigh in heavily until the 5th day." Darvas scan described: PCF for stocks breaking to ATH. ([WW 2012-06-18](../../raw/posts/2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture.md))
 
 ---
+
+## June 2012 (leaders) — the new-high list in a 39-day down-trend; ASPS
+
+**"39th day of QQQ short term down-trend; ASPS break-out" (2012-06-11):** 98 new highs out of ~6,000 — "**it is in the new high list that I look for the leaders of the next move up. Any stock that can reach a new high… during protracted market weakness is likely to be reflecting some serious buying pressure**"; ASPS followed from $43.50 to ~$65. ([WW 2012-06-11](../../raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md))
 
 ## July 2012 — green line charts formally described
 
@@ -953,6 +984,10 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 
 ---
 
+## March 2016 — T2108 at 3.8%; 'but I know I will be too scared'
+
+**"Going back in, but slowly" (2016-03-18):** "the Worden T2108 indicator again called the bottom, in late January, with an extremely oversold reading of **3.8%, a low level only surpassed by the bottoms in 1987 and 2008**"; and the confession — "I promise that the next time the T2108 goes into single digits I will buy an index ETF. **But I know I will be too scared.**" Pension money moved back into a fund for the first time in months, to be re-entered "slowly as long as the upward trend continues." ([WW 2016-03-18](../../raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md))
+
 ## June 2016 — BOS (Bounce off Support) introduced as preferred alternative to GLB timing
 
 **"Introducing BOS alerts for my tweets; GMI at 6; BOS: $RTN" (2016-06-05):** Dr. Wish formally names and introduces the BOS (Bounce off Support) strategy. He states he *likes this approach better than trading GLBs* — the GLB at the moment of breakout is often not oversold, making stop placement harder. BOS buys strong rocket stocks when they are oversold and bouncing, placing a stop just below the bounce low. He begins tweeting BOS alerts intraday (@WishingWealth) and later (2016-07-24) reveals the primary oversold signal: the lower 15.2 Bollinger Band (15-day MA, 2 standard deviations). ([WW 2016-06-05](../../raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md), [WW 2016-07-24](../../raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md))
@@ -1090,6 +1125,12 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 **"How I track stocks at all time highs" (2018-04-01):** the construction of the ~800-stock ATH watchlist — barchart.com (because TC2000's filters return null for stocks that didn't exist over the lookback, silently dropping recent IPOs: a survivorship trap he names in his own tooling) → Excel → TC2000, then a manual pass deleting false ATHs and **drawing green lines by hand**. Rationale: "A stock that can come through market turmoil and still hit an all time high... might take off when the market strengthens" (GMCR, April 2009). LULU worked example; buying on a Red signal allowed only with "a very close stop loss." ([WW 2018-04-01](../../raw/posts/2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu.md))
 
 ---
+
+## June–August 2018 (GLB / green dot) — doublers doubling again; the shake-out buy-back; the $70 scan floor
+
+**"3 recent GLB stocks" (2018-06-03):** the green line "at the peak price not surpassed for at least 3 months"; "**stocks that have doubled often go on to double again**"; buy on the breakout day "or afterwards when they consolidate or bounce off of support or give a green dot signal"; "**some of my best gains have come from stocks that have shaken me out for a small loss and then produced another buy signal**." ([WW 2018-06-03](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md))
+
+**"16 stocks with a green dot bounce from oversold" (2018-08-05):** the green-dot scan run over **$70** — "I have more success with expensive stocks"; CRM bouncing off both its rising 50-day and its lower Bollinger Band; stop at a decline back below the dot; "four prior green dot signals have worked for CRM but the signal can fail at any time." ([WW 2018-08-05](../../raw/posts/2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold.md))
 
 ## July 2018 — the weekly RWB hold rule; never buy BWR
 
@@ -1775,3 +1816,12 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2014-02-09 — Is this the end of the correction? 14 stocks at all-time highs!](../../raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md) ([summary](../sources/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md))
 - [WW 2020-03-29 — 13 Needles in a haystack; $TNK, $ZM, $CHWY, $QDEL, $TDOC, $CTXS, $LMNX, $NET + 5 more………](../../raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md) ([summary](../sources/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md))
 - [WW 2020-10-11 — With GMI=Green and a $QQQ short term up-trend and daily RWB pattern in place, it is time for me to buy TQQQ an](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md) ([summary](../sources/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))
+- [WW 2005-11-25 — Reader comment; GMI: +6:  Strong market; Nasdaq in long term uptrend?](../../raw/posts/2005-11-25-reader-comment-gmi-6-strong-market-nasdaq-in-long-term-uptrend.md) ([summary](../sources/2005-11-25-reader-comment-gmi-6-strong-market-nasdaq-in-long-term-uptrend.md))
+- [WW 2005-12-08 — GMI: +6; Short term weakening; Failed break-outs: CMTL](../../raw/posts/2005-12-08-gmi-6-short-term-weakening-failed-break-outs-cmtl.md) ([summary](../sources/2005-12-08-gmi-6-short-term-weakening-failed-break-outs-cmtl.md))
+- [WW 2008-03-31 — GMI-1; GMI-R: 3; RICK- a stock for a “bare” market?](../../raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md) ([summary](../sources/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md))
+- [WW 2009-02-08 — The new 3x ETF’s–triple your pleasure — or pain](../../raw/posts/2009-02-08-the-new-3x-etfs-triple-your-pleasure-or-pain.md) ([summary](../sources/2009-02-08-the-new-3x-etfs-triple-your-pleasure-or-pain.md))
+- [WW 2010-08-04 — How my “oversold stochastic followed by a buy signal” scan found PCLN](../../raw/posts/2010-08-04-how-my-oversold-stochastic-followed-by-a-buy-signal-scan-found-pcln.md) ([summary](../sources/2010-08-04-how-my-oversold-stochastic-followed-by-a-buy-signal-scan-found-pcln.md))
+- [WW 2012-06-11 — 39th day of QQQ short term down-trend; ASPS break-out?](../../raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md) ([summary](../sources/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md))
+- [WW 2016-03-18 — Going back in, but slowly; TC2000 alert example: $EDU- GLB; $TSE, $ISRG](../../raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md) ([summary](../sources/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md))
+- [WW 2018-06-03 — 3 Recent GLB stocks: $ENVA $GDOT $TSG](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md) ([summary](../sources/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md))
+- [WW 2018-08-05 — 16 Stocks with a Green Dot Bounce from Oversold](../../raw/posts/2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold.md) ([summary](../sources/2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold.md))

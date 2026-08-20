@@ -50,6 +50,7 @@ sources:
   - raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md
   - raw/posts/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md
   - raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md
+  - raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -177,6 +178,8 @@ Jesse Livermore: "it was his sitting tight not his trading that made him big mon
 Dr. Wish does not abandon a stock after a failed GLB. His practice is to sell immediately when the stock closes below the green line, but then watch for the **next GLB** on the same stock. "I often repurchase upon the next GLB." This applies whether the failure was a few days after breakout or a few weeks later. The failed GLB itself is not a disqualifier — the stock just needs to re-base above its prior green line and break out again on volume.
 
 In June 2022 (during a down-trend) he noted 14 IBD/MarketSmith stocks at 20-year highs: these stocks were at or very near GLB territory even in a bear market, and he used them as a watch list for when market conditions improved. The ATH-only philosophy means he never buys below the green line just because the stock "looks cheap." ([WW 2022-06-05](../../raw/posts/2022-06-05-bog-post-day-37-of-qqq-short-term-down-trend-14-ibd-marketsmith-stocks-at-20-year-high-on-friday.md))
+
+He counts this among his best sources of profit, not a consolation: "I never hold a GLB stock that closes back below the green line but will buy it back if it retakes it. **Some of my best gains have come from stocks that have shaken me out for a small loss and then produced another buy signal.**" ([WW 2018-06-03](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md)) The same post lists the entry options as one menu rather than alternatives: "I like to buy such stocks on the day of the break-out **or afterwards when they consolidate or bounce off of support or give a green dot signal**."
 
 ## The GLB in the daily RWB system (2017)
 
@@ -372,3 +375,4 @@ This is continuous with the 2016 [BOS](stock-selection.md) preference ("I actual
 - [WW 2022-07-07 — Blog post: Friday could be first day of new $QQQ short term up-trend; why this $QQQ rally may be different; ho](../../raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md) ([summary](../sources/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md))
 - [WW 2020-07-23 — Blog post: TC2000 alerted me to a high volume GLB yesterday: $AMD–learn how to set GLB alerts](../../raw/posts/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md) ([summary](../sources/2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts.md))
 - [WW 2020-10-11 — With GMI=Green and a $QQQ short term up-trend and daily RWB pattern in place, it is time for me to buy TQQQ an](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md) ([summary](../sources/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))
+- [WW 2018-06-03 — 3 Recent GLB stocks: $ENVA $GDOT $TSG](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md) ([summary](../sources/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md))

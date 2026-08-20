@@ -28,6 +28,7 @@ sources:
   - raw/posts/2005-07-24-bear-trap-gmi-6-wpm-dia-and-qqqq-weaker-scan-for-bouncers-able-or-not-able.md
   - raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md
   - raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md
+  - raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -61,6 +62,8 @@ The clearest confession in the corpus. His pension rule is that the QQQ's 30-wee
 ## 4. Sell down to the sleeping point
 
 The rule that absorbs the fear instead of fighting it: "it is not a crime to get out of the market and to **sell down to the sleeping point** (when one is comfortable with one's portfolio risk)." ([WW 2013-10-13](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md)) Applied to himself in February 2015 — re-entering the pension three weeks after the Buy signal, in stages: "Everyone has to sell down to their own comfort level." ([WW 2015-02-16](../../raw/posts/2015-02-16-gmma-charts-show-no-market-top-in-sight.md)) Position sizing on this blog is mostly this sentence; see [risk-and-cash](risk-and-cash.md#sell-down-to-the-sleeping-point).
+
+**A rule he admits he may not execute.** After T2108 hit 3.8% in January 2016 without him buying: "Again, I promise that the next time the T2108 goes into single digits I will buy an index ETF. **But I know I will be too scared.** Whatever causes most people to dump stocks requires a new fear." ([WW 2016-03-18](../../raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md)) He says the same thing in 2018 — "I did not have the courage to follow my rule to buy the market, SPY, on Friday (I never do!)". The contrarian buy is the one rule in the system that his own record says he does not reliably follow, which is worth knowing before treating [T2108 < 10%](t2108.md) as an executable instruction. Its counterpart — "the market is always looking forward and we humans are always looking backward" ([WW 2016-03-18](../../raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md)) — is why.
 
 ## 5. The stop is how emotion leaves the trade
 
@@ -121,3 +124,4 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2005-07-24 — Bear trap; GMI: +6; WPM–DIA and QQQQ weaker; Scan for bouncers; ABLE or NOT-ABLE?](../../raw/posts/2005-07-24-bear-trap-gmi-6-wpm-dia-and-qqqq-weaker-scan-for-bouncers-able-or-not-able.md) ([summary](../sources/2005-07-24-bear-trap-gmi-6-wpm-dia-and-qqqq-weaker-scan-for-bouncers-able-or-not-able.md))
 - [WW 2009-10-19 — Using Bollinger bands to avoid buying  extended from support.](../../raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md) ([summary](../sources/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md))
 - [WW 2020-10-11 — With GMI=Green and a $QQQ short term up-trend and daily RWB pattern in place, it is time for me to buy TQQQ an](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md) ([summary](../sources/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))
+- [WW 2016-03-18 — Going back in, but slowly; TC2000 alert example: $EDU- GLB; $TSE, $ISRG](../../raw/posts/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md) ([summary](../sources/2016-03-18-going-back-in-but-slowly-tc2000-alert-example-edu-glb-tse-isrg.md))

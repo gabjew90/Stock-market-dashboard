@@ -17,6 +17,7 @@ sources:
   - raw/posts/2021-07-05-blog-post-gmi-is-at-6-of-6-and-up-trends-remain-intact-the-qqq-short-term-trend-count-is-u-27-my-profitable-s.md
   - raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md
   - raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md
+  - raw/posts/2009-02-08-the-new-3x-etfs-triple-your-pleasure-or-pain.md
 ---
 
 # The leveraged-ETF default — TQQQ on a GMI Buy signal
@@ -35,6 +36,8 @@ discipline applied at account level: "go in slowly and only add more money if th
 above my original purchase price. I *never* average down." ([WW 2009-06-07](../../raw/posts/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md))
 
 The idea is older than the leveraged funds: July 2005 — "to make $$$ in this rise one merely could have bought the QQQQ on July 8 or 9 and held on. Aggressive traders could have bought call options on the QQQQ and made a killing. **Why mess around with individual stocks when one can merely trade this index?**" ([WW 2005-07-28](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
+
+**The 3× vehicles arrive (February 2009).** Until then the pair was 2×: "when I try to trade the trend of the QQQQ, I buy QLD (ultra long) or QID (ultra short)." He catalogues the new Direxion 3× funds as they appear — bulls FAS, BGU, TNA, ERX, EDC, MWJ, TYH, DZK; bears FAZ, BGZ, TZA, ERY, EDZ, MWN, TYP, DPK — noting eight already traded over a million shares a day. The caveat is the title: "**Remember, the leverage works both ways**… Still, if I have a good idea of the trend, these ETF's may prove better than going to the casino." ([WW 2009-02-08](../../raw/posts/2009-02-08-the-new-3x-etfs-triple-your-pleasure-or-pain.md))
 
 ## The GMI buy signal and TQQQ default
 
@@ -86,3 +89,4 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2021-07-05 — Blog post: GMI is at 6 (of 6) and up-trends remain intact; the $QQQ short term trend count is U-27; my profita](../../raw/posts/2021-07-05-blog-post-gmi-is-at-6-of-6-and-up-trends-remain-intact-the-qqq-short-term-trend-count-is-u-27-my-profitable-s.md) ([summary](../sources/2021-07-05-blog-post-gmi-is-at-6-of-6-and-up-trends-remain-intact-the-qqq-short-term-trend-count-is-u-27-my-profitable-s.md))
 - [WW 2014-02-09 — Is this the end of the correction? 14 stocks at all-time highs!](../../raw/posts/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md) ([summary](../sources/2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs.md))
 - [WW 2020-10-11 — With GMI=Green and a $QQQ short term up-trend and daily RWB pattern in place, it is time for me to buy TQQQ an](../../raw/posts/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md) ([summary](../sources/2020-10-11-with-gmigreen-and-a-qqq-short-term-up-trend-and-daily-rwb-pattern-in-place-it-is-time-fro-me-to-buy-tqqq-and.md))
+- [WW 2009-02-08 — The new 3x ETF’s–triple your pleasure — or pain](../../raw/posts/2009-02-08-the-new-3x-etfs-triple-your-pleasure-or-pain.md) ([summary](../sources/2009-02-08-the-new-3x-etfs-triple-your-pleasure-or-pain.md))
