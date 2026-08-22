@@ -25,6 +25,7 @@ sources:
   - raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md
   - raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md
   - raw/posts/2010-04-26-true-religion-trlg-break-out.md
+  - raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md
 ---
 
 # The GLB in practice — worked cases, failures, and what he learned from each
@@ -101,6 +102,28 @@ resolution.
 **The alert habit is documented from July 2017** — "I use TC2000 to alert me when a stock on my list is
 having a GLB on unusually high daily volume — volume buzz" ([WW 2017-07-16](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md)) — a year before the intraday ATH
 condition set he published in October 2018, and six years before the written rules above.
+
+## Entering before the green line — and taking a different stop
+
+He occasionally buys ahead of the breakout, and when he does he says so and changes the stop. March 2016, two
+positions ([WW 2016-03-20](../../raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md)):
+
+**MXL** had a cup-and-handle breakout on above-average volume with its 2010 all-time top at 19.50 still overhead.
+"I started a position and **will go in much more if MXL can close above its all-time top at 19.50**. **I usually
+wait for the GLB, but its fundamental and technical strength tempted me to move early. If MXL closes below its
+pivot break-out line, around 18.18, I will begin to exit the trade.**"
+
+**SQ**, a November 2015 IPO, was bought on relative strength — it "held up at the bottom line in the chart even
+when the market had a few large down days in February" — with the same escalation attached: "**if SQ can close
+above its green line top at 14.78 I will aggressively accumulate it.**"
+
+Three things generalise. **Size tracks confirmation**: a starter position before the line, "much more" or
+"aggressively accumulate" after a close above it. **The early entry does not inherit the GLB's stop** — MXL's
+invalidation is the cup-and-handle pivot at 18.18, more than a dollar below the entry region but well *above*
+the green line, so entering early buys a tighter stop rather than a looser one. And **the deviation is named**:
+"I usually wait for the GLB, but… [I was] tempted to move early" is a description of a rule being bent, not a
+second method. Compare the [caveat on the GLB as an entry](#a-caveat-on-the-glb-as-an-entry) below, which
+approaches the same problem from the other side.
 
 ## The close-below rule, justified by a case
 
@@ -180,3 +203,4 @@ The core rules have remained stable. These posts from 2019 onward confirm the ru
 - [WW 2017-01-08 — Why component 1 exists, in one sentence; SHOP's GLB and a missed alert](../../raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md) ([summary](../sources/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md))
 - [WW 2017-07-16 — O'Neil's shopping list — the watch-list procedure, and the discipline of not trading](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md) ([summary](../sources/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))
 - [WW 2010-04-26 — TRLG: the round trip back to an all-time high, expressed in calls](../../raw/posts/2010-04-26-true-religion-trlg-break-out.md) ([summary](../sources/2010-04-26-true-religion-trlg-break-out.md))
+- [WW 2016-03-20 — Buying before the green line — with a different stop](../../raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md) ([summary](../sources/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md))

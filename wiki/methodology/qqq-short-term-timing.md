@@ -28,6 +28,8 @@ sources:
   - raw/posts/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md
   - raw/posts/2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks.md
   - raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md
+  - raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md
+  - raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md
 ---
 
 # QQQ Short-Term Timing
@@ -86,6 +88,16 @@ the ten longest — the one then running was at day 72, the fourth longest
 ([WW 2014-01-26](../../raw/posts/2014-01-26-qqq-short-term-up-trend-in-jeopardy-aapl-to-break-out-of-channel.md)).
 He draws the two-sided conclusion explicitly: the end of an up-trend "has not necessarily implied
 the beginning of an extended short term down-trend."
+
+**The 2010 statement of the base rate.** "**Eight QQQQ short term up-trends have lasted between 31-86 days in the
+past couple of years. So the current up-trend may have a ways to go.**" ([WW 2010-10-11](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md)) Used to hold a position rather
+than to time an exit — the count answers "is this trend old?", not "is it over?"
+
+**Why day 1 is hard, in his own words (2012).** The day-1 entry is arithmetically the best one and he explains why
+he keeps missing it: had he bought SQQQ at the close of the first day of the new down-trend he would have been up
+almost 12% by day 10, "**that is difficult to do, however, because on the first day of a new trend one does not
+usually believe it will last**." ([WW 2012-10-21](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md)) That is the honest cost of the 5-day confirmation rule stated
+elsewhere — the rule exists because the disbelief is real, and it is paid for in forgone early gains.
 
 ## Relationship to the GMI
 
@@ -175,3 +187,5 @@ up-trend can only be young or old relative to the distribution of previous ones,
 - [WW 2011-03-15 — GMI at 1, as QQQQ short term down-trend completes 5th day; in cash and short; T2108 still neutral](../../raw/posts/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md) ([summary](../sources/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md))
 - [WW 2005-12-26 — GMI: +4; Mixed signals; GMI: contrary indicator?  New Year Nicolas Darvas type stocks](../../raw/posts/2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks.md) ([summary](../sources/2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks.md))
 - [WW 2009-04-19 — 'The market needs to rest' is nonsense; QSII breaks a three-year base](../../raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md) ([summary](../sources/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md))
+- [WW 2010-10-11 — The ultra-ETF measurement repeated; a bounce scan built for students](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md) ([summary](../sources/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md))
+- [WW 2012-10-21 — The two-tier timing rules, written to settle reader confusion](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md) ([summary](../sources/2012-10-21-timing-the-market-short-or-in-cash.md))

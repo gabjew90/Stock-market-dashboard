@@ -67,6 +67,7 @@ sources:
   - raw/posts/2006-02-27-gmi-5-the-rally-people-love-to-hate.md
   - raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md
   - raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md
+  - raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md
 ---
 
 # Glossary
@@ -179,6 +180,8 @@ Every term Dr. Wish coins or uses, defined in a sentence or two, with a first-ap
 
 **VCP (volatility compression pattern)** — a pre-breakout consolidation in which successive pullbacks get progressively shallower, tightening the price range. Not Dr. Wish's own construct — he cites it as external supporting evidence alongside his own signals, noting on BNTX that "The VCP pattern prior to the break-out also encouraged me to buy." Referenced: ([WW 2021-08-11](../../raw/posts/2021-08-11-blog-post-why-buying-stocks-over-200-works-better-revisited-examples-bntx-and-gs.md))
 
+**Volume buzz** — a Worden indicator (FreeStockCharts / StockFinder / TC2000) giving a stock's volume so far today as a percentage above or below its **average volume at that same time of day**. The time-of-day normalisation is the point: "at 10:05 AM I can rank my watchlist by how each stock's current volume at 10:05 AM compares with its **average volume at 10:05 AM**" — which is what makes unusual volume detectable *during* the session rather than after the close. Run as a watchlist column. Dr. Wish uses it as the confirming statistic on a breakout day and as the filter on his [GLB alerts](glb-in-practice.md#tc2000-alert-workflow-and-the-missed-glb-lesson) — "a stock on my list… having a GLB on unusually high daily volume — volume buzz." He notes the averaging window is not disclosed. Defined: ([WW 2009-10-26](../../raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md))
+
 **WGB (Weekly Green Bar)** — a price bar on a weekly chart that signals a bounce off the rising 4-week average. TC2000 formula: `avgc4>avgc10 and avgc10>avgc30; L<=avgc4 and C>avgc4; C>C1; avgc4>avgc4.1` — all weekly. In plain terms: 4wk>10wk>30wk; low touched or went below the 4wk average but close is above it; close higher than prior week; 4wk average is rising. Used as an entry signal and a trailing stop anchor (stop at the low of the most recent WGB). ([WW 2021-02-28](../../raw/posts/2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto.md))
 
 The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80 for ≥ 5 weeks; stock up ≥ 50% from a year ago; recent ATH. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
@@ -268,3 +271,4 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 - [WW 2006-02-27 — The rally people love to hate - when sentiment stops being contrary](../../raw/posts/2006-02-27-gmi-5-the-rally-people-love-to-hate.md) ([summary](../sources/2006-02-27-gmi-5-the-rally-people-love-to-hate.md))
 - [WW 2007-01-08 — A low put/call as a topping tell; scaling into inverse ETFs](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md) ([summary](../sources/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md))
 - [WW 2018-02-04 — Put/call 1.2 and stochastic .20; the monthly top signature in three stages](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md) ([summary](../sources/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))
+- [WW 2009-10-26 — Volume buzz defined — volume against its average at that time of day](../../raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md) ([summary](../sources/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md))

@@ -34,6 +34,7 @@ sources:
   - raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md
   - raw/posts/2015-07-12-schizoid-mr-market.md
   - raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md
+  - raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md
 ---
 
 # The two accounts — university pension vs trading IRA
@@ -107,6 +108,31 @@ going back in if the market rally resumes. This is a benefit of trading in a tax
 and out without any tax consequences.**" ([WW 2015-07-12](../../raw/posts/2015-07-12-schizoid-mr-market.md)) See
 [the tax-deferred precondition](#the-tax-deferred-precondition).
 
+## The two triggers side by side — the 2012 clarification
+
+Asked often enough by readers to prompt a post of its own, this is the most explicit statement of the two tiers'
+rules in the corpus, and the important thing is that **they are not the same shape**. ([WW 2012-10-21](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md))
+
+| | Speculative money (IRA, margin) | Conservative money (university pension) |
+|---|---|---|
+| **Trigger** | QQQ short-term indicator turns down **or** GMI below 3 | GMI at **1 or 2 for a while** **and** the longer-term averages curve down |
+| **Logic** | disjunction — either alone is enough | conjunction — both required |
+| **Response** | "raise sell stops, move to cash **or go short**" | move from mutual funds to money market |
+| **Execution** | in stages | in stages |
+
+In his words: "**When my QQQ short term indicator turns down *or* the GMI goes below 3, I start to become more
+cautious with my speculative funds. I may raise sell stops, move to cash or go short.** At that time I do not
+move my conservative money out of mutual funds. **Only after the GMI has been 1 or 2 for a while and the longer
+term moving averages curve down do I move my conservative money from mutual funds into money market funds. I
+tend to exit and reinvest in stages, not all at once.**"
+
+Two details worth holding on to. The pension threshold is **1 or 2, not "below 3"** — a GMI of 3 does nothing to
+the pension even though it has already made him cautious in the trading account. And *for a while* is left
+deliberately unquantified, which is consistent with every other statement of the pension rule: the slow account
+is governed by a judgement about persistence, not by a day count. The 2018 formulation states the same
+conjunction in price terms — a close below the 30-week average *and* that average turning down — and the 2017
+one in GMMA terms.
+
 ## The pension has an administrative constraint, not just a signal
 
 The pension moves are signal-driven — 30-week reversal, Stage 4 threat, staged 25% exits — but
@@ -139,6 +165,13 @@ acceptable exactly where bankruptcy is impossible; never-average-down governs si
 ([WW 2012-05-07](../../raw/posts/2012-05-07-gmi-sell-signal-in-cash-techs-look-very-weak.md))
 
 Restated in the 2015 exit: "my *new* pension contributions keep buying mutual fund shares as they fall (dollar cost averaging)" — the balance is out, the flow stays in. ([WW 2015-09-08](../../raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md))
+
+**And the reason, stated as a confidence rather than a rule (2012).** "In declining markets, even after I move
+my conservative monies to a money market fund, I continue putting the new allocations into mutual funds so that
+the new money **dollar cost averages** into mutual funds. (My money buys more shares as the price declines.) I do
+that with mutual funds, unlike individual stocks, **because I am pretty confident the mutual funds will rise
+again**." ([WW 2012-10-21](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md)) The asymmetry is about survivorship: a diversified fund recovers because the index does; a
+single company need not exist to see the recovery.
 
 ## The pension trade-off, in one sentence
 
@@ -220,3 +253,4 @@ The 2011 statement, mid-decline: the best-days studies "fail to note that one di
 - [WW 2017-04-16 — 0/0 to 6/6 as the re-entry rule; the dwindling new-high list as an advantage](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md) ([summary](../sources/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))
 - [WW 2015-07-12 — Buying on GMI Sell signals would have worked — and why he doesn't mind](../../raw/posts/2015-07-12-schizoid-mr-market.md) ([summary](../sources/2015-07-12-schizoid-mr-market.md))
 - [WW 2018-02-04 — Put/call 1.2 and stochastic .20; the monthly top signature in three stages](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md) ([summary](../sources/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))
+- [WW 2012-10-21 — The two-tier timing rules, written to settle reader confusion](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md) ([summary](../sources/2012-10-21-timing-the-market-short-or-in-cash.md))

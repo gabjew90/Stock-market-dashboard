@@ -33,6 +33,7 @@ sources:
   - raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md
   - raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md
   - raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md
+  - raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -139,6 +140,13 @@ cover the window you care about (skip the near-month expiry if it ends too soon)
 regret buying the insurance if you did not have to use it." Options tradeable in his IRA even
 then. ([WW 2005-06-08](../../raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md))
 
+**Deep in-the-money puts as the primary bear-market vehicle (2006).** With the GMI at zero and a TC2005 scan
+returning "**7 rocket stocks and 422 submarines**": "since mid-May it has been almost too easy to trade profitably
+on the short side. **Buying deep in the money puts in my IRA has been a wonderful strategy for this market.** I
+urge all readers to get a copy of O'Neil's book on shorting and to study the charts." ([WW 2006-07-17](../../raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md)) The
+rocket-to-submarine ratio doubles as a one-number summary of which side the tape favours — see the
+[submarine scan](#submarine-scan--the-short-selling-framework).
+
 ## Covered calls as conservative income (2007)
 
 Alongside the growth-stock trading, Dr. Wish ran a deliberately **conservative** income strategy in his IRA, framed as age-appropriate: "Because I am a boomer and have acquired a sizable trading capital in my IRA, I have become more conservative lately... I am now reluctant to pile into a break out stock and assume the risk of a sudden down-turn." ([WW 2007-05-22](../../raw/posts/2007-05-22-gmi-6-no-longer-post-daily-but-when-gmi-changes-the-ideal-boomer-strategy-writing-covered-calls.md))
@@ -199,3 +207,4 @@ a double bottom near 114.50 and the 30-week flattening.
 - [WW 2014-02-17 — ETFs to lower stress; I-bonds; weekly calls on GLD](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md) ([summary](../sources/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md))
 - [WW 2006-05-30 — The IBD 100 comparison introduced — growth stocks hold longer-term trends](../../raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md) ([summary](../sources/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md))
 - [WW 2007-01-08 — A low put/call as a topping tell; scaling into inverse ETFs](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md) ([summary](../sources/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md))
+- [WW 2006-07-17 — Why he tracks a fixed IBD 100 list; what cash was paying](../../raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md) ([summary](../sources/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md))

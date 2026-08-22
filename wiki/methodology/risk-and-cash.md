@@ -77,6 +77,10 @@ sources:
   - raw/posts/2006-02-27-gmi-5-the-rally-people-love-to-hate.md
   - raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md
   - raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md
+  - raw/posts/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md
+  - raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md
+  - raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md
+  - raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md
 ---
 
 # Risk & cash
@@ -169,6 +173,11 @@ Half of the battle for conserving capital is to resist the temptation to buy tha
 in a bad market." His handling of it is a sizing decision, not an act of will — see
 [trading psychology, rule 10](trading-psychology.md#10-the-seductive-stock-in-a-bad-market--and-the-safety-valve). ([WW 2005-10-08](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md))
 
+**The tell's positive pole (2009).** The leader-on-good-news diagnostic runs both ways, and the upward reading is
+stated as plainly as the downward one: "**When stocks surge on good earnings, like AAPL, AMZN and NFLX did last
+week, we know that we are in a strong up-trend where funds and traders are buying strength.**" ([WW 2009-10-26](../../raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md)) Same
+instrument, opposite verdict — what matters is not the news but what the leaders do with it.
+
 ## Position management within a bull market
 
 He does not go all-in at once. From Livermore via Dr. Wish: make a **pilot buy** first, add more only as the stock moves in the predicted direction, average up never down. ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
@@ -233,6 +242,28 @@ portfolio risk)." Offered alongside the honest simplification for non-traders �
 strategy for me might be just to own the SPY, using Stage Analysis to time entries and exits" —
 and the universal minimum: "**have an exit plan for every trade.**" ([WW 2013-10-13](../../raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md))
 
+## No need to anticipate the reversal
+
+The counterpart to the exit rules above, and the reason the lag in them is affordable. Written in cash in July
+2007 with the GMI at 2: "Trend followers only know a turn *after* it has occurred. **The GMI got me out of the
+market unscathed.** I am now sitting in cash and have retained my profits from the prior up-trend." Then the
+doctrine ([WW 2007-07-30](../../raw/posts/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md)):
+
+> "**My goal is not to try to anticipate a market bottom. I buy stocks breaking out to new highs, after they
+> have recovered from a decline.** There will be plenty of time to buy (and write calls on) the new leaders after
+> the market has bottomed… **In spite of what the pundits assert, there is plenty of time to make profits AFTER
+> the market has revealed that it has turned. There is no need to anticipate the reversal; that is usually a
+> futile and costly practice.**"
+
+**The re-entry condition is a number, not a judgement:** "**I will wait for the GMI to climb back *above* 3
+before I test the waters again.**" And the discipline is visible in what he declines to do with a genuinely
+oversold reading the same evening — T2108 at 15, "definitely in market bottoming territory. **But this is not
+the time to be a hero.**" An oversold reading describes a condition; it does not authorise a purchase. See
+[T2108's bands](t2108.md#thresholds) and the [market-state playbook](../playbooks/market-state.md).
+
+The screen that makes the waiting cheap is on [stock selection](stock-selection.md#the-post-decline-new-high-list):
+the leaders identify themselves after the turn, on the new-high list.
+
 ## Contrarian sentiment is a bounce warning, not a re-entry trigger
 
 One professional-sentiment inversion *did* support re-entry: in September 2011 the Investors
@@ -281,6 +312,12 @@ the one the section heading already states: sentiment qualifies a move, it does 
 to bloody Mondays when many people decide to exit **after pondering their falling balances over the weekend**.
 These people will likely sell to the eager professionals at lower prices." ([WW 2018-02-04](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md)) It is an argument for not
 being the person who panics on a Sunday, not a tradeable rule.
+
+**A third stated put/call threshold, and the drift.** October 2012, at a little over 1.0: "**Readings above 1.0
+typically signal too much bearishness and an imminent bounce.**" ([WW 2012-10-21](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md)) Set against 1.2 in February 2018 and
+1.25 later that year, the bounce threshold he quotes has risen over time rather than staying fixed. Treat it as a
+**zone of roughly 1.0–1.25** in which fear becomes actionable, not as a level — and note that in every instance
+it qualifies a decision the trend indicators have already framed.
 
 ## Relative strength during declines as a leadership screen
 
@@ -347,6 +384,14 @@ down conventional bonds, and an inflation-adjusted floating instrument is the on
 that reprices the right way when that happens. Note the audience — this was advice offered to a room of
 retirees, alongside the recommendation to trade ETFs rather than individual stocks to lower volatility
 and stress.
+
+**And what the cash was actually earning.** The only place he quantifies the other half of the cash decision:
+"With **Fidelity Cash Reserves paying me about 4.8%** for the cash balance in my account, it is nice to be on the
+sidelines. **What is your brokerage firm paying you for your cash balances?** You may be surprised /
+disappointed." ([WW 2006-07-17](../../raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md)) Written in July 2006, when short rates were near their cycle peak — the same rates his
+[rate indicator](#the-rate-indicator-is-on-his-charts-from-the-start) had been tracking upward for two years. The
+point generalises past the number: the cost of sitting out is the *spread* between cash and equities, not the
+equity return alone, and that spread is a fact about the rate environment rather than about the market.
 
 ## Position sizing — what he has said, and what he has not
 
@@ -460,3 +505,7 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2006-02-27 — The rally people love to hate — when sentiment stops being contrary](../../raw/posts/2006-02-27-gmi-5-the-rally-people-love-to-hate.md) ([summary](../sources/2006-02-27-gmi-5-the-rally-people-love-to-hate.md))
 - [WW 2007-01-08 — A low put/call as a topping tell; scaling into inverse ETFs](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md) ([summary](../sources/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md))
 - [WW 2018-02-04 — Put/call 1.2 and stochastic .20; the monthly top signature in three stages](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md) ([summary](../sources/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))
+- [WW 2007-07-30 — No need to anticipate the reversal; GMI back above 3 as the re-entry](../../raw/posts/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md) ([summary](../sources/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md))
+- [WW 2012-10-21 — The two-tier timing rules, written to settle reader confusion](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md) ([summary](../sources/2012-10-21-timing-the-market-short-or-in-cash.md))
+- [WW 2006-07-17 — Why he tracks a fixed IBD 100 list; what cash was paying](../../raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md) ([summary](../sources/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md))
+- [WW 2009-10-26 — Volume buzz defined — volume against its average at that time of day](../../raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md) ([summary](../sources/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md))

@@ -1,7 +1,7 @@
 ---
 title: The scans — how he finds candidates in TC2000 and IBD
 type: concept
-updated: 2026-08-18
+updated: 2026-08-20
 sources:
   - raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md
   - raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md
@@ -35,6 +35,8 @@ sources:
   - raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md
   - raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md
   - raw/posts/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md
+  - raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md
+  - raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -220,6 +222,28 @@ Fourteen of 6,081 US stocks qualified on 2021-04-16; six already carried his IBD
 
 "One of the best areas of support for a rising stock is its 10 week moving average. A lot of rocket stocks rest there and then resume their rise." The scan runs over 6,000 US stocks for a strong rocket pattern **plus** a bounce off the 10-week average; ten names on 2014-08-29. ([WW 2014-09-01](../../raw/posts/2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle.md))
 
+## The monthly-RWB doubler variant (2016)
+
+A slower-timeframe cousin of the [weekly doubler-ATH scan](#the-weekly-doubler-ath-scan-2020--full-syntax):
+"my TC2000 scan for stocks that have **doubled the past year**, are **near their yearly highs** and have a strong
+long term ***monthly* RWB pattern**." Results are cross-marked against his IBD lists — the top names carried "a
+blue flag to the left [because they] appeared in one of my many IBD lists of noteworthy stocks" — and only some
+of the output are GLB stocks, which he leaves as an exercise for the reader. ([WW 2016-03-20](../../raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md)) Swapping the weekly
+Guppy for the monthly raises the bar on trend durability at the cost of responsiveness.
+
+## The student bounce scan (2010)
+
+Built for an undergraduate trading competition and run over his IBD 100 and New America watchlist rather than the
+full universe: stocks that have "**recently hit a new high then became oversold and just bounced off of or broke
+above their 30 day averages**," with a revenue-growth filter and a few other technical criteria. The output is
+displayed with a fundamental column set — EPS change for the most recent quarter, the prior quarter and annual;
+PE; price against price a year ago; % change in revenue last quarter; P/S; ROE — **sorted by ROE**. The exit ships
+with the list: "a **GTC stop loss somewhere below the stock's 30 day average**." ([WW 2010-10-11](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md))
+
+Two conditions he attaches are as much a part of the method as the formula: the results are "a starting point
+*for them to research*," and "**all students must have an objective set of trading rules approved by me before
+they can trade**."
+
 ## The Darvas EasyScan (2015)
 
 A TC2000 EasyScan he designed to approximate Darvas's selection criteria, run against ~6,000 stocks; on 2015-02-27 it returned 46 names, of which AMBA — above its green-line top, in a weekly RWB pattern — was the example. The criteria are not listed in the post; he points to his 2012 Houston TC2000 webinar for the walk-through. ([WW 2015-03-01](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md))
@@ -270,3 +294,5 @@ It is also the one scan he declines to share: "**Please do not ask me to post my
 - [WW 2024-03-12 — Blog Post: Day 44 of $QQQ short term up-trend; $QQQ has black dot, oversold bounce, see daily chart and list o](../../raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md) ([summary](../sources/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md))
 - [WW 2014-03-30 — 5th-day-of-qqq-short-term-down-trend-fang-shows-strength](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md) ([summary](../sources/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md))
 - [WW 2018-10-21 — TC2000 workshop gems; $QQQ $SPY in daily BWR down-trends](../../raw/posts/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md) ([summary](../sources/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md))
+- [WW 2010-10-11 — The ultra-ETF measurement repeated; a bounce scan built for students](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md) ([summary](../sources/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md))
+- [WW 2016-03-20 — Buying before the green line — with a different stop](../../raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md) ([summary](../sources/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md))

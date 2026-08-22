@@ -345,6 +345,12 @@ sources:
   - raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md
   - raw/posts/2015-07-12-schizoid-mr-market.md
   - raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md
+  - raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md
+  - raw/posts/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md
+  - raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md
+  - raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md
+  - raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md
+  - raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md
 ---
 
 # Timeline — evolution of the methodology
@@ -660,6 +666,20 @@ market call against his own — 19 straight days of a down-trend the paper had s
 
 **"GMI: 0; indicators deteriorate on biased market indexes" (2006-07-18):** "50-54% of the stocks in the Nasdaq 100, S&P 500 and Dow 30 indexes advanced on Monday, **but only 36% of my universe of 4,000 stocks rose**"; 16 new highs against 195 new lows; component 1 at 19% — "buying stocks at new highs has not been profitable." The 2021 divergence mechanism, observed in 2006. ([WW 2006-07-18](../../raw/posts/2006-07-18-gmi-0-indicators-deteriorate-on-biased-market-indexes.md))
 
+## July 2006 (method) — why the IBD audits use a frozen list; what cash was paying
+
+**"GMI: 0; IBD100 performance; Cash balances earning 4.8%?" (2006-07-17):** the survivorship objection that
+justifies his whole audit method, a month before the better-known August statement — "**I think that the way IBD
+tracks the performance of the IBD 100 is very misleading because they keep replacing underperforming stocks with
+better performing stocks. When you look at the performance of the IBD 100 list published on a particular date
+(5/15) we get a more accurate indication** of how these types of stocks have performed." Since 5/15, 19% of that
+list had advanced against 27% of his universe. Component 6 checked at two horizons (the IBD fund index below both
+its 50-day and 200-day, the 50 close to crossing under the 200) — "the professional growth fund managers are
+suffering in this market." The short side "almost too easy" via **deep in-the-money puts in the IRA**, with a
+TC2005 scan returning **7 rockets to 422 submarines**. And the one place he prices the other half of the cash
+decision: "with **Fidelity Cash Reserves paying me about 4.8%** for the cash balance in my account, it is nice to
+be on the sidelines. **What is your brokerage firm paying you for your cash balances?**" ([WW 2006-07-17](../../raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md))
+
 ## August 2006 — the new-low mirror statistic; MACD breadth as the earliest indicator; the IBD 100 Index survivorship caveat
 
 **"GMI: +3; QQQQ masks underlying strength in IBD-100" (2006-08-07):** the successful-10-day-new-**low** percentage already in the table (25% of 260 → "shorting new lows has been unlikely to have been profitable"); "% above MACD signal line" called "my earliest indicator of a possible up-trend"; IBD MF index back near its 50-day; CNBC muted à la Roppel; "wade slowly." ([WW 2006-08-07](../../raw/posts/2006-08-07-gmi-3-qqqq-masks-underlying-strength-in-ibd-100-stocks-to-watch.md))
@@ -709,6 +729,21 @@ construction. ([WW 2007-01-08](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100
 ## February 2007 (cont.) — GMI-L 100; the Dow's multi-year base; O'Neil's 8% rule
 
 **"GMI: 6; GMI-S: 88; Dow climbs wall of worry" (2007-02-26):** GMI-L > 90 since September, pension 100% invested since the fall; the Dow's five-year base and the overhead-supply logic — "it often portends a considerable rise" — with the 1982 break of 1,000 as precedent (the GLB idea on an index); IBD100 lists tracking the Nasdaq-100; O'Neil's 8%-below-pivot stop; "I like to buy IBD 100 stocks that break from a base on high volume." ([WW 2007-02-26](../../raw/posts/2007-02-26-gmi-6-gmi-s-88-dow-climbs-wall-of-worry-ibd-100-stock-performance-some-cups-with-handles.md))
+
+## July 2007 (doctrine) — 'there is no need to anticipate the reversal'
+
+**"GMI: 2; GMI-L: 63; GMI-S: 19; Short or cash" (2007-07-30):** the clearest statement of why the lag in his
+exit rules is affordable. "Trend followers only know a turn *after* it has occurred. **The GMI got me out of the
+market unscathed.**" Then: "**My goal is not to try to anticipate a market bottom. I buy stocks breaking out to
+new highs, after they have recovered from a decline**… **the easiest time to find the new leaders is to check the
+daily new high list once the dust has settled. The few stocks that come through a decline like this and quickly
+break out to new highs are the ones I want to own**… **In spite of what the pundits assert, there is plenty of
+time to make profits AFTER the market has revealed that it has turned. There is no need to anticipate the
+reversal; that is usually a futile and costly practice.**" The re-entry condition is numeric — "**I will wait for
+the GMI to climb back *above* 3 before I test the waters again**" — and an oversold T2108 of 15 is read and
+declined: "definitely in market bottoming territory. **But this is not the time to be a hero.**" On the IBD 100
+lists, slaughtered: "**those of us who like to ride growth stocks to new peaks should be completely aware that
+this is now a low probability strategy.**" ([WW 2007-07-30](../../raw/posts/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md))
 
 ## September 2007 (cont.) — component 1's thresholds clarified as inclusive
 
@@ -870,6 +905,21 @@ highs makes these winners stand out." ([WW 2009-04-19](../../raw/posts/2009-04-1
 
 **"Using Bollinger Bands to avoid buying extended from support" (2009-10-19):** "the biggest mistake they make in trading is buying a stock when it is too extended from support… I did that a lot until I reviewed several losses and discovered that pattern. To make money, all I had to do was to reverse my actions — buy where I had been selling and sell where I had been buying." Bollinger Bands at the **standard 20-day / 2-SD** setting, years before his 15.2. ([WW 2009-10-19](../../raw/posts/2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support.md))
 
+## October 2009 (tool) — volume buzz defined
+
+**"Exciting New Worden stock tool — volume buzz at FreeStockCharts.com" (2009-10-26):** the definition of a
+term used throughout the wiki and never previously pinned down. "**Volume buzz compares each stock's volume to
+its average volume at a specific time during the trading day.** So, for example, at 10:05 AM I can rank my
+watchlist by how each stock's current volume at 10:05 AM compares with its **average volume at 10:05 AM**" — the
+time-of-day normalisation being exactly what makes unusual volume detectable *during* the session rather than
+after the close. Run as a watchlist column; the averaging window is undisclosed ("I do not know over how many
+time periods the average is computed"). Worked example: TYH finishing a Friday 85.7% above its average volume for
+that point in the session. Also the **positive pole of the leader-on-news tell**: "**when stocks surge on good
+earnings, like AAPL, AMZN and NFLX did last week, we know that we are in a strong up-trend where funds and
+traders are buying strength**" — the mirror of leaders sold off on good earnings. And patience with a stretched
+tape: near the top of their Bollinger bands "it may not be a great time to start taking on new longs. **But as
+long as the longer term trends are up, chances are that the daily advance will resume suddenly.**" ([WW 2009-10-26](../../raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md))
+
 ## November 2009 — the trading philosophy stated as five propositions
 
 **"My Trading Philosophy and Why I Use Technical Analysis" (2009-11-26):** the reasoning the whole system serves, in five numbered propositions — markets are unpredictable; but trends persist; so identify trends once begun and stay with them; since only ~50% of trades work, winners must dwarf losers (stops and small initial positions on one side, riding and pyramiding on the other); and therefore **success is determined mostly by exit rules, not entry** — "one could probably select stocks at random as long as losses are kept at a minimum and profits are maximized." Attributed to Darvas, Weinstein, O'Neil, the Turtles and Livermore, and previously published under the pseudonym **Sir Silent Knight** in the Worden TC2007 journal. See [trading-philosophy.md](../methodology/trading-philosophy.md). ([WW 2009-11-26](../../raw/posts/2009-11-26-my-trading-philosophy-and-why-i-use-technical-analysis.md))
@@ -979,6 +1029,20 @@ but not always," his highest published upper band. ([WW 2010-04-26](../../raw/po
 ## September 2010 (sentiment) — II bears > bulls; the strategy sentence; IBD100 top ten again
 
 **"This rally may have legs — IBD100 top ten out-shine again!" (2010-09-07):** Investors Intelligence 38% bears vs 29% bulls, "exceedingly rare"; GMI 4 → close shorts, go long; 226 new highs; SPY/DIA above their 10-week; T2108 76% "pendulum"; "select stocks from the IBD 100 list… time the entry according to my own trading rules"; 7/12 top ten: 90% up, 70% ≥ +20% vs 17%/11%. ([WW 2010-09-07](../../raw/posts/2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again.md))
+
+## October 2010 (measurement / teaching) — the ultra-ETF tally mid-trend; a scan built for students
+
+**"On to the year end rally" (2010-10-11):** the ultra-ETF case measured live rather than backtested — 24
+days into a QQQQ up-trend, "the QQQQ has risen +8.9%, the SPY +6.3%, and the DIA +6.4%… **QLD +18.5% and the TYH
++26.7%. So, we see again the virtue of buying the ultra long index ETF's at the beginning of a QQQQ short term
+up-trend.**" The duration base rate he was working from: "**Eight QQQQ short term up-trends have lasted between
+31-86 days in the past couple of years. So the current up-trend may have a ways to go**" — the count used to hold,
+not to exit. And a scan built for his undergraduates' trading competition, run over his IBD 100 and New America
+watchlist: stocks that "**recently hit a new high then became oversold and just bounced off of or broke above
+their 30 day averages**," filtered on revenue growth, displayed with a fundamental column set and **sorted by
+ROE**, with the exit shipped alongside — "a **GTC stop loss somewhere below the stock's 30 day average**." Two
+teaching conditions attached: the list is "a starting point *for them to research*," and "**all students must
+have an objective set of trading rules approved by me before they can trade**." ([WW 2010-10-11](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md))
 
 ## December 2010 — the 95-year Dow cycle framework
 
@@ -1127,6 +1191,22 @@ but not always," his highest published upper band. ([WW 2010-04-26](../../raw/po
 ## September 2012 — the 5-day rule applied to inverse ETFs
 
 **"3rd day of QQQ short term down-trend" (2012-09-30):** small QID and TECS positions on day 3 — "I am more sure of a change of trend once it lasts for 5 days… if the down-trend continues Monday I will start to add"; pension still fully long on the weekly trend. ([WW 2012-09-30](../../raw/posts/2012-09-30-3rd-day-of-qqq-short-term-down-trend-teach-marketwatch-contest-value-of-ta.md))
+
+## October 2012 (clarification) — the two-tier timing rules, side by side
+
+**"Timing the market; Short or in cash" (2012-10-21):** written to settle reader confusion, and the most
+explicit statement of the two tiers' rules in the corpus — the important point being that **they are not the same
+shape**. Speculative money (IRA, margin) runs on a **disjunction**: "**when my QQQ short term indicator turns down
+*or* the GMI goes below 3, I start to become more cautious… I may raise sell stops, move to cash or go short.**"
+Conservative money (the pension) runs on a **conjunction**, and a stricter threshold: "**only after the GMI has
+been 1 or 2 for a while *and* the longer term moving averages curve down do I move my conservative money from
+mutual funds into money market funds. I tend to exit and reinvest in stages, not all at once.**" Note *1 or 2*,
+not "below 3" — a GMI of 3 makes him cautious in the trading account and does nothing to the pension. The flow
+keeps running after the balance moves ("I continue putting the new allocations into mutual funds so that the new
+money dollar cost averages… **because I am pretty confident the mutual funds will rise again**"). Also: why day-1
+entries are hard, admitted — 12% forgone on SQQQ because "**on the first day of a new trend one does not usually
+believe it will last**" — and a third put/call threshold, "**readings above 1.0 typically signal too much
+bearishness and an imminent bounce**," against 1.2 in 2018. ([WW 2012-10-21](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md))
 
 ## February 2013 (regime) — the yearly S&P chart and the 1970s lesson
 
@@ -1377,6 +1457,20 @@ objective near 80. GMI on a Sell while the QQQ was on U-2 — the slower instrum
 **"Why I follow my General Market Index, GMI" (2016-02-07):** the Dec 10 Sell signal audited at component level — 78–92% of component stocks down across his three ETFs, QQQ −13.5% — with the circularity acknowledged. The anguish framing of timing ("if I get back in lower or even equal to where I exited, I did well enough") and the age-based case for cash over short. ([WW 2016-02-07](../../raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md))
 
 ---
+
+## March 2016 (entries) — buying before the green line, with a different stop
+
+**"GMI at 6, going back in; $MXL and $SQ" (2016-03-20):** two positions taken *ahead* of the breakout, with
+the deviation named and the stop changed. MXL, a cup-and-handle breakout on above-average volume with its 2010
+top at 19.50 overhead: "I started a position and **will go in much more if MXL can close above its all-time top
+at 19.50. I usually wait for the GLB, but its fundamental and technical strength tempted me to move early. If
+MXL closes below its pivot break-out line, around 18.18, I will begin to exit the trade.**" The early entry takes
+the *pivot* as its invalidation, not the green line — a tighter stop, not a looser one. SQ, a November 2015 IPO,
+bought on relative strength ("**held up at the bottom line in the chart even when the market had a few large down
+days in February**") with the same escalation: "**if SQ can close above its green line top at 14.78 I will
+aggressively accumulate it.**" Also: a **monthly**-timeframe variant of the doubler scan (doubled in the past
+year, near yearly highs, strong long-term monthly RWB, cross-marked against his IBD lists), and the pension moved
+back into an S&P 500 fund as the GMI reached 6. ([WW 2016-03-20](../../raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md))
 
 ## March 2016 — T2108 at 3.8%; 'but I know I will be too scared'
 
@@ -2412,3 +2506,9 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2009-04-19 — market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs](../../raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md) ([summary](../sources/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md))
 - [WW 2015-07-12 — schizoid-mr-market](../../raw/posts/2015-07-12-schizoid-mr-market.md) ([summary](../sources/2015-07-12-schizoid-mr-market.md))
 - [WW 2018-02-04 — bloody-monday-open-likely-in-cash-during-this-mini-decline](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md) ([summary](../sources/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))
+- [WW 2006-07-17 — gmi-0-ibd100-performance-cash-balances-earning-48](../../raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md) ([summary](../sources/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md))
+- [WW 2007-07-30 — gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash](../../raw/posts/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md) ([summary](../sources/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md))
+- [WW 2009-10-26 — exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com](../../raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md) ([summary](../sources/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md))
+- [WW 2010-10-11 — on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md) ([summary](../sources/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md))
+- [WW 2012-10-21 — timing-the-market-short-or-in-cash](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md) ([summary](../sources/2012-10-21-timing-the-market-short-or-in-cash.md))
+- [WW 2016-03-20 — gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks](../../raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md) ([summary](../sources/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md))

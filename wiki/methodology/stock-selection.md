@@ -63,6 +63,8 @@ sources:
   - raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md
   - raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md
   - raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md
+  - raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md
+  - raw/posts/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md
 ---
 
 # Stock selection
@@ -296,6 +298,19 @@ quiet breakout gets flagged as defective even when he buys it anyway (see [TRLG]
 The discipline half of the same post — sitting out a day when nothing qualifies — is on
 [trading psychology](trading-psychology.md).
 
+## The post-decline new-high list — where the next leaders announce themselves
+
+The screen that makes waiting out a decline affordable, stated in July 2007 from cash: "**the easiest time to
+find the new leaders is to check the daily new high list once the dust has settled. The few stocks that come
+through a decline like this and quickly break out to new highs are the ones I want to own.**" ([WW 2007-07-30](../../raw/posts/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md)) It is
+the same instrument as [hunting in a dwindling list](#building-the-ath-watchlist--and-tc2000s-survivorship-trap)
+above, applied one step later in the cycle: during the decline a short new-high list is easy to read; immediately
+after it, the names on that list are the leadership of the next advance.
+
+This is why he can say in the same post that there is "**no need to anticipate the reversal**" — the cost of
+being late is bounded, because the stocks worth owning identify themselves *after* the turn rather than before
+it. See [risk and cash](risk-and-cash.md#no-need-to-anticipate-the-reversal).
+
 ## O'Neil 1995 workshop: volume over EPS
 
 From Dr. Wish's personal trading diary (November 11, 1995, copyright Dr. Eric Wish):
@@ -335,6 +350,15 @@ averages." Set that beside the [2006 mid-decline audit](#two-caveats-on-the-ibd-
 Nasdaq-100) and the picture is coherent rather than contradictory: **growth-list stocks hold long-term trends
 better than the market and underperform it inside declines.** Which is the same two-speed fact the rest of the
 system is built around, observed in a stock list instead of an index.
+
+**The method's justification, stated in July 2006.** Why every audit on this page names a publication date and
+follows that frozen list: "**I think that the way IBD tracks the performance of the IBD 100 is very misleading
+because they keep replacing underperforming stocks with better performing stocks. When you look at the
+performance of the IBD 100 list published on a particular date (5/15) we get a more accurate indication of how
+these types of stocks have performed.**" ([WW 2006-07-17](../../raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md)) That is the survivorship objection — a continuously
+reconstituted index cannot measure how its own selections performed — a month before the
+[August 2006 statement](#ibd50-as-a-big-winner-filter--quantitative-comparison-2011) of the same complaint about
+the published IBD 100 Index.
 
 ## IBD50 as a big-winner filter — quantitative comparison (2011)
 
@@ -445,3 +469,5 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2017-04-16 — 0/0 to 6/6 as the re-entry rule; the dwindling new-high list as an advantage](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md) ([summary](../sources/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))
 - [WW 2006-05-30 — The IBD 100 comparison introduced — growth stocks hold longer-term trends](../../raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md) ([summary](../sources/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md))
 - [WW 2009-04-19 — 'The market needs to rest' is nonsense; QSII breaks a three-year base](../../raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md) ([summary](../sources/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md))
+- [WW 2006-07-17 — Why he tracks a fixed IBD 100 list; what cash was paying](../../raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md) ([summary](../sources/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md))
+- [WW 2007-07-30 — No need to anticipate the reversal; GMI back above 3 as the re-entry](../../raw/posts/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md) ([summary](../sources/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md))

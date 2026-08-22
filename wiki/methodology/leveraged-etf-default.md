@@ -25,6 +25,7 @@ sources:
   - raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md
   - raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md
   - raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md
+  - raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md
 ---
 
 # The leveraged-ETF default — TQQQ on a GMI Buy signal
@@ -77,6 +78,13 @@ The 2011 arithmetic that produced the default: over a 58-day up-trend QQQQ +11.4
 
 **How the tranches are paced (2011):** "I usually wade into these in stages **with each purchase having to be higher than the previous one**. I never add to a long position that is moving down — I always average up." The arithmetic that motivated it: from November 30, QQQQ +9.5%, QLD +19.9%, TQQQ +30.8%, while only 3% of Nasdaq-100 stocks advanced 30% or more. ([WW 2011-02-04](../../raw/posts/2011-02-04-nasdaq100-stocks-qqqq-rwb-up-trend-ultra-etfs-outperform-most-stocks-again.md)) On the recovery side, April 2008: with the GMI back above 4 for the first time since December, "it is now time for me to accumulate QLD… and other strong IBD 100 stocks." ([WW 2008-04-17](../../raw/posts/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md))
 
+**Measured live, mid-trend (October 2010).** Not a backtest but a running tally 24 days into an up-trend: "the
+QQQQ has risen +8.9%, the SPY +6.3%, and the DIA +6.4%. On the other hand the ultra long index ETF's have done
+much better, **QLD +18.5% and the TYH +26.7%. So, we see again the virtue of buying the ultra long index ETF's at
+the beginning of a QQQQ short term up-trend.**" ([WW 2010-10-11](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md)) Roughly 2× the index in the 2× fund and 3× in the 3×
+fund over a clean trending stretch — which is what the instruments are supposed to do, and the reason the
+[decay caveat](#the-thesis-is-older-than-the-studies--october-2006) matters only when the trend is choppy.
+
 ## The TQQQ default and year-in-review performance data
 
 Performance data Dr. Wish has published reinforcing the case for riding leveraged index ETFs rather than selecting individual stocks:
@@ -125,3 +133,4 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2012-03-12 — GMI out-performs in new study; GLD starting Stage 4 decline?](../../raw/posts/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md) ([summary](../sources/2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4.md))
 - [WW 2006-10-23 — GMI: 6; IBD 100 performance; AAPL and GOOG](../../raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md) ([summary](../sources/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md))
 - [WW 2006-01-17 — The advance measured across three indexes; the inverted-yield-curve worry](../../raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md) ([summary](../sources/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md))
+- [WW 2010-10-11 — The ultra-ETF measurement repeated; a bounce scan built for students](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md) ([summary](../sources/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md))
