@@ -27,6 +27,7 @@ sources:
   - raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md
   - raw/posts/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md
   - raw/posts/2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks.md
+  - raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md
 ---
 
 # QQQ Short-Term Timing
@@ -134,6 +135,12 @@ trends, and the output is an expectation, not a prediction. He also kept the sho
 working mid-crisis: a reversal "would occur within a longer term down-trend but **could still be
 a trade-able rally**." ([WW 2008-10-22](../../raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md))
 
+**A base rate used against a narrative (2009).** The published durations are not only for sizing decisions; he
+uses them to refuse a story. Against pundits saying the market "needs to rest" — "**such utter nonsense!**" — the
+answer is the count: "the QQQQ is only in the 22nd day of its up-trend. **The up-trend that ended July 27, 2007,
+lasted 80 days!** The current rally may have a lot longer to go." ([WW 2009-04-19](../../raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md)) A market cannot be tired; an
+up-trend can only be young or old relative to the distribution of previous ones, and that is a number he keeps.
+
 ## See also
 
 - [General Market Index (GMI)](gmi.md)
@@ -167,3 +174,4 @@ a trade-able rally**." ([WW 2008-10-22](../../raw/posts/2008-10-22-gmi-0-gmi-r-0
 - [WW 2022-06-07 — blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-24-stocks-in-my-watchlist-hit-an-ath](../../raw/posts/2022-06-07-blog-post-day-1-of-new-qqq-short-term-up-trend-and-gmi4-nibbling-at-tqqq-see-24-stocks-at-aths.md)
 - [WW 2011-03-15 — GMI at 1, as QQQQ short term down-trend completes 5th day; in cash and short; T2108 still neutral](../../raw/posts/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md) ([summary](../sources/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md))
 - [WW 2005-12-26 — GMI: +4; Mixed signals; GMI: contrary indicator?  New Year Nicolas Darvas type stocks](../../raw/posts/2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks.md) ([summary](../sources/2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks.md))
+- [WW 2009-04-19 — 'The market needs to rest' is nonsense; QSII breaks a three-year base](../../raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md) ([summary](../sources/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md))

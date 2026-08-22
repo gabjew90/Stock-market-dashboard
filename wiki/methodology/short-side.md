@@ -31,6 +31,8 @@ sources:
   - raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md
   - raw/posts/2010-04-26-true-religion-trlg-break-out.md
   - raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md
+  - raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md
+  - raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -111,6 +113,22 @@ and the outcome is genuinely two-sided — he used **May calls**: "If I am wrong
 of the loss, which is the same trade-off as the
 [protective put](#protective-puts--the-2005-original-and-the-put-vs-stop-rule) taken from the other side.
 
+**Scaling in, and which inverse ETF to pick (2007).** The rule is written while he is losing on the position,
+which is what makes it credible: "I know I took a loss last week on my prior QID purchases, but this market
+appears to be in transition with considerable whipsawing going on… **Right now, the prudent course for me is to
+make small bets on the down-trend with close protective sell stops, in case the market moves up. If the
+down-trend deepens, I will accumulate the inverse ETF on the weaker index.**" ([WW 2007-01-08](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md)) Two rules in one
+sentence — size up only as the trend confirms (the same 5-day logic he later states explicitly), and *choose*
+the inverse fund whose underlying index is the weaker one. The repeated small losses are priced in by precedent:
+"Bernard Baruch wrote that he often times bought and sold stocks near the top in 1929, as he tried to catch the
+major trend."
+
+**The put-candidate screen, in words (2006).** Before the submarine scan's formula, the same idea as criteria:
+candidates "have had some **high volume down weeks** since reaching peaks several months ago. All are **below
+their 10 week averages** and their **declining 10 week averages are below their 30 week averages**." ([WW 2006-05-30](../../raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md))
+Three conditions — distribution on the way down, price under the intermediate average, and that average both
+falling and beneath the long one.
+
 ## Protective puts — the 2005 original, and the put-vs-stop rule
 
 The insurance framing is fully formed in **June 2005** — four years before the 2009 tutorial —
@@ -179,3 +197,5 @@ a double bottom near 114.50 and the 30-week flattening.
 - [WW 2006-06-08 — Shame on IBD and Cramer; puts in an IRA; the IBD 100 audited mid-decline](../../raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md) ([summary](../sources/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md))
 - [WW 2010-04-26 — TRLG: the round trip back to an all-time high, expressed in calls](../../raw/posts/2010-04-26-true-religion-trlg-break-out.md) ([summary](../sources/2010-04-26-true-religion-trlg-break-out.md))
 - [WW 2014-02-17 — ETFs to lower stress; I-bonds; weekly calls on GLD](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md) ([summary](../sources/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md))
+- [WW 2006-05-30 — The IBD 100 comparison introduced — growth stocks hold longer-term trends](../../raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md) ([summary](../sources/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md))
+- [WW 2007-01-08 — A low put/call as a topping tell; scaling into inverse ETFs](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md) ([summary](../sources/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md))

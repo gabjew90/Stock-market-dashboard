@@ -51,6 +51,8 @@ sources:
   - raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md
   - raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md
   - raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md
+  - raw/posts/2015-07-12-schizoid-mr-market.md
+  - raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md
 ---
 
 # General Market Index (GMI)
@@ -130,6 +132,11 @@ single sentence twelve years later: "**When stocks that hit a new high do not co
 one sign of potential weakness I track.**" ([WW 2017-01-08](../../raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md)) The component is a *follow-through* test rather
 than a new-high count — which is why the denominator floor added in 2008 mattered enough to publish
 (see [GMI evidence](gmi-evidence.md)).
+
+**And stated in the negative, in 2007.** The 2009 formulation has a mirror two years earlier, written with the
+index *below* its 50-day average: "**When these fund managers are not doing well, I do not make money buying
+growth stocks.**" ([WW 2007-01-08](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md)) Same proposition from the other side — the component is a read on whether
+professionals running his strategy can currently make it work.
 
 ## The signals — Buy, Sell, and the hold state at 3
 
@@ -272,6 +279,17 @@ and seven Buys inside one intact up-trend — and the 2011 two-day persistence r
 adopted between them. Full treatment on
 [when moving averages fail](moving-average-rules.md#when-moving-averages-fail--the-2006-epiphany).
 
+**Restated as an inversion, five months later.** July 2015, with the GMI Sell signals marked as red arrows on
+his weekly QQQ chart: they "indicate that **during this bull market one would have done well by buying stocks
+when the GMI issued a Sell**." ([WW 2015-07-12](../../raw/posts/2015-07-12-schizoid-mr-market.md)) That is a harder statement than the February version — not that the
+Sells were early, but that fading them would have paid. His defence is explicitly about the tails rather than
+the hit rate ("over a long multi-year period **the GMI has kept me out of bear markets**"), and the cost is borne
+by an account structure chosen for it: "**I don't mind exiting with a GMI Sell and going back in if the market
+rally resumes. This is a benefit of trading in a tax deferred IRA where I can go in and out without any tax
+consequences.**" The whipsaw is affordable because of *where* he trades — see
+[the tax-deferred precondition](pension-management.md#the-tax-deferred-precondition). In a taxable account the
+same signal would be much worse advice, which is a qualification worth carrying with the rule.
+
 ## Code — computing the GMI
 
 The GMI is six binary checks ([`src/ww/indicators/gmi.py`](../../src/ww/indicators/gmi.py)). Three of them — QQQ daily trend, SPY daily trend, QQQ weekly trend (close above its 30-week average) — are computable from ordinary price data, so the code returns those even with a free data provider. The other three — the "Successful 10-Day New High" share, ≥100 new 52-week highs today, and the IBD Mutual Fund Index above its 50-day average — need a daily market-breadth panel and the IBD fund series, which aren't freely available; those come back as `None` (listed in `.unavailable`) until you plug in a provider that has them.
@@ -385,3 +403,5 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2017-01-08 — Why component 1 exists, in one sentence; SHOP's GLB and a missed alert](../../raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md) ([summary](../sources/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md))
 - [WW 2006-03-30 — The epiphany: moving averages are useless in a trendless market](../../raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md) ([summary](../sources/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md))
 - [WW 2017-04-16 — 0/0 to 6/6 as the re-entry rule; the dwindling new-high list as an advantage](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md) ([summary](../sources/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))
+- [WW 2015-07-12 — Buying on GMI Sell signals would have worked — and why he doesn't mind](../../raw/posts/2015-07-12-schizoid-mr-market.md) ([summary](../sources/2015-07-12-schizoid-mr-market.md))
+- [WW 2007-01-08 — A low put/call as a topping tell; scaling into inverse ETFs](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md) ([summary](../sources/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md))

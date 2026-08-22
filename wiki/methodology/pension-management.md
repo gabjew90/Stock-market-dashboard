@@ -32,6 +32,8 @@ sources:
   - raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md
   - raw/posts/2014-10-19-16th-day-of-qqq-short-term-down-trend-bottom-or-dead-cat-bounce-keeping-an-eye-on-the-baby.md
   - raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md
+  - raw/posts/2015-07-12-schizoid-mr-market.md
+  - raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md
 ---
 
 # The two accounts — university pension vs trading IRA
@@ -93,6 +95,17 @@ rarely.**" ([WW 2017-04-16](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monda
 short-term trend on D-1, the indexes below their 10-week averages and the *daily* RWB patterns gone.
 None of that touches the pension: "the longer term trends remain up and **I must respect that**." The
 two-speed design working as intended, and a clean illustration of why the pension moves so rarely.
+
+**Both conditions, stated together (2018).** The trigger is a conjunction and he writes it as one: "**I tend to
+exit the market in my pension accounts when the index closes below its 30 week average *and the average begins
+to turn down***. Such a decline last happened in 2016." ([WW 2018-02-04](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md)) A close below the 30-week alone is not
+enough — the average must also roll over — which is why the pension sat fully invested through the February 2018
+drop while the trading account went to 100% cash after two weeks of reducing.
+
+The cost side of moving at all is what makes the whole design work: "**I don't mind exiting with a GMI Sell and
+going back in if the market rally resumes. This is a benefit of trading in a tax deferred IRA where I can go in
+and out without any tax consequences.**" ([WW 2015-07-12](../../raw/posts/2015-07-12-schizoid-mr-market.md)) See
+[the tax-deferred precondition](#the-tax-deferred-precondition).
 
 ## The pension has an administrative constraint, not just a signal
 
@@ -205,3 +218,5 @@ The 2011 statement, mid-decline: the best-days studies "fail to note that one di
 - [WW 2025-01-09 — Blog Post: Day 6 of $QQQ short term down-trend; 144 US stocks at new lows and 42 at highs; $QQQ,$SPY,$DIA and ](../../raw/posts/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md) ([summary](../sources/2025-01-09-blog-post-day-6-of-qqq-short-term-down-trend-144-us-stocks-at-new-lows-and-42-at-highs-qqqspydia-and-iwm-now.md))
 - [WW 2014-10-19 — 16th day of $QQQ short term down-trend; Bottom or dead cat bounce? Keeping an eye on the $BABY](../../raw/posts/2014-10-19-16th-day-of-qqq-short-term-down-trend-bottom-or-dead-cat-bounce-keeping-an-eye-on-the-baby.md) ([summary](../sources/2014-10-19-16th-day-of-qqq-short-term-down-trend-bottom-or-dead-cat-bounce-keeping-an-eye-on-the-baby.md))
 - [WW 2017-04-16 — 0/0 to 6/6 as the re-entry rule; the dwindling new-high list as an advantage](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md) ([summary](../sources/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))
+- [WW 2015-07-12 — Buying on GMI Sell signals would have worked — and why he doesn't mind](../../raw/posts/2015-07-12-schizoid-mr-market.md) ([summary](../sources/2015-07-12-schizoid-mr-market.md))
+- [WW 2018-02-04 — Put/call 1.2 and stochastic .20; the monthly top signature in three stages](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md) ([summary](../sources/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))

@@ -339,6 +339,12 @@ sources:
   - raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md
   - raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md
   - raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md
+  - raw/posts/2006-02-27-gmi-5-the-rally-people-love-to-hate.md
+  - raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md
+  - raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md
+  - raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md
+  - raw/posts/2015-07-12-schizoid-mr-market.md
+  - raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md
 ---
 
 # Timeline — evolution of the methodology
@@ -580,6 +586,20 @@ the 68% ceiling observed since April 2005. ([WW 2006-01-17](../../raw/posts/2006
 
 ---
 
+## February 2006 (sentiment) — the rally people love to hate
+
+**"GMI: +5; The rally people love to hate" (2006-02-27):** he catches his contrarian gauge running backwards
+and writes the anomaly down rather than rescuing it. Four of five indexes in short-term up-trends near yearly
+highs, yet Investors Intelligence had *fallen* to 45.3% bullish and 29.5% bearish from "more than 60% bullish in
+early January when this rally began." His question: "**Do the newsletter writers actually become less bullish as
+the market rises? I thought sentiment was typically a contrary indicator with people being most bullish at the
+top, after a rise.**" No explanation offered; the technicals get backed instead — "I just hate to denigrate this
+market when there appears to be so much agreement that it must decline, **even in the face of the considerable
+technical evidence to the contrary**." The WPM isolates the laggard (only the QQQQ below its 30-day average, 49%
+of its components above theirs against 60–68% elsewhere), and a MACD "very close to reversing" is read as
+underlying strength on day 15 of a down-trend. Put/call "a relatively high .76" — the indicator in use twelve
+years before the post that fixes its threshold. ([WW 2006-02-27](../../raw/posts/2006-02-27-gmi-5-the-rally-people-love-to-hate.md))
+
 ## March 2006 (limits) — 'moving averages are useless in a trendless market'
 
 **"An epiphany on moving averages and trend lines" (2006-03-30):** the earliest and most general of his
@@ -600,6 +620,20 @@ resistance.**" ([WW 2006-03-30](../../raw/posts/2006-03-30-an-epiphany-on-moving
 **"GMI: 0; IBD 100 stocks decline more; My epiphany on discount brokers; Submarine stocks" (2006-05-22):** The most detailed published description of Dr. Wish's submarine scan criteria. Only 14% of IBD-100 stocks rose in the study week; the 85% that fell had a median decline of -7.2% (vs -3.5% for Nasdaq-100), confirming growth stocks amplify down-moves. Submarine scan: (1) closed below 10-week average for 7 consecutive weeks; (2) 10-week average is below 30-week average; (3) peaked ≥ 4 months ago; (4) at least one high-volume decline week since the peak; (5) recently bounced down off the declining 10-week. Entry: deep ITM puts with 6-9 months duration. Exit: stock trades above its declining 10-week. Broker insight: cash interest at a firm like Brown & Co. was near-zero; Fidelity swept cash to 4.62% money market — choose brokers that pay interest on idle cash. ([WW 2006-05-22](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
 
 ---
+
+## May 2006 (measurement) — the IBD 100 comparison begins
+
+**"GMI: 0; IBD 100 stocks stronger; Some shorts" (2006-05-30):** the day he starts a measurement that runs
+for years — "**I expanded the comparison of my indicators to include the IBD 100 stocks. I think it will provide
+valuable insights into the market** to see how the highly rated IBD100 stocks' performance compares with my
+universe of 4,000 stocks" — framed as a second breadth sample rather than as a scorecard for IBD. The first
+finding is the one that reconciles his later, harsher audits: short-term the two groups were indistinguishable,
+but **31% of his universe was above its 10-week average against 51% of the IBD 100, and 52% against 90% above
+the 30-week**, with twice as many IBD names bouncing off the 10-week (29% vs 13%). "These differences… signify
+that the **IBD 100 type of growth stocks are more likely to remain in longer term up trends**." Growth lists
+persist in up-trends *and* underperform inside declines — both audits are true. Also: the put-candidate screen
+in words (high-volume down weeks off a months-old peak, price below a declining 10-week, that 10-week below the
+30-week), and GMI-S at 0 against GMI-L 63. ([WW 2006-05-30](../../raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md))
 
 ## June 2006 (short side) — puts in an IRA; the IBD 100 audited mid-decline
 
@@ -657,6 +691,20 @@ market call against his own — 19 straight days of a down-trend the paper had s
 **December 2007 — GMI-L at 31%: the warning ahead of 2008.** GMI and GMI-R back to zero. The **GMI-L**, "my longer term measure of weekly trends," fell to 31% — "the lowest since it hit 20% in August 2006," and decisively worse than either 2007 correction, in which "the GMI-L never fell below 50%." T2108 failed its recovery: bottomed ~13% in November, reached ~55% on December 10, back to 28% — against the expectation that "almost always this pendulum recovers to around 80% after a large market decline," making the rebound "puny and half-hearted." The doctrine, in his capitals: "**THE KEY TO SUCCESS IN TRADING IS HOW LITTLE ONE LOSES DURING MARKET WEAKNESS.**" ([WW 2007-12-17](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
 
 ---
+
+## January 2007 (sentiment / short side) — a low put/call as a topping tell; scaling into inverse ETFs
+
+**"GMI: 1; GMI-S: 25; IBD 100 underperform; Down-trend here?" (2007-01-08):** the put/call ratio read from
+its *low* end — 0.41, near the 12-month low of 0.38 — "**a low p/c ratio suggests relatively fewer people bearish
+enough to buy puts, a contrary indicator, often signaling impending market weakness**." The wiki's other put/call
+citations are all high readings taken as bounce warnings; this is the same instrument at the opposite pole.
+Component 6 stated in the negative, two years before the 2009 positive form: "**when these fund managers are not
+doing well, I do not make money buying growth stocks**." And the short-side scaling rule, written while losing on
+the position: "I know I took a loss last week on my prior QID purchases… **the prudent course for me is to make
+small bets on the down-trend with close protective sell stops, in case the market moves up. If the down-trend
+deepens, I will accumulate the inverse ETF on the weaker index**" — with Baruch in 1929 as the precedent for
+paying repeated small losses to catch a major turn. GMI-S 25 across SPY/DIA/QQQQ/IJR corroborates the 16-test
+construction. ([WW 2007-01-08](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md))
 
 ## February 2007 (cont.) — GMI-L 100; the Dow's multi-year base; O'Neil's 8% rule
 
@@ -779,6 +827,20 @@ market call against his own — 19 straight days of a down-trend the paper had s
 ## April 2009 (cont.) — rockets to the moon, not bargains at new lows
 
 **"Buying rocket stocks; my market indicators are very strong" (2009-04-12):** GMI 5 for the first time since August 2008 and component 1 finally positive; "**while most of the world looks for bargain stocks at new lows, I seek rockets heading to the moon**… if you want to hop a rocket to the moon, it better be pointing up and gaining altitude"; GMCR among the IBD100 names near all-time highs. ([WW 2009-04-12](../../raw/posts/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md))
+
+## April 2009 (rhetoric) — 'the market needs to rest' is nonsense; QSII's three-year base
+
+**"Market rally does not need a rest; QSII breaks out to an all-time high" (2009-04-19):** a named fallacy
+answered with a base rate. "The media pundits claim the market needs to rest. The market gets tired and needs to
+consolidate for a while — **such utter nonsense!**" The counter is the day count: the Dow up ~24% from the bottom
+against ~100% snap-backs from the 1930s bottoms, and "the QQQQ is only in the 22nd day of its up-trend. **The
+up-trend that ended July 27, 2007, lasted 80 days!**" The trade is QSII — "a 40 bagger from 1999-2006, then
+formed a three year base," breaking to a new high on increased volume: "**when a stock breaks from a multi-year
+base to an all-time high, I become interested**," with Darvas's supply argument attached — such stocks are ones
+in which "**everyone who owned them had a profit**," so no trapped holders sell into the advance. T2108 at 92%,
+"as high a reading as it ever gets… **only that it is rebounding from deeply oversold territory**." And the
+scarcity read: no more than 15 new highs on any day that week, so "the fact that few stocks are at their 52 week
+highs makes these winners stand out." ([WW 2009-04-19](../../raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md))
 
 ## May 2009 (Guppy) — the first weekly Guppy chart; rely on the weekly
 
@@ -1269,6 +1331,19 @@ the market has nowhere to go but up.**" TSLA had a GLB the previous week. ([WW 2
 
 ---
 
+## July 2015 (limits) — 'one would have done well by buying when the GMI issued a Sell'
+
+**"Schizoid Mr. Market" (2015-07-12):** the February limitation restated in its harder form. The red arrows
+marking GMI Sell signals on his weekly QQQ chart "indicate that **during this bull market one would have done
+well by buying stocks when the GMI issued a Sell**" — not that the Sells were early, but that fading them would
+have paid. The defence is about tails, not hit rate ("over a long multi-year period **the GMI has kept me out of
+bear markets**"), and the cost is absorbed by the account structure: "**I don't mind exiting with a GMI Sell and
+going back in if the market rally resumes. This is a benefit of trading in a tax deferred IRA where I can go in
+and out without any tax consequences.**" The whipsaw is affordable because of *where* he trades — a qualification
+that does not transfer to a taxable account. Technicals: the QQQ back above its 30-week average, "the 4th time
+that the QQQ has found support at this average since 2014"; weekly RWB intact but price below all six red
+averages; a lower-Bollinger bounce discounted because "the lower BB [is] in a steep decline." ([WW 2015-07-12](../../raw/posts/2015-07-12-schizoid-mr-market.md))
+
 ## September 2015 — GMI 0; the ETF flash-crash lesson; leaders in a weak tape
 
 **"Market trend clearly down; my diminished trust in ETFs after the flash crash" (2015-09-08):** GMI 0 on a Sell since August 24, D-18, ~100% cash in trading accounts, most of the pension back in money market while new contributions keep dollar-cost-averaging in. The August 24 mini flash crash: PFF opened 38.52 (prior close 39.01), traded to 32.32 within ten minutes, closed 38.26 — priced by order flow, not NAV. "Imagine what would have happened if I had placed a market order to sell or had a standing sell stop order in place… I might have been sold out at a huge loss. This experience is enough to keep me away from most ETFs." ([WW 2015-09-08](../../raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md))
@@ -1480,6 +1555,22 @@ many of us think we have to buy something every day and get seduced by the actio
 **"Rising interest rates suggest market to form top" (2018-02-25):** after the January/February 2018 correction, Dr. Wish applies the RWB/BWR framework to **monthly** bond ETF charts as a long-term interest-rate regime indicator. **Martin Zweig principle:** after the Fed raises rates several times, the market eventually declines — a multi-cycle pattern Dr. Wish has observed since the 1960s. **Monthly RWB on bond ETFs**: SHY (short-term bond ETF) showed an RWB pattern "through about 2013" (low-rate era); by mid-2016, SHY entered a BWR decline on the monthly chart — "for the first time since at least 2003." Monthly BWR on bonds "suggests this trend could persist for months if not years." TC2000 offers a direct chart of short-term interest rates; as of February 2018, rates were in a steep RWB up-trend. New-high count warning: only 90 US stocks hit new highs on the Friday before the post, vs 200+ per day before January 29 — breadth deteriorating. Caveat: this is a monitoring framework, not a trading rule; he still defers to the GMI for actual buy/sell decisions. ([WW 2018-02-25](../../raw/posts/2018-02-25-rising-interest-rates-suggest-market-to-form-top.md))
 
 ---
+
+## February 2018 (thresholds) — put/call 1.2, stochastic .20, and the monthly top in three stages
+
+**"Bloody Monday open likely — In cash during this mini-decline" (2018-02-04):** unusually specific about
+numbers. The put/call rule: at 0.97, "**option players are not scared enough yet. When the ratio reaches 1.2 or
+higher we will be near a bounce.**" The stochastic rule: the QQQ daily 10.4 at 0.47, against "**the market
+indexes usually bounce around .20 or less**" — both used to argue against buying the decline yet. The monthly
+GMMA top template broken into ordered stages off SPY's 2000 and 2007 tops: "a major decline begins with the index
+**closing below all of the red line shorter averages. Then the red lines turn down and converge with the blue
+lines. This pattern takes several months to develop.** The RWB pattern then dissolves and the red lines move
+below the blue lines." Three checkpoints, not one; February 2018 had not cleared the first. The pension trigger
+with both its conditions: "**I tend to exit the market in my pension accounts when the index closes below its 30
+week average *and the average begins to turn down***." And the weekend mechanism — "bloody Fridays often lead to
+bloody Mondays when many people decide to exit after pondering their falling balances over the weekend. **These
+people will likely sell to the eager professionals at lower prices.**" 100% cash in the trading IRA, 100%
+invested in the pension, on the same evening. ([WW 2018-02-04](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))
 
 ## March 2018 — the green dot defined, and bounce-over-breakout stated
 
@@ -2315,3 +2406,9 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2006-03-30 — an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn](../../raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md) ([summary](../sources/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md))
 - [WW 2014-02-17 — further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md) ([summary](../sources/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md))
 - [WW 2017-04-16 — gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md) ([summary](../sources/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))
+- [WW 2006-02-27 — gmi-5-the-rally-people-love-to-hate](../../raw/posts/2006-02-27-gmi-5-the-rally-people-love-to-hate.md) ([summary](../sources/2006-02-27-gmi-5-the-rally-people-love-to-hate.md))
+- [WW 2006-05-30 — gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic](../../raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md) ([summary](../sources/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md))
+- [WW 2007-01-08 — gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md) ([summary](../sources/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md))
+- [WW 2009-04-19 — market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs](../../raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md) ([summary](../sources/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md))
+- [WW 2015-07-12 — schizoid-mr-market](../../raw/posts/2015-07-12-schizoid-mr-market.md) ([summary](../sources/2015-07-12-schizoid-mr-market.md))
+- [WW 2018-02-04 — bloody-monday-open-likely-in-cash-during-this-mini-decline](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md) ([summary](../sources/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))

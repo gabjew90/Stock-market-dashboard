@@ -74,6 +74,9 @@ sources:
   - raw/posts/2005-06-23-gmi-falls-to-3-getting-defensive-raising-stops.md
   - raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md
   - raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md
+  - raw/posts/2006-02-27-gmi-5-the-rally-people-love-to-hate.md
+  - raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md
+  - raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md
 ---
 
 # Risk & cash
@@ -256,6 +259,29 @@ climbs a 'wall of worry' so bring on the whiners. **I will become concerned when
 saying that the market has nowhere to go but up.**" ([WW 2014-02-17](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md)) This is the same instrument as the
 "people who never talk about stocks are buying" tell above, read from the professional side.
 
+**The put/call ratio has two poles, and a stated threshold.** The readings cited above are all *high* ones read
+as bounce warnings. The instrument runs the other way too. January 2007, at 0.41 — "close to the lowest reading
+reached in the past 12 months (.38 on March 16, 2006). **A low p/c ratio suggests relatively fewer people bearish
+enough to buy puts, a contrary indicator, often signaling impending market weakness.**" ([WW 2007-01-08](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md)) And the high
+side given a number rather than an impression, February 2018 at 0.97: "**option players are not scared enough
+yet. When the ratio reaches 1.2 or higher we will be near a bounce.**" ([WW 2018-02-04](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md)) Paired with it that day, the
+oversold threshold on the other instrument he watches: the QQQ daily 10.4 stochastic at 0.47, against "**the
+market indexes usually bounce around .20 or less**" — both used to argue *against* buying the decline yet.
+
+**When the contrarian model itself fails.** He has also recorded the instrument behaving backwards and declined
+to rescue it. February 2006, with four of five indexes in short-term up-trends near yearly highs, Investors
+Intelligence had *fallen* to 45.3% bullish from more than 60% when the rally began: "**Do the newsletter writers
+actually become less bullish as the market rises? I thought sentiment was typically a contrary indicator with
+people being most bullish at the top, after a rise.**" ([WW 2006-02-27](../../raw/posts/2006-02-27-gmi-5-the-rally-people-love-to-hate.md)) No explanation is offered; the technicals are
+backed instead — "I just hate to denigrate this market when there appears to be so much agreement that it must
+decline, **even in the face of the considerable technical evidence to the contrary**." The practical lesson is
+the one the section heading already states: sentiment qualifies a move, it does not generate one.
+
+**The weekend mechanism (2018).** Why a bad Friday tends to produce a worse Monday: "bloody Fridays often lead
+to bloody Mondays when many people decide to exit **after pondering their falling balances over the weekend**.
+These people will likely sell to the eager professionals at lower prices." ([WW 2018-02-04](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md)) It is an argument for not
+being the person who panics on a Sunday, not a tradeable rule.
+
 ## Relative strength during declines as a leadership screen
 
 A recurring 2007 theme, and the constructive use of a down-trend: "While this is not the time for me to buy stocks, I find that **declines offer the best opportunity to find the next winners**. The few stocks that can resist the market decline tend to become stars." In August 2007, with 80% of the 440 IBD100 stocks he monitored down since July 19, he listed the ten biggest gainers (ISRG +33%, HMSY +32%, MORN +26%, ANSS +24%, BLUD +22%...) as the pool to focus on "when the market turns." ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
@@ -431,3 +457,6 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2005-06-23 — Raising stops before going to cash; 'I am a chicken'](../../raw/posts/2005-06-23-gmi-falls-to-3-getting-defensive-raising-stops.md) ([summary](../sources/2005-06-23-gmi-falls-to-3-getting-defensive-raising-stops.md))
 - [WW 2005-10-08 — The folly of fighting the trend — and the small-position safety valve](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md) ([summary](../sources/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md))
 - [WW 2014-02-17 — ETFs to lower stress; I-bonds; weekly calls on GLD](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md) ([summary](../sources/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md))
+- [WW 2006-02-27 — The rally people love to hate — when sentiment stops being contrary](../../raw/posts/2006-02-27-gmi-5-the-rally-people-love-to-hate.md) ([summary](../sources/2006-02-27-gmi-5-the-rally-people-love-to-hate.md))
+- [WW 2007-01-08 — A low put/call as a topping tell; scaling into inverse ETFs](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md) ([summary](../sources/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md))
+- [WW 2018-02-04 — Put/call 1.2 and stochastic .20; the monthly top signature in three stages](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md) ([summary](../sources/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))

@@ -37,6 +37,7 @@ sources:
   - raw/posts/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md
   - raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md
   - raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md
+  - raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md
 ---
 
 # GMMA charts — RWB / BWR, the daily RWB system, and the timeframe ladder
@@ -218,6 +219,20 @@ The timeframe ladder is therefore complete: daily Guppy (RWB/RLC exits) → week
 (pension/stage) → monthly Guppy + 5/30-month + monthly stochastic (regime tops and cycle
 bottoms).
 
+**The top template broken into ordered stages (2018).** The 2014 statement gives the endpoint; this one gives
+the sequence, read off SPY's 2000 and 2007 tops: "a major decline begins with the index… **closing below all of
+the red line shorter averages. Then the red lines turn down and converge with the blue lines. This pattern takes
+several months to develop.** The RWB pattern… then dissolves and the red lines move below the blue lines
+(forming the opposite BWR pattern)." ([WW 2018-02-04](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md)) So there are three checkpoints, not one — (1) price loses all
+six red averages, (2) the red averages roll over and converge with the blue, (3) red crosses below blue. Stage 1
+alone is common and means little; it is stages 2 and 3 that take months, which is the mechanical form of the
+exit-latency argument above. Applied to February 2018 the template said *not close*: "the RWB pattern is intact
+and the index remains above all of the rising red lines."
+
+Note the same day's *weekly* reading, which is the layer the pension answers to: SPY in a Weinstein Stage II
+up-trend above its rising 30-week average, with the trading account nevertheless 100% cash — the two speeds
+pointing opposite ways on the same evening.
+
 ## The all-12-GMMA exit line
 
 The weekly Guppy chart can be read as a single total-exit trigger: "If QQQ (dotted line) declines
@@ -275,3 +290,4 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2016-12-26 — 12th day of $QQQ short term up-trend; $QQQ and $CDW have an RWBCount= 12](../../raw/posts/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md) ([summary](../sources/2016-12-26-12th-day-of-qqq-short-term-up-trend-qqq-and-cdw-have-an-rwbcount-12.md))
 - [WW 2016-01-03 — Never hold a long position in a BWR down-trend; the market read index by index](../../raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md) ([summary](../sources/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md))
 - [WW 2017-04-16 — 0/0 to 6/6 as the re-entry rule; the dwindling new-high list as an advantage](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md) ([summary](../sources/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))
+- [WW 2018-02-04 — Put/call 1.2 and stochastic .20; the monthly top signature in three stages](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md) ([summary](../sources/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))

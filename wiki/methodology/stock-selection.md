@@ -61,6 +61,8 @@ sources:
   - raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md
   - raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md
   - raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md
+  - raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md
+  - raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md
 ---
 
 # Stock selection
@@ -99,6 +101,13 @@ quickly filled — and failed" — and notes he scans the whole market for gaps 
 ([WW 2005-05-04](../../raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md))
 
 Restated in 2018 as a forward-looking filter, not just a screen: three recent GLB stocks "have doubled over the past year, another important sign I look for. **Stocks that have doubled often go on to double again.**" ([WW 2018-06-03](../../raw/posts/2018-06-03-3-recent-glb-stocks-enva-gdot-tsg.md))
+
+**The multi-year base as the strongest version of the pattern (2009).** QSII, "a 40 bagger from 1999-2006, then
+formed a three year base," broke from that base to a new high on increased volume: "**When a stock breaks from a
+multi-year base to an all-time high, I become interested.**" The rationale is Darvas's, and it is about
+*supply*: he "liked to buy stocks that were at their highest levels ever. These were rockets in which **everyone
+who owned them had a profit**" — no trapped holders waiting to sell at break-even into the advance. ([WW 2009-04-19](../../raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md))
+Fundamental confirmation came from the same two places as usual: the IBD New America column and the IBD 100.
 
 ## The blend: technical + fundamental
 
@@ -301,6 +310,32 @@ The buy trigger itself is the [Green Line Breakout (GLB)](green-line-breakouts.m
 
 AAPL (2012) as the illustration: a stock hitting new all-time highs must do so many times on its ascent. "If you refuse to buy or hold a stock at an all-time high, you will never ride a wonderful stock like AAPL." To find the next AAPL: start from the list of stocks hitting 52-week highs, weed out those not near ATH, then research the remaining stocks' fundamentals and technicals. ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md))
 
+## The IBD 100 comparison — where it started, and what it first found
+
+The audits scattered through this page all descend from one decision, dated 30 May 2006: "**I expanded the
+comparison of my indicators to include the IBD 100 stocks. I think it will provide valuable insights into the
+market to see how the highly rated IBD100 stocks' performance compares with my universe of 4,000 stocks.**"
+([WW 2006-05-30](../../raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md)) Note the framing — it began as a *market* diagnostic, a second breadth sample to read against the
+first, not as a scorecard for IBD.
+
+The first result is the one that reconciles the harsher findings elsewhere on this page. Short-term, the two
+groups were indistinguishable: similar percentages above their 10-day and 30-day averages, 8–11% in a short-term
+up-trend. The long-term measures were not close:
+
+| Measure (2006-05-26) | His 4,000-stock universe | IBD 100 |
+|---|---|---|
+| Above the 10-week average | 31% | 51% |
+| Above the 30-week average | 52% | 90% |
+| Bounced above the 10-week that week | 13% | 29% |
+
+His reading: "these differences are important and signify that the **IBD 100 type of growth stocks are more
+likely to remain in longer term up trends**, and almost one third found support last week at their 10 week
+averages." Set that beside the [2006 mid-decline audit](#two-caveats-on-the-ibd-list-from-his-own-2007-audit)
+(86% of a list dead three weeks after publication) and the January 2007 one (19–26% rising against 32% of the
+Nasdaq-100) and the picture is coherent rather than contradictory: **growth-list stocks hold long-term trends
+better than the market and underperform it inside declines.** Which is the same two-speed fact the rest of the
+system is built around, observed in a stock list instead of an index.
+
 ## IBD50 as a big-winner filter — quantitative comparison (2011)
 
 A systematic study in April 2011 compared the IBD50 (published January 10, 2011) to the Nasdaq100 and S&P500 from January through late March 2011 — a period when tech stocks slightly underperformed the S&P500 (QQQ +2.5%, SPY +4.9%):
@@ -408,3 +443,5 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2006-06-08 — Shame on IBD and Cramer; puts in an IRA; the IBD 100 audited mid-decline](../../raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md) ([summary](../sources/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md))
 - [WW 2014-02-17 — ETFs to lower stress; I-bonds; weekly calls on GLD](../../raw/posts/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md) ([summary](../sources/2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out.md))
 - [WW 2017-04-16 — 0/0 to 6/6 as the re-entry rule; the dwindling new-high list as an advantage](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md) ([summary](../sources/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))
+- [WW 2006-05-30 — The IBD 100 comparison introduced — growth stocks hold longer-term trends](../../raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md) ([summary](../sources/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md))
+- [WW 2009-04-19 — 'The market needs to rest' is nonsense; QSII breaks a three-year base](../../raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md) ([summary](../sources/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md))
