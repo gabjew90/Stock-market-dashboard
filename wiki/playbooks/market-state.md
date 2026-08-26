@@ -1,7 +1,7 @@
 ---
 title: Playbook — market state → stance
 type: playbook
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
@@ -29,6 +29,7 @@ sources:
   - raw/posts/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md
   - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
   - raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md
+  - raw/posts/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md
 ---
 
 # Playbook — market state → stance
@@ -130,6 +131,15 @@ New lows surging while the index is at a high is an exit signal *before* the GMI
 - The market gate comes first because more than 70% of stocks move with the major indexes. ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
 - Everything above is the *trading* stance. The pension follows the weekly trend (Step 0 and Step 5). The [backtest](../methodology/backtest-timing-overlay.md) measures the trading rule as if it were the pension rule — read its verdict with that in mind.
 
+**When the fast and slow indicators disagree, the slow ones govern — and the disagreement is not itself a
+signal.** December 2007, with an itemised ledger on both sides (MACD crossing up, T2108 off its low, GMI-R 4+ and
+GMI-S 63% against a GMI of 1+, the QQQQ under its 10-week and rejected at its 30-day): "**it looks like the most
+sensitive indicators are starting to turn up, but the relatively longer term trend indicators are still
+declining. Statistically, this is how turnarounds must unfold. The prudent thing to do is to wait a little longer
+to see whether the longer term indicators follow suit and start to rise.**" ([WW 2007-12-03](../../raw/posts/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md)) Fast-before-slow is
+necessary but not sufficient: every genuine bottom looks like this, and so does every failed bounce, so the
+pattern alone carries no information. Full ledger on the [source page](../sources/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md).
+
 ## See also
 
 - [Risk & cash](../methodology/risk-and-cash.md) · [GMI](../methodology/gmi.md) · [T2108](../methodology/t2108.md) · [QQQ short-term timing](../methodology/qqq-short-term-timing.md) · [The two accounts](../methodology/pension-management.md)
@@ -163,3 +173,4 @@ New lows surging while the index is at a high is an exit signal *before* the GMI
 - [WW 2022-09-15 — How to discern a bottom: the 10-week crossing above the 30-week](../../raw/posts/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md) ([summary](../sources/2022-09-15-blog-post-day-13-of-qqq-short-term-down-trend-weekly-chart-of-dia-suggests-re-test-of-last-junes-lows-how-to.md))
 - [WW 2023-06-19 — How I compute new US highs and lows; 11/2021 exit](../../raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md) ([summary](../sources/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md))
 - [WW 2016-09-11 — September swoon? Weak Fridays often lead to Ugly Mondays—Indicators I watch for a bottom](../../raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md) ([summary](../sources/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md))
+- [WW 2007-12-03 — A two-sided evidence ledger, and how turnarounds must unfold](../../raw/posts/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md) ([summary](../sources/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md))

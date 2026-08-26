@@ -39,6 +39,7 @@ sources:
   - raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md
   - raw/posts/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md
   - raw/posts/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md
+  - raw/posts/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -79,6 +80,14 @@ keep it from being bravado. The reversal is paid for with a **realised loss**, t
 held for a recovery. And it is not a flip to the opposite conviction — the new longs went on with stops attached,
 and "**just in case, I have kept my put options on some of the weakest stocks**." Changing your mind is allowed to
 be partial; what is not allowed is defending the old position with the tape against it.
+
+**And the flattest statement of it (September 2005),** written while reversing from bearish to bullish: "**I am
+not embarrassed to change from bearish to cautiously bullish. Each day provides new data, and when the indicators
+change, I must turn on a dime — no pride is involved. The idea is to make \$\$, not to be right. A big ego is
+lethal in this business — in all business.**" ([WW 2005-09-01](../../raw/posts/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md)) Note the separation he keeps in the same post: the
+*view* reverses immediately, the *position* does not — he sold his puts, then "will only begin to wade in and
+**will wait for the GMI to give a definite buy signal**." Changing your mind is free; changing your exposure
+still has to clear the rules.
 
 ## 3. Fear will make you break your own rule — he did, and said so
 
@@ -219,3 +228,4 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2005-10-08 — The folly of fighting the trend — and the small-position safety valve](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md) ([summary](../sources/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md))
 - [WW 2005-07-05 — Turning on a dime — a losing hedge closed and the book reversed the same day](../../raw/posts/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md) ([summary](../sources/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md))
 - [WW 2015-10-25 — A GMI of 6 refused, and named as psychology](../../raw/posts/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md) ([summary](../sources/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md))
+- [WW 2005-09-01 — The chart as a check on the news story; 'the idea is to make money, not to be right'](../../raw/posts/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md) ([summary](../sources/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md))

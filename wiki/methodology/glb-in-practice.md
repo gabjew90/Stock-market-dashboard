@@ -28,6 +28,7 @@ sources:
   - raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md
   - raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md
   - raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md
+  - raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md
 ---
 
 # The GLB in practice — worked cases, failures, and what he learned from each
@@ -200,6 +201,20 @@ The GLB is load-bearing as an **identification** tool — it is how a rocket sto
 
 This is continuous with the 2016 [BOS](stock-selection.md) preference ("I actually like this strategy better than trading GLBs") and with the post-GLB pullback scans, rather than a reversal. In current practice the two work as a pair: the GLB names the stock, the OSB times the buy — see the VRT sequence ([WW 2023-09-13](../../raw/posts/2023-09-13-blog-post-day-10-of-qqq-short-term-up-trend-42-us-new-highs-and-63-lows-vrt-has-osb-oversold-bounce-and-a-rec.md)) and SHAK retaking its green line after a blue-dot OSB ([WW 2025-07-09](../../raw/posts/2025-07-09-blog-post-day-51-of-qqq-short-term-up-trend-recent-glb-shak-has-retaken-green-line-after-a-recent-blue-dot-os.md)).
 
+**The hit rate moves with the regime, and he says so while showing a winner (2016).** With only 49 new 52-week
+highs and more new lows than highs: "**this suggests that buying stocks at new highs and GLBs has not worked out
+most of the time.**" TFX was the exception — a huge-volume GLB near \$140 that "has not looked back" — and he
+uses it as a template rather than as reassurance: "**this is exactly the type of price action we want to see when
+we buy a GLB. But few GLBs have turned out this well recently. It is very important to sell a GLB stock quickly
+if it does not behave like TFX.**" ([WW 2016-03-27](../../raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md)) The setup does not degrade; its base rate does, and the exit
+discipline is what absorbs the difference — which is the same argument as
+[rule 10 of trading psychology](trading-psychology.md#10-the-seductive-stock-in-a-bad-market--and-the-safety-valve),
+applied to his own primary setup rather than to a tempting one.
+
+**The alert as a classroom instrument.** "TC2000 sent me **and my students** a GLB alert at the open on 3/22, at
+91.46. ESLT closed that day at 97.50." The same workflow described on this page runs for a cohort, which is why
+its rules are written down at all.
+
 ## The GLB in recent practice (2019–2026)
 
 The core rules have remained stable. These posts from 2019 onward confirm the rules as still in force and add nuance:
@@ -256,3 +271,4 @@ The core rules have remained stable. These posts from 2019 onward confirm the ru
 - [WW 2016-03-20 — Buying before the green line — with a different stop](../../raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md) ([summary](../sources/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md))
 - [WW 2015-12-06 — Bouncing off the green line — the retest entry, risk quantified](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md) ([summary](../sources/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))
 - [WW 2016-09-18 — The GLB Tracker's curation admitted; the daily chart as a whipsaw machine](../../raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md) ([summary](../sources/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md))
+- [WW 2016-03-27 — When GLBs stop working - regime, not technique](../../raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md) ([summary](../sources/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md))

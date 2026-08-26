@@ -40,6 +40,7 @@ sources:
   - raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md
   - raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md
   - raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md
+  - raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md
 ---
 
 # GMMA charts — RWB / BWR, the daily RWB system, and the timeframe ladder
@@ -167,6 +168,18 @@ as "a **short term pause within a longer term up-trend**," not as a top; the ope
 "**it is so much more safe and profitable to trade on the long side when the daily and weekly charts
 both form RWB patterns.**" The pension is governed by the slower chart alone — see
 [pension management](pension-management.md).
+
+**Two thresholds on one chart, not one (2018).** At the index level the red lines and the blue lines carry
+different weight: with the QQQ closing below all six red averages, "**as long as it closes above the blue line
+averages I am not too concerned. However, the QQQ needs to close back above all of the red lines to resume the
+up-trend**, as it did in October and December. The RWB pattern also needs to endure with all of the red lines
+above the blue lines with a white space between them." ([WW 2018-01-01](../../raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md)) Losing the red lines is a **pause**; losing
+the blue lines is a **trend problem**. That is why the [RLC](#daily-rwb-12126-6-notation-explained) is a caution
+counter rather than an exit trigger when applied to an index — and it is the daily-chart analogue of the
+[monthly top's ordered stages](#the-monthly-layer--tops-and-cycles).
+
+At the *stock* level the same post gives the exit plainly: "**I don't wait around holding declining stocks. Buy
+and hope is not my style. Once a stock closes 2 days below its red lines I like to exit.**"
 
 ## Guppy weekly chart as a bear-market bottom detector
 
@@ -316,3 +329,4 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2018-02-04 — Put/call 1.2 and stochastic .20; the monthly top signature in three stages](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md) ([summary](../sources/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))
 - [WW 2016-05-01 — GMMA on the dollar and gold; the down-sloping neckline](../../raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md) ([summary](../sources/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md))
 - [WW 2015-12-06 — Bouncing off the green line — the retest entry, risk quantified](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md) ([summary](../sources/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))
+- [WW 2018-01-01 — The red lines and the blue lines read as two different warnings](../../raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md) ([summary](../sources/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md))

@@ -59,6 +59,9 @@ sources:
   - raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md
   - raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md
   - raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md
+  - raw/posts/2006-03-06-gmi-6-short-housing.md
+  - raw/posts/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md
+  - raw/posts/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md
 ---
 
 # Moving-average rules
@@ -118,6 +121,17 @@ usually the BEGINNING of a major decline.**" ([WW 2021-12-05](../../raw/posts/20
 and the claim attached to them is about position in the cycle: crossing marks a start, not a middle, which is
 what makes acting on it late still worthwhile. See the [pension trigger](pension-management.md#the-two-triggers-side-by-side)
 and the [cost of lateness](risk-and-cash.md#no-need-to-anticipate-the-reversal).
+
+**Stage 4 stated with both its conditions (2015).** "An up-trending market should have the pattern of the 10 week
+average rising above the 30 week average. **When the 10 week average falls below the 30 week average *and* the 30
+week average turns down, that index is in a Stage 4 down-trend. Once a Stage 4 decline begins, one never knows
+how long it will last. I therefore exit the market and sometimes buy the relevant inverse index ETF.**"
+([WW 2015-09-20](../../raw/posts/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md)) The precedent he is matching against: "these charts are exhibiting patterns similar to those that
+occurred at the *beginning* of the major declines in **2000 and 2007**."
+
+**The same test applied to bonds (2006).** The stage framework is not equity-specific — on the 20+ year Treasury
+index: "an **ominous curving down of the 30 week average**… the **ten week average is below the 30 week for the
+first time since September, 2004**." ([WW 2006-03-06](../../raw/posts/2006-03-06-gmi-6-short-housing.md))
 
 ## The 10-day average — the yellow light
 
@@ -320,6 +334,12 @@ This is the earliest of his three self-published limitations, and the most gener
 measures, while this one concerns the conditions under which any trend-following measurement carries
 information at all.
 
+**Applied to a decision not to trade (2009).** The epiphany's practical form, three years later, declining a
+short position rather than a long one: "I have considered buying some QID, but **with my short term moving
+averages being flat, I will probably get repeatedly whipsawed as the indexes move above and below their
+averages. However, at some point a real tradable trend will develop.**" ([WW 2009-02-02](../../raw/posts/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md)) Flat averages are a reason
+to take no position **on either side** — the diagnosis is about the regime, not about direction.
+
 ## See also
 
 - [GMMA charts](gmma-charts.md) — RWB / BWR, the daily RWB system, the timeframe ladder
@@ -387,3 +407,6 @@ information at all.
 - [WW 2005-07-28 — another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md) ([summary](../sources/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
 - [WW 2006-03-30 — The epiphany: moving averages are useless in a trendless market](../../raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md) ([summary](../sources/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md))
 - [WW 2021-12-05 — The pension trigger named in advance - the last GMI component](../../raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md) ([summary](../sources/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md))
+- [WW 2006-03-06 — The housing top called; long bonds turning in 2006](../../raw/posts/2006-03-06-gmi-6-short-housing.md) ([summary](../sources/2006-03-06-gmi-6-short-housing.md))
+- [WW 2015-09-20 — Stage 4 defined, and missed upside priced as insurance](../../raw/posts/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md) ([summary](../sources/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md))
+- [WW 2009-02-02 — Why component 1 can stay negative for months](../../raw/posts/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md) ([summary](../sources/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md))

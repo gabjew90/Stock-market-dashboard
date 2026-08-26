@@ -39,6 +39,7 @@ sources:
   - raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md
   - raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md
   - raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md
+  - raw/posts/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -149,6 +150,12 @@ The clearest description of the full GLB detection workflow, using TSLA's April 
 ## The new-high + EPS ≥ 50% scan (2010)
 
 The 2010 form of the leader search: stocks that hit a new 52-week high on the day, are near their all-time high, and posted a most-recent-quarter EPS increase of at least +50%; the review table adds the prior quarter's EPS change, annual EPS, P/E, price ÷ price a year ago, last-quarter revenue change and P/S. On 2010-06-18 it produced 11 names, all with rising revenue and 64% already flagged from his IBD100/New America lists; "the next step is to research each stock's fundamentals and business concept before considering a purchase." ([WW 2010-06-21](../../raw/posts/2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10.md))
+
+**An earlier and stricter version (December 2007).** Run to identify candidates *if* a suspected turn held:
+rocket stocks with "strong technical patterns plus **recent quarterly earnings increases of at least 100% and
+revenue growth of 20+%**." Eleven names, of which six had appeared on an IBD 100 list during the previous year.
+([WW 2007-12-03](../../raw/posts/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md)) Note the double fundamental gate — earnings *and* revenue — which the 2010 version relaxes to EPS
+alone, and the framing: the list is built before the signal, to be acted on only if the trend confirms.
 
 ## The stochastic bounce scan (2016) — the green dot's ancestor
 
@@ -330,3 +337,4 @@ It is also the one scan he declines to share: "**Please do not ask me to post my
 - [WW 2016-03-20 — Buying before the green line — with a different stop](../../raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md) ([summary](../sources/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md))
 - [WW 2015-12-06 — Bouncing off the green line — the retest entry, risk quantified](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md) ([summary](../sources/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))
 - [WW 2022-02-27 — Why an all-time high after a decline means accumulation](../../raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md) ([summary](../sources/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md))
+- [WW 2007-12-03 — A two-sided evidence ledger, and how turnarounds must unfold](../../raw/posts/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md) ([summary](../sources/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md))

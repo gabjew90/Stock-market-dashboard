@@ -23,6 +23,9 @@ sources:
   - raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md
   - raw/posts/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md
   - raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md
+  - raw/posts/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md
+  - raw/posts/2006-02-13-gmi-4-gmi-s-25-small-caps-weaken-on-side-lines.md
+  - raw/posts/2006-03-06-gmi-6-short-housing.md
 ---
 
 # The GMI family — GMI-S, GMI-L, GMI-R, GMI2 and the rest of the daily table
@@ -93,6 +96,14 @@ note *"Revised index requires additional indicators 7-10, with '*'"* ([WW 2007-1
 Note what these are: three plain moving-average tests on QQQQ at three horizons, plus a
 breadth check. The GMI-R = slow structural GMI + a fast QQQQ trend ladder, which is exactly
 why it flips first.
+
+**Its design purpose, stated (2007).** The wiki notes that no decision rules were tied to the GMI-R. It had a job
+regardless: "**the GMI-R is stronger than the GMI because it has a number of shorter term indicators that can
+detect a change in trend earlier**." ([WW 2007-12-03](../../raw/posts/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md)) It is the fast counterpart to the GMI, which is why the two can
+diverge sharply at turns — GMI-R at 4+ while the GMI read 1+ in December 2007 — and why a divergence between them
+is itself the reading rather than a contradiction to be resolved. The same relationship the
+[GMI-2 has today](#2011--2026--gmi2-a-growing-companion-index-not-a-fixed-6), including its capacity to improve
+while the market deteriorates.
 
 ## The dashboard in live use — April 2008
 
@@ -184,6 +195,22 @@ rather than only the extreme.
 
 **Oversold breadth.** Alongside the MACD row he has quoted the share of Nasdaq-100 stocks with a daily 10.4 stochastic below 20: 53% in August 2022 against **85% at the June 16, 2022 bottom**, with only one day above 10% in the two months between — a scale for how oversold "oversold" is. ([WW 2022-08-25](../../raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md))
 
+**And one more, introduced on 13 February 2006 — the "strong rise" statistic.** He defines it as he adds it:
+"**Stocks that are in a strong advance tend to close above their 10 day moving average for some time. This new
+indicator shows the percentage of stocks that have closed above their 10 day average for the past four days.**
+19% of the stocks in my universe did so on Friday. **We will watch to see whether this turns out to be a
+sensitive indicator of the strength of the market.**" ([WW 2006-02-13](../../raw/posts/2006-02-13-gmi-4-gmi-s-25-small-caps-weaken-on-side-lines.md)) Four consecutive closes above the 10-day
+average, expressed as a share of the universe — the row that later appears as "% in a strong rise" (30% on
+2006-03-06 ([WW 2006-03-06](../../raw/posts/2006-03-06-gmi-6-short-housing.md))). Note the provisional framing: a new statistic is put on trial in public rather than
+asserted, the same way the [doubler indicator](#the-2005-breadth-rows) was introduced in September 2005.
+
+**The WPM catching a divergence it was built for (2006).** The same post: the mid and small caps (MDY, IJR)
+weakening on both the 30-day and 30-week measures "even as the DIA, QQQQ and SPY remained stable or
+strengthened… **this weakening in the strength of the mid and small cap stocks is a startling departure from the
+recent past and warrants further attention**." ([WW 2006-02-13](../../raw/posts/2006-02-13-gmi-4-gmi-s-25-small-caps-weaken-on-side-lines.md)) Five indexes side by side is what makes a leading
+divergence visible at all — the same instrument that isolated the QQQQ as the laggard in February 2006 and the
+small caps in November 2005.
+
 ## See also
 
 - [General Market Index (GMI)](gmi.md) — the core index; the page this was split from
@@ -213,3 +240,6 @@ rather than only the extreme.
 - [WW 2013-08-25 — QQQ remains in Stage 2 up-trend; GMI2=8 (of 8)](../../raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md) ([summary](../sources/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md))
 - [WW 2006-06-05 — GMI: +2; Indicators still improving; New leaders?](../../raw/posts/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md) ([summary](../sources/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md))
 - [WW 2021-12-05 — The pension trigger named in advance - the last GMI component](../../raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md) ([summary](../sources/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md))
+- [WW 2007-12-03 — A two-sided evidence ledger, and how turnarounds must unfold](../../raw/posts/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md) ([summary](../sources/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md))
+- [WW 2006-02-13 — A new breadth statistic introduced; small caps break ranks first](../../raw/posts/2006-02-13-gmi-4-gmi-s-25-small-caps-weaken-on-side-lines.md) ([summary](../sources/2006-02-13-gmi-4-gmi-s-25-small-caps-weaken-on-side-lines.md))
+- [WW 2006-03-06 — The housing top called; long bonds turning in 2006](../../raw/posts/2006-03-06-gmi-6-short-housing.md) ([summary](../sources/2006-03-06-gmi-6-short-housing.md))

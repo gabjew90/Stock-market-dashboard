@@ -69,6 +69,11 @@ sources:
   - raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md
   - raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md
   - raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md
+  - raw/posts/2007-07-08-gmi-6-rally-has-more-to-go-ibd100-stock-performance.md
+  - raw/posts/2005-07-07-a-surprising-show-of-strength-gmi-3-sectors-with-many-new-highs.md
+  - raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md
+  - raw/posts/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md
+  - raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md
 ---
 
 # Stock selection
@@ -341,6 +346,25 @@ The decline does the screening for you: it creates trapped sellers in every dama
 down-trend: "**in a market down-trend, it is critical to use small positions and tight sell stops on any
 purchase, or even better to stay on the sidelines in cash.**"
 
+## Reading sectors off the new-high list
+
+A use of the daily new-high list distinct from finding individual names: group it by industry and read the
+concentration. The earliest instance is July 2005, when he sorted 173 new highs into apparel (7), independent oil
+and gas (13), oil and gas equipment services (11) and investment brokerage (5), and concluded: "**it would seem
+to me that the sectors that have a lot of new highs on a day like this are sending signals of future
+strength.**" ([WW 2005-07-07](../../raw/posts/2005-07-07-a-surprising-show-of-strength-gmi-3-sectors-with-many-new-highs.md))
+
+The same reading, done by monthly performance rather than daily counts, in January 2018 — copper (+19.4%),
+aluminium (+18.4%), coal (+11.2%), industrial metals and minerals (+9.8%), steel (+8.6%), against semiconductors
+at +0.12% and internet content at +2.9% — with the reason for running it stated: "**we growth stock investors are
+so focused on the innovative tech stocks that we often overlook the strongest non-tech stocks.**" ([WW 2018-01-01](../../raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md))
+It is a deliberate correction for his own selection bias, and it is what put BTU (a coal stock with a November
+GLB and a clean daily RWB) on the page.
+
+Two later refinements do the same job with a scan rather than by eye: the
+[industry-index variant](scans.md#the-rwb-bouncing-off-support-scan-2015--yield-and-an-industry-index-variant)
+of the RWB-bounce scan (2015) and the relative-strength scan run across industry indexes (2022).
+
 ## O'Neil 1995 workshop: volume over EPS
 
 From Dr. Wish's personal trading diary (November 11, 1995, copyright Dr. Eric Wish):
@@ -390,6 +414,20 @@ reconstituted index cannot measure how its own selections performed — a month 
 [August 2006 statement](#ibd50-as-a-big-winner-filter--quantitative-comparison-2011) of the same complaint about
 the published IBD 100 Index.
 
+**List age is a decay variable — the July 2007 measurement.** The most quantitative of the audits, and the only
+one with a rule attached. Tabulating every original list by publication date: "only about **50-60% of the stocks
+in the lists from 2006** closed on Friday above their price when the lists were first published." Then, on
+proximity to highs: "**62%** of the stocks on the list published on **May 14** and **71%** on the list from **June
+18** closed within 5% of their 52 week highs. In contrast, **only about one third or less** of the stocks on the
+lists from **February 5 and before** are near their yearly highs." And on new highs that week: a quarter to a
+third of the April–June names, "compared with only **10-14% of the Nasdaq 100 or S&P 500 stocks**." ([WW 2007-07-08](../../raw/posts/2007-07-08-gmi-6-rally-has-more-to-go-ibd100-stock-performance.md))
+
+So a *fresh* list beats the indexes substantially and a stale one does not, which yields the rule: "**one should
+not marry the IBD 100 stocks, but stay mainly with those on the more recent lists published by IBD.**" This is
+the constructive counterpart to the [survivorship objection](#the-ibd-100-comparison--where-it-started-and-what-it-first-found) —
+the published index is unusable, but the individual dated lists are informative precisely *because* they decay
+measurably.
+
 ## IBD50 as a big-winner filter — quantitative comparison (2011)
 
 A systematic study in April 2011 compared the IBD50 (published January 10, 2011) to the Nasdaq100 and S&P500 from January through late March 2011 — a period when tech stocks slightly underperformed the S&P500 (QQQ +2.5%, SPY +4.9%):
@@ -435,6 +473,22 @@ them.**" ([WW 2017-07-04](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral
 stop unreliable, so the position size carries the risk control instead. PIRS is the example, and it bends the
 [price-level preference](#price-level-preference--80-2011--100-2018--200-2021) too: "**I don't like cheap stocks,
 but someone is buying PIRS.**"
+
+**Two calendar effects he trades rather than merely notes (2016).** Quarter-end: "we will be in the middle of the
+period when **mutual funds dress up their end of quarter portfolio reports** for their shareholders. **I am
+therefore expecting strength in the recent winners** for this last week of the first quarter. Then we may get a
+decline until earnings come out later in mid-April." And the presidential cycle, with a mechanism rather than a
+statistic: "the market typically performs poorly during the **first term of a new president**… **all new
+presidents tend to tighten the budget early in their term so that they can relax things and spend more to ignite
+the economy just in time for their re-election campaign**." ([WW 2016-03-27](../../raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md)) Neither generates a position on its own;
+both shape what he expects the tape to do around a date. See [window dressing](glossary.md) for the caveat he
+attaches to the first — John Bogle told him personally that it does not happen.
+
+**The earnings-cycle pattern (2005).** The same shape at a shorter interval: "a lot of stocks are rising on
+earnings expectations and falling on the release. **It is not unusual to get an earnings rally in the general
+market and then to get a post-release decline**" — followed immediately by the subordination that keeps it from
+becoming a trade: "I would not be surprised to see a weak August through October period, **but will let the GMI
+guide me**." ([WW 2005-07-19](../../raw/posts/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md))
 
 ## See also
 
@@ -513,3 +567,8 @@ but someone is buying PIRS.**"
 - [WW 2006-01-09 — The same breadth reading means different things at different points in a trend](../../raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md) ([summary](../sources/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md))
 - [WW 2017-07-04 — The GMI's QQQ bias demonstrated live; biotech position sizing](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md) ([summary](../sources/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md))
 - [WW 2022-02-27 — Why an all-time high after a decline means accumulation](../../raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md) ([summary](../sources/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md))
+- [WW 2007-07-08 — IBD 100 lists decay with age - the quantitative finding](../../raw/posts/2007-07-08-gmi-6-rally-has-more-to-go-ibd100-stock-performance.md) ([summary](../sources/2007-07-08-gmi-6-rally-has-more-to-go-ibd100-stock-performance.md))
+- [WW 2005-07-07 — A market that will not fall on terrible news; sectors read off the new-high list](../../raw/posts/2005-07-07-a-surprising-show-of-strength-gmi-3-sectors-with-many-new-highs.md) ([summary](../sources/2005-07-07-a-surprising-show-of-strength-gmi-3-sectors-with-many-new-highs.md))
+- [WW 2018-01-01 — The red lines and the blue lines read as two different warnings](../../raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md) ([summary](../sources/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md))
+- [WW 2005-07-19 — The earnings rally, and why he uses sell stops](../../raw/posts/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md) ([summary](../sources/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md))
+- [WW 2016-03-27 — When GLBs stop working - regime, not technique](../../raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md) ([summary](../sources/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md))

@@ -87,6 +87,14 @@ sources:
   - raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md
   - raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md
   - raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md
+  - raw/posts/2005-07-07-a-surprising-show-of-strength-gmi-3-sectors-with-many-new-highs.md
+  - raw/posts/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md
+  - raw/posts/2006-03-06-gmi-6-short-housing.md
+  - raw/posts/2006-05-25-gmi-0-ibd-100-stocks-shine-waiting-for-confirmation-of-up-trend.md
+  - raw/posts/2007-07-08-gmi-6-rally-has-more-to-go-ibd100-stock-performance.md
+  - raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md
+  - raw/posts/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md
+  - raw/posts/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md
 ---
 
 # Risk & cash
@@ -102,6 +110,44 @@ The mechanistic backing: more than **70% of all stocks move in the same directio
 The rule's first appearances: the April 15, 2005 letter to Cramer — "Mutual funds must stay invested, individuals do not. About 70% of stocks go with the market indexes. When the indexes are declining… it is your duty to tell people not to fight the trend. Get out of the way, safely in cash, or go short" ([WW 2005-05-03](../../raw/posts/2005-05-03-cnbc-forever-bullish.md)); measured on the May–June 2005 up-trend, 75% of Nasdaq-100 stocks rose ([WW 2005-06-14](../../raw/posts/2005-06-14-gmi-at-the-max-6-buying-gaps-gm-hans.md)); tied to O'Neil's "M" and to his own history — "I would lose all of my hard earned trading profits and more, when I kept buying break-out stocks in the inevitable decline that followed a bull move" ([WW 2005-07-02](../../raw/posts/2005-07-02-the-trend-is-our-friend-gmi-3-interest-rates-rising-a-short-list-of-stocks.md)); and stated for the short side — "why play only one side of the game." ([WW 2005-04-18](../../raw/posts/2005-04-18-put-me-on-ira.md))
 
 The correlation figure is given as **70–80%** in July 2009 — "70-80% of stocks follow the general market's trend — end of story" — against the 70% he uses elsewhere. ([WW 2009-07-20](../../raw/posts/2009-07-20-turn-is-here-50-invested.md))
+
+## Reading the news by the reaction, not the content
+
+Four corners of one diagnostic, and the wiki has carried only two of them. The instrument is always the same:
+the news supplies the *occasion*, and what price does with it supplies the information.
+
+| | Good news | Bad news |
+|---|---|---|
+| **Price rises** | strength confirmed — funds "buying strength" (2009) | — |
+| **Price falls / fails** | **the warning** — leaders sold off on good earnings (2005, 2014, 2016) | ordinary |
+| **Price holds** | — | **the tell** — the market refused the excuse |
+
+The bottom-right cell is the one that was missing. July 2005, the day of the London bombings: "**Who would ever
+have believed that a market in a confirmed down trend could withstand a terrorist attack and actually hold its
+own?**… **If stocks were going to decline more near term, I think the market had the perfect excuse to do so
+today — and it did not.**" ([WW 2005-07-07](../../raw/posts/2005-07-07-a-surprising-show-of-strength-gmi-3-sectors-with-many-new-highs.md)) And stated as doctrine six weeks later, in the week of Hurricane
+Katrina: "**Declines do not begin when the news headlines shriek of calamity, as they do now. Did you notice
+that the market is holding in the face of all of this bad news? I think that means the selling is over, for
+now.**" ([WW 2005-09-01](../../raw/posts/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md))
+
+The mechanism is the one he gives for the bearish corner in 2006 — in a down-trend every event is read
+pessimistically — run in reverse: when the pessimistic reading is *available* and the market declines to take
+it, the sellers are finished.
+
+## The chart as a check on the causal story
+
+The best single instance of his "price first" epistemics, and it is an argument about dates. September 2005,
+with the press attributing a bond rally to Hurricane Katrina: "the following chart of an ETF (**TLT**) that
+tracks the 20 year bonds shows that **long term bonds were rising, and rates were falling, since August 9, long
+before the hurricane. Unless we believe that prescient traders foresaw the hurricane debacle weeks before it hit,
+we must conclude that the economy was weakening and rates were falling long before the hurricane, and that
+Katrina's damage merely intensified the pre-existing trend.** ***Identical*** patterns can be found in ETF's that
+track shorter term bonds (SHY and IEF)." ([WW 2005-09-01](../../raw/posts/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md))
+
+If the move began before the cause, the cause is not the cause. The corroboration across three maturities is what
+rules out coincidence, and the conclusion is deliberately modest — the hurricane *intensified* a trend rather
+than creating one. Pair this with the [jigsaw caution](#tlt--how-he-reads-long-rates) below: a story that fits
+every chart is describing the past, and the way to test it is to check when the moves actually started.
 
 ## When to go defensive
 
@@ -214,6 +260,13 @@ He credits Nicolas Darvas's use of stop-losses as a key element of Darvas's fort
 **A caveat from the August 2015 flash crash.** A resting stop order assumes an orderly market. On 2015-08-24 his preferred-stock ETF PFF opened at 38.52 against a 39.01 close, traded to 32.32 within ten minutes, and closed at 38.26 — priced by panic order flow, not by its holdings' value. "Imagine what would have happened if I had placed a market order to sell or had a standing sell stop order in place to protect me against a small decline! I might have been sold out at a huge loss." His conclusion was narrow — it soured him on holding *ETFs* rather than on stops ("this experience is enough to keep me away from most ETFs"; mutual funds price once, on computed NAV) — but it is the one documented case where his stop doctrine met its failure mode. ([WW 2015-09-08](../../raw/posts/2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash.md))
 
 **Order type: at the market.** His doctrine, stated in 2005 against Cramer's limit-order advice: "**BUY AND SELL AT THE MARKET!**… fortunes have been lost by persons trying to hold out for the last 1/8th of a point… It could be suicide to put a limit order in on a sell and not be able to sell because the stock never traded at my limit price." A few cents of slippage is the premium for never missing the exit — or the entry. The same post shows re-entry as a **resting order rather than a decision**: stopped out of ORCT for a small loss, he left a buy-stop standing above the prior peak, which triggered days later "without my having to pay any attention to it," right at the breakout. "Some of my best trades have come from buying back shares that I had recently been scared out of." A stop-*limit* would have risked missing the move — automation carries the discipline the emotions would drop. ([WW 2005-05-26](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md))
+
+**Why the stops are there, in one sentence (2005).** Not expected value — availability: "I have sell stops in on
+all of my holdings and am letting things ride for now. **Sell stops provide me the ability to focus on my job
+during the day and to sleep peacefully at night.**" ([WW 2005-07-19](../../raw/posts/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md)) The stop is what makes an intraday-unwatched
+method viable for someone with a full-time academic job, which is a design constraint the rest of the system
+inherits — it is also why the [GLB mental stop](green-line-breakouts.md#the-stop-rule-for-glb-positions), which
+requires watching near the close, is the exception he flags rather than the rule.
 
 ## Noise isolation as a precondition for clear analysis
 
@@ -381,6 +434,26 @@ low rather than predicting one.
 over: "**you do know that analysts sometimes tout a stock so that their big clients can unload their long
 positions to the unsuspecting public.**" ([WW 2009-12-27](../../raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md)) The technicals are used to check the story, not the reverse.
 
+**Three sentiment samples he takes from his own life.** All three are people-he-can-see gauges rather than
+published series, and all three are read contrarily:
+
+- **Reader mail (2006).** Declining to add to his puts: "the put/call ratios **and letters from readers** suggest
+  a lot of retail interest in put options. When that happens we usually get at least a bounce — **the market does
+  not usually accommodate the bets of option players**." ([WW 2006-05-25](../../raw/posts/2006-05-25-gmi-0-ibd-100-stocks-shine-waiting-for-confirmation-of-up-trend.md)) Publishing gives him a direct read on what
+  retail is doing, and he treats it as the same kind of evidence as the ratio itself.
+- **Peers reporting profits (2007).** "**I am a little cautious about this market because many traders have told
+  me they are making money.**" ([WW 2007-07-08](../../raw/posts/2007-07-08-gmi-6-rally-has-more-to-go-ibd100-stock-performance.md))
+- **[Meetup attendance](#contrarian-sentiment-is-a-bounce-warning-not-a-re-entry-trigger) (2005)**, and the
+  [naive participant](#contrarian-sentiment-is-a-bounce-warning-not-a-re-entry-trigger) at both poles (2000,
+  2009).
+
+None of them generates a trade on its own. Each is a check on whether the crowd he can actually observe has
+already taken the position he is considering.
+
+**Wounded leaders, plural (2018).** The leader tell is about *several* leaders at once, not one: with NVDA,
+AAPL, FB, NFLX and SQ charted side by side, "**I become concerned when many of the market leaders look
+wounded**… are the others forming their bull market tops?" ([WW 2018-01-01](../../raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md))
+
 ## Relative strength during declines as a leadership screen
 
 A recurring 2007 theme, and the constructive use of a down-trend: "While this is not the time for me to buy stocks, I find that **declines offer the best opportunity to find the next winners**. The few stocks that can resist the market decline tend to become stars." In August 2007, with 80% of the 440 IBD100 stocks he monitored down since July 19, he listed the ten biggest gainers (ISRG +33%, HMSY +32%, MORN +26%, ANSS +24%, BLUD +22%...) as the pool to focus on "when the market turns." ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
@@ -428,6 +501,14 @@ Note: the 1,200% figure combines two things — strong performance during bull p
 
 **Track record updated to 14× (July 2010):** By July 2010 the IRA had grown to **14 times its 1995 starting value** — one increment above the 13× figure stated in January 2009. The university pension had also been kept safely in cash through both the 2000-2002 and 2008 declines and reinvested in subsequent advances. ([WW 2010-07-19](../../raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md))
 
+**Missed upside priced as a premium (2015).** The clearest framing of what a false exit costs: "**If the current
+declines are much more shallow than the others and I miss part of a rebound, that is fine with me. That is the
+cost of my insurance against a huge loss. There is plenty of time for me to re-enter the markets once the coast
+is clear**… **Only a stock addict thinks s/he must always be in the game.**" ([WW 2015-09-20](../../raw/posts/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md)) Forgone gains are the
+premium on the policy, not a loss on the trade — which is the only accounting under which a signal that whipsaws
+can still be worth following, and it depends on the
+[tax-deferred account](pension-management.md#the-tax-deferred-precondition) named in the same paragraph.
+
 ## How bear markets end — the volume signature (2009)
 
 Studied on the 1929–32 and 1974 bears with a 50-week average of weekly volume: the bottom arrives when down-week volume shrinks below the average, then "a huge green spike soon after the bottom, followed by a number of green spikes several months later, after a re-test" — up-volume larger than anything in months, larger again after the re-test as "people became more confident of the earlier bottom." Applied to February 2009: "the red spikes are unceasing… the green spikes (up weeks) tend to be *lower* than the red spikes. This is not a market set to bottom like the prior bears." He stayed mainly in cash with some IRA puts, and the low arrived a week later — the signature was for confirming a bottom, not for predicting one: "no one can detect a bottom until sometime after it has occurred." ([WW 2009-03-01](../../raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md))
@@ -435,7 +516,7 @@ Studied on the 1929–32 and 1974 bears with a 50-week average of weekly volume:
 ## TLT — how he reads long rates
 
 The [rate indicator](#the-rate-indicator-is-on-his-charts-from-the-start) tracks the short end. For the long end
-he watches a bond ETF and says why: "I follow the **20+ year government bond ETF, TLT, as an indicator of how
+he watches a bond ETF, and has done since **September 2005** — TLT appears in the Katrina post above, and by March 2006 he was running the stage test on it: "this chart of the **20+ year Treasury Index** shows an **ominous curving down of the 30 week average**. In addition, the **ten week average is below the 30 week for the first time since September, 2004**." ([WW 2006-03-06](../../raw/posts/2006-03-06-gmi-6-short-housing.md)) The 2016 post below is where he states the *purpose* most plainly: "I follow the **20+ year government bond ETF, TLT, as an indicator of how
 bond traders feel about long term interest rates**." ([WW 2016-10-16](../../raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md)) It is a sentiment read on rates rather than a
 forecast of them — what the people with money at risk currently believe, not what the Fed has announced.
 
@@ -593,3 +674,11 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2005-05-25 — An empty meetup room as a contrary indicator](../../raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md) ([summary](../sources/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md))
 - [WW 2009-12-27 — The naive participant, at both poles](../../raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md) ([summary](../sources/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md))
 - [WW 2016-10-16 — TLT as the rate proxy; the jigsaw that fits until it doesn't](../../raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md) ([summary](../sources/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md))
+- [WW 2005-07-07 — A market that will not fall on terrible news; sectors read off the new-high list](../../raw/posts/2005-07-07-a-surprising-show-of-strength-gmi-3-sectors-with-many-new-highs.md) ([summary](../sources/2005-07-07-a-surprising-show-of-strength-gmi-3-sectors-with-many-new-highs.md))
+- [WW 2005-09-01 — The chart as a check on the news story; 'the idea is to make money, not to be right'](../../raw/posts/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md) ([summary](../sources/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md))
+- [WW 2006-03-06 — The housing top called; long bonds turning in 2006](../../raw/posts/2006-03-06-gmi-6-short-housing.md) ([summary](../sources/2006-03-06-gmi-6-short-housing.md))
+- [WW 2006-05-25 — Reader mail as a sentiment sample](../../raw/posts/2006-05-25-gmi-0-ibd-100-stocks-shine-waiting-for-confirmation-of-up-trend.md) ([summary](../sources/2006-05-25-gmi-0-ibd-100-stocks-shine-waiting-for-confirmation-of-up-trend.md))
+- [WW 2007-07-08 — IBD 100 lists decay with age - the quantitative finding](../../raw/posts/2007-07-08-gmi-6-rally-has-more-to-go-ibd100-stock-performance.md) ([summary](../sources/2007-07-08-gmi-6-rally-has-more-to-go-ibd100-stock-performance.md))
+- [WW 2018-01-01 — The red lines and the blue lines read as two different warnings](../../raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md) ([summary](../sources/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md))
+- [WW 2005-07-19 — The earnings rally, and why he uses sell stops](../../raw/posts/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md) ([summary](../sources/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md))
+- [WW 2015-09-20 — Stage 4 defined, and missed upside priced as insurance](../../raw/posts/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md) ([summary](../sources/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md))

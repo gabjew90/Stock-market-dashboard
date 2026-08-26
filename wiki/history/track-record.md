@@ -24,6 +24,7 @@ sources:
   - raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md
   - raw/posts/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md
   - raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md
+  - raw/posts/2006-03-06-gmi-6-short-housing.md
 ---
 
 # Track record — calls & outcomes
@@ -86,6 +87,27 @@ The long-term signal did not break until much later. On 2007-11-19, with the GMI
 **The signal that did fire, in hindsight, was the [GMI-L](../methodology/gmi.md).** By 2007-12-17 it had fallen to 31% — and the comparison is what makes it informative: "in the two declines in 2007 (March and August), the GMI-L never fell below 50%," and 31% was the lowest since August 2006. A companion warning came from T2108's failed recovery: it bottomed near 13% in November, reached only ~55% by December 10 and fell back to 28%, against his stated expectation that "almost always this pendulum recovers to around 80% after a large market decline." He called the rebound "puny and half-hearted." ([WW 2007-12-17](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
 
 ---
+
+## March 2006 — the housing top called, with a level
+
+Eighteen months before the crisis and while the GMI sat at +6, he put a chart, a level and a consequence on
+housing ([WW 2006-03-06](../../raw/posts/2006-03-06-gmi-6-short-housing.md)):
+
+> "Housing stocks continue to decline, and their demise may be just the first of the consequences of higher
+> interest rates… **the chart of the residential housing index looks to me as if it is completing the right
+> shoulder of a head and shoulders top. A close below 1705 would indicate a major top and a decline to come. If I
+> were a betting man, I would come down on the bearish side of this one. If housing goes, what will happen to the
+> rest of the economy?**"
+
+Two things are worth separating. The **technical call is specific** — a named pattern with a trigger level — and
+the **macro consequence is posed as a question**, not a forecast: "we need to watch our indicators and charts
+very closely during this critical ninth inning of the economic recovery." He does not claim to know what a
+housing top does to the economy; he claims the chart says housing has topped.
+
+The same post reads the long-bond turn through his usual stage test: the 20+ year Treasury index showing "an
+**ominous curving down of the 30 week average**," with "the **ten week average… below the 30 week for the first
+time since September, 2004**" — so the rates thesis and the housing call arrive together, eighteen months early,
+and are dated here rather than in the 2008 posts.
 
 ## 2007–2008 — Navigating the financial crisis
 
@@ -288,3 +310,4 @@ Based on 939 daily-update posts with a parseable GMI value (out of 1,797 total, 
 - [WW 2008-10-13 — Capitulation week: 2,832 new lows, T2108 at 1%](../../raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md) ([summary](../sources/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md))
 - [WW 2008-11-21 — The retest read via breadth; T2108's earlier bands](../../raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md) ([summary](../sources/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md))
 - [WW 2010-04-12 — The GMI's 2008-2010 signal record, with dates](../../raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md) ([summary](../sources/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md))
+- [WW 2006-03-06 — The housing top called; long bonds turning in 2006](../../raw/posts/2006-03-06-gmi-6-short-housing.md) ([summary](../sources/2006-03-06-gmi-6-short-housing.md))

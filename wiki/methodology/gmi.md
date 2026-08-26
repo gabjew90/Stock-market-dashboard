@@ -58,6 +58,9 @@ sources:
   - raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md
   - raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md
   - raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md
+  - raw/posts/2006-05-25-gmi-0-ibd-100-stocks-shine-waiting-for-confirmation-of-up-trend.md
+  - raw/posts/2006-03-06-gmi-6-short-housing.md
+  - raw/posts/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md
 ---
 
 # General Market Index (GMI)
@@ -152,6 +155,11 @@ positive." ([WW 2006-06-27](../../raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs
 new problem — and the improvised version was *stricter* than the rule that replaced it, since it also required
 the reading to repeat.
 
+**Its most memorable negative form (2006).** "**When these super managers can't make money in growth stocks,
+neither can I.**" ([WW 2006-05-25](../../raw/posts/2006-05-25-gmi-0-ibd-100-stocks-shine-waiting-for-confirmation-of-up-trend.md)) Three statements of the same proposition now sit on this page — 2006, 2007 and
+2009 — two negative and one positive, which is unusually consistent for a component whose definition was never
+published in full.
+
 ## The signals — Buy, Sell, and the hold state at 3
 
 The score becomes a *signal* only with persistence, and the two sides are symmetric around 3:
@@ -245,6 +253,23 @@ a month, while the QQQQ short term trend just broke out again last week**." ([WW
 in an advance is exhaustion; the same count on day 2 of a new up-trend is initiation. Note also that the *weaker*
 supporting breadth accompanies the *better* headline number, which is the pattern that makes the raw count on its
 own unreliable.
+
+**Both forms quoted on one day (2006).** The clearest single-day demonstration of what the pair is for: "only 9%
+of the 209 stocks that hit a new high ten days ago closed higher on Thursday than they closed ten days ago.
+**Buying stocks at new highs has, thus, been a losing proposition.** On the other hand, **shorting stocks at new
+lows 10 days ago would have been profitable in 58% of the cases.**" ([WW 2006-05-25](../../raw/posts/2006-05-25-gmi-0-ibd-100-stocks-shine-waiting-for-confirmation-of-up-trend.md)) And the low-side statistic at
+its documented extreme, February 2009: "that indicator has been **above 70% for the past four days**, indicating
+that shorting stocks at new lows 2 weeks ago was likely to have been profitable. Clearly, this market has been
+inhospitable to the strategy of buying growth stocks breaking to new highs." ([WW 2009-02-02](../../raw/posts/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md))
+
+**A side effect of the denominator floor.** The same 2009 post explains a long run of zeros on component 1:
+"this indicator has been negative since late October, **largely because we rarely saw the required 20 new highs
+in a day**." The guard added in February 2008 works as designed, but a persistent negative in a thin tape is the
+*floor* speaking as much as the follow-through rate — worth knowing before reading months of zeros as independent
+evidence.
+
+**And the component in one sentence (2006):** "**it is a sign of strength when many stocks hit a new high and
+retain a gain 2 weeks later.**" ([WW 2006-03-06](../../raw/posts/2006-03-06-gmi-6-short-housing.md))
 
 ## Evolution
 
@@ -453,3 +478,6 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2006-01-09 — The same breadth reading means different things at different points in a trend](../../raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md) ([summary](../sources/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md))
 - [WW 2006-06-27 — Inverse ETFs arrive; new products as a contrary indicator](../../raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md) ([summary](../sources/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md))
 - [WW 2016-10-16 — TLT as the rate proxy; the jigsaw that fits until it doesn't](../../raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md) ([summary](../sources/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md))
+- [WW 2006-05-25 — Reader mail as a sentiment sample](../../raw/posts/2006-05-25-gmi-0-ibd-100-stocks-shine-waiting-for-confirmation-of-up-trend.md) ([summary](../sources/2006-05-25-gmi-0-ibd-100-stocks-shine-waiting-for-confirmation-of-up-trend.md))
+- [WW 2006-03-06 — The housing top called; long bonds turning in 2006](../../raw/posts/2006-03-06-gmi-6-short-housing.md) ([summary](../sources/2006-03-06-gmi-6-short-housing.md))
+- [WW 2009-02-02 — Why component 1 can stay negative for months](../../raw/posts/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md) ([summary](../sources/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md))
