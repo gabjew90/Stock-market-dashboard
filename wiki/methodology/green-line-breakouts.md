@@ -1,7 +1,7 @@
 ---
 title: Green Line Breakouts (GLB)
 type: entity
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
@@ -35,6 +35,8 @@ sources:
   - raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md
   - raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md
   - raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md
+  - raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md
+  - raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -93,6 +95,18 @@ Dr. Wish uses a **mental stop** rather than a hard stop for GLB positions. He se
 **No hard stop — mental stop only:** Dr. Wish explicitly does NOT set a hard stop loss order for a GLB position. "I do not set a stop loss for a GLB to avoid being sold out when a stock trades intraday below the green line only to close the day above it." He monitors near the close each day and exits if it looks like the stock will close below the green line. ([WW 2021-01-24](../../raw/posts/2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that.md))
 
 **Strict immediacy (2018):** "I have a strict rule to sell a stock immediately if it comes back below its green line. No hesitation or remorse, because I believe that each loss brings me to the next gain." He explicitly endorses buying back the same stock after a new confirmed GLB — no ego, no abandonment of a researched name just because the first timing failed. ([WW 2018-05-20](../../raw/posts/2018-05-20-green-line-breakout-glb-explained-gmi-remains-green.md))
+
+**Earlier (2016) the rule keyed on an intraday trade, not the close.** "If I buy a GLB stock **I immediately sell
+it if it *trades* back below its green line break-out point — no exceptions.** If it then comes back above its
+green line on good volume, I might buy it back." ([WW 2016-09-18](../../raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md)) That is the opposite of the mental-stop rule above,
+which exists precisely to avoid selling on an intraday violation that closes back above the line.
+
+The change is dated and the reason is stated in the same 2016 post that carries the old rule: "**I find that a
+daily chart can often lead me to be whipsawed and to sell a good stock too soon.**" By July 2017 the wording had
+already moved — "I will hold some PIRS as long as it ***closes*** above its green line" ([WW 2017-07-04](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md)) — and the 2020,
+2021 and 2023 statements are all close-based, with the ACLX case published as the justification. Read the
+progression as **intraday (2016) → close-only (2017 onward)**, with the 2018 "strict immediacy" statement sitting
+in between and ambiguous on which trigger it means.
 
 ### Adding to winners — pyramiding to the 30-week average
 
@@ -272,3 +286,5 @@ The published case studies — patience after a GLB (PNRA, FIZZ), re-entry after
 - [WW 2022-07-07 — Blog post: Friday could be first day of new $QQQ short term up-trend; why this $QQQ rally may be different; ho](../../raw/posts/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md) ([summary](../sources/2022-07-07-blog-post-friday-could-be-first-day-of-new-qqq-short-term-up-trend-why-this-qqq-rally-may-be-different-how-i.md))
 - [WW 2023-06-04 — Blog Post: Day 25 of $QQQ short term up-trend; GMI=6 (of 6) and Green; Market in solid up-trend, set-ups worki](../../raw/posts/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md) ([summary](../sources/2023-06-04-blog-post-day-25-of-qqq-short-term-up-trend-gmi6-of-6-and-green-market-in-solid-up-trend-set-ups-working-panw.md))
 - [WW 2025-06-22 — Blog Post: Day 39 of $QQQ short term up-trend; $QQQ wedged between green line top and rising 4 week average; W](../../raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md) ([summary](../sources/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md))
+- [WW 2016-09-18 — The GLB Tracker's curation admitted; the daily chart as a whipsaw machine](../../raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md) ([summary](../sources/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md))
+- [WW 2017-07-04 — The GMI's QQQ bias demonstrated live; biotech position sizing](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md) ([summary](../sources/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md))

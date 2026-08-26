@@ -35,6 +35,7 @@ sources:
   - raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md
   - raw/posts/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md
   - raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md
+  - raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md
 ---
 
 # Trading philosophy — the five propositions
@@ -96,6 +97,22 @@ The [oversold bounce](oversold-bounce.md) is the clearest case. He prefers it to
 because it wins more often but because it makes Proposition 5 easy: "if I think a stock has
 bottomed and turned up, **I know exactly where to get out if I am wrong** — if the recent
 bottom does not hold." ([WW 2018-03-11](../../raw/posts/2018-03-11-green-dot-strategy-defined.md))
+
+**Where proposition five came from, and who said it first.** The best-known line on this page — "one could
+probably select stocks at random as long as losses are kept at a minimum and profits are maximized" (November
+2009) — is a restatement of something he had read twenty-two months earlier and credited at the time. Reviewing
+Michael Covel's *The Complete Turtle Trader* in January 2008: "**the most important thing I learned from this
+book was the mentors' primary emphasis on exits from a trade rather than entry. Dennis is quoted as basically
+saying one might profit by selecting positions by trial and error as long as one had a good exit strategy. Go
+into every trade as if you will lose money and you will be prepared in advance for that possibility and limit
+your losses.**" ([WW 2008-01-28](../../raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md))
+
+So the proposition is **Richard Dennis's**, arriving via Covel, and the 2009 statement drops the attribution
+while keeping the wording almost intact. Two things follow. The Turtles are not merely one name in the
+[lineage list](#the-lineage-he-names) — they are the direct source of the philosophy's load-bearing claim. And
+the rules were built for futures, which he flags: "the turtles used an extremely systematic and innovative set of
+rules to trade futures, **which I think can be adapted for trading equities**" — an adaptation he asserts rather
+than demonstrates.
 
 ## Timeframe is a life choice, not an edge claim
 
@@ -327,3 +344,4 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2005-10-08 — The folly of fighting the trend — and the small-position safety valve](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md) ([summary](../sources/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md))
 - [WW 2006-06-14 — Value is a myth — dated to 2006, and attributed to O'Neil](../../raw/posts/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md) ([summary](../sources/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md))
 - [WW 2005-11-20 — Darvas sourced; the trend-odds measured a third time (81%)](../../raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md) ([summary](../sources/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md))
+- [WW 2008-01-28 — Where 'exits matter more than entries' came from - Covel on the Turtles](../../raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md) ([summary](../sources/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md))

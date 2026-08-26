@@ -38,6 +38,7 @@ sources:
   - raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md
   - raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md
   - raw/posts/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md
+  - raw/posts/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -149,6 +150,27 @@ affordable. Compare the [pilot portfolio](stock-selection.md#the-pilot-portfolio
 which applies the same trick to a different problem — 25-share positions bought to keep a stock on the
 radar rather than to make money on it.
 
+## 11. You may decline your own signal — but say that is what you are doing
+
+October 2015, with everything green: "**Meanwhile, the GMI remains a positive 6 (of 6). If I was eager to trade I
+would have just followed the GMI's signals. But after the August flash crash, I am much more of a chicken right
+now than usual.**" ([WW 2015-10-25](../../raw/posts/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md)) He assembles a real technical case alongside it — the QQQ closed outside its upper
+15.2 Bollinger Band ("a major index rarely does so without a reversion to the mean"), the 10.4 stochastic
+overbought at 87 with the fast line under the slow, and the previous comparable weekly gain having preceded the
+July top — but he does not pretend that case is what is stopping him. The recent bad experience is, and he labels
+it: *chicken*, and *more than usual*.
+
+Two things make this a rule rather than a lapse. He states the counterfactual explicitly (what the signal said,
+and what following it would have meant), so the deviation is on the record rather than rationalised away. And he
+prices the risk of being wrong about himself: "(**Maybe I will turn out to be a great contrary indicator!?**)"
+Compare [rule 1](#1-when-gut-and-instruments-disagree-the-instruments-win) — the instruments still win *as a
+rule*, and this is what an exception looks like when it is handled honestly: named, dated, and not disguised as
+analysis.
+
+He also gives the condition that would bring him back, which is what keeps a pause from becoming a drift: "**I
+will slowly return to the market on the long side when the 10 week averages climb back above the 30 week
+averages.**"
+
 ## How the rules fit together
 
 Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or the need to be active. Rules 3, 4 and 6 are about *fear* — expect it, size for it, and pre-commit against it in writing. Rules 5 and 7 are about the *exit* — the stop removes emotion at entry, and the too-easy voice is the single place he lets emotion back in, on the profitable side only. Nothing on this page asks for a temperament he does not have; each item is a rule written after he watched himself fail without it.
@@ -196,3 +218,4 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2017-07-16 — O'Neil's shopping list — the watch-list procedure, and the discipline of not trading](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md) ([summary](../sources/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))
 - [WW 2005-10-08 — The folly of fighting the trend — and the small-position safety valve](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md) ([summary](../sources/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md))
 - [WW 2005-07-05 — Turning on a dime — a losing hedge closed and the book reversed the same day](../../raw/posts/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md) ([summary](../sources/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md))
+- [WW 2015-10-25 — A GMI of 6 refused, and named as psychology](../../raw/posts/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md) ([summary](../sources/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md))

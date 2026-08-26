@@ -27,6 +27,7 @@ sources:
   - raw/posts/2010-04-26-true-religion-trlg-break-out.md
   - raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md
   - raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md
+  - raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md
 ---
 
 # The GLB in practice — worked cases, failures, and what he learned from each
@@ -47,6 +48,15 @@ FIZZ (National Beverage, another 2017 example) shows the opposite case: an ideal
 
 Jesse Livermore: "it was his sitting tight not his trading that made him big money." ([WW 2017-04-02](../../raw/posts/2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz.md))
 
+**Over-monitoring as its own failure mode (2016).** The reason the exit rule migrated from intraday to the close
+is stated as a fact about attention rather than about markets: "**I find that a daily chart can often lead me to
+be whipsawed and to sell a good stock too soon. It's like checking one's blood pressure or cholesterol too
+often.**" ([WW 2016-09-18](../../raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md)) The worked case is GIMO, sold on a daily-chart violation and bought back: on the weekly
+chart the same stretch was an orderly post-breakout consolidation with "up weeks… mostly with higher volume than
+with down weeks" — "**no reason to sell out early if I had focused on the weekly pattern**… (luckily I bought it
+back)." Choosing the slower chart is a risk control, not laziness: it removes the observations that would have
+triggered a bad decision.
+
 ## TRLG (2010) — the round trip, and the missing volume
 
 The pattern he likes most, worked end to end two years before he named the green line. TRLG "came to my
@@ -64,6 +74,28 @@ earnings will be great, or maybe the company will miss and the stock will dive" 
 **May calls** rather than shares, capping the loss at the premium where a stop could have been gapped
 through. Supporting filters: a 2005 IPO (inside O'Neil's ~8-years-public window), an IBD *New America*
 mention, and a short ratio of 11.7 as squeeze fuel.
+
+## The GLB Tracker Table — what it is, and what it selects for
+
+The table published in the blog's sidebar and updated intraday, described by its author on the day he revised it:
+it lists "stocks that evidenced a strong week last week by hitting an all-time high **on large volume**, and that
+had a GLB last week or since 8/29." ([WW 2016-09-18](../../raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md))
+
+Then the qualification that matters for anyone reading its performance:
+
+> "**This list does not contain all GLB stocks that occurred during this period. It contains only those that have
+> held their GLB (i.e., successful) and have strong technicals and/or fundamentals.**"
+
+It is a **survivor list by construction** — failures are removed, not recorded — so it is a watchlist, not a
+track record, and cannot be used to estimate how often a GLB works. He is consistent about this elsewhere: the
+failure rate is discussed honestly on [the caveat](#a-caveat-on-the-glb-as-an-entry) and in the
+[green-dot "sine qua non"](entry-signals.md#the-green-dots-hit-rate-stated-plainly) material. He also flags luck
+inside the table itself, keeping CLCD at +197% while calling it "**a lucky pick!**"
+
+**Why *recent* breakouts specifically:** "one benefit of these stocks is that they are **less likely to be
+extended** because they have *recently* broken out above a prior all-time top and therefore may have been just
+launched on a new journey upward." The table is a proximity filter as much as a strength filter — it collects
+stocks whose entry is still close to their invalidation level.
 
 ## Re-entry after a failed GLB
 
@@ -223,3 +255,4 @@ The core rules have remained stable. These posts from 2019 onward confirm the ru
 - [WW 2010-04-26 — TRLG: the round trip back to an all-time high, expressed in calls](../../raw/posts/2010-04-26-true-religion-trlg-break-out.md) ([summary](../sources/2010-04-26-true-religion-trlg-break-out.md))
 - [WW 2016-03-20 — Buying before the green line — with a different stop](../../raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md) ([summary](../sources/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md))
 - [WW 2015-12-06 — Bouncing off the green line — the retest entry, risk quantified](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md) ([summary](../sources/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))
+- [WW 2016-09-18 — The GLB Tracker's curation admitted; the daily chart as a whipsaw machine](../../raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md) ([summary](../sources/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md))

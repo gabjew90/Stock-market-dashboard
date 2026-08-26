@@ -66,6 +66,8 @@ sources:
   - raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md
   - raw/posts/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md
   - raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md
+  - raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md
+  - raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md
 ---
 
 # Stock selection
@@ -88,6 +90,11 @@ And the negative rule, March 2022: "growth stocks are underperforming now and fe
 high Friday, have **strong recent quarterly earnings** and are **up at least 60% in the past year**." ([WW 2005-11-20](../../raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md))
 The 60% floor is the ancestor of the "already doubled" criterion below — the same idea (buy what has already
 proved it can run) at a lower threshold, four years before he settled on doubling.
+
+**And tightened again seven weeks later (January 2006).** The 60%-in-a-year screen becomes: hit a new high today,
+**doubled in the past year**, and posted **triple-digit earnings gains in the most recent quarter** — 38 names
+qualified. ([WW 2006-01-09](../../raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md)) The doubling threshold that would become permanent is already here, alongside a fundamental
+filter far stricter than the "strong recent quarterly earnings" of November 2005.
 
 ## Why "already doubled" — and the gap rule
 
@@ -404,6 +411,14 @@ to those that prove themselves and exit those that fail. I am looking for multi-
 long moves." Ownership as attention; the winners select themselves. Paired with the biotech
 exemption — "so many discoveries... this is one area that can buck the market trend." ([WW 2014-10-05](../../raw/posts/2014-10-05-6th-day-of-qqq-short-term-down-trend-11-biotechs-with-green-line-break-outs-ardxvrtxagiouthrrcptesprovasptctc.md))
 
+**Biotechs get their own sizing rule (2017).** They are the one group he will buy when he is otherwise in cash,
+and the reason and the constraint are stated together: "the only stocks I may nibble at are **biotechs, which can
+explode upward on good news**… **Biotechs are very speculative and I only take very small initial positions in
+them.**" ([WW 2017-07-04](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md)) The same asymmetry that makes them attractive — a binary event can gap the stock up — makes a
+stop unreliable, so the position size carries the risk control instead. PIRS is the example, and it bends the
+[price-level preference](#price-level-preference--80-2011--100-2018--200-2021) too: "**I don't like cheap stocks,
+but someone is buying PIRS.**"
+
 ## See also
 
 - [Green Line Breakouts (GLB)](green-line-breakouts.md)
@@ -478,3 +493,5 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2006-07-17 — Why he tracks a fixed IBD 100 list; what cash was paying](../../raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md) ([summary](../sources/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md))
 - [WW 2007-07-30 — No need to anticipate the reversal; GMI back above 3 as the re-entry](../../raw/posts/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md) ([summary](../sources/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md))
 - [WW 2005-11-20 — Darvas sourced; the trend-odds measured a third time (81%)](../../raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md) ([summary](../sources/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md))
+- [WW 2006-01-09 — The same breadth reading means different things at different points in a trend](../../raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md) ([summary](../sources/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md))
+- [WW 2017-07-04 — The GMI's QQQ bias demonstrated live; biotech position sizing](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md) ([summary](../sources/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md))

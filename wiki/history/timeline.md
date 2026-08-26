@@ -357,6 +357,12 @@ sources:
   - raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md
   - raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md
   - raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md
+  - raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md
+  - raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md
+  - raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md
+  - raw/posts/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md
+  - raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md
+  - raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md
 ---
 
 # Timeline — evolution of the methodology
@@ -604,6 +610,20 @@ criterion. The WPM flags small caps as the laggards. ([WW 2005-11-20](../../raw/
 
 **"GMI: +4; Clues to this rout?" (2006-01-23):** "The GMI cannot predict changes in trend, it only provides me with a reasonably certain indication that the trend has changed"; the biggest three-day losers YHOO/INTC/AAPL/GOOG — "when the biggest losers are the major big names, it may signify that the market is going to crumble"; WPM localises the rout in large caps; "a chicken lives to play another day." ([WW 2006-01-23](../../raw/posts/2006-01-23-gmi-4-clues-to-this-rout-wpm-shows-smallmid-caps-stronger-bounce-coming-chickens-survive.md))
 
+## January 2006 (context) — the same breadth reading, read against its own history
+
+**"GMI: +6; Huge turnaround; short rates to rise? 38 leading stocks" (2006-01-09):** how to read a breadth
+extreme without a threshold. There were "an amazing **505 new yearly highs**," and instead of celebrating he goes
+to the last comparable print: "the last time we had over 500 new highs was on **July 28 (522 highs), just before
+the August 2nd top in the QQQQ**." The difference is the trend's age, made quantitative — at the *higher* July
+reading, 81% of stocks were above their 10-week averages against 76% now, and 57% were in a short-term up-trend
+against 49% now; "moreover, **last July the QQQQ had been rallying for about a month, while the QQQQ short term
+trend just broke out again last week**." Same count, opposite meaning: exhaustion late in an advance, initiation
+on day 2 of a new one. The screen tightens again — 38 stocks that hit a new high, **doubled in the past year**
+and posted **triple-digit earnings gains in the most recent quarter** — and the doubler indicator reads healthy
+(80% above their 30-day averages). The standing reservation is the rate indicator breaking out again: "**why is
+the smart money betting on still higher rates?**" ([WW 2006-01-09](../../raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md))
+
 ## January 2006 (odds) — the advance measured across three indexes; the inverted-wall warning
 
 **"GMI: +6; Go with the trend; Inverted yield curve — this time is different?" (2006-01-17):** the market
@@ -706,6 +726,20 @@ empty. Everyone sells quickly because they think that the next guy will sell.**"
 new lows; 15% of his universe above their 10-week averages, "a new low since I began recording this statistic in
 2005"; 232 submarines to 2 rockets; and a change-of-mind distance in points — "the Dow could rally some 240
 points before I would consider that a new up-trend had begun." ([WW 2006-06-14](../../raw/posts/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md))
+
+## June 2006 (instruments) — inverse ETFs arrive; new products as a contrary indicator
+
+**"GMI: 0; 3 IBD 100 new highs; New ETF's to short indexes — a bullish sign?" (2006-06-27):** three things.
+**Component 1's denominator floor, applied as discretion twenty months before it became a rule** — "there were
+almost enough successful new highs from 10 days ago (**9/15 = 60%**) to turn this indicator positive… **the
+numbers here are too small to do so**. If it is above 50% again tomorrow, I will make the indicator positive."
+The February 2008 revision codified a judgement he was already making by hand, and his improvised version was the
+stricter one (it also required the reading to repeat). **The first generation of inverse ETFs**: "new ways for an
+investor/trader to **short the major market indexes in an IRA without buying put options**" — **PSQ**, **SH**,
+**DOG**, **MYY** — "thinly traded and should be researched carefully." **And a contrary indicator made of product
+launches**, applied to the launch he has just welcomed: "**typically, not long after investors are so interested
+in a sector that a relevant new ETF is issued, that sector is close to a top** — check out XHB, GLD and SLV…
+Too many people may be interested in shorting the major indexes??!! A new contrary indicator?" ([WW 2006-06-27](../../raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md))
 
 ## July 2006 (breadth) — cap-weighted indexes masking the decline
 
@@ -813,6 +847,22 @@ this is now a low probability strategy.**" ([WW 2007-07-30](../../raw/posts/2007
 ## January 2008 (odds) — the 10-week odds; sucker rallies; IBD100 held the 2007 leaders
 
 **"GMI 0; 12th day of down-trend, sucker rally near?; IBD100 holds winners" (2008-01-22):** 844 lows / 10 highs; ten weeks under the 10-week → 82% of Nasdaq-100 lower; T2108 19% possible bottom but "a rally would have to exceed about +10% for me to call a change in trend"; ISRG/AAPL/GOOG/BIDU/GRMN on IBD100 lists early; a 26-stock resisters watchlist; wait for the turn. ([WW 2008-01-22](../../raw/posts/2008-01-22-gmi-0-gmi-r-0-12th-day-of-down-trend-sucker-rally-near-ibd100-holds-winners.md))
+
+## January 2008 (lineage) — where 'exits matter more than entries' came from
+
+**"GMI: 0; GMI-R: 0; 16th day of the down-trend; A great new book on the Turtles" (2008-01-28):** the source
+of the philosophy's load-bearing claim, credited at the time and uncredited later. Reviewing Michael Covel's
+*The Complete Turtle Trader*: "**the most important thing I learned from this book was the mentors' primary
+emphasis on exits from a trade rather than entry. Dennis is quoted as basically saying one might profit by
+selecting positions by trial and error as long as one had a good exit strategy. Go into every trade as if you
+will lose money and you will be prepared in advance for that possibility and limit your losses.**" Twenty-two
+months later he would publish that as proposition five of his own trading philosophy — "one could probably select
+stocks at random as long as losses are kept at a minimum" — with the attribution dropped. He also flags the
+adaptation gap: the Turtles' rules were built for futures, "**which I think can be adapted for trading
+equities**." Two disciplines in the same post: "**while my most sensitive daily indicators are off of the extreme
+low values… *none* of my indicators have turned positive**," and a bear-duration prior — "**many of the bear
+markets I have witnessed back to the 70's continued for nine months or more. We are only a little more than two
+months into the current decline.**" ([WW 2008-01-28](../../raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md))
 
 ## February 2008 (component 1) — the `min. 20` floor added
 
@@ -1495,6 +1545,19 @@ averages; a lower-Bollinger bounce discounted because "the lower BB [is] in a st
 
 **"IBD calls market up-trend; $SLP green line break-out" (2015-10-04):** IBD's follow-through day rated "analogous to my very short term trend indicator," but "**my short term trend count for the QQQ is NOT the same as my GMI indicator**… it takes much stronger action for my GMI to signal a Buy"; support at the lower **10.2** Bollinger Band with resistance at the declining 50-day, the 150-day and the upper band. ([WW 2015-10-04](../../raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md))
 
+## October 2015 (psychology) — a GMI of 6 refused, and named as psychology
+
+**"15th day of $QQQ short term up-trend; still a chicken" (2015-10-25):** the clearest case of him declining
+his own maximum signal *and* saying that is what he is doing. "**Meanwhile, the GMI remains a positive 6 (of 6).
+If I was eager to trade I would have just followed the GMI's signals. But after the August flash crash, I am much
+more of a chicken right now than usual.**" A real technical case is assembled alongside — the QQQ closed outside
+its upper 15.2 daily Bollinger Band and "**a major index rarely does so without a reversion to the mean**," the
+10.4 stochastic overbought at 87 with the fast line under the slow, and the previous comparable weekly gain having
+come "the week before the July top" — but he does not pretend that is what is stopping him, and he prices the
+risk of being wrong about himself: "(**maybe I will turn out to be a great contrary indicator!?**)" The return
+condition keeps the pause from becoming drift: "**I will slowly return to the market on the long side when the 10
+week averages climb back above the 30 week averages.**" ([WW 2015-10-25](../../raw/posts/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md))
+
 ## December 2015 (entries / scans) — the green-line retest entry; a scan run over industry indexes
 
 **"44th day of $QQQ short term up-trend; $HELE GLB" (2015-12-06):** the retest entry the written GLB rules
@@ -1581,6 +1644,22 @@ will pay to be fully invested with that trend.**" ([WW 2016-05-01](../../raw/pos
 **"$DW: A Successful Green Line Breakout; updated GLB tracker table" (2016-09-05):** Written for a class of 160 freshmen as a worked example. DW (Drew Industries) broke above its green line on the highest weekly volume in months and subsequently advanced strongly. Dr. Wish shows relative strength versus QQQ (maintaining strength during QQQ corrections — marked with amber vertical lines) as a confirming factor. He also describes the **weekly GLB scan** he runs every weekend: stocks that closed at a new 52-week high on Friday, with total weekly volume at least 10% above recent average, and 500,000+ shares total — then filters those that also hit an all-time high. The **GLB tracker table** (sidebar) tracks stocks after their breakout but is explicitly described as a biased sample and education tool, not a buy list. Nine of that week's 27 scan results also closed above their last green line top. ([WW 2016-09-05](../../raw/posts/2016-09-05-dw-a-successful-green-line-break-out-updated-glb-tracker-table-all-gmi-components-positive.md))
 
 ---
+
+## September 2016 (tracker / timeframes) — what the GLB Tracker selects for; the daily chart as a whipsaw machine
+
+**"New GLB tracker table shows strong recent break-out stocks; $GIMO retests GLB" (2016-09-18):** the Tracker
+Table described by its author, including its selection bias — it lists stocks hitting an all-time high on large
+volume with a recent GLB, but "**this list does not contain all GLB stocks that occurred during this period. It
+contains only those that have held their GLB (i.e., successful) and have strong technicals and/or fundamentals**."
+A survivor list by construction: a watchlist, not a track record. Its rationale is proximity — "**less likely to
+be extended** because they have *recently* broken out above a prior all-time top" — and he flags luck inside it,
+keeping CLCD at +197% as "**a lucky pick!**" The exit rule as stated here is the **intraday** version ("I
+immediately sell it if it ***trades*** back below its green line break-out point — no exceptions"), superseded
+from 2017 by the close-only rule; and the same post explains why: "**I find that a daily chart can often lead me
+to be whipsawed and to sell a good stock too soon. It's like checking one's blood pressure or cholesterol too
+often.**" GIMO's post-breakout consolidation looked orderly on the weekly chart — up weeks on higher volume than
+down weeks — "no reason to sell out early if I had focused on the weekly pattern… (luckily I bought it back)."
+([WW 2016-09-18](../../raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md))
 
 ## September 2016 (bands) — expansion as the start of a major move
 
@@ -1683,6 +1762,22 @@ of 1 "**still on a GREEN signal. One more day below 3 will change it to RED.**" 
 **"How I use Yellowband up and down trends" (2017-06-25):** the definitional post for a pattern he "noticed in the 1990s" — a weekly close repeatedly above a **rising** 10-week average that is itself above a **rising** 30-week average. It is both a selection filter ("I primarily buy stocks that are above or near their last GLB **that have a yellowband up-trend**") and a hold rule ("I try not to sell as long as the yellowband is intact unless I see unusually high volume selling or a climax top"), with a close below the 10-week average as the exit. Its purpose is preventing premature exits: "If I had diligently checked a stock's yellowband pattern I would not have been shaken out and exited many great stocks too early." ([WW 2017-06-25](../../raw/posts/2017-06-25-how-i-use-yellowband-up-and-down-trends-fizz-shop-igt-jcp-qqq.md))
 
 ---
+
+## July 2017 (bias / sizing) — the GMI's QQQ weighting demonstrated live; biotechs get their own rule
+
+**"Schizoid market; GMI neutral; Mainly in cash; $PIRS" (2017-07-04):** the 2008 blind spot happening in real
+time, and named as it happens. T2108 "climbed to its highest level since April, while the QQQ continued to break
+support" — 58% of all US stocks rose against "only 27% of the Nasdaq 100 stocks" — and his gloss: "**my GMI
+(General Market Index), which is heavily weighted toward the QQQ**, rose one and just avoided a Red signal." The
+index gauge and the broad-market gauge pointing opposite ways, with the GMI's move read as an artefact of its
+construction. **Biotechs get an explicit sizing exception**: "the only stocks I may nibble at are **biotechs,
+which can explode upward on good news**… **biotechs are very speculative and I only take very small initial
+positions in them**" — the asymmetry that makes them attractive is what makes a stop unreliable, so size carries
+the risk instead. PIRS, a recent IPO with a high-volume GLB and a weekly yellowband pattern, is held "**as long as
+it *closes* above its green line (\$4.40)**" — the close-based rule, a year after the intraday version — and it
+bends the price-level preference: "**I don't like cheap stocks, but someone is buying PIRS.**" Two borrowed
+frames: "they shoot the leaders first, and then the troops," and Zweig on rising rates eventually slaying the
+bull. ([WW 2017-07-04](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md))
 
 ## July 2017 — GLB doctrine consolidated; historical lineage from Darvas restated; six worked examples
 
@@ -2608,3 +2703,9 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2010-04-12 — come-to-my-free-worden-webinar-presentation-this-tuesday-evening](../../raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md) ([summary](../sources/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md))
 - [WW 2015-12-06 — 44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md) ([summary](../sources/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))
 - [WW 2016-05-01 — dollar-dives-and-gold-gets-going-bull-market-to-be-trumped](../../raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md) ([summary](../sources/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md))
+- [WW 2006-01-09 — gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks](../../raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md) ([summary](../sources/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md))
+- [WW 2006-06-27 — gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign](../../raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md) ([summary](../sources/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md))
+- [WW 2008-01-28 — gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles](../../raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md) ([summary](../sources/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md))
+- [WW 2015-10-25 — 15th-day-of-qqq-short-term-up-trend-still-a-chicken](../../raw/posts/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md) ([summary](../sources/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md))
+- [WW 2016-09-18 — new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market](../../raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md) ([summary](../sources/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md))
+- [WW 2017-07-04 — schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md) ([summary](../sources/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md))

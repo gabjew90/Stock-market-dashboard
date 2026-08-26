@@ -1,7 +1,7 @@
 ---
 title: The short side — submarine scan, shorting, hedging and options overlays
 type: concept
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md
@@ -34,6 +34,7 @@ sources:
   - raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md
   - raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md
   - raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md
+  - raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -130,6 +131,14 @@ their 10 week averages** and their **declining 10 week averages are below their 
 Three conditions — distribution on the way down, price under the intermediate average, and that average both
 falling and beneath the long one.
 
+**The first generation of inverse ETFs (June 2006).** Before the QID/SDS pair and long before the 3× funds:
+"There are now new ways for an investor/trader to **short the major market indexes in an IRA without buying put
+options**. Inverse ETF's have been born. They move in the opposite direction of the indexes they track" —
+**PSQ** (QQQQ), **SH** (S&P 500), **DOG** (Dow 30), **MYY** (S&P 400 midcap), with the caveat that "these ETF's
+are thinly traded and should be researched carefully before buying." ([WW 2006-06-27](../../raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md)) The significance he attaches is
+access rather than leverage: an IRA cannot short stock, and until these existed the only route was
+[deep in-the-money puts](#protective-puts--the-2005-original-and-the-put-vs-stop-rule).
+
 ## Protective puts — the 2005 original, and the put-vs-stop rule
 
 The insurance framing is fully formed in **June 2005** — four years before the 2009 tutorial —
@@ -208,3 +217,4 @@ a double bottom near 114.50 and the 30-week flattening.
 - [WW 2006-05-30 — The IBD 100 comparison introduced — growth stocks hold longer-term trends](../../raw/posts/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md) ([summary](../sources/2006-05-30-gmi-0-ibd-100-stocks-stronger-some-shorts-ocean-city-had-light-traffic.md))
 - [WW 2007-01-08 — A low put/call as a topping tell; scaling into inverse ETFs](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md) ([summary](../sources/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md))
 - [WW 2006-07-17 — Why he tracks a fixed IBD 100 list; what cash was paying](../../raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md) ([summary](../sources/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md))
+- [WW 2006-06-27 — Inverse ETFs arrive; new products as a contrary indicator](../../raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md) ([summary](../sources/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md))

@@ -1,7 +1,7 @@
 ---
 title: Risk & cash
 type: concept
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-26-general-market-index-gmi.md
@@ -81,6 +81,8 @@ sources:
   - raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md
   - raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md
   - raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md
+  - raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md
+  - raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md
 ---
 
 # Risk & cash
@@ -319,6 +321,21 @@ typically signal too much bearishness and an imminent bounce.**" ([WW 2012-10-21
 **zone of roughly 1.0–1.25** in which fear becomes actionable, not as a level — and note that in every instance
 it qualifies a decision the trend indicators have already framed.
 
+**Product issuance as a crowding signal (2006).** A sentiment instrument that appears nowhere else in his
+writing, and he applies it to a launch he has just welcomed: "**Typically, not long after investors are so
+interested in a sector that a relevant new ETF is issued, that sector is close to a top** — check out XHB, GLD
+and SLV for recent examples. Too many people may be interested in shorting the major indexes??!! **A new contrary
+indicator?**" ([WW 2006-06-27](../../raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md)) The logic is the same as every other contrarian read on this page — a product exists
+because demand already peaked — and he offers it as a question rather than a rule, which is how it should be
+carried.
+
+**Off the extreme lows is not positive (2008).** A discipline about reading recovering indicators, stated on day
+16 of a down-trend: "**while my most sensitive daily indicators are off of the extreme low values they hit early
+last week, *none* of my indicators have turned positive.**" ([WW 2008-01-28](../../raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md)) Improvement within negative territory is
+not a signal. The companion prior in the same post is a duration one: "**many of the bear markets I have
+witnessed back to the 70's continued for nine months or more. We are only a little more than two months into the
+current decline**" — the argument for patience being a base rate rather than a feeling.
+
 ## Relative strength during declines as a leadership screen
 
 A recurring 2007 theme, and the constructive use of a down-trend: "While this is not the time for me to buy stocks, I find that **declines offer the best opportunity to find the next winners**. The few stocks that can resist the market decline tend to become stars." In August 2007, with 80% of the 440 IBD100 stocks he monitored down since July 19, he listed the ten biggest gainers (ISRG +33%, HMSY +32%, MORN +26%, ANSS +24%, BLUD +22%...) as the pool to focus on "when the market turns." ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
@@ -509,3 +526,5 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2012-10-21 — The two-tier timing rules, written to settle reader confusion](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md) ([summary](../sources/2012-10-21-timing-the-market-short-or-in-cash.md))
 - [WW 2006-07-17 — Why he tracks a fixed IBD 100 list; what cash was paying](../../raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md) ([summary](../sources/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md))
 - [WW 2009-10-26 — Volume buzz defined — volume against its average at that time of day](../../raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md) ([summary](../sources/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md))
+- [WW 2006-06-27 — Inverse ETFs arrive; new products as a contrary indicator](../../raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md) ([summary](../sources/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md))
+- [WW 2008-01-28 — Where 'exits matter more than entries' came from - Covel on the Turtles](../../raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md) ([summary](../sources/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md))

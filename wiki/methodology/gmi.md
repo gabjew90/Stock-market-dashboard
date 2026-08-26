@@ -54,6 +54,9 @@ sources:
   - raw/posts/2015-07-12-schizoid-mr-market.md
   - raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md
   - raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md
+  - raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md
+  - raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md
+  - raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md
 ---
 
 # General Market Index (GMI)
@@ -139,6 +142,15 @@ index *below* its 50-day average: "**When these fund managers are not doing well
 growth stocks.**" ([WW 2007-01-08](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md)) Same proposition from the other side — the component is a read on whether
 professionals running his strategy can currently make it work.
 
+**The denominator floor began as discretion (June 2006).** Twenty months before the rule was published, he was
+already applying it by hand and explaining the override in the post: "there were almost enough successful new
+highs from 10 days ago (**9/15 = 60%**) to turn this indicator positive. While I typically call this index
+positive when 50% or more of the stocks that hit a new high 10 days ago close higher than they did 10 days ago,
+**the numbers here are too small to do so**. If it is above 50% again tomorrow, I will make the indicator
+positive." ([WW 2006-06-27](../../raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md)) So the February 2008 revision codified an existing judgement rather than responding to a
+new problem — and the improvised version was *stricter* than the rule that replaced it, since it also required
+the reading to repeat.
+
 ## The signals — Buy, Sell, and the hold state at 3
 
 The score becomes a *signal* only with persistence, and the two sides are symmetric around 3:
@@ -223,6 +235,16 @@ the inference: "**Regardless, I must ride the trend until it ends. You know bett
 anyone else) to predict when that will be.**" ([WW 2017-01-08](../../raw/posts/2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex.md)) Compare November 2021, where the same
 divergence — new lows surging at an index all-time high — is the one he *did* act on.
 
+**The same count means different things at different points in a trend (2006).** 505 new highs, and rather than
+read it off a scale he goes to the last comparable print: "the last time we had over 500 new highs was on **July
+28 (522 highs), just before the August 2nd top in the QQQQ**." What distinguishes the two is the trend's age, and
+he makes it quantitative — at the July reading 81% of stocks were above their 10-week averages against 76% now,
+and 57% were in a short-term up-trend against 49% now; "moreover, **last July the QQQQ had been rallying for about
+a month, while the QQQQ short term trend just broke out again last week**." ([WW 2006-01-09](../../raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md)) A high new-high count late
+in an advance is exhaustion; the same count on day 2 of a new up-trend is initiation. Note also that the *weaker*
+supporting breadth accompanies the *better* headline number, which is the pattern that makes the raw count on its
+own unreliable.
+
 ## Evolution
 
 The index itself has not changed since 2005; what changed is the family of companion measures around it, chronicled on [The GMI family](gmi-family.md).
@@ -239,6 +261,13 @@ deterioration in the Dow and S&P 500 stocks.**" Written January 2008 with SPY an
 below their 30-week averages while the GMI still read 4+. Four of the six components key on
 QQQ/breadth; only one watches SPY — so a rotation away from tech can leave the GMI optimistic.
 The WPM and the per-index stage checks exist partly to cover this flank. ([WW 2008-01-02](../../raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md))
+
+**Demonstrated live, and named in the same sentence (2017).** July 2017: T2108 "climbed to its highest level
+since April, while the QQQ continued to break support," with 58% of all US stocks rising against "only 27% of the
+Nasdaq 100 stocks." His own gloss: "**My GMI (General Market Index), which is heavily weighted toward the QQQ**,
+rose one and just avoided a Red signal." ([WW 2017-07-04](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md)) The broad-market gauge and the index gauge pointed opposite
+ways, and he read the GMI's move as an artefact of its construction rather than as information about the market —
+which is the blind spot working exactly as the 2008 post said it would.
 
 ## A limitation he published himself (2015)
 
@@ -414,3 +443,6 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2015-07-12 — Buying on GMI Sell signals would have worked — and why he doesn't mind](../../raw/posts/2015-07-12-schizoid-mr-market.md) ([summary](../sources/2015-07-12-schizoid-mr-market.md))
 - [WW 2007-01-08 — A low put/call as a topping tell; scaling into inverse ETFs](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md) ([summary](../sources/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md))
 - [WW 2010-04-12 — The GMI's 2008-2010 signal record, with dates](../../raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md) ([summary](../sources/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md))
+- [WW 2017-07-04 — The GMI's QQQ bias demonstrated live; biotech position sizing](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md) ([summary](../sources/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md))
+- [WW 2006-01-09 — The same breadth reading means different things at different points in a trend](../../raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md) ([summary](../sources/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md))
+- [WW 2006-06-27 — Inverse ETFs arrive; new products as a contrary indicator](../../raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md) ([summary](../sources/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md))
