@@ -40,6 +40,8 @@ sources:
   - raw/posts/2025-03-09-bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced.md
   - raw/posts/2020-07-13-blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer.md
   - raw/posts/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md
+  - raw/posts/2020-02-09-81st-day-of-qqq-short-term-up-trend-heading-for-record-glb-amzn.md
+  - raw/posts/2022-07-31-day-10-of-qqq-short-term-up-trend-since-day-1-qqq-9-tqqq-27-7-beating-all-nasdaq100-stocks-and-all-but-2-sp50.md
 ---
 
 # QQQ Short-Term Timing
@@ -179,6 +181,23 @@ of new QQQ short term down-trends end in less than 5 days**. I subsequently **tw
 me like the current down-trend might end on Tuesday**… **I sold my small position in SQQQ and bought a little
 TQQQ.**" ([WW 2024-01-08](../../raw/posts/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md)) A dated forecast, published, and acted on by reversing the position.
 
+**Day 1 and Day 5 are not competing rules (2022).** The two look incompatible — enter on day 1 for the price,
+wait past day 5 because 40% of down-trends abort — and he states the reconciliation directly: "**The key is to
+buy TQQQ on Day 1 even though the new up-trend is most suspect. I have also written that a change in the short
+term trend is most reliable after it reaches Day 5. The key to this strategy is to slowly accumulate the triple
+leveraged ETF.**" ([WW 2022-07-31](../../raw/posts/2022-07-31-day-10-of-qqq-short-term-up-trend-since-day-1-qqq-9-tqqq-27-7-beating-all-nasdaq100-stocks-and-all-but-2-sp50.md)) You do both, by **scaling**: a small day-1 position captures the price,
+additions after day 5 capture the confirmation, and the average entry lands between them. That is the
+[pilot buy](risk-and-cash.md#position-management-within-a-bull-market) structure, and it is what makes a day-1
+entry survivable at all. Measured that run: QQQ +9%, **TQQQ +27.7%, beating all Nasdaq-100 stocks and all but 2
+in the S&P 500.**
+
+**And the record-setting trend, seen from inside it (February 2020).** At day 81, with the population's maximum
+at 88: "**since 2006, the longest QQQ short term up-trend has lasted 88 days. The longer term trends are still
+up, so this shorter term trend indicator may shatter the record.**" ([WW 2020-02-09](../../raw/posts/2020-02-09-81st-day-of-qqq-short-term-up-trend-heading-for-record-glb-amzn.md)) It did — 91 days, ending
+24 February 2020. A useful check on hindsight: fifteen days before the COVID top, nothing in his framework was
+flashing except the trend's age, and sentiment (47.6% bulls, "a wall of worry") argued for staying long. He noted
+the age, stayed with the trend, and declined to anticipate — which is what his rules require.
+
 ## Relationship to the GMI
 
 The QQQ short-term timing count is separate from, but published alongside, the GMI. Several GMI components measure the QQQ's daily and weekly trend — the short-term count overlaps with these but is more granular (it counts days; the GMI components are binary). When the GMI goes GREEN (≥ 4), the QQQ is typically also in a short-term up-trend. When the GMI flashes RED (≤ 3), the QQQ short-term count is typically down.
@@ -279,3 +298,5 @@ up-trend can only be young or old relative to the distribution of previous ones,
 - [WW 2025-03-09 — bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced](../../raw/posts/2025-03-09-bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced.md) ([summary](../sources/2025-03-09-bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced.md))
 - [WW 2020-07-13 — blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer](../../raw/posts/2020-07-13-blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer.md) ([summary](../sources/2020-07-13-blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer.md))
 - [WW 2024-01-08 — blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings](../../raw/posts/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md) ([summary](../sources/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md))
+- [WW 2020-02-09 — 81st-day-of-qqq-short-term-up-trend-heading-for-record-glb-amzn](../../raw/posts/2020-02-09-81st-day-of-qqq-short-term-up-trend-heading-for-record-glb-amzn.md) ([summary](../sources/2020-02-09-81st-day-of-qqq-short-term-up-trend-heading-for-record-glb-amzn.md))
+- [WW 2022-07-31 — day-10-of-qqq-short-term-up-trend-since-day-1-qqq-9-tqqq-27-7-beating-all-nasdaq100-stocks-and-all-but-2-sp50](../../raw/posts/2022-07-31-day-10-of-qqq-short-term-up-trend-since-day-1-qqq-9-tqqq-27-7-beating-all-nasdaq100-stocks-and-all-but-2-sp50.md) ([summary](../sources/2022-07-31-day-10-of-qqq-short-term-up-trend-since-day-1-qqq-9-tqqq-27-7-beating-all-nasdaq100-stocks-and-all-but-2-sp50.md))

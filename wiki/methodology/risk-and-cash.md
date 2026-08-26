@@ -114,6 +114,7 @@ sources:
   - raw/posts/2009-01-29-gmi-1-gmi-r-4-t2108-61.md
   - raw/posts/2010-12-28-qqqq-short-term-up-trend-reaches-25th-day.md
   - raw/posts/2018-11-11-indicators-are-on-edge-of-cliff-will-new-up-trend-hold-20-strong-stocks.md
+  - raw/posts/2021-08-05-blog-post-day-49-of-qqq-short-term-up-trend-bntx-signals-climax-top.md
 ---
 
 # Risk & cash
@@ -262,6 +263,17 @@ premium the market's fear has inflated pays for part of the risk it is imposing.
 anxious I became about the market and how much my judgment was impaired**." ([WW 2009-12-21](../../raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md)) And in 2011, after a
 similar stretch: "I am tired of listening to them pontificate about how long the decline will last… **no one
 knows the answers to such questions.**" ([WW 2011-08-22](../../raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md)) See [noise isolation](#noise-isolation-as-a-precondition-for-clear-analysis).
+
+**The climax top — a single-stock exhaustion signal (2021).** Defined by the combination rather than by any
+element: "**When a stock that has been on a tear has a large gain on the highest volume in many days it can be a
+sign of a top.** Note that it is **extended outside the upper 15.2 daily Bollinger band.**" ([WW 2021-08-05](../../raw/posts/2021-08-05-blog-post-day-49-of-qqq-short-term-up-trend-bntx-signals-climax-top.md))
+An advance already well established, an unusually large single-day gain, and the **highest volume in many days**,
+with the band excursion confirming the extension.
+
+The logic inverts the breakout: high volume on a breakout is demand *arriving*; high volume on a large gain at
+the end of a long advance is the **last buyers** arriving, with nobody behind them. The same volume reading means
+opposite things depending on where in the move it occurs — the clearest case in the corpus of a signal whose
+meaning is positional rather than absolute.
 
 ## Position management within a bull market
 
@@ -868,3 +880,4 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2009-01-29 — gmi-1-gmi-r-4-t2108-61](../../raw/posts/2009-01-29-gmi-1-gmi-r-4-t2108-61.md) ([summary](../sources/2009-01-29-gmi-1-gmi-r-4-t2108-61.md))
 - [WW 2010-12-28 — qqqq-short-term-up-trend-reaches-25th-day](../../raw/posts/2010-12-28-qqqq-short-term-up-trend-reaches-25th-day.md) ([summary](../sources/2010-12-28-qqqq-short-term-up-trend-reaches-25th-day.md))
 - [WW 2018-11-11 — indicators-are-on-edge-of-cliff-will-new-up-trend-hold-20-strong-stocks](../../raw/posts/2018-11-11-indicators-are-on-edge-of-cliff-will-new-up-trend-hold-20-strong-stocks.md) ([summary](../sources/2018-11-11-indicators-are-on-edge-of-cliff-will-new-up-trend-hold-20-strong-stocks.md))
+- [WW 2021-08-05 — blog-post-day-49-of-qqq-short-term-up-trend-bntx-signals-climax-top](../../raw/posts/2021-08-05-blog-post-day-49-of-qqq-short-term-up-trend-bntx-signals-climax-top.md) ([summary](../sources/2021-08-05-blog-post-day-49-of-qqq-short-term-up-trend-bntx-signals-climax-top.md))

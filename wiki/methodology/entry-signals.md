@@ -37,6 +37,8 @@ sources:
   - raw/posts/2025-12-10-blog-post-day-9-of-qqq-short-term-up-trend-jnj-had-a-blue-dot-of-happiness-setup-early-wednesday-i-tweeted-ab.md
   - raw/posts/2013-11-18-27th-day-of-qqq-short-term-up-trend-bollinger-band-constrains-qqq.md
   - raw/posts/2017-08-19-new-qqq-short-term-down-trend-in-cash-come-back-at-halloween.md
+  - raw/posts/2021-04-11-blog-post-6th-day-of-qqq-short-term-up-trend-and-the-gmi-is-green-earnings-on-deck-aapl-dell-cmbm-moved-up-af.md
+  - raw/posts/2024-04-10-blog-post-day-4-of-qqq-short-term-down-trend-more-us-new-lows-than-highs-gmi-falls-to-2-and-could-turn-red-qq.md
 ---
 
 # Entry signals — BOS, the dots, and the daily bounce setups
@@ -101,6 +103,34 @@ caveat worth carrying: "**sometimes blue dots occur in the morning but the stock
 The dot is defined on a daily close, so a morning crossing can un-cross by the bell — the same reason the
 [3:45 PM rule](scans.md#the-biotech-scan--volume-plus-news-catalyst) exists, applied to a signal rather than an
 order. Volume on the bounce day is the confirming statistic, as on a breakout.
+
+## The dot family, and the one rule underneath it
+
+Four dots, three bullish and one bearish, all read off the same daily chart:
+
+| Dot | Condition | Meaning |
+|---|---|---|
+| **Green** | fast 10.4 stochastic crosses above its 10.4.4 signal line, preferably below 50 | up-trend resuming after a dip |
+| **Black** | short-term oversold, then a **close above the 30-day or 21-day EMA** ([WW 2021-04-11](../../raw/posts/2021-04-11-blog-post-6th-day-of-qqq-short-term-up-trend-and-the-gmi-is-green-earnings-on-deck-aapl-dell-cmbm-moved-up-af.md)) | oversold bounce confirmed |
+| **Blue** | daily 10.4 oversold stochastic **climbing back above 20** | bounce from an oversold extreme |
+| **Red** | closes **down** on a day it exceeded the **upper 15.2 Bollinger Band** ([WW 2024-04-10](../../raw/posts/2024-04-10-blog-post-day-4-of-qqq-short-term-down-trend-more-us-new-lows-than-highs-gmi-falls-to-2-and-could-turn-red-qq.md)) | a failed excursion — do not buy |
+
+**The red dot is the only bearish member**, added in April 2024: "**a red dot indicates that a stock closes down
+on the day it exceeded its upper daily 15.2 Bollinger Band. I do not want to buy on a red dot bar and sometimes
+may want to sell or trade a potential decline.**" It follows directly from the
+[band rationale](#bollinger-bands--the-settings-the-bounce-the-pinch): an excursion above the upper band is
+either a breakout or a reversion, and a down close resolves it as the latter — the breakout exception failing in
+real time.
+
+**And the principle all four serve**, stated most plainly with the black dot: "**Buying an oversold bounce is
+minimal risk for me. If the bounce fails I can quickly exit with a small loss. I prefer this strategy to buying
+break-outs. It works best for me with up-trending stocks near all-time highs.**" ([WW 2021-04-11](../../raw/posts/2021-04-11-blog-post-6th-day-of-qqq-short-term-up-trend-and-the-gmi-is-green-earnings-on-deck-aapl-dell-cmbm-moved-up-af.md)) Note the
+ranking is argued from **risk, not hit rate** — he does not claim bounces work more often, only that being wrong
+costs less. That single argument is what unifies the dots, the [BOS](#bos-bounce-off-support--the-preferred-alternative-to-buying-at-the-glb-introduced-2016),
+the [green-line retest](glb-in-practice.md#the-retest-entry--buying-the-bounce-off-the-green-line) and the
+[bounce off the 30-day](#bos-bounce-off-support--the-preferred-alternative-to-buying-at-the-glb-introduced-2016):
+one principle, several signals. The precondition travels with it — an **up-trending stock near an all-time
+high**; none of these setups transfers to a beaten-down name.
 
 ## The dots in practice
 
@@ -270,3 +300,5 @@ it. The 2005 version leaves both to judgement.
 - [WW 2025-12-10 — blog-post-day-9-of-qqq-short-term-up-trend-jnj-had-a-blue-dot-of-happiness-setup-early-wednesday-i-tweeted-ab](../../raw/posts/2025-12-10-blog-post-day-9-of-qqq-short-term-up-trend-jnj-had-a-blue-dot-of-happiness-setup-early-wednesday-i-tweeted-ab.md) ([summary](../sources/2025-12-10-blog-post-day-9-of-qqq-short-term-up-trend-jnj-had-a-blue-dot-of-happiness-setup-early-wednesday-i-tweeted-ab.md))
 - [WW 2013-11-18 — 27th-day-of-qqq-short-term-up-trend-bollinger-band-constrains-qqq](../../raw/posts/2013-11-18-27th-day-of-qqq-short-term-up-trend-bollinger-band-constrains-qqq.md) ([summary](../sources/2013-11-18-27th-day-of-qqq-short-term-up-trend-bollinger-band-constrains-qqq.md))
 - [WW 2017-08-19 — new-qqq-short-term-down-trend-in-cash-come-back-at-halloween](../../raw/posts/2017-08-19-new-qqq-short-term-down-trend-in-cash-come-back-at-halloween.md) ([summary](../sources/2017-08-19-new-qqq-short-term-down-trend-in-cash-come-back-at-halloween.md))
+- [WW 2021-04-11 — blog-post-6th-day-of-qqq-short-term-up-trend-and-the-gmi-is-green-earnings-on-deck-aapl-dell-cmbm-moved-up-af](../../raw/posts/2021-04-11-blog-post-6th-day-of-qqq-short-term-up-trend-and-the-gmi-is-green-earnings-on-deck-aapl-dell-cmbm-moved-up-af.md) ([summary](../sources/2021-04-11-blog-post-6th-day-of-qqq-short-term-up-trend-and-the-gmi-is-green-earnings-on-deck-aapl-dell-cmbm-moved-up-af.md))
+- [WW 2024-04-10 — blog-post-day-4-of-qqq-short-term-down-trend-more-us-new-lows-than-highs-gmi-falls-to-2-and-could-turn-red-qq](../../raw/posts/2024-04-10-blog-post-day-4-of-qqq-short-term-down-trend-more-us-new-lows-than-highs-gmi-falls-to-2-and-could-turn-red-qq.md) ([summary](../sources/2024-04-10-blog-post-day-4-of-qqq-short-term-down-trend-more-us-new-lows-than-highs-gmi-falls-to-2-and-could-turn-red-qq.md))

@@ -32,6 +32,7 @@ sources:
   - raw/posts/2020-04-19-since-the-new-qqq-short-term-up-trend-began-tqqq-33-beats-all-but-1-of-nasadq100-sp500-and-dow-30-stocks.md
   - raw/posts/2006-08-30-gmi5-gmi-s-100-qld-at-twice-the-speed-of-qqqq.md
   - raw/posts/2021-11-04-blog-post-day-14-of-qqq-short-term-up-trend-tqqq-strategy-beats-most-stocks-again-since-10-18-tqqq-21-7-beati.md
+  - raw/posts/2023-06-06-blog-post-small-cap-stocks-have-likely-formed-a-bottom-and-started-to-advance-check-out-these-weekly-and-dail.md
 ---
 
 # The leveraged-ETF default — TQQQ on a GMI Buy signal
@@ -143,6 +144,15 @@ supply one, and without the exit rules the amplification runs the other way. The
 stock-picking is characterised as partly a self-image activity, with the leveraged index as the unglamorous
 alternative that pays better.
 
+**The default is a method, not a QQQ strategy (2023).** Applied to the Russell 2000: "**TNA is the triple
+leveraged bullish ETF for IWM, the Russell 2000 index ETF. I prefer to trade TNA, like I trade TQQQ when QQQ is
+in an up-trend.** TNA advanced +8% on Tuesday while IWM advanced +2.6%." ([WW 2023-06-06](../../raw/posts/2023-06-06-blog-post-small-cap-stocks-have-likely-formed-a-bottom-and-started-to-advance-check-out-these-weekly-and-dail.md)) Identify a trend in an
+index, express it through that index's 3× fund — the arithmetic held on the day. And the *timing* rationale is
+the [bear-market leadership sequence](risk-and-cash.md#how-bear-markets-end--the-leadership-sequence) read
+forward: "**now that the tech stocks have moved up, it is fitting that people feel more comfortable buying the
+small caps**." Large caps first, speculative names later, so a small-cap bottom *following* a tech advance is the
+expected order rather than a rotation away from tech.
+
 ## See also
 
 - [Risk & cash](risk-and-cash.md) — the page this was split from; the cash side of the same coin
@@ -182,3 +192,4 @@ alternative that pays better.
 - [WW 2020-04-19 — since-the-new-qqq-short-term-up-trend-began-tqqq-33-beats-all-but-1-of-nasadq100-sp500-and-dow-30-stocks](../../raw/posts/2020-04-19-since-the-new-qqq-short-term-up-trend-began-tqqq-33-beats-all-but-1-of-nasadq100-sp500-and-dow-30-stocks.md) ([summary](../sources/2020-04-19-since-the-new-qqq-short-term-up-trend-began-tqqq-33-beats-all-but-1-of-nasadq100-sp500-and-dow-30-stocks.md))
 - [WW 2006-08-30 — gmi5-gmi-s-100-qld-at-twice-the-speed-of-qqqq](../../raw/posts/2006-08-30-gmi5-gmi-s-100-qld-at-twice-the-speed-of-qqqq.md) ([summary](../sources/2006-08-30-gmi5-gmi-s-100-qld-at-twice-the-speed-of-qqqq.md))
 - [WW 2021-11-04 — blog-post-day-14-of-qqq-short-term-up-trend-tqqq-strategy-beats-most-stocks-again-since-10-18-tqqq-21-7-beati](../../raw/posts/2021-11-04-blog-post-day-14-of-qqq-short-term-up-trend-tqqq-strategy-beats-most-stocks-again-since-10-18-tqqq-21-7-beati.md) ([summary](../sources/2021-11-04-blog-post-day-14-of-qqq-short-term-up-trend-tqqq-strategy-beats-most-stocks-again-since-10-18-tqqq-21-7-beati.md))
+- [WW 2023-06-06 — blog-post-small-cap-stocks-have-likely-formed-a-bottom-and-started-to-advance-check-out-these-weekly-and-dail](../../raw/posts/2023-06-06-blog-post-small-cap-stocks-have-likely-formed-a-bottom-and-started-to-advance-check-out-these-weekly-and-dail.md) ([summary](../sources/2023-06-06-blog-post-small-cap-stocks-have-likely-formed-a-bottom-and-started-to-advance-check-out-these-weekly-and-dail.md))

@@ -247,21 +247,29 @@ re-scraped and **committed** — `raw/posts/` and `raw/posts.jsonl` are now in v
 (see §1). The scrape picked up 39 posts published since the previous 2026-05-11 corpus.
 `raw/url_map.json` still catalogues slug→URL.
 
-**4,246 posts are ingested as of 2026-08-18** (ledger rows): **314 read by hand** (~285
-`teaching`/`trade_example` with a page under `wiki/sources/`, the rest `daily_update` rows carrying
-only a summary), plus **3,932 bulk-tiered** by `ww tier` — routine market notes screened and marked
-`daily_update`, each with a `[bulk-tiered]` summary saying why. **The `long_form` queue is fully
-ingested (175/175).** Run `uv run ww ledger export` after every batch and commit the ledger
-alongside `posts.jsonl`. (The tier regression noted here through 2026-08-18 is resolved: `ww stats`
-by-tier counts are meaningful again.)
+**The corpus is fully ingested as of 2026-08-26: 4,694 / 4,694, queue empty.** By tier:
+**477 `teaching` / `trade_example`** posts, each with a summary page under `wiki/sources/`;
+**4,216 `daily_update`**; **1 `meta`**. Of the daily updates, ~3,900 were screened by `ww tier`
+(each carrying a `[bulk-tiered]` summary saying why) and ~300 were **read individually** during the
+2026-08-26 tail sweep and judged routine — those carry a `[read in the … tail sweep]` summary
+distinguishing "read and found routine" from "screened without reading". Run
+`uv run ww ledger export` after any future batch and commit the ledger alongside `posts.jsonl`.
 
-**The remaining queue is 448 posts** — everything `ww tier` *held* rather than swept: 373 carrying a
-first-person teaching marker in the body and 75 with a long body and no marker. These are untiered
-and un-ingested on purpose ("not yet read" is not a classification). Pick the next batch with
-`uv run ww batch -n 20`, or re-run `uv run ww tier` to see the held list with its reasons, longest
-first. Both hand-triage seams that produced the 314 are worked out — filtering *titles* for teaching
-hooks, then scanning *bodies* for rule statements — so the 448 are what those screens could not
-clear; read them.
+**Nothing is queued.** The 448 posts `ww tier` had held were worked through in fifteen batches
+between 2026-08-18 and 2026-08-26 (see `wiki/log.md`), in descending order of body length. The
+teaching yield fell monotonically as the queue drained — ~60% in the long-body tier, ~30% in the
+first half of the single-marker tail, 15% in the next chunk, ~10% in the last — which is the
+expected shape and is why the final chunks produced more `daily_update` rows than pages. **Not every
+post earns a source page**: a routine note that corroborates documented doctrine is tiered
+`daily_update` with a summary saying so (CLAUDE.md §4 provides for this), and manufacturing a page
+for it would be padding.
+
+**If new posts arrive** (the blog is still publishing), `ww scrape && ww ledger apply` picks them up
+and they will appear as `ingested == false`; ingest them singly per §4. Two tooling notes for that
+work: `scratchpad/tl.py` in a session's scratchpad resolves timeline insertion **by date** rather
+than by a hand-picked anchor heading — anchor-not-found was the failure that broke nearly every
+batch before it existed — and it wires the page's `## Sources` block itself. Write batch scripts with
+the Write tool rather than shell heredocs; heredocs mangle escapes and quote characters repeatedly.
 
 **Known coverage gaps** (full list in the 2026-08-12 lint entry in `wiki/log.md`). *Closed
 2026-08-12:* **OSB / ATHOSB** (now `methodology/oversold-bounce.md`), the **2021 $200 revision**

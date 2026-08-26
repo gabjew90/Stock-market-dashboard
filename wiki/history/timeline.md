@@ -425,6 +425,9 @@ sources:
   - raw/posts/2017-08-19-new-qqq-short-term-down-trend-in-cash-come-back-at-halloween.md
   - raw/posts/2021-12-21-blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000.md
   - raw/posts/2021-03-20-blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck.md
+  - raw/posts/2020-02-09-81st-day-of-qqq-short-term-up-trend-heading-for-record-glb-amzn.md
+  - raw/posts/2021-04-11-blog-post-6th-day-of-qqq-short-term-up-trend-and-the-gmi-is-green-earnings-on-deck-aapl-dell-cmbm-moved-up-af.md
+  - raw/posts/2024-04-10-blog-post-day-4-of-qqq-short-term-down-trend-more-us-new-lows-than-highs-gmi-falls-to-2-and-could-turn-red-qq.md
 ---
 
 # Timeline — evolution of the methodology
@@ -2681,6 +2684,18 @@ the news and media pundits, and to pull the trigger only after a signal has occu
 
 **"Why I sold INMD at $57; following the tweets of some smart traders" (2019-11-24):** the discretionary exit above the mechanical ones — Yahoo at ~$400 pre-split in the 1990s, INMD up ~$9 pre-market, vertical, outside its upper 15.2 daily BB on very heavy volume: "whenever my voice cautions me that way, I sell… When I make money too fast, I sell." Bought November 6 at ATH with a stop below the prior day's low, sold ~$57 (+40% in nine days); INMD closed the week at $41.55. Ideas from @markminervini and @TMLTrader. GMI 4, GMI2 short-term components negative. ([WW 2019-11-24](../../raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md))
 
+## February 2020 (age) — day 81, chasing the record
+
+**"81st day of $QQQ short term up-trend, heading for record" (2020-02-09):** fifteen days before the COVID
+top, and a useful check on hindsight. "**Since 2006, the longest QQQ short term up-trend has lasted 88 days. The
+longer term trends are still up, so this shorter term trend indicator may shatter the record.**" It did — 91
+days, ending 24 February 2020. The post captures the moment two readings conflicted: the trend was historically
+old (day 81 against a maximum of 88) and everything else was fine, with sentiment arguing for staying long
+("**only 47.6% of newsletters are bullish, a sign that there is still a wall of worry**"). He noted the age,
+stayed with the trend and declined to anticipate, which is what his rules require. AMZN's GLB to an all-time high
+on above-average volume is the trade alongside. ([WW 2020-02-09](../../raw/posts/2020-02-09-81st-day-of-qqq-short-term-up-trend-heading-for-record-glb-amzn.md))
+
+
 ## March 2020 — COVID crash: 2020 exit documented; "amputation without anaesthetics"
 
 **"Livermore: Amputation without anaesthetics" (2020-03-15):** written in real time at the start of the COVID crash. GMI had turned Red on February 26, 2020; Dr. Wish was already 100% cash weeks before this post. He identifies SPY as beginning a Weinstein Stage 4 decline (large weekly selling volume; only 3 weeks below the 30-week average). He explicitly does not call the bottom: "I do not care if I miss the bottom or the top. There is plenty of room to make money in between." He emphasizes the tax-deferred account note: IRA/401(k) holders can exit and re-enter without tax consequences. Livermore's "amputation without anaesthetics" quote from 1907 is cited. ([WW 2020-03-15](../../raw/posts/2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p.md))
@@ -2800,6 +2815,19 @@ followed by a top in the other stocks after the laggards rise a little.**" ([WW 
 ## April 2021 (scan) — the Wish-Darvas scan, criteria in full
 
 **"Wish-Darvas scan finds 14 stocks to monitor Monday" (2021-04-18):** >$20; near an ATH; yellowband 5+ weeks; new high within 25 days; closed up today; up >80% from a year ago ("Darvas liked +100%"); bounced off the 21-day EMA or 30-day SMA — 14 of 6,081 stocks. Exit fixed at entry: sell immediately on a *close* below the bounce average. ([WW 2021-04-18](../../raw/posts/2021-04-18-blog-post-wish-darvas-scan-finds-14-stocks-to-monitor-monday-cash-camt-myrg-gm-hibb-wsm-8-others-listed.md))
+
+## April 2021 (signals) — the black dot defined, and bounces ranked above breakouts
+
+**"6th day of QQQ short term up-trend" (2021-04-11):** the black dot's definition and, in the same breath,
+the clearest statement of the preference underneath his whole entry philosophy. "**My black dot signal occurs
+when a stock has been short term oversold and then closes above its 30 day or exp21 day averages. Buying an
+oversold bounce is minimal risk for me. If the bounce fails I can quickly exit with a small loss. I prefer this
+strategy to buying break-outs. It works best for me with up-trending stocks near all-time high[s].**" Four things
+in four sentences — the definition, the reason, the ranking and the precondition — and note that the ranking is
+argued from **risk rather than hit rate**: he does not claim bounces work more often, only that being wrong costs
+less. That single argument unifies the dots, the BOS, the green-line retest and the bounce off the 30-day.
+([WW 2021-04-11](../../raw/posts/2021-04-11-blog-post-6th-day-of-qqq-short-term-up-trend-and-the-gmi-is-green-earnings-on-deck-aapl-dell-cmbm-moved-up-af.md))
+
 
 ## May 2021 — OSB (oversold bounce) named as a setup
 
@@ -3107,6 +3135,18 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 ## March 2024 (scan) — the black-dot ATH scan and its two-day stop
 
 **"Day 44 of $QQQ short term up-trend; QQQ has black dot" (2024-03-12):** "technically strong stocks that are up at least 50% the past year, hit an ATH in the last 10 weeks and had a black dot, or oversold bounce. **If I buy such a stock I place my sell stop just below the low of the past 2 days**"; TQQQ bought the same week. ([WW 2024-03-12](../../raw/posts/2024-03-12-blog-post-day-44-of-qqq-short-term-up-trend-qqq-has-black-dot-oversold-bounce-see-daily-chart-and-list-of-16.md))
+
+## April 2024 (signals) — the red dot, the only bearish member of the family
+
+**"Day 4 of QQQ short term down-trend" (2024-04-10):** a fourth dot, and the first that marks weakness.
+"**Note that I have added a red dot indicator to my primary daily chart. A red dot indicates that a stock closes
+down on the day it exceeded its upper daily 15.2 Bollinger Band. I do not want to buy on a red dot bar and
+sometimes may want to sell or trade a potential decline.**" It follows straight from the band rationale he
+teaches: a close outside the upper band is a statistically unusual event that normally reverts, and the *breakout
+exception* is what rescues it — so a day that pokes above the band and then closes down is that exception failing
+in real time. Added to his primary daily chart, so it runs alongside the green, black and blue dots rather than
+in a separate scan. ([WW 2024-04-10](../../raw/posts/2024-04-10-blog-post-day-4-of-qqq-short-term-down-trend-more-us-new-lows-than-highs-gmi-falls-to-2-and-could-turn-red-qq.md))
+
 
 ## May 2024 — Weekly green bar scan criteria formalized
 
@@ -3669,3 +3709,6 @@ of this change when the GMI=5 or 6, indicating there are sufficient numbers of s
 - [WW 2017-08-19 — new-qqq-short-term-down-trend-in-cash-come-back-at-halloween](../../raw/posts/2017-08-19-new-qqq-short-term-down-trend-in-cash-come-back-at-halloween.md) ([summary](../sources/2017-08-19-new-qqq-short-term-down-trend-in-cash-come-back-at-halloween.md))
 - [WW 2021-12-21 — blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000](../../raw/posts/2021-12-21-blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000.md) ([summary](../sources/2021-12-21-blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000.md))
 - [WW 2021-03-20 — blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck](../../raw/posts/2021-03-20-blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck.md) ([summary](../sources/2021-03-20-blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck.md))
+- [WW 2020-02-09 — 81st-day-of-qqq-short-term-up-trend-heading-for-record-glb-amzn](../../raw/posts/2020-02-09-81st-day-of-qqq-short-term-up-trend-heading-for-record-glb-amzn.md) ([summary](../sources/2020-02-09-81st-day-of-qqq-short-term-up-trend-heading-for-record-glb-amzn.md))
+- [WW 2021-04-11 — blog-post-6th-day-of-qqq-short-term-up-trend-and-the-gmi-is-green-earnings-on-deck-aapl-dell-cmbm-moved-up-af](../../raw/posts/2021-04-11-blog-post-6th-day-of-qqq-short-term-up-trend-and-the-gmi-is-green-earnings-on-deck-aapl-dell-cmbm-moved-up-af.md) ([summary](../sources/2021-04-11-blog-post-6th-day-of-qqq-short-term-up-trend-and-the-gmi-is-green-earnings-on-deck-aapl-dell-cmbm-moved-up-af.md))
+- [WW 2024-04-10 — blog-post-day-4-of-qqq-short-term-down-trend-more-us-new-lows-than-highs-gmi-falls-to-2-and-could-turn-red-qq](../../raw/posts/2024-04-10-blog-post-day-4-of-qqq-short-term-down-trend-more-us-new-lows-than-highs-gmi-falls-to-2-and-could-turn-red-qq.md) ([summary](../sources/2024-04-10-blog-post-day-4-of-qqq-short-term-down-trend-more-us-new-lows-than-highs-gmi-falls-to-2-and-could-turn-red-qq.md))
