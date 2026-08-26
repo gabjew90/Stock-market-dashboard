@@ -1,7 +1,7 @@
 ---
 title: The scans — how he finds candidates in TC2000 and IBD
 type: concept
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md
   - raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md
@@ -40,6 +40,9 @@ sources:
   - raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md
   - raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md
   - raw/posts/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md
+  - raw/posts/2005-06-16-gmi-6-etf-winners-and-losers-interest-rates.md
+  - raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md
+  - raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -121,6 +124,12 @@ In addition to the general RWB/GLB scans, Dr. Wish runs a specialized scan for b
 **General rule:** the scan produces candidates; the news determines which are worth owning. Dr. Wish maintains a growing watchlist of stocks that have appeared in the scan and monitors them over time for further technical strength. He intentionally does not publish specific output because he wants people to do their own due diligence.
 
 **3:45 PM intraday timing rule:** "I restrict most of my daily trading to around 3:45 PM when I can estimate where things will close. If I trade earlier in the day I am often whipsawed." ([WW 2014-09-28](../../raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md)) The rule is older than that post: it appears in **March 2014** — "the key is to wait for the end of the trading day, around 3:45 PM, to see where the market will settle." ([WW 2014-03-30](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md))
+
+**Why the 3:45 PM rule exists.** The habit is derived from the signal definition rather than adopted for
+convenience: "daily *closes* are stressed for signals because **stocks often trade below the red lines during the
+day but recover to close back above them. I therefore like to trade near the market's close so I know how the
+stock will likely close.**" ([WW 2017-12-10](../../raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md)) Every RWB and GLB trigger on this wiki is defined on a close, so the
+only moment at which any of them can be acted on with confidence is just before one.
 
 ## The IBD screener workflow (2020)
 
@@ -283,6 +292,32 @@ The caveat ships with the list: "these stocks are worth researching and monitori
 set-up. **But in a market down-trend, it is critical to use small positions and tight sell stops on any purchase,
 or even better to stay on the sidelines in cash.**"
 
+## The dual-timeframe RWB column filter (2018)
+
+"**I created a column filter in TC2000 to detect equities with RWB up-trends on *both* their daily and weekly
+timeframes.**" ([WW 2018-10-28](../../raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md)) The strictest version of the pattern — a stock must be in an RWB up-trend on the
+daily chart *and* the weekly one — which makes its hit count a breadth statistic in its own right:
+
+- **US stocks, October 2018:** 62 of 4,938 (**1.3%**) qualified. Sorted by one-year appreciation, 16 were up 80%
+  or more — the "Sweet 16" he published for his students.
+- **World-market ETFs, same day:** **0 of 38**, with 34 of them (89%) in weekly BWR down-trends.
+
+He attaches the caveat to his own screen that he had just taught his students about theirs: "**this filter might
+work much better when in a rising market!**" A filter that returns 1.3% is reporting the market, not finding an
+edge in it.
+
+## Ranking ETFs across a trend (2005)
+
+Not a stock screen but a sector read, run over the trend's own duration rather than a calendar period: with the
+QQQQ up 5.2% across a 29-day rally, "**I used TC2005 to run a scan of ETF's when the QQQQ advanced 5.2%**."
+([WW 2005-06-16](../../raw/posts/2005-06-16-gmi-6-etf-winners-and-losers-interest-rates.md)) Leaders that period: OIH +10.5%, EWW +9.5%, IGW +9%, IYE +8.8%, PWT and XLE +8.6%, IIH +8.5% —
+"clearly the oil and energy sectors were the place to be." Laggards: EZA −5%, BHH −4.5%, EWK −2.8%, EWJ −1.6%,
+and the defensive sector funds PPH, IXP, XLP, XLV. Both tails are reported, and the laggards carry the point —
+the pharmaceutical basket "that the pundits have been recommending to conservative investors in difficult times"
+fell while the cyclicals led. The later forms of the same idea are the
+[industry-index variant](#the-rwb-bouncing-off-support-scan-2015--yield-and-an-industry-index-variant) (2015)
+and the industry-group ranking of January 2018.
+
 ## The Darvas EasyScan (2015)
 
 A TC2000 EasyScan he designed to approximate Darvas's selection criteria, run against ~6,000 stocks; on 2015-02-27 it returned 46 names, of which AMBA — above its green-line top, in a weekly RWB pattern — was the example. The criteria are not listed in the post; he points to his 2012 Houston TC2000 webinar for the walk-through. ([WW 2015-03-01](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md))
@@ -338,3 +373,6 @@ It is also the one scan he declines to share: "**Please do not ask me to post my
 - [WW 2015-12-06 — Bouncing off the green line — the retest entry, risk quantified](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md) ([summary](../sources/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))
 - [WW 2022-02-27 — Why an all-time high after a decline means accumulation](../../raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md) ([summary](../sources/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md))
 - [WW 2007-12-03 — A two-sided evidence ledger, and how turnarounds must unfold](../../raw/posts/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md) ([summary](../sources/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md))
+- [WW 2005-06-16 — Ranking ETFs across a trend to find where the strength was](../../raw/posts/2005-06-16-gmi-6-etf-winners-and-losers-interest-rates.md) ([summary](../sources/2005-06-16-gmi-6-etf-winners-and-losers-interest-rates.md))
+- [WW 2018-10-28 — A dual-timeframe RWB filter, and what it returned in a bear market](../../raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md) ([summary](../sources/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md))
+- [WW 2017-12-10 — When to sell - the 13 averages, the gray line, and a graded exit](../../raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md) ([summary](../sources/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md))

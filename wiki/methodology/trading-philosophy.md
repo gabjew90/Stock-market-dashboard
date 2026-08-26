@@ -1,7 +1,7 @@
 ---
 title: Trading philosophy — the five propositions
 type: concept
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md
   - raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md
@@ -37,6 +37,8 @@ sources:
   - raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md
   - raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md
   - raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md
+  - raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md
+  - raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md
 ---
 
 # Trading philosophy — the five propositions
@@ -207,6 +209,19 @@ this wiki claims more than that, and it is why the same reading can be acted on 
 another — see [T2108 at 15 read and declined](risk-and-cash.md#no-need-to-anticipate-the-reversal) and
 [T2108 at 92% read as strength](t2108.md#level-is-read-in-context-not-absolutely).
 
+**Why a technical pattern can repeat at all (2009).** The nearest thing he has written to a justification for the
+whole enterprise, and it is a claim about people rather than about charts: IBD's criteria come from analysing "the
+best stocks over the past 100 years… they actually analyzed the characteristics of past market winners to design
+an empirically based system for selecting winners BEFORE they take off. **Because human trading psychology is
+pretty stable, one can discern lasting technical patterns (which are really trading decisions) that are
+characteristic of winning stocks.**" ([WW 2009-10-12](../../raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md))
+
+"**Technical patterns… are really trading decisions**" is the load-bearing clause. A pattern is not a property of
+a price series; it is the visible residue of many people deciding similarly, and it recurs only to the extent
+that the deciding does. That is also why the same setup carries a different base rate in a different regime (see
+[rule 10](trading-psychology.md#10-the-seductive-stock-in-a-bad-market--and-the-safety-valve)) — the decisions
+change even though the shape does not.
+
 ## Simple beats clever
 
 "Patterns are meant to be broken. **The road is littered with the carcasses of Ph.D.'s who
@@ -306,6 +321,25 @@ the next guy will sell.**" The news is constant; the interpretation is regime-de
 the same setup as having a different base rate in a bear market — see
 [trading psychology, rule 10](trading-psychology.md#10-the-seductive-stock-in-a-bad-market--and-the-safety-valve).
 
+## The method in one paragraph, in his own words
+
+A welcome note to new readers in July 2010 states the whole thing more compactly than any of the numbered
+propositions ([WW 2010-07-30](../../raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md)):
+
+> "I rely heavily upon my General Market Index (GMI) to keep me on the same side as the major market trend. The
+> GMI is a simple count of the six indicators that I use to gauge the market's short and longer term trends. **I
+> exit to cash when my indicators signal a major down-trend, usually when the GMI is below 3. I wade back into
+> the market slowly when the GMI recovers. I do not predict the length of trends, I try only to ride them until
+> they end.**"
+
+Everything on this page is an elaboration of the last sentence. The same post gives the background he brings to
+it — "as a **part-time trader**, I have educated myself through extensive reading of the works of successful
+traders and **through analysis of my own trading performance**. **I bring my training as a research psychologist
+to the subject of trading**" — and the reason the blog exists at all: to teach his University of Maryland
+classes, and because "**I believe that our education system has failed to prepare its citizens for their
+financial survival.** My students learn to greet assertions and advice from the pundits in the financial media
+with a heavy dose of skepticism and their own critical analysis."
+
 ## The lineage he names
 
 The influences are stated, not implied: Darvas (the first book he assigns), Weinstein's stage analysis, O'Neil, Livermore via Lefèvre, Guppy for the multiple-moving-average charts, and — from October 2016 — Mark Minervini and David Ryan, after three days at Minervini's Master Trader Program: "600 slides that taught everything from how to select stocks, the price patterns that are most profitable, the way to set stops, pyramid up, and close out positions. They gave the best information on the value of cutting losses that I have ever seen… He has put into a 3 day session much of what it took me over 50 years to learn." Both offered to lecture his students, and the later @markminervini / MarketSmith / VCP references on the blog trace to this. ([WW 2016-10-25](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))
@@ -354,3 +388,5 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2005-11-20 — Darvas sourced; the trend-odds measured a third time (81%)](../../raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md) ([summary](../sources/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md))
 - [WW 2008-01-28 — Where 'exits matter more than entries' came from - Covel on the Turtles](../../raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md) ([summary](../sources/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md))
 - [WW 2009-12-27 — The naive participant, at both poles](../../raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md) ([summary](../sources/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md))
+- [WW 2009-10-12 — The IBD 100's top ten audited; why he trusts an empirical screen](../../raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md) ([summary](../sources/2009-10-12-ibd-100-list-top-ten-do-outperform.md))
+- [WW 2010-07-30 — The blog's statement of purpose, and the method in one paragraph](../../raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md) ([summary](../sources/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md))

@@ -1,7 +1,7 @@
 ---
 title: The GMI family — GMI-S, GMI-L, GMI-R, GMI2 and the rest of the daily table
 type: concept
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md
   - raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md
@@ -26,6 +26,7 @@ sources:
   - raw/posts/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md
   - raw/posts/2006-02-13-gmi-4-gmi-s-25-small-caps-weaken-on-side-lines.md
   - raw/posts/2006-03-06-gmi-6-short-housing.md
+  - raw/posts/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md
 ---
 
 # The GMI family — GMI-S, GMI-L, GMI-R, GMI2 and the rest of the daily table
@@ -104,6 +105,15 @@ diverge sharply at turns — GMI-R at 4+ while the GMI read 1+ in December 2007 
 is itself the reading rather than a contradiction to be resolved. The same relationship the
 [GMI-2 has today](#2011--2026--gmi2-a-growing-companion-index-not-a-fixed-6), including its capacity to improve
 while the market deteriorates.
+
+**Introduced 16 October 2007 — the first appearance of "GMI-R" in the corpus.** "After much thought, **I have
+revised the GMI by adding 4 new indicators, signified by an '\*'. The GMI-R ranges from 0-10 and may provide a
+more sensitive measure of the trend of the general market. For the time being, I will post the original GMI and
+the revised GMI-R in the table for the benefit of readers who use the original index.**" ([WW 2007-10-16](../../raw/posts/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md)) Three
+design facts in one paragraph: the extra four are **marked with an asterisk** in the published table, the target
+is **sensitivity**, and both indexes run in parallel **for readers' sake** rather than for analytical reasons —
+a compatibility decision. It arrived three days after the October 2007 market top, with T2108 already down to 67%
+from 82%.
 
 ## The dashboard in live use — April 2008
 
@@ -243,3 +253,4 @@ small caps in November 2005.
 - [WW 2007-12-03 — A two-sided evidence ledger, and how turnarounds must unfold](../../raw/posts/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md) ([summary](../sources/2007-12-03-gmi-1-gmi-r-4-my-take-on-the-market-some-possible-leaders.md))
 - [WW 2006-02-13 — A new breadth statistic introduced; small caps break ranks first](../../raw/posts/2006-02-13-gmi-4-gmi-s-25-small-caps-weaken-on-side-lines.md) ([summary](../sources/2006-02-13-gmi-4-gmi-s-25-small-caps-weaken-on-side-lines.md))
 - [WW 2006-03-06 — The housing top called; long bonds turning in 2006](../../raw/posts/2006-03-06-gmi-6-short-housing.md) ([summary](../sources/2006-03-06-gmi-6-short-housing.md))
+- [WW 2007-10-16 — The GMI-R introduced - dated](../../raw/posts/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md) ([summary](../sources/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md))

@@ -1,7 +1,7 @@
 ---
 title: Stock selection
 type: concept
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
@@ -74,6 +74,7 @@ sources:
   - raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md
   - raw/posts/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md
   - raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md
+  - raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md
 ---
 
 # Stock selection
@@ -458,6 +459,18 @@ Earlier (2012) IBD50 data: from December 2011 through April 2012, IBD50 median g
 
 The survivorship mechanism seen live (February 2009): a third of the IBD100 replaced in three weeks — "that is why it is misleading to take IBD's claims for the outperformance of the IBD 100 stocks at face value" — yet "I confine almost all of my buys to IBD 100 stocks because they do so well in up markets. In a bear market, however, they can do poorly" (80% of the January list below its publication price). ([WW 2009-02-15](../../raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md))
 
+**The top-ten audit, built to test a criticism (2009).** The claim he set out to check was that "**by the time
+that a stock gets to the top of the IBD 100 list, it is too late to trade it for a profit**." Taking the top ten
+of the list published 3 August 2009 and measuring the following ~50 days: "**70% of these ten stocks that were at
+the top of the IBD 100 list outperformed the QQQQ and SPY**." Replicated on the 27 July list — which "**also
+showed that 70% beat these two averages**." ([WW 2009-10-12](../../raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md)) He notes the path dependence rather than hiding it
+("some of these 10 stocks declined before they recovered"), and the conclusion is deliberately weak: the top ten
+"**may be worth investigating for potential buys**."
+
+Note what sits alongside it in the same post: TYH, the 3× technology ETF, rose 25% over the same window — "again
+showing the advantage of riding these ETF's over individual stocks." The audit vindicates the list *and*
+undercuts the reason for using it, and he prints both.
+
 ## The pilot portfolio — 25-share radar positions (2014)
 
 The pilot buy scaled to a watchlist: across 11 biotech GLB candidates in a down-trend, "buy a
@@ -572,3 +585,4 @@ guide me**." ([WW 2005-07-19](../../raw/posts/2005-07-19-enjoy-the-earnings-rall
 - [WW 2018-01-01 — The red lines and the blue lines read as two different warnings](../../raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md) ([summary](../sources/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md))
 - [WW 2005-07-19 — The earnings rally, and why he uses sell stops](../../raw/posts/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md) ([summary](../sources/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md))
 - [WW 2016-03-27 — When GLBs stop working - regime, not technique](../../raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md) ([summary](../sources/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md))
+- [WW 2009-10-12 — The IBD 100's top ten audited; why he trusts an empirical screen](../../raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md) ([summary](../sources/2009-10-12-ibd-100-list-top-ten-do-outperform.md))

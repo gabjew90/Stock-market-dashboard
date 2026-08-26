@@ -1,7 +1,7 @@
 ---
 title: Glossary
 type: concept
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md
   - raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md
@@ -69,6 +69,7 @@ sources:
   - raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md
   - raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md
   - raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md
+  - raw/posts/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md
 ---
 
 # Glossary
@@ -117,7 +118,7 @@ Every term Dr. Wish coins or uses, defined in a sentence or two, with a first-ap
 
 **GMI-L** — Dr. Wish's "longer term measure of weekly trends," reported as a percentage positive and published alongside the GMI through the typepad era (roughly 2006–2008). It is the slow counterpart to the GMI-S. Its diagnostic use is comparative: it fell to **31%** in December 2007, "the lowest since it hit 20% in August 2006," whereas "in the two declines in 2007 (March and August), the GMI-L never fell below 50%" — so a reading under 50% distinguished the onset of the 2008 bear from an ordinary correction. It still read 94% days after the October 2007 top. Component list undisclosed; discontinued in the daily posts after the typepad era. See [gmi.md](gmi.md). ([WW 2007-10-29](../../raw/posts/2007-10-29-gmi-4-gmi-r-8-gmi-performance-judys-pick-cytr.md), [WW 2007-12-17](../../raw/posts/2007-12-17-gmi-0-gmi-r-0-gmi-l-31-why-fight-the-odds.md))
 
-**GMI-R** — an intermediate composite (GMI's 6 components + 4 more = 10 total) used between 2005 and 2011, before being replaced by the GMI2. No decision rules were tied to it.
+**GMI-R** — an intermediate composite (the GMI's 6 components + 4 more = 10 total), **introduced 16 October 2007** and retired when the GMI2 replaced it in 2011. The four additions were marked with an asterisk in the published table, and both indexes ran in parallel "for the benefit of readers who use the original index." Its stated purpose was sensitivity — it "may provide a more sensitive measure of the trend of the general market," and it "has a number of shorter term indicators that can detect a change in trend earlier," which is why it and the GMI diverge at turns by construction. No decision rules were tied to it. See [gmi-family.md](gmi-family.md#intermediate--gmi-r-10-components-with-its-four-extra-indicators-named). Introduced: ([WW 2007-10-16](../../raw/posts/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md))
 
 **GMI-S** — a 0–100 "strength" variant of the GMI that Dr. Wish reported during the typepad era (2005–2008) of the blog. Where the GMI is binary-sum (each component is 0 or 1), the GMI-S appears to reflect the degree of internals participation — a higher GMI-S alongside a given GMI value indicates stronger breadth than a lower one. He would note, for example, that the GMI remained at +6 "but the GMI-S declined to 69" as a warning that strength was softening. After roughly 2008 the indicator was discontinued in his daily posts. **Construction, disclosed in 2007:** it is the percentage of **16 short-term indicators applied across IJR, DIA, SPY and QQQQ** that are currently positive — "Only one of the 16 short term indicators for the IJR, DIA, SPY and QQQQ is positive (GMI-S: 6%)." The individual sixteen are not named. First appearance: ([WW 2006-02-01](../../raw/posts/2006-02-01-gmi-6-gmi-s-lower-goog-markets-forming-top.md)); construction: ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
 
@@ -276,3 +277,4 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 - [WW 2018-02-04 — Put/call 1.2 and stochastic .20; the monthly top signature in three stages](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md) ([summary](../sources/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))
 - [WW 2009-10-26 — Volume buzz defined — volume against its average at that time of day](../../raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md) ([summary](../sources/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md))
 - [WW 2016-05-01 — GMMA on the dollar and gold; the down-sloping neckline](../../raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md) ([summary](../sources/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md))
+- [WW 2007-10-16 — The GMI-R introduced - dated](../../raw/posts/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md) ([summary](../sources/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md))

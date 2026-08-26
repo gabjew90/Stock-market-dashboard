@@ -1,7 +1,7 @@
 ---
 title: GMMA charts — RWB / BWR, the daily RWB system, and the timeframe ladder
 type: concept
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md
   - raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md
@@ -41,6 +41,8 @@ sources:
   - raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md
   - raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md
   - raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md
+  - raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md
+  - raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md
 ---
 
 # GMMA charts — RWB / BWR, the daily RWB system, and the timeframe ladder
@@ -181,6 +183,21 @@ counter rather than an exit trigger when applied to an index — and it is the d
 At the *stock* level the same post gives the exit plainly: "**I don't wait around holding declining stocks. Buy
 and hope is not my style. Once a stock closes 2 days below its red lines I like to exit.**"
 
+**The full specification, and the line that actually gives the signal (2017).** Thirteen exponential averages,
+listed: "**my modified GMMA consists of 13 *exponential* moving averages (1, 3, 5, 8, 10, 12, 15, 30, 35, 40, 45,
+50, 60). The '1' period average is a gray dotted line and represents the daily close.** The 3-15 shorter averages
+are red and the longer averages (30+) are in blue." ([WW 2017-12-10](../../raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md)) The "1" is not a moving average at all — it is
+the close, drawn as a line so it can be compared with the bands, and **it is the thing that triggers**:
+
+> "In an up-trend, the gray dotted line will be mainly on top, leading all of the red lines higher. **When the
+> gray line *closes* below all of the red lines it is a sign of weakness and I consider selling or lightening up
+> on my position**… **I try not to sell a stock when the gray dotted line is holding up.**"
+
+That last clause is a rule against exiting on band compression alone: if price is still leading the red lines,
+a narrowing white space is not yet a sell. The graded exit that follows is on
+[the exits playbook](../playbooks/exits.md); the reason he trades near the close is on
+[scans](scans.md#the-biotech-scan--volume-plus-news-catalyst).
+
 ## Guppy weekly chart as a bear-market bottom detector
 
 The Guppy/GMMA weekly chart is not only a stock-selection tool — Dr. Wish also applies it to major market indices (e.g., the Dow Jones) to evaluate whether a bear-market bottom has truly been established.
@@ -276,6 +293,12 @@ below **all 12 GMMA averages**, lowest is currently at 269.55, then **it will be
 positions**." Stated with a concrete price during the October 2020 pullback — the strictest form
 of the RWB-gone test, sitting below the red-line and 10-week exits in his ladder. ([WW 2020-10-04](../../raw/posts/2020-10-04-how-i-used-the-ibd-screener-to-identify-36-launched-rocket-stocks-even-so-the-market-remains-in-short-term-do.md))
 
+**Both timeframes at once, as a scan (2018).** The strictest form of the pattern is a conjunction across
+timeframes, and he built it as a column: "**I created a column filter in TC2000 to detect equities with RWB
+up-trends on *both* their daily and weekly timeframes.**" ([WW 2018-10-28](../../raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md)) Its yield doubles as a market reading —
+in October 2018, **62 of 4,938 US stocks (1.3%)** qualified, and **0 of the 38 country ETFs** he follows, with
+34 of those 38 (89%) in weekly BWR down-trends. See [scans](scans.md#the-dual-timeframe-rwb-column-filter-2018).
+
 ## Consolidation is what health looks like
 
 Against 2014 punditry bemoaning a flat tape: "These indexes are all up over 30% since 2013 and
@@ -330,3 +353,5 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2016-05-01 — GMMA on the dollar and gold; the down-sloping neckline](../../raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md) ([summary](../sources/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md))
 - [WW 2015-12-06 — Bouncing off the green line — the retest entry, risk quantified](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md) ([summary](../sources/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))
 - [WW 2018-01-01 — The red lines and the blue lines read as two different warnings](../../raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md) ([summary](../sources/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md))
+- [WW 2017-12-10 — When to sell - the 13 averages, the gray line, and a graded exit](../../raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md) ([summary](../sources/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md))
+- [WW 2018-10-28 — A dual-timeframe RWB filter, and what it returned in a bear market](../../raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md) ([summary](../sources/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md))

@@ -1,7 +1,7 @@
 ---
 title: Playbook — exits
 type: playbook
-updated: 2026-08-18
+updated: 2026-08-26
 sources:
   - raw/posts/2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20.md
   - raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md
@@ -17,6 +17,7 @@ sources:
   - raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
   - raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md
+  - raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md
 ---
 
 # Playbook — exits
@@ -119,6 +120,24 @@ So the operating rule *as of his most recent statements* is: **weekly first, alw
 
 - One discretionary exit sits above the mechanical ones: when a position goes vertical — outside its upper 15.2 daily Bollinger Band on very heavy volume — and "making money [feels] too easy," he sells (INMD, +40% in nine days, sold ~$57; it closed the week at $41.55). Stated as a rule on [trading psychology](../methodology/trading-psychology.md#7-when-it-feels-too-easy-sell). ([WW 2019-11-24](../../raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md))
 
+## The daily-RWB exit, graded
+
+Two thresholds, not one — the same two-tier structure the index chart uses. His rules, verbatim ([WW 2017-12-10](../../raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md)):
+
+> "Only go long stocks in a daily RWB up-trend, and **consider raising stops, selling or reducing my position
+> when the stock *closes* (preferably 2 consecutive days) below all of the red lines. Sell the entire position
+> when the RWB pattern totally disappears.**"
+
+| Trigger | Action |
+|---|---|
+| Close below all six red lines (preferably 2 consecutive) | raise stops, or reduce |
+| The RWB pattern itself gone — white space closed, red no longer above blue | sell the whole position |
+
+Signals are defined on **closes** because "stocks often trade below the red lines during the day but recover to
+close back above them" — which is why he trades near the close (the
+[3:45 PM rule](../methodology/scans.md#the-biotech-scan--volume-plus-news-catalyst)). Doctrine and the chart's
+construction are on [GMMA charts](../methodology/gmma-charts.md#the-daily-rwb-chart--a-finer-grained-tool).
+
 ## See also
 
 - [Buying a GLB](buying-glb.md)
@@ -143,3 +162,4 @@ So the operating rule *as of his most recent statements* is: **weekly first, alw
 - [WW 2020-09-20 — The weekly doubler-ATH scan, full syntax; the note on the monitor](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md) ([summary](../sources/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
 - [WW 2005-05-26 — BUY AND SELL AT THE MARKET; the standing re-entry buy-stop; Lynch's method](../../raw/posts/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md) ([summary](../sources/2005-05-26-cramer-and-limit-orders-orct-and-pnra-gmi-back-to-5.md))
 - [WW 2019-11-24 — Why I sold INMD at $57; the too-easy voice](../../raw/posts/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md) ([summary](../sources/2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader.md))
+- [WW 2017-12-10 — When to sell - the 13 averages, the gray line, and a graded exit](../../raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md) ([summary](../sources/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md))

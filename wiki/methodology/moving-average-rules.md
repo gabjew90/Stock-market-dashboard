@@ -1,7 +1,7 @@
 ---
 title: Moving-average rules
 type: entity
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
@@ -62,6 +62,7 @@ sources:
   - raw/posts/2006-03-06-gmi-6-short-housing.md
   - raw/posts/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md
   - raw/posts/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md
+  - raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md
 ---
 
 # Moving-average rules
@@ -132,6 +133,14 @@ occurred at the *beginning* of the major declines in **2000 and 2007**."
 **The same test applied to bonds (2006).** The stage framework is not equity-specific — on the 20+ year Treasury
 index: "an **ominous curving down of the 30 week average**… the **ten week average is below the 30 week for the
 first time since September, 2004**." ([WW 2006-03-06](../../raw/posts/2006-03-06-gmi-6-short-housing.md))
+
+**A levelling 30-week is its own warning, separate from the pattern (2014).** On SSYS at the top of the 3D
+printing run: a weekly head-and-shoulders with a penetrated neckline and "**large red volume spikes, suggesting
+selling by mutual funds**" — and then, listed as an additional item, "**another danger sign is that the 30 week
+average is now starting to level off**." ([WW 2014-03-23](../../raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md)) The stage test does not wait for the average to turn down
+before it says anything: flattening is the first stage of the same process, and it is read independently of
+whatever price pattern is forming above it. The general form is on
+[Stage 4](#the-four-stages) and the [onset rule](#the-30-week-average--the-long-term-trend-anchor).
 
 ## The 10-day average — the yellow light
 
@@ -410,3 +419,4 @@ to take no position **on either side** — the diagnosis is about the regime, no
 - [WW 2006-03-06 — The housing top called; long bonds turning in 2006](../../raw/posts/2006-03-06-gmi-6-short-housing.md) ([summary](../sources/2006-03-06-gmi-6-short-housing.md))
 - [WW 2015-09-20 — Stage 4 defined, and missed upside priced as insurance](../../raw/posts/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md) ([summary](../sources/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md))
 - [WW 2009-02-02 — Why component 1 can stay negative for months](../../raw/posts/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md) ([summary](../sources/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md))
+- [WW 2014-03-23 — The down-trend duration study, with its n and its definition](../../raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md) ([summary](../sources/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md))

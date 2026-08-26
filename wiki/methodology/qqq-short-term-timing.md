@@ -1,7 +1,7 @@
 ---
 title: QQQ Short-Term Timing
 type: entity
-updated: 2026-08-20
+updated: 2026-08-26
 sources:
   - raw/posts/2008-10-22-gmi-0-gmi-r-0-t2108-3-36th-day-of-qqqq-short-term-down-trend-lphi-my-ta-course.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
@@ -30,6 +30,7 @@ sources:
   - raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md
   - raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md
   - raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md
+  - raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md
 ---
 
 # QQQ Short-Term Timing
@@ -98,6 +99,14 @@ he keeps missing it: had he bought SQQQ at the close of the first day of the new
 almost 12% by day 10, "**that is difficult to do, however, because on the first day of a new trend one does not
 usually believe it will last**." ([WW 2012-10-21](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md)) That is the honest cost of the 5-day confirmation rule stated
 elsewhere — the rule exists because the disbelief is real, and it is paid for in forgone early gains.
+
+**The 2014 study, with its sample size and its caveat.** "**41% of the 51 down-trends between 2006 and December,
+2013 (as I define them) lasted 5 days or less.**" ([WW 2014-03-23](../../raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md)) Two things to carry with the number. The sample is
+**n = 51** over eight years, which is small enough that the 41% has real uncertainty around it. And "**as I
+define them**" is his own parenthesis: the count depends entirely on his trend definition, so the base rate is
+conditional on that rule and does not transfer to anyone else's timing method. The operational use is the Day-5
+rule: "**if a short term down-trend begins, I will be more sure of it once it passes day 5 and add more SQQQ
+then.**"
 
 ## Relationship to the GMI
 
@@ -189,3 +198,4 @@ up-trend can only be young or old relative to the distribution of previous ones,
 - [WW 2009-04-19 — 'The market needs to rest' is nonsense; QSII breaks a three-year base](../../raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md) ([summary](../sources/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md))
 - [WW 2010-10-11 — The ultra-ETF measurement repeated; a bounce scan built for students](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md) ([summary](../sources/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md))
 - [WW 2012-10-21 — The two-tier timing rules, written to settle reader confusion](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md) ([summary](../sources/2012-10-21-timing-the-market-short-or-in-cash.md))
+- [WW 2014-03-23 — The down-trend duration study, with its n and its definition](../../raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md) ([summary](../sources/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md))

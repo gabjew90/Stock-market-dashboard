@@ -1,7 +1,7 @@
 ---
 title: GMI evidence — the published tables, the signal record, and how the components were recovered
 type: concept
-updated: 2026-08-18
+updated: 2026-08-26
 sources:
   - raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md
   - raw/posts/2012-07-23-24th-day-of-qqq-short-term-up-trend-stage-analysis-and-green-line-charts.md
@@ -16,6 +16,7 @@ sources:
   - raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md
   - raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md
   - raw/posts/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md
+  - raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md
 ---
 
 # GMI evidence — the published tables, the signal record, and how the components were recovered
@@ -117,6 +118,14 @@ modern era they **are** the daily record, and any future work on the timeline da
 higher-fidelity GMI validation series) should read them rather than the captions. The images are
 directly legible; no OCR tooling is needed, only the time to go through them.
 
+**And a publishing habit that explains where the component detail is.** From the July 2010 welcome note: "I
+compose each daily post after the market close, and publish it on Monday through Friday around 7:00 AM EST.
+**While I publish the GMI reading every post, I present the GMI's full components only on Monday morning.**"
+([WW 2010-07-30](../../raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md)) That is why component-level evidence in this corpus clusters on Mondays while the other four days
+carry only the score — a fact worth knowing when searching for definitional statements, and one that compounds
+the image problem above: the weekly table is both the richest artefact and the one least accessible to text
+search.
+
 ## See also
 
 - [General Market Index (GMI)](gmi.md) — the page this was split from
@@ -139,3 +148,4 @@ directly legible; no OCR tooling is needed, only the time to go through them.
 - [WW 2005-07-28 — Another strong day; GMI: +6 and its track record; Benefits of naked charts; Some Darvas type stocks](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md) ([summary](../sources/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
 - [WW 2008-02-11 — GMI: 0; GMI-R: 0; 13th week since top; DBC, DJP, DBA](../../raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md) ([summary](../sources/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md))
 - [WW 2019-04-21 — GMI signals applied to $QQQ, January, 2016-April 18, 2019](../../raw/posts/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md) ([summary](../sources/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md))
+- [WW 2010-07-30 — The blog's statement of purpose, and the method in one paragraph](../../raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md) ([summary](../sources/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md))

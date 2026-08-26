@@ -1,7 +1,7 @@
 ---
 title: Timeline — evolution of the methodology
 type: history
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md
@@ -381,6 +381,13 @@ sources:
   - raw/posts/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md
   - raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md
   - raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md
+  - raw/posts/2005-06-16-gmi-6-etf-winners-and-losers-interest-rates.md
+  - raw/posts/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md
+  - raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md
+  - raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md
+  - raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md
+  - raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md
+  - raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md
 ---
 
 # Timeline — evolution of the methodology
@@ -492,6 +499,18 @@ closes above its 10 day average"), and three consecutive days below called "omin
 practice, allocated by volatility rather than across the book: "put insurance" held on "**my most volatile
 positions** (CME and GOOG)." And the exclusion of macro stated outright — price and volume only, because the
 rest "merely obfuscate the true nature of the market." ([WW 2005-06-09](../../raw/posts/2005-06-09-gmi-5-stay-the-course-and-watch-the-10-day-for-the-qqqq.md))
+
+## June 2005 (sectors) — ranking ETFs across a trend
+
+**"GMI: +6; ETF winners and losers; interest rates" (2005-06-16):** a sector read done as a ranked scan over
+the trend's own duration rather than a calendar period — "**I used TC2005 to run a scan of ETF's when the QQQQ
+advanced 5.2%**" across a 29-day rally. Leaders: OIH +10.5% (oil service), EWW +9.5% (Mexico), IGW +9%
+(semiconductors), IYE +8.8%, PWT and XLE +8.6%, IIH +8.5% — "**clearly the oil and energy sectors were the place
+to be**." Laggards named too, and carrying the editorial point: EZA −5%, BHH −4.5%, EWK −2.8%, EWJ −1.6%, plus
+the defensive sector funds PPH, IXP, XLP and XLV — PPH being "all of those wonderful pharmaceutical stocks… **that
+the pundits have been recommending to conservative investors in difficult times (like these??)**." Breadth: 291
+new highs to 12 new lows, "the greatest ratio… since I posted the GMI on April 26." The rate indicator "cracked
+today," read with a one-day caveat attached. ([WW 2005-06-16](../../raw/posts/2005-06-16-gmi-6-etf-winners-and-losers-interest-rates.md))
 
 ## June 2005 (sentiment) — the IBD Meetup room as a gauge
 
@@ -953,6 +972,19 @@ circle — "**I am a little cautious about this market because many traders have
 
 **"GMI: 3; IBD100 stocks at new highs" (2007-09-04):** "I clarified in the table that the 10 Day Successful New High Index is positive if the number is ***greater than or equal* to 100 or 50%**"; "I look forward to market declines when it is much easier to see emerging leaders"; 20 of 400+ IBD100 names at new highs against 66 in the whole universe; T2108 had marked the August bottom below 8%. ([WW 2007-09-04](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))
 
+## October 2007 (family) — the GMI-R introduced
+
+**"GMI: 6; GMI revised" (2007-10-16):** the first appearance of "GMI-R" anywhere in the corpus, and its
+design stated in one paragraph — "after much thought, **I have revised the GMI by adding 4 new indicators,
+signified by an '\*'. The GMI-R ranges from 0-10 and may provide a more sensitive measure of the trend of the
+general market. For the time being, I will post the original GMI and the revised GMI-R in the table for the
+benefit of readers who use the original index.**" Three facts in that sentence: the four additions are marked
+with an asterisk in the published table, the target is **sensitivity**, and both indexes run in parallel as a
+**compatibility decision for readers** rather than an analytical one. It arrives three days after the October
+2007 top, with T2108 already at 67% from 82% on 5 October. "Judy's picks" begins here too — an outside
+stock-picker whose EDU call preceded a 12.56% earnings-day gain: "**I need to follow Judy's advice much more
+often.**" ([WW 2007-10-16](../../raw/posts/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md))
+
 ## October 2007 (cont.) — 'it is futile to try to anticipate market turns'
 
 **"GMI: 6; IBD100 stocks out-perform" (2007-10-15):** "I have learned over the years that it is futile to try to anticipate market turns… **of course, this means that I lose some profits as the top is formed. However, I prefer to take this approach**"; T2108 74% off an 82% high — the indicator "can take a long time to top out as it remains in the 70-80 area"; recent large up-trends of 80 and 86 days; "unlike most people with answers, I have data." ([WW 2007-10-15](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md))
@@ -1185,6 +1217,20 @@ traders are buying strength**" — the mirror of leaders sold off on good earnin
 tape: near the top of their Bollinger bands "it may not be a great time to start taking on new longs. **But as
 long as the longer term trends are up, chances are that the daily advance will resume suddenly.**" ([WW 2009-10-26](../../raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md))
 
+## October 2009 (evidence) — the IBD 100's top ten audited; why patterns repeat
+
+**"IBD 100 list top ten DO outperform" (2009-10-12):** an audit built to test a criticism he kept hearing —
+"**by the time that a stock gets to the top of the IBD 100 list, it is too late to trade it for a profit**."
+Taking the top ten of the list published 3 August 2009 over the following ~50 days: "**70% of these ten stocks…
+outperformed the QQQQ and SPY**," replicated on the 27 July list, which "**also showed that 70% beat these two
+averages**." He reports the path dependence ("some of these 10 stocks declined before they recovered") and keeps
+the conclusion weak ("may be worth investigating"). The durable part is the epistemology: IBD's criteria came
+from analysing "the best stocks over the past 100 years… **because human trading psychology is pretty stable,
+one can discern lasting technical patterns (which are really trading decisions) that are characteristic of
+winning stocks**" — the nearest thing in the corpus to a justification for technical analysis, and it is a claim
+about people rather than about charts. Printed alongside it, undercutting the exercise: TYH, the 3× technology
+ETF, rose 25% over the same window. ([WW 2009-10-12](../../raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md))
+
 ## November 2009 — the trading philosophy stated as five propositions
 
 **"My Trading Philosophy and Why I Use Technical Analysis" (2009-11-26):** the reasoning the whole system serves, in five numbered propositions — markets are unpredictable; but trends persist; so identify trends once begun and stay with them; since only ~50% of trades work, winners must dwarf losers (stops and small initial positions on one side, riding and pyramiding on the other); and therefore **success is determined mostly by exit rules, not entry** — "one could probably select stocks at random as long as losses are kept at a minimum and profits are maximized." Attributed to Darvas, Weinstein, O'Neil, the Turtles and Livermore, and previously published under the pseudonym **Sir Silent Knight** in the Worden TC2007 journal. See [trading-philosophy.md](../methodology/trading-philosophy.md). ([WW 2009-11-26](../../raw/posts/2009-11-26-my-trading-philosophy-and-why-i-use-technical-analysis.md))
@@ -1307,6 +1353,21 @@ Knight." ([WW 2010-04-12](../../raw/posts/2010-04-12-come-to-my-free-worden-webi
 ## July 2010 (stochastic) — declines begin above 80, advances below 20
 
 **"Overbought condition continues; index stochastics at extremes" (2010-07-15):** daily 10,4 stochastic at 85/95/97 — "**stocks and index ETF's can stay overbought for a long time**… declines tend to begin from a stochastic reading above 80 and advances begin from a level below 20"; the extreme is a precondition, not a trigger; GMI 2 but GMI-R 6 as the short-term trend turns. ([WW 2010-07-15](../../raw/posts/2010-07-15-overbought-condition-continues-index-stochastics-at-extreme-levels.md))
+
+## July 2010 (statement) — the blog's purpose, and the method in one paragraph
+
+**"GMI back to 5" (2010-07-30):** a welcome note for new readers that states the whole method more compactly
+than any of his numbered propositions — "**I exit to cash when my indicators signal a major down-trend, usually
+when the GMI is below 3. I wade back into the market slowly when the GMI recovers. I do not predict the length of
+trends, I try only to ride them until they end.**" The background he brings to it: "as a **part-time trader**, I
+have educated myself through extensive reading of the works of successful traders and **through analysis of my
+own trading performance**. **I bring my training as a research psychologist to the subject of trading.**" Why the
+blog exists: to teach his **University of Maryland** classes in technical analysis, and because "**I believe that
+our education system has failed to prepare its citizens for their financial survival**." The record as of July
+2010: the IRA multiplied **14× since 1995**, and the pension "**safely in cash during all of the major market
+declines since 1998**." And a publishing habit that explains where component-level evidence lives in this corpus:
+"**while I publish the GMI reading every post, I present the GMI's full components only on Monday morning.**"
+([WW 2010-07-30](../../raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md))
 
 ## August 2010 (scan) — the oversold-stochastic-then-buy-signal scan; PCLN
 
@@ -1598,6 +1659,20 @@ the market has nowhere to go but up.**" TSLA had a GLB the previous week. ([WW 2
 ## March 2014 (cont.) — the 3:45 PM rule, six months before its recorded origin
 
 **"5th day of $QQQ short term down-trend; $FANG shows strength" (2014-03-30):** "the key is to wait for the end of the trading day, **around 3:45 PM**, to see where the market will settle" — predating the September 2014 statement; a 52-week-high + recent-earnings scan yielding 17 names, half energy; FANG with expanding Bollinger bands after a five-week base; but "with the GMI on a recent Sell signal, I will keep my powder dry." ([WW 2014-03-30](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md))
+
+## March 2014 (durations) — the 51-down-trend study, with its n and its caveat
+
+**"$QQQ short term up-trend in jeopardy; 3D stocks looking very weak" (2014-03-23):** the duration study
+behind the Day-5 rule, quoted with both the sample size and the definitional caveat — "**41% of the 51
+down-trends between 2006 and December, 2013 (as I define them) lasted 5 days or less.**" The parenthesis is his:
+the base rate is conditional on his own trend definition and does not transfer to another timing rule, and n = 51
+over eight years leaves real uncertainty around the 41%. The operational use: "**if a short term down-trend
+begins, I will be more sure of it once it passes day 5 and add more SQQQ then.**" He held **both** leveraged ETFs
+at once while the trend was ambiguous (small SQQQ, larger TQQQ). A sector top diagnosed on the 3D printing stocks
+— SSYS with a weekly head-and-shoulders, a penetrated neckline, "**large red volume spikes, suggesting selling by
+mutual funds**," and, listed separately, "**another danger sign is that the 30 week average is now starting to
+level off**." And the strength screen restated: "**any stock that can sprint to an all-time high in a weak market
+and hold it is worth watching**" — XEC, NGVC and ASGN, each with its IBD composite rating. ([WW 2014-03-23](../../raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md))
 
 ## April 2014 — Staged pension exit protocol published; GMI/QQQ divergence warning
 
@@ -2078,6 +2153,22 @@ bloody Mondays when many people decide to exit after pondering their falling bal
 people will likely sell to the eager professionals at lower prices.**" 100% cash in the trading IRA, 100%
 invested in the pension, on the same evening. ([WW 2018-02-04](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))
 
+## December 2017 (exits) — the 13 averages, the gray line, and a graded exit
+
+**"When to sell: signs an up-trend is weakening" (2017-12-10):** the sell side of the daily RWB chart
+specified in full, opening with the problem — "**the most difficult decision in trading is when to sell a stock
+that has advanced after purchase**." The chart: "**my modified GMMA consists of 13 *exponential* moving averages
+(1, 3, 5, 8, 10, 12, 15, 30, 35, 40, 45, 50, 60). The '1' period average is a gray dotted line and represents the
+daily close.**" The gray line is what triggers: "**when the gray line *closes* below all of the red lines it is a
+sign of weakness and I consider selling or lightening up**… **I try not to sell a stock when the gray dotted line
+is holding up**" — a rule against exiting on band compression alone. The rules as he lists them: "**only go long
+stocks in a daily RWB up-trend, and consider raising stops, selling or reducing my position when the stock
+*closes* (preferably 2 consecutive days) below all of the red lines. Sell the entire position when the RWB
+pattern totally disappears**" — a **graded exit**, reduce then liquidate. And the derivation of the 3:45 PM
+habit: "daily *closes* are stressed for signals because **stocks often trade below the red lines during the day
+but recover to close back above them. I therefore like to trade near the market's close so I know how the stock
+will likely close.**" Worked on SQ, IPGP and MRK. ([WW 2017-12-10](../../raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md))
+
 ## January 2018 (thresholds) — red lines and blue lines as two different warnings
 
 **"Coal is hot, so are steel, copper and aluminum; wounded leaders" (2018-01-01):** the daily RWB chart read
@@ -2132,6 +2223,22 @@ many of the market leaders look wounded… are the others forming their bull mar
 ## October 2018 (tooling) — an intraday all-time-high condition set
 
 **"TC2000 workshop gems" (2018-10-21):** a condition built from TC2000's built-in variables that finds stocks at an ATH **during the trading day**, with his own filters (price > $10, volume > 50,000); run as a column against a watchlist, then "plot the stocks on a monthly chart, draw in the green line tops and find stocks having a green line break-out during the current day," preferring "a high volume buzz." ([WW 2018-10-21](../../raw/posts/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md))
+
+## October 2018 (filter / pedagogy) — a dual-timeframe RWB screen, and teaching regime-dependence
+
+**"0 of 38 country ETFs are in daily/weekly RWB up-trends; Sweet 16" (2018-10-28):** the strictest form of
+the pattern, built as a scan — "**I created a column filter in TC2000 to detect equities with RWB up-trends on
+*both* their daily and weekly timeframes**." Its yield is the market reading: **62 of 4,938 US stocks (1.3%)**
+qualified, and **0 of the 38 world-market ETFs**, with 34 of 38 (89%) in weekly BWR down-trends and China showing
+"a major double top." Sixteen of the 62 were up 80%+ from a year earlier — the "Sweet 16." **The pedagogy is the
+most interesting part**: his students trade virtual \$100,000 margin accounts and "**must stay 90% invested**…
+they are experiencing many losses while trying to go long growth stocks using the set-ups I have taught them. **I
+did teach them that these set-ups only work in rising markets, and they are learning this valuable lesson**" — a
+forced-exposure exercise that teaches regime-dependence by making it expensive — and he applies the same caveat
+to his own screen: "**this filter might work much better when in a rising market!**" A **T2108 base rate**: "from
+its inception in 1986 to 2007, T2108 had **only 7 other declines that reached below 10%**" (4% in 2016, 1% in
+2008). And the countervailing read: "**most bear markets *begin* with the 30 week average curving down (Stage
+IV), which has not occurred.**" ([WW 2018-10-28](../../raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md))
 
 ## November 2018 — Daily BWR pattern introduced; weekly RWB lost
 
@@ -3003,3 +3110,10 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2015-09-20 — market-down-trend-deepens-mainly-in-cash-zltq-glb-holding](../../raw/posts/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md) ([summary](../sources/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md))
 - [WW 2016-03-27 — critcal-week-for-market-coming-up-glb-tfx-eslt](../../raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md) ([summary](../sources/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md))
 - [WW 2018-01-01 — coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq](../../raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md) ([summary](../sources/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md))
+- [WW 2005-06-16 — gmi-6-etf-winners-and-losers-interest-rates](../../raw/posts/2005-06-16-gmi-6-etf-winners-and-losers-interest-rates.md) ([summary](../sources/2005-06-16-gmi-6-etf-winners-and-losers-interest-rates.md))
+- [WW 2007-10-16 — gmi-6-gmi-revised-edu-another-one-of-judys-picks](../../raw/posts/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md) ([summary](../sources/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md))
+- [WW 2009-10-12 — ibd-100-list-top-ten-do-outperform](../../raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md) ([summary](../sources/2009-10-12-ibd-100-list-top-ten-do-outperform.md))
+- [WW 2010-07-30 — gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung](../../raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md) ([summary](../sources/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md))
+- [WW 2014-03-23 — qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out](../../raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md) ([summary](../sources/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md))
+- [WW 2017-12-10 — when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend](../../raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md) ([summary](../sources/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md))
+- [WW 2018-10-28 — 0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are](../../raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md) ([summary](../sources/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md))
