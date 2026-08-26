@@ -34,6 +34,10 @@ sources:
   - raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md
   - raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md
   - raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md
+  - raw/posts/2014-07-27-qqq-short-term-up-trend-reaches-52nd-day-30-of-dow-30-stocks-weak-gld-bottom.md
+  - raw/posts/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md
+  - raw/posts/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md
+  - raw/posts/2025-03-09-bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced.md
 ---
 
 # QQQ Short-Term Timing
@@ -124,6 +128,40 @@ reaches day 5**. Since 2006, **41% of short term down-trends lasted 5 days or le
 remains on a Buy signal, **I am waiting mainly on the sidelines until Mr. Market reveals his true direction.**"
 ([WW 2014-05-07](../../raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md)) Note what the rule does there: it lets him hold a signal and his confidence in it as *separate*
 quantities, and resolve the gap with time rather than by overriding either.
+
+**The full distribution, and the fact that it replicates (2016).** The most rigorous use he makes of his own
+data — the 2013 analysis re-run three years later, with "**remarkably similar**" results ([WW 2016-10-30](../../raw/posts/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md)):
+
+| | Up-trends | Down-trends |
+|---|---|---|
+| ended within 5 days | **21%** | **41%** |
+| lasted 6–47 days | 63% | 56% |
+| reached 50+ days | **16%** | **3%** |
+
+**The asymmetry is the finding**: "it is clear that short term up-trends last longer than down-trends," and
+up-trends are **5× more likely** to reach 50 days. That is the quantitative basis for treating the two sides
+differently — nibble early on the long side, wait past day 5 before committing on the short side. On the long
+side the central range is given separately: "**the majority go on from 11-44 days**, based on an analysis I did
+of trend changes between 2006-2013." ([WW 2016-02-28](../../raw/posts/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md))
+
+Three caveats travel with these numbers and all three are his own:
+
+- **The definition is unpublished.** "According to my definition (**proprietary, so don't ask for it**)."
+  ([WW 2014-07-27](../../raw/posts/2014-07-27-qqq-short-term-up-trend-reaches-52nd-day-30-of-dow-30-stocks-weak-gld-bottom.md)) Every duration figure on this wiki is conditional on a rule he deliberately withheld, which is
+  why "as I define them" keeps appearing beside them and why the reconstruction in `src/ww/` can only approximate
+  it.
+- **The table understates persistence.** "Any move might last longer than those in the table if they have a few
+  brief trend changes" ([WW 2016-10-30](../../raw/posts/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md)) — his definition chops one long move into several.
+- **Age is best asked conditionally.** "Of the **11 up-trends that lasted 50 to 88 days, 45% ended by day 54**.
+  So we are in nosebleed territory at day 52." ([WW 2014-07-27](../../raw/posts/2014-07-27-qqq-short-term-up-trend-reaches-52nd-day-30-of-dow-30-stocks-weak-gld-bottom.md)) Conditioning on having already reached day 50 is
+  the right form of the "is this trend old?" question, and a different one from the unconditional table above.
+
+**And the tactic the distribution supports (2016):** "I sometimes buy the leveraged 3X QQQ bullish ETF, TQQQ, on
+the **first or second day** of a QQQ short term up-trend… and **average up *slowly*** if the trend continues."
+([WW 2016-02-28](../../raw/posts/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md)) Early entry, gradual sizing — which is what makes entering before confirmation survivable. The
+same logic on the short side, measured in 2025: "the same can be true for buying the inverse ETF, **SQQQ, on Day
+1 of a QQQ short term down-trend**… the best strategy is to take a small position on Day 1 and add to it only if
+the trend continues." ([WW 2025-03-09](../../raw/posts/2025-03-09-bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced.md))
 
 ## Relationship to the GMI
 
@@ -219,3 +257,7 @@ up-trend can only be young or old relative to the distribution of previous ones,
 - [WW 2014-12-17 — The duration rule restated; the pension constraint biting](../../raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md) ([summary](../sources/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md))
 - [WW 2010-11-26 — Monthly, weekly AND daily - the three-timeframe requirement](../../raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md) ([summary](../sources/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md))
 - [WW 2014-05-07 — Distrusting his own signal; the lower band as better support](../../raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md) ([summary](../sources/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md))
+- [WW 2014-07-27 — qqq-short-term-up-trend-reaches-52nd-day-30-of-dow-30-stocks-weak-gld-bottom](../../raw/posts/2014-07-27-qqq-short-term-up-trend-reaches-52nd-day-30-of-dow-30-stocks-weak-gld-bottom.md) ([summary](../sources/2014-07-27-qqq-short-term-up-trend-reaches-52nd-day-30-of-dow-30-stocks-weak-gld-bottom.md))
+- [WW 2016-02-28 — 5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs](../../raw/posts/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md) ([summary](../sources/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md))
+- [WW 2016-10-30 — new-qqq-short-term-down-trend-how-long-do-down-trends-last](../../raw/posts/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md) ([summary](../sources/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md))
+- [WW 2025-03-09 — bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced](../../raw/posts/2025-03-09-bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced.md) ([summary](../sources/2025-03-09-bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced.md))

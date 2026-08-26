@@ -64,6 +64,8 @@ sources:
   - raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md
   - raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md
   - raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md
+  - raw/posts/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md
+  - raw/posts/2015-11-15-gmi-near-a-sell-signal-markets-at-a-critical-juncture.md
 ---
 
 # General Market Index (GMI)
@@ -326,6 +328,13 @@ the financial stocks.**" ([WW 2011-09-26](../../raw/posts/2011-09-26-qqq-short-t
 by a sector the QQQ does not hold — a sharper statement of the flank the WPM and the per-index stage checks
 exist to cover.
 
+**And priced, a year earlier (February 2007).** The 2008 post frames the blind spot analytically; this one frames
+it as money left on the table. "**By focusing *solely* on the QQQQ, I ignored the terrific performance of the SPY
+and DIA. The SPY and DIA have closed above their 10 week averages for 24 consecutive weeks!**" ([WW 2007-02-05](../../raw/posts/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md))
+Over that stretch SPY rose 11% (SSO 22%) and DIA 11.5% (DDM 23%) while he had exited QLD in December. Watching
+one index because your indicator is built on it is a self-inflicted narrowing — and the
+[ultra-ETF case](leveraged-etf-default.md) was never QQQ-specific.
+
 ## A limitation he published himself (2015)
 
 In February 2015 — with the GMI reading 6 of 6 — Dr. Wish published a limitation of his own
@@ -388,6 +397,16 @@ same signal would be much worse advice, which is a qualification worth carrying 
 Mid-decline, with a fresh Red signal in hand: "**the GMI signal recently flashed Red, but this signal has
 recently coincided with short term bottoms rather than tops**." ([WW 2016-10-16](../../raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md)) He reports the signal and its recent
 failure mode in the same sentence, and reduces exposure on other grounds rather than acting on it.
+
+**Audited by regime, nine months later.** The sharpest form of the finding, because it is conditional: "I have
+reviewed recent GMI Sell signals and found that while such a Sell signal on **September 1, 2008, kept me out of
+the markets during most of the subsequent huge market decline**, during the market's recovery since then, **a
+Sell signal has often come at the bottom of a small decline and the GMI reversed to a Buy shortly
+afterwards.**" ([WW 2015-11-15](../../raw/posts/2015-11-15-gmi-near-a-sell-signal-markets-at-a-critical-juncture.md)) So the signal is not uniformly noisy — it earns its keep at the onset of a bear
+market and misfires inside bull-market corrections, and **the two cases are indistinguishable at the moment it
+fires**. "I do not know which scenario will unfold this week" is the honest position, and the oversold cluster he
+notes alongside it (stochastics near extremes, indexes below their lower 15.2 bands, put/call 1.16) is exactly
+the configuration that accompanies a false Sell.
 
 ## Code — computing the GMI
 
@@ -515,3 +534,5 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2008-10-28 — The mirror statistic's rationale, attributed and measured](../../raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md) ([summary](../sources/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md))
 - [WW 2011-09-26 — Why QQQ and SPY diverge - a structural reason](../../raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md) ([summary](../sources/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md))
 - [WW 2025-05-05 — How he works an all-time-high list](../../raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md) ([summary](../sources/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md))
+- [WW 2007-02-05 — gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle](../../raw/posts/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md) ([summary](../sources/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md))
+- [WW 2015-11-15 — gmi-near-a-sell-signal-markets-at-a-critical-juncture](../../raw/posts/2015-11-15-gmi-near-a-sell-signal-markets-at-a-critical-juncture.md) ([summary](../sources/2015-11-15-gmi-near-a-sell-signal-markets-at-a-critical-juncture.md))

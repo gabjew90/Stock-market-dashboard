@@ -45,6 +45,10 @@ sources:
   - raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md
   - raw/posts/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md
   - raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md
+  - raw/posts/2006-12-11-gmi-6-follow-instruments-andor-gut-ibd100-stocks-thrive.md
+  - raw/posts/2012-04-23-qqq-short-term-down-trend-completes-5th-day-short-gld-or-in-cash-aapl-fibonacci-targets.md
+  - raw/posts/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md
+  - raw/posts/2005-04-17-april-17-2005-short-or-in-cash.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -76,6 +80,24 @@ itself the point, since a rule you have to relearn is one your instincts keep ov
 
 And the general form of all three, from 2019: "**it is important to study the market's behavior, ignore the news
 and media pundits, and to pull the trigger only after a signal has occurred, not before.**" ([WW 2019-06-16](../../raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md))
+
+**Why a reversal feels worst at exactly the moment it must be acted on (2012).** "**I have learned that it is
+most anxiety producing to bet on a trend reversal because, by definition, it differs from the most recent market
+trend which I have become accustomed to.**" ([WW 2012-04-23](../../raw/posts/2012-04-23-qqq-short-term-down-trend-completes-5th-day-short-gld-or-in-cash-aapl-fibonacci-targets.md)) The discomfort is not a malfunction — it is what a
+reversal *is*, met by a mind that has adapted to the old trend. His answer is substitution rather than willpower:
+"**however, I will trust my instrument, the GMI.**" The 2016 version puts the same thing more vividly: "when a
+trend changes from down to up, it is very difficult to accept it because there has often been a long down-trend
+prior to the change. **We all have our hands on the rear view mirror as we try to navigate the market (and
+life!).**" ([WW 2016-02-28](../../raw/posts/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md))
+
+**And the moment readers caught him doing the opposite (2006).** With the GMI at 6 and the up-trend 79 days old,
+he was raising cash and holding an inverse ETF: "**some of you have written to me asking me why**… **You raise an
+important question that I have been struggling with. Why not stay with the up-trend signaled by the GMI and not
+try to anticipate a change in trend? You may be right — maybe I should fly on instruments. But doing so subjects
+me to a possible large cut in my profits because my indicators will only call the peak after the indexes have
+fallen some.**" ([WW 2006-12-11](../../raw/posts/2006-12-11-gmi-6-follow-instruments-andor-gut-ibd100-stocks-thrive.md)) He publishes the challenge and concedes it may be right. Read it against the
+[November 2008 measurement](risk-and-cash.md#no-need-to-anticipate-the-reversal), which arrived two years later
+and found the lag cost small — evidence that cuts against the instinct being defended here.
 
 ## 2. Do not marry a scenario
 
@@ -205,6 +227,25 @@ He also gives the condition that would bring him back, which is what keeps a pau
 will slowly return to the market on the long side when the 10 week averages climb back above the 30 week
 averages.**"
 
+## 12. Distance is a precondition, not a luxury
+
+The blog's very first post, April 2005, makes the case with someone else's biography ([WW 2005-04-17](../../raw/posts/2005-04-17-april-17-2005-short-or-in-cash.md)):
+
+> "**I have always done best when I ignore the media and just look at my charts.** The great Nicolas Darvas made
+> 2 million dollars while traveling around the world. **When he camped out in Manhattan, he lost his objectivity
+> and consistently made losing trades. He had to leave the country to get back on track. You can't make good
+> judgments if you are glued to CNBC and tipsters. I want a life, too.**"
+
+Darvas's edge did not survive proximity. The claim is not that news is useless but that *continuous exposure*
+degrades judgement — which he later confirmed on himself: "I listened a little to CNBC last week and realized
+**how anxious I became about the market and how much my judgment was impaired**."
+
+"**I want a life, too**" is the other half, and it is load-bearing rather than decorative. A method for someone
+with a full-time job has to be checkable once a day, which is why the signals are defined on closes, why the
+stops rest in the market, and why the weekly chart exists at all. The
+[3:45 PM rule](../methodology/scans.md#the-biotech-scan--volume-plus-news-catalyst) is the one concession to
+intraday attention, and it is a single moment rather than a session.
+
 ## How the rules fit together
 
 Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or the need to be active. Rules 3, 4 and 6 are about *fear* — expect it, size for it, and pre-commit against it in writing. Rules 5 and 7 are about the *exit* — the stop removes emotion at entry, and the too-easy voice is the single place he lets emotion back in, on the profitable side only. Nothing on this page asks for a temperament he does not have; each item is a rule written after he watched himself fail without it.
@@ -259,3 +300,7 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2010-11-26 — Monthly, weekly AND daily - the three-timeframe requirement](../../raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md) ([summary](../sources/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md))
 - [WW 2011-03-04 — Weekly trends as the anti-shakeout discipline](../../raw/posts/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md) ([summary](../sources/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md))
 - [WW 2019-06-16 — How an RWB up-trend begins - the onset sequence defined](../../raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md) ([summary](../sources/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md))
+- [WW 2006-12-11 — gmi-6-follow-instruments-andor-gut-ibd100-stocks-thrive](../../raw/posts/2006-12-11-gmi-6-follow-instruments-andor-gut-ibd100-stocks-thrive.md) ([summary](../sources/2006-12-11-gmi-6-follow-instruments-andor-gut-ibd100-stocks-thrive.md))
+- [WW 2012-04-23 — qqq-short-term-down-trend-completes-5th-day-short-gld-or-in-cash-aapl-fibonacci-targets](../../raw/posts/2012-04-23-qqq-short-term-down-trend-completes-5th-day-short-gld-or-in-cash-aapl-fibonacci-targets.md) ([summary](../sources/2012-04-23-qqq-short-term-down-trend-completes-5th-day-short-gld-or-in-cash-aapl-fibonacci-targets.md))
+- [WW 2016-02-28 — 5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs](../../raw/posts/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md) ([summary](../sources/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md))
+- [WW 2005-04-17 — april-17-2005-short-or-in-cash](../../raw/posts/2005-04-17-april-17-2005-short-or-in-cash.md) ([summary](../sources/2005-04-17-april-17-2005-short-or-in-cash.md))

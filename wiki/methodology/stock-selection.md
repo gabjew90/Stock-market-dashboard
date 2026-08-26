@@ -79,6 +79,7 @@ sources:
   - raw/posts/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md
   - raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md
   - raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md
+  - raw/posts/2013-04-21-market-weak-i-am-again-cautious.md
 ---
 
 # Stock selection
@@ -138,6 +139,13 @@ multi-year base to an all-time high, I become interested.**" The rationale is Da
 *supply*: he "liked to buy stocks that were at their highest levels ever. These were rockets in which **everyone
 who owned them had a profit**" — no trapped holders waiting to sell at break-even into the advance. ([WW 2009-04-19](../../raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md))
 Fundamental confirmation came from the same two places as usual: the IBD New America column and the IBD 100.
+
+**And the prohibition that follows (2013).** Asked whether gold or silver were buys: "**As you know, I only buy
+stocks or ETF's that are near or above their green line tops. I do not buy stocks that have been much higher and
+declined. There are so many people waiting to sell as the stock comes back, and one never knows if the decline
+will resume. A failed come back rally can lead to a quick, vicious decline.**" ([WW 2013-04-21](../../raw/posts/2013-04-21-market-weak-i-am-again-cautious.md)) The
+overhead-supply argument stated as a rule against bottom-fishing, and applied to ETFs as well as stocks — the
+exact complement of [why an ATH after a decline means accumulation](#the-post-decline-new-high-list--where-the-next-leaders-announce-themselves).
 
 ## The blend: technical + fundamental
 
@@ -644,3 +652,4 @@ guide me**." ([WW 2005-07-19](../../raw/posts/2005-07-19-enjoy-the-earnings-rall
 - [WW 2010-08-02 — Why commodities are the exception to buying all-time highs](../../raw/posts/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md) ([summary](../sources/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md))
 - [WW 2010-11-26 — Monthly, weekly AND daily - the three-timeframe requirement](../../raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md) ([summary](../sources/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md))
 - [WW 2025-05-05 — How he works an all-time-high list](../../raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md) ([summary](../sources/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md))
+- [WW 2013-04-21 — market-weak-i-am-again-cautious](../../raw/posts/2013-04-21-market-weak-i-am-again-cautious.md) ([summary](../sources/2013-04-21-market-weak-i-am-again-cautious.md))

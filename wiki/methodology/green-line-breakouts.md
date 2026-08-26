@@ -1,7 +1,7 @@
 ---
 title: Green Line Breakouts (GLB)
 type: entity
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
@@ -37,6 +37,7 @@ sources:
   - raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md
   - raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md
   - raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md
+  - raw/posts/2013-04-21-market-weak-i-am-again-cautious.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -107,6 +108,12 @@ already moved — "I will hold some PIRS as long as it ***closes*** above its gr
 2021 and 2023 statements are all close-based, with the ACLX case published as the justification. Read the
 progression as **intraday (2016) → close-only (2017 onward)**, with the 2018 "strict immediacy" statement sitting
 in between and ambiguous on which trigger it means.
+
+**Repeated failures at the line are a tell before you own it (2013).** On IBM's post-earnings collapse: "**the
+only technical tip off I might have noticed is that it failed its recent green line break-out several times. When
+a stock bursts through a multi-month green line base to an all-time high, it should not look back much. IBM
+closed below its green line top on several occasions.**" ([WW 2013-04-21](../../raw/posts/2013-04-21-market-weak-i-am-again-cautious.md)) The same information the exit rule
+uses, read as an *entry* filter — a stock that keeps losing its line is telling you the breakout lacks buyers.
 
 ### Adding to winners — pyramiding to the 30-week average
 
@@ -288,3 +295,4 @@ The published case studies — patience after a GLB (PNRA, FIZZ), re-entry after
 - [WW 2025-06-22 — Blog Post: Day 39 of $QQQ short term up-trend; $QQQ wedged between green line top and rising 4 week average; W](../../raw/posts/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md) ([summary](../sources/2025-06-22-blog-post-day-39-of-qqq-short-term-up-trend-qqq-wedged-between-green-line-top-and-rising-4-week-average-will.md))
 - [WW 2016-09-18 — The GLB Tracker's curation admitted; the daily chart as a whipsaw machine](../../raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md) ([summary](../sources/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md))
 - [WW 2017-07-04 — The GMI's QQQ bias demonstrated live; biotech position sizing](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md) ([summary](../sources/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md))
+- [WW 2013-04-21 — market-weak-i-am-again-cautious](../../raw/posts/2013-04-21-market-weak-i-am-again-cautious.md) ([summary](../sources/2013-04-21-market-weak-i-am-again-cautious.md))

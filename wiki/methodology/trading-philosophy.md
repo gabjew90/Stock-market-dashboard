@@ -40,6 +40,7 @@ sources:
   - raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md
   - raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md
   - raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md
+  - raw/posts/2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs.md
 ---
 
 # Trading philosophy — the five propositions
@@ -298,6 +299,13 @@ loose, and it is worth keeping the two apart when the figure gets quoted.
 With the January 2006 reading (86%/88%/87%) this makes three published measurements, all inside up-trends he had
 already identified, all pointing the same way and none constituting a base rate.
 
+**Gains attributed to the tide (2011).** Written as the market turned, about himself and his readers together:
+"**All of us look smart when the trend is up and our trades are profitable. Now we must accept that our trading
+gains the past 2 years have been largely the result of a rising market. 'A rising tide raises all ships.'**"
+([WW 2011-03-11](../../raw/posts/2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs.md)) That is the honest counterpart to every performance figure on this wiki — if 86% of components
+rise in an up-trend, most of what a long book earns in one is beta. And the symmetry that follows: "**I should
+not be long now, anymore than it made sense to be short during the market's rise.**"
+
 ## Value is a myth — the proposition underneath the propositions
 
 The wiki dated this to a 2025 post. It is a 2006 position, and the line everyone quotes is O'Neil's, not his.
@@ -420,3 +428,4 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2009-10-12 — The IBD 100's top ten audited; why he trusts an empirical screen](../../raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md) ([summary](../sources/2009-10-12-ibd-100-list-top-ten-do-outperform.md))
 - [WW 2010-07-30 — The blog's statement of purpose, and the method in one paragraph](../../raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md) ([summary](../sources/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md))
 - [WW 2011-08-22 — Every multi-week Dow decline since 1916, counted](../../raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md) ([summary](../sources/2011-08-22-current-market-decline-is-nothing-unusual.md))
+- [WW 2011-03-11 — gmi-dives-to-1-in-cash-and-inverse-etfs](../../raw/posts/2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs.md) ([summary](../sources/2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs.md))

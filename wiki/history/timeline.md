@@ -405,6 +405,13 @@ sources:
   - raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md
   - raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md
   - raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md
+  - raw/posts/2005-04-17-april-17-2005-short-or-in-cash.md
+  - raw/posts/2006-12-11-gmi-6-follow-instruments-andor-gut-ibd100-stocks-thrive.md
+  - raw/posts/2007-11-26-gmi-1-gmi-r-1-not-in-stocks.md
+  - raw/posts/2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs.md
+  - raw/posts/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md
+  - raw/posts/2020-03-22-my-successful-new-high-and-new-low-indicators-flagged-the-market-top.md
+  - raw/posts/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md
 ---
 
 # Timeline — evolution of the methodology
@@ -446,6 +453,19 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 ## April 2005 (language) — 'bear market' is a dangerous habit of speech
 
 **"The 10,000 bounce" (2005-04-21):** "**I have been using the term bear market — and this habit is dangerous. It is much safer to say that the market is in a down trend**"; the Dow's 200-point bounce off 10,000 does not nullify a 500-point decline — "the Dow would have to close 300 points higher for me to start to consider the bull case"; a fast break of the round number would probably have produced the capitulation. ([WW 2005-04-21](../../raw/posts/2005-04-21-the-10000-bounce.md))
+
+## April 2005 (first post) — distance as a precondition for judgement
+
+**"Short or in cash" (2005-04-17):** the blog's first post. It opens on the behaviour the whole method
+exists to override — "**people refuse to accept what the market is saying — they only want to buy**" — and makes
+its case with someone else's biography: "**I have always done best when I ignore the media and just look at my
+charts.** The great Nicolas Darvas made 2 million dollars while traveling around the world. **When he camped out
+in Manhattan, he lost his objectivity and consistently made losing trades. He had to leave the country to get
+back on track. You can't make good judgments if you are glued to CNBC and tipsters. I want a life, too.**" The
+last sentence is load-bearing rather than decorative: a method for someone with a full-time job has to be
+checkable once a day, which shapes the close-based signals, the resting stops and the weekly chart. He was
+already short or in cash before the blog existed. ([WW 2005-04-17](../../raw/posts/2005-04-17-april-17-2005-short-or-in-cash.md))
+
 
 ## May 2005 — the gap rule and the doubling rationale (GOOG)
 
@@ -949,6 +969,18 @@ be on the sidelines. **What is your brokerage firm paying you for your cash bala
 
 ---
 
+## December 2006 (challenge) — readers ask why he is overriding his own indicators
+
+**"Follow instruments and/or gut?" (2006-12-11):** with the GMI at 6 and the QQQQ up-trend 79 days old, he
+was raising cash and holding QID — and readers called it out. "**Some of you have written to me asking me why**…
+**You raise an important question that I have been struggling with. Why not stay with the up-trend signaled by
+the GMI and not try to anticipate a change in trend? You may be right — maybe I should fly on instruments. But
+doing so subjects me to a possible large cut in my profits because my indicators will only call the peak after
+the indexes have fallen some.**" The lag trade-off argued in public, with the concession attached rather than
+avoided. Read against the November 2008 arithmetic, which measured that cost two years later and found it small.
+([WW 2006-12-11](../../raw/posts/2006-12-11-gmi-6-follow-instruments-andor-gut-ibd100-stocks-thrive.md))
+
+
 ## January 2007 (sentiment / short side) — a low put/call as a topping tell; scaling into inverse ETFs
 
 **"GMI: 1; GMI-S: 25; IBD 100 underperform; Down-trend here?" (2007-01-08):** the put/call ratio read from
@@ -1017,6 +1049,18 @@ often.**" ([WW 2007-10-16](../../raw/posts/2007-10-16-gmi-6-gmi-revised-edu-anot
 ## October 2007 (cont.) — 'it is futile to try to anticipate market turns'
 
 **"GMI: 6; IBD100 stocks out-perform" (2007-10-15):** "I have learned over the years that it is futile to try to anticipate market turns… **of course, this means that I lose some profits as the top is formed. However, I prefer to take this approach**"; T2108 74% off an 82% high — the indicator "can take a long time to top out as it remains in the 70-80 area"; recent large up-trends of 80 and 86 days; "unlike most people with answers, I have data." ([WW 2007-10-15](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md))
+
+## November 2007 (durations) — 'what's the need to hurry?'
+
+**"GMI: 1; not in stocks" (2007-11-26):** the argument against early re-entry, made with numbers. "**The
+media pundits make us think that we must be invested all of the time so that we will not miss the next rise. But
+this is horrible advice. Any advance worth trading lasts months and one can wait for the train to leave the
+station and still hop on for a long trip. The advance that just ended lasted 50 days, the prior advance lasted 80
+days, and the one last December lasted 86 days. So what's the need to hurry?**" The gate measured on the same
+day: QQQQ −3.7% since D-1, with **87% of the Nasdaq-100, 75% of the S&P 500 and 80% of the Dow 30** declining.
+And the stance: "**I am a chicken and would rather get out and be proven wrong than stay in and suffer a large
+loss.**" ([WW 2007-11-26](../../raw/posts/2007-11-26-gmi-1-gmi-r-1-not-in-stocks.md))
+
 
 ## January 2008 (epiphany) — the AOL analysis, tested on ISRG
 
@@ -1618,6 +1662,16 @@ same evening — "**while I remain fully invested in mutual funds in my universi
 and in a little gold (DGP) in my IRA account.**" ([WW 2011-03-10](../../raw/posts/2011-03-10-short-term-trend-still-in-doubt-in-cash-and-gold.md))
 
 
+## March 2011 (attribution) — 'a rising tide raises all ships'
+
+**"GMI dives to 1; in cash and inverse ETFs" (2011-03-11):** the most direct statement in the corpus about
+where returns come from, written about himself and his readers together: "**All of us look smart when the trend
+is up and our trades are profitable. Now we must accept that our trading gains the past 2 years have been largely
+the result of a rising market. 'A rising tide raises all ships.' Well, the tide is going out now and our job is
+to conserve capital.**" And the gate restated as consistency rather than forecasting: "**I should not be long
+now, anymore than it made sense to be short during the market's rise.**" ([WW 2011-03-11](../../raw/posts/2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs.md))
+
+
 ## April 2011 — IBD50 vs Nasdaq100/S&P500 systematic comparison; 10-week bounce scan
 
 **"IBD50 list from 1/10 out-performs Nasdaq100 and S&P500 stocks" (2011-04-04):** a quantitative study measuring the performance of the January 10, 2011 IBD50 list through late March 2011. Results: 60% of IBD50 stocks rose (vs 67% for Nasdaq100 and 77% for S&P500) — a lower hit rate. But the IBD50 produced 18% of its stocks gaining 20%+, vs only 11% for Nasdaq100 and 10% for S&P500. Interpretation: the IBD50 is not where you find the most stocks going up, but it **concentrates the big winners** — 50 stocks instead of 500. Largest gainer: SINA at +45% (IBD50). Caveat: during the measurement period tech underperformed the S&P500 (QQQ +2.5%, SPY +4.9%), which would suppress IBD50 results. The 10-week bounce scan demonstrated: Dr. Wish scanned all IBD50 stocks in his TC2000 watchlist for those that bounced up from their 10-week average the prior week, and set sell stops just below each stock's prior-week low. GMI=6, GMI2=5, T2108=73% (overbought caution zone). ([WW 2011-04-04](../../raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md))
@@ -2191,6 +2245,17 @@ the seasonal reasoning via Hulbert — weakness ahead of the strongest season "*
 to stronger hands**… **so I will reverse and go long if this market shows any signs of strength**" — held
 alongside a small SQQQ position he would add to only if the down-trend continued. ([WW 2016-10-16](../../raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md))
 
+## October 2016 (durations) — the full distribution, replicated
+
+**"How long do down-trends last?" (2016-10-30):** the 2013 duration analysis re-run three years later, with
+"**remarkably similar**" findings — the only stability check anywhere in the corpus. Published: "**41% of
+down-trends ended within 5 days, compared to 21% of up-trends. But 63% of up-trends and 56% of down-trends lasted
+from 6-47 days. Up-trends were 5x more likely than down-trends (16% vs. 3%) to reach 50+ days.**" The asymmetry
+is the finding, and it is what justifies asymmetric tactics — early on the long side, past day 5 before
+committing on the short. With his own caveat that the table is conservative: "**any move might last longer than
+those in the table if they have a few brief trend changes.**" ([WW 2016-10-30](../../raw/posts/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md))
+
+
 ## November 2016 — Weekly 4wk/10wk hold discipline formalized; NTES 21-week example
 
 **"Short and long term trends now up; On using weekly charts to stay in a growth stock: $NTES" (2016-11-20):** Dr. Wish addresses the most common failure mode he observes in student traders: getting shaken out of a winner prematurely by reacting to daily chart noise. His solution: make exit decisions using only the **weekly chart** with three MAs (4wk, 10wk, 30wk). William O'Neil's approach cited — O'Neil "used only weekly charts because they more clearly revealed to him the meaningful stock trends." The **4wk/10wk hold ladder**: a strong advancing growth stock maintains 4wk > 10wk > 30wk for long periods; a weekly close below the 4wk average is a *potential* warning — raise stops or sell a small piece; a weekly close below the 10wk average is an exit signal ("Growth stocks should not close the week below their 10 week average"). Critical nuance: a stock often trades *intraweek* below its 4wk average and then closes back above — use weekly closing prices only. NTES example: 4>10>30 alignment from June through November 2016 — 21 weeks; stock rose over 40%; when it finally closed below the 4wk then the 10wk in early November, that was the exit signal. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
@@ -2522,6 +2587,17 @@ the news and media pundits, and to pull the trigger only after a signal has occu
 
 **"13 needles in a haystack" (2020-03-29):** a TC2000 column filter for daily RWB up-trends above $20, run on the ~800-stock IBD/MS watchlist: 13 hits — built as a list for the turn, not to trade now. "I usually do not buy such needles in the haystack in a declining market — the odds are against my profiting." ([WW 2020-03-29](../../raw/posts/2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more.md))
 
+## March 2020 (instrument) — the crossover that flagged the COVID top
+
+**"My successful new high and new low indicators flagged the market top" (2020-03-22):** the nightly
+spreadsheet shown, with the two mirror indicators as its first two columns, and the reason it exists: "**Nicolas
+Darvas had said that when the stocks that he was buying at new 52 week highs started to falter it told him to
+exit the market. That is why I calculate the Successful New High indicator each market day.**" The signal was
+their **convergence**, not either level: "**note that on February 21, the two indicators were equal at 55%.**
+Almost all of the prior days" the high side had led — and 21 February 2020 was the last session before the
+fastest bear market on record. ([WW 2020-03-22](../../raw/posts/2020-03-22-my-successful-new-high-and-new-low-indicators-flagged-the-market-top.md))
+
+
 ## June–July 2020 (mechanics) — the green dot's gate; TC2000 GLB alerts
 
 **"FB and AMD had green dot signals" (2020-06-09):** the green dot defined (fast 10.4 crossing above slow 10.4.4) with the gate he calls decisive — "both of these stocks are above their last green line tops, a critical requirement for me" — plus above-average volume on the dot. ([WW 2020-06-09](../../raw/posts/2020-06-09-fb-and-amd-had-green-dot-signals-tuesday-go-to-my-tc2000-club-to-view-the-green-dot-tutorial.md))
@@ -2791,6 +2867,19 @@ skilled programmer, **surpassed me at running TC2000**." ([WW 2022-02-27](../../
 **"Day 26 of $QQQ short-term up-trend; $WING flies to ATH, how I missed the GLB" (2023-04-24):** Dr. Wish confesses missing the WING GLB despite having set TC2000 alerts — he received 3 text alerts on April 18 and "NEVER saw these alerts." He uses the failure as a teaching moment to publish his **written GLB rules for students**: (1) draw a green line at a stock's peak once it has not been surpassed for at least 3 months; (2) set a TC2000 price alert (valid 1 year) to notify when the stock trades back above the green line; (3) buy on the day of the GLB or watch for a re-test; (4) hold unless the stock *closes* back below the green line — do not exit on intraday dips; (5) if it closes below the green line: failed GLB, exit immediately; (6) if it retakes the green line and closes back above: buy it back. WING had several prior failed GLBs before the actual breakout. The **Turtle Traders rule cited:** the Turtle Traders had a rule that "they had to act on every buy signal. The one signal you do not take after several fails is often the one that works." APLS presented as a contrasting successful GLB that ran without looking back. TC2000 alert workflow explained: draw the green line and immediately set a price alert — good for one year — delivered as a text message. ([WW 2023-04-24](../../raw/posts/2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m.md))
 
 ---
+
+## April 2023 (re-entry) — the rate cycle as a loop
+
+**"Time to abandon low-risk income and buy stocks" (2023-04-02):** the exit and the re-entry stated as one
+mechanism, seventeen months apart. "**I told you in November, 2021 that I was exiting the market because the Fed
+would raise interest rates and that would suck the \$\$\$ out of stocks. Now get ready for the reverse.** We are
+closer to a decline in rates and that will eventually cause money managers and the public to return to stocks
+again. **It really is that simple. The Fed tightens too much and then slashes rates to get the economy going
+again.**" Executed across both accounts — pension out of money market and back into mutual funds, IRA into ETFs
+and growth stocks — with the entry rule unchanged by eighteen months in cash: "**I only buy stocks that are above
+their last green line and trading near their ATHs.**" A 4%+ risk-free yield, which made cash comfortable in 2006,
+is read here as a late-cycle condition. ([WW 2023-04-02](../../raw/posts/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md))
+
 
 ## June 2023 — New highs/lows methodology explained
 
@@ -3393,3 +3482,10 @@ of this change when the GMI=5 or 6, indicating there are sufficient numbers of s
 - [WW 2014-05-07 — new-qqq-short-term-down-trend-but-i-dont-trust-it](../../raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md) ([summary](../sources/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md))
 - [WW 2019-06-16 — spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us](../../raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md) ([summary](../sources/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md))
 - [WW 2025-05-05 — blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the](../../raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md) ([summary](../sources/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md))
+- [WW 2005-04-17 — april-17-2005-short-or-in-cash](../../raw/posts/2005-04-17-april-17-2005-short-or-in-cash.md) ([summary](../sources/2005-04-17-april-17-2005-short-or-in-cash.md))
+- [WW 2006-12-11 — gmi-6-follow-instruments-andor-gut-ibd100-stocks-thrive](../../raw/posts/2006-12-11-gmi-6-follow-instruments-andor-gut-ibd100-stocks-thrive.md) ([summary](../sources/2006-12-11-gmi-6-follow-instruments-andor-gut-ibd100-stocks-thrive.md))
+- [WW 2007-11-26 — gmi-1-gmi-r-1-not-in-stocks](../../raw/posts/2007-11-26-gmi-1-gmi-r-1-not-in-stocks.md) ([summary](../sources/2007-11-26-gmi-1-gmi-r-1-not-in-stocks.md))
+- [WW 2011-03-11 — gmi-dives-to-1-in-cash-and-inverse-etfs](../../raw/posts/2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs.md) ([summary](../sources/2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs.md))
+- [WW 2016-10-30 — new-qqq-short-term-down-trend-how-long-do-down-trends-last](../../raw/posts/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md) ([summary](../sources/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md))
+- [WW 2020-03-22 — my-successful-new-high-and-new-low-indicators-flagged-the-market-top](../../raw/posts/2020-03-22-my-successful-new-high-and-new-low-indicators-flagged-the-market-top.md) ([summary](../sources/2020-03-22-my-successful-new-high-and-new-low-indicators-flagged-the-market-top.md))
+- [WW 2023-04-02 — blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu](../../raw/posts/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md) ([summary](../sources/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md))

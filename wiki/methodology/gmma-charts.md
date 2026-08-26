@@ -44,6 +44,7 @@ sources:
   - raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md
   - raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md
   - raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md
+  - raw/posts/2020-01-20-blog-post-how-the-market-will-show-me-when-this-up-trend-is-over.md
 ---
 
 # GMMA charts — RWB / BWR, the daily RWB system, and the timeframe ladder
@@ -110,6 +111,14 @@ commodity prices → inflation → Fed → "such a scenario of higher interest r
 market. **It always has**") is written out and then set aside as context. And for the in-between state, with the
 SPY's 2014–2015 RWB "clearly over" but no BWR yet: "**at some point a persistent RWB or BWR pattern will develop
 and it will pay to be fully invested with that trend**" — wait, do not position.
+
+**The prices are deliberately invisible (2020).** The chart's construction, stated in full: "my modified weekly
+GMMA has 12 exponential weekly moving averages plus a one period average which indicates each weekly close…
+**All averages are drawn on a white background with the actual prices in white and therefore invisible.**"
+([WW 2020-01-20](../../raw/posts/2020-01-20-blog-post-how-the-market-will-show-me-when-this-up-trend-is-over.md)) Not omitted — *rendered in white so they cannot be seen*. It is the
+[naked chart](moving-average-rules.md#the-naked-chart--and-the-1030-relationship) of August 2005 applied to the
+GMMA fifteen years later, and it explains why every RWB rule in this wiki is phrased as the close relative to the
+averages rather than as price action: on his screen there is no price to read.
 
 ## The daily RWB chart — a finer-grained tool
 
@@ -382,3 +391,4 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2017-12-10 — When to sell - the 13 averages, the gray line, and a graded exit](../../raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md) ([summary](../sources/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md))
 - [WW 2018-10-28 — A dual-timeframe RWB filter, and what it returned in a bear market](../../raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md) ([summary](../sources/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md))
 - [WW 2019-06-16 — How an RWB up-trend begins - the onset sequence defined](../../raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md) ([summary](../sources/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md))
+- [WW 2020-01-20 — blog-post-how-the-market-will-show-me-when-this-up-trend-is-over](../../raw/posts/2020-01-20-blog-post-how-the-market-will-show-me-when-this-up-trend-is-over.md) ([summary](../sources/2020-01-20-blog-post-how-the-market-will-show-me-when-this-up-trend-is-over.md))

@@ -39,6 +39,7 @@ sources:
   - raw/posts/2008-03-10-gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short.md
   - raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md
   - raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md
+  - raw/posts/2008-03-27-gmi-3-gmi-r-6-day-2-of-qqqq-up-trend-cpst-a-judys-pick.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -215,6 +216,11 @@ market.**" ([WW 2009-01-20](../../raw/posts/2009-01-20-cash-secured-puts-did-bad
 2007 covered-call material and the 2014 GLD weeklies with this condition attached — and note "learned **again**,"
 which is his own admission that the lesson had not stuck the first time.
 
+**The screener he uses (2008).** "The service that I use to scan stocks for writing covered calls is at
+**www.poweropt.com**. I like this service because **I can narrow down my scan to include only IBD100 stocks**."
+([WW 2008-03-27](../../raw/posts/2008-03-27-gmi-3-gmi-r-6-day-2-of-qqqq-up-trend-cpst-a-judys-pick.md)) The overlay runs on a growth-list filter rather than on the whole option universe — the premium
+is harvested from stocks he would want to own anyway, which is what keeps assignment from being a problem.
+
 ## See also
 
 - [Risk & cash](risk-and-cash.md) — cash as the default; the page this was split from
@@ -261,3 +267,4 @@ which is his own admission that the lesson had not stuck the first time.
 - [WW 2008-03-10 — The submarine trade fully specified; T2108's bottom band calibrated](../../raw/posts/2008-03-10-gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short.md) ([summary](../sources/2008-03-10-gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short.md))
 - [WW 2009-01-20 — A loss taken, and the rule it produced about selling options](../../raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md) ([summary](../sources/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md))
 - [WW 2008-10-28 — The mirror statistic's rationale, attributed and measured](../../raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md) ([summary](../sources/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md))
+- [WW 2008-03-27 — gmi-3-gmi-r-6-day-2-of-qqqq-up-trend-cpst-a-judys-pick](../../raw/posts/2008-03-27-gmi-3-gmi-r-6-day-2-of-qqqq-up-trend-cpst-a-judys-pick.md) ([summary](../sources/2008-03-27-gmi-3-gmi-r-6-day-2-of-qqqq-up-trend-cpst-a-judys-pick.md))

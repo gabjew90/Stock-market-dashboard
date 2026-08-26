@@ -43,6 +43,7 @@ sources:
   - raw/posts/2005-06-16-gmi-6-etf-winners-and-losers-interest-rates.md
   - raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md
   - raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md
+  - raw/posts/2020-11-29-sector-etfs-a-safer-way-for-boomers-to-invest-pbw-qcln-cnrg-pbd-smog-icln-lit-ipo-arkq-chiq-arkf-xbuy.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -318,6 +319,25 @@ fell while the cyclicals led. The later forms of the same idea are the
 [industry-index variant](#the-rwb-bouncing-off-support-scan-2015--yield-and-an-industry-index-variant) (2015)
 and the industry-group ranking of January 2018.
 
+## The ETF breakout scan (2020) — and why he moved to baskets
+
+A change of instrument driven by a change of circumstance, reasoned out loud: "as I get closer to retirement and
+to withdrawing funds from my trading accounts to live on, **I have been reluctant to buy individual growth stocks
+because of their potential volatility when bad news or earnings are released. But I cannot remain in money market
+funds because of their dismal returns.**" ([WW 2020-11-29](../../raw/posts/2020-11-29-sector-etfs-a-safer-way-for-boomers-to-invest-pbw-qcln-cnrg-pbd-smog-icln-lit-ipo-arkq-chiq-arkf-xbuy.md)) Narrow sector ETFs answer both constraints — "**these
+ETFs contained multiple stocks and were less volatile than individual stocks, which results in smaller draw
+downs**" — and carry information besides: "**I was amazed to find how clear a picture they paint of the best
+sectors of the market where the big money is flowing to.**"
+
+**The scan, over all ETFs listed in TC2000:**
+
+1. **Hit a 50 week high last week**
+2. **Volume last week ≥ 2× the 50 week average volume**
+3. **Closed higher last week than the prior week**
+
+A 50-week high plus a doubling of volume plus an up week — the breakout-on-volume logic transferred intact from
+stocks to baskets. Some hits had doubled over the year: "not too shabby for a basket of stocks."
+
 ## The Darvas EasyScan (2015)
 
 A TC2000 EasyScan he designed to approximate Darvas's selection criteria, run against ~6,000 stocks; on 2015-02-27 it returned 46 names, of which AMBA — above its green-line top, in a weekly RWB pattern — was the example. The criteria are not listed in the post; he points to his 2012 Houston TC2000 webinar for the walk-through. ([WW 2015-03-01](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md))
@@ -376,3 +396,4 @@ It is also the one scan he declines to share: "**Please do not ask me to post my
 - [WW 2005-06-16 — Ranking ETFs across a trend to find where the strength was](../../raw/posts/2005-06-16-gmi-6-etf-winners-and-losers-interest-rates.md) ([summary](../sources/2005-06-16-gmi-6-etf-winners-and-losers-interest-rates.md))
 - [WW 2018-10-28 — A dual-timeframe RWB filter, and what it returned in a bear market](../../raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md) ([summary](../sources/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md))
 - [WW 2017-12-10 — When to sell - the 13 averages, the gray line, and a graded exit](../../raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md) ([summary](../sources/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md))
+- [WW 2020-11-29 — sector-etfs-a-safer-way-for-boomers-to-invest-pbw-qcln-cnrg-pbd-smog-icln-lit-ipo-arkq-chiq-arkf-xbuy](../../raw/posts/2020-11-29-sector-etfs-a-safer-way-for-boomers-to-invest-pbw-qcln-cnrg-pbd-smog-icln-lit-ipo-arkq-chiq-arkf-xbuy.md) ([summary](../sources/2020-11-29-sector-etfs-a-safer-way-for-boomers-to-invest-pbw-qcln-cnrg-pbd-smog-icln-lit-ipo-arkq-chiq-arkf-xbuy.md))

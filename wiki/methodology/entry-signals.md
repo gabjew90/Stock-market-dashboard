@@ -29,6 +29,8 @@ sources:
   - raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md
   - raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md
   - raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md
+  - raw/posts/2015-04-19-where-to-from-here.md
+  - raw/posts/2020-07-07-blog-post-one-half-of-growth-stocks-outside-of-upper-15-2-daily-bollinger-band-suggesting-a-pause.md
 ---
 
 # Entry signals — BOS, the dots, and the daily bounce setups
@@ -129,6 +131,19 @@ QQQ, **but only to the top BB**." The pinch is treated as directionless by const
 BB pinch**… **at some point the BB will break up or down with a new move**" — which is the honest form of that
 pattern and worth keeping when it is quoted as bullish.
 
+**Why the bands work, as he teaches it (2020).** "Bollinger Bands (**BB, avg=15, 2 sd**). **By definition, 95% of
+the time a stock's prices should fall within the upper and lower bands**… **Thus when a stock closes above the
+upper band or below the lower, prices often revert to the average.**" ([WW 2020-07-07](../../raw/posts/2020-07-07-blog-post-one-half-of-growth-stocks-outside-of-upper-15-2-daily-bollinger-band-suggesting-a-pause.md)) Two rules fall straight
+out: "**I do not want to buy anything outside its upper band unless it is during a break-out. Rather, I look for
+bounces off of the lower band to buy.**" The breakout exception is what stops the rule contradicting the GLB —
+a genuine breakout is *supposed* to leave the band.
+
+**Three instruments for one decision (2015).** "There are three things I look for… the QQQ to bounce back and
+forth between the channel lines… the Bollinger Bands… **and third, the stochastics (daily 10.4)**… **I look at
+all 3 of these indicators to guide my trading.**" ([WW 2015-04-19](../../raw/posts/2015-04-19-where-to-from-here.md)) With the invalidation chosen first — "**I
+reduce risk by determining in advance a price which may signal that the bounce has failed**" — and the regime
+qualifier attached: "**I find it much safer to trade a bounce off of support in an up-trend.**"
+
 ## The moving-average setups
 
 ### x8/x21/30-day alignment: the daily bounce setup (introduced 2024)
@@ -194,3 +209,5 @@ it. The 2005 version leaves both to judgement.
 - [WW 2016-09-11 — September swoon? Weak Fridays often lead to Ugly Mondays—Indicators I watch for a bottom](../../raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md) ([summary](../sources/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md))
 - [WW 2005-05-25 — An empty meetup room as a contrary indicator](../../raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md) ([summary](../sources/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md))
 - [WW 2014-05-07 — Distrusting his own signal; the lower band as better support](../../raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md) ([summary](../sources/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md))
+- [WW 2015-04-19 — where-to-from-here](../../raw/posts/2015-04-19-where-to-from-here.md) ([summary](../sources/2015-04-19-where-to-from-here.md))
+- [WW 2020-07-07 — blog-post-one-half-of-growth-stocks-outside-of-upper-15-2-daily-bollinger-band-suggesting-a-pause](../../raw/posts/2020-07-07-blog-post-one-half-of-growth-stocks-outside-of-upper-15-2-daily-bollinger-band-suggesting-a-pause.md) ([summary](../sources/2020-07-07-blog-post-one-half-of-growth-stocks-outside-of-upper-15-2-daily-bollinger-band-suggesting-a-pause.md))

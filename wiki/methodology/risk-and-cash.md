@@ -102,6 +102,13 @@ sources:
   - raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md
   - raw/posts/2011-03-10-short-term-trend-still-in-doubt-in-cash-and-gold.md
   - raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md
+  - raw/posts/2005-07-13-gmi6-gdw-shame-on-you-cramer.md
+  - raw/posts/2008-03-24-gmi-o-gmi-r-1-window-dressing-rally.md
+  - raw/posts/2022-01-23-blog-post-30-week-average-of-qqq-just-starting-to-curve-down-typically-happens-at-the-beginning-of-a-signific.md
+  - raw/posts/2018-06-17-world-markets-are-topping-can-the-u-s-be-far-behind.md
+  - raw/posts/2021-01-31-blog-post-qqq-short-term-up-trend-may-end-monday-is-gme-debacle-decoying-attention-from-impact-of-virus-faile.md
+  - raw/posts/2014-12-23-3rd-day-of-qqq-short-term-up-trend-double-top-in-bonds.md
+  - raw/posts/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md
 ---
 
 # Risk & cash
@@ -267,6 +274,15 @@ The 10-week average rule applies at the individual stock level: he holds AAPL (a
 
 The distribution he is playing for, stated in 2010: "The key to trading success is to have many small losses and a few very large gains." ([WW 2010-06-28](../../raw/posts/2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog.md))
 
+**The 8% limit, and the refusal of the trader/investor distinction (2005).** Stated by rejecting Cramer's
+version: "traders should cut their losses at 8% but investors who know the 'true value' of stocks can buy on the
+way down. **What a prescription for disaster! No one should average down and no one should let their losses on a
+purchase exceed 8%.**" ([WW 2005-07-13](../../raw/posts/2005-07-13-gmi6-gdw-shame-on-you-cramer.md)) The rule applies to everyone — there is no category of holder exempt
+from it. And the argument against averaging down is **informational** rather than technical: "one could have
+bought Enron all the way down by being a true believer in the accounting statistics and the repeated optimistic
+company announcements. **By the time we outsiders learn the facts, the insiders**" have already acted. A falling
+price is not a discount to someone who learns last.
+
 ## Stop-loss discipline — the mechanics
 
 Dr. Wish is explicit and detailed about how stops are used:
@@ -378,6 +394,27 @@ new-high list *after* the turn — in both directions, precision costs less than
 **A bottom is a set of signs, not a level.** From the same post: "the current market shows *none* of the key
 signs evident to me in prior bear market bottoms… **given that no one knows a bottom before it has occurred, it
 is best for me to remain in cash and a little short until the market tips its hand.**"
+
+## How bear markets end — the leadership sequence
+
+A model of who buys first at a bottom, drawn from four decades of watching them ([WW 2008-03-24](../../raw/posts/2008-03-24-gmi-o-gmi-r-1-window-dressing-rally.md)):
+
+> "I remember how bear markets have ended over the past 40 years and that **the first stocks that people feel
+> more comfortable buying are the big name large cap stocks. Only after a new bull market is under way and people
+> have some profits, do they feel confident to buy the more speculative stocks.**"
+
+Recovery leadership is sequenced by **psychology**, not by fundamentals: buyers carrying recent losses reach for
+what feels safe, and the speculative names only run once those buyers are ahead. Two consequences follow. His own
+growth screens stay empty for a while after a genuine turn — the stocks he wants are the *last* to be bought — so
+an empty screen immediately after a bottom is expected rather than disconfirming. And the
+[post-decline new-high list](stock-selection.md#the-post-decline-new-high-list--where-the-next-leaders-announce-themselves)
+becomes informative only once that second phase begins.
+
+**The media-capitulation tell (2022).** The complement, at the other end: "if many are looking for a bottom to
+hop back in, it is probably too early. **When the media give up and expect a long bear market we will be near the
+bottom.**" ([WW 2022-01-23](../../raw/posts/2022-01-23-blog-post-30-week-average-of-qqq-just-starting-to-curve-down-typically-happens-at-the-beginning-of-a-signific.md)) The anecdote he has carried for fifty years: the *Wall Street Journal*'s Heard on the
+Street column writing "**if anything we are sure of, the market has further to fall**" — "**exactly on the day
+the bear market bottomed** about 50 years ago."
 
 ## Contrarian sentiment is a bounce warning, not a re-entry trigger
 
@@ -494,6 +531,18 @@ already taken the position he is considering.
 AAPL, FB, NFLX and SQ charted side by side, "**I become concerned when many of the market leaders look
 wounded**… are the others forming their bull market tops?" ([WW 2018-01-01](../../raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md))
 
+**The Investors Intelligence threshold, stated as a number (2021).** The gauge the wiki has carried only
+qualitatively: "the Investors Intelligence poll of investment newsletter writers now registers 61% bullish. **A
+contrarian indicator, market tops occur when this poll shows 60% or more bulls.**" ([WW 2021-01-31](../../raw/posts/2021-01-31-blog-post-qqq-short-term-up-trend-may-end-monday-is-gme-debacle-decoying-attention-from-impact-of-virus-faile.md)) Compare the
+February 2022 reading he *declined* to act on — bears ≈ bulls, "extremely rare," but T2108 never reached single
+digits.
+
+**And two personal gauges.** "During my 50 years of investing/trading I have learned that **when my account grows
+suddenly very quickly and when many people tell me they are making money in the market (I see this now in tweets
+and chat rooms), the market often rests or tops**." ([WW 2018-06-17](../../raw/posts/2018-06-17-world-markets-are-topping-can-the-u-s-be-far-behind.md)) His own account's rate of gain, and the
+volume of other people's success stories — both read contrarily, and both consistent with the
+[peers-reporting-profits](#contrarian-sentiment-is-a-bounce-warning-not-a-re-entry-trigger) note from 2007.
+
 ## The leader watchlist, named
 
 Every "the leaders are weakening" statement in this corpus rests on a specific, small, fixed list — asked for by
@@ -588,6 +637,22 @@ hardest to believe, which is what makes it worth quoting.
 
 The same reading appears from the other side in 2016 on [gold and the dollar](gmma-charts.md#the-rwb--bwr-patterns--multiple-mas-on-a-guppy-chart)
 and in the 2014 [rates thesis](#the-rates-thesis-he-watches-for-2014) above.
+
+**The arithmetic, as he teaches it (2014).** Every rate statement in this corpus rests on one relationship, and
+he works it out numerically for students: "say a bond is issued at \$100 and it pays the holder \$3 per year.
+**That \$3 is fixed for the life of the bond**… its yield = 3%. Now say that interest rates rise over a few
+years to 6%. Then new \$100 bonds issued will pay \$6 per year. **Someone holding the older bonds… would likely
+be offered only about \$50 for his bond which he had bought for \$100.**" ([WW 2014-12-23](../../raw/posts/2014-12-23-3rd-day-of-qqq-short-term-up-trend-double-top-in-bonds.md)) The coupon cannot
+adjust, so the price must — which is why TLT, IEF and SHY *are* the rate view rather than proxies for it, and why
+an inflation-adjusting instrument like an I-bond is the one safe asset a rate rise does not mark down. His
+summary of forty years: "**the one thing that can kill a bull market is the Fed's raising interest rates.**"
+
+**And the same mechanism read at the opposite phase (2023).** "I told you in November, 2021 that I was exiting
+the market because the Fed would raise interest rates and that would suck the \$\$\$ out of stocks. **Now get
+ready for the reverse.** We are closer to a decline in rates and that will eventually cause money managers and
+the public to return to stocks again. **It really is that simple. The Fed tightens too much and then slashes
+rates to get the economy going again.**" ([WW 2023-04-02](../../raw/posts/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md)) The rate thesis is a **loop**: the argument that
+produced the exit is the one that produced the re-entry seventeen months later.
 
 ## Where the cash sits — I-bonds as the ultra-safe sleeve
 
@@ -749,3 +814,10 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2021-11-23 — SHY as the short-rate proxy; a hedge word regretted](../../raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md) ([summary](../sources/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md))
 - [WW 2011-03-10 — The leader watchlist, named](../../raw/posts/2011-03-10-short-term-trend-still-in-doubt-in-cash-and-gold.md) ([summary](../sources/2011-03-10-short-term-trend-still-in-doubt-in-cash-and-gold.md))
 - [WW 2009-01-20 — A loss taken, and the rule it produced about selling options](../../raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md) ([summary](../sources/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md))
+- [WW 2005-07-13 — gmi6-gdw-shame-on-you-cramer](../../raw/posts/2005-07-13-gmi6-gdw-shame-on-you-cramer.md) ([summary](../sources/2005-07-13-gmi6-gdw-shame-on-you-cramer.md))
+- [WW 2008-03-24 — gmi-o-gmi-r-1-window-dressing-rally](../../raw/posts/2008-03-24-gmi-o-gmi-r-1-window-dressing-rally.md) ([summary](../sources/2008-03-24-gmi-o-gmi-r-1-window-dressing-rally.md))
+- [WW 2022-01-23 — blog-post-30-week-average-of-qqq-just-starting-to-curve-down-typically-happens-at-the-beginning-of-a-signific](../../raw/posts/2022-01-23-blog-post-30-week-average-of-qqq-just-starting-to-curve-down-typically-happens-at-the-beginning-of-a-signific.md) ([summary](../sources/2022-01-23-blog-post-30-week-average-of-qqq-just-starting-to-curve-down-typically-happens-at-the-beginning-of-a-signific.md))
+- [WW 2018-06-17 — world-markets-are-topping-can-the-u-s-be-far-behind](../../raw/posts/2018-06-17-world-markets-are-topping-can-the-u-s-be-far-behind.md) ([summary](../sources/2018-06-17-world-markets-are-topping-can-the-u-s-be-far-behind.md))
+- [WW 2021-01-31 — blog-post-qqq-short-term-up-trend-may-end-monday-is-gme-debacle-decoying-attention-from-impact-of-virus-faile](../../raw/posts/2021-01-31-blog-post-qqq-short-term-up-trend-may-end-monday-is-gme-debacle-decoying-attention-from-impact-of-virus-faile.md) ([summary](../sources/2021-01-31-blog-post-qqq-short-term-up-trend-may-end-monday-is-gme-debacle-decoying-attention-from-impact-of-virus-faile.md))
+- [WW 2014-12-23 — 3rd-day-of-qqq-short-term-up-trend-double-top-in-bonds](../../raw/posts/2014-12-23-3rd-day-of-qqq-short-term-up-trend-double-top-in-bonds.md) ([summary](../sources/2014-12-23-3rd-day-of-qqq-short-term-up-trend-double-top-in-bonds.md))
+- [WW 2023-04-02 — blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu](../../raw/posts/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md) ([summary](../sources/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md))

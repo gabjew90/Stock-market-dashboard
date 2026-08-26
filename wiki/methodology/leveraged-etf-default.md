@@ -1,7 +1,7 @@
 ---
 title: The leveraged-ETF default — TQQQ on a GMI Buy signal
 type: concept
-updated: 2026-08-20
+updated: 2026-08-26
 sources:
   - raw/posts/2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs.md
   - raw/posts/2011-01-04-2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs.md
@@ -26,6 +26,7 @@ sources:
   - raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md
   - raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md
   - raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md
+  - raw/posts/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md
 ---
 
 # The leveraged-ETF default — TQQQ on a GMI Buy signal
@@ -85,6 +86,11 @@ the beginning of a QQQQ short term up-trend.**" ([WW 2010-10-11](../../raw/posts
 fund over a clean trending stretch — which is what the instruments are supposed to do, and the reason the
 [decay caveat](#the-thesis-is-older-than-the-studies--october-2006) matters only when the trend is choppy.
 
+**Not QQQ-specific (February 2007).** The same arithmetic on the other two indexes, noted while regretting that
+he had watched only one: over 24 weeks above their 10-week averages, **SPY +11% against SSO +22%, and DIA +11.5%
+against DDM +23%**. ([WW 2007-02-05](../../raw/posts/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md)) The doubling holds wherever a clean trend runs; the reason the wiki's
+examples are mostly QQQ-based is that his indicator is.
+
 ## The TQQQ default and year-in-review performance data
 
 Performance data Dr. Wish has published reinforcing the case for riding leveraged index ETFs rather than selecting individual stocks:
@@ -134,3 +140,4 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2006-10-23 — GMI: 6; IBD 100 performance; AAPL and GOOG](../../raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md) ([summary](../sources/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md))
 - [WW 2006-01-17 — The advance measured across three indexes; the inverted-yield-curve worry](../../raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md) ([summary](../sources/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md))
 - [WW 2010-10-11 — The ultra-ETF measurement repeated; a bounce scan built for students](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md) ([summary](../sources/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md))
+- [WW 2007-02-05 — gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle](../../raw/posts/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md) ([summary](../sources/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md))
