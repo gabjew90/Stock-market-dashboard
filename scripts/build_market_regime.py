@@ -18,7 +18,7 @@ from ww.backtest.gate import (
     _above_trailing_sma,
     daily_gmi_series,
     green_state_machine,
-    _S10_FRAC,
+    successful_10day_component,
     _NEW_HIGHS_MIN,
     _QQQ_DAILY_TREND_WINDOW,
     _QQQ_WEEKLY_TREND_WINDOW,
@@ -263,8 +263,8 @@ def build_payload() -> dict:
     qclose_ohlc = ohlc["close"]  # used for the candle body so o/c are self-consistent
     qvol = ohlc.get("volume", pd.Series(0, index=idx)).fillna(0)
 
-    c1 = (bs["s10_total"] > 0) & (bs["s10_higher"] >= _S10_FRAC * bs["s10_total"])
-    c2 = bs["nasdaq_new_52w_highs"] >= _NEW_HIGHS_MIN
+    c1 = successful_10day_component(bs["s10_higher"], bs["s10_total"])
+    c2 = bs["new_52w_highs"] >= _NEW_HIGHS_MIN
     c3 = _above_trailing_sma(qqq, _QQQ_DAILY_TREND_WINDOW)
     c4 = _above_trailing_sma(spy, _QQQ_DAILY_TREND_WINDOW)
     wk = qqq.resample("W-FRI").last().dropna()
@@ -347,7 +347,7 @@ def build_payload() -> dict:
         "rd1_sq": ret_since_day1_sq.round(2),
         "s10_total": bs["s10_total"].astype(int),
         "s10_higher": bs["s10_higher"].astype(int),
-        "new_highs": bs["nasdaq_new_52w_highs"].astype(int),
+        "new_highs": bs["new_52w_highs"].astype(int),
         "t2108": bs["t2108_nyse"].round(1),
         "fwd1": (fwd1 * 100).round(2),
         "fwd5": (fwd5 * 100).round(2),
@@ -992,9 +992,15 @@ dateSlider.addEventListener('change', e => setIndex(Number(e.target.value)));
 datePick.addEventListener('change', e => setIndex(findNearestIndex(e.target.value)));
 
 function classifyState(s, g) {
-  if (s === 1) return {label: "GREEN — in market", cls: "green"};
-  if (g <= 2) return {label: "RED — sidelined", cls: "red"};
-  return {label: "YELLOW — transition", cls: "yellow"};
+  // s = the confirmed Green/Red signal (2-day rule, asymmetric: out only below 3).
+  // g = today's raw 0-6 score. A signal still Green on a score of 3 or less is his hold
+  // state - "raise stops, no new buys" - which we surface as YELLOW rather than GREEN.
+  if (s === 1) return g >= 4
+    ? {label: "GREEN — in market", cls: "green"}
+    : {label: "YELLOW — hold", cls: "yellow", hold: true};
+  return g >= 4
+    ? {label: "YELLOW — unconfirmed", cls: "yellow", hold: false}
+    : {label: "RED — sidelined", cls: "red"};
 }
 
 const STAGE_INFO = {
@@ -1465,9 +1471,9 @@ function render() {
 // ============================================================================
 
 const POP = {
-  gmi: "<b>GMI — General Market Index</b><br>A daily 0–6 score of six market-health components. ≥4 for 2 consecutive days flips the gate GREEN (we're willing to buy long). ≤3 for 2 days flips RED (defensive — cash or hedge).",
+  gmi: "<b>GMI — General Market Index</b><br>A daily 0–6 score of six market-health components. ≥4 for 2 consecutive days flips the gate GREEN (we're willing to buy long). Dropping <b>below 3</b> (i.e. ≤2) for 2 days flips RED (defensive — cash or hedge). A reading of exactly 3 is a <b>hold</b>: raise stops and stop new buying, but the signal does not flip.",
   t2108: "<b>T2108 — NYSE breadth</b><br>The percent of NYSE stocks trading above their 40-day SMA. We use three zones:<br><b style='color:#2f6b3f'>&lt;10</b> = capitulation buy zone (accumulate SPY in tranches; historically marks lasting bottoms).<br><b style='color:#b07d18'>10–30 / 70–80</b> = caution zones at either extreme.<br><b style='color:#8c2f24'>&gt;80</b> = extended; no new buys, take some profit.<br>30–70 is the healthy mid-range. Our value tracks the published T2108 at corr ≈ 0.93 (small +3–4 pt optimistic bias from survivorship in our universe).",
-  state: "<b>Market state — GREEN / YELLOW / RED</b><br>Computed from the GMI with a 2-day confirmation rule. GREEN = 2 consecutive days ≥4. RED = 2 consecutive days <4 and not recovered. YELLOW = transition (GMI 3).",
+  state: "<b>Market state — GREEN / YELLOW / RED</b><br>Computed from the GMI with a 2-day confirmation rule, asymmetric around a hold state at 3. GREEN = signal confirmed and GMI ≥4. RED = 2 consecutive days below 3 (≤2). YELLOW = transition — either still on a Green signal with GMI ≤3 (hold: raise stops, no new buys), or ≥4 but not yet confirmed for a second day.",
   dayN: "<b>Day N of QQQ short-term trend</b><br>The count of consecutive trading days QQQ has been on its current side of the 30-day SMA. Resets to 1 when QQQ crosses through the line on a closing basis.",
   stage: "<b>Weinstein stage</b><br>The four-stage classification from Stan Weinstein, used for the long-term picture:<br><b>Stage 1 — Basing</b>: shallow dip below a rising 30wk, or price back above it before the 10wk > 30wk cross confirms. No new buys yet.<br><b>Stage 2 — Advancing</b>: price above rising 30wk + 10wk > 30wk confirmed. <i>Only stage we buy long.</i><br><b>Stage 3 — Topping</b>: price above 30wk but the line is flattening or curling down. We sell into this.<br><b>Stage 4 — Declining</b>: price below falling 30wk + 10wk < 30wk. Defensive.",
   redshade: "<b>RED-shaded periods</b><br>Days when QQQ is in a <b>short-term down-trend</b> (closed below its 30-day SMA). Aligns with the Day-N pill at the top: shading ends exactly when the ST trend flips to up.<br><br>Note: this is distinct from the GMI gate (GREEN/RED badge above). The gate uses the full 6-component GMI score with a 2-day confirmation — it can stay RED for a few days after the ST trend turns up, by design.",
@@ -1476,7 +1482,7 @@ const POP = {
   e21: "<b>21-day EMA (daily)</b><br>The short-term swing-trade trend filter, faster than the 30-day SMA — it weights recent prices more heavily so it turns first when a trend changes. A close above the 21-EMA is a swing-long bias; a clean break below often precedes a 30-day SMA break. Useful as an early-warning companion to the 30-day SMA, not a trade signal on its own.",
   w10: "<b>10-week SMA (weekly chart)</b><br>Our medium-term hold line. Computed on Friday weekly closes. The <b>10wk crossing above 30wk</b> is the bull re-entry signal (confirmed live 2025-06 and 2026-05). The <b>10wk crossing below 30wk</b> confirms Stage 4 onset (April 2025 tariff decline).",
   w30: "<b>30-week SMA (weekly chart)</b><br>Our most important MA — Stan Weinstein's classic. Got us out before 2000 and 2008. Price above + line rising = Stage 2 uptrend — the only stage we buy long.",
-  c1: "<b>Successful 10-day new high</b><br>Component 1 of GMI. Fires when ≥50% of stocks that hit a new 52-week high 10 trading days ago closed higher today. Tests whether breakouts are still being rewarded.",
+  c1: "<b>Successful 10-day new high</b><br>Component 1 of GMI. Fires when ≥100 of the stocks that hit a new 52-week high 10 trading days ago closed higher today, <i>or</i> when ≥50% of them did and there were at least 20 to begin with. Tests whether breakouts are still being rewarded.",
   c2: "<b>≥100 new 52-week highs</b><br>Component 2 of GMI. Fires when more than 100 US stocks hit a new 52-week high today. Tests breadth of advance — a healthy bull has wide participation.",
   c3: "<b>QQQ daily up-trend</b><br>Component 3 of GMI. Reconstructed as QQQ close above its 30-day SMA. The Nasdaq-100's short-term trend.",
   c4: "<b>SPY daily up-trend</b><br>Component 4 of GMI. Reconstructed as SPY close above its 30-day SMA. The S&amp;P 500's short-term trend.",
@@ -1560,11 +1566,16 @@ function renderVerdict(r, stateInfo){
     hh = "Breadth confirms the tape — the gate holds <em>green</em>.";
     p1 = "The General Market Index reads " + r.g + " of six with the gate confirmed green, and QQQ sits " + above + " a " + slope + " 30-day line. Posture stays constructive into the open.";
     p2 = "The short-term trend runs to day " + r.dn + "; the longer-term picture is a textbook " + si.name + " read.";
+  } else if (gate === "yellow" && stateInfo.hold) {
+    kt = "The Gate · Yellow — Hold";
+    hh = "Still on a green signal, but breadth has <em>thinned</em>.";
+    p1 = "The General Market Index reads " + r.g + " of six. Short of four, but not below three — the signal stays green while the score sits in the hold band. Raise stops; no new buying.";
+    p2 = "Day " + r.dn + " of the current " + r.sd + "-trend, classified " + si.name + ". Two consecutive days below three would flip the gate red.";
   } else if (gate === "yellow") {
-    kt = "The Gate · Yellow — Transition";
-    hh = "A market in <em>transition</em> — signals are mixed.";
-    p1 = "The General Market Index reads " + r.g + " of six — short of a confirmed green gate. Participation is uneven and the tape is no longer pointing one way.";
-    p2 = "Day " + r.dn + " of the current " + r.sd + "-trend, classified " + si.name + ". Trim conviction until the gate resolves.";
+    kt = "The Gate · Yellow — Unconfirmed";
+    hh = "Breadth has recovered, but the gate is <em>not confirmed</em>.";
+    p1 = "The General Market Index reads " + r.g + " of six — enough for a green gate, but it needs a second consecutive day to confirm. Participation is improving ahead of the signal.";
+    p2 = "Day " + r.dn + " of the current " + r.sd + "-trend, classified " + si.name + ". Wait for the confirmation rather than anticipating it.";
   } else {
     kt = "The Gate · Red — Defensive";
     hh = "The gate turns <em>red</em> — defense comes first.";

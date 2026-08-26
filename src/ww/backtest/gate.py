@@ -6,8 +6,14 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-_GMI_THRESHOLD = 4
-_S10_FRAC = 0.5            # 2014 rule: >= 50% of the 10-day-ago new-high stocks closed higher today
+_GMI_THRESHOLD = 4         # Buy: GMI >= 4 ("> 3") for two consecutive days (WW 2012-04-30)
+_GMI_EXIT_THRESHOLD = 3    # Sell: GMI *below* 3 (i.e. <= 2) for two consecutive days (WW 2012-04-16, 2014-08-03).
+                           # GMI == 3 is a HOLD state - raise stops, no new buys, but it does NOT flip the
+                           # signal to Red. Corroborated 2017-04-16: GMI at 1 and "still on a GREEN signal.
+                           # One more day below 3 will change it to RED."
+_S10_FRAC = 0.5            # July 2005 rule: >= 50% of the 10-day-ago new-high stocks closed higher today
+_S10_COUNT_MIN = 100       # April 2005 launch rule, kept as an OR-branch: >= 100 successful 10-day new highs
+_S10_MIN_DENOM = 20        # Feb 2008 addition: the 50% branch needs a denominator of at least 20
 _NEW_HIGHS_MIN = 100
 _QQQ_DAILY_TREND_WINDOW = 30   # the 'QQQ daily trend up' proxy = close > trailing 30-day SMA (the documented evidence)
 _QQQ_WEEKLY_TREND_WINDOW = 30  # weeks
@@ -27,6 +33,22 @@ def _sma_rising(series: pd.Series, window: int, *, lookback: int = 4) -> pd.Seri
     return (ma > ma.shift(lookback)).where(ma.notna() & ma.shift(lookback).notna(), False).astype(bool)
 
 
+def successful_10day_component(higher: pd.Series, total: pd.Series) -> pd.Series:
+    """GMI component 1, in the form the published table has carried since 2008-02-11:
+
+        >= 100 successful 10-day new highs, OR (>= 50% of them AND a denominator of >= 20).
+
+    The definitional history is: raw count > 100 (2005-04-26) -> count *or* >= 50% (2005-07-11)
+    -> *and* denominator >= 20 (2008-02-11), the last added because "the 50% requirement is not
+    enough if it is based on fewer than 20 stocks." Thresholds are inclusive (WW 2007-09-04).
+    """
+    higher = higher.astype(float)
+    total = total.astype(float)
+    by_count = higher >= _S10_COUNT_MIN
+    by_frac = (total >= _S10_MIN_DENOM) & (higher >= _S10_FRAC * total)
+    return (by_count | by_frac).fillna(False).astype(bool)
+
+
 def _reconstructed_gmi(root: Path, prices: pd.DataFrame) -> pd.Series:
     root = Path(root)
     bs = pd.read_parquet(root / "data" / "breadth" / "breadth_series.parquet")
@@ -42,8 +64,10 @@ def _reconstructed_gmi(root: Path, prices: pd.DataFrame) -> pd.Series:
     else:
         fund = pd.Series(np.nan, index=idx)
 
-    c1 = (bs["s10_total"] > 0) & (bs["s10_higher"] >= _S10_FRAC * bs["s10_total"])
-    c2 = bs["nasdaq_new_52w_highs"] >= _NEW_HIGHS_MIN
+    c1 = successful_10day_component(bs["s10_higher"], bs["s10_total"])
+    # Component 2 counts new highs across his whole ~4,000-stock universe (NYSE + Nasdaq + AMEX),
+    # which is what the >= 100 threshold was calibrated on - not the Nasdaq-only subset.
+    c2 = bs["new_52w_highs"] >= _NEW_HIGHS_MIN
     c3 = _above_trailing_sma(qqq, _QQQ_DAILY_TREND_WINDOW)
     c4 = _above_trailing_sma(spy, _QQQ_DAILY_TREND_WINDOW)
     # weekly QQQ trend: resample to weekly closes, "above its trailing 30-week SMA", forward-fill onto daily
@@ -76,23 +100,37 @@ def daily_gmi_series(root: Path, prices: pd.DataFrame, *, source: str = "reconst
     return out
 
 
-def green_state_machine(gmi: pd.Series, *, gmi_threshold: int = _GMI_THRESHOLD, confirm_in: int = 2, confirm_out: int = 2,
+def green_state_machine(gmi: pd.Series, *, gmi_threshold: int = _GMI_THRESHOLD,
+                        exit_threshold: int = _GMI_EXIT_THRESHOLD, confirm_in: int = 2, confirm_out: int = 2,
                         extra_ok: pd.Series | None = None) -> pd.Series:
-    """GREEN flips on the `confirm_in`-th consecutive day with gmi >= threshold (and `extra_ok` if given); RED flips on
-    the `confirm_out`-th consecutive day with gmi < threshold OR (extra_ok is False). Returns a daily bool series."""
+    """Dr. Wish's GREEN/RED signal, which is **asymmetric** around a hold state at GMI == 3.
+
+    GREEN flips on the `confirm_in`-th consecutive day with ``gmi >= gmi_threshold`` (and `extra_ok`
+    if given). RED flips on the `confirm_out`-th consecutive day with ``gmi < exit_threshold`` OR
+    (`extra_ok` is False). A day that is neither - a GMI of exactly 3 - resets **both** streaks: it
+    is a hold, so it breaks a run toward GREEN and a run toward RED alike.
+
+    The two-day persistence was adopted 2011-11-28 after a self-audit found three one-day whipsaws
+    among 12 regime changes: "If I had used a rule that said that a change in trend had to persist
+    for two days to be valid, I would have avoided these false signals. I will use that rule."
+    The thresholds are his: Buy at "GMI > 3 for two consecutive days" (2012-04-30), Sell at
+    "2 consecutive days below 3" (2012-04-16). Passing ``exit_threshold=gmi_threshold`` restores the
+    old symmetric behaviour, which exits on a hold reading and whipsaws ~43% more often.
+    """
     g = gmi.astype(float)
-    ok = (g >= gmi_threshold)
+    enter_ok = g >= gmi_threshold
+    exit_bad = g < exit_threshold
     if extra_ok is not None:
-        ok = ok & extra_ok.reindex(g.index).fillna(False).astype(bool)
+        extra = extra_ok.reindex(g.index).fillna(False).astype(bool)
+        enter_ok = enter_ok & extra
+        exit_bad = exit_bad | ~extra
     out = pd.Series(False, index=g.index)
     state = False
     streak_ok = 0
     streak_bad = 0
     for ts in g.index:
-        if ok.loc[ts]:
-            streak_ok += 1; streak_bad = 0
-        else:
-            streak_bad += 1; streak_ok = 0
+        streak_ok = streak_ok + 1 if enter_ok.loc[ts] else 0
+        streak_bad = streak_bad + 1 if exit_bad.loc[ts] else 0
         if not state and streak_ok >= confirm_in:
             state = True
         elif state and streak_bad >= confirm_out:
@@ -102,6 +140,7 @@ def green_state_machine(gmi: pd.Series, *, gmi_threshold: int = _GMI_THRESHOLD, 
 
 
 def market_state_gate(gmi: pd.Series, prices: pd.DataFrame, *, gmi_threshold: int = _GMI_THRESHOLD,
+                      exit_threshold: int = _GMI_EXIT_THRESHOLD,
                       confirm_in: int = 2, confirm_out: int = 2, require_stage2: bool = False,
                       require_st_up: bool = False) -> pd.Series:
     """Full gate: the GMI state machine, optionally requiring Stage-2 (QQQ > rising 30-week SMA) and/or
@@ -120,5 +159,6 @@ def market_state_gate(gmi: pd.Series, prices: pd.DataFrame, *, gmi_threshold: in
         # compute the 30d-SMA "up/down" point-in-time over the daily series
         st_up = _above_trailing_sma(qqq, _QQQ_DAILY_TREND_WINDOW)   # same proxy short_term_trend uses
         extra = extra & st_up
-    return green_state_machine(gmi, gmi_threshold=gmi_threshold, confirm_in=confirm_in, confirm_out=confirm_out,
+    return green_state_machine(gmi, gmi_threshold=gmi_threshold, exit_threshold=exit_threshold,
+                               confirm_in=confirm_in, confirm_out=confirm_out,
                                extra_ok=(extra if (require_stage2 or require_st_up) else None))

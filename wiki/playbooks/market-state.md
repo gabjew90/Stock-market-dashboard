@@ -1,7 +1,7 @@
 ---
 title: Playbook — market state → stance
 type: playbook
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-07-17-gmi-since-inception-introducing-the-wpm-on-analyst-earnings-estimates-ibd-100-rockets.md
@@ -38,7 +38,7 @@ Given today's readings of the [GMI](../methodology/gmi.md), the [QQQ short-term 
 
 ## Inputs
 
-- [GMI](../methodology/gmi.md) — 0–6; GREEN ≥ 4, RED ≤ 3; signals at [gmi.md#the-signals](../methodology/gmi.md#the-signals--buy-sell-and-the-hold-state-at-3)
+- [GMI](../methodology/gmi.md) — 0–6; GREEN ≥ 4, **hold at 3**, RED below 3 — each side needing two consecutive days; signals at [gmi.md#the-signals](../methodology/gmi.md#the-signals--buy-sell-and-the-hold-state-at-3)
 - [QQQ short-term timing](../methodology/qqq-short-term-timing.md) — up/down and the day count
 - [T2108](../methodology/t2108.md) — % of NYSE stocks above their 40-day MA
 - Daily US new highs / new lows ([gmi.md#new-highs](../methodology/gmi.md#new-highs--new-lows--a-breadth-supplement-to-the-gmi))

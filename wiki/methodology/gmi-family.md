@@ -79,7 +79,7 @@ The GMI's action thresholds are not stated identically across posts, and the wik
 | 2011-03-07 | "I like to be long if the GMI is 4 or more... When it declines to 3 or below, I get defensive" ([WW 2011-03-07](../../raw/posts/2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu.md)) |
 | 2012-04-30 | Buy signal = GMI > 3 on two consecutive days ([WW 2012-04-30](../../raw/posts/2012-04-30-how-to-find-the-next-aapl-growth-stock-new-gmi-buy-signal-ibd50-out-performs-again.md)) |
 
-The ≥4 / ≤3 reading is the dominant and durable one; the October 2007 "greater than 2" appears to be a looser stance taken mid-up-trend rather than a redefinition. The [backtest](backtest-timing-overlay.md) uses ≥4 long / ≤3 cash.
+The ≥4 / ≤3 reading is the dominant and durable one; the October 2007 "greater than 2" appears to be a looser stance taken mid-up-trend rather than a redefinition. Note that ≤3 is his *stance* threshold — get defensive — and not the level at which the **signal** flips: that needs two consecutive days *below* 3 (see [the signals](gmi.md#the-signals--buy-sell-and-the-hold-state-at-3)). The [backtest](backtest-timing-overlay.md) follows the signal: long on a confirmed Green, cash once it flips Red.
 
 ## Intermediate — GMI-R (10 components), with its four extra indicators named
 

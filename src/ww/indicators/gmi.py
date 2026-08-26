@@ -64,6 +64,27 @@ def _qqq_weekly_above_30wk(provider: DataProvider, date: str) -> bool | None:
     return bool(c.iloc[-1] > ma30.iloc[-1])
 
 
+# Component 1 thresholds. Kept in step with `ww.backtest.gate` by
+# tests/backtest/test_gate.py::test_component1_scalar_and_vector_agree.
+_S10_COUNT_MIN = 100       # April 2005 launch rule, retained as an OR-branch
+_S10_FRAC = 0.5            # July 2005: "100 successful stocks *or at least 50%*"
+_S10_MIN_DENOM = 20        # February 2008: the 50% branch needs a denominator of >= 20
+
+
+def successful_10day_rule(higher: int, total: int) -> bool:
+    """GMI component 1 in its final published form (2008-02-11):
+
+        >= 100 successful 10-day new highs, OR (>= 50% of them AND at least 20 of them).
+
+    History: raw count > 100 (2005-04-26) -> count *or* >= 50% (2005-07-11) -> *and*
+    denominator >= 20 (2008-02-11), added because "the 50% requirement is not enough if it is
+    based on fewer than 20 stocks." Thresholds are inclusive (WW 2007-09-04).
+    """
+    if higher >= _S10_COUNT_MIN:
+        return True
+    return total >= _S10_MIN_DENOM and higher >= _S10_FRAC * total
+
+
 def _successful_10day(provider: DataProvider, date: str, *, original_rule: bool) -> bool | None:
     try:
         higher, total = provider.successful_10day_new_high(date)
@@ -72,8 +93,9 @@ def _successful_10day(provider: DataProvider, date: str, *, original_rule: bool)
     if total <= 0:
         return None
     if original_rule:
-        return higher >= 100
-    return higher >= 0.5 * total
+        # The 2005-04-26 launch definition: the raw count alone, before the 50% branch existed.
+        return higher >= _S10_COUNT_MIN
+    return successful_10day_rule(higher, total)
 
 
 def _new_highs_ge_100(provider: DataProvider, date: str) -> bool | None:
@@ -101,8 +123,9 @@ def _ibd_fund_above_50d(provider: DataProvider, date: str) -> bool | None:
 
 
 def gmi(provider: DataProvider, date: str, *, original_rule: bool = False) -> GMIResult:
-    """Compute the GMI for `date`. `original_rule=True` uses the 2005 component-1 threshold (>=100);
-    the default uses the 2014 refinement (>= 50% of stocks)."""
+    """Compute the GMI for `date`. `original_rule=True` uses the 2005-04-26 launch definition of
+    component 1 (the raw count alone); the default uses its final published form - see
+    `successful_10day_rule`."""
     verdicts: dict[str, bool | None] = {
         "successful_10day_new_high": _successful_10day(provider, date, original_rule=original_rule),
         "new_highs_ge_100": _new_highs_ge_100(provider, date),

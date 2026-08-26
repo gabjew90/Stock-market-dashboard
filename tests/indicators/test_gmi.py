@@ -48,17 +48,29 @@ def test_partial_gmi_when_only_prices_available():
     assert r.score == 3
 
 
-def test_component_1_original_2005_rule():
+def test_component_1_launch_rule_vs_final_form():
+    """`original_rule=True` is the 2005-04-26 launch definition - the raw count alone.
+    The default is its final published form (WW 2008-02-11): >= 100 successful new highs
+    OR (>= 50% of them AND a denominator of >= 20). The two branches are an OR, so a
+    count of 150 is positive under both even though 150/1000 is only 15%."""
     qd, qw, sd = _uptrend_daily(), _uptrend_weekly(), _uptrend_daily()
-    sp = StubProvider(prices={("QQQ", "1d"): qd, ("QQQ", "1wk"): qw, ("SPY", "1d"): sd},
-                      successful_10day_new_high={"2014-08-01": (90, 1000)})  # 90 < 100 -> NEGATIVE under 2005 rule
-    r = gmi(sp, "2014-08-01", original_rule=True)
-    assert r.components["successful_10day_new_high"] is False
-    # under the 2014 rule, 90/1000 = 9% < 50% -> also False; flip the test to a positive 2005 case:
-    sp2 = StubProvider(prices={("QQQ", "1d"): qd, ("QQQ", "1wk"): qw, ("SPY", "1d"): sd},
-                       successful_10day_new_high={"2014-08-01": (150, 1000)})  # 150 >= 100 -> POSITIVE (2005), but 15% < 50% (2014)
-    assert gmi(sp2, "2014-08-01", original_rule=True).components["successful_10day_new_high"] is True
-    assert gmi(sp2, "2014-08-01", original_rule=False).components["successful_10day_new_high"] is False
+
+    def _c1(higher, total, *, original_rule):
+        sp = StubProvider(prices={("QQQ", "1d"): qd, ("QQQ", "1wk"): qw, ("SPY", "1d"): sd},
+                          successful_10day_new_high={"2014-08-01": (higher, total)})
+        return gmi(sp, "2014-08-01", original_rule=original_rule).components["successful_10day_new_high"]
+
+    # 90 of 1000: short of the count and short of 50% -> negative under both readings.
+    assert _c1(90, 1000, original_rule=True) is False
+    assert _c1(90, 1000, original_rule=False) is False
+    # 150 of 1000: the count branch carries it, at only 15% follow-through.
+    assert _c1(150, 1000, original_rule=True) is True
+    assert _c1(150, 1000, original_rule=False) is True
+    # 60 of 100: below the count but a clear majority -> the 2005 launch rule misses it.
+    assert _c1(60, 100, original_rule=True) is False
+    assert _c1(60, 100, original_rule=False) is True
+    # 9 of 15: 60%, but on a denominator of 15 - the reading the Feb-2008 floor was added to reject.
+    assert _c1(9, 15, original_rule=False) is False
 
 
 def test_price_components_respect_the_requested_date():

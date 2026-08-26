@@ -9,7 +9,7 @@ from ww.backtest.engine import run_backtest
 from ww.backtest.gate import _above_trailing_sma, _sma_rising, daily_gmi_series, green_state_machine, market_state_gate
 from ww.backtest.metrics import compare, performance, rolling_excess_cagr
 
-_DEFAULT = dict(gmi_threshold=4, confirm_in=2, confirm_out=2, require_stage2=False, require_st_up=False,
+_DEFAULT = dict(gmi_threshold=4, exit_threshold=3, confirm_in=2, confirm_out=2, require_stage2=False, require_st_up=False,
                 gmi_source="reconstructed", red_etf=None, long_etf="QQQ", cost_bps=5.0)
 
 
@@ -22,8 +22,9 @@ def _qqq_30wk_filter(prices: pd.DataFrame, idx: pd.Index) -> pd.Series:
 
 def _one_run(root, prices, *, start, end, cfg) -> dict:
     gmi = daily_gmi_series(root, prices, source=cfg["gmi_source"])
-    sig = market_state_gate(gmi, prices, gmi_threshold=cfg["gmi_threshold"], confirm_in=cfg["confirm_in"],
-                            confirm_out=cfg["confirm_out"], require_stage2=cfg["require_stage2"], require_st_up=cfg["require_st_up"])
+    sig = market_state_gate(gmi, prices, gmi_threshold=cfg["gmi_threshold"], exit_threshold=cfg["exit_threshold"],
+                            confirm_in=cfg["confirm_in"], confirm_out=cfg["confirm_out"],
+                            require_stage2=cfg["require_stage2"], require_st_up=cfg["require_st_up"])
     res = run_backtest(sig, prices, long_etf=cfg["long_etf"], red_etf=cfg["red_etf"], cost_bps_round_trip=cfg["cost_bps"],
                        start=start, end=end)
     m = performance(res.equity, signal=res.signal, trades=res.trades)
@@ -73,6 +74,8 @@ def run_timing_overlay(root: Path, *, prices: pd.DataFrame, start: str | None, e
     if not quick:
         for gt in (3, 6):
             variants.append((f"GMI>={gt}", {**cfg, "gmi_threshold": gt}))
+        # exit at <4 instead of <3 - the symmetric rule, which treats his hold state as a Red signal
+        variants.append(("symmetric exit (<4)", {**cfg, "exit_threshold": 4}))
         for ci, co in ((0, 0), (5, 5), (2, 1)):
             variants.append((f"confirm {ci}/{co}", {**cfg, "confirm_in": max(ci, 1), "confirm_out": max(co, 1)}))
         variants.append(("+Stage-2", {**cfg, "require_stage2": True}))
@@ -107,16 +110,57 @@ def _fmt(m: dict) -> str:
             + (f" · win {m['win_rate']:.0%}" if 'win_rate' in m else ""))
 
 
+SENTINEL = "<!-- hand-written below this line; the generator preserves everything after it -->"
+
+_DEFAULT_TAIL = """## Limitations
+
+- The reconstructed GMI reads optimistic in declines (survivorship bias in the breadth universe) -- so the strategy here is *less* defensive than Dr. Wish actually was; a faithful version would cut drawdown more (and give back more on whipsaws). - 2007-start (the breadth reconstruction is thin before then). - 5-bps cost / no slippage beyond that / no tax. - This is the *timing* layer only -- it does **not** test his GLB/WGB stock-selection signal (a separate sub-project).
+
+## See also
+
+- [General Market Index (GMI)](gmi.md) - [Moving-average rules](moving-average-rules.md) - [QQQ Short-Term Timing](qqq-short-term-timing.md) - [Trend-flip log](../history/trend-flip-log.md)
+
+## Sources
+
+_None -- this page is a generated backtest report; the rules it tests are documented (and cited) on the linked methodology pages._
+"""
+
+
+def _existing_tail_and_sources(out: Path) -> tuple[str, str]:
+    """Recover the hand-written tail and the front-matter `sources:` block from a previous build.
+
+    The generated sections (headline, grid, rolling table) are rewritten on every run; anything a
+    human added below SENTINEL is preserved, as is the `sources:` list, which `ww lint` requires to
+    agree with the page's `## Sources` block. Without this, each run silently deleted both - which
+    is how the 2015 limitation section and two citations were lost on 2026-08-26.
+    """
+    if not out.exists():
+        return _DEFAULT_TAIL, "sources: []"
+    text = out.read_text(encoding="utf-8")
+    tail = text.split(SENTINEL, 1)[1].lstrip("\n") if SENTINEL in text else _DEFAULT_TAIL
+    sources = "sources: []"
+    if text.startswith("---"):
+        fm = text.split("---", 2)[1]
+        if "sources:" in fm:
+            block = fm[fm.index("sources:"):].strip("\n")
+            sources = block if block.strip() != "sources:" else "sources: []"
+    return tail, sources
+
+
 def write_wiki_page(root: Path, results: dict, *, plot_url: str | None, period: tuple) -> Path:
     root = Path(root)
+    out = root / "wiki" / "methodology" / "backtest-timing-overlay.md"
+    tail, sources = _existing_tail_and_sources(out)
     d, b = results["default"], results["benchmarks"]["buy_hold_qqq"]
     rex = results["rolling_excess"]
     lines = []
     lines.append("---\ntitle: Backtest — the market-state timing overlay\ntype: methodology\nupdated: "
-                 + pd.Timestamp.today().strftime("%Y-%m-%d") + "\nsources: []\n---\n")
+                 + pd.Timestamp.today().strftime("%Y-%m-%d") + "\n" + sources + "\n---\n")
     lines.append("# Backtest — does the GMI timing overlay beat buy-and-hold QQQ?\n")
     lines.append("**The rule (pre-stated, zero fitted parameters):** be long QQQ when the reconstructed [GMI](gmi.md) has been "
-                 ">= 4 for two consecutive days; sit in cash when it has been <= 3 for two consecutive days. Signals on the close of "
+                 ">= 4 for two consecutive days; sit in cash once it has spent two consecutive days *below* 3. A reading of exactly 3 "
+                 "is his hold state and does not flip the signal -- see "
+                 "[the signals](gmi.md#the-signals--buy-sell-and-the-hold-state-at-3). Signals on the close of "
                  "day D, executed at the next day's open (modelled as a 1-day lag, close-to-close). Cost: 5 bps per round trip; no "
                  "tax (an IRA). Period: " + f"{period[0]}-{period[1]}" + ". Benchmark: buy-and-hold QQQ. "
                  "**Verdict criteria, fixed in advance:** \"adds value\" iff the default beats B&H QQQ on Sharpe *and* has <= 0.7x its "
@@ -128,28 +172,19 @@ def write_wiki_page(root: Path, results: dict, *, plot_url: str | None, period: 
                  f"**Buy-and-hold SPY:** {_fmt(results['benchmarks']['buy_hold_spy'])}\n- "
                  f"**Plain 'QQQ > rising 30-week SMA' filter:** {_fmt(results['benchmarks']['qqq_30wk_filter'])}\n\n"
                  f"### Verdict: **{results['verdict']}**\n")
-    # Reference the repo-stable copy of the chart (assets/backtest/equity_curve.png — committed; the
-    # daily workflow stages it to the deployed site at the same relative path). The path is correct
-    # relative to the *deployed* wiki.html (which is the only renderer of this page); raw-markdown
-    # readers won't see the image render but the link is human-followable from the repo root.
-    lines.append("\n![equity curve](assets/backtest/equity_curve.png)\n\n"
+    # `assets/backtest/equity_curve.png` is committed at the repo root; from this page
+    # (wiki/methodology/) that is two levels up. `ww lint` verifies the link resolves on disk.
+    lines.append("\n![equity curve](../../assets/backtest/equity_curve.png)\n\n"
                  "*(Strategy vs buy-and-hold QQQ vs SPY, log scale, RED periods shaded"
                  + (f" — also at [{plot_url}]({plot_url}) for 72 h)" if plot_url else ")") + "*\n")
     lines.append("\n## Robustness grid\n\nEach row varies one dimension vs the default. **Picking the best-looking variant after the "
                  "fact would be data snooping** -- the headline is the default, full-period, no tuning.\n\n| variant | result |\n|---|---|\n"
-                 + f"| **default (GMI>=4, 2/2 confirm, 5 bps)** | {_fmt(d)} |\n"
+                 + f"| **default (GMI>=4 in, below 3 out, 2/2 confirm, 5 bps)** | {_fmt(d)} |\n"
                  + "\n".join(f"| {g['label']} | {_fmt(g['metrics'])} |" for g in results["grid"]) + "\n")
     lines.append("\n## When did it help / hurt? (rolling 5-year strategy-CAGR minus QQQ-CAGR)\n\n"
                  + (("| 5y ending | excess CAGR |\n|---|---|\n" + "\n".join(
                      f"| {ts.date()} | {v:+.1%} |" for ts, v in rex.iloc[::126].items())) if len(rex) else "_(period too short for a 5-year window)_") + "\n")
-    lines.append("\n## Limitations\n\n- The reconstructed GMI reads optimistic in declines (survivorship bias in the breadth universe) -- "
-                 "so the strategy here is *less* defensive than Dr. Wish actually was; a faithful version would cut drawdown more (and "
-                 "give back more on whipsaws). - 2007-start (the breadth reconstruction is thin before then). - 5-bps cost / no slippage "
-                 "beyond that / no tax. - This is the *timing* layer only -- it does **not** test his GLB/WGB stock-selection signal (a "
-                 "separate sub-project).\n\n## See also\n\n- [General Market Index (GMI)](gmi.md) · [Moving-average rules](moving-average-rules.md) · "
-                 "[QQQ Short-Term Timing](qqq-short-term-timing.md) · [Trend-flip log](../history/trend-flip-log.md)\n\n## Sources\n\n_None -- "
-                 "this page is a generated backtest report; the rules it tests are documented (and cited) on the linked methodology pages._\n")
-    out = root / "wiki" / "methodology" / "backtest-timing-overlay.md"
+    lines.append("\n" + SENTINEL + "\n\n" + tail)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text("\n".join(lines), encoding="utf-8")
     return out

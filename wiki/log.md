@@ -1298,3 +1298,46 @@ Also noted: my earlier page-size audit under-counted several pages because it sp
 ## [2026-08-26] ingest | single-marker tail, batch 7 — the final 82 posts. **The queue is empty: 4,694 / 4,694 ingested.** This chunk: **8 tiered `teaching`, 74 `daily_update`** — a ~10% yield, down from 15% in the previous chunk and ~30% before that, on posts running 107 → 20 words. The monotonic decline is the expected shape and is the reason the last chunks produced more tier rows than pages; a routine note that corroborates documented doctrine is tiered `daily_update` with a summary saying so, per §4. **Two signals the wiki did not have.** The **red dot** (April 2024): "a red dot indicates that a stock **closes down on the day it exceeded its upper daily 15.2 Bollinger Band**. I do not want to buy on a red dot bar and sometimes may want to sell or trade a potential decline" — the only *bearish* member of the dot family, and it follows straight from the band rationale he teaches: an excursion above the upper band is either a breakout or a reversion, and a down close resolves it as the latter. The dot family is now tabulated on `entry-signals.md` (green / black / blue / red) with the one principle underneath all four. And the **black dot's actual definition** (April 2021): "short term oversold and then **closes above its 30 day or exp21 day averages**" — carried on the wiki since 2021 without its formula. The same post gives the plainest statement of the preference the whole entry philosophy rests on: "**buying an oversold bounce is minimal risk for me. If the bounce fails I can quickly exit with a small loss. I prefer this strategy to buying break-outs.**" Note the ranking is argued from **risk, not hit rate** — he never claims bounces work more often, only that being wrong costs less, which is what unifies the dots, the BOS, the green-line retest and the bounce off the 30-day into one idea. **A rule he says he has never executed.** The below-10% T2108 instruction is the best-evidenced buy signal in the corpus. It is also the one he admits he does not act on — twice, three years apart: "**I never have the courage to buy the SPY when T2108 reaches single digits** 🙁" (2019) and "I hope to have the courage to buy a little SPY. **I never do and I miss the bottom**" (2022). Filed beside the rule, because the two belong together: it is the same gap as the day-1 leveraged entry, and the reason such entries keep their edge is precisely that they feel worst at the moment they are available. **Day 1 and Day 5 are not competing rules** — the reconciliation stated outright in 2022: "the key is to buy TQQQ on Day 1 even though the new up-trend is most suspect… I have also written that a change in the short term trend is most reliable after it reaches Day 5. **The key to this strategy is to slowly accumulate.**" A small day-1 position captures the price, additions after day 5 capture the confirmation. Also: **the 5-day EMA as a post-GLB hold signal** ("XAVG 5… an excellent indicator of a climbing rocket"), with the mechanism left as an open question to readers; **TNA** extending the leveraged default to small caps, with the timing justified by the 2008 recovery-leadership sequence read forward; **the climax top** — a large gain on the highest volume in many days, where the same volume reading means demand on a breakout and exhaustion at the end of an advance; and **day 81 of the record up-trend**, written fifteen days before the COVID top, where nothing in his framework was flashing except the trend's age and sentiment argued for staying long — a useful check on hindsight. `CLAUDE.md`'s corpus-state section is updated: the queue-and-next-batch paragraphs are replaced with the completion state, the tier breakdown, the yield curve, and two tooling notes for future single-post ingests (date-resolved timeline insertion; write batch scripts with the Write tool, not heredocs). Ledger 4,612 → **4,694**; **held 82 → 0**.
 
 ## [2026-08-26] note | **Corpus complete.** 4,694 posts (2005-04-17 → 2026-08-11), all read or screened, all tiered, all ledgered. 478 source pages under `wiki/sources/`. Final tier split: 455 `teaching`, 22 `trade_example`, 4,216 `daily_update`, 1 `meta`. `ww lint .` clean, 228 tests passing. The remaining known gaps are *not* in the post corpus: the **off-blog teaching corpus** (~63 posts point at Worden webinars, AAII talks, TraderLion, TASC, YouTube tutorials and his TC2000 club — the content itself is not in `raw/`), and the **comment threads** (`raw/comments.jsonl`, 4,136 comments of which 678 are Dr. Wish replying), which are only partly worked into `reader-qa.md`. Both are the natural next seams.
+
+## [2026-08-26] lint | site logic audited against the wiki — three GMI misalignments found and fixed
+
+Checked the dashboard's implementation (`src/ww/backtest/gate.py`, `src/ww/indicators/gmi.py`,
+`scripts/build_market_regime.py`) against the methodology pages. Three genuine misalignments, all
+in the GMI reconstruction and all biasing the gate more bearish than his rule:
+
+1. **The Green→Red exit fired at the hold state.** `green_state_machine` used one threshold in both
+   directions: Green on two days at GMI ≥ 4, Red on two days at anything less — i.e. ≤ 3. His rule
+   is asymmetric: Buy at "GMI > 3 for two consecutive days" (2012-04-30), Sell at "2 consecutive
+   days below 3" (2012-04-16, restated 2014-08-03), with **3 a hold state** — raise stops, no new
+   buys, signal unchanged. Corroborated 2017-04-16 with the score at 1 and the signal still Green.
+   Over 2008-02-29→2026-08-06 the old rule put 248 days (5.3%) on the wrong side and flipped regime
+   245 times against 171; **22 of its 123 Red episodes never saw a GMI below 3 at all**. Fixed by
+   adding `exit_threshold` (default 3); a day at exactly 3 now resets both streaks.
+2. **Component 1 was missing two-thirds of its rule.** Implemented as "> 0 and ≥ 50%", against the
+   published form since 2008-02-11: **≥ 100 successful 10-day new highs OR (≥ 50% AND denominator
+   ≥ 20)**. Both the count branch and the floor were absent — and 291 days in the series carry a
+   denominator between 1 and 19, exactly the instability the floor was added for. Disagreed on 389
+   days (8.4%). Now `successful_10day_component` / `successful_10day_rule`, one rule in two forms
+   with a test asserting they cannot drift apart.
+3. **Component 2 counted half the universe.** It read `nasdaq_new_52w_highs` (non-NYSE only) against
+   a ≥ 100 threshold calibrated on his ~4,000-stock all-exchange universe — median 50 a day against
+   115 broad. Disagreed on **1,805 days (38.9%), every one of them false-negative**. Component 1 next
+   door already used the broad universe, so the two breadth components disagreed with each other.
+   Switched to `new_52w_highs`.
+
+Net over the reconstruction's span: mean GMI 3.49 → 3.90, Green days 58.9% → 67.7%, regime flips
+245 → 167. The corrected rule also *improves* the backtest — CAGR 7.5% → 9.6%, Sharpe 0.67 → 0.77 —
+with the old behaviour retained in the variant grid as "symmetric exit (<4)" for comparison.
+
+Also fixed: `playbooks/market-state.md` summarised the gate as "GREEN ≥ 4, RED ≤ 3", contradicting
+its own signal table twelve lines later and matching the code's error; `gmi-family.md` conflated the
+*stance* threshold (defensive at ≤ 3) with the *signal* threshold (below 3). The site's own tooltips
+stated the wrong rule to the reader and now state his, with the gate badge distinguishing a hold
+(still Green, score ≤ 3) from an unconfirmed recovery (score ≥ 4, one day in).
+
+**A generator bug found in passing:** `write_wiki_page` rebuilt `backtest-timing-overlay.md` from
+scratch on every run, silently deleting the hand-written 2015-limitation section and both citations,
+and emitting an image path that does not resolve from `wiki/methodology/`. It now preserves
+everything below a sentinel plus the front-matter `sources:` list. The lost section is restored.
+
+Checks: `ww lint .` 0 errors; `pytest -q` 236 passed (13 new, pinning each rule to its cited post).
