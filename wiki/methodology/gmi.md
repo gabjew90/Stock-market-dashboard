@@ -1,7 +1,7 @@
 ---
 title: General Market Index (GMI)
 type: entity
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2005-04-26-general-market-index-gmi.md
@@ -61,6 +61,9 @@ sources:
   - raw/posts/2006-05-25-gmi-0-ibd-100-stocks-shine-waiting-for-confirmation-of-up-trend.md
   - raw/posts/2006-03-06-gmi-6-short-housing.md
   - raw/posts/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md
+  - raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md
+  - raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md
+  - raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md
 ---
 
 # General Market Index (GMI)
@@ -160,6 +163,13 @@ neither can I.**" ([WW 2006-05-25](../../raw/posts/2006-05-25-gmi-0-ibd-100-stoc
 2009 — two negative and one positive, which is unusually consistent for a component whose definition was never
 published in full.
 
+**Attributed precisely, in 2008.** The 2005 statement credits "the gurus cited in the books to the right." Three
+years later he names the source: "the logic is that in a rising market, stocks that break-out to new highs should
+keep rising. In fact, **Nicolas Darvas wrote that a pattern of failed break-outs often tipped him off to a coming
+bear market**." ([WW 2008-10-28](../../raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md)) And the mirror is derived from the same sentence by symmetry: "**well, the reverse is
+true in a declining market. In a declining market stocks hitting new lows should continue to decline. So, I
+compute each night a similar measure.**" Component 1 and its unpublished twin are one idea applied to both tails.
+
 ## The signals — Buy, Sell, and the hold state at 3
 
 The score becomes a *signal* only with persistence, and the two sides are symmetric around 3:
@@ -186,6 +196,12 @@ than 3.**" ([WW 2010-04-12](../../raw/posts/2010-04-12-come-to-my-free-worden-we
 a companion condition for the long side that is not part of the GMI at all: "**when these indexes** [QQQQ and
 SPY] **are above their 10 week averages I usually can trade growth stocks (on the long side) profitably.**" See
 [the dated signal record](../history/track-record.md#20082010--the-gmi-signal-record-dated).
+
+**Wanting more than the minimum (2025).** A GMI of 4 satisfies the Green criterion, and he says why he waits
+anyway: "the GMI = 4 and now meets my criteria for a change to Green. **However, I will be much more confident of
+this change when the GMI = 5 or 6, indicating there are sufficient numbers of stocks at new highs.**" ([WW 2025-05-05](../../raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md))
+The extra components at 5 and 6 are the new-high counts — which are exactly what the
+[leadership screen](stock-selection.md) needs in order to have anything to screen.
 
 ## How he uses it
 
@@ -271,6 +287,13 @@ evidence.
 **And the component in one sentence (2006):** "**it is a sign of strength when many stocks hit a new high and
 retain a gain 2 weeks later.**" ([WW 2006-03-06](../../raw/posts/2006-03-06-gmi-6-short-housing.md))
 
+**The mirror measured across the 2008 collapse.** Not an anecdote but a run: "with one exception, since September
+8 (the 5th day of the current QQQQ down-trend) **each day 50% or more** of the stocks that hit a new low 10 days
+before closed lower than they did 10 days earlier. In fact, **the percentages were above 80% on many of the
+days**." ([WW 2008-10-28](../../raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md)) The conclusion is about which side to be on rather than which stock to pick: "**during the
+current down-trend, shorting a stock on any day it hit a new low was very likely to be profitable 10 days later.
+Trade consistent with the down-trend or go to cash!**" That day: 3 new highs against 980 new lows.
+
 ## Evolution
 
 The index itself has not changed since 2005; what changed is the family of companion measures around it, chronicled on [The GMI family](gmi-family.md).
@@ -294,6 +317,14 @@ Nasdaq 100 stocks." His own gloss: "**My GMI (General Market Index), which is he
 rose one and just avoided a Red signal." ([WW 2017-07-04](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md)) The broad-market gauge and the index gauge pointed opposite
 ways, and he read the GMI's move as an artefact of its construction rather than as information about the market —
 which is the blind spot working exactly as the 2008 post said it would.
+
+**A second, compositional form of the same blind spot (2011).** Divergence between the two indexes is sometimes
+about *what they contain* rather than about tech leading or lagging: "the SPY has closed below its 10 week
+average for 9 weeks but the QQQ for just one week. **This reflects the fact that the Nasdaq 100 Index (QQQ),
+unlike the S&P500 Index (SPY), contains no financial stocks. And as in 2008, the major weakness is showing up in
+the financial stocks.**" ([WW 2011-09-26](../../raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md)) So the GMI, weighted toward the QQQ, is structurally blind to a decline led
+by a sector the QQQ does not hold — a sharper statement of the flank the WPM and the per-index stage checks
+exist to cover.
 
 ## A limitation he published himself (2015)
 
@@ -481,3 +512,6 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2006-05-25 — Reader mail as a sentiment sample](../../raw/posts/2006-05-25-gmi-0-ibd-100-stocks-shine-waiting-for-confirmation-of-up-trend.md) ([summary](../sources/2006-05-25-gmi-0-ibd-100-stocks-shine-waiting-for-confirmation-of-up-trend.md))
 - [WW 2006-03-06 — The housing top called; long bonds turning in 2006](../../raw/posts/2006-03-06-gmi-6-short-housing.md) ([summary](../sources/2006-03-06-gmi-6-short-housing.md))
 - [WW 2009-02-02 — Why component 1 can stay negative for months](../../raw/posts/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md) ([summary](../sources/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md))
+- [WW 2008-10-28 — The mirror statistic's rationale, attributed and measured](../../raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md) ([summary](../sources/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md))
+- [WW 2011-09-26 — Why QQQ and SPY diverge - a structural reason](../../raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md) ([summary](../sources/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md))
+- [WW 2025-05-05 — How he works an all-time-high list](../../raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md) ([summary](../sources/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md))

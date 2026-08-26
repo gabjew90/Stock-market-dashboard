@@ -41,6 +41,10 @@ sources:
   - raw/posts/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md
   - raw/posts/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md
   - raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md
+  - raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md
+  - raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md
+  - raw/posts/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md
+  - raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -58,6 +62,20 @@ The cost of the chicken's reflex, admitted in February 2011 after exiting too ea
 The rule is as old as the blog. May 2005: "my gut was telling me the market should go down but my instruments were telling me to buy. **One must always go with his/her instruments — the market action.** I do not waste a lot of time trying to divine the market's direction by focusing on economic news or current events. Don't get attached to a scenario." ([WW 2005-05-22](../../raw/posts/2005-05-22-gmi-rises-to-5-the-google-rocket-lucky-bill-miller.md))
 
 The pilot metaphor again in November 2009, after a whipsaw: "as much as I hate being whipsawed by the recent decline, **if I flew solely by instrument, I would have to be long again**." He went long with close stops and a named neckline level to invalidate. ([WW 2009-11-09](../../raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md)) The same post carries the wish that the bounce doctrine later formalised: "**if only I had the patience to wait for the bounce to enter my long positions!**"
+
+**The lessons he says he has to relearn.** Three, all stated as recurrences rather than discoveries — which is
+itself the point, since a rule you have to relearn is one your instincts keep overriding:
+
+- **Wait for the signal.** "I have to relearn the lesson from time-to-time that **I should not try to anticipate
+  a change in trend, but to wait for the signal.** Just when it looked like the new QQQQ short term up-trend
+  would expire, it reasserted itself." ([WW 2010-11-26](../../raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md))
+- **Use the slower chart.** "**I have to relearn the lesson over and over again, to focus on weekly trends, so as
+  not to be shaken out of the market by daily fluctuations.**" ([WW 2011-03-04](../../raw/posts/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md))
+- **Do not sell options into weakness.** "**I learned again the lesson** not to sell puts or covered calls during
+  a weak or declining market." ([WW 2009-01-20](../../raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md))
+
+And the general form of all three, from 2019: "**it is important to study the market's behavior, ignore the news
+and media pundits, and to pull the trigger only after a signal has occurred, not before.**" ([WW 2019-06-16](../../raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md))
 
 ## 2. Do not marry a scenario
 
@@ -237,3 +255,7 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2015-10-25 — A GMI of 6 refused, and named as psychology](../../raw/posts/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md) ([summary](../sources/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md))
 - [WW 2005-09-01 — The chart as a check on the news story; 'the idea is to make money, not to be right'](../../raw/posts/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md) ([summary](../sources/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md))
 - [WW 2021-11-23 — SHY as the short-rate proxy; a hedge word regretted](../../raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md) ([summary](../sources/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md))
+- [WW 2009-01-20 — A loss taken, and the rule it produced about selling options](../../raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md) ([summary](../sources/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md))
+- [WW 2010-11-26 — Monthly, weekly AND daily - the three-timeframe requirement](../../raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md) ([summary](../sources/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md))
+- [WW 2011-03-04 — Weekly trends as the anti-shakeout discipline](../../raw/posts/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md) ([summary](../sources/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md))
+- [WW 2019-06-16 — How an RWB up-trend begins - the onset sequence defined](../../raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md) ([summary](../sources/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md))

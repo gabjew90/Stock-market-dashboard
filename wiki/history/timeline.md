@@ -396,6 +396,15 @@ sources:
   - raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md
   - raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md
   - raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md
+  - raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md
+  - raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md
+  - raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md
+  - raw/posts/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md
+  - raw/posts/2011-03-10-short-term-trend-still-in-doubt-in-cash-and-gold.md
+  - raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md
+  - raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md
+  - raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md
+  - raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md
 ---
 
 # Timeline — evolution of the methodology
@@ -1120,6 +1129,21 @@ against 500+ submarines. ([WW 2008-03-10](../../raw/posts/2008-03-10-gmi-0-gmi-r
 
 ---
 
+## October 2008 (symmetry) — the mirror statistic, attributed to Darvas and measured
+
+**"40th day of $QQQQ short term down-trend; shorting stocks at new lows" (2008-10-28):** the clearest single
+explanation of component 1 and its unpublished twin, with the attribution the earlier posts leave vague. "The
+logic is that in a rising market, stocks that break-out to new highs should keep rising. In fact, **Nicolas
+Darvas wrote that a pattern of failed break-outs often tipped him off to a coming bear market.**" The mirror
+follows by symmetry: "**well, the reverse is true in a declining market. In a declining market stocks hitting new
+lows should continue to decline. So, I compute each night a similar measure.**" And it is measured across the
+collapse, not merely described: "with one exception, since September 8… **each day 50% or more** of the stocks
+that hit a new low 10 days before closed lower… **the percentages were above 80% on many of the days**. The
+bottom line: **during the current down-trend, shorting a stock on any day it hit a new low was very likely to be
+profitable 10 days later. Trade consistent with the down-trend or go to cash!**" Livermore supplies the epigraph:
+"**no stock was too low to sell (short).**" That day: 3 new highs against 980 new lows. ([WW 2008-10-28](../../raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md))
+
+
 ## October–November 2008 — capitulation and retest, from the posts written that week
 
 **2008-10-13:** the record breadth extreme — 2008-10-10 saw 23 new highs and **2,832 new lows** out of 4,000 stocks ("the largest number of daily new lows since I started this blog"), T2108 at **1%**. "This is the time to be on the sidelines in cash. No one knows when this down-trend will end." Plus the education mission at its most explicit, and the Cramer receipt: pundits "have been urging people to buy stocks all the way down." ([WW 2008-10-13](../../raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md))
@@ -1151,6 +1175,20 @@ one knows a bottom before it has occurred**." 21 new highs against 1,835 new low
 **"I'm up 1,200%, as my fellow boomers and college students get screwed again" (2009-01-05):** written at the start of 2009 with the 2008 bear market still fresh. Dr. Wish's most explicit early statement of his track record and philosophy. He escaped 2008 with only a −5% loss (vs indices −35–40%) by being mainly out of the market during the decline. His trading IRA is up over 1,200% (13×) since late 1994 — more than the top growth mutual fund in IBD's ranking (up 382% over the same period). The stated key: "I made money during the strong market rises and kept it, by being mainly out of the market during the major declines." IBD100 stocks were ~3× over-represented among stocks hitting new 52-week highs at that time — 50% of the 20 new-high stocks in his universe were from the IBD100 (which is only 17% of the universe). ([WW 2009-01-05](../../raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md))
 
 ---
+
+## January 2009 (loss) — why not to sell puts or covered calls in a decline
+
+**"Cash-secured puts did badly" (2009-01-20):** a loss reported and converted into a rule. "This month **I
+lost money on many of my cash-secured puts**. Too many stocks declined below the put option strike price and I
+had to buy the puts I sold back at higher prices." The reasoning is the important part: "**selling puts is
+equivalent to buying stocks and selling call options on the shares. I learned again the lesson not to sell puts
+or covered calls during a weak or declining market.**" Both income overlays documented elsewhere on the wiki are
+**long-delta** trades — the premium reduces a loss slightly and caps the recovery, it does not hedge — so both
+carry a regime condition that the 2007 and 2014 material states without. "Learned **again**" is his own word.
+Also: full exit on the trend change, then a scaled entry on the other side — "once the QQQQ fell into a
+down-trend, **I closed all positions** and bought a very little of QID… if the QQQQ down-trend deepens I will buy
+more." MACD breadth 88% → 27% in under three weeks. ([WW 2009-01-20](../../raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md))
+
 
 ## February 2009 — Quantitative bear market comparison: 2008 vs 1929/1973/1987
 
@@ -1476,6 +1514,18 @@ ROE**, with the exit shipped alongside — "a **GTC stop loss somewhere below th
 teaching conditions attached: the list is "a starting point *for them to research*," and "**all students must
 have an objective set of trading rules approved by me before they can trade**." ([WW 2010-10-11](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md))
 
+## November 2010 (requirement) — monthly, weekly AND daily
+
+**"GMI back to 5 of 6; ARMH rebounding" (2010-11-26):** the three-timeframe rule stated as a purchase
+precondition rather than as a workflow — "**I only buy stocks that have monthly, weekly AND daily up-trends in
+place.**" ARMH worked on both scales: on the daily it "broke above its 50 day average and its 30 day average, and
+**the 10 day average is rising above the 30 day**"; on the weekly GMMA, "the **RWB pattern typical of rocket
+stocks**." And the anticipation error named as recurring: "**I have to relearn the lesson from time-to-time that
+I should not try to anticipate a change in trend, but to wait for the signal.** Just when it looked like the new
+QQQQ short term up-trend would expire, it reasserted itself." With Day 5 in its positive form: "**generally, if a
+new up-trend can reach 5 days, it has legs to continue.**" ([WW 2010-11-26](../../raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md))
+
+
 ## December 2010 — the 95-year Dow cycle framework
 
 **"Where are we in the market cycle?" (2010-12-13):** the slowest instrument — monthly Dow, 5- and 30-month averages, 25.4.4 monthly stochastic, eyeballed back to 1915. Bottoms with the stochastic below 50 (severe ones ~20); tops led by a sustained stochastic decline plus a 5/30-month cross. The simple-over-complex line: "The road is littered with the carcasses of Ph.D.'s who wagered heavily and lost." ([WW 2010-12-13](../../raw/posts/2010-12-13-where-are-we-in-the-market-cycle.md))
@@ -1540,6 +1590,34 @@ have an objective set of trading rules approved by me before they can trade**." 
 
 **"GMI at 1 as $QQQQ short term down-trend completes 5th day" (2011-03-15):** "I never fight the trend of the general market"; the February 16 peak preceded the Japanese earthquake by weeks — "the events in Japan have merely enhanced the speed and the depth of the decline"; "**every long term down-trend begins with a short term down-trend**"; "it took me many years to learn this valuable lesson." ([WW 2011-03-15](../../raw/posts/2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral.md))
 
+## March 2011 (discipline) — weekly trends as the anti-shakeout layer
+
+**"Markets rebound again; QQQQ weekly chart reveals market trend" (2011-03-04):** why the weekly layer
+exists, stated as a personal failure he keeps repeating — "**I have to relearn the lesson over and over again, to
+focus on weekly trends, so as not to be shaken out of the market by daily fluctuations.**" The chart shows what
+he wants: "**the key bullish pattern of 4wk>10wk>30wk average**" with the index "continually [finding] support at
+its 10 week average," and the exit named as a number in advance — "**a key sell signal for me will be a *close*
+below the 10 week average, currently at 56.83.**" For beginners the entire weekly framework is reduced to a
+configuration anyone can reproduce free: "you can use the free chart program at **freestockcharts.com**. Just
+**add the moving averages, 4, 10, 30 as indicators and select the week as your time period.**" Judy appears again
+with TDSC (~\$31 in December → \$53.29 and an all-time high): she "**researches 'concept' stocks, and finds more
+future winners than any other person I have ever met**." ([WW 2011-03-04](../../raw/posts/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md))
+
+
+## March 2011 (leaders) — the leader watchlist, named
+
+**"Short term trend still in doubt; in cash and gold" (2011-03-10):** the concrete instrument behind every
+"the leaders are weakening" statement in the corpus, given because readers asked: "a number of people have asked
+me **what stocks I monitor for an indication of how the market leaders are doing. They are: PCLN, AZO, AAPL,
+BIDU, CMG, AMZN, GOOG, NFLX, FFIV.**" The test applied to it is the ordinary 10-week one — "**the last 4 are
+showing weakness, closing below their 10 week averages**" — so the phrase means a countable fraction of a named
+list below a stated average, treated as one input among several. Also: D-2 with "**I will be more confident of
+the new down-trend if it persists for 5 days**"; the QQQQ finding support at its **50 day average**, with a close
+below it signalling "important short term weakness in tech and growth stocks"; and the two speeds apart on the
+same evening — "**while I remain fully invested in mutual funds in my university pension, I am largely in cash
+and in a little gold (DGP) in my IRA account.**" ([WW 2011-03-10](../../raw/posts/2011-03-10-short-term-trend-still-in-doubt-in-cash-and-gold.md))
+
+
 ## April 2011 — IBD50 vs Nasdaq100/S&P500 systematic comparison; 10-week bounce scan
 
 **"IBD50 list from 1/10 out-performs Nasdaq100 and S&P500 stocks" (2011-04-04):** a quantitative study measuring the performance of the January 10, 2011 IBD50 list through late March 2011. Results: 60% of IBD50 stocks rose (vs 67% for Nasdaq100 and 77% for S&P500) — a lower hit rate. But the IBD50 produced 18% of its stocks gaining 20%+, vs only 11% for Nasdaq100 and 10% for S&P500. Interpretation: the IBD50 is not where you find the most stocks going up, but it **concentrates the big winners** — 50 stocks instead of 500. Largest gainer: SINA at +45% (IBD50). Caveat: during the measurement period tech underperformed the S&P500 (QQQ +2.5%, SPY +4.9%), which would suppress IBD50 results. The 10-week bounce scan demonstrated: Dr. Wish scanned all IBD50 stocks in his TC2000 watchlist for those that bounced up from their 10-week average the prior week, and set sell stops just below each stock's prior-week low. GMI=6, GMI2=5, T2108=73% (overbought caution zone). ([WW 2011-04-04](../../raw/posts/2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks.md))
@@ -1589,6 +1667,20 @@ their money millions of times each day. Trying to predict their actions is a foo
 **"GMI rises to 3; Market may be turning" (2011-09-19):** the behaviorist epistemics — "To understand human beings, one must concentrate on their behavior rather than their words. The same goes for the markets." Adviser-sentiment inversion (5% more bears than bulls among professionals) plus leader durability (AAPL within 1% of its ATH through the decline) as re-entry evidence; wading in, AAPL first. The point-move arithmetic priced through an option: "a 17 point move on one call option = $1,700." ([WW 2011-09-19](../../raw/posts/2011-09-19-3118.md))
 
 ---
+
+## September 2011 (composition) — why QQQ and SPY diverge; support projected from the 30-week
+
+**"$QQQ short term up-trend completed 12th day; GLD support at 30 week average" (2011-09-26):** a
+*structural* explanation for an index divergence the wiki has treated only as an observation. "The SPY has closed
+below its 10 week average for 9 weeks but the QQQ for just one week. **This reflects the fact that the Nasdaq 100
+Index (QQQ), unlike the S&P500 Index (SPY), contains no financial stocks. And as in 2008, the major weakness is
+showing up in the financial stocks.**" A QQQ/SPY split is therefore sometimes a composition fact rather than a
+tech signal — and it gives the GMI's tech weighting a second failure mode: structural blindness to a decline led
+by a sector the QQQ does not hold. Asked by Judy where gold would find support, he answers from the moving
+average rather than from prior lows: GLD "has found support at the **30 week average** since the current up-trend
+began in early 2009… **a perfect Stage II advance**. **Support should therefore be around \$154.**" T2108 at 20%,
+with 7% recorded as the August 2011 bottom. ([WW 2011-09-26](../../raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md))
+
 
 ## November–December 2011 — the two-day rule adopted; the oversold-entry doctrine announced
 
@@ -1788,6 +1880,20 @@ and hold it is worth watching**" — XEC, NGVC and ASGN, each with its IBD compo
 **"Ignore the media pundits" (2014-05-26):** the corpus's best self-contained Stage Analysis tutorial, written against bearish punditry in a flat 2014 tape. Timeframe framed as a life choice ("I am too old... the equivalent of flying with the Blue Angels... I want to manage my investments only part-time"); the pension rule as a pundit filter ("I do not care what the media pundits are saying"); and consolidation-as-health ("A healthy market rises and consolidates over and over again"). IBD still called the market in correction while his GMI had been on a Buy since 4/22. ([WW 2014-05-26](../../raw/posts/2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend.md))
 
 ---
+
+## May 2014 (support) — the lower band beats a drawn trend line; distrusting his own signal
+
+**"New $QQQ short term down-trend, but I don't trust it" (2014-05-07):** a signal and the confidence in it
+tracked as separate quantities — "**while my objective criteria for a short term down-trend have been met, I do
+not trust it.**" The reason produces a ranking of two support instruments: "each time the QQQ bounced from its
+**lower channel trend line**, it was **also** bouncing up from the **lower Bollinger Band**… **To me, the lower
+BB is a better indicator of potential support**" — a computed level preferred to a hand-drawn one. The projection
+is bounded: a bounce off the lower band suggests a rise "**but only to the top BB**." And the pinch is
+directionless by construction: "**we are headed for a BB pinch** (thanks \$Bill). **At some point the BB will
+break up or down with a new move.**" The gap between signal and confidence is resolved by time rather than by
+overriding either: "I tend to trust a new short term trend **only when it reaches day 5**… **I am waiting mainly
+on the sidelines until Mr. Market reveals his true direction.**" ([WW 2014-05-07](../../raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md))
+
 
 ## June 2014 — what a market top looks like
 
@@ -2382,6 +2488,22 @@ IV), which has not occurred.**" ([WW 2018-10-28](../../raw/posts/2018-10-28-0-of
 
 **"In this market, shorting stocks at new lows is a far better strategy than buying stocks at new highs" (2019-06-02):** the mirror of GMI component 1 disclosed — the nightly % of stocks that hit a new low 10 days ago and closed lower; since May 7 the high side ≥ 50% on 5 days, the low side on 16 of 17. "The rules for buying stocks on support that worked in the rising market fail miserably… Ask, do I want to make money or to be smart?" DIA back below its 30-week (possible triple top): "If the 30 week average curves down… That signal saved me from staying long during the 2000 and 2008 market debacles." GMI 1, T2108 24% — "typically falls below 10% at or near a market bottom." ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))
 
+## June 2019 (definition) — how an RWB up-trend begins
+
+**"$SPY on verge of daily RWB up-trend" (2019-06-16):** the onset sequence defined, and it is the exact
+mirror of the top sequence he would describe from 2018. "**I define an RWB up-trend using 12 exponential moving
+averages and the close.** A daily RWB up-trend is when the 6 red shorter daily averages are rising above the 6
+blue longer daily averages so that there is a white space separating them. **The beginning of a daily RWB
+up-trend starts with the closing price (dotted line) rising above all 12 averages. Next the red lines climb above
+the blue lines.**" Maintenance and failure too: "**during most of an RWB rise, the closing price leads all of the
+averages higher. A failure of the RWB pattern would occur if the SPY were to close back below all 12 averages and
+the white separation disappears.**" The chart marked the start of **four** such up-trends — identified
+repeatedly, not asserted once — and on the day of writing the SPY had cleared stage 1 "but there is no visible
+white separation yet." The discipline in one sentence: "**it is important to study the market's behavior, ignore
+the news and media pundits, and to pull the trigger only after a signal has occurred, not before.**"
+([WW 2019-06-16](../../raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md))
+
+
 ## July 2019 — riding SPY and TQQQ; the index-ETF version for conservative investors
 
 **"Wonderful DC AAII meeting; riding SPY and TQQQ" (2019-07-14):** the undergraduate course's slides presented to the DC AAII with a focus on index ETFs rather than growth stocks for an older audience; "I am riding SPY and TQQQ during this market up-trend. The daily RWB pattern is just too strong to ignore… I do not argue with the market or listen to media pundits. I simply follow the general market's trend until it ends." ([WW 2019-07-14](../../raw/posts/2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university.md))
@@ -2775,6 +2897,21 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 **"Day 20 of QQQ up-trend; Boston IBD Meetup presentation; TC2000 Scan" (2025-05-22):** The most complete public disclosure of Dr. Wish's **Blue Dot of Happiness** indicator and scan. Blue dot formula: `IIf(Stoc10.1 > 20 AND Stoc10.1[1] < 20, close - 1, null)` — marks the 10.1 stochastic crossing above 20 as a dot one dollar below the day's low. Full scan criteria: blue dot in last 3 days; stochastic above 20 today / below yesterday; V>200k; close>$15; Stoc1.1>50; within 3 months of 250-bar monthly high; optionally near lower 15.2 BB. Run against a curated IBD50/MarketSurge watchlist. Market exit rule restated: "If QQQ should close back below its 30-week average (501) I will exit all stocks again." ([WW 2025-05-22](../../raw/posts/2025-05-22-blog-post-day-20-of-qqq-short-term-up-trend-thank-you-for-attending-my-presentation-to-the-boston-ibd-meetup.md))
 
 ---
+
+## May 2025 (procedure) — how he works an all-time-high list
+
+**"Day 7 of $QQQ short term up-trend and GMI flashes Green" (2025-05-05):** the principle of buying stocks
+at all-time highs, turned into a workflow. Sort by one-year relative performance — "the list below is **sorted by
+each stock's close Friday / close 250 days ago**… all of these stocks are **up at least 50% from last year**, a
+good sign of a potential leader" (RGC at 17.4×). Read the industry column for clusters — "**note also the
+industries represented and any multiple stocks in the same industry. Education & training, and insurance appear
+twice, a sign of group strength.**" Then look for GLBs among them, and "**beware of projected earnings dates,
+listed in the table**." The archetype for why the list is worth working: "in 2008, after the horrendous market
+decline, **GMCR**… rose quickly to an ATH and **turned out to become a 13 bagger**." And a note of restraint on
+his own signal: a GMI of 4 "now meets my criteria for a change to Green. **However, I will be much more confident
+of this change when the GMI=5 or 6, indicating there are sufficient numbers of stocks at new highs.**"
+([WW 2025-05-05](../../raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md))
+
 
 ## June 2025 — GLB on mutual funds; Fidelity Contrafund; pension re-entry
 
@@ -3247,3 +3384,12 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2011-08-22 — current-market-decline-is-nothing-unusual](../../raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md) ([summary](../sources/2011-08-22-current-market-decline-is-nothing-unusual.md))
 - [WW 2014-12-17 — 2nd-day-of-qqq-short-term-down-trend-super-cautious](../../raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md) ([summary](../sources/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md))
 - [WW 2021-11-23 — blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on](../../raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md) ([summary](../sources/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md))
+- [WW 2008-10-28 — gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows](../../raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md) ([summary](../sources/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md))
+- [WW 2009-01-20 — cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon](../../raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md) ([summary](../sources/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md))
+- [WW 2010-11-26 — gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding](../../raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md) ([summary](../sources/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md))
+- [WW 2011-03-04 — markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher](../../raw/posts/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md) ([summary](../sources/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md))
+- [WW 2011-03-10 — short-term-trend-still-in-doubt-in-cash-and-gold](../../raw/posts/2011-03-10-short-term-trend-still-in-doubt-in-cash-and-gold.md) ([summary](../sources/2011-03-10-short-term-trend-still-in-doubt-in-cash-and-gold.md))
+- [WW 2011-09-26 — qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average](../../raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md) ([summary](../sources/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md))
+- [WW 2014-05-07 — new-qqq-short-term-down-trend-but-i-dont-trust-it](../../raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md) ([summary](../sources/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md))
+- [WW 2019-06-16 — spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us](../../raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md) ([summary](../sources/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md))
+- [WW 2025-05-05 — blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the](../../raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md) ([summary](../sources/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md))

@@ -32,6 +32,8 @@ sources:
   - raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md
   - raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md
   - raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md
+  - raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md
+  - raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md
 ---
 
 # QQQ Short-Term Timing
@@ -114,6 +116,14 @@ usually gets dropped: "since 2006, about **40% of short term down-trends (the wa
 days or less. Once one passes 5 days, it often goes a lot further.**" ([WW 2014-12-17](../../raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md)) So Day 5 is not merely a
 filter against noise — passing it is itself information, which is why it works as an *accumulation* trigger: "I
 own mainly SQQQ and **will accumulate more if this decline lasts 5 days**."
+
+**The rule in its up-trend form (2010):** "**generally, if a new up-trend can reach 5 days, it has legs to
+continue**." ([WW 2010-11-26](../../raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md)) And used to resolve a signal he distrusted (2014): "**while my objective criteria for a
+short term down-trend have been met, I do not trust it**… I tend to trust a new short term trend **only when it
+reaches day 5**. Since 2006, **41% of short term down-trends lasted 5 days or less**. So, even though the GMI
+remains on a Buy signal, **I am waiting mainly on the sidelines until Mr. Market reveals his true direction.**"
+([WW 2014-05-07](../../raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md)) Note what the rule does there: it lets him hold a signal and his confidence in it as *separate*
+quantities, and resolve the gap with time rather than by overriding either.
 
 ## Relationship to the GMI
 
@@ -207,3 +217,5 @@ up-trend can only be young or old relative to the distribution of previous ones,
 - [WW 2012-10-21 — The two-tier timing rules, written to settle reader confusion](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md) ([summary](../sources/2012-10-21-timing-the-market-short-or-in-cash.md))
 - [WW 2014-03-23 — The down-trend duration study, with its n and its definition](../../raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md) ([summary](../sources/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md))
 - [WW 2014-12-17 — The duration rule restated; the pension constraint biting](../../raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md) ([summary](../sources/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md))
+- [WW 2010-11-26 — Monthly, weekly AND daily - the three-timeframe requirement](../../raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md) ([summary](../sources/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md))
+- [WW 2014-05-07 — Distrusting his own signal; the lower band as better support](../../raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md) ([summary](../sources/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md))

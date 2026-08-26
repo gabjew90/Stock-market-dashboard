@@ -43,6 +43,7 @@ sources:
   - raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md
   - raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md
   - raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md
+  - raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md
 ---
 
 # GMMA charts — RWB / BWR, the daily RWB system, and the timeframe ladder
@@ -243,6 +244,31 @@ None of these overrides the daily count or the weekly stage; they size the *nibb
 
 **The ladder, first stated (June 2014).** Two years before the RWB-across-timeframes tutorials, he showed the QQQ's modified GMMA at four resolutions — weekly, daily, hourly, 5-minute — and assigned the roles that still hold: "As a longer term swing trader I focus on the weekly and daily charts. The hourly and 5 minute charts are useful only if I want to pinpoint areas for entries or where to put sell stops." Monitoring is delegated to TC2000 email alerts when the index crosses a key average. ([WW 2014-06-22](../../raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md))
 
+## How an RWB up-trend begins — the onset sequence
+
+The [top template](#the-monthly-layer--tops-and-cycles) has ordered stages; so does the bottom, and they are the
+same steps reversed. From the definition he gives in 2019 ([WW 2019-06-16](../../raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md)):
+
+> "**I define an RWB up-trend using 12 exponential moving averages and the close.** A daily RWB up-trend is when
+> the 6 red shorter daily averages are rising above the 6 blue longer daily averages so that there is a white
+> space separating them. **The beginning of a daily RWB up-trend starts with the closing price (dotted line)
+> rising above all 12 averages. Next the red lines climb above the blue lines.**"
+
+| | Onset (2019) | Top (2018) |
+|---|---|---|
+| 1 | the close rises above **all 12** averages | the close falls below **all 6 red** averages |
+| 2 | the red lines climb above the blue | the red lines turn down and converge with the blue |
+| 3 | white space opens between them | red crosses below blue; the white space closes |
+
+**Maintenance and failure** are stated too: "**during most of an RWB rise, the closing price leads all of the
+averages higher. A failure of the RWB pattern would occur if the SPY were to close back below all 12 averages and
+the white separation disappears.**" So the close leading the fan is the healthy state, and losing all 12 is the
+failure — which is why the [all-12 exit line](#the-all-12-gmma-exit-line) is where it is.
+
+Note that stage 1 is common and stage 3 is rare, the same asymmetry as the top template: he marked the start of
+**four** such up-trends on one chart, and on the day of writing the SPY had cleared stage 1 "but there is no
+visible white separation yet."
+
 ## The monthly layer — tops and cycles
 
 Two instruments slower than the weekly chart, both previously undocumented:
@@ -355,3 +381,4 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2018-01-01 — The red lines and the blue lines read as two different warnings](../../raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md) ([summary](../sources/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md))
 - [WW 2017-12-10 — When to sell - the 13 averages, the gray line, and a graded exit](../../raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md) ([summary](../sources/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md))
 - [WW 2018-10-28 — A dual-timeframe RWB filter, and what it returned in a bear market](../../raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md) ([summary](../sources/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md))
+- [WW 2019-06-16 — How an RWB up-trend begins - the onset sequence defined](../../raw/posts/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md) ([summary](../sources/2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us.md))

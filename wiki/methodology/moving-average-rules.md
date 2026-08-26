@@ -64,6 +64,8 @@ sources:
   - raw/posts/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md
   - raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md
   - raw/posts/2005-08-19-gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo.md
+  - raw/posts/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md
+  - raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md
 ---
 
 # Moving-average rules
@@ -142,6 +144,12 @@ average is now starting to level off**." ([WW 2014-03-23](../../raw/posts/2014-0
 before it says anything: flattening is the first stage of the same process, and it is read independently of
 whatever price pattern is forming above it. The general form is on
 [Stage 4](#the-four-stages) and the [onset rule](#the-30-week-average--the-long-term-trend-anchor).
+
+**Support projected forward from the average (2011).** Asked where gold would find support, he answers from the
+moving average rather than from prior lows: "note how well GLD has found support at the **30 week average** since
+the current up-trend began in early 2009. Since then GLD has been in **a perfect Stage II advance**. **Support
+should therefore be around \$154.**" ([WW 2011-09-26](../../raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md)) In a clean Stage 2 the rising 30-week *is* the support level,
+so it can be read off the chart as a number for a future week.
 
 ## The naked chart — and the 10/30 relationship
 
@@ -222,6 +230,18 @@ As *support* rather than a boundary: "one of the best areas of support for a ris
 The strategy's gate, stated twice more: "**I have learned that my strategy of buying rockets going to new highs works best when the averages are consistently above their 10 week averages**" (March 2008, with QQQQ below its 10-week for most of 19 weeks) ([WW 2008-03-31](../../raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md)); and "I cannot consistently make money trading on the long side when these indexes are below their 10 week averages" (June 2012, six weeks below). ([WW 2012-06-11](../../raw/posts/2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out.md))
 
 **The weekly-first rule, and the hard case that tests it (2019).** "Most of the time one gets shaken out of a good stock it is because there is a sudden drop below an indicator **on the daily chart**" — so "while I may **time the purchase** of a stock based on its set-up of **daily** indicators, I should only **sell it after viewing its weekly chart**," and "if the stock is still holding its **rising 10 week average**, do not sell." COUP is the test: two of his own daily sell signals fired — an intraday green-line violation and an above-average-volume decline — while the weekly showed a bounce off the rising 10-week. He held. ([WW 2019-03-15](../../raw/posts/2019-03-15-how-i-avoid-getting-shaken-out-of-strong-growth-stocks.md)) He enforces it physically: "**I have created a note on my monitor that says I must look at the weekly chart before I sell.**" ([WW 2020-09-20](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md))
+
+**Why the weekly layer exists at all (2011).** Not precision — protection from himself: "**I have to relearn the
+lesson over and over again, to focus on weekly trends, so as not to be shaken out of the market by daily
+fluctuations.**" ([WW 2011-03-04](../../raw/posts/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md)) The weekly chart's job is to remove observations that would trigger bad decisions,
+which is the same argument as the [daily-chart whipsaw note](glb-in-practice.md#patience-after-a-glb--the-pnra-and-fizz-case-2017)
+made from the other direction.
+
+**And the whole weekly framework, reduced to a configuration.** For beginners he gives it away: "you can use the
+free chart program at **freestockcharts.com**. Just **add the moving averages, 4, 10, 30 as indicators and select
+the week as your time period**." Three averages and a timeframe — with "the key bullish pattern of
+**4wk > 10wk > 30wk**" on top and the exit named as a price in advance: "a key sell signal for me will be a
+***close* below the 10 week average**, currently at 56.83."
 
 ## The 4-week / 10-week / 30-week alignment — a weekly stock rule
 
@@ -439,3 +459,5 @@ to take no position **on either side** — the diagnosis is about the regime, no
 - [WW 2009-02-02 — Why component 1 can stay negative for months](../../raw/posts/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md) ([summary](../sources/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md))
 - [WW 2014-03-23 — The down-trend duration study, with its n and its definition](../../raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md) ([summary](../sources/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md))
 - [WW 2005-08-19 — The naked chart, and the 10/30 rule it produced](../../raw/posts/2005-08-19-gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo.md) ([summary](../sources/2005-08-19-gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo.md))
+- [WW 2011-03-04 — Weekly trends as the anti-shakeout discipline](../../raw/posts/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md) ([summary](../sources/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md))
+- [WW 2011-09-26 — Why QQQ and SPY diverge - a structural reason](../../raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md) ([summary](../sources/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md))

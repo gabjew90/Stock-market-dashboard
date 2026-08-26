@@ -37,6 +37,8 @@ sources:
   - raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md
   - raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md
   - raw/posts/2008-03-10-gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short.md
+  - raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md
+  - raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -161,6 +163,12 @@ more days I will add more.**" ([WW 2016-10-16](../../raw/posts/2016-10-16-watchi
 reverse and go long if this market shows any signs of strength in the coming days**" — a short position held with
 a stated condition for abandoning it, which is what keeps a hedge from becoming a view.
 
+**Shorting new lows, licensed and measured (2008).** Livermore supplies the principle — "**no stock was too low
+to sell (short)**" — and the [mirror statistic](gmi.md#new-highs--new-lows--a-breadth-supplement-to-the-gmi)
+supplies the evidence: through the autumn 2008 collapse the low-side follow-through ran at or above 50% almost
+every day and above 80% on many, so "**shorting a stock on any day it hit a new low was very likely to be
+profitable 10 days later. Trade consistent with the down-trend or go to cash!**" ([WW 2008-10-28](../../raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md))
+
 ## Protective puts — the 2005 original, and the put-vs-stop rule
 
 The insurance framing is fully formed in **June 2005** — four years before the 2009 tutorial —
@@ -197,6 +205,15 @@ note had become routine practice by February 2014, run on a gold position: "I ha
 which is what shortening the expiry is supposed to buy. The underlying was chosen on a stage change, not
 a bottom guess — GLD closing back above its 30-week average for the first time since January 2013, with
 a double bottom near 114.50 and the 30-week flattening.
+
+**The regime condition, learned by losing money (January 2009).** Both income overlays on this page — covered
+calls and cash-secured puts — are long-delta trades, and he states it after a bad month: "this month **I lost
+money on many of my cash-secured puts**. Too many stocks declined below the put option strike price and I had to
+buy the puts I sold back at higher prices. **Selling puts is equivalent to buying stocks and selling call options
+on the shares. I learned again the lesson not to sell puts or covered calls during a weak or declining
+market.**" ([WW 2009-01-20](../../raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md)) The premium reduces a loss slightly and caps the recovery; it does not hedge. Read the
+2007 covered-call material and the 2014 GLD weeklies with this condition attached — and note "learned **again**,"
+which is his own admission that the lesson had not stuck the first time.
 
 ## See also
 
@@ -242,3 +259,5 @@ a double bottom near 114.50 and the 30-week flattening.
 - [WW 2006-06-27 — Inverse ETFs arrive; new products as a contrary indicator](../../raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md) ([summary](../sources/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md))
 - [WW 2016-10-16 — TLT as the rate proxy; the jigsaw that fits until it doesn't](../../raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md) ([summary](../sources/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md))
 - [WW 2008-03-10 — The submarine trade fully specified; T2108's bottom band calibrated](../../raw/posts/2008-03-10-gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short.md) ([summary](../sources/2008-03-10-gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short.md))
+- [WW 2009-01-20 — A loss taken, and the rule it produced about selling options](../../raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md) ([summary](../sources/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md))
+- [WW 2008-10-28 — The mirror statistic's rationale, attributed and measured](../../raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md) ([summary](../sources/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md))

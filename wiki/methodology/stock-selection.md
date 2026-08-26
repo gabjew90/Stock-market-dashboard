@@ -77,6 +77,8 @@ sources:
   - raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md
   - raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md
   - raw/posts/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md
+  - raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md
+  - raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md
 ---
 
 # Stock selection
@@ -104,6 +106,10 @@ proved it can run) at a lower threshold, four years before he settled on doublin
 **doubled in the past year**, and posted **triple-digit earnings gains in the most recent quarter** — 38 names
 qualified. ([WW 2006-01-09](../../raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md)) The doubling threshold that would become permanent is already here, alongside a fundamental
 filter far stricter than the "strong recent quarterly earnings" of November 2005.
+
+**The three timeframes as a purchase precondition (2010).** Stated as a conjunction rather than as a workflow:
+"**I only buy stocks that have monthly, weekly AND daily up-trends in place.**" ([WW 2010-11-26](../../raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md)) The three-chart
+procedure documented later is the *method* for checking this; the requirement itself is older and simpler.
 
 ## Why "already doubled" — and the gap rule
 
@@ -265,6 +271,26 @@ The published scan definitions — daily RWB bounce (2017), weekly doubler-ATH (
 ## Entry signals
 
 BOS (2016), the black dot (2021), the recent-practice bounce setups (green dot 2020, x8/x21/30 2024, blue dot 2025) now live on their own page: [Entry signals](entry-signals.md).
+
+## Working an all-time-high list — the procedure
+
+The principle (buy stocks at all-time highs) has a workflow, given in full in May 2025 ([WW 2025-05-05](../../raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md)):
+
+1. **Sort by one-year relative performance** — "the list below is sorted by each stock's **close Friday / close
+   250 days ago**" — with a floor: "all of these stocks are **up at least 50% from last year**, a good sign of a
+   potential leader." (RGC topped that list at 17.4×.)
+2. **Read the industry column for clusters** — "note also the industries represented and **any multiple stocks in
+   the same industry. Education & training, and insurance appear twice, a sign of group strength.**" The sector
+   signal falls out of the sort for free.
+3. **Look for green line breakouts among them** — "now look for any GLBs and have fun studying them for a low
+   risk setup."
+4. **Check the earnings calendar before acting** — "**beware of projected earnings dates, listed in the table**."
+5. **Research the story** — "it is worth researching their fundamentals and stories."
+
+The archetype he offers for why the list is worth working: "in 2008, after the horrendous market decline,
+**GMCR**, the makers of the Keurig coffee machines, rose quickly to an ATH and **turned out to become a 13
+bagger**" — the same post-decline leadership logic as
+[the new-high list after the dust settles](#the-post-decline-new-high-list--where-the-next-leaders-announce-themselves).
 
 ## Building the ATH watchlist — and TC2000's survivorship trap
 
@@ -616,3 +642,5 @@ guide me**." ([WW 2005-07-19](../../raw/posts/2005-07-19-enjoy-the-earnings-rall
 - [WW 2009-10-12 — The IBD 100's top ten audited; why he trusts an empirical screen](../../raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md) ([summary](../sources/2009-10-12-ibd-100-list-top-ten-do-outperform.md))
 - [WW 2009-12-21 — The rocket criteria, and two stop levels per position](../../raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md) ([summary](../sources/2009-12-21-some-new-rocket-stocks-to-watch.md))
 - [WW 2010-08-02 — Why commodities are the exception to buying all-time highs](../../raw/posts/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md) ([summary](../sources/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md))
+- [WW 2010-11-26 — Monthly, weekly AND daily - the three-timeframe requirement](../../raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md) ([summary](../sources/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md))
+- [WW 2025-05-05 — How he works an all-time-high list](../../raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md) ([summary](../sources/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md))

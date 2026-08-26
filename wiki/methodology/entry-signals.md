@@ -1,7 +1,7 @@
 ---
 title: Entry signals — BOS, the dots, and the daily bounce setups
 type: concept
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md
   - raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md
@@ -28,6 +28,7 @@ sources:
   - raw/posts/2011-02-28-market-indexes-hold-many-stocks-bounce-off-of-support-ibd50-stock-lulu-cup-with-handle-mstr.md
   - raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md
   - raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md
+  - raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md
 ---
 
 # Entry signals — BOS, the dots, and the daily bounce setups
@@ -117,6 +118,17 @@ The [pinch](#bollinger-bands-the-bounce-and-the-pinch-2022) has a companion read
 
 He has used three over the years: the textbook **20-day, 2 SD** while teaching students in 2009, a **10.2** setting on a 2015 QQQ chart (support at "the lower 10.2 BB"), and the **15.2** he settled on and describes as standard from 2022 — "I use 15.2 as settings because they work for me." Read a band reference against its date. ([WW 2015-10-04](../../raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md))
 
+**The lower band beats a drawn trend line (2014).** When the two coincide he says which he trusts: "each time the
+QQQ bounced from its **lower channel trend line**, it was **also** bouncing up from the **lower Bollinger
+Band**… **To me, the lower BB is a better indicator of potential support.**" ([WW 2014-05-07](../../raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md)) A computed level over a
+hand-drawn one — consistent with his general preference for rules that another person could reproduce from the
+same data.
+
+**And the bounce's target is the other band**, not open-ended: a bounce off the lower band suggests "a rise in the
+QQQ, **but only to the top BB**." The pinch is treated as directionless by construction — "**we are headed for a
+BB pinch**… **at some point the BB will break up or down with a new move**" — which is the honest form of that
+pattern and worth keeping when it is quoted as bullish.
+
 ## The moving-average setups
 
 ### x8/x21/30-day alignment: the daily bounce setup (introduced 2024)
@@ -181,3 +193,4 @@ it. The 2005 version leaves both to judgement.
 - [WW 2011-02-28 — Market indexes hold; Many stocks bounce off of support; IBD50 stock, LULU; Cup-with handle–MSTR.](../../raw/posts/2011-02-28-market-indexes-hold-many-stocks-bounce-off-of-support-ibd50-stock-lulu-cup-with-handle-mstr.md) ([summary](../sources/2011-02-28-market-indexes-hold-many-stocks-bounce-off-of-support-ibd50-stock-lulu-cup-with-handle-mstr.md))
 - [WW 2016-09-11 — September swoon? Weak Fridays often lead to Ugly Mondays—Indicators I watch for a bottom](../../raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md) ([summary](../sources/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md))
 - [WW 2005-05-25 — An empty meetup room as a contrary indicator](../../raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md) ([summary](../sources/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md))
+- [WW 2014-05-07 — Distrusting his own signal; the lower band as better support](../../raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md) ([summary](../sources/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md))

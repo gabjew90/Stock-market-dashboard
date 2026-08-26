@@ -100,6 +100,8 @@ sources:
   - raw/posts/2008-02-25-gmi-0-gmi-r-0-nibbling-a-little-at-rocket-stocks.md
   - raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md
   - raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md
+  - raw/posts/2011-03-10-short-term-trend-still-in-doubt-in-cash-and-gold.md
+  - raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md
 ---
 
 # Risk & cash
@@ -300,6 +302,12 @@ stocks**," because "one never knows when an up-trend will end."
 when these indexes close above their 10 week averages.**" ([WW 2010-08-02](../../raw/posts/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md)) Not a claim about markets — a claim about
 what has worked for him, which is the form most of his rules take when stated carefully.
 
+**Closing everything on the trend change (2009).** The trading account's response to a confirmed flip is not
+graded: "once the QQQQ fell into a down-trend, **I closed all positions** and bought a very little of QID… if the
+QQQQ down-trend deepens I will buy more." ([WW 2009-01-20](../../raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md)) Full exit on the signal, then a *scaled* entry on the
+other side — the asymmetry is deliberate, since the exit is protecting gains already made and the short is a new
+risk.
+
 ## Noise isolation as a precondition for clear analysis
 
 Richard Wyckoff (1924) anticipated Darvas's method: he made his best trades when isolated far from Wall Street, receiving only end-of-day prices by cable, ignoring all news and opinion. Darvas repeated this achievement thirty years later. Dr. Wish draws the direct lesson for the internet/CNBC era: "The more I insulate myself from outside influences and concentrate just on the movement of stocks, the better I trade. One must be a loner and confident in one's own judgments." ([WW 2006-02-06](../../raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md))
@@ -485,6 +493,22 @@ already taken the position he is considering.
 **Wounded leaders, plural (2018).** The leader tell is about *several* leaders at once, not one: with NVDA,
 AAPL, FB, NFLX and SQ charted side by side, "**I become concerned when many of the market leaders look
 wounded**… are the others forming their bull market tops?" ([WW 2018-01-01](../../raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md))
+
+## The leader watchlist, named
+
+Every "the leaders are weakening" statement in this corpus rests on a specific, small, fixed list — asked for by
+readers in March 2011 and answered directly: "a number of people have asked me **what stocks I monitor for an
+indication of how the market leaders are doing. They are: PCLN, AZO, AAPL, BIDU, CMG, AMZN, GOOG, NFLX, FFIV.**"
+([WW 2011-03-10](../../raw/posts/2011-03-10-short-term-trend-still-in-doubt-in-cash-and-gold.md))
+
+The test applied to it is the ordinary one — no special leader metric: "**the last 4 are showing weakness,
+closing below their 10 week averages.** I am cautious now, given the signs of short term weakness **in the
+leaders and in my other indicators**." So "the leaders are weakening" means a countable fraction of a named list
+below a stated average, and it is treated as one input among several rather than as a trigger.
+
+The membership is of its moment (2011) and later posts name different stocks — the 2018
+["wounded leaders"](#contrarian-sentiment-is-a-bounce-warning-not-a-re-entry-trigger) are NVDA, AAPL, FB, NFLX
+and SQ — but the *method* is constant: a handful of the largest, most-owned growth names, scored on the 10-week.
 
 ## Relative strength during declines as a leadership screen
 
@@ -723,3 +747,5 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2008-02-25 — Nibbling in a down-trend - with close stops and written calls](../../raw/posts/2008-02-25-gmi-0-gmi-r-0-nibbling-a-little-at-rocket-stocks.md) ([summary](../sources/2008-02-25-gmi-0-gmi-r-0-nibbling-a-little-at-rocket-stocks.md))
 - [WW 2011-08-22 — Every multi-week Dow decline since 1916, counted](../../raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md) ([summary](../sources/2011-08-22-current-market-decline-is-nothing-unusual.md))
 - [WW 2021-11-23 — SHY as the short-rate proxy; a hedge word regretted](../../raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md) ([summary](../sources/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md))
+- [WW 2011-03-10 — The leader watchlist, named](../../raw/posts/2011-03-10-short-term-trend-still-in-doubt-in-cash-and-gold.md) ([summary](../sources/2011-03-10-short-term-trend-still-in-doubt-in-cash-and-gold.md))
+- [WW 2009-01-20 — A loss taken, and the rule it produced about selling options](../../raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md) ([summary](../sources/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md))
