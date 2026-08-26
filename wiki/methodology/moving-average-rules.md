@@ -106,6 +106,24 @@ Stage analysis was introduced by Weinstein and adopted by Dr. Wish. The four sta
 - **Stage 3 — Topping.** The stock has stopped advancing and is consolidating near a peak while the 30-week average flattens or begins to turn down. He sells into Stage 3.
 - **Stage 4 — Declining.** The stock (or index) is below its declining 30-week average. "If they remain below these averages and the averages turn down, the market could be at the beginning of a major Stage 4 decline." ([WW 2014-10-13](../../raw/posts/2014-10-13-11th-day-of-qqq-short-term-down-trend-how-long-will-this-market-decline-last.md)) He transfers pension money out of mutual funds in stages when a Stage 4 threatens. The 10-week average crossing below the 30-week average confirms the Stage 4 onset. ([WW 2025-03-30](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
 
+**What he never specified: how flat is "roughly flat".** Three of the four stage definitions turn
+on the 30-week average's *direction* — Stage 1 needs it flat, Stage 3 needs it flat or curling
+down, Stage 4 needs it turning down — and in 4,700 posts he never gives a threshold. He reads it
+off the chart by eye ("an **ominous curving down** of the 30 week average"; "wait for the 30 week
+average to **curve up**"). Any implementation must therefore invent a number, and
+[`src/ww/indicators/ma_stages.py`](../../src/ww/indicators/ma_stages.py) says so at the top: a
+change of more than **1% over 8 weeks** counts as rising or falling, anything inside that band is
+flat, plus a two-week curl guard so a V-recovery off a depressed base cannot read as "rising"
+while the average is visibly rolling over. **Those numbers are ours, not his** — treat stage output
+as calibrated rather than reproduced, the same standing as the
+[30-day short-term trend proxy](qqq-short-term-timing.md).
+
+One consequence worth stating: **a flat 30-week looks identical at a base and at a top**, so the
+stage cannot be read from one bar in isolation. The classifier resolves the ambiguity the way the
+cycle does — a flattening average reached *from* an advance is Stage 3, reached *from* a decline is
+Stage 1. Without that, the January 2022 and March 2000 tops both scored dozens of days of
+"basing" in the middle of a market top.
+
 **2025 example:** IWM's weekly chart in March 2025 showed the 10-week average crossing below the 30-week average while the weekly close (gray line) was leading everything lower — Dr. Wish called this "the BEGINNING of a Stage 4 down-trend," comparing it to a similar chart setup in 2022. ([WW 2025-03-30](../../raw/posts/2025-03-30-blog-post-day-24-of-qqq-short-term-down-trend-iwm-looks-like-it-is-at-the-beginning-of-a-stage-4-down-trend-s.md))
 
 **A declining 30-week under a GREEN GMI (March 2019).** With the GMI at 6 and GMI2 barely weakened, what troubled him was that the QQQ and SPY 30-week averages were *still declining* — "a major sign of weakness for me, as it could indicate a Stage 4 decline." Two rules stated: "In prior large down-trends I would wait for the 30 week average to curve up before tiptoeing back into the market," and "a *close* back below the 30 week average could be ominous for the longs." He lightened up on the daily signal but sized by the weekly stage. ([WW 2019-03-24](../../raw/posts/2019-03-24-decline-caused-by-inverse-yield-curve-and-or-mueller-report-stage-4-decline.md)) Three months later, with DIA back under its 30-week: "If the 30 week average curves down, the market could be at major risk of a significant decline. That signal saved me from staying long during the 2000 and 2008 market debacles." ([WW 2019-06-02](../../raw/posts/2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs.md))

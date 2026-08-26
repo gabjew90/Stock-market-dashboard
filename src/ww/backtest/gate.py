@@ -148,12 +148,15 @@ def market_state_gate(gmi: pd.Series, prices: pd.DataFrame, *, gmi_threshold: in
     idx = gmi.index
     extra = pd.Series(True, index=idx)
     if require_stage2:
+        # One Stage-2 definition, shared with the dashboard and `ww compute` - see
+        # ww.indicators.ma_stages.classify_stage. This used to be a local "above a rising 30wk"
+        # test that disagreed with the dashboard on ~10% of days.
+        from ww.indicators.ma_stages import is_stage2
         qqq = prices["QQQ"].reindex(idx).ffill()
         wk = qqq.resample("W-FRI").last().dropna()
-        above = _above_trailing_sma(wk, _QQQ_WEEKLY_TREND_WINDOW)
-        rising = _sma_rising(wk, _QQQ_WEEKLY_TREND_WINDOW)
-        st2_wk = above & rising
-        extra = extra & st2_wk.reindex(idx, method="ffill").fillna(False).astype(bool)
+        w10 = wk.rolling(10, min_periods=10).mean().reindex(idx, method="ffill")
+        w30 = wk.rolling(_QQQ_WEEKLY_TREND_WINDOW, min_periods=_QQQ_WEEKLY_TREND_WINDOW).mean().reindex(idx, method="ffill")
+        extra = extra & is_stage2(qqq, w10, w30).reindex(idx).fillna(False).astype(bool)
     if require_st_up:
         qqq = prices["QQQ"].reindex(idx).ffill()
         # compute the 30d-SMA "up/down" point-in-time over the daily series

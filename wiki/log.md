@@ -1371,3 +1371,51 @@ Corpus now: **4,700 / 4,700 ingested**, 2005-04-17 → 2026-08-23. By tier: 455 
 22 `trade_example` (477 source pages), 4,222 `daily_update`, 1 `meta`. `ww lint .` 0 errors;
 `pytest -q` 238 passed (3 new, pinning the pagination order, the caching rule, and a
 scrape → publish → re-scrape regression that fails if any post is lost across a page boundary).
+
+## [2026-08-26] lint | stage logic rebuilt — Stage 1 restored, Stage 4 given its second condition, one Stage-2 definition
+
+Follow-up to today's GMI audit, prompted by the right question: I had checked Stages 2 and 4 and
+waved 1 and 3 through. They were the worse two.
+
+- **Stage 1 did not exist.** Both of its branches required a *rising* 30-week, so all 294 Stage-1
+  days had a rising average (median +2.35%/8wk) — the opposite of "the average is roughly flat".
+  Meanwhile 289 days matching a plain reading of his Stage 1 (flat average, price at or below it,
+  off the highs) were labelled Stage 4 (224) or Stage 3 (65). The two sets were **disjoint**. The
+  2009 and 2022-23 bases produced *zero* Stage-1 days between them.
+- **Stage 3 was an overflow bucket** — 1,196 days covering genuine tops (933 above the average),
+  drawdowns as deep as 18.1% below it, and post-crash recoveries with a still-falling average
+  (May 2009: price 13.8% *above* the 30-week, average falling 9.2%/8wk, labelled "topping").
+- **Stage 4 was missing his second condition.** WW 2015-09-20 states both with an explicit *and*:
+  the 10-week below the 30-week **and** the 30-week turning down. Only the cross was implemented,
+  so 17 of 48 Stage-4 episodes (156 days) never saw the average turn down at all.
+- **Stage 2 was defined three different ways** — `weekly_stage()` (used by `ww compute`),
+  `weinstein_stage_series()` (the dashboard) and the backtest's `require_stage2` filter agreed on
+  only 85% of weeks / 90% of days. `ww compute` and the dashboard could report different stages
+  for the same ticker on the same day.
+
+Root cause for the first three: the classifier reduced the average's slope to a **boolean**, so
+*flat* and *falling* were indistinguishable — and Stages 1 and 3 are precisely the two that hinge
+on "flat". Restored the three-way (-1/0/+1) that `_slope_sign` already had, and routed all three
+callers through one `classify_stage()`.
+
+**A second bug, found in my own fix.** With the three-way slope restored, the January 2022 top
+scored 20 days of Stage 1 and the March 2000 top scored 34 — "basing" in the middle of a market
+top. A flat 30-week looks identical at a base and at a top; the reading is only decidable from
+where the cycle came from. `classify_stage()` now takes the prior bar: a flattening average
+reached from an advance is Stage 3, reached from a decline is Stage 1. Both tops now score 1 and 0
+Stage-1 days respectively.
+
+Distribution over 6,766 QQQ days (old → new): Stage 1 294 → 314, Stage 2 3,916 → 4,067,
+Stage 3 1,196 → 1,460, Stage 4 1,360 → 925. **982 days changed (14.5%).** The Stage-1 days now
+land in 2001, 2002, 2004, 2006, 2008, 2009, 2011, 2016, 2019, 2022 and 2023 — recognisable basing
+years, where before they fell inside advances.
+
+**Honest limits.** The "flat" band (1% over 8 weeks, plus a 2-week curl guard) is **ours** — he
+never published a threshold and reads the slope off the chart by eye. Recorded on
+`moving-average-rules.md` and at the top of `ma_stages.py`; stage output has the same standing as
+the 30-day trend proxy: calibrated, not reproduced. Also, 253 of the 314 Stage-1 days are the
+*recovery* leg (price back above the average, 10/30 cross unconfirmed) rather than his literal
+"consolidating near or below" — a defensible reading of basing, but broader than his sentence.
+
+`ww lint .` 0 errors; `pytest -q` 246 passed (9 new, including a base-vs-top disambiguation case
+and a test that `weekly_stage()` and `stage_series()` cannot disagree).
