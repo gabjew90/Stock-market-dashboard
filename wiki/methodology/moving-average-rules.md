@@ -66,6 +66,8 @@ sources:
   - raw/posts/2005-08-19-gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo.md
   - raw/posts/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md
   - raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md
+  - raw/posts/2025-04-13-blog-post-day-34-of-qqq-short-term-down-trend-as-i-had-suggested-spy-closed-its-gap-on-weekly-chart-and-kisse.md
+  - raw/posts/2024-02-27-blog-post-day-34-of-qqq-short-term-up-trend-anf-an-amazing-pattern-of-an-advancing-growth-stock-see-weekly-ch.md
 ---
 
 # Moving-average rules
@@ -150,6 +152,15 @@ moving average rather than from prior lows: "note how well GLD has found support
 the current up-trend began in early 2009. Since then GLD has been in **a perfect Stage II advance**. **Support
 should therefore be around \$154.**" ([WW 2011-09-26](../../raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md)) In a clean Stage 2 the rising 30-week *is* the support level,
 so it can be read off the chart as a number for a future week.
+
+**The recovery sequence, in order (2025).** The mirror of the Stage 4 breakdown, stated as three ordered steps:
+"**To indicate emerging strength, the index must first close the week above its 4wk average. Then when the 4wk
+avg rises above the 10 wk avg and then the 10 wk avg rises above the 30 wk average we have a possible up-trend.**"
+([WW 2025-04-13](../../raw/posts/2025-04-13-blog-post-day-34-of-qqq-short-term-down-trend-as-i-had-suggested-spy-closed-its-gap-on-weekly-chart-and-kisse.md)) The same post supplies a pattern that produces the *wrong* signal along the way: "when a stock
+in a down-trend has a **gap below the declining 4 wk average** it often means the stock is **extended on the down
+side and it will often rebound to close the gap**" — an unwind, not a turn, and the bounce it produces is
+precisely the one not to buy. "**It takes a lot of discipline to refrain from buying the sudden sharp bounces in
+declining stocks way below their highs. The most successful traders know how to do this.**"
 
 ## The naked chart — and the 10/30 relationship
 
@@ -261,6 +272,19 @@ avgc4>avgc4.1
 ```
 
 All conditions are on the **weekly** timeframe. In plain terms: (1) 4wk>10wk>30wk alignment; (2) the low for the week traded at or below the 4wk average but the close is above it; (3) the close is higher than the prior week; (4) the 4wk average is rising (today's 4wk > last week's 4wk).
+
+**In plain language (2024).** What the formula encodes, described so it can be checked by eye: "one of the best
+patterns for an advancing stock is one where the **4wk average > 10wk avg > 30wk avg for several weeks and the
+stock consistently *closes* the week above its 4 week average**… one could buy when the stock closes the week
+after a bounce above its 4 wk average, designated by **green bars**… **A green bar signifies that it has traded
+below or at the 4wk average at some point during the week and then closed the week back above it.** A sign of
+possible technical weakness would be if such a stock ***closes* the week below the 4 wk average.**"
+([WW 2024-02-27](../../raw/posts/2024-02-27-blog-post-day-34-of-qqq-short-term-up-trend-anf-an-amazing-pattern-of-an-advancing-growth-stock-see-weekly-ch.md))
+
+So a WGB is **a weekly shakeout that failed** — price dipped to or through the fast average intraweek and
+recovered by the close. That is why it marks a *bounce* rather than a breakout, and why the same average supplies
+both the trigger and the exit. The related observation from 2018: "**the time to be in the market is when the 4
+week average is climbing.** That is when making money on the long side is much easier."
 
 ### WGB trailing stop rule
 
@@ -461,3 +485,5 @@ to take no position **on either side** — the diagnosis is about the regime, no
 - [WW 2005-08-19 — The naked chart, and the 10/30 rule it produced](../../raw/posts/2005-08-19-gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo.md) ([summary](../sources/2005-08-19-gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo.md))
 - [WW 2011-03-04 — Weekly trends as the anti-shakeout discipline](../../raw/posts/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md) ([summary](../sources/2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher.md))
 - [WW 2011-09-26 — Why QQQ and SPY diverge - a structural reason](../../raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md) ([summary](../sources/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md))
+- [WW 2025-04-13 — blog-post-day-34-of-qqq-short-term-down-trend-as-i-had-suggested-spy-closed-its-gap-on-weekly-chart-and-kisse](../../raw/posts/2025-04-13-blog-post-day-34-of-qqq-short-term-down-trend-as-i-had-suggested-spy-closed-its-gap-on-weekly-chart-and-kisse.md) ([summary](../sources/2025-04-13-blog-post-day-34-of-qqq-short-term-down-trend-as-i-had-suggested-spy-closed-its-gap-on-weekly-chart-and-kisse.md))
+- [WW 2024-02-27 — blog-post-day-34-of-qqq-short-term-up-trend-anf-an-amazing-pattern-of-an-advancing-growth-stock-see-weekly-ch](../../raw/posts/2024-02-27-blog-post-day-34-of-qqq-short-term-up-trend-anf-an-amazing-pattern-of-an-advancing-growth-stock-see-weekly-ch.md) ([summary](../sources/2024-02-27-blog-post-day-34-of-qqq-short-term-up-trend-anf-an-amazing-pattern-of-an-advancing-growth-stock-see-weekly-ch.md))

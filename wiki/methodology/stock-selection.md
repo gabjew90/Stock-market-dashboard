@@ -80,6 +80,8 @@ sources:
   - raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md
   - raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md
   - raw/posts/2013-04-21-market-weak-i-am-again-cautious.md
+  - raw/posts/2010-09-16-gmi-and-gmi-r-at-maximum-levels-aapl-showing-strength.md
+  - raw/posts/2011-01-06-judys-concept-stocks-rocket-up-armh-cavm-apky-mcp.md
 ---
 
 # Stock selection
@@ -111,6 +113,15 @@ filter far stricter than the "strong recent quarterly earnings" of November 2005
 **The three timeframes as a purchase precondition (2010).** Stated as a conjunction rather than as a workflow:
 "**I only buy stocks that have monthly, weekly AND daily up-trends in place.**" ([WW 2010-11-26](../../raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md)) The three-chart
 procedure documented later is the *method* for checking this; the requirement itself is older and simpler.
+
+**The behavioural gap, measured (2010).** Speaking to about forty investors: "**I polled the audience… regarding
+whether they typically would buy a stock that was trading at a new price high. Not a single person raised their
+hand. I then went on to tell them that I concentrate virtually all of my buys on stocks that are at *all-time*
+highs!**" ([WW 2010-09-16](../../raw/posts/2010-09-16-gmi-and-gmi-r-at-maximum-levels-aapl-showing-strength.md)) Zero out of forty engaged investors — the edge is dispositional rather than
+informational. And the argument he answers it with is arithmetic: "**if you want a stock that is going to the
+moon, the best place to look is the daily new high list. A stock that goes from 20 to 100 hits a lot of new highs
+along the way!!**" A stock cannot multiply without passing through every new high on the way, so a rule against
+buying new highs is a rule against owning multi-baggers.
 
 ## Why "already doubled" — and the gap rule
 
@@ -428,6 +439,26 @@ The same logic sits behind [I-bonds](risk-and-cash.md#where-the-cash-sits--i-bon
 behind [dollar-cost averaging into funds but never into single names](pension-management.md#new-money-vs-old-money-in-a-decline) —
 in each case the question is whether the instrument can go to zero.
 
+## Judy — the concept-stock collaborator
+
+The one recurring *human* input to a method otherwise built entirely on charts, described most fully in January
+2011 ([WW 2011-01-06](../../raw/posts/2011-01-06-judys-concept-stocks-rocket-up-armh-cavm-apky-mcp.md)):
+
+> "I really need to set up a '**Judy's Picks**' column. So many of the stocks that she told me about over a year
+> ago have taken off. Check out **ARMH, CAVM, APKT, PANL and FFIV**. Judy tells me that years ago **she bought
+> ISRG for well under \$10**… **She was the first person to alert me to the concepts of cloud computing and LEDs,
+> long before I heard about them from the media.**"
+
+The division of labour is consistent across a decade: **she supplies thesis, he supplies timing.** His screens
+find stocks that are already moving; she identifies technologies before they move, and he then applies his own
+entry rules to the names she raises — INGN, TDSC, GNRC, CPST, ALTI, RIMM and AMZN all appear elsewhere in the
+corpus as her calls. He credits her consistently, including when she was earlier than he was ("she, of course,
+started buying it in the low 80's!").
+
+It is worth noting what this does *not* violate. He does not buy on her thesis alone; the technical conditions
+still have to be met, and on at least one occasion he declined a pick during a down-trend and bought it later.
+The collaboration supplies candidates, not signals.
+
 ## O'Neil 1995 workshop: volume over EPS
 
 From Dr. Wish's personal trading diary (November 11, 1995, copyright Dr. Eric Wish):
@@ -653,3 +684,5 @@ guide me**." ([WW 2005-07-19](../../raw/posts/2005-07-19-enjoy-the-earnings-rall
 - [WW 2010-11-26 — Monthly, weekly AND daily - the three-timeframe requirement](../../raw/posts/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md) ([summary](../sources/2010-11-26-gmi-back-to-5-of-6-qqqq-short-term-up-trend-reaches-4th-day-armh-rebounding.md))
 - [WW 2025-05-05 — How he works an all-time-high list](../../raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md) ([summary](../sources/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md))
 - [WW 2013-04-21 — market-weak-i-am-again-cautious](../../raw/posts/2013-04-21-market-weak-i-am-again-cautious.md) ([summary](../sources/2013-04-21-market-weak-i-am-again-cautious.md))
+- [WW 2010-09-16 — gmi-and-gmi-r-at-maximum-levels-aapl-showing-strength](../../raw/posts/2010-09-16-gmi-and-gmi-r-at-maximum-levels-aapl-showing-strength.md) ([summary](../sources/2010-09-16-gmi-and-gmi-r-at-maximum-levels-aapl-showing-strength.md))
+- [WW 2011-01-06 — judys-concept-stocks-rocket-up-armh-cavm-apky-mcp](../../raw/posts/2011-01-06-judys-concept-stocks-rocket-up-armh-cavm-apky-mcp.md) ([summary](../sources/2011-01-06-judys-concept-stocks-rocket-up-armh-cavm-apky-mcp.md))

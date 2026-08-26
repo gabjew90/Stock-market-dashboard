@@ -49,6 +49,7 @@ sources:
   - raw/posts/2012-04-23-qqq-short-term-down-trend-completes-5th-day-short-gld-or-in-cash-aapl-fibonacci-targets.md
   - raw/posts/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md
   - raw/posts/2005-04-17-april-17-2005-short-or-in-cash.md
+  - raw/posts/2023-02-05-blog-post-day-16-of-qqq-short-term-up-trend-buy-tqqq-on-day-1-of-this-up-trend-and-it-advanced-through-friday.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -157,6 +158,16 @@ The 2020 formulation adds the ego to the ledger: "a new up-trend is always met w
 ## 6. Enforce the anti-shakeout rule physically
 
 Knowing that daily charts shake him out of good stocks, he did not resolve to be calmer — he put the rule where he would see it: "**I have created a note on my monitor that says I must look at the weekly chart before I sell.**" ([WW 2020-09-20](../../raw/posts/2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv.md)) The rule itself is on [exits — the timeframe asymmetry](../playbooks/exits.md#the-timeframe-asymmetry-buy-on-the-daily-sell-only-off-the-weekly).
+
+**The failure it exists to prevent, admitted in full (2023).** "**I confess I did buy some TQQQ at the beginning
+of the new QQQ short term up-trend**… **but allowed myself to get shaken out on 1/19 and did not buy back in. Not
+buying back in compounded my first mistake. I need to let my computer trade for me because I let myself be shaken
+out even though my objective rules said that the short term up-trend was still intact** :-(." ([WW 2023-02-05](../../raw/posts/2023-02-05-blog-post-day-16-of-qqq-short-term-up-trend-buy-tqqq-on-day-1-of-this-up-trend-and-it-advanced-through-friday.md))
+Three admissions in one sentence — he exited against his own rules, failed to re-enter, and identifies the second
+as the larger error. The remedy he proposes is **automation**, not resolve: "I need to let my computer trade for
+me." That is the same conclusion the resting buy-stop and the mental-stop-checked-at-the-close reach from other
+directions — the machinery exists because the discipline is unreliable, and he says so about himself. The cost is
+measured: over the period, "**TQQQ even beat all but 4 of the 668 stocks in my aggregate watchlist.**"
 
 ## 7. When it feels too easy, sell
 
@@ -304,3 +315,4 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2012-04-23 — qqq-short-term-down-trend-completes-5th-day-short-gld-or-in-cash-aapl-fibonacci-targets](../../raw/posts/2012-04-23-qqq-short-term-down-trend-completes-5th-day-short-gld-or-in-cash-aapl-fibonacci-targets.md) ([summary](../sources/2012-04-23-qqq-short-term-down-trend-completes-5th-day-short-gld-or-in-cash-aapl-fibonacci-targets.md))
 - [WW 2016-02-28 — 5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs](../../raw/posts/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md) ([summary](../sources/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md))
 - [WW 2005-04-17 — april-17-2005-short-or-in-cash](../../raw/posts/2005-04-17-april-17-2005-short-or-in-cash.md) ([summary](../sources/2005-04-17-april-17-2005-short-or-in-cash.md))
+- [WW 2023-02-05 — blog-post-day-16-of-qqq-short-term-up-trend-buy-tqqq-on-day-1-of-this-up-trend-and-it-advanced-through-friday](../../raw/posts/2023-02-05-blog-post-day-16-of-qqq-short-term-up-trend-buy-tqqq-on-day-1-of-this-up-trend-and-it-advanced-through-friday.md) ([summary](../sources/2023-02-05-blog-post-day-16-of-qqq-short-term-up-trend-buy-tqqq-on-day-1-of-this-up-trend-and-it-advanced-through-friday.md))

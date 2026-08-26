@@ -412,6 +412,13 @@ sources:
   - raw/posts/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md
   - raw/posts/2020-03-22-my-successful-new-high-and-new-low-indicators-flagged-the-market-top.md
   - raw/posts/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md
+  - raw/posts/2005-04-25-the-interest-rate-index.md
+  - raw/posts/2007-07-26-gmi-3-gmi-s-38-waiting-for-qqqq-to-turn.md
+  - raw/posts/2009-09-21-ultra-3x-etfs-beat-individual-stocks-again.md
+  - raw/posts/2013-11-18-all-indicators-remain-positive-gmi-based-strategies-lead-to-large-gains-in-2012-and-2013-onvo-soars.md
+  - raw/posts/2020-04-06-the-gmi0-and-on-a-red-signal.md
+  - raw/posts/2020-07-13-blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer.md
+  - raw/posts/2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we.md
 ---
 
 # Timeline — evolution of the methodology
@@ -465,6 +472,18 @@ back on track. You can't make good judgments if you are glued to CNBC and tipste
 last sentence is load-bearing rather than decorative: a method for someone with a full-time job has to be
 checkable once a day, which shapes the close-based signals, the resting stops and the weekly chart. He was
 already short or in cash before the blog existed. ([WW 2005-04-17](../../raw/posts/2005-04-17-april-17-2005-short-or-in-cash.md))
+
+
+## April 2005 (calibration) — the mirror statistic in week two, and a published range
+
+**"The interest rate index" (2005-04-25):** the blog's ninth day, and both halves of component 1 are already
+running. The high side is published **with an observed range** — "**WishingWealth 10 day successful new high
+index: 4/25 20… Range since March, 2005: 8-106**" — the earliest calibration of any indicator in the corpus, and
+what makes a raw count readable. And the mirror: "**I have a similar index that counts new lows that continue to
+decline — it is 56 today. New lows are a better bet than new highs these days.**" Three weeks before the May 2005
+instance the wiki previously dated it to. The conclusion is the market gate in embryo: "with only 20/4000 stocks
+hitting new highs and continuing to rise, **it would seem to me that this is not the time to buy stocks trading
+at new highs. I will wait for a stronger market.**" ([WW 2005-04-25](../../raw/posts/2005-04-25-the-interest-rate-index.md))
 
 
 ## May 2005 — the gap rule and the doubling rationale (GOOG)
@@ -1029,6 +1048,18 @@ does not top out until around 80%. **So this rally probably has more to go**"; a
 circle — "**I am a little cautious about this market because many traders have told me they are making money.**"
 ([WW 2007-07-08](../../raw/posts/2007-07-08-gmi-6-rally-has-more-to-go-ibd100-stock-performance.md))
 
+## July 2007 (mechanics) — a component with its own two-day rule
+
+**"GMI: 3; waiting for QQQQ to turn" (2007-07-26):** a published correction that reveals something about the
+index's construction. "I posted '3?' on one day since then but **I subsequently corrected it to 4 because I had
+jumped the gun on one indicator that required 2 days down before turning.**" At least one GMI component carried a
+two-consecutive-days condition in 2007 — four years before the two-day persistence rule was adopted for the
+*signal*, which therefore generalised an existing discipline rather than inventing one. And the discretionary
+exit priced in both directions: "**by following my gut I did miss out on further gains in GRMN and AAPL, but I am
+coming away with almost all of my profits from the past three months.**" T2108 at 31, with past bottoms given as
+"typically below 25." ([WW 2007-07-26](../../raw/posts/2007-07-26-gmi-3-gmi-s-38-waiting-for-qqqq-to-turn.md))
+
+
 ## September 2007 (cont.) — component 1's thresholds clarified as inclusive
 
 **"GMI: 3; IBD100 stocks at new highs" (2007-09-04):** "I clarified in the table that the 10 Day Successful New High Index is positive if the number is ***greater than or equal* to 100 or 50%**"; "I look forward to market declines when it is much easier to see emerging leaders"; 20 of 400+ IBD100 names at new highs against 66 in the whole universe; T2108 had marked the August bottom below 8%. ([WW 2007-09-04](../../raw/posts/2007-09-04-gmi-3-ibd100-stocks-at-new-highs.md))
@@ -1327,6 +1358,17 @@ highs makes these winners stand out." ([WW 2009-04-19](../../raw/posts/2009-04-1
 ## August 2009 (ETFs) — 'why search for great stocks when I can buy ultra ETFs?'
 
 **"Why search for great stocks when I can buy ultra ETFs?" (2009-08-24):** the full argument, before TQQQ existed (3× tech had to come via **TYH**); the Nasdaq-100 preferred partly because it "contains no financial stocks"; and a 100-stock basket blunts single-name earnings risk — "stocks tend to explode or implode when earnings are announced." ([WW 2009-08-24](../../raw/posts/2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs.md))
+
+## September 2009 (odds) — the ultra-ETF case as a probability of beating it
+
+**"Ultra 3X ETFs beat individual stocks again" (2009-09-21):** the most robust statement of the leveraged
+argument, because it is about odds rather than returns. Over a bounce from 1 September: QQQQ +8%, QLD +17%, TYH
++21% — and then, "**if I had been trying to pick the specific NASDAQ 100 stock that would outperform these ETFs,
+I would only have had a little better than even chance (57%) of beating the QQQQ. But only 13% of the NASDAQ 100
+stocks beat the QLD and 11% beat the TYH.**" Stock-picking against the unleveraged index is a coin flip; against
+the leveraged funds it is one in eight. "**Why try to find the few stocks that can beat these ETFs when the odds
+are so low?**" ([WW 2009-09-21](../../raw/posts/2009-09-21-ultra-3x-etfs-beat-individual-stocks-again.md))
+
 
 ## October 2009 — buying extended from support, the mistake that made the bounce doctrine
 
@@ -1855,6 +1897,18 @@ bearishness and an imminent bounce**," against 1.2 in 2018. ([WW 2012-10-21](../
 **"GMI based strategy using 3X ETFs beats IBD 50 stocks" (2013-11-24):** from the 9/4/2013 GMI buy signal to 11/22, TQQQ and UPRO each gained +30%, beating approximately 90% of IBD 50 stocks. Simply holding TQQQ beat all individual stocks that gained ≥30%. Dr. Wish's lesson: "When the GMI issues a buy signal, I should begin accumulating QLD or TQQQ instead of trying to find the rare stock that will eventually beat them." ([WW 2013-11-24](../../raw/posts/2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks.md))
 
 ---
+
+## November 2013 (evidence) — a third party backtests the GMI
+
+**"GMI based strategies lead to large gains" (2013-11-18):** the only independent test of the GMI anywhere in
+the corpus. "**The Dark Liquidity site** has been comparing the GMI based trading strategy versus a number of
+other strategies. For each of the last two years **a strategy that bought the QLD whenever the GMI signaled buy,
+and went to cash every time it signaled sell, beat all other strategies followed. In 2012 the GMI based QLD
+strategy was up about +30% and thus far in 2013 it is up +42%.**" Reported with a disclosure that is easy to miss
+and worth keeping: "**I do not check that site's computations**, but my experience is that repeatedly, buying QLD
+when the GMI signals buy has usually worked." Note the strategy tested — leveraged long on Buy, **cash** on Sell,
+never short. ([WW 2013-11-18](../../raw/posts/2013-11-18-all-indicators-remain-positive-gmi-based-strategies-lead-to-large-gains-in-2012-and-2013-onvo-soars.md))
+
 
 ## December 2013 — the timing thesis with its evidence published
 
@@ -2598,6 +2652,18 @@ Almost all of the prior days" the high side had led — and 21 February 2020 was
 fastest bear market on record. ([WW 2020-03-22](../../raw/posts/2020-03-22-my-successful-new-high-and-new-low-indicators-flagged-the-market-top.md))
 
 
+## April 2020 (origin) — where the market gate came from
+
+**"The GMI=0 and on a Red signal" (2020-04-06):** the system's premise with its biography attached. "**When I
+began trading in the 60s and knew nothing about technical analysis, I would make money when the market moved up
+and then lose the profits and more when the market receded.** It wasn't until I read **Nicolas Darvas' first book
+and later William O'Neil's book** and his newspaper, IBD, **that I learned that to make money, one must trade
+consistent with the market's trend. Both of these successful traders realized that most stocks follow the general
+trend of the market.**" The gate exists because he spent years giving back in declines what he made in advances.
+He also names the virtue he values in a source and practises himself: "**unlike the WSJ, IBD would actually
+advise readers to exit the market, and still does.**" ([WW 2020-04-06](../../raw/posts/2020-04-06-the-gmi0-and-on-a-red-signal.md))
+
+
 ## June–July 2020 (mechanics) — the green dot's gate; TC2000 GLB alerts
 
 **"FB and AMD had green dot signals" (2020-06-09):** the green dot defined (fast 10.4 crossing above slow 10.4.4) with the gate he calls decisive — "both of these stocks are above their last green line tops, a critical requirement for me" — plus above-average volume on the dot. ([WW 2020-06-09](../../raw/posts/2020-06-09-fb-and-amd-had-green-dot-signals-tuesday-go-to-my-tc2000-club-to-view-the-green-dot-tutorial.md))
@@ -2609,6 +2675,18 @@ fastest bear market on record. ([WW 2020-03-22](../../raw/posts/2020-03-22-my-su
 **"My bounce off of support strategy; DDOG, ETSY, NET, BAND, PLMR examples" (2020-07-19):** A detailed description of the bounce-off-support complementary entry strategy. The **green dot signal** — low fast stochastic crosses above slow stochastic in TC2000 — marks the end of an oversold pullback in an advancing stock. Once the green dot appears, place a GTC stop just below the recent bounce low — if the trade fails, the loss is kept small. Key insight: "The shake out often sets up a nice subsequent advance" because high-volume selling exhausts weak holders and sets up shorts. The advantage over a GLB entry: the stop is the bounce low, not the green line, so the entry-to-stop distance is narrower. Wait for the bounce to confirm — do not anticipate it. ([WW 2020-07-19](../../raw/posts/2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb.md))
 
 ---
+
+## July 2020 (population) — 95 up-trends, and the record-holder's ending
+
+**"Day 67 of $QQQ short term up-trend" (2020-07-13):** the denominator behind every duration percentage on
+this wiki, stated: "**Since 2006 there have been 95 short term up-trends.** The current up-trend has now reached
+67 days." With the method's refusal restated in the same sentence — "I have a **proprietary objective method** for
+designating changes in the short term trend, **so don't ask for it**." And the extreme case with its ending:
+"**the longest short term up-trend since 2006 lasted 91 days, from October 14, 2019 – February 24, 2020. This was
+followed by a 30 day short term down-trend that included the steep March decline.**" His longest recorded advance
+terminated on the COVID top — the same week his new-high/new-low crossover flagged it from a different
+instrument. ([WW 2020-07-13](../../raw/posts/2020-07-13-blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer.md))
+
 
 ## September 2020 — the weekly doubler-ATH scan, syntax published
 
@@ -2839,6 +2917,19 @@ skilled programmer, **surpassed me at running TC2000**." ([WW 2022-02-27](../../
 **"Day 15 of QQQ short-term up-trend; TC2000 gap-up scan" (2022-12-04):** a new TC2000 scan for finding stocks that had a large-volume gap-up day in the past 25 trading days and are now consolidating or resuming their advance. Formula: `L>H1 and V=maxv20 and H=MaxH10` applied as "true within 25 bars." The post also articulates his post-decline re-entry philosophy: enter gradually after indexes retake key moving averages; people initially buy large-caps, then shift to growth stocks as confidence returns. ([WW 2022-12-04](../../raw/posts/2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping.md))
 
 ---
+
+## December 2022 (method) — why model books mislead
+
+**"GLBs often fail in market down-trends" (2022-12-29):** the sharpest methodological criticism in the
+corpus, aimed at a genre he otherwise draws on. "**The same set-ups that work beautifully for me in a rising
+market can fail miserably in a declining market. Model books of rising stocks can be very misleading because, by
+definition, most set-ups worked for these winners. With these model stocks that rise for months one could just
+buy every Monday or every x day and make money. There is nothing special about the set-ups. The authors never
+tell you how often the highlighted set-ups can fail.**" A book of winners selects on the outcome, so every entry
+rule looks good inside it — including deliberately arbitrary ones. The missing quantity is the failure rate, and
+he supplies one in the same post: CALM, one of just five stocks at an all-time high that Friday, reversed within
+days after trading above its upper 15.2 Bollinger Band. ([WW 2022-12-29](../../raw/posts/2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we.md))
+
 
 ## January 2023 — how I trade a GLB; the close-below rule shown intraday
 
@@ -3489,3 +3580,10 @@ of this change when the GMI=5 or 6, indicating there are sufficient numbers of s
 - [WW 2016-10-30 — new-qqq-short-term-down-trend-how-long-do-down-trends-last](../../raw/posts/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md) ([summary](../sources/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md))
 - [WW 2020-03-22 — my-successful-new-high-and-new-low-indicators-flagged-the-market-top](../../raw/posts/2020-03-22-my-successful-new-high-and-new-low-indicators-flagged-the-market-top.md) ([summary](../sources/2020-03-22-my-successful-new-high-and-new-low-indicators-flagged-the-market-top.md))
 - [WW 2023-04-02 — blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu](../../raw/posts/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md) ([summary](../sources/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md))
+- [WW 2005-04-25 — the-interest-rate-index](../../raw/posts/2005-04-25-the-interest-rate-index.md) ([summary](../sources/2005-04-25-the-interest-rate-index.md))
+- [WW 2007-07-26 — gmi-3-gmi-s-38-waiting-for-qqqq-to-turn](../../raw/posts/2007-07-26-gmi-3-gmi-s-38-waiting-for-qqqq-to-turn.md) ([summary](../sources/2007-07-26-gmi-3-gmi-s-38-waiting-for-qqqq-to-turn.md))
+- [WW 2009-09-21 — ultra-3x-etfs-beat-individual-stocks-again](../../raw/posts/2009-09-21-ultra-3x-etfs-beat-individual-stocks-again.md) ([summary](../sources/2009-09-21-ultra-3x-etfs-beat-individual-stocks-again.md))
+- [WW 2013-11-18 — all-indicators-remain-positive-gmi-based-strategies-lead-to-large-gains-in-2012-and-2013-onvo-soars](../../raw/posts/2013-11-18-all-indicators-remain-positive-gmi-based-strategies-lead-to-large-gains-in-2012-and-2013-onvo-soars.md) ([summary](../sources/2013-11-18-all-indicators-remain-positive-gmi-based-strategies-lead-to-large-gains-in-2012-and-2013-onvo-soars.md))
+- [WW 2020-04-06 — the-gmi0-and-on-a-red-signal](../../raw/posts/2020-04-06-the-gmi0-and-on-a-red-signal.md) ([summary](../sources/2020-04-06-the-gmi0-and-on-a-red-signal.md))
+- [WW 2020-07-13 — blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer](../../raw/posts/2020-07-13-blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer.md) ([summary](../sources/2020-07-13-blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer.md))
+- [WW 2022-12-29 — blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we](../../raw/posts/2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we.md) ([summary](../sources/2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we.md))

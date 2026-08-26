@@ -109,6 +109,8 @@ sources:
   - raw/posts/2021-01-31-blog-post-qqq-short-term-up-trend-may-end-monday-is-gme-debacle-decoying-attention-from-impact-of-virus-faile.md
   - raw/posts/2014-12-23-3rd-day-of-qqq-short-term-up-trend-double-top-in-bonds.md
   - raw/posts/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md
+  - raw/posts/2005-11-23-gmi-6-i-bonds-revised.md
+  - raw/posts/2008-09-29-gmi-0-gmi-r-0-19th-day-of-qqqq-down-trend-nicolas-darvas-on-staying-out-of-bear-markets.md
 ---
 
 # Risk & cash
@@ -348,6 +350,13 @@ began this blog." ([WW 2008-01-14](../../raw/posts/2008-01-14-gmi0-gmi-r0-nicola
 younger people** with greater ability to handle the risks and losses from shorting." His
 bear-market default is mostly cash with occasional small hedges (SQQQ, puts), not a short book.
 ([WW 2016-02-07](../../raw/posts/2016-02-07-why-i-follow-my-general-market-index-gmi.md))
+
+**The lineage for standing aside (2008).** On day 19 of the 2008 collapse, with the GMI at zero, he reaches past
+Darvas's famous book to the late one: "a lot of people think highly of **Nicolas Darvas, who made a fortune in
+about two years of trading in the 1950's**… **in his later book written in 1977, Darvas wrote**" — on the
+necessity of standing aside in declining markets. ([WW 2008-09-29](../../raw/posts/2008-09-29-gmi-0-gmi-r-0-19th-day-of-qqqq-down-trend-nicolas-darvas-on-staying-out-of-bear-markets.md)) Characteristic of him: the case for cash is
+presented as inherited from someone who had already made the money, quoted at the moment the temptation to act is
+strongest (5 new highs against 189 new lows, T2108 at 22%).
 
 ## Sell down to the sleeping point
 
@@ -677,6 +686,12 @@ disappointed." ([WW 2006-07-17](../../raw/posts/2006-07-17-gmi-0-ibd100-performa
 point generalises past the number: the cost of sitting out is the *spread* between cash and equities, not the
 equity return alone, and that spread is a fact about the rate environment rather than about the market.
 
+**And the recommendation is a 2005 one, not a 2014 one.** "**I wrote a piece about I-bonds several months ago,
+suggesting that these bonds were a good way to grow savings with protection**" — November 2005, revisiting a
+piece from earlier that year. ([WW 2005-11-23](../../raw/posts/2005-11-23-gmi-6-i-bonds-revised.md)) So this is a standing preference across the whole record rather
+than a response to the 2014 rate thesis, and the reasoning is the same at both dates: an inflation-adjusting
+instrument is the one form of safe money a rate rise cannot mark down.
+
 ## Position sizing — what he has said, and what he has not
 
 He has published **no rule for how much to buy**, and says so plainly — though he does have one rule for *when the next tranche is allowed* (below). Asked how he adjusts position size and exits as a trend changes: "**I have no specific rules for that.**" ([WW comment 2014-05-31](https://wishingwealthblog.com/2014/05/ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend/comment-page-1/#comment-17827), replying to a [reader question 2014-05-29](https://wishingwealthblog.com/2014/05/ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend/comment-page-1/#comment-17638)) Asked what percentage of the portfolio an initial leveraged-ETF position is and by how much he adds: "You would have to take my 14 week university course to fully understand these issues… You need to study these issues and determine your own rules for averaging up and managing risk," pointing readers to Weinstein's stage-analysis chapter, O'Neil, Lefèvre, and — "perhaps the best example I have found of a specific system for increasing one's position and managing risk" — Michael Covel's *The Complete Turtle Trader*. ([WW comment 2011-01-06](https://wishingwealthblog.com/2011/01/2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs/comment-page-1/#comment-2656), replying to a [reader question 2011-01-04](https://wishingwealthblog.com/2011/01/2010-etf-performance-why-search-for-individual-stocks-when-one-can-just-ride-the-leveraged-etfs/comment-page-1/#comment-2651)) Asked whether SQQQ gets the whole account or a portion: "I go in in phases. I am 95% in cash." ([WW comment 2012-11-13](https://wishingwealthblog.com/2012/11/gmi0-23rd-day-of-qqq-short-term-down-trend/comment-page-1/#comment-5365), replying to a [reader question 2012-11-12](https://wishingwealthblog.com/2012/11/gmi0-23rd-day-of-qqq-short-term-down-trend/comment-page-1/#comment-5362))
@@ -821,3 +836,5 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2021-01-31 — blog-post-qqq-short-term-up-trend-may-end-monday-is-gme-debacle-decoying-attention-from-impact-of-virus-faile](../../raw/posts/2021-01-31-blog-post-qqq-short-term-up-trend-may-end-monday-is-gme-debacle-decoying-attention-from-impact-of-virus-faile.md) ([summary](../sources/2021-01-31-blog-post-qqq-short-term-up-trend-may-end-monday-is-gme-debacle-decoying-attention-from-impact-of-virus-faile.md))
 - [WW 2014-12-23 — 3rd-day-of-qqq-short-term-up-trend-double-top-in-bonds](../../raw/posts/2014-12-23-3rd-day-of-qqq-short-term-up-trend-double-top-in-bonds.md) ([summary](../sources/2014-12-23-3rd-day-of-qqq-short-term-up-trend-double-top-in-bonds.md))
 - [WW 2023-04-02 — blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu](../../raw/posts/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md) ([summary](../sources/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md))
+- [WW 2005-11-23 — gmi-6-i-bonds-revised](../../raw/posts/2005-11-23-gmi-6-i-bonds-revised.md) ([summary](../sources/2005-11-23-gmi-6-i-bonds-revised.md))
+- [WW 2008-09-29 — gmi-0-gmi-r-0-19th-day-of-qqqq-down-trend-nicolas-darvas-on-staying-out-of-bear-markets](../../raw/posts/2008-09-29-gmi-0-gmi-r-0-19th-day-of-qqqq-down-trend-nicolas-darvas-on-staying-out-of-bear-markets.md) ([summary](../sources/2008-09-29-gmi-0-gmi-r-0-19th-day-of-qqqq-down-trend-nicolas-darvas-on-staying-out-of-bear-markets.md))

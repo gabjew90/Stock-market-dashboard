@@ -44,6 +44,7 @@ sources:
   - raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md
   - raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md
   - raw/posts/2020-11-29-sector-etfs-a-safer-way-for-boomers-to-invest-pbw-qcln-cnrg-pbd-smog-icln-lit-ipo-arkq-chiq-arkf-xbuy.md
+  - raw/posts/2022-06-08-blog-post-day-2-of-qqq-short-term-up-trend-only-6-ibd-ms-stocks-passed-my-weekly-green-bar-scan-xom-cvx-lnth.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -91,6 +92,18 @@ By 2024 the formalized scan added: weekly 10.4 stochastic above 80 for at least 
 The weekly approach gives more entry opportunities than waiting for a bounce off the 10-week average: in ANF's 2023–2024 up-trend, the 4-week average generated 20+ green-bar entries vs. only 4 bounces off the 10-week average. ([WW 2024-05-27](../../raw/posts/2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly.md))
 
 **The WGB scan works during GMI Red periods** if a subsector is in Stage 2. In April 2022, 25 stocks (commodities, oil/defense) passed the scan while the broader market was in Stage 4. ([WW 2022-04-17](../../raw/posts/2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25.md))
+
+**Every condition, and the yield (2022).** "My weekly green bar scan finds stocks that have **recently reached an
+ATH**, have **4wk > 10wk > 30wk averages** and **4 wk avg is rising** and **stock bounced up off of the 4 wk avg
+this week** and **closed up today**. **Their relative strength vs SPY also must be at a 20 week high. And they
+must be > \$30.**" Run over his IBD50 / MarketSmith Growth 250 watchlist: "**I found only 6 stocks out of 782
+passed the screen.**" ([WW 2022-06-08](../../raw/posts/2022-06-08-blog-post-day-2-of-qqq-short-term-up-trend-only-6-ibd-ms-stocks-passed-my-weekly-green-bar-scan-xom-cvx-lnth.md))
+
+Two conditions are worth separating from the price pattern. **Relative strength against SPY at a 20-week high** —
+the stock must be *outperforming the market*, not merely rising. And a **\$30 price floor**, a softer form of the
+[price-level preference](stock-selection.md#price-level-preference--80-2011--100-2018--200-2021). Output is ranked
+by close ÷ close-250-days-ago, the same one-year relative sort he uses on ATH lists; two names had tripled. A
+yield of 6 from 782 on day 2 of a new up-trend is itself a breadth reading.
 
 ## ATH-past-40-days + lower Bollinger Band pullback scan (introduced 2017)
 
@@ -397,3 +410,4 @@ It is also the one scan he declines to share: "**Please do not ask me to post my
 - [WW 2018-10-28 — A dual-timeframe RWB filter, and what it returned in a bear market](../../raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md) ([summary](../sources/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md))
 - [WW 2017-12-10 — When to sell - the 13 averages, the gray line, and a graded exit](../../raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md) ([summary](../sources/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md))
 - [WW 2020-11-29 — sector-etfs-a-safer-way-for-boomers-to-invest-pbw-qcln-cnrg-pbd-smog-icln-lit-ipo-arkq-chiq-arkf-xbuy](../../raw/posts/2020-11-29-sector-etfs-a-safer-way-for-boomers-to-invest-pbw-qcln-cnrg-pbd-smog-icln-lit-ipo-arkq-chiq-arkf-xbuy.md) ([summary](../sources/2020-11-29-sector-etfs-a-safer-way-for-boomers-to-invest-pbw-qcln-cnrg-pbd-smog-icln-lit-ipo-arkq-chiq-arkf-xbuy.md))
+- [WW 2022-06-08 — blog-post-day-2-of-qqq-short-term-up-trend-only-6-ibd-ms-stocks-passed-my-weekly-green-bar-scan-xom-cvx-lnth](../../raw/posts/2022-06-08-blog-post-day-2-of-qqq-short-term-up-trend-only-6-ibd-ms-stocks-passed-my-weekly-green-bar-scan-xom-cvx-lnth.md) ([summary](../sources/2022-06-08-blog-post-day-2-of-qqq-short-term-up-trend-only-6-ibd-ms-stocks-passed-my-weekly-green-bar-scan-xom-cvx-lnth.md))

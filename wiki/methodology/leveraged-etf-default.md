@@ -27,6 +27,9 @@ sources:
   - raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md
   - raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md
   - raw/posts/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md
+  - raw/posts/2009-09-21-ultra-3x-etfs-beat-individual-stocks-again.md
+  - raw/posts/2012-08-20-market-up-trend-continues-as-aapl-breaks-out-of-a-green-line-top.md
+  - raw/posts/2020-04-19-since-the-new-qqq-short-term-up-trend-began-tqqq-33-beats-all-but-1-of-nasadq100-sp500-and-dow-30-stocks.md
 ---
 
 # The leveraged-ETF default — TQQQ on a GMI Buy signal
@@ -91,6 +94,22 @@ he had watched only one: over 24 weeks above their 10-week averages, **SPY +11% 
 against DDM +23%**. ([WW 2007-02-05](../../raw/posts/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md)) The doubling holds wherever a clean trend runs; the reason the wiki's
 examples are mostly QQQ-based is that his indicator is.
 
+**Stated as odds rather than returns (2009).** The most robust form of the argument: over one bounce, QQQQ +8%,
+QLD +17%, TYH +21% — and then, "if I had been trying to pick the specific NASDAQ 100 stock that would outperform
+these ETFs, **I would only have had a little better than even chance (57%) of beating the QQQQ. But only 13% of
+the NASDAQ 100 stocks beat the QLD and 11% beat the TYH.**" ([WW 2009-09-21](../../raw/posts/2009-09-21-ultra-3x-etfs-beat-individual-stocks-again.md)) Picking against the unleveraged
+index is a coin flip; against the leveraged funds it is roughly one in eight.
+
+**And across the widest universe (2020).** From his own trend signal on 7 April, TQQQ +33%: "of all stocks in the
+major indexes (DIA, QQQ, SPY) **only TSLA advanced more (+38%)**. In my big watchlist of IBD and MarketSmith type
+growth stocks, **only 2% (18/809) beat TQQQ.**" ([WW 2020-04-19](../../raw/posts/2020-04-19-since-the-new-qqq-short-term-up-trend-began-tqqq-33-beats-all-but-1-of-nasadq100-sp500-and-dow-30-stocks.md)) A curated growth list beats the broad indexes at
+this — and still leaves 98% behind.
+
+**The caveat that belongs with all of these figures.** The returns assume a day-1 entry he says he does not make:
+"**Of course, I never have the courage to do it right away when it is most scary. I tend to slowly accumulate one
+of the leveraged ETF's as the up-trend persists.**" ([WW 2012-08-20](../../raw/posts/2012-08-20-market-up-trend-continues-as-aapl-breaks-out-of-a-green-line-top.md)) The recommended strategy and the executed
+one differ, and he is the one who says so — his realised results come from scaling in later, at worse prices.
+
 ## The TQQQ default and year-in-review performance data
 
 Performance data Dr. Wish has published reinforcing the case for riding leveraged index ETFs rather than selecting individual stocks:
@@ -141,3 +160,6 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2006-01-17 — The advance measured across three indexes; the inverted-yield-curve worry](../../raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md) ([summary](../sources/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md))
 - [WW 2010-10-11 — The ultra-ETF measurement repeated; a bounce scan built for students](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md) ([summary](../sources/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md))
 - [WW 2007-02-05 — gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle](../../raw/posts/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md) ([summary](../sources/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md))
+- [WW 2009-09-21 — ultra-3x-etfs-beat-individual-stocks-again](../../raw/posts/2009-09-21-ultra-3x-etfs-beat-individual-stocks-again.md) ([summary](../sources/2009-09-21-ultra-3x-etfs-beat-individual-stocks-again.md))
+- [WW 2012-08-20 — market-up-trend-continues-as-aapl-breaks-out-of-a-green-line-top](../../raw/posts/2012-08-20-market-up-trend-continues-as-aapl-breaks-out-of-a-green-line-top.md) ([summary](../sources/2012-08-20-market-up-trend-continues-as-aapl-breaks-out-of-a-green-line-top.md))
+- [WW 2020-04-19 — since-the-new-qqq-short-term-up-trend-began-tqqq-33-beats-all-but-1-of-nasadq100-sp500-and-dow-30-stocks](../../raw/posts/2020-04-19-since-the-new-qqq-short-term-up-trend-began-tqqq-33-beats-all-but-1-of-nasadq100-sp500-and-dow-30-stocks.md) ([summary](../sources/2020-04-19-since-the-new-qqq-short-term-up-trend-began-tqqq-33-beats-all-but-1-of-nasadq100-sp500-and-dow-30-stocks.md))

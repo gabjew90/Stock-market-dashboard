@@ -38,6 +38,7 @@ sources:
   - raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md
   - raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md
   - raw/posts/2013-04-21-market-weak-i-am-again-cautious.md
+  - raw/posts/2012-08-26-kors-breaks-out.md
 ---
 
 # Green Line Breakouts (GLB)
@@ -151,6 +152,13 @@ Stated compactly in March 2019: "I like to buy recent IPOs (within last 4-5 year
 The idea predates the label: in June 2014, on PTLA, "I think it to be an important technical signal when a recent IPO forms a multi-month base and then breaks to a new all-time high." ([WW 2014-06-22](../../raw/posts/2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july.md))
 
 The lineage is Livermore's: "the great trader, Jesse Livermore, liked to buy the **first GLB** (he did not use my term!) **of a recent IPO**." ([WW 2018-08-26](../../raw/posts/2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo.md))
+
+**The rule in one sentence (2012).** "**One of the best ways to buy an IPO is to wait for it to form its first
+base and to then buy it on the break-out to an all-time high.**" ([WW 2012-08-26](../../raw/posts/2012-08-26-kors-breaks-out.md)) That is the general form of
+everything on this section: a recent listing has no green line until it has made a high and then held below it,
+so **the first base is the green line's construction**. It solves the specific problem an IPO poses — there is no
+all-time-high history to break out from, so you wait for the stock to manufacture one. KORS was the worked case,
+and IBD flagged the same breakout independently.
 
 ## The WGB — a second-chance entry after a GLB
 
@@ -296,3 +304,4 @@ The published case studies — patience after a GLB (PNRA, FIZZ), re-entry after
 - [WW 2016-09-18 — The GLB Tracker's curation admitted; the daily chart as a whipsaw machine](../../raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md) ([summary](../sources/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md))
 - [WW 2017-07-04 — The GMI's QQQ bias demonstrated live; biotech position sizing](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md) ([summary](../sources/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md))
 - [WW 2013-04-21 — market-weak-i-am-again-cautious](../../raw/posts/2013-04-21-market-weak-i-am-again-cautious.md) ([summary](../sources/2013-04-21-market-weak-i-am-again-cautious.md))
+- [WW 2012-08-26 — kors-breaks-out](../../raw/posts/2012-08-26-kors-breaks-out.md) ([summary](../sources/2012-08-26-kors-breaks-out.md))

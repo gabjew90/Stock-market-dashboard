@@ -37,6 +37,7 @@ sources:
   - raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md
   - raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md
   - raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md
+  - raw/posts/2016-02-15-market-very-over-sold-bounce-likely-contrafund-and-bill-millers-fund-in-down-trends.md
 ---
 
 # The two accounts — university pension vs trading IRA
@@ -210,6 +211,13 @@ use **tax deferred accounts** where there are no tax consequences from getting i
 positions." Frequent regime-driven exits and re-entries are viable *because* each round trip is
 untaxed — replicating the approach in a taxable account changes its economics. ([WW 2008-04-21](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
 
+**And the instrument the pension actually holds gets charted (2016).** The pension's rules are stated throughout
+in terms of index averages, but the assets are mutual funds — and a fund has a price series like anything else:
+"**the GMMA charts I use to monitor the market indexes and individual stocks can also be used to time entry and
+exit from mutual funds**," worked on Fidelity Contrafund and Bill Miller's fund. ([WW 2016-02-15](../../raw/posts/2016-02-15-market-very-over-sold-bounce-likely-contrafund-and-bill-millers-fund-in-down-trends.md)) That is the
+technique behind the June 2025 re-entry, where a **green line breakout on the Contrafund's own weekly chart** was
+one of the named conditions — the same method applied to the same fund nine years later.
+
 ## His rebuttal of "you'll miss the best N days"
 
 The standard argument against market timing — that missing the handful of biggest up days
@@ -276,3 +284,4 @@ The 2011 statement, mid-decline: the best-days studies "fail to note that one di
 - [WW 2012-10-21 — The two-tier timing rules, written to settle reader confusion](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md) ([summary](../sources/2012-10-21-timing-the-market-short-or-in-cash.md))
 - [WW 2021-12-05 — The pension trigger named in advance - the last GMI component](../../raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md) ([summary](../sources/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md))
 - [WW 2014-12-17 — The duration rule restated; the pension constraint biting](../../raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md) ([summary](../sources/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md))
+- [WW 2016-02-15 — market-very-over-sold-bounce-likely-contrafund-and-bill-millers-fund-in-down-trends](../../raw/posts/2016-02-15-market-very-over-sold-bounce-likely-contrafund-and-bill-millers-fund-in-down-trends.md) ([summary](../sources/2016-02-15-market-very-over-sold-bounce-likely-contrafund-and-bill-millers-fund-in-down-trends.md))

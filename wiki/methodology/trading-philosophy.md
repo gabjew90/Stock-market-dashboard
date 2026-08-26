@@ -41,6 +41,8 @@ sources:
   - raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md
   - raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md
   - raw/posts/2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs.md
+  - raw/posts/2020-04-06-the-gmi0-and-on-a-red-signal.md
+  - raw/posts/2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we.md
 ---
 
 # Trading philosophy — the five propositions
@@ -148,6 +150,15 @@ sell stops on my winners when the general market trend is down." ([WW 2008-01-02
 
 The 70%-correlation doctrine, the GMI gate, and Proposition 3 are all downstream of this one
 chart-reading habit applied to AOL.
+
+**And the longer version, with the decade attached (2020).** "**When I began trading in the 60s and knew nothing
+about technical analysis, I would make money when the market moved up and then lose the profits and more when the
+market receded.** It wasn't until I read **Nicolas Darvas' first book and later William O'Neil's book** and his
+newspaper, IBD, **that I learned that to make money, one must trade consistent with the market's trend. Both of
+these successful traders realized that most stocks follow the general trend of the market.**" ([WW 2020-04-06](../../raw/posts/2020-04-06-the-gmi0-and-on-a-red-signal.md))
+The gate is autobiographical before it is analytical — years of giving back in declines what he made in advances,
+ended by two books. He credits IBD with the specific virtue he practises himself: "**unlike the WSJ, IBD would
+actually advise readers to exit the market, and still does.**"
 
 ## Your own hit rate is an indicator
 
@@ -377,6 +388,28 @@ rough, and states the conclusion as a probability shift rather than a forecast. 
 the [51-down-trend study](qqq-short-term-timing.md#trend-duration-statistics--what-he-has-actually-published)
 ("as I define them") three years later.
 
+## Why model books mislead — the survivorship critique
+
+The sharpest methodological criticism in the corpus, and it applies to books he elsewhere recommends
+([WW 2022-12-29](../../raw/posts/2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we.md)):
+
+> "I have often taught that **the same set-ups that work beautifully for me in a rising market can fail miserably
+> in a declining market. Model books of rising stocks can be very misleading because, by definition, most set-ups
+> worked for these winners. With these model stocks that rise for months one could just buy every Monday or every
+> x day and make money. There is nothing special about the set-ups. The authors never tell you how often the
+> highlighted set-ups can fail.**"
+
+A book of winners selects on the outcome, so *every* entry rule looks good inside it — including deliberately
+arbitrary ones ("buy every Monday"). The missing quantity is the **failure rate**, which no such book supplies.
+
+The criticism applies to his own material too, and he does not exempt it: the
+[GLB Tracker](glb-in-practice.md#the-glb-tracker-table--what-it-is-and-what-it-selects-for) is explicitly a
+survivor list, and the honest response is the one he takes in the same post — publishing a failure (CALM, a GLB
+that reversed within days) beside the rule. It is also why the
+[green dot's hit rate](entry-signals.md#the-green-dots-hit-rate-stated-plainly) and the
+[GLB's regime dependence](glb-in-practice.md#a-caveat-on-the-glb-as-an-entry) are stated plainly wherever they
+appear on this wiki.
+
 ## The lineage he names
 
 The influences are stated, not implied: Darvas (the first book he assigns), Weinstein's stage analysis, O'Neil, Livermore via Lefèvre, Guppy for the multiple-moving-average charts, and — from October 2016 — Mark Minervini and David Ryan, after three days at Minervini's Master Trader Program: "600 slides that taught everything from how to select stocks, the price patterns that are most profitable, the way to set stops, pyramid up, and close out positions. They gave the best information on the value of cutting losses that I have ever seen… He has put into a 3 day session much of what it took me over 50 years to learn." Both offered to lecture his students, and the later @markminervini / MarketSmith / VCP references on the blog trace to this. ([WW 2016-10-25](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))
@@ -429,3 +462,5 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2010-07-30 — The blog's statement of purpose, and the method in one paragraph](../../raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md) ([summary](../sources/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md))
 - [WW 2011-08-22 — Every multi-week Dow decline since 1916, counted](../../raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md) ([summary](../sources/2011-08-22-current-market-decline-is-nothing-unusual.md))
 - [WW 2011-03-11 — gmi-dives-to-1-in-cash-and-inverse-etfs](../../raw/posts/2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs.md) ([summary](../sources/2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs.md))
+- [WW 2020-04-06 — the-gmi0-and-on-a-red-signal](../../raw/posts/2020-04-06-the-gmi0-and-on-a-red-signal.md) ([summary](../sources/2020-04-06-the-gmi0-and-on-a-red-signal.md))
+- [WW 2022-12-29 — blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we](../../raw/posts/2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we.md) ([summary](../sources/2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we.md))

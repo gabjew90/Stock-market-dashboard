@@ -66,6 +66,9 @@ sources:
   - raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md
   - raw/posts/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md
   - raw/posts/2015-11-15-gmi-near-a-sell-signal-markets-at-a-critical-juncture.md
+  - raw/posts/2005-04-25-the-interest-rate-index.md
+  - raw/posts/2007-07-26-gmi-3-gmi-s-38-waiting-for-qqqq-to-turn.md
+  - raw/posts/2018-02-19-gmi-may-turn-green-on-tuesday-ita-moves-up.md
 ---
 
 # General Market Index (GMI)
@@ -205,6 +208,19 @@ this change when the GMI = 5 or 6, indicating there are sufficient numbers of st
 The extra components at 5 and 6 are the new-high counts — which are exactly what the
 [leadership screen](stock-selection.md) needs in order to have anything to screen.
 
+**Persistence existed at component level before it existed at signal level (2007).** Correcting his own posted
+reading: "I posted '3?' on one day since then but **I subsequently corrected it to 4 because I had jumped the gun
+on one indicator that required 2 days down before turning**." ([WW 2007-07-26](../../raw/posts/2007-07-26-gmi-3-gmi-s-38-waiting-for-qqqq-to-turn.md)) At least one component carried a
+two-consecutive-days condition in July 2007 — four years before the two-day rule was adopted for the composite.
+The 2011 change therefore *generalised* an existing discipline rather than inventing one.
+
+**What the GMI cannot do at a bottom (2018).** "**Remember, trend followers *follow* the trend and do not
+anticipate a turn. The GMI typically turns Green several days after a bottom is in.** As I wrote, however, **the
+put/call ratio and T2108 had extremely bearish readings that did signal the bottom on the day it was reached.**"
+([WW 2018-02-19](../../raw/posts/2018-02-19-gmi-may-turn-green-on-tuesday-ita-moves-up.md)) The lag is structural, and the contrarian gauges are timelier by construction — which is the
+division of labour the whole dashboard rests on: fast gauges say a turn is *possible*, the trend count says it
+has *happened*, and he trades the second while reading the first.
+
 ## How he uses it
 
 The GMI is read as GREEN or RED based on its score:
@@ -295,6 +311,13 @@ before closed lower than they did 10 days earlier. In fact, **the percentages we
 days**." ([WW 2008-10-28](../../raw/posts/2008-10-28-gmi-0-gmi-r-0-40th-day-of-qqqq-short-term-down-trend-shorting-stocks-at-new-lows.md)) The conclusion is about which side to be on rather than which stock to pick: "**during the
 current down-trend, shorting a stock on any day it hit a new low was very likely to be profitable 10 days later.
 Trade consistent with the down-trend or go to cash!**" That day: 3 new highs against 980 new lows.
+
+**The mirror re-dated again — to the blog's ninth day.** 25 April 2005: "**I have a similar index that counts new
+lows that continue to decline — it is 56 today. New lows are a better bet than new highs these days.**"
+([WW 2005-04-25](../../raw/posts/2005-04-25-the-interest-rate-index.md)) That is three weeks before the May 2005 instance and six months before the October one; the
+unpublished twin existed essentially from the start. The same post gives the high-side index a **published
+range** — "**Range since March, 2005: 8-106**" — the earliest calibration of any indicator in the corpus, and
+what makes a raw count readable at all.
 
 ## Evolution
 
@@ -536,3 +559,6 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2025-05-05 — How he works an all-time-high list](../../raw/posts/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md) ([summary](../sources/2025-05-05-blog-post-day-7-of-qqq-short-term-up-trend-and-gmi-flashes-green-17-us-stocks-at-aths-and-up-at-least-50-the.md))
 - [WW 2007-02-05 — gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle](../../raw/posts/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md) ([summary](../sources/2007-02-05-gmi-6-gmi-s-88-focused-on-qqqq-and-missed-moves-in-spy-and-dia-ibd-100-lists-doing-well-rate-cup-with-handle.md))
 - [WW 2015-11-15 — gmi-near-a-sell-signal-markets-at-a-critical-juncture](../../raw/posts/2015-11-15-gmi-near-a-sell-signal-markets-at-a-critical-juncture.md) ([summary](../sources/2015-11-15-gmi-near-a-sell-signal-markets-at-a-critical-juncture.md))
+- [WW 2005-04-25 — the-interest-rate-index](../../raw/posts/2005-04-25-the-interest-rate-index.md) ([summary](../sources/2005-04-25-the-interest-rate-index.md))
+- [WW 2007-07-26 — gmi-3-gmi-s-38-waiting-for-qqqq-to-turn](../../raw/posts/2007-07-26-gmi-3-gmi-s-38-waiting-for-qqqq-to-turn.md) ([summary](../sources/2007-07-26-gmi-3-gmi-s-38-waiting-for-qqqq-to-turn.md))
+- [WW 2018-02-19 — gmi-may-turn-green-on-tuesday-ita-moves-up](../../raw/posts/2018-02-19-gmi-may-turn-green-on-tuesday-ita-moves-up.md) ([summary](../sources/2018-02-19-gmi-may-turn-green-on-tuesday-ita-moves-up.md))

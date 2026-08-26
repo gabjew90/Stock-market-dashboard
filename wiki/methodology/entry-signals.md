@@ -31,6 +31,9 @@ sources:
   - raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md
   - raw/posts/2015-04-19-where-to-from-here.md
   - raw/posts/2020-07-07-blog-post-one-half-of-growth-stocks-outside-of-upper-15-2-daily-bollinger-band-suggesting-a-pause.md
+  - raw/posts/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md
+  - raw/posts/2010-12-21-21st-day-of-qqq-short-term-up-trend-armh-cup-with-handle.md
+  - raw/posts/2013-11-08-20th-day-of-qqq-short-term-up-trend-how-daily-macd-histogram-predicted-decline.md
 ---
 
 # Entry signals — BOS, the dots, and the daily bounce setups
@@ -64,6 +67,14 @@ Additional entry support levels for BOS (besides the 15.2 BB): bounces off the 3
 
 **Why support works at all (2011).** "**When a stock breaks out of a trading range, the level where it has been turned back and stops advancing, once broken, becomes a support level. (This occurs because people who missed the break-out get a second chance to buy the stock near that level.)**" LULU had retraced to its breakout point that week and held. The entry that follows is the one BOS later formalises: "I might buy one of these companies and **place my sell stop below the low of the recent bounce**." ([WW 2011-02-28](../../raw/posts/2011-02-28-market-indexes-hold-many-stocks-bounce-off-of-support-ibd50-stock-lulu-cup-with-handle-mstr.md))
 
+**The 2010 ancestor, with the stop arithmetic that motivates it.** On ARMH forming a cup-with-handle: "**the
+traditional IBD approach would be to buy it upon a high volume break out a little above the high of the handle,
+at about 19.06. However, another way I like to buy is after the stock bounces off its rising 30 day average.
+After the purchase, I would place my stop order to sell below Monday's low, at about \$18.19.**" ([WW 2010-12-21](../../raw/posts/2010-12-21-21st-day-of-qqq-short-term-up-trend-armh-cup-with-handle.md))
+The argument is stop distance: entering near the average leaves the invalidation a few cents away, while the
+breakout entry a dollar higher has to reach back to the same place to be wrong. IBD's canonical entry is stated
+fairly and then declined — two valid rules, and he picks the one with the tighter loss.
+
 ## The black dot — oversold-bounce signal (introduced 2021)
 
 For stocks already in an up-trend that have pulled back to an oversold level, Dr. Wish uses the **black dot** signal as an entry. A black dot appears on his TC2000 daily chart when: (1) the daily 10.1 stochastic was ≤25 in any of the past 3 days; (2) current price > prior day's price; (3) stock is above its 30-day average or its 21-day exponential average. ([WW 2021-06-13](../../raw/posts/2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6.md))
@@ -71,6 +82,12 @@ For stocks already in an up-trend that have pulled back to an oversold level, Dr
 The black dot only works on stocks already in a confirmed up-trend. He often combines it with the GLB: "I love a black dot that occurs after a GLB." The scan finds stocks that recently hit an ATH, became oversold, and are starting to turn up — placing the stop below the bounce gives a tight risk level.
 
 **The formula, published (July 2021).** "I want the 10.1 daily stochastic in any of the last three days to be ≤ 25 and for the stock to be higher today than yesterday and to be above its 30 day simple average or its 21 day exponential moving average. **The dot is placed at the 5 day low price**" — so the dot doubles as the stop reference, as the green dot's does. The claim it rests on: "**I have discovered that almost every significant rise in a stock begins from an oversold level. But not every oversold level leads to a big rise.**" That second sentence is why the ATH prerequisite exists — the oversold condition is necessary, the launched-rocket filter is what makes it sufficient. "I love a black dot signal soon after a green line break-out." ([WW 2021-07-12](../../raw/posts/2021-07-12-blog-post-32nd-day-of-qqq-short-term-up-trend-key-to-success-in-market-is-to-have-an-objective-defined-set-up.md))
+
+**The blue dot, defined (2024).** In a parenthesis, which is the only definition of it in the corpus: "my scan for
+stocks having a **blue dot (daily 10.4 oversold stochastic climbing back above 20)**." ([WW 2024-01-08](../../raw/posts/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md)) So the
+blue dot is the fast 10.4 stochastic crossing back *up through 20* — distinct from the green dot (a fast/slow
+crossover, preferably below 50) and from the black dot. The scan returned 79 names from his IBD/MarketSmith
+watchlist that day.
 
 ## The dots in practice
 
@@ -144,6 +161,14 @@ all 3 of these indicators to guide my trading.**" ([WW 2015-04-19](../../raw/pos
 reduce risk by determining in advance a price which may signal that the bounce has failed**" — and the regime
 qualifier attached: "**I find it much safer to trade a bounce off of support in an up-trend.**"
 
+**The MACD histogram measures rate, not level (2013).** A demonstration of why a derived indicator earns its
+place: "I want to show you **how the MACD histogram can illustrate something not seen in the price itself**…
+note that in a 9 day period before Thursday's decline, **it looks to the naked eye like the price of QQQ remained
+level. At the same time, the MACD histogram**" was shrinking. ([WW 2013-11-08](../../raw/posts/2013-11-08-20th-day-of-qqq-short-term-up-trend-how-daily-macd-histogram-predicted-decline.md)) Flat price with a decaying
+histogram is momentum draining out of a move that still looks intact — information price cannot carry. He exited
+TQQQ on it *before* the decline, on two oscillators agreeing (stochastics and the histogram), and published the
+reasoning in advance.
+
 ## The moving-average setups
 
 ### x8/x21/30-day alignment: the daily bounce setup (introduced 2024)
@@ -211,3 +236,6 @@ it. The 2005 version leaves both to judgement.
 - [WW 2014-05-07 — Distrusting his own signal; the lower band as better support](../../raw/posts/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md) ([summary](../sources/2014-05-07-new-qqq-short-term-down-trend-but-i-dont-trust-it.md))
 - [WW 2015-04-19 — where-to-from-here](../../raw/posts/2015-04-19-where-to-from-here.md) ([summary](../sources/2015-04-19-where-to-from-here.md))
 - [WW 2020-07-07 — blog-post-one-half-of-growth-stocks-outside-of-upper-15-2-daily-bollinger-band-suggesting-a-pause](../../raw/posts/2020-07-07-blog-post-one-half-of-growth-stocks-outside-of-upper-15-2-daily-bollinger-band-suggesting-a-pause.md) ([summary](../sources/2020-07-07-blog-post-one-half-of-growth-stocks-outside-of-upper-15-2-daily-bollinger-band-suggesting-a-pause.md))
+- [WW 2024-01-08 — blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings](../../raw/posts/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md) ([summary](../sources/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md))
+- [WW 2010-12-21 — 21st-day-of-qqq-short-term-up-trend-armh-cup-with-handle](../../raw/posts/2010-12-21-21st-day-of-qqq-short-term-up-trend-armh-cup-with-handle.md) ([summary](../sources/2010-12-21-21st-day-of-qqq-short-term-up-trend-armh-cup-with-handle.md))
+- [WW 2013-11-08 — 20th-day-of-qqq-short-term-up-trend-how-daily-macd-histogram-predicted-decline](../../raw/posts/2013-11-08-20th-day-of-qqq-short-term-up-trend-how-daily-macd-histogram-predicted-decline.md) ([summary](../sources/2013-11-08-20th-day-of-qqq-short-term-up-trend-how-daily-macd-histogram-predicted-decline.md))

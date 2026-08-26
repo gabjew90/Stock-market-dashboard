@@ -1,7 +1,7 @@
 ---
 title: The GLB in practice — worked cases, failures, and what he learned from each
 type: concept
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md
   - raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md
@@ -29,6 +29,7 @@ sources:
   - raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md
   - raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md
   - raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md
+  - raw/posts/2019-11-17-dissecting-aapls-glb-green-line-break-out-thank-you-nicolas-darvas.md
 ---
 
 # The GLB in practice — worked cases, failures, and what he learned from each
@@ -176,6 +177,18 @@ failing, it is offering the same entry again at a better price, each time with t
 place. Compare the [pre-GLB entry](#entering-before-the-green-line--and-taking-a-different-stop) above, where the
 stop moves to the pivot instead.
 
+**The full cycle, every step dated (AAPL, 2019).** The cleanest single example in the corpus: "AAPL hit an
+all-time high of **\$233.47 on October 3, 2018**. **After that high was not exceeded for 3 months, I drew in a
+green line**… **I could then set an alert on TC2000**… **It had a green line break-out (GLB) one year later on
+October 11, 2019.** Note the **above average trading volume** that day confirming the break-out. **AAPL has now
+advanced +12.5% since the GLB.**" ([WW 2019-11-17](../../raw/posts/2019-11-17-dissecting-aapls-glb-green-line-break-out-thank-you-nicolas-darvas.md)) Then the behaviour that trips people up, named as normal:
+"**after the GLB, AAPL re-tested the green line for a few days, a common occurrence. If it had CLOSED back below
+the green line, I would have sold my position.**"
+
+Note the timescale — **thirteen months between drawing the line and the signal firing**. The watchlist is a
+long-lived object, which is why the alert matters and why the
+[missed alerts](#tc2000-alert-workflow-and-the-missed-glb-lesson) cost so much when they happen.
+
 ## The close-below rule, justified by a case
 
 Why does the exit rule key on the *close* rather than any trade below the line? The ACLX example
@@ -272,3 +285,4 @@ The core rules have remained stable. These posts from 2019 onward confirm the ru
 - [WW 2015-12-06 — Bouncing off the green line — the retest entry, risk quantified](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md) ([summary](../sources/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))
 - [WW 2016-09-18 — The GLB Tracker's curation admitted; the daily chart as a whipsaw machine](../../raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md) ([summary](../sources/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md))
 - [WW 2016-03-27 — When GLBs stop working - regime, not technique](../../raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md) ([summary](../sources/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md))
+- [WW 2019-11-17 — dissecting-aapls-glb-green-line-break-out-thank-you-nicolas-darvas](../../raw/posts/2019-11-17-dissecting-aapls-glb-green-line-break-out-thank-you-nicolas-darvas.md) ([summary](../sources/2019-11-17-dissecting-aapls-glb-green-line-break-out-thank-you-nicolas-darvas.md))

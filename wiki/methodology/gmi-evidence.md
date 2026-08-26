@@ -17,6 +17,7 @@ sources:
   - raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md
   - raw/posts/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md
   - raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md
+  - raw/posts/2013-11-18-all-indicators-remain-positive-gmi-based-strategies-lead-to-large-gains-in-2012-and-2013-onvo-soars.md
 ---
 
 # GMI evidence — the published tables, the signal record, and how the components were recovered
@@ -79,6 +80,15 @@ same post links **third-party tracking** — dark-liquidity.com's monitored GMI�
 external record of the signal rather than his own bookkeeping. ([WW 2013-12-09](../../raw/posts/2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners.md))
 
 The 2008 record, in his February 2009 numbers: since the GMI last read 4 (late August 2008) QQQQ and SPY had fallen 35% and DIA 31%; 95% of Nasdaq-100 stocks declined and 36% lost more than 40%; every Dow 30 stock fell (C −80%, BAC −81%). ([WW 2009-02-15](../../raw/posts/2009-02-15-jim-cramer-finds-ta-religion-tsys-cup-with-handle-breakout-indexes-are-weak-but-some-promising-ibd100-stocks.md))
+
+**And the only third-party test (2013).** "**The Dark Liquidity site** has been comparing the GMI based trading
+strategy versus a number of other strategies. For each of the last two years **a strategy that bought the QLD
+whenever the GMI signaled buy, and went to cash every time it signaled sell, beat all other strategies followed.
+In 2012 the GMI based QLD strategy was up about +30% and thus far in 2013 it is up +42%.**" ([WW 2013-11-18](../../raw/posts/2013-11-18-all-indicators-remain-positive-gmi-based-strategies-lead-to-large-gains-in-2012-and-2013-onvo-soars.md))
+Every other audit on this page is his own; this is the only independent one. He reports it with a disclosure that
+is easy to miss and worth keeping: "**I do not check that site's computations**, but my experience is that
+repeatedly, buying QLD when the GMI signals buy has usually worked." Note the strategy tested — leveraged long on
+Buy, **cash** on Sell, never short.
 
 ## The first self-audit (November 2011) — and the rule it produced
 
@@ -149,3 +159,4 @@ search.
 - [WW 2008-02-11 — GMI: 0; GMI-R: 0; 13th week since top; DBC, DJP, DBA](../../raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md) ([summary](../sources/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md))
 - [WW 2019-04-21 — GMI signals applied to $QQQ, January, 2016-April 18, 2019](../../raw/posts/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md) ([summary](../sources/2019-04-21-gmi-signals-applied-to-qqq-january-2016-april-18-2019.md))
 - [WW 2010-07-30 — The blog's statement of purpose, and the method in one paragraph](../../raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md) ([summary](../sources/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md))
+- [WW 2013-11-18 — all-indicators-remain-positive-gmi-based-strategies-lead-to-large-gains-in-2012-and-2013-onvo-soars](../../raw/posts/2013-11-18-all-indicators-remain-positive-gmi-based-strategies-lead-to-large-gains-in-2012-and-2013-onvo-soars.md) ([summary](../sources/2013-11-18-all-indicators-remain-positive-gmi-based-strategies-lead-to-large-gains-in-2012-and-2013-onvo-soars.md))

@@ -38,6 +38,8 @@ sources:
   - raw/posts/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md
   - raw/posts/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md
   - raw/posts/2025-03-09-bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced.md
+  - raw/posts/2020-07-13-blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer.md
+  - raw/posts/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md
 ---
 
 # QQQ Short-Term Timing
@@ -163,6 +165,20 @@ same logic on the short side, measured in 2025: "the same can be true for buying
 1 of a QQQ short term down-trend**… the best strategy is to take a small position on Day 1 and add to it only if
 the trend continues." ([WW 2025-03-09](../../raw/posts/2025-03-09-bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced.md))
 
+**The population, and the record-holder (2020).** "**Since 2006 there have been 95 short term up-trends**" —
+the denominator behind every percentage above — with the method's refusal restated in the same sentence: "I have
+a **proprietary objective method** for designating changes in the short term trend, **so don't ask for it**."
+([WW 2020-07-13](../../raw/posts/2020-07-13-blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer.md)) And the extreme case, with its ending: "**the longest short term up-trend since 2006 lasted 91
+days, from October 14, 2019 – February 24, 2020. This was followed by a 30 day short term down-trend that
+included the steep March decline.**" His longest recorded advance terminated on the COVID top — the same week the
+[new-high/new-low crossover](gmi.md#new-highs--new-lows--a-breadth-supplement-to-the-gmi) flagged it from a
+different instrument.
+
+**A base rate driving an actual trade (2024).** The statistic is not only reported: "I wrote yesterday that **40%
+of new QQQ short term down-trends end in less than 5 days**. I subsequently **tweeted on Monday that it looked to
+me like the current down-trend might end on Tuesday**… **I sold my small position in SQQQ and bought a little
+TQQQ.**" ([WW 2024-01-08](../../raw/posts/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md)) A dated forecast, published, and acted on by reversing the position.
+
 ## Relationship to the GMI
 
 The QQQ short-term timing count is separate from, but published alongside, the GMI. Several GMI components measure the QQQ's daily and weekly trend — the short-term count overlaps with these but is more granular (it counts days; the GMI components are binary). When the GMI goes GREEN (≥ 4), the QQQ is typically also in a short-term up-trend. When the GMI flashes RED (≤ 3), the QQQ short-term count is typically down.
@@ -261,3 +277,5 @@ up-trend can only be young or old relative to the distribution of previous ones,
 - [WW 2016-02-28 — 5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs](../../raw/posts/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md) ([summary](../sources/2016-02-28-5th-day-of-qqq-short-term-up-trend-whither-the-general-market-strong-stocks-haellihoftwbmdjbssjbtvlrs.md))
 - [WW 2016-10-30 — new-qqq-short-term-down-trend-how-long-do-down-trends-last](../../raw/posts/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md) ([summary](../sources/2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last.md))
 - [WW 2025-03-09 — bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced](../../raw/posts/2025-03-09-bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced.md) ([summary](../sources/2025-03-09-bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced.md))
+- [WW 2020-07-13 — blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer](../../raw/posts/2020-07-13-blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer.md) ([summary](../sources/2020-07-13-blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer.md))
+- [WW 2024-01-08 — blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings](../../raw/posts/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md) ([summary](../sources/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md))
