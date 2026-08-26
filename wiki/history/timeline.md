@@ -363,6 +363,12 @@ sources:
   - raw/posts/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md
   - raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md
   - raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md
+  - raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md
+  - raw/posts/2008-11-24-gmi-0-gmi-r-0-sp500-double-top-or-market-bottom.md
+  - raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md
+  - raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md
+  - raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md
+  - raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md
 ---
 
 # Timeline — evolution of the methodology
@@ -438,6 +444,19 @@ At launch, GMI = 0. ([WW 2005-04-26](../../raw/posts/2005-04-26-general-market-i
 **"Livermore on profits, Cramer on sleepers" (2005-05-18):** the track-money principle via Livermore's racetrack story — risk profits freely, "risking your **capital**, however, was suicide"; fear is not a valid reason to sell, only a technical signal is. The anti-sleeper argument against buying laggards, aimed at Cramer. And the first fully-specified rocket scan: 4,000 → new high within 10 days (371) → EPS ≥100% → doubled in a year → near ATH → 15 survivors, published with a PEG-style observation that their PEs all sat below their growth rates. ([WW 2005-05-18](../../raw/posts/2005-05-18-livermore-on-profits-cramer-on-sleepers-and-15-hot-stocks-ww-gmi-3.md))
 
 ---
+
+## May 2005 (sentiment) — an empty meetup room; breakout or bounce, stated as a pair
+
+**"Lonely IBD Meetup, GMI declines to +4" (2005-05-25):** three people at a meeting that normally drew eight
+to ten, with the group's most experienced member bearish and uninterested in growth stocks. Dr. Wish's indicators
+said the opposite and he backed them: "**I have to conclude that the low attendance and caution about the market
+constitute contrarian indicators, suggesting that this rally has more to go.**" The gauge lags by construction —
+the leader's own prediction was that "it would take a few months of an up market with people making money, for
+attendance to pick up again" — which is why an empty room marks a low rather than predicting one. On a weak day
+inside the trend (U-14, only 21% of the Nasdaq-100 rising) the stance does not change, and **both entry types are
+already named as a pair**: "I plan to **increase my positions as my stocks break to new highs or bounce off of
+their support levels**. Of course, I also have my sell stops in place in case things suddenly turn ugly."
+([WW 2005-05-25](../../raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md))
 
 ## June 2005 — moving averages explained; QQQ trend counting begins
 
@@ -910,6 +929,22 @@ months into the current decline.**" ([WW 2008-01-28](../../raw/posts/2008-01-28-
 
 ---
 
+## November 2008 (arithmetic) — the cost of missing the sell signal
+
+**"GMI: 0; GMI-R: 0; S&P500 double top or market bottom?" (2008-11-24):** the "no need to anticipate"
+doctrine turned into arithmetic. Fifty-nine days into the down-trend that began 2 September, QQQQ −41%: "**99% of
+the Nasdaq 100 stocks** (all but APOL — the proverbial needle in the haystack — sought by those addicted to the
+bullish side) **have declined, and 44% have declined 50% or more. Even if we had missed the initial sell signal
+and waited until a failed bounce on September 19, still, 99% of the Nasdaq100 component stocks have declined
+since then, one half by more than 41%. So you see, one could have missed the first sell signal by about 2 weeks
+and still have saved a lot of money.**" A two-week delay captured almost all the avoidable damage — the strongest
+single argument for tolerating a lagging exit. He also flags his own oversold gauge failing, in italics: T2108
+"rebounded from 5% to 7%, and is still in what ***used to be*** indicative of an imminent bottom" (the low came
+four months later). The long frame: a monthly S&P 500 **multi-year double top**, with a 1970s-style flat decade
+and "a huge correction of the 1300%+ advance that began in 1982" offered as alternatives, neither preferred. And
+the stance: "the current market shows *none* of the key signs evident to me in prior bear market bottoms… **no
+one knows a bottom before it has occurred**." 21 new highs against 1,835 new lows. ([WW 2008-11-24](../../raw/posts/2008-11-24-gmi-0-gmi-r-0-sp500-double-top-or-market-bottom.md))
+
 ## January 2009 — 1,200% IRA track record stated; capital conservation as core principle
 
 **"I'm up 1,200%, as my fellow boomers and college students get screwed again" (2009-01-05):** written at the start of 2009 with the 2008 bear market still fresh. Dr. Wish's most explicit early statement of his track record and philosophy. He escaped 2008 with only a −5% loss (vs indices −35–40%) by being mainly out of the market during the decline. His trading IRA is up over 1,200% (13×) since late 1994 — more than the top growth mutual fund in IBD's ranking (up 382% over the same period). The stated key: "I made money during the strong market rises and kept it, by being mainly out of the market during the major declines." IBD100 stocks were ~3× over-represented among stocks hitting new 52-week highs at that time — 50% of the 20 new-high stocks in his universe were from the IBD100 (which is only 17% of the universe). ([WW 2009-01-05](../../raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md))
@@ -1024,6 +1059,21 @@ long as the longer term trends are up, chances are that the daily advance will r
 ## November 2009 (bounces) — the fifth lower-band bounce; flying by instrument
 
 **"Market up-trend back on track after bouncing off of Bollinger band" (2009-11-09):** the QQQQ's fifth lower-Bollinger-Band bounce added in red to the chart posted three weeks earlier — "**if only I had the patience to wait for the bounce to enter my long positions!**"; "if I flew solely by instrument, I would have to be long again"; a named neckline (40.6) and close stops against the head-and-shoulders risk. ([WW 2009-11-09](../../raw/posts/2009-11-09-market-up-trend-back-on-track-after-bouncing-off-of-bollinger-band-gold-shines-stec-falters.md))
+
+## December 2009 (sentiment) — the naive participant, at both poles
+
+**"My post from the bear market bottom; weak TJX" (2009-12-27):** a retrospective quoting his own post of
+8 March 2009 — the week of the low, GMI 0, T2108 7% — "**Last week, a person who knows nothing about the market
+asked me how to short stocks.** This is reminiscent of the stories of the shoeshine boys providing stock tips…
+The sentiment is just too negative right now. **Does this mean the market has to turn up? Not necessarily, but
+the market is always an assessment of competing probabilities.**" Then the score, nine months on: "**when people
+around me who never traded asked me how to short stocks it turned out to be a key contrary signal that the market
+decline was near an end.** Similarly, I remember when a friend who knows little about the market **asked me if he
+should refinance his house to invest in the market — back in 2000 near that market's top**." The same instrument
+at both ends: an outsider reaching for the aggressive version of the prevailing mood. Also here, **analyst
+promotion read as distribution** — pundits recommending TJX while its daily GMMA had rolled over: "**you do know
+that analysts sometimes tout a stock so that their big clients can unload their long positions to the
+unsuspecting public**" — and T2108 at 76% with a caution above 80%. ([WW 2009-12-27](../../raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md))
 
 ## February–April 2010 — Stock-selection scan workflow; stop-loss doctrine stated; DITM calls introduced
 
@@ -1677,6 +1727,21 @@ Second, a complete LMAT trade setup teaches the GLB+BOS combo: LMAT hit an ATH o
 
 **"Back from Mark Minervini's Wonderful Master Trader Program" (2016-10-25):** three days with Minervini and David Ryan — selection, patterns, stops, pyramiding, closing positions, "the best information on the value of cutting losses that I have ever seen," a live-trading day, a psychology session; "much of what it took me over 50 years to learn"; both to lecture his students. ([WW 2016-10-25](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))
 
+## October 2016 (macro / limits) — TLT as the rate proxy; a jigsaw that fits until it doesn't
+
+**"Watching for Halloween rally; $TLT and $UUP rise and $GLD falls" (2016-10-16):** the long-rate instrument
+named — "I follow the **20+ year government bond ETF, TLT, as an indicator of how bond traders feel about long
+term interest rates**" — and then the caution that makes the passage worth keeping. With TLT falling, UUP rising
+and GLD falling, three charts telling one coherent story: "**It all fits together like a jig saw puzzle — until
+it doesn't…**" Narrative coherence across markets is a description of what has happened, not evidence about what
+comes next. He also notices the GMI's whipsaw problem *while it is happening*: "**the GMI signal recently flashed
+Red, but this signal has recently coincided with short term bottoms rather than tops.**" A capitulation tell keyed
+to the heaviest index component: "AAPL is defying gravity and may be the last component to decline before the
+current weakness in the QQQ ends? (**When the bulls give up on AAPL, the end of the decline may be near.**)" And
+the seasonal reasoning via Hulbert — weakness ahead of the strongest season "**scare[s] everyone into selling out
+to stronger hands**… **so I will reverse and go long if this market shows any signs of strength**" — held
+alongside a small SQQQ position he would add to only if the down-trend continued. ([WW 2016-10-16](../../raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md))
+
 ## November 2016 — Weekly 4wk/10wk hold discipline formalized; NTES 21-week example
 
 **"Short and long term trends now up; On using weekly charts to stay in a growth stock: $NTES" (2016-11-20):** Dr. Wish addresses the most common failure mode he observes in student traders: getting shaken out of a winner prematurely by reacting to daily chart noise. His solution: make exit decisions using only the **weekly chart** with three MAs (4wk, 10wk, 30wk). William O'Neil's approach cited — O'Neil "used only weekly charts because they more clearly revealed to him the meaningful stock trends." The **4wk/10wk hold ladder**: a strong advancing growth stock maintains 4wk > 10wk > 30wk for long periods; a weekly close below the 4wk average is a *potential* warning — raise stops or sell a small piece; a weekly close below the 10wk average is an exit signal ("Growth stocks should not close the week below their 10 week average"). Critical nuance: a stock often trades *intraweek* below its 4wk average and then closes back above — use weekly closing prices only. NTES example: 4>10>30 alignment from June through November 2016 — 21 weeks; stock rose over 40%; when it finally closed below the 4wk then the 10wk in early November, that was the exit signal. ([WW 2016-11-20](../../raw/posts/2016-11-20-short-and-long-term-trends-now-up-on-using-weekly-charts-to-stay-in-a-growth-stock-ntes.md))
@@ -2053,6 +2118,22 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 
 **"I started this blog in 2006 to share with people…" (2021-11-21):** "a declining 30 week moving average occurs when the latest week's price being added to the average is less than the 31st week being dropped… the current week's closing price is less than its closing price 31 weeks ago"; and cap-weighted SPY/QQQ at ATHs while the price-weighted DIA was not — mega-caps hiding the internal decline, days before the exit. ([WW 2021-11-21](../../raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md))
 
+## December 2021 (pension) — the trigger named in advance: the last GMI component
+
+**"Day 2 of $QQQ short term down-trend, 608 new lows 36 highs" (2021-12-05):** two weeks after the November
+2021 top, the pension trigger identified **prospectively and by component**: "The GMI is 1, of 6. **The last GMI
+component to turn negative will be for the weekly QQQ to close below its 30 week average. When that happens I
+will begin to go to cash in my primary pension accounts.**" That maps the pension onto component 5 rather than
+onto the composite, which is why a GMI of 1 had not yet moved it. The dispersion underneath: "**the DIA is
+already below its 30 week average.** The SPY remains above it and the QQQ remains far above." The general rule,
+in his capitals: "**Once these indexes close below their 30 week averages and the averages begin to curve down,
+it is usually the BEGINNING of a major decline.**" Exit planned into strength — "if we get a good year-end rally
+I will likely sell some of my mutual funds" — and the macro stance stated flat: "**NEVER trade against the Fed.
+Higher rates will suck the money out of equities.**" Two construction notes: the **GMI-2 rose from 2 to 4** purely
+because two daily stochastics hit very oversold levels (it is partly a mean-reversion gauge, so it can improve as
+the market deteriorates), and a put/call of 1.00 read as bounce territory — the 2012 threshold, not the 2018 one.
+([WW 2021-12-05](../../raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md))
+
 ## January–February 2022 — end-of-decline signs; how he uses Bollinger Bands
 
 **"Some end of decline signs I am looking for" (2022-01-30):** a close above the 30-week whipsaws — "I want to see the 30 week average curving up again. That is the definitive signal to get me back in"; the bottom-watch pair p/c > 1.10 and T2108 < 10%; buy a little SPY and add only at higher levels; "going in early in anticipation of a change in trend often leads to losses." ([WW 2022-01-30](../../raw/posts/2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan.md))
@@ -2062,6 +2143,24 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 ## January 2022 (pension) — already ~20% invested; 'selling too soon' in good company
 
 **"The weekly charts of $QQQ, $DIA and $SPY show each having three huge volume down weeks" (2022-01-09):** QQQ approaching its 30-week at 375.59 — "a weekly close below that level would get me out of everything, even in my university pension, **which is already reduced to about 20% invested**"; three huge-volume down weeks = institutions exiting; "penetration of the 30 week average saved me from the market debacles in 2000, 2008 and 2020"; Rothschild, Baruch and Livermore all quoted on selling too soon. ([WW 2022-01-09](../../raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md))
+
+## February 2022 (rationale) — why an all-time high after a decline means accumulation
+
+**"David, my co-presenter… died in a freak accident on 2/18; 15 promising stocks to monitor"
+(2022-02-27):** the overhead-supply argument applied to the whole market at once, and the clearest statement of
+why the post-decline new-high list is the leadership screen. "The new market leaders will show up in the new high
+list. Think about it. **Any stock trading near an all-time high (ATH) after a significant market decline is one
+that is likely being accumulated. Stocks that fell a lot will have to overcome selling as they try to advance, as
+persons who rode it down and have losses try to sell out. A stock that can overcome such selling and reach an ATH
+is demonstrating strong buying interest.**" The scan built on it — close to an ATH in the past week plus a strong
+weekly technical pattern, run over his IBD/MarketSmith watchlist — returned **15 of 482**, all of which "retook
+their rising 4 week averages last week." The sizing rule for acting at all inside a down-trend: "**it is critical
+to use small positions and tight sell stops on any purchase, or even better to stay on the sidelines in cash.**"
+A rare sentiment extreme is noted and declined: Investors Intelligence with "almost as many bears as bulls…
+typically occurs near market bottoms. **There were more bears than bulls at the bottom in 2020**" — but "T2108
+never reached single digits," so he stayed out. The post opens with the death of **David**, his co-presenter and
+colleague of 20+ years, who managed the course and its TAs, ran his technical-analysis presentations, and "a
+skilled programmer, **surpassed me at running TC2000**." ([WW 2022-02-27](../../raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md))
 
 ## March 2022 (sentiment) — bears outnumber bulls, but T2108 says no; the RS-at-a-20-week-high condition
 
@@ -2709,3 +2808,9 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2015-10-25 — 15th-day-of-qqq-short-term-up-trend-still-a-chicken](../../raw/posts/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md) ([summary](../sources/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md))
 - [WW 2016-09-18 — new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market](../../raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md) ([summary](../sources/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md))
 - [WW 2017-07-04 — schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md) ([summary](../sources/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md))
+- [WW 2005-05-25 — lonely-ibd-meetup-gmi-declines-to-4](../../raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md) ([summary](../sources/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md))
+- [WW 2008-11-24 — gmi-0-gmi-r-0-sp500-double-top-or-market-bottom](../../raw/posts/2008-11-24-gmi-0-gmi-r-0-sp500-double-top-or-market-bottom.md) ([summary](../sources/2008-11-24-gmi-0-gmi-r-0-sp500-double-top-or-market-bottom.md))
+- [WW 2009-12-27 — my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend](../../raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md) ([summary](../sources/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md))
+- [WW 2016-10-16 — watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall](../../raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md) ([summary](../sources/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md))
+- [WW 2021-12-05 — blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr](../../raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md) ([summary](../sources/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md))
+- [WW 2022-02-27 — blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq](../../raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md) ([summary](../sources/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md))

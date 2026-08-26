@@ -1,7 +1,7 @@
 ---
 title: Entry signals — BOS, the dots, and the daily bounce setups
 type: concept
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2016-06-05-introducing-bos-alerts-for-my-tweets-gmi-at-6-of-6-a-dr-wish-favorite-post-bos-rtn.md
   - raw/posts/2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii.md
@@ -27,6 +27,7 @@ sources:
   - raw/posts/2018-07-08-draw-green-dot-signals-on-charts-ssti-sfix-gmi-to-turn-green-trade-deficits-bad.md
   - raw/posts/2011-02-28-market-indexes-hold-many-stocks-bounce-off-of-support-ibd50-stock-lulu-cup-with-handle-mstr.md
   - raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md
+  - raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md
 ---
 
 # Entry signals — BOS, the dots, and the daily bounce setups
@@ -138,6 +139,13 @@ Between the doctrine (2011-12) and BOS (2016) sits a February 2011 scan of the I
 
 **A 2025 revision to the trail, not the trigger.** Presenting the Blue Dot at TraderLion he had paired it with the **8-day EMA**; weeks later: "I have since found the **5 EMA** to work even better for many rising stocks." A post-blue-dot leader rides between its 5 EMA and its upper 2.15 Bollinger Band, and he "would become defensive the first day it **closes** below the 5 EMA" (GLD from 2025-08-20; IREN a second case). On why: "Why this can work, I do not know, or care." ([WW 2025-10-15](../../raw/posts/2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo.md))
 
+**Both entries were named together in 2005.** The lineage above traces the BOS to 2016 and the dots to 2018–2021,
+but the *pair* — breakout or bounce — is stated as one sentence in May 2005: "I plan to **increase my positions
+as my stocks break to new highs or bounce off of their support levels**. Of course, I also have my sell stops in
+place in case things suddenly turn ugly." ([WW 2005-05-25](../../raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md)) What the later work adds is not the idea of buying a bounce
+but the *definition* of support (the 15.2 lower band, the 30-day, the green line) and a mechanical trigger for
+it. The 2005 version leaves both to judgement.
+
 ## See also
 
 - [The oversold bounce (OSB / ATHOSB)](oversold-bounce.md) — the doctrine these triggers serve
@@ -172,3 +180,4 @@ Between the doctrine (2011-12) and BOS (2016) sits a February 2011 scan of the I
 - [WW 2018-07-08 — Draw green dot signals on charts; $SSTI  $SFIX; GMI to turn Green? Trade deficits bad?](../../raw/posts/2018-07-08-draw-green-dot-signals-on-charts-ssti-sfix-gmi-to-turn-green-trade-deficits-bad.md) ([summary](../sources/2018-07-08-draw-green-dot-signals-on-charts-ssti-sfix-gmi-to-turn-green-trade-deficits-bad.md))
 - [WW 2011-02-28 — Market indexes hold; Many stocks bounce off of support; IBD50 stock, LULU; Cup-with handle–MSTR.](../../raw/posts/2011-02-28-market-indexes-hold-many-stocks-bounce-off-of-support-ibd50-stock-lulu-cup-with-handle-mstr.md) ([summary](../sources/2011-02-28-market-indexes-hold-many-stocks-bounce-off-of-support-ibd50-stock-lulu-cup-with-handle-mstr.md))
 - [WW 2016-09-11 — September swoon? Weak Fridays often lead to Ugly Mondays—Indicators I watch for a bottom](../../raw/posts/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md) ([summary](../sources/2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom.md))
+- [WW 2005-05-25 — An empty meetup room as a contrary indicator](../../raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md) ([summary](../sources/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md))

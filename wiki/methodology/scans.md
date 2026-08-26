@@ -38,6 +38,7 @@ sources:
   - raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md
   - raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md
   - raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md
+  - raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -261,6 +262,20 @@ about the cause afterwards, explicitly as speculation. The same trick appears ag
 [March 2022](#the-relative-strength-at-a-50-week-high-scan-2022), where he runs a relative-strength scan across
 industry indexes to confirm that its stock-level hits were clustering.
 
+## The post-decline ATH watchlist scan (2022)
+
+Run over his IBD/MarketSmith watchlist rather than the full universe, in the 35th day of a down-trend: "any stock
+in my IBD/MarketSmith watchlist that was **close to its ATH in the past week** and that has a strong technical
+pattern evidenced in **several weekly indicators**." Yield: **15 out of 482** stocks, with a confirming condition
+he notes about the output rather than building into the formula — "**all retook their rising 4 week averages last
+week**." Oil, gas and agriculture names predominated. ([WW 2022-02-27](../../raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md))
+
+The rationale is on [stock selection](stock-selection.md#the-post-decline-new-high-list--where-the-next-leaders-announce-themselves):
+a stock at an all-time high after a broad decline has had to absorb the selling of everyone who rode it down.
+The caveat ships with the list: "these stocks are worth researching and monitoring for one's favorite entry
+set-up. **But in a market down-trend, it is critical to use small positions and tight sell stops on any purchase,
+or even better to stay on the sidelines in cash.**"
+
 ## The Darvas EasyScan (2015)
 
 A TC2000 EasyScan he designed to approximate Darvas's selection criteria, run against ~6,000 stocks; on 2015-02-27 it returned 46 names, of which AMBA — above its green-line top, in a weekly RWB pattern — was the example. The criteria are not listed in the post; he points to his 2012 Houston TC2000 webinar for the walk-through. ([WW 2015-03-01](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md))
@@ -314,3 +329,4 @@ It is also the one scan he declines to share: "**Please do not ask me to post my
 - [WW 2010-10-11 — The ultra-ETF measurement repeated; a bounce scan built for students](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md) ([summary](../sources/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md))
 - [WW 2016-03-20 — Buying before the green line — with a different stop](../../raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md) ([summary](../sources/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md))
 - [WW 2015-12-06 — Bouncing off the green line — the retest entry, risk quantified](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md) ([summary](../sources/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))
+- [WW 2022-02-27 — Why an all-time high after a decline means accumulation](../../raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md) ([summary](../sources/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md))

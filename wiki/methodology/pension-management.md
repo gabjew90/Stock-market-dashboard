@@ -1,7 +1,7 @@
 ---
 title: The two accounts — university pension vs trading IRA
 type: concept
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md
@@ -35,6 +35,7 @@ sources:
   - raw/posts/2015-07-12-schizoid-mr-market.md
   - raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md
   - raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md
+  - raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md
 ---
 
 # The two accounts — university pension vs trading IRA
@@ -132,6 +133,19 @@ deliberately unquantified, which is consistent with every other statement of the
 is governed by a judgement about persistence, not by a day count. The 2018 formulation states the same
 conjunction in price terms — a close below the 30-week average *and* that average turning down — and the 2017
 one in GMMA terms.
+
+**Named prospectively, and tied to a specific component (December 2021).** Two weeks after the November 2021 top,
+he identifies exactly what he is waiting on: "The GMI is 1, of 6. **The last GMI component to turn negative will
+be for the weekly QQQ to close below its 30 week average. When that happens I will begin to go to cash in my
+primary pension accounts.**" ([WW 2021-12-05](../../raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md)) That maps the pension trigger onto GMI component 5 — the weekly QQQ trend
+— rather than onto the composite score, which is why a GMI of 1 had not yet moved the pension.
+
+The dispersion he was reading underneath it: "**the DIA is already below its 30 week average.** The SPY remains
+above it and the QQQ remains far above." And the general rule, stated in capitals: "**Once these indexes close
+below their 30 week averages and the averages begin to curve down, it is usually the BEGINNING of a major
+decline**" — the same conjunction as the 2018 formulation, with the added claim that it marks a start rather than
+a middle. The exit is planned into strength as usual: "**if we get a good year-end rally I will likely sell some
+of my mutual funds in my university pension accounts.**"
 
 ## The pension has an administrative constraint, not just a signal
 
@@ -254,3 +268,4 @@ The 2011 statement, mid-decline: the best-days studies "fail to note that one di
 - [WW 2015-07-12 — Buying on GMI Sell signals would have worked — and why he doesn't mind](../../raw/posts/2015-07-12-schizoid-mr-market.md) ([summary](../sources/2015-07-12-schizoid-mr-market.md))
 - [WW 2018-02-04 — Put/call 1.2 and stochastic .20; the monthly top signature in three stages](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md) ([summary](../sources/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))
 - [WW 2012-10-21 — The two-tier timing rules, written to settle reader confusion](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md) ([summary](../sources/2012-10-21-timing-the-market-short-or-in-cash.md))
+- [WW 2021-12-05 — The pension trigger named in advance - the last GMI component](../../raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md) ([summary](../sources/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md))

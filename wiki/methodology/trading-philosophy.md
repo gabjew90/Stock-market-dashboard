@@ -36,6 +36,7 @@ sources:
   - raw/posts/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md
   - raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md
   - raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md
+  - raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md
 ---
 
 # Trading philosophy — the five propositions
@@ -199,6 +200,13 @@ And why he does not wait for the story: "**a stock's strong behavior often occur
 
 **Value as a myth (2025).** "As several great traders have opined, **all stocks are bad unless they are going up. Stocks are only worth what someone will pay for them. Value is a myth.** When the psychology turns and the masses become scared, they sell and all stocks decline." ([WW 2025-03-06](../../raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md)) It is the same position as the orthodox-agnostic line, stated at its most uncompromising — and the reason the method never screens for cheapness.
 
+**The frame stated in one line (2009).** Written on the day of the bear-market low with the GMI at 0 and T2108 at
+7%, about a contrarian signal he had just described: "**Does this mean the market has to turn up? Not
+necessarily, but the market is always an assessment of competing probabilities.**" ([WW 2009-12-27](../../raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md)) No indicator on
+this wiki claims more than that, and it is why the same reading can be acted on in one context and declined in
+another — see [T2108 at 15 read and declined](risk-and-cash.md#no-need-to-anticipate-the-reversal) and
+[T2108 at 92% read as strength](t2108.md#level-is-read-in-context-not-absolutely).
+
 ## Simple beats clever
 
 "Patterns are meant to be broken. **The road is littered with the carcasses of Ph.D.'s who
@@ -345,3 +353,4 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2006-06-14 — Value is a myth — dated to 2006, and attributed to O'Neil](../../raw/posts/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md) ([summary](../sources/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md))
 - [WW 2005-11-20 — Darvas sourced; the trend-odds measured a third time (81%)](../../raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md) ([summary](../sources/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md))
 - [WW 2008-01-28 — Where 'exits matter more than entries' came from - Covel on the Turtles](../../raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md) ([summary](../sources/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md))
+- [WW 2009-12-27 — The naive participant, at both poles](../../raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md) ([summary](../sources/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md))

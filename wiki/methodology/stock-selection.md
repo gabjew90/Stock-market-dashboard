@@ -68,6 +68,7 @@ sources:
   - raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md
   - raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md
   - raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md
+  - raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md
 ---
 
 # Stock selection
@@ -324,6 +325,22 @@ This is why he can say in the same post that there is "**no need to anticipate t
 being late is bounded, because the stocks worth owning identify themselves *after* the turn rather than before
 it. See [risk and cash](risk-and-cash.md#no-need-to-anticipate-the-reversal).
 
+**Why it works, written out (2022).** The 2007 statement says to check the new-high list once the dust settles.
+This one supplies the mechanism, and it is the overhead-supply argument applied to the whole market at once:
+
+> "The new market leaders will show up in the new high list. Think about it. **Any stock trading near an all-time
+> high (ATH) after a significant market decline is one that is likely being accumulated. Stocks that fell a lot
+> will have to overcome selling as they try to advance, as persons who rode it down and have losses try to sell
+> out. A stock that can overcome such selling and reach an ATH is demonstrating strong buying interest.**"
+> ([WW 2022-02-27](../../raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md))
+
+The decline does the screening for you: it creates trapped sellers in every damaged name, so clearing that supply
+*and* printing a new high is evidence that cannot be faked by a quiet drift. The scan he runs on it is on
+[scans](scans.md#the-post-decline-ath-watchlist-scan-2022) — 15 names from a 482-stock watchlist, all of which
+"retook their rising 4 week averages last week" — and the sizing rule that governs buying any of them inside a
+down-trend: "**in a market down-trend, it is critical to use small positions and tight sell stops on any
+purchase, or even better to stay on the sidelines in cash.**"
+
 ## O'Neil 1995 workshop: volume over EPS
 
 From Dr. Wish's personal trading diary (November 11, 1995, copyright Dr. Eric Wish):
@@ -495,3 +512,4 @@ but someone is buying PIRS.**"
 - [WW 2005-11-20 — Darvas sourced; the trend-odds measured a third time (81%)](../../raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md) ([summary](../sources/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md))
 - [WW 2006-01-09 — The same breadth reading means different things at different points in a trend](../../raw/posts/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md) ([summary](../sources/2006-01-09-gmi-6-huge-turnaround-short-rates-to-rise-38-leading-stocks.md))
 - [WW 2017-07-04 — The GMI's QQQ bias demonstrated live; biotech position sizing](../../raw/posts/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md) ([summary](../sources/2017-07-04-schizoid-market-gmi-neutral-mainly-in-cash-pirs-recent-glb-yellowband.md))
+- [WW 2022-02-27 — Why an all-time high after a decline means accumulation](../../raw/posts/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md) ([summary](../sources/2022-02-27-blog-post-david-my-co-presenter-brilliant-colleague-of-20-years-died-in-a-freak-accident-on-2-18-day-35-of-qq.md))

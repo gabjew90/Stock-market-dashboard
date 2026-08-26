@@ -1,7 +1,7 @@
 ---
 title: The GMI family — GMI-S, GMI-L, GMI-R, GMI2 and the rest of the daily table
 type: concept
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2006-02-06-darvas-anticipated-gmi-4-gmi-s-31-ominous-market.md
   - raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md
@@ -22,6 +22,7 @@ sources:
   - raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md
   - raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md
   - raw/posts/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md
+  - raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md
 ---
 
 # The GMI family — GMI-S, GMI-L, GMI-R, GMI2 and the rest of the daily table
@@ -101,6 +102,14 @@ index ETF's are positive" while "the major longer term trend is still down" (the
 Index was the lone GMI holdout). Read with hindsight the slow indicators were right; the 2008
 collapse followed. This is the fast/slow split that later became the formal GMI-vs-GMMA
 two-speed design. ([WW 2008-04-21](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
+
+**A construction artefact worth knowing (December 2021).** The GMI-2 can *improve* while the market deteriorates,
+because two of its components are oversold oscillator readings: "**The GMI-2 actually climbed from 2 to 4 on
+Friday. That is because two of my daily stochastic indicators (10.1 and 10.4) reached very oversold levels.**"
+([WW 2021-12-05](../../raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md)) On day 2 of a new down-trend, with 608 new lows against 36 new highs, a rising GMI-2 was reporting
+*how far price had fallen*, not that conditions had improved. The oscillator components make the GMI-2 partly a
+mean-reversion gauge, which is the opposite of what the GMI's trend components measure — so the two indexes can
+and do move apart at exactly the moments they are most consulted.
 
 ## 2011 → 2026 — GMI2: a *growing* companion index, not a fixed 6
 
@@ -203,3 +212,4 @@ rather than only the extreme.
 - [WW 2022-08-25 — Blog Post: Day 28 of $QQQ short term up-trend; $QQQ very oversold and bounce likely; GLB: $CLH, how I buy a GL](../../raw/posts/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md) ([summary](../sources/2022-08-25-blog-post-day-28-of-qqq-short-term-up-trend-qqq-very-oversold-and-bounce-likely-glb-clh-how-i-buy-a-glb-autom.md))
 - [WW 2013-08-25 — QQQ remains in Stage 2 up-trend; GMI2=8 (of 8)](../../raw/posts/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md) ([summary](../sources/2013-08-25-qqq-remains-in-stage-2-up-trend-gmi28-of-8.md))
 - [WW 2006-06-05 — GMI: +2; Indicators still improving; New leaders?](../../raw/posts/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md) ([summary](../sources/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md))
+- [WW 2021-12-05 — The pension trigger named in advance - the last GMI component](../../raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md) ([summary](../sources/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md))

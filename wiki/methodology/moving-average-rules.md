@@ -1,7 +1,7 @@
 ---
 title: Moving-average rules
 type: entity
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-06-05-gmi-back-to-5-some-potential-winners-on-moving-averages.md
@@ -58,6 +58,7 @@ sources:
   - raw/posts/2005-06-09-gmi-5-stay-the-course-and-watch-the-10-day-for-the-qqqq.md
   - raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md
   - raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md
+  - raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md
 ---
 
 # Moving-average rules
@@ -110,6 +111,13 @@ The 2006 form of the rule: "When a major index is below its 30 week average I ge
 **The 2026 restatement, with the 2000 chart beside it.** "**This signal helped me to get out at the beginning of all major declines since 2000**… Thank you Stan Weinstein for teaching me stage analysis." And the most recent application: "**I got defensive in April 2025 until the 30 week resumed its rise.**" ([WW 2026-06-01](../../raw/posts/2026-06-01-how-i-identified-and-exited-at-the-market-top-in-2000-when-the-30-week-average-curved-down-to-identify-a-like.md))
 
 **Stated as a complete system (July 2009, at the re-entry):** "the 30 week averages for the SPY, QQQQ and DIA are turning up. This is a classic Weinstein Stage 2 pattern. **I get out of the market when the 30 week averages turn down and back in when they turn up. I know this seems simplistic and naive, BUT IT WORKS!! It keeps me on the right side of the market's primary trend.**" ([WW 2009-07-20](../../raw/posts/2009-07-20-turn-is-here-50-invested.md)) And its record, as he scores it in January 2022: "**penetration of the 30 week average saved me from the market debacles in 2000, 2008 and 2020**" — written with QQQ approaching its 30-week at 375.59, and "a weekly close below that level would get me out of everything." ([WW 2022-01-09](../../raw/posts/2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist.md))
+
+**The onset rule, in capitals (2021).** The 30-week test is not read as a level to be lost but as the opening of
+a sequence: "**Once these indexes close below their 30 week averages and the averages begin to curve down, it is
+usually the BEGINNING of a major decline.**" ([WW 2021-12-05](../../raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md)) Two conditions — the close *and* the average turning —
+and the claim attached to them is about position in the cycle: crossing marks a start, not a middle, which is
+what makes acting on it late still worthwhile. See the [pension trigger](pension-management.md#the-two-triggers-side-by-side)
+and the [cost of lateness](risk-and-cash.md#no-need-to-anticipate-the-reversal).
 
 ## The 10-day average — the yellow light
 
@@ -378,3 +386,4 @@ information at all.
 - [WW 2005-06-09 — The 10-day average as a yellow light; put insurance on the volatile names](../../raw/posts/2005-06-09-gmi-5-stay-the-course-and-watch-the-10-day-for-the-qqqq.md) ([summary](../sources/2005-06-09-gmi-5-stay-the-course-and-watch-the-10-day-for-the-qqqq.md))
 - [WW 2005-07-28 — another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks](../../raw/posts/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md) ([summary](../sources/2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks.md))
 - [WW 2006-03-30 — The epiphany: moving averages are useless in a trendless market](../../raw/posts/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md) ([summary](../sources/2006-03-30-an-epiphany-on-moving-averages-and-trend-lines-ijr-gmi-6-techs-turn.md))
+- [WW 2021-12-05 — The pension trigger named in advance - the last GMI component](../../raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md) ([summary](../sources/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md))

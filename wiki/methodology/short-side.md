@@ -35,6 +35,7 @@ sources:
   - raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md
   - raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md
   - raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md
+  - raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -139,6 +140,12 @@ are thinly traded and should be researched carefully before buying." ([WW 2006-0
 access rather than leverage: an IRA cannot short stock, and until these existed the only route was
 [deep in-the-money puts](#protective-puts--the-2005-original-and-the-put-vs-stop-rule).
 
+**Scaling a hedge by the trend's age (2016).** The same rule as the long side, run in reverse: "I am mainly in
+cash in my trading accounts but holding a **small position in SQQQ. If the short term down-trend continues a few
+more days I will add more.**" ([WW 2016-10-16](../../raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md)) And the exit from the hedge is pre-committed in the same post: "**I will
+reverse and go long if this market shows any signs of strength in the coming days**" — a short position held with
+a stated condition for abandoning it, which is what keeps a hedge from becoming a view.
+
 ## Protective puts — the 2005 original, and the put-vs-stop rule
 
 The insurance framing is fully formed in **June 2005** — four years before the 2009 tutorial —
@@ -218,3 +225,4 @@ a double bottom near 114.50 and the 30-week flattening.
 - [WW 2007-01-08 — A low put/call as a topping tell; scaling into inverse ETFs](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md) ([summary](../sources/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md))
 - [WW 2006-07-17 — Why he tracks a fixed IBD 100 list; what cash was paying](../../raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md) ([summary](../sources/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md))
 - [WW 2006-06-27 — Inverse ETFs arrive; new products as a contrary indicator](../../raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md) ([summary](../sources/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md))
+- [WW 2016-10-16 — TLT as the rate proxy; the jigsaw that fits until it doesn't](../../raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md) ([summary](../sources/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md))

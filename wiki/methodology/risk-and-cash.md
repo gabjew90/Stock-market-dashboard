@@ -83,6 +83,10 @@ sources:
   - raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md
   - raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md
   - raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md
+  - raw/posts/2008-11-24-gmi-0-gmi-r-0-sp500-double-top-or-market-bottom.md
+  - raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md
+  - raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md
+  - raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md
 ---
 
 # Risk & cash
@@ -266,6 +270,22 @@ the time to be a hero.**" An oversold reading describes a condition; it does not
 The screen that makes the waiting cheap is on [stock selection](stock-selection.md#the-post-decline-new-high-list):
 the leaders identify themselves after the turn, on the new-high list.
 
+**And the cost of lateness, measured (November 2008).** The doctrine above is an assertion; this is the
+arithmetic behind it. Fifty-nine days into the down-trend that began 2 September 2008, with the QQQQ down 41%:
+"**99% of the Nasdaq 100 stocks** (all but APOL — the proverbial needle in the haystack — sought by those
+addicted to the bullish side) **have declined, and 44% have declined 50% or more. Even if we had missed the
+initial sell signal and waited until a failed bounce on September 19, still, 99% of the Nasdaq100 component
+stocks have declined since then, one half by more than 41%. So you see, one could have missed the first sell
+signal by about 2 weeks and still have saved a lot of money by going into cash or short.**" ([WW 2008-11-24](../../raw/posts/2008-11-24-gmi-0-gmi-r-0-sp500-double-top-or-market-bottom.md))
+
+That is the strongest single argument for tolerating a lagging exit signal: a **two-week delay captured almost
+all of the avoidable damage**. It is the mirror of the entry side, where the leaders announce themselves on the
+new-high list *after* the turn — in both directions, precision costs less than it appears to.
+
+**A bottom is a set of signs, not a level.** From the same post: "the current market shows *none* of the key
+signs evident to me in prior bear market bottoms… **given that no one knows a bottom before it has occurred, it
+is best for me to remain in cash and a little short until the market tips its hand.**"
+
 ## Contrarian sentiment is a bounce warning, not a re-entry trigger
 
 One professional-sentiment inversion *did* support re-entry: in September 2011 the Investors
@@ -336,6 +356,31 @@ not a signal. The companion prior in the same post is a duration one: "**many of
 witnessed back to the 70's continued for nine months or more. We are only a little more than two months into the
 current decline**" — the argument for patience being a base rate rather than a feeling.
 
+**The naive-participant tell, at both poles.** The version on this page is the top-side one (people who never
+discuss stocks start buying). It has a bottom-side twin, and he scored both in the same 2009 retrospective. From
+his post of 8 March 2009 — the week of the bear-market low, GMI 0, T2108 7% — "**Last week, a person who knows
+nothing about the market asked me how to short stocks.** This is reminiscent of the stories of the shoeshine boys
+providing stock tips… The sentiment is just too negative right now." Nine months on: "**when people around me who
+never traded asked me how to short stocks it turned out to be a key contrary signal that the market decline was
+near an end.** Similarly, I remember when a friend who knows little about the market **asked me if he should
+refinance his house to invest in the market — back in 2000 near that market's top**." ([WW 2009-12-27](../../raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md)) The instrument
+is the same in both directions: an outsider reaching for the *aggressive* version of the prevailing mood.
+
+Note what makes it usable rather than folkloric — in 2009 the anecdote sat alongside T2108 at 7%, and he says
+what the pairing does and does not license: "**does this mean the market has to turn up? Not necessarily, but the
+market is always an assessment of competing probabilities.**"
+
+**Meetup attendance as the same instrument, 2005.** Three people at a meeting that normally drew eight to ten,
+with the group's most experienced member bearish: "**I have to conclude that the low attendance and caution about
+the market constitute contrarian indicators, suggesting that this rally has more to go.**" ([WW 2005-05-25](../../raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md)) The
+attendance series lags by construction — the leader's own prediction was that "it would take a few months of an
+up market with people making money, for attendance to pick up again" — which is exactly why an empty room marks a
+low rather than predicting one.
+
+**Analyst promotion read as distribution (2009).** With pundits recommending TJX while its daily GMMA had turned
+over: "**you do know that analysts sometimes tout a stock so that their big clients can unload their long
+positions to the unsuspecting public.**" ([WW 2009-12-27](../../raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md)) The technicals are used to check the story, not the reverse.
+
 ## Relative strength during declines as a leadership screen
 
 A recurring 2007 theme, and the constructive use of a down-trend: "While this is not the time for me to buy stocks, I find that **declines offer the best opportunity to find the next winners**. The few stocks that can resist the market decline tend to become stars." In August 2007, with 80% of the 440 IBD100 stocks he monitored down since July 19, he listed the ten biggest gainers (ISRG +33%, HMSY +32%, MORN +26%, ANSS +24%, BLUD +22%...) as the pool to focus on "when the market turns." ([WW 2007-08-20](../../raw/posts/2007-08-20-gmi-1-more-new-highs-than-lows-performance-of-gmi-strongest-ibd100-stocks.md))
@@ -386,6 +431,22 @@ Note: the 1,200% figure combines two things — strong performance during bull p
 ## How bear markets end — the volume signature (2009)
 
 Studied on the 1929–32 and 1974 bears with a 50-week average of weekly volume: the bottom arrives when down-week volume shrinks below the average, then "a huge green spike soon after the bottom, followed by a number of green spikes several months later, after a re-test" — up-volume larger than anything in months, larger again after the re-test as "people became more confident of the earlier bottom." Applied to February 2009: "the red spikes are unceasing… the green spikes (up weeks) tend to be *lower* than the red spikes. This is not a market set to bottom like the prior bears." He stayed mainly in cash with some IRA puts, and the low arrived a week later — the signature was for confirming a bottom, not for predicting one: "no one can detect a bottom until sometime after it has occurred." ([WW 2009-03-01](../../raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md))
+
+## TLT — how he reads long rates
+
+The [rate indicator](#the-rate-indicator-is-on-his-charts-from-the-start) tracks the short end. For the long end
+he watches a bond ETF and says why: "I follow the **20+ year government bond ETF, TLT, as an indicator of how
+bond traders feel about long term interest rates**." ([WW 2016-10-16](../../raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md)) It is a sentiment read on rates rather than a
+forecast of them — what the people with money at risk currently believe, not what the Fed has announced.
+
+The instrument comes with a caution about the story it fits into. October 2016: TLT falling, the dollar (UUP)
+rising, gold (GLD) falling, the three charts laid side by side — and then: "**It all fits together like a jig saw
+puzzle — until it doesn't…**" A macro narrative that explains every chart on the page is a *description* of what
+has happened, and its coherence is not evidence about what happens next. He states this at the moment it is
+hardest to believe, which is what makes it worth quoting.
+
+The same reading appears from the other side in 2016 on [gold and the dollar](gmma-charts.md#the-rwb--bwr-patterns--multiple-mas-on-a-guppy-chart)
+and in the 2014 [rates thesis](#the-rates-thesis-he-watches-for-2014) above.
 
 ## Where the cash sits — I-bonds as the ultra-safe sleeve
 
@@ -528,3 +589,7 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2009-10-26 — Volume buzz defined — volume against its average at that time of day](../../raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md) ([summary](../sources/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md))
 - [WW 2006-06-27 — Inverse ETFs arrive; new products as a contrary indicator](../../raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md) ([summary](../sources/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md))
 - [WW 2008-01-28 — Where 'exits matter more than entries' came from - Covel on the Turtles](../../raw/posts/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md) ([summary](../sources/2008-01-28-gmi-0-gmi-r-0-16th-day-of-the-down-trend-a-great-new-book-on-the-turtles.md))
+- [WW 2008-11-24 — The cost of missing the sell signal, measured](../../raw/posts/2008-11-24-gmi-0-gmi-r-0-sp500-double-top-or-market-bottom.md) ([summary](../sources/2008-11-24-gmi-0-gmi-r-0-sp500-double-top-or-market-bottom.md))
+- [WW 2005-05-25 — An empty meetup room as a contrary indicator](../../raw/posts/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md) ([summary](../sources/2005-05-25-lonely-ibd-meetup-gmi-declines-to-4.md))
+- [WW 2009-12-27 — The naive participant, at both poles](../../raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md) ([summary](../sources/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md))
+- [WW 2016-10-16 — TLT as the rate proxy; the jigsaw that fits until it doesn't](../../raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md) ([summary](../sources/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md))
