@@ -388,6 +388,14 @@ sources:
   - raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md
   - raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md
   - raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md
+  - raw/posts/2005-08-19-gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo.md
+  - raw/posts/2008-02-25-gmi-0-gmi-r-0-nibbling-a-little-at-rocket-stocks.md
+  - raw/posts/2008-03-10-gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short.md
+  - raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md
+  - raw/posts/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md
+  - raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md
+  - raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md
+  - raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md
 ---
 
 # Timeline — evolution of the methodology
@@ -597,6 +605,18 @@ October period, **but will let the GMI guide me**." ([WW 2005-07-19](../../raw/p
 **"Stan Weinstein Dow sell signal; GMI: +1; Sick bank stocks; SBUX-in the drink?" (2005-08-27):** The Dow closed below its 30-week moving average — the first such close in some time. Dr. Wish quotes Weinstein's 1988 book verbatim on the defensive actions required: suspend buying, sell weak stocks, tighten stops, hunt short-sale candidates. He introduces his short-sale thesis: rising short-term interest rates squeezing bank profit margins makes bank stocks attractive submarine candidates (WFC, C, JPM, WB, BAC below their 30-week averages). SBUX is identified as a potential short based solely on the 10-week average crossing below the 30-week average. GMI at +1 (one step from zero). The WPM shows all major indexes except the DIA still above their 30-week averages — a mixed signal. ([WW 2005-08-27](../../raw/posts/2005-08-27-stan-weinstein-dow-sell-signal-gmi-1-sick-bank-stocks-sbux-in-the-drink.md))
 
 ---
+
+## August 2005 (charts) — the naked chart, and the 10/30 rule
+
+**"GMI declines to +2" (2005-08-19):** a presentation trick with a rule inside it — the **10-day and 30-day
+averages plotted with the price bars removed**, so "the up trend in a stock (GOOG as an example) was clearly shown
+by the **10 day average's being consistently above the 30 day average**." The rule it produced, after GOOG lost
+that relationship for the first time since April: "**do not buy or hold any stock where its 10 day average is
+consistently below its 30 day average. Such stocks are my short candidates, especially after a long period where
+the 10 day was above the 30 day.**" Two qualifiers do the work — *consistently* (a crossing is not a signal) and
+*after a long period above* (the best short candidates are former leaders). Breadth: the share of his universe in
+a short-term up-trend at a new low of 20%; "for now, **buying stocks at new highs is a high risk strategy**." ([WW 2005-08-19](../../raw/posts/2005-08-19-gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo.md))
+
 
 ## August–September 2005 (breadth) — % in a short-term up-trend; the doubler indicator; the truck
 
@@ -1040,9 +1060,37 @@ months into the current decline.**" ([WW 2008-01-28](../../raw/posts/2008-01-28-
 
 **"GMI: 0; GMI-R: 0; 13th week since top" (2008-02-11):** the third and final revision to component 1 — "I have added the additional requirement that it be 50% **and** that there were at least 20 new highs 10 days ago (the denominator ≥ 20). I think that the 50% requirement is not enough if it is based on fewer than 20 stocks." The definitional history completes: count > 100 (Apr 2005) → count or ≥ 50% (Jul 2005) → and denominator ≥ 20 (Feb 2008). ([WW 2008-02-11](../../raw/posts/2008-02-11-gmi-0-gmi-r-0-13th-week-since-top-dbc-djp-dba.md))
 
+## February 2008 (mode) — nibbling in a down-trend, with a buy-write
+
+**"GMI: 0; nibbling a little at rocket stocks" (2008-02-25):** buying inside a confirmed down-trend, defined
+as a mode rather than excused as a lapse. With the GMI at zero and himself sidelined, a small group of names was
+making new highs anyway: "**it seems to me it may be prudent to nibble a little at these strong performers**… **I
+may nibble at some of these stocks and place close stops in case they reverse.**" Small size, close stops, and only
+names printing new highs against the tape (MOS, MTL, CF, POT, PCLN, SWN and others — fertiliser, coal, energy).
+The overlay is unusual: "many of these stocks have **rich premiums** on their March call options. **I may buy some
+shares and immediately write March calls**" — a **buy-write into a hostile market**, where the premium the fear
+has inflated pays for part of the risk it imposes. FDG, off-list, shows "a **three year cup-with-handle
+formation**" on the monthly with a high-volume all-time-high break. ([WW 2008-02-25](../../raw/posts/2008-02-25-gmi-0-gmi-r-0-nibbling-a-little-at-rocket-stocks.md))
+
+
 ## March 2008 (precondition) — twelve new highs out of 4,000
 
 **"GMI: 1; GMI-R: 3" (2008-03-31):** "**a growth stock strategy of buying stocks at new highs will not work in an environment when only 12 stocks out of 4,000 can hit a new high in a day**"; "my strategy of buying rockets going to new highs works best when the averages are consistently above their 10 week averages"; exit level named in advance; "the key is to conserve capital." ([WW 2008-03-31](../../raw/posts/2008-03-31-gmi-1-gmi-r-3-rick-a-stock-for-a-bare-market.md))
+
+## March 2008 (short side) — the submarine trade, entry and stop; T2108's band by instance
+
+**"GMI: 0; short or in cash; EDU as a model short" (2008-03-10):** a short specified end to end. EDU
+"tripled, formed a top and then **broke down on huge volume**… after breaking below its **30 week average**, EDU
+rebounded and **failed last week to hold that line**. Furthermore, its **10 week average is now below its 30 week
+average**" — so the entry is the *failed retest* from underneath, not the initial break — expressed by "**buying a
+put in my IRA**," with the invalidation priced: "**I would close the trade with a loss if the stock trades again
+above last week's high of 67.40.**" **T2108's bottom band built from named cases**: at 24%, "still above the
+extreme level at which the market tends to bottom. At the January bottom, it registered 18%. At the bottom in 1987,
+it registered an amazing less than 1%. **Most recent bottoms/bounces occur in the area around 14%.**" And the gate
+argued from the decline's own arithmetic — the QQQQ −16.6% with 80% of components down, 30% of them by 20%+ —
+"**the lesson to be learned is that one should not hold stocks in a general market down-trend.**" 55 rockets
+against 500+ submarines. ([WW 2008-03-10](../../raw/posts/2008-03-10-gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short.md))
+
 
 ## April 2008 — the dashboard split inside a bear rally; the 2000 exit priced
 
@@ -1256,6 +1304,20 @@ promotion read as distribution** — pundits recommending TJX while its daily GM
 that analysts sometimes tout a stock so that their big clients can unload their long positions to the
 unsuspecting public**" — and T2108 at 76% with a caution above 80%. ([WW 2009-12-27](../../raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md))
 
+## December 2009 (criteria) — the strictest rocket screen; two stop levels per trade
+
+**"Some new rocket stocks to watch" (2009-12-21):** the screen at its most stringent — already **doubled
+year-on-year**, **near a 5-year or all-time high**, **last quarterly earnings up at least 100%** — returning **11
+of 4,000**. The durable part is the stop rule published beside it: he tabulates **both a short-term and a
+long-term support level per stock** and explains the choice — "**the most conservative stop loss is the short term
+support level. With a growth stock I rarely retain a long position if the stock *closes* below its short term
+support level. However, if I bought near long term support I might use the LT support level as my exit
+strategy.**" The stop belongs to the *trade*, not the stock. Protection is immediate: "**I immediately enter a
+sell stop or buy a put option for insurance, after buying one of these high momentum stocks.**" Also a statistic
+on trial — the share of Nasdaq-100 stocks with the fast stochastic above the slow, "**a new measure of the short
+term up-trend that I am trying out**," two years before the GMI2 carried the same oscillators. ([WW 2009-12-21](../../raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md))
+
+
 ## February–April 2010 — Stock-selection scan workflow; stop-loss doctrine stated; DITM calls introduced
 
 **"How to use IBD 100 and New America stocks to find rocket stocks" (2010-02-22):** Dr. Wish publishes the complete multi-step funnel: 4,000-stock universe → 52-week highs → near 10-year ATH → earnings ≥ 30% or revenue ≥ 12% → IBD 100/New America cross-check. Result: 68% overlap with IBD lists confirms the filters agree. Prerequisite stated: GMI ≥ 3 before searching for stocks. ([WW 2010-02-22](../../raw/posts/2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun.md))
@@ -1377,6 +1439,19 @@ declines since 1998**." And a publishing habit that explains where component-lev
 
 **"Going long $FFIV and other Darvas scan stocks" (2010-08-05):** "I prefer to buy stocks that have **already doubled in the past year** and that are **trading at or near their all-time highs**. I also want the stock to have **appeared on the IBD New America or IBD100 list**"; FFIV bursting through a late-1999 ATH; bought a little, "will add to it if it keeps rising"; and "please do not ask me to post my Darvas Scan." ([WW 2010-08-05](../../raw/posts/2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks.md))
 
+## August 2010 (instruments) — why commodities are the exception
+
+**"Successful Saturday AAII presentation; UNG bottoming" (2010-08-02):** the all-time-high rule bounded, and
+the boundary justified by a difference in kind: "**I usually only buy stocks at all-time highs. Commodities are
+different, however, because they have a true value. Natural gas is not likely to go to zero. I therefore think
+that commodities go back and forth between oversold and overbought.**" A stock has no price floor, so you follow
+its trend; a commodity has use value, so you trade its oscillation. UNG accordingly gets bought **oversold** —
+extreme stochastic low then a buy signal — with the monthly chart showing a first close above the **5-month
+average** since July 2008, and the usual scaling ("if UNG continues to strengthen, I will add"). The market gate
+stated as a fact about his own results: "**I tend to make money trading on the long side only when these indexes
+close above their 10 week averages.**" ([WW 2010-08-02](../../raw/posts/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md))
+
+
 ## September 2010 — RWB pattern coined
 
 **"Introducing Red White and Blue (RWB) Stocks" (2010-09-27):** the RWB weekly GMMA chart pattern is named and defined. Shorter-term MAs (red) above longer-term MAs (blue) with white space between them = rocket. Opposite = BWR = submarine. First explicit T2108 discussion: asymmetry (high T2108 less predictive than low T2108 below 10%). GMI-R mentioned alongside GMI. ([WW 2010-09-27](../../raw/posts/2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets.md))
@@ -1492,6 +1567,22 @@ have an objective set of trading rules approved by me before they can trade**." 
 **"100% cash in trading accounts and university pension" (2011-08-15):** the complete exit documented the day it finished — rules and fatigue both admitted; banks breaking 2010 support read against the 2008 template; component shares below the 30-week (Dow 83%, S&P 87%, Nasdaq 81%); "I do not own *any* stock that is below its 30 week average"; the pension's timing-penalty lag costed honestly; and the addiction line: "**If one cannot exit the market to go to cash, one should not be in the market at all.**" ([WW 2011-08-15](../../raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md))
 
 ---
+
+## August 2011 (research) — every multi-week Dow decline since 1916, counted
+
+**"Current market decline is nothing unusual" (2011-08-22):** the most substantial original research in the
+corpus, run to settle an argument. Method with its own health warning: "I decided to look at the long multi-week
+declines of the **Dow 30 Index since 1916. I computed the duration and depth of every multi-week decline**… **I
+defined a multi-week decline as one when the Dow declined at least 15% in a few weeks without a consolidation
+along the way**… **My calculations were quick and dirty so do not hold me to them exactly. They still paint a
+valid picture.**" Findings: 33 such declines; **30 of the 33 deeper than 15%**; four precedents for a 4-week,
+≥15% fall (**1916, 1931, 1987, 2001**) — so the then-current decline sat at the shallow end of its own
+population, "**so this decline may have a lot further to go**." What it refutes: "the current market decline is
+unique and caused by high frequency traders or program traders… **human psychology has not changed and market
+behaviors continually repeat themselves. How many of these declines that occurred before the PC can we blame on
+program trading!**" And the premise underneath: "**the market is a collection of people and machines voting with
+their money millions of times each day. Trying to predict their actions is a foolish endeavor.**" ([WW 2011-08-22](../../raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md))
+
 
 ## September 2011 — behavior over words; the re-entry read
 
@@ -1747,6 +1838,21 @@ and hold it is worth watching**" — XEC, NGVC and ASGN, each with its IBD compo
 ## December 2014 (rates) — the thesis that would end the bull
 
 **"More on bonds and rising rates; buy and hold index funds" (2014-12-25):** rising rates as the mechanism — "people will exit risky stocks in favor of more conservative bonds or CDs, **precipitating a bear market in stocks**"; the personal threshold — "if the day ever returns that I could nail down 6% annual interest in insured CDs, I and many other boomers would presumably be happy to get out of stocks"; "Mr Market tends to seduce people into the stock market so that the most persons get hurt." ([WW 2014-12-25](../../raw/posts/2014-12-25-more-on-bonds-and-rising-rates-buy-and-hold-index-funds.md))
+
+## December 2014 (rules) — both halves of the Day-5 rule; the pension constraint biting
+
+**"2nd day of $QQQ short term down-trend; super cautious" (2014-12-17):** the duration rule restated with
+the clause that usually gets dropped — "since 2006, about **40% of short term down-trends (the way I define them)
+have lasted 5 days or less. Once one passes 5 days, it often goes a lot further**." Passing Day 5 is itself
+information, which is why it functions as an accumulation trigger: "I own mainly SQQQ and **will accumulate more
+if this decline lasts 5 days**." And the administrative limit stated in one sentence: "**if I could frequently
+trade my mutual funds in my university pension, I would have transferred some money to money market funds**" —
+the pension stayed invested because of transfer restrictions, not conviction. He dates his experience at "**45+
+years**" here. The bear case offered is demographic and seasonal (new-tax-year selling, retiring boomers, "I just
+remember a lot of significant market tops occurring in January") and presented as intuition rather than
+measurement; and a caution about chart scale — on the monthly SPY the decline "hardly registers. **This could
+mean that the current decline will be tiny *or that it is yet to begin*.**" ([WW 2014-12-17](../../raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md))
+
 
 ## January 2015 — gut vs instruments; the whipsaw pattern noticed
 
@@ -2401,6 +2507,22 @@ QQQ peaked on 11/22/2021 at day U-26 of the short-term up-trend. Dr. Wish notice
 ## November 2021 (mechanics) — what a declining 30-week means; cap-weighting masks the decline
 
 **"I started this blog in 2006 to share with people…" (2021-11-21):** "a declining 30 week moving average occurs when the latest week's price being added to the average is less than the 31st week being dropped… the current week's closing price is less than its closing price 31 weeks ago"; and cap-weighted SPY/QQQ at ATHs while the price-weighted DIA was not — mega-caps hiding the internal decline, days before the exit. ([WW 2021-11-21](../../raw/posts/2021-11-21-blog-post-day-25-of-qqq-short-term-up-trend-i-started-this-blog-in-2006-to-share-with-people-what-i-was-doing.md))
+
+## November 2021 (rates) — SHY as the short-rate proxy; a hedge word regretted
+
+**"Day 26 of $QQQ short term up-trend, but there were 438 new lows" (2021-11-23):** written the day after
+the November 2021 top. The short-rate instrument named and read technically: "the trend in short term rates can
+be tracked by the **1-3 year treasury bond ETF, SHY**. The chart below shows that SHY is already in a **daily
+BWR**… **lower bond prices mean higher interest rates** as bond traders sell current bonds that pay minimal
+interest and pursue newly issued bonds paying higher rates." The mechanism, sourced: "I have been reviewing the
+perspicacious writings of **Marty Zweig and Ned Davis** and am struck by their urgent advice **not to fight the
+Federal Reserve's intentions**… **higher rates suck \$\$\$ out of stocks because people can earn a decent return
+in interest type instruments**." The exit plan, three weeks before he executed it: "**a possible rise at the end
+of the 4th quarter mutual fund window dressing period in late December may offer the last chance to exit the
+market unscathed.**" And a small act of self-correction: "**I regret that I changed the word *scared* to
+*concerned* in yesterday's post**" — he had softened his own language in public and retracted the softening.
+438 new lows against 232 new highs. ([WW 2021-11-23](../../raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md))
+
 
 ## December 2021 (pension) — the trigger named in advance: the last GMI component
 
@@ -3117,3 +3239,11 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2014-03-23 — qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out](../../raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md) ([summary](../sources/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md))
 - [WW 2017-12-10 — when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend](../../raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md) ([summary](../sources/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md))
 - [WW 2018-10-28 — 0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are](../../raw/posts/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md) ([summary](../sources/2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are.md))
+- [WW 2005-08-19 — gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo](../../raw/posts/2005-08-19-gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo.md) ([summary](../sources/2005-08-19-gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo.md))
+- [WW 2008-02-25 — gmi-0-gmi-r-0-nibbling-a-little-at-rocket-stocks](../../raw/posts/2008-02-25-gmi-0-gmi-r-0-nibbling-a-little-at-rocket-stocks.md) ([summary](../sources/2008-02-25-gmi-0-gmi-r-0-nibbling-a-little-at-rocket-stocks.md))
+- [WW 2008-03-10 — gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short](../../raw/posts/2008-03-10-gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short.md) ([summary](../sources/2008-03-10-gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short.md))
+- [WW 2009-12-21 — some-new-rocket-stocks-to-watch](../../raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md) ([summary](../sources/2009-12-21-some-new-rocket-stocks-to-watch.md))
+- [WW 2010-08-02 — successful-saturday-aaia-presentation-ung-bottoming](../../raw/posts/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md) ([summary](../sources/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md))
+- [WW 2011-08-22 — current-market-decline-is-nothing-unusual](../../raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md) ([summary](../sources/2011-08-22-current-market-decline-is-nothing-unusual.md))
+- [WW 2014-12-17 — 2nd-day-of-qqq-short-term-down-trend-super-cautious](../../raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md) ([summary](../sources/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md))
+- [WW 2021-11-23 — blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on](../../raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md) ([summary](../sources/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md))

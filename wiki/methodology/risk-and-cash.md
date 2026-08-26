@@ -1,7 +1,7 @@
 ---
 title: Risk & cash
 type: concept
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-26-general-market-index-gmi.md
@@ -95,6 +95,11 @@ sources:
   - raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md
   - raw/posts/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md
   - raw/posts/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md
+  - raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md
+  - raw/posts/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md
+  - raw/posts/2008-02-25-gmi-0-gmi-r-0-nibbling-a-little-at-rocket-stocks.md
+  - raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md
+  - raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md
 ---
 
 # Risk & cash
@@ -230,6 +235,20 @@ stated as plainly as the downward one: "**When stocks surge on good earnings, li
 week, we know that we are in a strong up-trend where funds and traders are buying strength.**" ([WW 2009-10-26](../../raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md)) Same
 instrument, opposite verdict — what matters is not the news but what the leaders do with it.
 
+**Nibbling — buying inside a down-trend, deliberately (2008).** With the GMI at zero and himself "on the sideline
+for most of the decline," a small group of stocks was making new highs anyway: "**it seems to me it may be
+prudent to nibble a little at these strong performers**… **I may nibble at some of these stocks and place close
+stops in case they reverse.**" ([WW 2008-02-25](../../raw/posts/2008-02-25-gmi-0-gmi-r-0-nibbling-a-little-at-rocket-stocks.md)) Three constraints make it a mode rather than a lapse — small size,
+close stops, and only names printing new highs *against* the tape. The same post adds an income overlay that
+appears nowhere else in this context: "many of these stocks have **rich premiums** on their March call options.
+**I may buy some shares and immediately write March calls**" — a buy-write into a hostile market, where the
+premium the market's fear has inflated pays for part of the risk it is imposing.
+
+**Media consumption as measurable impairment (2009).** "I listened a little to CNBC last week and realized **how
+anxious I became about the market and how much my judgment was impaired**." ([WW 2009-12-21](../../raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md)) And in 2011, after a
+similar stretch: "I am tired of listening to them pontificate about how long the decline will last… **no one
+knows the answers to such questions.**" ([WW 2011-08-22](../../raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md)) See [noise isolation](#noise-isolation-as-a-precondition-for-clear-analysis).
+
 ## Position management within a bull market
 
 He does not go all-in at once. From Livermore via Dr. Wish: make a **pilot buy** first, add more only as the stock moves in the predicted direction, average up never down. ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
@@ -267,6 +286,19 @@ during the day and to sleep peacefully at night.**" ([WW 2005-07-19](../../raw/p
 method viable for someone with a full-time academic job, which is a design constraint the rest of the system
 inherits — it is also why the [GLB mental stop](green-line-breakouts.md#the-stop-rule-for-glb-positions), which
 requires watching near the close, is the exception he flags rather than the rule.
+
+**Two stop levels, and the entry decides which (2009).** Publishing a table of rocket candidates, he lists **both
+a short-term and a long-term support level per stock** and explains the choice between them: "**the most
+conservative stop loss is the short term support level. With a growth stock I rarely retain a long position if
+the stock *closes* below its short term support level. However, if I bought near long term support I might use
+the LT support level as my exit strategy.**" ([WW 2009-12-21](../../raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md)) The stop is not a property of the stock but of the
+*trade* — buy near long-term support and you have bought the room to use it. And the protection is immediate:
+"**I immediately enter a sell stop or buy a put option for insurance, after buying one of these high momentum
+stocks**," because "one never knows when an up-trend will end."
+
+**The gate as a statement about his own results (2010).** "**I tend to make money trading on the long side only
+when these indexes close above their 10 week averages.**" ([WW 2010-08-02](../../raw/posts/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md)) Not a claim about markets — a claim about
+what has worked for him, which is the form most of his rules take when stated carefully.
 
 ## Noise isolation as a precondition for clear analysis
 
@@ -513,7 +545,11 @@ can still be worth following, and it depends on the
 
 Studied on the 1929–32 and 1974 bears with a 50-week average of weekly volume: the bottom arrives when down-week volume shrinks below the average, then "a huge green spike soon after the bottom, followed by a number of green spikes several months later, after a re-test" — up-volume larger than anything in months, larger again after the re-test as "people became more confident of the earlier bottom." Applied to February 2009: "the red spikes are unceasing… the green spikes (up weeks) tend to be *lower* than the red spikes. This is not a market set to bottom like the prior bears." He stayed mainly in cash with some IRA puts, and the low arrived a week later — the signature was for confirming a bottom, not for predicting one: "no one can detect a bottom until sometime after it has occurred." ([WW 2009-03-01](../../raw/posts/2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning.md))
 
-## TLT — how he reads long rates
+## SHY and TLT — how he reads rates
+
+**The short end (2021).** "The trend in short term rates can be tracked by the **1-3 year treasury bond ETF, SHY**. The chart below shows that SHY is already in a **daily BWR**… **lower bond prices mean higher interest rates** as bond traders sell current bonds that pay minimal interest and pursue newly issued bonds paying higher rates." ([WW 2021-11-23](../../raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md)) The GMMA pattern language runs on the rate instrument exactly as it does on a stock, which keeps the rate view technical rather than forecast. The mechanism he attaches is competition for capital, and he sources it: "I have been reviewing the perspicacious writings of **Marty Zweig and Ned Davis** and am struck by their urgent advice **not to fight the Federal Reserve's intentions**… **Higher rates suck \$\$\$ out of stocks because people can earn a decent return in interest type instruments rather than from more risky stocks.**"
+
+### The long end
 
 The [rate indicator](#the-rate-indicator-is-on-his-charts-from-the-start) tracks the short end. For the long end
 he watches a bond ETF, and has done since **September 2005** — TLT appears in the Katrina post above, and by March 2006 he was running the stage test on it: "this chart of the **20+ year Treasury Index** shows an **ominous curving down of the 30 week average**. In addition, the **ten week average is below the 30 week for the first time since September, 2004**." ([WW 2006-03-06](../../raw/posts/2006-03-06-gmi-6-short-housing.md)) The 2016 post below is where he states the *purpose* most plainly: "I follow the **20+ year government bond ETF, TLT, as an indicator of how
@@ -682,3 +718,8 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2018-01-01 — The red lines and the blue lines read as two different warnings](../../raw/posts/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md) ([summary](../sources/2018-01-01-coal-is-hot-so-are-steel-copper-and-aluminum-btu-wounded-leaders-nvda-aapl-fb-nflx-sq.md))
 - [WW 2005-07-19 — The earnings rally, and why he uses sell stops](../../raw/posts/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md) ([summary](../sources/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md))
 - [WW 2015-09-20 — Stage 4 defined, and missed upside priced as insurance](../../raw/posts/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md) ([summary](../sources/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md))
+- [WW 2009-12-21 — The rocket criteria, and two stop levels per position](../../raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md) ([summary](../sources/2009-12-21-some-new-rocket-stocks-to-watch.md))
+- [WW 2010-08-02 — Why commodities are the exception to buying all-time highs](../../raw/posts/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md) ([summary](../sources/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md))
+- [WW 2008-02-25 — Nibbling in a down-trend - with close stops and written calls](../../raw/posts/2008-02-25-gmi-0-gmi-r-0-nibbling-a-little-at-rocket-stocks.md) ([summary](../sources/2008-02-25-gmi-0-gmi-r-0-nibbling-a-little-at-rocket-stocks.md))
+- [WW 2011-08-22 — Every multi-week Dow decline since 1916, counted](../../raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md) ([summary](../sources/2011-08-22-current-market-decline-is-nothing-unusual.md))
+- [WW 2021-11-23 — SHY as the short-rate proxy; a hedge word regretted](../../raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md) ([summary](../sources/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md))

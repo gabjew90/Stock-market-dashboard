@@ -63,6 +63,7 @@ sources:
   - raw/posts/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md
   - raw/posts/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md
   - raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md
+  - raw/posts/2005-08-19-gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo.md
 ---
 
 # Moving-average rules
@@ -141,6 +142,23 @@ average is now starting to level off**." ([WW 2014-03-23](../../raw/posts/2014-0
 before it says anything: flattening is the first stage of the same process, and it is read independently of
 whatever price pattern is forming above it. The general form is on
 [Stage 4](#the-four-stages) and the [onset rule](#the-30-week-average--the-long-term-trend-anchor).
+
+## The naked chart — and the 10/30 relationship
+
+A presentation trick with a rule inside it. He plots the **10-day and 30-day averages with the price bars
+removed**: "it was clear that the up trend in a stock (GOOG as an example) was clearly shown by the **10 day
+average's being consistently above the 30 day average**." ([WW 2005-08-19](../../raw/posts/2005-08-19-gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo.md)) Stripping price out is the point — what
+is left is the relationship between two lines, with no bar to rationalise.
+
+The rule it produced, stated as a lesson after GOOG's August 2005 breakdown:
+
+> "**Do not buy or hold any stock where its 10 day average is consistently below its 30 day average. Such stocks
+> are my short candidates, especially after a long period where the 10 day was above the 30 day.**"
+
+Two details carry weight. **"Consistently"** — a single crossing is not the signal; the relationship has to hold.
+And the best short candidates are **former leaders**: a stock that spent a long stretch with the 10-day on top and
+then loses it has changed character, which is a different thing from a stock that was always weak. The same
+10/30 relationship becomes the published short-term trend test in December 2005; this is the per-stock version.
 
 ## The 10-day average — the yellow light
 
@@ -420,3 +438,4 @@ to take no position **on either side** — the diagnosis is about the regime, no
 - [WW 2015-09-20 — Stage 4 defined, and missed upside priced as insurance](../../raw/posts/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md) ([summary](../sources/2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding.md))
 - [WW 2009-02-02 — Why component 1 can stay negative for months](../../raw/posts/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md) ([summary](../sources/2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend.md))
 - [WW 2014-03-23 — The down-trend duration study, with its n and its definition](../../raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md) ([summary](../sources/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md))
+- [WW 2005-08-19 — The naked chart, and the 10/30 rule it produced](../../raw/posts/2005-08-19-gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo.md) ([summary](../sources/2005-08-19-gmi-declines-to-2-only-20-of-stocks-in-up-trend-goog-and-mo.md))

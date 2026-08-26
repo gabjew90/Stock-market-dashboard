@@ -75,6 +75,8 @@ sources:
   - raw/posts/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md
   - raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md
   - raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md
+  - raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md
+  - raw/posts/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md
 ---
 
 # Stock selection
@@ -198,6 +200,12 @@ IBD 50 outperformance (documented 2012): from December 2011 through April 2012, 
 The buy-stop entry, worked on BTU in June 2005: a gap to a new high on Friday at 52.71; "I placed a stop order Sunday night to buy the stock if it traded above Friday's intraday high price of 52.91. After the buy stop was executed around 53.10 on Monday, I placed a sell stop in just below Friday's" low. ([WW 2005-06-13](../../raw/posts/2005-06-13-gmi-back-to-5-chart-of-gmi-performance-btu.md))
 
 **A 52-week-high + recent-earnings scan (March 2014).** Seventeen hits, almost half of them energy, with FANG the pick on a 30% February rise, a five-week consolidation, a fresh breakout and expanding Bollinger bands. The market gate still bound: "with the GMI on a recent Sell signal, I will keep my powder dry." ([WW 2014-03-30](../../raw/posts/2014-03-30-5th-day-of-qqq-short-term-down-trend-fang-shows-strength.md)) The same post carries the [3:45 PM rule](scans.md#the-biotech-scan--volume-plus-news-catalyst), six months before the September 2014 statement usually cited for it.
+
+**The strictest version, and its yield (December 2009).** "My most stringent fundamental and technical criteria
+for rockets": already **doubled year-on-year**, **near a 5-year or all-time high**, and **last quarterly earnings
+up at least 100%** — which returned **11 stocks out of 4,000**. ([WW 2009-12-21](../../raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md)) Seven of the eleven had appeared on
+an IBD 100 or New America list during the previous year, which he notes as corroboration rather than as a
+criterion.
 
 ## Price level preference — $80+ (2011) → $100+ (2018) → $200+ (2021)
 
@@ -365,6 +373,26 @@ GLB and a clean daily RWB) on the page.
 Two later refinements do the same job with a scan rather than by eye: the
 [industry-index variant](scans.md#the-rwb-bouncing-off-support-scan-2015--yield-and-an-industry-index-variant)
 of the RWB-bounce scan (2015) and the relative-strength scan run across industry indexes (2022).
+
+## Commodities are the exception — and he says why
+
+The all-time-high rule is for equities, and the reason it does not extend to commodities is stated as a
+difference in kind rather than in style ([WW 2010-08-02](../../raw/posts/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md)):
+
+> "**I usually only buy stocks at all-time highs. Commodities are different, however, because they have a true
+> value. Natural gas is not likely to go to zero. I therefore think that commodities go back and forth between
+> oversold and overbought.**"
+
+A stock can go to zero, so its price has no floor and the only defensible stance is to follow the trend and cut
+losses. A commodity has use value, so its price does have a floor and the sensible model is oscillation between
+extremes. That is why UNG gets bought **oversold** — an extreme stochastic low followed by a buy signal, with the
+monthly chart showing a first close above the **5-month average** since July 2008 — while a stock in the same
+condition would be a [submarine](short-side.md), not a candidate. The scaling rule still applies: a small
+starter, added to "if UNG continues to strengthen."
+
+The same logic sits behind [I-bonds](risk-and-cash.md#where-the-cash-sits--i-bonds-as-the-ultra-safe-sleeve) and
+behind [dollar-cost averaging into funds but never into single names](pension-management.md#new-money-vs-old-money-in-a-decline) —
+in each case the question is whether the instrument can go to zero.
 
 ## O'Neil 1995 workshop: volume over EPS
 
@@ -586,3 +614,5 @@ guide me**." ([WW 2005-07-19](../../raw/posts/2005-07-19-enjoy-the-earnings-rall
 - [WW 2005-07-19 — The earnings rally, and why he uses sell stops](../../raw/posts/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md) ([summary](../sources/2005-07-19-enjoy-the-earnings-rally-gmi-6-posted-stocks-at-new-highs.md))
 - [WW 2016-03-27 — When GLBs stop working - regime, not technique](../../raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md) ([summary](../sources/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md))
 - [WW 2009-10-12 — The IBD 100's top ten audited; why he trusts an empirical screen](../../raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md) ([summary](../sources/2009-10-12-ibd-100-list-top-ten-do-outperform.md))
+- [WW 2009-12-21 — The rocket criteria, and two stop levels per position](../../raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md) ([summary](../sources/2009-12-21-some-new-rocket-stocks-to-watch.md))
+- [WW 2010-08-02 — Why commodities are the exception to buying all-time highs](../../raw/posts/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md) ([summary](../sources/2010-08-02-successful-saturday-aaia-presentation-ung-bottoming.md))

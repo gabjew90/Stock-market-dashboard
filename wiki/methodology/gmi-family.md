@@ -27,6 +27,7 @@ sources:
   - raw/posts/2006-02-13-gmi-4-gmi-s-25-small-caps-weaken-on-side-lines.md
   - raw/posts/2006-03-06-gmi-6-short-housing.md
   - raw/posts/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md
+  - raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md
 ---
 
 # The GMI family — GMI-S, GMI-L, GMI-R, GMI2 and the rest of the daily table
@@ -131,6 +132,14 @@ Friday. That is because two of my daily stochastic indicators (10.1 and 10.4) re
 *how far price had fallen*, not that conditions had improved. The oscillator components make the GMI-2 partly a
 mean-reversion gauge, which is the opposite of what the GMI's trend components measure — so the two indexes can
 and do move apart at exactly the moments they are most consulted.
+
+**A statistic on trial, December 2009.** "37% of the Nasdaq100 stocks had their **fast stochastic line above
+their slow stochastic line, a new measure of the short term up-trend that I am trying out**." ([WW 2009-12-21](../../raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md)) The
+same oscillator relationship that later appears as GMI2 components (the 10.1 and 10.4 stochastic rows) is being
+tested as a *breadth* statistic here — the share of an index's components with the fast line on top — two years
+before the GMI2 existed. It is the third instance of his habit of introducing a candidate row in public and
+saying it is provisional; compare the [doubler indicator](#the-2005-breadth-rows) (2005) and the
+[four-days-above-the-10-day statistic](#what-else-the-daily-table-publishes) (2006).
 
 ## 2011 → 2026 — GMI2: a *growing* companion index, not a fixed 6
 
@@ -254,3 +263,4 @@ small caps in November 2005.
 - [WW 2006-02-13 — A new breadth statistic introduced; small caps break ranks first](../../raw/posts/2006-02-13-gmi-4-gmi-s-25-small-caps-weaken-on-side-lines.md) ([summary](../sources/2006-02-13-gmi-4-gmi-s-25-small-caps-weaken-on-side-lines.md))
 - [WW 2006-03-06 — The housing top called; long bonds turning in 2006](../../raw/posts/2006-03-06-gmi-6-short-housing.md) ([summary](../sources/2006-03-06-gmi-6-short-housing.md))
 - [WW 2007-10-16 — The GMI-R introduced - dated](../../raw/posts/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md) ([summary](../sources/2007-10-16-gmi-6-gmi-revised-edu-another-one-of-judys-picks.md))
+- [WW 2009-12-21 — The rocket criteria, and two stop levels per position](../../raw/posts/2009-12-21-some-new-rocket-stocks-to-watch.md) ([summary](../sources/2009-12-21-some-new-rocket-stocks-to-watch.md))

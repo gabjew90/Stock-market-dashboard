@@ -1,7 +1,7 @@
 ---
 title: Trading psychology — the rules he uses on himself
 type: concept
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md
   - raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md
@@ -40,6 +40,7 @@ sources:
   - raw/posts/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md
   - raw/posts/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md
   - raw/posts/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md
+  - raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -92,6 +93,12 @@ still has to clear the rules.
 ## 3. Fear will make you break your own rule — he did, and said so
 
 The clearest confession in the corpus. His pension rule is that the QQQ's 30-week average must turn down before that money leaves the market. In 2014 it never did; he moved most of the pension to money market anyway. "**The huge increase in my pension account since 2009 together with my fear of losing the gains caused me to ignore my primary rule and to prematurely go to cash.** I am back in the market now… As one gets closer to retirement, s/he must deal with the fear of losing needed savings versus staying invested." ([WW 2015-03-01](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md)) The remedy he reached for was not more will-power but the rule he had already written down — see [the two accounts](pension-management.md).
+
+**And the small refusal that goes the other way (2021).** Written the day after the November 2021 top: "**I
+regret that I changed the word *scared* to *concerned* in yesterday's post** when I characterized my current take
+on the market." ([WW 2021-11-23](../../raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md)) He had softened his own language in public and retracted the softening the next day.
+It is a minor act and a revealing one — the discipline is not only about acting on fear correctly but about
+*reporting* it accurately, since a record that hedges its own wording is a worse instrument to reason from later.
 
 ## 4. Sell down to the sleeping point
 
@@ -229,3 +236,4 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2005-07-05 — Turning on a dime — a losing hedge closed and the book reversed the same day](../../raw/posts/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md) ([summary](../sources/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md))
 - [WW 2015-10-25 — A GMI of 6 refused, and named as psychology](../../raw/posts/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md) ([summary](../sources/2015-10-25-15th-day-of-qqq-short-term-up-trend-still-a-chicken.md))
 - [WW 2005-09-01 — The chart as a check on the news story; 'the idea is to make money, not to be right'](../../raw/posts/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md) ([summary](../sources/2005-09-01-dreaded-september-gmi-3-stocks-show-strength-katrina-induced-lower-interest-rates.md))
+- [WW 2021-11-23 — SHY as the short-rate proxy; a hedge word regretted](../../raw/posts/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md) ([summary](../sources/2021-11-23-blog-post-day-26-of-qqq-short-term-up-trend-but-there-were-438-new-lows-and-232-new-highs-among-us-stocks-on.md))

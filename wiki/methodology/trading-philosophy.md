@@ -39,6 +39,7 @@ sources:
   - raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md
   - raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md
   - raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md
+  - raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md
 ---
 
 # Trading philosophy — the five propositions
@@ -340,6 +341,34 @@ classes, and because "**I believe that our education system has failed to prepar
 financial survival.** My students learn to greet assertions and advice from the pundits in the financial media
 with a heavy dose of skepticism and their own critical analysis."
 
+## The 1916–2011 decline study — his own dataset
+
+The most substantial piece of original historical research in the corpus, run to settle an argument he was tired
+of hearing. Method, stated with its own health warning ([WW 2011-08-22](../../raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md)):
+
+> "I decided to look at the long multi-week declines of the **Dow 30 Index since 1916. I computed the duration and
+> depth of every multi-week decline** that has occurred. **I defined a multi-week decline as one when the Dow
+> declined at least 15% in a few weeks without a consolidation along the way** — in other words, a steep,
+> unceasing decline. **My calculations were quick and dirty so do not hold me to them exactly. They still paint a
+> valid picture.**"
+
+**Findings:** 33 such declines since 1916; **30 of the 33 were deeper than 15%**; and four precedents matched the
+then-current shape of a 4-week, ≥15% fall — **1916, 1931, 1987, 2001**. The conclusion he drew was about
+distribution rather than direction: at 15% in 4 weeks, the decline sat at the shallow end of its own historical
+population, "**so this decline may have a lot further to go.**"
+
+**What it was built to refute:** "one of the most stupid ideas I have heard is to suggest that the current market
+decline is unique and caused by high frequency traders or program traders. **Human psychology has not changed and
+market behaviors continually repeat themselves**… **How many of these declines that occurred before the PC can we
+blame on program trading or high frequency trading!**" The argument is the same one that underwrites
+[why patterns repeat](#the-orthodox-agnostic) — if the mechanism is people, the mechanism predates the machinery
+blamed for it — and the test is a count rather than an assertion.
+
+Note the epistemic care on both sides: he publishes the definition his count depends on, flags the arithmetic as
+rough, and states the conclusion as a probability shift rather than a forecast. The same discipline appears in
+the [51-down-trend study](qqq-short-term-timing.md#trend-duration-statistics--what-he-has-actually-published)
+("as I define them") three years later.
+
 ## The lineage he names
 
 The influences are stated, not implied: Darvas (the first book he assigns), Weinstein's stage analysis, O'Neil, Livermore via Lefèvre, Guppy for the multiple-moving-average charts, and — from October 2016 — Mark Minervini and David Ryan, after three days at Minervini's Master Trader Program: "600 slides that taught everything from how to select stocks, the price patterns that are most profitable, the way to set stops, pyramid up, and close out positions. They gave the best information on the value of cutting losses that I have ever seen… He has put into a 3 day session much of what it took me over 50 years to learn." Both offered to lecture his students, and the later @markminervini / MarketSmith / VCP references on the blog trace to this. ([WW 2016-10-25](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))
@@ -390,3 +419,4 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2009-12-27 — The naive participant, at both poles](../../raw/posts/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md) ([summary](../sources/2009-12-27-my-post-from-the-bear-market-bottom-weak-tjx-gmma-shows-qqqq-in-strong-up-trend.md))
 - [WW 2009-10-12 — The IBD 100's top ten audited; why he trusts an empirical screen](../../raw/posts/2009-10-12-ibd-100-list-top-ten-do-outperform.md) ([summary](../sources/2009-10-12-ibd-100-list-top-ten-do-outperform.md))
 - [WW 2010-07-30 — The blog's statement of purpose, and the method in one paragraph](../../raw/posts/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md) ([summary](../sources/2010-07-30-gmi-back-to-5-qqqq-short-term-up-trend-completes-5th-day-ung.md))
+- [WW 2011-08-22 — Every multi-week Dow decline since 1916, counted](../../raw/posts/2011-08-22-current-market-decline-is-nothing-unusual.md) ([summary](../sources/2011-08-22-current-market-decline-is-nothing-unusual.md))

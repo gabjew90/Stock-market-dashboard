@@ -1,7 +1,7 @@
 ---
 title: The short side — submarine scan, shorting, hedging and options overlays
 type: concept
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-06-08-using-put-options-to-limit-losses-on-cme-and-goog-gmi-back-to-5.md
@@ -36,6 +36,7 @@ sources:
   - raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md
   - raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md
   - raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md
+  - raw/posts/2008-03-10-gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short.md
 ---
 
 # The short side — submarine scan, shorting, hedging and options overlays
@@ -64,6 +65,20 @@ When the GMI is weak and the market is in a down-trend, Dr. Wish scans for **sub
 **IBD-100 stocks in down-trends fall harder:** Dr. Wish documented that in the May 2006 market decline, only 14% of IBD-100 stocks rose while 85% declined, with a median decline of -7.2% vs -3.5% for Nasdaq-100 stocks. Growth stocks amplify both up-moves and down-moves — this is why they need to be sold (or shorted) when the market trend turns. ([WW 2006-05-22](../../raw/posts/2006-05-22-gmi-0-ibd-100-stocks-decline-more-my-epiphany-on-discount-brokers-submarine-stocks.md))
 
 **Measured once, in 2010.** The nine stocks the scan produced on 2010-04-29 were tracked with a TC2007 watchlist report: all nine declined, and **five (56%) fell 15% or more**, against 17% of Nasdaq-100 and 19% of S&P 500 components over a stretch in which QQQQ fell 11% and SPY 10% — "my submarine scan detected stocks that were more likely to have taken big dives than would be expected." PWRD, singled out in the original post, gapped down hard on 5/17. ([WW 2010-05-24](../../raw/posts/2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous.md)) It is the only published performance check on the scan.
+
+**A submarine trade specified end to end (March 2008).** EDU is the worked case: "tripled, formed a top and then
+**broke down on huge volume** (when the company talked of tougher earnings comparisons)… after breaking below its
+**30 week average**, EDU rebounded and **failed last week to hold that line**. Furthermore, its **10 week average
+is now below its 30 week average**." So the entry is the *failed retest* of the 30-week from underneath, with the
+10/30 relationship already inverted — not the initial break. The expression and the invalidation: "this is the
+type of stock I might short by **buying a put in my IRA**. **I would close the trade with a loss if the stock
+trades again above last week's high of 67.40.**" ([WW 2008-03-10](../../raw/posts/2008-03-10-gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short.md)) A price-to-sales ratio over 13 supplies the
+fundamental half of the case.
+
+The tape summary that framed it — **55 rockets against over 500 submarines** — with the conclusion stated as
+odds and cash offered as the equal alternative: "**the odds of success favor going short on a submarine like this
+rather than betting on the rare rocket on the long side. Alternatively, I could wait safely on the sideline, in
+cash.**"
 
 ## The topping-pattern scan
 
@@ -226,3 +241,4 @@ a double bottom near 114.50 and the 30-week flattening.
 - [WW 2006-07-17 — Why he tracks a fixed IBD 100 list; what cash was paying](../../raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md) ([summary](../sources/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md))
 - [WW 2006-06-27 — Inverse ETFs arrive; new products as a contrary indicator](../../raw/posts/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md) ([summary](../sources/2006-06-27-gmi-0-3-ibd-100-new-highs-new-etfs-to-short-indexes-a-bullish-sign.md))
 - [WW 2016-10-16 — TLT as the rate proxy; the jigsaw that fits until it doesn't](../../raw/posts/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md) ([summary](../sources/2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall.md))
+- [WW 2008-03-10 — The submarine trade fully specified; T2108's bottom band calibrated](../../raw/posts/2008-03-10-gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short.md) ([summary](../sources/2008-03-10-gmi-0-gmi-r-0-short-or-in-cash-edu-as-a-model-short.md))

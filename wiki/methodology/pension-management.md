@@ -1,7 +1,7 @@
 ---
 title: The two accounts — university pension vs trading IRA
 type: concept
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md
@@ -36,6 +36,7 @@ sources:
   - raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md
   - raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md
   - raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md
+  - raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md
 ---
 
 # The two accounts — university pension vs trading IRA
@@ -168,6 +169,11 @@ move is structural. See [reader-qa.md](reader-qa.md).
 
 The constraint reached the blog in December 2010, from a reader locked out of re-buying a fund after selling: "a lot of funds… have instituted restrictions against timing the market… I do not trade my university pension mutual funds often, but when my indicators tell me that a big down-trend is likely, I move to cash. I therefore safely rode out the 2000-2002 and 2008 declines on the sidelines… The only good alternative right now is to get out of mutual funds and invest in suitable ETF's." ([WW 2010-12-06](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md)) (Five years later the August 2015 flash crash cooled him on ETFs for the slow money — see above.)
 
+**And the clearest single sentence of it (2014).** "**If I could frequently trade my mutual funds in my
+university pension, I would have transferred some money to money market funds.**" ([WW 2014-12-17](../../raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md)) The pension stayed
+invested because of a transfer limit, not because the signal said hold — worth keeping in view whenever the
+two-speed design is read as pure doctrine. Some of the patience is imposed.
+
 ## New money vs old money in a decline
 
 A distinction between the balance and the flow: even with the pension **balance** moved to money market, "money
@@ -269,3 +275,4 @@ The 2011 statement, mid-decline: the best-days studies "fail to note that one di
 - [WW 2018-02-04 — Put/call 1.2 and stochastic .20; the monthly top signature in three stages](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md) ([summary](../sources/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))
 - [WW 2012-10-21 — The two-tier timing rules, written to settle reader confusion](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md) ([summary](../sources/2012-10-21-timing-the-market-short-or-in-cash.md))
 - [WW 2021-12-05 — The pension trigger named in advance - the last GMI component](../../raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md) ([summary](../sources/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md))
+- [WW 2014-12-17 — The duration rule restated; the pension constraint biting](../../raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md) ([summary](../sources/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md))

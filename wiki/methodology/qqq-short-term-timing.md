@@ -31,6 +31,7 @@ sources:
   - raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md
   - raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md
   - raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md
+  - raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md
 ---
 
 # QQQ Short-Term Timing
@@ -107,6 +108,12 @@ define them**" is his own parenthesis: the count depends entirely on his trend d
 conditional on that rule and does not transfer to anyone else's timing method. The operational use is the Day-5
 rule: "**if a short term down-trend begins, I will be more sure of it once it passes day 5 and add more SQQQ
 then.**"
+
+**Both halves of the rule (December 2014).** The restatement nine months after the study carries the clause that
+usually gets dropped: "since 2006, about **40% of short term down-trends (the way I define them) have lasted 5
+days or less. Once one passes 5 days, it often goes a lot further.**" ([WW 2014-12-17](../../raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md)) So Day 5 is not merely a
+filter against noise — passing it is itself information, which is why it works as an *accumulation* trigger: "I
+own mainly SQQQ and **will accumulate more if this decline lasts 5 days**."
 
 ## Relationship to the GMI
 
@@ -199,3 +206,4 @@ up-trend can only be young or old relative to the distribution of previous ones,
 - [WW 2010-10-11 — The ultra-ETF measurement repeated; a bounce scan built for students](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md) ([summary](../sources/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md))
 - [WW 2012-10-21 — The two-tier timing rules, written to settle reader confusion](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md) ([summary](../sources/2012-10-21-timing-the-market-short-or-in-cash.md))
 - [WW 2014-03-23 — The down-trend duration study, with its n and its definition](../../raw/posts/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md) ([summary](../sources/2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out.md))
+- [WW 2014-12-17 — The duration rule restated; the pension constraint biting](../../raw/posts/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md) ([summary](../sources/2014-12-17-2nd-day-of-qqq-short-term-down-trend-super-cautious.md))
