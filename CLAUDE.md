@@ -230,7 +230,7 @@ default; `--apply` writes, then run `ww ledger export`. Logic and thresholds: `s
 
 ## 6. Resuming a session
 
-0. **Check the corpus is there.** `ls raw/posts | wc -l` should print ~4,694 — the corpus
+0. **Check the corpus is there.** `ls raw/posts | wc -l` should print ~4,700 — the corpus
    is committed, so a normal checkout already has it and no scrape is needed. Only re-scrape
    to pull posts published since the last one (`ww scrape && ww ledger apply`, then commit
    both `raw/posts/` and the ledger). That needs outbound access to `wishingwealthblog.com`;
@@ -242,14 +242,25 @@ default; `--apply` writes, then run `ww ledger export`. Logic and thresholds: `s
 3. Pick up the next Ingest batch (or whatever the human asks). Read THIS file again
    if it's been a while.
 
-**Corpus state as of 2026-08-12 (evening):** 4,694 posts (2005-04-17 → 2026-08-11),
-re-scraped and **committed** — `raw/posts/` and `raw/posts.jsonl` are now in version control
-(see §1). The scrape picked up 39 posts published since the previous 2026-05-11 corpus.
+**Corpus state as of 2026-08-26:** 4,700 posts (2005-04-17 → 2026-08-23), re-scraped and
+**committed** — `raw/posts/` and `raw/posts.jsonl` are in version control (see §1).
 `raw/url_map.json` still catalogues slug→URL.
 
-**The corpus is fully ingested as of 2026-08-26: 4,694 / 4,694, queue empty.** By tier:
-**477 `teaching` / `trade_example`** posts, each with a summary page under `wiki/sources/`;
-**4,216 `daily_update`**; **1 `meta`**. Of the daily updates, ~3,900 were screened by `ww tier`
+**A scraper bug that silently dropped posts — fixed 2026-08-26, worth knowing about.** `ww scrape`
+paginated the WordPress API **newest-first** while caching pages 2+ to `raw/api/`. Publishing K new
+posts shifted every offset by K, so the K posts that had been at the tail of a cached page slid
+across the boundary and were never re-fetched — they vanished from `raw/posts.jsonl` while their
+`raw/posts/*.md` files stayed on disk (which is why `ww lint` never noticed: citations resolve to
+files). Six posts from 2025-11-27 → 2025-12-07 were lost this way, one of them a `teaching` post
+cited on three wiki pages. `wp_api.py` now paginates **oldest-first** (`order=asc`), so new posts
+append and every earlier offset is stable; only the final short page is left uncached. Three tests
+in `tests/test_wp_api.py` pin this, including a scrape → publish → re-scrape regression.
+**If you ever see `ls raw/posts | wc -l` exceed the `posts.jsonl` row count, that is this class of
+bug** — compare the two sets before assuming a post was deleted upstream, and check the live URL.
+
+**The corpus is fully ingested as of 2026-08-26: 4,700 / 4,700, queue empty.** By tier:
+**477 `teaching` / `trade_example`** posts (455 + 22), each with a summary page under
+`wiki/sources/`; **4,222 `daily_update`**; **1 `meta`**. Of the daily updates, ~3,900 were screened by `ww tier`
 (each carrying a `[bulk-tiered]` summary saying why) and ~300 were **read individually** during the
 2026-08-26 tail sweep and judged routine — those carry a `[read in the … tail sweep]` summary
 distinguishing "read and found routine" from "screened without reading". Run

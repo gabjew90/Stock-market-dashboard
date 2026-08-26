@@ -32,9 +32,17 @@ def iter_post_pages(
 ) -> Iterator[list[dict]]:
     """Yield successive pages (lists of post dicts) from `<base_url>/wp-json/wp/v2/posts`.
 
+    Posts are paginated **oldest-first** (`order=asc`), which is what makes the page
+    cache sound: a newly published post appends to the end, so every earlier post keeps
+    its offset and pages 1..N-1 are immutable. Under the newest-first ordering this used
+    until 2026-08-26, publishing K new posts shifted every offset by K, so the K posts
+    that crossed a cached page boundary became invisible - six were lost that way, still
+    live on the blog but absent from `raw/posts.jsonl`. `comments.py` had it right.
+
     Each fetched page is written to `<cache_dir>/page-NNNN.json`; if that file
-    already exists it is read from disk and no HTTP request is made. Pagination
-    stops on an empty page, a 400 `rest_post_invalid_page_number`, or `max_pages`.
+    already exists it is read from disk and no HTTP request is made. Only FULL pages are
+    cached - the final short page is where new posts land. Pagination stops on an empty
+    page, a 400 `rest_post_invalid_page_number`, or `max_pages`.
     `delay` seconds are slept between *network* requests (not cache hits).
     """
     cache_dir.mkdir(parents=True, exist_ok=True)
@@ -50,16 +58,12 @@ def iter_post_pages(
         page = 1
         while max_pages is None or page <= max_pages:
             cp = _cache_path(cache_dir, page)
-            # Page 1 is never served from cache: posts are fetched newest-first, so a
-            # post published since the last scrape lands on page 1, and a cached page 1
-            # would hide it forever. One extra request per scrape is the price of the
-            # documented "ww scrape to pull new posts" workflow actually working.
-            if page != 1 and cp.exists():
+            if cp.exists():
                 posts = json.loads(cp.read_text(encoding="utf-8"))
             else:
                 resp = client.get(
                     "/wp-json/wp/v2/posts",
-                    params={"per_page": per_page, "page": page, "_fields": fields, "orderby": "date", "order": "desc"},
+                    params={"per_page": per_page, "page": page, "_fields": fields, "orderby": "date", "order": "asc"},
                 )
                 if resp.status_code == 400:
                     try:
@@ -71,10 +75,9 @@ def iter_post_pages(
                     resp.raise_for_status()
                 resp.raise_for_status()
                 posts = resp.json()
-                # Cache full pages only (and never page 1 — see above). A short final page
-                # is where the oldest overflow sits after new posts push everything down;
-                # caching it would pin a stale boundary.
-                if page != 1 and len(posts) >= per_page:
+                # Cache FULL pages only. The final short page is where new posts land; caching
+                # it would hide them until the total crossed the next per_page boundary.
+                if len(posts) >= per_page:
                     cp.write_text(json.dumps(posts, ensure_ascii=False), encoding="utf-8")
                 if delay:
                     time.sleep(delay)

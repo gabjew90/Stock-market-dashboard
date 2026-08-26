@@ -1,10 +1,20 @@
 {
- "_note": "Dr. Wish's own WordPress category taxonomy, fetched 2026-08-12. The scraper requests only content/date/id/link/slug/title, so this was never captured. 'My Favorite Posts' is his own curation of what matters most — the highest-signal ingest queue. Stems generated with ww.paths.post_stem so they join to raw/posts.jsonl.",
+ "_note": "Dr. Wish's own WordPress category taxonomy, written by `ww scrape`. 'My Favorite Posts' is his curation of what matters most — the primary ingest queue.",
  "categories": {
   "General Market Index (GMI) table": {
    "id": 4,
-   "count": 866,
+   "count": 868,
    "posts": [
+    {
+     "stem": "2026-08-23-day-13-of-qqq-short-term-up-trend-weekly-chart-shows-qqq-to-be-right-on-its-4wk-and-10wk-averages-this-critic",
+     "date": "2026-08-23",
+     "title": "Day 13 of $QQQ short term up-trend; Weekly chart shows QQQ to be right on its 4wk and 10wk averages. This critical week should tell us whether QQQ will hold up of fall below these averages. The GMI is still Green, see table."
+    },
+    {
+     "stem": "2026-08-16-blog-day-8-of-qqq-short-term-up-trend-six-oil-and-gas-stocks-hit-an-ath-on-friday-almost-all-have-already-dou",
+     "date": "2026-08-16",
+     "title": "Blog: Day 8 of $QQQ short term up-trend. Six oil and gas stocks hit an ATH on Friday. Almost all have already doubled from their lowest price the past year. See list below and GMI table."
+    },
     {
      "stem": "2026-08-09-blog-day-3-of-qqq-short-term-up-trend-and-gmi6-and-green-this-weekly-chart-of-qqq-shows-its-current-strength",
      "date": "2026-08-09",
@@ -18,7 +28,7 @@
     {
      "stem": "2026-07-26-blog-modified-daily-guppy-chart-shows-the-current-trend-for-qqq-qqq-is-very-oversold-with-fridays-sfs-super-f",
      "date": "2026-07-26",
-     "title": "Blog: Modified Daily Guppy chart shows the current trend for $QQQ. QQQ is very oversold with Friday&#8217;s SFS (super fast stochastic) below 10. So QQQ may bounce this week. GMI remains RED, however. See Guppy charts for QQQ, AAPL, JNJ and the GMI table."
+     "title": "Blog: Modified Daily Guppy chart shows the current trend for $QQQ. QQQ is very oversold with Friday’s SFS (super fast stochastic) below 10. So QQQ may bounce this week. GMI remains RED, however. See Guppy charts for QQQ, AAPL, JNJ and the GMI table."
     },
     {
      "stem": "2026-07-19-blog-day-10-of-qqq-short-term-down-trend-as-expected-qqq-found-support-at-lower-15-2-daily-bollinger-band-see",
@@ -38,7 +48,7 @@
     {
      "stem": "2026-06-28-blog-day-3-of-qqq-short-term-down-trend-qqq-and-spy-are-now-below-their-10-week-averages-mag-7-etf-in-daily-b",
      "date": "2026-06-28",
-     "title": "Blog: Day 3 of $QQQ short term down-trend; QQQ and SPY are now below their 10 week averages; MAG 7 ETF in daily BWR down-trend, see chart and GLD&#8217;s blue dot bounce."
+     "title": "Blog: Day 3 of $QQQ short term down-trend; QQQ and SPY are now below their 10 week averages; MAG 7 ETF in daily BWR down-trend, see chart and GLD’s blue dot bounce."
     },
     {
      "stem": "2026-06-21-blog-day-6-of-qqq-short-term-up-trend-gmi-6-of-6-market-remains-in-short-and-longer-term-uptrends",
@@ -73,7 +83,7 @@
     {
      "stem": "2026-05-10-bog-post-day-22-of-qqq-short-term-up-trend-qqq-10-wk-avg-now-closes-week-above-30-wk-avg-gmigreen-glb-breakou",
      "date": "2026-05-10",
-     "title": "Blog Post: Day 22 of $QQQ short term up-trend; QQQ 10 wk avg now closes week above 30 wk avg; GMI=GREEN; GLB breakouts are rocketing higher!  Ignore the fearful pundits&#8217; predictions. Just watch the markets. See the miraculous 5 day EMA post GLB. Charts: QQQ, INTC, AMD, CHAT."
+     "title": "Blog Post: Day 22 of $QQQ short term up-trend; QQQ 10 wk avg now closes week above 30 wk avg; GMI=GREEN; GLB breakouts are rocketing higher!  Ignore the fearful pundits’ predictions. Just watch the markets. See the miraculous 5 day EMA post GLB. Charts: QQQ, INTC, AMD, CHAT."
     },
     {
      "stem": "2026-05-03-blog-post-day-17-of-qqq-short-term-up-trend-intc-has-successful-glb-while-nvda-has-a-failed-glb-see-daily-cha",
@@ -83,7 +93,7 @@
     {
      "stem": "2026-04-26-blog-post-day-12-of-qqq-short-term-up-trend-amzn-had-a-glb-on-friday-see-charts-the-link-to-last-weeks-moneys",
      "date": "2026-04-26",
-     "title": "Blog Post: Day 12 of $QQQ short term up-trend;  AMZN had a GLB on Friday, see charts; The link to last week&#8217;s MoneyShow presentation is on this blog&#8217;s webinar tab. Sign up there for my TraderLion MasterClass."
+     "title": "Blog Post: Day 12 of $QQQ short term up-trend;  AMZN had a GLB on Friday, see charts; The link to last week’s MoneyShow presentation is on this blog’s webinar tab. Sign up there for my TraderLion MasterClass."
     },
     {
      "stem": "2026-04-19-blog-post-day-day-6-of-qqq-short-term-up-trend-see-you-at-the-moneyshow-virtual-event-on-wednesday-gmi-remain",
@@ -98,7 +108,7 @@
     {
      "stem": "2026-04-05-blog-post-day-41-of-qqq-short-term-down-trend-qqq-finishing-stage-3-and-may-begin-stage-4-decline-i-never-fig",
      "date": "2026-04-05",
-     "title": "Blog Post: Day 41 of $QQQ short term down-trend; $QQQ finishing Stage 3 and may begin Stage 4 decline; I never fight the market&#8217;s trend. Only young people can wait out a decline and recovery. I believe that Boomers belong on the sidelines, protecting their hard earned savings and investments."
+     "title": "Blog Post: Day 41 of $QQQ short term down-trend; $QQQ finishing Stage 3 and may begin Stage 4 decline; I never fight the market’s trend. Only young people can wait out a decline and recovery. I believe that Boomers belong on the sidelines, protecting their hard earned savings and investments."
     },
     {
      "stem": "2026-03-29-blog-post-day-37-of-qqq-short-term-down-trend-gmi1-and-10-week-average-closes-week-below-30-week-average-see",
@@ -123,7 +133,7 @@
     {
      "stem": "2026-03-01-blog-post-day-17-of-qqq-short-term-down-trend-on-friday-60-stocks-reached-an-ath-utilities-12-gold-7-oil-gas",
      "date": "2026-03-01",
-     "title": "Blog Post: Day 17 of $QQQ short term down-trend; On Friday, 60 stocks reached an ATH:  Utilities (12), Gold (7), Oil &#038; Gas (7). Was $$$ flowing into these in anticipation of an IRAN strike? Monday&#8217;s action should tell us. Fasten your seat belts&#8230;."
+     "title": "Blog Post: Day 17 of $QQQ short term down-trend; On Friday, 60 stocks reached an ATH:  Utilities (12), Gold (7), Oil & Gas (7). Was $$$ flowing into these in anticipation of an IRAN strike? Monday’s action should tell us. Fasten your seat belts…."
     },
     {
      "stem": "2026-02-22-blog-day-12-of-qqq-short-term-down-trend-but-qqq-held-its-30-week-average-and-green-line-the-gmi-remains-on-a",
@@ -133,7 +143,7 @@
     {
      "stem": "2026-02-16-blog-day-8-of-qqq-short-term-down-trend-utilities-had-most-aths-13-see-list-followed-by-oilgas-10-rotation-aw",
      "date": "2026-02-16",
-     "title": "Blog: Day 8 of $QQQ short term down-trend;  Utilities had most ATHs (13, see list), followed by Oil&#038;Gas (10)! Rotation away from tech and growth to energy! $QQQ is back to where it was last October, on Green Line top and 30 week average! See weekly chart."
+     "title": "Blog: Day 8 of $QQQ short term down-trend;  Utilities had most ATHs (13, see list), followed by Oil&Gas (10)! Rotation away from tech and growth to energy! $QQQ is back to where it was last October, on Green Line top and 30 week average! See weekly chart."
     },
     {
      "stem": "2026-02-01-blog-post-day-6-of-qqq-short-term-up-trend-but-this-market-is-sending-out-warning-signals-too-many-investment",
@@ -188,7 +198,7 @@
     {
      "stem": "2025-11-23-blog-post-day-6-of-qqq-short-term-down-trend-74-us-new-highs-and-97-lows-fridays-late-bounce-held-qqqe-above",
      "date": "2025-11-23",
-     "title": "Blog Post: Day 6 of $QQQ short term down-trend; 74 US new highs and 97 lows; Friday&#8217;s late bounce held $QQQe above its 30 week average, but major indexes closed below their critical 10 week averages; GMI=RED and cash is king; See weekly 10:30 chart of $QQQ and my explanation."
+     "title": "Blog Post: Day 6 of $QQQ short term down-trend; 74 US new highs and 97 lows; Friday’s late bounce held $QQQe above its 30 week average, but major indexes closed below their critical 10 week averages; GMI=RED and cash is king; See weekly 10:30 chart of $QQQ and my explanation."
     },
     {
      "stem": "2025-11-16-blog-post-day-1-of-qqq-short-term-down-trend-qqq-found-support-again-at-lower-daily-15-2-bb-will-it-hold",
@@ -198,7 +208,7 @@
     {
      "stem": "2025-11-09-blog-post-social-media-abuzz-about-fridays-bounce-off-of-50-day-average-major-indexes-also-bounced-off-of-low",
      "date": "2025-11-09",
-     "title": "Blog Post: Social Media abuzz about Friday&#8217;s bounce off of 50 day average; Major indexes also bounced off of lower Bollinger Band and had a blue dot signal, see daily chart of $QQQ and analysis; This week we see whether the bounce can hold. GMI=3"
+     "title": "Blog Post: Social Media abuzz about Friday’s bounce off of 50 day average; Major indexes also bounced off of lower Bollinger Band and had a blue dot signal, see daily chart of $QQQ and analysis; This week we see whether the bounce can hold. GMI=3"
     },
     {
      "stem": "2025-11-02-blog-post-day-49-of-qqq-short-term-up-trend-qqq-dia-and-spy-remain-in-rwb-daily-up-trends-but-there-were-many",
@@ -213,7 +223,7 @@
     {
      "stem": "2025-10-19-blog-post-day-39-of-qqq-short-term-up-trend-much-weakness-on-friday-more-new-lows-than-highs-and-only-8-at-at",
      "date": "2025-10-19",
-     "title": "Blog Post: Day 39 of $QQQ  short term up-trend; Much weakness on Friday: more new lows than highs and only 8 at ATH, lowest since April 24!  Another possible head and shoulder&#8217;s top forming, see daily chart. GMI=4 but Green, see table."
+     "title": "Blog Post: Day 39 of $QQQ  short term up-trend; Much weakness on Friday: more new lows than highs and only 8 at ATH, lowest since April 24!  Another possible head and shoulder’s top forming, see daily chart. GMI=4 but Green, see table."
     },
     {
      "stem": "2025-10-12-blog-post-day-34-of-qqq-short-term-up-trend-it-could-end-on-monday-gmi-4-and-still-green-will-indexes-hold-on",
@@ -223,7 +233,7 @@
     {
      "stem": "2025-10-05-blog-post-day-29-of-qqq-short-term-up-trend-thank-you-for-the-many-likes-i-received-for-my-post-about-the-pun",
      "date": "2025-10-05",
-     "title": "Blog Post: Day 29 of $QQQ short term up-trend; Thank you for the many &#8220;likes&#8221; I received for my post about the pundits who are predicting an imminent market top.  NO ONE knows what the market will do, except by chance once in a while. I explain why I think collections of winning stocks can  mislead traders. Expect failed setups!"
+     "title": "Blog Post: Day 29 of $QQQ short term up-trend; Thank you for the many “likes” I received for my post about the pundits who are predicting an imminent market top.  NO ONE knows what the market will do, except by chance once in a while. I explain why I think collections of winning stocks can  mislead traders. Expect failed setups!"
     },
     {
      "stem": "2025-09-28-blog-post-day-24-of-qqq-short-term-up-trend-short-and-longer-term-up-trends-remain-intact-gmi6-of-6-see-1030",
@@ -248,17 +258,17 @@
     {
      "stem": "2025-09-01-blog-post-day-5-of-qqq-short-term-up-trend-but-qqq-raisng-some-serious-concerns-see-possible-head-and-shoulde",
      "date": "2025-09-01",
-     "title": "Blog Post: Day 5 of $QQQ short term up-trend; But $QQQ raisng some serious concerns, see possible Head and Shoulders top pattern in daily chart; Charts of $DIA and $SPY tell quite a different story; But check out $GOOGL&#8217;s daily chart."
+     "title": "Blog Post: Day 5 of $QQQ short term up-trend; But $QQQ raisng some serious concerns, see possible Head and Shoulders top pattern in daily chart; Charts of $DIA and $SPY tell quite a different story; But check out $GOOGL’s daily chart."
     },
     {
      "stem": "2025-08-24-blog-post-day-2-of-qqq-short-term-down-trend-likely-to-end-on-monday-les-masonsons-new-book-about-tqqq-and-le",
      "date": "2025-08-24",
-     "title": "Blog Post: Day 2 of $QQQ short term down-trend, likely to end on Monday; Les Masonson&#8217;s new book about TQQQ and leveraged ETFs just published!"
+     "title": "Blog Post: Day 2 of $QQQ short term down-trend, likely to end on Monday; Les Masonson’s new book about TQQQ and leveraged ETFs just published!"
     },
     {
      "stem": "2025-08-17-day-78-of-qqq-short-term-up-trend-tqqq-outperforms-again-if-you-bought-tqqq-on-day-1-it-would-be-up-73-2-beat",
      "date": "2025-08-17",
-     "title": "Day 78 of $QQQ short term up-trend; $TQQQ outperforms again! If you bought TQQQ on Day 1 it would be up  73.2% beating all but 1 (AMD) of the Nasdaq 100 stocks and all but 6 of the S&#038;P500 stocks!"
+     "title": "Day 78 of $QQQ short term up-trend; $TQQQ outperforms again! If you bought TQQQ on Day 1 it would be up  73.2% beating all but 1 (AMD) of the Nasdaq 100 stocks and all but 6 of the S&P500 stocks!"
     },
     {
      "stem": "2025-08-10-blog-post-day-73-of-qqq-short-term-up-trend-shaken-out-but-back-in-blue-dot-of-happiness-signal-held-see-dail",
@@ -278,7 +288,7 @@
     {
      "stem": "2025-07-20-blog-post-day-58-of-qqq-short-term-up-trend-cant-access-my-technical-software-but-gmi-table-already-complete",
      "date": "2025-07-20",
-     "title": "Blog Post: Day 58 of $QQQ short term up-trend; Can&#8217;t access my technical software but GMI table already complete; GMI= 5 and on a Green signal."
+     "title": "Blog Post: Day 58 of $QQQ short term up-trend; Can’t access my technical software but GMI table already complete; GMI= 5 and on a Green signal."
     },
     {
      "stem": "2025-07-13-blog-post-day-53-of-qqq-short-term-up-trend-adapted-daily-guppy-chart-shows-qqq-in-rwb-up-trend-and-above-las",
@@ -338,7 +348,7 @@
     {
      "stem": "2025-04-20-blog-post-day-38-of-qqq-short-term-down-trend-if-one-had-bought-sqqq-on-day-1-of-the-down-trend-it-would-now",
      "date": "2025-04-20",
-     "title": "Blog Post: Day 38 of $QQQ short term down-trend; If one had bought $SQQQ on Day 1 of the down-trend, it would now be up +26% and beat all but 1 (NEM) of S&#038;P500 stocks and all but 1 (MSTR) of Nasdaq100 stocks! QQQ is down-13.5%!  See my strategy.."
+     "title": "Blog Post: Day 38 of $QQQ short term down-trend; If one had bought $SQQQ on Day 1 of the down-trend, it would now be up +26% and beat all but 1 (NEM) of S&P500 stocks and all but 1 (MSTR) of Nasdaq100 stocks! QQQ is down-13.5%!  See my strategy.."
     },
     {
      "stem": "2025-04-13-blog-post-day-34-of-qqq-short-term-down-trend-as-i-had-suggested-spy-closed-its-gap-on-weekly-chart-and-kisse",
@@ -368,7 +378,7 @@
     {
      "stem": "2025-03-09-bg-post-day-9-of-qqq-short-term-down-trend-since-day-1-qqq-is-down-4-2-and-sqqq-is-up-12-7-sqqq-has-advanced",
      "date": "2025-03-09",
-     "title": "Bg Post: Day 9 of $QQQ short term down-trend; Since day 1, QQQ is down -4.2% and SQQQ is up +12.7%. SQQQ has advanced more than all but one of Nasdaq100 stocks (MSTR)  and all of the S&#038;P500 stocks! Trading TQQQ or SQQQ at Day 1 of a QQQ short term up-trend or down-trend beats most individual stocks. See also 2 charts."
+     "title": "Bg Post: Day 9 of $QQQ short term down-trend; Since day 1, QQQ is down -4.2% and SQQQ is up +12.7%. SQQQ has advanced more than all but one of Nasdaq100 stocks (MSTR)  and all of the S&P500 stocks! Trading TQQQ or SQQQ at Day 1 of a QQQ short term up-trend or down-trend beats most individual stocks. See also 2 charts."
     },
     {
      "stem": "2025-03-02-blog-post-day-4-of-qqq-short-term-down-trend-gmi1-see-table-look-for-leaders-among-those-hitting-aths-see-lis",
@@ -398,7 +408,7 @@
     {
      "stem": "2025-01-20-blog-post-day-12-of-qqq-short-term-down-trend-but-it-could-end-monday-and-the-gmi-could-also-flash-green-on-f",
      "date": "2025-01-20",
-     "title": "Blog Post: Day 12 of $QQQ short term down-trend; but it could end Monday and the GMI could also flash Green;  On Friday there were 128 US new highs, 11 lows and 48 at ATH; $VITL is approaching GLB; Back from Mark Minervini&#8217;s exciting 60th Birthday Gala"
+     "title": "Blog Post: Day 12 of $QQQ short term down-trend; but it could end Monday and the GMI could also flash Green;  On Friday there were 128 US new highs, 11 lows and 48 at ATH; $VITL is approaching GLB; Back from Mark Minervini’s exciting 60th Birthday Gala"
     },
     {
      "stem": "2025-01-12-blog-post-short-term-indicators-are-so-oversold-dead-cat-bounce-is-likely-as-earnings-are-released-20-yr-trea",
@@ -418,7 +428,7 @@
     {
      "stem": "2024-12-22-blog-post-qqq-short-term-up-trend-continues-but-the-gmi-remains-red-on-friday-qqq-and-75-of-its-stocks-traded",
      "date": "2024-12-22",
-     "title": "Blog Post: $QQQ short term up-trend continues but the GMI remains RED; On Friday, QQQ and 75% of its stocks traded at or below their 15.2 daily lower Bollinger Bands. Friday&#8217;s low for QQQ, 509.29,  needs to hold. See my weekly 10:30 and daily modified GMMA charts; Santa rally?"
+     "title": "Blog Post: $QQQ short term up-trend continues but the GMI remains RED; On Friday, QQQ and 75% of its stocks traded at or below their 15.2 daily lower Bollinger Bands. Friday’s low for QQQ, 509.29,  needs to hold. See my weekly 10:30 and daily modified GMMA charts; Santa rally?"
     },
     {
      "stem": "2024-12-15-blog-post-gmi-declines-to-4-of-6-more-us-stocks-at-yearly-lows-than-highs-on-friday-96-vs-74-but-qqq-is-at-27",
@@ -468,7 +478,7 @@
     {
      "stem": "2024-09-29-blog-post-day-12-of-qqq-short-term-up-trend-agx-had-glb-4-weeks-ago-and-a-weekly-green-bar-setup-last-week-it",
      "date": "2024-09-29",
-     "title": "Blog Post: Day 12 of $QQQ short term up-trend; $AGX had GLB 4 weeks ago and a weekly green bar setup last week; it must hold last week&#8217;s low"
+     "title": "Blog Post: Day 12 of $QQQ short term up-trend; $AGX had GLB 4 weeks ago and a weekly green bar setup last week; it must hold last week’s low"
     },
     {
      "stem": "2024-09-22-blog-post-day-7-of-qqq-short-term-up-trend-209-us-new-highs-10-lows-and-66-at-ath-the-gmi6-of-6-my-weekly-gre",
@@ -483,7 +493,7 @@
     {
      "stem": "2024-09-08-blog-post-day-3-of-qqq-short-term-down-trend-gmi-declines-to-0-out-of-6-will-flash-red-at-mondays-close-i-do",
      "date": "2024-09-08",
-     "title": "Blog Post: Day 3 of $QQQ short term down-trend; GMI declines to 0 (out of 6), will flash RED at Monday&#8217;s close; I do not fight the tide, time to be in cash and/or $SQQQ in my trading account; $WBA in long Stage 4 decline"
+     "title": "Blog Post: Day 3 of $QQQ short term down-trend; GMI declines to 0 (out of 6), will flash RED at Monday’s close; I do not fight the tide, time to be in cash and/or $SQQQ in my trading account; $WBA in long Stage 4 decline"
     },
     {
      "stem": "2024-09-02-blog-post-day-11-of-qqq-short-term-up-trend-on-friday-there-were-217-us-stocks-at-new-highs-and-7-at-new-lows",
@@ -543,7 +553,7 @@
     {
      "stem": "2024-06-09-blog-post-day-24-of-qqq-short-term-up-trend-gmi4-with-2-of-the-new-high-components-negative-what-does-it-mean",
      "date": "2024-06-09",
-     "title": "Blog Post: Day 24 of $QQQ short term up-trend; GMI=4 with 2 of the new high components negative&#8211;what does it mean? Better to have traded my TQQQ strategy, yet again!"
+     "title": "Blog Post: Day 24 of $QQQ short term up-trend; GMI=4 with 2 of the new high components negative–what does it mean? Better to have traded my TQQQ strategy, yet again!"
     },
     {
      "stem": "2024-06-02-blog-post-gmi-remains-at-6-of-6-and-19th-day-of-qqq-short-term-up-trend-qqq-and-spy-had-weekly-green-bars-las",
@@ -553,7 +563,7 @@
     {
      "stem": "2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly",
      "date": "2024-05-27",
-     "title": "Blog Post: Day 15 of $QQQ short term up-trend; $ANF is an example of how I analyze a stock&#8217;s trend using my weekly green bar indicator."
+     "title": "Blog Post: Day 15 of $QQQ short term up-trend; $ANF is an example of how I analyze a stock’s trend using my weekly green bar indicator."
     },
     {
      "stem": "2024-05-19-blog-post-day-10-of-qqq-short-term-up-trend-gld-is-on-the-rise-again-see-weekly-chart-and-list-of-5-other-str",
@@ -698,7 +708,7 @@
     {
      "stem": "2023-10-01-blog-post-day-8-of-qqq-short-term-down-trend-38-new-us-highs-and-65-lows-qqq-remains-in-a-longer-term-stage-2",
      "date": "2023-10-01",
-     "title": "Blog Post: Day 8 of $QQQ short term down-trend; 38 new US highs and 65 lows; $QQQ remains in a longer term Stage 2 up-trend, but not $DIA and maybe not $SPY; With GMI=1 and Red, it is time to be very defensive and maybe in a little $SQQQ, see daily charts of QQQ and SQQQ, but will last week&#8217;s bounce hold?"
+     "title": "Blog Post: Day 8 of $QQQ short term down-trend; 38 new US highs and 65 lows; $QQQ remains in a longer term Stage 2 up-trend, but not $DIA and maybe not $SPY; With GMI=1 and Red, it is time to be very defensive and maybe in a little $SQQQ, see daily charts of QQQ and SQQQ, but will last week’s bounce hold?"
     },
     {
      "stem": "2023-09-24-blog-post-day-3-of-qqq-short-term-sown-trend-and-gmi1-of-6-and-red-put-call-ratio-rises-to-1-09-indicating-fe",
@@ -723,7 +733,7 @@
     {
      "stem": "2023-08-20-blog-post-day-8-of-qqq-short-term-down-trend-qqqspydiaiwm-closed-below-all-12-averages-in-my-adapted-daily-gu",
      "date": "2023-08-20",
-     "title": "Blog Post: Day 8 of $QQQ short term down-trend; $QQQ,$SPY,$DIA,$IWM closed below all 12 averages in my adapted daily Guppy charts, see chart of $QQQ; &#8220;Come back at Halloween&#8221; but I do own some $ACHR"
+     "title": "Blog Post: Day 8 of $QQQ short term down-trend; $QQQ,$SPY,$DIA,$IWM closed below all 12 averages in my adapted daily Guppy charts, see chart of $QQQ; “Come back at Halloween” but I do own some $ACHR"
     },
     {
      "stem": "2023-08-13-blog-post-day-3-of-new-qqq-short-term-down-trend-and-the-gmi-turns-red-the-1030-weekly-chart-shows-the-long-t",
@@ -763,7 +773,7 @@
     {
      "stem": "2023-06-25-blog-post-day-39-of-qqq-short-term-up-trend-gmi-declines-to-4-list-of-9-stocks-that-passed-my-weekly-green-ba",
      "date": "2023-06-25",
-     "title": "Blog Post: Day 39 of $QQQ short term up-trend; GMI declines to 4; list of 9 stocks that passed my weekly green bar scan&#8211;includes $AAPL, see chart; window dressing upon us?"
+     "title": "Blog Post: Day 39 of $QQQ short term up-trend; GMI declines to 4; list of 9 stocks that passed my weekly green bar scan–includes $AAPL, see chart; window dressing upon us?"
     },
     {
      "stem": "2023-06-19-blog-post-here-is-an-explanation-of-how-i-compute-new-us-highs-and-lows-each-day-and-used-it-to-exit-in-11-20",
@@ -843,7 +853,7 @@
     {
      "stem": "2023-02-26-blog-post-day-30-of-qqq-short-term-up-trend-it-may-end-monday-64-us-new-highs-friday-and-176-lows-gmi-close-t",
      "date": "2023-02-26",
-     "title": "Blog Post: Day 30 of $QQQ short term up-trend, it may end Monday; 64 US new highs Friday and 176 lows; GMI close to turning RED, but I wait for signal&#8211;do not jump the gun"
+     "title": "Blog Post: Day 30 of $QQQ short term up-trend, it may end Monday; 64 US new highs Friday and 176 lows; GMI close to turning RED, but I wait for signal–do not jump the gun"
     },
     {
      "stem": "2023-02-20-blog-post-day-26-of-qqq-short-term-up-trend-weekly-1030-charts-show-dia-and-spy-turning-around-but-not-yet-qq",
@@ -858,7 +868,7 @@
     {
      "stem": "2023-02-05-blog-post-day-16-of-qqq-short-term-up-trend-buy-tqqq-on-day-1-of-this-up-trend-and-it-advanced-through-friday",
      "date": "2023-02-05",
-     "title": "Blog Post: Day 16 of $QQQ short term up-trend; Buy $TQQQ on day 1 of this up-trend and it advanced through Friday, +29.5%, beating all but 4 of the Nasdaq 100 stocks and all but 3 of the S&#038;P500 stocks&#8211;same incredible results again! See chart"
+     "title": "Blog Post: Day 16 of $QQQ short term up-trend; Buy $TQQQ on day 1 of this up-trend and it advanced through Friday, +29.5%, beating all but 4 of the Nasdaq 100 stocks and all but 3 of the S&P500 stocks–same incredible results again! See chart"
     },
     {
      "stem": "2023-01-29-blog-post-day-day-11-of-qqq-short-term-up-trend-gmi6-of-6-and-green-25-stocks-at-ath-on-friday-see-list-for-p",
@@ -883,7 +893,7 @@
     {
      "stem": "2023-01-02-blog-post-day-10-of-qqq-short-term-down-trend-and-gmi-still-red-nvo-maker-of-obesity-drug-wegovy-barrels-ahea",
      "date": "2023-01-02",
-     "title": "Blog Post: Day 10 of $QQQ short term down-trend and GMI still Red; $NVO, maker of obesity drug, Wegovy, barrels ahead to close at ATH after recent GLB&#8211;60 Minutes story to propel it higher?"
+     "title": "Blog Post: Day 10 of $QQQ short term down-trend and GMI still Red; $NVO, maker of obesity drug, Wegovy, barrels ahead to close at ATH after recent GLB–60 Minutes story to propel it higher?"
     },
     {
      "stem": "2022-12-18-blog-post-day-1-of-qqq-short-term-down-trend-gmi0-and-turns-red-best-to-hold-cash-and-receive-income-form-mon",
@@ -903,7 +913,7 @@
     {
      "stem": "2022-11-27-blog-post-day-11-of-qqq-short-term-up-trend-last-week-stld-had-a-glb-and-a-weekly-green-bar-worth-monitoring",
      "date": "2022-11-27",
-     "title": "Blog Post: Day 11 of $QQQ short term up-trend; Last week $STLD had a GLB and a weekly green bar&#8211;worth monitoring, see also $PI"
+     "title": "Blog Post: Day 11 of $QQQ short term up-trend; Last week $STLD had a GLB and a weekly green bar–worth monitoring, see also $PI"
     },
     {
      "stem": "2022-11-20-blog-post-day-6-of-qqq-short-term-up-trend-within-a-longer-term-down-trend-critical-week-coming-up-for-qqq-wh",
@@ -963,7 +973,7 @@
     {
      "stem": "2022-08-28-blog-post-bloody-fridays-typically-lead-to-weak-monday-openings-as-in-october-1987-43-new-highs-and-206-new-l",
      "date": "2022-08-28",
-     "title": "Blog Post; Bloody Fridays typically lead to weak Monday openings, as in October 1987; 43 new highs and 206 new lows; GMI=2 and could turn Red by Monday&#8217;s close"
+     "title": "Blog Post; Bloody Fridays typically lead to weak Monday openings, as in October 1987; 43 new highs and 206 new lows; GMI=2 and could turn Red by Monday’s close"
     },
     {
      "stem": "2022-08-21-blog-post-this-week-may-tell-us-whether-the-recent-bounce-was-more-than-a-bear-market-rally-bj-is-an-example",
@@ -983,7 +993,7 @@
     {
      "stem": "2022-07-31-day-10-of-qqq-short-term-up-trend-since-day-1-qqq-9-tqqq-27-7-beating-all-nasdaq100-stocks-and-all-but-2-sp50",
      "date": "2022-07-31",
-     "title": "Day 10 of $QQQ short term up-trend, since Day 1 QQQ (+9%), TQQQ +27.7%, beating all Nasdaq100 stocks and all but 2  S&#038;P500 stocks, ENPH (+37.7%) and SEDG (+28.3%)"
+     "title": "Day 10 of $QQQ short term up-trend, since Day 1 QQQ (+9%), TQQQ +27.7%, beating all Nasdaq100 stocks and all but 2  S&P500 stocks, ENPH (+37.7%) and SEDG (+28.3%)"
     },
     {
      "stem": "2022-07-24-blog-post-day-5-of-qqq-short-term-up-trend-gpc-has-glb-to-ath-on-friday-see-charts-comp-rating-98-and-rs93-ry",
@@ -1038,7 +1048,7 @@
     {
      "stem": "2022-05-15-blog-post-day-23-of-qqq-short-term-down-trend-this-daily-chart-shows-that-spy-bounced-right-on-schedule-at-it",
      "date": "2022-05-15",
-     "title": "Blog Post: Day 23 of $QQQ short term down-trend; This daily chart shows that $SPY bounced right on schedule at its TCL&#8211;is it a dead cat bounce?"
+     "title": "Blog Post: Day 23 of $QQQ short term down-trend; This daily chart shows that $SPY bounced right on schedule at its TCL–is it a dead cat bounce?"
     },
     {
      "stem": "2022-05-08-blog-post-day-18-of-qqq-short-term-down-trend-qqq-on-trend-channel-line-may-bounce-chocolate-hsy-anyone",
@@ -1053,7 +1063,7 @@
     {
      "stem": "2022-04-24-blog-post-gmi0-major-indexes-in-weinstein-stage-4-down-trends-cash-is-the-best-place-to-be-take-the-oath",
      "date": "2022-04-24",
-     "title": "Blog Post: GMI=0; Major indexes in Weinstein Stage 4 down-trends; Cash is the best place to be&#8211;take the oath"
+     "title": "Blog Post: GMI=0; Major indexes in Weinstein Stage 4 down-trends; Cash is the best place to be–take the oath"
     },
     {
      "stem": "2022-04-17-blog-post-qqq-and-spy-closed-back-below-their-10-week-averages-gmi-remains-red-cash-is-king-but-there-are-25",
@@ -1078,7 +1088,7 @@
     {
      "stem": "2022-03-20-blog-post-day-1-of-qqq-short-term-up-trend-gmi-still-red-13-stocks-pass-my-weeklygreenbar-scan-lnthstldmckmat",
      "date": "2022-03-20",
-     "title": "Blog post: Day 1 of $QQQ short term up-trend; GMI still Red; 13 stocks pass my WeeklyGreenBar scan: $LNTH,$STLD,$MCK,$MATX,$MOH,$CBZ, $ABBV + 6 others listed&#8230;."
+     "title": "Blog post: Day 1 of $QQQ short term up-trend; GMI still Red; 13 stocks pass my WeeklyGreenBar scan: $LNTH,$STLD,$MCK,$MATX,$MOH,$CBZ, $ABBV + 6 others listed…."
     },
     {
      "stem": "2022-03-13-blog-post-short-term-1-3-yr-treasury-bonds-shy-in-steady-daily-bwr-decline-signifying-higher-interest-rates",
@@ -1108,7 +1118,7 @@
     {
      "stem": "2022-02-06-blog-post-scan-found-13-out-of-350-ibd-ms-type-stocks-that-reached-ath-last-week-ko-and-hsy-see-list-richard",
      "date": "2022-02-06",
-     "title": "Blog post: Scan found 13 out of 350 IBD/MS type stocks that reached ATH last week: $KO and $HSY, see list;  Richard Moglen&#8217;s new interview with @PatrickWalker56  is terrific!"
+     "title": "Blog post: Scan found 13 out of 350 IBD/MS type stocks that reached ATH last week: $KO and $HSY, see list;  Richard Moglen’s new interview with @PatrickWalker56  is terrific!"
     },
     {
      "stem": "2022-01-30-blog-post-day-16-of-qqq-short-term-down-trend-some-end-of-decline-signs-i-am-looking-for-promising-stock-scan",
@@ -1128,7 +1138,7 @@
     {
      "stem": "2022-01-09-blog-post-the-weekly-charts-of-qqq-dia-and-spy-show-each-having-three-heavy-volume-down-weeks-suggesting-dist",
      "date": "2022-01-09",
-     "title": "Blog post: The weekly charts of $QQQ, $DIA and $SPY show each having three heavy volume down weeks, suggesting distribution; And the GMI could turn Red by Monday&#8217;s close; These greatest traders &#8220;sell too soon.&#8221;"
+     "title": "Blog post: The weekly charts of $QQQ, $DIA and $SPY show each having three heavy volume down weeks, suggesting distribution; And the GMI could turn Red by Monday’s close; These greatest traders “sell too soon.”"
     },
     {
      "stem": "2022-01-02-blog-post-day-5-of-qqq-short-term-up-trend-all-gmi-components-are-positive-when-i-saw-that-some-media-pundits",
@@ -1138,7 +1148,7 @@
     {
      "stem": "2021-12-27-blog-post-day-1-of-qqq-short-term-up-trend-gmi-could-turn-green-by-mondays-close-qqq-to-enter-daily-rwb-up-tr",
      "date": "2021-12-27",
-     "title": "Blog post: Day 1 of $QQQ short term up-trend; GMI could turn Green by Monday&#8217;s close; $QQQ to enter daily RWB up-trend?"
+     "title": "Blog post: Day 1 of $QQQ short term up-trend; GMI could turn Green by Monday’s close; $QQQ to enter daily RWB up-trend?"
     },
     {
      "stem": "2021-12-19-blog-post-day-4-of-qqq-short-term-down-trend-gmi-2-and-could-turn-red-on-monday-daily-rwb-for-qqq-gone-see-ch",
@@ -1193,12 +1203,12 @@
     {
      "stem": "2021-10-10-blog-post-see-new-rising-stochastics-tutorial-on-youtube-it-is-easy-to-get-swept-up-in-a-declining-market-and",
      "date": "2021-10-10",
-     "title": "Blog post: See new Rising Stochastics tutorial on Youtube; It is easy to get swept up in a declining market and miss the gems that are already showing strength&#8211;they are like a basketballs held under water that will explode up when the market turns up and releases them; Last week there were 10 possible growth stocks that I noticed had a GLB, breaking out to all time highs that I intend to monitor:$BLDR,$FOCS,$LPLA,$MC,$TBBK,$KFRC,$WAL,$UMBF,$SF,$CASH; also watching $UPST for a GLB; here are some charts"
+     "title": "Blog post: See new Rising Stochastics tutorial on Youtube; It is easy to get swept up in a declining market and miss the gems that are already showing strength–they are like a basketballs held under water that will explode up when the market turns up and releases them; Last week there were 10 possible growth stocks that I noticed had a GLB, breaking out to all time highs that I intend to monitor:$BLDR,$FOCS,$LPLA,$MC,$TBBK,$KFRC,$WAL,$UMBF,$SF,$CASH; also watching $UPST for a GLB; here are some charts"
     },
     {
      "stem": "2021-10-04-blog-post-day-9-of-qqq-short-term-down-trend-qqq-very-over-sold-but-i-remain-in-cash-gmi2",
      "date": "2021-10-04",
-     "title": "Blog post: Day 9 of $QQQ short term down-trend&#8211;$QQQ very over-sold but I remain in cash; GMI=2"
+     "title": "Blog post: Day 9 of $QQQ short term down-trend–$QQQ very over-sold but I remain in cash; GMI=2"
     },
     {
      "stem": "2021-09-26-blog-post-day-4-of-qqq-short-term-down-trend-gmi-could-turn-green-on-monday-pag-follows-through-on-cup-and-ha",
@@ -1213,7 +1223,7 @@
     {
      "stem": "2021-09-12-blog-post-day-14-of-qqq-short-term-up-trend-but-gmi4-huge-event-risk-end-of-quarter-window-dressing-cash-is-k",
      "date": "2021-09-12",
-     "title": "Blog post: Day 14 of $QQQ short term up-trend but GMI=4, huge event risk, end of quarter window dressing&#8211;cash is king; Will $AAPL hold green line?"
+     "title": "Blog post: Day 14 of $QQQ short term up-trend but GMI=4, huge event risk, end of quarter window dressing–cash is king; Will $AAPL hold green line?"
     },
     {
      "stem": "2021-09-06-blog-post-day-10-u-10-of-qqq-short-term-up-trend-but-qqq-has-been-in-a-longer-term-weekly-rwb-up-trend-since",
@@ -1223,17 +1233,17 @@
     {
      "stem": "2021-08-29-blog-post-day-5-of-qqq-short-term-up-trend-glb-navi-beware-september",
      "date": "2021-08-29",
-     "title": "Blog post: Day 5 of $QQQ short term up-trend; GLB&#8211;$NAVI; beware September"
+     "title": "Blog post: Day 5 of $QQQ short term up-trend; GLB–$NAVI; beware September"
     },
     {
      "stem": "2021-08-22-blog-post-stocks-rally-and-2-day-old-qqq-short-term-down-trend-may-end-monday-nke-an-example-of-how-i-use-my",
      "date": "2021-08-22",
-     "title": "Blog post: Stocks rally and 2 day old $QQQ short term down-trend may end Monday; $NKE&#8211;an example of how I use my latest oversold bounce (OSB) scan to find promising stocks; $QQQ retakes all shorter daily RWB averages"
+     "title": "Blog post: Stocks rally and 2 day old $QQQ short term down-trend may end Monday; $NKE–an example of how I use my latest oversold bounce (OSB) scan to find promising stocks; $QQQ retakes all shorter daily RWB averages"
     },
     {
      "stem": "2021-08-15-blog-post-day-56-of-qqq-short-term-up-trend-list-of-4-stocks-from-my-scan-of-recently-oversold-growth-stocks",
      "date": "2021-08-15",
-     "title": "Blog post: Day 56 of $QQQ short term up-trend; List of 4 stocks from my scan of recently oversold growth stocks now closing above their 21 day exponential moving average&#8211;$AVGO, $NOW, $ZTS, $IQV"
+     "title": "Blog post: Day 56 of $QQQ short term up-trend; List of 4 stocks from my scan of recently oversold growth stocks now closing above their 21 day exponential moving average–$AVGO, $NOW, $ZTS, $IQV"
     },
     {
      "stem": "2021-08-08-blog-post-51st-day-of-qqq-short-term-up-trend-gs-has-weekly-green-bar-wgb-gmi-6-of-6",
@@ -1248,7 +1258,7 @@
     {
      "stem": "2021-07-25-blog-post-the-power-of-the-glb-xpel-msft-aapl-amzn-net-cost-qqq",
      "date": "2021-07-25",
-     "title": "Blog post: The power of the GLB: $XPEL, $MSFT, $AAPL, $AMZN, $NET, $COST, $QQQ&#8230;&#8230;.."
+     "title": "Blog post: The power of the GLB: $XPEL, $MSFT, $AAPL, $AMZN, $NET, $COST, $QQQ…….."
     },
     {
      "stem": "2021-07-18-blog-post-36th-day-of-qqq-short-term-up-trend-and-gmi5-of-6-and-green-i-went-to-cash-in-my-trading-account-la",
@@ -1278,12 +1288,12 @@
     {
      "stem": "2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6",
      "date": "2021-06-13",
-     "title": "Follow on to TraderLion conference, this Wednesday&#8217;s Long Island talk; Examples of black dot signals; GMI=6 (of 6)"
+     "title": "Follow on to TraderLion conference, this Wednesday’s Long Island talk; Examples of black dot signals; GMI=6 (of 6)"
     },
     {
      "stem": "2021-06-07-blog-post-qqq-short-term-up-trend-holds-has-now-reached-7-days-the-gmi-remains-green-i-hope-to-see-you-at-thi",
      "date": "2021-06-07",
-     "title": "Blog post: $QQQ short term up-trend holds, has now reached 7 days; the GMI remains Green; I hope to see you at this weekend&#8217;s free TraderLion first annual trader conference"
+     "title": "Blog post: $QQQ short term up-trend holds, has now reached 7 days; the GMI remains Green; I hope to see you at this weekend’s free TraderLion first annual trader conference"
     },
     {
      "stem": "2021-05-31-blog-post-glb-green-line-break-out-explained-some-stocks-having-a-glb-last-week-mec-omp-tgls-flng-cubi",
@@ -1328,7 +1338,7 @@
     {
      "stem": "2021-03-28-blog-post-end-of-quarter-window-dressing-rebound-ibd-says-resumed-uptrend-but-gmi-remains-red-and-aapl-is-in",
      "date": "2021-03-28",
-     "title": "Blog post: End of quarter window dressing rebound; IBD says &#8220;resumed uptrend&#8221; but GMI remains Red and $AAPL is in a daily BWR down-trend"
+     "title": "Blog post: End of quarter window dressing rebound; IBD says “resumed uptrend” but GMI remains Red and $AAPL is in a daily BWR down-trend"
     },
     {
      "stem": "2021-03-20-blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck",
@@ -1338,7 +1348,7 @@
     {
      "stem": "2021-03-14-blog-post-my-2012-houston-tc2000-users-group-video-is-available-at-my-blogs-topics-webinars-tab-i-gained-a-lo",
      "date": "2021-03-14",
-     "title": "Blog Post&#8211;My  2012 Houston TC2000 Users Group video is available at my blog&#8217;s Topics/Webinars Tab; I gained a lot by watching!!"
+     "title": "Blog Post–My  2012 Houston TC2000 Users Group video is available at my blog’s Topics/Webinars Tab; I gained a lot by watching!!"
     },
     {
      "stem": "2021-03-07-blog-post-split-market-with-qqq-below-10-week-average-and-dia-spy-and-iwm-above-this-week-should-tell-us-whic",
@@ -1348,7 +1358,7 @@
     {
      "stem": "2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto",
      "date": "2021-02-28",
-     "title": "Blog post: $TWTR to take off? &#8211;An example of how I use TC2000 and my GLB and WGB indicators to find promising stocks; GMI could turn Red by Monday&#8217;s close"
+     "title": "Blog post: $TWTR to take off? –An example of how I use TC2000 and my GLB and WGB indicators to find promising stocks; GMI could turn Red by Monday’s close"
     },
     {
      "stem": "2021-02-22-signs-of-short-term-technical-weakness-futures-diving-treasuries-and-72-day-old-qqq-short-term-up-trend-but-l",
@@ -1363,7 +1373,7 @@
     {
      "stem": "2021-02-07-flws-to-bloom-for-valentines-day-63rd-day-of-qqq-short-term-up-trend-gmi-is-green-and-i-added-a-component-to",
      "date": "2021-02-07",
-     "title": "$FLWS to bloom for Valentine&#8217;s Day?  63rd day of $QQQ short term up-trend; GMI is Green and I added a component to GMI2"
+     "title": "$FLWS to bloom for Valentine’s Day?  63rd day of $QQQ short term up-trend; GMI is Green and I added a component to GMI2"
     },
     {
      "stem": "2021-01-31-blog-post-qqq-short-term-up-trend-may-end-monday-is-gme-debacle-decoying-attention-from-impact-of-virus-faile",
@@ -1373,7 +1383,7 @@
     {
      "stem": "2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that",
      "date": "2021-01-24",
-     "title": "Blog post&#8211;In the 60s, I used to receive a book containing monthly charts of stocks. I noticed that stocks that reached an all time high (ATH), declined for a few months, and then went on to a new ATH were often big gainers. I therefore created my green line break-out (GLB) strategy many years later. I describe GLB in this post and provide  6 recent examples: $JMIA $GM $PGNY $KC $MGNI $CSIQ"
+     "title": "Blog post–In the 60s, I used to receive a book containing monthly charts of stocks. I noticed that stocks that reached an all time high (ATH), declined for a few months, and then went on to a new ATH were often big gainers. I therefore created my green line break-out (GLB) strategy many years later. I describe GLB in this post and provide  6 recent examples: $JMIA $GM $PGNY $KC $MGNI $CSIQ"
     },
     {
      "stem": "2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up",
@@ -1403,7 +1413,7 @@
     {
      "stem": "2020-12-06-iipr-recent-glb-has-black-dot-signal-may-bounce-from-oversold",
      "date": "2020-12-06",
-     "title": "$IIPR recent GLB has black dot signal&#8211;may bounce from oversold"
+     "title": "$IIPR recent GLB has black dot signal–may bounce from oversold"
     },
     {
      "stem": "2020-11-29-sector-etfs-a-safer-way-for-boomers-to-invest-pbw-qcln-cnrg-pbd-smog-icln-lit-ipo-arkq-chiq-arkf-xbuy",
@@ -1428,12 +1438,12 @@
     {
      "stem": "2020-11-01-gmi-flashes-red-signal-and-ibd-calls-market-in-correction-promising-recent-glbs-pins-and-lob",
      "date": "2020-11-01",
-     "title": "GMI flashes Red signal and IBD calls &#8220;Market in Correction&#8221;; Promising recent GLBs: $PINS and $LOB"
+     "title": "GMI flashes Red signal and IBD calls “Market in Correction”; Promising recent GLBs: $PINS and $LOB"
     },
     {
      "stem": "2020-10-25-3-stocks-with-glbs-last-week-kod-phr-safe-volatility-to-dominate-this-week",
      "date": "2020-10-25",
-     "title": "3 stocks with GLB&#8217;s last week: $KOD, $PHR, $SAFE; volatility to dominate this week"
+     "title": "3 stocks with GLB’s last week: $KOD, $PHR, $SAFE; volatility to dominate this week"
     },
     {
      "stem": "2020-10-18-spyqqq-and-dia-are-in-daily-rwb-up-trends-gmi6-of-6and-green-at-a-crossroad",
@@ -1453,7 +1463,7 @@
     {
      "stem": "2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction",
      "date": "2020-09-27",
-     "title": "This week will determine if tech down-trend will continue. Monitoring GLBs  to find leaders during a correction&#8211;$PINS, $PTON, $CRWD; Follow the weekly chart $ZM, $FVRR,  $TSLA"
+     "title": "This week will determine if tech down-trend will continue. Monitoring GLBs  to find leaders during a correction–$PINS, $PTON, $CRWD; Follow the weekly chart $ZM, $FVRR,  $TSLA"
     },
     {
      "stem": "2020-09-20-10-doublers-that-last-week-reached-an-ath-on-above-average-volume-and-how-i-found-them-apps-trup-dkng-fvrr-nv",
@@ -1493,7 +1503,7 @@
     {
      "stem": "2020-07-23-blog-post-tc2000-alerted-me-to-a-high-volume-glb-yesterday-amd-learn-how-to-set-glb-alerts",
      "date": "2020-07-23",
-     "title": "Blog post: TC2000 alerted me to a high volume GLB yesterday: $AMD&#8211;learn how to set GLB alerts"
+     "title": "Blog post: TC2000 alerted me to a high volume GLB yesterday: $AMD–learn how to set GLB alerts"
     },
     {
      "stem": "2020-07-19-blog-post-my-bounce-off-of-support-strategy-some-possible-examples-ddog-etsy-net-band-plmr-domo-cien-ping-adb",
@@ -1508,7 +1518,7 @@
     {
      "stem": "2020-07-12-blog-post-nio-has-high-volume-glb-will-it-hold-vrns-has",
      "date": "2020-07-12",
-     "title": "Blog post: $NIO has high volume GLB&#8211;will it hold? $VRNS has."
+     "title": "Blog post: $NIO has high volume GLB–will it hold? $VRNS has."
     },
     {
      "stem": "2020-07-05-blog-post-dia-still-weak-is-it-a-leader-or-a-laggard-gmi-6-of-6-and-green-glb-vrns",
@@ -1528,7 +1538,7 @@
     {
      "stem": "2020-06-15-blog-post-qqq-had-an-above-average-volume-down-week-and-a-failed-glb-but-daily-rwb-up-trend-still-in-place-ve",
      "date": "2020-06-15",
-     "title": "Blog post: $QQQ had an above average volume down week and a failed GLB, but daily RWB up-trend still in place&#8211;very defensive, cash +$SQQQ"
+     "title": "Blog post: $QQQ had an above average volume down week and a failed GLB, but daily RWB up-trend still in place–very defensive, cash +$SQQQ"
     },
     {
      "stem": "2020-06-08-qqq-had-glb-green-line-break-out-last-week-t2108-above-90",
@@ -1543,7 +1553,7 @@
     {
      "stem": "2020-05-25-qqq-completes-7th-week-above-its-rising-4-week-average-strong-up-trend",
      "date": "2020-05-25",
-     "title": "$QQQ completes 7th week above its rising 4 week average&#8211;strong up-trend!"
+     "title": "$QQQ completes 7th week above its rising 4 week average–strong up-trend!"
     },
     {
      "stem": "2020-05-18-blog-post-gld-moving-up-out-of-base-again-see-daily-rwb-chart-gmi-remains-green-at-4-out-of-6-28th-day-of-qqq",
@@ -1558,7 +1568,7 @@
     {
      "stem": "2020-05-03-critical-week-will-qqq-hold-its-4-week-moving-average",
      "date": "2020-05-03",
-     "title": "Critical week &#8211;will $QQQ hold its 4 week moving average?"
+     "title": "Critical week –will $QQQ hold its 4 week moving average?"
     },
     {
      "stem": "2020-04-26-gmi-could-turn-green-on-monday-invaluable-tweetsmarkminervini-dryan310-ibd-irusha-tmltrader-my-extraordinary",
@@ -1568,7 +1578,7 @@
     {
      "stem": "2020-04-19-since-the-new-qqq-short-term-up-trend-began-tqqq-33-beats-all-but-1-of-nasadq100-sp500-and-dow-30-stocks",
      "date": "2020-04-19",
-     "title": "Since the new $QQQ short term up-trend began, $TQQQ (+33%)  beats all  but 1 of NASADQ100, S&#038;P500 and Dow 30 stocks."
+     "title": "Since the new $QQQ short term up-trend began, $TQQQ (+33%)  beats all  but 1 of NASADQ100, S&P500 and Dow 30 stocks."
     },
     {
      "stem": "2020-04-12-chwy-has-glb-gmi-still-red-but-day-3-of-qqq-short-term-up-trend-ibd-market-in-confirmed-up-trend",
@@ -1583,7 +1593,7 @@
     {
      "stem": "2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more",
      "date": "2020-03-29",
-     "title": "13 Needles in a haystack; $TNK, $ZM, $CHWY, $QDEL, $TDOC, $CTXS, $LMNX, $NET + 5 more&#8230;&#8230;&#8230;"
+     "title": "13 Needles in a haystack; $TNK, $ZM, $CHWY, $QDEL, $TDOC, $CTXS, $LMNX, $NET + 5 more………"
     },
     {
      "stem": "2020-03-22-my-successful-new-high-and-new-low-indicators-flagged-the-market-top",
@@ -1593,7 +1603,7 @@
     {
      "stem": "2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p",
      "date": "2020-03-15",
-     "title": "Livermore: Amputation without anaesthetics&#8212;-After avoiding the 2000 decline, I began this blog in 2006 to help people time the market"
+     "title": "Livermore: Amputation without anaesthetics—-After avoiding the 2000 decline, I began this blog in 2006 to help people time the market"
     },
     {
      "stem": "2020-03-08-put-call-ratio-and-t2108-suggest-bounce-imminent-in-cash-and-waiting",
@@ -1603,7 +1613,7 @@
     {
      "stem": "2020-03-01-the-pundits-are-trying-to-scare-us-from-exiting-the-market-again-garbage",
      "date": "2020-03-01",
-     "title": "The pundits are trying to scare us from exiting the market again&#8211;garbage!"
+     "title": "The pundits are trying to scare us from exiting the market again–garbage!"
     },
     {
      "stem": "2020-02-24-reduced-exposure-some-insights-from-the-possible-pandemic",
@@ -1678,7 +1688,7 @@
     {
      "stem": "2019-11-17-dissecting-aapls-glb-green-line-break-out-thank-you-nicolas-darvas",
      "date": "2019-11-17",
-     "title": "Dissecting $AAPL&#8217;s GLB (Green line break-out); thank you Nicolas Darvas"
+     "title": "Dissecting $AAPL’s GLB (Green line break-out); thank you Nicolas Darvas"
     },
     {
      "stem": "2019-11-10-all-6-gmi-components-remain-positive-tqqq-strategy-highly-profitable-again",
@@ -1688,7 +1698,7 @@
     {
      "stem": "2019-11-03-mark-minervini-presented-to-my-students-on-friday-magnificent-glb-tutorial-on-youtube-the-value-of-hourly-cha",
      "date": "2019-11-03",
-     "title": "Mark Minervini presented to my students on Friday&#8211;magnificent! GLB tutorial on youtube; the value of hourly charts: $DOCU"
+     "title": "Mark Minervini presented to my students on Friday–magnificent! GLB tutorial on youtube; the value of hourly charts: $DOCU"
     },
     {
      "stem": "2019-10-27-alll-of-my-market-indicators-are-positive-a-list-of-launched-rockets-that-have-already-doubled-sedg-boot-pdd",
@@ -1728,12 +1738,12 @@
     {
      "stem": "2019-09-02-schizoid-market-gmi-moves-to-4-but-qqq-is-at-short-term-resistance",
      "date": "2019-09-02",
-     "title": "Schizoid market&#8211;GMI moves to 4 but $QQQ is at short term resistance"
+     "title": "Schizoid market–GMI moves to 4 but $QQQ is at short term resistance"
     },
     {
      "stem": "2019-08-25-qqq-back-below-30-week-average-caution-needed-end-of-stage-ii-up-trend",
      "date": "2019-08-25",
-     "title": "$QQQ back below 30 week average&#8211;caution needed&#8211;end of Stage II up-trend?"
+     "title": "$QQQ back below 30 week average–caution needed–end of Stage II up-trend?"
     },
     {
      "stem": "2019-08-18-qqq-short-term-trend-down-but-longer-term-up-trend-still-holding",
@@ -1763,7 +1773,7 @@
     {
      "stem": "2019-07-14-wonderful-dc-aaii-meeting-riding-spy-and-tqqq-our-free-spring-lunchtime-workshop-course-at-the-university",
      "date": "2019-07-14",
-     "title": "Wonderful DC AAII meeting; Riding $SPY and $TQQQ; Our free spring lunchtime workshop course at the university&#8230;"
+     "title": "Wonderful DC AAII meeting; Riding $SPY and $TQQQ; Our free spring lunchtime workshop course at the university…"
     },
     {
      "stem": "2019-07-07-speaking-at-dc-metro-aaii-meeting-on-7-13-indexes-in-daily-rwb-up-trends",
@@ -1778,17 +1788,17 @@
     {
      "stem": "2019-06-23-market-indexes-are-taking-off-stage-ii-long-this-market",
      "date": "2019-06-23",
-     "title": "Market indexes are taking off&#8211;Stage II, long this market"
+     "title": "Market indexes are taking off–Stage II, long this market"
     },
     {
      "stem": "2019-06-16-spy-on-verge-of-daily-rwb-up-trend-window-dressing-is-upon-us",
      "date": "2019-06-16",
-     "title": "$SPY on verge of daily RWB up-trend&#8211;window dressing is upon us"
+     "title": "$SPY on verge of daily RWB up-trend–window dressing is upon us"
     },
     {
      "stem": "2019-06-09-ibd-says-market-back-in-confirmed-up-trend-gmi-could-turn-green-at-mondays-close",
      "date": "2019-06-09",
-     "title": "IBD says market back in confirmed up-trend; GMI could turn Green at Monday&#8217;s close"
+     "title": "IBD says market back in confirmed up-trend; GMI could turn Green at Monday’s close"
     },
     {
      "stem": "2019-06-02-in-this-market-shorting-stocks-at-new-lows-is-a-far-better-strategy-than-buying-stocks-at-new-highs",
@@ -1828,7 +1838,7 @@
     {
      "stem": "2019-04-15-ftnt-cup-with-handle-break-out",
      "date": "2019-04-15",
-     "title": "$FTNT &#8212; cup with handle break-out"
+     "title": "$FTNT — cup with handle break-out"
     },
     {
      "stem": "2019-04-07-trading-ipos-with-a-glb-and-a-green-dot-signal-iipr-qqq-short-term-up-trend-is-in-61st-day",
@@ -1913,12 +1923,12 @@
     {
      "stem": "2018-12-16-stage-iv-decline-imminent-in-cash",
      "date": "2018-12-16",
-     "title": "Stage IV decline imminent&#8211;in cash"
+     "title": "Stage IV decline imminent–in cash"
     },
     {
      "stem": "2018-12-09-gmi0-stage-iv-decline-developing-market-has-a-lot-further-to-fall-a-market-for-gamblers",
      "date": "2018-12-09",
-     "title": "GMI=0 &#8211;Stage IV decline developing&#8211;Market has a lot further to fall&#8211;a market for gamblers"
+     "title": "GMI=0 –Stage IV decline developing–Market has a lot further to fall–a market for gamblers"
     },
     {
      "stem": "2018-12-02-11-stocks-that-hit-ath-last-5-days-with-19-recent-eps-emci-beat-cinf-hele-shen-tri-atni-amed-lly-kzr-hca-cdxs",
@@ -1928,22 +1938,22 @@
     {
      "stem": "2018-11-25-im-back-daily-bwr-pattern-for-qqq-weekly-rwb-pattern-gone-content-to-be-on-sidelines",
      "date": "2018-11-25",
-     "title": "I&#8217;m back! Daily BWR pattern for $QQQ, weekly RWB pattern gone&#8211;content to be on sidelines"
+     "title": "I’m back! Daily BWR pattern for $QQQ, weekly RWB pattern gone–content to be on sidelines"
     },
     {
      "stem": "2018-11-11-indicators-are-on-edge-of-cliff-will-new-up-trend-hold-20-strong-stocks",
      "date": "2018-11-11",
-     "title": "Indicators are on edge of cliff&#8211;will new up-trend hold? 20 strong stocks"
+     "title": "Indicators are on edge of cliff–will new up-trend hold? 20 strong stocks"
     },
     {
      "stem": "2018-11-04-sbux-cme-fanh-dg-olli-burl-casy-nhc-he-kss-mpw-hsy-strong-stocks-in-10-strongest-industries",
      "date": "2018-11-04",
-     "title": "$SBUX $CME $FANH $DG $OLLI $BURL $CASY $NHC $HE $KSS $MPW $HSY &#8211;Strong stocks in 10 strongest industries"
+     "title": "$SBUX $CME $FANH $DG $OLLI $BURL $CASY $NHC $HE $KSS $MPW $HSY –Strong stocks in 10 strongest industries"
     },
     {
      "stem": "2018-10-28-0-of-38-country-etfs-are-in-dailyweekly-rwb-up-trendssweet-16-stocks-that-are",
      "date": "2018-10-28",
-     "title": "0 of 38 country ETFs are in daily+weekly RWB up-trends;&#8221;Sweet 16&#8243; stocks that are"
+     "title": "0 of 38 country ETFs are in daily+weekly RWB up-trends;”Sweet 16″ stocks that are"
     },
     {
      "stem": "2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends",
@@ -1988,7 +1998,7 @@
     {
      "stem": "2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo",
      "date": "2018-08-26",
-     "title": "19 Recent IPOs at ATH with recent GLB: $MTCH $TWLO $SEND $SFIX $ROKU $CABO&#8230;."
+     "title": "19 Recent IPOs at ATH with recent GLB: $MTCH $TWLO $SEND $SFIX $ROKU $CABO…."
     },
     {
      "stem": "2018-08-19-spy-has-green-dot-signal-gmi-remains-at-6-of-6",
@@ -2038,7 +2048,7 @@
     {
      "stem": "2018-06-17-world-markets-are-topping-can-the-u-s-be-far-behind",
      "date": "2018-06-17",
-     "title": "World markets are topping&#8211; can the U.S. be far behind?"
+     "title": "World markets are topping– can the U.S. be far behind?"
     },
     {
      "stem": "2018-06-10-on-verge-of-end-of-quarter-window-dressing",
@@ -2078,7 +2088,7 @@
     {
      "stem": "2018-04-22-pivotal-week-coming-up-stage-3-top",
      "date": "2018-04-22",
-     "title": "Pivotal week coming up&#8211;Stage 3 top?"
+     "title": "Pivotal week coming up–Stage 3 top?"
     },
     {
      "stem": "2018-04-15-rising-rates-will-determine-this-market",
@@ -2133,7 +2143,7 @@
     {
      "stem": "2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline",
      "date": "2018-02-04",
-     "title": "Bloody Monday open likely&#8211;In cash during this mini-decline"
+     "title": "Bloody Monday open likely–In cash during this mini-decline"
     },
     {
      "stem": "2018-01-28-glb-shop-breaks-out-to-close-at-all-time-high-after-5-month-base",
@@ -2148,7 +2158,7 @@
     {
      "stem": "2018-01-15-why-i-like-rwb-daily-charts-hri-olli-and-nktr",
      "date": "2018-01-15",
-     "title": "Why I like RWB daily charts&#8211;$HRI, $OLLI and $NKTR"
+     "title": "Why I like RWB daily charts–$HRI, $OLLI and $NKTR"
     },
     {
      "stem": "2018-01-07-monthly-rwb-chart-of-spy-shows-no-end-to-this-bull",
@@ -2173,7 +2183,7 @@
     {
      "stem": "2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend",
      "date": "2017-12-10",
-     "title": "When to sell&#8211;signs an up-trend is weakening; $SQ $IPGP but $SPY is in a daily RWB up-trend"
+     "title": "When to sell–signs an up-trend is weakening; $SQ $IPGP but $SPY is in a daily RWB up-trend"
     },
     {
      "stem": "2017-12-03-gs-cup-and-handle-break-out-last-week",
@@ -2198,17 +2208,17 @@
     {
      "stem": "2017-11-05-glb-qlys-zen-worth-watching",
      "date": "2017-11-05",
-     "title": "GLB: $QLYS, $ZEN&#8211;worth watching"
+     "title": "GLB: $QLYS, $ZEN–worth watching"
     },
     {
      "stem": "2017-10-29-higher-interest-rates-will-slay-this-bull-monitoring-gld-tlt",
      "date": "2017-10-29",
-     "title": "Higher interest rates will slay this bull&#8211;monitoring $GLD $TLT"
+     "title": "Higher interest rates will slay this bull–monitoring $GLD $TLT"
     },
     {
      "stem": "2017-10-22-glb-zagg-silc-on-the-verge",
      "date": "2017-10-22",
-     "title": "GLB:   $ZAGG; $SILC on the verge&#8230;"
+     "title": "GLB:   $ZAGG; $SILC on the verge…"
     },
     {
      "stem": "2017-10-15-lithium-etf-lit-charged-up-gmi-remains-at-6-of-6",
@@ -2278,7 +2288,7 @@
     {
      "stem": "2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green",
      "date": "2017-07-16",
-     "title": "Some of William O&#8217;Neil&#8217;s wisdom exemplified by the great traders I watched; GMI is Green"
+     "title": "Some of William O’Neil’s wisdom exemplified by the great traders I watched; GMI is Green"
     },
     {
      "stem": "2017-07-09-see-you-at-aaii-dc-july-15-workshop-qqq-spy-dia-xar-yellowband-charts-gmired",
@@ -2313,12 +2323,12 @@
     {
      "stem": "2017-05-29-short-and-longer-term-trends-remain-up-i-try-to-follow-trends-not-anticipate-when-they-will-change",
      "date": "2017-05-29",
-     "title": "Short and longer term trends remain up&#8211;I try to follow trends, not anticipate when they will change"
+     "title": "Short and longer term trends remain up–I try to follow trends, not anticipate when they will change"
     },
     {
      "stem": "2017-05-21-21st-day-of-qqq-short-term-up-trend-market-had-a-dead-cat-bounce",
      "date": "2017-05-21",
-     "title": "21st day of $QQQ short term up-trend; Market had a &#8220;dead cat bounce?&#8221;"
+     "title": "21st day of $QQQ short term up-trend; Market had a “dead cat bounce?”"
     },
     {
      "stem": "2017-05-14-is-the-dow-transportation-average-projecting-market-weakness",
@@ -2333,7 +2343,7 @@
     {
      "stem": "2017-04-30-qqq-spy-dia-remain-in-daily-and-weekly-rwb-up-trends-why-not-ride-them",
      "date": "2017-04-30",
-     "title": "$QQQ $SPY $DIA  remain in daily and weekly RWB up-trends&#8211; why not ride them?"
+     "title": "$QQQ $SPY $DIA  remain in daily and weekly RWB up-trends– why not ride them?"
     },
     {
      "stem": "2017-04-23-gmi-flashes-green-1st-day-of-new-qqq-short-term-up-trend",
@@ -2393,7 +2403,7 @@
     {
      "stem": "2017-02-05-market-too-hot-glb-stocks-gkos-hqy-a-judys-pick-exel",
      "date": "2017-02-05",
-     "title": "Market too hot? GLB stocks: $GKOS $HQY;  A Judy&#8217;s pick:  $EXEL"
+     "title": "Market too hot? GLB stocks: $GKOS $HQY;  A Judy’s pick:  $EXEL"
     },
     {
      "stem": "2017-01-29-on-david-ryan-and-my-new-tc2000-scan-for-glb-rockets-bouncing-off-up-of-support-play",
@@ -2403,12 +2413,12 @@
     {
      "stem": "2017-01-22-recent-glb-irbt-resuming-up-trend-anet-glb-fails-access-my-tc2000-scans-newly-described-in-my-blogs-glossary",
      "date": "2017-01-22",
-     "title": "Recent GLB $IRBT resuming up-trend; $ANET GLB fails; Access my TC2000 scans&#8211;newly described in my blog&#8217;s glossary"
+     "title": "Recent GLB $IRBT resuming up-trend; $ANET GLB fails; Access my TC2000 scans–newly described in my blog’s glossary"
     },
     {
      "stem": "2017-01-16-tqqq-again-beats-almost-all-individual-stocks-etf-performance-since-gmi-turned-green-on-111016",
      "date": "2017-01-16",
-     "title": "$TQQQ again beats almost all individual stocks&#8211;ETF performance since GMI turned green on 11/10/16"
+     "title": "$TQQQ again beats almost all individual stocks–ETF performance since GMI turned green on 11/10/16"
     },
     {
      "stem": "2017-01-08-qqq-short-term-up-trend-reaches-20th-day-glb-shop-bull-markets-like-sex",
@@ -2463,7 +2473,7 @@
     {
      "stem": "2016-10-30-new-qqq-short-term-down-trend-how-long-do-down-trends-last",
      "date": "2016-10-30",
-     "title": "New $QQQ short term down-trend&#8211;How long do down-trends last?"
+     "title": "New $QQQ short term down-trend–How long do down-trends last?"
     },
     {
      "stem": "2016-10-16-watching-for-halloween-rally-aapl-supporting-qqq-interest-rates-tlt-and-the-dollar-uup-rise-and-gold-gld-fall",
@@ -2478,7 +2488,7 @@
     {
      "stem": "2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea",
      "date": "2016-10-02",
-     "title": "My trading diary entry from William O&#8217;Neil&#8217;s workshop in 1995;  a set-up for buying $LMAT; $HEIA&#8211;Cup and handle break-out"
+     "title": "My trading diary entry from William O’Neil’s workshop in 1995;  a set-up for buying $LMAT; $HEIA–Cup and handle break-out"
     },
     {
      "stem": "2016-09-25-performance-of-qqq-during-gmi-signals-gmi-to-issue-new-signals-glb-foxf-flt",
@@ -2493,7 +2503,7 @@
     {
      "stem": "2016-09-11-september-swoon-weak-fridays-often-lead-to-ugly-mondays-indicators-i-watch-for-a-bottom",
      "date": "2016-09-11",
-     "title": "September swoon? Weak Fridays often lead to Ugly Mondays&#8212;Indicators I watch for a bottom"
+     "title": "September swoon? Weak Fridays often lead to Ugly Mondays—Indicators I watch for a bottom"
     },
     {
      "stem": "2016-09-05-dw-a-successful-green-line-break-out-updated-glb-tracker-table-all-gmi-components-positive",
@@ -2503,22 +2513,22 @@
     {
      "stem": "2016-08-28-10-reasons-for-a-short-term-market-decline-come-back-on-halloween",
      "date": "2016-08-28",
-     "title": "10 reasons for a short term market decline&#8211;come back on Halloween?"
+     "title": "10 reasons for a short term market decline–come back on Halloween?"
     },
     {
      "stem": "2016-08-20-gmi-66-but-most-sensitive-short-term-qqq-indicators-weaken-september-slump",
      "date": "2016-08-20",
-     "title": "GMI 6/6 but most sensitive short term $QQQ indicators weaken&#8211; September slump?"
+     "title": "GMI 6/6 but most sensitive short term $QQQ indicators weaken– September slump?"
     },
     {
      "stem": "2016-08-14-how-to-find-a-roaring-ipo-growth-stock-like-acia-early-try-reading-ibd",
      "date": "2016-08-14",
-     "title": "How to find a roaring IPO growth stock like $ACIA early&#8211;try reading #IBD"
+     "title": "How to find a roaring IPO growth stock like $ACIA early–try reading #IBD"
     },
     {
      "stem": "2016-08-07-since-gmi-buy-signal-on-71-tqqq-beats-all-index-etfs-most-individual-stocks-and-ibd50-stocks-yet-again",
      "date": "2016-08-07",
-     "title": "Since GMI buy signal on 7/1 $TQQQ beats all index ETFs, most individual stocks and #IBD50 stocks&#8211;yet again"
+     "title": "Since GMI buy signal on 7/1 $TQQQ beats all index ETFs, most individual stocks and #IBD50 stocks–yet again"
     },
     {
      "stem": "2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii",
@@ -2528,7 +2538,7 @@
     {
      "stem": "2016-07-17-the-stealth-bull-market-in-water-awk-cwt-all-my-market-indicators-positive",
      "date": "2016-07-17",
-     "title": "The stealth bull market in water&#8211;$AWK, $CWT; all my market indicators positive"
+     "title": "The stealth bull market in water–$AWK, $CWT; all my market indicators positive"
     },
     {
      "stem": "2016-07-10-flying-on-instruments-glb-rock",
@@ -2573,7 +2583,7 @@
     {
      "stem": "2016-05-15-daily-guppy-charts-of-qqq-and-t2108-turn-negative-gmi-turns-0-of-6-mainly-in-cash",
      "date": "2016-05-15",
-     "title": "Daily Guppy charts of $QQQ and T2108 turn negative; GMI turns 0 (of 6)&#8211;mainly in cash"
+     "title": "Daily Guppy charts of $QQQ and T2108 turn negative; GMI turns 0 (of 6)–mainly in cash"
     },
     {
      "stem": "2016-05-08-9th-day-of-qqq-short-term-down-trend-over-sold-bounce-coming",
@@ -2583,7 +2593,7 @@
     {
      "stem": "2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped",
      "date": "2016-05-01",
-     "title": "Dollar Dives and Gold Gets Going&#8211;bull market to be Trumped?"
+     "title": "Dollar Dives and Gold Gets Going–bull market to be Trumped?"
     },
     {
      "stem": "2016-04-24-critical-week-for-techs-and-the-qqq",
@@ -2618,7 +2628,7 @@
     {
      "stem": "2016-03-13-gmi-at-5-dividend-stocks-dominate-the-new-high-list",
      "date": "2016-03-13",
-     "title": "GMI at 5! Dividend stocks dominate the new high list&#8230;"
+     "title": "GMI at 5! Dividend stocks dominate the new high list…"
     },
     {
      "stem": "2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto",
@@ -2638,7 +2648,7 @@
     {
      "stem": "2016-02-15-market-very-over-sold-bounce-likely-contrafund-and-bill-millers-fund-in-down-trends",
      "date": "2016-02-15",
-     "title": "Market very over-sold; bounce likely; Contrafund and Bill Miller&#8217;s fund in down-trends"
+     "title": "Market very over-sold; bounce likely; Contrafund and Bill Miller’s fund in down-trends"
     },
     {
      "stem": "2016-02-07-why-i-follow-my-general-market-index-gmi",
@@ -2653,7 +2663,7 @@
     {
      "stem": "2016-01-24-table-of-long-and-inverse-index-etfs-my-aaii-workshop-in-february-trend-still-down-dead-cat-bounce",
      "date": "2016-01-24",
-     "title": "Table of long and inverse index ETFs; My AAII workshop in February; Trend still down&#8211;dead cat bounce?"
+     "title": "Table of long and inverse index ETFs; My AAII workshop in February; Trend still down–dead cat bounce?"
     },
     {
      "stem": "2016-01-18-extremely-oversold-readings-two-stocks-fighting-the-down-trend-scai-and-slp-media-comparisons-to-2008-decline",
@@ -2688,12 +2698,12 @@
     {
      "stem": "2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong",
      "date": "2015-12-06",
-     "title": "44th day of $QQQ short term up-trend; $HELE&#8211;GLB; Financial exchanges strong"
+     "title": "44th day of $QQQ short term up-trend; $HELE–GLB; Financial exchanges strong"
     },
     {
      "stem": "2015-11-22-35th-day-of-qqq-short-term-up-trend-qqq-rwb-up-trend-ntes-low-kite-possible-glb",
      "date": "2015-11-22",
-     "title": "35th day of $QQQ short term up-trend; QQQ-RWB up-trend; $NTES, $LOW, $KITE&#8211;possible GLB"
+     "title": "35th day of $QQQ short term up-trend; QQQ-RWB up-trend; $NTES, $LOW, $KITE–possible GLB"
     },
     {
      "stem": "2015-11-15-gmi-near-a-sell-signal-markets-at-a-critical-juncture",
@@ -2733,7 +2743,7 @@
     {
      "stem": "2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching",
      "date": "2015-10-04",
-     "title": "IBD calls market up-trend; $SLP &#8211;green line break out worth watching"
+     "title": "IBD calls market up-trend; $SLP –green line break out worth watching"
     },
     {
      "stem": "2015-09-27-all-of-my-indicators-are-negative-100-cash-cure-getting-sick",
@@ -2743,12 +2753,12 @@
     {
      "stem": "2015-09-20-market-down-trend-deepens-mainly-in-cash-zltq-glb-holding",
      "date": "2015-09-20",
-     "title": "Market Stage 4 down-trend deepens&#8211;mainly in cash; $ZLTQ&#8211;GLB holding"
+     "title": "Market Stage 4 down-trend deepens–mainly in cash; $ZLTQ–GLB holding"
     },
     {
      "stem": "2015-09-13-taking-stock-of-the-market-technical-indicators-at-extreme-levels-ingn",
      "date": "2015-09-13",
-     "title": "Taking stock of the market&#8211;  technical indicators at extreme levels; $INGN"
+     "title": "Taking stock of the market–  technical indicators at extreme levels; $INGN"
     },
     {
      "stem": "2015-09-08-market-trend-clearly-down-my-diminished-trust-in-etfs-after-the-flash-crash",
@@ -2758,7 +2768,7 @@
     {
      "stem": "2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over",
      "date": "2015-08-30",
-     "title": "Is worst of stock market decline over?  I&#8217;m not betting on it&#8230;.."
+     "title": "Is worst of stock market decline over?  I’m not betting on it….."
     },
     {
      "stem": "2015-08-16-still-cautious-mainly-in-cash-hd-shines",
@@ -2768,7 +2778,7 @@
     {
      "stem": "2015-08-09-gmi-back-to-2-of-6-100-cash",
      "date": "2015-08-09",
-     "title": "GMI back to 2 (of 6)&#8211;100% cash"
+     "title": "GMI back to 2 (of 6)–100% cash"
     },
     {
      "stem": "2015-08-02-fly-on-instruments",
@@ -2778,7 +2788,7 @@
     {
      "stem": "2015-07-26-big-concerns-too-many-indexes-in-stage-iv-declines-gmi-near-sell",
      "date": "2015-07-26",
-     "title": "Big concerns&#8211;too many indexes in Stage IV declines; GMI near Sell"
+     "title": "Big concerns–too many indexes in Stage IV declines; GMI near Sell"
     },
     {
      "stem": "2015-07-19-buying-climax-in-the-qqq",
@@ -2798,7 +2808,7 @@
     {
      "stem": "2015-06-28-qqq-short-term-up-trend-in-peril-futures-indicate-wash-out-coming",
      "date": "2015-06-28",
-     "title": "$QQQ short term up-trend in peril&#8211;futures indicate wash out coming"
+     "title": "$QQQ short term up-trend in peril–futures indicate wash out coming"
     },
     {
      "stem": "2015-06-22-all-indicators-remain-positive-dis",
@@ -2808,7 +2818,7 @@
     {
      "stem": "2015-06-21-all-gmi-components-are-positive-betting-on-star-wars-imax-has-ea",
      "date": "2015-06-21",
-     "title": "All GMI components are positive; Betting on Star Wars&#8211;$IMAX, $HAS, $EA"
+     "title": "All GMI components are positive; Betting on Star Wars–$IMAX, $HAS, $EA"
     },
     {
      "stem": "2015-06-14-market-on-the-edge-watching-logm-and-syna",
@@ -2928,7 +2938,7 @@
     {
      "stem": "2015-01-04-market-at-crossroad-aapl-time-to-exit",
      "date": "2015-01-04",
-     "title": "Market at crossroad; $AAPL &#8211;time to exit?"
+     "title": "Market at crossroad; $AAPL –time to exit?"
     },
     {
      "stem": "2014-12-28-whither-oil-late-friday-sell-off-in-indexes",
@@ -3008,7 +3018,7 @@
     {
      "stem": "2014-09-21-market-is-weaker-than-it-looks-nifty-50-all-over-again",
      "date": "2014-09-21",
-     "title": "Market is weaker than it looks&#8211;nifty 50 all over again?"
+     "title": "Market is weaker than it looks–nifty 50 all over again?"
     },
     {
      "stem": "2014-09-14-market-technicals-weakening",
@@ -3018,7 +3028,7 @@
     {
      "stem": "2014-09-07-oilt-cup-and-handle-break-out-16th-day-of-current-qqq-short-term-up-trend-ief-signals-interest-rates-to-rise",
      "date": "2014-09-07",
-     "title": "$OILT&#8211; cup and handle break-out; 16th day of current $QQQ short term up-trend; $IEF signals interest rates to rise?"
+     "title": "$OILT– cup and handle break-out; 16th day of current $QQQ short term up-trend; $IEF signals interest rates to rise?"
     },
     {
      "stem": "2014-09-01-new-rocket-scan-12th-day-of-qqq-short-term-up-trend-thrm-lea-cup-and-handle",
@@ -3033,12 +3043,12 @@
     {
      "stem": "2014-08-17-gmi-signals-buy",
      "date": "2014-08-17",
-     "title": "GMI signals &#8220;Buy&#8221;"
+     "title": "GMI signals “Buy”"
     },
     {
      "stem": "2014-08-10-critical-market-juncture-bounce-or-plummet",
      "date": "2014-08-10",
-     "title": "Critical market juncture&#8211;bounce or plummet"
+     "title": "Critical market juncture–bounce or plummet"
     },
     {
      "stem": "2014-08-03-gmi-successful-10-day-new-high-indicator-predicted-current-decline-t2108-indicator-aapl",
@@ -3063,12 +3073,12 @@
     {
      "stem": "2014-07-06-37th-day-of-qqq-short-term-up-trend-extended",
      "date": "2014-07-06",
-     "title": "37th day of $QQQ short term up-trend&#8211;extended?"
+     "title": "37th day of $QQQ short term up-trend–extended?"
     },
     {
      "stem": "2014-06-29-end-of-2nd-quarter-on-monday-spy-and-qqq-in-stage-2-up-trends-with-aapl",
      "date": "2014-06-29",
-     "title": "End of 2nd quarter on Monday; $SPY and $QQQ in Stage 2 Up-trends&#8211;with $AAPL"
+     "title": "End of 2nd quarter on Monday; $SPY and $QQQ in Stage 2 Up-trends–with $AAPL"
     },
     {
      "stem": "2014-06-22-rwb-patterns-in-qqq-across-time-periods-ptla-and-stz-see-you-in-july",
@@ -3093,7 +3103,7 @@
     {
      "stem": "2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend",
      "date": "2014-05-26",
-     "title": "Ignore the media pundits&#8211;Stage Analysis shows markets remain in up-trend"
+     "title": "Ignore the media pundits–Stage Analysis shows markets remain in up-trend"
     },
     {
      "stem": "2014-05-18-4th-day-of-qqq-short-term-up-trend-getronger-aapl-to-break-out-ting-st",
@@ -3103,7 +3113,7 @@
     {
      "stem": "2014-05-11-gold-gld-in-stage-1-base-xsw-in-stage-4-qqq-hs-top-still-possible",
      "date": "2014-05-11",
-     "title": "Gold ($GLD) in Stage 1 base; $XSW in Stage 4; $QQQ H&#038;S top still possible"
+     "title": "Gold ($GLD) in Stage 1 base; $XSW in Stage 4; $QQQ H&S top still possible"
     },
     {
      "stem": "2014-05-04-2nd-day-of-qqq-short-term-up-trend-important-test-coming-on-monday",
@@ -3138,7 +3148,7 @@
     {
      "stem": "2014-03-23-qqq-short-term-up-trend-in-jeopardy-3d-stocks-looking-very-weak-xec-green-line-break-out",
      "date": "2014-03-23",
-     "title": "$QQQ short term up-trend in jeopardy; 3D stocks looking  weak; $XEC, $NGVC, $ASGN&#8211;green line break-out"
+     "title": "$QQQ short term up-trend in jeopardy; 3D stocks looking  weak; $XEC, $NGVC, $ASGN–green line break-out"
     },
     {
      "stem": "2014-03-16-longer-term-up-trend-of-qqq-intact-a-new-short-term-down-trend-could-develop-with-a-weak-monday",
@@ -3163,7 +3173,7 @@
     {
      "stem": "2014-02-17-further-thoughts-for-dc-metro-aaii-qqq-remains-in-stage-2-up-trend-tsla-green-line-break-out",
      "date": "2014-02-17",
-     "title": "Further Thoughts for DC Metro AAII; $QQQ remains in Stage 2 up-trend; $TSLA&#8211; green line break-out"
+     "title": "Further Thoughts for DC Metro AAII; $QQQ remains in Stage 2 up-trend; $TSLA– green line break-out"
     },
     {
      "stem": "2014-02-09-is-this-the-end-of-the-correction-14-stocks-at-all-time-highs",
@@ -3193,7 +3203,7 @@
     {
      "stem": "2014-01-06-58th-day-of-qqq-short-term-up-trend-new-years-resolution-trade-only-leveraged-etfs",
      "date": "2014-01-06",
-     "title": "58th day of $QQQ short term up-trend; New Year&#8217;s Resolution&#8211;trade only leveraged ETFs"
+     "title": "58th day of $QQQ short term up-trend; New Year’s Resolution–trade only leveraged ETFs"
     },
     {
      "stem": "2013-12-30-how-close-is-the-qqq-to-the-end-of-this-short-term-up-trend",
@@ -3208,7 +3218,7 @@
     {
      "stem": "2013-12-15-45th-day-of-qqq-short-term-up-trend-v-pops-on-way-to-bollinger-band-expansion",
      "date": "2013-12-15",
-     "title": "45th day of QQQ short term up-trend; V pops&#8211;on way to Bollinger Band expansion?"
+     "title": "45th day of QQQ short term up-trend; V pops–on way to Bollinger Band expansion?"
     },
     {
      "stem": "2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners",
@@ -3218,12 +3228,12 @@
     {
      "stem": "2013-12-01-bearish-sentiment-reaches-new-low-but-my-indicators-are-positive-buy-and-hold-of-leveraged-etfs-can-work",
      "date": "2013-12-01",
-     "title": "Bearish sentiment reaches new low, but my indicators are positive; buy and hold of leveraged ETF&#8217;s can work"
+     "title": "Bearish sentiment reaches new low, but my indicators are positive; buy and hold of leveraged ETF’s can work"
     },
     {
      "stem": "2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks",
      "date": "2013-11-24",
-     "title": "GMI based strategy using 3X ETF&#8217;s beats IBD 50 stocks"
+     "title": "GMI based strategy using 3X ETF’s beats IBD 50 stocks"
     },
     {
      "stem": "2013-11-18-all-indicators-remain-positive-gmi-based-strategies-lead-to-large-gains-in-2012-and-2013-onvo-soars",
@@ -3238,7 +3248,7 @@
     {
      "stem": "2013-11-03-market-at-critical-juncture-macd-and-stochastics-weakening-what-will-tsla-do-buy-a-call",
      "date": "2013-11-03",
-     "title": "Market at critical juncture; MACD and Stochastics weakening; What will TSLA do&#8211;buy a call?"
+     "title": "Market at critical juncture; MACD and Stochastics weakening; What will TSLA do–buy a call?"
     },
     {
      "stem": "2013-10-27-11th-day-of-qqq-short-term-up-trend-gold-turning-up-ehth-gains-strength-gmi-buy-signal-leads-to-large-gains",
@@ -3253,12 +3263,12 @@
     {
      "stem": "2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting",
      "date": "2013-10-13",
-     "title": "Saturday&#8217;s Baltimore AAII meeting; GLD in Stage 4; All GMI components positive, but I am waiting"
+     "title": "Saturday’s Baltimore AAII meeting; GLD in Stage 4; All GMI components positive, but I am waiting"
     },
     {
      "stem": "2013-10-06-gmi-back-to-6-4-green-line-break-out-stocks-from-last-week-and-2-prior-winners-flt-and-tsla",
      "date": "2013-10-06",
-     "title": "GMI back to 6; 4 green line break-out stocks from last week and 2 prior winners&#8211;FLT and TSLA"
+     "title": "GMI back to 6; 4 green line break-out stocks from last week and 2 prior winners–FLT and TSLA"
     },
     {
      "stem": "2013-09-29-market-remains-in-up-trend-but-congressional-antics-may-cause-some-bumps-eeft-and-cme",
@@ -3318,7 +3328,7 @@
     {
      "stem": "2013-06-30-13th-day-of-qqq-short-term-down-trend-is-bounce-over-invn-rwb-stock-on-the-move",
      "date": "2013-06-30",
-     "title": "13th day of QQQ short term down-trend, is bounce over? INVN&#8211;RWB stock on the move"
+     "title": "13th day of QQQ short term down-trend, is bounce over? INVN–RWB stock on the move"
     },
     {
      "stem": "2013-06-23-gmi-signals-sell",
@@ -3363,7 +3373,7 @@
     {
      "stem": "2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline",
      "date": "2013-04-14",
-     "title": "Market  in strong up-trend; Beware the bearish media pundits; Gold&#8217;s &#8220;sudden&#8221; decline"
+     "title": "Market  in strong up-trend; Beware the bearish media pundits; Gold’s “sudden” decline"
     },
     {
      "stem": "2013-04-07-qqq-short-term-up-trend-may-end-head-and-shoulders-top-back-in-play-sell-in-may",
@@ -3378,7 +3388,7 @@
     {
      "stem": "2013-03-17-some-more-green-line-break-out-stocks-dfs-wat-cab-nee-dow-theory-buy-signal",
      "date": "2013-03-17",
-     "title": "Some more green line break-out stocks: DFS, WAT, CAB, NEE&#8230;..; Dow Theory Buy Signal"
+     "title": "Some more green line break-out stocks: DFS, WAT, CAB, NEE…..; Dow Theory Buy Signal"
     },
     {
      "stem": "2013-03-11-market-up-trend-continues-green-line-break-out-with-cup-and-handle-trip",
@@ -3408,7 +3418,7 @@
     {
      "stem": "2013-02-03-when-will-this-bull-advance-end-performance-of-leveraged-etfs",
      "date": "2013-02-03",
-     "title": "When will this bull advance end? Performance of leveraged ETF&#8217;s"
+     "title": "When will this bull advance end? Performance of leveraged ETF’s"
     },
     {
      "stem": "2013-01-28-gmi-remains-at-6-short-and-longer-term-trends-remain-up-onvo-roller-coaster",
@@ -3433,7 +3443,7 @@
     {
      "stem": "2012-12-31-gmi-flashes-sell-2",
      "date": "2012-12-31",
-     "title": "GMI flashes &#8220;Sell&#8221;"
+     "title": "GMI flashes “Sell”"
     },
     {
      "stem": "2012-12-23-critical-week-to-come-qqq-on-support",
@@ -3463,7 +3473,7 @@
     {
      "stem": "2012-11-04-market-resumes-decline-short-with-leveraged-inverse-3x-index-etfs",
      "date": "2012-11-04",
-     "title": "Market resumes decline; in cash and short with leveraged 3X inverse index ETF&#8217;s"
+     "title": "Market resumes decline; in cash and short with leveraged 3X inverse index ETF’s"
     },
     {
      "stem": "2012-10-28-15th-day-of-qqq-short-term-down-trend-2",
@@ -3503,7 +3513,7 @@
     {
      "stem": "2012-09-09-29th-day-of-qqq-short-term-up-trend-aapls-week",
      "date": "2012-09-09",
-     "title": "29th day of QQQ short term up-trend; AAPL&#8217;s week"
+     "title": "29th day of QQQ short term up-trend; AAPL’s week"
     },
     {
      "stem": "2012-09-04-25th-day-of-qqq-short-term-up-trend-beware-september",
@@ -3563,7 +3573,7 @@
     {
      "stem": "2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture",
      "date": "2012-06-18",
-     "title": "An excerpt from my trading diary from the 90&#8217;s; Market at critical juncture? IBD declares new up-trend; ASPS and QCOR"
+     "title": "An excerpt from my trading diary from the 90’s; Market at critical juncture? IBD declares new up-trend; ASPS and QCOR"
     },
     {
      "stem": "2012-06-11-39th-day-of-qqq-short-term-down-trend-asps-break-out",
@@ -3623,7 +3633,7 @@
     {
      "stem": "2012-03-26-window-dressing-this-week-approaching-sell-in-may-and-go-away-judys-picks-mako-and-invn",
      "date": "2012-03-26",
-     "title": "Window dressing this week?  Approaching &#8220;sell in May and go away&#8221;; Judy&#8217;s picks: MAKO and INVN"
+     "title": "Window dressing this week?  Approaching “sell in May and go away”; Judy’s picks: MAKO and INVN"
     },
     {
      "stem": "2012-03-12-gmi-out-performs-in-new-study-gld-starting-stage-4",
@@ -3688,12 +3698,12 @@
     {
      "stem": "2011-12-05-gmi-flashes-bullish-signal-but-other-indicators-are-mixed",
      "date": "2011-12-05",
-     "title": "GMI flashes bullish signal, but other indicators are mixed; LNG: Judy&#8217;s latest concept"
+     "title": "GMI flashes bullish signal, but other indicators are mixed; LNG: Judy’s latest concept"
     },
     {
      "stem": "2011-11-28-6th-day-of-qqq-short-term-down-trend-gmi-performance-since-april-stage-4-cmg",
      "date": "2011-11-28",
-     "title": "6th day of QQQ short term down-trend; GMI performance since April; Stage 4&#8211;CMG?"
+     "title": "6th day of QQQ short term down-trend; GMI performance since April; Stage 4–CMG?"
     },
     {
      "stem": "2011-11-21-2nd-day-of-qqq-short-term-down-trend-wtw-stage-4-decline",
@@ -3713,12 +3723,12 @@
     {
      "stem": "2011-10-31-worden-t2108-is-at-86-very-overbought",
      "date": "2011-10-31",
-     "title": "Worden T2108 is at 86%&#8211;very overbought"
+     "title": "Worden T2108 is at 86%–very overbought"
     },
     {
      "stem": "2011-10-24-9th-day-of-qqq-short-term-up-trend-bby-rwb-rocket-stock",
      "date": "2011-10-24",
-     "title": "9th day of QQQ short term up-trend; BBBY&#8212; RWB rocket stock"
+     "title": "9th day of QQQ short term up-trend; BBBY— RWB rocket stock"
     },
     {
      "stem": "2011-10-17-upswing-has-begun-time-to-wade-back-in",
@@ -3743,7 +3753,7 @@
     {
      "stem": "2011-09-12-100-cash-sp-500-in-weinstein-stage-4-decline",
      "date": "2011-09-12",
-     "title": "100% cash; S&#038;P 500 in Weinstein Stage 4 decline"
+     "title": "100% cash; S&P 500 in Weinstein Stage 4 decline"
     },
     {
      "stem": "2011-09-06-futures-portend-down-open-new-qqq-short-term-up-trend-in-jeopardy-still-in-cash",
@@ -3828,7 +3838,7 @@
     {
      "stem": "2011-04-18-aapl-right-on-long-term-support",
      "date": "2011-04-18",
-     "title": "AAPL on long term support&#8211;critical test of up-trend imminent"
+     "title": "AAPL on long term support–critical test of up-trend imminent"
     },
     {
      "stem": "2011-04-11-8th-day-of-qqq-short-term-up-trend",
@@ -3838,7 +3848,7 @@
     {
      "stem": "2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks",
      "date": "2011-04-04",
-     "title": "IBD50 list from 1/10 out-performs Nasdaq100 and S&#038;P500 stocks; Some IBD50 stocks at support"
+     "title": "IBD50 list from 1/10 out-performs Nasdaq100 and S&P500 stocks; Some IBD50 stocks at support"
     },
     {
      "stem": "2011-03-28-gmi-back-to-4-critical-test-coming-this-week",
@@ -3858,7 +3868,7 @@
     {
      "stem": "2011-02-28-market-indexes-hold-many-stocks-bounce-off-of-support-ibd50-stock-lulu-cup-with-handle-mstr",
      "date": "2011-02-28",
-     "title": "Market indexes hold; Many stocks bounce off of support; IBD50 stock, LULU; Cup-with handle&#8211;MSTR."
+     "title": "Market indexes hold; Many stocks bounce off of support; IBD50 stock, LULU; Cup-with handle–MSTR."
     },
     {
      "stem": "2011-02-23-gmi-declines-to-5-gmi-r-to-7-getting-cautious",
@@ -3873,7 +3883,7 @@
     {
      "stem": "2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd",
      "date": "2011-02-07",
-     "title": "Nicolas Darvas, on the value of studying one&#8217;s trading losses; RWB stocks, COST, RVBD"
+     "title": "Nicolas Darvas, on the value of studying one’s trading losses; RWB stocks, COST, RVBD"
     },
     {
      "stem": "2011-01-31-warning-india-stocks",
@@ -3903,7 +3913,7 @@
     {
      "stem": "2010-12-14-monday-was-16th-day-of-qqqq-short-term-up-trend-correction-of-indicator-used-in-yesterdays-post",
      "date": "2010-12-14",
-     "title": "Monday was 16th day of QQQQ short term up-trend; Correction of indicator used in yesterday&#8217;s post"
+     "title": "Monday was 16th day of QQQQ short term up-trend; Correction of indicator used in yesterday’s post"
     },
     {
      "stem": "2010-12-13-where-are-we-in-the-market-cycle",
@@ -3913,7 +3923,7 @@
     {
      "stem": "2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib",
      "date": "2010-12-06",
-     "title": "IBD announces &#8220;resumed confirmed up-trend&#8221;, gives up on follow-through day; How mutual funds rip off investors; IBD100 list top 10 outperform indexes"
+     "title": "IBD announces “resumed confirmed up-trend”, gives up on follow-through day; How mutual funds rip off investors; IBD100 list top 10 outperform indexes"
     },
     {
      "stem": "2010-11-29-qqqq-short-term-up-trend-completes-5th-day-majority-of-advisers-bullish",
@@ -3968,7 +3978,7 @@
     {
      "stem": "2010-09-07-this-rally-may-have-legs-ibd100-top-ten-out-shine-again",
      "date": "2010-09-07",
-     "title": "This rally may have legs&#8211;IBD100 top ten out-shine again!"
+     "title": "This rally may have legs–IBD100 top ten out-shine again!"
     },
     {
      "stem": "2010-08-30-qqqq-trend-remains-flat-mainly-in-cash",
@@ -3983,7 +3993,7 @@
     {
      "stem": "2010-08-16-raising-cash-some-submarine-stocks",
      "date": "2010-08-16",
-     "title": "Raising cash; some submarine stocks; Indexes&#8217; daily stochastics oversold"
+     "title": "Raising cash; some submarine stocks; Indexes’ daily stochastics oversold"
     },
     {
      "stem": "2010-08-09-check-out-the-stochastic-of-the-worden-t2108-rally-to-continue",
@@ -4013,7 +4023,7 @@
     {
      "stem": "2010-06-28-i-only-ride-the-yellow-band-trends-in-cash-or-short-some-possible-submarine-stocks-goog",
      "date": "2010-06-28",
-     "title": "I only ride the yellow band trends!  Down-trend, in cash or short; Some possible submarine stocks&#8211;GOOG????"
+     "title": "I only ride the yellow band trends!  Down-trend, in cash or short; Some possible submarine stocks–GOOG????"
     },
     {
      "stem": "2010-06-21-some-stocks-near-all-time-highs-since-june-4-ibd100-stocks-3x-more-likely-to-rise-10",
@@ -4038,7 +4048,7 @@
     {
      "stem": "2010-05-24-submarine-scan-worked-pwrd-dives-market-treacherous",
      "date": "2010-05-24",
-     "title": "Submarine scan worked&#8211;PWRD dives; Market treacherous"
+     "title": "Submarine scan worked–PWRD dives; Market treacherous"
     },
     {
      "stem": "2010-05-17-china-in-free-fall-buying-fxp-qqqq-completes-8th-day-of-short-term-down-trend",
@@ -4073,7 +4083,7 @@
     {
      "stem": "2010-04-05-ibd-100-stocks-outperform-nasdaq-100-and-sp-500-stocks-during-this-rally",
      "date": "2010-04-05",
-     "title": "IBD 100 Stocks Outperform Nasdaq 100 and S&#038;P 500 Stocks During This Rally"
+     "title": "IBD 100 Stocks Outperform Nasdaq 100 and S&P 500 Stocks During This Rally"
     },
     {
      "stem": "2010-03-29-with-ipad-debut-on-the-horizon-aapl-shines-tech-up-trend-continues-but-qld-beats-most-ibd100-stocks-again",
@@ -4088,17 +4098,17 @@
     {
      "stem": "2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs",
      "date": "2010-03-15",
-     "title": "Jim Cramer on stop loss orders&#8211;terribly wrong again! KCI soars; How I trade the 3X ETF&#8217;s"
+     "title": "Jim Cramer on stop loss orders–terribly wrong again! KCI soars; How I trade the 3X ETF’s"
     },
     {
      "stem": "2010-03-08-aapl-breaks-out-t2108-near-peak",
      "date": "2010-03-08",
-     "title": "AAPL breaks out&#8211;T2108 near peak? Tech up-trend looks strong."
+     "title": "AAPL breaks out–T2108 near peak? Tech up-trend looks strong."
     },
     {
      "stem": "2010-03-01-kci-a-cup-with-handle-break-out",
      "date": "2010-03-01",
-     "title": "KCI&#8211;A cup-with-handle break-out?"
+     "title": "KCI–A cup-with-handle break-out?"
     },
     {
      "stem": "2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun",
@@ -4148,7 +4158,7 @@
     {
      "stem": "2009-11-30-up-trend-continues-check-out-the-guppy-chart-of-the-qqqq",
      "date": "2009-11-30",
-     "title": "Up-trend continues&#8211;check out the Guppy Chart of the QQQQ"
+     "title": "Up-trend continues–check out the Guppy Chart of the QQQQ"
     },
     {
      "stem": "2009-11-23-up-trend-continues-some-darvas-rocket-stocks-daily-stochastics-declining",
@@ -4163,7 +4173,7 @@
     {
      "stem": "2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com",
      "date": "2009-10-26",
-     "title": "Exciting New Worden stock tool&#8211;volume buzz at FreeStockCharts.com"
+     "title": "Exciting New Worden stock tool–volume buzz at FreeStockCharts.com"
     },
     {
      "stem": "2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support",
@@ -4188,7 +4198,7 @@
     {
      "stem": "2009-09-21-ultra-3x-etfs-beat-individual-stocks-again",
      "date": "2009-09-21",
-     "title": "Ultra 3X ETF&#8217;s beat individual stocks again!"
+     "title": "Ultra 3X ETF’s beat individual stocks again!"
     },
     {
      "stem": "2009-09-14-gmi-and-gmi-r-at-the-max-short-and-long-term-indicators-in-up-trends-gmcr-toppy",
@@ -4203,7 +4213,7 @@
     {
      "stem": "2009-08-24-why-search-for-great-stocks-when-i-can-buy-ultra-etfs",
      "date": "2009-08-24",
-     "title": "Why search for great stocks when I can buy ultra ETF&#8217;s?"
+     "title": "Why search for great stocks when I can buy ultra ETF’s?"
     },
     {
      "stem": "2009-08-10-market-in-rally-mode",
@@ -4228,7 +4238,7 @@
     {
      "stem": "2009-07-13-short-term-down-trend-continues-mainly-in-cash-new-edition-of-oneil-classic",
      "date": "2009-07-13",
-     "title": "Short term down-trend continues, mainly in cash; New edition of O&#8217;Neil classic"
+     "title": "Short term down-trend continues, mainly in cash; New edition of O’Neil classic"
     },
     {
      "stem": "2009-07-05-getting-defensive-short-term-down-trend-may-be-imminent-is-this-the-market-bottom",
@@ -4253,7 +4263,7 @@
     {
      "stem": "2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs",
      "date": "2009-06-07",
-     "title": "Why search for individual stocks when we can ride the ultra ETF&#8217;s?"
+     "title": "Why search for individual stocks when we can ride the ultra ETF’s?"
     },
     {
      "stem": "2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn",
@@ -4293,22 +4303,22 @@
     {
      "stem": "2009-04-05-dow-bottom-rally-puny-thus-far-ibd100-and-other-growth-stocks-at-new-highs-im-bullish-for-now",
      "date": "2009-04-05",
-     "title": "Dow &#8220;bottom rally&#8221; puny thus far!; IBD100 and other growth stocks at new highs; I&#8217;m bullish for now"
+     "title": "Dow “bottom rally” puny thus far!; IBD100 and other growth stocks at new highs; I’m bullish for now"
     },
     {
      "stem": "2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts",
      "date": "2009-03-29",
-     "title": "Is the bear market over? Check out my &#8220;Guppy&#8221; charts"
+     "title": "Is the bear market over? Check out my “Guppy” charts"
     },
     {
      "stem": "2009-03-15-jon-stewart-media-pundits-failed-us-but-i-wrote-last-june-that-banks-and-markets-looked-sick",
      "date": "2009-03-15",
-     "title": "Jon Stewart: media pundits failed us&#8211;but I wrote last June that banks and markets looked sick"
+     "title": "Jon Stewart: media pundits failed us–but I wrote last June that banks and markets looked sick"
     },
     {
      "stem": "2009-03-01-no-bottom-in-sight-for-this-bear-market-its-just-the-beginning",
      "date": "2009-03-01",
-     "title": "No bottom in sight for this bear market&#8211;it&#8217;s just the beginning?"
+     "title": "No bottom in sight for this bear market–it’s just the beginning?"
     },
     {
      "stem": "2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible",
@@ -4323,7 +4333,7 @@
     {
      "stem": "2009-02-08-the-new-3x-etfs-triple-your-pleasure-or-pain",
      "date": "2009-02-08",
-     "title": "The new 3x ETF&#8217;s&#8211;triple your pleasure &#8212; or pain"
+     "title": "The new 3x ETF’s–triple your pleasure — or pain"
     },
     {
      "stem": "2009-02-02-all-indicators-negative-12th-day-of-qqqq-short-term-down-trend",
@@ -4333,7 +4343,7 @@
     {
      "stem": "2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren",
      "date": "2009-01-05",
-     "title": "I&#8217;m up 1200%, as my fellow boomers and college students get screwed again; QQQQ in 17th day of short term up-trend; GMI: 2; GMI-R: 6; T2108: 83%; 10 IBD100 stocks at new highs"
+     "title": "I’m up 1200%, as my fellow boomers and college students get screwed again; QQQQ in 17th day of short term up-trend; GMI: 2; GMI-R: 6; T2108: 83%; 10 IBD100 stocks at new highs"
     }
    ]
   },
@@ -4354,7 +4364,7 @@
     {
      "stem": "2026-03-10-blog-post-day-24-of-qqq-short-term-down-trend-spy-and-dia-join-qqq-in-daily-bwr-down-trends-staying-long-now",
      "date": "2026-03-10",
-     "title": "Blog Post: Day 24 of $QQQ short term down-trend; $SPY and $DIA join $QQQ  in daily BWR down-trends. Staying long now is fighting the market&#8217;s trend. See also what a daily RWB up-trend looked like for $QQQ that began in May, 2025. That is the pattern to be long."
+     "title": "Blog Post: Day 24 of $QQQ short term down-trend; $SPY and $DIA join $QQQ  in daily BWR down-trends. Staying long now is fighting the market’s trend. See also what a daily RWB up-trend looked like for $QQQ that began in May, 2025. That is the pattern to be long."
     },
     {
      "stem": "2026-02-11-blog-post-day-5-of-qqq-short-term-down-trend-xom-stands-out-as-a-climbing-rocket-see-daily-chart-and-details",
@@ -4369,7 +4379,7 @@
     {
      "stem": "2025-10-23-blog-post-day-43-of-qqq-short-term-up-trend-come-back-at-halloween-barring-bad-inflation-news-friday-my-indic",
      "date": "2025-10-23",
-     "title": "Blog Post: Day 43 of $QQQ short term up-trend; &#8220;Come Back at Halloween.&#8221; Barring bad inflation news Friday, my indicators suggest a continuing up-trend, see weekly chart and explanation."
+     "title": "Blog Post: Day 43 of $QQQ short term up-trend; “Come Back at Halloween.” Barring bad inflation news Friday, my indicators suggest a continuing up-trend, see weekly chart and explanation."
     },
     {
      "stem": "2025-10-15-blog-post-day-37-of-qqq-short-term-up-trend-check-out-this-amazing-daily-chart-showing-how-gld-has-closed-abo",
@@ -4414,7 +4424,7 @@
     {
      "stem": "2024-05-27-blog-post-day-15-of-qqq-short-term-up-trend-anf-is-an-example-of-how-i-analyze-a-stocks-trend-using-my-weekly",
      "date": "2024-05-27",
-     "title": "Blog Post: Day 15 of $QQQ short term up-trend; $ANF is an example of how I analyze a stock&#8217;s trend using my weekly green bar indicator."
+     "title": "Blog Post: Day 15 of $QQQ short term up-trend; $ANF is an example of how I analyze a stock’s trend using my weekly green bar indicator."
     },
     {
      "stem": "2024-04-30-blog-post-day-18-of-qqq-short-term-down-trend-stocks-follow-the-long-bonds-when-bonds-fall-interest-rates-are",
@@ -4469,7 +4479,7 @@
     {
      "stem": "2023-04-24-blog-post-day-26-of-qqq-short-term-up-trend-wing-flies-to-ath-how-i-missed-the-glb-true-confessions-and-see-m",
      "date": "2023-04-24",
-     "title": "Blog Post: Day 26 of $QQQ short term up-trend; $WING flies to ATH, how I missed the GLB&#8211;true confessions,  and see my green line rules"
+     "title": "Blog Post: Day 26 of $QQQ short term up-trend; $WING flies to ATH, how I missed the GLB–true confessions,  and see my green line rules"
     },
     {
      "stem": "2023-04-04-blog-post-day-13-of-qqq-short-term-up-trend-85-us-new-highs-and-227-new-lows-qqq-1030-weekly-chart-is-strong",
@@ -4504,12 +4514,12 @@
     {
      "stem": "2023-02-06-blog-post-day-17-of-qqq-short-term-up-trend-5-yellow-band-stocks-that-hit-an-ath-on-monday-see-the-list-and-a",
      "date": "2023-02-06",
-     "title": "Blog Post: Day 17 of $QQQ short term up-trend; 5 &#8220;yellow band&#8221; stocks that hit an ATH on Monday, see the list and a chart of $BWMN"
+     "title": "Blog Post: Day 17 of $QQQ short term up-trend; 5 “yellow band” stocks that hit an ATH on Monday, see the list and a chart of $BWMN"
     },
     {
      "stem": "2023-02-05-blog-post-day-16-of-qqq-short-term-up-trend-buy-tqqq-on-day-1-of-this-up-trend-and-it-advanced-through-friday",
      "date": "2023-02-05",
-     "title": "Blog Post: Day 16 of $QQQ short term up-trend; Buy $TQQQ on day 1 of this up-trend and it advanced through Friday, +29.5%, beating all but 4 of the Nasdaq 100 stocks and all but 3 of the S&#038;P500 stocks&#8211;same incredible results again! See chart"
+     "title": "Blog Post: Day 16 of $QQQ short term up-trend; Buy $TQQQ on day 1 of this up-trend and it advanced through Friday, +29.5%, beating all but 4 of the Nasdaq 100 stocks and all but 3 of the S&P500 stocks–same incredible results again! See chart"
     },
     {
      "stem": "2023-01-16-blog-post-gmi-turns-green-and-day-2-of-qqq-short-term-up-trend-how-i-trade-a-glb-green-line-breakout-2-exampl",
@@ -4519,7 +4529,7 @@
     {
      "stem": "2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we",
      "date": "2022-12-29",
-     "title": "Blog Post: Day 9 of $QQQ short term down-trend; GLBs often fail in market down-trends&#8211;$CALM is a prime example we can learn from"
+     "title": "Blog Post: Day 9 of $QQQ short term down-trend; GLBs often fail in market down-trends–$CALM is a prime example we can learn from"
     },
     {
      "stem": "2022-12-04-blog-post-day-15-of-qqq-short-term-up-trend-time-for-me-to-buy-see-my-tc2000-scan-for-finding-stocks-gapping",
@@ -4569,7 +4579,7 @@
     {
      "stem": "2022-05-26-blog-post-day-32-of-qqq-short-term-down-trend-first-day-with-more-than-100-us-stocks-at-new-highs-102-since-a",
      "date": "2022-05-26",
-     "title": "Blog Post: Day 32 of $QQQ short term down-trend; First day with more than 100 US stocks at new highs (102) since April 21; see how my table of new highs/lows below helps me gauge the market&#8217;s strength"
+     "title": "Blog Post: Day 32 of $QQQ short term down-trend; First day with more than 100 US stocks at new highs (102) since April 21; see how my table of new highs/lows below helps me gauge the market’s strength"
     },
     {
      "stem": "2022-05-18-blog-post-day-26-of-qqq-short-term-down-trend-qqq-is-now-in-a-weekly-bwr-down-trend-first-since-2008-see-week",
@@ -4589,7 +4599,7 @@
     {
      "stem": "2022-02-08-blog-post-how-i-use-bollinger-bands-to-analyze-qqq-watch-out-for-qqq-around-372-12-of-the-13-stocks-from-sund",
      "date": "2022-02-08",
-     "title": "Blog post: How I use Bollinger Bands to analyze QQQ &#8212; watch out for QQQ around  372; 12 of the 13 stocks from Sunday&#8217;s scan advanced; 5 new ones"
+     "title": "Blog post: How I use Bollinger Bands to analyze QQQ — watch out for QQQ around  372; 12 of the 13 stocks from Sunday’s scan advanced; 5 new ones"
     },
     {
      "stem": "2021-12-21-blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000",
@@ -4599,7 +4609,7 @@
     {
      "stem": "2021-08-22-blog-post-stocks-rally-and-2-day-old-qqq-short-term-down-trend-may-end-monday-nke-an-example-of-how-i-use-my",
      "date": "2021-08-22",
-     "title": "Blog post: Stocks rally and 2 day old $QQQ short term down-trend may end Monday; $NKE&#8211;an example of how I use my latest oversold bounce (OSB) scan to find promising stocks; $QQQ retakes all shorter daily RWB averages"
+     "title": "Blog post: Stocks rally and 2 day old $QQQ short term down-trend may end Monday; $NKE–an example of how I use my latest oversold bounce (OSB) scan to find promising stocks; $QQQ retakes all shorter daily RWB averages"
     },
     {
      "stem": "2021-07-18-blog-post-36th-day-of-qqq-short-term-up-trend-and-gmi5-of-6-and-green-i-went-to-cash-in-my-trading-account-la",
@@ -4614,7 +4624,7 @@
     {
      "stem": "2021-06-13-follow-on-to-traderlion-conference-this-wednesdays-long-island-talk-examples-of-black-dot-signals-gmi6-of-6",
      "date": "2021-06-13",
-     "title": "Follow on to TraderLion conference, this Wednesday&#8217;s Long Island talk; Examples of black dot signals; GMI=6 (of 6)"
+     "title": "Follow on to TraderLion conference, this Wednesday’s Long Island talk; Examples of black dot signals; GMI=6 (of 6)"
     },
     {
      "stem": "2021-05-31-blog-post-glb-green-line-break-out-explained-some-stocks-having-a-glb-last-week-mec-omp-tgls-flng-cubi",
@@ -4634,22 +4644,22 @@
     {
      "stem": "2021-03-14-blog-post-my-2012-houston-tc2000-users-group-video-is-available-at-my-blogs-topics-webinars-tab-i-gained-a-lo",
      "date": "2021-03-14",
-     "title": "Blog Post&#8211;My  2012 Houston TC2000 Users Group video is available at my blog&#8217;s Topics/Webinars Tab; I gained a lot by watching!!"
+     "title": "Blog Post–My  2012 Houston TC2000 Users Group video is available at my blog’s Topics/Webinars Tab; I gained a lot by watching!!"
     },
     {
      "stem": "2021-02-28-blog-post-twtr-to-take-off-an-example-of-how-i-use-tc2000-and-my-glb-and-wgb-indicators-to-find-promising-sto",
      "date": "2021-02-28",
-     "title": "Blog post: $TWTR to take off? &#8211;An example of how I use TC2000 and my GLB and WGB indicators to find promising stocks; GMI could turn Red by Monday&#8217;s close"
+     "title": "Blog post: $TWTR to take off? –An example of how I use TC2000 and my GLB and WGB indicators to find promising stocks; GMI could turn Red by Monday’s close"
     },
     {
      "stem": "2021-02-07-flws-to-bloom-for-valentines-day-63rd-day-of-qqq-short-term-up-trend-gmi-is-green-and-i-added-a-component-to",
      "date": "2021-02-07",
-     "title": "$FLWS to bloom for Valentine&#8217;s Day?  63rd day of $QQQ short term up-trend; GMI is Green and I added a component to GMI2"
+     "title": "$FLWS to bloom for Valentine’s Day?  63rd day of $QQQ short term up-trend; GMI is Green and I added a component to GMI2"
     },
     {
      "stem": "2021-01-24-blog-post-in-the-60s-i-used-to-receive-a-book-containing-monthly-charts-of-stocks-i-noticed-that-stocks-that",
      "date": "2021-01-24",
-     "title": "Blog post&#8211;In the 60s, I used to receive a book containing monthly charts of stocks. I noticed that stocks that reached an all time high (ATH), declined for a few months, and then went on to a new ATH were often big gainers. I therefore created my green line break-out (GLB) strategy many years later. I describe GLB in this post and provide  6 recent examples: $JMIA $GM $PGNY $KC $MGNI $CSIQ"
+     "title": "Blog post–In the 60s, I used to receive a book containing monthly charts of stocks. I noticed that stocks that reached an all time high (ATH), declined for a few months, and then went on to a new ATH were often big gainers. I therefore created my green line break-out (GLB) strategy many years later. I describe GLB in this post and provide  6 recent examples: $JMIA $GM $PGNY $KC $MGNI $CSIQ"
     },
     {
      "stem": "2021-01-18-blog-post-for-the-first-time-many-individual-stocks-outperformed-just-holding-tqqq-during-a-qqq-short-term-up",
@@ -4674,12 +4684,12 @@
     {
      "stem": "2020-09-29-stocks-with-high-volume-glb-may-rocket-higher-sitm-fvrr-pton-regi-buy-stocks-breaking-to-all-time-highs-with",
      "date": "2020-09-29",
-     "title": "Stocks with high volume GLB may rocket higher: $SITM, $FVRR, $PTON, $REGI&#8211;buy stocks breaking to all-time-highs with high volume&#8211;visible on  weekly charts"
+     "title": "Stocks with high volume GLB may rocket higher: $SITM, $FVRR, $PTON, $REGI–buy stocks breaking to all-time-highs with high volume–visible on  weekly charts"
     },
     {
      "stem": "2020-09-27-this-week-will-determine-if-tech-down-trend-will-continue-monitoring-glbs-to-find-leaders-during-a-correction",
      "date": "2020-09-27",
-     "title": "This week will determine if tech down-trend will continue. Monitoring GLBs  to find leaders during a correction&#8211;$PINS, $PTON, $CRWD; Follow the weekly chart $ZM, $FVRR,  $TSLA"
+     "title": "This week will determine if tech down-trend will continue. Monitoring GLBs  to find leaders during a correction–$PINS, $PTON, $CRWD; Follow the weekly chart $ZM, $FVRR,  $TSLA"
     },
     {
      "stem": "2020-09-06-new-freshmen-class-and-possible-online-workshop-how-i-use-bollinger-bands-and-how-this-indicator-foreshadowed",
@@ -4709,12 +4719,12 @@
     {
      "stem": "2020-05-28-qqq-now-has-rising-4wk10wk30wk-averages-first-time-since-february-signifying-strong-up-trend-worden-t2018-app",
      "date": "2020-05-28",
-     "title": "$QQQ now has rising 4WK>10WK>30WK Averages &#8211;first time since February, signifying strong up-trend; Worden T2108 approaches 90%"
+     "title": "$QQQ now has rising 4WK>10WK>30WK Averages –first time since February, signifying strong up-trend; Worden T2108 approaches 90%"
     },
     {
      "stem": "2020-03-29-13-needles-in-a-haystack-tnk-zm-chwy-qdel-tdoc-ctxs-lmnx-net-5-more",
      "date": "2020-03-29",
-     "title": "13 Needles in a haystack; $TNK, $ZM, $CHWY, $QDEL, $TDOC, $CTXS, $LMNX, $NET + 5 more&#8230;&#8230;&#8230;"
+     "title": "13 Needles in a haystack; $TNK, $ZM, $CHWY, $QDEL, $TDOC, $CTXS, $LMNX, $NET + 5 more………"
     },
     {
      "stem": "2020-03-23-few-people-understand-that-the-october-1929-crash-was-just-the-beginning-of-the-decline",
@@ -4729,7 +4739,7 @@
     {
      "stem": "2020-03-15-livermore-amputation-without-anaesthetics-after-avoiding-the-2000-decline-i-began-this-blog-in-2006-to-help-p",
      "date": "2020-03-15",
-     "title": "Livermore: Amputation without anaesthetics&#8212;-After avoiding the 2000 decline, I began this blog in 2006 to help people time the market"
+     "title": "Livermore: Amputation without anaesthetics—-After avoiding the 2000 decline, I began this blog in 2006 to help people time the market"
     },
     {
      "stem": "2019-11-24-why-i-sold-inmd-at-57-following-the-tweets-of-some-smart-traders-markminervini-and-tmltrader",
@@ -4739,7 +4749,7 @@
     {
      "stem": "2019-11-17-dissecting-aapls-glb-green-line-break-out-thank-you-nicolas-darvas",
      "date": "2019-11-17",
-     "title": "Dissecting $AAPL&#8217;s GLB (Green line break-out); thank you Nicolas Darvas"
+     "title": "Dissecting $AAPL’s GLB (Green line break-out); thank you Nicolas Darvas"
     },
     {
      "stem": "2018-09-30-12-stocks-at-ath-bouncing-from-10-week-average-vrs-sq-cybr-rp-cbm-bbu-ttwo-serv-vrtx-kids-i-irdm",
@@ -4754,7 +4764,7 @@
     {
      "stem": "2018-08-26-19-recent-ipos-at-ath-with-recent-glb-mtch-twlo-send-sfix-roku-cabo",
      "date": "2018-08-26",
-     "title": "19 Recent IPOs at ATH with recent GLB: $MTCH $TWLO $SEND $SFIX $ROKU $CABO&#8230;."
+     "title": "19 Recent IPOs at ATH with recent GLB: $MTCH $TWLO $SEND $SFIX $ROKU $CABO…."
     },
     {
      "stem": "2018-08-05-16-stocks-with-a-green-dot-bounce-from-oversold",
@@ -4784,7 +4794,7 @@
     {
      "stem": "2018-04-22-pivotal-week-coming-up-stage-3-top",
      "date": "2018-04-22",
-     "title": "Pivotal week coming up&#8211;Stage 3 top?"
+     "title": "Pivotal week coming up–Stage 3 top?"
     },
     {
      "stem": "2018-04-01-how-i-track-stocks-at-all-time-highs-glb-lulu",
@@ -4814,7 +4824,7 @@
     {
      "stem": "2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline",
      "date": "2018-02-04",
-     "title": "Bloody Monday open likely&#8211;In cash during this mini-decline"
+     "title": "Bloody Monday open likely–In cash during this mini-decline"
     },
     {
      "stem": "2018-01-21-why-buying-stocks-over-100-is-more-profitable",
@@ -4824,7 +4834,7 @@
     {
      "stem": "2018-01-15-why-i-like-rwb-daily-charts-hri-olli-and-nktr",
      "date": "2018-01-15",
-     "title": "Why I like RWB daily charts&#8211;$HRI, $OLLI and $NKTR"
+     "title": "Why I like RWB daily charts–$HRI, $OLLI and $NKTR"
     },
     {
      "stem": "2017-12-17-a-strategy-for-decidng-when-to-sell-stocks-gds-nvda",
@@ -4834,12 +4844,12 @@
     {
      "stem": "2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend",
      "date": "2017-12-10",
-     "title": "When to sell&#8211;signs an up-trend is weakening; $SQ $IPGP but $SPY is in a daily RWB up-trend"
+     "title": "When to sell–signs an up-trend is weakening; $SQ $IPGP but $SPY is in a daily RWB up-trend"
     },
     {
      "stem": "2017-10-29-higher-interest-rates-will-slay-this-bull-monitoring-gld-tlt",
      "date": "2017-10-29",
-     "title": "Higher interest rates will slay this bull&#8211;monitoring $GLD $TLT"
+     "title": "Higher interest rates will slay this bull–monitoring $GLD $TLT"
     },
     {
      "stem": "2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort",
@@ -4874,7 +4884,7 @@
     {
      "stem": "2017-05-21-21st-day-of-qqq-short-term-up-trend-market-had-a-dead-cat-bounce",
      "date": "2017-05-21",
-     "title": "21st day of $QQQ short term up-trend; Market had a &#8220;dead cat bounce?&#8221;"
+     "title": "21st day of $QQQ short term up-trend; Market had a “dead cat bounce?”"
     },
     {
      "stem": "2017-04-02-end-of-window-dressing-day-78-of-qqq-up-trend-turbulence-ahead-pnra-how-to-have-patience-after-a-glb-glb-fizz",
@@ -4919,7 +4929,7 @@
     {
      "stem": "2016-10-02-my-trading-diary-entry-from-william-oneils-workshop-in-1995-a-set-up-for-buying-lmat-heia-cup-and-handle-brea",
      "date": "2016-10-02",
-     "title": "My trading diary entry from William O&#8217;Neil&#8217;s workshop in 1995;  a set-up for buying $LMAT; $HEIA&#8211;Cup and handle break-out"
+     "title": "My trading diary entry from William O’Neil’s workshop in 1995;  a set-up for buying $LMAT; $HEIA–Cup and handle break-out"
     },
     {
      "stem": "2016-07-24-how-i-buy-rocket-stocks-bouncing-up-off-of-support-bos-an-example-hii",
@@ -4944,7 +4954,7 @@
     {
      "stem": "2015-08-30-13th-day-of-qqq-short-term-down-trend-is-worst-of-stock-market-decline-over",
      "date": "2015-08-30",
-     "title": "Is worst of stock market decline over?  I&#8217;m not betting on it&#8230;.."
+     "title": "Is worst of stock market decline over?  I’m not betting on it….."
     },
     {
      "stem": "2015-05-25-10th-day-of-qqq-short-term-up-trend-aapl-leading-market-higher-5-glb-stocks",
@@ -4984,7 +4994,7 @@
     {
      "stem": "2014-05-26-ignore-the-media-pundits-stage-analysis-shows-markets-remain-in-up-trend",
      "date": "2014-05-26",
-     "title": "Ignore the media pundits&#8211;Stage Analysis shows markets remain in up-trend"
+     "title": "Ignore the media pundits–Stage Analysis shows markets remain in up-trend"
     },
     {
      "stem": "2013-12-09-yes-one-can-time-the-market-ibd-50-lists-outperform-on-gainers-and-decliners",
@@ -4994,7 +5004,7 @@
     {
      "stem": "2013-11-24-gmi-based-strategy-using-3x-etfs-beats-ibd-50-stocks",
      "date": "2013-11-24",
-     "title": "GMI based strategy using 3X ETF&#8217;s beats IBD 50 stocks"
+     "title": "GMI based strategy using 3X ETF’s beats IBD 50 stocks"
     },
     {
      "stem": "2013-11-08-20th-day-of-qqq-short-term-up-trend-how-daily-macd-histogram-predicted-decline",
@@ -5004,7 +5014,7 @@
     {
      "stem": "2013-10-06-gmi-back-to-6-4-green-line-break-out-stocks-from-last-week-and-2-prior-winners-flt-and-tsla",
      "date": "2013-10-06",
-     "title": "GMI back to 6; 4 green line break-out stocks from last week and 2 prior winners&#8211;FLT and TSLA"
+     "title": "GMI back to 6; 4 green line break-out stocks from last week and 2 prior winners–FLT and TSLA"
     },
     {
      "stem": "2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs",
@@ -5029,7 +5039,7 @@
     {
      "stem": "2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets",
      "date": "2010-09-27",
-     "title": "Introducing Red White and Blue (RWB) Stocks&#8211;The Pattern of Rockets"
+     "title": "Introducing Red White and Blue (RWB) Stocks–The Pattern of Rockets"
     },
     {
      "stem": "2009-11-26-my-trading-philosophy-and-why-i-use-technical-analysis",
@@ -5039,7 +5049,7 @@
     {
      "stem": "2009-06-07-why-search-for-individual-stocks-when-we-can-ride-the-ultra-etfs",
      "date": "2009-06-07",
-     "title": "Why search for individual stocks when we can ride the ultra ETF&#8217;s?"
+     "title": "Why search for individual stocks when we can ride the ultra ETF’s?"
     },
     {
      "stem": "2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible",
@@ -5064,7 +5074,7 @@
     {
      "stem": "2005-04-23-lets-talk-strategy",
      "date": "2005-04-23",
-     "title": "Let&#8217;s Talk Strategy"
+     "title": "Let’s Talk Strategy"
     }
    ]
   },
@@ -5080,27 +5090,27 @@
     {
      "stem": "2013-04-14-market-in-strong-up-trend-beware-the-bearish-media-pundits-golds-sudden-decline",
      "date": "2013-04-14",
-     "title": "Market  in strong up-trend; Beware the bearish media pundits; Gold&#8217;s &#8220;sudden&#8221; decline"
+     "title": "Market  in strong up-trend; Beware the bearish media pundits; Gold’s “sudden” decline"
     },
     {
      "stem": "2012-06-18-an-excerpt-from-my-trading-diary-from-the-90s-market-at-critical-juncture",
      "date": "2012-06-18",
-     "title": "An excerpt from my trading diary from the 90&#8217;s; Market at critical juncture? IBD declares new up-trend; ASPS and QCOR"
+     "title": "An excerpt from my trading diary from the 90’s; Market at critical juncture? IBD declares new up-trend; ASPS and QCOR"
     },
     {
      "stem": "2011-02-07-nicolas-darvas-on-the-value-of-studying-ones-trading-losses-rwb-stocks-cost-rvbd",
      "date": "2011-02-07",
-     "title": "Nicolas Darvas, on the value of studying one&#8217;s trading losses; RWB stocks, COST, RVBD"
+     "title": "Nicolas Darvas, on the value of studying one’s trading losses; RWB stocks, COST, RVBD"
     },
     {
      "stem": "2010-09-27-introducing-red-white-and-blue-rwb-stocks-the-pattern-of-rockets",
      "date": "2010-09-27",
-     "title": "Introducing Red White and Blue (RWB) Stocks&#8211;The Pattern of Rockets"
+     "title": "Introducing Red White and Blue (RWB) Stocks–The Pattern of Rockets"
     },
     {
      "stem": "2010-08-05-going-long-ffiv-and-other-darvas-scan-stocks",
      "date": "2010-08-05",
-     "title": "Going long&#8212;FFIV and other Darvas Scan stocks"
+     "title": "Going long—FFIV and other Darvas Scan stocks"
     },
     {
      "stem": "2010-03-29-with-ipad-debut-on-the-horizon-aapl-shines-tech-up-trend-continues-but-qld-beats-most-ibd100-stocks-again",
@@ -5110,7 +5120,7 @@
     {
      "stem": "2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs",
      "date": "2010-03-15",
-     "title": "Jim Cramer on stop loss orders&#8211;terribly wrong again! KCI soars; How I trade the 3X ETF&#8217;s"
+     "title": "Jim Cramer on stop loss orders–terribly wrong again! KCI soars; How I trade the 3X ETF’s"
     },
     {
      "stem": "2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun",
@@ -5125,7 +5135,7 @@
     {
      "stem": "2009-09-21-ultra-3x-etfs-beat-individual-stocks-again",
      "date": "2009-09-21",
-     "title": "Ultra 3X ETF&#8217;s beat individual stocks again!"
+     "title": "Ultra 3X ETF’s beat individual stocks again!"
     },
     {
      "stem": "2009-06-22-stage-2-bullish-up-trend-in-sight-some-darvas-type-stocks-to-watch",
@@ -5170,7 +5180,7 @@
     {
      "stem": "2008-12-11-gmi-2-gmi-r-4-t2108-43-2nd-day-of-qqqq-short-term-up-trend-bill-millers-fall",
      "date": "2008-12-11",
-     "title": "GMI: 2; GMI-R: 4; T2108: 43%; 2nd day of QQQQ short term up-trend; Bill Miller&#8217;s fall"
+     "title": "GMI: 2; GMI-R: 4; T2108: 43%; 2nd day of QQQQ short term up-trend; Bill Miller’s fall"
     },
     {
      "stem": "2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule",
@@ -5245,7 +5255,7 @@
     {
      "stem": "2006-01-03-happy-new-year-what-if-gmi-2-trade-with-the-trend",
      "date": "2006-01-03",
-     "title": "Happy New Year&#8211;What if?; GMI: +2; Trade with the trend"
+     "title": "Happy New Year–What if?; GMI: +2; Trade with the trend"
     },
     {
      "stem": "2005-12-26-gmi-4-mixed-signals-gmi-contrary-indicator-new-year-nicolas-darvas-type-stocks",
@@ -5270,7 +5280,7 @@
     {
      "stem": "2005-12-11-appels-new-book-on-ta-gmi-declines-to-5-wpm-shows-short-term-weakness-long-bonds-to-weaken-some-weak-sectors",
      "date": "2005-12-11",
-     "title": "Appel&#8217;s new book on TA; GMI declines to +5; WPM shows short term weakness;  Long bonds to weaken; Some weak sectors: Wash sale rule"
+     "title": "Appel’s new book on TA; GMI declines to +5; WPM shows short term weakness;  Long bonds to weaken; Some weak sectors: Wash sale rule"
     },
     {
      "stem": "2005-12-09-gmi-6-up-trend-intact-leaders-strong",
@@ -5295,7 +5305,7 @@
     {
      "stem": "2005-12-03-gmi-6-wpm-shows-a-little-dow-30-deterioration-correlation-of-some-indicators-with-s-mcd-break-out-jnj-sick",
      "date": "2005-12-03",
-     "title": "GMI: +6;  WPM shows a little DOW 30 deterioration; correlation of some indicators with S&#038;P 500; MCD break-out; JNJ sick?"
+     "title": "GMI: +6;  WPM shows a little DOW 30 deterioration; correlation of some indicators with S&P 500; MCD break-out; JNJ sick?"
     },
     {
      "stem": "2005-12-02-gmi-6-market-internals-at-highs-leading-stocks-and-industries",
@@ -5320,7 +5330,7 @@
     {
      "stem": "2005-11-28-gmi-6-wpm-shows-continuing-strength-rally-continues-but-for-how-long",
      "date": "2005-11-28",
-     "title": "GMI: +6, WPM shows continuing strength; Rally continues&#8211;but for how long?"
+     "title": "GMI: +6, WPM shows continuing strength; Rally continues–but for how long?"
     },
     {
      "stem": "2005-11-25-reader-comment-gmi-6-strong-market-nasdaq-in-long-term-uptrend",
@@ -5340,7 +5350,7 @@
     {
      "stem": "2005-11-15-yesterdays-post-corrected-gmi-6-more-high-earners-at-new-highs",
      "date": "2005-11-15",
-     "title": "Yesterday&#8217;s post corrected; GMI: +6; More high earners at new highs"
+     "title": "Yesterday’s post corrected; GMI: +6; More high earners at new highs"
     },
     {
      "stem": "2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea",
@@ -5355,7 +5365,7 @@
     {
      "stem": "2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas",
      "date": "2005-10-08",
-     "title": "GMI: +1; WPM shows weakening; Folly of fighting market&#8217;s trend; On Nicolas Darvas"
+     "title": "GMI: +1; WPM shows weakening; Folly of fighting market’s trend; On Nicolas Darvas"
     },
     {
      "stem": "2005-07-28-another-strong-day-gmi-6-and-its-track-record-benefits-of-naked-charts-some-darvas-type-stocks",
@@ -5370,7 +5380,7 @@
     {
      "stem": "2005-05-24-darvas-stock-market-casino-fabricated-fantasy-interest-rates-resume-rise-a-new-trend-count-gmi-5",
      "date": "2005-05-24",
-     "title": "Darvas&#8217; stock market casino,  fabricated fantasy, interest rates resume rise, a new trend count; GMI:  +5"
+     "title": "Darvas’ stock market casino,  fabricated fantasy, interest rates resume rise, a new trend count; GMI:  +5"
     },
     {
      "stem": "2005-05-03-cnbc-forever-bullish",
@@ -5385,7 +5395,7 @@
     {
      "stem": "2005-04-23-lets-talk-strategy",
      "date": "2005-04-23",
-     "title": "Let&#8217;s Talk Strategy"
+     "title": "Let’s Talk Strategy"
     },
     {
      "stem": "2005-04-20-stop-this-madness",
@@ -5395,7 +5405,7 @@
     {
      "stem": "2005-04-17-april-17-2005-short-or-in-cash",
      "date": "2005-04-17",
-     "title": "APRIL 17, 2005&#8211;Short or in Cash"
+     "title": "APRIL 17, 2005–Short or in Cash"
     }
    ]
   },
@@ -5426,7 +5436,7 @@
     {
      "stem": "2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs",
      "date": "2010-03-15",
-     "title": "Jim Cramer on stop loss orders&#8211;terribly wrong again! KCI soars; How I trade the 3X ETF&#8217;s"
+     "title": "Jim Cramer on stop loss orders–terribly wrong again! KCI soars; How I trade the 3X ETF’s"
     },
     {
      "stem": "2010-02-22-how-to-use-ibd-100-and-new-america-stocks-and-tc2007-to-find-potential-rocket-stocks-market-rally-begun",
@@ -5441,7 +5451,7 @@
     {
      "stem": "2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com",
      "date": "2009-10-26",
-     "title": "Exciting New Worden stock tool&#8211;volume buzz at FreeStockCharts.com"
+     "title": "Exciting New Worden stock tool–volume buzz at FreeStockCharts.com"
     },
     {
      "stem": "2009-10-19-using-bollinger-bands-to-avoid-buying-extended-from-support",
@@ -5487,7 +5497,7 @@
     {
      "stem": "2011-04-04-ibd50-list-from-110-out-performs-nasdaq100-and-sp500-stocks",
      "date": "2011-04-04",
-     "title": "IBD50 list from 1/10 out-performs Nasdaq100 and S&#038;P500 stocks; Some IBD50 stocks at support"
+     "title": "IBD50 list from 1/10 out-performs Nasdaq100 and S&P500 stocks; Some IBD50 stocks at support"
     },
     {
      "stem": "2011-03-15-gmi-at-1-as-qqqq-short-term-down-trend-completes-5th-day-in-cash-and-short-t2108-still-neutral",
@@ -5497,12 +5507,12 @@
     {
      "stem": "2011-03-13-qqqq-short-term-down-trend-reaches-4th-day-gmi-1-mainly-in-cash-3x-inverse-etfs-surge",
      "date": "2011-03-13",
-     "title": "QQQQ short term down-trend reaches 4th day; GMI: 1, mainly in cash; 3X inverse ETF&#8217;s surge"
+     "title": "QQQQ short term down-trend reaches 4th day; GMI: 1, mainly in cash; 3X inverse ETF’s surge"
     },
     {
      "stem": "2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs",
      "date": "2011-03-11",
-     "title": "GMI dives to 1; in cash and inverse ETF&#8217;s"
+     "title": "GMI dives to 1; in cash and inverse ETF’s"
     },
     {
      "stem": "2011-03-07-introducing-the-gmi2-tc2000-com-ibd50-stock-performance-put-options-on-lulu",
@@ -5512,7 +5522,7 @@
     {
      "stem": "2011-03-04-markets-rebound-again-qqqq-weekly-chart-reveals-market-trend-tdsc-rockets-higher",
      "date": "2011-03-04",
-     "title": "Markets rebound&#8211;again; QQQQ weekly chart reveals market trend; TDSC rockets higher"
+     "title": "Markets rebound–again; QQQQ weekly chart reveals market trend; TDSC rockets higher"
     },
     {
      "stem": "2011-03-01-qqqq-short-term-up-trend-resumes-worden-workshop-coming-to-dc-rwb-stock-prgo",
@@ -5548,7 +5558,7 @@
     {
      "stem": "2009-03-04-so-wishing-wealth-reader-tell-us-about-yourself",
      "date": "2009-03-04",
-     "title": "So, Wishing Wealth Reader, Tell Us About Yourself&#8230;"
+     "title": "So, Wishing Wealth Reader, Tell Us About Yourself…"
     },
     {
      "stem": "2009-01-26-welcome-to-the-new-and-improved-wishing-wealth",
@@ -5569,12 +5579,12 @@
     {
      "stem": "2009-03-10-jim-cramer-takes-it-personally",
      "date": "2009-03-10",
-     "title": "Jim Cramer takes it personally&#8230;"
+     "title": "Jim Cramer takes it personally…"
     },
     {
      "stem": "2009-03-08-jon-stewart-takes-on-the-pundits-at-cnbc-finally",
      "date": "2009-03-08",
-     "title": "Jon Stewart takes on the pundits at CNBC&#8230;  Finally!"
+     "title": "Jon Stewart takes on the pundits at CNBC…  Finally!"
     }
    ]
   },

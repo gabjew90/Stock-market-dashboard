@@ -29,9 +29,9 @@ def test_iter_post_pages_yields_all_posts(fixtures_dir, tmp_path):
     assert [p["id"] for p in pages[0]] == [49378, 832]
 
 
-def test_iter_post_pages_writes_cache_files_for_full_pages_beyond_page_one(fixtures_dir, tmp_path):
-    """Page 1 is deliberately NEVER cached (newest-first: new posts land there), and short
-    pages are not cached either. A full page 2+ IS cached. Simulate 3 pages at per_page=2."""
+def test_iter_post_pages_caches_full_pages_including_page_one(fixtures_dir, tmp_path):
+    """Under oldest-first ordering every full page is immutable, so all of them are cached.
+    Only the final short page - where new posts land - is left uncached."""
     page1 = json.loads((fixtures_dir / "wp_api_page1.json").read_text())
     mk = lambda i: {"id": i, "date": f"2019-01-{i:02d}T00:00:00", "slug": f"s{i}", "link": "u",
                     "title": {"rendered": "t"}, "content": {"rendered": "<p>b</p>"}}
@@ -46,10 +46,81 @@ def test_iter_post_pages_writes_cache_files_for_full_pages_beyond_page_one(fixtu
     cache = tmp_path / "api"
     client = httpx.Client(transport=httpx.MockTransport(handler), base_url="https://example.test")
     list(iter_post_pages("https://example.test", cache_dir=cache, client=client, delay=0.0, per_page=2))
-    assert not (cache / "page-0001.json").exists()   # never cached
-    assert (cache / "page-0002.json").exists()       # full page 2+: cached
+    assert (cache / "page-0001.json").exists()       # full page 1: now cached
+    assert (cache / "page-0002.json").exists()       # full page 2: cached
     assert json.loads((cache / "page-0002.json").read_text())[0]["id"] == 3
     assert not (cache / "page-0003.json").exists()   # short final page: not cached
+
+
+def test_iter_post_pages_requests_oldest_first(fixtures_dir, tmp_path):
+    """`order=asc` is what makes the page cache sound - see the regression test below."""
+    seen = {}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        seen.update(dict(request.url.params))
+        return httpx.Response(400, json={"code": "rest_post_invalid_page_number"})
+
+    client = httpx.Client(transport=httpx.MockTransport(handler), base_url="https://example.test")
+    list(iter_post_pages("https://example.test", cache_dir=tmp_path / "api", client=client, delay=0.0))
+    assert seen["order"] == "asc"
+    assert seen["orderby"] == "date"
+
+
+def test_newly_published_posts_do_not_displace_cached_pages(tmp_path):
+    """Regression (2026-08-26): six live posts vanished from raw/posts.jsonl on re-scrape.
+
+    Under the old newest-first ordering, publishing K posts shifted every offset by K, so
+    the K posts that had been at the tail of a cached page slid past the boundary and were
+    never fetched again. Oldest-first ordering appends new posts at the end, so this
+    scrape-publish-rescrape sequence must lose nothing.
+    """
+    rec = lambda i: {"id": i, "date": f"2020-01-01T00:00:{i % 60:02d}", "slug": f"s{i}", "link": "u",
+                     "title": {"rendered": "t"}, "content": {"rendered": "<p>b</p>"}}
+    corpus = [rec(i) for i in range(1, 11)]          # 10 posts, oldest first
+    cache = tmp_path / "api"
+
+    def make_client(store):
+        def handler(request: httpx.Request) -> httpx.Response:
+            page = int(request.url.params.get("page", "1"))
+            per = int(request.url.params.get("per_page", "100"))
+            assert request.url.params.get("order") == "asc", "the fix depends on oldest-first"
+            chunk = store[(page - 1) * per: page * per]
+            if not chunk:
+                return httpx.Response(400, json={"code": "rest_post_invalid_page_number"})
+            return httpx.Response(200, json=chunk)
+        return httpx.Client(transport=httpx.MockTransport(handler), base_url="https://example.test")
+
+    def scrape(store):
+        pages = list(iter_post_pages("https://example.test", cache_dir=cache,
+                                     client=make_client(store), delay=0.0, per_page=4))
+        return [p["id"] for page in pages for p in page]
+
+    assert scrape(corpus) == list(range(1, 11))
+    # ...the blog publishes 3 more, shifting nothing that came before.
+    grown = corpus + [rec(i) for i in range(11, 14)]
+    assert scrape(grown) == list(range(1, 14)), "a post was lost across the page boundary"
+
+
+def test_iter_post_pages_uses_cache_without_http_for_full_pages(fixtures_dir, tmp_path):
+    """Cached full pages are served from disk with no request; only the uncached tail is fetched."""
+    cache = tmp_path / "api"
+    cache.mkdir()
+    rec = lambda i: {"id": i, "date": "2020-01-01T00:00:00", "slug": f"x{i}", "link": "u",
+                     "title": {"rendered": "t"}, "content": {"rendered": "<p>b</p>"}}
+    (cache / "page-0001.json").write_text(json.dumps([rec(1), rec(2)]))
+    calls = {"pages": []}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        page = int(request.url.params.get("page", "1"))
+        calls["pages"].append(page)
+        if page == 2:
+            return httpx.Response(200, json=[rec(3), rec(4)])
+        return httpx.Response(400, json={"code": "rest_post_invalid_page_number"})
+
+    client = httpx.Client(transport=httpx.MockTransport(handler), base_url="https://example.test")
+    pages = list(iter_post_pages("https://example.test", cache_dir=cache, client=client, delay=0.0, per_page=2, max_pages=2))
+    assert calls["pages"] == [2]                # page 1 from cache, page 2 fetched
+    assert [p[0]["id"] for p in pages] == [1, 3]
 
 
 def test_iter_post_pages_non_json_400_raises_http_status_error(fixtures_dir, tmp_path):
@@ -71,26 +142,3 @@ def test_iter_post_pages_non_json_400_raises_http_status_error(fixtures_dir, tmp
             yielded.append(page)
     assert len(yielded) == 1
     assert [p["id"] for p in yielded[0]] == [49378, 832]
-
-
-def test_iter_post_pages_uses_cache_without_http_for_page_two_onward(fixtures_dir, tmp_path):
-    """Cached pages 2+ are served from disk with no request. Page 1 is always re-fetched
-    (see wp_api.py) so that newly published posts are picked up on re-scrape."""
-    cache = tmp_path / "api"
-    cache.mkdir()
-    rec = lambda i: {"id": i, "date": "2020-01-01T00:00:00", "slug": f"x{i}", "link": "u",
-                     "title": {"rendered": "t"}, "content": {"rendered": "<p>b</p>"}}
-    (cache / "page-0002.json").write_text(json.dumps([rec(3), rec(4)]))
-    calls = {"pages": []}
-
-    def handler(request: httpx.Request) -> httpx.Response:
-        page = int(request.url.params.get("page", "1"))
-        calls["pages"].append(page)
-        if page == 1:
-            return httpx.Response(200, json=[rec(1), rec(2)])
-        raise AssertionError(f"HTTP must not be called for cached page {page}")
-
-    client = httpx.Client(transport=httpx.MockTransport(handler), base_url="https://example.test")
-    pages = list(iter_post_pages("https://example.test", cache_dir=cache, client=client, delay=0.0, per_page=2, max_pages=2))
-    assert calls["pages"] == [1]                # page 1 fetched, page 2 from cache
-    assert [p[0]["id"] for p in pages] == [1, 3]

@@ -1341,3 +1341,33 @@ and emitting an image path that does not resolve from `wiki/methodology/`. It no
 everything below a sentinel plus the front-matter `sources:` list. The lost section is restored.
 
 Checks: `ww lint .` 0 errors; `pytest -q` 236 passed (13 new, pinning each rule to its cited post).
+
+## [2026-08-26] ingest | 2026-08-13..2026-08-23 — 6 posts, no new teaching; and a scraper bug that had silently dropped six live posts
+
+Re-scraped to bring the corpus current (it ended 2026-08-11). Six new posts, all routine:
+Day 7 riding TQQQ with the daily GMMA back to RWB; Day 8's six oil & gas ATHs tabulated against
+their 250-day minimum; Day 9 and Day 11 on GLD turning from BWR to RWB on above-average volume
+(the RWB definition restated verbatim, already on `gmma-charts.md`); Day 12 weakening with only 25
+ATHs and QQQ just under its 4wk/10wk; Day 13 sitting on those averages with the GMI still Green.
+All tiered `daily_update` with a `[read in the … single-post ingest]` summary — none states a rule
+the wiki does not already carry, so none earned a source page (§4).
+
+**The scrape also exposed a corpus-integrity bug.** The fresh index came back with 4,694 rows
+against 4,700 files on disk. The six missing posts (2025-11-27 → 2025-12-07) are **still live** —
+HTTP 200 from both the API and their public URLs — so they had not been deleted; `ww scrape` had
+dropped them. Cause: `wp_api.py` paginated **newest-first** while caching pages 2+, so publishing
+K posts shifted every offset by K and the K posts at a cached page's tail slid past the boundary
+unseen. Six new posts published, exactly six lost. `comments.py` had always done it correctly
+(oldest-first, cache full pages only); the post scraper now matches. Cache cleared, re-scraped,
+4,700 rows against 4,700 files with both sets agreeing exactly.
+
+This matters beyond the six: **the "4,694 / 4,694 complete" claim logged earlier today was wrong.**
+One of the dropped posts (2025-12-07) is `teaching`, has a source page, and is cited on three wiki
+pages — the wiki was citing a post its own index no longer listed. Nothing broke visibly because
+the markdown files stayed on disk and citations resolve to files, not to index rows, which is
+exactly why `ww lint` stayed green through it. Worth adding a lint check that the two sets agree.
+
+Corpus now: **4,700 / 4,700 ingested**, 2005-04-17 → 2026-08-23. By tier: 455 `teaching`,
+22 `trade_example` (477 source pages), 4,222 `daily_update`, 1 `meta`. `ww lint .` 0 errors;
+`pytest -q` 238 passed (3 new, pinning the pagination order, the caching rule, and a
+scrape → publish → re-scrape regression that fails if any post is lost across a page boundary).
