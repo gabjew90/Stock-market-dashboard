@@ -1,7 +1,7 @@
 ---
 title: General Market Index (GMI)
 type: entity
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2005-04-26-general-market-index-gmi.md
@@ -53,6 +53,7 @@ sources:
   - raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md
   - raw/posts/2015-07-12-schizoid-mr-market.md
   - raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md
+  - raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md
 ---
 
 # General Market Index (GMI)
@@ -157,6 +158,13 @@ hysteresis that keeps the Buy side from flipping on a single day above 3.
 apart, which is what the persistence rule is for: "The GMI is now at 1 (of 6) and **still on a GREEN
 signal. One more day below 3 will change it to RED.**" ([WW 2017-04-16](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md)) A score of 1 — the second-worst reading
 possible — did not by itself move him out, six years into the two-day rule's use.
+
+**Before the persistence rule, the threshold on its own (2010).** "**I tend to get defensive when the GMI is less
+than 3.**" ([WW 2010-04-12](../../raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md)) Written eighteen months before the two-day rule was adopted, and consistent with it — the
+2011 change added *persistence* to an existing threshold rather than moving the threshold. The same post carries
+a companion condition for the long side that is not part of the GMI at all: "**when these indexes** [QQQQ and
+SPY] **are above their 10 week averages I usually can trade growth stocks (on the long side) profitably.**" See
+[the dated signal record](../history/track-record.md#20082010--the-gmi-signal-record-dated).
 
 ## How he uses it
 
@@ -405,3 +413,4 @@ On 2026-08-18 this page was split so that it holds only the index itself:
 - [WW 2017-04-16 — 0/0 to 6/6 as the re-entry rule; the dwindling new-high list as an advantage](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md) ([summary](../sources/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))
 - [WW 2015-07-12 — Buying on GMI Sell signals would have worked — and why he doesn't mind](../../raw/posts/2015-07-12-schizoid-mr-market.md) ([summary](../sources/2015-07-12-schizoid-mr-market.md))
 - [WW 2007-01-08 — A low put/call as a topping tell; scaling into inverse ETFs](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md) ([summary](../sources/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md))
+- [WW 2010-04-12 — The GMI's 2008-2010 signal record, with dates](../../raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md) ([summary](../sources/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md))

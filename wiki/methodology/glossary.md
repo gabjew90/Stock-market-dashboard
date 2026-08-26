@@ -1,7 +1,7 @@
 ---
 title: Glossary
 type: concept
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md
   - raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md
@@ -68,6 +68,7 @@ sources:
   - raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md
   - raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md
   - raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md
+  - raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md
 ---
 
 # Glossary
@@ -137,6 +138,8 @@ Every term Dr. Wish coins or uses, defined in a sentence or two, with a first-ap
 **MoneyStream** — Worden's proprietary cumulative price-volume indicator, "similar (but not identical) to on-balance volume": volume adds on up days and subtracts on down days. In a rising stock he wants MoneyStream "at **new peaks**, indicating that the stock is rising on increasing volume." Read alongside the 50-day-average-of-volume line — strength is when nearly all above-average-volume days are up days. Fullest explanation: ([WW 2005-05-13](../../raw/posts/2005-05-13-this-schizoid-market-everybody-rotate-promising-stock-prgs-ww-gmi-1.md))
 
 **OSB (oversold bounce)** — the entry setup Dr. Wish states he **prefers to buying breakouts**. A strong stock near a recent all-time (or yearly) high pulls back until it is oversold, then turns up; he buys the turn and places an immediate stop just below the bounce-day low — the day the black dot prints. The reason for the preference is stop placement, not hit-rate: with a failed breakout "it is not always easy to designate [the stop] in advance," whereas with an OSB "it is much easier to determine the price where the set-up has failed." See [oversold-bounce.md](oversold-bounce.md). First named: ([WW 2021-05-06](../../raw/posts/2021-05-06-blog-post-day-2-of-qqq-short-term-down-trend-but-378-new-highs-among-us-stocks-non-qqq-type-stocks-still-risi.md)); preference over breakouts stated: ([WW 2023-07-13](../../raw/posts/2023-07-13-blog-post-cavas-break-out-fails-why-i-prefer-my-osb-set-up-over-break-outs-see-daily-charts-of-cava-and-mlm.md))
+
+**Neckline** — on a head-and-shoulders top, the line joining the reaction lows either side of the head; a close below it confirms the pattern and gives the price objective. Dr. Wish uses it as a named invalidation level rather than a forecast. **The slope matters**: "the **downward sloping neckline**, caused by the most recent decline having ended lower than the prior decline, is considered by technicians to be a major sign of weakness" ([WW 2016-05-01](../../raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md)) — a down-sloping neckline means the second trough undercut the first, so the pattern is already deteriorating before it completes.
 
 **Pilot buy** — a small initial position, taken before full commitment. From Jesse Livermore (via Lefevre). Dr. Wish makes a pilot buy and adds to the position only as the stock moves in the expected direction. ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
 
@@ -272,3 +275,4 @@ The broader WGB *scan* (as in the ANF example) adds: weekly 10.4 stochastic > 80
 - [WW 2007-01-08 — A low put/call as a topping tell; scaling into inverse ETFs](../../raw/posts/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md) ([summary](../sources/2007-01-08-gmi-1-gmi-s-25-ibd-100-underperform-down-trend-here.md))
 - [WW 2018-02-04 — Put/call 1.2 and stochastic .20; the monthly top signature in three stages](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md) ([summary](../sources/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))
 - [WW 2009-10-26 — Volume buzz defined — volume against its average at that time of day](../../raw/posts/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md) ([summary](../sources/2009-10-26-exciting-new-worden-stock-tool-volume-buzz-at-freestockcharts-com.md))
+- [WW 2016-05-01 — GMMA on the dollar and gold; the down-sloping neckline](../../raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md) ([summary](../sources/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md))

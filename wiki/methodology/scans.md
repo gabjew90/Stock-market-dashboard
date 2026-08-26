@@ -1,7 +1,7 @@
 ---
 title: The scans — how he finds candidates in TC2000 and IBD
 type: concept
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2013-05-20-how-to-find-a-tsla-like-explosive-stock-before-its-huge-advance-more-green-line-break-outs.md
   - raw/posts/2014-09-28-this-market-is-not-out-of-the-woods-finding-bio-tech-stars-like-agio-and-vrtx.md
@@ -37,6 +37,7 @@ sources:
   - raw/posts/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md
   - raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md
   - raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md
+  - raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -244,6 +245,22 @@ Two conditions he attaches are as much a part of the method as the formula: the 
 *for them to research*," and "**all students must have an objective set of trading rules approved by me before
 they can trade**."
 
+## The RWB-bouncing-off-support scan (2015) — yield, and an industry-index variant
+
+The scan behind the [HELE retest](glb-in-practice.md#the-retest-entry--buying-the-bounce-off-the-green-line):
+stocks in a rocket (RWB) pattern that are **bouncing off support**. Its yield is stated — "it identified **15
+stocks out of about 5500**" — and the output is published with the standard caveat that the names "need to be
+researched to see if any are worthy of purchase." ([WW 2015-12-06](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))
+
+**The variant worth stealing:** he ran the same scan over **industry indexes** rather than individual stocks.
+"Just for fun, I ran my scan for RWB stocks bouncing off of support focusing only on industry indexes. **I found
+that only one industry, financial exchanges, came up!**" A stock screen repurposed as a sector screen — and
+because the population is small, a single hit is informative rather than noise. He then read that index on two
+timeframes (monthly RWB for nearly three years; weekly emerging from a year-long consolidation) and reasoned
+about the cause afterwards, explicitly as speculation. The same trick appears again in
+[March 2022](#the-relative-strength-at-a-50-week-high-scan-2022), where he runs a relative-strength scan across
+industry indexes to confirm that its stock-level hits were clustering.
+
 ## The Darvas EasyScan (2015)
 
 A TC2000 EasyScan he designed to approximate Darvas's selection criteria, run against ~6,000 stocks; on 2015-02-27 it returned 46 names, of which AMBA — above its green-line top, in a weekly RWB pattern — was the example. The criteria are not listed in the post; he points to his 2012 Houston TC2000 webinar for the walk-through. ([WW 2015-03-01](../../raw/posts/2015-03-01-on-my-use-of-the-gmi-some-darvas-type-rwb-rocket-stocks-ambaleaf.md))
@@ -296,3 +313,4 @@ It is also the one scan he declines to share: "**Please do not ask me to post my
 - [WW 2018-10-21 — TC2000 workshop gems; $QQQ $SPY in daily BWR down-trends](../../raw/posts/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md) ([summary](../sources/2018-10-21-tc2000-workshop-gems-qqq-spy-in-daily-bwr-down-trends.md))
 - [WW 2010-10-11 — The ultra-ETF measurement repeated; a bounce scan built for students](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md) ([summary](../sources/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md))
 - [WW 2016-03-20 — Buying before the green line — with a different stop](../../raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md) ([summary](../sources/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md))
+- [WW 2015-12-06 — Bouncing off the green line — the retest entry, risk quantified](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md) ([summary](../sources/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))

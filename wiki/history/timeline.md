@@ -1,7 +1,7 @@
 ---
 title: Timeline — evolution of the methodology
 type: history
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2005-04-20-stop-this-madness.md
   - raw/posts/2005-05-04-a-google-confession-ww-gmi-1.md
@@ -351,6 +351,12 @@ sources:
   - raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md
   - raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md
   - raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md
+  - raw/posts/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md
+  - raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md
+  - raw/posts/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md
+  - raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md
+  - raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md
+  - raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md
 ---
 
 # Timeline — evolution of the methodology
@@ -475,6 +481,18 @@ decline on April 20." ([WW 2005-06-23](../../raw/posts/2005-06-23-gmi-falls-to-3
 
 ---
 
+## July 2005 (reversal) — turning on a dime, with the loss taken
+
+**"SPY reversing? GMI: +3; Buying some stocks and keeping puts" (2005-07-05):** the don't-marry-a-scenario
+rule executed rather than asserted. Holding SPY puts into a tape turning against him — QQQQ daily and weekly
+still negative, SPY daily close to positive, over 400 new highs ("the most since I began this blog") — he
+reverses in a session: "**I sold out my puts on the SPY at a loss, and then I immediately went long stocks.** (I
+told you yesterday that **if I find myself on the wrong side of the trend I have no problem turning on a dime. It
+is suicide to marry a scenario that is at odds with the market's action.**)" Two details stop it being bravado:
+the reversal is paid for with a **realised loss taken the same day**, and it is partial rather than total — the
+new longs carry stops and "**just in case, I have kept my put options on some of the weakest stocks**." A divided
+market (SPY turning while QQQQ declines) is traded, not resolved. ([WW 2005-07-05](../../raw/posts/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md))
+
 ## July 2005 (bear trap) — 'act AFTER the decline has begun'
 
 **"Bear trap; GMI: +6" (2005-07-24):** "I started to talk about shorting when the GMI was still at +6… I was so disappointed with the way HANS and GOOG acted last week that I became prematurely bearish… **the point is to act AFTER the decline has begun**"; 290 successful 10-day new highs, 81% above their 10-week, U-11; leaders breaking kept as a watch item. ([WW 2005-07-24](../../raw/posts/2005-07-24-bear-trap-gmi-6-wpm-dia-and-qqqq-weaker-scan-for-bouncers-able-or-not-able.md))
@@ -541,6 +559,18 @@ time to unload losers and raise cash." ([WW 2005-10-06](../../raw/posts/2005-10-
 **"GMI:+6; My favorite posts; GMI as a trend indicator" (2005-11-13):** Dr. Wish publishes the first historical chart of his GMI readings from inception, showing that all periods of GMI ≥ 5 coincided with profitable long conditions. GMI had been +6 for all of July 2005 and at 5 or higher since November 1, 2005. He also quotes Jim Cramer's anti-chart position from his 2005 book and refutes it using Cramer's own words (that stocks anticipate company results before the news arrives). His stock selection criteria for the best candidates: at new all-time highs, up ≥ 60% in the year, and quarterly earnings growth of ≥ 100%. ([WW 2005-11-13](../../raw/posts/2005-11-13-gmi6-my-favorite-posts-gmi-as-a-trend-indicator-wpm-shows-all-indexes-strong-jim-cramer-on-charts-some-big-ea.md))
 
 ---
+
+## November 2005 (sources / odds) — Darvas sourced; the trend-odds measured a third time
+
+**"Nicolas Darvas bio; GMI: +6" (2005-11-20):** answering readers on where to actually read about Darvas —
+"the best source on Darvas is the article… that made him famous, **'Pas de Dough,' TIME, May 25, 1959**," plus
+his own piece on Darvas's rare final book. And the trend-odds measurement for a third time: since the up-trend
+began on 1 November the QQQQ had risen 6.6%, over which "**81% of the 100 stocks in the Nasdaq 100 have
+advanced**," 33 of them by 10% or more. His gloss goes a step past the data — "we had an **81% chance of having a
+profit**" converts a participation rate into a per-trade probability, which holds only for a randomly chosen
+component bought at the start and held to that date. Also a compact rocket screen: new high today, **strong
+recent quarterly earnings**, **up ≥ 60% in the past year** — the ancestor of the later "already doubled"
+criterion. The WPM flags small caps as the laggards. ([WW 2005-11-20](../../raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md))
 
 ## November–December 2005 (usage) — the GMI as tie breaker; failed break-outs as a topping sign
 
@@ -661,6 +691,21 @@ market call against his own — 19 straight days of a down-trend the paper had s
 ## June 2006 (construction) — GMI-S and GMI-L share one design
 
 **"GMI: +2; indicators still improving" (2006-06-05):** "**each index measures 4 trend indicators each for the DIA, IJR, SPY and QQQQ**" — GMI-S and GMI-L are both 16 tests, four per ETF, differing only in horizon; component 1 read as a probability (55% long vs 40% short) on a denominator of 11 he calls small. ([WW 2006-06-05](../../raw/posts/2006-06-05-gmi-2-indicators-still-improving-new-leaders.md))
+
+## June 2006 (philosophy) — 'stocks are only worth what someone else will pay for them'
+
+**"GMI: 0; Down-trend continues; All stocks are bad, but" (2006-06-14):** the value-is-a-myth doctrine
+nineteen years before the 2025 post the wiki dated it to — and here it is **attributed**. "By now, everyone
+should see through the widely proclaimed conventional nonsense that stocks have intrinsic value. **Stocks are
+only worth what someone else will pay for them. And each person's assessment is driven more by mob psychology and
+greed and fear, than by rational logic.**" The famous line is O'Neil's: "**as William O'Neil says, all stocks are
+bad unless they are going up.** But I say that '*bad*' stocks can make a trader a lot of money if s/he shorts
+them correctly." The same post explains the leader-on-good-news tell *mechanically* — GS punished after great
+earnings, because "**in a down-trend, all events are seen through a dark glass that is perceived to be half
+empty. Everyone sells quickly because they think that the next guy will sell.**" Calibration: 13 new highs to 292
+new lows; 15% of his universe above their 10-week averages, "a new low since I began recording this statistic in
+2005"; 232 submarines to 2 rockets; and a change-of-mind distance in points — "the Dow could rally some 240
+points before I would consider that a new up-trend had begun." ([WW 2006-06-14](../../raw/posts/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md))
 
 ## July 2006 (breadth) — cap-weighted indexes masking the decline
 
@@ -959,6 +1004,22 @@ expresses it in **May calls** rather than shares: "the most I can lose is the co
 filters: a 2005 IPO inside O'Neil's ~8-year window, an IBD *New America* mention, a short ratio of 11.7. Regime:
 GMI and GMI-R at maximum, U-45, T2108 at 81% — "acts like a pendulum… tops around 90% and bottoms below 20%,
 but not always," his highest published upper band. ([WW 2010-04-26](../../raw/posts/2010-04-26-true-religion-trlg-break-out.md))
+
+## April 2010 (audit) — the GMI's 2008–2010 signal record, with dates
+
+**"Come to my free Worden webinar presentation" (2010-04-12):** preparing to teach, he laid out his own
+indicator's record through the bear with dates. "On **September 2, 2008**, at the *beginning* of the steep drop
+in the QQQQ, the GMI went from 3 to 1 and remained at mainly 0 **until December 30**… During that steep decline,
+**the QQQQ fell 35%**. During the next 8 days the market rebounded and the GMI registered 3. But on **January 12,
+2009**, the decline resumed and the GMI stayed below 3 again (mainly 0) **until March 23**, when the market
+successfully retested its bottom." The threshold is stated plainly — "**I tend to get defensive when the GMI is
+less than 3**" — eighteen months before the two-day persistence rule was added, so the record reads as a raw
+score history rather than as signals. His verdict is hedged rather than sold: "**while not perfect, the GMI has
+kept me out of the market in down-trends and got me back in during up-trends.** (Of course, past performance does
+not guarantee future success.)" Also: "**when these indexes are above their 10 week averages I usually can trade
+growth stocks (on the long side) profitably**"; T2108 at 83%, "in overbought territory, but **below the extreme
+levels (around 90%) often seen at market tops**"; and the pseudonym in the first person — "I am Sir Silent
+Knight." ([WW 2010-04-12](../../raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md))
 
 ## May 2010 — TC2007 submarine scan applied to former IBD100 leaders; PWRD/NTES sector failure
 
@@ -1434,6 +1495,20 @@ averages; a lower-Bollinger bounce discounted because "the lower BB [is] in a st
 
 **"IBD calls market up-trend; $SLP green line break-out" (2015-10-04):** IBD's follow-through day rated "analogous to my very short term trend indicator," but "**my short term trend count for the QQQ is NOT the same as my GMI indicator**… it takes much stronger action for my GMI to signal a Buy"; support at the lower **10.2** Bollinger Band with resistance at the declining 50-day, the 150-day and the upper band. ([WW 2015-10-04](../../raw/posts/2015-10-04-ibd-calls-market-up-trend-slp-green-line-break-out-worth-watching.md))
 
+## December 2015 (entries / scans) — the green-line retest entry; a scan run over industry indexes
+
+**"44th day of $QQQ short term up-trend; $HELE GLB" (2015-12-06):** the retest entry the written GLB rules
+mention in half a clause, worked out with numbers. HELE "gapped up and broke above its green line top to an
+all-time high **on huge volume** on October 9. It has retested its GLB several times since… Last week, HELE again
+**bounced off of its green line top**… **the way I would play such a pattern would be to buy it and place a sell
+stop around \$99.90. If I am wrong I am risking about a 4-5% loss.**" The green line is support and invalidation
+at once, which is what holds the risk to 4–5%. The scan that found it states its yield — "**15 stocks out of
+about 5500**" for RWB-plus-bouncing-off-support — and gets an unusual application: "just for fun, I ran my scan…
+focusing only on **industry indexes**. I found that only one industry, **financial exchanges**, came up!" A stock
+screen repurposed as a sector screen. One dating note: "**I am just discovering the benefit of a *monthly* GMMA
+chart**," although he had published monthly Guppy charts of the 2000 and 2007 tops eighteen months earlier — best
+read as when the monthly layer entered routine use. ([WW 2015-12-06](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))
+
 ## January 2016 (GMMA) — 'I would never hold a long position… in a BWR down-trend'
 
 **"New $QQQ short term up-trend in jeopardy" (2016-01-03):** the RWB/BWR rule in its most absolute form —
@@ -1479,6 +1554,21 @@ back into an S&P 500 fund as the GMI reached 6. ([WW 2016-03-20](../../raw/posts
 ## March 2016 (cont.) — the two speeds diverge; the GLB's false-breakout rule
 
 **"13 recent GLB stocks to monitor" (2016-03-06):** "I have been tip-toeing back into this market in my trading IRA. **However, the longer term trend is not up, so I am not ready to reinvest my university pension funds**"; "when I do buy a GLB, I always exit if the stock comes back below the green line. This is a sign of a false break-out"; "I often buy a stock back if it then closes back above the green line." ([WW 2016-03-06](../../raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md))
+
+## May 2016 (macro / patterns) — the GMMA on dollar and gold; the down-sloping neckline
+
+**"Dollar Dives and Gold Gets Going" (2016-05-01):** the RWB/BWR framework applied to a macro pair and read
+as one story — UUP "shows a **developing** BWR decline pattern… **the white space separating them is yet to
+clearly develop**" while GLD "shows the opposite advancing RWB pattern with a white space developing." The
+qualification matters: red below blue is necessary, the gap opening is what confirms. His conclusion is
+instrument-first — "**I will leave it to others to opine about why the dollar is declining**… Regardless, for
+now, with GLD in an RWB up-trend, it may be advisable for me to hop on the gold train" — with the macro chain
+(weak dollar → commodities → inflation → Fed → "such a scenario of higher interest rates would eventually hurt
+the stock market. **It always has**") written out and filed as context rather than trigger. The pattern rule:
+"**the downward sloping neckline, caused by the most recent decline having ended lower than the prior decline, is
+considered by technicians to be a major sign of weakness.**" And for the regime in between, with the SPY's
+2014–15 RWB "clearly over" and no BWR yet: "**at some point a persistent RWB or BWR pattern will develop and it
+will pay to be fully invested with that trend.**" ([WW 2016-05-01](../../raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md))
 
 ## June 2016 — BOS (Bounce off Support) introduced as preferred alternative to GLB timing
 
@@ -2512,3 +2602,9 @@ See [the oversold bounce (OSB / ATHOSB)](../methodology/oversold-bounce.md).
 - [WW 2010-10-11 — on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold](../../raw/posts/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md) ([summary](../sources/2010-10-11-on-to-the-year-end-rallly-some-stocks-near-new-highs-and-bouncing-from-oversold.md))
 - [WW 2012-10-21 — timing-the-market-short-or-in-cash](../../raw/posts/2012-10-21-timing-the-market-short-or-in-cash.md) ([summary](../sources/2012-10-21-timing-the-market-short-or-in-cash.md))
 - [WW 2016-03-20 — gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks](../../raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md) ([summary](../sources/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md))
+- [WW 2005-07-05 — spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts](../../raw/posts/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md) ([summary](../sources/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md))
+- [WW 2005-11-20 — nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs](../../raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md) ([summary](../sources/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md))
+- [WW 2006-06-14 — gmi-0-down-trend-continues-all-stocks-are-bad-but](../../raw/posts/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md) ([summary](../sources/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md))
+- [WW 2010-04-12 — come-to-my-free-worden-webinar-presentation-this-tuesday-evening](../../raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md) ([summary](../sources/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md))
+- [WW 2015-12-06 — 44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md) ([summary](../sources/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))
+- [WW 2016-05-01 — dollar-dives-and-gold-gets-going-bull-market-to-be-trumped](../../raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md) ([summary](../sources/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md))

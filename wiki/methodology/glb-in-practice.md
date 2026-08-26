@@ -1,7 +1,7 @@
 ---
 title: The GLB in practice — worked cases, failures, and what he learned from each
 type: concept
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2013-10-13-saturdays-baltimore-aaii-meeting-gld-in-stage-4-all-gmi-components-positive-but-i-am-waiting.md
   - raw/posts/2016-03-06-13-recent-glb-stocks-to-monitor-algnbmscinfcnslcprtellimonlsnpnraswhcsyytfxtxrhvsto.md
@@ -26,6 +26,7 @@ sources:
   - raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md
   - raw/posts/2010-04-26-true-religion-trlg-break-out.md
   - raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md
+  - raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md
 ---
 
 # The GLB in practice — worked cases, failures, and what he learned from each
@@ -125,6 +126,23 @@ the green line, so entering early buys a tighter stop rather than a looser one. 
 second method. Compare the [caveat on the GLB as an entry](#a-caveat-on-the-glb-as-an-entry) below, which
 approaches the same problem from the other side.
 
+## The retest entry — buying the bounce off the green line
+
+The [written rules](#tc2000-alert-workflow-and-the-missed-glb-lesson) allow "wait for a re-test" in half a
+clause. HELE in December 2015 is that entry worked out with numbers. The stock "gapped up and broke above its
+green line top to an all-time high **on huge volume** on October 9. It has retested its GLB several times
+since… Last week, HELE again **bounced off of its green line top**." The trade ([WW 2015-12-06](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md)):
+
+> "**The way I would play such a pattern would be to buy it and place a sell stop around \$99.90. If I am wrong
+> I am risking about a 4-5% loss. If I am right, I might catch a ride on a rocket!**"
+
+The green line does double duty — it is the support the entry is timed off *and* the level whose loss
+invalidates the trade — which is what keeps the risk to 4–5% rather than the wider stop a mid-range entry would
+need. It also reframes repeated retests: a stock that breaks out and then keeps coming back to its line is not
+failing, it is offering the same entry again at a better price, each time with the invalidation in the same
+place. Compare the [pre-GLB entry](#entering-before-the-green-line--and-taking-a-different-stop) above, where the
+stop moves to the pivot instead.
+
 ## The close-below rule, justified by a case
 
 Why does the exit rule key on the *close* rather than any trade below the line? The ACLX example
@@ -204,3 +222,4 @@ The core rules have remained stable. These posts from 2019 onward confirm the ru
 - [WW 2017-07-16 — O'Neil's shopping list — the watch-list procedure, and the discipline of not trading](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md) ([summary](../sources/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))
 - [WW 2010-04-26 — TRLG: the round trip back to an all-time high, expressed in calls](../../raw/posts/2010-04-26-true-religion-trlg-break-out.md) ([summary](../sources/2010-04-26-true-religion-trlg-break-out.md))
 - [WW 2016-03-20 — Buying before the green line — with a different stop](../../raw/posts/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md) ([summary](../sources/2016-03-20-gmi-at-6-going-back-in-great-week-mxl-and-sq-11-strong-stocks.md))
+- [WW 2015-12-06 — Bouncing off the green line — the retest entry, risk quantified](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md) ([summary](../sources/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))

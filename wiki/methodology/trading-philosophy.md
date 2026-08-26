@@ -1,7 +1,7 @@
 ---
 title: Trading philosophy — the five propositions
 type: concept
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2008-01-02-gmi-4-gmi-r-5-isrg-in-2007-analysis-aol-induced-epiphany.md
   - raw/posts/2005-05-30-goog-mw-other-rockets-fabricated-fantasy-revisited-gmi-5.md
@@ -33,6 +33,8 @@ sources:
   - raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md
   - raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md
   - raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md
+  - raw/posts/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md
+  - raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md
 ---
 
 # Trading philosophy — the five propositions
@@ -244,6 +246,41 @@ odds?**" ([WW 2005-10-08](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-f
 matters for the rule actually being defended, since the rule is a prohibition on being long in a
 down-trend rather than an instruction to be long in an up-trend.
 
+**A third instance, and the inference to be careful about (November 2005).** Since the up-trend began on
+1 November the QQQQ had risen 6.6%, over which "**81% of the 100 stocks in the Nasdaq 100 have advanced**,"
+33 of them by 10% or more. ([WW 2005-11-20](../../raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md)) His gloss goes one step further than the data: "this again shows that if we
+traded with the up-trend in the QQQQ average, we had an **81% chance of having a profit**." A participation rate
+is not a per-trade probability — that identity holds only for a randomly chosen component bought at the trend's
+start and held to that exact date, which is nobody's actual trade. The measurement is sound and the conversion is
+loose, and it is worth keeping the two apart when the figure gets quoted.
+
+With the January 2006 reading (86%/88%/87%) this makes three published measurements, all inside up-trends he had
+already identified, all pointing the same way and none constituting a base rate.
+
+## Value is a myth — the proposition underneath the propositions
+
+The wiki dated this to a 2025 post. It is a 2006 position, and the line everyone quotes is O'Neil's, not his.
+([WW 2006-06-14](../../raw/posts/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md))
+
+> "By now, everyone should see through the widely proclaimed conventional nonsense that stocks have intrinsic
+> value. **Stocks are only worth what someone else will pay for them. And each person's assessment is driven more
+> by mob psychology and greed and fear, than by rational logic.**"
+
+And the attribution, in the same post: "**As William O'Neil says, all stocks are bad unless they are going up.**
+But I say that '*bad*' stocks can make a trader a lot of money if s/he shorts them correctly." The 2025
+formulation — "all stocks are bad unless they are going up. Stocks are only worth what someone will pay for them.
+Value is a myth" — is therefore him restating a borrowed line he had been quoting for nineteen years, with his
+own corollary attached.
+
+**What it does for the rest of the system.** If price is a poll rather than a measurement, then a trend is the
+poll's current direction, and there is nothing behind the price to be right about *against* the tape. The same
+post supplies the mechanism for the [leader-on-good-news tell](risk-and-cash.md#when-to-go-defensive): "How else
+can you explain why a stock like **GS can release great earnings and be punished**… **In a down-trend, all events
+are seen through a dark glass that is perceived to be half empty. Everyone sells quickly because they think that
+the next guy will sell.**" The news is constant; the interpretation is regime-dependent. That is why he treats
+the same setup as having a different base rate in a bear market — see
+[trading psychology, rule 10](trading-psychology.md#10-the-seductive-stock-in-a-bad-market--and-the-safety-valve).
+
 ## The lineage he names
 
 The influences are stated, not implied: Darvas (the first book he assigns), Weinstein's stage analysis, O'Neil, Livermore via Lefèvre, Guppy for the multiple-moving-average charts, and — from October 2016 — Mark Minervini and David Ryan, after three days at Minervini's Master Trader Program: "600 slides that taught everything from how to select stocks, the price patterns that are most profitable, the way to set stops, pyramid up, and close out positions. They gave the best information on the value of cutting losses that I have ever seen… He has put into a 3 day session much of what it took me over 50 years to learn." Both offered to lecture his students, and the later @markminervini / MarketSmith / VCP references on the blog trace to this. ([WW 2016-10-25](../../raw/posts/2016-10-25-back-from-mark-minervinis-wonderful-master-trader-program.md))
@@ -288,3 +325,5 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2006-01-17 — The advance measured across three indexes; the inverted-yield-curve worry](../../raw/posts/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md) ([summary](../sources/2006-01-17-gmi-6-market-steady-go-with-the-trend-leading-stocks-and-sectors-inverted-yield-curve-this-time-is-different.md))
 - [WW 2006-06-08 — Shame on IBD and Cramer; puts in an IRA; the IBD 100 audited mid-decline](../../raw/posts/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md) ([summary](../sources/2006-06-08-gmi-1-shame-on-ibd-and-jim-cramer.md))
 - [WW 2005-10-08 — The folly of fighting the trend — and the small-position safety valve](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md) ([summary](../sources/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md))
+- [WW 2006-06-14 — Value is a myth — dated to 2006, and attributed to O'Neil](../../raw/posts/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md) ([summary](../sources/2006-06-14-gmi-0-down-trend-continues-all-stocks-are-bad-but.md))
+- [WW 2005-11-20 — Darvas sourced; the trend-odds measured a third time (81%)](../../raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md) ([summary](../sources/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md))

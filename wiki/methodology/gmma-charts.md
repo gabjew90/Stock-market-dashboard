@@ -1,7 +1,7 @@
 ---
 title: GMMA charts — RWB / BWR, the daily RWB system, and the timeframe ladder
 type: concept
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2009-03-29-is-the-bear-market-over-check-out-my-guppy-charts.md
   - raw/posts/2009-05-31-rally-gaining-strength-guppy-chart-reveals-major-turn.md
@@ -38,6 +38,8 @@ sources:
   - raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md
   - raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md
   - raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md
+  - raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md
+  - raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md
 ---
 
 # GMMA charts — RWB / BWR, the daily RWB system, and the timeframe ladder
@@ -90,6 +92,20 @@ up-trend." The read is a **split** market rather than a uniform one — energy a
 while tech held — and the reason the pattern is worth the trouble: "**How much easier (and more
 profitable) it is to hold stocks when the indexes are in strong RWB up-trends!**" Note the two
 prohibitions are distinct: BWR bars holding a long *and* bars buying the bottom.
+
+**A pattern in formation is not a pattern (2016).** The white space is what confirms it, and he says so while
+watching one form: the dollar ETF UUP "shows a **developing** BWR decline pattern. The six shorter term averages
+(red lines) are now below the longer term averages (blue lines). **The white space separating them is yet to
+clearly develop.**" ([WW 2016-05-01](../../raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md)) Red below blue is a necessary condition; the gap opening is the sufficient one.
+
+**Read as a pair, across asset classes.** The same evening GLD "shows the opposite advancing RWB pattern with a
+white space developing" — dollar down, gold up, the two charts telling one story. His conclusion is
+instrument-first: "**I will leave it to others to opine about why the dollar is declining**… Regardless, for now,
+with GLD in an RWB up-trend, it may be advisable for me to hop on the gold train." The macro chain (weak dollar →
+commodity prices → inflation → Fed → "such a scenario of higher interest rates would eventually hurt the stock
+market. **It always has**") is written out and then set aside as context. And for the in-between state, with the
+SPY's 2014–2015 RWB "clearly over" but no BWR yet: "**at some point a persistent RWB or BWR pattern will develop
+and it will pay to be fully invested with that trend**" — wait, do not position.
 
 ## The daily RWB chart — a finer-grained tool
 
@@ -233,6 +249,13 @@ Note the same day's *weekly* reading, which is the layer the pension answers to:
 up-trend above its rising 30-week average, with the trading account nevertheless 100% cash — the two speeds
 pointing opposite ways on the same evening.
 
+**When the monthly layer entered routine use.** December 2015: "**I am just discovering the benefit of a
+*monthly* GMMA chart that shows the longer term trends.**" ([WW 2015-12-06](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md)) That sits oddly beside the June 2014 post
+above, which already read SPY's 2000 and 2007 tops off monthly Guppy charts — so the 2015 remark is best read as
+when the monthly chart entered his *routine* rotation rather than as a first encounter. The 2018 top template and
+the [bond-ETF regime charts](#monthly-rwb-on-bond-etfs--a-macro-regime-indicator) both come after it, which is
+consistent with that reading.
+
 ## The all-12-GMMA exit line
 
 The weekly Guppy chart can be read as a single total-exit trigger: "If QQQ (dotted line) declines
@@ -291,3 +314,5 @@ price above a still-rising 30-week average — is not deterioration. ([WW 2014-0
 - [WW 2016-01-03 — Never hold a long position in a BWR down-trend; the market read index by index](../../raw/posts/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md) ([summary](../sources/2016-01-03-new-qqq-short-term-up-trend-in-jeopardy-market-indexes-look-weak-so-do-aaplnke-dis.md))
 - [WW 2017-04-16 — 0/0 to 6/6 as the re-entry rule; the dwindling new-high list as an advantage](../../raw/posts/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md) ([summary](../sources/2017-04-16-gmi-may-turn-red-on-monday-qqq-short-term-up-trend-ends-at-86th-day-in-cash-and-gld-glb-twou.md))
 - [WW 2018-02-04 — Put/call 1.2 and stochastic .20; the monthly top signature in three stages](../../raw/posts/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md) ([summary](../sources/2018-02-04-bloody-monday-open-likely-in-cash-during-this-mini-decline.md))
+- [WW 2016-05-01 — GMMA on the dollar and gold; the down-sloping neckline](../../raw/posts/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md) ([summary](../sources/2016-05-01-dollar-dives-and-gold-gets-going-bull-market-to-be-trumped.md))
+- [WW 2015-12-06 — Bouncing off the green line — the retest entry, risk quantified](../../raw/posts/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md) ([summary](../sources/2015-12-06-44th-day-of-qqq-short-term-up-trend-hele-glb-financial-exchanges-strong.md))

@@ -1,7 +1,7 @@
 ---
 title: Track record — calls & outcomes
 type: history
-updated: 2026-08-18
+updated: 2026-08-25
 sources:
   - raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md
   - raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md
@@ -23,6 +23,7 @@ sources:
   - raw/posts/2009-01-05-im-up-1200-as-my-fellow-boomers-and-college-students-get-screwed-again-qqqq-in-17th-day-of-short-term-up-tren.md
   - raw/posts/2010-07-19-major-indexes-remain-in-long-term-down-trends-in-cash-or-short.md
   - raw/posts/2009-02-23-comparison-of-current-bear-to-bear-markets-of-1929-1973-74-1987-suggests-dow-3500-possible.md
+  - raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md
 ---
 
 # Track record — calls & outcomes
@@ -100,6 +101,29 @@ The `raw/timeline.parquet` series shows Dr. Wish's GMI deteriorating sharply fro
 **Outcome:** the S&P 500 bottomed in March 2009. The timeline shows the GMI turning back to 6 in late 2009, signalling re-entry.
 
 ---
+
+## 2008–2010 — the GMI signal record, dated
+
+Reviewing his own indicator while preparing a Worden webinar in April 2010, he laid out the record through the
+bear with specific dates ([WW 2010-04-12](../../raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md)):
+
+| Date | GMI | What happened |
+|---|---|---|
+| **2008-09-02** | 3 → 1 | "at the *beginning* of the steep drop in the QQQQ" |
+| 2008-09-02 → **2008-12-30** | mainly 0 | the QQQQ **fell 35%** over this stretch |
+| ~2009-01-01 (8 days) | 3 | a rebound that did not hold |
+| **2009-01-12** → **2009-03-23** | below 3, mainly 0 | "the decline resumed"; ends when "the market successfully retested its bottom" |
+| 2009-03-23 → 2010-04 | ≥ 3 | except 7 days in July 2009 and 17 days in late Jan–early Feb 2010 |
+
+The operative threshold is stated in the same breath — "**I tend to get defensive when the GMI is less than
+3**" — and predates the [two-day persistence rule](../methodology/gmi.md#the-signals--buy-sell-and-the-hold-state-at-3)
+adopted in November 2011, which is why the record above reads as a raw score history rather than as signals.
+
+His own verdict is worth quoting for its tone as much as its content: "**While not perfect, the GMI has kept me
+out of the market in down-trends and got me back in during up-trends.** (Of course, past performance does not
+guarantee future success.)" Note what the record does *not* claim — no entry price, no exit price, no return
+figure. It is a record of when the indicator said what, which is the honest version of this kind of audit and the
+same form as the [2011, 2016 and 2019 audits](../methodology/gmi-evidence.md).
 
 ## July 2010 — IRA track record updated to 14×
 
@@ -263,3 +287,4 @@ Based on 939 daily-update posts with a parseable GMI value (out of 1,797 total, 
 - [WW 2008-04-21 — The 2000 pension exit in dollars; GMI-S at 100% inside a bear](../../raw/posts/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md) ([summary](../sources/2008-04-21-gmi-5-gmi-r-9-my-general-market-index-gmi-catches-trend-changes-again-more-judys-picks-itri-and-imax.md))
 - [WW 2008-10-13 — Capitulation week: 2,832 new lows, T2108 at 1%](../../raw/posts/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md) ([summary](../sources/2008-10-13-gmi-0-gmi-r-0-2832-new-lows-on-friday-t2108-1-our-embarassing-failure-to-educate-youth-about-the-market.md))
 - [WW 2008-11-21 — The retest read via breadth; T2108's earlier bands](../../raw/posts/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md) ([summary](../sources/2008-11-21-gmi-0-gmi-r-0-t2108-5-in-context-of-market-history-current-decline-minuscule.md))
+- [WW 2010-04-12 — The GMI's 2008-2010 signal record, with dates](../../raw/posts/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md) ([summary](../sources/2010-04-12-come-to-my-free-worden-webinar-presentation-this-tuesday-evening.md))

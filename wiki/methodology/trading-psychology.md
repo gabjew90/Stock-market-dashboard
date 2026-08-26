@@ -1,7 +1,7 @@
 ---
 title: Trading psychology — the rules he uses on himself
 type: concept
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2010-03-15-jim-cramer-on-stop-loss-orders-terribly-wrong-again-kci-soars-how-i-trade-the-3x-etfs.md
   - raw/posts/2011-08-15-100-cash-in-trading-accounts-and-university-pension.md
@@ -37,6 +37,7 @@ sources:
   - raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md
   - raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md
   - raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md
+  - raw/posts/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md
 ---
 
 # Trading psychology — the rules he uses on himself
@@ -68,6 +69,15 @@ The error named on himself in 2005: "I fell into a bear trap last week. I starte
 **The vocabulary version, from the blog's first week (2005).** "**I have been using the term bear market — and this habit is dangerous. It is much safer to say that the market is in a down trend.**" Naming a regime commits you to a scenario the tape has not confirmed; naming a *trend* commits you only to what is observable. In the same post he fixes a level for changing his mind — "the Dow would have to close 300 points higher for me to start to consider the bull case." ([WW 2005-04-21](../../raw/posts/2005-04-21-the-10000-bounce.md))
 
 **The cost of *not* anticipating, priced honestly (2007).** "I have learned over the years that it is futile to try to anticipate market turns. It is far better to wait until my GMI signals the turn has occurred. **Of course, this means that I lose some profits as the top is formed. However, I prefer to take this approach over trying repeatedly (and mistakenly) to predict the turn.**" ([WW 2007-10-15](../../raw/posts/2007-10-15-gmi-6-ibd100-stocks-out-perform-nasdaq100-and-sp500-stocks.md)) He relearns it the other way round in April 2008 — hedging inside an intact up-trend is also a form of anticipating: "again, I had to learn the lesson not to *anticipate* a change in trend and kept a lot of my longs through today, **although I was hedged and made less money than if I had just stayed 100% long with the up-trend**." ([WW 2008-04-17](../../raw/posts/2008-04-17-gmi-5-gmi-r-9-qqqq-short-term-up-trend-confirmed-41-ibd100-new-highs.md))
+
+**The rule executed, not stated (July 2005).** Holding SPY puts into a tape that was turning against him, he
+reversed inside one session: "**I sold out my puts on the SPY at a loss, and then I immediately went long
+stocks.** (I told you yesterday that **if I find myself on the wrong side of the trend I have no problem turning
+on a dime. It is suicide to marry a scenario that is at odds with the market's action.**)" ([WW 2005-07-05](../../raw/posts/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md)) Two details
+keep it from being bravado. The reversal is paid for with a **realised loss**, taken the same day rather than
+held for a recovery. And it is not a flip to the opposite conviction — the new longs went on with stops attached,
+and "**just in case, I have kept my put options on some of the weakest stocks**." Changing your mind is allowed to
+be partial; what is not allowed is defending the old position with the tape against it.
 
 ## 3. Fear will make you break your own rule — he did, and said so
 
@@ -185,3 +195,4 @@ Rules 1, 2 and 8 are about *direction* — defer to the trend, not to opinion or
 - [WW 2025-03-06 — Blog Post: Day 8 of $QQQ short term down-trend; 28 US new highs, 81 lows and 5 at ATH; I will resist the inevi](../../raw/posts/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md) ([summary](../sources/2025-03-06-blog-post-day-8-of-qqq-short-term-down-trend-28-us-new-highs-81-lows-and-5-at-ath-i-will-resist-the-inevitabl.md))
 - [WW 2017-07-16 — O'Neil's shopping list — the watch-list procedure, and the discipline of not trading](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md) ([summary](../sources/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))
 - [WW 2005-10-08 — The folly of fighting the trend — and the small-position safety valve](../../raw/posts/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md) ([summary](../sources/2005-10-08-gmi-1-wpm-shows-weakening-folly-of-fighting-markets-trend-on-nicolas-darvas.md))
+- [WW 2005-07-05 — Turning on a dime — a losing hedge closed and the book reversed the same day](../../raw/posts/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md) ([summary](../sources/2005-07-05-spy-reversing-gmi-3-buying-some-stocks-and-keeping-puts.md))

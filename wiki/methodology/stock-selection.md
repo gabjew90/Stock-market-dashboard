@@ -1,7 +1,7 @@
 ---
 title: Stock selection
 type: concept
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - raw/posts/2005-04-23-lets-talk-strategy.md
   - raw/posts/2005-04-30-my-trading-strategy-part-ii.md
@@ -65,6 +65,7 @@ sources:
   - raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md
   - raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md
   - raw/posts/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md
+  - raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md
 ---
 
 # Stock selection
@@ -82,6 +83,11 @@ Restated in 2022 with its O'Neil provenance — "most of the stocks that Bill O'
 And the negative rule, March 2022: "growth stocks are underperforming now and few of the fallen leaders will retake their ATHs. **We need to stop looking for bargains.** The leaders will show up on the new 52 week high list, preferably reaching all-time-highs." ([WW 2022-03-06](../../raw/posts/2022-03-06-blog-post-investors-intelligence-poll-finds-more-bears-than-bulls-34-5-29-9-extreme-bearish-sentiment-in-news.md))
 
 **The most quotable statement of it (April 2009, as the bottom turned):** "Stocks on the 52 week new high lists that are also at or near all time highs is where I find potential rockets… **While most of the world looks for bargain stocks at new lows, I seek rockets heading to the moon.** The greatest winning stocks are those heading up to ever higher levels. Think of how many times that YHOO or CSCO or MSFT hit all time new highs as they multiplied their prices many times… **If you want to hop a rocket to the moon, it better be pointing up and gaining altitude.**" ([WW 2009-04-12](../../raw/posts/2009-04-12-buying-rocket-stocks-my-market-indicators-are-very-strong.md))
+
+**The screen in its earliest compact form (2005).** Three conditions and nothing else: stocks that "hit a new
+high Friday, have **strong recent quarterly earnings** and are **up at least 60% in the past year**." ([WW 2005-11-20](../../raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md))
+The 60% floor is the ancestor of the "already doubled" criterion below — the same idea (buy what has already
+proved it can run) at a lower threshold, four years before he settled on doubling.
 
 ## Why "already doubled" — and the gap rule
 
@@ -471,3 +477,4 @@ exemption — "so many discoveries... this is one area that can buck the market 
 - [WW 2009-04-19 — 'The market needs to rest' is nonsense; QSII breaks a three-year base](../../raw/posts/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md) ([summary](../sources/2009-04-19-market-rally-does-not-need-a-rest-qsii-and-a-few-others-break-out-to-all-time-highs.md))
 - [WW 2006-07-17 — Why he tracks a fixed IBD 100 list; what cash was paying](../../raw/posts/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md) ([summary](../sources/2006-07-17-gmi-0-ibd100-performance-cash-balances-earning-48.md))
 - [WW 2007-07-30 — No need to anticipate the reversal; GMI back above 3 as the re-entry](../../raw/posts/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md) ([summary](../sources/2007-07-30-gmi-2-gmi-l-63-gmi-s-19-ibd100-stocks-underperform-short-or-cash.md))
+- [WW 2005-11-20 — Darvas sourced; the trend-odds measured a third time (81%)](../../raw/posts/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md) ([summary](../sources/2005-11-20-nicolas-darvas-bio-gmi-6-qqqq-biggest-gainers-more-strong-doublers-at-new-highs.md))
