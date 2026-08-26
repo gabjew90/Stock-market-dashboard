@@ -174,6 +174,8 @@ def write_wiki_page(root: Path, results: dict, *, plot_url: str | None, period: 
                  f"### Verdict: **{results['verdict']}**\n")
     # `assets/backtest/equity_curve.png` is committed at the repo root; from this page
     # (wiki/methodology/) that is two levels up. `ww lint` verifies the link resolves on disk.
+    # NOTE: the run writes the chart to data/backtest/ (gitignored) - nothing copies it into
+    # assets/, so refresh that committed copy by hand when the numbers change materially.
     lines.append("\n![equity curve](../../assets/backtest/equity_curve.png)\n\n"
                  "*(Strategy vs buy-and-hold QQQ vs SPY, log scale, RED periods shaded"
                  + (f" — also at [{plot_url}]({plot_url}) for 72 h)" if plot_url else ")") + "*\n")
