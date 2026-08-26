@@ -111,6 +111,9 @@ sources:
   - raw/posts/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md
   - raw/posts/2005-11-23-gmi-6-i-bonds-revised.md
   - raw/posts/2008-09-29-gmi-0-gmi-r-0-19th-day-of-qqqq-down-trend-nicolas-darvas-on-staying-out-of-bear-markets.md
+  - raw/posts/2009-01-29-gmi-1-gmi-r-4-t2108-61.md
+  - raw/posts/2010-12-28-qqqq-short-term-up-trend-reaches-25th-day.md
+  - raw/posts/2018-11-11-indicators-are-on-edge-of-cliff-will-new-up-trend-hold-20-strong-stocks.md
 ---
 
 # Risk & cash
@@ -265,6 +268,16 @@ knows the answers to such questions.**" ([WW 2011-08-22](../../raw/posts/2011-08
 He does not go all-in at once. From Livermore via Dr. Wish: make a **pilot buy** first, add more only as the stock moves in the predicted direction, average up never down. ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
 
 Concentration over diversification: "Too much diversification guarantees mediocre results. Concentrate on your few winners." ([WW 2005-04-23](../../raw/posts/2005-04-23-lets-talk-strategy.md))
+
+**Why the pilot buy works — the argument, not just the rule (2009).** "**The key is to start with a small pilot
+buy and to increase my position only if the trend continues. I also set close stops in case the trend weakens.
+In this way I have the greatest position (and risk) only after the movement is consistent with my initial
+purchases. I learned this strategy from the great Jesse Livermore.**" ([WW 2009-01-29](../../raw/posts/2009-01-29-gmi-1-gmi-r-4-t2108-61.md)) The middle sentence is the
+whole case: pyramiding is not about improving your average price, it is about **arranging for your largest
+exposure to exist only when the thesis has the most evidence behind it**. Smallest when least certain, largest
+once the trend has repeatedly proved itself — the inverse of full size at entry followed by averaging down. Note
+also that the pilot buy and the close stop are presented as *one* rule: small size early only helps if the small
+position is also protected.
 
 ## Cutting losses
 
@@ -552,6 +565,20 @@ and chat rooms), the market often rests or tops**." ([WW 2018-06-17](../../raw/p
 volume of other people's success stories — both read contrarily, and both consistent with the
 [peers-reporting-profits](#contrarian-sentiment-is-a-bounce-warning-not-a-re-entry-trigger) note from 2007.
 
+**A fourth observable crowd — his own students (2018).** "Perhaps because the GMI changed to Green last week,
+**80% of my students were bullish on Friday, the highest reading this semester. In the past, my student poll has
+performed well as a contrarian indicator. So watch out below!**" ([WW 2018-11-11](../../raw/posts/2018-11-11-indicators-are-on-edge-of-cliff-will-new-up-trend-hold-20-strong-stocks.md)) He polls the class, tracks
+the series across a semester, and reads it against the position — alongside meetup attendance, reader mail and
+peers reporting profits. What makes this one unusually honest is the causal note attached: the reading probably
+moved *because his own GMI turned Green*, so the sentiment he is fading is partly his own signal propagating
+through the people who follow it.
+
+**And the Investors Intelligence poll at both poles (2010).** The top threshold documented elsewhere, plus the
+bottom anchor and a prospective use of it: "**58.8% bulls and only 20.6% bears. Readings close to 60% bullish
+often occur near market tops. When I got back into the market last September, there were less than 30% bulls, and
+this statistic made me confident of my wading back in on the long side.**" ([WW 2010-12-28](../../raw/posts/2010-12-28-qqqq-short-term-up-trend-reaches-25th-day.md)) Under 30% bulls at a
+bottom, ≈60% at a top — and the discipline unchanged: "**the key is to wait for a definitive signal.**"
+
 ## The leader watchlist, named
 
 Every "the leaders are weakening" statement in this corpus rests on a specific, small, fixed list — asked for by
@@ -838,3 +865,6 @@ This page used to carry ~6,700 words; on 2026-08-18 four bodies of material move
 - [WW 2023-04-02 — blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu](../../raw/posts/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md) ([summary](../sources/2023-04-02-blog-post-day-11-of-qqq-short-term-up-trend-gmi-6-of-6-time-to-abandon-low-risk-income-and-buy-stocks-etfs-mu.md))
 - [WW 2005-11-23 — gmi-6-i-bonds-revised](../../raw/posts/2005-11-23-gmi-6-i-bonds-revised.md) ([summary](../sources/2005-11-23-gmi-6-i-bonds-revised.md))
 - [WW 2008-09-29 — gmi-0-gmi-r-0-19th-day-of-qqqq-down-trend-nicolas-darvas-on-staying-out-of-bear-markets](../../raw/posts/2008-09-29-gmi-0-gmi-r-0-19th-day-of-qqqq-down-trend-nicolas-darvas-on-staying-out-of-bear-markets.md) ([summary](../sources/2008-09-29-gmi-0-gmi-r-0-19th-day-of-qqqq-down-trend-nicolas-darvas-on-staying-out-of-bear-markets.md))
+- [WW 2009-01-29 — gmi-1-gmi-r-4-t2108-61](../../raw/posts/2009-01-29-gmi-1-gmi-r-4-t2108-61.md) ([summary](../sources/2009-01-29-gmi-1-gmi-r-4-t2108-61.md))
+- [WW 2010-12-28 — qqqq-short-term-up-trend-reaches-25th-day](../../raw/posts/2010-12-28-qqqq-short-term-up-trend-reaches-25th-day.md) ([summary](../sources/2010-12-28-qqqq-short-term-up-trend-reaches-25th-day.md))
+- [WW 2018-11-11 — indicators-are-on-edge-of-cliff-will-new-up-trend-hold-20-strong-stocks](../../raw/posts/2018-11-11-indicators-are-on-edge-of-cliff-will-new-up-trend-hold-20-strong-stocks.md) ([summary](../sources/2018-11-11-indicators-are-on-edge-of-cliff-will-new-up-trend-hold-20-strong-stocks.md))

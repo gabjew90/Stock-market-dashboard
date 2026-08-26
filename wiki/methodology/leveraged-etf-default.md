@@ -30,6 +30,8 @@ sources:
   - raw/posts/2009-09-21-ultra-3x-etfs-beat-individual-stocks-again.md
   - raw/posts/2012-08-20-market-up-trend-continues-as-aapl-breaks-out-of-a-green-line-top.md
   - raw/posts/2020-04-19-since-the-new-qqq-short-term-up-trend-began-tqqq-33-beats-all-but-1-of-nasadq100-sp500-and-dow-30-stocks.md
+  - raw/posts/2006-08-30-gmi5-gmi-s-100-qld-at-twice-the-speed-of-qqqq.md
+  - raw/posts/2021-11-04-blog-post-day-14-of-qqq-short-term-up-trend-tqqq-strategy-beats-most-stocks-again-since-10-18-tqqq-21-7-beati.md
 ---
 
 # The leveraged-ETF default — TQQQ on a GMI Buy signal
@@ -48,6 +50,12 @@ complete — take an index entry signal his own method generates, hold to a date
 against the *distribution* of its components rather than their average. October 2006 adds the leverage
 and inverts the conclusion into a recommendation; the arithmetic is unchanged. See
 [how many stocks actually follow the index](trading-philosophy.md#how-many-stocks-actually-follow-the-index--and-how-his-number-moved).
+
+**Where the thread starts (August 2006).** The instruments themselves were new, and he introduced them to readers
+as a curiosity two months before he first measured the case: "**Did you know there are relatively new ETF's that
+allow one to bet on twice the percentage move of major indexes and that these ProShares**" funds exist.
+([WW 2006-08-30](../../raw/posts/2006-08-30-gmi5-gmi-s-100-qld-at-twice-the-speed-of-qqqq.md)) Everything downstream — the October 2006 QLD study, the 3× funds in 2009, the TQQQ default in
+2011, the day-1 entry problem — descends from this note.
 
 ## The earliest ultra-ETF study (June 2009)
 
@@ -126,6 +134,15 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 
 **The best-measured statement (June 2023).** From day one of the up-trend he called on 4/28 through 6/9, **TQQQ advanced 29.6%**: only six Nasdaq-100 stocks beat it, only five S&P 500 stocks did — "**TQQQ outperformed 99% of the S&P 500 stocks**" — and against his *curated* MarketSmith Growth 250 watchlist from 4/13, "**TQQQ even beat more than 90% of those promising stocks**." That last comparison is the strongest form of the claim, since the comparison set was pre-selected for quality. The caveat rides with it: "TQQQ is triple leveraged and moves 3x as fast as QQQ, *up or down*. So one must have a valid indicat[or]" of the trend. ([WW 2023-06-11](../../raw/posts/2023-06-11-blog-post-day-30-of-qqq-short-term-up-trend-if-one-had-bought-tqqq-on-day-1-of-the-qqq-short-term-up-trend-on.md))
 
+**The caveat that makes the default usable (2021).** Stated in the same breath as the recommendation: "I have
+demonstrated repeatedly that during a QQQ short term up-trend, its triple leveraged ETF outperforms almost all
+individual stocks… **If we are in it to make money rather than satisfying our egos, we should just buy TQQQ. But
+TQQQ also falls 3x faster than QQQ and one must have solid rules for exiting.**" ([WW 2021-11-04](../../raw/posts/2021-11-04-blog-post-day-14-of-qqq-short-term-up-trend-tqqq-strategy-beats-most-stocks-again-since-10-18-tqqq-21-7-beati.md)) The leverage
+is symmetric, so the instrument sits **downstream of the trend count** — it amplifies a signal, it does not
+supply one, and without the exit rules the amplification runs the other way. The ego line is worth keeping too:
+stock-picking is characterised as partly a self-image activity, with the leveraged index as the unglamorous
+alternative that pays better.
+
 ## See also
 
 - [Risk & cash](risk-and-cash.md) — the page this was split from; the cash side of the same coin
@@ -163,3 +180,5 @@ Performance data Dr. Wish has published reinforcing the case for riding leverage
 - [WW 2009-09-21 — ultra-3x-etfs-beat-individual-stocks-again](../../raw/posts/2009-09-21-ultra-3x-etfs-beat-individual-stocks-again.md) ([summary](../sources/2009-09-21-ultra-3x-etfs-beat-individual-stocks-again.md))
 - [WW 2012-08-20 — market-up-trend-continues-as-aapl-breaks-out-of-a-green-line-top](../../raw/posts/2012-08-20-market-up-trend-continues-as-aapl-breaks-out-of-a-green-line-top.md) ([summary](../sources/2012-08-20-market-up-trend-continues-as-aapl-breaks-out-of-a-green-line-top.md))
 - [WW 2020-04-19 — since-the-new-qqq-short-term-up-trend-began-tqqq-33-beats-all-but-1-of-nasadq100-sp500-and-dow-30-stocks](../../raw/posts/2020-04-19-since-the-new-qqq-short-term-up-trend-began-tqqq-33-beats-all-but-1-of-nasadq100-sp500-and-dow-30-stocks.md) ([summary](../sources/2020-04-19-since-the-new-qqq-short-term-up-trend-began-tqqq-33-beats-all-but-1-of-nasadq100-sp500-and-dow-30-stocks.md))
+- [WW 2006-08-30 — gmi5-gmi-s-100-qld-at-twice-the-speed-of-qqqq](../../raw/posts/2006-08-30-gmi5-gmi-s-100-qld-at-twice-the-speed-of-qqqq.md) ([summary](../sources/2006-08-30-gmi5-gmi-s-100-qld-at-twice-the-speed-of-qqqq.md))
+- [WW 2021-11-04 — blog-post-day-14-of-qqq-short-term-up-trend-tqqq-strategy-beats-most-stocks-again-since-10-18-tqqq-21-7-beati](../../raw/posts/2021-11-04-blog-post-day-14-of-qqq-short-term-up-trend-tqqq-strategy-beats-most-stocks-again-since-10-18-tqqq-21-7-beati.md) ([summary](../sources/2021-11-04-blog-post-day-14-of-qqq-short-term-up-trend-tqqq-strategy-beats-most-stocks-again-since-10-18-tqqq-21-7-beati.md))

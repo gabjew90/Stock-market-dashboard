@@ -43,6 +43,7 @@ sources:
   - raw/posts/2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs.md
   - raw/posts/2020-04-06-the-gmi0-and-on-a-red-signal.md
   - raw/posts/2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we.md
+  - raw/posts/2021-03-20-blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck.md
 ---
 
 # Trading philosophy — the five propositions
@@ -234,6 +235,15 @@ a price series; it is the visible residue of many people deciding similarly, and
 that the deciding does. That is also why the same setup carries a different base rate in a different regime (see
 [rule 10](trading-psychology.md#10-the-seductive-stock-in-a-bad-market--and-the-safety-valve)) — the decisions
 change even though the shape does not.
+
+**Why price moves against the news — the discounting mechanism (2021).** The resolution of a puzzle that recurs
+throughout the corpus: "**The market discounts the future. It rose during the pandemic as it focused on the
+coming recovery. It would not be unusual for the market to decline during the economic recovery as it foresees
+inflation, higher rates and an exploding budget deficit.**" ([WW 2021-03-20](../../raw/posts/2021-03-20-blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck.md)) Price reflects expectations about
+a future state, so it moves *before* the state arrives and can move *against* it once it does — no appeal to
+irrationality required. That is why the news is uninformative about direction while the
+[reaction to it](risk-and-cash.md#reading-the-news-by-the-reaction-not-the-content) is not: by the time the event
+is reported, the anticipating has already been priced.
 
 ## Simple beats clever
 
@@ -464,3 +474,4 @@ The influences are stated, not implied: Darvas (the first book he assigns), Wein
 - [WW 2011-03-11 — gmi-dives-to-1-in-cash-and-inverse-etfs](../../raw/posts/2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs.md) ([summary](../sources/2011-03-11-gmi-dives-to-1-in-cash-and-inverse-etfs.md))
 - [WW 2020-04-06 — the-gmi0-and-on-a-red-signal](../../raw/posts/2020-04-06-the-gmi0-and-on-a-red-signal.md) ([summary](../sources/2020-04-06-the-gmi0-and-on-a-red-signal.md))
 - [WW 2022-12-29 — blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we](../../raw/posts/2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we.md) ([summary](../sources/2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we.md))
+- [WW 2021-03-20 — blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck](../../raw/posts/2021-03-20-blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck.md) ([summary](../sources/2021-03-20-blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck.md))

@@ -30,6 +30,7 @@ sources:
   - raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md
   - raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md
   - raw/posts/2019-11-17-dissecting-aapls-glb-green-line-break-out-thank-you-nicolas-darvas.md
+  - raw/posts/2023-09-10-blog-post-day-7-of-qqq-short-term-up-trend-69-us-new-highs-and-81-lows-spy-is-back-below-its-10-week-average.md
 ---
 
 # The GLB in practice — worked cases, failures, and what he learned from each
@@ -137,6 +138,14 @@ resolution.
 **The alert habit is documented from July 2017** — "I use TC2000 to alert me when a stock on my list is
 having a GLB on unusually high daily volume — volume buzz" ([WW 2017-07-16](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md)) — a year before the intraday ATH
 condition set he published in October 2018, and six years before the written rules above.
+
+**And what to do when you miss one (2023).** The alerts fail sometimes; the breakout is not therefore gone.
+"**When I miss a GLB, I may look to buy after a bounce up off of the 10 week or 4wk average.**" ([WW 2023-09-10](../../raw/posts/2023-09-10-blog-post-day-7-of-qqq-short-term-up-trend-69-us-new-highs-and-81-lows-spy-is-back-below-its-10-week-average.md))
+A stock in a Stage 2 advance keeps generating entries — each bounce off a rising fast weekly average is a fresh
+one with a nearby stop — so a missed alert costs the best price rather than the trade. ORCL is the worked case: a
+June GLB on above-average volume, a **12-week consolidation** treated as healthy, `4wk > 10wk > 30wk` described as
+"a sign of a powerful Stage 2 up-trend," a bounce off the 10-week, and a re-entry trigger quoted in advance as a
+price *and* a condition — "a rise above **127.54** with **above average volume** to an ATH."
 
 ## Entering before the green line — and taking a different stop
 
@@ -286,3 +295,4 @@ The core rules have remained stable. These posts from 2019 onward confirm the ru
 - [WW 2016-09-18 — The GLB Tracker's curation admitted; the daily chart as a whipsaw machine](../../raw/posts/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md) ([summary](../sources/2016-09-18-new-glb-tracker-table-shows-strong-recent-break-out-stocks-gimo-retests-glb-and-soars-schizoid-market.md))
 - [WW 2016-03-27 — When GLBs stop working - regime, not technique](../../raw/posts/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md) ([summary](../sources/2016-03-27-critcal-week-for-market-coming-up-glb-tfx-eslt.md))
 - [WW 2019-11-17 — dissecting-aapls-glb-green-line-break-out-thank-you-nicolas-darvas](../../raw/posts/2019-11-17-dissecting-aapls-glb-green-line-break-out-thank-you-nicolas-darvas.md) ([summary](../sources/2019-11-17-dissecting-aapls-glb-green-line-break-out-thank-you-nicolas-darvas.md))
+- [WW 2023-09-10 — blog-post-day-7-of-qqq-short-term-up-trend-69-us-new-highs-and-81-lows-spy-is-back-below-its-10-week-average](../../raw/posts/2023-09-10-blog-post-day-7-of-qqq-short-term-up-trend-69-us-new-highs-and-81-lows-spy-is-back-below-its-10-week-average.md) ([summary](../sources/2023-09-10-blog-post-day-7-of-qqq-short-term-up-trend-69-us-new-highs-and-81-lows-spy-is-back-below-its-10-week-average.md))

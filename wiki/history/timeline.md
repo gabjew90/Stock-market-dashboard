@@ -419,6 +419,12 @@ sources:
   - raw/posts/2020-04-06-the-gmi0-and-on-a-red-signal.md
   - raw/posts/2020-07-13-blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer.md
   - raw/posts/2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we.md
+  - raw/posts/2006-08-30-gmi5-gmi-s-100-qld-at-twice-the-speed-of-qqqq.md
+  - raw/posts/2009-01-29-gmi-1-gmi-r-4-t2108-61.md
+  - raw/posts/2010-12-28-qqqq-short-term-up-trend-reaches-25th-day.md
+  - raw/posts/2017-08-19-new-qqq-short-term-down-trend-in-cash-come-back-at-halloween.md
+  - raw/posts/2021-12-21-blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000.md
+  - raw/posts/2021-03-20-blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck.md
 ---
 
 # Timeline — evolution of the methodology
@@ -966,6 +972,17 @@ be on the sidelines. **What is your brokerage firm paying you for your cash bala
 
 **"GMI: 5?; GMI-S: 100; Short-term rally?" (2006-08-21):** the market's failure to fall on the British terror plot as a strength tell; "5?" at 97 new highs; GMI-S 100 / GMI-L 63 → tradeable rally, shorts closed, wading in long; bet on the brokers (IAI). ([WW 2006-08-21](../../raw/posts/2006-08-21-gmi-5-gmi-s-100-short-term-rally-iai.md))
 
+## August 2006 (instruments) — the ultra ETFs arrive
+
+**"QLD at twice the speed of QQQQ" (2006-08-30):** the leveraged-ETF thread begins, with the funds introduced
+to readers as a novelty — "**did you know there are relatively new ETF's that allow one to bet on twice the
+percentage move of major indexes and that these ProShares**" funds exist. Two months later he would measure QLD
+against the distribution of Nasdaq-100 components and reach the conclusion he repeats for the next two decades;
+here he is still explaining what the instruments are. Everything downstream — the 3× funds in 2009, the TQQQ
+default in 2011, the day-1 entry problem, the "falls 3× faster" caveat — descends from this note. GMI-S at 100,
+its maximum: all sixteen short-term indicators across SPY, DIA, QQQQ and IJR positive. ([WW 2006-08-30](../../raw/posts/2006-08-30-gmi5-gmi-s-100-qld-at-twice-the-speed-of-qqqq.md))
+
+
 ## October 2006 (ETFs) — the ultra-ETF case, already quantified
 
 **"GMI: 6; IBD 100 performance; AAPL and GOOG" (2006-10-23):** QQQQ +8.9% since August 16 while **QLD rose 16.9%** — "by simply buying the QLD when the GMI signaled a rise and holding on… one could have received a 17% return — **a return that beat 84% of the Nasdaq 100 stocks**. Why try to find the few individual stocks that outperform the QQQQ?" The thesis, measured, nearly three years before the 2009 study. ([WW 2006-10-23](../../raw/posts/2006-10-23-gmi-6-ibd-100-performance-aapl-and-goog.md))
@@ -1263,6 +1280,17 @@ carry a regime condition that the 2007 and 2014 material states without. "Learne
 Also: full exit on the trend change, then a scaled entry on the other side — "once the QQQQ fell into a
 down-trend, **I closed all positions** and bought a very little of QID… if the QQQQ down-trend deepens I will buy
 more." MACD breadth 88% → 27% in under three weeks. ([WW 2009-01-20](../../raw/posts/2009-01-20-cash-secured-puts-did-badly-mainly-in-cash-gmi-gmi-r-0-financial-armageddon.md))
+
+
+## January 2009 (sizing) — why the pilot buy works
+
+**"GMI: 1; GMI-R: 4" (2009-01-29):** the scaling rule with the argument that usually goes missing. "**The key
+is to start with a small pilot buy and to increase my position only if the trend continues. I also set close stops
+in case the trend weakens. In this way I have the greatest position (and risk) only after the movement is
+consistent with my initial purchases. I learned this strategy from the great Jesse Livermore.**" Pyramiding is
+not about improving an average price — it is about arranging for the **largest exposure to exist only when the
+thesis has the most evidence behind it**, which inverts the retail pattern of full size at entry and averaging
+down after. The pilot buy and the close stop are presented as one rule, not two. ([WW 2009-01-29](../../raw/posts/2009-01-29-gmi-1-gmi-r-4-t2108-61.md))
 
 
 ## February 2009 — Quantitative bear market comparison: 2008 vs 1929/1973/1987
@@ -1621,6 +1649,17 @@ new up-trend can reach 5 days, it has legs to continue.**" ([WW 2010-11-26](../.
 ## December 2010 (IBD / funds) — IBD drops the follow-through day; funds restrict timing; IBD100 top-10 beats the indexes
 
 **"IBD announces 'resumed confirmed up-trend', gives up on follow-through day; how mutual funds rip off investors" (2010-12-06):** IBD calls an up-trend without a high-volume FTD; a reader barred from re-buying a fund — "there ought to be a law against the prohibition of market timing for mutual funds… get out of mutual funds and invest in suitable ETF's"; four IBD100 top-10 portfolios each beat both indexes (6/28 list +44% vs +19%/+13.9%). SPY/QQQQ above their 10-week 14 straight weeks. ([WW 2010-12-06](../../raw/posts/2010-12-06-ibd-announces-resumed-confirmed-up-trend-gives-up-on-follow-through-day-how-mutual-funds-rip-off-investors-ib.md))
+
+## December 2010 (sentiment) — the II poll at both poles
+
+**"25th day of QQQQ short term up-trend" (2010-12-28):** the sentiment gauge with both ends and a personal
+anchor. "The Investors Intelligence poll now shows **58.8% bulls and only 20.6% bears. Readings close to 60%
+bullish often occur near market tops. When I got back into the market last September, there were less than 30%
+bulls, and this statistic made me confident of my wading back in on the long side.**" The top threshold is
+documented elsewhere; what this adds is the bottom anchor (**under 30% bulls**) and the fact that he used it
+*prospectively* — to gain confidence in a re-entry three months earlier — rather than only reading it in
+hindsight. The discipline unchanged: "**the key is to wait for a definitive signal.**" ([WW 2010-12-28](../../raw/posts/2010-12-28-qqqq-short-term-up-trend-reaches-25th-day.md))
+
 
 ## January 2011 — 2010 year-in-review; TQQQ default established; Day-1 entry tactic
 
@@ -2438,6 +2477,17 @@ condition set. The discipline half comes from watching Minervini and David Ryan 
 them found a stock on their watch lists that met their criteria that day, **they just sat tight** — Wow!!! How
 many of us think we have to buy something every day and get seduced by the action?" ([WW 2017-07-16](../../raw/posts/2017-07-16-some-of-william-oneils-wisdom-exemplified-by-the-great-traders-i-watched-gmi-is-green.md))
 
+## August 2017 (base rates) — a setup's hit rate measured at 8%
+
+**"New QQQ short term down-trend; in cash" (2017-08-19):** the number the pattern literature never supplies,
+produced about his own primary bounce entry. "With the GMI at 1, 6x more new 52 week lows than new highs, and
+**only 8% of recent bounce on support set-ups working**, I am on the side-lines in my trading accounts." A 92%
+failure rate for BOS in a weak tape — and he tracks it as a **market** reading as much as a performance one:
+when setups stop working, that is evidence about the tape rather than about the setup. It is the concrete form of
+the regime-dependence claim he makes repeatedly and, five years later, turns into a criticism of the model-book
+genre. ([WW 2017-08-19](../../raw/posts/2017-08-19-new-qqq-short-term-down-trend-in-cash-come-back-at-halloween.md))
+
+
 ## September 2017 — the yellowband scan
 
 **"Yellowband scan picks up UCTT, NVDA..." (2017-09-17):** yellowband turned into a scan — up ≥70% from the 50-week low, within 20% of the 20-week high, in the pattern, regained the 10-week last week — with the exit attached at purchase and **purple dots** marking weekly lows. Distributed through his TC2000 club (wishingwealthblog.com/club), a named off-blog channel. ([WW 2017-09-17](../../raw/posts/2017-09-17-yellowband-scan-picks-up-uctt-nvda-fslr-hnh-loxo-exel-nvmi-cort.md))
@@ -2734,6 +2784,19 @@ instrument. ([WW 2020-07-13](../../raw/posts/2020-07-13-blog-post-day-67-of-qqq-
 
 ---
 
+## March 2021 (mechanism) — the market discounts the future
+
+**"19th day of QQQ short term down-trend" (2021-03-20):** the resolution of a puzzle that recurs through the
+whole corpus, stated plainly. "**The market discounts the future. It rose during the pandemic as it focused on
+the coming recovery. It would not be unusual for the market to decline during the economic recovery as it
+foresees inflation, higher rates and an exploding budget deficit.**" Price reflects expectations about a future
+state, so it moves before the state arrives and can move against it once it does — no appeal to irrationality
+required, and the reason the news is uninformative about direction while the *reaction* to it is not. On the
+rotation debate of the moment, a falsifiable claim about sequencing: "the pundits are talking about rotation from
+tech to value stocks. **But in my experience, tech has always led. It could be we are seeing a top in tech to be
+followed by a top in the other stocks after the laggards rise a little.**" ([WW 2021-03-20](../../raw/posts/2021-03-20-blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck.md))
+
+
 ## April 2021 (scan) — the Wish-Darvas scan, criteria in full
 
 **"Wish-Darvas scan finds 14 stocks to monitor Monday" (2021-04-18):** >$20; near an ATH; yellowband 5+ weeks; new high within 25 days; closed up today; up >80% from a year ago ("Darvas liked +100%"); bounced off the 21-day EMA or 30-day SMA — 14 of 6,081 stocks. Exit fixed at entry: sell immediately on a *close* below the bounce average. ([WW 2021-04-18](../../raw/posts/2021-04-18-blog-post-wish-darvas-scan-finds-14-stocks-to-monitor-monday-cash-camt-myrg-gm-hibb-wsm-8-others-listed.md))
@@ -2815,6 +2878,19 @@ Higher rates will suck the money out of equities.**" Two construction notes: the
 because two daily stochastics hit very oversold levels (it is partly a mean-reversion gauge, so it can improve as
 the market deteriorates), and a put/call of 1.00 read as bounce territory — the 2012 threshold, not the 2018 one.
 ([WW 2021-12-05](../../raw/posts/2021-12-05-blog-post-day-2-of-qqq-short-term-down-trend-608-new-lows-36-highs-friday-gmi-is-red-ibd-calls-market-in-corr.md))
+
+## December 2021 (scan) — the near-ATH intraday formula
+
+**"On Monday I tweeted that VCRA had retested its GLB" (2021-12-21):** the scan behind the intraday alerts,
+with syntax. "I have a **simple formula I wrote for TC2000 that finds any stock that reaches an ATH in the past
+100 days** (use price new high built-in condition set to **250 month high within past 5 months**) **and that is
+currently within 3% of its 100 day high (`C>.97*maxh100`). TC2000 scans my watchlist of IBD50/MarketSmith stocks
+real time throughout the day.**" Two conditions with distinct jobs — one establishes a genuine all-time high in
+recent history, the other keeps the stock *near* it, which is the proximity filter that puts an entry close to its
+invalidation. What stays manual is the judgement: "I then look at the stocks that come up and **look at the
+built-in volume buzz indicator to see if it has unusual volume for that time of day**… I then check out its
+fundamentals on MarketSmith." ([WW 2021-12-21](../../raw/posts/2021-12-21-blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000.md))
+
 
 ## January–February 2022 — end-of-decline signs; how he uses Bollinger Bands
 
@@ -3587,3 +3663,9 @@ of this change when the GMI=5 or 6, indicating there are sufficient numbers of s
 - [WW 2020-04-06 — the-gmi0-and-on-a-red-signal](../../raw/posts/2020-04-06-the-gmi0-and-on-a-red-signal.md) ([summary](../sources/2020-04-06-the-gmi0-and-on-a-red-signal.md))
 - [WW 2020-07-13 — blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer](../../raw/posts/2020-07-13-blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer.md) ([summary](../sources/2020-07-13-blog-post-day-67-of-qqq-short-term-up-trend-since-2006-only-7-of-95-up-trends-lasted-longer.md))
 - [WW 2022-12-29 — blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we](../../raw/posts/2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we.md) ([summary](../sources/2022-12-29-blog-post-day-9-of-qqq-short-term-down-trend-glbs-often-fail-in-market-down-trends-calm-is-a-prime-example-we.md))
+- [WW 2006-08-30 — gmi5-gmi-s-100-qld-at-twice-the-speed-of-qqqq](../../raw/posts/2006-08-30-gmi5-gmi-s-100-qld-at-twice-the-speed-of-qqqq.md) ([summary](../sources/2006-08-30-gmi5-gmi-s-100-qld-at-twice-the-speed-of-qqqq.md))
+- [WW 2009-01-29 — gmi-1-gmi-r-4-t2108-61](../../raw/posts/2009-01-29-gmi-1-gmi-r-4-t2108-61.md) ([summary](../sources/2009-01-29-gmi-1-gmi-r-4-t2108-61.md))
+- [WW 2010-12-28 — qqqq-short-term-up-trend-reaches-25th-day](../../raw/posts/2010-12-28-qqqq-short-term-up-trend-reaches-25th-day.md) ([summary](../sources/2010-12-28-qqqq-short-term-up-trend-reaches-25th-day.md))
+- [WW 2017-08-19 — new-qqq-short-term-down-trend-in-cash-come-back-at-halloween](../../raw/posts/2017-08-19-new-qqq-short-term-down-trend-in-cash-come-back-at-halloween.md) ([summary](../sources/2017-08-19-new-qqq-short-term-down-trend-in-cash-come-back-at-halloween.md))
+- [WW 2021-12-21 — blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000](../../raw/posts/2021-12-21-blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000.md) ([summary](../sources/2021-12-21-blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000.md))
+- [WW 2021-03-20 — blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck](../../raw/posts/2021-03-20-blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck.md) ([summary](../sources/2021-03-20-blog-post-19th-day-of-qqq-short-term-down-trend-daily-bwr-down-trend-on-deck.md))

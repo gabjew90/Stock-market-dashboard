@@ -45,6 +45,7 @@ sources:
   - raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md
   - raw/posts/2020-11-29-sector-etfs-a-safer-way-for-boomers-to-invest-pbw-qcln-cnrg-pbd-smog-icln-lit-ipo-arkq-chiq-arkf-xbuy.md
   - raw/posts/2022-06-08-blog-post-day-2-of-qqq-short-term-up-trend-only-6-ibd-ms-stocks-passed-my-weekly-green-bar-scan-xom-cvx-lnth.md
+  - raw/posts/2021-12-21-blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000.md
 ---
 
 # The scans — how he finds candidates in TC2000 and IBD
@@ -217,6 +218,26 @@ Four months later he states the same scan as a two-step sequence and shows what 
 ## The first-day 100-day-high scan (2017)
 
 Two design choices make this one worth copying. The criteria: a **100-day high that was *not* also a 100-day high the prior day** ("I want a stock to be just breaking out"), up significantly from a year ago, on above-average volume — 19 hits on 2017-02-10. The timing: "**I like to run this scan during the last hour of the trading day** (I do not want a stock that breaks out early only to reverse by the end of the day)." Entry is an initial position with a sell stop below the day's low, and the framing is explicit — "I use the results of my scans as a *starting point* to identify strong stocks that I must then research." ([WW 2017-02-12](../../raw/posts/2017-02-12-new-tc2000-scan-finds-glb-and-possible-cup-with-handle-break-out-pjc-next-post-tuesday-night.md))
+
+## The near-ATH intraday scan (2021) — with the formula
+
+The 2018 condition set finds stocks *at* an all-time high during the session. This one finds stocks *near* one,
+and he gives the syntax ([WW 2021-12-21](../../raw/posts/2021-12-21-blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000.md)):
+
+> "I have a **simple formula I wrote for TC2000 that finds any stock that reaches an ATH in the past 100 days**
+> (use **price new high** built-in condition set to **250 month high within past 5 months**) **and that is
+> currently within 3% of its 100 day high (`C > .97*maxh100`). TC2000 scans my watchlist of IBD50/MarketSmith
+> stocks real time throughout the day.**"
+
+Two conditions doing different jobs. The built-in condition establishes the stock has been at a genuine
+**all-time** high recently — 250 months is roughly twenty years of history. The price test keeps it **near** that
+high *now*, which is the proximity filter that puts an entry close to its invalidation level. Together they
+produce the population the [GLB](glb-in-practice.md) and
+[Blue Dot](entry-signals.md#the-black-dot--oversold-bounce-signal-introduced-2021) setups are drawn from.
+
+**What stays manual:** "I then look at the stocks that come up and **look at the built-in volume buzz indicator
+to see if it has unusual volume for that time of day** and if I like the set-up. I then check out its
+fundamentals on MarketSmith." The scan produces a list; volume buzz and fundamentals are judged by hand.
 
 ## The intraday all-time-high condition set (2018)
 
@@ -411,3 +432,4 @@ It is also the one scan he declines to share: "**Please do not ask me to post my
 - [WW 2017-12-10 — When to sell - the 13 averages, the gray line, and a graded exit](../../raw/posts/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md) ([summary](../sources/2017-12-10-when-to-sell-signs-an-up-trend-is-weakening-sq-ipgp-but-spy-is-in-a-daily-rwb-up-trend.md))
 - [WW 2020-11-29 — sector-etfs-a-safer-way-for-boomers-to-invest-pbw-qcln-cnrg-pbd-smog-icln-lit-ipo-arkq-chiq-arkf-xbuy](../../raw/posts/2020-11-29-sector-etfs-a-safer-way-for-boomers-to-invest-pbw-qcln-cnrg-pbd-smog-icln-lit-ipo-arkq-chiq-arkf-xbuy.md) ([summary](../sources/2020-11-29-sector-etfs-a-safer-way-for-boomers-to-invest-pbw-qcln-cnrg-pbd-smog-icln-lit-ipo-arkq-chiq-arkf-xbuy.md))
 - [WW 2022-06-08 — blog-post-day-2-of-qqq-short-term-up-trend-only-6-ibd-ms-stocks-passed-my-weekly-green-bar-scan-xom-cvx-lnth](../../raw/posts/2022-06-08-blog-post-day-2-of-qqq-short-term-up-trend-only-6-ibd-ms-stocks-passed-my-weekly-green-bar-scan-xom-cvx-lnth.md) ([summary](../sources/2022-06-08-blog-post-day-2-of-qqq-short-term-up-trend-only-6-ibd-ms-stocks-passed-my-weekly-green-bar-scan-xom-cvx-lnth.md))
+- [WW 2021-12-21 — blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000](../../raw/posts/2021-12-21-blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000.md) ([summary](../sources/2021-12-21-blog-post-day-6-of-qqq-short-term-down-trend-on-monday-i-tweeted-that-vcra-had-retested-its-glb-see-my-tc2000.md))

@@ -68,6 +68,7 @@ sources:
   - raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md
   - raw/posts/2025-04-13-blog-post-day-34-of-qqq-short-term-down-trend-as-i-had-suggested-spy-closed-its-gap-on-weekly-chart-and-kisse.md
   - raw/posts/2024-02-27-blog-post-day-34-of-qqq-short-term-up-trend-anf-an-amazing-pattern-of-an-advancing-growth-stock-see-weekly-ch.md
+  - raw/posts/2025-12-07-blog-post-day-6-of-qqq-short-term-up-trend-gmi6-of-6-and-green-see-weekly-1030-chart-up-trend-is-intact-see-m.md
 ---
 
 # Moving-average rules
@@ -253,6 +254,13 @@ free chart program at **freestockcharts.com**. Just **add the moving averages, 4
 the week as your time period**." Three averages and a timeframe — with "the key bullish pattern of
 **4wk > 10wk > 30wk**" on top and the exit named as a price in advance: "a key sell signal for me will be a
 ***close* below the 10 week average**, currently at 56.83."
+
+**The two averages given distinct jobs, in one sentence (2025).** "**When the market closes (gray line) below its
+10 week average I become defensive. When it closes below its 30 week average I begin to exit.**"
+([WW 2025-12-07](../../raw/posts/2025-12-07-blog-post-day-6-of-qqq-short-term-up-trend-gmi6-of-6-and-green-see-weekly-1030-chart-up-trend-is-intact-see-m.md)) Two levels, two different responses — caution, then exit — the same graded structure as the
+[daily RWB exit](gmma-charts.md#the-daily-rwb-chart--a-finer-grained-tool) (red lines, then blue) one timeframe
+up. It also places the pension trigger precisely: the 30-week is where *exiting begins*, and the additional
+condition (the average turning down) governs how far it goes.
 
 ## The 4-week / 10-week / 30-week alignment — a weekly stock rule
 
@@ -487,3 +495,4 @@ to take no position **on either side** — the diagnosis is about the regime, no
 - [WW 2011-09-26 — Why QQQ and SPY diverge - a structural reason](../../raw/posts/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md) ([summary](../sources/2011-09-26-qqq-short-term-up-trend-completed-12th-day-gld-support-at-30-week-average.md))
 - [WW 2025-04-13 — blog-post-day-34-of-qqq-short-term-down-trend-as-i-had-suggested-spy-closed-its-gap-on-weekly-chart-and-kisse](../../raw/posts/2025-04-13-blog-post-day-34-of-qqq-short-term-down-trend-as-i-had-suggested-spy-closed-its-gap-on-weekly-chart-and-kisse.md) ([summary](../sources/2025-04-13-blog-post-day-34-of-qqq-short-term-down-trend-as-i-had-suggested-spy-closed-its-gap-on-weekly-chart-and-kisse.md))
 - [WW 2024-02-27 — blog-post-day-34-of-qqq-short-term-up-trend-anf-an-amazing-pattern-of-an-advancing-growth-stock-see-weekly-ch](../../raw/posts/2024-02-27-blog-post-day-34-of-qqq-short-term-up-trend-anf-an-amazing-pattern-of-an-advancing-growth-stock-see-weekly-ch.md) ([summary](../sources/2024-02-27-blog-post-day-34-of-qqq-short-term-up-trend-anf-an-amazing-pattern-of-an-advancing-growth-stock-see-weekly-ch.md))
+- [WW 2025-12-07 — blog-post-day-6-of-qqq-short-term-up-trend-gmi6-of-6-and-green-see-weekly-1030-chart-up-trend-is-intact-see-m](../../raw/posts/2025-12-07-blog-post-day-6-of-qqq-short-term-up-trend-gmi6-of-6-and-green-see-weekly-1030-chart-up-trend-is-intact-see-m.md) ([summary](../sources/2025-12-07-blog-post-day-6-of-qqq-short-term-up-trend-gmi6-of-6-and-green-see-weekly-1030-chart-up-trend-is-intact-see-m.md))

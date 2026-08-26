@@ -34,6 +34,9 @@ sources:
   - raw/posts/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md
   - raw/posts/2010-12-21-21st-day-of-qqq-short-term-up-trend-armh-cup-with-handle.md
   - raw/posts/2013-11-08-20th-day-of-qqq-short-term-up-trend-how-daily-macd-histogram-predicted-decline.md
+  - raw/posts/2025-12-10-blog-post-day-9-of-qqq-short-term-up-trend-jnj-had-a-blue-dot-of-happiness-setup-early-wednesday-i-tweeted-ab.md
+  - raw/posts/2013-11-18-27th-day-of-qqq-short-term-up-trend-bollinger-band-constrains-qqq.md
+  - raw/posts/2017-08-19-new-qqq-short-term-down-trend-in-cash-come-back-at-halloween.md
 ---
 
 # Entry signals — BOS, the dots, and the daily bounce setups
@@ -88,6 +91,16 @@ stocks having a **blue dot (daily 10.4 oversold stochastic climbing back above 2
 blue dot is the fast 10.4 stochastic crossing back *up through 20* — distinct from the green dot (a fast/slow
 crossover, preferably below 50) and from the black dot. The scan returned 79 names from his IBD/MarketSmith
 watchlist that day.
+
+**The "Blue Dot of Happiness" setup, and why he prefers it (2025).** The signal plus the context that makes it a
+setup: "**I look for a stock that recently traded at an ATH and then bounced from oversold. I like this setup
+because I know if the bounce fails I can exit immediately with a small loss.**" ([WW 2025-12-10](../../raw/posts/2025-12-10-blog-post-day-9-of-qqq-short-term-up-trend-jnj-had-a-blue-dot-of-happiness-setup-early-wednesday-i-tweeted-ab.md)) Leader status
+(recent ATH) plus proximity to support (the oversold bounce) — and the preference is argued from the **exit**
+rather than from the expected gain, which is how nearly every entry on this page is justified. One intraday
+caveat worth carrying: "**sometimes blue dots occur in the morning but the stock fails the setup by closing.**"
+The dot is defined on a daily close, so a morning crossing can un-cross by the bell — the same reason the
+[3:45 PM rule](scans.md#the-biotech-scan--volume-plus-news-catalyst) exists, applied to a signal rather than an
+order. Volume on the bounce day is the confirming statistic, as on a breakout.
 
 ## The dots in practice
 
@@ -169,6 +182,21 @@ histogram is momentum draining out of a move that still looks intact — informa
 TQQQ on it *before* the decline, on two oscillators agreeing (stochastics and the histogram), and published the
 reasoning in advance.
 
+**The bands as levels on an index ETF (2013).** Used to name prices in advance rather than to gauge volatility:
+"**I find that the 15 day 2 standard deviation Bollinger Bands are very useful for identifying short term support
+and resistance levels for the index ETFs**"; QQQ having failed at the upper band, "**I look for support at the
+lower band, around 81.77.**" ([WW 2013-11-18](../../raw/posts/2013-11-18-27th-day-of-qqq-short-term-up-trend-bollinger-band-constrains-qqq.md)) And the qualification that keeps the reversion expectation honest:
+"**a move outside the bottom band is often a sign that the index will reverse up. However, if the lower band is
+broken and st[ays]**" below it, the expectation fails. **A touch reverts; a decisive break does not** — which is
+the same distinction as the breakout exception on the upper band.
+
+**And the setup's hit rate in the wrong regime (2017).** The number the pattern literature never supplies,
+measured about his own primary bounce entry: with the GMI at 1 and six times more new lows than new highs, "**only
+8% of recent bounce on support set-ups working**." ([WW 2017-08-19](../../raw/posts/2017-08-19-new-qqq-short-term-down-trend-in-cash-come-back-at-halloween.md)) A 92% failure rate — and he tracks it as a
+*market* reading as much as a performance one: when setups stop working, that is evidence about the tape. It is
+the concrete form of the claim that
+[set-ups are regime-dependent](trading-philosophy.md#why-model-books-mislead--the-survivorship-critique).
+
 ## The moving-average setups
 
 ### x8/x21/30-day alignment: the daily bounce setup (introduced 2024)
@@ -239,3 +267,6 @@ it. The 2005 version leaves both to judgement.
 - [WW 2024-01-08 — blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings](../../raw/posts/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md) ([summary](../sources/2024-01-08-blog-post-day-2-of-the-new-qqq-short-term-down-trend-it-could-end-on-tuesday-as-we-enter-4th-quarter-earnings.md))
 - [WW 2010-12-21 — 21st-day-of-qqq-short-term-up-trend-armh-cup-with-handle](../../raw/posts/2010-12-21-21st-day-of-qqq-short-term-up-trend-armh-cup-with-handle.md) ([summary](../sources/2010-12-21-21st-day-of-qqq-short-term-up-trend-armh-cup-with-handle.md))
 - [WW 2013-11-08 — 20th-day-of-qqq-short-term-up-trend-how-daily-macd-histogram-predicted-decline](../../raw/posts/2013-11-08-20th-day-of-qqq-short-term-up-trend-how-daily-macd-histogram-predicted-decline.md) ([summary](../sources/2013-11-08-20th-day-of-qqq-short-term-up-trend-how-daily-macd-histogram-predicted-decline.md))
+- [WW 2025-12-10 — blog-post-day-9-of-qqq-short-term-up-trend-jnj-had-a-blue-dot-of-happiness-setup-early-wednesday-i-tweeted-ab](../../raw/posts/2025-12-10-blog-post-day-9-of-qqq-short-term-up-trend-jnj-had-a-blue-dot-of-happiness-setup-early-wednesday-i-tweeted-ab.md) ([summary](../sources/2025-12-10-blog-post-day-9-of-qqq-short-term-up-trend-jnj-had-a-blue-dot-of-happiness-setup-early-wednesday-i-tweeted-ab.md))
+- [WW 2013-11-18 — 27th-day-of-qqq-short-term-up-trend-bollinger-band-constrains-qqq](../../raw/posts/2013-11-18-27th-day-of-qqq-short-term-up-trend-bollinger-band-constrains-qqq.md) ([summary](../sources/2013-11-18-27th-day-of-qqq-short-term-up-trend-bollinger-band-constrains-qqq.md))
+- [WW 2017-08-19 — new-qqq-short-term-down-trend-in-cash-come-back-at-halloween](../../raw/posts/2017-08-19-new-qqq-short-term-down-trend-in-cash-come-back-at-halloween.md) ([summary](../sources/2017-08-19-new-qqq-short-term-down-trend-in-cash-come-back-at-halloween.md))
