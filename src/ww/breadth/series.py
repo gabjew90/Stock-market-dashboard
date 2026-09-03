@@ -178,8 +178,9 @@ def build_fund_proxy(
     if not ffty.empty and not basket_avg.empty:
         start = ffty.index.min()
         anchor = basket_avg.loc[basket_avg.index < start]
-        if not anchor.empty and not pd.isna(basket_avg.asof(start)):
-            factor = float(ffty.iloc[0]) / float(basket_avg.asof(start))   # rescale the basket so it joins FFTY continuously
+        anchor_level = float(basket_avg.asof(start)) if not pd.isna(basket_avg.asof(start)) else 0.0
+        if not anchor.empty and anchor_level > 0:
+            factor = float(ffty.iloc[0]) / anchor_level   # rescale the basket so it joins FFTY continuously
             pre = anchor * factor
             proxy = pd.concat([pre, ffty]).sort_index()
         else:

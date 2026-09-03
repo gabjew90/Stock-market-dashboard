@@ -1419,3 +1419,44 @@ the 30-day trend proxy: calibrated, not reproduced. Also, 253 of the 314 Stage-1
 
 `ww lint .` 0 errors; `pytest -q` 246 passed (9 new, including a base-vs-top disambiguation case
 and a test that `weekly_stage()` and `stage_series()` cannot disagree).
+
+## [2026-09-02] lint | end-to-end code review — 7 correctness bugs, two of which moved published numbers
+
+Reviewed `src/`, `scripts/`, `.github/`, `deploy/`, `web/` as a whole rather than as a diff. Seven
+findings, all fixed in this pass. None were in the day's changes; all were pre-existing.
+
+**Two changed results on this page.**
+1. **Transaction cost was charged twice per trade.** `engine.py` deducted a full
+   `cost_bps_round_trip` on *every* switch, so a complete enter-and-exit paid two round trips.
+   The drag arithmetic gave it away: ~168 deductions over the default run ≈ 0.43%/yr, matching the
+   9.6%-vs-10.1% gap between the 5bps and 0bps rows. Each switch is now charged half a round trip.
+   **Effect: CAGR 9.6% → 9.8%, Sharpe 0.77 → 0.79 — level with buy-and-hold QQQ — and the verdict
+   moved from "marginal" to "mixed".** The drawdown reduction (26% vs 53%) was never in doubt; what
+   changed is that the risk-adjusted return no longer trails. The CAGR gap is real and unchanged.
+2. **The leveraged variants ran a shorter period than the table claimed.** `prices[cols].dropna()`
+   intersects every requested ticker, so `GREEN->TQQQ` and `RED->SQQQ` start at TQQQ's 2010-02-11
+   inception (4,160 days) while the default starts 2007-01-03 (4,943) — under one shared "Period:
+   2007-01-01…" header. GREEN->TQQQ's 24.6% CAGR skips the 2008 crash entirely. The truncation is
+   correct (you cannot hold a fund before it exists); the silence was not. Each row now carries its
+   own span when it differs from the default, with a line saying why it is not comparable.
+
+**Three write-path guards** in `ww breadth update`, all the same family as the `_write_panel`
+bug fixed earlier in `fetch.py` — a degraded fetch destroying good stored data:
+- the tail merge was window-replacing (`old[old.date < cutoff]`), so any stored session the
+  recompute failed to produce was silently deleted. It is now additive: the recompute wins where it
+  has data, stored rows survive where it does not. Yesterday's `drop_degraded_tail` had made this
+  path reachable on any lagging-upstream day.
+- a merge that would shrink the series is refused outright, and the short-recompute branch can no
+  longer replace 4,657 rows with a handful.
+- **`fund_proxy.parquet` had no protection at all** — whatever `build_fund_proxy()` returned was
+  written, including an empty Series or the silent VUG fallback, and CI never inspects that file.
+  An empty proxy makes GMI component 6 read False for *every* date, capping the score at 5 and
+  flipping the gate RED on a data outage. Empty or badly-truncated proxies are now rejected.
+
+**Two small ones:** the FFTY splice factor divided by a basket level guarded against NaN but not
+zero; `_long_runs` read `s.index[0]` before checking for an empty window.
+
+273 passed (+5 new write-guard tests, +2 cost/period tests), `ww lint .` 0 errors. Coverage was not
+uniform: `backtest/`, `breadth/`, `indicators/` and the breadth CLI paths were read closely; the
+~1,200 lines of chart JS in `build_market_regime.py`, `web/pulse.html`, `build_wiki_html.py` and the
+corpus/search modules were not, so a clean bill on those is not implied.

@@ -85,17 +85,47 @@ def breadth_update(
     for d in degraded:
         typer.echo(f"skipping {d}: universe coverage collapsed vs the preceding sessions "
                    "(upstream has probably not published it yet)")
-    if (bdir / "breadth_series.parquet").exists() and len(full) > tail_days:
-        old = pd.read_parquet(bdir / "breadth_series.parquet")
-        cutoff = full["date"].iloc[-tail_days]
-        merged = pd.concat([old[old["date"] < cutoff], full[full["date"] >= cutoff]]).drop_duplicates(subset="date", keep="last").sort_values("date")
-        merged.to_parquet(bdir / "breadth_series.parquet", index=False)
+    series_path = bdir / "breadth_series.parquet"
+    if series_path.exists():
+        old = pd.read_parquet(series_path)
+        old["date"] = pd.to_datetime(old["date"])
+        # Additive merge. The recompute wins for every date it produces, but a date already stored
+        # that it does NOT produce is kept, not deleted. The old window-replacing form
+        # (`old[old.date < cutoff]` + `full[full.date >= cutoff]`) silently dropped any stored
+        # session missing from a degraded recompute - the same destructive-overwrite shape as the
+        # `_write_panel` keep="last" bug already fixed in fetch.py.
+        merged = (pd.concat([old, full])
+                    .drop_duplicates(subset="date", keep="last")
+                    .sort_values("date")
+                    .reset_index(drop=True))
+        if len(merged) < len(old):
+            typer.echo(f"refusing to write: merge would shrink breadth_series from {len(old)} to "
+                       f"{len(merged)} rows; keeping the existing file")
+            merged = old
+        else:
+            merged.to_parquet(series_path, index=False)
         rows = len(merged)
     else:
-        full.to_parquet(bdir / "breadth_series.parquet", index=False)
+        full.to_parquet(series_path, index=False)
         rows = len(full)
+
+    # The fund proxy (GMI component 6) had no protection at all: whatever build_fund_proxy()
+    # returned was written, including an empty Series or the silent VUG fallback. An empty proxy
+    # makes component 6 read False for every date, capping the GMI at 5 and flipping the gate RED.
+    proxy_path = bdir / "fund_proxy.parquet"
     proxy = build_fund_proxy()
-    proxy.to_frame().reset_index().to_parquet(bdir / "fund_proxy.parquet", index=False)
+    if proxy.empty:
+        typer.echo("fund proxy came back empty; keeping the existing fund_proxy.parquet")
+    else:
+        new_proxy = proxy.to_frame().reset_index()
+        if proxy_path.exists():
+            old_proxy = pd.read_parquet(proxy_path)
+            if len(new_proxy) < 0.9 * len(old_proxy):
+                typer.echo(f"fund proxy shrank from {len(old_proxy)} to {len(new_proxy)} rows "
+                           "(degraded fetch or a fallback ticker); keeping the existing file")
+                new_proxy = None
+        if new_proxy is not None:
+            new_proxy.to_parquet(proxy_path, index=False)
     typer.echo(f"updated {n} ticker panels; breadth_series now {rows} rows (recomputed last {min(tail_days, rows)})")
 
 

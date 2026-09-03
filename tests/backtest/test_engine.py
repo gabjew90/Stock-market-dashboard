@@ -31,11 +31,35 @@ def test_cash_when_red_earns_zero():
     assert abs(r.equity.iloc[-1] - 1.0) < 1e-12                     # cash all the way
 
 
-def test_switch_cost_deducted_once_per_switch():
-    px = _prices({"QQQ": [100.0, 100.0, 100.0, 100.0, 100.0]})       # flat prices -> only cost moves the curve
-    sig = pd.Series([True, True, False, False, True], index=px.index)  # held_long = sig.shift(1) = [F,T,T,F,F]... switches at: day1 (F->T), day3 (T->F). 2 switches. day4 held_long = sig[3]=False... wait sig=[T,T,F,F,T] -> shift1 = [NaN,T,T,F,F] -> as bool [F,T,T,F,F]. switches: day1 F->T, day3 T->F. So 2 switches, each costs `cost_bps_round_trip/1e4`.
-    r = run_backtest(sig, px, long_etf="QQQ", red_etf=None, cost_bps_round_trip=10.0)  # 10 bps per switch
-    assert abs(r.equity.iloc[-1] - (1 - 10e-4) ** 2) < 1e-9
+def test_a_complete_trade_costs_exactly_one_round_trip():
+    """`cost_bps_round_trip` is the cost of a COMPLETE buy-and-sell, so each switch is charged
+    half of it. Charging the full amount per switch (the behaviour until 2026-09-02) billed two
+    round trips per trade and doubled the modelled drag."""
+    px = _prices({"QQQ": [100.0] * 5})                                # flat prices -> only cost moves the curve
+    sig = pd.Series([True, True, False, False, True], index=px.index)  # held_long = [F,T,T,F,F]: 2 switches
+    r = run_backtest(sig, px, long_etf="QQQ", red_etf=None, cost_bps_round_trip=10.0)
+    # enter + exit = one complete round trip = 10 bps total, charged as 5 bps twice.
+    assert abs(r.equity.iloc[-1] - (1 - 5e-4) ** 2) < 1e-9
+    assert abs(r.equity.iloc[-1] - (1 - 10e-4)) < 1e-6, "a full enter-and-exit must cost one round trip"
+
+
+def test_an_unclosed_position_pays_only_the_entry_leg():
+    px = _prices({"QQQ": [100.0] * 4})
+    sig = pd.Series([True, True, True, True], index=px.index)          # held_long = [F,T,T,T]: one switch
+    r = run_backtest(sig, px, long_etf="QQQ", red_etf=None, cost_bps_round_trip=10.0)
+    assert abs(r.equity.iloc[-1] - (1 - 5e-4)) < 1e-9
+
+
+def test_result_records_the_window_it_actually_ran_over():
+    """A variant naming a leveraged ETF cannot start before that fund existed, so the span it
+    really covered has to be reported or the grid silently compares different periods."""
+    px = _prices({"QQQ": [100.0] * 5, "TQQQ": [float("nan"), float("nan"), 10.0, 11.0, 12.0]})
+    sig = pd.Series(True, index=px.index)
+    r_qqq = run_backtest(sig, px, long_etf="QQQ", cost_bps_round_trip=0.0)
+    r_lev = run_backtest(sig, px, long_etf="TQQQ", cost_bps_round_trip=0.0)
+    assert r_qqq.params["n_days"] == 5
+    assert r_lev.params["n_days"] == 3, "the leveraged run must not claim days before inception"
+    assert r_lev.params["actual_start"] > r_qqq.params["actual_start"]
 
 
 def test_no_look_ahead():

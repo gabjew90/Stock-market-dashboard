@@ -51,6 +51,8 @@ def _long_runs(held_long: pd.Series) -> list[tuple[pd.Timestamp, pd.Timestamp]]:
     """Contiguous runs where held_long is True -> [(start, end), ...]."""
     s = held_long.fillna(False).astype(bool)
     runs, in_run, start = [], False, None
+    if s.empty:                      # an empty window has no runs; s.index[0] would raise
+        return runs
     prev = s.index[0]
     for ts, v in s.items():
         if v and not in_run:

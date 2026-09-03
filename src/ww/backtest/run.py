@@ -28,6 +28,11 @@ def _one_run(root, prices, *, start, end, cfg) -> dict:
     res = run_backtest(sig, prices, long_etf=cfg["long_etf"], red_etf=cfg["red_etf"], cost_bps_round_trip=cfg["cost_bps"],
                        start=start, end=end)
     m = performance(res.equity, signal=res.signal, trades=res.trades)
+    # The window a variant actually ran over. A variant naming TQQQ/SQQQ starts in 2010 (inception) while a
+    # QQQ-only run starts in 2007, so without this the grid silently compares different periods - and the
+    # leveraged rows look best precisely because they skip 2008.
+    m["actual_start"] = res.params.get("actual_start")
+    m["actual_end"] = res.params.get("actual_end")
     cov = gmi.attrs.get("reported_coverage", None)
     return {"result": res, "metrics": m, "cfg": cfg, "reported_coverage": cov}
 
@@ -102,12 +107,19 @@ def run_timing_overlay(root: Path, *, prices: pd.DataFrame, start: str | None, e
             "reported_coverage": default.get("reported_coverage")}
 
 
-def _fmt(m: dict) -> str:
-    return (f"CAGR {m.get('cagr',0):.1%} · maxDD {m.get('max_drawdown',0):.1%} · Sharpe {m.get('sharpe',0):.2f} · "
-            f"Sortino {m.get('sortino',0):.2f} · Calmar {m.get('calmar',0):.2f}"
-            + (f" · in-mkt {m['time_in_market']:.0%}" if 'time_in_market' in m else "")
-            + (f" · {m['n_long_trades']} trades" if 'n_long_trades' in m else "")
-            + (f" · win {m['win_rate']:.0%}" if 'win_rate' in m else ""))
+def _fmt(m: dict, *, default_span: tuple | None = None) -> str:
+    """One-line metric summary. If `default_span` is given and this row ran over a different window,
+    the span is appended - a variant that skipped 2008 must not read as comparable to one that did not."""
+    s = (f"CAGR {m['cagr']:.1%} · maxDD {m['max_drawdown']:.1%} · Sharpe {m['sharpe']:.2f}"
+         + (f" · Sortino {m['sortino']:.2f}" if 'sortino' in m else "")
+         + (f" · Calmar {m['calmar']:.2f}" if 'calmar' in m else "")
+         + (f" · in-mkt {m['time_in_market']:.0%}" if 'time_in_market' in m else "")
+         + (f" · {m['n_long_trades']} trades" if 'n_long_trades' in m else "")
+         + (f" · win {m['win_rate']:.0%}" if 'win_rate' in m else ""))
+    span = (m.get("actual_start"), m.get("actual_end"))
+    if default_span and span[0] and span != default_span:
+        s += f" · **{span[0]} → {span[1]}**"
+    return s
 
 
 SENTINEL = "<!-- hand-written below this line; the generator preserves everything after it -->"
@@ -162,12 +174,14 @@ def write_wiki_page(root: Path, results: dict, *, plot_url: str | None, period: 
                  "is his hold state and does not flip the signal -- see "
                  "[the signals](gmi.md#the-signals--buy-sell-and-the-hold-state-at-3). Signals on the close of "
                  "day D, executed at the next day's open (modelled as a 1-day lag, close-to-close). Cost: 5 bps per round trip; no "
-                 "tax (an IRA). Period: " + f"{period[0]}-{period[1]}" + ". Benchmark: buy-and-hold QQQ. "
+                 "tax (an IRA); a complete buy-and-sell is charged one round trip, half on each switch. Period: "
+                 + f"{period[0]}-{period[1]}" + ". Benchmark: buy-and-hold QQQ. "
                  "**Verdict criteria, fixed in advance:** \"adds value\" iff the default beats B&H QQQ on Sharpe *and* has <= 0.7x its "
                  "max drawdown *and* the conclusion is robust across the variant grid; \"marginal\" if it cuts drawdown at a Sharpe/CAGR "
                  "cost; \"drag\" if it underperforms on Sharpe and doesn't cut drawdown. (Caveat: the reconstructed GMI reads optimistic "
                  "in declines -- ~78% GREEN/RED agreement with his reported GMI -- so this likely *understates* how defensive he actually was; "
                  "see the breadth-data design spec.)\n")
+    dspan = (d.get("actual_start"), d.get("actual_end"))
     lines.append(f"## Headline result\n\n- **Strategy:** {_fmt(d)}\n- **Buy-and-hold QQQ:** {_fmt(b)}\n- "
                  f"**Buy-and-hold SPY:** {_fmt(results['benchmarks']['buy_hold_spy'])}\n- "
                  f"**Plain 'QQQ > rising 30-week SMA' filter:** {_fmt(results['benchmarks']['qqq_30wk_filter'])}\n\n"
@@ -182,7 +196,10 @@ def write_wiki_page(root: Path, results: dict, *, plot_url: str | None, period: 
     lines.append("\n## Robustness grid\n\nEach row varies one dimension vs the default. **Picking the best-looking variant after the "
                  "fact would be data snooping** -- the headline is the default, full-period, no tuning.\n\n| variant | result |\n|---|---|\n"
                  + f"| **default (GMI>=4 in, below 3 out, 2/2 confirm, 5 bps)** | {_fmt(d)} |\n"
-                 + "\n".join(f"| {g['label']} | {_fmt(g['metrics'])} |" for g in results["grid"]) + "\n")
+                 + "\n".join(f"| {g['label']} | {_fmt(g['metrics'], default_span=dspan)} |" for g in results["grid"])
+                 + "\n\nA row carrying its own date span ran over a **different window** than the default: a variant "
+                   "naming TQQQ or SQQQ cannot begin before that fund existed (2010-02-11), so it skips the 2008 "
+                   "crash and its CAGR and drawdown are not comparable to the rows above it.\n")
     lines.append("\n## When did it help / hurt? (rolling 5-year strategy-CAGR minus QQQ-CAGR)\n\n"
                  + (("| 5y ending | excess CAGR |\n|---|---|\n" + "\n".join(
                      f"| {ts.date()} | {v:+.1%} |" for ts, v in rex.iloc[::126].items())) if len(rex) else "_(period too short for a 5-year window)_") + "\n")

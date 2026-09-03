@@ -1,6 +1,10 @@
 """A minimal daily long/cash backtest simulator. The position held DURING day t is the GREEN signal as of t-1
-(the standard 1-day-lag execution model — realistic 'trade at next open' simplified to close-to-close), with the
-round-trip cost deducted on the day a switch takes effect. No look-ahead, by construction."""
+(the standard 1-day-lag execution model — realistic 'trade at next open' simplified to close-to-close). No
+look-ahead, by construction.
+
+Cost model: `cost_bps_round_trip` is the cost of a COMPLETE round trip (buy then sell), so each individual
+switch is charged half of it. Charging the full amount per switch — as this did until 2026-09-02 — bills two
+round-trips for every complete trade and doubles the modelled drag."""
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -33,6 +37,10 @@ def run_backtest(
     """`prices` = wide close-price DataFrame (must contain `long_etf`, and `red_etf` if given). `signal` = daily bool
     (True => be long the long_etf). Returns a BacktestResult. Cash (red_etf=None) earns 0%."""
     cols = [long_etf] + ([red_etf] if red_etf else [])
+    # dropna across every requested column: you cannot hold TQQQ before it existed, so a variant naming a
+    # leveraged ETF genuinely runs over a shorter window than a QQQ-only one. That is correct, but it makes
+    # variants non-comparable, so the actual span is recorded in `params` and reported alongside the metrics
+    # rather than being left to the reader to infer.
     px = prices[cols].copy().dropna()
     idx = px.index
     if start:
@@ -50,9 +58,10 @@ def run_backtest(
 
     switched = held_long.ne(held_long.shift(1))
     switched.iloc[0] = False                                     # day 0 has no prior state to switch from in-period
-    # a switch = sell old + buy new = one round-trip's worth of cost
+    # A switch is one LEG of a round trip (sell what you held, buy the other side); a complete trade is two
+    # switches. Charge half the round-trip per switch so a full enter-and-exit costs exactly one round trip.
     cost = pd.Series(0.0, index=idx)
-    cost.loc[switched] = cost_bps_round_trip / 1e4
+    cost.loc[switched] = (cost_bps_round_trip / 2.0) / 1e4
     net_ret = strat_ret - cost
     equity = (1.0 + net_ret).cumprod()
 
@@ -84,4 +93,7 @@ def run_backtest(
 
     return BacktestResult(equity=equity, daily_return=net_ret, signal=sig, trades=trades,
                           long_etf=long_etf, red_etf=red_etf, cost_bps_round_trip=cost_bps_round_trip,
-                          params={"start": start, "end": end})
+                          params={"start": start, "end": end,
+                                  "actual_start": (idx[0].date().isoformat() if len(idx) else None),
+                                  "actual_end": (idx[-1].date().isoformat() if len(idx) else None),
+                                  "n_days": int(len(idx))})
