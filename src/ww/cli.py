@@ -9,7 +9,7 @@ import typer
 import yaml
 
 from ww.breadth.fetch import fetch_panel, update_panel
-from ww.breadth.series import build_fund_proxy, compute_breadth_series
+from ww.breadth.series import build_fund_proxy, compute_breadth_series, drop_degraded_tail
 from ww.breadth.symbols import build_universe, download_symbol_files
 from ww.breadth.validate import validate_against_reported
 from ww.corpus.index import read_posts_jsonl, update_records
@@ -78,6 +78,13 @@ def breadth_update(
     uni = pd.read_parquet(bdir / "universe.parquet")
     n = update_panel(uni, bdir / "panel")
     full = compute_breadth_series(bdir / "panel", uni)
+    # If the feed has not published the latest session yet, a few stray tickers still
+    # report a bar for it and the row is computed over a fraction of the universe. Drop
+    # it rather than appending it: no new data is a no-op, not a broken series.
+    full, degraded = drop_degraded_tail(full)
+    for d in degraded:
+        typer.echo(f"skipping {d}: universe coverage collapsed vs the preceding sessions "
+                   "(upstream has probably not published it yet)")
     if (bdir / "breadth_series.parquet").exists() and len(full) > tail_days:
         old = pd.read_parquet(bdir / "breadth_series.parquet")
         cutoff = full["date"].iloc[-tail_days]

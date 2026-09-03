@@ -198,3 +198,54 @@ def build_fund_proxy(
     proxy.name = "fund_proxy"
     proxy.index.name = "date"
     return proxy
+
+
+# --- degraded-tail guard -----------------------------------------------------------
+# When the upstream feed has not published a session yet, a handful of stray tickers
+# still report a bar for it. The result is a row computed over a fraction of the
+# universe: on 2026-09-02, n_nyse came back as 283 against a normal ~1,920, and T2108
+# read 39% off 15% of the market. Appending that row turned an upstream lag into a
+# failed deploy and a stale site, when the right answer is "no new data today".
+#
+# The test is RELATIVE (against the preceding days) and applies ONLY to trailing rows.
+# An absolute floor would be wrong: the reconstructed universe legitimately grows over
+# time - the 2008 rows sit near 900 - so a fixed threshold flags real history as broken.
+_DEGRADED_FRAC = 0.60      # a session covering < 60% of the recent norm is not usable
+_DEGRADED_LOOKBACK = 20    # compare against the median of this many preceding sessions
+_DEGRADED_MAX_DROP = 5     # never strip more than this, whatever happens
+
+
+def drop_degraded_tail(
+    series: pd.DataFrame,
+    *,
+    coverage_col: str = "n_broad",
+    frac: float = _DEGRADED_FRAC,
+    lookback: int = _DEGRADED_LOOKBACK,
+    max_drop: int = _DEGRADED_MAX_DROP,
+) -> tuple[pd.DataFrame, list[str]]:
+    """Drop trailing sessions whose universe coverage collapsed against the preceding norm.
+
+    Returns `(kept, dropped_dates)`. Walks backwards from the last row and stops at the
+    first healthy session, so it can only ever remove from the end - it will not touch
+    history, and it will not remove more than `max_drop` rows.
+    """
+    if series.empty or coverage_col not in series.columns:
+        return series, []
+    df = series.sort_values("date").reset_index(drop=True)
+    cov = df[coverage_col].astype(float)
+    last_good = len(df)
+    for _ in range(max_drop):
+        i = last_good - 1
+        if i <= 0:
+            break
+        window = cov.iloc[max(0, i - lookback):i]
+        if window.empty:
+            break
+        norm = float(window.median())
+        if norm <= 0 or cov.iloc[i] >= frac * norm:
+            break                                   # healthy - stop, keep everything below
+        last_good = i
+    if last_good == len(df):
+        return df, []
+    dropped = [str(pd.Timestamp(d).date()) for d in df["date"].iloc[last_good:]]
+    return df.iloc[:last_good].reset_index(drop=True), dropped
